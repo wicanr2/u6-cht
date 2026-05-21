@@ -18,22 +18,22 @@
   },
   {
    "hash": "42328b848d3275de",
-   "zh": "「吾名夏綠蒂·@織女，$G。」",
+   "zh": "「吾名夏綠蒂·@Weaver（織女），$G。」",
    "note": "@Weaver keyword"
   },
   {
    "hash": "8ccab1b8899d4250",
-   "zh": "「吾不過是個謙遜的@織工，$G。」",
+   "zh": "「吾不過是個謙遜的@weaver（織工），$G。」",
    "note": "@weaver keyword"
   },
   {
    "hash": "e90a614a3c4022a4",
-   "zh": "「吾將@羊毛織成布匹。」",
+   "zh": "「吾將@wool（羊毛）織成布匹。」",
    "note": "@wool keyword"
   },
   {
    "hash": "0ad7ebfbfa50ae4a",
-   "zh": "「吾技藝不精，但有些人憐憫吾，仍願買吾的@布匹。」",
+   "zh": "「吾技藝不精，但有些人憐憫吾，仍願買吾的@cloth（布匹）。」",
    "note": "@cloth keyword；謙遜自嘲"
   },
   {
@@ -228,17 +228,17 @@
   },
   {
    "hash": "58831a1f3b1a2fba",
-   "zh": "「將布匹帶去找@瑪麗莎。也許她能為汝縫製一個袋子。」",
+   "zh": "「將布匹帶去找@Marissa（瑪麗）莎。也許她能為汝縫製一個袋子。」",
    "note": "@Marissa keyword；plan/ball/bag response"
   },
   {
    "hash": "6ddc7e26c5bb27df",
-   "zh": "「吾可為汝將那@絲線織成布匹……然後汝應去找@瑪麗莎談談。」",
+   "zh": "「吾可為汝將那@silk（絲線）織成布匹……然後汝應去找@Marissa（瑪麗）莎談談。」",
    "note": "@silk @Marissa keywords"
   },
   {
    "hash": "7306a016cff435af",
-   "zh": "「若汝有些@絲線，吾便能相助。去問問@阿伯斯他是否有多餘的。」",
+   "zh": "「若汝有些@silk（絲線），吾便能相助。去問問@Arbeth（阿伯）斯他是否有多餘的。」",
    "note": "@silk @Arbeth keywords"
   }
  ],
