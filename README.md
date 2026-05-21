@@ -304,7 +304,10 @@ Ultima VI 用古英文 (Early Modern English) 模仿莎士比亞時期語感：*
 | `ConvFont` | NewUI ConverseGump 變寬字體 | `engines/ultima/nuvie/fonts/conv_font.{cpp,h}` |
 | `WOUFont` | cutscene / intro 字體 | `engines/ultima/nuvie/fonts/wou_font.{cpp,h}` |
 
-字型檔：`big5_u6_12x12.fnt` (WenQuanYi Zen Hei Sharp 12px)，自動從 gamedir 載入。
+字型檔：`big5_u6_12x12.fnt`（v1.0：**AR PL UMing 11px embedded bitmap**；v0.x 為 WenQuanYi Zen Hei Sharp 12px，現可選），自動從 gamedir 載入。
+
+字型檔名保留 12x12 是為了 engine 相容性；內容已縮小為 11px（user feedback：12px 太大）。
+產生器 `tools/build-big5-font.py` 支援 `--font {uming,wqy-sharp} --size N`，沒有 args 時走 UMing 11px。
 
 ### Load-time 字串替換 (Plan B)
 
