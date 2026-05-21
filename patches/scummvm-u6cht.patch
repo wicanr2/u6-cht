@@ -900,7 +900,7 @@ index cab5034a..da45965f 100644
  
  } // End of namespace Nuvie
 diff --git a/engines/ultima/nuvie/gui/widgets/msg_scroll.cpp b/engines/ultima/nuvie/gui/widgets/msg_scroll.cpp
-index ba7134a2..1974171b 100644
+index ba7134a2..1afd4c0c 100644
 --- a/engines/ultima/nuvie/gui/widgets/msg_scroll.cpp
 +++ b/engines/ultima/nuvie/gui/widgets/msg_scroll.cpp
 @@ -23,6 +23,7 @@
@@ -975,6 +975,20 @@ index ba7134a2..1974171b 100644
  
  	if (i > 0) {
  		token = new MsgText(input->s.substr(0, i), font); // FIX maybe a format flag. // input->font);
+@@ -966,11 +991,11 @@ void MsgScroll::Display(bool full_redraw) {
+ 		} else
+ 			cursor_x = area.left;
+ 	} else {
+-		clearCursor(area.left + 8 * cursor_x, area.top + cursor_y * 8);
++		clearCursor(area.left + 8 * cursor_x, area.top + cursor_y * 10);
+ 	}
+ 
+ 	if (show_cursor && (msg_buf.size() <= scroll_height || display_pos == msg_buf.size() - scroll_height)) {
+-		drawCursor(area.left + left_margin + 8 * cursor_x, area.top + cursor_y * 8);
++		drawCursor(area.left + left_margin + 8 * cursor_x, area.top + cursor_y * 10);
+ 	}
+ 
+ }
 @@ -979,7 +1004,10 @@ inline void MsgScroll::drawLine(Screen *theScreen, MsgLine *msg_line, uint16 lin
  	uint16 total_length = 0;
  

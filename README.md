@@ -4,17 +4,17 @@
 
 ## 實機截圖
 
-| Look 地板 | Look 牆 | Look 階梯 |
+| Look 地板 | Look 牆 | Look 地毯 |
 |---|---|---|
-| ![floor](docs/screenshots/04_look_floor.png) | ![wall](docs/screenshots/05_look_wall.png) | ![steps](docs/screenshots/06_look_steps.png) |
+| ![floor](docs/screenshots/01_look_floor.png) | ![wall](docs/screenshots/02_look_wall.png) | ![carpet](docs/screenshots/03_look_carpet.png) |
 
-| Game Loaded | 戰鬥訊息 | 攻擊對象 |
+| 戰鬥訊息 | 攻擊對象 | 對話-無對象 |
 |---|---|---|
-| ![loaded](docs/screenshots/03_game_loaded_zh.png) | ![combat](docs/screenshots/07_combat_zh.png) | ![attack](docs/screenshots/08_attack_zh.png) |
+| ![combat](docs/screenshots/04_combat.png) | ![attack](docs/screenshots/05_attack.png) | ![talk](docs/screenshots/06_talk_nothing.png) |
 
-| 對話-無對象 | LB 對話 | 開場 cutscene |
-|---|---|---|
-| ![talk](docs/screenshots/09_talk_nothing.png) | ![lb](docs/screenshots/10_lb_dialog.png) | ![intro](docs/screenshots/02_intro.png) |
+| LB Quiz 答對 | LB 對話 |
+|---|---|
+| ![quiz](docs/screenshots/07_lb_quiz_correct.png) | ![lb](docs/screenshots/08_lb_dialog.png) |
 
 ## 專案概覽
 
