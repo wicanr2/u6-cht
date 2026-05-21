@@ -73,6 +73,18 @@
   { "en": "a carefree fellow in a ludicrous costume.",              "zh": "一名穿戴荒誕戲服之無慮之徒。" },
   { "en": " a carefree fellow in a ludicrous costume",              "zh": "一名穿戴荒誕戲服之無慮之徒" },
   { "en": "carefree fellow in a ludicrous costume",                 "zh": "穿戴荒誕戲服之無慮之徒" },
+
+  { "en": "...but you have no place to go.",                        "zh": "……然汝無處可逃。" },
+  { "en": "...but you have no place to go",                         "zh": "……然汝無處可逃" },
+  { "en": "but you have no place to go.",                           "zh": "然汝無處可逃。" },
+  { "en": "Run, you must run!",                                     "zh": "快逃！汝必須逃！" },
+  { "en": "Run, you must run",                                      "zh": "快逃！汝必須逃" },
+  { "en": "Gargoyles!",                                             "zh": "魔像族！" },
+  { "en": "Gargoyles surround you!",                                "zh": "魔像族將汝團團圍住！" },
+  { "en": "Suddenly, gargoyles surround you!",                      "zh": "突然，魔像族將汝團團圍住！" },
+  { "en": "Suddenly, gargoyles surround you.",                      "zh": "突然，魔像族將汝團團圍住。" },
+  { "en": "They drag you to an altar.",                             "zh": "彼等將汝拖向祭壇。" },
+  { "en": "You are to be sacrificed!",                              "zh": "汝將被獻祭！" },
   { "en": "Then you can come and go as you please",                "zh": "如此汝便可自由進出" },
   { "en": "The same key will also let you into the sewers under the castle", "zh": "此鑰亦可通往城堡下方的下水道" },
 
