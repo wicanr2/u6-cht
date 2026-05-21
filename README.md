@@ -1,6 +1,10 @@
 # Ultima VI 繁體中文化專案
 
-![title](docs/screenshots/01_title.png)
+> *Ultima VI: The False Prophet* (1990 Origin Systems) 完整繁體中文化
+> 199 NPC + BOOK.DAT + 開場 cinematic 全翻譯 ✦ ScummVM Nuvie engine ✦ AR PL UMing 11px Big5 字型
+
+![title](docs/screenshots/11_intro_caption1.png)
+*汝之世界已歷五載春秋，自汝凱旋歸自不列顛尼亞 — Ultima VI 開場字幕 v1.3.1*
 
 ## 實機截圖
 
