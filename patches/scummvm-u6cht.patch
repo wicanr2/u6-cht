@@ -50,7 +50,7 @@ index 2cb07976..fa786e92 100644
  
  } // End of namespace Nuvie
 diff --git a/engines/ultima/nuvie/core/converse.cpp b/engines/ultima/nuvie/core/converse.cpp
-index 3d68353d..5f936a23 100644
+index 3d68353d..4871a77a 100644
 --- a/engines/ultima/nuvie/core/converse.cpp
 +++ b/engines/ultima/nuvie/core/converse.cpp
 @@ -23,6 +23,7 @@
@@ -79,6 +79,21 @@ index 3d68353d..5f936a23 100644
  }
  
  void Converse::print_prompt() {
+@@ -541,7 +546,13 @@ bool Converse::override_input() {
+ 	bool overide_cheat = Game::get_game()->are_cheats_enabled() && party_all_the_time;
+ 	if (in_str.empty())
+ 		in_str = "bye";
+-	else if (in_str == "look") {
++	else if (in_str == "?" || in_str == "help" || in_str == "說明") {
++		// CHT: magic help command — show common keyword hints + remind player to consult cheatsheet
++		print("提示：可問 ");
++		print("name (姓名) / job (職業) / bye (再會). 部分 NPC 接受 virtue / mantra / rune / shrine / gargoyle / codex 等. 完整列表見 docs/npc_keywords.md.\n");
++		script->seek(script->pos() - 1); // back to ASK command
++		return true;
++	} else if (in_str == "look") {
+ 		print("You see ");
+ 		print(_desc.c_str());
+ 		script->seek(script->pos() - 1); // back to ASK command
 diff --git a/engines/ultima/nuvie/core/converse_interpret.cpp b/engines/ultima/nuvie/core/converse_interpret.cpp
 index 3c7f8a1d..5e03b176 100644
 --- a/engines/ultima/nuvie/core/converse_interpret.cpp
