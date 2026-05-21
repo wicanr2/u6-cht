@@ -61,3 +61,4 @@ __pycache__/
 
 # --- 大型截圖（只留 docs/screenshots/） ---
 /tmp/u6_*.png
+releases/
