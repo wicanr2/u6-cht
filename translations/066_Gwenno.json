@@ -39,7 +39,7 @@
    "offset": 260,
    "len": 115,
    "en": "\"These days I've been transcribing the folk @songs of Britannia into numerical @notation for the artisan's @guild.\"",
-   "zh": "「近來吾一直在為工匠@songs（公會），將不列顛尼亞的民間@notation（歌謠）轉錄成數字@guild（公會）法。」",
+   "zh": "「近來吾一直在為工匠@songs（歌謠），將不列顛尼亞的民間@notation（記譜法）轉錄成數字@guild（公會）。」",
    "note": ""
   },
   {
@@ -123,7 +123,7 @@
    "offset": 1259,
    "len": 57,
    "en": "\"A number for every @note, and a note for every @number.\"",
-   "zh": "「每個@note（音符）對應一個數字，每個數字對應一個@number（音符）。」",
+   "zh": "「每個@note（音符）對應一個數字，每個數字對應一個@number（數字）。」",
    "note": "numerical notation explanation"
   },
   {

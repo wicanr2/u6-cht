@@ -24,7 +24,7 @@
   },
   {
    "hash": "5c011085fa737081",
-   "zh": "「近來吾一直在為工匠@songs（公會），將不列顛尼亞的民間@notation（歌謠）轉錄成數字@guild（公會）法。」"
+   "zh": "「近來吾一直在為工匠@songs（歌謠），將不列顛尼亞的民間@notation（記譜法）轉錄成數字@guild（公會）。」"
   },
   {
    "hash": "15bf157cbc95eaaa",
@@ -75,7 +75,7 @@
   },
   {
    "hash": "a8b84f1c9a196c62",
-   "zh": "「每個@note（音符）對應一個數字，每個數字對應一個@number（音符）。」",
+   "zh": "「每個@note（音符）對應一個數字，每個數字對應一個@number（數字）。」",
    "note": "numerical notation explanation"
   },
   {
