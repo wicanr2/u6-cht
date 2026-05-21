@@ -202,6 +202,10 @@
    "zh": "毫無動靜"
   },
   {
+   "en": "-Only in the wilderness!",
+   "zh": "-唯能於野外為之！"
+  },
+  {
    "en": "Only in the wilderness!",
    "zh": "唯能於野外為之！"
   },
@@ -232,6 +236,10 @@
   {
    "en": "Rest-",
    "zh": "休息-"
+  },
+  {
+   "en": "Rest",
+   "zh": "休息"
   },
   {
    "en": "a carefree fellow in a ludicrous costume",
@@ -338,6 +346,10 @@
    "zh": "一張床"
   },
   {
+   "en": "a chest of drawers",
+   "zh": "一個五斗櫃"
+  },
+  {
    "en": "a chest",
    "zh": "一個寶箱"
   },
@@ -358,12 +370,96 @@
    "zh": "一座噴泉"
   },
   {
+   "en": "a flaming brazier",
+   "zh": "一個燃燒火盆"
+  },
+  {
    "en": "a brazier",
    "zh": "一個火盆"
   },
   {
+   "en": "a decorative sword",
+   "zh": "一把裝飾劍"
+  },
+  {
+   "en": "a stone lion",
+   "zh": "一座石獅"
+  },
+  {
+   "en": "a steel door",
+   "zh": "一扇鋼門"
+  },
+  {
+   "en": "a spellbook",
+   "zh": "一本魔法書"
+  },
+  {
+   "en": "a tapestry",
+   "zh": "一幅掛毯"
+  },
+  {
+   "en": "a picture",
+   "zh": "一幅圖畫"
+  },
+  {
+   "en": "a pillar",
+   "zh": "一根柱子"
+  },
+  {
+   "en": "desk",
+   "zh": "書桌"
+  },
+  {
+   "en": "Orb of the Moons",
+   "zh": "月之球"
+  },
+  {
    "en": "Thou dost see ",
    "zh": "汝見"
+  },
+  {
+   "en": ". They weigh",
+   "zh": "。重量共計"
+  },
+  {
+   "en": ". It weighs",
+   "zh": "。重量："
+  },
+  {
+   "en": " stones",
+   "zh": " 石"
+  },
+  {
+   "en": "PRIVATE PROPERTY\n",
+   "zh": "私有財物\n"
+  },
+  {
+   "en": "PRIVATE PROPERTY",
+   "zh": "私有財物"
+  },
+  {
+   "en": " can absorb ",
+   "zh": " 可承受"
+  },
+  {
+   "en": " can do ",
+   "zh": " 可造成"
+  },
+  {
+   "en": " of damage",
+   "zh": "點傷害"
+  },
+  {
+   "en": " point",
+   "zh": "點"
+  },
+  {
+   "en": " and",
+   "zh": "，且"
+  },
+  {
+   "en": ". It",
+   "zh": "。它"
   },
   {
    "en": "Upon your world, five seasons have passed since your ",
