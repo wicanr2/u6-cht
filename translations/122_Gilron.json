@@ -1,0 +1,55 @@
+{
+ "translations": [
+  {
+   "offset": 9,
+   "len": 27,
+   "en": "a feverish looking warrior.",
+   "zh": "神情發燒、病懨懨的武士。",
+   "note": "DESC"
+  },
+  {
+   "offset": 39,
+   "len": 7,
+   "en": "\".....\""  ,
+   "zh": "「……」",
+   "note": "無意識喃喃"
+  },
+  {
+   "offset": 76,
+   "len": 11,
+   "en": "\"Ohhhhh...\"",
+   "zh": "「嗚嗚嗚……」",
+   "note": ""
+  },
+  {
+   "offset": 88,
+   "len": 21,
+   "en": "\"Mrtlx hmlsh fbbn...\"",
+   "zh": "「姆特拉……哈爾……費朋……」",
+   "note": "胡言亂語，音譯擬聲"
+  },
+  {
+   "offset": 110,
+   "len": 11,
+   "en": "\"Mmmmmm...\"",
+   "zh": "「嗯嗯嗯……」",
+   "note": ""
+  },
+  {
+   "offset": 122,
+   "len": 12,
+   "en": "\"..........\"",
+   "zh": "「……………」",
+   "note": ""
+  },
+  {
+   "offset": 135,
+   "len": 17,
+   "en": "\"Rrrrlr Grrtl...\"",
+   "zh": "「咕嚕嚕……葛……」",
+   "note": "喉音擬聲"
+  }
+ ],
+ "glossary_additions": {"people": {"Gilron": "吉爾隆"}, "places": {}},
+ "translator_notes": "Gilron 重傷昏迷，只發出呻吟與胡言亂語。全部為無意義音，做音感翻譯。"
+}

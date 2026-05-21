@@ -1,0 +1,398 @@
+{
+ "translations": [
+  {
+   "offset": 12,
+   "len": 43,
+   "en": "a young woman who stares into the distance.",
+   "zh": "凝視遠方的年輕女子。",
+   "note": "DESC（她是盲人）"
+  },
+  {
+   "offset": 95,
+   "len": 37,
+   "en": "\"I recognize your voice.\" She smiles.",
+   "zh": "「我認出你的聲音了。」她微笑。",
+   "note": ""
+  },
+  {
+   "offset": 133,
+   "len": 26,
+   "en": "\"Hello? Is someone there?\"",
+   "zh": "「你好？有人在嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 175,
+   "len": 42,
+   "en": "\"Stephanie, but you can call me '@Steph.'\"",
+   "zh": "「史黛芬妮，但你可以叫我『@小黛』。」",
+   "note": ""
+  },
+  {
+   "offset": 228,
+   "len": 16,
+   "en": "\"That's better.\"",
+   "zh": "「這樣好多了。」",
+   "note": ""
+  },
+  {
+   "offset": 296,
+   "len": 37,
+   "en": "\"But I sense none with you are dead.\"",
+   "zh": "「但我感知到你們中沒有人死亡。」",
+   "note": ""
+  },
+  {
+   "offset": 354,
+   "len": 33,
+   "en": "\"We have no 'jobs' here as such.\"",
+   "zh": "「我們這裡沒有所謂的『職業』。」",
+   "note": ""
+  },
+  {
+   "offset": 390,
+   "len": 40,
+   "en": "\"But I can @heal, @cure and @resurrect.\"",
+   "zh": "「但我能@療傷、@解毒和@起死回生。」",
+   "note": ""
+  },
+  {
+   "offset": 440,
+   "len": 19,
+   "en": "\"Good $T, my friend",
+   "zh": "「$T好，朋友",
+   "note": "下接句號"
+  },
+  {
+   "offset": 465,
+   "len": 47,
+   "en": ". Take care.\" Her long lashes flitter a moment.",
+   "zh": "。保重。」她長睫毛輕顫片刻。",
+   "note": ""
+  },
+  {
+   "offset": 517,
+   "len": 43,
+   "en": "\"I don't think I'm the one to ask that of.\"",
+   "zh": "「我覺得那種事不適合問我。」",
+   "note": ""
+  },
+  {
+   "offset": 573,
+   "len": 32,
+   "en": "\"Come to my shop when I'm open!\"",
+   "zh": "「開門的時候來我的店！」",
+   "note": ""
+  },
+  {
+   "offset": 666,
+   "len": 59,
+   "en": "After touching your brow she states, \"You feel fine to me.\"",
+   "zh": "觸摸你的額頭後她說：「你的狀況感覺很好。」",
+   "note": ""
+  },
+  {
+   "offset": 848,
+   "len": 59,
+   "en": "She feels each brow and holds her ear close to your mouths.",
+   "zh": "她逐一觸摸各人的額頭，將耳朵湊近你們的口邊。",
+   "note": ""
+  },
+  {
+   "offset": 910,
+   "len": 23,
+   "en": "\"None of you are sick!\"",
+   "zh": "「你們沒有一個生病！」",
+   "note": ""
+  },
+  {
+   "offset": 970,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪位？」",
+   "note": ""
+  },
+  {
+   "offset": 1075,
+   "len": 26,
+   "en": "\"I sense your injury, $Y.\"",
+   "zh": "「我感知到你的傷，$Y。」",
+   "note": ""
+  },
+  {
+   "offset": 1104,
+   "len": 40,
+   "en": "\"Will you make an offering of 25 gold?\" ",
+   "zh": "「你願意獻上25枚金幣嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1166,
+   "len": 73,
+   "en": "She closes her eyes, puts a delicate hand on your brow and chants softly.",
+   "zh": "她闔上眼睛，將纖細的手放在你的額頭，輕聲吟誦。",
+   "note": ""
+  },
+  {
+   "offset": 1242,
+   "len": 21,
+   "en": "You feel much better.",
+   "zh": "你感覺好多了。",
+   "note": ""
+  },
+  {
+   "offset": 1305,
+   "len": 39,
+   "en": "\"I cannot heal you if you won't tithe.\"",
+   "zh": "「若你不願奉獻，我便無法為你療傷。」",
+   "note": ""
+  },
+  {
+   "offset": 1358,
+   "len": 51,
+   "en": "\"I'm sorry. Without an offering I cannot heal you.\"",
+   "zh": "「抱歉。沒有奉獻，我無法為你療傷。」",
+   "note": ""
+  },
+  {
+   "offset": 1415,
+   "len": 57,
+   "en": "\"I sense your hesitation is based on your empty pockets.\"",
+   "zh": "「我感知到你的猶豫，源自空空的口袋。」",
+   "note": ""
+  },
+  {
+   "offset": 1475,
+   "len": 40,
+   "en": "\"I also sense your cause is a just one.\"",
+   "zh": "「我也感知到你的事業是正義的。」",
+   "note": ""
+  },
+  {
+   "offset": 1518,
+   "len": 73,
+   "en": "She closes her eyes, puts a delicate hand on your brow and chants softly.",
+   "zh": "她闔上眼睛，將纖細的手放在你的額頭，輕聲吟誦。",
+   "note": ""
+  },
+  {
+   "offset": 1594,
+   "len": 21,
+   "en": "You feel much better.",
+   "zh": "你感覺好多了。",
+   "note": ""
+  },
+  {
+   "offset": 1628,
+   "len": 55,
+   "en": "Her blue eyes pierce you. \"What else can I do for you?\"",
+   "zh": "她湛藍的眼眸凝視著你。「還有什麼我能為你做的？」",
+   "note": ""
+  },
+  {
+   "offset": 1695,
+   "len": 32,
+   "en": "\"Come to my shop when I'm open!\"",
+   "zh": "「開門的時候來我的店！」",
+   "note": ""
+  },
+  {
+   "offset": 1788,
+   "len": 61,
+   "en": "She lifts your hand against her lips. \"You are not poisoned.\"",
+   "zh": "她舉起你的手抵在唇邊。「你沒有中毒。」",
+   "note": ""
+  },
+  {
+   "offset": 1972,
+   "len": 69,
+   "en": "Holding each hand against her lips she states \"You are not poisoned.\"",
+   "zh": "她逐一舉起各人的手抵在唇邊，說道：「你們沒有中毒。」",
+   "note": ""
+  },
+  {
+   "offset": 2078,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪位？」",
+   "note": ""
+  },
+  {
+   "offset": 2183,
+   "len": 36,
+   "en": "\"I sense that you are poisoned, $Y.\"",
+   "zh": "「我感知到你中了毒，$Y。」",
+   "note": ""
+  },
+  {
+   "offset": 2222,
+   "len": 39,
+   "en": "\"Will you make an offering of 5 gold?\" ",
+   "zh": "「你願意獻上5枚金幣嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 2283,
+   "len": 77,
+   "en": "Placing your hand over her heart, she closes her eyes and whispers something.",
+   "zh": "她將你的手放在她心口，闔上雙眼，低聲細語。",
+   "note": ""
+  },
+  {
+   "offset": 2363,
+   "len": 27,
+   "en": "The fever leaves your brow.",
+   "zh": "你額頭的燥熱消散了。",
+   "note": ""
+  },
+  {
+   "offset": 2432,
+   "len": 41,
+   "en": "\"Without the offering I cannot cure you.\"",
+   "zh": "「沒有奉獻，我無法為你解毒。」",
+   "note": ""
+  },
+  {
+   "offset": 2487,
+   "len": 51,
+   "en": "\"I'm sorry. Without an offering I cannot cure you.\"",
+   "zh": "「抱歉。沒有奉獻，我無法為你解毒。」",
+   "note": ""
+  },
+  {
+   "offset": 2544,
+   "len": 25,
+   "en": "A tear comes to her eyes.",
+   "zh": "她眼眶泛淚。",
+   "note": ""
+  },
+  {
+   "offset": 2572,
+   "len": 46,
+   "en": "\"I should have known you would not ask unless ",
+   "zh": "「我早該知道你不會開口，除非",
+   "note": "下接句尾"
+  },
+  {
+   "offset": 2620,
+   "len": 25,
+   "en": "[you were in grave need.\"",
+   "zh": "你真的有迫切需要。」",
+   "note": "原文有多餘的方括號"
+  },
+  {
+   "offset": 2648,
+   "len": 34,
+   "en": "\"Come, put your hand on my heart.\"",
+   "zh": "「來，把你的手放在我心口。」",
+   "note": ""
+  },
+  {
+   "offset": 2685,
+   "len": 77,
+   "en": "Placing your hand over her heart, she closes her eyes and whispers something.",
+   "zh": "她將你的手放在她心口，闔上雙眼，低聲細語。",
+   "note": ""
+  },
+  {
+   "offset": 2765,
+   "len": 27,
+   "en": "The fever leaves your brow.",
+   "zh": "你額頭的燥熱消散了。",
+   "note": ""
+  },
+  {
+   "offset": 2806,
+   "len": 47,
+   "en": "\"I sense that someone has met a terrible fate.\"",
+   "zh": "「我感知到有人遭遇了可怕的命運。」",
+   "note": ""
+  },
+  {
+   "offset": 2863,
+   "len": 32,
+   "en": "\"Come to my shop when I'm open!\"",
+   "zh": "「開門的時候來我的店！」",
+   "note": ""
+  },
+  {
+   "offset": 2901,
+   "len": 41,
+   "en": "\"Will you make an offering of 350 gold?\" ",
+   "zh": "「你願意獻上350枚金幣嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 2974,
+   "len": 54,
+   "en": "\"Then there is nothing I can do save grieve with you.\"",
+   "zh": "「那我所能做的只有與你同悲。」",
+   "note": ""
+  },
+  {
+   "offset": 3070,
+   "len": 26,
+   "en": "\"You haven't enough gold.\"",
+   "zh": "「你的金幣不夠。」",
+   "note": ""
+  },
+  {
+   "offset": 3099,
+   "len": 45,
+   "en": "\"I'm sorry, all I can do is grieve with you.\"",
+   "zh": "「抱歉，我所能做的只有與你同悲。」",
+   "note": ""
+  },
+  {
+   "offset": 3206,
+   "len": 58,
+   "en": "Your party takes up a collection for their fallen comrade.",
+   "zh": "你的隊伍為倒下的同伴湊齊了金幣。",
+   "note": ""
+  },
+  {
+   "offset": 3385,
+   "len": 32,
+   "en": "$N lays hands upon the corpse...",
+   "zh": "$N將雙手覆於遺體之上……",
+   "note": ""
+  },
+  {
+   "offset": 3420,
+   "len": 10,
+   "en": "\"Doman...\"",
+   "zh": "「多曼……」",
+   "note": "復活咒語（音譯）"
+  },
+  {
+   "offset": 3433,
+   "len": 11,
+   "en": "\"thixus...\"",
+   "zh": "「希克蘇斯……」",
+   "note": "復活咒語（音譯）"
+  },
+  {
+   "offset": 3447,
+   "len": 9,
+   "en": "\"anretu!\"",
+   "zh": "「安雷圖！」",
+   "note": "復活咒語（音譯）"
+  },
+  {
+   "offset": 3463,
+   "len": 24,
+   "en": "And the dead live again!",
+   "zh": "死者重生！",
+   "note": ""
+  },
+  {
+   "offset": 3513,
+   "len": 47,
+   "en": "\"I sense that others have been lost as well...\"",
+   "zh": "「我感知到還有其他人也失去了……」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Stephanie": "史黛芬妮"}, "places": {}},
+ "translator_notes": "史黛芬妮是盲人療癒師，法蘭的妹妹。她靠觸感和感知能力判斷傷患。復活咒語（Doman/thixus/anretu）以音譯保留。"
+}

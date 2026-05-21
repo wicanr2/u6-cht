@@ -1,0 +1,122 @@
+{
+ "translations": [
+  {
+   "offset": 10,
+   "len": 36,
+   "en": "a vaporous form hovering before you.",
+   "zh": "一個飄渺的輪廓懸浮於汝面前。",
+   "note": "DESC，幽靈"
+  },
+  {
+   "offset": 55,
+   "len": 59,
+   "en": "A shiver runs up your spine as you feel a chilling draft...",
+   "zh": "一陣寒意沿汝脊背而上，似有冷風拂過……",
+   "note": ""
+  },
+  {
+   "offset": 116,
+   "len": 26,
+   "en": "The form is that of a man.",
+   "zh": "那輪廓是一個男人的形狀。",
+   "note": ""
+  },
+  {
+   "offset": 145,
+   "len": 45,
+   "en": "His mouth moves, yet no words can be heard...",
+   "zh": "他的嘴唇翕動，卻無聲無息……",
+   "note": ""
+  },
+  {
+   "offset": 219,
+   "len": 81,
+   "en": "You speak the word and the spectre responds by pointing a boney hand to his @eye.",
+   "zh": "汝說出此字，幽靈回應：伸出枯骨般的手指向他的@眼。",
+   "note": ""
+  },
+  {
+   "offset": 311,
+   "len": 55,
+   "en": "A wind from behind blows your hair, covering your eyes.",
+   "zh": "背後一陣風吹起汝的頭髮，遮住了汝的雙眼。",
+   "note": ""
+  },
+  {
+   "offset": 378,
+   "len": 60,
+   "en": "A whirlpool of leaves, twigs and stones whips up around you.",
+   "zh": "樹葉、枯枝與石子在汝周圍形成旋渦猛然捲起。",
+   "note": ""
+  },
+  {
+   "offset": 441,
+   "len": 88,
+   "en": "Your clothing is yanked by the strong wind forcing you to grip it tightly in your hands.",
+   "zh": "強風猛然扯動汝的衣袍，汝不得不緊緊握住。",
+   "note": ""
+  },
+  {
+   "offset": 541,
+   "len": 38,
+   "en": "A cool breeze blows through your hair.",
+   "zh": "一陣清涼的微風吹過汝的髮絲。",
+   "note": ""
+  },
+  {
+   "offset": 582,
+   "len": 52,
+   "en": "You suddenly smell the scent of a storm approaching.",
+   "zh": "汝忽然嗅到一股風暴將至的氣息。",
+   "note": ""
+  },
+  {
+   "offset": 645,
+   "len": 86,
+   "en": "The ghostly image shimmers for a moment and then he points a boney finger to his neck.",
+   "zh": "幽靈身影閃爍片刻，隨後他用枯骨般的手指指向自己的頸部。",
+   "note": ""
+  },
+  {
+   "offset": 742,
+   "len": 52,
+   "en": "The spectre's arm thrusts out, pointing to the @sea.",
+   "zh": "幽靈的手臂猛然伸出，指向@大海。",
+   "note": ""
+  },
+  {
+   "offset": 805,
+   "len": 43,
+   "en": "The spectre's arm thrusts again, this time.",
+   "zh": "幽靈的手臂再次猛然伸出。",
+   "note": ""
+  },
+  {
+   "offset": 851,
+   "len": 45,
+   "en": "This time you see it points towards the pier.",
+   "zh": "這一次，汝看見它指向碼頭方向。",
+   "note": ""
+  },
+  {
+   "offset": 907,
+   "len": 60,
+   "en": "A strong breeze suddenly assaults you with twigs and leaves.",
+   "zh": "一陣強風忽然挾帶枯枝落葉撲面而來。",
+   "note": ""
+  },
+  {
+   "offset": 972,
+   "len": 74,
+   "en": "You hear no answer save the rustle of the leaves on the ground around you.",
+   "zh": "汝聽不到任何回應，只有腳邊落葉的沙沙聲。",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Quenton": "昆頓"
+  }
+ },
+ "translator_notes": "091 Quenton: 已亡之幽靈，以動作而非語言溝通。所有字串均為旁白敘事。"
+}

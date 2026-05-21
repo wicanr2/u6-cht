@@ -1,0 +1,843 @@
+{
+ "translations": [
+  {
+   "offset": 10,
+   "len": 54,
+   "en": "a bent, aging man with a scraggly beard and few teeth.",
+   "zh": "一位駝背年邁、鬍鬚凌亂、滿口少牙的老人。",
+   "note": "DESC"
+  },
+  {
+   "offset": 74,
+   "len": 28,
+   "en": "\"Once they came for wanting,",
+   "zh": "「昔有人為欲而來，",
+   "note": "詩歌行一"
+  },
+  {
+   "offset": 104,
+   "len": 23,
+   "en": "Twice they came to see,",
+   "zh": "再有人為觀而至，",
+   "note": "詩歌行二"
+  },
+  {
+   "offset": 129,
+   "len": 18,
+   "en": "If I am relenting,",
+   "zh": "探我是否寬懷，",
+   "note": "詩歌行三"
+  },
+  {
+   "offset": 149,
+   "len": 15,
+   "en": "In my mystery.\"",
+   "zh": "置身吾謎境中。」",
+   "note": "詩歌行四"
+  },
+  {
+   "offset": 166,
+   "len": 25,
+   "en": "\"Dogs are at my doorstep,",
+   "zh": "「犬吠在吾門前，",
+   "note": "詩歌行一"
+  },
+  {
+   "offset": 193,
+   "len": 20,
+   "en": "Yapping at my heels.",
+   "zh": "聒噪於腳踵之旁。",
+   "note": "詩歌行二"
+  },
+  {
+   "offset": 215,
+   "len": 22,
+   "en": "No way to ignore them.",
+   "zh": "無計可以置之不理，",
+   "note": "詩歌行三"
+  },
+  {
+   "offset": 239,
+   "len": 33,
+   "en": "Just pretend that they are eels.\"",
+   "zh": "只得假裝彼等皆是鰻魚。」",
+   "note": "詩歌行四"
+  },
+  {
+   "offset": 292,
+   "len": 72,
+   "en": "The mention of business brings the senile man to his senses momentarily.",
+   "zh": "一提到正事，這位老糊塗便短暫地清醒過來。",
+   "note": ""
+  },
+  {
+   "offset": 383,
+   "len": 72,
+   "en": "The mention of business brings the senile man to his senses momentarily.",
+   "zh": "一提到正事，這位老糊塗便短暫地清醒過來。",
+   "note": ""
+  },
+  {
+   "offset": 479,
+   "len": 72,
+   "en": "The mention of business brings the senile man to his senses momentarily.",
+   "zh": "一提到正事，這位老糊塗便短暫地清醒過來。",
+   "note": ""
+  },
+  {
+   "offset": 565,
+   "len": 27,
+   "en": "\"Names I'm always thinking,",
+   "zh": "「名字吾日夜思索，",
+   "note": "詩歌行一"
+  },
+  {
+   "offset": 594,
+   "len": 19,
+   "en": "Names I always see.",
+   "zh": "名字吾時時所見。",
+   "note": "詩歌行二"
+  },
+  {
+   "offset": 615,
+   "len": 20,
+   "en": "Have you any inkling",
+   "zh": "汝可有半點察覺",
+   "note": "詩歌行三"
+  },
+  {
+   "offset": 637,
+   "len": 24,
+   "en": "What they seem to mean?\"",
+   "zh": "它們究竟意指何物？」",
+   "note": "詩歌行四"
+  },
+  {
+   "offset": 671,
+   "len": 23,
+   "en": "\"I have nice @reagents,",
+   "zh": "「吾有上好的@藥材，",
+   "note": "詩歌行一"
+  },
+  {
+   "offset": 696,
+   "len": 22,
+   "en": "Also wondrous @spells.",
+   "zh": "亦有奇妙的@魔咒。",
+   "note": "詩歌行二"
+  },
+  {
+   "offset": 720,
+   "len": 26,
+   "en": "If you need a magic @book,",
+   "zh": "若汝需要魔法@書冊，",
+   "note": "詩歌行三"
+  },
+  {
+   "offset": 748,
+   "len": 19,
+   "en": "Those I also sell.\"",
+   "zh": "吾亦有售。」",
+   "note": "詩歌行四"
+  },
+  {
+   "offset": 783,
+   "len": 22,
+   "en": "\"That is too familiar,",
+   "zh": "「此稱號過於親暱，",
+   "note": "詩歌行一"
+  },
+  {
+   "offset": 807,
+   "len": 21,
+   "en": "Could it be a friend?",
+   "zh": "莫非是一位友人？",
+   "note": "詩歌行二"
+  },
+  {
+   "offset": 830,
+   "len": 22,
+   "en": "No, none is delivered,",
+   "zh": "不，無人如此降臨，",
+   "note": "詩歌行三"
+  },
+  {
+   "offset": 854,
+   "len": 19,
+   "en": "So I must pretend.\"",
+   "zh": "故吾只得假裝。」",
+   "note": "詩歌行四"
+  },
+  {
+   "offset": 895,
+   "len": 23,
+   "en": "\"'Step into my parlor,'",
+   "zh": "「『請入吾之廳堂，』",
+   "note": "詩歌行一"
+  },
+  {
+   "offset": 920,
+   "len": 27,
+   "en": "Said the spider to the fly.",
+   "zh": "蜘蛛如是對蒼蠅說道。",
+   "note": "詩歌行二"
+  },
+  {
+   "offset": 949,
+   "len": 27,
+   "en": "Perhaps if he could holler,",
+   "zh": "倘若他能放聲呼喊，",
+   "note": "詩歌行三"
+  },
+  {
+   "offset": 978,
+   "len": 26,
+   "en": "He would not have to die.\"",
+   "zh": "或許便不必死去。」",
+   "note": "詩歌行四"
+  },
+  {
+   "offset": 1020,
+   "len": 21,
+   "en": "\"Many are pretenders,",
+   "zh": "「偽裝者眾多，",
+   "note": "詩歌行一"
+  },
+  {
+   "offset": 1043,
+   "len": 26,
+   "en": "A harmless game they play.",
+   "zh": "彼等所玩不過無害遊戲。",
+   "note": "詩歌行二"
+  },
+  {
+   "offset": 1071,
+   "len": 26,
+   "en": "But for the few offenders,",
+   "zh": "然少數作惡之人，",
+   "note": "詩歌行三"
+  },
+  {
+   "offset": 1099,
+   "len": 29,
+   "en": "Of constant night they pray.\"",
+   "zh": "日夜祈求黑暗永存。」",
+   "note": "詩歌行四"
+  },
+  {
+   "offset": 1139,
+   "len": 58,
+   "en": "He purses his lips and lets out an eery, high-pitched cry.",
+   "zh": "他抿起嘴唇，發出一聲詭異的尖叫。",
+   "note": ""
+  },
+  {
+   "offset": 1200,
+   "len": 23,
+   "en": "\"That is my impression.",
+   "zh": "「此乃吾之模仿。",
+   "note": "詩歌行一"
+  },
+  {
+   "offset": 1225,
+   "len": 23,
+   "en": "Tell me what you think.",
+   "zh": "告訴吾汝之所思。",
+   "note": "詩歌行二"
+  },
+  {
+   "offset": 1250,
+   "len": 23,
+   "en": "Can you learn a lesson,",
+   "zh": "汝可能從中領悟，",
+   "note": "詩歌行三"
+  },
+  {
+   "offset": 1275,
+   "len": 27,
+   "en": "From what it has to teach?\"",
+   "zh": "它所欲傳授之道？」",
+   "note": "詩歌行四"
+  },
+  {
+   "offset": 1318,
+   "len": 21,
+   "en": "\"Don't stick your arm",
+   "zh": "「莫將汝之手臂",
+   "note": "Burma Shave廣告詩行一"
+  },
+  {
+   "offset": 1341,
+   "len": 12,
+   "en": "Out too far.",
+   "zh": "伸出窗外太遠。",
+   "note": "詩歌行二"
+  },
+  {
+   "offset": 1355,
+   "len": 14,
+   "en": "It may go home",
+   "zh": "它或許會先汝而歸，",
+   "note": "詩歌行三"
+  },
+  {
+   "offset": 1371,
+   "len": 16,
+   "en": "In another car!\"",
+   "zh": "乘坐另一輛車！」",
+   "note": "詩歌行四"
+  },
+  {
+   "offset": 1389,
+   "len": 15,
+   "en": "-- Burma Shave.",
+   "zh": "——緬甸剃鬚膏。",
+   "note": "Burma Shave品牌致敬"
+  },
+  {
+   "offset": 1415,
+   "len": 21,
+   "en": "\"Ask about a traitor,",
+   "zh": "「詢問叛徒之事，",
+   "note": "詩歌行一"
+  },
+  {
+   "offset": 1438,
+   "len": 17,
+   "en": "Ask about a love,",
+   "zh": "詢問愛情之事，",
+   "note": "詩歌行二"
+  },
+  {
+   "offset": 1457,
+   "len": 24,
+   "en": "And if you are creative,",
+   "zh": "若汝有創意，",
+   "note": "詩歌行三"
+  },
+  {
+   "offset": 1483,
+   "len": 20,
+   "en": "Ask above the dove.\"",
+   "zh": "便問鴿子之上之事。」",
+   "note": "詩歌行四"
+  },
+  {
+   "offset": 1514,
+   "len": 24,
+   "en": "\"What is truly fearsome,",
+   "zh": "「何物真正令人畏懼，",
+   "note": "詩歌行一"
+  },
+  {
+   "offset": 1540,
+   "len": 17,
+   "en": "What can evil be?",
+   "zh": "邪惡究竟為何？",
+   "note": "詩歌行二"
+  },
+  {
+   "offset": 1559,
+   "len": 32,
+   "en": "Not all that growls is gruesome,",
+   "zh": "咆哮者未必面目猙獰，",
+   "note": "詩歌行三"
+  },
+  {
+   "offset": 1593,
+   "len": 30,
+   "en": "Not all that hates has wings.\"",
+   "zh": "心懷仇恨者未必皆有翅膀。」",
+   "note": "詩歌行四"
+  },
+  {
+   "offset": 1644,
+   "len": 24,
+   "en": "\"Through a glowing door,",
+   "zh": "「穿越一扇發光之門，",
+   "note": "詩歌行一"
+  },
+  {
+   "offset": 1670,
+   "len": 25,
+   "en": "By the full moons' light.",
+   "zh": "藉滿月之光而入。",
+   "note": "詩歌行二"
+  },
+  {
+   "offset": 1697,
+   "len": 23,
+   "en": "For me to tell you more",
+   "zh": "若吾再多言，",
+   "note": "詩歌行三"
+  },
+  {
+   "offset": 1722,
+   "len": 30,
+   "en": "Would take us half the night!\"",
+   "zh": "便要耗上半個夜晚！」",
+   "note": "詩歌行四"
+  },
+  {
+   "offset": 1768,
+   "len": 21,
+   "en": "\"He who has opinions,",
+   "zh": "「自以為是之人，",
+   "note": "詩歌行一"
+  },
+  {
+   "offset": 1791,
+   "len": 23,
+   "en": "Thinks he knows it all,",
+   "zh": "以為無所不知，",
+   "note": "詩歌行二"
+  },
+  {
+   "offset": 1816,
+   "len": 28,
+   "en": "Will someday end up learning",
+   "zh": "終有一日將學到，",
+   "note": "詩歌行三"
+  },
+  {
+   "offset": 1846,
+   "len": 26,
+   "en": "What comes before a fall.\"",
+   "zh": "何物先於跌倒而至。」",
+   "note": "詩歌行四"
+  },
+  {
+   "offset": 1883,
+   "len": 22,
+   "en": "\"Simple has its moment",
+   "zh": "「樸實自有其時，",
+   "note": "詩歌行一"
+  },
+  {
+   "offset": 1907,
+   "len": 21,
+   "en": "And often is received",
+   "zh": "且往往更受歡迎，",
+   "note": "詩歌行二"
+  },
+  {
+   "offset": 1930,
+   "len": 31,
+   "en": "Much better than the brilliant,",
+   "zh": "遠勝於聰明才智，",
+   "note": "詩歌行三"
+  },
+  {
+   "offset": 1963,
+   "len": 24,
+   "en": "Who often will deceive.\"",
+   "zh": "後者往往惑人。」",
+   "note": "詩歌行四"
+  },
+  {
+   "offset": 1998,
+   "len": 23,
+   "en": "\"Pain can run so deeply",
+   "zh": "「痛苦可以深入骨髓，",
+   "note": "詩歌行一"
+  },
+  {
+   "offset": 2023,
+   "len": 24,
+   "en": "That one becomes a mute,",
+   "zh": "令人噤若寒蟬，",
+   "note": "詩歌行二"
+  },
+  {
+   "offset": 2049,
+   "len": 25,
+   "en": "In fear of leading others",
+   "zh": "唯恐引領他人，",
+   "note": "詩歌行三"
+  },
+  {
+   "offset": 2076,
+   "len": 30,
+   "en": "Where goodness is in dispute.\"",
+   "zh": "步入善惡爭議之境。」",
+   "note": "詩歌行四"
+  },
+  {
+   "offset": 2117,
+   "len": 22,
+   "en": "\"Kindness is a proverb",
+   "zh": "「善意乃是箴言，",
+   "note": "詩歌行一"
+  },
+  {
+   "offset": 2141,
+   "len": 24,
+   "en": "That all can understand,",
+   "zh": "人人皆能領悟，",
+   "note": "詩歌行二"
+  },
+  {
+   "offset": 2167,
+   "len": 31,
+   "en": "And those who share it with you",
+   "zh": "能與汝共享善意之人，",
+   "note": "詩歌行三"
+  },
+  {
+   "offset": 2200,
+   "len": 23,
+   "en": "Will oft be in demand.\"",
+   "zh": "往往炙手可熱。」",
+   "note": "詩歌行四"
+  },
+  {
+   "offset": 2234,
+   "len": 26,
+   "en": "\"Little is the difference,",
+   "zh": "「彼此相差甚微，",
+   "note": "詩歌行一"
+  },
+  {
+   "offset": 2262,
+   "len": 25,
+   "en": "That seperates ourselves.",
+   "zh": "將你我分隔兩地。",
+   "note": "詩歌行二"
+  },
+  {
+   "offset": 2289,
+   "len": 27,
+   "en": "Remembering this inference,",
+   "zh": "謹記此等推論，",
+   "note": "詩歌行三"
+  },
+  {
+   "offset": 2318,
+   "len": 26,
+   "en": "Is oft a great challenge.\"",
+   "zh": "往往是一大挑戰。」",
+   "note": "詩歌行四"
+  },
+  {
+   "offset": 2355,
+   "len": 22,
+   "en": "\"Love has many rivers,",
+   "zh": "「愛有千流萬壑，",
+   "note": "詩歌行一"
+  },
+  {
+   "offset": 2379,
+   "len": 29,
+   "en": "Yet grief can twist them all.",
+   "zh": "悲傷卻能將之盡數扭曲。",
+   "note": "詩歌行二"
+  },
+  {
+   "offset": 2410,
+   "len": 25,
+   "en": "Be guided by your wisdom,",
+   "zh": "以汝之智慧為引，",
+   "note": "詩歌行三"
+  },
+  {
+   "offset": 2437,
+   "len": 29,
+   "en": "And you'll achieve the goal.\"",
+   "zh": "方能達成所願。」",
+   "note": "詩歌行四"
+  },
+  {
+   "offset": 2482,
+   "len": 25,
+   "en": "\"A council has a purpose,",
+   "zh": "「議會自有其用，",
+   "note": "詩歌行一"
+  },
+  {
+   "offset": 2509,
+   "len": 24,
+   "en": "And yet it can be wrong.",
+   "zh": "然亦可能行差踏錯。",
+   "note": "詩歌行二"
+  },
+  {
+   "offset": 2535,
+   "len": 30,
+   "en": "There are no notes that singly",
+   "zh": "單音無法成曲，",
+   "note": "詩歌行三"
+  },
+  {
+   "offset": 2567,
+   "len": 26,
+   "en": "Put the melody in a song.\"",
+   "zh": "樂章須眾聲合奏。」",
+   "note": "詩歌行四"
+  },
+  {
+   "offset": 2603,
+   "len": 27,
+   "en": "\"I see that they are going,",
+   "zh": "「吾見彼等已然離去，",
+   "note": "詩歌行一"
+  },
+  {
+   "offset": 2632,
+   "len": 26,
+   "en": "I'm sure they will return.",
+   "zh": "吾確信他們必將再來。",
+   "note": "詩歌行二"
+  },
+  {
+   "offset": 2660,
+   "len": 29,
+   "en": "For if they lack the knowing,",
+   "zh": "因若他們尚有未知，",
+   "note": "詩歌行三"
+  },
+  {
+   "offset": 2691,
+   "len": 30,
+   "en": "They'll always need to learn.\"",
+   "zh": "便永遠有所學習。」",
+   "note": "詩歌行四"
+  },
+  {
+   "offset": 2726,
+   "len": 28,
+   "en": "\"I hear you have a question.",
+   "zh": "「吾聞汝有所疑問。",
+   "note": "詩歌行一"
+  },
+  {
+   "offset": 2756,
+   "len": 24,
+   "en": "I'm here to answer some.",
+   "zh": "吾在此解答一二。",
+   "note": "詩歌行二"
+  },
+  {
+   "offset": 2782,
+   "len": 26,
+   "en": "If I may make suggestions,",
+   "zh": "若吾可建言，",
+   "note": "詩歌行三"
+  },
+  {
+   "offset": 2810,
+   "len": 24,
+   "en": "Please ask another one.\"",
+   "zh": "請再問一個。」",
+   "note": "詩歌行四"
+  },
+  {
+   "offset": 2899,
+   "len": 33,
+   "en": "\"But thou hast not a spell@book!\"",
+   "zh": "「然汝尚無魔法@書冊！」",
+   "note": ""
+  },
+  {
+   "offset": 3059,
+   "len": 35,
+   "en": "\"But none of you has a spell@book!\"",
+   "zh": "「然汝等之中無人擁有魔法@書冊！」",
+   "note": ""
+  },
+  {
+   "offset": 3131,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪位？」",
+   "note": ""
+  },
+  {
+   "offset": 3263,
+   "len": 41,
+   "en": "\"In which Circle does $Y wish to study?\" ",
+   "zh": "「$Y希望研習第幾層圓環？」",
+   "note": ""
+  },
+  {
+   "offset": 3327,
+   "len": 51,
+   "en": "\"As everybody knows, there are only eight circles.\"",
+   "zh": "「眾所周知，魔法圓環共八層。」",
+   "note": ""
+  },
+  {
+   "offset": 3394,
+   "len": 52,
+   "en": "\"I sense that $Y is only ready for the #1$1 Circle.\"",
+   "zh": "「吾感覺$Y目前僅適合第#1$1層圓環。」",
+   "note": ""
+  },
+  {
+   "offset": 3449,
+   "len": 40,
+   "en": "\"But such matters are not my concern...\"",
+   "zh": "「然此類事務非吾所慮……」",
+   "note": ""
+  },
+  {
+   "offset": 3526,
+   "len": 34,
+   "en": "\"I have no spells of that circle.\"",
+   "zh": "「吾無此圓環之法術。」",
+   "note": ""
+  },
+  {
+   "offset": 3637,
+   "len": 18,
+   "en": "\"Which of these?\" ",
+   "zh": "「選哪一個？」",
+   "note": ""
+  },
+  {
+   "offset": 3671,
+   "len": 42,
+   "en": "\"Perhaps $Y is not ready for this circle.\"",
+   "zh": "「或許$Y尚未準備好此圓環。」",
+   "note": ""
+  },
+  {
+   "offset": 3755,
+   "len": 32,
+   "en": "\"$Y lacks the #5 gold required.\"",
+   "zh": "「$Y缺少所需的#5枚金幣。」",
+   "note": ""
+  },
+  {
+   "offset": 3796,
+   "len": 40,
+   "en": "\"That spell costs #5 gold. Interested?\" ",
+   "zh": "「此法術售價#5枚金幣，有意否？」",
+   "note": ""
+  },
+  {
+   "offset": 3842,
+   "len": 46,
+   "en": "$N hands $Y a piece of rune-covered parchment.",
+   "zh": "$N將一張滿是符文的羊皮紙遞給$Y。",
+   "note": ""
+  },
+  {
+   "offset": 4036,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪位？」",
+   "note": ""
+  },
+  {
+   "offset": 4157,
+   "len": 18,
+   "en": "\"Which of these?\" ",
+   "zh": "「選哪一種？」",
+   "note": ""
+  },
+  {
+   "offset": 4240,
+   "len": 26,
+   "en": "\"$1 costs #1 per portion.\"",
+   "zh": "「$1每份售價#1枚金幣。」",
+   "note": ""
+  },
+  {
+   "offset": 4269,
+   "len": 27,
+   "en": "\"How many dost thou want?\" ",
+   "zh": "「汝要幾份？」",
+   "note": ""
+  },
+  {
+   "offset": 4417,
+   "len": 19,
+   "en": "$N hands $Y the $1.",
+   "zh": "$N將$1交予$Y。",
+   "note": ""
+  },
+  {
+   "offset": 4455,
+   "len": 30,
+   "en": "\"Thou cannot carry that much!\"",
+   "zh": "「汝無法攜帶那麼多！」",
+   "note": ""
+  },
+  {
+   "offset": 4488,
+   "len": 49,
+   "en": "\"I'll give thee #5; thou dost not need the rest.\"",
+   "zh": "「吾給汝#5份；其餘汝不需要。」",
+   "note": ""
+  },
+  {
+   "offset": 4546,
+   "len": 27,
+   "en": "\"Thou cannot carry any $1!\"",
+   "zh": "「汝無法攜帶任何$1！」",
+   "note": ""
+  },
+  {
+   "offset": 4586,
+   "len": 31,
+   "en": "\"Thou cannot afford that much!\"",
+   "zh": "「汝無力負擔那麼多！」",
+   "note": ""
+  },
+  {
+   "offset": 4620,
+   "len": 47,
+   "en": "\"I'll give thee #5; thou cannot have the rest.\"",
+   "zh": "「吾給汝#5份；其餘汝無從取得。」",
+   "note": ""
+  },
+  {
+   "offset": 4676,
+   "len": 28,
+   "en": "\"Thou cannot afford any $1!\"",
+   "zh": "「汝無力負擔任何$1！」",
+   "note": ""
+  },
+  {
+   "offset": 4809,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪位？」",
+   "note": ""
+  },
+  {
+   "offset": 4879,
+   "len": 36,
+   "en": "\"But thou cannot carry a spellbook!\"",
+   "zh": "「然汝無法攜帶法術書！」",
+   "note": ""
+  },
+  {
+   "offset": 4931,
+   "len": 37,
+   "en": "\"But thou cannot afford a spellbook!\"",
+   "zh": "「然汝無力購置法術書！」",
+   "note": ""
+  },
+  {
+   "offset": 4974,
+   "len": 48,
+   "en": "\"A spellbook costs 50 gold pieces. Interested?\" ",
+   "zh": "「法術書售價50枚金幣，有意否？」",
+   "note": ""
+  },
+  {
+   "offset": 5066,
+   "len": 34,
+   "en": "\"Perhaps one of thy friends then.\"",
+   "zh": "「或許汝的某位同伴有意？」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Horance": "霍蘭斯"
+  }
+ },
+ "translator_notes": "088 Horance: 鍊金術士兼法術商人，以詩謎作答。所有對話皆為詩歌格式，逐行譯為古典文言詩體。Burma Shave廣告詩保留幽默感。"
+}

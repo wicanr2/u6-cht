@@ -1,0 +1,451 @@
+{
+  "translations": [
+    {
+      "offset": 8,
+      "len": 46,
+      "en": "a huge, dark-skined man with a close-set face.",
+      "zh": "一位身材魁梧、皮膚黝黑、五官緊湊的男子。",
+      "note": "DESC"
+    },
+    {
+      "offset": 71,
+      "len": 41,
+      "en": "\"@Ombogo @sano!\" he says, smiling widely.",
+      "zh": "「@Ombogo @sano！」他說著，咧嘴而笑。",
+      "note": "island greeting = hello friend; keep untranslated"
+    },
+    {
+      "offset": 113,
+      "len": 60,
+      "en": "\"@Ombogo @dono,\" he grunts at you from behind a large forge.",
+      "zh": "「@Ombogo @dono，」他在大火爐後方咕噥著向汝打招呼。",
+      "note": "island greeting = hello stranger"
+    },
+    {
+      "offset": 181,
+      "len": 12,
+      "en": "\"What else?\"",
+      "zh": "「還有什麼？」",
+      "note": ""
+    },
+    {
+      "offset": 200,
+      "len": 52,
+      "en": "\"I have many things here. You want @arms or @armor?\"",
+      "zh": "「吾這裡有許多東西。汝要@武器還是@護甲？」",
+      "note": "shop"
+    },
+    {
+      "offset": 310,
+      "len": 20,
+      "en": "\"That mean 'hello.'\"",
+      "zh": "「那個意思是『你好』。」",
+      "note": "explaining Ombogo"
+    },
+    {
+      "offset": 341,
+      "len": 34,
+      "en": "\"That mean 'person I don't know.'\"",
+      "zh": "「那個意思是『不認識的人』。」",
+      "note": "explaining dono"
+    },
+    {
+      "offset": 386,
+      "len": 21,
+      "en": "\"That mean 'friend.'\"",
+      "zh": "「那個意思是『朋友』。」",
+      "note": "explaining sano"
+    },
+    {
+      "offset": 424,
+      "len": 50,
+      "en": "\"Utomo remember you, how you not remember @Utomo?\"",
+      "zh": "「烏托摩記得汝，汝怎麼不記得@烏托摩？」",
+      "note": "third-person self-reference"
+    },
+    {
+      "offset": 475,
+      "len": 22,
+      "en": "\"Utomo, from @island.\"",
+      "zh": "「烏托摩，來自@海島。」",
+      "note": ""
+    },
+    {
+      "offset": 514,
+      "len": 58,
+      "en": "\"Utomo mean 'island' in my language. I also from island.\"*",
+      "zh": "「烏托摩在吾的語言意思是『島』。吾也來自海島。」*",
+      "note": "paragraph end"
+    },
+    {
+      "offset": 574,
+      "len": 66,
+      "en": "\"Bring magic @fan from island. This town new @home for Utomo now.\"",
+      "zh": "「吾從海島帶來魔法@扇子。這座城鎮現在是烏托摩的新@家。」",
+      "note": ""
+    },
+    {
+      "offset": 655,
+      "len": 76,
+      "en": "\"Lady on island make magic fans. They make big wind, blow ships all around.\"",
+      "zh": "「海島上有位女士製作魔法扇子。那些扇子能生大風，把船隻吹得到處亂轉。」",
+      "note": ""
+    },
+    {
+      "offset": 741,
+      "len": 57,
+      "en": "\"Utomo make good @weapons. Make one for you if you like.\"",
+      "zh": "「烏托摩打造好@武器。如果汝喜歡，可以為汝打一把。」",
+      "note": ""
+    },
+    {
+      "offset": 809,
+      "len": 46,
+      "en": "\"Learn to make as boy. I live on island then.\"",
+      "zh": "「小時候學的。那時吾住在海島上。」",
+      "note": ""
+    },
+    {
+      "offset": 871,
+      "len": 64,
+      "en": "\"I come here from @many days away. My home burned by @evil man.\"",
+      "zh": "「吾從@很遠的地方來到這裡。吾的家被@壞人燒毀了。」",
+      "note": ""
+    },
+    {
+      "offset": 951,
+      "len": 42,
+      "en": "\"I not sure where. Got ride on big @ship.\"",
+      "zh": "「吾不確定在哪裡。搭上了一艘大@船。」",
+      "note": ""
+    },
+    {
+      "offset": 1008,
+      "len": 70,
+      "en": "\"I stow away when night come. After long time we land and I jump off.\"",
+      "zh": "「夜晚降臨時吾偷藏在船上。過了很久，船靠岸，吾就跳下去了。」",
+      "note": ""
+    },
+    {
+      "offset": 1098,
+      "len": 88,
+      "en": "\"He say to me, 'You man, you leave home and @kill good people with me.' I ran from him.\"",
+      "zh": "「他對吾說，『你是男子漢，跟我走，離開家鄉去@殺好人。』吾逃離了他。」",
+      "note": ""
+    },
+    {
+      "offset": 1207,
+      "len": 41,
+      "en": "\"Like people in town. Like Lord British.\"",
+      "zh": "「像城鎮裡的人。像不列顛王那樣的好人。」",
+      "note": ""
+    },
+    {
+      "offset": 1259,
+      "len": 33,
+      "en": "\"Utomo go and drink at her home.\"",
+      "zh": "「烏托摩去她那裡喝酒。」",
+      "note": "about Andrea"
+    },
+    {
+      "offset": 1295,
+      "len": 69,
+      "en": "She try @kiss Utomo. Utomo say, 'I no want you' but she kiss anyway.\"",
+      "zh": "她想@親吻烏托摩。烏托摩說『吾不要』，但她還是親了。」",
+      "note": "Andrea kissed him"
+    },
+    {
+      "offset": 1367,
+      "len": 26,
+      "en": "\"Utomo not go back there.\"",
+      "zh": "「烏托摩不會再去那裡了。」",
+      "note": ""
+    },
+    {
+      "offset": 1404,
+      "len": 29,
+      "en": "\"Utomo have @girl back home.\"",
+      "zh": "「烏托摩在家鄉有個@女孩。」",
+      "note": ""
+    },
+    {
+      "offset": 1436,
+      "len": 27,
+      "en": "\"She not thin like Andrea.\"",
+      "zh": "「她不像安德莉亞那麼瘦。」",
+      "note": "comparison"
+    },
+    {
+      "offset": 1466,
+      "len": 36,
+      "en": "\"Someday Utomo go back and get her.\"",
+      "zh": "「總有一天烏托摩會回去找她。」",
+      "note": ""
+    },
+    {
+      "offset": 1505,
+      "len": 10,
+      "en": "\"Someday.\"",
+      "zh": "「總有一天。」",
+      "note": ""
+    },
+    {
+      "offset": 1518,
+      "len": 71,
+      "en": "He plays the poker over the hot coals and looks absently into the fire.",
+      "zh": "他用撥火棍撥弄熱炭，心不在焉地凝視著火焰。",
+      "note": "action"
+    },
+    {
+      "offset": 1605,
+      "len": 68,
+      "en": "\"Her name Yuna. She good tree climber. I not see her for long time.\"",
+      "zh": "「她叫由奈。她很擅長爬樹。吾已很久沒見到她了。」",
+      "note": ""
+    },
+    {
+      "offset": 1688,
+      "len": 49,
+      "en": "\"In my land it mean 'You have good meal in sun.'\"",
+      "zh": "「在吾的家鄉，那句話意思是『願你在陽光下飽食』。」",
+      "note": "Omdu Yaf explanation"
+    },
+    {
+      "offset": 1740,
+      "len": 27,
+      "en": "\"It is goodbye in my land.\"",
+      "zh": "「那是吾家鄉的道別語。」",
+      "note": ""
+    },
+    {
+      "offset": 1777,
+      "len": 12,
+      "en": "\"@Omdu Yaf.\"",
+      "zh": "「@Omdu Yaf。」",
+      "note": "bye in island language; keep untranslated"
+    },
+    {
+      "offset": 1800,
+      "len": 37,
+      "en": "\"I speak not too much your language.\"",
+      "zh": "「吾說汝的語言不太好。」",
+      "note": ""
+    },
+    {
+      "offset": 1850,
+      "len": 32,
+      "en": "\"Come to my shop when I'm open!\"",
+      "zh": "「吾開店時來光顧！」",
+      "note": ""
+    },
+    {
+      "offset": 2026,
+      "len": 31,
+      "en": "\"But you no have thing I want!\"",
+      "zh": "「但汝沒有吾要的東西！」",
+      "note": ""
+    },
+    {
+      "offset": 2092,
+      "len": 29,
+      "en": "\"$Y have something I want...\"",
+      "zh": "「$Y 有吾想要的東西……」",
+      "note": ""
+    },
+    {
+      "offset": 2183,
+      "len": 16,
+      "en": "\"Which of you?\" ",
+      "zh": "「汝等哪一位？」",
+      "note": ""
+    },
+    {
+      "offset": 2420,
+      "len": 14,
+      "en": "\"Which item?\" ",
+      "zh": "「哪件物品？」",
+      "note": ""
+    },
+    {
+      "offset": 2512,
+      "len": 39,
+      "en": "\"I give #7 gold for that $0, okay $Y?\" ",
+      "zh": "「那件 $0，吾出 #7 枚金幣，好嗎 $Y？」",
+      "note": ""
+    },
+    {
+      "offset": 2564,
+      "len": 14,
+      "en": "\"Maybe later.\"",
+      "zh": "「也許改天。」",
+      "note": ""
+    },
+    {
+      "offset": 2586,
+      "len": 23,
+      "en": "\"Maybe something else?\"",
+      "zh": "「也許有其他東西？」",
+      "note": ""
+    },
+    {
+      "offset": 2625,
+      "len": 52,
+      "en": "\"Good!\" $N hands $Y #7 gold pieces and takes the $0.",
+      "zh": "「好！」$N 給 $Y #7 枚金幣，取走 $0。",
+      "note": ""
+    },
+    {
+      "offset": 2733,
+      "len": 20,
+      "en": "\"No more, ah? Okay.\"",
+      "zh": "「沒有了，嗯？好吧。」",
+      "note": ""
+    },
+    {
+      "offset": 2767,
+      "len": 32,
+      "en": "\"Come to my shop when I'm open!\"",
+      "zh": "「吾開店時來光顧！」",
+      "note": ""
+    },
+    {
+      "offset": 2886,
+      "len": 16,
+      "en": "\"Which of you?\" ",
+      "zh": "「汝等哪一位？」",
+      "note": ""
+    },
+    {
+      "offset": 3052,
+      "len": 14,
+      "en": "\"Which item?\" ",
+      "zh": "「哪件物品？」",
+      "note": ""
+    },
+    {
+      "offset": 3134,
+      "len": 22,
+      "en": "\"Sell $1 for #1 gold.\"",
+      "zh": "「$1 售價 #1 枚金幣。」",
+      "note": ""
+    },
+    {
+      "offset": 3159,
+      "len": 12,
+      "en": "\"Okay, $Y?\" ",
+      "zh": "「好嗎，$Y？」",
+      "note": ""
+    },
+    {
+      "offset": 3214,
+      "len": 30,
+      "en": "\"$1 is too heavy for you, $Y!\"",
+      "zh": "「$1 對汝來說太重了，$Y！」",
+      "note": ""
+    },
+    {
+      "offset": 3294,
+      "len": 7,
+      "en": "\"Good!\"",
+      "zh": "「好！」",
+      "note": ""
+    },
+    {
+      "offset": 3303,
+      "len": 48,
+      "en": "After accepting $Y's gold, $N hands over the $1.",
+      "zh": "收下 $Y 的金幣後，$N 遞出 $1。",
+      "note": ""
+    },
+    {
+      "offset": 3360,
+      "len": 31,
+      "en": "\"$1 cost too much for you, $Y!\"",
+      "zh": "「$1 對汝來說太貴了，$Y！」",
+      "note": ""
+    },
+    {
+      "offset": 3441,
+      "len": 4,
+      "en": "Club",
+      "zh": "棍棒",
+      "note": "weapon"
+    },
+    {
+      "offset": 3446,
+      "len": 6,
+      "en": "Dagger",
+      "zh": "短刃",
+      "note": "weapon"
+    },
+    {
+      "offset": 3453,
+      "len": 5,
+      "en": "Spear",
+      "zh": "長矛",
+      "note": "weapon"
+    },
+    {
+      "offset": 3459,
+      "len": 12,
+      "en": "Throwing Axe",
+      "zh": "投擲斧",
+      "note": "weapon"
+    },
+    {
+      "offset": 3472,
+      "len": 12,
+      "en": "2-Handed Axe",
+      "zh": "雙手斧",
+      "note": "weapon"
+    },
+    {
+      "offset": 3485,
+      "len": 10,
+      "en": "Brass Helm",
+      "zh": "黃銅盔",
+      "note": "armor"
+    },
+    {
+      "offset": 3496,
+      "len": 14,
+      "en": "Leather Armour",
+      "zh": "皮革甲",
+      "note": "armor"
+    },
+    {
+      "offset": 3511,
+      "len": 12,
+      "en": "Leather Helm",
+      "zh": "皮革盔",
+      "note": "armor"
+    },
+    {
+      "offset": 3524,
+      "len": 9,
+      "en": "Ring Mail",
+      "zh": "鎖環甲",
+      "note": "armor"
+    },
+    {
+      "offset": 3534,
+      "len": 11,
+      "en": "Swamp Boots",
+      "zh": "沼澤靴",
+      "note": "armor"
+    }
+  ],
+  "glossary_additions": {
+    "people": {
+      "Utomo": "烏托摩",
+      "Yuna": "由奈"
+    },
+    "places": {},
+    "concepts": {
+      "Ombogo sano": "Ombogo sano（島語：你好，朋友）",
+      "Ombogo dono": "Ombogo dono（島語：你好，陌生人）",
+      "Omdu Yaf": "Omdu Yaf（島語：道別語）"
+    }
+  },
+  "translator_notes": "烏托摩是個以第三人稱自稱的外來鐵匠，英語生硬但直率可愛。保留島語詞彙（Ombogo/sano/dono/Omdu Yaf）不翻譯，改以括號說明。由奈（Yuna）是他在故鄉的戀人。"
+}

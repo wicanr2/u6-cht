@@ -1,0 +1,132 @@
+{
+ "translations": [
+  {
+   "offset": 9,
+   "len": 66,
+   "en": "a burly man, who looks a little healthier than the other patients.",
+   "zh": "身形魁梧之男子，看上去比其他傷患稍好一些。",
+   "note": "DESC"
+  },
+  {
+   "offset": 90,
+   "len": 41,
+   "en": "\"Good (cough) day, $G. What is thy name?\"",
+   "zh": "「（咳）$G，汝叫何名？」",
+   "note": ""
+  },
+  {
+   "offset": 134,
+   "len": 76,
+   "en": "\"I am called Gertan. My fellows and I are recovering from a fierce @battle.\"",
+   "zh": "「吾名葛爾坦。吾等正在從一場激烈的@戰鬥中恢復。」",
+   "note": ""
+  },
+  {
+   "offset": 229,
+   "len": 33,
+   "en": "\"Tis good to see thee again, $P.\"",
+   "zh": "「再次見到汝，甚是歡喜，$P。」",
+   "note": ""
+  },
+  {
+   "offset": 270,
+   "len": 20,
+   "en": "\"Gertan, my friend.\"",
+   "zh": "「葛爾坦，朋友。」",
+   "note": ""
+  },
+  {
+   "offset": 300,
+   "len": 57,
+   "en": "\"I lead my men into @battle whenever @Geoffrey sends me.\"",
+   "zh": "「每當@傑佛瑞派遣，吾便率部衝入@戰陣。」",
+   "note": ""
+  },
+  {
+   "offset": 368,
+   "len": 33,
+   "en": "\"He is the captain of the guard.\"",
+   "zh": "「他是衛隊長官。」",
+   "note": ""
+  },
+  {
+   "offset": 417,
+   "len": 6,
+   "en": "\"Aye.\"",
+   "zh": "「是的。」",
+   "note": ""
+  },
+  {
+   "offset": 449,
+   "len": 49,
+   "en": "\"We sought to liberate the Shrine of Compassion.\"",
+   "zh": "「吾等欲從敵手奪回慈悲聖壇。」",
+   "note": ""
+  },
+  {
+   "offset": 501,
+   "len": 109,
+   "en": "\"My men fought valiantly, but the gargoyles were too much for us. They didst @slay more than half our party.\"",
+   "zh": "「吾麾下英勇奮戰，奈何魔像族勢不可擋。他們@殺死了我方過半人馬。」",
+   "note": ""
+  },
+  {
+   "offset": 631,
+   "len": 60,
+   "en": "\"Aye, I doubt not they were using foul @magic of some kind.\"",
+   "zh": "「是的，吾確信他們施用了某種邪惡的@魔法。」",
+   "note": ""
+  },
+  {
+   "offset": 707,
+   "len": 71,
+   "en": "\"A moonstone was upon the shrine, surrounded by a strange violet glow.\"",
+   "zh": "「聖壇之上有一塊月光石，四周籠罩著奇異的紫色光芒。」",
+   "note": ""
+  },
+  {
+   "offset": 781,
+   "len": 74,
+   "en": "\"I tried to get to it, but 'twas surrounded by some kind of force @field.\"",
+   "zh": "「吾試圖靠近，卻被某種@能量場所阻隔。」",
+   "note": ""
+  },
+  {
+   "offset": 891,
+   "len": 40,
+   "en": "\"'Tis a matter beyond my comprehension.\"",
+   "zh": "「此事超乎吾之理解。」",
+   "note": ""
+  },
+  {
+   "offset": 947,
+   "len": 100,
+   "en": "\"Hast thou heard, then, of the time I slew the great @dragon Freitag? Ah, that was a long time ago.\"",
+   "zh": "「汝可曾聽聞，吾昔日斬殺大@龍弗瑞塔之事？唉，那已是許久之前了。」",
+   "note": "避'許'→用「許久」非5C尾字"
+  },
+  {
+   "offset": 1063,
+   "len": 24,
+   "en": "\"Those were the days...\"",
+   "zh": "「那是多好的歲月……」",
+   "note": ""
+  },
+  {
+   "offset": 1097,
+   "len": 51,
+   "en": "\"May thy efforts meet with more success than mine!\"",
+   "zh": "「願汝有所建樹，勝過吾之落敗！」",
+   "note": ""
+  },
+  {
+   "offset": 1153,
+   "len": 31,
+   "en": "\"I cannot help thee with that.\"",
+   "zh": "「此事吾幫不上忙。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {}, "places": {}},
+ "translator_notes": "Gertan 使用 thee/thou 古英文，譯為文白並用。弗瑞塔（Freitag）已在 glossary。"
+}

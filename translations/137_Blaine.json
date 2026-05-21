@@ -1,0 +1,300 @@
+{
+ "translations": [
+  {
+   "offset": 9,
+   "len": 27,
+   "en": "a slightly built gypsy lad.",
+   "zh": "身材略顯瘦小的吉普賽少年。",
+   "note": "DESC"
+  },
+  {
+   "offset": 57,
+   "len": 76,
+   "en": "\"Our dog did his best trick for you. You should show him some appreciation.\"",
+   "zh": "「我們的狗為你表演了最拿手的把戲。你應該表示一些謝意。」",
+   "note": ""
+  },
+  {
+   "offset": 136,
+   "len": 10,
+   "en": "\"Good $T.\"",
+   "zh": "「$T好。」",
+   "note": ""
+  },
+  {
+   "offset": 154,
+   "len": 21,
+   "en": "\"I am called Blaine.\"",
+   "zh": "「吾名布萊恩。」",
+   "note": ""
+  },
+  {
+   "offset": 191,
+   "len": 66,
+   "en": "\"I am a @juggler. But I would fain @join thee and go adventuring.\"",
+   "zh": "「吾是一名@雜耍師。但吾心願@加入汝一同冒險。」",
+   "note": ""
+  },
+  {
+   "offset": 310,
+   "len": 71,
+   "en": "\"I don't have anything to sell just now. Check back with me next week.\"",
+   "zh": "「我現在沒什麼可賣的。下週再來找我吧。」",
+   "note": ""
+  },
+  {
+   "offset": 391,
+   "len": 62,
+   "en": "\"Here's a little tune to lighten your step on the road ahead.\"",
+   "zh": "「讓吾唱首小曲，為汝前路輕盈腳步。」",
+   "note": ""
+  },
+  {
+   "offset": 456,
+   "len": 42,
+   "en": "\"Said the youthful earl to the gypsy girl,",
+   "zh": "「年輕伯爵對吉普賽少女說，",
+   "note": "歌詞第一行"
+  },
+  {
+   "offset": 499,
+   "len": 42,
+   "en": "As the moon was casting its silver shine:\"",
+   "zh": "在月光傾灑銀輝之時：」",
+   "note": "歌詞第二行"
+  },
+  {
+   "offset": 544,
+   "len": 33,
+   "en": "\"Dear little lady, my gypsy lady,",
+   "zh": "「親愛的姑娘，我的吉普賽姑娘，",
+   "note": "歌詞第三行"
+  },
+  {
+   "offset": 578,
+   "len": 39,
+   "en": "Let me kiss those sweet lips of thine.\"",
+   "zh": "讓我親吻汝那甜蜜的朱唇。」",
+   "note": "歌詞第四行"
+  },
+  {
+   "offset": 622,
+   "len": 29,
+   "en": "\"I can't help you with that.\"",
+   "zh": "「這個我幫不上忙。」",
+   "note": ""
+  },
+  {
+   "offset": 657,
+   "len": 56,
+   "en": "\"My advice will cost you a gold coin. What do you say?\" ",
+   "zh": "「吾的建議需要一枚金幣。汝意下如何？」",
+   "note": ""
+  },
+  {
+   "offset": 719,
+   "len": 14,
+   "en": "\"As you wish.\"",
+   "zh": "「隨汝便。」",
+   "note": ""
+  },
+  {
+   "offset": 750,
+   "len": 24,
+   "en": "\"Best check your purse.\"",
+   "zh": "「最好先查查你的錢袋。」",
+   "note": ""
+  },
+  {
+   "offset": 806,
+   "len": 65,
+   "en": "\"Almost due east of Iolo's hut there lives a powerful enchanter.\"",
+   "zh": "「幾乎正在伊歐羅小屋正東方，住著一位強大的魔法師。」",
+   "note": ""
+  },
+  {
+   "offset": 876,
+   "len": 63,
+   "en": "\"I charge five gold for juggling. Would you like to see some?\" ",
+   "zh": "「觀看吾的雜耍需要五枚金幣。汝想看嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 945,
+   "len": 26,
+   "en": "\"Perhaps some other time.\"",
+   "zh": "「也許改日吧。」",
+   "note": ""
+  },
+  {
+   "offset": 988,
+   "len": 24,
+   "en": "\"Best check your purse.\"",
+   "zh": "「最好先查查你的錢袋。」",
+   "note": ""
+  },
+  {
+   "offset": 1044,
+   "len": 82,
+   "en": "The gypsy juggler takes three wands out of his knapsack and sets their ends afire.",
+   "zh": "這位吉普賽雜耍師從背包中取出三根魔杖，點燃杖端。",
+   "note": ""
+  },
+  {
+   "offset": 1129,
+   "len": 46,
+   "en": "Tossing them into the air, he begins juggling.",
+   "zh": "他將它們拋向空中，開始雜耍。",
+   "note": ""
+  },
+  {
+   "offset": 1178,
+   "len": 124,
+   "en": "The pattern is elaborate, almost hypnotic as the tips of the wands describe great flaming arcs and spirals through the air. ",
+   "zh": "動作繁複精妙，幾乎令人著迷，杖尖在空中劃出宏大的火焰弧線與螺旋。",
+   "note": ""
+  },
+  {
+   "offset": 1305,
+   "len": 58,
+   "en": "At regular intervals he tosses one around behind his back.",
+   "zh": "每隔一段時間，他將其中一根拋到背後繞行。",
+   "note": ""
+  },
+  {
+   "offset": 1366,
+   "len": 101,
+   "en": "Yet somehow it always finds its way back into the pattern with the other two, without missing a beat.",
+   "zh": "然而那根杖總能不差分毫地回到其餘兩根的節奏中。",
+   "note": ""
+  },
+  {
+   "offset": 1470,
+   "len": 117,
+   "en": "At last he catches all three of the wands in one hand, waves them with a great flourish, and bows deeply before you.*",
+   "zh": "最後他一手接住全部三根魔杖，大幅揮舞後，深深鞠躬。*",
+   "note": "保留 * 控制符"
+  },
+  {
+   "offset": 1589,
+   "len": 68,
+   "en": "As he extinguishes the wands, he says \"I hope you enjoyed the show.\"",
+   "zh": "他熄滅魔杖，說：「希望汝喜歡這場表演。」",
+   "note": ""
+  },
+  {
+   "offset": 1667,
+   "len": 28,
+   "en": "\"I have joined you already!\"",
+   "zh": "「吾已加入汝的隊伍了！」",
+   "note": ""
+  },
+  {
+   "offset": 1701,
+   "len": 35,
+   "en": "\"Do you want me to come with you?\" ",
+   "zh": "「汝想要吾同行嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1742,
+   "len": 46,
+   "en": "\"Okay. Let me know if you need my help later.\"",
+   "zh": "「好的。若以後需要吾的幫助，告訴吾。」",
+   "note": ""
+  },
+  {
+   "offset": 1810,
+   "len": 33,
+   "en": "\"Not while you're in that thing!\"",
+   "zh": "「在那玩意兒上就算了！」",
+   "note": "在船上無法加入"
+  },
+  {
+   "offset": 1856,
+   "len": 46,
+   "en": "\"You have enough travelling with you already.\"",
+   "zh": "「汝的隊伍已夠多人同行了。」",
+   "note": ""
+  },
+  {
+   "offset": 1905,
+   "len": 67,
+   "en": "\"If you ask one of them to @leave first, I'd be happy to join you.\"",
+   "zh": "「若汝請其中一人先@離隊，吾很樂意加入。」",
+   "note": ""
+  },
+  {
+   "offset": 1991,
+   "len": 54,
+   "en": "\"I look forward to the many adventures we will share.\"",
+   "zh": "「吾期待著吾等一同分享的諸多冒險。」",
+   "note": ""
+  },
+  {
+   "offset": 2047,
+   "len": 58,
+   "en": "\"I knew it! You don't really want to have a gypsy around.\"",
+   "zh": "「吾就知道！汝其實不想帶著吉普賽人。」",
+   "note": ""
+  },
+  {
+   "offset": 2108,
+   "len": 39,
+   "en": "\"You wish me to leave you now, right?\" ",
+   "zh": "「汝希望吾現在離開，對嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 2153,
+   "len": 24,
+   "en": "\"Oh, pardon my mistake.\"",
+   "zh": "「哦，請原諒吾的誤解。」",
+   "note": ""
+  },
+  {
+   "offset": 2180,
+   "len": 84,
+   "en": "\"It's just that we gypsies often have trouble finding acceptance among the gorgios.\"",
+   "zh": "「只是吾等吉普賽人常常難以獲得外人的接納。」",
+   "note": ""
+  },
+  {
+   "offset": 2267,
+   "len": 80,
+   "en": "\"I'm very grateful that you've given me the chance to come along on your quest.\"",
+   "zh": "「吾非常感激汝給了吾機會，讓吾參與此次試煉。」",
+   "note": ""
+  },
+  {
+   "offset": 2365,
+   "len": 54,
+   "en": "\"Let's get our feet back on solid ground first, okay?\"",
+   "zh": "「先讓我們腳踩實地再說，好嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 2426,
+   "len": 63,
+   "en": "\"Fine. I'll be with my fellow gypsies if you change your mind.\"",
+   "zh": "「好吧。若汝改變主意，吾在族人那裡。」",
+   "note": ""
+  },
+  {
+   "offset": 2492,
+   "len": 57,
+   "en": "\"I suppose you'll be wanting to keep all this equipment.\"",
+   "zh": "「吾想汝會想留下這些裝備吧。」",
+   "note": ""
+  },
+  {
+   "offset": 2552,
+   "len": 61,
+   "en": "He leaves everything he was carrying in a pile on the ground.",
+   "zh": "他將隨身攜帶的所有物品堆放在地上。",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Blaine": "布萊恩"}, "places": {}},
+ "translator_notes": "布萊恩是可加入隊伍的吉普賽雜耍少年，有火舞表演場景。用半文言（「吾/汝」）表現年輕人憧憬冒險的語氣。歌詞適度譯出。"
+}

@@ -1,0 +1,347 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 9,
+   "en": "Foodmaker",
+   "zh": "膳師",
+   "note": "NPC name — glossary 已有"
+  },
+  {
+   "offset": 12,
+   "len": 33,
+   "en": "a large and boisterous gargoyle.*",
+   "zh": "體形龐大、性情豪放之魔像。*",
+   "note": "DESC，* 控制符保留"
+  },
+  {
+   "offset": 47,
+   "len": 48,
+   "en": "He carries a 'knife' large enough to be a sword!",
+   "zh": "他手持一把大到可以當劍用的「菜刀」！",
+   "note": "旁白"
+  },
+  {
+   "offset": 124,
+   "len": 59,
+   "en": "\"The False Prophet!\" the gargoyle shouts. \"Begone, begone!\"",
+   "zh": "「偽先知！」魔像大喊。「滾！滾！」",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 184,
+   "len": 60,
+   "en": "\"An-bal-sil-fer!\" the gargoyle shouts. \"Gres por! Gres por!\"",
+   "zh": "「An-bal-sil-fer！」魔像大喊。「Gres por！Gres por！」",
+   "note": "魔像語保留"
+  },
+  {
+   "offset": 257,
+   "len": 54,
+   "en": "Half-jokingly, Iolo says, \"We'd better do as he says.\"",
+   "zh": "尤洛半開玩笑地說：「我們最好照他說的做。」",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 314,
+   "len": 52,
+   "en": "\"After all, we don't know what kind of meat that is!",
+   "zh": "「況且，我們也不知道那是什麼肉！",
+   "note": "旁白（未閉合）"
+  },
+  {
+   "offset": 378,
+   "len": 37,
+   "en": "\"To welcome you back, False Prophet!\"",
+   "zh": "「歡迎偽先知再次光臨！」",
+   "note": ""
+  },
+  {
+   "offset": 416,
+   "len": 20,
+   "en": "\"The False Prophet!\"",
+   "zh": "「偽先知！」",
+   "note": ""
+  },
+  {
+   "offset": 439,
+   "len": 40,
+   "en": "\"To welcome you to my place of cooking.\"",
+   "zh": "「歡迎光臨吾之廚所。」",
+   "note": ""
+  },
+  {
+   "offset": 483,
+   "len": 47,
+   "en": "\"To offer you the best @food in all the world!\"",
+   "zh": "「奉上天下最美味之@food食物！」",
+   "note": ""
+  },
+  {
+   "offset": 545,
+   "len": 52,
+   "en": "\"To not have food on me. To have you visit my shop.\"",
+   "zh": "「吾身上並未帶有食物。請至吾的店鋪。」",
+   "note": ""
+  },
+  {
+   "offset": 619,
+   "len": 68,
+   "en": "\"To be famous among all gargoyles for the quality of my horseflesh!\"",
+   "zh": "「吾之馬肉品質聞名於所有魔像之中！」",
+   "note": ""
+  },
+  {
+   "offset": 698,
+   "len": 48,
+   "en": "\"To be called Foodmaker, not having a name yet.\"",
+   "zh": "「吾被稱為膳師，尚未獲得真名。」",
+   "note": ""
+  },
+  {
+   "offset": 749,
+   "len": 40,
+   "en": "\"But to be the finest cook in the land!\"",
+   "zh": "「然吾乃此地最傑出之廚師！」",
+   "note": ""
+  },
+  {
+   "offset": 792,
+   "len": 46,
+   "en": "\"To receive a name someday soon for my skill!\"",
+   "zh": "「憑藉吾之技藝，不久後必可獲賜真名！」",
+   "note": ""
+  },
+  {
+   "offset": 849,
+   "len": 61,
+   "en": "\"The goodscrafter? To be pathetic!\" the huge gargoyle scowls.",
+   "zh": "「工匠？實在可悲！」這位龐大的魔像皺眉道。",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 913,
+   "len": 67,
+   "en": "\"To have self-pity, when strength and long work will give success!\"",
+   "zh": "「自怨自艾？力量與長久的努力才能帶來成功！」",
+   "note": ""
+  },
+  {
+   "offset": 983,
+   "len": 46,
+   "en": "\"To wish to hear no more about that creature.\"",
+   "zh": "「吾不願再聽到關於那個傢伙的任何事。」",
+   "note": ""
+  },
+  {
+   "offset": 1039,
+   "len": 71,
+   "en": "\"To cook and serve food for all the gargoyles who live in these parts!\"",
+   "zh": "「為居住在這一帶的所有魔像烹調膳食！」",
+   "note": ""
+  },
+  {
+   "offset": 1113,
+   "len": 66,
+   "en": "\"Also to guide and instruct the @wingless ones in cooking chores.\"",
+   "zh": "「亦指導@wingless無翼者承擔廚房雜務。」",
+   "note": ""
+  },
+  {
+   "offset": 1190,
+   "len": 36,
+   "en": "\"To have to watch their every move!\"",
+   "zh": "「須盯著他們的一舉一動！」",
+   "note": ""
+  },
+  {
+   "offset": 1229,
+   "len": 56,
+   "en": "\"But to acknowledge that they are vital to our society.\"",
+   "zh": "「然吾承認，他們對吾族社會不可或缺。」",
+   "note": ""
+  },
+  {
+   "offset": 1354,
+   "len": 44,
+   "en": "\"Well, yes, of course to have that as well.\"",
+   "zh": "「呃，是的，當然也有那個。」",
+   "note": ""
+  },
+  {
+   "offset": 1401,
+   "len": 43,
+   "en": "\"But to be famous for my roast horseflesh!\"",
+   "zh": "「然吾以烤馬肉聞名！」",
+   "note": ""
+  },
+  {
+   "offset": 1447,
+   "len": 39,
+   "en": "\"To offer you some of this fine @food!\"",
+   "zh": "「奉上些許這等美味之@food！」",
+   "note": ""
+  },
+  {
+   "offset": 1494,
+   "len": 25,
+   "en": "\"To not know what $Z is.\"",
+   "zh": "「不知$Z是何物。」",
+   "note": ""
+  },
+  {
+   "offset": 1522,
+   "len": 58,
+   "en": "\"But to gladly cook it for you if you tell me the recipe!\"",
+   "zh": "「然若汝告知食譜，吾便欣然為汝烹調！」",
+   "note": ""
+  },
+  {
+   "offset": 1586,
+   "len": 51,
+   "en": "\"Yes, yes! To offer you this finely roasted @meat!\"",
+   "zh": "「是是！奉上此精心烤製之@meat肉食！」",
+   "note": ""
+  },
+  {
+   "offset": 1640,
+   "len": 77,
+   "en": "With a few strokes of his huge knife, the gargoyle cuts you a slice of @meat.",
+   "zh": "魔像揮動巨刀幾下，為你切下一片@meat肉。",
+   "note": "旁白"
+  },
+  {
+   "offset": 1720,
+   "len": 22,
+   "en": "Do you take the meat? ",
+   "zh": "你接受這塊肉嗎？",
+   "note": "旁白提示"
+  },
+  {
+   "offset": 1748,
+   "len": 3,
+   "en": "You",
+   "zh": "你",
+   "note": "旁白前半"
+  },
+  {
+   "offset": 1755,
+   "len": 33,
+   "en": "r party eats the profferred food.",
+   "zh": "的隊伍吃下了奉上的食物。",
+   "note": "旁白後半（隊伍版）"
+  },
+  {
+   "offset": 1789,
+   "len": 25,
+   "en": " eat the profferred food.",
+   "zh": "吃下了奉上的食物。",
+   "note": "旁白（單人版）"
+  },
+  {
+   "offset": 1818,
+   "len": 48,
+   "en": "The flavor is unlike anything you've had before.",
+   "zh": "那滋味前所未有，難以形容。",
+   "note": "旁白"
+  },
+  {
+   "offset": 1890,
+   "len": 55,
+   "en": "Iolo speaks. \"I wonder what sort of @meat this is, $P.\"",
+   "zh": "尤洛開口：「不知這是什麼@meat肉，$P。」",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 1952,
+   "len": 90,
+   "en": "The gargoyle beams with pride. \"To ask you: Is it not the best @meat you have ever eaten?\"",
+   "zh": "魔像滿臉驕傲。「問汝：這不是汝所吃過最好的@meat肉嗎？」",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 2050,
+   "len": 36,
+   "en": "\"To be saddened by your not liking!\"",
+   "zh": "「汝不喜歡令吾深感難過！」",
+   "note": ""
+  },
+  {
+   "offset": 2089,
+   "len": 56,
+   "en": "\"To know of no finer cooker of @horseflesh than myself!\"",
+   "zh": "「天下烤@horseflesh馬肉無人勝過吾！」",
+   "note": ""
+  },
+  {
+   "offset": 2220,
+   "len": 7,
+   "en": "\"Wait!\"",
+   "zh": "「且慢！」",
+   "note": ""
+  },
+  {
+   "offset": 2230,
+   "len": 65,
+   "en": "\"To give you some fine horseflesh to take with you on your trip!\"",
+   "zh": "「贈汝些許精良馬肉，帶上路途！」",
+   "note": ""
+  },
+  {
+   "offset": 2298,
+   "len": 24,
+   "en": "Do you accept his gift? ",
+   "zh": "你接受他的禮物嗎？",
+   "note": "旁白提示"
+  },
+  {
+   "offset": 2345,
+   "len": 15,
+   "en": "The chef gives ",
+   "zh": "廚師給了",
+   "note": "旁白前半"
+  },
+  {
+   "offset": 2367,
+   "len": 3,
+   "en": "you",
+   "zh": "你",
+   "note": "旁白（單人版）"
+  },
+  {
+   "offset": 2371,
+   "len": 2,
+   "en": "$Y",
+   "zh": "$Y",
+   "note": "旁白（隊伍成員版）"
+  },
+  {
+   "offset": 2374,
+   "len": 17,
+   "en": " #2 horse chop\\s.",
+   "zh": " #2塊馬排。",
+   "note": "#N 控制符保留"
+  },
+  {
+   "offset": 2402,
+   "len": 37,
+   "en": "\"Well then, to save it here for you!\"",
+   "zh": "「那好，為汝保留在此！」",
+   "note": ""
+  },
+  {
+   "offset": 2448,
+   "len": 56,
+   "en": "\"To welcome you to come back when you are hungry again!\"",
+   "zh": "「歡迎汝下次肚子餓了再來！」",
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {},
+  "places": {}
+ },
+ "riddles_additions": [],
+ "translator_notes": "膳師為大塊頭豪放的魔像廚師，以馬肉料理聞名（暗示人類的馬史密斯被吃掉）。尤洛的評論保留幽默感。旁白分段結構（You/r party, eat/s）保持對應。"
+}

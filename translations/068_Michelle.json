@@ -1,0 +1,512 @@
+{
+  "translations": [
+    {
+      "offset": 11,
+      "len": 27,
+      "en": "an industrious young woman.",
+      "zh": "一位勤勞的年輕女子。",
+      "note": "DESC"
+    },
+    {
+      "offset": 55,
+      "len": 28,
+      "en": "\"Well, hello again, Avatar!\"",
+      "zh": "「哎，聖者，再次見到汝！」",
+      "note": ""
+    },
+    {
+      "offset": 94,
+      "len": 35,
+      "en": "\"How can I help thee this fine $T?\"",
+      "zh": "「這個美好的$T，吾能為汝做什麼？」",
+      "note": ""
+    },
+    {
+      "offset": 137,
+      "len": 15,
+      "en": "\"I'm Michelle.\"",
+      "zh": "「吾是米雪兒。」",
+      "note": ""
+    },
+    {
+      "offset": 155,
+      "len": 78,
+      "en": "\"Thou needn't tell me thy name, $P. The Avatar is famous throughout the land!\"",
+      "zh": "「汝無需告訴吾汝的名字，$P。聖者大名聞名天下！」",
+      "note": ""
+    },
+    {
+      "offset": 243,
+      "len": 79,
+      "en": "\"I weave baskets and beehives, just like my @father and his father before him.\"",
+      "zh": "「吾編織籃子和蜂箱，就像吾的@父親和他父親一樣。」",
+      "note": ""
+    },
+    {
+      "offset": 325,
+      "len": 62,
+      "en": "\"My @baskets are sold throughout Britannia!\" she adds proudly.",
+      "zh": "「吾的@籃子行銷整個不列顛尼亞！」她自豪地補充道。",
+      "note": ""
+    },
+    {
+      "offset": 410,
+      "len": 32,
+      "en": "\"Come to my shop when I'm open!\"",
+      "zh": "「吾開店時來光顧！」",
+      "note": ""
+    },
+    {
+      "offset": 466,
+      "len": 32,
+      "en": "\"Come to my shop when I'm open!\"",
+      "zh": "「吾開店時來光顧！」",
+      "note": ""
+    },
+    {
+      "offset": 516,
+      "len": 66,
+      "en": "\"I have all I need, and have no reason to purchase anything more.\"",
+      "zh": "「吾所需的一切都已齊備，沒有理由再購買什麼了。」",
+      "note": ""
+    },
+    {
+      "offset": 585,
+      "len": 29,
+      "en": "\"But I appreciate thy offer.\"",
+      "zh": "「但吾感謝汝的提議。」",
+      "note": ""
+    },
+    {
+      "offset": 630,
+      "len": 80,
+      "en": "\"Father once told me a story of weaving a basket large enough for eight people!\"",
+      "zh": "「父親曾告訴吾一個故事，說他曾編織過一個能容納八個人的大籃子！」",
+      "note": "balloon basket hint"
+    },
+    {
+      "offset": 713,
+      "len": 40,
+      "en": "\"He never showed me the @plans, though.\"",
+      "zh": "「但他從未讓吾看過@設計圖。」",
+      "note": ""
+    },
+    {
+      "offset": 771,
+      "len": 33,
+      "en": "\"Ask when I'm open for business!\"",
+      "zh": "「吾開店時再問吾！」",
+      "note": ""
+    },
+    {
+      "offset": 829,
+      "len": 75,
+      "en": "\"Yes, without accurate plans it takes far too much time to craft a basket.\"",
+      "zh": "「是的，沒有精確的設計圖，製作一個籃子會耗費太多時間。」",
+      "note": ""
+    },
+    {
+      "offset": 910,
+      "len": 55,
+      "en": "\"Then it was true! Father did weave a basket that big!\"",
+      "zh": "「那是真的！父親確實編過那麼大的籃子！」",
+      "note": ""
+    },
+    {
+      "offset": 968,
+      "len": 29,
+      "en": "\"Surely I could do the same.\"",
+      "zh": "「吾一定也能做到。」",
+      "note": ""
+    },
+    {
+      "offset": 1000,
+      "len": 35,
+      "en": "She studies the plans for a moment.",
+      "zh": "她仔細端詳設計圖片刻。",
+      "note": "action"
+    },
+    {
+      "offset": 1048,
+      "len": 40,
+      "en": "\"Farewell! I hope I've aided thy quest!\"",
+      "zh": "「珍重！吾希望吾幫到汝的任務了！」",
+      "note": "bye"
+    },
+    {
+      "offset": 1093,
+      "len": 13,
+      "en": "\"Beg pardon?\"",
+      "zh": "「請問汝說什麼？」",
+      "note": ""
+    },
+    {
+      "offset": 1112,
+      "len": 47,
+      "en": "\"Wouldst thou like to buy one of my weavings?\" ",
+      "zh": "「汝想購買吾的一件編織品嗎？」",
+      "note": ""
+    },
+    {
+      "offset": 1165,
+      "len": 63,
+      "en": "\"All right, though I can give thou the best price in the land!\"",
+      "zh": "「好吧，雖然吾已提供全境最優惠的價格了！」",
+      "note": ""
+    },
+    {
+      "offset": 1323,
+      "len": 16,
+      "en": "\"Which of you?\" ",
+      "zh": "「汝等哪一位？」",
+      "note": ""
+    },
+    {
+      "offset": 1385,
+      "len": 9,
+      "en": "1) Basket",
+      "zh": "1) 籃子",
+      "note": "menu item"
+    },
+    {
+      "offset": 1395,
+      "len": 10,
+      "en": "2) Beehive",
+      "zh": "2) 蜂箱",
+      "note": "menu item"
+    },
+    {
+      "offset": 1406,
+      "len": 13,
+      "en": "3) Custom job",
+      "zh": "3) 特製訂單",
+      "note": "menu item; balloon basket"
+    },
+    {
+      "offset": 1420,
+      "len": 14,
+      "en": "\"Which item?\" ",
+      "zh": "「哪件物品？」",
+      "note": ""
+    },
+    {
+      "offset": 1467,
+      "len": 31,
+      "en": "\"I fear my schedule is packed.\"",
+      "zh": "「吾恐怕行程已排滿。」",
+      "note": "custom job without plans"
+    },
+    {
+      "offset": 1501,
+      "len": 63,
+      "en": "\"I have no time to create a basket for which I have no @plans.\"",
+      "zh": "「吾沒有時間製作一個沒有@設計圖的籃子。」",
+      "note": ""
+    },
+    {
+      "offset": 1596,
+      "len": 32,
+      "en": "\"Those $1s cost #1 gold apiece.\"",
+      "zh": "「$1 每個 #1 枚金幣。」",
+      "note": ""
+    },
+    {
+      "offset": 1631,
+      "len": 27,
+      "en": "\"How many dost thou wish?\" ",
+      "zh": "「汝想要幾個？」",
+      "note": ""
+    },
+    {
+      "offset": 1803,
+      "len": 33,
+      "en": "\"Thou canst not carry that many!\"",
+      "zh": "「汝拿不了那麼多！」",
+      "note": ""
+    },
+    {
+      "offset": 1839,
+      "len": 32,
+      "en": "\"I will sell thee just #5 $1\\s.\"",
+      "zh": "「吾只賣給汝 #5 個 $1。」",
+      "note": ""
+    },
+    {
+      "offset": 1880,
+      "len": 35,
+      "en": "\"But thou canst not carry any $1s!\"",
+      "zh": "「但汝根本拿不了任何 $1！」",
+      "note": ""
+    },
+    {
+      "offset": 1925,
+      "len": 42,
+      "en": "\"Thou hast not enough gold for that many!\"",
+      "zh": "「汝的金幣不足以購買那麼多！」",
+      "note": ""
+    },
+    {
+      "offset": 1970,
+      "len": 32,
+      "en": "\"I will sell thee just #5 $1\\s.\"",
+      "zh": "「吾只賣給汝 #5 個 $1。」",
+      "note": ""
+    },
+    {
+      "offset": 2011,
+      "len": 36,
+      "en": "\"But thou canst not afford any $1s!\"",
+      "zh": "「但汝連一個 $1 也買不起！」",
+      "note": ""
+    },
+    {
+      "offset": 2053,
+      "len": 47,
+      "en": "Michelle takes $Y's money and hands over the $1",
+      "zh": "米雪兒收下 $Y 的金幣，遞出 $1",
+      "note": "partial"
+    },
+    {
+      "offset": 2109,
+      "len": 30,
+      "en": ". \"I appreciate thy business.\"",
+      "zh": "。「吾感謝汝的光顧。」",
+      "note": "partial end"
+    },
+    {
+      "offset": 2142,
+      "len": 40,
+      "en": "\"Is there aught else thou wouldst buy?\" ",
+      "zh": "「還有其他汝想購買的嗎？」",
+      "note": ""
+    },
+    {
+      "offset": 2203,
+      "len": 26,
+      "en": "\"Perhaps some other time.\"",
+      "zh": "「也許改天再說。」",
+      "note": ""
+    },
+    {
+      "offset": 2235,
+      "len": 13,
+      "en": "\"Enjoy thy $1",
+      "zh": "「好好使用汝的 $1",
+      "note": "partial"
+    },
+    {
+      "offset": 2255,
+      "len": 3,
+      "en": "s.\"",
+      "zh": "們。」",
+      "note": "plural suffix"
+    },
+    {
+      "offset": 2259,
+      "len": 2,
+      "en": ".\"",
+      "zh": "。」",
+      "note": "singular"
+    },
+    {
+      "offset": 2301,
+      "len": 32,
+      "en": "\"But it would weigh six stones!\"",
+      "zh": "「但那要重達六石！」",
+      "note": "custom basket; too heavy"
+    },
+    {
+      "offset": 2336,
+      "len": 59,
+      "en": "\"Thou couldst not carry such a basket, loaded as thou art.\"",
+      "zh": "「汝現在已負重累累，根本拿不動那樣的籃子。」",
+      "note": ""
+    },
+    {
+      "offset": 2398,
+      "len": 59,
+      "en": "\"Lighten thy load, and then I will weave thee this basket.\"",
+      "zh": "「先減輕行李，吾再為汝編織這個籃子。」",
+      "note": ""
+    },
+    {
+      "offset": 2497,
+      "len": 76,
+      "en": "\"Such a basket would cost 300 gold, in advance. Art thou still interested?\" ",
+      "zh": "「這樣的籃子需 300 枚金幣，須先付清。汝還有意購買嗎？」",
+      "note": ""
+    },
+    {
+      "offset": 2587,
+      "len": 47,
+      "en": "\"I do not blame thee. 'Tis a huge undertaking!\"",
+      "zh": "「吾不怪汝。這確實是個大工程！」",
+      "note": ""
+    },
+    {
+      "offset": 2676,
+      "len": 44,
+      "en": "\"Thou hast not enough money for the basket.\"",
+      "zh": "「汝的金幣不夠購買這個籃子。」",
+      "note": ""
+    },
+    {
+      "offset": 2723,
+      "len": 72,
+      "en": "\"I fear I cannot afford to start such a task on a mere #2 gold crown\\s.\"",
+      "zh": "「吾恐怕無法僅憑 #2 枚金幣就開始這樣的工程。」",
+      "note": ""
+    },
+    {
+      "offset": 2857,
+      "len": 55,
+      "en": "Your party takes up a collection to pay for the basket.",
+      "zh": "汝的隊伍湊錢支付籃子的費用。",
+      "note": "action"
+    },
+    {
+      "offset": 3033,
+      "len": 67,
+      "en": "She begins weaving the huge basket, chatting with you as she works.",
+      "zh": "她開始編織這個巨大的籃子，一邊工作一邊與汝閒聊。",
+      "note": "action"
+    },
+    {
+      "offset": 3103,
+      "len": 37,
+      "en": "\"Hast thou found a silk weaver yet?\" ",
+      "zh": "「汝找到絲綢工匠了嗎？」",
+      "note": "balloon bag hint"
+    },
+    {
+      "offset": 3146,
+      "len": 57,
+      "en": "\"Thou art wise, then. 'Tis a huge bag this will require.\"",
+      "zh": "「那汝真有遠見。這需要一個巨大的絲袋。」",
+      "note": ""
+    },
+    {
+      "offset": 3211,
+      "len": 57,
+      "en": "\"Well, I can see that this will require a huge silk bag.\"",
+      "zh": "「嗯，吾看得出這需要一個巨大的絲袋。」",
+      "note": ""
+    },
+    {
+      "offset": 3271,
+      "len": 61,
+      "en": "\"I know not where thou might find a silk weaver to craft it!\"",
+      "zh": "「吾不知道汝去哪裡找絲綢工匠來製作！」",
+      "note": ""
+    },
+    {
+      "offset": 3341,
+      "len": 33,
+      "en": "She continues weaving the basket.",
+      "zh": "她繼續編織籃子。",
+      "note": "action"
+    },
+    {
+      "offset": 3377,
+      "len": 64,
+      "en": "\"I do not mean to pry, but why dost thou need a balloon anyway?\"",
+      "zh": "「吾無意窺探，但汝究竟為何需要氣球？」",
+      "note": ""
+    },
+    {
+      "offset": 3446,
+      "len": 32,
+      "en": "\"I'm afraid I don't understand.\"",
+      "zh": "「吾恐怕不明白。」",
+      "note": ""
+    },
+    {
+      "offset": 3484,
+      "len": 12,
+      "en": "\"Oh, I see.\"",
+      "zh": "「哦，原來如此。」",
+      "note": ""
+    },
+    {
+      "offset": 3500,
+      "len": 33,
+      "en": "She continues weaving the basket.",
+      "zh": "她繼續編織籃子。",
+      "note": "action"
+    },
+    {
+      "offset": 3536,
+      "len": 14,
+      "en": "Time passes...",
+      "zh": "時間流逝……",
+      "note": "action"
+    },
+    {
+      "offset": 3553,
+      "len": 19,
+      "en": "More time passes...",
+      "zh": "更多時間流逝……",
+      "note": "action"
+    },
+    {
+      "offset": 3575,
+      "len": 11,
+      "en": "\"Finished!\"",
+      "zh": "「完成了！」",
+      "note": ""
+    },
+    {
+      "offset": 3589,
+      "len": 48,
+      "en": "\"It took less time than I had thought it might!\"",
+      "zh": "「比吾預想的花了更少時間！」",
+      "note": ""
+    },
+    {
+      "offset": 3664,
+      "len": 59,
+      "en": "She gives the basket to $Y, who struggles under its weight.",
+      "zh": "她將籃子交給 $Y，$Y 在其重量下吃力不堪。",
+      "note": "action"
+    },
+    {
+      "offset": 3751,
+      "len": 43,
+      "en": "\"These baskets are sturdy and decorative.\"*",
+      "zh": "「這些籃子既堅固又美觀。」*",
+      "note": ""
+    },
+    {
+      "offset": 3796,
+      "len": 72,
+      "en": "\"Thou'lt find no better in all Britannia for the price, a mere #1 gold.\"",
+      "zh": "「以這個價格，整個不列顛尼亞找不到更好的，僅需 #1 枚金幣。」",
+      "note": ""
+    },
+    {
+      "offset": 3869,
+      "len": 77,
+      "en": "\"If thou hast need of beehives, these woven ones are the best thou'lt find!\"*",
+      "zh": "「若汝需要蜂箱，這些編織的是汝能找到的最好的！」*",
+      "note": ""
+    },
+    {
+      "offset": 3948,
+      "len": 31,
+      "en": "\"And cheap, too, at #1 apiece.\"",
+      "zh": "「而且價格低廉，每個僅 #1 枚金幣。」",
+      "note": ""
+    }
+  ],
+  "glossary_additions": {
+    "people": {
+      "Michelle": "米雪兒"
+    },
+    "places": {},
+    "concepts": {
+      "balloon basket": "氣球籃",
+      "beehive": "蜂箱"
+    }
+  },
+  "translator_notes": "米雪兒是密諾克的年輕籃子工匠，家傳手藝。氣球任務的關鍵人物：她父親曾編過能容納八人的大籃子，需要設計圖才能製作。特製氣球籃子需 300 金且需有設計圖，完成後還需另找絲綢工匠製作氣囊。"
+}

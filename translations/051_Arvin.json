@@ -1,0 +1,253 @@
+{
+  "translations": [
+    {
+      "offset": 8,
+      "len": 15,
+      "en": "a tavernkeeper.",
+      "zh": "一位酒館老闆。",
+      "note": "DESC"
+    },
+    {
+      "offset": 52,
+      "len": 54,
+      "en": "The man looks up from his cooking. \"Aye, hello there.\"",
+      "zh": "男子從烹飪中抬起頭來。「是的，你好。」",
+      "note": ""
+    },
+    {
+      "offset": 109,
+      "len": 41,
+      "en": "\"'Fraid I can't talk now. I have to cook ",
+      "zh": "「恐怕現在不能說話。吾得烹調",
+      "note": "partial — concatenated"
+    },
+    {
+      "offset": 163,
+      "len": 16,
+      "en": "tonight's supper",
+      "zh": "今晚的晚餐",
+      "note": "dinner branch"
+    },
+    {
+      "offset": 180,
+      "len": 16,
+      "en": "tomorrow's lunch",
+      "zh": "明天的午餐",
+      "note": "lunch branch"
+    },
+    {
+      "offset": 197,
+      "len": 2,
+      "en": ".\"",
+      "zh": "。」",
+      "note": "sentence ender"
+    },
+    {
+      "offset": 202,
+      "len": 42,
+      "en": "\"Come back when it's ready and have some!\"",
+      "zh": "「準備好了再來嚐嚐！」",
+      "note": ""
+    },
+    {
+      "offset": 246,
+      "len": 31,
+      "en": "\"Welcome to the Sword and Keg.\"",
+      "zh": "「歡迎光臨劍與桶酒館。」",
+      "note": ""
+    },
+    {
+      "offset": 283,
+      "len": 33,
+      "en": "\"Anything else I can do for you?\"",
+      "zh": "「還有什麼吾能為汝效勞的？」",
+      "note": ""
+    },
+    {
+      "offset": 324,
+      "len": 19,
+      "en": "\"I be Arvin, mate.\"",
+      "zh": "「吾是阿文，朋友。」",
+      "note": ""
+    },
+    {
+      "offset": 359,
+      "len": 49,
+      "en": "\"Which, @rolls, @ale, @mead, @wine, or @rations?\"",
+      "zh": "「要@餐包、@麥酒、@蜂蜜酒、@葡萄酒，還是@口糧？」",
+      "note": ""
+    },
+    {
+      "offset": 418,
+      "len": 50,
+      "en": "\"I sell @rolls, @ale, @mead, @wine, and @rations.\"",
+      "zh": "「吾售賣@餐包、@麥酒、@蜂蜜酒、@葡萄酒及@口糧。」",
+      "note": ""
+    },
+    {
+      "offset": 556,
+      "len": 16,
+      "en": "\"See you later.\"",
+      "zh": "「後會有期。」",
+      "note": "bye"
+    },
+    {
+      "offset": 577,
+      "len": 29,
+      "en": "\"I can't help you with that.\"",
+      "zh": "「此事吾幫不上汝。」",
+      "note": ""
+    },
+    {
+      "offset": 693,
+      "len": 16,
+      "en": "\"Which of you?\" ",
+      "zh": "「汝等哪一位？」",
+      "note": ""
+    },
+    {
+      "offset": 761,
+      "len": 35,
+      "en": "\"That'll be #1 crowns. All right?\" ",
+      "zh": "「共 #1 枚銀幣。好嗎？」",
+      "note": ""
+    },
+    {
+      "offset": 843,
+      "len": 36,
+      "en": "\"Come back when you have some gold.\"",
+      "zh": "「有了金幣再來。」",
+      "note": ""
+    },
+    {
+      "offset": 913,
+      "len": 34,
+      "en": "\"You don't have room to carry it.\"",
+      "zh": "「汝沒有空間攜帶。」",
+      "note": ""
+    },
+    {
+      "offset": 1025,
+      "len": 32,
+      "en": "\"All right.\" $N gives $Y the $1.",
+      "zh": "「好的。」$N 將 $1 給了 $Y。",
+      "note": ""
+    },
+    {
+      "offset": 1069,
+      "len": 25,
+      "en": "\"Enjoy the drink, matey.\"",
+      "zh": "「請慢飲，朋友。」",
+      "note": ""
+    },
+    {
+      "offset": 1189,
+      "len": 16,
+      "en": "\"Which of you?\" ",
+      "zh": "「汝等哪一位？」",
+      "note": ""
+    },
+    {
+      "offset": 1244,
+      "len": 29,
+      "en": "\"That'll be 2 crowns, okay?\" ",
+      "zh": "「共 2 枚銀幣，好嗎？」",
+      "note": ""
+    },
+    {
+      "offset": 1299,
+      "len": 36,
+      "en": "\"Come back when you have some gold.\"",
+      "zh": "「有了金幣再來。」",
+      "note": ""
+    },
+    {
+      "offset": 1363,
+      "len": 34,
+      "en": "\"You don't have room to carry it.\"",
+      "zh": "「汝沒有空間攜帶。」",
+      "note": ""
+    },
+    {
+      "offset": 1449,
+      "len": 22,
+      "en": "$N gives $Y the rolls.",
+      "zh": "$N 將餐包給了 $Y。",
+      "note": ""
+    },
+    {
+      "offset": 1506,
+      "len": 36,
+      "en": "\"They're good with butter, ya know.\"",
+      "zh": "「配奶油吃很美味，汝知道嗎。」",
+      "note": ""
+    },
+    {
+      "offset": 1637,
+      "len": 16,
+      "en": "\"Which of you?\" ",
+      "zh": "「汝等哪一位？」",
+      "note": ""
+    },
+    {
+      "offset": 1737,
+      "len": 51,
+      "en": "\"Rations are 4 gold apiece. How many do you want?\" ",
+      "zh": "「口糧每份 4 枚金幣。汝要幾份？」",
+      "note": ""
+    },
+    {
+      "offset": 1964,
+      "len": 52,
+      "en": "$N looks at $Y. \"You haven't any room in your pack.\"",
+      "zh": "$N 望向 $Y。「汝的背包已無空間。」",
+      "note": ""
+    },
+    {
+      "offset": 2035,
+      "len": 36,
+      "en": "\"Come back when you have some gold.\"",
+      "zh": "「有了金幣再來。」",
+      "note": ""
+    },
+    {
+      "offset": 2135,
+      "len": 27,
+      "en": "$N hands the rations to $Y.",
+      "zh": "$N 將口糧交給 $Y。",
+      "note": ""
+    },
+    {
+      "offset": 2170,
+      "len": 31,
+      "en": "He hands $Y #9 mutton ration\\s.",
+      "zh": "他給了 $Y #9 份羊肉口糧。",
+      "note": ""
+    },
+    {
+      "offset": 2215,
+      "len": 27,
+      "en": "\"That's all you can carry.\"",
+      "zh": "「這已是汝所能攜帶的極限。」",
+      "note": ""
+    },
+    {
+      "offset": 2250,
+      "len": 28,
+      "en": "\"That's all you can afford.\"",
+      "zh": "「這已是汝所能負擔的極限。」",
+      "note": ""
+    }
+  ],
+  "glossary_additions": {
+    "people": {
+      "Arvin": "阿文"
+    },
+    "places": {},
+    "concepts": {
+      "rolls": "餐包",
+      "rations": "口糧"
+    }
+  },
+  "translator_notes": "阿文是劍與桶酒館的廚師兼老闆，語氣簡單直接。Arvin 已在 glossary。商店對話系統字串保留。"
+}

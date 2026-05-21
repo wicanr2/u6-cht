@@ -1,0 +1,486 @@
+{
+ "translations": [
+  {
+   "offset": 9,
+   "len": 43,
+   "en": "a very large woman with a deliberate smile.",
+   "zh": "一位體型碩大、笑容從容的女子。",
+   "note": "DESC"
+  },
+  {
+   "offset": 86,
+   "len": 74,
+   "en": "\"Dezana knows much. Have you returned for more @talk or are you in @need?\"",
+   "zh": "「德薩娜所知甚多。汝是來繼續@攀談，還是有所@需求？」",
+   "note": ""
+  },
+  {
+   "offset": 161,
+   "len": 58,
+   "en": "\"Mmm...yes?\" She looks down at you, her eyes merely slits.",
+   "zh": "「嗯……是？」她低頭俯視汝，眼睛瞇成一條縫。",
+   "note": ""
+  },
+  {
+   "offset": 235,
+   "len": 54,
+   "en": "\"@Dezana.\" She smiles like a cat preparing for a meal.",
+   "zh": "「@德薩娜。」她微笑，如同一隻準備進食的貓。",
+   "note": ""
+  },
+  {
+   "offset": 299,
+   "len": 42,
+   "en": "\"I can @heal, @cure, and even @resurrect.\"",
+   "zh": "「在下能@治傷、@解毒，甚至@起死回生。」",
+   "note": ""
+  },
+  {
+   "offset": 352,
+   "len": 60,
+   "en": "\"Yes? What is thy need--@healing, @curing or @resurrection?\"",
+   "zh": "「是？汝之需求為何——@治傷、@解毒還是@起死回生？」",
+   "note": ""
+  },
+  {
+   "offset": 464,
+   "len": 35,
+   "en": "\"What? But you carry no dead body!\"",
+   "zh": "「什麼？汝並未攜帶死者！」",
+   "note": ""
+  },
+  {
+   "offset": 521,
+   "len": 67,
+   "en": "\"That is correct. Now, are you here to @chat, or are you in @need?\"",
+   "zh": "「正是。那麼，汝是來@閒談的，還是有所@需求？」",
+   "note": ""
+  },
+  {
+   "offset": 609,
+   "len": 60,
+   "en": "\"There are many words which travel about this small hamlet.\"",
+   "zh": "「此小村莊中流傳著許多話語。」",
+   "note": ""
+  },
+  {
+   "offset": 672,
+   "len": 74,
+   "en": "\"Many are intriguing, some are even dangerous. What words have you heard?\"",
+   "zh": "「有些引人入勝，有些甚至暗藏危機。汝聽說了什麼？」",
+   "note": ""
+  },
+  {
+   "offset": 757,
+   "len": 82,
+   "en": "\"That is one worth speaking about. You see, many people travel the @spirit world.\"",
+   "zh": "「此事值得一談。汝知道，許多人遊歷@靈魂世界。」",
+   "note": ""
+  },
+  {
+   "offset": 842,
+   "len": 75,
+   "en": "\"Some are lost souls, others have a purpose. @Quenton is not a lost @soul.\"",
+   "zh": "「有些是迷失的靈魂，有些則有其目的。@昆頓並非迷失的@靈魂。」",
+   "note": ""
+  },
+  {
+   "offset": 938,
+   "len": 79,
+   "en": "\"It is a mystical place between here and the hereafter. Quenton resides there.\"",
+   "zh": "「那是介於此世與來世之間的神秘之所，昆頓居於其中。」",
+   "note": ""
+  },
+  {
+   "offset": 1033,
+   "len": 74,
+   "en": "\"They spent their whole life without learning anything or growing inside.\"",
+   "zh": "「他們一生未曾學到什麼，內心也從未成長。」",
+   "note": ""
+  },
+  {
+   "offset": 1110,
+   "len": 76,
+   "en": "\"They are as children left alone in a crib. Never learning, always seeking.\"",
+   "zh": "「他們如同被遺棄在搖籃中的孩子，從不學習，只是不斷尋求。」",
+   "note": ""
+  },
+  {
+   "offset": 1197,
+   "len": 61,
+   "en": "\"He had attained much wisdom before he was forced from here.\"",
+   "zh": "「他被迫離開此地之前，已積累了豐厚的智慧。」",
+   "note": ""
+  },
+  {
+   "offset": 1261,
+   "len": 31,
+   "en": "\"If his ghost has been seen...\"",
+   "zh": "「若他的幽靈已被目擊……」",
+   "note": ""
+  },
+  {
+   "offset": 1295,
+   "len": 25,
+   "en": "\"And I believe he has...\"",
+   "zh": "「而在下相信確實如此……」",
+   "note": ""
+  },
+  {
+   "offset": 1323,
+   "len": 83,
+   "en": "\"Then he must be attempting to communicate with us about some unfinished business.\"",
+   "zh": "「那他必是試圖就某些未竟之事與我等溝通。」",
+   "note": ""
+  },
+  {
+   "offset": 1409,
+   "len": 35,
+   "en": "\"Perhaps he knows who @killed him.\"",
+   "zh": "「或許他知道是誰@殺了他。」",
+   "note": ""
+  },
+  {
+   "offset": 1460,
+   "len": 97,
+   "en": "\"I know this much: if you wish to find out who murdered him, you won't be able to ask his ghost.\"",
+   "zh": "「在下可以告訴汝：若汝想查明誰謀殺了他，無法直接詢問其幽靈。」",
+   "note": ""
+  },
+  {
+   "offset": 1560,
+   "len": 67,
+   "en": "\"You see, the spirit world can not communicate with ours directly.\"",
+   "zh": "「汝可知，靈魂世界無法與我等的世界直接溝通。」",
+   "note": ""
+  },
+  {
+   "offset": 1630,
+   "len": 93,
+   "en": "\"Although his ghost can hear your questions, he'll respond by @manipulating the environment.\"",
+   "zh": "「雖然他的幽靈能聽見汝的問題，但他會藉由@操控環境來作答。」",
+   "note": ""
+  },
+  {
+   "offset": 1739,
+   "len": 76,
+   "en": "\"Yes, you know, make him demonstrate his answers by, say, shaking a branch.\"",
+   "zh": "「對，就是讓他以晃動樹枝之類的方式來表達答案。」",
+   "note": ""
+  },
+  {
+   "offset": 1826,
+   "len": 81,
+   "en": "\"Those creatures are dangerous. I have heard that they can tear a man to pieces.\"",
+   "zh": "「那些生靈十分危險。在下聽聞，他們能將人撕成碎片。」",
+   "note": ""
+  },
+  {
+   "offset": 1910,
+   "len": 62,
+   "en": "\"So why, then, did the gargoyles not attack @Stivius as well?\"",
+   "zh": "「那麼，魔像族為何未同時襲擊@斯提維斯？」",
+   "note": ""
+  },
+  {
+   "offset": 1975,
+   "len": 46,
+   "en": "\"Certainly he would have tasted just as good.\"",
+   "zh": "「他肯定同樣「味道鮮美」。」",
+   "note": ""
+  },
+  {
+   "offset": 2037,
+   "len": 78,
+   "en": "\"He is a very stiff man. I believe he may be hiding something about his past.\"",
+   "zh": "「那是個非常拘謹的人，在下相信他在隱瞞過去的某些事。」",
+   "note": ""
+  },
+  {
+   "offset": 2126,
+   "len": 45,
+   "en": "\"A nice fellow, but a bit too simple for me.\"",
+   "zh": "「好人一個，但對在下而言稍嫌簡單。」",
+   "note": ""
+  },
+  {
+   "offset": 2182,
+   "len": 86,
+   "en": "\"I know something about everyone in this village. However, this man is unknown to me.\"",
+   "zh": "「在下了解此村每個人的事，但此人對在下而言卻是謎。」",
+   "note": ""
+  },
+  {
+   "offset": 2271,
+   "len": 32,
+   "en": "\"He never talks about his past.\"",
+   "zh": "「他從不談及過去。」",
+   "note": ""
+  },
+  {
+   "offset": 2314,
+   "len": 64,
+   "en": "\"He is a dear old man. Never has a mean thing to say of anyone.\"",
+   "zh": "「他是個可親的老人，從不說他人的壞話。」",
+   "note": ""
+  },
+  {
+   "offset": 2389,
+   "len": 53,
+   "en": "\"A quaint little man. He has strong feelings for me.\"",
+   "zh": "「一個有趣的小個子，對在下深情款款。」",
+   "note": ""
+  },
+  {
+   "offset": 2445,
+   "len": 44,
+   "en": "\"I must admit, he has a cute way about him.\"",
+   "zh": "「在下必須承認，他自有一種可愛之處。」",
+   "note": ""
+  },
+  {
+   "offset": 2500,
+   "len": 76,
+   "en": "\"She has seen much pain in her life. More than even I can heal. I pity her.\"",
+   "zh": "「她這一生經歷了太多痛苦，甚至超出在下所能療愈之範疇，在下憐憫她。」",
+   "note": ""
+  },
+  {
+   "offset": 2587,
+   "len": 73,
+   "en": "\"He was once a great man. Discovered many of the herbs I use in healing.\"",
+   "zh": "「他曾是一位了不起的人，發現了許多在下用於治療的草藥。」",
+   "note": ""
+  },
+  {
+   "offset": 2663,
+   "len": 82,
+   "en": "\"He discovered something else, however: that total knowledge can corrupt totally.\"",
+   "zh": "「然而他也發現了另一件事：極致的知識能徹底腐化人心。」",
+   "note": ""
+  },
+  {
+   "offset": 2748,
+   "len": 83,
+   "en": "\"I don't know what drove him mad. And I don't want to know.\" She shudders slightly.",
+   "zh": "「在下不知是何物令他癲狂，也不想知道。」她微微顫抖。",
+   "note": ""
+  },
+  {
+   "offset": 2841,
+   "len": 31,
+   "en": "\"Return when you need healing.\"",
+   "zh": "「有需要治療時再來。」",
+   "note": ""
+  },
+  {
+   "offset": 2877,
+   "len": 40,
+   "en": "\"It is not my place to talk about that.\"",
+   "zh": "「此事非在下所宜言。」",
+   "note": ""
+  },
+  {
+   "offset": 2978,
+   "len": 22,
+   "en": "\"You look fine to me.\"",
+   "zh": "「汝看起來安然無恙。」",
+   "note": ""
+  },
+  {
+   "offset": 3123,
+   "len": 24,
+   "en": "\"None of you look hurt!\"",
+   "zh": "「汝等無人看起來受傷！」",
+   "note": ""
+  },
+  {
+   "offset": 3184,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪位？」",
+   "note": ""
+  },
+  {
+   "offset": 3289,
+   "len": 23,
+   "en": "\"I see thy injury, $Y.\"",
+   "zh": "「在下看到汝的傷了，$Y。」",
+   "note": ""
+  },
+  {
+   "offset": 3315,
+   "len": 40,
+   "en": "\"It will cost you 30 gold, interested?\" ",
+   "zh": "「診金30枚金幣，有意否？」",
+   "note": ""
+  },
+  {
+   "offset": 3377,
+   "len": 38,
+   "en": "$N approaches $Y and binds the wounds.",
+   "zh": "$N靠近$Y，為其包紮傷口。",
+   "note": ""
+  },
+  {
+   "offset": 3441,
+   "len": 37,
+   "en": "\"You must pay before I can heal you.\"",
+   "zh": "「汝須先付診金，在下方能為汝治傷。」",
+   "note": ""
+  },
+  {
+   "offset": 3487,
+   "len": 43,
+   "en": "\"Is there something else I can do for you?\"",
+   "zh": "「還有其他需要效勞之處？」",
+   "note": ""
+  },
+  {
+   "offset": 3590,
+   "len": 26,
+   "en": "\"You don't look poisoned.\"",
+   "zh": "「汝看起來並未中毒。」",
+   "note": ""
+  },
+  {
+   "offset": 3739,
+   "len": 63,
+   "en": "\"Perhaps you have a hangover, 'cause none of you are poisoned.\"",
+   "zh": "「或許汝是宿醉，因為汝等沒有一個中毒。」",
+   "note": ""
+  },
+  {
+   "offset": 3839,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪位？」",
+   "note": ""
+  },
+  {
+   "offset": 3944,
+   "len": 42,
+   "en": "\"You look poisoned to me.\" She nods at $Y.",
+   "zh": "「汝看起來確已中毒。」她向$Y點頭。",
+   "note": ""
+  },
+  {
+   "offset": 3989,
+   "len": 38,
+   "en": "\"It'll cost you 10 gold, interested?\" ",
+   "zh": "「解毒費10枚金幣，有意否？」",
+   "note": ""
+  },
+  {
+   "offset": 4049,
+   "len": 46,
+   "en": "$N grabs a vial and pours it down $Y's throat.",
+   "zh": "$N取出一瓶藥水，灌入$Y口中。",
+   "note": ""
+  },
+  {
+   "offset": 4098,
+   "len": 21,
+   "en": "$Y feels much better.",
+   "zh": "$Y頓感好多了。",
+   "note": ""
+  },
+  {
+   "offset": 4145,
+   "len": 37,
+   "en": "\"You must pay before I can heal you.\"",
+   "zh": "「汝須先付診金，在下方能為汝治傷。」",
+   "note": ""
+  },
+  {
+   "offset": 4192,
+   "len": 42,
+   "en": "\"I see that $Y carries a departed friend.\"",
+   "zh": "「在下見到$Y攜帶著一位亡友。」",
+   "note": ""
+  },
+  {
+   "offset": 4237,
+   "len": 43,
+   "en": "\"Resurrection costs 400 gold, interested?\" ",
+   "zh": "「起死回生費400枚金幣，有意否？」",
+   "note": ""
+  },
+  {
+   "offset": 4312,
+   "len": 14,
+   "en": "\"As you wish.\"",
+   "zh": "「悉聽尊便。」",
+   "note": ""
+  },
+  {
+   "offset": 4368,
+   "len": 29,
+   "en": "\"You don't have enough gold.\"",
+   "zh": "「汝金幣不足。」",
+   "note": ""
+  },
+  {
+   "offset": 4400,
+   "len": 40,
+   "en": "\"You might think about a proper burial.\"",
+   "zh": "「汝或許應考慮妥善安葬。」",
+   "note": ""
+  },
+  {
+   "offset": 4502,
+   "len": 58,
+   "en": "Your party takes up a collection for their fallen comrade.",
+   "zh": "汝的隊伍為倒下的同伴湊齊了費用。",
+   "note": ""
+  },
+  {
+   "offset": 4681,
+   "len": 32,
+   "en": "$N lays hands upon the corpse...",
+   "zh": "$N將手覆於屍體之上……",
+   "note": ""
+  },
+  {
+   "offset": 4716,
+   "len": 10,
+   "en": "\"Doman...\"",
+   "zh": "「多瑪恩……」",
+   "note": "咒語音譯"
+  },
+  {
+   "offset": 4729,
+   "len": 11,
+   "en": "\"thixus...\"",
+   "zh": "「提克蘇斯……」",
+   "note": "咒語音譯"
+  },
+  {
+   "offset": 4743,
+   "len": 9,
+   "en": "\"anretu!\"",
+   "zh": "「安瑞圖！」",
+   "note": "咒語音譯"
+  },
+  {
+   "offset": 4759,
+   "len": 24,
+   "en": "And the dead live again!",
+   "zh": "死者就此重生！",
+   "note": ""
+  },
+  {
+   "offset": 4809,
+   "len": 45,
+   "en": "\"I see that $Y carries another slain friend.\"",
+   "zh": "「在下見到$Y又攜帶了一位亡友。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Dezana": "德薩娜"
+  }
+ },
+ "translator_notes": "087 Dezana: 體型龐大的醫者，神秘見識廣博。靈魂世界理論重要。咒語音譯與081_Tobatha一致。"
+}

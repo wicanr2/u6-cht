@@ -1,0 +1,370 @@
+{
+ "translations": [
+  {
+   "offset": 10,
+   "len": 59,
+   "en": "a tall man, covered with scars and drooling uncontrollably.",
+   "zh": "滿身疤痕、止不住涎水的高大男子。",
+   "note": "DESC"
+  },
+  {
+   "offset": 86,
+   "len": 13,
+   "en": "\"Back again?\"",
+   "zh": "「又來了？」",
+   "note": ""
+  },
+  {
+   "offset": 100,
+   "len": 19,
+   "en": "\"What do you want?\"",
+   "zh": "「你想要什麼？」",
+   "note": ""
+  },
+  {
+   "offset": 133,
+   "len": 47,
+   "en": "\"I's a great craftsman, I is. Me shop is 'uge!\"",
+   "zh": "「俺是頂尖工匠，就是這樣。俺的鋪子老大了！」",
+   "note": "粗俗口語，I's=I am, 'uge=huge（省略h）"
+  },
+  {
+   "offset": 183,
+   "len": 49,
+   "en": "\"You'll hafta be more specific: @arms or @armor?\"",
+   "zh": "「你得說清楚點：要@武器還是@護甲？」",
+   "note": "hafta=have to 口語"
+  },
+  {
+   "offset": 317,
+   "len": 22,
+   "en": "\"What, you gone daft?\"",
+   "zh": "「什麼，你瘋了？」",
+   "note": ""
+  },
+  {
+   "offset": 342,
+   "len": 24,
+   "en": "\"I already made ya one!\"",
+   "zh": "「俺已經給你做了一個了！」",
+   "note": ""
+  },
+  {
+   "offset": 382,
+   "len": 39,
+   "en": "\"Go talk ta Koranada about that first.\"",
+   "zh": "「先去找科拉那達談談吧。」",
+   "note": "ta=to 口語"
+  },
+  {
+   "offset": 439,
+   "len": 11,
+   "en": "\"@Gherick.\"",
+   "zh": "「@葛里克。」",
+   "note": ""
+  },
+  {
+   "offset": 461,
+   "len": 55,
+   "en": "\"Are ya learnin' how ta speak or do ya need somethin'?\"",
+   "zh": "「你是在學說話，還是有什麼需要？」",
+   "note": ""
+  },
+  {
+   "offset": 526,
+   "len": 36,
+   "en": "\"I makes the most @hideous weapons!\"",
+   "zh": "「俺做的是最@駭人的武器！」",
+   "note": ""
+  },
+  {
+   "offset": 580,
+   "len": 42,
+   "en": "\"You ain't the sort what'd be interested.\"",
+   "zh": "「你不像是會感興趣的那種人。」",
+   "note": ""
+  },
+  {
+   "offset": 623,
+   "len": 57,
+   "en": "\"I ain't gonna tell you, you'd steal me brilliant ideas!\"",
+   "zh": "「俺不打算告訴你，你會偷走俺的絕妙創意！」",
+   "note": ""
+  },
+  {
+   "offset": 684,
+   "len": 48,
+   "en": "\"I got some other stuff you could @buy, though.\"",
+   "zh": "「不過俺有些別的東西你可以@買。」",
+   "note": ""
+  },
+  {
+   "offset": 743,
+   "len": 58,
+   "en": "\"She's got the best food in the land. Go see for yerself.\"",
+   "zh": "「她的食物是這片土地上最好的。自己去瞧瞧吧。」",
+   "note": "referring to Amanda"
+  },
+  {
+   "offset": 812,
+   "len": 35,
+   "en": "\"A fine warrior. New to this area.\"",
+   "zh": "「了不起的武士。剛到這一帶的。」",
+   "note": ""
+  },
+  {
+   "offset": 857,
+   "len": 42,
+   "en": "\"Shut the door on yer way out,\" he snarls.",
+   "zh": "「出去的時候把門關上，」他嘶聲說道。",
+   "note": ""
+  },
+  {
+   "offset": 911,
+   "len": 20,
+   "en": "He doesn't hear you.",
+   "zh": "他沒有聽見你。",
+   "note": ""
+  },
+  {
+   "offset": 932,
+   "len": 33,
+   "en": "He hears you but doesn't respond.",
+   "zh": "他聽見了，但沒有回應。",
+   "note": ""
+  },
+  {
+   "offset": 979,
+   "len": 32,
+   "en": "\"Come to my shop when I'm open!\"",
+   "zh": "「開門的時候來我的鋪子！」",
+   "note": ""
+  },
+  {
+   "offset": 1027,
+   "len": 35,
+   "en": "\"Huh? Oh, yeah, da serpent shield.\"",
+   "zh": "「哈？哦，對，那個蛇紋盾。」",
+   "note": "da=the 口音"
+  },
+  {
+   "offset": 1065,
+   "len": 40,
+   "en": "He looks around and then at the ceiling.",
+   "zh": "他環顧四周，然後抬頭看天花板。",
+   "note": ""
+  },
+  {
+   "offset": 1108,
+   "len": 59,
+   "en": "\"I needs a snake shield, a chunk o' gold, and a magic gem.\"",
+   "zh": "「俺需要一面蛇盾、一塊黃金，還有一顆魔法寶石。」",
+   "note": ""
+  },
+  {
+   "offset": 1170,
+   "len": 26,
+   "en": "\"Have ya got dese tings?\" ",
+   "zh": "「你有這些東西嗎？」",
+   "note": "dese tings=these things 口音"
+  },
+  {
+   "offset": 1291,
+   "len": 56,
+   "en": "He holds up a beautiful golden shield that glows softly.",
+   "zh": "他舉起一面美麗的金色盾牌，散發著柔和的光芒。",
+   "note": ""
+  },
+  {
+   "offset": 1350,
+   "len": 31,
+   "en": "\"Here ya go. Just as promised.\"",
+   "zh": "「給你。說到做到。」",
+   "note": ""
+  },
+  {
+   "offset": 1403,
+   "len": 37,
+   "en": "\"You ain't got all that I asked for.\"",
+   "zh": "「你還沒湊齊俺要的東西。」",
+   "note": ""
+  },
+  {
+   "offset": 1443,
+   "len": 23,
+   "en": "\"Come back when ya do!\"",
+   "zh": "「湊齊了再來！」",
+   "note": ""
+  },
+  {
+   "offset": 1483,
+   "len": 25,
+   "en": "\"What else can I get ya?\"",
+   "zh": "「還需要什麼？」",
+   "note": ""
+  },
+  {
+   "offset": 1520,
+   "len": 32,
+   "en": "\"Come to my shop when I'm open!\"",
+   "zh": "「開門的時候來俺的鋪子！」",
+   "note": ""
+  },
+  {
+   "offset": 1696,
+   "len": 32,
+   "en": "\"You ain't got nothing I wants.\"",
+   "zh": "「你沒有俺想要的東西。」",
+   "note": ""
+  },
+  {
+   "offset": 1762,
+   "len": 38,
+   "en": "\"Aye, $Y got somethin' interestin'...\"",
+   "zh": "「嘿，$Y有些有趣的東西……」",
+   "note": ""
+  },
+  {
+   "offset": 1832,
+   "len": 6,
+   "en": "#1) $Y",
+   "zh": "#1) $Y",
+   "note": "VM list格式，保留原文"
+  },
+  {
+   "offset": 1862,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪位？」",
+   "note": ""
+  },
+  {
+   "offset": 2053,
+   "len": 4,
+   "en": "#0) ",
+   "zh": "#0) ",
+   "note": "VM list格式，保留原文"
+  },
+  {
+   "offset": 2099,
+   "len": 14,
+   "en": "\"Which item?\" ",
+   "zh": "「要哪一件？」",
+   "note": ""
+  },
+  {
+   "offset": 2191,
+   "len": 53,
+   "en": "\"I'll give ya #7 gold for that $0, $Y. Whaddya say?\" ",
+   "zh": "「那件$0，$Y，俺出#7枚金幣。怎麼樣？」",
+   "note": "Whaddya=What do you 口語"
+  },
+  {
+   "offset": 2257,
+   "len": 45,
+   "en": "\"I don't bargain, mate. #7 and not a copper.\"",
+   "zh": "「俺不講價，夥計。就#7枚，一個銅板都不多。」",
+   "note": ""
+  },
+  {
+   "offset": 2309,
+   "len": 33,
+   "en": "\"Well, how 'bout somethin' else?\"",
+   "zh": "「那，有沒有別的東西？」",
+   "note": ""
+  },
+  {
+   "offset": 2358,
+   "len": 52,
+   "en": "\"Done!\" $N hands $Y #7 gold pieces and takes the $0.",
+   "zh": "「成交！」$N遞給$Y #7枚金幣，取走$0。",
+   "note": ""
+  },
+  {
+   "offset": 2465,
+   "len": 24,
+   "en": "\"Changed your mind, eh?\"",
+   "zh": "「改變主意了，嗯？」",
+   "note": ""
+  },
+  {
+   "offset": 2502,
+   "len": 32,
+   "en": "\"Come to my shop when I'm open!\"",
+   "zh": "「開門的時候來俺的鋪子！」",
+   "note": ""
+  },
+  {
+   "offset": 2581,
+   "len": 6,
+   "en": "#2) $Y",
+   "zh": "#2) $Y",
+   "note": "VM list格式，保留原文"
+  },
+  {
+   "offset": 2621,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪位？」",
+   "note": ""
+  },
+  {
+   "offset": 2716,
+   "len": 6,
+   "en": "#0) $0",
+   "zh": "#0) $0",
+   "note": "VM list格式，保留原文"
+  },
+  {
+   "offset": 2787,
+   "len": 14,
+   "en": "\"Which item?\" ",
+   "zh": "「要哪一件？」",
+   "note": ""
+  },
+  {
+   "offset": 2869,
+   "len": 24,
+   "en": "\"That $1 costs #1 gold.\"",
+   "zh": "「那件$1要#1枚金幣。」",
+   "note": ""
+  },
+  {
+   "offset": 2896,
+   "len": 18,
+   "en": "\"Interested, $Y?\" ",
+   "zh": "「有意嗎，$Y？」",
+   "note": ""
+  },
+  {
+   "offset": 2957,
+   "len": 41,
+   "en": "\"What's this? You can't carry no $1, $Y!\"",
+   "zh": "「怎麼了？你帶不了$1，$Y！」",
+   "note": ""
+  },
+  {
+   "offset": 3047,
+   "len": 8,
+   "en": "\"Great!\"",
+   "zh": "「好極！」",
+   "note": ""
+  },
+  {
+   "offset": 3057,
+   "len": 48,
+   "en": "After accepting $Y's gold, $N hands over the $1.",
+   "zh": "接過$Y的金幣後，$N遞上$1。",
+   "note": ""
+  },
+  {
+   "offset": 3114,
+   "len": 42,
+   "en": "\"What's this? You can't afford no $1, $Y!\"",
+   "zh": "「怎麼了？你買不起$1，$Y！」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Gherick": "葛里克", "Koranada": "科拉那達"}, "places": {}},
+ "translator_notes": "葛里克是粗俗的鐵匠，口語重（I's, 'uge, hafta, ta, dese tings），用「俺」突顯粗人形象。蛇紋盾（Serpent Shield）製作需要蛇盾+黃金+魔法寶石。武器/護甲品名為系統字串，不翻。"
+}

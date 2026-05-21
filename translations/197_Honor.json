@@ -1,0 +1,158 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 5,
+   "en": "Honor",
+   "zh": "榮耀祭壇",
+   "note": "NPC name — 神殿祭壇"
+  },
+  {
+   "offset": 8,
+   "len": 19,
+   "en": "the altar of Honor.",
+   "zh": "榮耀之祭壇。",
+   "note": "DESC"
+  },
+  {
+   "offset": 31,
+   "len": 68,
+   "en": "As you kneel before the altar, a mystical voice sounds in your head.",
+   "zh": "當你跪在祭壇前，一個神秘的聲音在你腦中迴響。",
+   "note": "旁白"
+  },
+  {
+   "offset": 109,
+   "len": 37,
+   "en": "\"Thou hast much to learn about honor.\"",
+   "zh": "「汝對榮耀仍有許多須學習之處。」",
+   "note": "低階評語"
+  },
+  {
+   "offset": 160,
+   "len": 40,
+   "en": "\"Thy deeds have shown admirable honor.\"",
+   "zh": "「汝之行為展現了令人欽佩的榮耀。」",
+   "note": "中階評語"
+  },
+  {
+   "offset": 200,
+   "len": 39,
+   "en": "\"Thy deeds serve as an example to all.\"",
+   "zh": "「汝之行為可為眾人表率。」",
+   "note": "高階評語"
+  },
+  {
+   "offset": 243,
+   "len": 39,
+   "en": "Do you wish to meditate at this altar? ",
+   "zh": "你希望在此祭壇冥想嗎？",
+   "note": "旁白提示，尾隨空格保留"
+  },
+  {
+   "offset": 332,
+   "len": 6,
+   "en": "#2. $Y",
+   "zh": "#2。$Y",
+   "note": "控制符保留"
+  },
+  {
+   "offset": 372,
+   "len": 21,
+   "en": "\"Who will meditate?\" ",
+   "zh": "「誰來冥想？」",
+   "note": "尾隨空格保留"
+  },
+  {
+   "offset": 429,
+   "len": 27,
+   "en": "\"Speak the Mantra of Honor.\"",
+   "zh": "「覆誦榮耀真言。」",
+   "note": ""
+  },
+  {
+   "offset": 460,
+   "len": 13,
+   "en": "\"$Z... $Z...\"",
+   "zh": "「$Z…… $Z……」",
+   "note": "真言提示第一次"
+  },
+  {
+   "offset": 476,
+   "len": 13,
+   "en": "\"$Z... $Z...\"",
+   "zh": "「$Z…… $Z……」",
+   "note": "真言提示第二次"
+  },
+  {
+   "offset": 492,
+   "len": 13,
+   "en": "\"$Z... $Z...\"",
+   "zh": "「$Z…… $Z……」",
+   "note": "真言提示第三次"
+  },
+  {
+   "offset": 513,
+   "len": 47,
+   "en": "\"Honor may be assailed, but can never be hurt.\"",
+   "zh": "「榮耀可受攻擊，但永不受傷。」",
+   "note": "聖言（約翰·彌爾頓《失樂園》典故）"
+  },
+  {
+   "offset": 563,
+   "len": 48,
+   "en": "\"Surprised by unjust force, but not enthralled.\"",
+   "zh": "「為不義之力所突襲，卻不受其奴役。」",
+   "note": "聖言（同上）"
+  },
+  {
+   "offset": 620,
+   "len": 29,
+   "en": "You receive no enlightenment.",
+   "zh": "你未能獲得啟示。",
+   "note": "旁白"
+  },
+  {
+   "offset": 864,
+   "len": 24,
+   "en": "$Y has gained a level...",
+   "zh": "$Y提升了一個等級……",
+   "note": "升級旁白"
+  },
+  {
+   "offset": 891,
+   "len": 15,
+   "en": "intelligence...",
+   "zh": "智力……",
+   "note": "能力提升（榮耀→智力+力量，第一項）"
+  },
+  {
+   "offset": 909,
+   "len": 13,
+   "en": "and strength!",
+   "zh": "以及力量！",
+   "note": "能力提升第二項"
+  },
+  {
+   "offset": 926,
+   "len": 53,
+   "en": "\"There is naught else for you to learn here and now.\"",
+   "zh": "「此刻此地，汝已無更多可學。」",
+   "note": ""
+  },
+  {
+   "offset": 982,
+   "len": 49,
+   "en": "\"Return when thy journey has progressed further.\"",
+   "zh": "「待汝的旅程更進一步，再行回返。」",
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {},
+  "places": {}
+ },
+ "riddles_additions": [],
+ "translator_notes": "榮耀神殿，真言 summ（不翻譯）。冥想獲得智力+力量提升。聖言引自約翰·彌爾頓《失樂園》，榮耀不可被奴役的主題。"
+}

@@ -1,0 +1,307 @@
+{
+ "translations": [
+  {
+   "offset": 7,
+   "len": 30,
+   "en": "a short, barefooted crazy man.",
+   "zh": "矮小、赤腳、瘋瘋癲癲的男子。",
+   "note": "DESC"
+  },
+  {
+   "offset": 40,
+   "len": 85,
+   "en": "\"At last! I knew you'd come to steal my @shoes someday! But I was too smart for you!\"",
+   "zh": "「終於來了！我就知道你哪天會來偷我的@鞋！但我比你聰明！」",
+   "note": ""
+  },
+  {
+   "offset": 128,
+   "len": 27,
+   "en": "\"You see, I HAVE NO SHOES!\"",
+   "zh": "「你看，我根本沒有鞋！」",
+   "note": "大寫保留強調感"
+  },
+  {
+   "offset": 163,
+   "len": 45,
+   "en": "\"A clever ploy, pretending to be friendly...\"",
+   "zh": "「裝出一副友善的面孔，真是狡猾的把戲……」",
+   "note": ""
+  },
+  {
+   "offset": 211,
+   "len": 92,
+   "en": "\"But if I told you my name was @Bonn, then you could work foul magic to destroy my mind...\"*",
+   "zh": "「但若我告訴你我的名字是@邦恩，你就能施展邪術摧毀我的心智……」*",
+   "note": "保留 * 控制符"
+  },
+  {
+   "offset": 305,
+   "len": 32,
+   "en": "\"I'll not fall for your tricks!\"",
+   "zh": "「我不會上你的當！」",
+   "note": ""
+  },
+  {
+   "offset": 354,
+   "len": 52,
+   "en": "\"Who told you that? Alas, I am undone! I must flee!\"",
+   "zh": "「誰告訴你的？唉，我完了！我得逃！」",
+   "note": ""
+  },
+  {
+   "offset": 425,
+   "len": 47,
+   "en": "\"I have no job, nor shoes, nor any such thing.\"",
+   "zh": "「我沒有工作，沒有鞋，什麼都沒有。」",
+   "note": ""
+  },
+  {
+   "offset": 475,
+   "len": 90,
+   "en": "\"But I've learned from my misfortune, learned never to @trust anyone, let alone to @love.\"",
+   "zh": "「但我從不幸中學到了東西——學到了永遠不要@信任任何人，更別說去@愛了。」",
+   "note": ""
+  },
+  {
+   "offset": 581,
+   "len": 55,
+   "en": "\"I threw my shoes into the @sea when I saw you coming!\"",
+   "zh": "「我一看見你來就把鞋丟進@海裡了！」",
+   "note": ""
+  },
+  {
+   "offset": 657,
+   "len": 61,
+   "en": "\"I trusted @Hawkins once, and it led to nothing but despair.\"",
+   "zh": "「我曾信任過@霍金斯，但那只帶來了絕望。」",
+   "note": ""
+  },
+  {
+   "offset": 729,
+   "len": 40,
+   "en": "\"Oh how I envy him his peaceful @sleep!\"",
+   "zh": "「哦我多麼羨慕他能安詳地@長眠！」",
+   "note": "Hawkins已死"
+  },
+  {
+   "offset": 814,
+   "len": 74,
+   "en": "\"Death's embrace is the only true @comfort a man can find in this @world.\"",
+   "zh": "「死亡的懷抱是人在這個@世界能找到的唯一真正@慰藉。」",
+   "note": ""
+  },
+  {
+   "offset": 904,
+   "len": 49,
+   "en": "\"A good chair is worth a thousand @bumberchutes.\"",
+   "zh": "「一把好椅子抵得上一千個@布博舒特。」",
+   "note": "bumberchute=發明詞"
+  },
+  {
+   "offset": 964,
+   "len": 58,
+   "en": "\"Who told you about those? It's supposed to be a @secret!\"",
+   "zh": "「誰告訴你那些的？那本該是個@秘密！」",
+   "note": ""
+  },
+  {
+   "offset": 1033,
+   "len": 40,
+   "en": "\"Flat as a pancake, and twice as tasty!\"",
+   "zh": "「像薄餅一樣扁，卻好吃兩倍！」",
+   "note": "關於世界"
+  },
+  {
+   "offset": 1084,
+   "len": 68,
+   "en": "\"Love is a slippery sled that flips over and pins you to the slope.\"",
+   "zh": "「愛情是一輛打滑的雪橇，它會翻轉，把你壓在坡上。」",
+   "note": ""
+  },
+  {
+   "offset": 1155,
+   "len": 44,
+   "en": "\"And then, at night, the ice @weasels come.\"",
+   "zh": "「然後，在夜裡，冰@鼬鼠就來了。」",
+   "note": ""
+  },
+  {
+   "offset": 1219,
+   "len": 37,
+   "en": "\"If you're lucky, they'll @kill you!\"",
+   "zh": "「若你走運，它們會把你@殺死！」",
+   "note": "荒誕幽默"
+  },
+  {
+   "offset": 1271,
+   "len": 49,
+   "en": "\"The buzzing, they're always buzzing in my head.\"",
+   "zh": "「那嗡嗡聲，它們一直在我腦中嗡嗡作響。」",
+   "note": ""
+  },
+  {
+   "offset": 1335,
+   "len": 47,
+   "en": "\"I can @help you! I'm the only @sane one left.\"",
+   "zh": "「我能@幫你！我是唯一剩下的@正常人。」",
+   "note": ""
+  },
+  {
+   "offset": 1403,
+   "len": 34,
+   "en": "\"All the others LOST THEIR SHOES!\"",
+   "zh": "「其他人都把鞋子弄丟了！」",
+   "note": ""
+  },
+  {
+   "offset": 1448,
+   "len": 64,
+   "en": "\"Go to the Shrine of Honesty, and stand just to the east of it.\"",
+   "zh": "「去誠實聖壇，站在它正東方。」",
+   "note": ""
+  },
+  {
+   "offset": 1515,
+   "len": 68,
+   "en": "\"Take 3 steps north, 2 steps west, 5 steps south, and 4 steps east.\"",
+   "zh": "「往北3步，往西2步，往南5步，往東4步。」",
+   "note": ""
+  },
+  {
+   "offset": 1586,
+   "len": 58,
+   "en": "\"Then eat some @grapes, and all will become clear to you!\"",
+   "zh": "「然後吃些@葡萄，一切就會清晰！」",
+   "note": ""
+  },
+  {
+   "offset": 1670,
+   "len": 16,
+   "en": "\"Mark my words!\"",
+   "zh": "「記住我的話！」",
+   "note": ""
+  },
+  {
+   "offset": 1696,
+   "len": 72,
+   "en": "A strange light comes into his eyes. \"The map? The secret treasure map?\"",
+   "zh": "他的眼神突然閃過異樣光芒。「地圖？那張秘密寶藏地圖？」",
+   "note": ""
+  },
+  {
+   "offset": 1771,
+   "len": 60,
+   "en": "\"I still have it, right here in my @house. Do you want it?\" ",
+   "zh": "「我還有，就在我的@房子裡。你想要嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1847,
+   "len": 85,
+   "en": "\"I lived on the sea, and I'll die not far from it. Then my @basement can be my tomb.\"",
+   "zh": "「我在海邊生活，也將在海邊附近死去。到那時，我的@地下室就是我的陵墓。」",
+   "note": ""
+  },
+  {
+   "offset": 1948,
+   "len": 47,
+   "en": "\"Too well hidden for the likes of you to find!\"",
+   "zh": "「藏得太好了，像你這樣的人根本找不到！」",
+   "note": ""
+  },
+  {
+   "offset": 2005,
+   "len": 63,
+   "en": "\"My shoes will be very happy there, @dancing with the fishies!\"",
+   "zh": "「我的鞋在那裡會很開心，和小魚兒@共舞！」",
+   "note": ""
+  },
+  {
+   "offset": 2084,
+   "len": 41,
+   "en": "\"They'll dance a @waltz, I doubt it not!\"",
+   "zh": "「它們會跳@華爾滋的，我毫不懷疑！」",
+   "note": ""
+  },
+  {
+   "offset": 2136,
+   "len": 32,
+   "en": "He begins laughing hysterically.",
+   "zh": "他開始歇斯底里地大笑。",
+   "note": ""
+  },
+  {
+   "offset": 2178,
+   "len": 59,
+   "en": "\"Farewell, sweet enemy. I love you more than my own death!\"",
+   "zh": "「再見，甜蜜的敵人。我愛你勝過愛我自己的死亡！」",
+   "note": ""
+  },
+  {
+   "offset": 2245,
+   "len": 24,
+   "en": "\"You're not one of @us!\"",
+   "zh": "「你不是@我們的人！」",
+   "note": ""
+  },
+  {
+   "offset": 2278,
+   "len": 24,
+   "en": "\"We know who @we are...\"",
+   "zh": "「@我們知道自己是誰……」",
+   "note": ""
+  },
+  {
+   "offset": 2311,
+   "len": 21,
+   "en": "\"Me and the @others.\"",
+   "zh": "「我和那些@其他人。」",
+   "note": ""
+  },
+  {
+   "offset": 2343,
+   "len": 49,
+   "en": "\"By the time you find out, it will be too @late!\"",
+   "zh": "「等你發現的時候，就已經太@遲了！」",
+   "note": ""
+  },
+  {
+   "offset": 2417,
+   "len": 29,
+   "en": "\"I won't tell you because...\"",
+   "zh": "「我不告訴你，因為……」",
+   "note": ""
+  },
+  {
+   "offset": 2457,
+   "len": 54,
+   "en": "\"Sometimes the @bees in my head almost drive me @mad!\"",
+   "zh": "「有時候腦袋裡的@蜜蜂幾乎把我逼@瘋！」",
+   "note": ""
+  },
+  {
+   "offset": 2523,
+   "len": 33,
+   "en": "\"Good! You can't have it anyway!\"",
+   "zh": "「太好了！你反正也拿不到！」",
+   "note": ""
+  },
+  {
+   "offset": 2563,
+   "len": 67,
+   "en": "\"Too bad! I've hidden it well, and it will go to my grave with me!\"",
+   "zh": "「可惜！我藏得很好，它會跟我一起進墳墓！」",
+   "note": ""
+  },
+  {
+   "offset": 2633,
+   "len": 47,
+   "en": "\"I'll @die all the better for still having it!\"",
+   "zh": "「還留著它，@死得更安心！」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Bonn": "邦恩"}, "places": {}},
+ "translator_notes": "邦恩是偏執的赤腳瘋子，曾信任霍金斯受騙。語言充滿荒誕邏輯和矛盾。有寶藏地圖但拒絕給出。bumberchute為原文發明詞，音譯「布博舒特」。"
+}

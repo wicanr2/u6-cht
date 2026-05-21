@@ -1,0 +1,409 @@
+{
+ "translations": [
+  {
+   "offset": 10,
+   "len": 22,
+   "en": "a doddering old woman.",
+   "zh": "一位步履蹣跚的老婦人。",
+   "note": "DESC"
+  },
+  {
+   "offset": 60,
+   "len": 33,
+   "en": "\"Who are you and what d'ye want?\"",
+   "zh": "「汝是何人，所為何來？」",
+   "note": ""
+  },
+  {
+   "offset": 103,
+   "len": 15,
+   "en": "\"Eh? Speak up!\"",
+   "zh": "「嗯？大聲說！」",
+   "note": ""
+  },
+  {
+   "offset": 171,
+   "len": 31,
+   "en": "\"Eh? What foolishness is this?\"",
+   "zh": "「嗯？這是什麼胡鬧？」",
+   "note": ""
+  },
+  {
+   "offset": 205,
+   "len": 34,
+   "en": "\"There ain't no dead person here!\"",
+   "zh": "「這裡根本沒有死人！」",
+   "note": ""
+  },
+  {
+   "offset": 261,
+   "len": 21,
+   "en": "\"My name's @Tobatha.\"",
+   "zh": "「老身名叫@托芭莎。」",
+   "note": ""
+  },
+  {
+   "offset": 291,
+   "len": 39,
+   "en": "\"But you can call me @maam, youngster.\"",
+   "zh": "「但汝可叫我@老太太，年輕人。」",
+   "note": ""
+  },
+  {
+   "offset": 341,
+   "len": 54,
+   "en": "\"That's @maam to you, youngster. Respect your elders!\"",
+   "zh": "「對我得叫@老太太，年輕人，尊老愛幼！」",
+   "note": ""
+  },
+  {
+   "offset": 411,
+   "len": 40,
+   "en": "\"That's better. Now, what did you want?\"",
+   "zh": "「這才對。那汝要什麼？」",
+   "note": ""
+  },
+  {
+   "offset": 461,
+   "len": 38,
+   "en": "\"Job? I'm a mender of the @inflicted!\"",
+   "zh": "「職業？老身是治療@患難者之人！」",
+   "note": ""
+  },
+  {
+   "offset": 502,
+   "len": 38,
+   "en": "\"If I weren't, why would you be here?\"",
+   "zh": "「若非如此，汝來此何為？」",
+   "note": ""
+  },
+  {
+   "offset": 543,
+   "len": 65,
+   "en": "\"Now stop this foolishness and tell me what you want, youngster.\"",
+   "zh": "「莫再胡鬧，年輕人，說吧，汝要什麼。」",
+   "note": ""
+  },
+  {
+   "offset": 619,
+   "len": 43,
+   "en": "\"I can @heal, @cure, and even @raise dead!\"",
+   "zh": "「老身能@治傷、@解毒，甚至@起死回生！」",
+   "note": ""
+  },
+  {
+   "offset": 673,
+   "len": 56,
+   "en": "\"Oh, sure! Thou art just trying to get on my good side.\"",
+   "zh": "「哦，是嘛！汝不過是想討老身歡心罷了。」",
+   "note": ""
+  },
+  {
+   "offset": 732,
+   "len": 22,
+   "en": "\"Well, it won't work!\"",
+   "zh": "「哼，沒用的！」",
+   "note": ""
+  },
+  {
+   "offset": 767,
+   "len": 40,
+   "en": "\"Hmph! And not so much as a @thank-you.\"",
+   "zh": "「哼！連個@謝字都沒有。」",
+   "note": ""
+  },
+  {
+   "offset": 810,
+   "len": 61,
+   "en": "\"Well, that's kids today for ye! No manners, the lot of 'em!\"",
+   "zh": "「這就是現在的年輕人！一個個都沒禮貌！」",
+   "note": ""
+  },
+  {
+   "offset": 878,
+   "len": 31,
+   "en": "\"Well, what can I do for thee?\"",
+   "zh": "「那老身能為汝效勞何事？」",
+   "note": ""
+  },
+  {
+   "offset": 917,
+   "len": 28,
+   "en": "\"Don't bother me with that!\"",
+   "zh": "「莫拿這種事來煩老身！」",
+   "note": ""
+  },
+  {
+   "offset": 1006,
+   "len": 47,
+   "en": "\"What do you mean, heal? Thou art not wounded!\"",
+   "zh": "「說什麼治傷？汝又沒有受傷！」",
+   "note": ""
+  },
+  {
+   "offset": 1176,
+   "len": 50,
+   "en": "\"What do you mean, heal? None of you are wounded!\"",
+   "zh": "「說什麼治傷？汝等沒有一個受傷！」",
+   "note": ""
+  },
+  {
+   "offset": 1263,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪位？」",
+   "note": ""
+  },
+  {
+   "offset": 1368,
+   "len": 27,
+   "en": "\"Aye, I see thy wound, $Y.\"",
+   "zh": "「嗯，老身看到汝的傷了，$Y。」",
+   "note": ""
+  },
+  {
+   "offset": 1398,
+   "len": 41,
+   "en": "\"Wilt thou make an offering of 30 gold?\" ",
+   "zh": "「汝願意奉上30枚金幣否？」",
+   "note": ""
+  },
+  {
+   "offset": 1461,
+   "len": 47,
+   "en": "Laying hands upon $Y, Tobatha mends the wounds.",
+   "zh": "托芭莎將手覆於$Y身上，為其療傷。",
+   "note": ""
+  },
+  {
+   "offset": 1550,
+   "len": 53,
+   "en": "\"Well, if thou wilt not pay, why should I heal thee?\"",
+   "zh": "「哼，若汝不肯付錢，老身憑何替汝治傷？」",
+   "note": ""
+  },
+  {
+   "offset": 1617,
+   "len": 49,
+   "en": "\"You youngsters think everything should be free!\"",
+   "zh": "「汝等年輕人以為什麼都是免費的！」",
+   "note": ""
+  },
+  {
+   "offset": 1672,
+   "len": 40,
+   "en": "\"Thou art not too bad, for a youngster.\"",
+   "zh": "「汝這年輕人還算不差。」",
+   "note": ""
+  },
+  {
+   "offset": 1715,
+   "len": 26,
+   "en": "\"All right, I'll heal ye.\"",
+   "zh": "「好吧，老身替汝療傷。」",
+   "note": ""
+  },
+  {
+   "offset": 1744,
+   "len": 47,
+   "en": "Laying hands upon $Y, Tobatha mends the wounds.",
+   "zh": "托芭莎將手覆於$Y身上，為其療傷。",
+   "note": ""
+  },
+  {
+   "offset": 1804,
+   "len": 20,
+   "en": "\"What else ya want?\"",
+   "zh": "「還要什麼？」",
+   "note": ""
+  },
+  {
+   "offset": 1884,
+   "len": 48,
+   "en": "\"What do you mean, cure? Thou art not poisoned!\"",
+   "zh": "「說什麼解毒？汝並未中毒！」",
+   "note": ""
+  },
+  {
+   "offset": 2055,
+   "len": 51,
+   "en": "\"What do you mean, cure? None of you are poisoned!\"",
+   "zh": "「說什麼解毒？汝等沒有一個中毒！」",
+   "note": ""
+  },
+  {
+   "offset": 2143,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪位？」",
+   "note": ""
+  },
+  {
+   "offset": 2248,
+   "len": 45,
+   "en": "\"Aye, $Y, I can tell that thou art poisoned.\"",
+   "zh": "「嗯，$Y，老身看得出汝已中毒。」",
+   "note": ""
+  },
+  {
+   "offset": 2296,
+   "len": 41,
+   "en": "\"Wilt thou make an offering of 10 gold?\" ",
+   "zh": "「汝願意奉上10枚金幣否？」",
+   "note": ""
+  },
+  {
+   "offset": 2359,
+   "len": 49,
+   "en": "Laying hands upon $Y, Tobatha removes the poison.",
+   "zh": "托芭莎將手覆於$Y身上，為其除去毒素。",
+   "note": ""
+  },
+  {
+   "offset": 2450,
+   "len": 47,
+   "en": "\"Well if thou won't pay, thou won't get cured!\"",
+   "zh": "「哼，若汝不肯付錢，就別想得到解毒！」",
+   "note": ""
+  },
+  {
+   "offset": 2511,
+   "len": 49,
+   "en": "\"You youngsters think everything should be free!\"",
+   "zh": "「汝等年輕人以為什麼都是免費的！」",
+   "note": ""
+  },
+  {
+   "offset": 2566,
+   "len": 40,
+   "en": "\"Thou art not too bad, for a youngster.\"",
+   "zh": "「汝這年輕人還算不差。」",
+   "note": ""
+  },
+  {
+   "offset": 2609,
+   "len": 26,
+   "en": "\"All right, I'll cure ye.\"",
+   "zh": "「好吧，老身替汝解毒。」",
+   "note": ""
+  },
+  {
+   "offset": 2638,
+   "len": 49,
+   "en": "Laying hands upon $Y, Tobatha removes the poison.",
+   "zh": "托芭莎將手覆於$Y身上，為其除去毒素。",
+   "note": ""
+  },
+  {
+   "offset": 2701,
+   "len": 40,
+   "en": "\"Well, ain't that just like youngsters?\"",
+   "zh": "「哼，年輕人就是這樣？」",
+   "note": ""
+  },
+  {
+   "offset": 2744,
+   "len": 62,
+   "en": "\"Makin' mistakes and expecting their elders to bail them out.\"",
+   "zh": "「犯了錯，還指望長輩替他們收拾爛攤子。」",
+   "note": ""
+  },
+  {
+   "offset": 2809,
+   "len": 31,
+   "en": "\"Well, today's your lucky day.\"",
+   "zh": "「好吧，今日汝走運了。」",
+   "note": ""
+  },
+  {
+   "offset": 2843,
+   "len": 42,
+   "en": "\"Wilt thou make an offering of 400 gold?\" ",
+   "zh": "「汝願意奉上400枚金幣否？」",
+   "note": "復活費"
+  },
+  {
+   "offset": 2917,
+   "len": 63,
+   "en": "\"Then go see a gravedigger. I'll reckon his price'll be lower.\"",
+   "zh": "「那便去找掘墓人吧，老身猜他的要價更低。」",
+   "note": ""
+  },
+  {
+   "offset": 3022,
+   "len": 26,
+   "en": "\"That ain't enough money.\"",
+   "zh": "「錢不夠。」",
+   "note": ""
+  },
+  {
+   "offset": 3051,
+   "len": 33,
+   "en": "\"Thou art #1 gold piece\\s short.\"",
+   "zh": "「汝還差#1枚金幣。」",
+   "note": ""
+  },
+  {
+   "offset": 3087,
+   "len": 58,
+   "en": "\"Go see a gravedigger. I'll reckon his price'll be lower.\"",
+   "zh": "「去找掘墓人吧，老身猜他的要價更低。」",
+   "note": ""
+  },
+  {
+   "offset": 3207,
+   "len": 58,
+   "en": "Your party takes up a collection for their fallen comrade.",
+   "zh": "汝的隊伍為倒下的同伴湊齊了費用。",
+   "note": ""
+  },
+  {
+   "offset": 3386,
+   "len": 37,
+   "en": "Tobatha lays hands upon the corpse...",
+   "zh": "托芭莎將手覆於屍體之上……",
+   "note": ""
+  },
+  {
+   "offset": 3426,
+   "len": 10,
+   "en": "\"Doman...\"",
+   "zh": "「多瑪恩……」",
+   "note": "復活咒語音譯"
+  },
+  {
+   "offset": 3439,
+   "len": 11,
+   "en": "\"thixus...\"",
+   "zh": "「提克蘇斯……」",
+   "note": "復活咒語音譯"
+  },
+  {
+   "offset": 3453,
+   "len": 9,
+   "en": "\"anretu!\"",
+   "zh": "「安瑞圖！」",
+   "note": "復活咒語音譯"
+  },
+  {
+   "offset": 3469,
+   "len": 24,
+   "en": "And the dead live again!",
+   "zh": "死者就此重生！",
+   "note": ""
+  },
+  {
+   "offset": 3519,
+   "len": 34,
+   "en": "\"I see that $Y's got another one.\"",
+   "zh": "「看來$Y又惹了一個。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Tobatha": "托芭莎"
+  }
+ },
+ "translator_notes": "081 Tobatha: 崔西克老婦醫者，暴躁但心善。口頭禪「年輕人」「老身」統一。咒語以音譯處理。"
+}

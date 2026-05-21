@@ -1,0 +1,223 @@
+{
+ "translations": [
+  {
+   "offset": 8,
+   "len": 65,
+   "en": "a scarred man with a gap-toothed grin and large, calloused hands.",
+   "zh": "滿臉刀疤的男子，齜牙而笑，兩手滿是老繭。",
+   "note": "DESC"
+  },
+  {
+   "offset": 83,
+   "len": 39,
+   "en": "\"Don't like talking when I'm fighting!\"",
+   "zh": "「打架的時候不喜歡說話！」",
+   "note": ""
+  },
+  {
+   "offset": 144,
+   "len": 15,
+   "en": "\"Hello, hello.\"",
+   "zh": "「你好，你好。」",
+   "note": ""
+  },
+  {
+   "offset": 172,
+   "len": 56,
+   "en": "\"Right. You been here before.\" He studies you carefully.",
+   "zh": "「對了，你來過。」他仔細打量著你。",
+   "note": ""
+  },
+  {
+   "offset": 231,
+   "len": 16,
+   "en": "\"What'll it be?\"",
+   "zh": "「要什麼？」",
+   "note": ""
+  },
+  {
+   "offset": 254,
+   "len": 46,
+   "en": "\"Hey, what's it look like, I'm a mind reader?\"",
+   "zh": "「哎，你以為我能讀心術嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 303,
+   "len": 29,
+   "en": "\"Do ya want @arms or @armor?\"",
+   "zh": "「你要@武器還是@甲冑？」",
+   "note": ""
+  },
+  {
+   "offset": 350,
+   "len": 32,
+   "en": "\"Come by my shop when I'm open!\"",
+   "zh": "「開店的時候再來！」",
+   "note": ""
+  },
+  {
+   "offset": 531,
+   "len": 33,
+   "en": "\"And my mutter said I was thick.\"",
+   "zh": "「我娘還說我笨呢。」",
+   "note": "mutter=母親(德語借詞俚語)"
+  },
+  {
+   "offset": 567,
+   "len": 57,
+   "en": "\"You can @buy's arms from me or @sell me yer used stuff.\"",
+   "zh": "「你可以向我@買武器，或者把舊裝備@賣給我。」",
+   "note": ""
+  },
+  {
+   "offset": 635,
+   "len": 60,
+   "en": "\"@Enrik. Enrik the @Hammer's what I'm known as 'round here.\"",
+   "zh": "「@恩里克。這附近都叫我@鐵鎚恩里克。」",
+   "note": ""
+  },
+  {
+   "offset": 706,
+   "len": 20,
+   "en": "\"I prefers @Hammer.\"",
+   "zh": "「我喜歡人叫我@鐵鎚。」",
+   "note": ""
+  },
+  {
+   "offset": 737,
+   "len": 48,
+   "en": "\"They call me that 'cause I's got a good @left.\"",
+   "zh": "「因為我的@左拳很厲害，所以才這樣叫。」",
+   "note": ""
+  },
+  {
+   "offset": 801,
+   "len": 41,
+   "en": "\"Keep it up and I'll show ya,\" he growls.",
+   "zh": "「繼續這樣，讓你見識見識，」他低吼道。",
+   "note": ""
+  },
+  {
+   "offset": 852,
+   "len": 31,
+   "en": "\"Yeah, gotta get back ta work.\"",
+   "zh": "「嗯，得回去幹活了。」",
+   "note": ""
+  },
+  {
+   "offset": 888,
+   "len": 27,
+   "en": "He gives you a blank stare.",
+   "zh": "他茫然地盯著你。",
+   "note": ""
+  },
+  {
+   "offset": 1059,
+   "len": 43,
+   "en": "\"Sorry, none of you's got anything I need.\"",
+   "zh": "「抱歉，你們沒有我要的東西。」",
+   "note": ""
+  },
+  {
+   "offset": 1136,
+   "len": 38,
+   "en": "\"Aye, $Y has somethin' interestin'...\"",
+   "zh": "「嗯，$Y有件有趣的東西……」",
+   "note": ""
+  },
+  {
+   "offset": 1236,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪位？」",
+   "note": ""
+  },
+  {
+   "offset": 1473,
+   "len": 14,
+   "en": "\"Which item?\" ",
+   "zh": "「哪件東西？」",
+   "note": ""
+  },
+  {
+   "offset": 1565,
+   "len": 41,
+   "en": "\"Will you take #7 gold for that $0, $Y?\" ",
+   "zh": "「$Y，這件$0你願意賣#7枚金幣嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1619,
+   "len": 24,
+   "en": "\"Mebbe some other time.\"",
+   "zh": "「也許改天吧。」",
+   "note": ""
+  },
+  {
+   "offset": 1651,
+   "len": 23,
+   "en": "\"Mebbe somethin' else?\"",
+   "zh": "「要別的嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1690,
+   "len": 52,
+   "en": "\"Done!\" $N hands $Y #7 gold pieces and takes the $0.",
+   "zh": "「成交！」$N遞給$Y #7枚金幣，取走了$0。",
+   "note": ""
+  },
+  {
+   "offset": 1798,
+   "len": 24,
+   "en": "\"Changed your mind, eh?\"",
+   "zh": "「改主意了，是吧？」",
+   "note": ""
+  },
+  {
+   "offset": 2158,
+   "len": 24,
+   "en": "\"That $1 costs #1 gold.\"",
+   "zh": "「$1要#1枚金幣。」",
+   "note": ""
+  },
+  {
+   "offset": 2185,
+   "len": 18,
+   "en": "\"Interested, $Y?\" ",
+   "zh": "「有意嗎，$Y？」",
+   "note": ""
+  },
+  {
+   "offset": 2246,
+   "len": 39,
+   "en": "\"But that'd make you o'erburdened, $Y!\"",
+   "zh": "「但那樣你就超重了，$Y！」",
+   "note": ""
+  },
+  {
+   "offset": 2335,
+   "len": 7,
+   "en": "\"Good!\"",
+   "zh": "「好！」",
+   "note": ""
+  },
+  {
+   "offset": 2344,
+   "len": 48,
+   "en": "After accepting $Y's gold, $N hands over the $1.",
+   "zh": "$N收下$Y的金幣，將$1交了過去。",
+   "note": ""
+  },
+  {
+   "offset": 2401,
+   "len": 36,
+   "en": "\"But you don't got enough gold, $Y!\"",
+   "zh": "「但你的金幣不夠，$Y！」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Enrik": "恩里克", "Enrik the Hammer": "鐵鎚恩里克"}, "places": {}},
+ "translator_notes": "Enrik 說話粗魯短促，帶工人口音。商品名（Club、Dagger 等）為系統字串，不在對話流程中單獨出現，故不翻譯。"
+}

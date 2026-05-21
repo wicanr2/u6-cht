@@ -1,0 +1,258 @@
+{
+  "translations": [
+    {
+      "offset": 11,
+      "len": 64,
+      "en": "a woman of elegant demeanor, wearing a finely embroidered dress.",
+      "zh": "一位氣質優雅的女子，穿著一件精緻刺繡的禮服。",
+      "note": "DESC"
+    },
+    {
+      "offset": 84,
+      "len": 69,
+      "en": "\"Good $T, Avatar. I'm glad thy travels have brought thee here again.\"",
+      "zh": "「聖者，$T好。吾很高興汝的旅途再次引領汝來到此處。」",
+      "note": "repeat greeting"
+    },
+    {
+      "offset": 154,
+      "len": 31,
+      "en": "\"Ah, $G $P, the famous Avatar!\"",
+      "zh": "「啊，大名鼎鼎的聖者 $G $P！」",
+      "note": "first meeting"
+    },
+    {
+      "offset": 188,
+      "len": 78,
+      "en": "\"I have heard much of thy exploits, but never expected to meet you in person.\"",
+      "zh": "「吾早聞汝的英雄事蹟，卻未曾料到能親身相遇。」",
+      "note": ""
+    },
+    {
+      "offset": 269,
+      "len": 23,
+      "en": "\"'Tis indeed an honor.\"",
+      "zh": "「此乃無上榮幸。」",
+      "note": ""
+    },
+    {
+      "offset": 307,
+      "len": 78,
+      "en": "\"I am Lady Isabella. Thy name, of course, is well @known throughout the land.\"",
+      "zh": "「吾乃伊莎貝拉夫人。汝的名號自然是@聞名天下的。」",
+      "note": ""
+    },
+    {
+      "offset": 411,
+      "len": 71,
+      "en": "\"The tales of thy exploits are known by even the smallest of children.\"",
+      "zh": "「汝的事蹟故事，連最小的孩童也耳熟能詳。」",
+      "note": ""
+    },
+    {
+      "offset": 485,
+      "len": 90,
+      "en": "\"I recognized thee from the portrait @Woodroffe made the last time thou came to our land.\"",
+      "zh": "「吾是從@伍德羅夫上次汝蒞臨時所繪的肖像認出汝的。」",
+      "note": ""
+    },
+    {
+      "offset": 596,
+      "len": 54,
+      "en": "\"One of the finest artisans that ever dwelt in Minoc.\"",
+      "zh": "「他是曾在密諾克居住過最傑出的工匠之一。」",
+      "note": ""
+    },
+    {
+      "offset": 653,
+      "len": 42,
+      "en": "\"Alas, he died of the @flu two years ago.\"",
+      "zh": "「可惜，他兩年前因@流感而離世了。」",
+      "note": ""
+    },
+    {
+      "offset": 709,
+      "len": 20,
+      "en": "\"Aye, a pity, that.\"",
+      "zh": "「是的，實屬可惜。」",
+      "note": ""
+    },
+    {
+      "offset": 739,
+      "len": 65,
+      "en": "\"'Tis my privilege to be mayor of Minoc, the city of @sacrifice.\"",
+      "zh": "「擔任密諾克——@奉獻之城的市長，是吾的榮幸。」",
+      "note": ""
+    },
+    {
+      "offset": 807,
+      "len": 42,
+      "en": "\"We are renowned for our fine @craftsmen.\"",
+      "zh": "「吾城以優秀的@工匠聞名。」",
+      "note": ""
+    },
+    {
+      "offset": 875,
+      "len": 38,
+      "en": "\"The artisan's guild is located here.\"",
+      "zh": "「工匠公會就設在這裡。」",
+      "note": ""
+    },
+    {
+      "offset": 924,
+      "len": 48,
+      "en": "\"We were entrusted with the @Rune of Sacrifice.\"",
+      "zh": "「吾等受託保管@奉獻聖符。」",
+      "note": ""
+    },
+    {
+      "offset": 983,
+      "len": 53,
+      "en": "\"I gave it to @Selganor, the @artisan's guildmaster.\"",
+      "zh": "「吾將它交給了@瑟爾嘉諾——@工匠公會的會長。」",
+      "note": ""
+    },
+    {
+      "offset": 1052,
+      "len": 80,
+      "en": "\"When the Rune of Sacrifice was sent to our city, I entrusted it to their care.\"",
+      "zh": "「奉獻聖符送至吾城時，吾便將它託付給他們保管。」",
+      "note": ""
+    },
+    {
+      "offset": 1143,
+      "len": 83,
+      "en": "\"He's a fine @musician. He lives just across the road from me, in the @guild hall.\"",
+      "zh": "「他是位出色的@音樂家。他就住在吾對面的@公會大廳裡。」",
+      "note": ""
+    },
+    {
+      "offset": 1237,
+      "len": 58,
+      "en": "\"If I weren't so @busy, I'd take lessons from him myself.\"",
+      "zh": "「如果吾不是那麼@忙碌，吾自己也想向他拜師學藝。」",
+      "note": ""
+    },
+    {
+      "offset": 1311,
+      "len": 26,
+      "en": "\"Aye, this is a big city.\"",
+      "zh": "「是的，這是座大城市。」",
+      "note": ""
+    },
+    {
+      "offset": 1348,
+      "len": 62,
+      "en": "\"The good healer @Tara should be able to tell you the mantra.\"",
+      "zh": "「善良的治療師@塔拉應該能告訴汝咒語。」",
+      "note": ""
+    },
+    {
+      "offset": 1413,
+      "len": 49,
+      "en": "\"Go ask at her house, on the north side of town.\"",
+      "zh": "「去城北她的住所詢問吧。」",
+      "note": ""
+    },
+    {
+      "offset": 1478,
+      "len": 37,
+      "en": "\"Tara is a very compassionate woman.\"",
+      "zh": "「塔拉是個非常富有同情心的女子。」",
+      "note": ""
+    },
+    {
+      "offset": 1526,
+      "len": 83,
+      "en": "\"I've heard rumors of such creatures, but I know no one who has actually seen one.\"",
+      "zh": "「吾聽過關於這種生物的傳言，但不認識任何真正見過的人。」",
+      "note": "about gargoyles"
+    },
+    {
+      "offset": 1650,
+      "len": 20,
+      "en": "\"Yes, ask Selganor.\"",
+      "zh": "「是的，去問瑟爾嘉諾吧。」",
+      "note": "about balloon/mission"
+    },
+    {
+      "offset": 1680,
+      "len": 62,
+      "en": "\"Farewell, and please honor us with your presence again soon.\"",
+      "zh": "「珍重，請早日再度蒞臨。」",
+      "note": "bye"
+    },
+    {
+      "offset": 1747,
+      "len": 31,
+      "en": "\"I cannot help thee with that.\"",
+      "zh": "「吾幫不上這件事的忙。」",
+      "note": ""
+    },
+    {
+      "offset": 1789,
+      "len": 49,
+      "en": "\"Ah, thou wouldst be interested to hear of that.\"",
+      "zh": "「啊，汝對此應該會感興趣。」",
+      "note": ""
+    },
+    {
+      "offset": 1841,
+      "len": 71,
+      "en": "\"The balloonist flew off on an important @mission, and never returned.\"",
+      "zh": "「那位氣球師飛去執行一項重要的@任務，便再也沒有回來。」",
+      "note": ""
+    },
+    {
+      "offset": 1915,
+      "len": 52,
+      "en": "\"Selganor should be able to tell you more about it.\"",
+      "zh": "「瑟爾嘉諾應該能告訴汝更多。」",
+      "note": ""
+    },
+    {
+      "offset": 1970,
+      "len": 84,
+      "en": "\"Tell me, is it true you once rode in a balloon whilst on the quest of the Avatar?\" ",
+      "zh": "「告訴吾，汝在聖者任務中曾乘坐氣球飛行，這是真的嗎？」",
+      "note": ""
+    },
+    {
+      "offset": 2060,
+      "len": 13,
+      "en": "\"Ah, well...\"",
+      "zh": "「啊，這嘛……」",
+      "note": "response to no"
+    },
+    {
+      "offset": 2076,
+      "len": 88,
+      "en": "\"Some tales are but empty words, with less substance than the breath that carries them.\"",
+      "zh": "「有些故事不過是空話，比吹送它們的氣息還要虛無。」",
+      "note": ""
+    },
+    {
+      "offset": 2172,
+      "len": 66,
+      "en": "\"It must have been wonderful, to drift amongst the very clouds...\"",
+      "zh": "「在雲間漂泊，那一定妙不可言……」",
+      "note": "response to yes"
+    }
+  ],
+  "glossary_additions": {
+    "people": {
+      "Isabella": "伊莎貝拉",
+      "Selganor": "瑟爾嘉諾",
+      "Tara": "塔拉",
+      "Woodroffe": "伍德羅夫"
+    },
+    "places": {
+      "Minoc": "密諾克"
+    },
+    "concepts": {
+      "Rune of Sacrifice": "奉獻聖符",
+      "artisan's guild": "工匠公會"
+    }
+  },
+  "translator_notes": "伊莎貝拉是密諾克的優雅女市長。她把奉獻聖符交給工匠公會長瑟爾嘉諾保管。知道治療師塔拉懂奉獻咒語。對氣球師失蹤一事知情，建議詢問瑟爾嘉諾。"
+}

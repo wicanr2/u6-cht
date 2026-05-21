@@ -1,0 +1,403 @@
+{
+ "translations": [
+  {
+   "offset": 10,
+   "len": 56,
+   "en": "a finely adorned woman with a tight mouth and wide eyes.",
+   "zh": "一位衣著精緻的女子，嘴唇緊抿，雙眼圓睜。",
+   "note": "DESC"
+  },
+  {
+   "offset": 88,
+   "len": 14,
+   "en": "\"Hello again.\"",
+   "zh": "「又見面了。」",
+   "note": ""
+  },
+  {
+   "offset": 103,
+   "len": 8,
+   "en": "\"Hello.\"",
+   "zh": "「你好。」",
+   "note": ""
+  },
+  {
+   "offset": 112,
+   "len": 19,
+   "en": " She bows formally.",
+   "zh": " 她正式行禮。",
+   "note": "fragment"
+  },
+  {
+   "offset": 137,
+   "len": 35,
+   "en": "She bows stiffly. \"I'm sorry, good ",
+   "zh": "她僵硬地行禮。「抱歉，尊貴的",
+   "note": "fragment，與madam/sir拼接"
+  },
+  {
+   "offset": 176,
+   "len": 5,
+   "en": "madam",
+   "zh": "女士",
+   "note": "fragment — 女性稱謂"
+  },
+  {
+   "offset": 182,
+   "len": 3,
+   "en": "sir",
+   "zh": "先生",
+   "note": "fragment — 男性稱謂"
+  },
+  {
+   "offset": 186,
+   "len": 33,
+   "en": ", but my shop is closed for now.\"",
+   "zh": "，但在下的店鋪目前已打烊。」",
+   "note": "fragment"
+  },
+  {
+   "offset": 222,
+   "len": 59,
+   "en": "\"See me some other time, when I am available for business.\"",
+   "zh": "「請擇日再來，屆時在下方可處理生意。」",
+   "note": ""
+  },
+  {
+   "offset": 290,
+   "len": 42,
+   "en": "\"Marissa. You may call me '@Miss Trihune.\"",
+   "zh": "「瑪麗莎。汝可稱在下為『@翠紅小姐』。」",
+   "note": ""
+  },
+  {
+   "offset": 355,
+   "len": 27,
+   "en": "\"Yes, that is much better.\"",
+   "zh": "「是的，這樣好多了。」",
+   "note": ""
+  },
+  {
+   "offset": 435,
+   "len": 55,
+   "en": "\"Yes, I can work with silk. But 'tis out of fashion...\"",
+   "zh": "「是的，在下能裁製絲綢，然而如今已不流行了……」",
+   "note": ""
+  },
+  {
+   "offset": 493,
+   "len": 40,
+   "en": "\"Nobody wears silk clothes this season.\"",
+   "zh": "「今季無人穿著絲綢衣裳。」",
+   "note": ""
+  },
+  {
+   "offset": 545,
+   "len": 48,
+   "en": "\"Oh, he's a threadmaker who lives here in town.\"",
+   "zh": "「哦，他是個住在鎮上的紡線匠。」",
+   "note": ""
+  },
+  {
+   "offset": 596,
+   "len": 39,
+   "en": "\"Silly little man, but a fine spinner.\"",
+   "zh": "「小個子蠢人，但紡線技術不錯。」",
+   "note": ""
+  },
+  {
+   "offset": 638,
+   "len": 66,
+   "en": "\"I get all my thread straight from him. No other source would do.\"",
+   "zh": "「在下所有的線都直接從他那裡進貨，別無他選。」",
+   "note": ""
+  },
+  {
+   "offset": 716,
+   "len": 64,
+   "en": "\"Yes, that silly Arbeth person can spin spidersilk into thread.\"",
+   "zh": "「是的，那個蠢蠢的阿伯斯能將蜘蛛絲紡成線。」",
+   "note": ""
+  },
+  {
+   "offset": 783,
+   "len": 62,
+   "en": "\"Charlotte, from New Magincia, weaves thread into silk cloth.\"",
+   "zh": "「新馬精西亞的夏綠蒂會將絲線織成絲布。」",
+   "note": ""
+  },
+  {
+   "offset": 848,
+   "len": 78,
+   "en": "\"Bring me a bolt of her finest silk cloth, and then I can sew you a silk bag.\"",
+   "zh": "「帶一匹她最上等的絲布來，在下便能為汝縫製一個絲袋。」",
+   "note": ""
+  },
+  {
+   "offset": 952,
+   "len": 37,
+   "en": "\"Oh, I understand. A large silk bag.\"",
+   "zh": "「哦，在下明白了，一個大絲袋。」",
+   "note": ""
+  },
+  {
+   "offset": 992,
+   "len": 93,
+   "en": "\"Well, 'tis hardly a challenge for one of my skills. But, since it is important, I'll do it.\"",
+   "zh": "「以在下的技藝，這不算什麼挑戰，然既然事關重要，在下便做吧。」",
+   "note": ""
+  },
+  {
+   "offset": 1100,
+   "len": 33,
+   "en": "\"But I'll need to see the plans.\"",
+   "zh": "「但在下需要看看圖樣。」",
+   "note": ""
+  },
+  {
+   "offset": 1158,
+   "len": 52,
+   "en": "\"But I'll need a @bolt of silk to do it, of course.\"",
+   "zh": "「但在下當然需要一@匹絲布才能製作。」",
+   "note": ""
+  },
+  {
+   "offset": 1227,
+   "len": 44,
+   "en": "\"I create garments of the highest @fashion.\"",
+   "zh": "「在下創作最高端@時尚的服飾。」",
+   "note": ""
+  },
+  {
+   "offset": 1288,
+   "len": 33,
+   "en": "\"Clothes fit to see the King in.\"",
+   "zh": "「足以覲見國王的衣裳。」",
+   "note": ""
+  },
+  {
+   "offset": 1332,
+   "len": 49,
+   "en": "\"Yes, well, come see me again.\" She yawns widely.",
+   "zh": "「好吧，再來找在下吧。」她大打一個哈欠。",
+   "note": ""
+  },
+  {
+   "offset": 1393,
+   "len": 30,
+   "en": "\"Hmph! I am not a gossip, $G.\"",
+   "zh": "「哼！在下不是長舌婦，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 1425,
+   "len": 39,
+   "en": "\"'Tis not my place to speak of that...\"",
+   "zh": "「此事非在下所應置喙……」",
+   "note": ""
+  },
+  {
+   "offset": 1477,
+   "len": 41,
+   "en": "\"But it will cost you 75 gold. Alright?\" ",
+   "zh": "「但需要75金，可好？」",
+   "note": ""
+  },
+  {
+   "offset": 1538,
+   "len": 39,
+   "en": "\"Come back when you have the gold, $Y.\"",
+   "zh": "「$Y，湊足金幣再來找在下。」",
+   "note": ""
+  },
+  {
+   "offset": 1610,
+   "len": 73,
+   "en": "She takes the silk cloth and begins to work, following the balloon plans.",
+   "zh": "她取過絲布，依照氣球圖樣開始製作。",
+   "note": ""
+  },
+  {
+   "offset": 1686,
+   "len": 43,
+   "en": "She works in silence, intent on her sewing.",
+   "zh": "她默默工作，專注地縫製著。",
+   "note": ""
+  },
+  {
+   "offset": 1732,
+   "len": 42,
+   "en": "After a while, she completes the silk bag.",
+   "zh": "過了一會兒，她完成了絲袋。",
+   "note": ""
+  },
+  {
+   "offset": 1777,
+   "len": 51,
+   "en": "\"There, 'tis done!\" she cries, handing you the bag.",
+   "zh": "「好了，完成了！」她叫道，將袋子遞給汝。",
+   "note": ""
+  },
+  {
+   "offset": 1851,
+   "len": 34,
+   "en": "\"Very well,\" she sniffs, offended.",
+   "zh": "「隨汝。」她一臉不悅地哼道。",
+   "note": ""
+  },
+  {
+   "offset": 1976,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝們誰？」",
+   "note": ""
+  },
+  {
+   "offset": 2002,
+   "len": 38,
+   "en": "\"Suit yourself,\" she sniffs, offended.",
+   "zh": "「隨汝便。」她一臉不悅地哼道。",
+   "note": ""
+  },
+  {
+   "offset": 2080,
+   "len": 8,
+   "en": "1. Tunic",
+   "zh": "1. 短袍",
+   "note": ""
+  },
+  {
+   "offset": 2089,
+   "len": 8,
+   "en": "2. Dress",
+   "zh": "2. 長裙",
+   "note": ""
+  },
+  {
+   "offset": 2098,
+   "len": 8,
+   "en": "3. Pants",
+   "zh": "3. 長褲",
+   "note": ""
+  },
+  {
+   "offset": 2107,
+   "len": 13,
+   "en": "\"Which one?\" ",
+   "zh": "「要哪一件？」",
+   "note": ""
+  },
+  {
+   "offset": 2180,
+   "len": 50,
+   "en": "\"It'll cost you #1 gold for that $0. Interested?\" ",
+   "zh": "「那件$0需要#1金，有興趣嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 2259,
+   "len": 29,
+   "en": "\"You look pretty full to me.\"",
+   "zh": "「汝看起來已裝得滿滿的了。」",
+   "note": ""
+  },
+  {
+   "offset": 2353,
+   "len": 61,
+   "en": "\"Excellent!\" After accepting $Y's gold, $N hands over the $0.",
+   "zh": "「極好！」收下$Y的金幣後，$N遞出$0。",
+   "note": ""
+  },
+  {
+   "offset": 2425,
+   "len": 70,
+   "en": "$N looks at $Y. \"How rude! Don't ask for something you can't pay for!\"",
+   "zh": "$N看向$Y，「太無禮了！別開口要汝付不起的東西！」",
+   "note": ""
+  },
+  {
+   "offset": 2505,
+   "len": 38,
+   "en": "\"Suit yourself,\" she sniffs, offended.",
+   "zh": "「隨汝便。」她一臉不悅地哼道。",
+   "note": ""
+  },
+  {
+   "offset": 2677,
+   "len": 46,
+   "en": "\"Sorry, none of you has anything of interest.\"",
+   "zh": "「抱歉，汝們沒有在下感興趣的東西。」",
+   "note": ""
+  },
+  {
+   "offset": 2826,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝們誰？」",
+   "note": ""
+  },
+  {
+   "offset": 2852,
+   "len": 46,
+   "en": "\"Just as well. That cloth is rather shabby...\"",
+   "zh": "「也好，那塊布料相當粗劣……」",
+   "note": ""
+  },
+  {
+   "offset": 2965,
+   "len": 56,
+   "en": "\"I don't see any cloth, other than what you're wearing!\"",
+   "zh": "「在下看不到任何布料，除了汝身上穿的那件！」",
+   "note": ""
+  },
+  {
+   "offset": 3028,
+   "len": 64,
+   "en": "$N turns to $Y and asks \"Will you take 20 gold for that cloth?\" ",
+   "zh": "$N轉向$Y，問：「那塊布料20金，汝肯賣嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 3098,
+   "len": 56,
+   "en": "\"Done!\" She hands $Y 20 gold pieces and takes the cloth.",
+   "zh": "「成交！」她遞給$Y 20枚金幣，取走布料。",
+   "note": ""
+  },
+  {
+   "offset": 3189,
+   "len": 46,
+   "en": "\"Just as well. That cloth is rather shabby...\"",
+   "zh": "「也好，那塊布料相當粗劣……」",
+   "note": ""
+  },
+  {
+   "offset": 3270,
+   "len": 11,
+   "en": "Smart tunic",
+   "zh": "精緻短袍",
+   "note": ""
+  },
+  {
+   "offset": 3282,
+   "len": 10,
+   "en": "Fine dress",
+   "zh": "精美長裙",
+   "note": ""
+  },
+  {
+   "offset": 3293,
+   "len": 13,
+   "en": "Pair of pants",
+   "zh": "一條長褲",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Marissa": "瑪麗莎",
+   "Miss Trihune": "翠紅小姐"
+  }
+ },
+ "translator_notes": "102 Marissa: 鴉爪鎮裁縫師，自視甚高的時裝設計師。需要絲布製作絲袋（熱氣球任務）。阿伯斯的線是她的唯一來源。"
+}

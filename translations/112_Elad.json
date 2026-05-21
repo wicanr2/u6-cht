@@ -1,0 +1,296 @@
+{
+ "translations": [
+  {
+   "offset": 7,
+   "len": 57,
+   "en": "an uncomfortable looking man sitting behind a cup of tea.",
+   "zh": "一個神情侷促的男子，坐在一杯茶後面。",
+   "note": "DESC"
+  },
+  {
+   "offset": 74,
+   "len": 64,
+   "en": "\"Can't talk now. I'm--ungh!\" He reels from a punch to his belly.",
+   "zh": "「現在沒空說話，我在——啊！」他被人打了一拳肚子，搖晃起來。",
+   "note": ""
+  },
+  {
+   "offset": 141,
+   "len": 43,
+   "en": "\"I'm in the middle of something, $G. Ouch!\"",
+   "zh": "「在下正在忙，$G。哎喲！」",
+   "note": ""
+  },
+  {
+   "offset": 187,
+   "len": 127,
+   "en": "\"Hello.\" His gaze darts from side to side, lingering longingly on the mugs of ale his fellow patrons are gulping down heartily.",
+   "zh": "「你好。」他的目光左右閃動，對旁邊顧客大口痛飲的麥酒杯子投以充滿渴望的眼神。",
+   "note": ""
+  },
+  {
+   "offset": 328,
+   "len": 31,
+   "en": "\"Well, I'm still Captain Elad.\"",
+   "zh": "「嗯，在下仍是伊拉德船長。」",
+   "note": ""
+  },
+  {
+   "offset": 365,
+   "len": 85,
+   "en": "He looks at you uneasily. \"I'm @Captain Elad. Not that it's any business of yours...\"",
+   "zh": "他不安地看著汝。「在下是@伊拉德船長，不過這與汝無關……」",
+   "note": ""
+  },
+  {
+   "offset": 466,
+   "len": 56,
+   "en": "\"I was Captain of the Theodosia Marie--until she @sank.\"",
+   "zh": "「在下曾是狄奧多西亞·瑪麗號的船長——直到她@沉沒。」",
+   "note": ""
+  },
+  {
+   "offset": 533,
+   "len": 77,
+   "en": "When you say 'Captain,' all the pirates at the table turn to you expectantly.",
+   "zh": "汝說出「船長」二字，桌旁所有海盜都轉過頭來滿懷期待地看著汝。",
+   "note": ""
+  },
+  {
+   "offset": 613,
+   "len": 77,
+   "en": "When they realize you weren't talking to them, they return to their business.",
+   "zh": "當他們意識到汝並非在叫他們，便各自回去繼續做事了。",
+   "note": ""
+  },
+  {
+   "offset": 701,
+   "len": 58,
+   "en": "\"Captain John, that fool... He was captured by gargoyles.\"",
+   "zh": "「約翰船長，那個蠢貨……他被魔像族俘虜了。」",
+   "note": ""
+  },
+  {
+   "offset": 762,
+   "len": 91,
+   "en": "\"I hear they dragged him down into Hythloth, and nobody's seen hide nor hair of him since.\"",
+   "zh": "「在下聽說他們把他拖入海索洛斯，從此再無人見過他的蹤影。」",
+   "note": ""
+  },
+  {
+   "offset": 865,
+   "len": 72,
+   "en": "Leonna raises an eyebrow. \"Is that so? I could tell a different tale...\"",
+   "zh": "利昂娜挑起眉毛。「是這樣嗎？在下聽到的版本可不一樣……」",
+   "note": ""
+  },
+  {
+   "offset": 964,
+   "len": 109,
+   "en": "\"Aye, 'twas a terrible ordeal. We were sailing just off @Bordermarch when the whole island started @shaking.\"",
+   "zh": "「是的，那真是一場可怕的災難。我們正在@邊境地附近航行，整個島嶼突然開始@震動。」",
+   "note": ""
+  },
+  {
+   "offset": 1076,
+   "len": 61,
+   "en": "\"Must have been one of those @earthquakes we've been having.\"",
+   "zh": "「必定是近來接連發生的@地震之一。」",
+   "note": ""
+  },
+  {
+   "offset": 1183,
+   "len": 98,
+   "en": "\"The whole island sank beneath the waves. We were caught in the huge @whirlpool left in its wake.\"",
+   "zh": "「整個島嶼沉入波濤之下，我們陷入了它留下的巨大@旋渦之中。」",
+   "note": ""
+  },
+  {
+   "offset": 1284,
+   "len": 118,
+   "en": "\"I was one of the lucky few to swim clear. But my ship's on the bottom of the ocean now, and that's the honest truth.\"",
+   "zh": "「在下是幸運地游出來的少數人之一，但在下的船現在躺在海底了，這是實話。」",
+   "note": ""
+  },
+  {
+   "offset": 1413,
+   "len": 75,
+   "en": "He shudders, then takes a sip of his tea. \"I don't like to think about it.\"",
+   "zh": "他打了個寒顫，呷了一口茶。「在下不願去想那件事。」",
+   "note": ""
+  },
+  {
+   "offset": 1499,
+   "len": 93,
+   "en": "\"A fair sized island, and now she's gone! Some o' them @earthquakes have been mighty fierce.\"",
+   "zh": "「一個相當大的島嶼，如今消失了！那些@地震中有幾次猛烈異常。」",
+   "note": ""
+  },
+  {
+   "offset": 1608,
+   "len": 78,
+   "en": "\"Yes, they started soon after Lord @British was @rescued from the underworld.\"",
+   "zh": "「是的，那些地震在不列顛@王從地下世界獲@救後不久就開始了。」",
+   "note": ""
+  },
+  {
+   "offset": 1689,
+   "len": 33,
+   "en": "\"I lost my ship to the last one.\"",
+   "zh": "「在下的船就毀於最近那次。」",
+   "note": ""
+  },
+  {
+   "offset": 1738,
+   "len": 112,
+   "en": "\"I'd toast him with you, but this,\" he gestures disparagingly at his cup, \"is hardly fitting for such an honor.\"",
+   "zh": "「在下本想與汝為他乾杯，但這個，」他鄙夷地指著杯子，「根本不配這等榮耀。」",
+   "note": "想喝酒卻在戒酒，只能喝茶"
+  },
+  {
+   "offset": 1866,
+   "len": 58,
+   "en": "\"Surely you've heard tales of the Avatar's bold exploits?\"",
+   "zh": "「汝必定聽聞過聖者的英勇事蹟吧？」",
+   "note": ""
+  },
+  {
+   "offset": 1927,
+   "len": 59,
+   "en": "\"It was all anyone was talking about round here for weeks.\"",
+   "zh": "「這件事連續好幾週是此地人人談論的話題。」",
+   "note": ""
+  },
+  {
+   "offset": 1997,
+   "len": 71,
+   "en": "\"I wish I had one of them... I bet I could sell it for a pretty penny!\"",
+   "zh": "「在下真希望有一枚……在下敢說能賣個好價錢！」",
+   "note": ""
+  },
+  {
+   "offset": 2079,
+   "len": 60,
+   "en": "\"You don't hear much about the @virtues in a pirate town...\"",
+   "zh": "「在海盜鎮上，關於@美德的話題是聽不到多少的……」",
+   "note": ""
+  },
+  {
+   "offset": 2164,
+   "len": 82,
+   "en": "\"I could use more virtue in me life. I've just given up @drinking, to start with.\"",
+   "zh": "「在下生命中需要更多美德，先從戒@飲酒做起。」",
+   "note": ""
+  },
+  {
+   "offset": 2257,
+   "len": 32,
+   "en": "\"Aye, 'tis quite a @temptation.\"",
+   "zh": "「是的，這是相當大的@誘惑。」",
+   "note": ""
+  },
+  {
+   "offset": 2300,
+   "len": 43,
+   "en": "\"Indeed.\" He takes another big gulp of tea.",
+   "zh": "「確實如此。」他再次大口喝了口茶。",
+   "note": ""
+  },
+  {
+   "offset": 2361,
+   "len": 27,
+   "en": "\"Ah, that's not important.\"",
+   "zh": "「啊，那不重要。」",
+   "note": ""
+  },
+  {
+   "offset": 2401,
+   "len": 84,
+   "en": "The pirate smiles and waves goodbye, then scowls as he turns back to his mug of tea.",
+   "zh": "海盜微笑揮手道別，然後轉回對著那杯茶皺眉。",
+   "note": ""
+  },
+  {
+   "offset": 2518,
+   "len": 24,
+   "en": "\"Wait, before you go...\"",
+   "zh": "「等等，汝離開之前……」",
+   "note": ""
+  },
+  {
+   "offset": 2545,
+   "len": 55,
+   "en": "\"I was wondering--do you know the @Mantra of Honesty?\" ",
+   "zh": "「在下在想——汝可知道@誠實真言？」",
+   "note": ""
+  },
+  {
+   "offset": 2606,
+   "len": 46,
+   "en": "\"Oh. Well, let me know if you find out later.\"",
+   "zh": "「哦，若汝之後得知，告訴在下。」",
+   "note": ""
+  },
+  {
+   "offset": 2661,
+   "len": 71,
+   "en": "\"I've been trying to find out what it is, so that I can better myself.\"",
+   "zh": "「在下一直在試著找出那是什麼，以便改善自己。」",
+   "note": ""
+  },
+  {
+   "offset": 2735,
+   "len": 56,
+   "en": "\"I'll give you five gold if you tell me. Is it a deal?\" ",
+   "zh": "「汝若告訴在下，在下給汝五金，成交嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 2797,
+   "len": 54,
+   "en": "\"I'll be here with the money if you change your mind.\"",
+   "zh": "「若汝改變心意，在下帶著錢在這裡等汝。」",
+   "note": ""
+  },
+  {
+   "offset": 2862,
+   "len": 19,
+   "en": "\"Okay, what is it?\"",
+   "zh": "「好，那是什麼？」",
+   "note": ""
+  },
+  {
+   "offset": 2889,
+   "len": 18,
+   "en": "The pirate frowns.",
+   "zh": "海盜皺起眉頭。",
+   "note": ""
+  },
+  {
+   "offset": 2941,
+   "len": 53,
+   "en": "\"Thank you! Now my meditations will succeed at last!\"",
+   "zh": "「謝謝汝！在下的靜思終於能成功了！」",
+   "note": ""
+  },
+  {
+   "offset": 3016,
+   "len": 145,
+   "en": "As you turn to leave, you think you might have caught a glimpse of Captain Elad stealing a swig from someone else's mug... But you can't be sure.",
+   "zh": "汝轉身離去時，似乎瞥見伊拉德船長悄悄從別人的杯子裡偷喝了一口……但汝不敢確定。",
+   "note": "戒酒失敗的諷刺結局"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Captain Elad": "伊拉德船長",
+   "Leonna": "利昂娜"
+  },
+  "places": {
+   "Theodosia Marie": "狄奧多西亞·瑪麗號",
+   "Bordermarch": "邊境地",
+   "Hythloth": "海索洛斯"
+  }
+ },
+ "translator_notes": "112 Elad: 鴉爪鎮落魄船長，正在戒酒（卻渴望麥酒）。船沉於邊境地地震所引發的旋渦。想知道誠實真言（願意付5金）。結尾諷刺：汝一離開他便偷喝別人的酒。"
+}

@@ -1,0 +1,365 @@
+{
+ "_meta": {
+  "purpose": "Hard-coded engine literals (events.cpp, converse.cpp, etc) that bypass conv VM. Translate at print-time via CHTranslate. Keys MUST match exactly including whitespace/newlines.",
+  "owner": "engine-side, not script-side"
+ },
+ "translations": [
+  {
+   "en": "Thou dost see ",
+   "zh": "汝見"
+  },
+  {
+   "en": "Thou dost see darkness.\n",
+   "zh": "汝見一片漆黑。\n"
+  },
+  {
+   "en": "\nSearching here, you find ",
+   "zh": "\n汝於此處搜尋，得"
+  },
+  {
+   "en": "nothing.\n",
+   "zh": "無物。\n"
+  },
+  {
+   "en": "\nYou see ",
+   "zh": "\n汝見"
+  },
+  {
+   "en": "You see ",
+   "zh": "汝見"
+  },
+  {
+   "en": "\n[EOF]\n",
+   "zh": "\n[對話結束]\n"
+  },
+  {
+   "en": "[Tried to print a control char.]\n",
+   "zh": "[嘗試輸出控制位元組]\n"
+  },
+  {
+   "en": "\"Friends of Nuvie? Sure, I'll come along!\"\n*",
+   "zh": "「Nuvie 之友？吾自當隨行！」\n*"
+  },
+  {
+   "en": "\"For Nuvie!\"\n*",
+   "zh": "「為了 Nuvie！」\n*"
+  },
+  {
+   "en": "\"How can I join you when I'm dead?\"\n*",
+   "zh": "「吾既已亡，何能從汝？」\n*"
+  },
+  {
+   "en": "combat!",
+   "zh": "戰鬥！"
+  },
+  {
+   "en": "Pass!",
+   "zh": "通過！"
+  },
+  {
+   "en": "what?",
+   "zh": "什麼？"
+  },
+  {
+   "en": "Talk-nothing!",
+   "zh": "對話-無對象！"
+  },
+  {
+   "en": "Game Loaded",
+   "zh": "存檔已載入"
+  },
+  {
+   "en": "Game Saved",
+   "zh": "存檔已儲存"
+  },
+  {
+   "en": "the floor",
+   "zh": "地板"
+  },
+  {
+   "en": "grass",
+   "zh": "草地"
+  },
+  {
+   "en": "stone",
+   "zh": "石地"
+  },
+  {
+   "en": "water",
+   "zh": "水面"
+  },
+  {
+   "en": "a wall",
+   "zh": "一面牆"
+  },
+  {
+   "en": "a door",
+   "zh": "一扇門"
+  },
+  {
+   "en": "a carpet",
+   "zh": "一張地毯"
+  },
+  {
+   "en": "a chair",
+   "zh": "一張椅子"
+  },
+  {
+   "en": "a table",
+   "zh": "一張桌子"
+  },
+  {
+   "en": "a bed",
+   "zh": "一張床"
+  },
+  {
+   "en": "a tree",
+   "zh": "一棵樹"
+  },
+  {
+   "en": "Avatar",
+   "zh": "聖者"
+  },
+  {
+   "en": "the Avatar",
+   "zh": "聖者"
+  },
+  {
+   "en": "steps",
+   "zh": "階梯"
+  },
+  {
+   "en": "stairs",
+   "zh": "樓梯"
+  },
+  {
+   "en": "a chest",
+   "zh": "一個寶箱"
+  },
+  {
+   "en": "a barrel",
+   "zh": "一個桶"
+  },
+  {
+   "en": "a brazier",
+   "zh": "一個火盆"
+  },
+  {
+   "en": "a candle",
+   "zh": "一根蠟燭"
+  },
+  {
+   "en": "a lamp",
+   "zh": "一盞燈"
+  },
+  {
+   "en": "a fountain",
+   "zh": "一座噴泉"
+  },
+  {
+   "en": "a torch",
+   "zh": "一支火把"
+  },
+  {
+   "en": "a window",
+   "zh": "一扇窗"
+  },
+  {
+   "en": "a sign",
+   "zh": "一塊標牌"
+  },
+  {
+   "en": "a book",
+   "zh": "一本書"
+  },
+  {
+   "en": "a scroll",
+   "zh": "一卷捲軸"
+  },
+  {
+   "en": "a key",
+   "zh": "一把鑰匙"
+  },
+  {
+   "en": "a sword",
+   "zh": "一把劍"
+  },
+  {
+   "en": "a shield",
+   "zh": "一面盾"
+  },
+  {
+   "en": "a map",
+   "zh": "一張地圖"
+  },
+  {
+   "en": "a gem",
+   "zh": "一顆寶石"
+  },
+  {
+   "en": "gold",
+   "zh": "金幣"
+  },
+  {
+   "en": "food",
+   "zh": "食物"
+  },
+  {
+   "en": "a fish",
+   "zh": "一條魚"
+  },
+  {
+   "en": "a chicken",
+   "zh": "一隻雞"
+  },
+  {
+   "en": "the sea",
+   "zh": "海面"
+  },
+  {
+   "en": "the sky",
+   "zh": "天空"
+  },
+  {
+   "en": "a person",
+   "zh": "一個人"
+  },
+  {
+   "en": "a man",
+   "zh": "一名男子"
+  },
+  {
+   "en": "a woman",
+   "zh": "一名女子"
+  },
+  {
+   "en": "a child",
+   "zh": "一個小孩"
+  },
+  { "en": "Talk-",   "zh": "對話-" },
+  { "en": "Look-",   "zh": "察看-" },
+  { "en": "Use-",    "zh": "使用-" },
+  { "en": "Get-",    "zh": "拾取-" },
+  { "en": "Drop-",   "zh": "丟棄-" },
+  { "en": "Attack-", "zh": "攻擊-" },
+  { "en": "Push-",   "zh": "推-" },
+  { "en": "nothing!\n", "zh": "無對象！\n" },
+  { "en": "nothing!",   "zh": "無對象！" },
+  { "en": "what?",      "zh": "什麼？" },
+  { "en": "Out of range!", "zh": "夠不著！" },
+  { "en": "Pass!",      "zh": "跳過！" },
+  { "en": "critical!",  "zh": "致命一擊！" },
+  { "en": "grazed.",    "zh": "擦傷。" },
+  { "en": "the noble ruler of Britannia.", "zh": "不列顛尼亞之賢君。" },
+  { "en": "the noble ruler of the British.", "zh": "不列顛尼亞之賢君。" },
+  { "en": "you say:", "zh": "汝答：" },
+  { "en": "name", "zh": "name" },
+  { "en": "job",  "zh": "job"  },
+  { "en": "bye",  "zh": "bye"  },
+
+  { "en": "Out of range.\n", "zh": "夠不著。\n" },
+  { "en": "Out of range\n",  "zh": "夠不著\n" },
+  { "en": "Out of range.",   "zh": "夠不著。" },
+  { "en": "Out of range",    "zh": "夠不著" },
+
+  { "en": "Move-", "zh": "移動-" },
+  { "en": "Cast-", "zh": "施咒-" },
+  { "en": "Attack with bare hands-", "zh": "徒手攻擊-" },
+  { "en": "Attack with ship cannons-", "zh": "船砲攻擊-" },
+  { "en": "Attack with sword-", "zh": "以劍攻擊-" },
+  { "en": "Attack with bow-", "zh": "以弓攻擊-" },
+  { "en": "Attack with halberd-", "zh": "以戟攻擊-" },
+  { "en": "Attack with axe-", "zh": "以斧攻擊-" },
+  { "en": "Attack with mace-", "zh": "以鎚攻擊-" },
+  { "en": "Attack with dagger-", "zh": "以匕攻擊-" },
+  { "en": "Attack with spear-", "zh": "以矛攻擊-" },
+  { "en": "Attack with hammer-", "zh": "以鎚攻擊-" },
+  { "en": "Attack with crossbow-", "zh": "以弩攻擊-" },
+  { "en": "Attack with morning star-", "zh": "以晨星錘攻擊-" },
+  { "en": "Attack with magic bow-", "zh": "以魔法弓攻擊-" },
+  { "en": "Attack with magic sword-", "zh": "以魔劍攻擊-" },
+  { "en": "Attack with throwing axe-", "zh": "以擲斧攻擊-" },
+
+  { "en": "Blocked.\n", "zh": "被阻擋。\n" },
+  { "en": "Blocked\n",  "zh": "被阻擋\n"  },
+  { "en": "Blocked.\n\n", "zh": "被阻擋。\n\n" },
+  { "en": "Begin combat!\n\n", "zh": "進入戰鬥！\n\n" },
+  { "en": "Break off combat!\n\n", "zh": "脫離戰鬥！\n\n" },
+  { "en": "Done!\n",   "zh": "完成！\n" },
+  { "en": "Failed.\n", "zh": "失敗。\n" },
+  { "en": "Failed\n",  "zh": "失敗\n" },
+  { "en": "Failed.\n\n", "zh": "失敗。\n\n" },
+  { "en": "Hic!\n",    "zh": "嗝！\n" },
+  { "en": "No effect\n", "zh": "無效\n" },
+  { "en": "No Effect.\n", "zh": "無效。\n" },
+  { "en": "Not in combat mode!\n", "zh": "未進入戰鬥模式！\n" },
+  { "en": "Not in combat mode!\n\n", "zh": "未進入戰鬥模式！\n\n" },
+  { "en": "Not everyone is here.\n", "zh": "並非眾人皆在此。\n" },
+  { "en": "Funny, no response.\n", "zh": "怪哉，毫無回應。\n" },
+
+  { "en": "Cannot be buried here!\n", "zh": "此處不可下葬！\n" },
+  { "en": "Missing a balloon basket.\n", "zh": "缺一熱氣球籃。\n" },
+  { "en": "Missing a cauldron.\n", "zh": "缺一坩鍋。\n" },
+  { "en": "Missing a mammoth silk bag.\n", "zh": "缺一猛獁絲袋。\n" },
+  { "en": "Missing a rope.\n", "zh": "缺一條繩。\n" },
+
+  { "en": "How many? ", "zh": "幾何？" },
+  { "en": "Make a wish? ", "zh": "許個願嗎？" },
+  { "en": "Midgame? ", "zh": "中盤？" },
+  { "en": "Category? ", "zh": "類別？" },
+  { "en": "Location? ", "zh": "位置？" },
+  { "en": "Location: \n", "zh": "位置：\n" },
+  { "en": "Location:", "zh": "位置：" },
+  { "en": "Mantra: ", "zh": "真言：" },
+  { "en": "Caves\n", "zh": "洞穴\n" },
+  { "en": "Cities\n", "zh": "城市\n" },
+  { "en": "Dungeons\n", "zh": "地穴\n" },
+  { "en": "Gargoyles\n", "zh": "魔像族\n" },
+  { "en": "More Dungeons\n", "zh": "更多地穴\n" },
+  { "en": "More Villages\n", "zh": "更多村莊\n" },
+  { "en": "Major Areas\n", "zh": "主要區域\n" },
+  { "en": "Myrmidex Holes\n", "zh": "蟻人巢穴\n" },
+
+  { "en": "\nGame Loaded\n\n", "zh": "\n存檔已載入\n\n" },
+  { "en": "\nGame Saved\n\n", "zh": "\n存檔已儲存\n\n" },
+
+  { "en": "the noble ruler of Britannia.\n", "zh": "不列顛尼亞之賢君。\n" },
+  { "en": "Lord British\n", "zh": "不列顛王\n" },
+  { "en": "\nthe noble ruler of Britannia.", "zh": "\n不列顛尼亞之賢君。" },
+  { "en": "\nthe noble ruler of Britannia.\n", "zh": "\n不列顛尼亞之賢君。\n" },
+
+  { "en": " grazed.",                  "zh": " 擦傷。" },
+  { "en": " grazed.\n",                "zh": " 擦傷。\n" },
+  { "en": " barely wounded.",          "zh": " 輕微受傷。" },
+  { "en": " barely wounded.\n",        "zh": " 輕微受傷。\n" },
+  { "en": " lightly wounded.",         "zh": " 輕度受傷。" },
+  { "en": " lightly wounded.\n",       "zh": " 輕度受傷。\n" },
+  { "en": " heavily wounded.",         "zh": " 重度受傷。" },
+  { "en": " heavily wounded.\n",       "zh": " 重度受傷。\n" },
+  { "en": " critical!",                "zh": " 命危！" },
+  { "en": " critical!\n",              "zh": " 命危！\n" },
+  { "en": " dead.",                    "zh": " 已亡。" },
+  { "en": " dead.\n",                  "zh": " 已亡。\n" },
+  { "en": " mortally wounded.",        "zh": " 致命傷。" },
+  { "en": " mortally wounded.\n",      "zh": " 致命傷。\n" },
+  { "en": " missed.",                  "zh": " 揮空。" },
+  { "en": " missed.\n",                "zh": " 揮空。\n" },
+  { "en": "Gargoyle",                  "zh": "魔像" },
+  { "en": "Dupre",                     "zh": "杜普雷" },
+  { "en": "Shamino",                   "zh": "夏米諾" },
+  { "en": "Iolo",                      "zh": "尤洛" },
+  { "en": "Mariah",                    "zh": "瑪萊雅" },
+  { "en": "Geoffrey",                  "zh": "傑佛瑞" },
+  { "en": "Sherry",                    "zh": "雪莉" },
+  { "en": "Chuckles",                  "zh": "笑笑" },
+
+  { "en": "Searching...\n",            "zh": "搜尋中……\n" },
+  { "en": "Searching...",              "zh": "搜尋中……" },
+  { "en": "You see ",                  "zh": "汝見" },
+  { "en": "Thou dost see ",            "zh": "汝見" },
+  { "en": "Thou seest ",               "zh": "汝見" },
+  { "en": "Nothing here.\n",           "zh": "此處空無一物。\n" },
+  { "en": "Nothing here.",             "zh": "此處空無一物。" },
+  { "en": "you say:",                  "zh": "汝答：" }
+ ]
+}

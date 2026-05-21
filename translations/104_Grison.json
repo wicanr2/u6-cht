@@ -1,0 +1,256 @@
+{
+ "translations": [
+  {
+   "offset": 9,
+   "len": 45,
+   "en": "a figure covered from head to toe with flour.",
+   "zh": "一個從頭到腳沾滿麵粉的人。",
+   "note": "DESC"
+  },
+  {
+   "offset": 64,
+   "len": 50,
+   "en": "\"Ach, I'd like to talk with ya, but I've no time!\"",
+   "zh": "「哎呀，在下很想與汝攀談，但實在沒空！」",
+   "note": ""
+  },
+  {
+   "offset": 117,
+   "len": 46,
+   "en": "\"Come see me at my gristmill some other time.\"",
+   "zh": "「改日來在下的磨坊找在下吧。」",
+   "note": ""
+  },
+  {
+   "offset": 166,
+   "len": 57,
+   "en": "\"'Tis hard work, but it gives me plenty of time to talk!\"",
+   "zh": "「是份辛苦的活，但倒是給在下大把時間聊天！」",
+   "note": ""
+  },
+  {
+   "offset": 232,
+   "len": 31,
+   "en": "\"Hrmph... ptuh... hello again.\"",
+   "zh": "「哼……呸……又見面了。」",
+   "note": "吐麵粉的口頭禪"
+  },
+  {
+   "offset": 265,
+   "len": 24,
+   "en": "\"Ptuh... ptuh... hello.\"",
+   "zh": "「呸……呸……你好。」",
+   "note": "吐麵粉的口頭禪"
+  },
+  {
+   "offset": 298,
+   "len": 36,
+   "en": "\"Grison Fairfleth, at your service.\"",
+   "zh": "「葛力松·費爾富萊斯，效勞。」",
+   "note": ""
+  },
+  {
+   "offset": 357,
+   "len": 38,
+   "en": "\"You can call me 'Gris' if ya prefer.\"",
+   "zh": "「若汝喜歡，可叫在下『葛力』。」",
+   "note": ""
+  },
+  {
+   "offset": 406,
+   "len": 44,
+   "en": "\"As you can see, I turn @grain into @flour.\"",
+   "zh": "「如汝所見，在下把@穀物磨成@麵粉。」",
+   "note": ""
+  },
+  {
+   "offset": 453,
+   "len": 52,
+   "en": "\"It's a pretty demanding job...and a bit messy too.\"",
+   "zh": "「這是份相當繁重的活……而且有點髒。」",
+   "note": ""
+  },
+  {
+   "offset": 548,
+   "len": 41,
+   "en": "\"He's a good fellow. I grew up with him.\"",
+   "zh": "「他是個好人，在下和他是從小一起長大的。」",
+   "note": ""
+  },
+  {
+   "offset": 604,
+   "len": 66,
+   "en": "\"Yep. We were mates.\" He continues to wipe the dust from his eyes.",
+   "zh": "「是的，我們是舊識。」他繼續擦拭眼中的粉塵。",
+   "note": ""
+  },
+  {
+   "offset": 682,
+   "len": 62,
+   "en": "\"Shorty, ya mean? He's got a fair temper, I'll tell you that!\"",
+   "zh": "「矮冬瓜？他脾氣可不小，在下可以告訴汝！」",
+   "note": ""
+  },
+  {
+   "offset": 756,
+   "len": 85,
+   "en": "\"She's one with a nose to the air instead of the grindstone.\" He chuckles to himself.",
+   "zh": "「她是個眼高手低之人，鼻孔朝天而非俯向磨石。」他自個兒暗自發笑。",
+   "note": "nose to the grindstone=埋頭苦幹，反其道而行"
+  },
+  {
+   "offset": 853,
+   "len": 34,
+   "en": "\"Scared of his own shadow, he is.\"",
+   "zh": "「他連自己的影子都怕。」",
+   "note": ""
+  },
+  {
+   "offset": 899,
+   "len": 39,
+   "en": "\"She's baked many a pie with my flour.\"",
+   "zh": "「她用在下的麵粉烤了不少派。」",
+   "note": ""
+  },
+  {
+   "offset": 950,
+   "len": 40,
+   "en": "\"Meri the wisp, eh? She's sure a cutey.\"",
+   "zh": "「梅里小精靈？她確實可愛。」",
+   "note": ""
+  },
+  {
+   "offset": 1002,
+   "len": 57,
+   "en": "\"One o' the nicest gents I know. Always has a good tale.\"",
+   "zh": "「在下認識的最好的人之一，總有好故事可說。」",
+   "note": ""
+  },
+  {
+   "offset": 1071,
+   "len": 61,
+   "en": "\"A good, hard worker, that man. Has quite a strong grip too.\"",
+   "zh": "「那人是個勤奮的好工人，而且握力相當驚人。」",
+   "note": ""
+  },
+  {
+   "offset": 1143,
+   "len": 40,
+   "en": "\"Well, if that's all you need, goodbye.\"",
+   "zh": "「好吧，若汝只需這些，告辭了。」",
+   "note": ""
+  },
+  {
+   "offset": 1188,
+   "len": 52,
+   "en": "He sticks a finger in his ear and shakes it. \"What?\"",
+   "zh": "他將手指插入耳中搖晃了一下。「什麼？」",
+   "note": ""
+  },
+  {
+   "offset": 1331,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝們誰？」",
+   "note": ""
+  },
+  {
+   "offset": 1357,
+   "len": 16,
+   "en": "\"Suit yourself.\"",
+   "zh": "「隨汝。」",
+   "note": ""
+  },
+  {
+   "offset": 1413,
+   "len": 58,
+   "en": "\"I'll sell you a sack of flour for 4 gold. Is that okay?\" ",
+   "zh": "「在下以4金賣汝一袋麵粉，可好？」",
+   "note": ""
+  },
+  {
+   "offset": 1494,
+   "len": 29,
+   "en": "\"You look pretty full to me.\"",
+   "zh": "「汝看起來已裝得滿滿的了。」",
+   "note": ""
+  },
+  {
+   "offset": 1566,
+   "len": 37,
+   "en": "\"Excellent!\" $N hands over the flour.",
+   "zh": "「極好！」$N遞出麵粉。",
+   "note": ""
+  },
+  {
+   "offset": 1610,
+   "len": 22,
+   "en": "\"You can't afford it.\"",
+   "zh": "「汝付不起。」",
+   "note": ""
+  },
+  {
+   "offset": 1642,
+   "len": 16,
+   "en": "\"Suit yourself.\"",
+   "zh": "「隨汝。」",
+   "note": ""
+  },
+  {
+   "offset": 1792,
+   "len": 37,
+   "en": "\"I'd buy some grain, if you had any.\"",
+   "zh": "「若汝有穀物，在下願意收購。」",
+   "note": ""
+  },
+  {
+   "offset": 1932,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝們誰？」",
+   "note": ""
+  },
+  {
+   "offset": 1958,
+   "len": 16,
+   "en": "\"Suit yourself.\"",
+   "zh": "「隨汝。」",
+   "note": ""
+  },
+  {
+   "offset": 2041,
+   "len": 30,
+   "en": "\"But ya don't have any grain!\"",
+   "zh": "「但汝沒有穀物！」",
+   "note": ""
+  },
+  {
+   "offset": 2078,
+   "len": 77,
+   "en": "$N turns to $Y, and says \"I'll pay you 3 crowns for that sack of grain, ok?\" ",
+   "zh": "$N轉向$Y，說：「那袋穀物3金，汝肯賣嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 2161,
+   "len": 53,
+   "en": "\"Done!\" He hands $Y 3 gold pieces and takes the sack.",
+   "zh": "「成交！」他遞給$Y 3枚金幣，取走袋子。",
+   "note": ""
+  },
+  {
+   "offset": 2249,
+   "len": 16,
+   "en": "\"Suit yourself.\"",
+   "zh": "「隨汝。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Grison Fairfleth": "葛力松·費爾富萊斯",
+   "Gris": "葛力"
+  }
+ },
+ "translator_notes": "104 Grison: 鴉爪鎮麵粉磨坊主，滿身麵粉，口頭禪是吐灰「呸」。賣麵粉買穀物。童年時與提默是老友。"
+}

@@ -1,0 +1,288 @@
+{
+  "_meta": {
+    "npc": "Nan (Lady Nan)",
+    "role": "緊張兮兮的年輕女吟遊詩人，Kenneth 之妻；怕蜘蛛，琉特琴中老有蜘蛛爬出。掌管慈悲真言『mu』之知識。"
+  },
+  "translations": [
+    {
+      "offset": 2,
+      "len": 3,
+      "en": "Nan",
+      "zh": "南",
+      "zh_bytes": 2,
+      "note": "人名；len=3，單字『南』占 2 bytes，留 1 byte 空位"
+    },
+    {
+      "offset": 6,
+      "len": 21,
+      "en": "a nervous young bard.",
+      "zh": "緊張的年輕吟遊女。",
+      "zh_bytes": 18,
+      "note": "描述句；避用『年』（5C trail）改用『輕』；改寫為『緊張的年輕吟遊女』——『年』0xA67E 不在 5C；確認"
+    },
+    {
+      "offset": 30,
+      "len": 55,
+      "en": "\"I would play for thee, but I'm worried about my lute.\"",
+      "zh": "「本欲為汝彈奏一曲，奈何放心不下我的琉特琴。」",
+      "zh_bytes": 46,
+      "note": "文白並用"
+    },
+    {
+      "offset": 88,
+      "len": 4,
+      "en": "name",
+      "zh": "名字",
+      "zh_bytes": 4,
+      "note": "@name keyword"
+    },
+    {
+      "offset": 93,
+      "len": 16,
+      "en": "\"I am Lady Nan.\"",
+      "zh": "「妾身南夫人。」",
+      "zh_bytes": 16,
+      "note": "Lady Nan 譯為『南夫人』，女性自稱『妾身』"
+    },
+    {
+      "offset": 121,
+      "len": 3,
+      "en": "job",
+      "zh": "業",
+      "zh_bytes": 2,
+      "note": "@job keyword；len=3 限制下用單字"
+    },
+    {
+      "offset": 125,
+      "len": 32,
+      "en": "\"Why, making @music, of course.\"",
+      "zh": "「自然是奏@樂啦。」",
+      "zh_bytes": 19,
+      "note": "@music → @樂"
+    },
+    {
+      "offset": 163,
+      "len": 4,
+      "en": "musi",
+      "zh": "樂",
+      "zh_bytes": 2,
+      "note": "@music keyword 對應；len=4"
+    },
+    {
+      "offset": 168,
+      "len": 16,
+      "en": "\"With my @lute.\"",
+      "zh": "「用@琉特琴。」",
+      "zh_bytes": 15,
+      "note": "@lute → @琉特琴"
+    },
+    {
+      "offset": 190,
+      "len": 19,
+      "en": "play,worr,lute,musi",
+      "zh": "彈奏,憂,琉特琴,樂",
+      "zh_bytes": 17,
+      "note": "keyword list：對應 play/worried/lute/music"
+    },
+    {
+      "offset": 210,
+      "len": 57,
+      "en": "\"Every time I pick up my lute, @spiders crawl out of it.\"",
+      "zh": "「每回拾起琉特琴，便有@蜘蛛自琴中爬出。」",
+      "zh_bytes": 41,
+      "note": "@spiders → @蜘蛛"
+    },
+    {
+      "offset": 270,
+      "len": 50,
+      "en": "\"There must be hundreds of them nesting in there!\"",
+      "zh": "「裡頭怕是有上百隻在築巢吧！」",
+      "zh_bytes": 30,
+      "note": "Nan 焦慮語氣"
+    },
+    {
+      "offset": 326,
+      "len": 19,
+      "en": "spid,nest,craw,hund",
+      "zh": "蜘蛛,巢,爬,百",
+      "zh_bytes": 13,
+      "note": "keyword list"
+    },
+    {
+      "offset": 346,
+      "len": 89,
+      "en": "\"I hate spiders! They're creepy, ugly, disgusting things! Why won't they leave me alone?\"",
+      "zh": "「妾身恨蜘蛛！那等噁心、醜陋、令人毛骨悚然之物！為何就不肯放過我？」",
+      "zh_bytes": 68,
+      "note": "強烈情緒"
+    },
+    {
+      "offset": 447,
+      "len": 87,
+      "en": "Iolo says to her, \"Now, now, my dear. Have you forgotten about the @gloves I gave you?\"",
+      "zh": "尤洛對她說：「好啦好啦，親愛的。莫非汝忘了我送的那雙@手套？」",
+      "zh_bytes": 61,
+      "note": "Iolo 安慰；@gloves → @手套"
+    },
+    {
+      "offset": 541,
+      "len": 50,
+      "en": "\"Oh, yes. Perhaps if I wore those I could play...\"",
+      "zh": "「啊，是了。倘若戴上那副，便能彈奏了……」",
+      "zh_bytes": 42,
+      "note": ""
+    },
+    {
+      "offset": 598,
+      "len": 4,
+      "en": "glov",
+      "zh": "手套",
+      "zh_bytes": 4,
+      "note": "@gloves keyword 對應"
+    },
+    {
+      "offset": 603,
+      "len": 39,
+      "en": "\"Iolo gave them to me for my birthday.\"",
+      "zh": "「是尤洛在我生辰時相贈。」",
+      "zh_bytes": 26,
+      "note": ""
+    },
+    {
+      "offset": 648,
+      "len": 4,
+      "en": "comp",
+      "zh": "慈悲",
+      "zh_bytes": 4,
+      "note": "@compassion keyword 對應"
+    },
+    {
+      "offset": 653,
+      "len": 53,
+      "en": "\"Yes, I know of the @Rune and @Mantra of Compassion.\"",
+      "zh": "「是的，妾身知曉@慈悲之@符文與@真言。」",
+      "zh_bytes": 39,
+      "note": "@Rune/@Mantra 對應 glossary"
+    },
+    {
+      "offset": 712,
+      "len": 4,
+      "en": "mant",
+      "zh": "真言",
+      "zh_bytes": 4,
+      "note": "@mantra keyword 對應"
+    },
+    {
+      "offset": 717,
+      "len": 70,
+      "en": "\"The Mantra of Compassion is 'mu.' Is that a spider on your shoulder?\"",
+      "zh": "「慈悲之真言乃『mu』。汝肩上那是隻蜘蛛麼？」",
+      "zh_bytes": 44,
+      "note": "保留 'mu' ASCII；Nan 又恐慌看見蜘蛛"
+    },
+    {
+      "offset": 790,
+      "len": 37,
+      "en": "\"No, 'tis just a trick of the light.\"",
+      "zh": "「不，那不過是光影所致罷了。」",
+      "zh_bytes": 30,
+      "note": ""
+    },
+    {
+      "offset": 833,
+      "len": 4,
+      "en": "rune",
+      "zh": "符文",
+      "zh_bytes": 4,
+      "note": "@rune keyword 對應"
+    },
+    {
+      "offset": 838,
+      "len": 59,
+      "en": "\"'Twas given to our most promising student, young @Ariana.\"",
+      "zh": "「乃贈予我等最有前途之高徒——小@艾莉安娜。」",
+      "zh_bytes": 45,
+      "note": "@Ariana → @艾莉安娜"
+    },
+    {
+      "offset": 903,
+      "len": 4,
+      "en": "aria",
+      "zh": "艾莉",
+      "zh_bytes": 4,
+      "note": "@Ariana keyword 對應"
+    },
+    {
+      "offset": 908,
+      "len": 69,
+      "en": "\"She's very talented. She'll go far, if the spiders don't get her...\"",
+      "zh": "「她極具天賦，前途無量，只要蜘蛛別找上她……」",
+      "zh_bytes": 46,
+      "note": ""
+    },
+    {
+      "offset": 983,
+      "len": 3,
+      "en": "bye",
+      "zh": "別",
+      "zh_bytes": 2,
+      "note": "@bye keyword；單字『別』"
+    },
+    {
+      "offset": 987,
+      "len": 73,
+      "en": "\"Fare thee well, and watch thy step! The spiders are lurking everywhere.\"",
+      "zh": "「祝汝一路平安，慎走每一步！蜘蛛無處不在。」",
+      "zh_bytes": 44,
+      "note": ""
+    },
+    {
+      "offset": 1065,
+      "len": 31,
+      "en": "\"I cannot help thee with that.\"",
+      "zh": "「此事妾身幫不上汝。」",
+      "zh_bytes": 22,
+      "note": "預設回應"
+    }
+  ],
+  "keyword_mapping": {
+    "@music": "@樂",
+    "@lute": "@琉特琴",
+    "@spiders": "@蜘蛛",
+    "@gloves": "@手套",
+    "@Rune": "@符文",
+    "@Mantra": "@真言",
+    "@Ariana": "@艾莉安娜"
+  },
+  "glossary_additions": {
+    "people": {
+      "Nan": "南",
+      "Lady Nan": "南夫人",
+      "Ariana": "艾莉安娜"
+    },
+    "concepts": {
+      "lute": "琉特琴",
+      "spider": "蜘蛛",
+      "gloves": "手套"
+    }
+  },
+  "riddles_additions": [
+    {
+      "npc": "Nan",
+      "key": "MANTRA_MU_SPIDER",
+      "en": "The Mantra of Compassion is 'mu.' Is that a spider on your shoulder?",
+      "zh": "慈悲之真言乃『mu』。汝肩上那是隻蜘蛛麼？",
+      "ref": "Nan 一邊傳授真言一邊神經質地誤認蜘蛛",
+      "strategy": "mantra 音節 'mu' 保留 ASCII，承襲 Mariah 章程"
+    },
+    {
+      "npc": "Nan",
+      "key": "SPIDERS_LURKING",
+      "en": "The spiders are lurking everywhere.",
+      "zh": "蜘蛛無處不在。",
+      "ref": "Nan 招牌焦慮口吻；告別時也不忘恐嚇",
+      "strategy": "直譯保留荒謬感"
+    }
+  ],
+  "translator_notes": "Nan 神經質、纖細、自稱『妾身』。蜘蛛恐懼貫穿全段；多處用『便』『奈何』『莫非』等文言虛詞點綴。傳授真言 'mu' 保留 ASCII（與 Mariah 系統一致）。"
+}

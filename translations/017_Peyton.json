@@ -1,0 +1,234 @@
+{
+  "_meta": {
+    "npc": "Peyton",
+    "role": "Wayfarer's Inn 旅店主人，衣著整潔、性情平和。處理住宿買賣對話。"
+  },
+  "translations": [
+    {
+      "offset": 2,
+      "len": 6,
+      "en": "Peyton",
+      "zh": "佩頓",
+      "zh_bytes": 4,
+      "note": "人名音譯"
+    },
+    {
+      "offset": 9,
+      "len": 43,
+      "en": "a well-dressed man with a very even temper.",
+      "zh": "一名衣著得體、性情極為平和的男子。",
+      "zh_bytes": 34,
+      "note": "描述句"
+    },
+    {
+      "offset": 61,
+      "len": 16,
+      "en": "\"Good $T, friend",
+      "zh": "「$T安，朋友",
+      "zh_bytes": 12,
+      "note": "保留 $T；無結尾引號（接續句）"
+    },
+    {
+      "offset": 78,
+      "len": 20,
+      "en": "\"Greetings, traveler",
+      "zh": "「旅人，您好",
+      "zh_bytes": 12,
+      "note": "接續句，無結尾引號"
+    },
+    {
+      "offset": 105,
+      "len": 14,
+      "en": ", and welcome ",
+      "zh": "，歡迎",
+      "zh_bytes": 6,
+      "note": "片段；空白也保留語義"
+    },
+    {
+      "offset": 125,
+      "len": 5,
+      "en": "back ",
+      "zh": "再臨",
+      "zh_bytes": 4,
+      "note": "片段：再次光臨"
+    },
+    {
+      "offset": 138,
+      "len": 24,
+      "en": "to the Wayfarer's @Inn!\"",
+      "zh": "@旅人客棧！」",
+      "zh_bytes": 13,
+      "note": "@Inn → @旅人客棧"
+    },
+    {
+      "offset": 165,
+      "len": 4,
+      "en": "name",
+      "zh": "名字",
+      "zh_bytes": 4,
+      "note": "@name keyword"
+    },
+    {
+      "offset": 170,
+      "len": 64,
+      "en": "\"I am Peyton, and this is my place.\" He gestures with his hands.",
+      "zh": "「在下佩頓，此處便是小店。」他以雙手示意。",
+      "zh_bytes": 42,
+      "note": ""
+    },
+    {
+      "offset": 247,
+      "len": 4,
+      "en": "peyt",
+      "zh": "佩頓",
+      "zh_bytes": 4,
+      "note": "@peyton keyword 對應"
+    },
+    {
+      "offset": 252,
+      "len": 25,
+      "en": "\"Did you need something?\"",
+      "zh": "「汝有何需要嗎？」",
+      "zh_bytes": 18,
+      "note": ""
+    },
+    {
+      "offset": 284,
+      "len": 3,
+      "en": "job",
+      "zh": "業",
+      "zh_bytes": 2,
+      "note": "@job keyword"
+    },
+    {
+      "offset": 288,
+      "len": 42,
+      "en": "\"I can offer you a @room for the evening.\"",
+      "zh": "「在下可為汝備一間@客房過夜。」",
+      "zh_bytes": 31,
+      "note": "@room → @客房"
+    },
+    {
+      "offset": 337,
+      "len": 8,
+      "en": "room,inn",
+      "zh": "客房,棧",
+      "zh_bytes": 7,
+      "note": "keyword list"
+    },
+    {
+      "offset": 352,
+      "len": 3,
+      "en": "bye",
+      "zh": "別",
+      "zh_bytes": 2,
+      "note": "@bye keyword"
+    },
+    {
+      "offset": 356,
+      "len": 33,
+      "en": "\"Goodbye. Take care of yourself.\"",
+      "zh": "「再會，望汝多保重。」",
+      "zh_bytes": 22,
+      "note": ""
+    },
+    {
+      "offset": 394,
+      "len": 38,
+      "en": "\"I'm sure you'll have to ask another.\"",
+      "zh": "「此事汝怕得另尋人問。」",
+      "zh_bytes": 24,
+      "note": "預設未知回應"
+    },
+    {
+      "offset": 452,
+      "len": 45,
+      "en": "\"#0 gold for bed and breakfast. Interested?\" ",
+      "zh": "「#0 金幣，含床位早膳。可有興致？」",
+      "zh_bytes": 35,
+      "note": "保留 #0 變數"
+    },
+    {
+      "offset": 498,
+      "len": 2,
+      "en": "yn",
+      "zh": "yn",
+      "zh_bytes": 2,
+      "note": "yes/no prompt 系統 keyword，保留 ASCII"
+    },
+    {
+      "offset": 541,
+      "len": 41,
+      "en": "\"Well, perhaps next time you're in town.\"",
+      "zh": "「也罷，待汝下回入城再說吧。」",
+      "zh_bytes": 30,
+      "note": ""
+    },
+    {
+      "offset": 589,
+      "len": 33,
+      "en": "You sleep in a comfortable bed...",
+      "zh": "汝在舒適的床榻上酣然入睡……",
+      "zh_bytes": 28,
+      "note": "旁白"
+    },
+    {
+      "offset": 626,
+      "len": 42,
+      "en": "You wake rested and eat a large breakfast.",
+      "zh": "汝精神飽滿地醒來，享用了一頓豐盛早膳。",
+      "zh_bytes": 38,
+      "note": "旁白"
+    },
+    {
+      "offset": 671,
+      "len": 36,
+      "en": "\"Good morning, and have a good day.\"",
+      "zh": "「早安，祝汝今日順遂。」",
+      "zh_bytes": 24,
+      "note": ""
+    },
+    {
+      "offset": 720,
+      "len": 36,
+      "en": "You don't have enough gold for that.",
+      "zh": "汝身上的金幣不夠付帳。",
+      "zh_bytes": 22,
+      "note": "旁白"
+    },
+    {
+      "offset": 798,
+      "len": 48,
+      "en": "\"I'm sorry, cash in advance. That's our policy.\"",
+      "zh": "「抱歉，須先付清。此乃小店規矩。」",
+      "zh_bytes": 34,
+      "note": ""
+    },
+    {
+      "offset": 909,
+      "len": 54,
+      "en": "Your party takes up a collection to pay for the rooms.",
+      "zh": "汝這一行人湊了份子，付清了房錢。",
+      "zh_bytes": 32,
+      "note": "旁白"
+    }
+  ],
+  "keyword_mapping": {
+    "@Inn": "@旅人客棧",
+    "@room": "@客房"
+  },
+  "glossary_additions": {
+    "people": {
+      "Peyton": "佩頓"
+    },
+    "places": {
+      "Wayfarer's Inn": "旅人客棧"
+    },
+    "concepts": {
+      "inn": "客棧",
+      "room": "客房"
+    }
+  },
+  "riddles_additions": [],
+  "translator_notes": "Peyton 為旅店掌櫃，語氣平和有禮，自稱『在下』，稱客人『汝』。問候語『Good $T』譯為『$T安』以保留 $T 變數（時辰）。注意三段拼接式問候（offset 61/78/105/125/138）：在原版中是動態拼接的問候模板，譯文也維持片段語意，組合後仍通順。"
+}

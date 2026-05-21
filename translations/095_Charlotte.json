@@ -1,0 +1,352 @@
+{
+ "translations": [
+  {
+   "offset": 12,
+   "len": 40,
+   "en": "a pretty young woman with downcast eyes.",
+   "zh": "一位秀麗的年輕女子，眼神低垂。",
+   "note": "DESC"
+  },
+  {
+   "offset": 61,
+   "len": 18,
+   "en": "\"Hello again, $G.\"",
+   "zh": "「又見面了，$G。」",
+   "note": "再次見面問候"
+  },
+  {
+   "offset": 80,
+   "len": 14,
+   "en": "\"Good $T, $G.\"",
+   "zh": "「$T安，$G。」",
+   "note": "時段問候"
+  },
+  {
+   "offset": 103,
+   "len": 36,
+   "en": "\"I am called Charlotte @Weaver, $G.\"",
+   "zh": "「吾名夏綠蒂·@織女，$G。」",
+   "note": "@Weaver keyword"
+  },
+  {
+   "offset": 155,
+   "len": 32,
+   "en": "\"I am but a humble @weaver, $G.\"",
+   "zh": "「吾不過是個謙遜的@織工，$G。」",
+   "note": "@weaver keyword"
+  },
+  {
+   "offset": 198,
+   "len": 26,
+   "en": "\"I turn @wool into cloth.\"",
+   "zh": "「吾將@羊毛織成布匹。」",
+   "note": "@wool keyword"
+  },
+  {
+   "offset": 227,
+   "len": 79,
+   "en": "\"I am not very good, but some people take pity on me and buy my @cloth anyway.\"",
+   "zh": "「吾技藝不精，但有些人憐憫吾，仍願買吾的@布匹。」",
+   "note": "@cloth keyword；謙遜自嘲"
+  },
+  {
+   "offset": 334,
+   "len": 32,
+   "en": "\"Come to my shop when I'm open!\"",
+   "zh": "「吾店開門時，歡迎光臨！」",
+   "note": "buy/cloth response"
+  },
+  {
+   "offset": 372,
+   "len": 32,
+   "en": "\"Wouldst thou like some cloth?\" ",
+   "zh": "「汝可想要些布匹？」",
+   "note": "cloth sale offer"
+  },
+  {
+   "offset": 434,
+   "len": 32,
+   "en": "\"Come to my shop when I'm open!\"",
+   "zh": "「吾店開門時，歡迎光臨！」",
+   "note": "sell/wool response"
+  },
+  {
+   "offset": 472,
+   "len": 31,
+   "en": "\"Hast thou some wool to sell?\" ",
+   "zh": "「汝可有羊毛欲出售？」",
+   "note": "wool sell inquiry"
+  },
+  {
+   "offset": 528,
+   "len": 32,
+   "en": "\"Come to my shop when I'm open!\"",
+   "zh": "「吾店開門時，歡迎光臨！」",
+   "note": "silk response"
+  },
+  {
+   "offset": 598,
+   "len": 20,
+   "en": "\"She lives in Paws.\"",
+   "zh": "「她住在鴉爪鎮。」",
+   "note": "mari keyword response"
+  },
+  {
+   "offset": 629,
+   "len": 19,
+   "en": "\"He lives in Paws.\"",
+   "zh": "「他住在鴉爪鎮。」",
+   "note": "arbe keyword response"
+  },
+  {
+   "offset": 659,
+   "len": 48,
+   "en": "\"'Tis really not my place to speak of that, $G.\"",
+   "zh": "「此乃非吾置喙之事，$G。」",
+   "note": "humb keyword deflect"
+  },
+  {
+   "offset": 710,
+   "len": 108,
+   "en": "\"But honesty is a virtue too, and honesty forces me to admit that I am the humblest person in New Magencia.\"",
+   "zh": "「但誠實亦是一種美德，誠實迫使吾承認：吾乃新馬精西亞最謙遜之人。」",
+   "note": "幽默諷刺：以誠實聲稱自己最謙遜；New Magencia → 新馬精西亞"
+  },
+  {
+   "offset": 828,
+   "len": 15,
+   "en": "\"Farewell, $G!\"",
+   "zh": "「別了，$G！」",
+   "note": "bye"
+  },
+  {
+   "offset": 848,
+   "len": 48,
+   "en": "\"'Tis really not my place to speak of that, $G.\"",
+   "zh": "「此乃非吾置喙之事，$G。」",
+   "note": "default deflect（重複）"
+  },
+  {
+   "offset": 916,
+   "len": 18,
+   "en": "\"As you wish, $G.\"",
+   "zh": "「悉聽汝意，$G。」",
+   "note": "yn response"
+  },
+  {
+   "offset": 954,
+   "len": 18,
+   "en": "\"As you wish, $G.\"",
+   "zh": "「悉聽汝意，$G。」",
+   "note": "yn response（重複）"
+  },
+  {
+   "offset": 996,
+   "len": 44,
+   "en": "\"Begging thy pardon, $G, but I see no silk!\"",
+   "zh": "「冒昧稟告，$G，吾並未見到絲線！」",
+   "note": "no silk detected"
+  },
+  {
+   "offset": 1050,
+   "len": 50,
+   "en": "\"Aye, $Y, I can weave thy silk thread into cloth.\"",
+   "zh": "「是的，$Y，吾能將汝的絲線織成布匹。」",
+   "note": "silk weaving offer"
+  },
+  {
+   "offset": 1103,
+   "len": 41,
+   "en": "\"It will cost thee 10 gold. Interested?\" ",
+   "zh": "「須花費十枚金幣。汝有意乎？」",
+   "note": "price quote"
+  },
+  {
+   "offset": 1160,
+   "len": 57,
+   "en": "\"Begging thy pardon, $Y, but thou dost not have 10 gold!\"",
+   "zh": "「冒昧稟告，$Y，汝並無十枚金幣！」",
+   "note": "insufficient gold"
+  },
+  {
+   "offset": 1249,
+   "len": 75,
+   "en": "Turning to her loom, Charlotte soon weaves the thread into fine silk cloth.",
+   "zh": "夏綠蒂轉向織布機，不一會兒便將絲線織成精美的絲綢布匹。",
+   "note": "action；weaving scene"
+  },
+  {
+   "offset": 1327,
+   "len": 57,
+   "en": "\"Finished!\" She takes $Y's gold and hands over the cloth.",
+   "zh": "「完成了！」她收下$Y的金幣，將布匹遞了過去。",
+   "note": "action；transaction complete"
+  },
+  {
+   "offset": 1405,
+   "len": 24,
+   "en": "\"Thou knowest best, $Y.\"",
+   "zh": "「汝最清楚了，$Y。」",
+   "note": "declined"
+  },
+  {
+   "offset": 1516,
+   "len": 40,
+   "en": "\"Begging thy pardon, but I see no wool!\"",
+   "zh": "「冒昧稟告，吾並未見到羊毛！」",
+   "note": "no wool detected"
+  },
+  {
+   "offset": 1589,
+   "len": 39,
+   "en": "\"Aye, $Y, I will buy wool from thee...\"",
+   "zh": "「是的，$Y，吾願向汝購買羊毛……」",
+   "note": "wool buy offer"
+  },
+  {
+   "offset": 1660,
+   "len": 6,
+   "en": "#1) $Y",
+   "zh": "#1) $Y",
+   "note": "選項列表佔位符，原樣保留"
+  },
+  {
+   "offset": 1690,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝等哪一位？」",
+   "note": "party member selection"
+  },
+  {
+   "offset": 1716,
+   "len": 16,
+   "en": "\"As you wish...\"",
+   "zh": "「悉聽尊意……」",
+   "note": "declined"
+  },
+  {
+   "offset": 1777,
+   "len": 55,
+   "en": "\"Will you take 10 gold crowns for a bale of wool, $Y?\" ",
+   "zh": "「汝願以十枚金幣出售一捆羊毛嗎，$Y？」",
+   "note": "wool purchase offer"
+  },
+  {
+   "offset": 1838,
+   "len": 32,
+   "en": "\"Perhaps some other time, then.\"",
+   "zh": "「那便改日再說。」",
+   "note": "declined"
+  },
+  {
+   "offset": 1878,
+   "len": 54,
+   "en": "\"Done!\" $N hands $Y 10 gold pieces and takes the wool.",
+   "zh": "「成交！」$N將十枚金幣遞給$Y，並取走羊毛。",
+   "note": "action；wool transaction"
+  },
+  {
+   "offset": 2005,
+   "len": 6,
+   "en": "#2) $Y",
+   "zh": "#2) $Y",
+   "note": "選項列表佔位符，原樣保留"
+  },
+  {
+   "offset": 2045,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝等哪一位？」",
+   "note": "party member selection（重複）"
+  },
+  {
+   "offset": 2071,
+   "len": 18,
+   "en": "\"As you wish, $G.\"",
+   "zh": "「悉聽汝意，$G。」",
+   "note": "declined"
+  },
+  {
+   "offset": 2132,
+   "len": 42,
+   "en": "\"My cloth costs 25 gold. Interested, $Y?\" ",
+   "zh": "「吾的布匹售價二十五枚金幣。$Y，有意乎？」",
+   "note": "cloth price quote"
+  },
+  {
+   "offset": 2188,
+   "len": 24,
+   "en": "\"Thou knowest best, $Y.\"",
+   "zh": "「汝最清楚了，$Y。」",
+   "note": "declined"
+  },
+  {
+   "offset": 2235,
+   "len": 41,
+   "en": "\"But 'twould make thee o'erburdened, $Y!\"",
+   "zh": "「然如此一來汝將負荷過重，$Y！」",
+   "note": "inventory full warning"
+  },
+  {
+   "offset": 2318,
+   "len": 14,
+   "en": "\"Many thanks!\"",
+   "zh": "「多謝惠顧！」",
+   "note": "purchase thank you"
+  },
+  {
+   "offset": 2334,
+   "len": 51,
+   "en": "After accepting $Y's gold, $N hands over the cloth.",
+   "zh": "收下$Y的金幣後，$N將布匹遞了過去。",
+   "note": "action；cloth transaction"
+  },
+  {
+   "offset": 2391,
+   "len": 36,
+   "en": "\"But thou hast not enough gold, $Y!\"",
+   "zh": "「然汝金幣不足，$Y！」",
+   "note": "insufficient gold"
+  },
+  {
+   "offset": 2445,
+   "len": 29,
+   "en": "\"I'm not sure what you mean.\"",
+   "zh": "「吾不甚明白汝的意思。」",
+   "note": "default不解"
+  },
+  {
+   "offset": 2491,
+   "len": 72,
+   "en": "\"Take the cloth to @Marissa. Mayhap she can sew it into a bag for thee.\"",
+   "zh": "「將布匹帶去找@瑪麗莎。也許她能為汝縫製一個袋子。」",
+   "note": "@Marissa keyword；plan/ball/bag response"
+  },
+  {
+   "offset": 2580,
+   "len": 74,
+   "en": "\"I can weave that @silk for thee... Then thou should speak with @Marissa.\"",
+   "zh": "「吾可為汝將那@絲線織成布匹……然後汝應去找@瑪麗莎談談。」",
+   "note": "@silk @Marissa keywords"
+  },
+  {
+   "offset": 2660,
+   "len": 89,
+   "en": "\"If you had some @silk thread, I could help thee. Go ask @Arbeth if he has any to spare.\"",
+   "zh": "「若汝有些@絲線，吾便能相助。去問問@阿伯斯他是否有多餘的。」",
+   "note": "@silk @Arbeth keywords"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Charlotte Weaver": "夏綠蒂·織女",
+   "Marissa": "瑪麗莎",
+   "Arbeth": "阿伯斯"
+  },
+  "places": {
+   "Paws": "鴉爪鎮",
+   "New Magincia": "新馬精西亞"
+  }
+ },
+ "translator_notes": "095 Charlotte：新馬精西亞謙遜織工。謙遜德行主題：自稱技藝不精，以「誠實」聲稱自己是最謙遜之人，為角色小幽默。語氣低調、謙遜。避 5C trail 字。"
+}

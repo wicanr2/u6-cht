@@ -1,0 +1,167 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 5,
+   "en": "Daros",
+   "zh": "達羅斯",
+   "note": "NPC name，下水道工人"
+  },
+  {
+   "offset": 8,
+   "len": 73,
+   "en": "a skinny, awkward looking man, wearing boots that come up past his knees.",
+   "zh": "一個瘦削、模樣滑稽、靴子高過膝蓋的男人。",
+   "note": "DESC"
+  },
+  {
+   "offset": 84,
+   "len": 56,
+   "en": "\"Hey hey hey! Welcome to the finest sewers in Britannia.",
+   "zh": "「嘿嘿嘿！歡迎光臨不列顛尼亞最棒的下水道。",
+   "note": "前半，未閉合"
+  },
+  {
+   "offset": 159,
+   "len": 61,
+   "en": "\"You look like you need a nickname, so I'll call you 'ducks.'",
+   "zh": "「你這副模樣好像需要個外號，我就叫你「鴨子」吧。",
+   "note": "後半（或獨立段落），未閉合"
+  },
+  {
+   "offset": 230,
+   "len": 49,
+   "en": "\"My name's Daros, old duck.\" He shakes your hand.",
+   "zh": "「我叫達羅斯，老鴨子。」他和你握手。",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 289,
+   "len": 62,
+   "en": "\"Well, ducky, I keep the @sewers running the way they should.\"",
+   "zh": "「嗯，小鴨子，我負責維持@sewers下水道正常運作。」",
+   "note": ""
+  },
+  {
+   "offset": 354,
+   "len": 107,
+   "en": "\"When work is slow, sometimes I play a @joke or two on my @friends to keep things lively.\" He winks at you.",
+   "zh": "「工作不忙的時候，我有時會對@friends朋友們開個@joke玩笑，讓氣氛活躍一點。」他向你眨了眨眼。",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 472,
+   "len": 96,
+   "en": "\"Even though we don't know each other that well, I'd like to think of you as my friend already.\"",
+   "zh": "「雖然我們還不是很熟，但我已經想把你當成我的朋友了。」",
+   "note": ""
+  },
+  {
+   "offset": 584,
+   "len": 65,
+   "en": "\"Oh you know, ducks, the usual kinds.\" He nudges you in the ribs.",
+   "zh": "「哦，你懂的，鴨子，就是那些常見的玩笑。」他用手肘頂了頂你的肋骨。",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 665,
+   "len": 86,
+   "en": "\"@Britain is the biggest city in the world, and all those people use a lot of @water.\"",
+   "zh": "「@Britain不列顛是世上最大的城市，那麼多人用了大量的@water水。」",
+   "note": ""
+  },
+  {
+   "offset": 754,
+   "len": 94,
+   "en": "\"All the runoff drains down here. It's not a bad place to work, really, except for the @rats.\"",
+   "zh": "「所有廢水都排到這裡來。說真的，這地方還不錯，就是@rats老鼠多了點。」",
+   "note": ""
+  },
+  {
+   "offset": 858,
+   "len": 46,
+   "en": "\"They're pretty big, ducky, but not to worry.\"",
+   "zh": "「那些老鼠挺大的，小鴨子，但別擔心。」",
+   "note": ""
+  },
+  {
+   "offset": 907,
+   "len": 66,
+   "en": "\"They usually won't eat you until after they've killed you first.\"",
+   "zh": "「它們通常要先把你殺死，才會吃你。」",
+   "note": ""
+  },
+  {
+   "offset": 976,
+   "len": 82,
+   "en": "\"Of course, if you have a set of @panpipes, I hear you can just pipe them away...\"",
+   "zh": "「當然，如果你有一套@panpipes排笛，聽說用笛聲就能把它們引走……」",
+   "note": ""
+  },
+  {
+   "offset": 1073,
+   "len": 54,
+   "en": "\"I don't have a set myself. I usually just @run away.\"",
+   "zh": "「我自己沒有。通常我就直接@run跑就是了。」",
+   "note": ""
+  },
+  {
+   "offset": 1142,
+   "len": 26,
+   "en": "\"It's real good exercise!\"",
+   "zh": "「是很好的運動！」",
+   "note": ""
+  },
+  {
+   "offset": 1189,
+   "len": 44,
+   "en": "\"I wouldn't go swimming around here, ducks.\"",
+   "zh": "「我勸你別在這附近游泳，鴨子。」",
+   "note": ""
+  },
+  {
+   "offset": 1244,
+   "len": 56,
+   "en": "\"Go back up and have a look! I'm sure it's still there.\"",
+   "zh": "「上去看看吧！我相信它還在那裡。」",
+   "note": ""
+  },
+  {
+   "offset": 1303,
+   "len": 58,
+   "en": "He grins, obviously delighted with his own sense of humor.",
+   "zh": "他咧嘴笑著，顯然對自己的幽默感十分滿意。",
+   "note": "旁白"
+  },
+  {
+   "offset": 1407,
+   "len": 27,
+   "en": "\"See you around, old duck.\"",
+   "zh": "「回頭見，老鴨子。」",
+   "note": ""
+  },
+  {
+   "offset": 1436,
+   "len": 111,
+   "en": "*He gives you a hearty slap on the back as you leave, which almost knocks one of the straps on your pack loose.",
+   "zh": "*你離開時，他用力拍了你一下後背，差點把你背包的一根帶子拍鬆了。",
+   "note": "* 控制符保留"
+  },
+  {
+   "offset": 1552,
+   "len": 54,
+   "en": "\"That's not something I talk about much, down here...\"",
+   "zh": "「那不是我在這下面常談的話題……」",
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {
+   "Daros": "達羅斯"
+  },
+  "places": {}
+ },
+ "riddles_additions": [],
+ "translator_notes": "達羅斯是不列顛城下水道工人，愛說笑、熱情，把所有人叫做「鴨子/老鴨子」（ducks/old duck）。「排笛趕老鼠」暗示玩家可用排笛驅鼠的遊戲機制。幽默感輕快，以接地氣口語翻譯。"
+}

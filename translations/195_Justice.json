@@ -1,0 +1,158 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 7,
+   "en": "Justice",
+   "zh": "正義祭壇",
+   "note": "NPC name — 神殿祭壇"
+  },
+  {
+   "offset": 10,
+   "len": 21,
+   "en": "the altar of Justice.",
+   "zh": "正義之祭壇。",
+   "note": "DESC"
+  },
+  {
+   "offset": 35,
+   "len": 68,
+   "en": "As you kneel before the altar, a mystical voice sounds in your head.",
+   "zh": "當你跪在祭壇前，一個神秘的聲音在你腦中迴響。",
+   "note": "旁白"
+  },
+  {
+   "offset": 113,
+   "len": 39,
+   "en": "\"Thou hast much to learn about justice.\"",
+   "zh": "「汝對正義仍有許多須學習之處。」",
+   "note": "低階評語"
+  },
+  {
+   "offset": 166,
+   "len": 42,
+   "en": "\"Thy deeds have shown admirable justice.\"",
+   "zh": "「汝之行為展現了令人欽佩的正義。」",
+   "note": "中階評語"
+  },
+  {
+   "offset": 208,
+   "len": 39,
+   "en": "\"Thy deeds serve as an example to all.\"",
+   "zh": "「汝之行為可為眾人表率。」",
+   "note": "高階評語"
+  },
+  {
+   "offset": 251,
+   "len": 39,
+   "en": "Do you wish to meditate at this altar? ",
+   "zh": "你希望在此祭壇冥想嗎？",
+   "note": "旁白提示，尾隨空格保留"
+  },
+  {
+   "offset": 340,
+   "len": 6,
+   "en": "#2. $Y",
+   "zh": "#2。$Y",
+   "note": "控制符保留"
+  },
+  {
+   "offset": 380,
+   "len": 21,
+   "en": "\"Who will meditate?\" ",
+   "zh": "「誰來冥想？」",
+   "note": "尾隨空格保留"
+  },
+  {
+   "offset": 437,
+   "len": 29,
+   "en": "\"Speak the Mantra of Justice.\"",
+   "zh": "「覆誦正義真言。」",
+   "note": ""
+  },
+  {
+   "offset": 470,
+   "len": 13,
+   "en": "\"$Z... $Z...\"",
+   "zh": "「$Z…… $Z……」",
+   "note": "真言提示第一次"
+  },
+  {
+   "offset": 486,
+   "len": 13,
+   "en": "\"$Z... $Z...\"",
+   "zh": "「$Z…… $Z……」",
+   "note": "真言提示第二次"
+  },
+  {
+   "offset": 502,
+   "len": 13,
+   "en": "\"$Z... $Z...\"",
+   "zh": "「$Z…… $Z……」",
+   "note": "真言提示第三次"
+  },
+  {
+   "offset": 522,
+   "len": 35,
+   "en": "\"Justice without force is impotent.\"",
+   "zh": "「沒有力量的正義，是無能的正義。」",
+   "note": "聖言（巴斯卡《思想錄》典故）"
+  },
+  {
+   "offset": 561,
+   "len": 34,
+   "en": "\"Force without justice is tyranny.\"",
+   "zh": "「沒有正義的力量，是暴君的力量。」",
+   "note": "聖言（同上）"
+  },
+  {
+   "offset": 605,
+   "len": 29,
+   "en": "You receive no enlightenment.",
+   "zh": "你未能獲得啟示。",
+   "note": "旁白"
+  },
+  {
+   "offset": 849,
+   "len": 24,
+   "en": "$Y has gained a level...",
+   "zh": "$Y提升了一個等級……",
+   "note": "升級旁白"
+  },
+  {
+   "offset": 876,
+   "len": 15,
+   "en": "intelligence...",
+   "zh": "智力……",
+   "note": "能力提升（正義→智力+敏捷，第一項）"
+  },
+  {
+   "offset": 894,
+   "len": 14,
+   "en": "and dexterity!",
+   "zh": "以及敏捷！",
+   "note": "能力提升第二項"
+  },
+  {
+   "offset": 912,
+   "len": 53,
+   "en": "\"There is naught else for you to learn here and now.\"",
+   "zh": "「此刻此地，汝已無更多可學。」",
+   "note": ""
+  },
+  {
+   "offset": 968,
+   "len": 49,
+   "en": "\"Return when thy journey has progressed further.\"",
+   "zh": "「待汝的旅程更進一步，再行回返。」",
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {},
+  "places": {}
+ },
+ "riddles_additions": [],
+ "translator_notes": "正義神殿，真言 beh（不翻譯）。冥想獲得智力+敏捷提升。聖言引自巴斯卡《思想錄》的力與正義辯證。"
+}

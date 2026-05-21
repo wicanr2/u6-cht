@@ -1,0 +1,179 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 12,
+   "en": "Goodscrafter",
+   "zh": "工匠",
+   "note": "NPC name — glossary 已有"
+  },
+  {
+   "offset": 15,
+   "len": 27,
+   "en": "a quiet, listless gargoyle.",
+   "zh": "沉默而了無生氣的魔像。",
+   "note": "DESC"
+  },
+  {
+   "offset": 71,
+   "len": 50,
+   "en": "\"Oh, the False Prophet,\" the gargoyle says calmly.",
+   "zh": "「哦，偽先知，」魔像平靜地說。",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 124,
+   "len": 62,
+   "en": "\"To suppose that you have come to kill me as well. All right.\"",
+   "zh": "「以為汝也是來殺吾的。罷了。」",
+   "note": ""
+  },
+  {
+   "offset": 187,
+   "len": 66,
+   "en": "\"An-bal-sil-fer,\" the gargoyle says calmly. \"Sum in-korp i. Vers.\"",
+   "zh": "「An-bal-sil-fer，」魔像平靜地說。「Sum in-korp i. Vers.」",
+   "note": "魔像語保留原文"
+  },
+  {
+   "offset": 257,
+   "len": 38,
+   "en": "The gargoyle silently awaits his fate.",
+   "zh": "魔像靜默地等待命運降臨。",
+   "note": "旁白"
+  },
+  {
+   "offset": 303,
+   "len": 49,
+   "en": "\"To ask why you disturb me again, False Prophet.\"",
+   "zh": "「問偽先知為何再度來擾吾。」",
+   "note": ""
+  },
+  {
+   "offset": 353,
+   "len": 34,
+   "en": "\"To see the Amulet of Submission.\"",
+   "zh": "「見汝頸間之臣服護符。」",
+   "note": ""
+  },
+  {
+   "offset": 390,
+   "len": 49,
+   "en": "\"To suppose, then, that my world has been saved.\"",
+   "zh": "「如此，便是吾之世界已得救。」",
+   "note": ""
+  },
+  {
+   "offset": 442,
+   "len": 48,
+   "en": "\"But to feel that salvation has come too @late.\"",
+   "zh": "「然感覺救贖來得太@late遲了。」",
+   "note": ""
+  },
+  {
+   "offset": 510,
+   "len": 62,
+   "en": "\"To refuse to discuss my @grief with the being who caused it.\"",
+   "zh": "「吾拒絕與造成吾@grief哀慟之人談論此事。」",
+   "note": ""
+  },
+  {
+   "offset": 583,
+   "len": 65,
+   "en": "\"Surely to know what pain you have caused by stealing the Codex?\"",
+   "zh": "「汝必知竊取守則之書給吾族帶來何等痛苦？」",
+   "note": ""
+  },
+  {
+   "offset": 651,
+   "len": 87,
+   "en": "\"To not believe that you care. To believe, in fact, that you enjoy causing @suffering.\"",
+   "zh": "「吾不信汝在乎。事實上，吾深信汝以造成@suffering苦難為樂。」",
+   "note": ""
+  },
+  {
+   "offset": 757,
+   "len": 52,
+   "en": "\"To not believe that you would do anything to help.\"",
+   "zh": "「吾不信汝會做任何事來幫助吾族。」",
+   "note": ""
+  },
+  {
+   "offset": 820,
+   "len": 21,
+   "en": "\"To not have a name.\"",
+   "zh": "「吾沒有名字。」",
+   "note": ""
+  },
+  {
+   "offset": 844,
+   "len": 31,
+   "en": "\"To have nothing at all now...\"",
+   "zh": "「吾如今已一無所有……」",
+   "note": ""
+  },
+  {
+   "offset": 885,
+   "len": 23,
+   "en": "\"To be a goodscrafter.\"",
+   "zh": "「吾是工匠。」",
+   "note": ""
+  },
+  {
+   "offset": 911,
+   "len": 46,
+   "en": "\"Though to have no reason to make @goods now.\"",
+   "zh": "「然而如今已無理由再製作@goods物品了。」",
+   "note": ""
+  },
+  {
+   "offset": 972,
+   "len": 38,
+   "en": "\"To invite you to take what you want.\"",
+   "zh": "「隨汝取用所需。」",
+   "note": ""
+  },
+  {
+   "offset": 1021,
+   "len": 51,
+   "en": "\"To have lost my entire family in the @cataclysms.\"",
+   "zh": "「在那場@cataclysms大災變中，吾失去了所有家人。」",
+   "note": ""
+  },
+  {
+   "offset": 1083,
+   "len": 29,
+   "en": "\"To wish not to speak of it.\"",
+   "zh": "「吾不願提及此事。」",
+   "note": ""
+  },
+  {
+   "offset": 1122,
+   "len": 44,
+   "en": "\"To wait here for you to return to kill me.\"",
+   "zh": "「吾在此等候汝回來殺吾。」",
+   "note": "工匠的絕望"
+  },
+  {
+   "offset": 1171,
+   "len": 23,
+   "en": "\"To not care about $Z.\"",
+   "zh": "「吾不在乎$Z。」",
+   "note": ""
+  },
+  {
+   "offset": 1197,
+   "len": 33,
+   "en": "\"To not care about anything now.\"",
+   "zh": "「吾如今什麼都不在乎了。」",
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {},
+  "places": {}
+ },
+ "riddles_additions": [],
+ "translator_notes": "工匠為失去全部家人的絕望魔像，對偽先知的到來完全冷漠甚至歡迎死亡。語氣虛無，截然不同於其他魔像的對抗姿態。大災變（cataclysms）造成守則之書失竊後的地震海嘯等。"
+}

@@ -1,0 +1,367 @@
+{
+ "translations": [
+  {
+   "offset": 9,
+   "len": 55,
+   "en": "a frightened little man who never looks you in the eye.",
+   "zh": "一個膽小的矮個子男子，從不與人對視。",
+   "note": "DESC"
+  },
+  {
+   "offset": 80,
+   "len": 33,
+   "en": "He looks up from his mug of ale. ",
+   "zh": "他從麥酒杯上抬起頭。",
+   "note": ""
+  },
+  {
+   "offset": 119,
+   "len": 22,
+   "en": "\"Oh, it's you. Hello.\"",
+   "zh": "「哦，是汝。你好。」",
+   "note": ""
+  },
+  {
+   "offset": 142,
+   "len": 8,
+   "en": "\"Hello.\"",
+   "zh": "「你好。」",
+   "note": ""
+  },
+  {
+   "offset": 163,
+   "len": 65,
+   "en": "\"Yes?\" he asks, looking like he expects to be beaten any minute. ",
+   "zh": "「是？」他問道，神情像是隨時準備挨打。",
+   "note": ""
+  },
+  {
+   "offset": 229,
+   "len": 60,
+   "en": "\"Yes? Oh, it's you.\" He almost looked you in the eyes then. ",
+   "zh": "「是？哦，是汝。」他差點就與汝對視了。",
+   "note": ""
+  },
+  {
+   "offset": 290,
+   "len": 27,
+   "en": "\"What do you want from me?\"",
+   "zh": "「汝要從在下這裡得到什麼？」",
+   "note": ""
+  },
+  {
+   "offset": 325,
+   "len": 51,
+   "en": "He looks around at the ground and mumbles \"Arbeth.\"",
+   "zh": "他低頭四下張望，嘟囔道：「阿伯斯。」",
+   "note": ""
+  },
+  {
+   "offset": 394,
+   "len": 29,
+   "en": "\"Arbeth,\" he repeats quietly.",
+   "zh": "「阿伯斯，」他輕聲重複道。",
+   "note": ""
+  },
+  {
+   "offset": 439,
+   "len": 87,
+   "en": "\"Well,\" he says so quietly you have to lean close to hear, \"I make @wool into @thread.\"",
+   "zh": "「嗯，」他說話如此輕聲，汝不得不靠近才能聽清，「在下把@羊毛紡成@線。」",
+   "note": ""
+  },
+  {
+   "offset": 538,
+   "len": 44,
+   "en": "\"Yes,\" he says, wringing his hands together.",
+   "zh": "「是的，」他說道，雙手不停絞扭。",
+   "note": ""
+  },
+  {
+   "offset": 594,
+   "len": 57,
+   "en": "\"I'm not a weaver, $G, just a spinner. Talk to @Thindle.\"",
+   "zh": "「在下不是織布匠，$G，只是個紡線匠，去找@辛德爾吧。」",
+   "note": ""
+  },
+  {
+   "offset": 663,
+   "len": 45,
+   "en": "\"He lives here in Paws and is a fine weaver.\"",
+   "zh": "「他住在鴉爪鎮，是個好織匠。」",
+   "note": ""
+  },
+  {
+   "offset": 748,
+   "len": 73,
+   "en": "\"What? Oh, yes, I could spin spidersilk into thread. Do you want me to?\" ",
+   "zh": "「什麼？哦，是的，在下能把蜘蛛絲紡成線，汝要在下做嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 891,
+   "len": 79,
+   "en": "\"He is nice to me.\" he stops wringing his hands and seems to relax momentarily.",
+   "zh": "「他對在下很好。」他停止絞扭雙手，似乎暫時放鬆了一些。",
+   "note": ""
+  },
+  {
+   "offset": 982,
+   "len": 68,
+   "en": "\"He's much too @loud.\" He looks up suddenly and his face goes ashen.",
+   "zh": "「他實在太@吵了。」他突然抬頭，臉色頓時變得慘白。",
+   "note": ""
+  },
+  {
+   "offset": 1062,
+   "len": 36,
+   "en": "\"But...I mean...maybe not too loud.\"",
+   "zh": "「但是……在下是說……也許沒那麼吵。」",
+   "note": ""
+  },
+  {
+   "offset": 1101,
+   "len": 66,
+   "en": "He whips his head around as if he's looking for someplace to hide.",
+   "zh": "他急忙轉頭，像是在找地方躲藏。",
+   "note": ""
+  },
+  {
+   "offset": 1184,
+   "len": 25,
+   "en": "\"She's alright, I guess.\"",
+   "zh": "「她還好吧，在下猜。」",
+   "note": ""
+  },
+  {
+   "offset": 1231,
+   "len": 24,
+   "en": "\"He's alright, I guess.\"",
+   "zh": "「他還好吧，在下猜。」",
+   "note": ""
+  },
+  {
+   "offset": 1267,
+   "len": 68,
+   "en": "A smile crosses his face. \"I like her. She brought me cookies once.\"",
+   "zh": "他臉上浮現一絲微笑。「在下喜歡她，她曾給在下帶過餅乾。」",
+   "note": ""
+  },
+  {
+   "offset": 1346,
+   "len": 19,
+   "en": "\"Bye,\" he whispers.",
+   "zh": "「再見，」他低聲說道。",
+   "note": ""
+  },
+  {
+   "offset": 1370,
+   "len": 54,
+   "en": "He twists his shoulders around and holds his palms up.",
+   "zh": "他轉動著肩膀，攤開雙掌。",
+   "note": ""
+  },
+  {
+   "offset": 1431,
+   "len": 52,
+   "en": "\"Not now, $G,\" he says timidly. \"My shop is closed.\"",
+   "zh": "「現在不行，$G，」他怯懦地說，「在下的店鋪關門了。」",
+   "note": ""
+  },
+  {
+   "offset": 1495,
+   "len": 24,
+   "en": "\"Oh. Sorry,\" he mumbles.",
+   "zh": "「哦，抱歉，」他喃喃道。",
+   "note": ""
+  },
+  {
+   "offset": 1616,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝們誰？」",
+   "note": ""
+  },
+  {
+   "offset": 1642,
+   "len": 24,
+   "en": "\"Oh. Sorry,\" he mumbles.",
+   "zh": "「哦，抱歉，」他喃喃道。",
+   "note": ""
+  },
+  {
+   "offset": 1725,
+   "len": 57,
+   "en": "\"'Tis a most difficult job, $Y. It'll cost thee 20 gold!\"",
+   "zh": "「這是非常困難的活計，$Y，需要20金！」",
+   "note": ""
+  },
+  {
+   "offset": 1785,
+   "len": 20,
+   "en": "\"Still interested?\" ",
+   "zh": "「仍有興趣嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1811,
+   "len": 24,
+   "en": "\"Oh. Sorry,\" he mumbles.",
+   "zh": "「哦，抱歉，」他喃喃道。",
+   "note": ""
+  },
+  {
+   "offset": 1845,
+   "len": 53,
+   "en": "\"Good, good!\" He seems much brighter and happier now.",
+   "zh": "「好好！」他此刻看起來精神煥發，愉快多了。",
+   "note": ""
+  },
+  {
+   "offset": 1912,
+   "len": 57,
+   "en": "\"Oh, but I'll need twoscore bits of spidersilk to do it!\"",
+   "zh": "「哦，但在下需要四十片蜘蛛絲才能做！」",
+   "note": ""
+  },
+  {
+   "offset": 1972,
+   "len": 81,
+   "en": "\"Come back when thou hast 40 pieces of spidersilk and I'll make thy thread then.\"",
+   "zh": "「待汝湊齊40片蜘蛛絲再來，在下那時便為汝紡線。」",
+   "note": ""
+  },
+  {
+   "offset": 2090,
+   "len": 45,
+   "en": "\"Oh, but you'll not be able to carry it, $Y!\"",
+   "zh": "「哦，但汝$Y恐怕拿不下了！」",
+   "note": ""
+  },
+  {
+   "offset": 2138,
+   "len": 67,
+   "en": "\"Come back when thy load is lighter and I'll make thy thread then.\"",
+   "zh": "「待汝的行囊輕些再來，在下那時便為汝紡線。」",
+   "note": ""
+  },
+  {
+   "offset": 2222,
+   "len": 23,
+   "en": "\"You haven't the gold.\"",
+   "zh": "「汝沒有足夠的金幣。」",
+   "note": ""
+  },
+  {
+   "offset": 2252,
+   "len": 54,
+   "en": "Arbeth takes $Y's gold and silk and starts spinning...",
+   "zh": "阿伯斯取過$Y的金幣和絲，開始紡紗……",
+   "note": ""
+  },
+  {
+   "offset": 2335,
+   "len": 49,
+   "en": "Soon he has finished a spool of fine silk thread!",
+   "zh": "不久他便完成了一捲精美的絲線！",
+   "note": ""
+  },
+  {
+   "offset": 2387,
+   "len": 51,
+   "en": "\"There it is, $Y, my finest work! A true pleasure!\"",
+   "zh": "「$Y，完成了，這是在下最好的作品！真乃一大樂事！」",
+   "note": ""
+  },
+  {
+   "offset": 2441,
+   "len": 34,
+   "en": "Arbeth hands $Y the spool of silk.",
+   "zh": "阿伯斯將絲線捲軸遞給$Y。",
+   "note": ""
+  },
+  {
+   "offset": 2491,
+   "len": 45,
+   "en": "\"You'll have to find a @weaver, of course...\"",
+   "zh": "「汝當然還需要找個@織布匠……」",
+   "note": ""
+  },
+  {
+   "offset": 2623,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝們誰？」",
+   "note": ""
+  },
+  {
+   "offset": 2678,
+   "len": 45,
+   "en": "\"Will you pay 3 gold for a spool of thread?\" ",
+   "zh": "「汝願意以3金購買一捲線嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 2743,
+   "len": 29,
+   "en": "\"You look pretty full to me.\"",
+   "zh": "「汝看起來已裝得滿滿的了。」",
+   "note": ""
+  },
+  {
+   "offset": 2832,
+   "len": 52,
+   "en": "After accepting $Y's gold, $N hands over the thread.",
+   "zh": "收下$Y的金幣後，$N遞出線。",
+   "note": ""
+  },
+  {
+   "offset": 2907,
+   "len": 23,
+   "en": "\"You haven't the gold.\"",
+   "zh": "「汝沒有足夠的金幣。」",
+   "note": ""
+  },
+  {
+   "offset": 3072,
+   "len": 39,
+   "en": "\"None of you has any wool,\" he mutters.",
+   "zh": "「汝們沒有羊毛，」他嘟囔道。",
+   "note": ""
+  },
+  {
+   "offset": 3212,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝們誰？」",
+   "note": ""
+  },
+  {
+   "offset": 3313,
+   "len": 38,
+   "en": "\"Will you take 6 gold for that wool?\" ",
+   "zh": "「那羊毛6金，汝肯賣嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 3357,
+   "len": 53,
+   "en": "He hands $Y 6 gold pieces and takes the bale of wool.",
+   "zh": "他遞給$Y 6枚金幣，取走一捆羊毛。",
+   "note": ""
+  },
+  {
+   "offset": 3458,
+   "len": 30,
+   "en": "\"But you don't have any wool!\"",
+   "zh": "「但汝沒有羊毛！」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Arbeth": "阿伯斯"
+  }
+ },
+ "translator_notes": "103 Arbeth: 鴉爪鎮極度膽小的紡線匠，不敢對視，說話輕若細語。能將蜘蛛絲紡成絲線（任務關鍵NPC）。與提默關係好，怕莫圖德。"
+}

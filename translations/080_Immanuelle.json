@@ -1,0 +1,241 @@
+{
+ "translations": [
+  {
+   "offset": 13,
+   "len": 56,
+   "en": "a sultry, dark-skinned woman dressed in riding-leathers.",
+   "zh": "一位嫵媚、膚色深邃、身著騎裝皮衣的女子。",
+   "note": "DESC"
+  },
+  {
+   "offset": 85,
+   "len": 23,
+   "en": "\"Hello again, my friend",
+   "zh": "「歡迎回來，朋友",
+   "note": "片段，接後方字串"
+  },
+  {
+   "offset": 109,
+   "len": 16,
+   "en": "\"Hello, stranger",
+   "zh": "「你好，過客",
+   "note": "片段"
+  },
+  {
+   "offset": 136,
+   "len": 24,
+   "en": "s. What can I do for you",
+   "zh": "們，有何需要效勞",
+   "note": "片段接複數"
+  },
+  {
+   "offset": 161,
+   "len": 24,
+   "en": ". What can I do for thee",
+   "zh": "，有何需要效勞",
+   "note": "片段接單數"
+  },
+  {
+   "offset": 186,
+   "len": 10,
+   "en": " this $T?\"",
+   "zh": "，$T？」",
+   "note": "片段，時段詞尾"
+  },
+  {
+   "offset": 204,
+   "len": 30,
+   "en": "\"Some call me Immanuelle, $G.\"",
+   "zh": "「有人叫我依瑪紐，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 237,
+   "len": 35,
+   "en": "\"Others call me...something @else.\"",
+   "zh": "「也有人叫我……@別的稱呼。」",
+   "note": ""
+  },
+  {
+   "offset": 275,
+   "len": 17,
+   "en": "She winks at you.",
+   "zh": "她向汝眨了眨眼。",
+   "note": ""
+  },
+  {
+   "offset": 315,
+   "len": 39,
+   "en": "\"Perhaps some time I will @show you...\"",
+   "zh": "「也許哪天我會@讓汝見識一番……」",
+   "note": ""
+  },
+  {
+   "offset": 355,
+   "len": 27,
+   "en": "\"I think you get the idea.\"",
+   "zh": "「汝應當意會。」",
+   "note": ""
+  },
+  {
+   "offset": 394,
+   "len": 11,
+   "en": "\"Not here.\"",
+   "zh": "「此處不便。」",
+   "note": ""
+  },
+  {
+   "offset": 415,
+   "len": 38,
+   "en": "\"I raise horses here, in the stables.\"",
+   "zh": "「我在此馬廄養育駿馬。」",
+   "note": ""
+  },
+  {
+   "offset": 456,
+   "len": 47,
+   "en": "\"I also sell @horses, if you wish to @buy one.\"",
+   "zh": "「若有意@購買，在下亦@出售馬匹。」",
+   "note": ""
+  },
+  {
+   "offset": 519,
+   "len": 65,
+   "en": "\"I can hardly bear to part with any of these magnificent beasts.\"",
+   "zh": "「吾實難捨這些神駿離去。」",
+   "note": ""
+  },
+  {
+   "offset": 587,
+   "len": 45,
+   "en": "\"But there are a few that fail to please me.\"",
+   "zh": "「然有幾匹令我稍感不滿。」",
+   "note": ""
+  },
+  {
+   "offset": 635,
+   "len": 53,
+   "en": "\"If you wish to @buy one of them, just say the word.\"",
+   "zh": "「若有意@購買其中一匹，言聲便是。」",
+   "note": ""
+  },
+  {
+   "offset": 705,
+   "len": 32,
+   "en": "\"Come to my shop when I'm open!\"",
+   "zh": "「開店時歡迎光臨！」",
+   "note": ""
+  },
+  {
+   "offset": 754,
+   "len": 23,
+   "en": "\"Come back again soon!\"",
+   "zh": "「快快再來！」",
+   "note": ""
+  },
+  {
+   "offset": 787,
+   "len": 35,
+   "en": "As you leave, she blows you a kiss.",
+   "zh": "汝離去之際，她送上一個飛吻。",
+   "note": ""
+  },
+  {
+   "offset": 828,
+   "len": 17,
+   "en": "\"Beg pardon, $G?\"",
+   "zh": "「$G，請再說一遍？」",
+   "note": ""
+  },
+  {
+   "offset": 900,
+   "len": 32,
+   "en": "\"But thou already hast a horse!\"",
+   "zh": "「然汝已有坐騎！」",
+   "note": ""
+  },
+  {
+   "offset": 1065,
+   "len": 39,
+   "en": "\"But all of you are already on horses!\"",
+   "zh": "「然汝等人人皆有坐騎！」",
+   "note": ""
+  },
+  {
+   "offset": 1148,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪位？」",
+   "note": ""
+  },
+  {
+   "offset": 1256,
+   "len": 37,
+   "en": "\"Aye, $Y, thou hast need of a horse.\"",
+   "zh": "「是啊，$Y，汝確實需要一匹馬。」",
+   "note": ""
+  },
+  {
+   "offset": 1306,
+   "len": 32,
+   "en": "\"But thou canst not afford one!\"",
+   "zh": "「然汝無力負擔！」",
+   "note": ""
+  },
+  {
+   "offset": 1344,
+   "len": 51,
+   "en": "\"My price is #9 gold pieces, no less. Interested?\" ",
+   "zh": "「售價#9枚金幣，分毫不減。有興趣否？」",
+   "note": ""
+  },
+  {
+   "offset": 1401,
+   "len": 69,
+   "en": "\"Good!\" $N takes $Y's gold, and hands over the reins of a fine horse.",
+   "zh": "「好！」$N收了$Y的金幣，將一匹駿馬的韁繩交入其手。",
+   "note": ""
+  },
+  {
+   "offset": 1495,
+   "len": 31,
+   "en": "\"Perhaps some other time then.\"",
+   "zh": "「那便改日再說。」",
+   "note": ""
+  },
+  {
+   "offset": 1545,
+   "len": 11,
+   "en": "\"How about ",
+   "zh": "「那",
+   "note": "片段"
+  },
+  {
+   "offset": 1563,
+   "len": 18,
+   "en": "one of thy friends",
+   "zh": "汝的同伴們",
+   "note": "片段複數"
+  },
+  {
+   "offset": 1582,
+   "len": 10,
+   "en": "thy friend",
+   "zh": "汝的同伴",
+   "note": "片段單數"
+  },
+  {
+   "offset": 1593,
+   "len": 2,
+   "en": "?\"",
+   "zh": "？」",
+   "note": "片段尾"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Immanuelle": "依瑪紐"
+  }
+ },
+ "translator_notes": "080 Immanuelle: 崔西克馬廄女主人，性感個性。對話多拼接片段需保留。"
+}

@@ -1,0 +1,137 @@
+{
+ "translations": [
+  {
+   "offset": 11,
+   "len": 39,
+   "en": "a little girl with a doll in her hands.",
+   "zh": "一個手裡抱著娃娃的小女孩。",
+   "note": "DESC"
+  },
+  {
+   "offset": 66,
+   "len": 64,
+   "en": "\"Now you be still, they won't hurt us.\" She hugs her doll close.",
+   "zh": "「現在乖乖別動，他們不會傷害我們的。」她將娃娃緊緊抱住。",
+   "note": ""
+  },
+  {
+   "offset": 136,
+   "len": 54,
+   "en": "\"See, Becky, they've come back.\" she says to her doll.",
+   "zh": "「妳看，貝琪，他們回來了。」她對著娃娃說。",
+   "note": ""
+  },
+  {
+   "offset": 191,
+   "len": 19,
+   "en": "\"What do you want?\"",
+   "zh": "「汝要什麼？」",
+   "note": ""
+  },
+  {
+   "offset": 218,
+   "len": 28,
+   "en": "\"@Merideth Cassandra Lamby!\"",
+   "zh": "「@梅蕾蒂絲·卡珊卓·藍比！」",
+   "note": ""
+  },
+  {
+   "offset": 274,
+   "len": 33,
+   "en": "\"I'm named after my great @aunt.\"",
+   "zh": "「在下是以偉大的@姑婆命名的。」",
+   "note": ""
+  },
+  {
+   "offset": 324,
+   "len": 21,
+   "en": "\"She lives far away.\"",
+   "zh": "「她住在很遠的地方。」",
+   "note": ""
+  },
+  {
+   "offset": 356,
+   "len": 50,
+   "en": "\"Oh, I don't work. My @Memah can help you though.\"",
+   "zh": "「哦，在下不工作，但在下的@麻麻可以幫汝。」",
+   "note": "Memah=小女孩對祖母的稱呼"
+  },
+  {
+   "offset": 418,
+   "len": 42,
+   "en": "\"My grandma. She's around here somewhere.\"",
+   "zh": "「在下的奶奶，她就在附近某處。」",
+   "note": ""
+  },
+  {
+   "offset": 472,
+   "len": 64,
+   "en": "\"He's a nice man. He got me this doll.\" She displays it proudly.",
+   "zh": "「他是個好人，他送在下這個娃娃的。」她驕傲地展示著。",
+   "note": ""
+  },
+  {
+   "offset": 553,
+   "len": 45,
+   "en": "\"He put a rope in a tree for me to swing on.\"",
+   "zh": "「他在樹上繫了條繩子讓在下盪鞦韆。」",
+   "note": ""
+  },
+  {
+   "offset": 610,
+   "len": 51,
+   "en": "\"She's a mean woman. Never plays dolls or nothin'.\"",
+   "zh": "「她是個壞人，從不玩娃娃什麼的。」",
+   "note": ""
+  },
+  {
+   "offset": 673,
+   "len": 46,
+   "en": "\"He is my secret friend. He tells me stories.\"",
+   "zh": "「他是在下的秘密朋友，他給在下講故事。」",
+   "note": ""
+  },
+  {
+   "offset": 731,
+   "len": 55,
+   "en": "\"I think he is a ghost. He's scary.\" She hugs her doll.",
+   "zh": "「在下覺得他是個鬼，好可怕。」她抱緊娃娃。",
+   "note": "葛力松滿身白色麵粉，小孩以為是鬼"
+  },
+  {
+   "offset": 798,
+   "len": 54,
+   "en": "She wrinkles up her face. \"He doesn't smell too good.\"",
+   "zh": "她皺起臉。「他氣味不太好聞。」",
+   "note": ""
+  },
+  {
+   "offset": 864,
+   "len": 39,
+   "en": "\"He brings my Memah flowers sometimes.\"",
+   "zh": "「他有時會給在下的麻麻帶花來。」",
+   "note": ""
+  },
+  {
+   "offset": 914,
+   "len": 47,
+   "en": "She waves her dolls hand at you and says \"Bye.\"",
+   "zh": "她揮動娃娃的小手朝汝說：「再見。」",
+   "note": ""
+  },
+  {
+   "offset": 966,
+   "len": 53,
+   "en": "\"Have you heard of that Becky?\" she says to her doll.",
+   "zh": "「汝聽說過那個人嗎，貝琪？」她對著娃娃說。",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Merideth Cassandra Lamby": "梅蕾蒂絲·卡珊卓·藍比",
+   "Becky": "貝琪"
+  }
+ },
+ "translator_notes": "106 Merideth: 朵琳的小孫女，與娃娃貝琪為伴。誤以為葛力松是鬼（因滿身白色麵粉）。阿伯斯是她的秘密講故事朋友。Memah=麻麻（兒語的祖母）。"
+}

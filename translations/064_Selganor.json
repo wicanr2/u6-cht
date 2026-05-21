@@ -1,0 +1,425 @@
+{
+  "translations": [
+    {
+      "offset": 11,
+      "len": 38,
+      "en": "a slender, graceful man tuning a lute.",
+      "zh": "一位身形纖細、舉止優雅的男子，正在調音一把琉特琴。",
+      "note": "DESC"
+    },
+    {
+      "offset": 75,
+      "len": 60,
+      "en": "\"Hello. There's something I need to ask you, what was it...\"",
+      "zh": "「你好。吾有件事要問汝，是什麼來著……」",
+      "note": "forgetful greeting"
+    },
+    {
+      "offset": 138,
+      "len": 26,
+      "en": "\"Oh, yes, now I remember!\"",
+      "zh": "「哦，對了，吾想起來了！」",
+      "note": ""
+    },
+    {
+      "offset": 173,
+      "len": 23,
+      "en": "\"Hail and welcome, $P!\"",
+      "zh": "「歡迎，$P！」",
+      "note": ""
+    },
+    {
+      "offset": 204,
+      "len": 58,
+      "en": "\"My name is Selganor. 'Tis a name with a long @history...\"",
+      "zh": "「吾的名字是瑟爾嘉諾。此乃有著悠久@歷史的名字……」",
+      "note": ""
+    },
+    {
+      "offset": 265,
+      "len": 61,
+      "en": "\"But you have the look of one with more important @business.\"",
+      "zh": "「但汝看起來有更重要的@事情。」",
+      "note": ""
+    },
+    {
+      "offset": 348,
+      "len": 80,
+      "en": "\"It means 'seeker of the @crystal'. Perhaps I'll tell you more some other time.\"",
+      "zh": "「它的意思是『@水晶的追尋者』。或許改天吾再告訴汝更多。」",
+      "note": ""
+    },
+    {
+      "offset": 444,
+      "len": 23,
+      "en": "\"That's quite a @tale.\"",
+      "zh": "「那真是一段@故事。」",
+      "note": ""
+    },
+    {
+      "offset": 478,
+      "len": 9,
+      "en": "\"Indeed.\"",
+      "zh": "「確實。」",
+      "note": ""
+    },
+    {
+      "offset": 503,
+      "len": 50,
+      "en": "\"Perhaps you're interested in joining the @guild.\"",
+      "zh": "「或許汝有興趣加入@公會。」",
+      "note": ""
+    },
+    {
+      "offset": 563,
+      "len": 36,
+      "en": "\"I am the @guildmaster of artisans.\"",
+      "zh": "「吾是工匠@公會的會長。」",
+      "note": ""
+    },
+    {
+      "offset": 617,
+      "len": 32,
+      "en": "\"I already loaned you the rune.\"",
+      "zh": "「吾已經把聖符借給汝了。」",
+      "note": ""
+    },
+    {
+      "offset": 655,
+      "len": 92,
+      "en": "\"I'd be glad to loan you the rune, but only members of the @guild are allowed to handle it.\"",
+      "zh": "「吾很樂意把聖符借給汝，但只有@公會成員才能取用它。」",
+      "note": ""
+    },
+    {
+      "offset": 785,
+      "len": 56,
+      "en": "\"Wait a minute... You're already a member of the guild!\"",
+      "zh": "「等一下……汝已是公會成員了！」",
+      "note": ""
+    },
+    {
+      "offset": 847,
+      "len": 59,
+      "en": "\"If you want to join the guild, you need to do two things.\"",
+      "zh": "「若汝想加入公會，需要做兩件事。」",
+      "note": ""
+    },
+    {
+      "offset": 909,
+      "len": 79,
+      "en": "\"First, you need to make a set of @panpipes. @Julia can teach you how to that.\"",
+      "zh": "「首先，汝需要製作一組@排笛。@茱莉亞可以教汝如何製作。」",
+      "note": ""
+    },
+    {
+      "offset": 991,
+      "len": 100,
+      "en": "\"You also need to commit '@Stones' to memory. 'Tis a simple tune - ask @Gwenno to play it for thee.\"",
+      "zh": "「汝還需要記住一首叫《@石頭》的曲子。這是首簡單的曲調——去請@葛溫諾為汝演奏。」",
+      "note": "Stones = song title"
+    },
+    {
+      "offset": 1145,
+      "len": 24,
+      "en": "\"Yes, ask her about it.\"",
+      "zh": "「是的，去問她吧。」",
+      "note": "about Julia"
+    },
+    {
+      "offset": 1170,
+      "len": 64,
+      "en": "\"She made my @lute - and most of our other instruments as well.\"",
+      "zh": "「她製作了吾的@琉特琴——以及吾等大多數的其他樂器。」",
+      "note": ""
+    },
+    {
+      "offset": 1237,
+      "len": 62,
+      "en": "\"She lives just across the road, next door to Lady @Isabella.\"",
+      "zh": "「她就住在對面，@伊莎貝拉夫人隔壁。」",
+      "note": ""
+    },
+    {
+      "offset": 1311,
+      "len": 18,
+      "en": "\"She's the mayor.\"",
+      "zh": "「她是市長。」",
+      "note": ""
+    },
+    {
+      "offset": 1340,
+      "len": 39,
+      "en": "\"I know she's around here somewhere...\"",
+      "zh": "「吾知道她就在這附近某處……」",
+      "note": "about Gwenno"
+    },
+    {
+      "offset": 1391,
+      "len": 27,
+      "en": "\"I'm right here, Selganor!\"",
+      "zh": "「吾就在這裡，瑟爾嘉諾！」",
+      "note": "Gwenno speaks"
+    },
+    {
+      "offset": 1425,
+      "len": 41,
+      "en": "\"Ah, I knew you'd be somewhere close by.\"",
+      "zh": "「啊，吾就知道汝就在附近某處。」",
+      "note": ""
+    },
+    {
+      "offset": 1483,
+      "len": 62,
+      "en": "\"I prefer stringed instruments. They make such lovely sounds.\"",
+      "zh": "「吾偏愛弦樂器。它們發出如此美妙的聲音。」",
+      "note": ""
+    },
+    {
+      "offset": 1556,
+      "len": 106,
+      "en": "\"Oh, are you looking for the man who invented the balloon?\" He stares upward, stroking his chin pensively.",
+      "zh": "「哦，汝在找發明氣球的人？」他仰頭沉思，撫摸著下巴。",
+      "note": "action"
+    },
+    {
+      "offset": 1665,
+      "len": 53,
+      "en": "\"Ah yes, now I remember. He flew to @Sutek's castle.\"",
+      "zh": "「啊，對了，吾想起來了。他飛去了@蘇特克的城堡。」",
+      "note": ""
+    },
+    {
+      "offset": 1721,
+      "len": 52,
+      "en": "\"Said something about a big job he had to do there.\"",
+      "zh": "「說是那裡有件重要的事要做。」",
+      "note": ""
+    },
+    {
+      "offset": 1794,
+      "len": 46,
+      "en": "\"Sutek lives on an @island, far to the south.\"",
+      "zh": "「蘇特克住在南方遠處的一座@海島上。」",
+      "note": ""
+    },
+    {
+      "offset": 1851,
+      "len": 30,
+      "en": "\"It's east of Serpent's Hold.\"",
+      "zh": "「在蛇盤要塞的東方。」",
+      "note": ""
+    },
+    {
+      "offset": 1891,
+      "len": 29,
+      "en": "\"It was nice talking to you.\"",
+      "zh": "「很高興與汝交談。」",
+      "note": "bye"
+    },
+    {
+      "offset": 1925,
+      "len": 37,
+      "en": "\"I don't think I can help you there.\"",
+      "zh": "「吾恐怕幫不上那件事的忙。」",
+      "note": ""
+    },
+    {
+      "offset": 1975,
+      "len": 88,
+      "en": "\"You should play your panpipes often - 'twill lighten your step on the long road ahead.\"",
+      "zh": "「汝應該常常吹奏排笛——此乃前路漫漫中的輕盈之道。」",
+      "note": ""
+    },
+    {
+      "offset": 2069,
+      "len": 34,
+      "en": "\"Have you made a set of panpipes?\"",
+      "zh": "「汝製作了一組排笛了嗎？」",
+      "note": ""
+    },
+    {
+      "offset": 2109,
+      "len": 53,
+      "en": "\"Oh. Well, @Julia can show you how if you need help.\"",
+      "zh": "「哦。那麼，若汝需要幫助，@茱莉亞可以教汝。」",
+      "note": ""
+    },
+    {
+      "offset": 2181,
+      "len": 22,
+      "en": "\"But I don't see any!\"",
+      "zh": "「但吾看不到任何排笛！」",
+      "note": ""
+    },
+    {
+      "offset": 2210,
+      "len": 53,
+      "en": "He inspects the pipes. \"Very good, very good indeed.\"",
+      "zh": "他仔細查看排笛。「非常好，真的非常好。」",
+      "note": "action"
+    },
+    {
+      "offset": 2266,
+      "len": 83,
+      "en": "\"Now tell me the sequence of notes in 'Stones' and I'll induct you into the guild.\"",
+      "zh": "「現在告訴吾《石頭》的音符序列，吾便讓汝加入公會。」",
+      "note": ""
+    },
+    {
+      "offset": 2352,
+      "len": 32,
+      "en": "\"Numeric notation will be fine.\"",
+      "zh": "「數字記譜即可。」",
+      "note": ""
+    },
+    {
+      "offset": 2402,
+      "len": 96,
+      "en": "\"Excellent!\" He strums a chord on his lute, then taps you lightly once on each shoulder with it.",
+      "zh": "「太好了！」他撥弄了一個和弦，然後用琴輕輕點了汝雙肩各一下。",
+      "note": "action; guild induction ceremony"
+    },
+    {
+      "offset": 2500,
+      "len": 53,
+      "en": "\"You are now a full member of the guild of artisans.\"",
+      "zh": "「汝現在正式成為工匠公會的成員了。」",
+      "note": ""
+    },
+    {
+      "offset": 2556,
+      "len": 83,
+      "en": "He reaches into a belt-pouch, takes out the Rune of Sacrifice, and hands it to you.",
+      "zh": "他伸手入腰包，取出奉獻聖符，遞給汝。",
+      "note": "action"
+    },
+    {
+      "offset": 2642,
+      "len": 50,
+      "en": "\"I'm sure you'll be needing this in your travels.\"",
+      "zh": "「吾相信汝在旅途中會用到這個。」",
+      "note": ""
+    },
+    {
+      "offset": 2694,
+      "len": 60,
+      "en": "\"I know you'll find some solution to this gargoyle problem.\"",
+      "zh": "「吾相信汝終會找到解決魔像族問題的辦法。」",
+      "note": ""
+    },
+    {
+      "offset": 2789,
+      "len": 68,
+      "en": "\"No, I'm afraid that's not it. Gwenno can help you learn the notes.\"",
+      "zh": "「不，恐怕不是這樣。葛溫諾可以幫汝學習音符。」",
+      "note": "wrong notes answer"
+    },
+    {
+      "offset": 2863,
+      "len": 50,
+      "en": "\"Oh, hello. Maybe you can help me with something.\"",
+      "zh": "「哦，你好。或許汝能幫吾一個忙。」",
+      "note": "alchemy quiz"
+    },
+    {
+      "offset": 2916,
+      "len": 59,
+      "en": "\"My nephew is studying alchemy, and he needs to know this.\"",
+      "zh": "「吾的姪兒在學煉金術，他需要知道這個。」",
+      "note": ""
+    },
+    {
+      "offset": 3040,
+      "len": 59,
+      "en": "\"What kind of fork should mandrake roots be prepared with?\"",
+      "zh": "「曼德拉草根應用哪種叉子來處理？」",
+      "note": "alchemy question 1"
+    },
+    {
+      "offset": 3125,
+      "len": 78,
+      "en": "\"No, that doesn't sound right. If only I had a Compendium to look it up in...\"",
+      "zh": "「不，那聽起來不對。要是吾有一本百科全書可以查就好了……」",
+      "note": "wrong answer"
+    },
+    {
+      "offset": 3209,
+      "len": 63,
+      "en": "\"What part of the nightshade mushroom is used in spellcasting?\"",
+      "zh": "「毒茄菇的哪個部位用於施法？」",
+      "note": "alchemy question 2"
+    },
+    {
+      "offset": 3307,
+      "len": 78,
+      "en": "\"No, that doesn't sound right. If only I had a Compendium to look it up in...\"",
+      "zh": "「不，那聽起來不對。要是吾有一本百科全書可以查就好了……」",
+      "note": "wrong answer"
+    },
+    {
+      "offset": 3391,
+      "len": 37,
+      "en": "\"Where does sulfurous ash come from?\"",
+      "zh": "「硫磺灰從何而來？」",
+      "note": "alchemy question 3"
+    },
+    {
+      "offset": 3459,
+      "len": 78,
+      "en": "\"No, that doesn't sound right. If only I had a Compendium to look it up in...\"",
+      "zh": "「不，那聽起來不對。要是吾有一本百科全書可以查就好了……」",
+      "note": "wrong answer"
+    },
+    {
+      "offset": 3543,
+      "len": 33,
+      "en": "\"What are black pearls used for?\"",
+      "zh": "「黑珍珠有何用途？」",
+      "note": "alchemy question 4"
+    },
+    {
+      "offset": 3607,
+      "len": 78,
+      "en": "\"No, that doesn't sound right. If only I had a Compendium to look it up in...\"",
+      "zh": "「不，那聽起來不對。要是吾有一本百科全書可以查就好了……」",
+      "note": "wrong answer"
+    },
+    {
+      "offset": 3691,
+      "len": 36,
+      "en": "\"Thanks! Now what can I do for you?\"",
+      "zh": "「謝謝！現在吾能為汝做什麼？」",
+      "note": "correct answer"
+    },
+    {
+      "offset": 3739,
+      "len": 55,
+      "en": "\"Hmmmm... I wish I knew the answer to that question...\"",
+      "zh": "「嗯嗯……吾真希望吾知道那個問題的答案……」",
+      "note": ""
+    },
+    {
+      "offset": 3797,
+      "len": 39,
+      "en": "He turns away from you absent-mindedly.",
+      "zh": "他心不在焉地轉身離開。",
+      "note": "action"
+    }
+  ],
+  "glossary_additions": {
+    "people": {
+      "Selganor": "瑟爾嘉諾",
+      "Sutek": "蘇特克"
+    },
+    "places": {
+      "Serpent's Hold": "蛇盤要塞"
+    },
+    "concepts": {
+      "panpipes": "排笛",
+      "Stones": "《石頭》",
+      "guildmaster": "公會會長"
+    }
+  },
+  "translator_notes": "瑟爾嘉諾是密諾克工匠公會的健忘會長，也是個音樂家。持有奉獻聖符，只借給公會成員。要加入公會需製作排笛並背誦《石頭》曲調（678987 8767653）。知道氣球師飛往蘇特克城堡。"
+}

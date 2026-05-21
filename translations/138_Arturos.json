@@ -1,0 +1,475 @@
+{
+ "translations": [
+  {
+   "offset": 10,
+   "len": 41,
+   "en": "a colorfully clad, bemused looking gypsy.",
+   "zh": "穿著色彩鮮艷、神情迷糊的吉普賽人。",
+   "note": "DESC"
+  },
+  {
+   "offset": 54,
+   "len": 91,
+   "en": "\"Hey, paisan! If you were looking to geta your @fortune told, you came to the right place.\"",
+   "zh": "「嘿，老鄉！若你想算@命，算是來對地方了。」",
+   "note": "義大利口音：paisan（同鄉），語助詞 geta→to get"
+  },
+  {
+   "offset": 160,
+   "len": 121,
+   "en": "\"I'ma called Arturos. That meansa either 'foolish monkey' or 'he who sells cheese', depending on howa you @translate it.\"",
+   "zh": "「俺叫阿圖羅斯。依照@翻譯方式不同，這個名字的意思或是『蠢猴子』，或是『賣乳酪的人』。」",
+   "note": "義大利腔：I'ma, meansa, howa"
+  },
+  {
+   "offset": 313,
+   "len": 23,
+   "en": "\"Yeah, go figure, huh?\"",
+   "zh": "「是吧，想不到吧？」",
+   "note": ""
+  },
+  {
+   "offset": 359,
+   "len": 84,
+   "en": "\"Yeah, I used to have a map like that. Can't remember what I did with it, though...\"",
+   "zh": "「是啊，俺以前有張那樣的地圖。但不記得放哪了……」",
+   "note": ""
+  },
+  {
+   "offset": 449,
+   "len": 95,
+   "en": "\"Map. Hmm, map... Oh yeah, thata old thing. Sure, I got that, but she'sa not very interesting.\"",
+   "zh": "「地圖。嗯，地圖……哦對，那個舊東西。是啊，俺有，但那不太有趣。」",
+   "note": ""
+  },
+  {
+   "offset": 554,
+   "len": 34,
+   "en": "\"Ima the king of all the gypsies.\"",
+   "zh": "「俺是所有吉普賽人的王。」",
+   "note": ""
+  },
+  {
+   "offset": 591,
+   "len": 96,
+   "en": "\"Of course, thatsa what you call more of an 'honorary' @title, so I tell @fortunes on the side.\"",
+   "zh": "「當然，那頭@銜比較算是……榮譽性的，所以俺副業是算@命。」",
+   "note": ""
+  },
+  {
+   "offset": 718,
+   "len": 53,
+   "en": "\"You cana just call me '@Uncle @Arthur' if you like.\"",
+   "zh": "「你也可以叫俺『@阿叔@亞瑟』，若你喜歡的話。」",
+   "note": ""
+  },
+  {
+   "offset": 782,
+   "len": 68,
+   "en": "\"He's a whadda you call, an impostor. You shouldn'ta listen to him.\"",
+   "zh": "「他是……怎麼說，一個冒充者。你不應該聽他的。」",
+   "note": "關於Zoltan；whadda=what do you"
+  },
+  {
+   "offset": 887,
+   "len": 83,
+   "en": "\"That'sa nice and friendly. I like you too.\" He comes over and gives you a big hug.",
+   "zh": "「那很好，很親切。俺也喜歡你。」他走過來給你一個大擁抱。",
+   "note": ""
+  },
+  {
+   "offset": 1029,
+   "len": 33,
+   "en": "\"Hey, you come again soon, okay?\"",
+   "zh": "「嘿，要快快再來啊！」",
+   "note": ""
+  },
+  {
+   "offset": 1080,
+   "len": 105,
+   "en": "Shamino whispers to you, \"Best check your coinpouch. I think I saw something when that gypsy hugged you.\"",
+   "zh": "夏米諾低聲對你說：「最好查查你的錢袋。那個吉普賽人擁抱你時，我好像看見了什麼。」",
+   "note": ""
+  },
+  {
+   "offset": 1199,
+   "len": 54,
+   "en": "\"The silver tablet? I don't know anything about that.\"",
+   "zh": "「銀板？俺對那個一無所知。」",
+   "note": ""
+  },
+  {
+   "offset": 1256,
+   "len": 62,
+   "en": "\"But hey, maybe there's something in the @cards about it, ah?\"",
+   "zh": "「但嘿，也許@牌裡有它的消息，對不？」",
+   "note": ""
+  },
+  {
+   "offset": 1333,
+   "len": 63,
+   "en": "\"Can'ta you think of something more interesting to talk about?\"",
+   "zh": "「你就不能想個更有趣的話題嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1402,
+   "len": 94,
+   "en": "\"I gota this fine set of fortune telling cards. These werea hand painted by Musgrave himself.\"",
+   "zh": "「俺有一套精美的占卜牌。這些可是穆斯格雷夫親手繪製的。」",
+   "note": ""
+  },
+  {
+   "offset": 1499,
+   "len": 21,
+   "en": "\"For justa two gold, ",
+   "zh": "「只要兩枚金幣，",
+   "note": "下一段接續"
+  },
+  {
+   "offset": 1527,
+   "len": 47,
+   "en": "maybe I can help you finda this silver tablet.\"",
+   "zh": "也許俺能幫你找到那塊銀板。」",
+   "note": ""
+  },
+  {
+   "offset": 1577,
+   "len": 85,
+   "en": "\"And I'll tell you the rest of your future as well. What a bargain! Whadda you say?\" ",
+   "zh": "「而且俺還會告訴你未來的其餘部分。多划算！你說呢？」",
+   "note": ""
+  },
+  {
+   "offset": 1663,
+   "len": 45,
+   "en": "I'll tella you your future. Whadda you say?\" ",
+   "zh": "俺來告訴你你的未來。你說呢？」",
+   "note": "引號開頭在前一段"
+  },
+  {
+   "offset": 1715,
+   "len": 23,
+   "en": "\"Ok, have it your way.\"",
+   "zh": "「好吧，隨你。」",
+   "note": ""
+  },
+  {
+   "offset": 1741,
+   "len": 109,
+   "en": "\"But ifa some maniac with an axe catches you in a dark alley somewhere, don'ta blame me for not warning you.\"",
+   "zh": "「但若哪天某個拿斧頭的瘋子在黑暗小巷抓住你，別怪俺沒提醒你。」",
+   "note": ""
+  },
+  {
+   "offset": 1868,
+   "len": 37,
+   "en": "\"Come back whena you have the money.\"",
+   "zh": "「等你有錢了再來。」",
+   "note": ""
+  },
+  {
+   "offset": 1937,
+   "len": 64,
+   "en": "He takes out a deck of cards, shuffles it, and has you pick one.",
+   "zh": "他取出一副牌，洗過後讓你抽一張。",
+   "note": ""
+  },
+  {
+   "offset": 2004,
+   "len": 120,
+   "en": "\"Okay, thisa card, she'sa the Tower. That means you'rea going to go into a real big building soon, like maybe a castle.\"",
+   "zh": "「好，這張牌嘛，是塔牌。那意思是你很快就要進入一棟很大的建築，比如說城堡。」",
+   "note": ""
+  },
+  {
+   "offset": 2127,
+   "len": 85,
+   "en": "\"Pretty good, huh? Maybe you want a better card, though. Do you want to pick again?\" ",
+   "zh": "「不錯吧？不過也許你想要張更好的。要再抽一張嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 2218,
+   "len": 7,
+   "en": "\"Okay.\"",
+   "zh": "「好啊。」",
+   "note": ""
+  },
+  {
+   "offset": 2241,
+   "len": 60,
+   "en": "You pick another card. \"This here isa the Wheel of Fortune.\"",
+   "zh": "你又抽了一張。「這張嘛，是命運之輪。」",
+   "note": ""
+  },
+  {
+   "offset": 2304,
+   "len": 104,
+   "en": "\"Wheels, they go 'round and 'round, so that means you'rea gonna have some good luck, and some bad luck.\"",
+   "zh": "「輪子嘛，它轉啊轉的，所以那意味著你會有些好運，也會有些壞運。」",
+   "note": ""
+  },
+  {
+   "offset": 2411,
+   "len": 55,
+   "en": "\"That doesn't tell you so much. Try for another card?\" ",
+   "zh": "「那沒說太多。再試一張嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 2488,
+   "len": 80,
+   "en": "\"Oh, hey, you picked the Lovers this time. I thinka maybe you should go talk to ",
+   "zh": "「哦，嘿，你這次抽到了戀人。俺覺得你也許應該去找",
+   "note": "後接角色名字"
+  },
+  {
+   "offset": 2572,
+   "len": 7,
+   "en": "Andreas",
+   "zh": "安德烈亞斯",
+   "note": "引擎依性別注入"
+  },
+  {
+   "offset": 2580,
+   "len": 5,
+   "en": "Wanda",
+   "zh": "汪達",
+   "note": "引擎依性別注入"
+  },
+  {
+   "offset": 2586,
+   "len": 24,
+   "en": ", you know what I mean?\"",
+   "zh": "，你懂俺的意思嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 2613,
+   "len": 51,
+   "en": "\"That'sa pretty good card. How about another one?\" ",
+   "zh": "「那是張不錯的牌。再來一張怎樣？」",
+   "note": ""
+  },
+  {
+   "offset": 2686,
+   "len": 74,
+   "en": "\"This here's Temperance. Thata means that you shouldn't lose your temper.\"",
+   "zh": "「這張是節制。那意味著你不應該失去耐性。」",
+   "note": ""
+  },
+  {
+   "offset": 2763,
+   "len": 63,
+   "en": "\"I cana find you a better card than that, here, wait a minute.\"",
+   "zh": "「俺可以幫你找到更好的牌，等一下。」",
+   "note": ""
+  },
+  {
+   "offset": 2829,
+   "len": 124,
+   "en": "He picks out a card. \"This is Justice, that'sa one of what they call the 'court cards.' Let me try again.\" He picks another.",
+   "zh": "他挑出一張。「這是正義牌，那是所謂的『宮廷牌』之一。俺再試試。」他又挑了一張。",
+   "note": ""
+  },
+  {
+   "offset": 2956,
+   "len": 108,
+   "en": "\"Okay, this isa better. This is the Hierophant. That'sa like an elephant, but taller and without the trunk.\"",
+   "zh": "「好，這張好多了。這是教皇牌。那就像頭大象，只是更高而且沒有象鼻。」",
+   "note": "Hierophant（教皇）被他誤解為elephant（大象）的幽默"
+  },
+  {
+   "offset": 3067,
+   "len": 91,
+   "en": "\"That means you'rea gonna see one of them someday. Pretty interesting, huh? Another card?\" ",
+   "zh": "「那意味著你某天會看到一頭。很有意思吧？再來一張？」",
+   "note": ""
+  },
+  {
+   "offset": 3178,
+   "len": 125,
+   "en": "\"Uh-oh, you justa drew the Death card. That means eithera you're going to kill somebody soon, ora somebody's gonna kill you.\"",
+   "zh": "「哎喲，你剛抽到了死神牌。那意味著你快要殺人，或者有人快要殺你。」",
+   "note": ""
+  },
+  {
+   "offset": 3304,
+   "len": 54,
+   "en": "\"I can never geta that part straight. One more card?\" ",
+   "zh": "「俺從來搞不清哪個是哪個。再一張？」",
+   "note": ""
+  },
+  {
+   "offset": 3378,
+   "len": 109,
+   "en": "\"Allaright, now we're talking. You pickeda the Crow card. That'sa telling you adventuring isa for the birds.\"",
+   "zh": "「好吧，現在有意思了。你抽到了烏鴉牌。那是在告訴你冒險不過是鳥兒的玩意兒。」",
+   "note": "for the birds=無聊/沒意義（俚語）"
+  },
+  {
+   "offset": 3490,
+   "len": 68,
+   "en": "\"You should open a little shop somewhere and settle down, you know?\"",
+   "zh": "「你應該找個地方開家小店、安定下來，你懂嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 3578,
+   "len": 98,
+   "en": "\"The cards didn't say nothin' about the silver tablet. Guess that means you're not gonna find it.\"",
+   "zh": "「牌裡對銀板隻字未提。看來你大概找不到它了。」",
+   "note": ""
+  },
+  {
+   "offset": 3679,
+   "len": 24,
+   "en": "\"That's life, you know?\"",
+   "zh": "「人生就是這樣，你說呢？」",
+   "note": ""
+  },
+  {
+   "offset": 3714,
+   "len": 69,
+   "en": "\"Okay, that'sa #0 extra cards at 5 gold apiece. That makes #1 total.\"",
+   "zh": "「好，那是#0張額外的牌，每張5枚金幣。合計#1枚。」",
+   "note": ""
+  },
+  {
+   "offset": 3796,
+   "len": 72,
+   "en": "\"Since you don'ta have that much, I'll just settle for what you've got.\"",
+   "zh": "「既然你沒那麼多，俺就將就收你有的吧。」",
+   "note": ""
+  },
+  {
+   "offset": 3908,
+   "len": 45,
+   "en": "\"It was a pleasure doinga business with you.\"",
+   "zh": "「和你做生意很愉快。」",
+   "note": ""
+  },
+  {
+   "offset": 3961,
+   "len": 30,
+   "en": "\"Say--do you want to buy it?\" ",
+   "zh": "「說說——你想買嗎？」",
+   "note": "關於地圖"
+  },
+  {
+   "offset": 3997,
+   "len": 68,
+   "en": "\"Nah, I didn't think so. What for would anybody want to buy it, ah?\"",
+   "zh": "「不，俺就知道。誰會想買它呢，對不？」",
+   "note": ""
+  },
+  {
+   "offset": 4073,
+   "len": 52,
+   "en": "\"Oh! Well, sure you do, she's a very important map!\"",
+   "zh": "「哦！好啊，你當然要，這是張非常重要的地圖！」",
+   "note": ""
+  },
+  {
+   "offset": 4132,
+   "len": 78,
+   "en": "He leads you away from the rest of the group. \"Don't want no spyin' ears, ah?\"",
+   "zh": "他把你帶離其他人。「不要讓人偷聽，對不？」",
+   "note": ""
+  },
+  {
+   "offset": 4215,
+   "len": 94,
+   "en": "\"Yeah, this map, she'sa leading to the treasure of - oh, who was it, Yellowbeard or somebody.\"",
+   "zh": "「是啊，這張地圖嘛，它通往——哦，是誰來著，黃鬍子還是什麼人的寶藏。」",
+   "note": ""
+  },
+  {
+   "offset": 4312,
+   "len": 68,
+   "en": "\"Well, I forget, but the point is it leads to a big, huge treasure!\"",
+   "zh": "「好吧，俺忘了，但重點是它通往一大筆巨大的寶藏！」",
+   "note": ""
+  },
+  {
+   "offset": 4383,
+   "len": 70,
+   "en": "\"So if you want this map you're agonna have to pay - 100 gold! Okay?\" ",
+   "zh": "「所以若你想要這張地圖，就得付——100枚金幣！好嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 4473,
+   "len": 59,
+   "en": "\"Thank you! You have asaved me from amaking a big mistake!\"",
+   "zh": "「謝謝！你讓俺免於犯下一個大錯！」",
+   "note": "買家拒絕時反說謝謝的幽默"
+  },
+  {
+   "offset": 4535,
+   "len": 100,
+   "en": "\"You're right, I better hold on to this valuable map myself. No way is it worth less than 100 gold.\"",
+   "zh": "「你說得對，俺還是自己留著這張珍貴地圖好了。它絕對不值少於100枚金幣。」",
+   "note": ""
+  },
+  {
+   "offset": 4648,
+   "len": 57,
+   "en": "\"What, are you nuts? But okay, how'sabout just 50 gold?\" ",
+   "zh": "「什麼，你瘋了？但好吧，那就只要50枚金幣怎樣？」",
+   "note": ""
+  },
+  {
+   "offset": 4718,
+   "len": 76,
+   "en": "\"Well, I hate to see anybody pass up good fortune, so I tell you what I do.\"",
+   "zh": "「好吧，俺不忍心看人錯過好運，所以俺告訴你俺怎麼做。」",
+   "note": ""
+  },
+  {
+   "offset": 4797,
+   "len": 76,
+   "en": "\"I sell you this map, this key to infinite wealth, for just 75 gold. Okay?\" ",
+   "zh": "「俺把這張地圖，這把通往無限財富的鑰匙，賣給你，只要75枚金幣。好嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 4898,
+   "len": 71,
+   "en": "\"Hey, what are you, a deadbeat? Come back when you can afford the map!\"",
+   "zh": "「嘿，你是個窮光蛋嗎？等你買得起這張地圖再來！」",
+   "note": ""
+  },
+  {
+   "offset": 5000,
+   "len": 50,
+   "en": "\"Yeah, well, you've got a lot to carry right now.\"",
+   "zh": "「是啊，你現在帶的東西已經很多了。」",
+   "note": "攜帶量已滿"
+  },
+  {
+   "offset": 5053,
+   "len": 81,
+   "en": "\"I do you a favor and just hold on to the map for you until you got room for it.\"",
+   "zh": "「俺幫你一個忙，先替你保管地圖，等你有地方放再說。」",
+   "note": ""
+  },
+  {
+   "offset": 5137,
+   "len": 55,
+   "en": "\"I do you another favor and hold on to the money, too.\"",
+   "zh": "「俺再幫你一個忙，也替你保管那筆錢。」",
+   "note": "不退款的幽默"
+  },
+  {
+   "offset": 5198,
+   "len": 61,
+   "en": "\"Okay, here's the map, and may fortune bring you lotsa gold!\"",
+   "zh": "「好，地圖給你，願財運為你帶來大把金幣！」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Arturos": "阿圖羅斯"}, "places": {}},
+ "translator_notes": "阿圖羅斯是義大利腔騙子吉普賽人，說話充滿語助詞（thatsa/meansa/ima）。塔羅牌占卜場景詼諧荒誕，教皇牌被誤解為大象的笑話是核心幽默點。"
+}

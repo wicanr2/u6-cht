@@ -21,8 +21,7 @@ SAVEGAME/
 .scummvmrc
 scummvm.ini
 
-# --- 私有 en+zh source 譯文（含原版英文，不公開） ---
-# 公開版位於 translations_public/ — 只有 hash + zh，無原版英文
+# --- 工作 source（dumps/translations）— 公開版在 /translations/ 與 /translations_public/ ---
 dumps/translations/
 
 # --- 過程資料、暫存（包含原版 English 文字，不公開） ---

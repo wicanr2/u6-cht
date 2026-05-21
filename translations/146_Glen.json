@@ -1,0 +1,363 @@
+{
+ "translations": [
+  {
+   "offset": 7,
+   "len": 43,
+   "en": "a quiet, pale, almost motionless gentleman.",
+   "zh": "一位安靜、面色蒼白、幾乎紋絲不動的紳士。",
+   "note": "DESC"
+  },
+  {
+   "offset": 94,
+   "len": 84,
+   "en": "\"Ohhh! Silly me, spending so much time with my clients.\" He gestures at the corpses.",
+   "zh": "「哦哦！真是糊塗，花了太多時間陪我的客人。」他向屍體們揮揮手。",
+   "note": ""
+  },
+  {
+   "offset": 181,
+   "len": 45,
+   "en": "\"I forget little details like paying Mole...\"",
+   "zh": "「忘了一些細節，比如付錢給鼴鼠……」",
+   "note": ""
+  },
+  {
+   "offset": 229,
+   "len": 42,
+   "en": "\"I'll have to take care of it right away.\"",
+   "zh": "「我必須馬上處理。」",
+   "note": ""
+  },
+  {
+   "offset": 281,
+   "len": 58,
+   "en": "\"You deserve a reward for helping me straighten this out.\"",
+   "zh": "「你幫我理清此事，理應得到獎賞。」",
+   "note": ""
+  },
+  {
+   "offset": 342,
+   "len": 61,
+   "en": "\"That mage over on the table was found just outside of town.\"",
+   "zh": "「桌上那位法師是在城鎮外發現的。」",
+   "note": ""
+  },
+  {
+   "offset": 406,
+   "len": 88,
+   "en": "\"He was carrying a couple of enchanted items and some money when the gargoyles got him.\"",
+   "zh": "「魔像族抓到他時，他帶著幾件魔法物品和一些錢。」",
+   "note": ""
+  },
+  {
+   "offset": 495,
+   "len": 87,
+   "en": "*\"Nobody has been able to find any relatives of his, so you might as well take it all.\"",
+   "zh": "*「找不到他的任何親屬，所以你不妨把這些都帶走。」",
+   "note": "保留 * 控制符"
+  },
+  {
+   "offset": 604,
+   "len": 75,
+   "en": "\"That addle-brained, lower class, miserable excuse for a common laborer...\"",
+   "zh": "「那個腦袋不靈光、出身低賤、不成材的普通工人……」",
+   "note": "關於Mole"
+  },
+  {
+   "offset": 682,
+   "len": 59,
+   "en": "\"I agreed to give him an equipment allowance with his pay.\"",
+   "zh": "「我同意在薪酬中加上設備補貼。」",
+   "note": ""
+  },
+  {
+   "offset": 744,
+   "len": 83,
+   "en": "\"No doubt it's all been squandered at some tavern, along with the rest of his pay.\"",
+   "zh": "「毫無疑問全都花在某家酒館了，連他其餘的薪水也是。」",
+   "note": ""
+  },
+  {
+   "offset": 830,
+   "len": 36,
+   "en": "\"See what he has to say about that!\"",
+   "zh": "「去問問他有何話說！」",
+   "note": ""
+  },
+  {
+   "offset": 892,
+   "len": 41,
+   "en": "\"So, his shovel broke? That's no excuse.\"",
+   "zh": "「哦，他的鏟子壞了？那不是藉口。」",
+   "note": ""
+  },
+  {
+   "offset": 936,
+   "len": 62,
+   "en": "\"Tell him he should have bought another one and kept working.\"",
+   "zh": "「告訴他應該再買一把，繼續幹活。」",
+   "note": ""
+  },
+  {
+   "offset": 1024,
+   "len": 110,
+   "en": "You pass along Mole's message. \"Needs a shovel, does he? Tell him to use the one I gave him when I hired him!\"",
+   "zh": "你轉達了鼴鼠的話。「需要鏟子？叫他用我雇他時給的那把！」",
+   "note": ""
+  },
+  {
+   "offset": 1137,
+   "len": 67,
+   "en": "\"No doubt he's forgotten he has it by now, or lost it somewhere...\"",
+   "zh": "「毫無疑問他現在已忘記有這把鏟子，或者弄丟在某處……」",
+   "note": ""
+  },
+  {
+   "offset": 1214,
+   "len": 71,
+   "en": "\"Good evening.\" he says, in a voice that sends shivers down your spine.",
+   "zh": "「晚上好。」他說，那嗓音令你脊背發涼。",
+   "note": ""
+  },
+  {
+   "offset": 1288,
+   "len": 49,
+   "en": "\"It is evening, I hope. That's my favorite time.\"",
+   "zh": "「希望是晚上。那是我最喜歡的時刻。」",
+   "note": ""
+  },
+  {
+   "offset": 1345,
+   "len": 42,
+   "en": "\"I am Glen D'Arc, of the @Trinsic D'Arcs.\"",
+   "zh": "「吾乃葛蘭·達爾克，@特林希克達爾克家族的。」",
+   "note": ""
+  },
+  {
+   "offset": 1414,
+   "len": 35,
+   "en": "\"I had to move away... Too @sunny.\"",
+   "zh": "「吾不得不搬離……太@陽光了。」",
+   "note": ""
+  },
+  {
+   "offset": 1459,
+   "len": 57,
+   "en": "\"I much prefer moonlight. It's more natural and healthy.\"",
+   "zh": "「吾更偏愛月光。它更自然、更健康。」",
+   "note": ""
+  },
+  {
+   "offset": 1536,
+   "len": 51,
+   "en": "\"For most clients, I prefer to use Frigid @Solvol.\"",
+   "zh": "「對於大多數客人，吾更喜歡使用冰冷@索伏爾。」",
+   "note": "防腐液品牌名音譯"
+  },
+  {
+   "offset": 1590,
+   "len": 48,
+   "en": "\"It's the finest enbalming fluid on the market.\"",
+   "zh": "「這是市面上最好的防腐液。」",
+   "note": "原文 enbalming 為拼寫錯誤"
+  },
+  {
+   "offset": 1659,
+   "len": 47,
+   "en": "\"It gives the departed a nice, healthy glow...\"",
+   "zh": "「它讓逝者散發出美麗、健康的光澤……」",
+   "note": ""
+  },
+  {
+   "offset": 1722,
+   "len": 87,
+   "en": "\"Yes, those who cannot afford resurrection know the cool comfort of good, honest soil.\"",
+   "zh": "「是的，那些無力復活的人，知道優質誠實泥土的清涼慰藉。」",
+   "note": ""
+  },
+  {
+   "offset": 1812,
+   "len": 74,
+   "en": "He sighs longingly. \"How I envy them, for only the @dead know true peace.\"",
+   "zh": "他深情嘆息。「吾多麼羨慕他們，因為唯有@亡者才知真正的平靜。」",
+   "note": ""
+  },
+  {
+   "offset": 1902,
+   "len": 59,
+   "en": "\"He smiles. \"I see you're not much of a believer in death.\"",
+   "zh": "他微笑。「看來你並不怎麼信仰死亡。」",
+   "note": "原文有多餘引號，照意譯"
+  },
+  {
+   "offset": 1964,
+   "len": 81,
+   "en": "\"But next time you're dead you should try staying that way. You might like it...\"",
+   "zh": "「但下次你死去時，不妨試著就那樣待著。也許你會喜歡……」",
+   "note": ""
+  },
+  {
+   "offset": 2083,
+   "len": 39,
+   "en": "\"You can't get good help these days...\"",
+   "zh": "「現在找個好幫手真難……」",
+   "note": ""
+  },
+  {
+   "offset": 2128,
+   "len": 63,
+   "en": "\"Mole was supposed to have two more graves finished yesterday.\"",
+   "zh": "「鼴鼠昨天應該挖完兩座墳的。」",
+   "note": ""
+  },
+  {
+   "offset": 2194,
+   "len": 103,
+   "en": "\"I can't stand to talk to him any more - if you see him, tell him I need those graves dug immediately!\"",
+   "zh": "「吾再也受不了跟他說話——若你見到他，告訴他吾立刻需要那些墳挖好！」",
+   "note": ""
+  },
+  {
+   "offset": 2314,
+   "len": 91,
+   "en": "\"Goodbye for now - I'm sure I'll see you again. Every body ends up here sooner or later...\"",
+   "zh": "「暫別——吾確信會再見到你。每個人遲早都會來這裡的……」",
+   "note": "Every body雙關（everybody/every body）"
+  },
+  {
+   "offset": 2410,
+   "len": 64,
+   "en": "\"Don't concern yourself with that. Life is too hectic as it is.\"",
+   "zh": "「別為那事費心。生命本就夠忙亂了。」",
+   "note": ""
+  },
+  {
+   "offset": 2480,
+   "len": 105,
+   "en": "\"I prepare the @bodies of the departed for their eternal @rest.\" He pauses to pop a grape into his mouth.",
+   "zh": "「吾為亡者的@遺體作永恆@安息的準備。」他停頓一下，把一顆葡萄塞進嘴裡。",
+   "note": ""
+  },
+  {
+   "offset": 2588,
+   "len": 101,
+   "en": "He chews it delicately, but you can still hear a soft, squishy sound. \"Would you like a few grapes?\" ",
+   "zh": "他細嚼慢嚥，但你仍能聽到一聲輕微的嘎吱聲。「你要幾顆葡萄嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 2695,
+   "len": 16,
+   "en": "\"Help yourself.\"",
+   "zh": "「請自取。」",
+   "note": ""
+  },
+  {
+   "offset": 2725,
+   "len": 111,
+   "en": "\"It's very relaxing work. At least it would be, if I didn't have to put up with that incompetent @gravedigger.\"",
+   "zh": "「這是非常放鬆的工作。至少本該如此，若不是得忍受那個無能的@掘墓人的話。」",
+   "note": ""
+  },
+  {
+   "offset": 2841,
+   "len": 67,
+   "en": "His eyes gleam fiendishly when he notices the body you're carrying.",
+   "zh": "他注意到你攜帶的屍體時，眼中閃過邪惡的光芒。",
+   "note": ""
+  },
+  {
+   "offset": 2911,
+   "len": 98,
+   "en": "\"Ah, you've brought me a client. Tell the truth, doesn't your friend look more peaceful this way?\"",
+   "zh": "「啊，你給我帶來了一位客人。說實話，你的朋友這樣看起來是不是更平靜？」",
+   "note": ""
+  },
+  {
+   "offset": 3012,
+   "len": 62,
+   "en": "\"For such a heroic client, I have something special to offer.\"",
+   "zh": "「對於如此英勇的客人，吾有特別的服務奉上。」",
+   "note": ""
+  },
+  {
+   "offset": 3077,
+   "len": 54,
+   "en": "\"It's a new process I've invented called 'cremation.'\"",
+   "zh": "「這是吾發明的新工藝，稱為『火葬』。」",
+   "note": ""
+  },
+  {
+   "offset": 3134,
+   "len": 86,
+   "en": "\"For a mere fifteen gold, the remains of the dearly departed are purified with flame.\"",
+   "zh": "「只需區區十五枚金幣，親愛的逝者的遺骸便以烈火淨化。」",
+   "note": ""
+  },
+  {
+   "offset": 3223,
+   "len": 40,
+   "en": "\"Would you like me to do this for you?\" ",
+   "zh": "「你希望吾為你做這個嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 3269,
+   "len": 10,
+   "en": "\"Too bad.\"",
+   "zh": "「太可惜了。」",
+   "note": ""
+  },
+  {
+   "offset": 3293,
+   "len": 54,
+   "en": "\"You're a bit short on gold.\" he says, disappointedly.",
+   "zh": "「你的金幣有點不夠。」他失望地說。",
+   "note": ""
+  },
+  {
+   "offset": 3351,
+   "len": 64,
+   "en": "\"Excellent!\" He takes the body, and recites a brief incantation.",
+   "zh": "「太好了！」他接過屍體，念了一段簡短的咒語。",
+   "note": ""
+  },
+  {
+   "offset": 3418,
+   "len": 65,
+   "en": "An eerie green flame engulfs the corpse, consuming it in seconds.",
+   "zh": "詭異的綠色火焰將屍體吞噬，眨眼間燒成灰燼。",
+   "note": ""
+  },
+  {
+   "offset": 3486,
+   "len": 93,
+   "en": "Nothing but ashes remain. The mortician sweeps them up, puts them in an urn, and hands it to ",
+   "zh": "只剩下灰燼。殯儀師將它們掃起，放入骨灰罐，遞給",
+   "note": "後接$Y/you"
+  },
+  {
+   "offset": 3590,
+   "len": 2,
+   "en": "$Y",
+   "zh": "$Y",
+   "note": "隊友名字佔位符"
+  },
+  {
+   "offset": 3593,
+   "len": 3,
+   "en": "you",
+   "zh": "你",
+   "note": ""
+  },
+  {
+   "offset": 3641,
+   "len": 65,
+   "en": "\"Please come again if any more of your friends need my services.\"",
+   "zh": "「若你的朋友中還有人需要吾的服務，請再來。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Glen": "葛蘭"}, "places": {}},
+ "translator_notes": "葛蘭是陰鬱的殯儀師，喜愛死亡和月光，以文言（「吾」）呈現其老派神秘氣質。黑色幽默貫穿全文。火葬是新功能，用屍體換骨灰罐。"
+}

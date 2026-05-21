@@ -1,0 +1,291 @@
+{
+  "_meta": {
+    "npc": "Rufus the Red (blacksmith / farrier)",
+    "role": "不列顛城紅髮鐵匠（farrier）；只釘馬蹄鐵。粗獷豪邁，會抓玩家手臂招呼。對話含 'shoe horses' 與紅髮名號雙關（@Red）。"
+  },
+  "translations": [
+    {
+      "offset": 2,
+      "len": 5,
+      "en": "Rufus",
+      "zh": "魯佛",
+      "zh_bytes": 4,
+      "note": "人名音譯；Rufus → 魯佛"
+    },
+    {
+      "offset": 8,
+      "len": 47,
+      "en": "a rough and tumble man with wild, unkempt hair.",
+      "zh": "一個粗獷不羈、頭髮蓬亂之人。",
+      "zh_bytes": 28,
+      "note": ""
+    },
+    {
+      "offset": 78,
+      "len": 37,
+      "en": "\"Aye, and a fine $T to you, my friend",
+      "zh": "「啊，這$T時辰好，朋友",
+      "zh_bytes": 22,
+      "note": "保留 $T 變數；句尾留接續"
+    },
+    {
+      "offset": 121,
+      "len": 2,
+      "en": ".\"",
+      "zh": ".\"",
+      "zh_bytes": 2,
+      "note": "len=2 保留 ASCII"
+    },
+    {
+      "offset": 126,
+      "len": 50,
+      "en": "\"I'm busy just now. Why don't ya come t'my smithy ",
+      "zh": "「我正忙著。何不來我鐵舖一趟——",
+      "zh_bytes": 32,
+      "note": "smithy → 鐵舖；句尾留接續"
+    },
+    {
+      "offset": 183,
+      "len": 9,
+      "en": "tomorrow ",
+      "zh": "明日 ",
+      "zh_bytes": 5,
+      "note": "時段詞 1，末空格"
+    },
+    {
+      "offset": 193,
+      "len": 12,
+      "en": "later today ",
+      "zh": "稍晚今日 ",
+      "zh_bytes": 9,
+      "note": "時段詞 2"
+    },
+    {
+      "offset": 206,
+      "len": 21,
+      "en": "and we'll talk then.\"",
+      "zh": "再來細談吧。」",
+      "zh_bytes": 14,
+      "note": ""
+    },
+    {
+      "offset": 241,
+      "len": 16,
+      "en": "\"Good $T, friend",
+      "zh": "「$T安好，友",
+      "zh_bytes": 12,
+      "note": "保留 $T；末尾留接續"
+    },
+    {
+      "offset": 263,
+      "len": 2,
+      "en": ".\"",
+      "zh": ".\"",
+      "zh_bytes": 2,
+      "note": "len=2 保留 ASCII"
+    },
+    {
+      "offset": 278,
+      "len": 60,
+      "en": "\"'Tis good to see thee, friend!\" he says, grabbing your arm.",
+      "zh": "「見汝甚悅，友也！」他抓住汝手臂。",
+      "zh_bytes": 34,
+      "note": "'Tis 古英文文體"
+    },
+    {
+      "offset": 341,
+      "len": 17,
+      "en": "\"What d'ya need?\"",
+      "zh": "「汝需何物？」",
+      "zh_bytes": 14,
+      "note": ""
+    },
+    {
+      "offset": 361,
+      "len": 4,
+      "en": "name",
+      "zh": "名字",
+      "zh_bytes": 4,
+      "note": "@name keyword"
+    },
+    {
+      "offset": 366,
+      "len": 17,
+      "en": "\"Rufus the @Red.\"",
+      "zh": "「@紅髮魯佛也。」",
+      "zh_bytes": 17,
+      "note": "@Red 紅髮綽號保留 keyword"
+    },
+    {
+      "offset": 390,
+      "len": 8,
+      "en": "rufu,red",
+      "zh": "魯佛,紅",
+      "zh_bytes": 7,
+      "note": "keyword 群組（名字+紅髮）"
+    },
+    {
+      "offset": 399,
+      "len": 29,
+      "en": "\"Can ya not tell by my hair?\"",
+      "zh": "「瞧我這頭髮還用問？」",
+      "zh_bytes": 22,
+      "note": ""
+    },
+    {
+      "offset": 435,
+      "len": 3,
+      "en": "buy",
+      "zh": "買",
+      "zh_bytes": 2,
+      "note": "@buy keyword"
+    },
+    {
+      "offset": 445,
+      "len": 3,
+      "en": "job",
+      "zh": "業",
+      "zh_bytes": 2,
+      "note": "@job keyword"
+    },
+    {
+      "offset": 449,
+      "len": 43,
+      "en": "\"If you want to @buy horseshoes, just ask.\"",
+      "zh": "「若欲@買馬蹄鐵，儘管開口。」",
+      "zh_bytes": 29,
+      "note": ""
+    },
+    {
+      "offset": 499,
+      "len": 8,
+      "en": "bye,noth",
+      "zh": "別,無",
+      "zh_bytes": 5,
+      "note": "keyword 群組（bye + nothing）"
+    },
+    {
+      "offset": 508,
+      "len": 40,
+      "en": "\"Remember to shoe yer steed often. Bye.\"",
+      "zh": "「記得常給座騎換@蹄鐵。再見。」",
+      "zh_bytes": 31,
+      "note": ""
+    },
+    {
+      "offset": 551,
+      "len": 4,
+      "en": "shoe",
+      "zh": "蹄鐵",
+      "zh_bytes": 4,
+      "note": "@shoe keyword"
+    },
+    {
+      "offset": 556,
+      "len": 48,
+      "en": "\"Aye, it saves their feet from stones and such.\"",
+      "zh": "「啊，可保牠們的蹄不傷於石塊之類。」",
+      "zh_bytes": 36,
+      "note": ""
+    },
+    {
+      "offset": 613,
+      "len": 29,
+      "en": "\"I just @shoe horses, sorry.\"",
+      "zh": "「在下只釘馬@蹄鐵，抱歉。」",
+      "zh_bytes": 27,
+      "note": ""
+    },
+    {
+      "offset": 690,
+      "len": 6,
+      "en": "#2. $Y",
+      "zh": "#2. $Y",
+      "zh_bytes": 6,
+      "note": "保留變數"
+    },
+    {
+      "offset": 730,
+      "len": 16,
+      "en": "\"Which of you?\" ",
+      "zh": "「諸位何人？」",
+      "zh_bytes": 14,
+      "note": ""
+    },
+    {
+      "offset": 785,
+      "len": 56,
+      "en": "\"It'll cost you 2 gold for the horseshoes. Interested?\" ",
+      "zh": "「一副蹄鐵 2 金幣。可有意？」 ",
+      "zh_bytes": 30,
+      "note": "末尾空白保留"
+    },
+    {
+      "offset": 842,
+      "len": 2,
+      "en": "yn",
+      "zh": "yn",
+      "zh_bytes": 2,
+      "note": "yes/no 選項標記"
+    },
+    {
+      "offset": 867,
+      "len": 29,
+      "en": "\"You look pretty full to me.\"",
+      "zh": "「瞧汝身上已甚滿。」",
+      "zh_bytes": 20,
+      "note": ""
+    },
+    {
+      "offset": 956,
+      "len": 70,
+      "en": "\"Good, good!\" After accepting $Y's gold, $N hands over the horseshoes.",
+      "zh": "「好好！」$N 收下 $Y 的金幣，遞上一副蹄鐵。",
+      "zh_bytes": 43,
+      "note": ""
+    },
+    {
+      "offset": 1049,
+      "len": 26,
+      "en": "\"You haven't enough gold!\"",
+      "zh": "「汝金幣不足！」",
+      "zh_bytes": 16,
+      "note": ""
+    },
+    {
+      "offset": 1096,
+      "len": 27,
+      "en": "\"Those shoes will last ya.\"",
+      "zh": "「這蹄鐵夠汝用上一陣。」",
+      "zh_bytes": 24,
+      "note": ""
+    },
+    {
+      "offset": 1131,
+      "len": 28,
+      "en": "\"You'll find none stronger.\"",
+      "zh": "「再無更堅之物可尋。」",
+      "zh_bytes": 22,
+      "note": ""
+    }
+  ],
+  "keyword_mapping": {
+    "@Red": "@紅髮",
+    "@buy": "@買",
+    "@shoe": "@蹄鐵",
+    "@bye": "@別"
+  },
+  "glossary_additions": {
+    "people": {
+      "Rufus the Red": "紅髮魯佛"
+    },
+    "concepts": {
+      "smithy": "鐵舖",
+      "farrier": "釘蹄匠",
+      "horseshoe": "馬蹄鐵",
+      "steed": "座騎"
+    }
+  },
+  "riddles_additions": [],
+  "translator_notes": "Rufus 為釘蹄匠。對話粗豪、含古英文 'Tis/thee 元素。Red 兼指紅髮與綽號，譯『紅髮』。所有 zh_bytes ≤ len，0 OVERFLOW。"
+}

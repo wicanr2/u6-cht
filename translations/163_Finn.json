@@ -1,0 +1,351 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 4,
+   "en": "Finn",
+   "zh": "芬恩",
+   "note": "NPC name"
+  },
+  {
+   "offset": 7,
+   "len": 38,
+   "en": "a sly looking fellow, dressed in rags.",
+   "zh": "一個滿臉狡黠、身著破衣的男子。",
+   "note": "DESC"
+  },
+  {
+   "offset": 54,
+   "len": 15,
+   "en": "\"Hello my good ",
+   "zh": "「你好，我親愛的",
+   "note": "前半段，接 wo/man"
+  },
+  {
+   "offset": 73,
+   "len": 2,
+   "en": "wo",
+   "zh": "女",
+   "note": "性別詞前半"
+  },
+  {
+   "offset": 76,
+   "len": 5,
+   "en": "man!\"",
+   "zh": "士！」",
+   "note": "性別詞後半"
+  },
+  {
+   "offset": 98,
+   "len": 109,
+   "en": "He glances around quickly, to see if anyone seems to be listening. \"I'm Lord British. But don't tell anyone.\"",
+   "zh": "他迅速掃視四周，確認無人偷聽。「吾乃不列顛王。但切莫告訴任何人。」",
+   "note": "Finn 的招牌謊言"
+  },
+  {
+   "offset": 210,
+   "len": 55,
+   "en": "\"I'm in @disguise so I can mingle with the @commoners.\"",
+   "zh": "「吾正在@disguise喬裝，以便混入@commoners平民之中。」",
+   "note": ""
+  },
+  {
+   "offset": 282,
+   "len": 145,
+   "en": "\"I'm pretending to be a @beggar. That way nobody will suspect who I really am. Here, give me a few coins to keep anyone from getting suspicious.\"",
+   "zh": "「吾正假扮@beggar乞丐。如此一來，無人會起疑心。來，給我幾枚硬幣，免得旁人起疑。」",
+   "note": ""
+  },
+  {
+   "offset": 444,
+   "len": 101,
+   "en": "\"Of course, nobody would dare say anything bad about me to my face. Nobody except @Chuckles, anyway.\"",
+   "zh": "「當然，沒有人敢當面說我壞話。除了@Chuckles以外，沒有任何人。」",
+   "note": ""
+  },
+  {
+   "offset": 548,
+   "len": 59,
+   "en": "\"But as a beggar, people will tell me just about anything!\"",
+   "zh": "「但以乞丐身份，人們什麼都肯告訴我！」",
+   "note": ""
+  },
+  {
+   "offset": 618,
+   "len": 58,
+   "en": "\"He's in disguise too, you know. He's really @Blackthorn.\"",
+   "zh": "「他也在喬裝，你知道嗎。他其實是@Blackthorn黑棘。」",
+   "note": ""
+  },
+  {
+   "offset": 687,
+   "len": 91,
+   "en": "\"I decided banishment was too harsh for him, so I brought him back and made him my jester.\"",
+   "zh": "「吾認為放逐對他太嚴酷，便把他召回，封為吾的弄臣。」",
+   "note": ""
+  },
+  {
+   "offset": 781,
+   "len": 89,
+   "en": "\"The real Chuckles is tied up in my @dungeons. I got tired of him making fun of my nose.\"",
+   "zh": "「真正的笑笑被關在吾的@dungeons地牢裡。吾受夠了他嘲弄吾的鼻子。」",
+   "note": ""
+  },
+  {
+   "offset": 901,
+   "len": 52,
+   "en": "\"I'm Lord British, and I can do whatever I want to!\"",
+   "zh": "「吾乃不列顛王，吾要做什麼便做什麼！」",
+   "note": ""
+  },
+  {
+   "offset": 971,
+   "len": 53,
+   "en": "\"Very convincing, don't you think? I made it myself.\"",
+   "zh": "「很逼真吧，你不覺得嗎？這是吾親手製作的。」",
+   "note": ""
+  },
+  {
+   "offset": 1045,
+   "len": 73,
+   "en": "\"I've got forty million crowns. Not to mention my secret bank @accounts.\"",
+   "zh": "「吾有四千萬金幣。更別提吾秘密的銀行@accounts帳戶。」",
+   "note": ""
+  },
+  {
+   "offset": 1144,
+   "len": 33,
+   "en": "\"I told you not to mention that!\"",
+   "zh": "「吾說過不許提那件事！」",
+   "note": ""
+  },
+  {
+   "offset": 1197,
+   "len": 115,
+   "en": "\"I'm really Lord British. I can prove it to you. I know all of the @eight @mantras, and where the @runes are, too!\"",
+   "zh": "「吾真的是不列顛王。吾可以向你證明。吾知曉全部的@eight @mantras真言，也知道@runes符文所在！」",
+   "note": ""
+  },
+  {
+   "offset": 1330,
+   "len": 73,
+   "en": "\"I killed a @dragon when I was eight, you know. With my bare hands, too!\"",
+   "zh": "「吾八歲時曾殺死一條@dragon龍，你知道嗎。還是徒手殺的！」",
+   "note": ""
+  },
+  {
+   "offset": 1429,
+   "len": 85,
+   "en": "\"He was a big one - but he hadn't reckoned with the likes of me. I was a @tough kid.\"",
+   "zh": "「那條龍很大——但他沒料到會遇上吾這號人物。吾那時可是個@tough硬漢少年。」",
+   "note": ""
+  },
+  {
+   "offset": 1534,
+   "len": 90,
+   "en": "\"I was so tough he couldn't chew me, and he had to spit me out. That's when I killed him.\"",
+   "zh": "「吾太難嚼了，牠只好把吾吐出來。就是那時吾把牠殺了。」",
+   "note": ""
+  },
+  {
+   "offset": 1635,
+   "len": 26,
+   "en": "\"Ok, here are the mantras:",
+   "zh": "「好吧，真言如下：",
+   "note": "Finn 假稱知曉八大真言"
+  },
+  {
+   "offset": 1662,
+   "len": 12,
+   "en": "justice - do",
+   "zh": "正義 - do",
+   "note": "真言音節保留"
+  },
+  {
+   "offset": 1675,
+   "len": 15,
+   "en": "compassion - re",
+   "zh": "慈悲 - re",
+   "note": ""
+  },
+  {
+   "offset": 1691,
+   "len": 10,
+   "en": "honor - mi",
+   "zh": "榮譽 - mi",
+   "note": ""
+  },
+  {
+   "offset": 1702,
+   "len": 11,
+   "en": "valour - fa",
+   "zh": "勇氣 - fa",
+   "note": ""
+  },
+  {
+   "offset": 1714,
+   "len": 17,
+   "en": "spirituality - so",
+   "zh": "靈性 - so",
+   "note": ""
+  },
+  {
+   "offset": 1732,
+   "len": 13,
+   "en": "humility - la",
+   "zh": "謙遜 - la",
+   "note": ""
+  },
+  {
+   "offset": 1746,
+   "len": 14,
+   "en": "sacrifice - ti",
+   "zh": "犧牲 - ti",
+   "note": ""
+  },
+  {
+   "offset": 1762,
+   "len": 81,
+   "en": "Gosh, wouldn't you know it? The Mantra of Honesty slips my mind at the moment...\"",
+   "zh": "哎呀，你瞧，誠實的真言這會兒偏偏忘了……」",
+   "note": "故意忘記誠實真言的笑點"
+  },
+  {
+   "offset": 1854,
+   "len": 74,
+   "en": "\"I'll tell you this, because you look like someone who can keep a secret.\"",
+   "zh": "「吾告訴你這件事，因為你看起來是個守口如瓶的人。」",
+   "note": ""
+  },
+  {
+   "offset": 1931,
+   "len": 66,
+   "en": "\"I sent out eight fake runes to all the lords, to fool everybody.\"",
+   "zh": "「吾向所有諸侯分送了八枚假符文，以欺騙眾人。」",
+   "note": ""
+  },
+  {
+   "offset": 2000,
+   "len": 70,
+   "en": "\"I put all the real ones in a little box, and hid it under my throne.\"",
+   "zh": "「吾把所有真符文放進一個小盒子，藏在王座之下。」",
+   "note": ""
+  },
+  {
+   "offset": 2073,
+   "len": 57,
+   "en": "\"You can't see it there, because I turned it @invisible!\"",
+   "zh": "「你看不見它，因為吾已將它變成@invisible隱形了！」",
+   "note": ""
+  },
+  {
+   "offset": 2155,
+   "len": 38,
+   "en": "\"A clever trick, or my I'm not @Finn!\"",
+   "zh": "「多妙的把戲，否則吾就不是@Finn了！」",
+   "note": ""
+  },
+  {
+   "offset": 2204,
+   "len": 95,
+   "en": "\"Oh, that's just the name I'm pretending to go by. Of course you know I'm really Lord British.\"",
+   "zh": "「哦，那只是吾假扮時用的名字。當然你知道吾其實是不列顛王。」",
+   "note": ""
+  },
+  {
+   "offset": 2302,
+   "len": 59,
+   "en": "\"I can see you're too smart to be fooled by this disguise.\"",
+   "zh": "「看來你太聰明了，不會被這套喬裝給騙到。」",
+   "note": ""
+  },
+  {
+   "offset": 2378,
+   "len": 80,
+   "en": "\"If you need me later, I'll be at the Blue Boar, disguised as the tavernkeeper.\"",
+   "zh": "「若你之後需要我，我會在藍野豬酒館，喬裝成客棧老闆。」",
+   "note": ""
+  },
+  {
+   "offset": 2461,
+   "len": 81,
+   "en": "\"But I won't admit to it there if you ask me... Too many people that might hear.\"",
+   "zh": "「但在那裡你問我，我也不會承認……知道的人太多了。」",
+   "note": ""
+  },
+  {
+   "offset": 2559,
+   "len": 43,
+   "en": "You see Shamino smiling - an unusual sight.",
+   "zh": "你見夏米諾在微笑——此乃罕見之景。",
+   "note": ""
+  },
+  {
+   "offset": 2605,
+   "len": 86,
+   "en": "Noticing your attention, he says \"Perhaps there's a little of Lord British in us all.\"",
+   "zh": "他察覺到你的目光，說道：「也許我們每個人心中，都有一點不列顛王的影子。」",
+   "note": ""
+  },
+  {
+   "offset": 2698,
+   "len": 97,
+   "en": "\"Oh, I know all about that. But I think you'd be better off if you learned about it on your own.\"",
+   "zh": "「哦，這件事吾知之甚詳。但吾認為你最好自己去了解。」",
+   "note": ""
+  },
+  {
+   "offset": 2802,
+   "len": 27,
+   "en": "Do you give him any money? ",
+   "zh": "你要給他錢嗎？",
+   "note": "旁白提示"
+  },
+  {
+   "offset": 2835,
+   "len": 66,
+   "en": "\"Broke, are you? Well, come by after I'm done with this disguise,*",
+   "zh": "「身無分文？那好，等吾結束這次喬裝之後再來，*",
+   "note": "* 控制符保留"
+  },
+  {
+   "offset": 2902,
+   "len": 51,
+   "en": "and I'll give you a loan from the royal @treasury.\"",
+   "zh": "吾會從皇家@treasury國庫借給你一些。」",
+   "note": ""
+  },
+  {
+   "offset": 2960,
+   "len": 22,
+   "en": "How much do you give? ",
+   "zh": "你要給多少？",
+   "note": "旁白提示"
+  },
+  {
+   "offset": 2995,
+   "len": 25,
+   "en": "You don't have that much.",
+   "zh": "你沒有那麼多錢。",
+   "note": "旁白"
+  },
+  {
+   "offset": 3066,
+   "len": 60,
+   "en": "He takes the money. \"Good. I'll get this back to you later.\"",
+   "zh": "他接過錢。「很好。吾之後會還給你的。」",
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {
+   "Finn": "芬恩"
+  },
+  "places": {
+   "Blue Boar": "藍野豬酒館"
+  }
+ },
+ "riddles_additions": [],
+ "translator_notes": "芬恩是詐騙乞丐，謊稱自己是不列顛王。全篇喜劇幽默口吻。真言音節（do/re/mi/fa/so/la/ti）保留 ASCII。故意忘記誠實真言為笑點，妥善保留。"
+}

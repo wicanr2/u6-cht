@@ -1,0 +1,298 @@
+{
+ "translations": [
+  {
+   "offset": 10,
+   "len": 49,
+   "en": "a little, white haired man hunched over with age.",
+   "zh": "一位白髮蒼蒼、因老態而佝僂的矮小男子。",
+   "note": "DESC"
+  },
+  {
+   "offset": 69,
+   "len": 71,
+   "en": "\"Back, back, back they come.\" He smiles to himself and claps his hands.",
+   "zh": "「回來了，回來了，又回來了。」他自顧自地微笑，拍著手。",
+   "note": ""
+  },
+  {
+   "offset": 142,
+   "len": 55,
+   "en": "\"Yes, yes, yes,\" he says, bobbing his head up and down.",
+   "zh": "「是是是，」他上下點著頭說道。",
+   "note": ""
+  },
+  {
+   "offset": 206,
+   "len": 41,
+   "en": "\"@Thindle the spindler.\" He grins at you.",
+   "zh": "「@辛德爾紡線匠。」他咧嘴朝汝笑。",
+   "note": ""
+  },
+  {
+   "offset": 265,
+   "len": 40,
+   "en": "\"Yes, yes, yes. That was quite a guess!\"",
+   "zh": "「是是是，猜得不錯！」",
+   "note": ""
+  },
+  {
+   "offset": 316,
+   "len": 36,
+   "en": "\"Oh my, oh my, you must need cloth.\"",
+   "zh": "「哎呀，哎呀，汝一定是需要布料。」",
+   "note": ""
+  },
+  {
+   "offset": 362,
+   "len": 55,
+   "en": "\"Come to my shop when I'm open and I'll sell you some!\"",
+   "zh": "「待在下開門時來鋪子，在下賣些給汝！」",
+   "note": ""
+  },
+  {
+   "offset": 435,
+   "len": 31,
+   "en": "\"Sell, now, its thread I feel.\"",
+   "zh": "「賣，原來是要賣線，在下感覺到了。」",
+   "note": ""
+  },
+  {
+   "offset": 476,
+   "len": 48,
+   "en": "\"Come to my shop when I'm open and I'll buy it!\"",
+   "zh": "「待在下開門時來鋪子，在下收購！」",
+   "note": ""
+  },
+  {
+   "offset": 541,
+   "len": 36,
+   "en": "\"Sew, sew, I @sew 'cause I said so.\"",
+   "zh": "「縫縫縫，在下@縫紉，因為在下說了算。」",
+   "note": "押韻口吃語氣"
+  },
+  {
+   "offset": 588,
+   "len": 72,
+   "en": "\"Beautiful @clothes, more pretty than those,\" he points to your stomach.",
+   "zh": "「美麗的@衣裳，比那些更漂亮，」他指著汝的腹部說。",
+   "note": ""
+  },
+  {
+   "offset": 677,
+   "len": 20,
+   "en": "\"Yes again, friend!\"",
+   "zh": "「正是，朋友！」",
+   "note": ""
+  },
+  {
+   "offset": 709,
+   "len": 50,
+   "en": "\"Shorty is my friend. We play @flippits together.\"",
+   "zh": "「矮冬瓜是我朋友，我們一起玩@骨彈戲。」",
+   "note": "Shorty = 對Mortude的暱稱"
+  },
+  {
+   "offset": 780,
+   "len": 21,
+   "en": "\"Silk? Oh no, oh no.\"",
+   "zh": "「絲綢？哎不行，哎不行。」",
+   "note": ""
+  },
+  {
+   "offset": 804,
+   "len": 29,
+   "en": "\"Can't work silk, oh my, no.\"",
+   "zh": "「在下不會處理絲綢，哎不行。」",
+   "note": ""
+  },
+  {
+   "offset": 836,
+   "len": 39,
+   "en": "\"See @Charlotte. She can, yes she can!\"",
+   "zh": "「去找@夏綠蒂，她行，是的她行！」",
+   "note": ""
+  },
+  {
+   "offset": 887,
+   "len": 42,
+   "en": "\"Humble Charlotte, yes. She can help you.\"",
+   "zh": "「謙遜的夏綠蒂，是的，她能幫汝。」",
+   "note": ""
+  },
+  {
+   "offset": 932,
+   "len": 28,
+   "en": "\"She lives in New Magincia.\"",
+   "zh": "「她住在新馬精西亞。」",
+   "note": ""
+  },
+  {
+   "offset": 972,
+   "len": 37,
+   "en": "\"You should learn, you should learn.\"",
+   "zh": "「汝應該學，汝應該學。」",
+   "note": ""
+  },
+  {
+   "offset": 1012,
+   "len": 65,
+   "en": "\"A nice piece of bone and a small hard @pea--that's all ya need.\"",
+   "zh": "「一塊好骨頭和一顆小硬@豌豆——就這些就夠了。」",
+   "note": ""
+  },
+  {
+   "offset": 1099,
+   "len": 47,
+   "en": "\"Like an old dog bone. You'll need a @hat too.\"",
+   "zh": "「就像條舊狗骨頭，汝還需要一頂@帽子。」",
+   "note": ""
+  },
+  {
+   "offset": 1167,
+   "len": 81,
+   "en": "\"The smaller, the better.\" He pulls an old @bone from his pocket and a small pea.",
+   "zh": "「越小越好。」他從口袋裡掏出一塊舊@骨頭和一顆小豌豆。",
+   "note": ""
+  },
+  {
+   "offset": 1251,
+   "len": 21,
+   "en": "\"Now you get a @hat.\"",
+   "zh": "「現在去找頂@帽子。」",
+   "note": ""
+  },
+  {
+   "offset": 1283,
+   "len": 66,
+   "en": "He puts the hat down and mumbles \"Put the pea in front of bone...\"",
+   "zh": "他放下帽子，喃喃道：「把豌豆放在骨頭前面……」",
+   "note": ""
+  },
+  {
+   "offset": 1352,
+   "len": 81,
+   "en": "He gestures with his hands. \"...and flippit on home.\" The pea sails into the hat.",
+   "zh": "他用手比劃著，「……彈它回家。」豌豆飛入帽子中。",
+   "note": ""
+  },
+  {
+   "offset": 1444,
+   "len": 50,
+   "en": "\"Bye now. Bye. Say hi to @Mortude if you see him.\"",
+   "zh": "「再見了，再見。見到@莫圖德代在下問好。」",
+   "note": ""
+  },
+  {
+   "offset": 1499,
+   "len": 39,
+   "en": "He scratches his head and looks around.",
+   "zh": "他搔搔頭，四下張望。",
+   "note": ""
+  },
+  {
+   "offset": 1629,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝們誰？」",
+   "note": ""
+  },
+  {
+   "offset": 1655,
+   "len": 47,
+   "en": "\"Very well, but 'tis fine cloth, yes indeed...\"",
+   "zh": "「好吧，但這是上等布料，是的確是……」",
+   "note": ""
+  },
+  {
+   "offset": 1742,
+   "len": 52,
+   "en": "\"It'll cost you 15 gold for the cloth. Interested?\" ",
+   "zh": "「這塊布料要15金，有興趣嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1817,
+   "len": 29,
+   "en": "\"You look pretty full to me.\"",
+   "zh": "「汝看起來已裝得滿滿的了。」",
+   "note": ""
+  },
+  {
+   "offset": 1893,
+   "len": 64,
+   "en": "\"Excellent!\" After accepting $Y's gold, $N hands over the cloth.",
+   "zh": "「太好了！」收下$Y的金幣後，$N遞出布料。",
+   "note": ""
+  },
+  {
+   "offset": 1964,
+   "len": 30,
+   "en": "\"No discounts, friend. Sorry.\"",
+   "zh": "「不打折，朋友，抱歉。」",
+   "note": ""
+  },
+  {
+   "offset": 2004,
+   "len": 47,
+   "en": "\"Very well, but 'tis fine cloth, yes indeed...\"",
+   "zh": "「好吧，但這是上等布料，是的確是……」",
+   "note": ""
+  },
+  {
+   "offset": 2185,
+   "len": 41,
+   "en": "\"Sorry, none of you has anything I need.\"",
+   "zh": "「抱歉，汝們沒有在下需要的東西。」",
+   "note": ""
+  },
+  {
+   "offset": 2329,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝們誰？」",
+   "note": ""
+  },
+  {
+   "offset": 2355,
+   "len": 57,
+   "en": "\"Very well, very well, I can see you don't want to sell.\"",
+   "zh": "「好吧好吧，在下看出汝不想賣。」",
+   "note": ""
+  },
+  {
+   "offset": 2479,
+   "len": 35,
+   "en": "\"Sorry, you don't have any thread.\"",
+   "zh": "「抱歉，汝沒有線。」",
+   "note": ""
+  },
+  {
+   "offset": 2521,
+   "len": 65,
+   "en": "$N turns to $Y, and says \"Will you take 6 gold for that Thread?\" ",
+   "zh": "$N轉向$Y，說：「那線6金，汝肯賣嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 2592,
+   "len": 55,
+   "en": "\"Done!\" He hands $Y 6 gold pieces and takes the thread.",
+   "zh": "「成交！」他遞給$Y 6枚金幣，取走線。",
+   "note": ""
+  },
+  {
+   "offset": 2682,
+   "len": 57,
+   "en": "\"Very well, very well, I can see you don't want to sell.\"",
+   "zh": "「好吧好吧，在下看出汝不想賣。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Thindle": "辛德爾",
+   "Mortude": "莫圖德"
+  }
+ },
+ "translator_notes": "100 Thindle: 布料商兼紡線匠，說話帶重複口癖（是是是/哎呀哎呀）。與莫圖德是玩骨彈戲的好友。flippits=骨彈戲（骨頭+豌豆+帽子的遊戲）。"
+}

@@ -1,0 +1,175 @@
+{
+ "translations": [
+  {
+   "offset": 14,
+   "len": 43,
+   "en": "a handsome gentleman, immaculately dressed.",
+   "zh": "一位英俊的紳士，衣著一絲不苟。",
+   "note": "DESC"
+  },
+  {
+   "offset": 67,
+   "len": 69,
+   "en": "\"Can't talk now, $G.\" He pauses to punch another pirate in the belly.",
+   "zh": "「現在沒空說話，$G。」他停頓了一下，朝另一名海盜肚子上打了一拳。",
+   "note": ""
+  },
+  {
+   "offset": 139,
+   "len": 44,
+   "en": "\"Come back later when I've less on my mind!\"",
+   "zh": "「待在下空些時再來！」",
+   "note": ""
+  },
+  {
+   "offset": 186,
+   "len": 37,
+   "en": "\"Hello, $G. Your company is welcome.\"",
+   "zh": "「$G，你好，汝的到來令在下歡迎。」",
+   "note": ""
+  },
+  {
+   "offset": 231,
+   "len": 40,
+   "en": "\"I'm @Captain Fox, of the Silken @Stag.\"",
+   "zh": "「在下是絲絨@雄鹿號的@福克斯船長。」",
+   "note": ""
+  },
+  {
+   "offset": 288,
+   "len": 77,
+   "en": "When you say 'Captain,' all the pirates at the table turn to you expectantly.",
+   "zh": "汝說出「船長」二字，桌旁所有海盜都轉過頭來滿懷期待地看著汝。",
+   "note": ""
+  },
+  {
+   "offset": 368,
+   "len": 84,
+   "en": "When they realize you weren't talking to them, they go back to what they were doing.",
+   "zh": "當他們意識到汝並非在叫他們，便各自回去繼續做事了。",
+   "note": ""
+  },
+  {
+   "offset": 468,
+   "len": 65,
+   "en": "\"We just stopped off here for some supplies and a @drink or two.\"",
+   "zh": "「我們只是路過此地補充給養，順便喝幾杯@酒。」",
+   "note": ""
+  },
+  {
+   "offset": 548,
+   "len": 34,
+   "en": "\"Well, maybe three wouldn't hurt.\"",
+   "zh": "「嗯，或許三杯也無妨。」",
+   "note": ""
+  },
+  {
+   "offset": 592,
+   "len": 71,
+   "en": "\"I sail the wide, wide sea, to the edges of the @world and back again.\"",
+   "zh": "「在下航行茫茫大海，駛向@世界邊緣再回返。」",
+   "note": ""
+  },
+  {
+   "offset": 666,
+   "len": 73,
+   "en": "\"Of course, I'm also known for the @paintings I create in my spare time.\"",
+   "zh": "「當然，在下亦以閒暇時創作的@畫作聞名。」",
+   "note": ""
+  },
+  {
+   "offset": 750,
+   "len": 59,
+   "en": "\"There are a few of them around here. Go see for yourself.\"",
+   "zh": "「附近就有幾幅，汝自去看看吧。」",
+   "note": ""
+  },
+  {
+   "offset": 820,
+   "len": 29,
+   "en": "\"Captain John, that lunatic?\"",
+   "zh": "「約翰船長，那個瘋子？」",
+   "note": ""
+  },
+  {
+   "offset": 852,
+   "len": 100,
+   "en": "\"I hear he went @underground seeking the @gargoyles, but he fled from the first one he encountered.\"",
+   "zh": "「在下聽說他深入@地底尋訪@魔像族，卻在遇見第一個後便落荒而逃。」",
+   "note": ""
+  },
+  {
+   "offset": 955,
+   "len": 31,
+   "en": "\"Nobody knows where he is now.\"",
+   "zh": "「現在沒人知道他在哪裡。」",
+   "note": ""
+  },
+  {
+   "offset": 997,
+   "len": 45,
+   "en": "\"Well, that's not what I heard.\" says Leodon.",
+   "zh": "「嗯，那不是在下聽說的版本。」李奧頓說。",
+   "note": ""
+  },
+  {
+   "offset": 1059,
+   "len": 56,
+   "en": "\"Under the earth is no place for a seafaring man to be.\"",
+   "zh": "「地底之下不是一個航海人該待的地方。」",
+   "note": ""
+  },
+  {
+   "offset": 1126,
+   "len": 58,
+   "en": "\"Tough creatures. My crew and I steer well clear of them.\"",
+   "zh": "「強悍的生物，在下和船員都對他們敬而遠之。」",
+   "note": ""
+  },
+  {
+   "offset": 1201,
+   "len": 92,
+   "en": "\"Don't go too far, matey--ye'll fall off!\" He laughs a hearty laugh and takes a swig of ale.",
+   "zh": "「別走太遠，老兄——汝會掉下去的！」他哈哈大笑，喝了一口麥酒。",
+   "note": "世界盡頭有邊緣，航海者迷信"
+  },
+  {
+   "offset": 1303,
+   "len": 22,
+   "en": "\"Until we meet again.\"",
+   "zh": "「後會有期。」",
+   "note": ""
+  },
+  {
+   "offset": 1337,
+   "len": 28,
+   "en": "\"I can't help ye with that.\"",
+   "zh": "「此事在下幫不上忙。」",
+   "note": ""
+  },
+  {
+   "offset": 1371,
+   "len": 72,
+   "en": "Your question makes him laugh suddenly. His ale spills across the table.",
+   "zh": "汝的問題令他突然大笑，麥酒潑灑在桌上。",
+   "note": ""
+  },
+  {
+   "offset": 1446,
+   "len": 54,
+   "en": "He continues laughing as he pours himself another ale.",
+   "zh": "他繼續大笑，同時為自己斟上另一杯麥酒。",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Captain Fox": "福克斯船長",
+   "Leodon": "李奧頓"
+  },
+  "places": {
+   "Silken Stag": "絲絨雄鹿號"
+  }
+ },
+ "translator_notes": "111 Captain Fox: 鴉爪鎮過路海盜船長，英俊豪爽，兼職畫家。知道Captain John入地洞尋魔像族後落荒而逃的故事。Leodon在旁插話。"
+}

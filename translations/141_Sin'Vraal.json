@@ -1,0 +1,251 @@
+{
+ "translations": [
+  {
+   "offset": 12,
+   "len": 21,
+   "en": "the daemon Sin'Vraal.",
+   "zh": "惡魔辛弗拉。",
+   "note": "DESC"
+  },
+  {
+   "offset": 35,
+   "len": 29,
+   "en": "\"Good $T, $G. What seek you?\"",
+   "zh": "「$T好，$G。汝尋何物？」",
+   "note": ""
+  },
+  {
+   "offset": 72,
+   "len": 17,
+   "en": "\"I am Sin'Vraal.\"",
+   "zh": "「吾乃辛弗拉。」",
+   "note": ""
+  },
+  {
+   "offset": 105,
+   "len": 48,
+   "en": "\"No job, $G. I am @free to wander where I wish.\"",
+   "zh": "「無職，$G。吾@自由，可隨意遊蕩。」",
+   "note": ""
+  },
+  {
+   "offset": 169,
+   "len": 43,
+   "en": "\"Among my @people, those who can fly rule.\"",
+   "zh": "「在吾的@族人之中，能飛者統治一切。」",
+   "note": ""
+  },
+  {
+   "offset": 215,
+   "len": 55,
+   "en": "\"Though I have wings, I cannot @fly. So I was a slave.\"",
+   "zh": "「雖然吾有翅膀，卻不能@飛翔。因此吾曾是奴隸。」",
+   "note": ""
+  },
+  {
+   "offset": 273,
+   "len": 17,
+   "en": "\"Here I am free!\"",
+   "zh": "「在這裡吾是自由的！」",
+   "note": ""
+  },
+  {
+   "offset": 311,
+   "len": 44,
+   "en": "\"I am not a daemon, though humans think so.\"",
+   "zh": "「吾並非惡魔，雖然人類如此以為。」",
+   "note": ""
+  },
+  {
+   "offset": 357,
+   "len": 19,
+   "en": "\"I am a @gargoyle.\"",
+   "zh": "「吾是@魔像族。」",
+   "note": ""
+  },
+  {
+   "offset": 396,
+   "len": 75,
+   "en": "\"I fled here to the Underworld because I was not free among the gargoyles.\"",
+   "zh": "「吾逃到地下世界，因為在魔像族中吾沒有自由。」",
+   "note": ""
+  },
+  {
+   "offset": 492,
+   "len": 92,
+   "en": "\"The Book of Prophecies says that the False Prophet will come to destroy the gargoyle race.\"",
+   "zh": "「《預言之書》記載，偽先知將到來，摧毀魔像族。」",
+   "note": ""
+  },
+  {
+   "offset": 587,
+   "len": 56,
+   "en": "\"Only the @sacrifice of the False Prophet will save us.\"",
+   "zh": "「唯有偽先知的@獻祭，方能拯救吾等。」",
+   "note": ""
+  },
+  {
+   "offset": 654,
+   "len": 55,
+   "en": "\"Because I could not @fly, I was never taught to read.\"",
+   "zh": "「因為吾不能@飛翔，所以從未被教導讀書。」",
+   "note": ""
+  },
+  {
+   "offset": 720,
+   "len": 45,
+   "en": "\"Sacrifice means many things in my language.\"",
+   "zh": "「獻祭在吾的語言中有許多含義。」",
+   "note": "避免「許」作尾字：此處「許多含義」為四字，「義」為尾字，安全"
+  },
+  {
+   "offset": 768,
+   "len": 55,
+   "en": "\"You should seek out a gargoyle scholar to learn more.\"",
+   "zh": "「汝應尋訪魔像族學者以獲取更多資訊。」",
+   "note": ""
+  },
+  {
+   "offset": 826,
+   "len": 73,
+   "en": "\"Travel the other side of the world, and you should be able to find one.\"",
+   "zh": "「前往世界的另一端，汝應能找到一位。」",
+   "note": ""
+  },
+  {
+   "offset": 902,
+   "len": 68,
+   "en": "\"You can go down through Hythloth to get to the realm of gargoyles.\"",
+   "zh": "「汝可穿越希斯洛斯下行，進入魔像族的領域。」",
+   "note": ""
+  },
+  {
+   "offset": 980,
+   "len": 66,
+   "en": "\"There are two kinds of gargoyles: winged ones and wingless ones.\"",
+   "zh": "「魔像族分兩種：有翅者與無翅者。」",
+   "note": ""
+  },
+  {
+   "offset": 1049,
+   "len": 73,
+   "en": "\"Wingless ones are mute and unintelligent. They do all the manual labor.\"",
+   "zh": "「無翅者啞口且無智，承擔所有體力勞動。」",
+   "note": ""
+  },
+  {
+   "offset": 1125,
+   "len": 61,
+   "en": "\"Winged ones are smart, and do all the planning and leading.\"",
+   "zh": "「有翅者聰慧，負責所有謀劃與領導。」",
+   "note": ""
+  },
+  {
+   "offset": 1189,
+   "len": 57,
+   "en": "\"Being able to fly is, to them, a sign of @intelligence.\"",
+   "zh": "「在他們看來，能飛翔是@智慧的象徵。」",
+   "note": ""
+  },
+  {
+   "offset": 1249,
+   "len": 46,
+   "en": "\"Even the @Temple can only be reached by air.\"",
+   "zh": "「甚至連@神殿也只能從空中抵達。」",
+   "note": ""
+  },
+  {
+   "offset": 1306,
+   "len": 30,
+   "en": "\"Yes, a strange concept this.\"",
+   "zh": "「是的，這是個奇特的觀念。」",
+   "note": ""
+  },
+  {
+   "offset": 1339,
+   "len": 70,
+   "en": "\"Yet as some in Minoc can tell you, flying can be achieved by anyone.\"",
+   "zh": "「然而如敏諾克的某些人會告訴汝，飛翔乃人人可達成之事。」",
+   "note": "熱氣球暗示"
+  },
+  {
+   "offset": 1420,
+   "len": 49,
+   "en": "\"The great Temple of Singularity held the Codex.\"",
+   "zh": "「偉大的獨一神殿曾供奉守則之書。」",
+   "note": ""
+  },
+  {
+   "offset": 1472,
+   "len": 45,
+   "en": "\"The Temple is the most holy gargoyle place.\"",
+   "zh": "「神殿是魔像族最神聖的場所。」",
+   "note": ""
+  },
+  {
+   "offset": 1520,
+   "len": 46,
+   "en": "\"A human could learn much by traveling there.\"",
+   "zh": "「人類若前往那裡，定能學到良多。」",
+   "note": ""
+  },
+  {
+   "offset": 1568,
+   "len": 40,
+   "en": "\"But you could never get to the temple.\"",
+   "zh": "「但汝永遠無法抵達神殿。」",
+   "note": ""
+  },
+  {
+   "offset": 1611,
+   "len": 78,
+   "en": "\"Not only is it deep below the surface, but it can only be reached by flying.\"",
+   "zh": "「它不僅深埋於地下，而且只能從空中抵達。」",
+   "note": ""
+  },
+  {
+   "offset": 1692,
+   "len": 41,
+   "en": "\"And you cannot fly any more than I can.\"",
+   "zh": "「而汝與吾同樣無法飛翔。」",
+   "note": ""
+  },
+  {
+   "offset": 1744,
+   "len": 46,
+   "en": "\"Yes, I once met a pirate here in the desert.\"",
+   "zh": "「是的，吾曾在沙漠中遇到一個海盜。」",
+   "note": ""
+  },
+  {
+   "offset": 1793,
+   "len": 66,
+   "en": "\"He seemed to be hunting me, but he got dragged off by the @ants!\"",
+   "zh": "「他似乎在追獵吾，但被@螞蟻拖走了！」",
+   "note": ""
+  },
+  {
+   "offset": 1870,
+   "len": 66,
+   "en": "\"The great desert ants build huge mounds, and are very dangerous!\"",
+   "zh": "「巨型沙漠螞蟻築起龐大的蟻丘，極為危險！」",
+   "note": ""
+  },
+  {
+   "offset": 1946,
+   "len": 57,
+   "en": "\"May your persistence and precision lead to success, $G!\"",
+   "zh": "「願汝以堅毅與精確走向成功，$G！」",
+   "note": "魔像族告別語套式"
+  },
+  {
+   "offset": 2008,
+   "len": 27,
+   "en": "\"I know nothing of $Z, $G.\"",
+   "zh": "「吾對$Z一無所知，$G。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Sin'Vraal": "辛弗拉"}, "places": {"Hythloth": "希斯洛斯"}},
+ "translator_notes": "辛弗拉是無翅的自由魔像族，逃至沙漠。提供重要的魔像族社會結構資訊（有翅/無翅、神殿、預言之書）。用文言敬語（「汝/吾」）表現其莊重外星文化感。"
+}

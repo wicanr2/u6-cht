@@ -1,0 +1,692 @@
+{
+ "translations": [
+  {
+   "offset": 7,
+   "len": 48,
+   "en": "a huge, imposing man adorned in a leather apron.",
+   "zh": "一位身形龐大、氣勢懾人、身著皮圍裙的男子。",
+   "note": "DESC"
+  },
+  {
+   "offset": 70,
+   "len": 73,
+   "en": "\"Good $T, friend.\" He extends a huge hand which resembles a slab of meat.",
+   "zh": "「$T安，朋友。」他伸出一隻狀如大塊肉排的巨手。",
+   "note": ""
+  },
+  {
+   "offset": 156,
+   "len": 53,
+   "en": "\"Ah!\" He rumbles up to you with a large, bloody hook.",
+   "zh": "「啊！」他拿著一把帶血的大鉤子大步走向汝。",
+   "note": ""
+  },
+  {
+   "offset": 212,
+   "len": 95,
+   "en": "You feel like bolting, but then he drops it in a pocket on his apron and extends a bloody hand.",
+   "zh": "汝幾乎想拔腿而逃，但他隨即將鉤子塞入圍裙口袋，伸出一隻帶血的手。",
+   "note": ""
+  },
+  {
+   "offset": 310,
+   "len": 27,
+   "en": "He smells strongly of fish.",
+   "zh": "他身上魚腥味濃烈。",
+   "note": ""
+  },
+  {
+   "offset": 340,
+   "len": 18,
+   "en": "\"What do ya need?\"",
+   "zh": "「有何需要？」",
+   "note": ""
+  },
+  {
+   "offset": 366,
+   "len": 40,
+   "en": "\"Yorl. A short name, but a @strong one!\"",
+   "zh": "「尤爾。雖是短名，卻@強悍！」",
+   "note": ""
+  },
+  {
+   "offset": 423,
+   "len": 35,
+   "en": "\"My @father was a coastal @raider.\"",
+   "zh": "「我@父親是個海岸@劫匪。」",
+   "note": ""
+  },
+  {
+   "offset": 461,
+   "len": 25,
+   "en": "\"But don't let that out.\"",
+   "zh": "「但別說出去。」",
+   "note": ""
+  },
+  {
+   "offset": 489,
+   "len": 39,
+   "en": "He lets out a holler and laughs loudly.",
+   "zh": "他大聲呼喝，放聲大笑。",
+   "note": ""
+  },
+  {
+   "offset": 545,
+   "len": 69,
+   "en": "He suddenly stops laughing and looks at you, his eyes angry and wide.",
+   "zh": "他突然停止大笑，怒目圓睜地盯著汝。",
+   "note": ""
+  },
+  {
+   "offset": 617,
+   "len": 15,
+   "en": "\"Who told you?\"",
+   "zh": "「誰告訴汝的？」",
+   "note": ""
+  },
+  {
+   "offset": 635,
+   "len": 51,
+   "en": "With that he throws his head back and laughs again.",
+   "zh": "說罷他仰天大笑起來。",
+   "note": ""
+  },
+  {
+   "offset": 698,
+   "len": 71,
+   "en": "\"Yes, I had one.\" He hollers again, this time slapping you on the back.",
+   "zh": "「是的，我有父親。」他又一聲大喝，這次拍了拍汝的背。",
+   "note": ""
+  },
+  {
+   "offset": 780,
+   "len": 18,
+   "en": "\"I'm a fisherman.\"",
+   "zh": "「在下是個漁夫。」",
+   "note": ""
+  },
+  {
+   "offset": 801,
+   "len": 72,
+   "en": "\"'Tisn't quite as exciting as some jobs, but it keeps me near the @sea.\"",
+   "zh": "「雖不比有些差事刺激，但讓我能守著@大海。」",
+   "note": ""
+  },
+  {
+   "offset": 884,
+   "len": 29,
+   "en": "\"Oh, aye, love the sea I do.\"",
+   "zh": "「哦，是啊，在下愛這片大海。」",
+   "note": ""
+  },
+  {
+   "offset": 916,
+   "len": 43,
+   "en": "\"Even if the @fishing's been poor of late.\"",
+   "zh": "「即便近來@漁獲不佳。」",
+   "note": ""
+  },
+  {
+   "offset": 980,
+   "len": 52,
+   "en": "\"Fish come, fish go. Right now, the fish have gone.\"",
+   "zh": "「魚來魚往，眼下魚兒都游走了。」",
+   "note": ""
+  },
+  {
+   "offset": 1035,
+   "len": 24,
+   "en": "\"But they'll come back!\"",
+   "zh": "「但他們會回來的！」",
+   "note": ""
+  },
+  {
+   "offset": 1062,
+   "len": 58,
+   "en": "\"And when they do, I'll be waitin' for 'em with my @nets!\"",
+   "zh": "「等他們回來，我就用@漁網在這等著！」",
+   "note": ""
+  },
+  {
+   "offset": 1131,
+   "len": 49,
+   "en": "\"Aye, you haveta use nets to do serious fishing.\"",
+   "zh": "「是的，正經捕魚得用網子。」",
+   "note": ""
+  },
+  {
+   "offset": 1182,
+   "len": 44,
+   "en": "\"A @pole'll never catch you enough to sell.\"",
+   "zh": "「用@釣竿可釣不到夠賣的量。」",
+   "note": ""
+  },
+  {
+   "offset": 1238,
+   "len": 59,
+   "en": "\"Never use 'em myself. I stick to nets--faster and easier.\"",
+   "zh": "「我從不用釣竿，就用網——又快又方便。」",
+   "note": ""
+  },
+  {
+   "offset": 1300,
+   "len": 28,
+   "en": "\"Man's gotta make a living!\"",
+   "zh": "「人總得討生活！」",
+   "note": ""
+  },
+  {
+   "offset": 1340,
+   "len": 81,
+   "en": "\"That's a @tale they tell in town. I've seen no spirits. Except at old Stivius'.\"",
+   "zh": "「那是鎮上流傳的@傳說。我沒見過什麼幽靈，除了在老斯提維斯那裡喝的酒以外。」",
+   "note": "雙關：spirits=幽靈/酒"
+  },
+  {
+   "offset": 1433,
+   "len": 52,
+   "en": "\"You know, 'bout @Marn's pa haunting the @vineyard.\"",
+   "zh": "「就是說@瑪妮她父親的幽魂在@葡萄園徘徊那事。」",
+   "note": ""
+  },
+  {
+   "offset": 1488,
+   "len": 46,
+   "en": "He leans closer wiping his hands on his apron.",
+   "zh": "他俯身靠近，邊說邊用圍裙擦手。",
+   "note": ""
+  },
+  {
+   "offset": 1537,
+   "len": 49,
+   "en": "\"I think @Stivius has been drinkin' his profits.\"",
+   "zh": "「我看@斯提維斯是把自己的獲利都喝進肚子裡了。」",
+   "note": ""
+  },
+  {
+   "offset": 1603,
+   "len": 72,
+   "en": "\"I took it from Quenton's dead body to give to Marney for safe keeping.\"",
+   "zh": "「我從昆頓的遺體上取下，好好保管地交給了瑪妮。」",
+   "note": ""
+  },
+  {
+   "offset": 1687,
+   "len": 53,
+   "en": "\"She's the loveliest thing ever seen in these parts.\"",
+   "zh": "「她是這一帶見過最可愛的人。」",
+   "note": ""
+  },
+  {
+   "offset": 1743,
+   "len": 97,
+   "en": "\"I'm her father now. And if any man should want her hand, he'd better be able to take me square!\"",
+   "zh": "「我現在是她的父親。若有人想求她的手，最好先能跟我正面交鋒！」",
+   "note": ""
+  },
+  {
+   "offset": 1843,
+   "len": 52,
+   "en": "He gives you a huge grin and flexes a massive bicep.",
+   "zh": "他咧嘴大笑，展示那隻碩大的手臂肌肉。",
+   "note": ""
+  },
+  {
+   "offset": 1907,
+   "len": 55,
+   "en": "\"They say that @Quen's ghost haunts that area of town.\"",
+   "zh": "「據說@昆的幽靈在那一帶出沒。」",
+   "note": ""
+  },
+  {
+   "offset": 1965,
+   "len": 49,
+   "en": "\"I can't imagine why. The sea was his lifeblood.\"",
+   "zh": "「我不明白為何，大海才是他的命脈。」",
+   "note": ""
+  },
+  {
+   "offset": 2025,
+   "len": 75,
+   "en": "He removes a large hook from his pocket and begins to clean it as he talks.",
+   "zh": "他從口袋裡取出一把大鉤子，邊說邊擦拭。",
+   "note": ""
+  },
+  {
+   "offset": 2103,
+   "len": 78,
+   "en": "\"He's a strange little guy. They say he's the only one who saw Quen murdered.\"",
+   "zh": "「怪人一個。據說他是唯一目睹昆頓遇害的人。」",
+   "note": ""
+  },
+  {
+   "offset": 2184,
+   "len": 81,
+   "en": "\"I wish we'd had a better witness.\" He flips the hook over and over examining it.",
+   "zh": "「要是有個更可靠的目擊者就好了。」他翻來覆去地檢視那把鉤子。",
+   "note": ""
+  },
+  {
+   "offset": 2268,
+   "len": 48,
+   "en": "\"Still, those Gargoyles would frighten any man.\"",
+   "zh": "「不過，魔像族確實能嚇壞任何人。」",
+   "note": ""
+  },
+  {
+   "offset": 2319,
+   "len": 33,
+   "en": "\"'Specially one as small as him.\"",
+   "zh": "「尤其是像他那麼矮小的人。」",
+   "note": ""
+  },
+  {
+   "offset": 2364,
+   "len": 62,
+   "en": "He pauses for a moment and looks distantly past your shoulder.",
+   "zh": "他停頓片刻，目光越過汝的肩頭望向遠方。",
+   "note": ""
+  },
+  {
+   "offset": 2429,
+   "len": 81,
+   "en": "\"He and I were mates. I can still remember the moment @they told me he was dead.\"",
+   "zh": "「他和我是好夥伴。我至今記得@他們告知我他已身亡的那一刻。」",
+   "note": ""
+  },
+  {
+   "offset": 2513,
+   "len": 63,
+   "en": "He swallows hard and his eyes become glassy. \"I miss old Quen.\"",
+   "zh": "他努力嚥了嚥口水，眼神黯淡。「我想念老昆啊。」",
+   "note": ""
+  },
+  {
+   "offset": 2588,
+   "len": 23,
+   "en": "\"@Gideon and @Stivius.\"",
+   "zh": "「@吉迪恩和@斯提維斯。」",
+   "note": ""
+  },
+  {
+   "offset": 2614,
+   "len": 88,
+   "en": "\"They came to my house before dawn and told me that Quen had been killed by @gargoyles.\"",
+   "zh": "「他們在黎明前來到我家，告訴我昆頓被@魔像族殺害了。」",
+   "note": ""
+  },
+  {
+   "offset": 2714,
+   "len": 81,
+   "en": "\"He owns the Haunting Inn. He's good people, though his @wife is a bit of a nag.\"",
+   "zh": "「他是鬼影旅店的主人，是個好人，只是他@妻子有點嘮叨。」",
+   "note": ""
+  },
+  {
+   "offset": 2807,
+   "len": 52,
+   "en": "\"She always complains that my house is an @eyesore.\"",
+   "zh": "「她老嫌我的房子是個@礙眼之物。」",
+   "note": ""
+  },
+  {
+   "offset": 2862,
+   "len": 79,
+   "en": "\"I tell you if she comes around here, I'll show her what an eyesore really is!\"",
+   "zh": "「我跟汝說，要是她來這裡，我讓她見識一下真正的礙眼！」",
+   "note": ""
+  },
+  {
+   "offset": 2944,
+   "len": 36,
+   "en": "He slaps you on the back and laughs.",
+   "zh": "他拍了拍汝的背，大笑起來。",
+   "note": ""
+  },
+  {
+   "offset": 2996,
+   "len": 68,
+   "en": "\"This is a fishhouse. It's meant to be an eyesore.\" He laughs again.",
+   "zh": "「這是魚屋，本來就該是礙眼的。」他再次大笑。",
+   "note": ""
+  },
+  {
+   "offset": 3076,
+   "len": 21,
+   "en": "\"I never seen a one.\"",
+   "zh": "「我從未見過一隻。」",
+   "note": ""
+  },
+  {
+   "offset": 3100,
+   "len": 81,
+   "en": "\"I seen alot o' things out at sea, @serpents as big as the biggest four-@master.\"",
+   "zh": "「在海上見過不少奇物，有@海蛇大得像最大的四桅@帆船。」",
+   "note": ""
+  },
+  {
+   "offset": 3184,
+   "len": 60,
+   "en": "\"But 'nary a single gargoyle.\" He looks out towards the sea.",
+   "zh": "「但就是沒見過魔像族。」他望向大海。",
+   "note": ""
+  },
+  {
+   "offset": 3261,
+   "len": 93,
+   "en": "\"One o' the tall ships. My father used to pilot one o' the biggest in Lord @British's fleet.\"",
+   "zh": "「就是高桅大帆船。我父親曾駕駛不列顛@陛下艦隊中最大的一艘。」",
+   "note": ""
+  },
+  {
+   "offset": 3357,
+   "len": 56,
+   "en": "\"The Merideth @Ann. She was a sight to behold, she was.\"",
+   "zh": "「就是『梅蕾蒂絲@安號』，那真是一艘令人嘆為觀止的船。」",
+   "note": ""
+  },
+  {
+   "offset": 3429,
+   "len": 80,
+   "en": "\"She'd seen many a battle with pirates. Then she went to her grave in a @storm.\"",
+   "zh": "「她歷經無數次海盜戰役，最後在一場@風暴中沉入海底。」",
+   "note": ""
+  },
+  {
+   "offset": 3512,
+   "len": 39,
+   "en": "\"Took nearly two hundred men with her.\"",
+   "zh": "「帶走了近兩百名船員。」",
+   "note": ""
+  },
+  {
+   "offset": 3568,
+   "len": 57,
+   "en": "\"Came up all of a sudden. I say it was @Mondain's doing.\"",
+   "zh": "「那場風暴突如其來。我認為是@蒙丹所為。」",
+   "note": ""
+  },
+  {
+   "offset": 3628,
+   "len": 76,
+   "en": "He pulls the pipe from his mouth and tamps the tobacco with his stout thumb.",
+   "zh": "他取下菸斗，用粗壯的大拇指壓了壓菸草。",
+   "note": ""
+  },
+  {
+   "offset": 3707,
+   "len": 39,
+   "en": "\"Anyhow, that's when I lost my father.\"",
+   "zh": "「總之，那便是我失去父親的時刻。」",
+   "note": ""
+  },
+  {
+   "offset": 3758,
+   "len": 53,
+   "en": "He stops trying to relight his pipe and looks at you.",
+   "zh": "他停止重新點燃菸斗，看著汝。",
+   "note": ""
+  },
+  {
+   "offset": 3814,
+   "len": 69,
+   "en": "\"Where have you been @scuttled? That's too long a story for this $T.\"",
+   "zh": "「汝去哪裡@沉船了？這個故事說來話長，此時$T難以細說。」",
+   "note": ""
+  },
+  {
+   "offset": 3895,
+   "len": 47,
+   "en": "\"Never mind.\" He sticks his hands in his apron.",
+   "zh": "「不管了。」他將雙手插入圍裙。",
+   "note": ""
+  },
+  {
+   "offset": 3954,
+   "len": 65,
+   "en": "He turns his head back towards you, purses his lips, then speaks.",
+   "zh": "他轉頭看向汝，抿了抿嘴唇，繼續說道。",
+   "note": ""
+  },
+  {
+   "offset": 4022,
+   "len": 30,
+   "en": "\"It was a calm night, it was.\"",
+   "zh": "「那是個平靜的夜晚。」",
+   "note": ""
+  },
+  {
+   "offset": 4055,
+   "len": 64,
+   "en": "\"Quen and I had 'cided to go out on that glassy sea for a fish.\"",
+   "zh": "「昆和我決定出海，去那片如鏡的海面釣魚。」",
+   "note": ""
+  },
+  {
+   "offset": 4122,
+   "len": 44,
+   "en": "\"Not just any fish, mind ya, a @light-horn.\"",
+   "zh": "「不是普通的魚，要釣@光角魚。」",
+   "note": ""
+  },
+  {
+   "offset": 4169,
+   "len": 33,
+   "en": "He pulls a pipe out of his apron.",
+   "zh": "他從圍裙中取出菸斗。",
+   "note": ""
+  },
+  {
+   "offset": 4219,
+   "len": 66,
+   "en": "\"When we were boys, Quen's father often talked about such a fish.\"",
+   "zh": "「我們還是孩子時，昆的父親常說起這種魚。」",
+   "note": ""
+  },
+  {
+   "offset": 4288,
+   "len": 61,
+   "en": "\"Said if a body could @catch one, good fortune would be his.\"",
+   "zh": "「他說若能@捕獲一條，必得吉祥如意。」",
+   "note": ""
+  },
+  {
+   "offset": 4352,
+   "len": 45,
+   "en": "He brings the pipe to his lips and lights it.",
+   "zh": "他將菸斗湊到嘴邊點燃。",
+   "note": ""
+  },
+  {
+   "offset": 4419,
+   "len": 20,
+   "en": "\"Yes, good fortune.\"",
+   "zh": "「是的，吉祥如意。」",
+   "note": ""
+  },
+  {
+   "offset": 4442,
+   "len": 52,
+   "en": "\"He said the fish had a glowing horn on it's snout.\"",
+   "zh": "「他說這種魚的鼻端有一支發光的角。」",
+   "note": ""
+  },
+  {
+   "offset": 4497,
+   "len": 65,
+   "en": "\"It only comes close to the surface when the sea is like @glass.\"",
+   "zh": "「只有海面如@鏡時，它才會浮游近水面。」",
+   "note": ""
+  },
+  {
+   "offset": 4579,
+   "len": 88,
+   "en": "\"You see, the fish thought the surface was a mirror and it came up to admire its horn.\" ",
+   "zh": "「汝瞧，魚以為水面是鏡子，便浮上來欣賞自己的角。」",
+   "note": ""
+  },
+  {
+   "offset": 4670,
+   "len": 56,
+   "en": "He chuckles to himself, teeth clenched around the pipe. ",
+   "zh": "他自顧竊笑，牙關咬著菸斗。",
+   "note": ""
+  },
+  {
+   "offset": 4729,
+   "len": 60,
+   "en": "\"Anyway, Quen and I 'cided we'd catch us one in our @skiff.\"",
+   "zh": "「總之，昆和我決定用@小船去捕一條。」",
+   "note": ""
+  },
+  {
+   "offset": 4801,
+   "len": 61,
+   "en": "He pulls the pipe from his mouth and blows some smoke rings. ",
+   "zh": "他取下菸斗，吐出幾個煙圈。",
+   "note": ""
+  },
+  {
+   "offset": 4865,
+   "len": 104,
+   "en": "\"Well, even though the skiff was small, we figured that we'd @spear the beast and drag it back to port.\"",
+   "zh": "「哦，雖然小船很小，我們盤算著用魚叉@刺穿那頭大魚，再拖回港口。」",
+   "note": ""
+  },
+  {
+   "offset": 4991,
+   "len": 74,
+   "en": "\"I know it sounds crazy now, but you have to remember, we were only boys.\"",
+   "zh": "「我知道現在聽來很蠢，但那時我們只是孩子。」",
+   "note": ""
+  },
+  {
+   "offset": 5068,
+   "len": 84,
+   "en": "\"Anyway, we rowed out past Ivers @Rounding and sat in our skiff waiting to see one.\"",
+   "zh": "「總之，我們划過艾佛@圓角，坐在小船上等候。」",
+   "note": ""
+  },
+  {
+   "offset": 5155,
+   "len": 39,
+   "en": "He looks out to sea again and chuckles.",
+   "zh": "他再次望向大海，竊笑起來。",
+   "note": ""
+  },
+  {
+   "offset": 5211,
+   "len": 44,
+   "en": "\"You know, past where the @alchemist lives.\"",
+   "zh": "「就是越過那位@鍊金術士住所的地方。」",
+   "note": ""
+  },
+  {
+   "offset": 5257,
+   "len": 61,
+   "en": "\"Anyway, we sat there for hours with 'nary a sign of life...\"",
+   "zh": "「總之，我們在那裡坐了好幾個時辰，連個動靜都沒有……」",
+   "note": ""
+  },
+  {
+   "offset": 5321,
+   "len": 107,
+   "en": "\"Then, suddenly, in the distance we could see a tall @neck rising out of the water and heading towards us.\"",
+   "zh": "「然後，忽然，遠處出現一根高聳的@頸部從水中升起，朝我們游來。」",
+   "note": ""
+  },
+  {
+   "offset": 5445,
+   "len": 59,
+   "en": "\"Old Horance? He's a crazy old coot who lives on the isle.\"",
+   "zh": "「老霍蘭斯？他是住在那座島上的瘋老頭。」",
+   "note": ""
+  },
+  {
+   "offset": 5521,
+   "len": 81,
+   "en": "\"As it came closer, a huge wave preceded it and we could make out a giant mouth.\"",
+   "zh": "「牠越游越近，前方掀起巨浪，我們逐漸辨出一張碩大的嘴巴。」",
+   "note": ""
+  },
+  {
+   "offset": 5605,
+   "len": 53,
+   "en": "He takes his pipe from his mouth and gestures at you.",
+   "zh": "他取下菸斗，用它向汝比劃。",
+   "note": ""
+  },
+  {
+   "offset": 5661,
+   "len": 86,
+   "en": "\"I tell you, you've never seen two boys make a skiff travel so fast in all your life.\"",
+   "zh": "「我跟汝說，汝這輩子絕沒見過兩個孩子把小船划得那麼快！」",
+   "note": ""
+  },
+  {
+   "offset": 5750,
+   "len": 62,
+   "en": "He laughs out loud, this time bending over to support himself.",
+   "zh": "他放聲大笑，這回笑得彎下腰去。",
+   "note": ""
+  },
+  {
+   "offset": 5829,
+   "len": 67,
+   "en": "\"He's a stuffy one. Never likes to come down here, says it smells.\"",
+   "zh": "「那傢伙一板一眼。從不肯來這裡，說這裡臭。」",
+   "note": ""
+  },
+  {
+   "offset": 5908,
+   "len": 65,
+   "en": "\"She's a heavily rigged one, she is.\" He winks at you and laughs.",
+   "zh": "「她是個裝備豐富的，確實如此。」他向汝眨了眨眼，笑了。",
+   "note": "雙關：heavily rigged=船裝備/女性豐滿"
+  },
+  {
+   "offset": 5985,
+   "len": 74,
+   "en": "\"I don't much care for that one. He used to be one of Mondain's henchmen.\"",
+   "zh": "「我對那人沒什麼好感。他曾是蒙丹的爪牙。」",
+   "note": ""
+  },
+  {
+   "offset": 6062,
+   "len": 45,
+   "en": "\"I'd plot a course 'round him if I were you.\"",
+   "zh": "「若換了我，會繞道避開他。」",
+   "note": ""
+  },
+  {
+   "offset": 6124,
+   "len": 78,
+   "en": "\"My father used to sail in one of his fleets. A brave and mighty ruler he is.\"",
+   "zh": "「我父親曾在他的艦隊中效命。他是位勇猛威武的君主。」",
+   "note": ""
+  },
+  {
+   "offset": 6213,
+   "len": 78,
+   "en": "He slaps a hand on your back \"Good fortune, and may the wind be at your back.\"",
+   "zh": "他拍了拍汝的背。「祝汝吉祥如意，願風常伴汝身後。」",
+   "note": ""
+  },
+  {
+   "offset": 6296,
+   "len": 39,
+   "en": "\"That doesn't concern me. Ask another.\"",
+   "zh": "「此事與我無關，另詢他人吧。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Yorl": "尤爾"
+  },
+  "places": {
+   "Merideth Ann": "梅蕾蒂絲安號"
+  }
+ },
+ "translator_notes": "086 Yorl: 漁夫，豪邁直率，摯友昆頓之代父形象。海蛇冒險故事精彩。spirits(幽靈/酒)雙關以意譯處理。"
+}

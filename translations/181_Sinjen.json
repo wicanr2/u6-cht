@@ -1,0 +1,105 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 6,
+   "en": "Sinjen",
+   "zh": "辛臻",
+   "note": "NPC name"
+  },
+  {
+   "offset": 9,
+   "len": 37,
+   "en": "a long haired, raggedy man in stocks.",
+   "zh": "一個長髮蓬亂、被套在枷鎖裡的邋遢男子。",
+   "note": "DESC"
+  },
+  {
+   "offset": 56,
+   "len": 26,
+   "en": "\"I'm Sinjen the @warrior.\"",
+   "zh": "「我是@warrior武士辛臻。」",
+   "note": ""
+  },
+  {
+   "offset": 99,
+   "len": 41,
+   "en": "\"Well, these days I'm more into @stocks.\"",
+   "zh": "「嗯，近來我更傾向於@stocks枷鎖。」",
+   "note": "自嘲語氣"
+  },
+  {
+   "offset": 145,
+   "len": 91,
+   "en": "\"@Lenora said I should @stay in these stocks for a while and make sure they work properly.\"",
+   "zh": "「@Lenora萊諾拉說我應該在這枷鎖裡@stay待上一段時間，確認它運作正常。」",
+   "note": ""
+  },
+  {
+   "offset": 272,
+   "len": 134,
+   "en": "\"I didn't really do anything wrong. I told them to go ahead and put me here anyway, so I could get a different @perspective on @life.\"",
+   "zh": "「我其實沒做錯任何事。但我叫他們不管怎樣把我關進來，這樣我可以從不同的@perspective角度看待@life人生。」",
+   "note": ""
+  },
+  {
+   "offset": 417,
+   "len": 114,
+   "en": "\"Normally we stumble around through life on our own. But here I can stand still and watch it go by all around me.\"",
+   "zh": "「平常我們各自跌跌撞撞地過日子。但在這裡我可以靜止不動，看著人生在我四周流淌而過。」",
+   "note": ""
+  },
+  {
+   "offset": 542,
+   "len": 64,
+   "en": "\"The meaning of life? I'm still trying to figure it out myself.\"",
+   "zh": "「人生的意義？我自己也還在摸索。」",
+   "note": ""
+  },
+  {
+   "offset": 617,
+   "len": 63,
+   "en": "\"Justice may be a @virtue, but I think she carries it too far.\"",
+   "zh": "「正義或許是一種@virtue德行，但我覺得她做得太過了。」",
+   "note": ""
+  },
+  {
+   "offset": 696,
+   "len": 52,
+   "en": "\"I prefer @Mandrake's version of the eight virtues.\"",
+   "zh": "「我更欣賞@Mandrake曼德雷克版本的八德。」",
+   "note": ""
+  },
+  {
+   "offset": 769,
+   "len": 39,
+   "en": "\"You should ask him about it sometime.\"",
+   "zh": "「你有空去問問他。」",
+   "note": ""
+  },
+  {
+   "offset": 818,
+   "len": 58,
+   "en": "\"Come back and chat again sometime. I'll be right here...\"",
+   "zh": "「改天再來聊。我就在這裡……」",
+   "note": ""
+  },
+  {
+   "offset": 881,
+   "len": 69,
+   "en": "\"Maybe I can talk to you about that after I get out of these stocks.\"",
+   "zh": "「等我從枷鎖裡出來後，也許可以跟你好好談談這個。」",
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {
+   "Sinjen": "辛臻",
+   "Lenora": "萊諾拉"
+  },
+  "places": {}
+ },
+ "riddles_additions": [],
+ "translator_notes": "辛臻是自願坐枷鎖的武士，以枷鎖為人生的觀察台，語氣平靜帶哲思。萊諾拉的正義感太強讓他心生抱怨，但他承認自己是自願的。他對曼德雷克「另類八德」的認同，形成跨 NPC 的幽默互動。"
+}

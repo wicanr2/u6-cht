@@ -1,0 +1,160 @@
+{
+ "translations": [
+  {
+   "offset": 10,
+   "len": 39,
+   "en": "a paladin with a longsword on his back.",
+   "zh": "背負長劍的聖騎士。",
+   "note": "DESC"
+  },
+  {
+   "offset": 52,
+   "len": 28,
+   "en": "\"Good $T, $G. How art thou?\"",
+   "zh": "「$T好，$G。汝近來可安好？」",
+   "note": "art thou = are you，騎士敬語"
+  },
+  {
+   "offset": 106,
+   "len": 56,
+   "en": "\"I am pleased to hear that. I wish I were healthy again.",
+   "zh": "「聽到此言，吾甚感欣慰。只願吾能重拾健康。",
+   "note": "split string，下接 adventure"
+  },
+  {
+   "offset": 170,
+   "len": 47,
+   "en": "\"I see. I would that I were healthy again, too.",
+   "zh": "「原來如此。吾亦盼能早日康復。",
+   "note": "split string，下接 adventure"
+  },
+  {
+   "offset": 218,
+   "len": 51,
+   "en": " But please, $G. Let me tell you of my @adventure.\"",
+   "zh": "但請允許，$G，讓吾向汝述說吾的@歷險。」",
+   "note": "接在上兩個 split string 之後"
+  },
+  {
+   "offset": 282,
+   "len": 41,
+   "en": "\"Sir Caradon of Trinsic, at thy service.\"",
+   "zh": "「特林希克的卡拉頓爵士，恭候差遣。」",
+   "note": ""
+  },
+  {
+   "offset": 344,
+   "len": 67,
+   "en": "\"I am a knight. Currently, though, I am recovering from a @battle.\"",
+   "zh": "「吾乃騎士。然而眼下，正從一場@戰鬥中療傷復原。」",
+   "note": ""
+  },
+  {
+   "offset": 432,
+   "len": 80,
+   "en": "\"I've just come home from fighting in Yew. I fought gargoyles near the @shrine.\"",
+   "zh": "「吾剛從伊尤的戰場歸來。在@神殿附近與魔像族交手。」",
+   "note": ""
+  },
+  {
+   "offset": 532,
+   "len": 86,
+   "en": "\"There I was, with ten companions. Outside the Shrine of Honesty stood two gargoyles.\"",
+   "zh": "「當時吾與十名同伴在場。誠信神殿外，立著兩隻魔像族。」",
+   "note": ""
+  },
+  {
+   "offset": 621,
+   "len": 66,
+   "en": "\"I saw them drink from little vials right before they charged us.\"",
+   "zh": "「吾見他們在衝鋒之前，各飲了一小瓶什麼東西。」",
+   "note": ""
+  },
+  {
+   "offset": 690,
+   "len": 75,
+   "en": "\"Large, clumsy brutes they were. They should have been easy to dispatch...\"",
+   "zh": "「他們是龐大笨拙的野獸，照理說應當不難對付……」",
+   "note": ""
+  },
+  {
+   "offset": 768,
+   "len": 32,
+   "en": "\"But they fought like cyclones!\"",
+   "zh": "「但他們卻像旋風般猛烈搏鬥！」",
+   "note": ""
+  },
+  {
+   "offset": 803,
+   "len": 101,
+   "en": "\"My captain ordered me to go to town for help when only we two and the gargoyles were left standing.\"",
+   "zh": "「當場只剩我們兩人和那兩隻魔像族尚能站立時，隊長命令吾進城求援。」",
+   "note": ""
+  },
+  {
+   "offset": 907,
+   "len": 108,
+   "en": "\"Just as I was returning with some guards, I saw the monsters throwing my friends' dead bodies onto a fire.\"",
+   "zh": "「就在吾帶著衛兵返回之時，眼見那些怪物將吾同伴的遺體投入火中。」",
+   "note": ""
+  },
+  {
+   "offset": 1018,
+   "len": 63,
+   "en": "\"Then the gargoyles looked up at us and fell over, both @dead.\"",
+   "zh": "「然後那兩隻魔像族抬頭望向我們，隨即倒地，雙雙@斃命。」",
+   "note": ""
+  },
+  {
+   "offset": 1092,
+   "len": 39,
+   "en": "\"Yes, just like that: all of a sudden!\"",
+   "zh": "「是的，就是這樣：猝然倒斃！」",
+   "note": ""
+  },
+  {
+   "offset": 1134,
+   "len": 62,
+   "en": "\"I only wish I could have killed them myself, for @vengeance!\"",
+   "zh": "「吾只恨不能親手將他們殺死，以@復仇！」",
+   "note": ""
+  },
+  {
+   "offset": 1207,
+   "len": 74,
+   "en": "\"If they had not burned his body, my captain might have been resurrected.\"",
+   "zh": "「若他們沒有焚毀遺體，吾的隊長或許還有機會復活。」",
+   "note": ""
+  },
+  {
+   "offset": 1284,
+   "len": 57,
+   "en": "For a moment, Caradon looks ready to weep. \"The @beasts!\"",
+   "zh": "卡拉頓片刻間幾近落淚。「這些@野獸！」",
+   "note": ""
+  },
+  {
+   "offset": 1357,
+   "len": 51,
+   "en": "\"Monsters with eyes like coals and skin like rock.\"",
+   "zh": "「眼似炭火、皮如頑石的怪物。」",
+   "note": ""
+  },
+  {
+   "offset": 1418,
+   "len": 15,
+   "en": "\"Farewell, $G.\"",
+   "zh": "「別了，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 1438,
+   "len": 31,
+   "en": "\"I cannot help thee with that.\"",
+   "zh": "「此事吾無能為力。」",
+   "note": "thee=you 古語"
+  }
+ ],
+ "glossary_additions": {"people": {"Caradon": "卡拉頓"}, "places": {}},
+ "translator_notes": "卡拉頓是特林希克聖騎士，從伊尤神殿附近的戰鬥返回療傷。他目睹兩隻魔像族飲下藥水後猛烈交戰，最後在隊長被焚屍後突然暴斃。魔像族猝死情節是重要劇情線索。騎士文體用吾/汝/彼。"
+}

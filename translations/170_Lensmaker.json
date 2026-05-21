@@ -1,0 +1,279 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 9,
+   "en": "Lensmaker",
+   "zh": "造透鏡者",
+   "note": "NPC name — glossary 已有"
+  },
+  {
+   "offset": 12,
+   "len": 20,
+   "en": "a very old gargoyle.",
+   "zh": "極為年邁之魔像。",
+   "note": "DESC"
+  },
+  {
+   "offset": 42,
+   "len": 59,
+   "en": "The gargoyle gasps in terror and wheezes, \"An-bal-sil-fer!\"",
+   "zh": "魔像驚恐地喘息，氣喘吁吁地嘶喊：「An-bal-sil-fer！」",
+   "note": "旁白，魔像語保留"
+  },
+  {
+   "offset": 104,
+   "len": 25,
+   "en": "Then he faints dead away!",
+   "zh": "而後他徹底昏厥！",
+   "note": "旁白"
+  },
+  {
+   "offset": 149,
+   "len": 62,
+   "en": "The gargoyle gasps in terror and wheezes, \"The False Prophet!\"",
+   "zh": "魔像驚恐地喘息，氣喘吁吁地嘶喊：「偽先知！」",
+   "note": "旁白"
+  },
+  {
+   "offset": 214,
+   "len": 25,
+   "en": "Then he faints dead away!",
+   "zh": "而後他徹底昏厥！",
+   "note": "旁白（重複）"
+  },
+  {
+   "offset": 258,
+   "len": 36,
+   "en": "The venerable gargoyle peers at you.",
+   "zh": "這位德高望重的魔像仔細打量你。",
+   "note": "旁白"
+  },
+  {
+   "offset": 297,
+   "len": 27,
+   "en": "\"Greetings, False Prophet.\"",
+   "zh": "「問候，偽先知。」",
+   "note": ""
+  },
+  {
+   "offset": 327,
+   "len": 117,
+   "en": "\"To have been told by @Naxatilor, long ago, that the you would one day come to me, wearing the Amulet of Submission.\"",
+   "zh": "「久前@Naxatilor曾告知吾，汝有朝一日將來見吾，頸間佩戴臣服護符。」",
+   "note": ""
+  },
+  {
+   "offset": 447,
+   "len": 47,
+   "en": "\"To never have believed it would come to pass.\"",
+   "zh": "「吾從未信以為真，以為此事不可能發生。」",
+   "note": ""
+  },
+  {
+   "offset": 497,
+   "len": 36,
+   "en": "\"To ask what service I can perform?\"",
+   "zh": "「問有何可效勞之處？」",
+   "note": ""
+  },
+  {
+   "offset": 555,
+   "len": 34,
+   "en": "\"To ask how again I may help you?\"",
+   "zh": "「再問有何可助汝之處？」",
+   "note": ""
+  },
+  {
+   "offset": 614,
+   "len": 59,
+   "en": "\"To wonder why you have not brought back the broken lens?!\"",
+   "zh": "「納悶汝為何未將碎裂的透鏡帶回？！」",
+   "note": ""
+  },
+  {
+   "offset": 676,
+   "len": 70,
+   "en": "\"To have already told you that I need it in order to craft a new one!\"",
+   "zh": "「早已告知汝，吾需要碎片方能製作新的透鏡！」",
+   "note": ""
+  },
+  {
+   "offset": 749,
+   "len": 44,
+   "en": "\"To ask what you think I can do without it?\"",
+   "zh": "「問汝以為吾沒有碎片能做什麼？」",
+   "note": ""
+  },
+  {
+   "offset": 837,
+   "len": 59,
+   "en": "\"To remember little from so long ago,\" the gargoyle croaks.",
+   "zh": "「年代久遠，吾所記已甚少，」魔像喉音沙啞道。",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 899,
+   "len": 64,
+   "en": "\"To require the pieces of the lens in order to make a new copy.\"",
+   "zh": "「需要透鏡碎片，方能製作新的複製品。」",
+   "note": ""
+  },
+  {
+   "offset": 988,
+   "len": 28,
+   "en": "\"To lack a name, of course.\"",
+   "zh": "「當然，吾沒有名字。」",
+   "note": ""
+  },
+  {
+   "offset": 1019,
+   "len": 80,
+   "en": "\"But to be called Lor-wis-lem, the scholar of light, by many learned gargoyles.\"",
+   "zh": "「然許多博學之魔像稱吾為洛爾-維斯-蘭，即光之學者。」",
+   "note": ""
+  },
+  {
+   "offset": 1102,
+   "len": 55,
+   "en": "As he says this, the ancient gargoyle beams with pride.",
+   "zh": "說此話時，這位古老魔像面露自豪之色。",
+   "note": "旁白"
+  },
+  {
+   "offset": 1167,
+   "len": 68,
+   "en": "\"To craft the finest lenses in the land,\" the gargoyle says proudly.",
+   "zh": "「打造此地最精良之透鏡，」魔像自豪地說。",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 1238,
+   "len": 73,
+   "en": "\"Also to teach my young @apprentices not to cut themselves on the glass!\"",
+   "zh": "「亦教導年輕@apprentices學徒勿讓玻璃割傷自己！」",
+   "note": ""
+  },
+  {
+   "offset": 1332,
+   "len": 36,
+   "en": "\"To be nearing the end of my @time.\"",
+   "zh": "「吾之@time時日已近末途。」",
+   "note": ""
+  },
+  {
+   "offset": 1371,
+   "len": 31,
+   "en": "\"To have one last sacred duty:\"",
+   "zh": "「吾有最後一項神聖職責：」",
+   "note": ""
+  },
+  {
+   "offset": 1405,
+   "len": 45,
+   "en": "\"To pass on my skill to the next generation.\"",
+   "zh": "「將吾之技藝傳承予下一代。」",
+   "note": ""
+  },
+  {
+   "offset": 1465,
+   "len": 34,
+   "en": "\"To be over a thousand years old.\"",
+   "zh": "「吾已逾千歲。」",
+   "note": ""
+  },
+  {
+   "offset": 1502,
+   "len": 55,
+   "en": "\"To seem a mere youth compared to @Naxatilor, however.\"",
+   "zh": "「然與@Naxatilor相比，吾不過是個少年。」",
+   "note": ""
+  },
+  {
+   "offset": 1568,
+   "len": 65,
+   "en": "\"To have helped Naxatilor create the Vortex Lens, centuries ago.\"",
+   "zh": "「數百年前，曾協助納薩蒂製作渦旋透鏡。」",
+   "note": ""
+  },
+  {
+   "offset": 1636,
+   "len": 52,
+   "en": "\"To have found him venerable and ancient even then!\"",
+   "zh": "「即便在當時，吾便已覺得他德高望重、飽經歲月！」",
+   "note": ""
+  },
+  {
+   "offset": 1698,
+   "len": 50,
+   "en": "\"To be honored to have helped you, False Prophet.\"",
+   "zh": "「能助偽先知一臂之力，深感榮幸。」",
+   "note": ""
+  },
+  {
+   "offset": 1753,
+   "len": 47,
+   "en": "\"To be old. To suggest you ask that of others.\"",
+   "zh": "「吾年邁。此事建議汝去問旁人。」",
+   "note": ""
+  },
+  {
+   "offset": 1806,
+   "len": 45,
+   "en": "\"To see the shattered Vortex Lens you carry.\"",
+   "zh": "「見汝攜帶已碎裂之渦旋透鏡。」",
+   "note": ""
+  },
+  {
+   "offset": 1854,
+   "len": 42,
+   "en": "\"To remember making it, so very long ago.\"",
+   "zh": "「記得製作此物之時，已是極久以前的事了。」",
+   "note": ""
+  },
+  {
+   "offset": 1913,
+   "len": 70,
+   "en": "Taking the shards of glass, the lensmaker turns to his grinding table.",
+   "zh": "取過玻璃碎片，造透鏡者轉向研磨台。",
+   "note": "旁白"
+  },
+  {
+   "offset": 1986,
+   "len": 51,
+   "en": "In a short while, he has crafted a new Vortex Lens!",
+   "zh": "不多時，他已打造出全新的渦旋透鏡！",
+   "note": "旁白"
+  },
+  {
+   "offset": 2040,
+   "len": 81,
+   "en": "\"To have far greater skill now than when first I made this lens,\" he says smugly.",
+   "zh": "「如今技藝遠勝初次製作此透鏡之時，」他自鳴得意道。",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 2124,
+   "len": 38,
+   "en": "\"To require little time to repair it.\"",
+   "zh": "「修復所需時間甚短。」",
+   "note": ""
+  },
+  {
+   "offset": 2165,
+   "len": 38,
+   "en": "He hands you the restored Vortex Lens.",
+   "zh": "他將修復後的渦旋透鏡交給你。",
+   "note": "旁白"
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {
+   "Lor-wis-lem": "洛爾-維斯-蘭（光之學者）"
+  },
+  "places": {}
+ },
+ "riddles_additions": [],
+ "translator_notes": "造透鏡者為千歲以上的老魔像工匠，曾與納薩蒂合作打造渦旋透鏡。語氣沉穩淡然，自豪於技藝。關鍵道具互動（收碎片→製新透鏡）旁白保持敘述清晰。"
+}

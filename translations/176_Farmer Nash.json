@@ -1,0 +1,175 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 11,
+   "en": "Farmer Nash",
+   "zh": "農夫納許",
+   "note": "NPC name"
+  },
+  {
+   "offset": 14,
+   "len": 39,
+   "en": "a gaunt, tired-looking winged gargoyle.",
+   "zh": "面容憔悴、神色疲憊之有翼魔像。",
+   "note": "DESC"
+  },
+  {
+   "offset": 63,
+   "len": 58,
+   "en": "The gargoyle screams, \"An-bal-sil-fer! Des-lem, klep lem!\"",
+   "zh": "魔像嘶喊：「An-bal-sil-fer！Des-lem, klep lem！」",
+   "note": "魔像語保留"
+  },
+  {
+   "offset": 134,
+   "len": 59,
+   "en": "The gargoyle screams, \"The False Prophet! Workers, attack!\"",
+   "zh": "魔像嘶喊：「偽先知！工人們，攻擊！」",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 202,
+   "len": 52,
+   "en": "\"Good $T, noble $P. To be honored by another visit!\"",
+   "zh": "「$T好，高貴之$P。再度蒞臨，深感榮幸！」",
+   "note": ""
+  },
+  {
+   "offset": 255,
+   "len": 15,
+   "en": "\"To be amazed!\"",
+   "zh": "「真令吾大感震驚！」",
+   "note": ""
+  },
+  {
+   "offset": 273,
+   "len": 49,
+   "en": "\"To greatly admire your nobility, False Prophet.\"",
+   "zh": "「對偽先知之高貴，吾深懷敬佩。」",
+   "note": ""
+  },
+  {
+   "offset": 325,
+   "len": 41,
+   "en": "\"To honor my people with your sacrifice!\"",
+   "zh": "「以汝之犧牲榮耀吾族！」",
+   "note": ""
+  },
+  {
+   "offset": 369,
+   "len": 58,
+   "en": "\"To ask your name, that I may address you as you deserve?\"",
+   "zh": "「敢問汝之名諱，以便適切地稱呼汝？」",
+   "note": ""
+  },
+  {
+   "offset": 431,
+   "len": 34,
+   "en": "\"To be honored by your visit, $0.\"",
+   "zh": "「$0蒞臨，深感榮幸。」",
+   "note": ""
+  },
+  {
+   "offset": 480,
+   "len": 63,
+   "en": "\"To be named Nash Us-arb-vas-lem, Nash the @Leader of Farmers.\"",
+   "zh": "「吾名納許·烏斯-阿爾布-瓦斯-蘭，即農夫@Leader統帥納許。」",
+   "note": ""
+  },
+  {
+   "offset": 553,
+   "len": 74,
+   "en": "\"To @lead the @wingless ones, the worker gargoyles who tend these fields.\"",
+   "zh": "「@lead領導@wingless無翼者，即看守這些田地的工匠魔像。」",
+   "note": ""
+  },
+  {
+   "offset": 630,
+   "len": 45,
+   "en": "\"But to have little fortune in my @harvests.\"",
+   "zh": "「然吾之@harvests收成一向不佳。」",
+   "note": ""
+  },
+  {
+   "offset": 686,
+   "len": 47,
+   "en": "\"To try to give the @wingless ones free reign, ",
+   "zh": "「試圖給予@wingless無翼者自由，",
+   "note": "前半"
+  },
+  {
+   "offset": 734,
+   "len": 46,
+   "en": "but to be forced to guide them in their work.\"",
+   "zh": "然仍被迫在其工作中加以指引。」",
+   "note": "後半"
+  },
+  {
+   "offset": 796,
+   "len": 61,
+   "en": "\"To be far kinder to the wingless ones than most of my kind.\"",
+   "zh": "「吾對無翼者之仁厚，遠超吾族大多數人。」",
+   "note": ""
+  },
+  {
+   "offset": 860,
+   "len": 98,
+   "en": "\"To feel that the wingless ones should not be enslaved simply because they lack our intelligence.\"",
+   "zh": "「吾認為無翼者不應僅因智力不如吾等便遭奴役。」",
+   "note": ""
+  },
+  {
+   "offset": 974,
+   "len": 93,
+   "en": "\"To be forced, on occasion, to tend the fields myself because of the harshness of the times.\"",
+   "zh": "「有時因時勢艱難，不得不親自下田耕作。」",
+   "note": ""
+  },
+  {
+   "offset": 1070,
+   "len": 90,
+   "en": "\"To wish my fields were as productive as those of Farmer @Krill, my neighbor to the west.\"",
+   "zh": "「真希望吾的田地能像西邊鄰居@Krill農夫克里爾那樣豐收。」",
+   "note": ""
+  },
+  {
+   "offset": 1171,
+   "len": 64,
+   "en": "\"To be ashamed that Farmer Krill treats his workers so harshly.\"",
+   "zh": "「吾為農夫克里爾對工人如此嚴苛而感到羞恥。」",
+   "note": ""
+  },
+  {
+   "offset": 1238,
+   "len": 72,
+   "en": "\"To be appalled by his lack of concern for their thoughts and feelings.\"",
+   "zh": "「對他漠視工人的想法與感受，吾深感震驚。」",
+   "note": ""
+  },
+  {
+   "offset": 1320,
+   "len": 62,
+   "en": "\"To have been greatly honored by this conversation, noble $P.\"",
+   "zh": "「此番交談令吾深感榮幸，高貴之$P。」",
+   "note": ""
+  },
+  {
+   "offset": 1387,
+   "len": 79,
+   "en": "\"To confess difficulty in understanding your accent. To inquire what $Z means?\"",
+   "zh": "「坦承難以理解汝之口音。請問$Z是何意？」",
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {
+   "Farmer Nash": "農夫納許",
+   "Farmer Krill": "農夫克里爾"
+  },
+  "places": {}
+ },
+ "riddles_additions": [],
+ "translator_notes": "農夫納許為仁厚的魔像農場主，對無翼工匠較為同情，與鄰居克里爾形成對比。魔像 To+動詞 語法一律文言化。"
+}

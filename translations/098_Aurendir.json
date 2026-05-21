@@ -1,0 +1,248 @@
+{
+ "translations": [
+  {
+   "offset": 11,
+   "len": 42,
+   "en": "a short man dressed in shepherds clothing.",
+   "zh": "一位矮小男子，身著牧羊人服飾。",
+   "note": "DESC"
+  },
+  {
+   "offset": 63,
+   "len": 11,
+   "en": "\"Hi there!\"",
+   "zh": "「你好！」",
+   "note": ""
+  },
+  {
+   "offset": 77,
+   "len": 37,
+   "en": "\"Is there anything I can do for you?\"",
+   "zh": "「有何需要效勞？」",
+   "note": ""
+  },
+  {
+   "offset": 122,
+   "len": 66,
+   "en": "\"Once I was Aurendir the mighty - now I live a more @modest life.\"",
+   "zh": "「在下昔日乃強大的奧倫蒂爾——如今過著更為@簡樸的生活。」",
+   "note": ""
+  },
+  {
+   "offset": 214,
+   "len": 55,
+   "en": "\"I came here to @meditate, tend @sheep and sell @wool.\"",
+   "zh": "「在下來此是為了@靜思、照料@羊群並販售@羊毛。」",
+   "note": ""
+  },
+  {
+   "offset": 285,
+   "len": 24,
+   "en": "\"So they can be @shorn.\"",
+   "zh": "「為了讓它們被@剪毛。」",
+   "note": ""
+  },
+  {
+   "offset": 320,
+   "len": 40,
+   "en": "\"To make @wool. People @buy it from me.\"",
+   "zh": "「以製成@羊毛，人們向在下@購買。」",
+   "note": ""
+  },
+  {
+   "offset": 371,
+   "len": 28,
+   "en": "\"It's used to make @thread.\"",
+   "zh": "「用來紡成@線。」",
+   "note": ""
+  },
+  {
+   "offset": 409,
+   "len": 28,
+   "en": "\"Would you like some wool?\" ",
+   "zh": "「汝想要些羊毛嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 448,
+   "len": 26,
+   "en": "\"To be woven into @cloth.\"",
+   "zh": "「用來織成@布料。」",
+   "note": ""
+  },
+  {
+   "offset": 490,
+   "len": 30,
+   "en": "\"You can make @robes from it.\"",
+   "zh": "「汝可以用它製成@袍服。」",
+   "note": ""
+  },
+  {
+   "offset": 531,
+   "len": 75,
+   "en": "\"I wear a robe while I tend @sheep. It's all part of life's great @circle.\"",
+   "zh": "「在下照料@羊群時便穿著袍服，這都是生命大@循環的一部分。」",
+   "note": ""
+  },
+  {
+   "offset": 622,
+   "len": 81,
+   "en": "\"From earth, to grass, to sheep, to me... when I die, I'll return to the @earth.\"",
+   "zh": "「從土地，到青草，到羊，到在下……當在下死去，便回歸@大地。」",
+   "note": ""
+  },
+  {
+   "offset": 733,
+   "len": 15,
+   "en": "\"That's right.\"",
+   "zh": "「正是如此。」",
+   "note": ""
+  },
+  {
+   "offset": 779,
+   "len": 80,
+   "en": "\"I used to be a powerful and wealthy mage. I wore silk robes, and fine jewelry.\"",
+   "zh": "「在下昔日是位強大富有的法師，身著錦袍，佩戴精美珠寶。」",
+   "note": ""
+  },
+  {
+   "offset": 862,
+   "len": 37,
+   "en": "\"In fact, I even had my own @castle.\"",
+   "zh": "「事實上，在下甚至擁有自己的@城堡。」",
+   "note": ""
+  },
+  {
+   "offset": 902,
+   "len": 62,
+   "en": "\"But one day in my travels I visited the @Shrine of Humility.\"",
+   "zh": "「然有一日在旅途中，在下拜訪了@謙遜聖壇。」",
+   "note": ""
+  },
+  {
+   "offset": 967,
+   "len": 34,
+   "en": "\"Meditating there, I had an idea.\"",
+   "zh": "「在那裡靜思之中，在下有了一個念頭。」",
+   "note": ""
+  },
+  {
+   "offset": 1004,
+   "len": 76,
+   "en": "\"I would give up all my earthly possessions and quit the practice of magic.\"",
+   "zh": "「在下要放棄一切俗世財物，放棄修習魔法。」",
+   "note": ""
+  },
+  {
+   "offset": 1083,
+   "len": 29,
+   "en": "\"I would live as a shepherd!\"",
+   "zh": "「在下要以牧羊人為生！」",
+   "note": ""
+  },
+  {
+   "offset": 1115,
+   "len": 72,
+   "en": "\"Surely this would be the greatest act of humility a man could perform.\"",
+   "zh": "「這必定是一個人所能踐行的最偉大的謙遜之舉。」",
+   "note": ""
+  },
+  {
+   "offset": 1190,
+   "len": 31,
+   "en": "\"And so you see me here today.\"",
+   "zh": "「於是汝今日便見到了如此的在下。」",
+   "note": ""
+  },
+  {
+   "offset": 1262,
+   "len": 25,
+   "en": "\"Those days are no more.\"",
+   "zh": "「那些日子已一去不復返了。」",
+   "note": ""
+  },
+  {
+   "offset": 1298,
+   "len": 53,
+   "en": "\"I should go there again soon... It changed my life.\"",
+   "zh": "「在下應該不久再去一次……那裡改變了在下的一生。」",
+   "note": ""
+  },
+  {
+   "offset": 1367,
+   "len": 86,
+   "en": "\"You should go meditate at the shrine yourself. I find 'lum' a most effective mantra.\"",
+   "zh": "「汝應該親自去聖壇靜思。在下覺得『lum』是最有效的真言。」",
+   "note": "保留真言原文"
+  },
+  {
+   "offset": 1463,
+   "len": 16,
+   "en": "\"See you later.\"",
+   "zh": "「後會有期。」",
+   "note": ""
+  },
+  {
+   "offset": 1484,
+   "len": 11,
+   "en": "\"Beats me.\"",
+   "zh": "「在下也不知道。」",
+   "note": ""
+  },
+  {
+   "offset": 1515,
+   "len": 7,
+   "en": "\"Okay.\"",
+   "zh": "「好的。」",
+   "note": ""
+  },
+  {
+   "offset": 1609,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝們誰？」",
+   "note": ""
+  },
+  {
+   "offset": 1664,
+   "len": 59,
+   "en": "\"I charge 5 gold for a bale of wool. Would you like some?\" ",
+   "zh": "「一捆羊毛收5金。汝想要嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1749,
+   "len": 29,
+   "en": "\"You look pretty full to me.\"",
+   "zh": "「汝看起來已裝得滿滿的了。」",
+   "note": ""
+  },
+  {
+   "offset": 1838,
+   "len": 63,
+   "en": "\"Very good.\" After accepting $Y's gold, $N hands over the wool.",
+   "zh": "「甚好。」收下$Y的金幣後，$N遞出羊毛。",
+   "note": ""
+  },
+  {
+   "offset": 1924,
+   "len": 53,
+   "en": "\"I'm sorry, but you don't seem to have enough money.\"",
+   "zh": "「抱歉，汝的金幣似乎不足。」",
+   "note": ""
+  },
+  {
+   "offset": 1998,
+   "len": 44,
+   "en": "\"It was a pleasure doing business with you.\"",
+   "zh": "「很高興與汝交易。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Aurendir": "奧倫蒂爾"
+  }
+ },
+ "translator_notes": "098 Aurendir: 新馬精西亞改過自新的前強大法師，放棄一切成為牧羊人以踐行謙遜。羊毛販售商。真言'lum'保留。"
+}

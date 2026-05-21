@@ -1,0 +1,209 @@
+{
+ "translations": [
+  {
+   "offset": 10,
+   "len": 34,
+   "en": "a gnarled man with knobby muscles.",
+   "zh": "肌肉虯結、身形粗獷的男子。",
+   "note": "DESC"
+  },
+  {
+   "offset": 46,
+   "len": 45,
+   "en": "\"Hullo, $G.\" He touches his cap respectfully.",
+   "zh": "「你好，$G。」他恭敬地碰了碰帽沿。",
+   "note": ""
+  },
+  {
+   "offset": 106,
+   "len": 76,
+   "en": "He has a very sharp knife with which he prunes off less productive branches.",
+   "zh": "他手持一把極為鋒利的刀，用來剪去不夠茂盛的枝條。",
+   "note": ""
+  },
+  {
+   "offset": 185,
+   "len": 62,
+   "en": "\"Mind that you stay out of the flight paths of the @bees, $G.\"",
+   "zh": "「小心別擋住@蜜蜂的飛行路線，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 260,
+   "len": 42,
+   "en": "\"Eckhart the vinekeeper, at your service, ",
+   "zh": "「葡萄園看守人艾克哈特，隨時效勞，",
+   "note": "下接 ma'am 或 sir"
+  },
+  {
+   "offset": 309,
+   "len": 7,
+   "en": "ma'am.\"",
+   "zh": "女士。」",
+   "note": "gender-conditional: female"
+  },
+  {
+   "offset": 317,
+   "len": 5,
+   "en": "sir.\"",
+   "zh": "先生。」",
+   "note": "gender-conditional: male"
+  },
+  {
+   "offset": 350,
+   "len": 70,
+   "en": "You notice the bees have regular aerial routes all about the vineyard.",
+   "zh": "你注意到蜜蜂在葡萄園四周有固定的飛行路線。",
+   "note": ""
+  },
+  {
+   "offset": 423,
+   "len": 53,
+   "en": "\"Zeke keeps bees on the other side of the abbey, $G.\"",
+   "zh": "「齊克在修道院的另一側養蜜蜂，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 486,
+   "len": 45,
+   "en": "\"I care for the @garden and tend the @vines.\"",
+   "zh": "「我照料@花園，也打理@葡萄藤。」",
+   "note": ""
+  },
+  {
+   "offset": 547,
+   "len": 70,
+   "en": "\"Some of our rosebushes were planted by druids hundreds of years ago.\"",
+   "zh": "「我們的某些玫瑰叢是幾百年前由德魯伊種下的。」",
+   "note": ""
+  },
+  {
+   "offset": 620,
+   "len": 52,
+   "en": "\"Eventually, we became the Brotherhood of the Rose.\"",
+   "zh": "「後來，我們便成了玫瑰兄弟會。」",
+   "note": ""
+  },
+  {
+   "offset": 695,
+   "len": 32,
+   "en": "\"These rows,\" he gestures, \"are ",
+   "zh": "「這幾排，」他比手勢，「是",
+   "note": "split string，下接品種名（系統字串）"
+  },
+  {
+   "offset": 728,
+   "len": 27,
+   "en": "\"Here at the abbey we grow ",
+   "zh": "「修道院這裡種的是",
+   "note": "split string，下接 @seedless grapes.\""
+  },
+  {
+   "offset": 756,
+   "len": 18,
+   "en": "@seedless grapes.\"",
+   "zh": "@無籽葡萄。」",
+   "note": ""
+  },
+  {
+   "offset": 790,
+   "len": 57,
+   "en": "\"Amazing, ain't it, $G. The @enchanter made them for us.\"",
+   "zh": "「神奇吧，$G。@魔法師為我們培育出來的。」",
+   "note": ""
+  },
+  {
+   "offset": 850,
+   "len": 80,
+   "en": "\"Now I grow new vines by grafting seedless @grapevines onto regular rootstocks.\"",
+   "zh": "「現在我用嫁接的方式，把無籽@葡萄藤接到普通的砧木上培育新藤。」",
+   "note": ""
+  },
+  {
+   "offset": 946,
+   "len": 53,
+   "en": "\"Yes, $G. He lives east of here, between two rivers.\"",
+   "zh": "「是的，$G。他住在這裡以東，兩條河之間。」",
+   "note": ""
+  },
+  {
+   "offset": 1002,
+   "len": 54,
+   "en": "\"His hut be due north of Britain, or so they tell me.\"",
+   "zh": "「他的小屋就在不列顛的正北方，至少他們這樣說。」",
+   "note": ""
+  },
+  {
+   "offset": 1074,
+   "len": 58,
+   "en": "\"Visit me in the fields some time and I'll give you some!\"",
+   "zh": "「改天來田裡找我，我給你一些！」",
+   "note": ""
+  },
+  {
+   "offset": 1138,
+   "len": 46,
+   "en": "\"Now those grapes there are for making @wine.\"",
+   "zh": "「那邊那些葡萄是用來釀@葡萄酒的。」",
+   "note": ""
+  },
+  {
+   "offset": 1196,
+   "len": 83,
+   "en": "Dupre says \"I cannot say which I like better: wine from grapes or mead from honey!\"",
+   "zh": "杜普雷說：「我實在無法分辨哪個更好：葡萄釀的酒，還是蜂蜜釀的蜂蜜酒！」",
+   "note": ""
+  },
+  {
+   "offset": 1287,
+   "len": 37,
+   "en": "\"And these over here are for eating.\"",
+   "zh": "「而這邊的是拿來吃的。」",
+   "note": ""
+  },
+  {
+   "offset": 1390,
+   "len": 56,
+   "en": "He gives you a plump little bunch of sweet table grapes.",
+   "zh": "他遞給你一小串飽滿甜美的食用葡萄。",
+   "note": ""
+  },
+  {
+   "offset": 1457,
+   "len": 21,
+   "en": "\"Ask @Faren of that.\"",
+   "zh": "「那就去問@法倫吧。」",
+   "note": ""
+  },
+  {
+   "offset": 1489,
+   "len": 34,
+   "en": "\"Yes, Faren--the local winemaker.\"",
+   "zh": "「是的，法倫——本地的釀酒人。」",
+   "note": ""
+  },
+  {
+   "offset": 1540,
+   "len": 32,
+   "en": "He waves and turns back to work.",
+   "zh": "他揮了揮手，轉身繼續幹活。",
+   "note": ""
+  },
+  {
+   "offset": 1574,
+   "len": 22,
+   "en": "Eckhart waves goodbye.",
+   "zh": "艾克哈特揮手道別。",
+   "note": ""
+  },
+  {
+   "offset": 1602,
+   "len": 17,
+   "en": "\"Beg pardon, $G?\"",
+   "zh": "「請問，$G？」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Eckhart": "艾克哈特"}, "places": {}},
+ "translator_notes": "艾克哈特是修道院的葡萄園看守人，負責種植無籽葡萄（由魔法師尼可迪默斯培育）及打理玫瑰花園。修道院因此成為玫瑰兄弟會。split strings 處理：offset 695/728 為半句開頭，無引號結尾。"
+}

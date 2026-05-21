@@ -1,0 +1,538 @@
+{
+ "translations": [
+  {
+   "offset": 9,
+   "len": 59,
+   "en": "a lively soul of a gypsy, with a bit of a wild look to him.",
+   "zh": "活力充沛的吉普賽人，眼神中帶著幾分野性。",
+   "note": "DESC"
+  },
+  {
+   "offset": 79,
+   "len": 62,
+   "en": "\"Anyone who would mistreat a dog has no business with Zoltan.\"",
+   "zh": "「凡虐待狗的人，皆無資格與佐爾坦打交道。」",
+   "note": ""
+  },
+  {
+   "offset": 159,
+   "len": 46,
+   "en": "\"Hah! You again! You are no friend to Zoltan.\"",
+   "zh": "「哈！又是你！你不是佐爾坦的朋友。」",
+   "note": ""
+  },
+  {
+   "offset": 208,
+   "len": 43,
+   "en": "\"I dance for you, and how do you repay me?\"",
+   "zh": "「吾為你獻舞，你如何回報？」",
+   "note": ""
+  },
+  {
+   "offset": 254,
+   "len": 58,
+   "en": "\"Perhaps a few coins might ease the sting of your insult.\"",
+   "zh": "「也許幾枚金幣能撫慰你的冒犯之傷。」",
+   "note": ""
+  },
+  {
+   "offset": 315,
+   "len": 27,
+   "en": "Do you give him any money? ",
+   "zh": "你是否給他一些錢？",
+   "note": ""
+  },
+  {
+   "offset": 355,
+   "len": 57,
+   "en": "\"So be it. Leave me before I place a gypsy curse on you!\"",
+   "zh": "「既如此。離開，否則吾將對你施下吉普賽詛咒！」",
+   "note": ""
+  },
+  {
+   "offset": 430,
+   "len": 44,
+   "en": "\"Huzzah! I am @Zoltan, king of the gypsies!\"",
+   "zh": "「哈哈！吾乃@佐爾坦，吉普賽人之王！」",
+   "note": ""
+  },
+  {
+   "offset": 475,
+   "len": 50,
+   "en": "\"Huzzah! I am still @Zoltan, king of the gypsies!\"",
+   "zh": "「哈哈！吾依然是@佐爾坦，吉普賽人之王！」",
+   "note": ""
+  },
+  {
+   "offset": 544,
+   "len": 48,
+   "en": "\"As I said, I am Zoltan, @king of the @gypsies!\"",
+   "zh": "「如吾所言，吾乃佐爾坦，@吉普賽人之@王！」",
+   "note": ""
+  },
+  {
+   "offset": 603,
+   "len": 37,
+   "en": "\"Yes, Zoltan, @king of the @gypsies!\"",
+   "zh": "「是的，佐爾坦，@吉普賽人之@王！」",
+   "note": ""
+  },
+  {
+   "offset": 651,
+   "len": 92,
+   "en": "\"I have no lands nor @castles, as most rulers do. Nay, for I am the king of the open @road.\"",
+   "zh": "「吾無@城堡也無土地，不似多數君主。不，因為吾是廣闊@道路之王。」",
+   "note": ""
+  },
+  {
+   "offset": 754,
+   "len": 30,
+   "en": "\"Arturos? Never heard of him.\"",
+   "zh": "「阿圖羅斯？從未聽說過。」",
+   "note": ""
+  },
+  {
+   "offset": 795,
+   "len": 73,
+   "en": "He licks his lips and smiles. \"A duck? No, haven't seen any around here.\"",
+   "zh": "他舔了舔嘴唇，笑著說：「鴨子？沒有，附近沒見過。」",
+   "note": ""
+  },
+  {
+   "offset": 884,
+   "len": 48,
+   "en": "\"You cannot tie a gypsy down to a single place.\"",
+   "zh": "「吉普賽人是無法被束縛在一處的。」",
+   "note": ""
+  },
+  {
+   "offset": 935,
+   "len": 73,
+   "en": "\"We are free @spirits, and must roam like the @wind throughout the land.\"",
+   "zh": "「吾等是自由的@靈魂，必須如@風般遊蕩於大地之上。」",
+   "note": ""
+  },
+  {
+   "offset": 1019,
+   "len": 50,
+   "en": "\"The roads @wander everywhere, just like a gypsy!\"",
+   "zh": "「道路@延伸至四方，正如吉普賽人！」",
+   "note": ""
+  },
+  {
+   "offset": 1080,
+   "len": 40,
+   "en": "\"The four winds - they are gypsies too!\"",
+   "zh": "「四方之風——它們也是吉普賽人！」",
+   "note": ""
+  },
+  {
+   "offset": 1136,
+   "len": 46,
+   "en": "\"As a gypsy's body wanders, so does his mind.\"",
+   "zh": "「吉普賽人的身軀流浪，其心靈亦如是。」",
+   "note": ""
+  },
+  {
+   "offset": 1185,
+   "len": 62,
+   "en": "\"Just now I am thinking of what you might @buy from me today.\"",
+   "zh": "「此刻吾正在想你今日要向我@購買何物。」",
+   "note": ""
+  },
+  {
+   "offset": 1263,
+   "len": 48,
+   "en": "\"Aye, my spirit is free, but my @advice is not.\"",
+   "zh": "「是的，吾的靈魂是自由的，但吾的@建議可不免費。」",
+   "note": ""
+  },
+  {
+   "offset": 1322,
+   "len": 56,
+   "en": "\"Ask my people for @advice, or what they have to @sell.\"",
+   "zh": "「去問吾的族人要@建議，或看看他們有什麼可@賣。」",
+   "note": ""
+  },
+  {
+   "offset": 1381,
+   "len": 80,
+   "en": "\"Gypsies see and hear much, and occasionally happen across items of interest...\"",
+   "zh": "「吉普賽人見多識廣，偶爾也會發現些有趣的物件……」",
+   "note": ""
+  },
+  {
+   "offset": 1499,
+   "len": 34,
+   "en": "\"He's the lowest scum I ever met.\"",
+   "zh": "「他是吾見過的最低賤之人。」",
+   "note": "關於Hawkins"
+  },
+  {
+   "offset": 1548,
+   "len": 44,
+   "en": "\"It's no place for an honest soul like you.\"",
+   "zh": "「那不是像你這樣誠實之人該去的地方。」",
+   "note": "關於Buccaneer's Den"
+  },
+  {
+   "offset": 1595,
+   "len": 77,
+   "en": "\"But if you're determined to go, I hear it's on an island due east of @Paws.\"",
+   "zh": "「但若你執意要去，聽說那在@帕斯正東方的島上。」",
+   "note": ""
+  },
+  {
+   "offset": 1683,
+   "len": 73,
+   "en": "\"We pass Paws often in our travels. @Taynith likes to go drinking there.\"",
+   "zh": "「吾等旅行時常經過帕斯。@泰妮絲喜歡去那裡喝酒。」",
+   "note": ""
+  },
+  {
+   "offset": 1767,
+   "len": 39,
+   "en": "\"It's on the same island as @Moonglow.\"",
+   "zh": "「它和@月輝城在同一座島上。」",
+   "note": ""
+  },
+  {
+   "offset": 1817,
+   "len": 42,
+   "en": "\"It's on the same island as the @Lycaeum.\"",
+   "zh": "「它和@萊西厄姆在同一座島上。」",
+   "note": ""
+  },
+  {
+   "offset": 1870,
+   "len": 88,
+   "en": "\"She knows how to be generous to poor wandering gypsies. You should follow her example!\"",
+   "zh": "「她知道如何善待可憐的流浪吉普賽人。你也應該效法她！」",
+   "note": "關於Mariah"
+  },
+  {
+   "offset": 1974,
+   "len": 78,
+   "en": "\"Captain John? I talked to him when he gave us the silver tablet for @Mariah.\"",
+   "zh": "「約翰船長？當他把銀板交給吾等帶給@瑪麗亞時，吾曾與他說話。」",
+   "note": ""
+  },
+  {
+   "offset": 2055,
+   "len": 76,
+   "en": "\"He's madder than a gremlin! Claims as he's been living with the gargoyles.\"",
+   "zh": "「他比小妖精還瘋！聲稱自己一直和魔像族生活在一起。」",
+   "note": ""
+  },
+  {
+   "offset": 2134,
+   "len": 49,
+   "en": "\"He talks as if there's nothing evil about them.\"",
+   "zh": "「他說起他們，就好像他們毫無邪惡之處。」",
+   "note": ""
+  },
+  {
+   "offset": 2186,
+   "len": 58,
+   "en": "\"He said the tablet had something to do with translating.\"",
+   "zh": "「他說那塊石板與翻譯有關。」",
+   "note": ""
+  },
+  {
+   "offset": 2255,
+   "len": 50,
+   "en": "\"Either you're a gorgio or my name's not @Zoltan!\"",
+   "zh": "「你要麼是個外人，要麼我的名字就不叫@佐爾坦！」",
+   "note": "gorgio=非吉普賽人"
+  },
+  {
+   "offset": 2321,
+   "len": 38,
+   "en": "\"There are no women like gypsy women!\"",
+   "zh": "「天下無女子能與吉普賽女子相比！」",
+   "note": ""
+  },
+  {
+   "offset": 2376,
+   "len": 80,
+   "en": "\"Farewell! My fellow gypsies and I will @dance to your health and good fortune!\"",
+   "zh": "「再見！吾與族人將@跳舞，祝你身體健康、鴻運當頭！」",
+   "note": ""
+  },
+  {
+   "offset": 2457,
+   "len": 11,
+   "en": "\"Farewell.\"",
+   "zh": "「再見。」",
+   "note": ""
+  },
+  {
+   "offset": 2477,
+   "len": 88,
+   "en": "@Karina produces a fiddle from somewhere and begins to play a tune at a very high tempo.",
+   "zh": "@卡麗娜不知從何處取出一把小提琴，開始飛速演奏。",
+   "note": ""
+  },
+  {
+   "offset": 2568,
+   "len": 75,
+   "en": "Zoltan dances a wild dance for you, leaping and capering about frantically.",
+   "zh": "佐爾坦為你跳起狂野的舞蹈，縱身跳躍、瘋狂旋轉。",
+   "note": ""
+  },
+  {
+   "offset": 2646,
+   "len": 64,
+   "en": "His chest glistens with sweat as he walks up to you expectantly.",
+   "zh": "他胸前汗光閃閃，滿懷期待地走近你。",
+   "note": ""
+  },
+  {
+   "offset": 2770,
+   "len": 31,
+   "en": "\"Why worry yourself with that?\"",
+   "zh": "「何必為此煩惱？」",
+   "note": ""
+  },
+  {
+   "offset": 2804,
+   "len": 77,
+   "en": "\"Perhaps you'd like to look over some of the fine @reagents I have for sale.\"",
+   "zh": "「也許你想看看吾販售的上等@施法材料。」",
+   "note": ""
+  },
+  {
+   "offset": 2887,
+   "len": 94,
+   "en": "\"Tell you what. Since I'm in a good mood, I'll only charge you two gold coins. Is it a deal?\" ",
+   "zh": "「這樣吧。吾今日心情好，只收兩枚金幣。成交？」",
+   "note": ""
+  },
+  {
+   "offset": 2987,
+   "len": 19,
+   "en": "\"Whatever you say.\"",
+   "zh": "「隨你。」",
+   "note": ""
+  },
+  {
+   "offset": 3023,
+   "len": 49,
+   "en": "\"Come back when you're not so down on your luck.\"",
+   "zh": "「等你運氣不這麼差的時候再來。」",
+   "note": ""
+  },
+  {
+   "offset": 3112,
+   "len": 21,
+   "en": "\"I'll tell you this:\"",
+   "zh": "「吾告訴你：」",
+   "note": ""
+  },
+  {
+   "offset": 3136,
+   "len": 68,
+   "en": "\"Powder kegs are useful for persuading uncooperative doors to open.\"",
+   "zh": "「火藥桶對付頑固的門非常有用。」",
+   "note": ""
+  },
+  {
+   "offset": 3209,
+   "len": 78,
+   "en": "\"I'd be glad to help you out. But 'tis a hard life, sometimes, being a gypsy.\"",
+   "zh": "「吾很樂意幫你。但有時候，吉普賽人的生活也頗艱難。」",
+   "note": ""
+  },
+  {
+   "offset": 3290,
+   "len": 67,
+   "en": "\"You'd be willing to pay ten gold for the information, would you?\" ",
+   "zh": "「你願意付十枚金幣換取這個消息，對嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 3363,
+   "len": 38,
+   "en": "\"Let me know if you change your mind.\"",
+   "zh": "「若改變主意，告訴吾一聲。」",
+   "note": ""
+  },
+  {
+   "offset": 3418,
+   "len": 36,
+   "en": "\"Come back when you have the money.\"",
+   "zh": "「等你有錢了再來。」",
+   "note": ""
+  },
+  {
+   "offset": 3494,
+   "len": 105,
+   "en": "\"Some @gorgio called 'Captain @John' brought us the silver tablet and paid us to take it to the Lycaeum.\"",
+   "zh": "「一個叫『@約翰船長』的@外人帶來銀板，並付錢請吾等將它帶到萊西厄姆。」",
+   "note": ""
+  },
+  {
+   "offset": 3602,
+   "len": 84,
+   "en": "\"While we were on the way there, we were ambushed by Captain @Hawkins and his crew.\"",
+   "zh": "「在途中，吾等遭到@霍金斯船長及其手下的埋伏。」",
+   "note": ""
+  },
+  {
+   "offset": 3689,
+   "len": 92,
+   "en": "The tablet was broken in two during the scuffle. The pirates got away with the bigger half.\"",
+   "zh": "石板在混戰中斷為兩截。海盜帶走了較大的那半塊。」",
+   "note": "注意：本行開頭無引號，是敘述接對話"
+  },
+  {
+   "offset": 3784,
+   "len": 72,
+   "en": "\"Hawkins took my finest earring as well - I spit on his mother's grave!\"",
+   "zh": "「霍金斯還奪走了吾最珍貴的耳環——吾唾他母親的墳！」",
+   "note": ""
+  },
+  {
+   "offset": 3859,
+   "len": 60,
+   "en": "\"Most likely they went to Buccaneer's @Den with their loot.\"",
+   "zh": "「他們多半帶著贓物去了海盜@巢穴。」",
+   "note": ""
+  },
+  {
+   "offset": 3922,
+   "len": 91,
+   "en": "\"We took the corner of the tablet that they missed to the @Lycaeum and sold it to @Mariah.\"",
+   "zh": "「吾等把他們沒拿走的那角石板帶到@萊西厄姆，賣給了@瑪麗亞。」",
+   "note": ""
+  },
+  {
+   "offset": 4018,
+   "len": 27,
+   "en": "Do you give him any money? ",
+   "zh": "你是否給他一些錢？",
+   "note": ""
+  },
+  {
+   "offset": 4057,
+   "len": 85,
+   "en": "\"Hah! I should know better than to expect a gorgio to appreciate a fine gypsy dance.\"",
+   "zh": "「哈！吾本不該奢望一個外人欣賞精彩的吉普賽舞蹈。」",
+   "note": ""
+  },
+  {
+   "offset": 4145,
+   "len": 34,
+   "en": "Proudly, he turns his back on you.",
+   "zh": "他驕傲地轉過身去。",
+   "note": ""
+  },
+  {
+   "offset": 4183,
+   "len": 22,
+   "en": "How much do you give? ",
+   "zh": "你給多少錢？",
+   "note": ""
+  },
+  {
+   "offset": 4219,
+   "len": 25,
+   "en": "You don't have that much.",
+   "zh": "你沒有那麼多錢。",
+   "note": ""
+  },
+  {
+   "offset": 4304,
+   "len": 35,
+   "en": "Zoltan pockets the money. \"Thanks.\"",
+   "zh": "佐爾坦將錢揣入口袋。「謝了。」",
+   "note": ""
+  },
+  {
+   "offset": 4426,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪位？」",
+   "note": ""
+  },
+  {
+   "offset": 4462,
+   "len": 35,
+   "en": "\"What else would you like to know?\"",
+   "zh": "「你還想知道什麼？」",
+   "note": ""
+  },
+  {
+   "offset": 4583,
+   "len": 18,
+   "en": "\"Which of these?\" ",
+   "zh": "「要哪一項？」",
+   "note": ""
+  },
+  {
+   "offset": 4673,
+   "len": 26,
+   "en": "\"$1 costs #1 per portion.\"",
+   "zh": "「$1每份#1枚金幣。」",
+   "note": ""
+  },
+  {
+   "offset": 4702,
+   "len": 24,
+   "en": "\"How many do you want?\" ",
+   "zh": "「要幾份？」",
+   "note": ""
+  },
+  {
+   "offset": 4843,
+   "len": 19,
+   "en": "$N hands $Y the $1.",
+   "zh": "$N遞給$Y$1。",
+   "note": ""
+  },
+  {
+   "offset": 4881,
+   "len": 28,
+   "en": "\"You can't carry that much!\"",
+   "zh": "「你帶不了那麼多！」",
+   "note": ""
+  },
+  {
+   "offset": 4912,
+   "len": 24,
+   "en": "\"I'll just give you #5.\"",
+   "zh": "「那吾就給你#5份。」",
+   "note": ""
+  },
+  {
+   "offset": 4945,
+   "len": 22,
+   "en": "\"You can't carry any!\"",
+   "zh": "「你什麼都帶不了！」",
+   "note": ""
+  },
+  {
+   "offset": 4980,
+   "len": 29,
+   "en": "\"You can't afford that much!\"",
+   "zh": "「你負擔不起那麼多！」",
+   "note": ""
+  },
+  {
+   "offset": 5012,
+   "len": 19,
+   "en": "\"I'll give you #5.\"",
+   "zh": "「那吾給你#5份。」",
+   "note": ""
+  },
+  {
+   "offset": 5040,
+   "len": 26,
+   "en": "\"You can't afford any $1!\"",
+   "zh": "「你買不起任何$1！」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Zoltan": "佐爾坦"}, "places": {}},
+ "translator_notes": "佐爾坦是吉普賽王，豪放熱情，自稱「吾」。涉及銀板（silver tablet）劇情線索（Captain John/Hawkins/Mariah）。gorgio（非吉普賽人）譯為「外人」。施法材料名（Blood Moss等）為系統字串，不翻譯。"
+}

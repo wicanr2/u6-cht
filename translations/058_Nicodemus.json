@@ -1,0 +1,523 @@
+{
+  "translations": [
+    {
+      "offset": 12,
+      "len": 37,
+      "en": "a wizened old man with a ready smile.",
+      "zh": "一位滿臉皺紋、笑容可掬的老者。",
+      "note": "DESC"
+    },
+    {
+      "offset": 53,
+      "len": 51,
+      "en": "\"Good $T, Avatar. For what purpose hast thou come?\"",
+      "zh": "「聖者，$T好。汝此來所為何事？」",
+      "note": ""
+    },
+    {
+      "offset": 164,
+      "len": 17,
+      "en": "\"I am Nicodemus.\"",
+      "zh": "「吾乃尼科德慕斯。」",
+      "note": ""
+    },
+    {
+      "offset": 197,
+      "len": 29,
+      "en": "\"Why, bless me, I work here!\"",
+      "zh": "「哎呀，天佑我，吾就在這裡做事！」",
+      "note": ""
+    },
+    {
+      "offset": 229,
+      "len": 59,
+      "en": "\"I sell @reagents, teach @spells, and craft magic @staves.\"",
+      "zh": "「吾販售@藥材，傳授@法術，並打造魔法@法杖。」",
+      "note": ""
+    },
+    {
+      "offset": 291,
+      "len": 36,
+      "en": "\"I also do a little @experimenting.\"",
+      "zh": "「吾也做些@實驗。」",
+      "note": ""
+    },
+    {
+      "offset": 338,
+      "len": 74,
+      "en": "\"Oh, nothing a great adventurer such as yourself would be @interested in.\"",
+      "zh": "「哦，沒什麼，像汝這樣的大冒險者不會@感興趣的。」",
+      "note": ""
+    },
+    {
+      "offset": 423,
+      "len": 38,
+      "en": "He gets a suspicious look in his eyes.",
+      "zh": "他眼中閃過一絲疑惑之色。",
+      "note": "action"
+    },
+    {
+      "offset": 464,
+      "len": 20,
+      "en": "\"Don't be too nosy, ",
+      "zh": "「別太愛管閒事，",
+      "note": "partial; gender branch follows"
+    },
+    {
+      "offset": 488,
+      "len": 8,
+      "en": "girlie!\"",
+      "zh": "小姑娘！」",
+      "note": "female branch"
+    },
+    {
+      "offset": 497,
+      "len": 7,
+      "en": "sonny!\"",
+      "zh": "小子！」",
+      "note": "male branch"
+    },
+    {
+      "offset": 515,
+      "len": 20,
+      "en": "\"Come back anytime!\"",
+      "zh": "「隨時歡迎再來！」",
+      "note": "bye"
+    },
+    {
+      "offset": 540,
+      "len": 38,
+      "en": "\"Nope, nope, I won't talk about that!\"",
+      "zh": "「不，不，吾不談那件事！」",
+      "note": ""
+    },
+    {
+      "offset": 643,
+      "len": 33,
+      "en": "\"But thou hast not a spell@book!\"",
+      "zh": "「但汝沒有@法術書！」",
+      "note": ""
+    },
+    {
+      "offset": 803,
+      "len": 35,
+      "en": "\"But none of you has a spell@book!\"",
+      "zh": "「但汝等無人有@法術書！」",
+      "note": ""
+    },
+    {
+      "offset": 875,
+      "len": 16,
+      "en": "\"Which of you?\" ",
+      "zh": "「汝等哪一位？」",
+      "note": ""
+    },
+    {
+      "offset": 1007,
+      "len": 41,
+      "en": "\"In which Circle does $Y wish to study?\" ",
+      "zh": "「$Y 希望修習第幾環的法術？」",
+      "note": ""
+    },
+    {
+      "offset": 1071,
+      "len": 51,
+      "en": "\"As everybody knows, there are only eight circles.\"",
+      "zh": "「眾所周知，法術環共有八環。」",
+      "note": ""
+    },
+    {
+      "offset": 1138,
+      "len": 52,
+      "en": "\"I sense that $Y is only ready for the #1$1 Circle.\"",
+      "zh": "「吾感覺 $Y 只適合修習第 #1$1 環。」",
+      "note": "#1 = circle number, $1 = ordinal suffix (th/st/nd/rd)"
+    },
+    {
+      "offset": 1193,
+      "len": 40,
+      "en": "\"But such matters are not my concern...\"",
+      "zh": "「但此等事並非吾所關切……」",
+      "note": ""
+    },
+    {
+      "offset": 1270,
+      "len": 34,
+      "en": "\"I have no spells of that circle.\"",
+      "zh": "「吾沒有那一環的法術。」",
+      "note": ""
+    },
+    {
+      "offset": 1381,
+      "len": 18,
+      "en": "\"Which of these?\" ",
+      "zh": "「這些中哪一個？」",
+      "note": ""
+    },
+    {
+      "offset": 1415,
+      "len": 42,
+      "en": "\"Perhaps $Y is not ready for this circle.\"",
+      "zh": "「或許 $Y 尚未準備好修習這一環。」",
+      "note": ""
+    },
+    {
+      "offset": 1499,
+      "len": 32,
+      "en": "\"$Y lacks the #5 gold required.\"",
+      "zh": "「$Y 缺乏所需的 #5 枚金幣。」",
+      "note": ""
+    },
+    {
+      "offset": 1540,
+      "len": 40,
+      "en": "\"That spell costs #5 gold. Interested?\" ",
+      "zh": "「那個法術需 #5 枚金幣。有意購買？」",
+      "note": ""
+    },
+    {
+      "offset": 1586,
+      "len": 46,
+      "en": "$N hands $Y a piece of rune-covered parchment.",
+      "zh": "$N 遞給 $Y 一張佈滿符文的羊皮紙。",
+      "note": ""
+    },
+    {
+      "offset": 1766,
+      "len": 16,
+      "en": "\"Which of you?\" ",
+      "zh": "「汝等哪一位？」",
+      "note": ""
+    },
+    {
+      "offset": 1887,
+      "len": 18,
+      "en": "\"Which of these?\" ",
+      "zh": "「這些中哪一個？」",
+      "note": ""
+    },
+    {
+      "offset": 1977,
+      "len": 26,
+      "en": "\"$1 costs #1 per portion.\"",
+      "zh": "「$1 每份 #1 枚金幣。」",
+      "note": "reagent price"
+    },
+    {
+      "offset": 2006,
+      "len": 27,
+      "en": "\"How many dost thou want?\" ",
+      "zh": "「汝要購買幾份？」",
+      "note": ""
+    },
+    {
+      "offset": 2160,
+      "len": 19,
+      "en": "$N hands $Y the $1.",
+      "zh": "$N 遞給 $Y $1。",
+      "note": ""
+    },
+    {
+      "offset": 2198,
+      "len": 30,
+      "en": "\"Thou cannot carry that much!\"",
+      "zh": "「汝帶不了那麼多！」",
+      "note": ""
+    },
+    {
+      "offset": 2231,
+      "len": 49,
+      "en": "\"I'll give thee #5; thou dost not need the rest.\"",
+      "zh": "「吾給汝 #5 份；其餘汝不需要。」",
+      "note": ""
+    },
+    {
+      "offset": 2289,
+      "len": 27,
+      "en": "\"Thou cannot carry any $1!\"",
+      "zh": "「汝什麼 $1 都帶不了！」",
+      "note": ""
+    },
+    {
+      "offset": 2329,
+      "len": 31,
+      "en": "\"Thou cannot afford that much!\"",
+      "zh": "「汝付不起那麼多！」",
+      "note": ""
+    },
+    {
+      "offset": 2363,
+      "len": 47,
+      "en": "\"I'll give thee #5; thou cannot have the rest.\"",
+      "zh": "「吾賣給汝 #5 份；其餘汝付不起。」",
+      "note": ""
+    },
+    {
+      "offset": 2419,
+      "len": 28,
+      "en": "\"Thou cannot afford any $1!\"",
+      "zh": "「汝連一份 $1 也付不起！」",
+      "note": ""
+    },
+    {
+      "offset": 2535,
+      "len": 16,
+      "en": "\"Which of you?\" ",
+      "zh": "「汝等哪一位？」",
+      "note": ""
+    },
+    {
+      "offset": 2611,
+      "len": 36,
+      "en": "\"But thou cannot carry a spellbook!\"",
+      "zh": "「但汝帶不了法術書！」",
+      "note": ""
+    },
+    {
+      "offset": 2663,
+      "len": 37,
+      "en": "\"But thou cannot afford a spellbook!\"",
+      "zh": "「但汝買不起法術書！」",
+      "note": ""
+    },
+    {
+      "offset": 2706,
+      "len": 48,
+      "en": "\"A spellbook costs 45 gold pieces. Interested?\" ",
+      "zh": "「法術書售價 45 枚金幣。有意購買？」",
+      "note": ""
+    },
+    {
+      "offset": 2798,
+      "len": 34,
+      "en": "\"Perhaps one of thy friends then.\"",
+      "zh": "「那或許汝的某位友人？」",
+      "note": ""
+    },
+    {
+      "offset": 2855,
+      "len": 33,
+      "en": "\"Yes, I make magical yew staves.\"",
+      "zh": "「是的，吾製作魔法紫杉法杖。」",
+      "note": ""
+    },
+    {
+      "offset": 2891,
+      "len": 92,
+      "en": "\"If thou knowest the Enchant spell, thou canst lock a spell within the staff for quick use!\"",
+      "zh": "「若汝知曉附魔法術，便可將一個法術封印於法杖之中，以備急用！」",
+      "note": ""
+    },
+    {
+      "offset": 2986,
+      "len": 63,
+      "en": "\"A yew staff costs 100 gold pieces, but it's worth twice that!\"",
+      "zh": "「紫杉法杖售價 100 枚金幣，但其價值是這的兩倍！」",
+      "note": ""
+    },
+    {
+      "offset": 3052,
+      "len": 32,
+      "en": "\"Wouldst thou like to buy one?\" ",
+      "zh": "「汝是否有意購買？」",
+      "note": ""
+    },
+    {
+      "offset": 3090,
+      "len": 32,
+      "en": "\"Perhaps some other time, then.\"",
+      "zh": "「那或許改天再說。」",
+      "note": ""
+    },
+    {
+      "offset": 3210,
+      "len": 16,
+      "en": "\"Which of you?\" ",
+      "zh": "「汝等哪一位？」",
+      "note": ""
+    },
+    {
+      "offset": 3286,
+      "len": 32,
+      "en": "\"But thou cannot carry a staff!\"",
+      "zh": "「但汝帶不了法杖！」",
+      "note": ""
+    },
+    {
+      "offset": 3334,
+      "len": 33,
+      "en": "\"But thou cannot afford a staff!\"",
+      "zh": "「但汝買不起法杖！」",
+      "note": ""
+    },
+    {
+      "offset": 3373,
+      "len": 33,
+      "en": "The old man hands $Y a yew staff.",
+      "zh": "老者遞給 $Y 一根紫杉法杖。",
+      "note": ""
+    },
+    {
+      "offset": 3469,
+      "len": 10,
+      "en": "Blood Moss",
+      "zh": "血苔",
+      "note": "reagent"
+    },
+    {
+      "offset": 3480,
+      "len": 6,
+      "en": "Garlic",
+      "zh": "大蒜",
+      "note": "reagent"
+    },
+    {
+      "offset": 3487,
+      "len": 7,
+      "en": "Ginseng",
+      "zh": "人蔘",
+      "note": "reagent"
+    },
+    {
+      "offset": 3495,
+      "len": 11,
+      "en": "Spider Silk",
+      "zh": "蜘蛛絲",
+      "note": "reagent"
+    },
+    {
+      "offset": 3507,
+      "len": 13,
+      "en": "Sulfurous Ash",
+      "zh": "硫磺灰",
+      "note": "reagent"
+    },
+    {
+      "offset": 3714,
+      "len": 11,
+      "en": "Detect Trap",
+      "zh": "偵測陷阱",
+      "note": "spell"
+    },
+    {
+      "offset": 3744,
+      "len": 5,
+      "en": "Sleep",
+      "zh": "催眠",
+      "note": "spell"
+    },
+    {
+      "offset": 3750,
+      "len": 12,
+      "en": "Unlock Magic",
+      "zh": "解除魔封",
+      "note": "spell"
+    },
+    {
+      "offset": 3763,
+      "len": 6,
+      "en": "Untrap",
+      "zh": "解除陷阱",
+      "note": "spell"
+    },
+    {
+      "offset": 3784,
+      "len": 10,
+      "en": "Magic Lock",
+      "zh": "魔法封鎖",
+      "note": "spell"
+    },
+    {
+      "offset": 3795,
+      "len": 10,
+      "en": "Mass Sleep",
+      "zh": "群體催眠",
+      "note": "spell"
+    },
+    {
+      "offset": 3806,
+      "len": 10,
+      "en": "Protection",
+      "zh": "護身術",
+      "note": "spell"
+    },
+    {
+      "offset": 3817,
+      "len": 12,
+      "en": "Repel Undead",
+      "zh": "驅除不死",
+      "note": "spell"
+    },
+    {
+      "offset": 3842,
+      "len": 7,
+      "en": "Conjure",
+      "zh": "召喚術",
+      "note": "spell"
+    },
+    {
+      "offset": 3868,
+      "len": 12,
+      "en": "Insect Swarm",
+      "zh": "蟲群術",
+      "note": "spell"
+    },
+    {
+      "offset": 3899,
+      "len": 5,
+      "en": "Charm",
+      "zh": "魅惑術",
+      "note": "spell"
+    },
+    {
+      "offset": 3905,
+      "len": 7,
+      "en": "Confuse",
+      "zh": "混亂術",
+      "note": "spell"
+    },
+    {
+      "offset": 3913,
+      "len": 12,
+      "en": "Mass Protect",
+      "zh": "群體護身",
+      "note": "spell"
+    },
+    {
+      "offset": 3926,
+      "len": 3,
+      "en": "Web",
+      "zh": "蛛網術",
+      "note": "spell"
+    },
+    {
+      "offset": 3942,
+      "len": 7,
+      "en": "Enchant",
+      "zh": "附魔術",
+      "note": "spell"
+    },
+    {
+      "offset": 3950,
+      "len": 17,
+      "en": "Mass Invisibility",
+      "zh": "群體隱身",
+      "note": "spell"
+    }
+  ],
+  "glossary_additions": {
+    "people": {
+      "Nicodemus": "尼科德慕斯"
+    },
+    "places": {},
+    "concepts": {
+      "yew staff": "紫杉法杖",
+      "spellbook": "法術書",
+      "Blood Moss": "血苔",
+      "Ginseng": "人蔘",
+      "Spider Silk": "蜘蛛絲",
+      "Sulfurous Ash": "硫磺灰"
+    }
+  },
+  "translator_notes": "尼科德慕斯是個親切但神秘的老法師，住在尤城東北。販售藥材、傳授法術、打造魔法紫杉法杖。對自身實驗諱莫如深，用「別太愛管閒事」打發好奇者。法術名稱依循中文玩家習慣意譯。"
+}

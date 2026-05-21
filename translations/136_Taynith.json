@@ -1,0 +1,363 @@
+{
+ "translations": [
+  {
+   "offset": 10,
+   "len": 49,
+   "en": "a mysterious gypsy woman wearing an ankh pendant.",
+   "zh": "戴著安卡吊墜的神秘吉普賽女子。",
+   "note": "DESC"
+  },
+  {
+   "offset": 74,
+   "len": 51,
+   "en": "\"My chances to visit Dr. @Cat come all too seldom.\"",
+   "zh": "「吾拜訪@貓醫生的機會實在太少了。」",
+   "note": ""
+  },
+  {
+   "offset": 128,
+   "len": 46,
+   "en": "\"Seek me out later and I will speak with you.\"",
+   "zh": "「稍後再來尋吾，吾將與汝相談。」",
+   "note": ""
+  },
+  {
+   "offset": 184,
+   "len": 52,
+   "en": "\"I have no time for those who are cruel to animals.\"",
+   "zh": "「吾無暇與虐待動物之人周旋。」",
+   "note": ""
+  },
+  {
+   "offset": 245,
+   "len": 23,
+   "en": "\"Welcome back, Avatar.\"",
+   "zh": "「歡迎回來，聖者。」",
+   "note": ""
+  },
+  {
+   "offset": 269,
+   "len": 77,
+   "en": "\"You are the Avatar. I had a vision that you would come to seek aid from me.\"",
+   "zh": "「汝是聖者。吾曾有預兆，汝將前來向吾求助。」",
+   "note": ""
+  },
+  {
+   "offset": 361,
+   "len": 57,
+   "en": "\"Some know me as @Taynith. That is what you may call me.\"",
+   "zh": "「有些人知道吾的名字是@泰妮絲。汝可如此稱呼吾。」",
+   "note": ""
+  },
+  {
+   "offset": 444,
+   "len": 48,
+   "en": "\"Seek not my @true name. Let 'Taynith' suffice.\"",
+   "zh": "「莫要探尋吾的@真名。『泰妮絲』已足夠。」",
+   "note": ""
+  },
+  {
+   "offset": 503,
+   "len": 22,
+   "en": "\"You try my patience.\"",
+   "zh": "「汝在考驗吾的耐性。」",
+   "note": ""
+  },
+  {
+   "offset": 539,
+   "len": 33,
+   "en": "\"I tell @fortunes - for a price.\"",
+   "zh": "「吾算@命——但要收費。」",
+   "note": ""
+  },
+  {
+   "offset": 639,
+   "len": 52,
+   "en": "\"A gorgio - that's almost as good as being a gypsy!\"",
+   "zh": "「一個外人——那幾乎與身為吉普賽人一樣好了！」",
+   "note": ""
+  },
+  {
+   "offset": 701,
+   "len": 50,
+   "en": "\"Our @paths will cross again. I have foreseen it.\"",
+   "zh": "「吾等的@道路將再次交會。此乃吾所預見。」",
+   "note": ""
+  },
+  {
+   "offset": 764,
+   "len": 92,
+   "en": "\"Captain John? Yes, he brought us a silver tablet some time ago, to deliver to the Lycaeum.\"",
+   "zh": "「約翰船長？是的，前些時候他帶來一塊銀板，要我們送往萊西厄姆。」",
+   "note": ""
+  },
+  {
+   "offset": 859,
+   "len": 66,
+   "en": "\"@Zoltan took care of the deal, so he could tell you more than I.\"",
+   "zh": "「@佐爾坦負責了那次交易，他能告訴汝的比吾更多。」",
+   "note": ""
+  },
+  {
+   "offset": 946,
+   "len": 23,
+   "en": "\"Ask @Zoltan about it.\"",
+   "zh": "「去問@佐爾坦。」",
+   "note": ""
+  },
+  {
+   "offset": 980,
+   "len": 49,
+   "en": "\"King of the gypsies, sure as my name's Taynith.\"",
+   "zh": "「吉普賽人之王，就如吾名泰妮絲一樣確定無疑。」",
+   "note": ""
+  },
+  {
+   "offset": 1040,
+   "len": 64,
+   "en": "\"My path leads to @Paws, as soon as I have time to visit there.\"",
+   "zh": "「吾的道路通往@帕斯，一旦有暇便去拜訪。」",
+   "note": ""
+  },
+  {
+   "offset": 1114,
+   "len": 38,
+   "en": "\"My good @friend Dr. Cat lives there.\"",
+   "zh": "「吾的好@友貓醫生就住在那裡。」",
+   "note": ""
+  },
+  {
+   "offset": 1170,
+   "len": 34,
+   "en": "\"Ask him about the duck sometime.\"",
+   "zh": "「找機會問問他那隻鴨子的事。」",
+   "note": ""
+  },
+  {
+   "offset": 1219,
+   "len": 15,
+   "en": "\"Yes, ask him!\"",
+   "zh": "「是的，去問他！」",
+   "note": ""
+  },
+  {
+   "offset": 1245,
+   "len": 35,
+   "en": "\"@Zoltan can tell you where it is.\"",
+   "zh": "「@佐爾坦能告訴汝它在哪裡。」",
+   "note": ""
+  },
+  {
+   "offset": 1297,
+   "len": 40,
+   "en": "\"I sense that you have met her already.\"",
+   "zh": "「吾感知到汝已與她相遇。」",
+   "note": "關於Penumbra"
+  },
+  {
+   "offset": 1338,
+   "len": 76,
+   "en": "\"There is no need for me to direct you there. You are destined to meet her.\"",
+   "zh": "「吾無需為汝指路。汝命中注定與她相遇。」",
+   "note": ""
+  },
+  {
+   "offset": 1423,
+   "len": 11,
+   "en": "\"No doubt.\"",
+   "zh": "「毋庸置疑。」",
+   "note": ""
+  },
+  {
+   "offset": 1440,
+   "len": 58,
+   "en": "\"My advice will cost you two gold. Do you still want it?\" ",
+   "zh": "「吾的建議需要兩枚金幣。汝仍想要嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1504,
+   "len": 12,
+   "en": "\"Very well.\"",
+   "zh": "「很好。」",
+   "note": ""
+  },
+  {
+   "offset": 1533,
+   "len": 24,
+   "en": "\"Best check your purse.\"",
+   "zh": "「最好先查查你的錢袋。」",
+   "note": ""
+  },
+  {
+   "offset": 1590,
+   "len": 81,
+   "en": "\"Look through the books at the @Lycaeum. You might learn something useful there.\"",
+   "zh": "「去查閱@萊西厄姆的藏書。汝或許能在那裡學到有用的東西。」",
+   "note": ""
+  },
+  {
+   "offset": 1676,
+   "len": 58,
+   "en": "\"I charge six gold to cast my tiles. Are you interested?\" ",
+   "zh": "「吾占卦需收六枚金幣。汝有意嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1740,
+   "len": 12,
+   "en": "\"Very well.\"",
+   "zh": "「很好。」",
+   "note": ""
+  },
+  {
+   "offset": 1769,
+   "len": 24,
+   "en": "\"Best check your purse.\"",
+   "zh": "「最好先查查你的錢袋。」",
+   "note": ""
+  },
+  {
+   "offset": 1826,
+   "len": 58,
+   "en": "From the folds of her cloak, she withdraws a velvet pouch.",
+   "zh": "她從斗篷的褶縫中取出一個絲絨袋。",
+   "note": ""
+  },
+  {
+   "offset": 1886,
+   "len": 141,
+   "en": "*After shaking it gently, she casts forth three small squares of ivory, each with an image etched into its surface and a title at the bottom.",
+   "zh": "*輕輕搖晃後，她擲出三枚小小的象牙方塊，每枚表面刻有圖案，底部有標題。",
+   "note": "保留 * 控制符"
+  },
+  {
+   "offset": 2030,
+   "len": 14,
+   "en": "The tiles are:",
+   "zh": "牌面為：",
+   "note": ""
+  },
+  {
+   "offset": 2088,
+   "len": 92,
+   "en": "\"If you consult the tiles another time, perhaps they will have more to say of your @future.\"",
+   "zh": "「若汝再次請吾占卦，也許牌面對汝的@未來會有更多啟示。」",
+   "note": ""
+  },
+  {
+   "offset": 2185,
+   "len": 37,
+   "en": "'Panda', 'Coin', and 'Bead of Glass'.",
+   "zh": "「熊貓」、「錢幣」與「玻璃珠」。",
+   "note": ""
+  },
+  {
+   "offset": 2225,
+   "len": 125,
+   "en": "Taynith says: \"There is something made of glass that plays a very important role in your future, but the signs are unclear.\"*",
+   "zh": "泰妮絲說：「有一件玻璃製成之物在汝的未來扮演極重要的角色，但徵兆尚不明朗。」*",
+   "note": "保留 * 控制符"
+  },
+  {
+   "offset": 2352,
+   "len": 85,
+   "en": "\"Seek out @Penumbra. Her crystal ball should hold more of an affinity for this item.\"",
+   "zh": "「去尋@潘努布拉。她的水晶球與此物的親和力應更深。」",
+   "note": ""
+  },
+  {
+   "offset": 2440,
+   "len": 54,
+   "en": "\"If you pay her enough, she can tell you more than I.\"",
+   "zh": "「若汝付得足夠，她能告訴汝的比吾更多。」",
+   "note": ""
+  },
+  {
+   "offset": 2495,
+   "len": 38,
+   "en": "'Abyss', 'Mountains', and 'Maelstrom'.",
+   "zh": "「深淵」、「群山」與「大旋渦」。",
+   "note": ""
+  },
+  {
+   "offset": 2536,
+   "len": 32,
+   "en": "Taynith says: \"This is strange.\"",
+   "zh": "泰妮絲說：「此事奇異。」",
+   "note": ""
+  },
+  {
+   "offset": 2570,
+   "len": 141,
+   "en": "*\"The tiles show that to accomplish your ends, you must go down very far, then up very far, but you will not end up back where you started.\"*",
+   "zh": "*「牌面顯示，為達目的，汝必須下行極深，再上行極高，但終點並非原點。」*",
+   "note": "保留 * 控制符"
+  },
+  {
+   "offset": 2713,
+   "len": 94,
+   "en": "\"The 'Maelstrom' indicates something important as well, but I cannot determine what it means.\"",
+   "zh": "「『大旋渦』亦代表某些重要之事，但吾無法確定其意。」",
+   "note": ""
+  },
+  {
+   "offset": 2808,
+   "len": 27,
+   "en": "'Path', 'War', and 'Rogue'.",
+   "zh": "「道路」、「戰爭」與「流氓」。",
+   "note": ""
+  },
+  {
+   "offset": 2838,
+   "len": 109,
+   "en": "The 'War' tile is particularly striking. It depicts a dragon and a tiger, each about to bite the others tail.",
+   "zh": "「戰爭」牌格外觸目驚心。上面畫著一龍一虎，各自即將咬住對方的尾巴。",
+   "note": ""
+  },
+  {
+   "offset": 2950,
+   "len": 81,
+   "en": "Taynith says: \"Britannia is on a path towards all out war, that is plain enough.\"",
+   "zh": "泰妮絲說：「不列顛尼亞正走向全面戰爭，此事再明顯不過。」",
+   "note": ""
+  },
+  {
+   "offset": 3034,
+   "len": 86,
+   "en": "\"The 'Rogue' is one who would go against the wishes of his Lord to find another path.\"",
+   "zh": "「『流氓』乃是一個不惜違抗其主公旨意、另尋他路之人。」",
+   "note": ""
+  },
+  {
+   "offset": 3121,
+   "len": 48,
+   "en": "'Bead of Glass', 'Maelstrom', and 'Clever Fish'.",
+   "zh": "「玻璃珠」、「大旋渦」與「聰明魚」。",
+   "note": ""
+  },
+  {
+   "offset": 3172,
+   "len": 106,
+   "en": "Taynith frowns. \"I cannot interpret this pattern. I'm afraid you'll have to seek its meaning on your own.\"",
+   "zh": "泰妮絲皺起眉頭。「吾無法解讀此組合。恐怕汝得自行探尋其意涵。」",
+   "note": ""
+  },
+  {
+   "offset": 3279,
+   "len": 43,
+   "en": "'Shaman', 'Blademaster', and 'Clever Fish'.",
+   "zh": "「薩滿」、「劍聖」與「聰明魚」。",
+   "note": ""
+  },
+  {
+   "offset": 3325,
+   "len": 87,
+   "en": "Taynith says: \"All of these things and more must you be to find success in your quest.\"",
+   "zh": "泰妮絲說：「此等種種乃至更多，汝皆須具備，方能在試煉中取得成功。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Taynith": "泰妮絲"}, "places": {}},
+ "translator_notes": "泰妮絲是吉普賽占卜師，神秘預知能力，用文言（「汝/吾/乃」）傳達莊重感。骨牌牌名直接翻譯。"
+}

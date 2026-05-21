@@ -1,0 +1,294 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 6,
+   "en": "Ybarra",
+   "zh": "伊芭拉",
+   "note": "NPC name，迷失在地道中的前水手"
+  },
+  {
+   "offset": 9,
+   "len": 46,
+   "en": "a sunken-faced, starving man, dressed in rags.",
+   "zh": "一個臉頰凹陷、衣衫襤褸、飢餓不堪的男人。",
+   "note": "DESC"
+  },
+  {
+   "offset": 65,
+   "len": 16,
+   "en": "\"Thou art back!\"",
+   "zh": "「你回來了！」",
+   "note": ""
+  },
+  {
+   "offset": 84,
+   "len": 37,
+   "en": "\"Please, please! @Give me some food!\"",
+   "zh": "「求求你，求求你！@Give給我一點食物！」",
+   "note": ""
+  },
+  {
+   "offset": 127,
+   "len": 49,
+   "en": "It takes a few moments for the man to notice you.",
+   "zh": "那男人過了片刻才注意到你。",
+   "note": "旁白"
+  },
+  {
+   "offset": 179,
+   "len": 13,
+   "en": "\"Hu--humans!\"",
+   "zh": "「人——人類！」",
+   "note": ""
+  },
+  {
+   "offset": 195,
+   "len": 43,
+   "en": "\"Please, you must help me!\" he says weakly.",
+   "zh": "「求求你，你一定要幫我！」他有氣無力地說。",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 241,
+   "len": 22,
+   "en": "\"I need @food, badly!\"",
+   "zh": "「我急需@food食物！」",
+   "note": ""
+  },
+  {
+   "offset": 277,
+   "len": 27,
+   "en": "\"Ybarra. Ybarra's my name.\"",
+   "zh": "「伊芭拉。伊芭拉是我的名字。」",
+   "note": ""
+  },
+  {
+   "offset": 314,
+   "len": 24,
+   "en": "\"Lost here, no job now.\"",
+   "zh": "「迷失在這裡，現在沒有工作了。」",
+   "note": ""
+  },
+  {
+   "offset": 341,
+   "len": 53,
+   "en": "\"I used to sail under Captain Hawkins on the Empire.\"",
+   "zh": "「我以前在帝國號上，在霍金斯船長手下航行。」",
+   "note": ""
+  },
+  {
+   "offset": 397,
+   "len": 20,
+   "en": "\"We had @food then!\"",
+   "zh": "「那時候我們有@food食物！」",
+   "note": ""
+  },
+  {
+   "offset": 420,
+   "len": 29,
+   "en": "\"But those days are gone....\"",
+   "zh": "「但那些日子一去不復返……」",
+   "note": ""
+  },
+  {
+   "offset": 460,
+   "len": 48,
+   "en": "\"Yes, @food! The last thing I ate was my @belt.\"",
+   "zh": "「是的，@food食物！我吃的最後一樣東西是我的@belt腰帶。」",
+   "note": ""
+  },
+  {
+   "offset": 511,
+   "len": 31,
+   "en": "\"And that was three weeks ago.\"",
+   "zh": "「那是三個星期前的事了。」",
+   "note": ""
+  },
+  {
+   "offset": 545,
+   "len": 41,
+   "en": "\"If only you could @give me some food...\"",
+   "zh": "「要是你能@give給我一點食物就好了……」",
+   "note": ""
+  },
+  {
+   "offset": 597,
+   "len": 37,
+   "en": "\"Not very tasty, but it was filling.\"",
+   "zh": "「味道不怎麼樣，但還是填飽了肚子。」",
+   "note": ""
+  },
+  {
+   "offset": 665,
+   "len": 16,
+   "en": "\"Map? Map. Map.\"",
+   "zh": "「地圖？地圖。地圖。」",
+   "note": ""
+  },
+  {
+   "offset": 697,
+   "len": 29,
+   "en": "\"You already got it from me.\"",
+   "zh": "「你已經從我這裡拿走了。」",
+   "note": ""
+  },
+  {
+   "offset": 734,
+   "len": 38,
+   "en": "\"Oh, the map. Yes, I still have that.\"",
+   "zh": "「哦，地圖。是的，我還有那個。」",
+   "note": ""
+  },
+  {
+   "offset": 775,
+   "len": 20,
+   "en": "\"I couldn't eat it.\"",
+   "zh": "「我沒辦法吃那東西。」",
+   "note": ""
+  },
+  {
+   "offset": 805,
+   "len": 43,
+   "en": "\"It ought to be worth some @food, surely?\" ",
+   "zh": "「它應該值幾口@food食物吧，對吧？」",
+   "note": "尾隨空格保留"
+  },
+  {
+   "offset": 859,
+   "len": 17,
+   "en": "\"Leave here? No!\"",
+   "zh": "「離開這裡？不！」",
+   "note": ""
+  },
+  {
+   "offset": 878,
+   "len": 45,
+   "en": "\"I've almost gotten the tunnels figured out!\"",
+   "zh": "「我快要弄清楚這些地道的走法了！」",
+   "note": ""
+  },
+  {
+   "offset": 926,
+   "len": 40,
+   "en": "\"Just a few more days and I'll be free!\"",
+   "zh": "「再過幾天我就能出去了！」",
+   "note": ""
+  },
+  {
+   "offset": 969,
+   "len": 24,
+   "en": "\"But I must have @food!\"",
+   "zh": "「但我必須有@food食物！」",
+   "note": ""
+  },
+  {
+   "offset": 1003,
+   "len": 36,
+   "en": "\"Don't go! I need @food... @food...\"",
+   "zh": "「別走！我需要@food食物……@food食物……」",
+   "note": ""
+  },
+  {
+   "offset": 1049,
+   "len": 6,
+   "en": "\"Huh?\"",
+   "zh": "「啊？」",
+   "note": ""
+  },
+  {
+   "offset": 1128,
+   "len": 10,
+   "en": "You share ",
+   "zh": "你分了",
+   "note": "旁白前半（單人版）"
+  },
+  {
+   "offset": 1143,
+   "len": 10,
+   "en": "$Y shares ",
+   "zh": "$Y分了",
+   "note": "旁白前半（隊伍版）"
+  },
+  {
+   "offset": 1154,
+   "len": 32,
+   "en": "some food with the pathetic man.",
+   "zh": "一些食物給這個可憐的男人。",
+   "note": "旁白後半"
+  },
+  {
+   "offset": 1221,
+   "len": 60,
+   "en": "\"Thunff fou,\" Ybarra says, stuffing the food into his mouth.",
+   "zh": "「謝、謝你，」伊芭拉一邊說，一邊把食物塞進嘴裡。",
+   "note": "嘴裡塞滿食物的含糊說法"
+  },
+  {
+   "offset": 1284,
+   "len": 71,
+   "en": "After finishing the offered meal, however, Ybarra still seemes starved.",
+   "zh": "然而吃完奉上的食物後，伊芭拉看起來依然飢餓。",
+   "note": "旁白"
+  },
+  {
+   "offset": 1360,
+   "len": 56,
+   "en": "Suddenly, you realize that you have no food to give him!",
+   "zh": "你突然意識到，你根本沒有食物可以給他！",
+   "note": "旁白"
+  },
+  {
+   "offset": 1419,
+   "len": 48,
+   "en": "\"No @food?\" he asks. \"Then thou art doomed too!\"",
+   "zh": "「沒有@food食物？」他問道。「那你也完了！」",
+   "note": ""
+  },
+  {
+   "offset": 1475,
+   "len": 73,
+   "en": "He hands you the map piece and rubs his hands, eagerly awaiting his food.",
+   "zh": "他把地圖碎片遞給你，搓了搓手，迫不及待地等著食物。",
+   "note": "旁白"
+  },
+  {
+   "offset": 1586,
+   "len": 62,
+   "en": "\"You must! I'll die! Just a little bit of @food for the map?\" ",
+   "zh": "「你必須給！我要死了！就換那麼一點點@food食物行嗎？」",
+   "note": "尾隨空格保留"
+  },
+  {
+   "offset": 1661,
+   "len": 99,
+   "en": "His last shred of hope torn away from him, the withered man leaps at you, screaming \"@Food! @Food!\"",
+   "zh": "最後一絲希望破滅，這個憔悴的男人撲向你，大喊「@Food食物！@Food食物！」",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 1770,
+   "len": 37,
+   "en": "\"Can I have a little before you go?\" ",
+   "zh": "「你走之前能給我一點嗎？」",
+   "note": "尾隨空格保留"
+  },
+  {
+   "offset": 1813,
+   "len": 47,
+   "en": "The man collapses, the last of his energy gone.",
+   "zh": "那男人癱倒在地，最後的一點力氣也耗盡了。",
+   "note": "旁白"
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {
+   "Ybarra": "伊芭拉",
+   "Captain Hawkins": "霍金斯船長"
+  },
+  "places": {}
+ },
+ "riddles_additions": [],
+ "translator_notes": "伊芭拉是迷失在海盜巢穴地道中的前帝國號水手，處於極度飢餓狀態——連腰帶都吃了。地圖碎片是重要道具（可換食物）。「Thunff fou」為嘴裡塞滿食物的「Thank you」，翻譯為含糊的「謝、謝你」以保留喜劇感。崩潰攻擊場景情緒轉折鮮明。"
+}

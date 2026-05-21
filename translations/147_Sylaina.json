@@ -1,0 +1,209 @@
+{
+ "translations": [
+  {
+   "offset": 10,
+   "len": 64,
+   "en": "a voluptuous woman dressed in dark blue velvet over white cloth.",
+   "zh": "身著白布外罩深藍絲絨的豐盈女子。",
+   "note": "DESC"
+  },
+  {
+   "offset": 82,
+   "len": 72,
+   "en": "\"Have you nothing better to do?\" she asks pointedly. \"Please excuse us.\"",
+   "zh": "「難道你沒有更好的事可做嗎？」她尖銳地問道。「請讓我們清靜。」",
+   "note": ""
+  },
+  {
+   "offset": 166,
+   "len": 40,
+   "en": "\"Hello there, stranger. Can I help you?\"",
+   "zh": "「你好，陌生人。有什麼能幫你的？」",
+   "note": ""
+  },
+  {
+   "offset": 218,
+   "len": 12,
+   "en": "\"Hello, $G.\"",
+   "zh": "「你好，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 239,
+   "len": 25,
+   "en": "\"I'm Sylaina @Moorehead.\"",
+   "zh": "「我是希拉依娜·@穆爾希德。」",
+   "note": ""
+  },
+  {
+   "offset": 274,
+   "len": 68,
+   "en": "\"When I need some money for food and such, I work as a @seamstress.\"",
+   "zh": "「需要買食物之類的東西時，我就做@裁縫師的活計。」",
+   "note": ""
+  },
+  {
+   "offset": 345,
+   "len": 54,
+   "en": "\"Most of the time, however, I live off the @seashore.\"",
+   "zh": "「不過大部分時間，我靠著@海邊生活。」",
+   "note": ""
+  },
+  {
+   "offset": 424,
+   "len": 60,
+   "en": "\"Yes. I used to make such fine clothes for my @Nathaniel...\"",
+   "zh": "「是的。我以前為我的@納撒尼爾縫製那麼漂亮的衣裳……」",
+   "note": ""
+  },
+  {
+   "offset": 495,
+   "len": 88,
+   "en": "\"Though he was not a bad husband, I'll always remember him as something of a scoundrel.\"",
+   "zh": "「雖然他稱不上壞丈夫，但我永遠記得他是個有點不老實的人。」",
+   "note": ""
+  },
+  {
+   "offset": 586,
+   "len": 53,
+   "en": "She smiles and her lovely eyes sparkle with memories.",
+   "zh": "她微笑，美麗的眼眸閃爍著往日的記憶。",
+   "note": ""
+  },
+  {
+   "offset": 642,
+   "len": 53,
+   "en": "\"They say he went down in a storm. He was a @pirate.\"",
+   "zh": "「據說他在一場風暴中沉沒。他是個@海盜。」",
+   "note": ""
+  },
+  {
+   "offset": 706,
+   "len": 53,
+   "en": "\"I'm a @widow now. I live in a cottage on the beach.\"",
+   "zh": "「我現在是個@寡婦。住在海邊的小屋裡。」",
+   "note": ""
+  },
+  {
+   "offset": 789,
+   "len": 83,
+   "en": "\"There's always a bit of fish or gull's eggs to eat, with lobster once in a while.\"",
+   "zh": "「總有幾條魚或幾枚海鷗蛋可吃，偶爾還有龍蝦。」",
+   "note": ""
+  },
+  {
+   "offset": 875,
+   "len": 30,
+   "en": "\"I'm as carefree as a @gypsy.\"",
+   "zh": "「我像@吉普賽人一樣無憂無慮。」",
+   "note": ""
+  },
+  {
+   "offset": 916,
+   "len": 105,
+   "en": "\"My husband left me a little money, to support myself for a time, but I still like to sew fine clothing.\"",
+   "zh": "「我丈夫留下了一點錢供我維持一段時間，但我仍喜歡縫製漂亮的衣裳。」",
+   "note": ""
+  },
+  {
+   "offset": 1024,
+   "len": 99,
+   "en": "\"There are few things as relaxing as embroidering and sitting by the ocean, listening to the surf.\"",
+   "zh": "「沒什麼比刺繡、坐在海邊聆聽浪聲更令人放鬆的了。」",
+   "note": ""
+  },
+  {
+   "offset": 1134,
+   "len": 51,
+   "en": "\"They travel the road between Britain and Trinsic.\"",
+   "zh": "「他們往返於不列顛與特林希克之間的道路。」",
+   "note": "關於吉普賽人"
+  },
+  {
+   "offset": 1188,
+   "len": 44,
+   "en": "\"Normally I like them. They're a merry lot.\"",
+   "zh": "「通常我喜歡他們。他們是一群歡快的人。」",
+   "note": ""
+  },
+  {
+   "offset": 1235,
+   "len": 59,
+   "en": "\"But one time a group of gypsies @stole my prized @locket!\"",
+   "zh": "「但有一次一群吉普賽人@偷走了我珍愛的@墜飾！」",
+   "note": ""
+  },
+  {
+   "offset": 1305,
+   "len": 35,
+   "en": "\"My husband left me a gold locket.\"",
+   "zh": "「我丈夫留給我一個金墜飾。」",
+   "note": ""
+  },
+  {
+   "offset": 1343,
+   "len": 85,
+   "en": "\"It contained a piece of an old ship's chart. He said that chart would make me rich.\"",
+   "zh": "「裡面裝著一張舊航海圖的碎片。他說那張圖會讓我發財。」",
+   "note": ""
+  },
+  {
+   "offset": 1431,
+   "len": 57,
+   "en": "\"I didn't really care about the chart. But the locket...\"",
+   "zh": "「我其實不在乎那張圖。但那個墜飾……」",
+   "note": ""
+  },
+  {
+   "offset": 1491,
+   "len": 54,
+   "en": "\"That locket was all I had to remember @Nathaniel by.\"",
+   "zh": "「那個墜飾是我用來記念@納撒尼爾的唯一物品。」",
+   "note": ""
+  },
+  {
+   "offset": 1548,
+   "len": 38,
+   "en": "She sighs and looks away for a moment.",
+   "zh": "她嘆口氣，片刻間望向別處。",
+   "note": ""
+  },
+  {
+   "offset": 1601,
+   "len": 105,
+   "en": "\"My husband left me a gold locket wrapped in a piece of an old ship's chart. Maybe that's what you seek.\"",
+   "zh": "「我丈夫留給我一個包在舊航海圖碎片中的金墜飾。也許那正是你在找的。」",
+   "note": ""
+  },
+  {
+   "offset": 1709,
+   "len": 90,
+   "en": "\"I don't have the locket or the map anymore. The gypsies came by one day and @stole them.\"",
+   "zh": "「我不再有那個墜飾或地圖了。有一天吉普賽人來@偷走了它們。」",
+   "note": ""
+  },
+  {
+   "offset": 1810,
+   "len": 63,
+   "en": "\"Yes--some gypsies are trustworthy, but others are scoundrels!\"",
+   "zh": "「是的——有些吉普賽人值得信任，但另一些是惡棍！」",
+   "note": ""
+  },
+  {
+   "offset": 1883,
+   "len": 10,
+   "en": "\"Bye-bye.\"",
+   "zh": "「再見。」",
+   "note": ""
+  },
+  {
+   "offset": 1898,
+   "len": 37,
+   "en": "\"Sorry, I cannot help you with that.\"",
+   "zh": "「抱歉，那方面我幫不上忙。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Sylaina": "希拉依娜", "Nathaniel": "納撒尼爾"}, "places": {}},
+ "translator_notes": "希拉依娜是海邊寡婦裁縫師，丈夫納撒尼爾是海盜，已溺斃。金墜飾（含航海圖碎片）被吉普賽人偷走，是重要線索。"
+}

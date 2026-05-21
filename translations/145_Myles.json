@@ -1,0 +1,160 @@
+{
+ "translations": [
+  {
+   "offset": 8,
+   "len": 20,
+   "en": "a young human child.",
+   "zh": "一個年幼的人類孩童。",
+   "note": "DESC"
+  },
+  {
+   "offset": 37,
+   "len": 11,
+   "en": "\"Hi again!\"",
+   "zh": "「又來了！」",
+   "note": ""
+  },
+  {
+   "offset": 49,
+   "len": 58,
+   "en": "\"Wow! Two-eyed people like me! You gotta go see my folks!\"",
+   "zh": "「哇！跟我一樣是兩隻眼睛的人！你一定要去見見我的家人！」",
+   "note": ""
+  },
+  {
+   "offset": 122,
+   "len": 12,
+   "en": "\"I'm Myles.\"",
+   "zh": "「我是邁爾斯。」",
+   "note": ""
+  },
+  {
+   "offset": 137,
+   "len": 43,
+   "en": "\"But Mama and Papa aren't good with names.\"",
+   "zh": "「但媽媽和爸爸不擅長記名字。」",
+   "note": ""
+  },
+  {
+   "offset": 183,
+   "len": 31,
+   "en": "\"They just call me 'tiny one!'\"",
+   "zh": "「他們只叫我『小不點』！」",
+   "note": ""
+  },
+  {
+   "offset": 235,
+   "len": 30,
+   "en": "\"They're not my real parents.\"",
+   "zh": "「他們不是我的親生父母。」",
+   "note": ""
+  },
+  {
+   "offset": 268,
+   "len": 38,
+   "en": "\"Mama and Papa found me on the beach.\"",
+   "zh": "「媽媽和爸爸在海灘上找到我的。」",
+   "note": ""
+  },
+  {
+   "offset": 309,
+   "len": 47,
+   "en": "\"I guess my real parents drowned or something.\"",
+   "zh": "「我想我的親生父母是溺死了或是怎麼了。」",
+   "note": ""
+  },
+  {
+   "offset": 359,
+   "len": 52,
+   "en": "\"That was long ago. I don't remember much about it.\"",
+   "zh": "「那是很久以前的事了。我不太記得。」",
+   "note": ""
+  },
+  {
+   "offset": 414,
+   "len": 71,
+   "en": "\"Mama and Papa said they used to have a son of their own, but he died.\"",
+   "zh": "「媽媽和爸爸說他們以前有自己的兒子，但他死了。」",
+   "note": ""
+  },
+  {
+   "offset": 488,
+   "len": 22,
+   "en": "\"So they @adopted me!\"",
+   "zh": "「所以他們@收養了我！」",
+   "note": ""
+  },
+  {
+   "offset": 521,
+   "len": 37,
+   "en": "\"We all live in that big old castle!\"",
+   "zh": "「我們都住在那座古老的大城堡裡！」",
+   "note": ""
+  },
+  {
+   "offset": 561,
+   "len": 85,
+   "en": "\"It's a real neat place, with all sorts of rooms and @cellars and stairs and @stuff.\"",
+   "zh": "「那是個很棒的地方，有各種各樣的房間、@地下室、樓梯和@雜物。」",
+   "note": ""
+  },
+  {
+   "offset": 662,
+   "len": 50,
+   "en": "\"A lot of places are locked. Papa keeps the keys.\"",
+   "zh": "「很多地方都鎖著。爸爸保管鑰匙。」",
+   "note": ""
+  },
+  {
+   "offset": 722,
+   "len": 28,
+   "en": "\"Oh, I help Mama and @Papa!\"",
+   "zh": "「哦，我幫媽媽和@爸爸！」",
+   "note": ""
+  },
+  {
+   "offset": 753,
+   "len": 98,
+   "en": "\"Though sometimes I think Papa wishes I were big and strong like a cyclops, so I could help more.\"",
+   "zh": "「雖然有時我覺得爸爸希望我像獨眼巨人一樣又大又壯，這樣我就能幫更多忙了。」",
+   "note": ""
+  },
+  {
+   "offset": 891,
+   "len": 54,
+   "en": "\"There's a whole lot of junk lying around the castle.\"",
+   "zh": "「城堡裡到處都是雜七雜八的東西。」",
+   "note": ""
+  },
+  {
+   "offset": 948,
+   "len": 28,
+   "en": "\"Ask Mama or Papa about it.\"",
+   "zh": "「去問媽媽或爸爸吧。」",
+   "note": ""
+  },
+  {
+   "offset": 979,
+   "len": 43,
+   "en": "\"Papa doesn't let me play with much of it.\"",
+   "zh": "「爸爸不讓我碰大部分的東西。」",
+   "note": ""
+  },
+  {
+   "offset": 1032,
+   "len": 16,
+   "en": "\"See you later!\"",
+   "zh": "「再見！」",
+   "note": ""
+  },
+  {
+   "offset": 1053,
+   "len": 6,
+   "en": "\"Huh?\"",
+   "zh": "「啥？」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Myles": "邁爾斯"}, "places": {}},
+ "translator_notes": "邁爾斯是被獨眼巨人夫婦收養的人類孩童，活潑直白的孩子口吻。獨眼巨人只叫他「小不點」。"
+}

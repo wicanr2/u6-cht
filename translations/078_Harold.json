@@ -1,0 +1,101 @@
+{
+ "translations": [
+  {
+   "offset": 9,
+   "len": 52,
+   "en": "a tall, muscular man with a solemn look on his face.",
+   "zh": "高大健壯、神情肅穆之男子。",
+   "note": "DESC"
+  },
+  {
+   "offset": 64,
+   "len": 14,
+   "en": "\"Welcome, $G.\"",
+   "zh": "「歡迎，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 81,
+   "len": 24,
+   "en": "\"What can I do for you?\"",
+   "zh": "「有何需要效勞？」",
+   "note": ""
+  },
+  {
+   "offset": 113,
+   "len": 20,
+   "en": "\"My name is Harold.\"",
+   "zh": "「在下哈羅德。」",
+   "note": ""
+  },
+  {
+   "offset": 169,
+   "len": 28,
+   "en": "\"@Horseshoes are my living.\"",
+   "zh": "「販售@馬蹄鐵乃在下之生計。」",
+   "note": ""
+  },
+  {
+   "offset": 207,
+   "len": 11,
+   "en": "\"Farewell.\"",
+   "zh": "「珍重。」",
+   "note": ""
+  },
+  {
+   "offset": 223,
+   "len": 29,
+   "en": "\"I can't help you with that.\"",
+   "zh": "「此事在下愛莫能助。」",
+   "note": ""
+  },
+  {
+   "offset": 339,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪位？」",
+   "note": ""
+  },
+  {
+   "offset": 394,
+   "len": 56,
+   "en": "\"It'll cost you 2 gold for the horseshoes, interested?\" ",
+   "zh": "「馬蹄鐵售價2枚金幣，有興趣否？」",
+   "note": ""
+  },
+  {
+   "offset": 470,
+   "len": 29,
+   "en": "\"You look pretty full to me.\"",
+   "zh": "「汝看來已攜滿了。」",
+   "note": ""
+  },
+  {
+   "offset": 558,
+   "len": 14,
+   "en": "\"Here you go.\"",
+   "zh": "「拿去吧。」",
+   "note": ""
+  },
+  {
+   "offset": 593,
+   "len": 34,
+   "en": "\"Best check your coinpouch again.\"",
+   "zh": "「最好再查查汝的錢袋。」",
+   "note": ""
+  },
+  {
+   "offset": 637,
+   "len": 11,
+   "en": "Very well.\"",
+   "zh": "好吧。」",
+   "note": "開頭無引號，保留原樣"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Harold": "哈羅德"
+  }
+ },
+ "translator_notes": "078 Harold: 崔西克馬蹄鐵鐵匠，話少實在。"
+}

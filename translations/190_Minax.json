@@ -1,0 +1,272 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 5,
+   "en": "Minax",
+   "zh": "米娜克斯",
+   "note": "NPC name，邪惡三位一體之一，熱情之體現"
+  },
+  {
+   "offset": 8,
+   "len": 39,
+   "en": "a stone statue of the evil witch Minax.",
+   "zh": "邪惡女巫米娜克斯的石像。",
+   "note": "DESC"
+  },
+  {
+   "offset": 63,
+   "len": 36,
+   "en": "\"For what dost thou return, Avatar?\"",
+   "zh": "「聖者，汝為何再度歸來？」",
+   "note": ""
+  },
+  {
+   "offset": 105,
+   "len": 84,
+   "en": "You remember quite clearly how you defeated Minax in your second visit to Brittania.",
+   "zh": "你清楚記得第二次造訪不列顛尼亞時，你是如何擊敗米娜克斯的。",
+   "note": "旁白"
+  },
+  {
+   "offset": 192,
+   "len": 74,
+   "en": "With a mighty sword blow, you slew the witch and destroyed her evil works.",
+   "zh": "你以強力的一劍斬殺了這位女巫，摧毀了她的邪惡傑作。",
+   "note": "旁白"
+  },
+  {
+   "offset": 269,
+   "len": 18,
+   "en": "The statue speaks!",
+   "zh": "石像開口了！",
+   "note": "旁白"
+  },
+  {
+   "offset": 290,
+   "len": 24,
+   "en": "\"We meet again, Avatar.\"",
+   "zh": "「我們再度相遇，聖者。」",
+   "note": ""
+  },
+  {
+   "offset": 317,
+   "len": 55,
+   "en": "\"Fear not! I have but one @task now, and am no threat.\"",
+   "zh": "「無需畏懼！我如今只有一個@task使命，不再構成威脅。」",
+   "note": ""
+  },
+  {
+   "offset": 381,
+   "len": 55,
+   "en": "\"Surely you of all people would recognize me as Minax.\"",
+   "zh": "「你更勝旁人，理當認得我是米娜克斯。」",
+   "note": ""
+  },
+  {
+   "offset": 451,
+   "len": 76,
+   "en": "\"The gargoyles have enshrined my spirit here as the embodiment of @passion.\"",
+   "zh": "「魔像將吾之靈魂奉祀於此，作為@passion熱情之體現。」",
+   "note": ""
+  },
+  {
+   "offset": 543,
+   "len": 32,
+   "en": "\"I was once a mighty sorceress.\"",
+   "zh": "「吾昔日乃一代強大女術士。」",
+   "note": ""
+  },
+  {
+   "offset": 578,
+   "len": 37,
+   "en": "\"Passion was the essence of my soul.\"",
+   "zh": "「熱情乃吾靈魂之本質。」",
+   "note": ""
+  },
+  {
+   "offset": 618,
+   "len": 34,
+   "en": "\"But that passion knew no bounds.\"",
+   "zh": "「然而那熱情毫無邊界。」",
+   "note": ""
+  },
+  {
+   "offset": 655,
+   "len": 65,
+   "en": "\"I wanted everything, and because of this strove to conquer all.\"",
+   "zh": "「吾貪圖一切，因此矢志征服萬物。」",
+   "note": ""
+  },
+  {
+   "offset": 723,
+   "len": 36,
+   "en": "\"Passion must be directed, focused.\"",
+   "zh": "「熱情必須有所導向，加以聚焦。」",
+   "note": ""
+  },
+  {
+   "offset": 762,
+   "len": 64,
+   "en": "\"Unbridled passion, desire for all things, leads only to chaos.\"",
+   "zh": "「無節制的熱情、對萬物的渴望，只會帶來混亂。」",
+   "note": ""
+  },
+  {
+   "offset": 829,
+   "len": 35,
+   "en": "\"The gargoyles understand passion.\"",
+   "zh": "「魔像深諳熱情之道。」",
+   "note": ""
+  },
+  {
+   "offset": 867,
+   "len": 77,
+   "en": "\"Their society is based on the passionate leading those who lack motivation.\"",
+   "zh": "「其社會以熱情之人引導缺乏動力者為基礎。」",
+   "note": ""
+  },
+  {
+   "offset": 946,
+   "len": 72,
+   "en": "\"In this way, they have the will to struggle against their harsh world.\"",
+   "zh": "「如此，他們才有意志與嚴酷的世界抗爭。」",
+   "note": ""
+  },
+  {
+   "offset": 1043,
+   "len": 43,
+   "en": "\"I have no concern for matters such as $Z.\"",
+   "zh": "「$Z之事，吾不關心。」",
+   "note": ""
+  },
+  {
+   "offset": 1087,
+   "len": 76,
+   "en": "\"I am enshrined here in eternal contemplation of the principle of @passion.\"",
+   "zh": "「吾永恆地奉祀於此，沉思@passion熱情之原則。」",
+   "note": ""
+  },
+  {
+   "offset": 1166,
+   "len": 43,
+   "en": "\"I have no concern for matters such as $Z.\"",
+   "zh": "「$Z之事，吾不關心。」",
+   "note": "重複"
+  },
+  {
+   "offset": 1223,
+   "len": 76,
+   "en": "\"Contemplate what thou hast learned. Repeat after me the Mantra of Passion.\"",
+   "zh": "「默想汝所習得之事。隨吾覆誦熱情真言。」",
+   "note": ""
+  },
+  {
+   "offset": 1302,
+   "len": 7,
+   "en": "Or.... ",
+   "zh": "Or…… ",
+   "note": "真言咒語，保留原文"
+  },
+  {
+   "offset": 1312,
+   "len": 9,
+   "en": "Or.... $0",
+   "zh": "Or…… $0",
+   "note": "真言互動"
+  },
+  {
+   "offset": 1324,
+   "len": 9,
+   "en": "Or.... $0",
+   "zh": "Or…… $0",
+   "note": "真言互動"
+  },
+  {
+   "offset": 1346,
+   "len": 27,
+   "en": "\"I can teach thee no more.\"",
+   "zh": "「吾已無更多可教。」",
+   "note": ""
+  },
+  {
+   "offset": 1384,
+   "len": 60,
+   "en": "\"Thy understanding is flawed. But I can teach thee no more.\"",
+   "zh": "「汝之理解有所缺失。然吾已無更多可教。」",
+   "note": ""
+  },
+  {
+   "offset": 1459,
+   "len": 19,
+   "en": "\"Farewell, Avatar.\"",
+   "zh": "「別了，聖者。」",
+   "note": ""
+  },
+  {
+   "offset": 1481,
+   "len": 50,
+   "en": "\"May thy @passion drive thy quest toward success.\"",
+   "zh": "「願汝之@passion熱情驅策汝的使命邁向成功。」",
+   "note": ""
+  },
+  {
+   "offset": 1557,
+   "len": 57,
+   "en": "\"Thou wilt need passion to succeed in thy quest, Avatar.\"",
+   "zh": "「汝的使命需要熱情方能成功，聖者。」",
+   "note": ""
+  },
+  {
+   "offset": 1617,
+   "len": 66,
+   "en": "\"But thou must limit thy passion, lest balance and order be lost.\"",
+   "zh": "「然汝必須節制熱情，以免失去平衡與秩序。」",
+   "note": ""
+  },
+  {
+   "offset": 1686,
+   "len": 14,
+   "en": "\"$0 @passion.\"",
+   "zh": "「$0@passion熱情。」",
+   "note": "評語後半"
+  },
+  {
+   "offset": 1708,
+   "len": 35,
+   "en": "Thy deeds show nought but unlimited",
+   "zh": "汝之行為顯示不過是無節制的",
+   "note": "旁白前半（差等）"
+  },
+  {
+   "offset": 1744,
+   "len": 35,
+   "en": "Thy deeds show misguided but strong",
+   "zh": "汝之行為顯示方向有誤但強烈的",
+   "note": "旁白前半（中等）"
+  },
+  {
+   "offset": 1780,
+   "len": 32,
+   "en": "Thy deeds show the merits of thy",
+   "zh": "汝之行為彰顯了汝之",
+   "note": "旁白前半（良等）"
+  },
+  {
+   "offset": 1813,
+   "len": 26,
+   "en": "I admire thy deeds and thy",
+   "zh": "吾欽佩汝之行為與汝之",
+   "note": "旁白前半（優等）"
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {
+   "Minax": "米娜克斯"
+  },
+  "places": {}
+ },
+ "riddles_additions": [],
+ "translator_notes": "米娜克斯是U2反派，在魔像神殿中以熱情原則之體現的身份存在。真言「Or」保留英文。結構與蒙丹（189）平行，但強調熱情的節制而非操控的自律。"
+}

@@ -1,0 +1,165 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 12,
+   "en": "Spirituality",
+   "zh": "靈性祭壇",
+   "note": "NPC name — 神殿祭壇"
+  },
+  {
+   "offset": 15,
+   "len": 26,
+   "en": "the altar of Spirituality.",
+   "zh": "靈性之祭壇。",
+   "note": "DESC"
+  },
+  {
+   "offset": 45,
+   "len": 68,
+   "en": "As you kneel before the altar, a mystical voice sounds in your head.",
+   "zh": "當你跪在祭壇前，一個神秘的聲音在你腦中迴響。",
+   "note": "旁白"
+  },
+  {
+   "offset": 123,
+   "len": 45,
+   "en": "\"Thou hast much to learn about spirituality.\"",
+   "zh": "「汝對靈性仍有許多須學習之處。」",
+   "note": "低階評語"
+  },
+  {
+   "offset": 181,
+   "len": 47,
+   "en": "\"Thy deeds have shown admirable spirituality.\"",
+   "zh": "「汝之行為展現了令人欽佩的靈性。」",
+   "note": "中階評語"
+  },
+  {
+   "offset": 228,
+   "len": 39,
+   "en": "\"Thy deeds serve as an example to all.\"",
+   "zh": "「汝之行為可為眾人表率。」",
+   "note": "高階評語"
+  },
+  {
+   "offset": 271,
+   "len": 39,
+   "en": "Do you wish to meditate at this altar? ",
+   "zh": "你希望在此祭壇冥想嗎？",
+   "note": "旁白提示，尾隨空格保留"
+  },
+  {
+   "offset": 360,
+   "len": 6,
+   "en": "#2. $Y",
+   "zh": "#2。$Y",
+   "note": "控制符保留"
+  },
+  {
+   "offset": 400,
+   "len": 21,
+   "en": "\"Who will meditate?\" ",
+   "zh": "「誰來冥想？」",
+   "note": "尾隨空格保留"
+  },
+  {
+   "offset": 457,
+   "len": 34,
+   "en": "\"Speak the Mantra of Spirituality.\"",
+   "zh": "「覆誦靈性真言。」",
+   "note": ""
+  },
+  {
+   "offset": 495,
+   "len": 13,
+   "en": "\"$Z... $Z...\"",
+   "zh": "「$Z…… $Z……」",
+   "note": "真言提示第一次"
+  },
+  {
+   "offset": 511,
+   "len": 13,
+   "en": "\"$Z... $Z...\"",
+   "zh": "「$Z…… $Z……」",
+   "note": "真言提示第二次"
+  },
+  {
+   "offset": 527,
+   "len": 13,
+   "en": "\"$Z... $Z...\"",
+   "zh": "「$Z…… $Z……」",
+   "note": "真言提示第三次"
+  },
+  {
+   "offset": 546,
+   "len": 68,
+   "en": "\"Throughout this varied and eternal world, soul is the only element.\"",
+   "zh": "「縱貫這多變而永恆的世界，靈魂是唯一的元素。」",
+   "note": "聖言"
+  },
+  {
+   "offset": 618,
+   "len": 50,
+   "en": "\"The wealth of the spirit is the only true wealth.\"",
+   "zh": "「靈魂的財富，是唯一真實的財富。」",
+   "note": "聖言"
+  },
+  {
+   "offset": 678,
+   "len": 29,
+   "en": "You receive no enlightenment.",
+   "zh": "你未能獲得啟示。",
+   "note": "旁白"
+  },
+  {
+   "offset": 932,
+   "len": 24,
+   "en": "$Y has gained a level...",
+   "zh": "$Y提升了一個等級……",
+   "note": "升級旁白"
+  },
+  {
+   "offset": 959,
+   "len": 15,
+   "en": "intelligence...",
+   "zh": "智力……",
+   "note": "能力提升（靈性→智力+力量+敏捷，第一項）"
+  },
+  {
+   "offset": 977,
+   "len": 10,
+   "en": "strength...",
+   "zh": "力量……",
+   "note": "能力提升第二項"
+  },
+  {
+   "offset": 991,
+   "len": 14,
+   "en": "and dexterity!",
+   "zh": "以及敏捷！",
+   "note": "能力提升第三項"
+  },
+  {
+   "offset": 1009,
+   "len": 53,
+   "en": "\"There is naught else for you to learn here and now.\"",
+   "zh": "「此刻此地，汝已無更多可學。」",
+   "note": ""
+  },
+  {
+   "offset": 1065,
+   "len": 49,
+   "en": "\"Return when thy journey has progressed further.\"",
+   "zh": "「待汝的旅程更進一步，再行回返。」",
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {},
+  "places": {}
+ },
+ "riddles_additions": [],
+ "translator_notes": "靈性神殿，真言 om（不翻譯）。冥想獲得智力+力量+敏捷全提升（三項，最多的神殿）。聖言為靈性與物質對立的哲思。"
+}

@@ -1,0 +1,316 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 5,
+   "en": "Dupre",
+   "zh": "杜普 ",
+   "zh_bytes": 5,
+   "note": "人名；len=5 限制下用短譯『杜普』+空白塞滿 5 bytes"
+  },
+  {
+   "offset": 8,
+   "len": 58,
+   "en": "a ruggedly handsome man, wearing a gleaming suit of armor.",
+   "zh": "一名粗獷英挺的男子，身披一襲閃亮的甲甲。",
+   "zh_bytes": 40,
+   "note": "描述句"
+  },
+  {
+   "offset": 75,
+   "len": 10,
+   "en": "\"Yes, $P?\"",
+   "zh": "何事，$P？",
+   "zh_bytes": 10,
+   "note": "保留 $P；len=10 故省略「」"
+  },
+  {
+   "offset": 88,
+   "len": 4,
+   "en": "name",
+   "zh": "名字",
+   "zh_bytes": 4,
+   "note": "@name keyword"
+  },
+  {
+   "offset": 93,
+   "len": 46,
+   "en": "\"It's Dupre - sounds like dew pray, remember?\"",
+   "zh": "「是杜普雷——聽起來像『朝露之禱』，記得吧？」",
+   "zh_bytes": 46,
+   "note": "諧音雙關，寫入 riddles"
+  },
+  {
+   "offset": 145,
+   "len": 3,
+   "en": "job",
+   "zh": "業 ",
+   "zh_bytes": 3,
+   "note": "@job keyword；len=3 限制下單字『業』+空白"
+  },
+  {
+   "offset": 149,
+   "len": 76,
+   "en": "\"Why, questing, of course! We've been on many a @quest together, you and I.\"",
+   "zh": "「當然是闖蕩@試煉啦！咱倆可一同經歷過不少@試煉哩。」",
+   "zh_bytes": 52,
+   "note": "豪邁軍人腔"
+  },
+  {
+   "offset": 231,
+   "len": 4,
+   "en": "ques",
+   "zh": "試煉",
+   "zh_bytes": 4,
+   "note": "@quest keyword 對應"
+  },
+  {
+   "offset": 236,
+   "len": 44,
+   "en": "\"Yes, you've gone on some really fine ones.\"",
+   "zh": "「是啊，兄弟，你可幹過幾樁漂亮的活兒。」",
+   "zh_bytes": 40,
+   "note": "稱玩家『兄弟』"
+  },
+  {
+   "offset": 283,
+   "len": 95,
+   "en": "\"When you're not around I have to settle for rescuing @damsels, finding @grails, and the like.\"",
+   "zh": "「你不在時，我只好將就著去解救@佳人、尋找@聖杯之類的勾當。」",
+   "zh_bytes": 60,
+   "note": "@damsels @grails"
+  },
+  {
+   "offset": 384,
+   "len": 9,
+   "en": "resc,dams",
+   "zh": "解救,佳人",
+   "zh_bytes": 9,
+   "note": "兩個 keyword 對應"
+  },
+  {
+   "offset": 394,
+   "len": 20,
+   "en": "\"It could be worse.\"",
+   "zh": "「也算不上苦差事。」",
+   "zh_bytes": 20,
+   "note": "好色弦外之音"
+  },
+  {
+   "offset": 417,
+   "len": 84,
+   "en": "\"Some of them are pretty eager to show their @gratitude, if you know what I mean...\"",
+   "zh": "「她們之中可有幾位，急著要向我表達@謝意呢，你@明白我的@意思吧……」",
+   "zh_bytes": 67,
+   "note": "好色但不下流；含 @grat @know @mean"
+  },
+  {
+   "offset": 507,
+   "len": 19,
+   "en": "eage,grat,know,mean",
+   "zh": "急著,謝意,明白,意思",
+   "zh_bytes": 19,
+   "note": "四個 keyword"
+  },
+  {
+   "offset": 527,
+   "len": 40,
+   "en": "\"Wink wink, nudge nudge, say no more...\"",
+   "zh": "「眨眼示意，戳一下肋骨，不必多說……」",
+   "zh_bytes": 38,
+   "note": "Monty Python 致敬，寫入 riddles"
+  },
+  {
+   "offset": 573,
+   "len": 9,
+   "en": "find,grai",
+   "zh": "尋找,聖杯",
+   "zh_bytes": 9,
+   "note": "兩個 keyword"
+  },
+  {
+   "offset": 583,
+   "len": 15,
+   "en": "\"That's right.\"",
+   "zh": "「正是如此。」",
+   "zh_bytes": 14,
+   "note": ""
+  },
+  {
+   "offset": 601,
+   "len": 96,
+   "en": "\"Lord British likes to keep grails around to use at his @banquets, but he's always losing them.\"",
+   "zh": "「不列顛王愛在@宴會上拿聖杯擺場面，可他老是把那玩意兒搞丟。」",
+   "zh_bytes": 61,
+   "note": "@banquets keyword"
+  },
+  {
+   "offset": 703,
+   "len": 14,
+   "en": "lord,brit,banq",
+   "zh": "不列顛王,宴會",
+   "zh_bytes": 13,
+   "note": "兩個 keyword (lord+brit 連起來指 Lord British)"
+  },
+  {
+   "offset": 718,
+   "len": 82,
+   "en": "\"He'll throw us a fine feast if you can deal with the @gargoyle invasion somehow.\"",
+   "zh": "「兄弟，你若能想法子收拾@魔像族的@入侵，他必設盛宴款待咱們。」",
+   "zh_bytes": 62,
+   "note": "@gargoyle @invasion"
+  },
+  {
+   "offset": 806,
+   "len": 9,
+   "en": "garg,inva",
+   "zh": "魔像,侵  ",
+   "zh_bytes": 9,
+   "note": "兩個 keyword；len=9 限制下縮為『魔像』『侵』+空白塞滿；keyword 前綴匹配仍有效"
+  },
+  {
+   "offset": 816,
+   "len": 50,
+   "en": "\"They may be the toughest threat we've ever faced.",
+   "zh": "「彼輩或許是咱們此生所遇最棘手的勁敵。",
+   "zh_bytes": 38,
+   "note": "軍人腔，注意原文無結尾引號"
+  },
+  {
+   "offset": 872,
+   "len": 4,
+   "en": "join",
+   "zh": "入伙",
+   "zh_bytes": 4,
+   "note": "@join keyword"
+  },
+  {
+   "offset": 877,
+   "len": 62,
+   "en": "\"I've been with you since the start of this quest, haven't I?\"",
+   "zh": "「老朋友，這趟試煉打從一開始我便隨你同行，不是嗎？」",
+   "zh_bytes": 52,
+   "note": "稱『老朋友』"
+  },
+  {
+   "offset": 945,
+   "len": 4,
+   "en": "leav",
+   "zh": "離隊",
+   "zh_bytes": 4,
+   "note": "@leave keyword"
+  },
+  {
+   "offset": 950,
+   "len": 89,
+   "en": "\"Lord British gave me strict orders not to leave your side until this quest is complete.\"",
+   "zh": "「不列顛王嚴令在身——這趟試煉未了之前，我不得離你左右半步。」",
+   "zh_bytes": 62,
+   "note": ""
+  },
+  {
+   "offset": 1042,
+   "len": 52,
+   "en": "\"Besides, you know how I hate to miss a good quest.\"",
+   "zh": "「再說，你也清楚，好試煉我可從不肯錯過。」",
+   "zh_bytes": 42,
+   "note": ""
+  },
+  {
+   "offset": 1100,
+   "len": 4,
+   "en": "duck",
+   "zh": "鴨子",
+   "zh_bytes": 4,
+   "note": "@duck keyword"
+  },
+  {
+   "offset": 1105,
+   "len": 39,
+   "en": "\"Please, let's not talk about ducks...\"",
+   "zh": "「拜託，咱們別再提鴨子的事了……」",
+   "zh_bytes": 34,
+   "note": "Ultima 系列梗，Dupre 怕鴨子"
+  },
+  {
+   "offset": 1150,
+   "len": 3,
+   "en": "bye",
+   "zh": "別 ",
+   "zh_bytes": 3,
+   "note": "@bye keyword；len=3 限制下用『別』+空白；keyword 前綴匹配仍有效"
+  },
+  {
+   "offset": 1154,
+   "len": 51,
+   "en": "\"Yes, enough chit chat. Let's go find some action!\"",
+   "zh": "「好啦，閒話夠多了。走，咱們找場硬仗去！」",
+   "zh_bytes": 42,
+   "note": "軍人腔"
+  },
+  {
+   "offset": 1210,
+   "len": 22,
+   "en": "\"Ask Iolo about that.\"",
+   "zh": "「那事兒去問尤洛吧。」",
+   "zh_bytes": 22,
+   "note": "預設應答，導向尤洛"
+  }
+ ],
+ "keyword_mapping": {
+  "@name": "@名字",
+  "@job": "@職業",
+  "@quest": "@試煉",
+  "@rescue": "@解救",
+  "@damsels": "@佳人",
+  "@grails": "@聖杯",
+  "@find": "@尋找",
+  "@eager": "@急著",
+  "@gratitude": "@謝意",
+  "@know": "@明白",
+  "@mean": "@意思",
+  "@banquets": "@宴會",
+  "@gargoyle": "@魔像族",
+  "@invasion": "@入侵",
+  "@join": "@入伙",
+  "@leave": "@離隊",
+  "@duck": "@鴨子",
+  "@bye": "@再見"
+ },
+ "glossary_additions": {
+  "concepts": {
+   "quest": "試煉",
+   "damsel": "佳人",
+   "grail": "聖杯",
+   "banquet": "宴會",
+   "invasion": "入侵"
+  }
+ },
+ "riddles_additions": [
+  {
+   "npc": "Dupre",
+   "key": "DEW_PRAY",
+   "en": "It's Dupre - sounds like dew pray, remember?",
+   "zh": "是杜普雷——聽起來像『朝露之禱』，記得吧？",
+   "ref": "Dupre / dew pray 英語諧音雙關",
+   "strategy": "音譯保留人名『杜普雷』，諧音改寫為意境相近的中文短語『朝露之禱』"
+  },
+  {
+   "npc": "Dupre",
+   "key": "WINK_NUDGE",
+   "en": "Wink wink, nudge nudge, say no more...",
+   "zh": "眨眼示意，戳一下肋骨，不必多說……",
+   "ref": "Monty Python's Flying Circus sketch 致敬",
+   "strategy": "直譯動作 + 保留『不必多說』暗示語氣"
+  },
+  {
+   "npc": "Dupre",
+   "key": "DUCKS",
+   "en": "Please, let's not talk about ducks...",
+   "zh": "拜託，咱們別再提鴨子的事了……",
+   "ref": "Ultima V 系列梗：Dupre 怕鴨子",
+   "strategy": "直譯，保留荒謬幽默"
+  }
+ ],
+ "translator_notes": "Dupre 採『豪邁兄弟兵』口吻。本版修正 5 處 byte overflow：(1) offset 2 '杜普雷'(6) → '杜普 '(5)，避免人名顯示但保 byte；(2) offset 75 移除「」，'何事，$P？'(10) 剛好等於 len；(3) offset 145 'job' 譯為單字『業 '(3)，可能稍弱但 byte 對齊；(4) offset 806 '魔像,侵  '(9)，keyword 仍前綴匹配 garg/inva；(5) offset 1150 'bye' 譯為『別 '(3)。所有 zh_bytes ≤ len 確認。@quest 譯為『試煉』與 glossary 既有 'Avatar's quest=聖者試煉' 一致。lord,brit 兩個 keyword 共指 Lord British，譯文合併為單一『不列顛王』。注意 offset 816 字串原文末尾無結尾引號，譯文保留不加閉引號以對齊。"
+}

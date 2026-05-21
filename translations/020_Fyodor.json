@@ -1,0 +1,108 @@
+{
+  "_meta": {
+    "npc": "Fyodor",
+    "role": "彩衣織匠，手指修長靈巧；織機設計來自不列顛王舊書。會提到 L. Frank Baum 的『奧茲巫師』與新馬精西亞織絲師夏綠蒂（Charlotte）。為玩家熱氣球線索鋪墊。"
+  },
+  "translations": [
+    {"offset": 2, "len": 6, "en": "Fyodor", "zh": "費歐多", "zh_bytes": 6, "note": "人名音譯；len=6 容三字"},
+    {"offset": 10, "len": 66, "en": "a man in a multicolored jacket. His fingers are long and graceful.", "zh": "一名身披彩衣之人，手指修長而靈巧。", "zh_bytes": 34, "note": "描述句"},
+    {"offset": 85, "len": 18, "en": "\"Hello again, $G.\"", "zh": "「$G，又見面了。」", "zh_bytes": 18, "note": "保留 $G"},
+    {"offset": 104, "len": 14, "en": "\"Good $T, $G.\"", "zh": "「$T好，$G。」", "zh_bytes": 14, "note": "緊；保留 $T/$G"},
+    {"offset": 129, "len": 24, "en": "\"What can I do for you?\"", "zh": "「我能為汝效何勞？」", "zh_bytes": 20, "note": ""},
+    {"offset": 156, "len": 4, "en": "name", "zh": "名字", "zh_bytes": 4, "note": "@name keyword"},
+    {"offset": 161, "len": 38, "en": "\"My name is Fyodor. What is thy name?\"", "zh": "「我喚作費歐多。汝姓甚名誰？」", "zh_bytes": 30, "note": ""},
+    {"offset": 202, "len": 28, "en": "\"Pleased to meet thee, `$Z.\"", "zh": "「幸會，`$Z。」", "zh_bytes": 15, "note": "保留 `$Z 變數（玩家輸入名字）"},
+    {"offset": 242, "len": 3, "en": "job", "zh": "業", "zh_bytes": 2, "note": "@job keyword"},
+    {"offset": 246, "len": 62, "en": "\"I make cloth upon my @loom. Perhaps you'd like to @buy some.\"", "zh": "「我以@織機織布。汝或想@買些。」", "zh_bytes": 32, "note": "@loom → @織機；@buy → @買"},
+    {"offset": 314, "len": 3, "en": "buy", "zh": "買", "zh_bytes": 2, "note": "@buy keyword"},
+    {"offset": 331, "len": 33, "en": "\"I fear I have none with me, $G.\"", "zh": "「恐怕我此處無存貨，$G。」", "zh_bytes": 26, "note": ""},
+    {"offset": 367, "len": 53, "en": "\"Come back when I'm at my loom; I'll help thee then.\"", "zh": "「待我在織機前時再來，我便為汝服務。」", "zh_bytes": 38, "note": ""},
+    {"offset": 427, "len": 4, "en": "sell", "zh": "賣", "zh_bytes": 2, "note": "@sell keyword"},
+    {"offset": 445, "len": 33, "en": "\"But I don't need wool here, $G!\"", "zh": "「但我此地用不上羊毛，$G！」", "zh_bytes": 28, "note": ""},
+    {"offset": 481, "len": 58, "en": "\"Come back when I'm at my loom; I'll deal with thee then.\"", "zh": "「待我在織機前時再來，我便與汝交易。」", "zh_bytes": 38, "note": ""},
+    {"offset": 546, "len": 9, "en": "clot,loom", "zh": "布,織機", "zh_bytes": 7, "note": "keyword 群組"},
+    {"offset": 563, "len": 44, "en": "\"I push the pedals with my feet--like this.\"", "zh": "「以足踩動踏板——像這樣。」", "zh_bytes": 28, "note": ""},
+    {"offset": 610, "len": 27, "en": "\"Then I pull these levers.\"", "zh": "「然後拉動這些把手。」", "zh_bytes": 22, "note": ""},
+    {"offset": 640, "len": 72, "en": "\"The pattern depends on which combinations of levers and pedals I move.\"", "zh": "「花紋取決於我移動把手與踏板的各種組合。」", "zh_bytes": 42, "note": ""},
+    {"offset": 715, "len": 106, "en": "\"My father's loom was not so complicated as mine. This design came from one of Lord British's old @books.\"", "zh": "「家父之織機不若此般繁複。此設計來自不列顛王一本舊@書。」", "zh_bytes": 57, "note": "Lord British → 不列顛王（首次出現用全稱）"},
+    {"offset": 827, "len": 94, "en": "\"I work on a large new loom. The plans for it were found in one of Lord British's old @books.\"", "zh": "「我所操作之新織機甚大。圖樣來自不列顛王一本舊@書。」", "zh_bytes": 53, "note": ""},
+    {"offset": 927, "len": 18, "en": "lord,brit,old,book", "zh": "不列顛王,舊,書", "zh_bytes": 14, "note": "keyword 群組"},
+    {"offset": 946, "len": 87, "en": "\"Lord British treasures antiques. There is one book for which he hath offered a reward:", "zh": "「不列顛王珍視古物。有一本書他願以重金懸賞：", "zh_bytes": 44, "note": ""},
+    {"offset": 1036, "len": 22, "en": "\"'The Wizard of @Oz.'\"", "zh": "「『@奧茲@巫師』。」", "zh_bytes": 20, "note": "@Oz → @奧茲；@wiza 觸發後續說明（書名）"},
+    {"offset": 1064, "len": 7, "en": "wiza,oz", "zh": "巫,奧茲", "zh_bytes": 7, "note": "keyword 群組緊"},
+    {"offset": 1072, "len": 37, "en": "\"By Master L. Frank Baum, I believe.\"", "zh": "「想是 L·法蘭克·鮑姆 所著。」", "zh_bytes": 31, "note": "L. Frank Baum → 法蘭克·鮑姆（glossary）"},
+    {"offset": 1112, "len": 74, "en": "\"It concerns a girl adventurer, a strange land, and a clever @balloonist.\"", "zh": "「書中講一少女冒險者、奇境，以及一名聰穎的@氣球師。」", "zh_bytes": 53, "note": "@balloonist → @氣球師"},
+    {"offset": 1192, "len": 4, "en": "ball", "zh": "氣球", "zh_bytes": 4, "note": "@balloon keyword"},
+    {"offset": 1197, "len": 57, "en": "\"Are they not made of @silk, in the form of a great bag?\"", "zh": "「莫非以@絲綢製成，狀如大袋？」", "zh_bytes": 31, "note": "@silk → @絲綢"},
+    {"offset": 1260, "len": 8, "en": "silk,bag", "zh": "絲,袋", "zh_bytes": 5, "note": "keyword 群組"},
+    {"offset": 1269, "len": 53, "en": "\"'Tis a wondrous strong stuff, silk, and very light.\"", "zh": "「絲乃奇強之物，輕巧無比。」", "zh_bytes": 28, "note": ""},
+    {"offset": 1325, "len": 55, "en": "\"I regret that I am not skillful enough to weave silk.\"", "zh": "「可惜我手藝未足以織絲。」", "zh_bytes": 26, "note": ""},
+    {"offset": 1383, "len": 61, "en": "\"In New Magincia, however, lives the silk-weaver @Charlotte.\"", "zh": "「然而新馬精西亞有一織絲師@夏綠蒂居於彼處。」", "zh_bytes": 45, "note": "@Charlotte → @夏綠蒂；New Magincia → 新馬精西亞"},
+    {"offset": 1450, "len": 4, "en": "char", "zh": "夏綠", "zh_bytes": 4, "note": "@Charlotte keyword"},
+    {"offset": 1455, "len": 54, "en": "\"She is the only person I know of who can weave silk.\"", "zh": "「她是我所知唯一能織絲之人。」", "zh_bytes": 30, "note": ""},
+    {"offset": 1515, "len": 3, "en": "bye", "zh": "別", "zh_bytes": 2, "note": "@bye keyword"},
+    {"offset": 1519, "len": 37, "en": "\"May our paths cross again some day.\"", "zh": "「願日後我等再會。」", "zh_bytes": 20, "note": ""},
+    {"offset": 1561, "len": 31, "en": "\"That I cannot help thee with.\"", "zh": "「此事我無能為力。」", "zh_bytes": 20, "note": "預設不解回應"},
+    {"offset": 1639, "len": 6, "en": "#2. $Y", "zh": "#2. $Y", "zh_bytes": 6, "note": "選單格式"},
+    {"offset": 1679, "len": 16, "en": "\"Which of you?\" ", "zh": "「汝等哪位？」", "zh_bytes": 14, "note": ""},
+    {"offset": 1748, "len": 24, "en": "\"@Cloth or @thread, $Y?\"", "zh": "「@布或@線，$Y？」", "zh_bytes": 18, "note": "@Cloth → @布；@thread → @線"},
+    {"offset": 1775, "len": 4, "en": "clot", "zh": "布", "zh_bytes": 2, "note": "@Cloth keyword"},
+    {"offset": 1793, "len": 4, "en": "thre", "zh": "線", "zh_bytes": 2, "note": "@thread keyword"},
+    {"offset": 1840, "len": 49, "en": "\"It'll cost you #1 gold for the $0. Interested?\" ", "zh": "「$0需#1金。$Y有意？」", "zh_bytes": 22, "note": "保留 $0/#1/$Y"},
+    {"offset": 1890, "len": 2, "en": "yn", "zh": "yn", "zh_bytes": 2, "note": "yes/no token"},
+    {"offset": 1918, "len": 29, "en": "\"You look pretty full to me.\"", "zh": "「汝看來已滿載。」", "zh_bytes": 18, "note": "背包滿"},
+    {"offset": 2016, "len": 61, "en": "\"Excellent!\" After accepting $Y's gold, $N hands over the $0.", "zh": "「妙！」收下$Y的金錢後，$N將$0交予。", "zh_bytes": 36, "note": "成交描述"},
+    {"offset": 2093, "len": 24, "en": "\"You haven't the money.\"", "zh": "「汝身上無此金錢。」", "zh_bytes": 20, "note": ""},
+    {"offset": 2138, "len": 18, "en": "\"That is fine $0.\"", "zh": "「此乃上好$0。」", "zh_bytes": 16, "note": "保留 $0"},
+    {"offset": 2164, "len": 26, "en": "\"You'll find none better.\"", "zh": "「再無更好者。」", "zh_bytes": 16, "note": ""},
+    {"offset": 2324, "len": 41, "en": "\"Sorry, none of you has anything I need.\"", "zh": "「抱歉，汝等無我所需之物。」", "zh_bytes": 28, "note": ""},
+    {"offset": 2426, "len": 6, "en": "#1. $Y", "zh": "#1. $Y", "zh_bytes": 6, "note": "選單格式"},
+    {"offset": 2466, "len": 16, "en": "\"Which of you?\" ", "zh": "「汝等哪位？」", "zh_bytes": 14, "note": ""},
+    {"offset": 2571, "len": 62, "en": "$N turns to $Y and says \"Will you take 8 gold for that wool?\" ", "zh": "$N轉向$Y說：「汝那羊毛願收 8 金？」", "zh_bytes": 35, "note": "保留 $N/$Y/數字"},
+    {"offset": 2634, "len": 2, "en": "yn", "zh": "yn", "zh_bytes": 2, "note": "yes/no token"},
+    {"offset": 2639, "len": 53, "en": "\"Done!\" He hands $Y 8 gold pieces and takes the wool.", "zh": "「成交！」他付$Y 8 金並收下羊毛。", "zh_bytes": 33, "note": ""},
+    {"offset": 2734, "len": 30, "en": "\"Sorry, you haven't any wool.\"", "zh": "「抱歉，汝無羊毛可賣。」", "zh_bytes": 24, "note": ""},
+    {"offset": 2771, "len": 24, "en": "\"Changed your mind, eh?\"", "zh": "「改主意了？」", "zh_bytes": 14, "note": ""},
+    {"offset": 2826, "len": 5, "en": "cloth", "zh": "布", "zh_bytes": 2, "note": "物品名（顯示用）"},
+    {"offset": 2832, "len": 6, "en": "thread", "zh": "線", "zh_bytes": 2, "note": "物品名"}
+  ],
+  "keyword_mapping": {
+    "@loom": "@織機",
+    "@buy": "@買",
+    "@books": "@書",
+    "@Oz": "@奧茲",
+    "@balloonist": "@氣球師",
+    "@silk": "@絲綢",
+    "@Charlotte": "@夏綠蒂",
+    "@Cloth": "@布",
+    "@thread": "@線"
+  },
+  "glossary_additions": {
+    "people": {
+      "Fyodor": "費歐多",
+      "Charlotte": "夏綠蒂"
+    },
+    "concepts": {
+      "loom": "織機",
+      "cloth": "布",
+      "thread": "線",
+      "silk": "絲綢",
+      "wool": "羊毛",
+      "balloonist": "氣球師"
+    },
+    "items": {
+      "The Wizard of Oz": "奧茲巫師"
+    }
+  },
+  "riddles_additions": [
+    {
+      "npc": "Fyodor",
+      "key": "WIZARD_OF_OZ_REWARD",
+      "en": "\"'The Wizard of Oz.' By Master L. Frank Baum, I believe.\"",
+      "zh": "『@奧茲@巫師』。想是 L·法蘭克·鮑姆 所著。",
+      "ref": "不列顛王懸賞的奇書；Fyodor 暗示熱氣球線索（@balloonist）。Ultima VI 主線：玩家須蒐集熱氣球各部位",
+      "strategy": "保留作家名 ASCII 加中譯；書名直譯『奧茲巫師』"
+    }
+  ],
+  "translator_notes": "Fyodor 織匠，禮貌、舉止優雅，用『汝』『莫非』『此乃』『可惜』等中等文白語氣。其對話為熱氣球主線伏筆：他知道新馬精西亞織絲師 Charlotte，可織氣球用之絲綢。Lord British 首次出現用全稱『不列顛王』。`$Z 是玩家自填名字變數，保留 ASCII。所有貨幣／物品變數 ($0/$1/#1/$Y/$N) 保留。"
+}

@@ -1,0 +1,272 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 7,
+   "en": "Mondain",
+   "zh": "蒙丹",
+   "note": "NPC name，邪惡三位一體之一，操控之體現"
+  },
+  {
+   "offset": 10,
+   "len": 42,
+   "en": "a stone statue of the evil wizard Mondain.",
+   "zh": "邪惡術士蒙丹的石像。",
+   "note": "DESC"
+  },
+  {
+   "offset": 69,
+   "len": 36,
+   "en": "\"For what dost thou return, Avatar?\"",
+   "zh": "「聖者，汝為何再度歸來？」",
+   "note": ""
+  },
+  {
+   "offset": 111,
+   "len": 95,
+   "en": "You remember as if it were yesterday how you defeated Mondain in your first visit to Brittania.",
+   "zh": "你記憶猶新，第一次造訪不列顛尼亞時，你是如何擊敗蒙丹的。",
+   "note": "旁白"
+  },
+  {
+   "offset": 209,
+   "len": 68,
+   "en": "Using the four stones, you went back in time to smash his power-gem.",
+   "zh": "你藉助四塊寶石，回溯時間，擊碎了他的力量寶石。",
+   "note": "旁白"
+  },
+  {
+   "offset": 280,
+   "len": 18,
+   "en": "The statue speaks!",
+   "zh": "石像開口了！",
+   "note": "旁白"
+  },
+  {
+   "offset": 301,
+   "len": 24,
+   "en": "\"We meet again, Avatar.\"",
+   "zh": "「我們再度相遇，聖者。」",
+   "note": ""
+  },
+  {
+   "offset": 328,
+   "len": 55,
+   "en": "\"Fear not! I have but one @task now, and am no threat.\"",
+   "zh": "「無需畏懼！我如今只有一個@task使命，不再構成威脅。」",
+   "note": ""
+  },
+  {
+   "offset": 392,
+   "len": 57,
+   "en": "\"Surely you of all people would recognize me as Mondain.\"",
+   "zh": "「你更勝旁人，理當認得我是蒙丹。」",
+   "note": ""
+  },
+  {
+   "offset": 464,
+   "len": 76,
+   "en": "\"The gargoyles have enshrined my spirit here as the embodiment of @control.\"",
+   "zh": "「魔像將吾之靈魂奉祀於此，作為@control操控之體現。」",
+   "note": ""
+  },
+  {
+   "offset": 556,
+   "len": 29,
+   "en": "\"I was once a mighty wizard.\"",
+   "zh": "「吾昔日乃一代強大術士。」",
+   "note": ""
+  },
+  {
+   "offset": 588,
+   "len": 76,
+   "en": "\"Control was the essence of my soul--control of self and control of others.\"",
+   "zh": "「操控乃吾靈魂之本質——自我操控，與對他人的操控。」",
+   "note": ""
+  },
+  {
+   "offset": 667,
+   "len": 42,
+   "en": "\"But desire for more control overcame me.\"",
+   "zh": "「然而對更多操控的渴求最終壓倒了我。」",
+   "note": ""
+  },
+  {
+   "offset": 712,
+   "len": 54,
+   "en": "\"I forsook my self-control in my hunger for conquest.\"",
+   "zh": "「吾在征服的渴望中拋棄了自我操控。」",
+   "note": ""
+  },
+  {
+   "offset": 769,
+   "len": 54,
+   "en": "\"Control must start with the self and expand outward.\"",
+   "zh": "「操控必須從自身出發，方能向外擴展。」",
+   "note": ""
+  },
+  {
+   "offset": 826,
+   "len": 72,
+   "en": "\"The strong must lead. But to be strong one must control oneself first.\"",
+   "zh": "「強者必須引領他人。然而要成為強者，必先自我克制。」",
+   "note": ""
+  },
+  {
+   "offset": 901,
+   "len": 35,
+   "en": "\"The gargoyles understand control.\"",
+   "zh": "「魔像深諳操控之道。」",
+   "note": ""
+  },
+  {
+   "offset": 939,
+   "len": 56,
+   "en": "\"Their society is based on the strong guiding the weak.\"",
+   "zh": "「其社會以強者引導弱者為基礎。」",
+   "note": ""
+  },
+  {
+   "offset": 998,
+   "len": 49,
+   "en": "\"In this way, they survive in their harsh world.\"",
+   "zh": "「如此，他們在嚴酷的世界中求存。」",
+   "note": ""
+  },
+  {
+   "offset": 1072,
+   "len": 43,
+   "en": "\"I have no concern for matters such as $Z.\"",
+   "zh": "「$Z之事，吾不關心。」",
+   "note": ""
+  },
+  {
+   "offset": 1116,
+   "len": 76,
+   "en": "\"I am enshrined here in eternal contemplation of the principle of @control.\"",
+   "zh": "「吾永恆地奉祀於此，沉思@control操控之原則。」",
+   "note": ""
+  },
+  {
+   "offset": 1195,
+   "len": 43,
+   "en": "\"I have no concern for matters such as $Z.\"",
+   "zh": "「$Z之事，吾不關心。」",
+   "note": "重複"
+  },
+  {
+   "offset": 1252,
+   "len": 76,
+   "en": "\"Contemplate what thou hast learned. Repeat after me the Mantra of Control.\"",
+   "zh": "「默想汝所習得之事。隨吾覆誦操控真言。」",
+   "note": ""
+  },
+  {
+   "offset": 1331,
+   "len": 7,
+   "en": "Un.... ",
+   "zh": "Un…… ",
+   "note": "真言咒語，保留原文"
+  },
+  {
+   "offset": 1341,
+   "len": 9,
+   "en": "Un.... $0",
+   "zh": "Un…… $0",
+   "note": "真言互動"
+  },
+  {
+   "offset": 1353,
+   "len": 9,
+   "en": "Un.... $0",
+   "zh": "Un…… $0",
+   "note": "真言互動"
+  },
+  {
+   "offset": 1375,
+   "len": 27,
+   "en": "\"I can teach thee no more.\"",
+   "zh": "「吾已無更多可教。」",
+   "note": ""
+  },
+  {
+   "offset": 1413,
+   "len": 60,
+   "en": "\"Thy understanding is flawed. But I can teach thee no more.\"",
+   "zh": "「汝之理解有所缺失。然吾已無更多可教。」",
+   "note": ""
+  },
+  {
+   "offset": 1488,
+   "len": 19,
+   "en": "\"Farewell, Avatar.\"",
+   "zh": "「別了，聖者。」",
+   "note": ""
+  },
+  {
+   "offset": 1510,
+   "len": 49,
+   "en": "\"May thy @control help you succeed in thy quest.\"",
+   "zh": "「願汝之@control操控助汝在使命中取得成功。」",
+   "note": ""
+  },
+  {
+   "offset": 1585,
+   "len": 67,
+   "en": "\"Thou wilt need control of others to succede in thy quest, Avatar.\"",
+   "zh": "「汝的使命需要對他人的操控，聖者。」",
+   "note": "原文 succede 拼字錯誤，照原文翻"
+  },
+  {
+   "offset": 1655,
+   "len": 65,
+   "en": "\"But thou wilt most of all need control of thyself to be worthy.\"",
+   "zh": "「但最緊要之處，汝需自我克制方能稱得上聖者之名。」",
+   "note": ""
+  },
+  {
+   "offset": 1723,
+   "len": 14,
+   "en": "\"$0 @control.\"",
+   "zh": "「$0@control操控。」",
+   "note": "語境評語的後半，與下方旁白合"
+  },
+  {
+   "offset": 1745,
+   "len": 24,
+   "en": "Thy deeds show a lack of",
+   "zh": "汝之行為顯示缺乏",
+   "note": "旁白前半（差等）"
+  },
+  {
+   "offset": 1770,
+   "len": 30,
+   "en": "Thy deeds show a need for more",
+   "zh": "汝之行為顯示需要更多",
+   "note": "旁白前半（中等）"
+  },
+  {
+   "offset": 1801,
+   "len": 31,
+   "en": "Thy deeds show understanding of",
+   "zh": "汝之行為顯示對……的理解",
+   "note": "旁白前半（良等）"
+  },
+  {
+   "offset": 1833,
+   "len": 26,
+   "en": "I admire thy deeds and thy",
+   "zh": "吾欽佩汝之行為與汝之",
+   "note": "旁白前半（優等）"
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {
+   "Mondain": "蒙丹"
+  },
+  "places": {}
+ },
+ "riddles_additions": [],
+ "translator_notes": "蒙丹是U1反派，在魔像神殿中以操控原則之體現的身份存在。四字一組的箴言式表述採文言，彰顯其超脫人世的神格。真言「Un」保留英文（gargoyle 語言原字）。評語旁白為四段漸進評分（差/中/良/優）。"
+}

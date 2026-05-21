@@ -1,0 +1,331 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 10,
+   "en": "Seggallion",
+   "zh": "塞加里昂",
+   "note": "NPC name（glossary 已有）"
+  },
+  {
+   "offset": 13,
+   "len": 52,
+   "en": "a huge, muscled warrior with a sad look in his eyes.",
+   "zh": "高大魁梧之武士，眼中帶著一絲哀愁。",
+   "note": "DESC"
+  },
+  {
+   "offset": 79,
+   "len": 28,
+   "en": "He looks at you imploringly.",
+   "zh": "他用懇求的目光看著你。",
+   "note": ""
+  },
+  {
+   "offset": 110,
+   "len": 13,
+   "en": "\"What is it?\"",
+   "zh": "「何事？」",
+   "note": ""
+  },
+  {
+   "offset": 131,
+   "len": 59,
+   "en": "\"Seggallion of...well now that won't mean anything to you.\"",
+   "zh": "「塞加里昂，來自……這地名對你毫無意義。」",
+   "note": ""
+  },
+  {
+   "offset": 206,
+   "len": 73,
+   "en": "\"If you mean my profession, I would have to say a knight of @Ashtalarea.\"",
+   "zh": "「若問我的職業，我當說是@Ashtalarea的騎士。」",
+   "note": ""
+  },
+  {
+   "offset": 290,
+   "len": 76,
+   "en": "\"A land @unfamiliar to you, I'm sure. Just as unfamiliar as yours is to me.\"",
+   "zh": "「一片對你而言@unfamiliar的土地，正如你的故土對我同樣陌生。」",
+   "note": ""
+  },
+  {
+   "offset": 382,
+   "len": 77,
+   "en": "\"Yes, I was walking in the mountains of @Tyme when suddenly I heard a noise.\"",
+   "zh": "「是的，我正行走於@Tyme山中，忽然聽到一陣聲響。」",
+   "note": ""
+  },
+  {
+   "offset": 462,
+   "len": 44,
+   "en": "\"It was dark and I heard this low growling.\"",
+   "zh": "「四周漆黑，我聽見低沉的咆哮聲。」",
+   "note": ""
+  },
+  {
+   "offset": 509,
+   "len": 76,
+   "en": "\"Having just been released from @Pildar's clutches, I was tired and hungry.\"",
+   "zh": "「方才脫離@Pildar的魔爪，我既疲憊又飢餓。」",
+   "note": ""
+  },
+  {
+   "offset": 596,
+   "len": 70,
+   "en": "\"That is a great range of mountains in my land. Wherever that is now.\"",
+   "zh": "「那是我故鄉一道巨大的山脈。只是現在不知故鄉在何處了。」",
+   "note": ""
+  },
+  {
+   "offset": 677,
+   "len": 50,
+   "en": "\"From what I hear, he is not unlike your Mondain.\"",
+   "zh": "「據我所聞，他與汝等的蒙丹頗為相似。」",
+   "note": ""
+  },
+  {
+   "offset": 730,
+   "len": 59,
+   "en": "\"Anyway, I peered into the darkness but could see nothing.\"",
+   "zh": "「總之，我望向黑暗之中，卻什麼也看不見。」",
+   "note": ""
+  },
+  {
+   "offset": 792,
+   "len": 57,
+   "en": "\"Suddenly a huge wall of @blue flame appeared behind me.\"",
+   "zh": "「忽然，一道巨大的@blue火牆在我身後現出。」",
+   "note": ""
+  },
+  {
+   "offset": 865,
+   "len": 49,
+   "en": "\"Yes, blue like nothing I had seen in any spell.\"",
+   "zh": "「是的，那種藍色是我從未在任何法術中見過的。」",
+   "note": ""
+  },
+  {
+   "offset": 917,
+   "len": 62,
+   "en": "\"Anyway, just as I turned, the creature leapt from the woods.\"",
+   "zh": "「總之，就在我轉身之際，那生靈從林中躍出。」",
+   "note": ""
+  },
+  {
+   "offset": 982,
+   "len": 70,
+   "en": "\"It hit me with such force, we both @entered the blue flame together.\"",
+   "zh": "「牠撞上我時力道極猛，我們兩個一同@entered那藍色火焰。」",
+   "note": ""
+  },
+  {
+   "offset": 1063,
+   "len": 72,
+   "en": "\"Well, it didn't burn us, we just fell through to the ground beyond it.\"",
+   "zh": "「然而火焰並未燃燒我們，只是穿過去跌落到另一邊的地面。」",
+   "note": ""
+  },
+  {
+   "offset": 1138,
+   "len": 61,
+   "en": "\"After struggling for a while, I finally managed to kill it.\"",
+   "zh": "「搏鬥一番之後，我終於將牠殺死。」",
+   "note": ""
+  },
+  {
+   "offset": 1202,
+   "len": 46,
+   "en": "\"That's when I wandered into this @community.\"",
+   "zh": "「就是那時，我流浪至此@community。」",
+   "note": ""
+  },
+  {
+   "offset": 1259,
+   "len": 50,
+   "en": "\"The people of this land are brave and honorable.\"",
+   "zh": "「此地之人勇敢且正直。」",
+   "note": ""
+  },
+  {
+   "offset": 1312,
+   "len": 83,
+   "en": "\"They fed and clothed me when I discovered that my gold was not the same as yours.\"",
+   "zh": "「當我發現自己的金幣與你們的不通用時，他們給我食物和衣物。」",
+   "note": ""
+  },
+  {
+   "offset": 1398,
+   "len": 54,
+   "en": "\"I know it is a @queer story, but true none the less.\"",
+   "zh": "「我知道這是個@queer離奇的故事，但千真萬確。」",
+   "note": ""
+  },
+  {
+   "offset": 1463,
+   "len": 70,
+   "en": "\"Yes it is. Still, if I could I would like to join you on your quest.\"",
+   "zh": "「確實如此。儘管如此，若有可能，我希望加入你的試煉。」",
+   "note": ""
+  },
+  {
+   "offset": 1536,
+   "len": 78,
+   "en": "\"Perhaps one of the people in your land will know how to get me back to mine.\"",
+   "zh": "「也許你們這裡的人知道如何送我回故鄉。」",
+   "note": ""
+  },
+  {
+   "offset": 1617,
+   "len": 60,
+   "en": "\"If not, at least I can thank your people by assisting you.\"",
+   "zh": "「若不然，我至少可以藉助汝等之力，以此答謝你們的恩情。」",
+   "note": ""
+  },
+  {
+   "offset": 1698,
+   "len": 11,
+   "en": "\"Farewell.\"",
+   "zh": "「再會。」",
+   "note": ""
+  },
+  {
+   "offset": 1714,
+   "len": 48,
+   "en": "\"That's one on me. 'Tain't never heard o' that.\"",
+   "zh": "「這下被你難倒了。從未聽聞此事。」",
+   "note": "口語俚俗語氣"
+  },
+  {
+   "offset": 1773,
+   "len": 53,
+   "en": "\"You don't look seperated to me.\" He laughs heartily.",
+   "zh": "「你看起來並未與人分離嘛。」他朗聲大笑。",
+   "note": ""
+  },
+  {
+   "offset": 1847,
+   "len": 33,
+   "en": "\"Not while you're in that thing!\"",
+   "zh": "「只要你還在那裡頭，就不行！」",
+   "note": ""
+  },
+  {
+   "offset": 1893,
+   "len": 71,
+   "en": "\"I wish I could, however, you seem to have enough strong arms already.\"",
+   "zh": "「吾倒是願意，只是你似乎已有足夠的壯丁了。」",
+   "note": ""
+  },
+  {
+   "offset": 1967,
+   "len": 42,
+   "en": "\"If any should leave though, seek me out.\"",
+   "zh": "「若有人離隊，還望來找我。」",
+   "note": ""
+  },
+  {
+   "offset": 2028,
+   "len": 42,
+   "en": "He bows low. \"Seggallion at your service.\"",
+   "zh": "他深深一鞠躬。「塞加里昂，隨時效命。」",
+   "note": ""
+  },
+  {
+   "offset": 2073,
+   "len": 81,
+   "en": "You can see by his broad smile and large physique, he would be a worthy opponent.",
+   "zh": "從他寬闊的笑容與龐大的體格可以看出，他將是一位強勁的對手。",
+   "note": ""
+  },
+  {
+   "offset": 2157,
+   "len": 23,
+   "en": "\"Shall we be off then?\"",
+   "zh": "「那我們出發吧？」",
+   "note": ""
+  },
+  {
+   "offset": 2191,
+   "len": 37,
+   "en": "\"Am I standing in your light? Sorry.\"",
+   "zh": "「我擋到你的光了嗎？抱歉。」",
+   "note": ""
+  },
+  {
+   "offset": 2249,
+   "len": 51,
+   "en": "\"Could we at least wait till we get back to shore?\"",
+   "zh": "「至少等我們回到岸上再說吧？」",
+   "note": ""
+  },
+  {
+   "offset": 2306,
+   "len": 39,
+   "en": "\"I'll leave all these things with you.\"",
+   "zh": "「這些東西就全留給你了。」",
+   "note": ""
+  },
+  {
+   "offset": 2348,
+   "len": 71,
+   "en": "\"It is hard to say goodbye, but I see your path leads elsewhere, so...\"",
+   "zh": "「道別實難，然汝的路通向他方，所以……」",
+   "note": ""
+  },
+  {
+   "offset": 2421,
+   "len": 22,
+   "en": "\"You have a question?\"",
+   "zh": "「你有問題？」",
+   "note": ""
+  },
+  {
+   "offset": 2451,
+   "len": 44,
+   "en": "\"Seggallion. You can call me 'Segg' though.\"",
+   "zh": "「塞加里昂。不過你可以叫我『塞格』。」",
+   "note": ""
+  },
+  {
+   "offset": 2505,
+   "len": 49,
+   "en": "He looks at you puzzled. \"The same as yours now.\"",
+   "zh": "他一臉困惑地望著你。「現在與你一樣。」",
+   "note": ""
+  },
+  {
+   "offset": 2565,
+   "len": 45,
+   "en": "\"Ask me again sometime. It is quite a story.\"",
+   "zh": "「改天再問我吧。這可是段很長的故事。」",
+   "note": ""
+  },
+  {
+   "offset": 2631,
+   "len": 11,
+   "en": "\"Farewell.\"",
+   "zh": "「再會。」",
+   "note": ""
+  },
+  {
+   "offset": 2647,
+   "len": 39,
+   "en": "He leans a bit closer. \"What was that?\"",
+   "zh": "他靠近一些。「你說什麼？」",
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {
+   "Pildar": "皮達"
+  },
+  "places": {
+   "Ashtalarea": "阿斯塔拉瑞",
+   "Tyme": "泰姆"
+  }
+ },
+ "riddles_additions": [],
+ "translator_notes": "塞加里昂為來自異世界的騎士，口吻正直坦率帶異鄉感。@blue/@entered/@community/@queer/@unfamiliar/@Tyme/@Pildar/@Ashtalarea 均保留 keyword 觸發前綴。"
+}

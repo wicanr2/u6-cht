@@ -1,0 +1,464 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 12,
+   "en": "Captain John",
+   "zh": "約翰船長",
+   "note": "NPC name"
+  },
+  {
+   "offset": 15,
+   "len": 50,
+   "en": "a long-haired gentleman with a scholarly demeanor.",
+   "zh": "一位長髮、氣質儒雅的紳士。",
+   "note": "DESC"
+  },
+  {
+   "offset": 74,
+   "len": 41,
+   "en": "\"Ah, my good friend! Thou hast returned!\"",
+   "zh": "「啊，我的好友！你回來了！」",
+   "note": ""
+  },
+  {
+   "offset": 121,
+   "len": 55,
+   "en": "\"Praise the virtues! Humans have arrived here at last!\"",
+   "zh": "「諸德保佑！人類終於來到這裡了！」",
+   "note": ""
+  },
+  {
+   "offset": 179,
+   "len": 51,
+   "en": "\"But what's this? Not just any humans--the Avatar!\"",
+   "zh": "「但這是——不是普通的人類——是聖者！」",
+   "note": ""
+  },
+  {
+   "offset": 233,
+   "len": 57,
+   "en": "\"'Tis most fortuitous that thou hast returned, noble $P.\"",
+   "zh": "「汝的歸來實乃天賜良機，高貴之$P。」",
+   "note": ""
+  },
+  {
+   "offset": 293,
+   "len": 67,
+   "en": "\"Many @cataclysms have occurred since thou last visited Britannia!\"",
+   "zh": "「自汝上次造訪不列顛尼亞以來，已發生了諸多@cataclysms災變！」",
+   "note": ""
+  },
+  {
+   "offset": 374,
+   "len": 28,
+   "en": "\"Why, I'm Captain John, $G!\"",
+   "zh": "「哎，我是約翰船長，$G！」",
+   "note": ""
+  },
+  {
+   "offset": 412,
+   "len": 80,
+   "en": "\"For several years I have been here in the catacombs, @studying the @gargoyles.\"",
+   "zh": "「數年來我一直身在這地下墓穴，@studying研究@gargoyles魔像。」",
+   "note": ""
+  },
+  {
+   "offset": 503,
+   "len": 38,
+   "en": "\"Yes, I have learned much about them!\"",
+   "zh": "「是的，我對他們了解甚多！」",
+   "note": ""
+  },
+  {
+   "offset": 555,
+   "len": 44,
+   "en": "\"They are not evil, as most humans believe!\"",
+   "zh": "「他們並非邪惡，儘管大多數人類如此認為！」",
+   "note": ""
+  },
+  {
+   "offset": 602,
+   "len": 83,
+   "en": "\"I have spent much time talking to them, and I have found them to be almost human.\"",
+   "zh": "「我花了大量時間與他們交談，發現他們幾乎與人類無異。」",
+   "note": ""
+  },
+  {
+   "offset": 688,
+   "len": 74,
+   "en": "\"I have learned about their @society, their @beliefs and their @language.\"",
+   "zh": "「我學習了他們的@society社會、@beliefs信仰與@language語言。」",
+   "note": ""
+  },
+  {
+   "offset": 782,
+   "len": 83,
+   "en": "\"The gargoyle world, once as large as Britannia itself, is slowly being destroyed!\"",
+   "zh": "「魔像的世界，曾與不列顛尼亞本身一樣遼闊，如今正緩緩崩毀！」",
+   "note": ""
+  },
+  {
+   "offset": 868,
+   "len": 99,
+   "en": "\"The forces thou set in motion have caused great sections of their land to fall off into the void!\"",
+   "zh": "「汝所啟動的力量，致使他們大片土地墜入虛空！」",
+   "note": ""
+  },
+  {
+   "offset": 970,
+   "len": 39,
+   "en": "\"Only a single gargoyle @city remains.\"",
+   "zh": "「魔像僅剩一座@city城市尚存。」",
+   "note": ""
+  },
+  {
+   "offset": 1020,
+   "len": 98,
+   "en": "\"The gargoyle City of Investigation, their place of learning and government, is all that is left.\"",
+   "zh": "「魔像的探索之城——他們的學術與政治中心——是僅存之地。」",
+   "note": ""
+  },
+  {
+   "offset": 1121,
+   "len": 51,
+   "en": "\"Thou must do something to save the gargoyle race!\"",
+   "zh": "「汝必須採取行動，拯救魔像族群！」",
+   "note": ""
+  },
+  {
+   "offset": 1175,
+   "len": 27,
+   "en": "\"I know not what, however.\"",
+   "zh": "「但我不知道該如何行動。」",
+   "note": ""
+  },
+  {
+   "offset": 1205,
+   "len": 36,
+   "en": "\"Thou must @talk to the @gargoyles.\"",
+   "zh": "「汝必須與@gargoyles魔像@talk交談。」",
+   "note": ""
+  },
+  {
+   "offset": 1252,
+   "len": 61,
+   "en": "\"There are two kinds of gargoyles, winged and wingless ones.\"",
+   "zh": "「魔像有兩種：有翼者與無翼者。」",
+   "note": ""
+  },
+  {
+   "offset": 1316,
+   "len": 57,
+   "en": "\"At first it seemed as if the wingless ones were slaves.\"",
+   "zh": "「起初我以為無翼者是奴隸。」",
+   "note": ""
+  },
+  {
+   "offset": 1376,
+   "len": 78,
+   "en": "\"But now I know that the wingless ones are beloved and valued family members.\"",
+   "zh": "「但如今我知道，無翼者是備受珍視、深受愛護的家族成員。」",
+   "note": ""
+  },
+  {
+   "offset": 1457,
+   "len": 71,
+   "en": "\"They must be told what to do, because they are not truly intelligent.\"",
+   "zh": "「他們需要被告知該做什麼，因為他們並非真正有智識。」",
+   "note": ""
+  },
+  {
+   "offset": 1531,
+   "len": 62,
+   "en": "\"The @gargoyles live honorably, by their own set of @beliefs.\"",
+   "zh": "「@gargoyles魔像按照自己一套@beliefs信仰，光榮地生活。」",
+   "note": ""
+  },
+  {
+   "offset": 1604,
+   "len": 47,
+   "en": "\"The gargoyles' beliefs are much like our own.\"",
+   "zh": "「魔像的信仰與我們的信仰頗為相似。」",
+   "note": ""
+  },
+  {
+   "offset": 1654,
+   "len": 63,
+   "en": "\"Where we have the three principles of Truth, Love and Courage,",
+   "zh": "「我們有真實、愛與勇氣三大原則，",
+   "note": "前半，接下一段"
+  },
+  {
+   "offset": 1719,
+   "len": 60,
+   "en": "they have the principles of Control, Passion and Diligence.\"",
+   "zh": "他們則有操控、熱情與勤勉三大原則。」",
+   "note": "後半"
+  },
+  {
+   "offset": 1782,
+   "len": 77,
+   "en": "\"Directly, these lead to the virtues of Direction, Feeling, and Persistence.\"",
+   "zh": "「直接衍生，即為方向、感知與堅毅三德。」",
+   "note": ""
+  },
+  {
+   "offset": 1862,
+   "len": 60,
+   "en": "\"Combined, they lead to Balance, Achievement and Precision.\"",
+   "zh": "「交互結合，則衍生出平衡、成就與精準。」",
+   "note": ""
+  },
+  {
+   "offset": 1925,
+   "len": 42,
+   "en": "\"Taken all together, they point to Order.\"",
+   "zh": "「總括而言，皆指向秩序。」",
+   "note": ""
+  },
+  {
+   "offset": 1970,
+   "len": 51,
+   "en": "\"And the sum of all the principles is Singularity.\"",
+   "zh": "「而所有原則之總和，即為一體性。」",
+   "note": ""
+  },
+  {
+   "offset": 2024,
+   "len": 64,
+   "en": "\"Gargoyle society stresses unity and singularity in all things.\"",
+   "zh": "「魔像社會強調萬事萬物的一體性與合一。」",
+   "note": ""
+  },
+  {
+   "offset": 2091,
+   "len": 79,
+   "en": "\"They have to; their world has always been harsh, even before the @cataclysms.\"",
+   "zh": "「他們不得不如此；他們的世界一向嚴酷，即便在@cataclysms災變之前亦然。」",
+   "note": ""
+  },
+  {
+   "offset": 2186,
+   "len": 91,
+   "en": "\"With the help of a gargoyle child, @Beh @Lem, I have learned how to speak their language.\"",
+   "zh": "「在一位魔像孩童@Beh @Lem貝蘭的幫助下，我學會了如何說他們的語言。」",
+   "note": ""
+  },
+  {
+   "offset": 2298,
+   "len": 30,
+   "en": "\"Wouldst thou like to learn?\" ",
+   "zh": "「汝可願意學習？」",
+   "note": "尾隨空格保留"
+  },
+  {
+   "offset": 2342,
+   "len": 80,
+   "en": "\"He and I meet every day at noon, where Hythloth emerges in the gargoyle lands.\"",
+   "zh": "「他與我每天正午在伊斯洛斯通往魔像之地的出口處相會。」",
+   "note": ""
+  },
+  {
+   "offset": 2425,
+   "len": 51,
+   "en": "\"Go and speak with him, learn about the gargoyles.\"",
+   "zh": "「去找他談，了解魔像。」",
+   "note": ""
+  },
+  {
+   "offset": 2479,
+   "len": 21,
+   "en": "\"You must save them!\"",
+   "zh": "「你必須拯救他們！」",
+   "note": ""
+  },
+  {
+   "offset": 2511,
+   "len": 57,
+   "en": "\"No, I cannot. I must stay here and continue my writing.\"",
+   "zh": "「不，我無法同行。我必須留在此地繼續撰述。」",
+   "note": ""
+  },
+  {
+   "offset": 2571,
+   "len": 30,
+   "en": "\"But @Beh @Lem may join thee.\"",
+   "zh": "「但@Beh @Lem貝蘭或許可以加入汝。」",
+   "note": ""
+  },
+  {
+   "offset": 2604,
+   "len": 81,
+   "en": "\"With his help, thou canst travel the gargoyle lands and learn how to save them.\"",
+   "zh": "「藉助他的幫助，汝可遊歷魔像之地，學習如何拯救他們。」",
+   "note": ""
+  },
+  {
+   "offset": 2701,
+   "len": 31,
+   "en": "\"Farewell again, noble Avatar.\"",
+   "zh": "「再會了，高貴的聖者。」",
+   "note": ""
+  },
+  {
+   "offset": 2735,
+   "len": 76,
+   "en": "\"As the gargoyles say, 'May thy persistence and precision lead to success.'\"",
+   "zh": "「如魔像所說：『願恆毅與精準引領汝走向成功。』」",
+   "note": "魔像告別祝詞，與 169_Valkadesh 相同"
+  },
+  {
+   "offset": 2814,
+   "len": 46,
+   "en": "\"Upon you rests the future of an entire race.\"",
+   "zh": "「整個族群的未來，繫於汝一身。」",
+   "note": ""
+  },
+  {
+   "offset": 2863,
+   "len": 7,
+   "en": "\"Wait!\"",
+   "zh": "「且慢！」",
+   "note": ""
+  },
+  {
+   "offset": 2873,
+   "len": 71,
+   "en": "\"Thou must meet Beh Lem and travel with him among the gargoyle people.\"",
+   "zh": "「汝必須與貝蘭相會，隨他在魔像族群中穿行。」",
+   "note": ""
+  },
+  {
+   "offset": 2946,
+   "len": 65,
+   "en": "\"That is the only way you can save them, and save them you must!\"",
+   "zh": "「那是唯一能拯救他們的方法，而你非救不可！」",
+   "note": ""
+  },
+  {
+   "offset": 3014,
+   "len": 60,
+   "en": "\"And without @Beh @Lem with you, the gargoyles will attack!\"",
+   "zh": "「若沒有@Beh @Lem貝蘭同行，魔像便會攻擊！」",
+   "note": ""
+  },
+  {
+   "offset": 3089,
+   "len": 37,
+   "en": "\"Oh, the things I could say of that!\"",
+   "zh": "「哦，我有多少話可以說！」",
+   "note": ""
+  },
+  {
+   "offset": 3129,
+   "len": 27,
+   "en": "\"But we have not the time.\"",
+   "zh": "「但我們沒有時間。」",
+   "note": ""
+  },
+  {
+   "offset": 3159,
+   "len": 69,
+   "en": "\"When both worlds have been saved, then we can discuss such matters.\"",
+   "zh": "「等兩個世界都得救之後，我們再來討論這些。」",
+   "note": ""
+  },
+  {
+   "offset": 3234,
+   "len": 66,
+   "en": "\"I had a silver tablet that contained much of what I had learned.\"",
+   "zh": "「我有一塊銀板，記載了我所學到的大量知識。」",
+   "note": ""
+  },
+  {
+   "offset": 3303,
+   "len": 62,
+   "en": "\"I gave it to some gypsies to take to Mariah, at the Lycaeum.\"",
+   "zh": "「我將它交給幾個吉普賽人，請他們送去學苑的瑪麗雅那裡。」",
+   "note": ""
+  },
+  {
+   "offset": 3368,
+   "len": 24,
+   "en": "\"Did it arrive safely?\" ",
+   "zh": "「那塊板子平安送到了嗎？」",
+   "note": "尾隨空格保留"
+  },
+  {
+   "offset": 3398,
+   "len": 59,
+   "en": "\"Good! I am glad to know that the gypsies kept their word.\"",
+   "zh": "「太好了！得知吉普賽人信守承諾，我大感寬慰。」",
+   "note": ""
+  },
+  {
+   "offset": 3460,
+   "len": 38,
+   "en": "\"That tablet must have amazed Mariah!\"",
+   "zh": "「那塊板子一定讓瑪麗雅大吃一驚！」",
+   "note": ""
+  },
+  {
+   "offset": 3506,
+   "len": 65,
+   "en": "\"No?! But I paid money, good money, for them to carry it to her!\"",
+   "zh": "「沒有？！但我付了錢，真正的好錢，請他們帶去啊！」",
+   "note": ""
+  },
+  {
+   "offset": 3574,
+   "len": 49,
+   "en": "\"No matter. Now that thou art here, all is well.\"",
+   "zh": "「沒關係。如今汝在此，一切安好。」",
+   "note": ""
+  },
+  {
+   "offset": 3626,
+   "len": 85,
+   "en": "\"You can study the @gargoyles yourself, and carry the knowledge back to the surface!\"",
+   "zh": "「汝可親自研究@gargoyles魔像，將所得知識帶回地面！」",
+   "note": ""
+  },
+  {
+   "offset": 3723,
+   "len": 30,
+   "en": "\"Here.\" He hands you a scroll.",
+   "zh": "「拿著。」他遞給你一卷卷軸。",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 3769,
+   "len": 75,
+   "en": "\"Use this scroll; it contains a basic vocabulary of the Gargoyle language.\"",
+   "zh": "「使用這卷卷軸；它包含魔像語言的基礎詞彙。」",
+   "note": ""
+  },
+  {
+   "offset": 3852,
+   "len": 15,
+   "en": "\"But you must!\"",
+   "zh": "「但你必須！」",
+   "note": ""
+  },
+  {
+   "offset": 3870,
+   "len": 82,
+   "en": "\"Thou hast no chance of saving the gargoyles if thou knowest not their @language!\"",
+   "zh": "「若汝不懂他們的@language語言，便毫無拯救魔像的機會！」",
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {
+   "Captain John": "約翰船長",
+   "Mariah": "瑪麗雅"
+  },
+  "places": {
+   "Hythloth": "伊斯洛斯"
+  }
+ },
+ "riddles_additions": [],
+ "translator_notes": "約翰船長是本作最重要的橋梁NPC，在地下墓穴多年研究魔像。魔像三原則對應人類三原則：Control/Passion/Diligence → Direction/Feeling/Persistence → Balance/Achievement/Precision → Order → Singularity，一律採用固定譯名（操控/熱情/勤勉 → 方向/感知/堅毅 → 平衡/成就/精準 → 秩序 → 一體性）。魔像告別祝詞「願恆毅與精準引領汝走向成功」與 169_Valkadesh 保持一致。銀板→吉普賽人→瑪麗雅的線索與學苑相關主線呼應。"
+}

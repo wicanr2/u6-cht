@@ -1,0 +1,557 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 11,
+   "en": "Weaponsmith",
+   "zh": "兵器師",
+   "note": "NPC name — glossary 已有"
+  },
+  {
+   "offset": 14,
+   "len": 34,
+   "en": "a young, nervous-looking gargoyle.",
+   "zh": "年輕且神色緊張之魔像。",
+   "note": "DESC"
+  },
+  {
+   "offset": 77,
+   "len": 60,
+   "en": "\"The False Prophet!\" the gargoyle screams. \"Guards! Guards!\"",
+   "zh": "「偽先知！」魔像嘶喊。「護衛！護衛！」",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 138,
+   "len": 61,
+   "en": "\"An-bal-sil-fer!\" the gargoyle screams. \"Agra-lem! Agra-Lem!\"",
+   "zh": "「An-bal-sil-fer！」魔像嘶喊。「Agra-lem！Agra-Lem！」",
+   "note": "魔像語保留"
+  },
+  {
+   "offset": 203,
+   "len": 69,
+   "en": "Suddenly realizing that he is holding a weapon, the gargoyle attacks!",
+   "zh": "魔像忽然意識到自己手持武器，隨即發起攻擊！",
+   "note": "旁白"
+  },
+  {
+   "offset": 287,
+   "len": 39,
+   "en": "\"To ask how I can help you, noble one.\"",
+   "zh": "「問如何可助尊者？」",
+   "note": ""
+  },
+  {
+   "offset": 327,
+   "len": 20,
+   "en": "\"The False Prophet!\"",
+   "zh": "「偽先知！」",
+   "note": ""
+  },
+  {
+   "offset": 350,
+   "len": 43,
+   "en": "\"To thank you for your upcoming sacrifice.\"",
+   "zh": "「感謝汝即將到來的犧牲。」",
+   "note": ""
+  },
+  {
+   "offset": 396,
+   "len": 47,
+   "en": "\"To greatly respect your nobility and courage.\"",
+   "zh": "「對汝之高貴與勇氣，深表敬意。」",
+   "note": ""
+  },
+  {
+   "offset": 462,
+   "len": 36,
+   "en": "\"To not understand what that means.\"",
+   "zh": "「吾不明白那是何意。」",
+   "note": ""
+  },
+  {
+   "offset": 501,
+   "len": 44,
+   "en": "\"To create these items for the use of @all.\"",
+   "zh": "「製作這些物品，供@all眾人使用。」",
+   "note": ""
+  },
+  {
+   "offset": 555,
+   "len": 59,
+   "en": "\"To give these wares to any gargoyle who has need of them.\"",
+   "zh": "「將這些物品贈予任何有需要的魔像。」",
+   "note": ""
+  },
+  {
+   "offset": 617,
+   "len": 52,
+   "en": "\"To invite you to look around at my @wares as well.\"",
+   "zh": "「亦邀汝瀏覽吾的@wares物品。」",
+   "note": ""
+  },
+  {
+   "offset": 672,
+   "len": 37,
+   "en": "\"To ask if any of them interest you?\"",
+   "zh": "「問汝是否對其中有感興趣者？」",
+   "note": ""
+  },
+  {
+   "offset": 720,
+   "len": 36,
+   "en": "\"To have but a few items available.\"",
+   "zh": "「目前僅有少數物品可供取用。」",
+   "note": ""
+  },
+  {
+   "offset": 759,
+   "len": 46,
+   "en": "\"To be far less adept than my former @master.\"",
+   "zh": "「吾之技藝遠不如先師@master。」",
+   "note": ""
+  },
+  {
+   "offset": 823,
+   "len": 63,
+   "en": "\"To wish I had more boomerangs, that I might give you another.\"",
+   "zh": "「真希望手邊有更多飛去來器，好再送汝一枚。」",
+   "note": ""
+  },
+  {
+   "offset": 914,
+   "len": 60,
+   "en": "\"To regret that I have such a small supply of zu ylem dust.\"",
+   "zh": "「可惜吾的醒神塵存量極少。」",
+   "note": "zu ylem dust = 魔像藥粉，令人昏迷的粉末"
+  },
+  {
+   "offset": 992,
+   "len": 42,
+   "en": "\"To consider him a discredit to the race!\"",
+   "zh": "「吾認為他是吾族之恥！」",
+   "note": "兵器師評論工匠"
+  },
+  {
+   "offset": 1037,
+   "len": 61,
+   "en": "\"Most of all, to consider him a @dishonor to my late master!\"",
+   "zh": "「尤其，吾認為他是吾亡師之@dishonor恥辱！」",
+   "note": ""
+  },
+  {
+   "offset": 1109,
+   "len": 59,
+   "en": "\"To cheapen all our loss, all our grief, by his self-pity.\"",
+   "zh": "「他的自憐使吾等所有人的失去與哀傷都變得廉價。」",
+   "note": ""
+  },
+  {
+   "offset": 1171,
+   "len": 47,
+   "en": "\"To have lost my @master, like a father to me.\"",
+   "zh": "「吾失去了@master先師，他如父一般。」",
+   "note": ""
+  },
+  {
+   "offset": 1221,
+   "len": 49,
+   "en": "\"Yet to maintain control, to maintain diligence.\"",
+   "zh": "「然吾仍保持克制，保持勤勉。」",
+   "note": ""
+  },
+  {
+   "offset": 1273,
+   "len": 43,
+   "en": "\"Most of all to maintain passion for life.\"",
+   "zh": "「最重要的是，保持對生命的熱情。」",
+   "note": "三原則：克制、勤勉、熱情"
+  },
+  {
+   "offset": 1319,
+   "len": 78,
+   "en": "\"To feel that the goodscrafter dishonors us all by abandoning our principles.\"",
+   "zh": "「吾認為工匠棄守吾族原則，是對吾等所有人的侮辱。」",
+   "note": ""
+  },
+  {
+   "offset": 1400,
+   "len": 63,
+   "en": "\"To feel that the goodscrafter needs a trip to the @catacombs.\"",
+   "zh": "「吾認為工匠需要到@catacombs地下聖所走一趟。」",
+   "note": ""
+  },
+  {
+   "offset": 1474,
+   "len": 50,
+   "en": "\"Yes, to have visited them myself once, long ago.\"",
+   "zh": "「是的，吾自身亦曾在久遠以前前往拜訪。」",
+   "note": ""
+  },
+  {
+   "offset": 1527,
+   "len": 80,
+   "en": "\"To find there shrines to our three principles: control, passion and diligence.\"",
+   "zh": "「在那裡，有供奉吾族三大原則的聖壇：克制、熱情與勤勉。」",
+   "note": ""
+  },
+  {
+   "offset": 1610,
+   "len": 67,
+   "en": "\"To speak with these shrines and meditate, to receive new insight.\"",
+   "zh": "「向這些聖壇祈禱冥想，可獲得新的領悟。」",
+   "note": ""
+  },
+  {
+   "offset": 1680,
+   "len": 42,
+   "en": "\"To not remember where the catacombs are.\"",
+   "zh": "「吾已不記得地下聖所在何處了。」",
+   "note": ""
+  },
+  {
+   "offset": 1725,
+   "len": 49,
+   "en": "\"To be sent there by the Temple of @Singularity.\"",
+   "zh": "「須由@Singularity獨身者神殿指引前往。」",
+   "note": ""
+  },
+  {
+   "offset": 1790,
+   "len": 46,
+   "en": "\"To find that to the north, in the mountains.\"",
+   "zh": "「在北方山中可尋得。」",
+   "note": ""
+  },
+  {
+   "offset": 1839,
+   "len": 74,
+   "en": "\"To advise you to find some way to @fly if you wish to get there, though!\"",
+   "zh": "「然若汝想前往，建議設法@fly飛翔！」",
+   "note": ""
+  },
+  {
+   "offset": 1923,
+   "len": 83,
+   "en": "\"To be unable to reach the Temple on foot; to be forced to fly over the mountains.\"",
+   "zh": "「神殿無法徒步到達；唯有飛越山峰方可抵達。」",
+   "note": ""
+  },
+  {
+   "offset": 2027,
+   "len": 38,
+   "en": "\"To be a powerful but dangerous drug!\"",
+   "zh": "「此乃強效但危險之藥劑！」",
+   "note": ""
+  },
+  {
+   "offset": 2068,
+   "len": 54,
+   "en": "\"To turn gargoyle warriors into unstoppable fighters!\"",
+   "zh": "「服之可使魔像武士化身為無法阻擋的戰士！」",
+   "note": ""
+  },
+  {
+   "offset": 2125,
+   "len": 47,
+   "en": "\"But to always be fatal after the battle ends.\"",
+   "zh": "「然戰鬥結束後，必然致死。」",
+   "note": ""
+  },
+  {
+   "offset": 2175,
+   "len": 66,
+   "en": "\"To be created by the snake @charmer, who lives to the southwest.\"",
+   "zh": "「由住在西南方的@charmer馴蛇者所製。」",
+   "note": ""
+  },
+  {
+   "offset": 2252,
+   "len": 54,
+   "en": "\"Yes, to suggest you visit him if you are interested.\"",
+   "zh": "「是的，若汝有興趣，建議前往拜訪。」",
+   "note": ""
+  },
+  {
+   "offset": 2309,
+   "len": 59,
+   "en": "\"To find the snake-summoning horn a most impressive sight!\"",
+   "zh": "「召蛇號角實為壯觀之物！」",
+   "note": ""
+  },
+  {
+   "offset": 2379,
+   "len": 69,
+   "en": "\"To create the zu ylem dust from plants that can no longer be found.\"",
+   "zh": "「醒神塵由如今已無處可尋之植物製成。」",
+   "note": ""
+  },
+  {
+   "offset": 2451,
+   "len": 53,
+   "en": "\"But to know of far worse effects of the @disasters.\"",
+   "zh": "「然吾知曉@disasters大災變帶來了遠更嚴重的影響。」",
+   "note": ""
+  },
+  {
+   "offset": 2525,
+   "len": 41,
+   "en": "\"To see little of interest in that item.\"",
+   "zh": "「吾對此物興趣甚淡。」",
+   "note": ""
+  },
+  {
+   "offset": 2576,
+   "len": 50,
+   "en": "\"May your long work and strength lead to success!\"",
+   "zh": "「願汝之長久努力與力量引領至成功！」",
+   "note": "道別語，兵器師版魔像祝辭"
+  },
+  {
+   "offset": 2634,
+   "len": 49,
+   "en": "\"To be but a simple @weaponsmith, False Prophet.\"",
+   "zh": "「吾不過是個普通@weaponsmith兵器師，偽先知。」",
+   "note": ""
+  },
+  {
+   "offset": 2686,
+   "len": 51,
+   "en": "\"To lack a name, as is appropriate for my station.\"",
+   "zh": "「吾無名字，此乃吾身份地位之應然。」",
+   "note": ""
+  },
+  {
+   "offset": 2748,
+   "len": 39,
+   "en": "\"Yes, surely to know of the disasters?\"",
+   "zh": "「是的，汝應知曉大災變吧？」",
+   "note": ""
+  },
+  {
+   "offset": 2790,
+   "len": 75,
+   "en": "\"To have only barely survived the earthquakes after the Codex disappeared.\"",
+   "zh": "「守則之書消失後的那場地震中，吾僅以一息之差倖存。」",
+   "note": ""
+  },
+  {
+   "offset": 2890,
+   "len": 92,
+   "en": "\"To be the master weaponsmith now, although to have but recently been a simple @apprentice.\"",
+   "zh": "「如今吾乃兵器師首席，雖然不久前吾還只是一介@apprentice學徒。」",
+   "note": ""
+  },
+  {
+   "offset": 2993,
+   "len": 72,
+   "en": "\"To greatly regret the loss of my master, killed during the @disasters.\"",
+   "zh": "「對先師在@disasters大災變中喪命，吾深感悲痛。」",
+   "note": ""
+  },
+  {
+   "offset": 3068,
+   "len": 43,
+   "en": "\"But to carry on in the face of adversity.\"",
+   "zh": "「然仍於逆境中奮進。」",
+   "note": ""
+  },
+  {
+   "offset": 3114,
+   "len": 83,
+   "en": "\"And certainly not to lose all passion for life, like the worthless @goodscrafter!\"",
+   "zh": "「斷不會像那個無用的@goodscrafter工匠一樣，失去對生命的所有熱情！」",
+   "note": ""
+  },
+  {
+   "offset": 3208,
+   "len": 40,
+   "en": "\"To wish I could leave on adventures...\"",
+   "zh": "「真希望能出去冒險……」",
+   "note": ""
+  },
+  {
+   "offset": 3251,
+   "len": 44,
+   "en": "\"But to be dedicated to my important @work.\"",
+   "zh": "「然吾獻身於吾之重要@work職責。」",
+   "note": ""
+  },
+  {
+   "offset": 3303,
+   "len": 56,
+   "en": "\"To know nothing of $Z, being but a simple weaponsmith.\"",
+   "zh": "「吾只是個普通兵器師，對$Z一無所知。」",
+   "note": ""
+  },
+  {
+   "offset": 3372,
+   "len": 34,
+   "en": "\"To ask that you see me at my shop!\"",
+   "zh": "「請汝到吾的鋪子來！」",
+   "note": ""
+  },
+  {
+   "offset": 3412,
+   "len": 65,
+   "en": "\"Ah, to see you admire these boomerangs, the work of my @master.\"",
+   "zh": "「啊，見汝欣賞這些飛去來器，乃吾@master先師之作。」",
+   "note": ""
+  },
+  {
+   "offset": 3480,
+   "len": 53,
+   "en": "\"To regret being unable to create boomerangs myself.\"",
+   "zh": "「可惜吾自身無法製作飛去來器。」",
+   "note": ""
+  },
+  {
+   "offset": 3536,
+   "len": 33,
+   "en": "\"To have only a few left in stock",
+   "zh": "「庫存所剩不多",
+   "note": "前半（接後）"
+  },
+  {
+   "offset": 3580,
+   "len": 2,
+   "en": ".\"",
+   "zh": "。」",
+   "note": ""
+  },
+  {
+   "offset": 3588,
+   "len": 24,
+   "en": ", but to offer you one.\"",
+   "zh": "，然願贈汝一枚。」",
+   "note": ""
+  },
+  {
+   "offset": 3615,
+   "len": 24,
+   "en": "Do you accept the gift? ",
+   "zh": "你接受這份禮物嗎？",
+   "note": "旁白提示"
+  },
+  {
+   "offset": 3670,
+   "len": 42,
+   "en": "As you take the boomerang, Shamino speaks.",
+   "zh": "你接過飛去來器時，夏米諾開口。",
+   "note": "旁白"
+  },
+  {
+   "offset": 3719,
+   "len": 42,
+   "en": "\"Aye, 'tis a most interesting weapon, $G.\"",
+   "zh": "「確是件極有趣的武器，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 3764,
+   "len": 56,
+   "en": "\"Perhaps when our quest is through I can study its use.\"",
+   "zh": "「也許試煉結束後，吾可研究其用法。」",
+   "note": ""
+  },
+  {
+   "offset": 3827,
+   "len": 61,
+   "en": "The gargoyle speaks. \"To ask if anything else interests you?\"",
+   "zh": "魔像說：「問汝是否對其他物品感興趣？」",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 3894,
+   "len": 35,
+   "en": "The gargoyle hands you a boomerang.",
+   "zh": "魔像遞給你一枚飛去來器。",
+   "note": "旁白"
+  },
+  {
+   "offset": 3938,
+   "len": 70,
+   "en": "The gargoyle nods. \"Yes, to see that you already have enough weapons.\"",
+   "zh": "魔像點頭。「是的，見汝已備有足夠的武器。」",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 4021,
+   "len": 36,
+   "en": "\"To ask that you see me at my shop!\"",
+   "zh": "「請汝到吾的鋪子來！」",
+   "note": ""
+  },
+  {
+   "offset": 4063,
+   "len": 39,
+   "en": "\"Yes, to be a very interesting weapon.\"",
+   "zh": "「是的，此乃非常有趣之武器。」",
+   "note": ""
+  },
+  {
+   "offset": 4105,
+   "len": 75,
+   "en": "\"To knock out even a large animal with just a single pouch of this powder!\"",
+   "zh": "「一小袋此粉末便能令大型獵物昏厥！」",
+   "note": ""
+  },
+  {
+   "offset": 4183,
+   "len": 62,
+   "en": "\"To be used most often by hunters, to avoid harming the meat.\"",
+   "zh": "「獵人最常使用，可避免損傷獵物肉質。」",
+   "note": ""
+  },
+  {
+   "offset": 4248,
+   "len": 78,
+   "en": "\"Unfortunately, to make this powder from @plants that can no longer be found.\"",
+   "zh": "「可惜，此粉末須以@plants如今已無處可尋之植物製成。」",
+   "note": ""
+  },
+  {
+   "offset": 4346,
+   "len": 25,
+   "en": "\"Here, to offer you one.\"",
+   "zh": "「來，贈汝一份。」",
+   "note": ""
+  },
+  {
+   "offset": 4374,
+   "len": 24,
+   "en": "Do you accept the gift? ",
+   "zh": "你接受這份禮物嗎？",
+   "note": "旁白提示"
+  },
+  {
+   "offset": 4424,
+   "len": 57,
+   "en": "He hands you a small pouch. \"To hope you find it useful.\"",
+   "zh": "他遞給你一個小袋。「望汝得其所用。」",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 4489,
+   "len": 51,
+   "en": "The gargoyle nods. \"To understand your reluctance.\"",
+   "zh": "魔像點頭。「理解汝之顧慮。」",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 4543,
+   "len": 60,
+   "en": "\"To know the dangers of zu ylem dust to the untrained user.\"",
+   "zh": "「知曉醒神塵對未受訓練者之危險。」",
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {},
+  "places": {}
+ },
+ "riddles_additions": [],
+ "translator_notes": "兵器師為年輕魔像，在大災變失去師父後自立為首席兵器師，對工匠的自憐深感不屑。遵守魔像三原則（克制、熱情、勤勉）。zu ylem dust 譯為「醒神塵」（實為昏迷粉末，但用字帶魔像語異文化感）。飛去來器、號角等道具詳細介紹保留。"
+}

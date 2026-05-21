@@ -1,0 +1,195 @@
+{
+ "translations": [
+  {
+   "offset": 7,
+   "len": 26,
+   "en": "a burly barbarian warrior.",
+   "zh": "身形魁梧的蠻族武士。",
+   "note": "DESC"
+  },
+  {
+   "offset": 48,
+   "len": 36,
+   "en": "\"Vy talk ven dere's fighting to do?\"",
+   "zh": "「有仗可打，何必廢話？」",
+   "note": "日耳曼口音（v→w, d→th）譯為質樸豪邁"
+  },
+  {
+   "offset": 103,
+   "len": 33,
+   "en": "\"Ho, Avatar, thou hast returned!\"",
+   "zh": "「喲，聖者，汝回來了！」",
+   "note": ""
+  },
+  {
+   "offset": 142,
+   "len": 45,
+   "en": "\"Hail, $P! I haf heard of thy deeds, Avatar!\"",
+   "zh": "「嗨，$P！吾聽聞了汝的事蹟，聖者！」",
+   "note": "haf→have 日耳曼口音"
+  },
+  {
+   "offset": 195,
+   "len": 22,
+   "en": "\"I be named Gorn, $G.\"",
+   "zh": "「俺叫葛爾恩，$G。」",
+   "note": "I be 為口語，用「俺」呈現粗獷感"
+  },
+  {
+   "offset": 237,
+   "len": 44,
+   "en": "\"I follow thee, $G. I haf no other job now.\"",
+   "zh": "「俺跟著汝，$G。俺現在沒別的差事了。」",
+   "note": ""
+  },
+  {
+   "offset": 282,
+   "len": 38,
+   "en": "\"I be a fighter, a homeless vanderer.\"",
+   "zh": "「俺是個武士，無家可歸的流浪者。」",
+   "note": "vanderer→wanderer 口音"
+  },
+  {
+   "offset": 323,
+   "len": 55,
+   "en": "\"Here I vait until I find somevun else to @trafel mit.\"",
+   "zh": "「俺在這等著，等找到別人一起@旅行。」",
+   "note": "vait=wait, somevun=someone, trafel=travel, mit=with"
+  },
+  {
+   "offset": 399,
+   "len": 23,
+   "en": "\"Ya, I like to trafel!\"",
+   "zh": "「對，俺喜歡旅行！」",
+   "note": ""
+  },
+  {
+   "offset": 428,
+   "len": 72,
+   "en": "\"Much vould I like to vander again, but I haf no vun to trafel mit now.\"",
+   "zh": "「俺很想再度闖蕩，但現在沒人跟俺一起旅行了。」",
+   "note": ""
+  },
+  {
+   "offset": 503,
+   "len": 56,
+   "en": "\"Somevun vill ask me to @join mit them zooner or later.\"",
+   "zh": "「遲早會有人邀俺@同行的。」",
+   "note": ""
+  },
+  {
+   "offset": 574,
+   "len": 46,
+   "en": "\"I don't understand, $G. Vat do you mean, $Z?\"",
+   "zh": "「俺不懂，$G。汝說$Z是何意？」",
+   "note": "Vat=What"
+  },
+  {
+   "offset": 648,
+   "len": 47,
+   "en": "\"It is alvays a pleasure to talk mit thee, $G.\"",
+   "zh": "「和汝說話，$G，每回都是一種享受。」",
+   "note": "alvays=always"
+  },
+  {
+   "offset": 703,
+   "len": 15,
+   "en": "\"Sutek is mad.\"",
+   "zh": "「蘇特克是個瘋子。」",
+   "note": ""
+  },
+  {
+   "offset": 721,
+   "len": 23,
+   "en": "\"He is very dangerous.\"",
+   "zh": "「他非常危險。」",
+   "note": ""
+  },
+  {
+   "offset": 747,
+   "len": 35,
+   "en": "\"I vould avoid him if I vere thee.\"",
+   "zh": "「若俺是汝，俺會躲著他。」",
+   "note": ""
+  },
+  {
+   "offset": 785,
+   "len": 56,
+   "en": "\"But he does know many tings, und is sometimes helpful.\"",
+   "zh": "「但他確實知道許多事，有時也是有用的。」",
+   "note": "tings=things, und=and"
+  },
+  {
+   "offset": 856,
+   "len": 60,
+   "en": "\"I am just a simple varrior, $G, and know nothing about $Z.\"",
+   "zh": "「俺只是個粗人武士，$G，對$Z一無所知。」",
+   "note": "varrior=warrior"
+  },
+  {
+   "offset": 917,
+   "len": 65,
+   "en": "\"Surely zere are others who vould know more about $Z than I, $G.\"",
+   "zh": "「肯定有旁人比俺更了解$Z，$G。」",
+   "note": "zere=there"
+  },
+  {
+   "offset": 1010,
+   "len": 46,
+   "en": "\"I vould be much happy to join mit thee, $G$0\"",
+   "zh": "「俺很樂意加入汝，$G$0」",
+   "note": "$0為引擎注入的附加條件字串"
+  },
+  {
+   "offset": 1080,
+   "len": 27,
+   "en": "\"But I vas here first, ya?\"",
+   "zh": "「但俺先到的，對吧？」",
+   "note": "vas=was, ya=yes（日耳曼語氣詞）"
+  },
+  {
+   "offset": 1128,
+   "len": 24,
+   "en": "\"Ask ven ve land, okay?\"",
+   "zh": "「等靠岸了再說，好嗎？」",
+   "note": "ven=when, ve=we"
+  },
+  {
+   "offset": 1171,
+   "len": 55,
+   "en": "\"Ok, if that's vat you vant. Maybe I'll zee you later.\"",
+   "zh": "「好吧，若那是汝所願。也許晚些見。」",
+   "note": "zee=see"
+  },
+  {
+   "offset": 1229,
+   "len": 39,
+   "en": "\"You keep all zis stuff meanwhile, ya?\"",
+   "zh": "「這些東西先由汝保管，好嗎？」",
+   "note": "zis=this"
+  },
+  {
+   "offset": 1272,
+   "len": 20,
+   "en": ", but ve are at sea!",
+   "zh": "，但吾等正在海上！",
+   "note": "引擎注入的附加條件片段"
+  },
+  {
+   "offset": 1293,
+   "len": 34,
+   "en": ", but I dislike such large groups.",
+   "zh": "，但俺不喜歡這麼大的隊伍。",
+   "note": "引擎注入的附加條件片段"
+  },
+  {
+   "offset": 1328,
+   "len": 20,
+   "en": ", und I already haf!",
+   "zh": "，而且俺早就加入了！",
+   "note": "und=and, haf=have"
+  }
+ ],
+ "glossary_additions": {"people": {"Gorn": "葛爾恩"}, "places": {}},
+ "translator_notes": "葛爾恩是日耳曼口音蠻族武士。英文中 v→w、d→th、z→s/th 等音替換，中文以「俺」＋質樸豪邁語氣呈現其粗獷個性。"
+}

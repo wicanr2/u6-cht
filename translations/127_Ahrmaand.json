@@ -1,0 +1,237 @@
+{
+ "translations": [
+  {
+   "offset": 11,
+   "len": 34,
+   "en": "a distinguished looking gentleman.",
+   "zh": "儀表堂堂、氣度不凡的紳士。",
+   "note": "DESC"
+  },
+  {
+   "offset": 60,
+   "len": 49,
+   "en": "\"Greetings, $G, and welcome to the town of Cove.\"",
+   "zh": "「你好，$G，歡迎來到海灣鎮。」",
+   "note": ""
+  },
+  {
+   "offset": 143,
+   "len": 71,
+   "en": "\"Ah, $P! 'Tis an honor to welcome thee once more to my humble village.\"",
+   "zh": "「啊，$P！能再次歡迎汝蒞臨敝鎮，實乃榮幸。」",
+   "note": ""
+  },
+  {
+   "offset": 217,
+   "len": 44,
+   "en": "\"How might I be of assistance this fine $T?\"",
+   "zh": "「此番$T，有何能效勞之處？」",
+   "note": ""
+  },
+  {
+   "offset": 269,
+   "len": 51,
+   "en": "\"I am the Viscount Ahrmaand. And what is thy name?\"",
+   "zh": "「吾乃子爵阿赫曼德。汝名如何？」",
+   "note": ""
+  },
+  {
+   "offset": 337,
+   "len": 15,
+   "en": "\"Well met, $G!\"",
+   "zh": "「幸會，$G！」",
+   "note": ""
+  },
+  {
+   "offset": 362,
+   "len": 71,
+   "en": "\"I govern here in @Cove. 'Tis hard work, but my people love me for it.\"",
+   "zh": "「吾在@海灣鎮治政，雖勞苦，但深得民心。」",
+   "note": ""
+  },
+  {
+   "offset": 435,
+   "len": 118,
+   "en": "*\"I always thought it a blessing to live so close to a @shrine, though since the gargoyles came none dare go near it.\"",
+   "zh": "*「吾向來以為，能居於@聖壇附近實乃福氣，然自魔像族到來，無人敢再靠近。」",
+   "note": "保留 * 控制符"
+  },
+  {
+   "offset": 569,
+   "len": 69,
+   "en": "\"We have fine facilities here for healing the wounded and the @sick.\"",
+   "zh": "「吾鎮設有上等療傷設施，可照料傷者與@病人。」",
+   "note": ""
+  },
+  {
+   "offset": 649,
+   "len": 89,
+   "en": "\"In Britannia there are eight shrines, one for each of the eight @virtues of the Avatar.\"",
+   "zh": "「不列顛尼亞共有八處聖壇，對應聖者的八大@美德，各一處。」",
+   "note": ""
+  },
+  {
+   "offset": 741,
+   "len": 67,
+   "en": "\"They are places where people can go to meditate on these virtues.\"",
+   "zh": "「那是供人前往冥想美德的場所。」",
+   "note": ""
+  },
+  {
+   "offset": 824,
+   "len": 102,
+   "en": "\"The virtues are honesty, compassion, valour, justice, sacrifice, honor, spirituality, and humility.\"*",
+   "zh": "「八大美德乃：誠實、慈悲、勇氣、正義、犧牲、榮譽、靈性與謙遜。」*",
+   "note": "保留 * 控制符"
+  },
+  {
+   "offset": 928,
+   "len": 48,
+   "en": "\"'Tis good to @meditate on these virtues often.\"",
+   "zh": "「時常@冥想這些美德，大有裨益。」",
+   "note": ""
+  },
+  {
+   "offset": 987,
+   "len": 101,
+   "en": "\"Each shrine has its own @mantra. This is a chant which one should recite whilst meditating therein.\"",
+   "zh": "「每處聖壇都有專屬的@真言，冥想時應吟誦之。」",
+   "note": ""
+  },
+  {
+   "offset": 1091,
+   "len": 86,
+   "en": "\"Once there was a time when a special rune was required to enter each shrine as well.\"",
+   "zh": "「昔日，進入每處聖壇還需持有特定的符文。」",
+   "note": ""
+  },
+  {
+   "offset": 1180,
+   "len": 96,
+   "en": "\"Now the gargoyles have taken the Shrine of Compassion, and it is lost to the people once more.\"",
+   "zh": "「如今魔像族已佔據慈悲聖壇，人們再次無從親近。」",
+   "note": ""
+  },
+  {
+   "offset": 1307,
+   "len": 108,
+   "en": "\"A party of adventurers came here after their attempt to defeat the gargoyles at the Shrine of Compassion.\"*",
+   "zh": "「一隊冒險者曾前往慈悲聖壇嘗試擊退魔像族，之後來到此地。」*",
+   "note": "保留 * 控制符"
+  },
+  {
+   "offset": 1417,
+   "len": 47,
+   "en": "\"I spoke with their @leader when they arrived.\"",
+   "zh": "「他們抵達時，吾曾與其@領隊交談。」",
+   "note": ""
+  },
+  {
+   "offset": 1467,
+   "len": 81,
+   "en": "\"Thou shouldst speak with him thyself. He told of a strange violet energy field.\"",
+   "zh": "「汝當親自與其一談。他提到了一道奇異的紫色能量場。」",
+   "note": ""
+  },
+  {
+   "offset": 1551,
+   "len": 95,
+   "en": "\"I think mayhap 'tis similar to the @force which blocked entry to the shrines many years ago.\"*",
+   "zh": "「吾以為，此與多年前阻擋人進入聖壇的那股@力量頗為相似。」*",
+   "note": "保留 * 控制符"
+  },
+  {
+   "offset": 1648,
+   "len": 56,
+   "en": "\"The eight mystic runes were most useful in those days.\"",
+   "zh": "「昔日，八枚神秘符文極為有用。」",
+   "note": ""
+  },
+  {
+   "offset": 1715,
+   "len": 39,
+   "en": "\"He's in bed at Sasha's, recuperating.\"",
+   "zh": "「他在莎夏那裡臥床休養。」",
+   "note": ""
+  },
+  {
+   "offset": 1790,
+   "len": 71,
+   "en": "\"Use the Rune of Compassion whilst chanting the @Mantra of Compassion.\"",
+   "zh": "「使用慈悲符文，同時吟唱@慈悲真言。」",
+   "note": ""
+  },
+  {
+   "offset": 1864,
+   "len": 63,
+   "en": "\"Methinks this may negate the gargoyle's magic at that shrine.\"",
+   "zh": "「吾以為，此法或許能破除聖壇上魔像族的魔法。」",
+   "note": ""
+  },
+  {
+   "offset": 1943,
+   "len": 41,
+   "en": "\"Ask Lord British's Chancellor, Tholden.\"",
+   "zh": "「去問問不列顛王的宰相索登。」",
+   "note": ""
+  },
+  {
+   "offset": 1987,
+   "len": 82,
+   "en": "\"He canst tell thee of the mantra, and like as not he will also know of the rune.\"",
+   "zh": "「他能告知汝真言，也很可能知曉符文之事。」",
+   "note": ""
+  },
+  {
+   "offset": 2086,
+   "len": 48,
+   "en": "\"Twas a delight to converse with thee, my dear.\"",
+   "zh": "「與汝攀談，實是一大樂事，吾的朋友。」",
+   "note": ""
+  },
+  {
+   "offset": 2137,
+   "len": 76,
+   "en": "\"My heart will be aflutter with anticipation till thou dost visit me again.\"",
+   "zh": "「吾將心懷期盼，盼汝再次蒞臨。」",
+   "note": ""
+  },
+  {
+   "offset": 2214,
+   "len": 48,
+   "en": "\"Farewell sirrah, and good luck with thy quest.\"",
+   "zh": "「告辭，祝汝試煉順遂。」",
+   "note": ""
+  },
+  {
+   "offset": 2268,
+   "len": 31,
+   "en": "\"I cannot help thee with that.\"",
+   "zh": "「此事吾幫不上忙。」",
+   "note": ""
+  },
+  {
+   "offset": 2305,
+   "len": 55,
+   "en": "\"Ah, $P, thou hast come back to get better acquainted!\"",
+   "zh": "「啊，$P，汝回來是為了進一步相識！」",
+   "note": ""
+  },
+  {
+   "offset": 2361,
+   "len": 89,
+   "en": "\"$P, seeing thee again, I feel as if the clouds have parted to reveal the sun once more.\"",
+   "zh": "「$P，再次見到汝，吾彷彿感到雲開日現。」",
+   "note": ""
+  },
+  {
+   "offset": 2451,
+   "len": 114,
+   "en": "\"Milady $P! If thou art as happy to see me as I to see thee, then this must be for thee a joyous occasion indeed.\"",
+   "zh": "「夫人$P！若汝見吾之喜悅如吾見汝，則此刻對汝亦必是歡欣時刻。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Ahrmaand": "阿赫曼德"}, "places": {}},
+ "translator_notes": "Ahrmaand 海灣鎮子爵，說話優雅，用 thee/thou 古體。對女性玩家有額外殷切語句。"
+}

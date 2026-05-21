@@ -1,0 +1,244 @@
+{
+ "translations": [
+  {
+   "offset": 9,
+   "len": 38,
+   "en": "a large black woman with a loud laugh.",
+   "zh": "體型豐碩、笑聲爽朗的黑人女子。",
+   "note": "DESC"
+  },
+  {
+   "offset": 70,
+   "len": 56,
+   "en": "\"Hello, hello!\" she cries, clapping her hands together.*",
+   "zh": "「你好，你好！」她拍著手高聲呼道。*",
+   "note": "* 為控制字元，保留"
+  },
+  {
+   "offset": 133,
+   "len": 66,
+   "en": "\"You're here again! Good.\" She smiles widely. \"What can I get ya?\"",
+   "zh": "「又來了！好。」她展顏大笑。「要買什麼？」",
+   "note": ""
+  },
+  {
+   "offset": 213,
+   "len": 43,
+   "en": "\"Amanda, but you can call me 'Miss Mandy'.\"",
+   "zh": "「阿曼達，但你可以叫我『曼迪小姐』。」",
+   "note": ""
+  },
+  {
+   "offset": 267,
+   "len": 51,
+   "en": "\"Which, @ale, @mead, @wine, @rations or @Waybread?\"",
+   "zh": "「要@麥酒、@蜂蜜酒、@葡萄酒、@口糧還是@行路麵包？」",
+   "note": ""
+  },
+  {
+   "offset": 329,
+   "len": 52,
+   "en": "\"I sell @ale, @mead, @wine, @rations and @Waybread.\"",
+   "zh": "「我賣@麥酒、@蜂蜜酒、@葡萄酒、@口糧和@行路麵包。」",
+   "note": ""
+  },
+  {
+   "offset": 472,
+   "len": 31,
+   "en": "\"Please, call me 'Miss Mandy'.\"",
+   "zh": "「請叫我『曼迪小姐』。」",
+   "note": ""
+  },
+  {
+   "offset": 520,
+   "len": 28,
+   "en": "\"There, that's much better.\"",
+   "zh": "「這樣好多了。」",
+   "note": ""
+  },
+  {
+   "offset": 560,
+   "len": 65,
+   "en": "\"He's been in here a few times. He has a homesick look, he does.\"",
+   "zh": "「他來過好幾次了。他看起來很想家，是的。」",
+   "note": "referring to Seggallion"
+  },
+  {
+   "offset": 636,
+   "len": 49,
+   "en": "\"Remember to tell your friends 'bout Miss Mandy.\"",
+   "zh": "「記得告訴你的朋友有曼迪小姐這個人喔。」",
+   "note": ""
+  },
+  {
+   "offset": 690,
+   "len": 48,
+   "en": "\"That's one on me. 'Tain't never heard o' that.\"",
+   "zh": "「這個嘛，從沒聽說過這種事。」",
+   "note": "'Tain't=It ain't 口語，表示不知道"
+  },
+  {
+   "offset": 786,
+   "len": 6,
+   "en": "#2. $Y",
+   "zh": "#2. $Y",
+   "note": "VM list格式，保留原文"
+  },
+  {
+   "offset": 826,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪位？」",
+   "note": ""
+  },
+  {
+   "offset": 904,
+   "len": 36,
+   "en": "\"That'll be #1 crowns, okay sugar?\" ",
+   "zh": "「要#1個克朗，好嗎，親愛的？」",
+   "note": ""
+  },
+  {
+   "offset": 977,
+   "len": 36,
+   "en": "\"Come back when you have some gold.\"",
+   "zh": "「有金幣了再來吧。」",
+   "note": ""
+  },
+  {
+   "offset": 1045,
+   "len": 34,
+   "en": "\"You don't have room to carry it.\"",
+   "zh": "「你帶不下了。」",
+   "note": ""
+  },
+  {
+   "offset": 1148,
+   "len": 35,
+   "en": "\"Here you are.\" $N gives $Y the $1.",
+   "zh": "「拿去。」$N把$1遞給$Y。",
+   "note": ""
+  },
+  {
+   "offset": 1195,
+   "len": 22,
+   "en": "\"Y'all enjoy it, now.\"",
+   "zh": "「好好享用喔。」",
+   "note": "Y'all=You all 南方口語"
+  },
+  {
+   "offset": 1274,
+   "len": 6,
+   "en": "#2. $Y",
+   "zh": "#2. $Y",
+   "note": "VM list格式，保留原文"
+  },
+  {
+   "offset": 1314,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪位？」",
+   "note": ""
+  },
+  {
+   "offset": 1379,
+   "len": 96,
+   "en": "\"Some say I make the best Waybread in these parts. It costs just 2 gold. You want to try some?\" ",
+   "zh": "「有人說我做的行路麵包是這一帶最好的。只要2枚金幣。要試試嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1491,
+   "len": 36,
+   "en": "\"Come back when you have some gold.\"",
+   "zh": "「有金幣了再來吧。」",
+   "note": ""
+  },
+  {
+   "offset": 1553,
+   "len": 34,
+   "en": "\"You don't have room to carry it.\"",
+   "zh": "「你帶不下了。」",
+   "note": ""
+  },
+  {
+   "offset": 1630,
+   "len": 26,
+   "en": "$N gives $Y some Waybread.",
+   "zh": "$N給了$Y一些行路麵包。",
+   "note": ""
+  },
+  {
+   "offset": 1691,
+   "len": 38,
+   "en": "\"That'll put some meat on your bones.\"",
+   "zh": "「這能讓你長些肉。」",
+   "note": ""
+  },
+  {
+   "offset": 1779,
+   "len": 6,
+   "en": "#2. $Y",
+   "zh": "#2. $Y",
+   "note": "VM list格式，保留原文"
+  },
+  {
+   "offset": 1819,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪位？」",
+   "note": ""
+  },
+  {
+   "offset": 1923,
+   "len": 51,
+   "en": "\"Rations are 4 gold apiece. How many do you want?\" ",
+   "zh": "「口糧一份4枚金幣。要幾份？」",
+   "note": ""
+  },
+  {
+   "offset": 2144,
+   "len": 52,
+   "en": "$N looks at $Y. \"You haven't got room to carry any!\"",
+   "zh": "$N望向$Y。「你已經帶不下任何東西了！」",
+   "note": ""
+  },
+  {
+   "offset": 2213,
+   "len": 36,
+   "en": "\"Come back when you have some gold.\"",
+   "zh": "「有金幣了再來吧。」",
+   "note": ""
+  },
+  {
+   "offset": 2298,
+   "len": 27,
+   "en": "$N hands the rations to $Y.",
+   "zh": "$N把口糧遞給$Y。",
+   "note": ""
+  },
+  {
+   "offset": 2334,
+   "len": 32,
+   "en": "She hands $Y #9 mutton ration\\s.",
+   "zh": "她遞給$Y #9份羊肉口糧。",
+   "note": "\\s 為複數後綴，保留原文標記（實際不顯示）"
+  },
+  {
+   "offset": 2377,
+   "len": 27,
+   "en": "\"That's all you can carry.\"",
+   "zh": "「你最多只能帶這些了。」",
+   "note": ""
+  },
+  {
+   "offset": 2413,
+   "len": 28,
+   "en": "\"That's all you can afford.\"",
+   "zh": "「你最多只付得起這些。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Amanda": "阿曼達"}, "places": {}},
+ "translator_notes": "阿曼達是熱情開朗的食物商，自稱「曼迪小姐」（Miss Mandy）。她賣麥酒、蜂蜜酒、葡萄酒、口糧和行路麵包。南方口語Y'all=大家。Waybread→行路麵包，rations→口糧。Mead/Ale/Wine 品名系統字串不翻。"
+}

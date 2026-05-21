@@ -1,0 +1,242 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 10,
+   "en": "Draxinusom",
+   "zh": "崔西努森",
+   "note": "NPC name — glossary 已有（Lord Draxinusom→崔西努森王）"
+  },
+  {
+   "offset": 13,
+   "len": 42,
+   "en": "a large, winged gargoyle of regal bearing.",
+   "zh": "體形高大之有翼魔像，儀態威嚴。",
+   "note": "DESC"
+  },
+  {
+   "offset": 79,
+   "len": 71,
+   "en": "The gargoyle screams, \"An-bal-sil-fer! Klep lem! Por-aylem ter-ort ka!\"",
+   "zh": "魔像嘶聲大喊：「An-bal-sil-fer！Klep lem！Por-aylem ter-ort ka！」",
+   "note": "魔像語保留原文"
+  },
+  {
+   "offset": 163,
+   "len": 102,
+   "en": "\"To be honored by your presence, noble $P. To feel sorrow that matters of state prevent conversation.\"",
+   "zh": "「高貴之$P蒞臨，深感榮幸。惜國事繁忙，無暇詳談。」",
+   "note": "崔西努森帶玉璽架子的話語"
+  },
+  {
+   "offset": 268,
+   "len": 61,
+   "en": "\"To summon you when proper time for your sacrifice has come.\"",
+   "zh": "「待汝獻祭之時辰已至，吾將召見汝。」",
+   "note": ""
+  },
+  {
+   "offset": 337,
+   "len": 87,
+   "en": "\"To refrain from slaying you only because of the presence of the child, False Prophet!\"",
+   "zh": "「偽先知！吾之所以暫不誅汝，唯因孩童在場！」",
+   "note": "貝蘭使崔西努森手軟"
+  },
+  {
+   "offset": 434,
+   "len": 62,
+   "en": "\"To demand to know why you have returned here, False Prophet!\"",
+   "zh": "「偽先知！吾要求汝說明，為何再度回到此處！」",
+   "note": ""
+  },
+  {
+   "offset": 497,
+   "len": 58,
+   "en": "\"To express astonishment at your audacity, False Prophet!\"",
+   "zh": "「偽先知！汝之膽大妄為，令吾瞠目結舌！」",
+   "note": ""
+  },
+  {
+   "offset": 586,
+   "len": 45,
+   "en": "\"To be named Draxinusom, leader of our race.\"",
+   "zh": "「吾名崔西努森，吾族之統領。」",
+   "note": ""
+  },
+  {
+   "offset": 634,
+   "len": 48,
+   "en": "\"To demand to know why you have come before me!\"",
+   "zh": "「吾要求汝說明，為何來見吾！」",
+   "note": ""
+  },
+  {
+   "offset": 702,
+   "len": 93,
+   "en": "\"To be the leader of our race. To have little time to waste chatting with the False Prophet!\"",
+   "zh": "「吾乃吾族統領。無暇在此與偽先知閒聊！」",
+   "note": ""
+  },
+  {
+   "offset": 815,
+   "len": 98,
+   "en": "\"Flee, False Prophet! To seize you for sacrifice the instant my army returns from the Underworld!\"",
+   "zh": "「偽先知，速逃！吾之大軍自幽冥界歸返之際，便是擒汝獻祭之時！」",
+   "note": ""
+  },
+  {
+   "offset": 990,
+   "len": 69,
+   "en": "The gargoyle shows you a crystal amulet dangling from a leather cord.",
+   "zh": "魔像展示一枚以皮繩穿掛的水晶護符。",
+   "note": "旁白"
+  },
+  {
+   "offset": 1062,
+   "len": 35,
+   "en": "\"Hsss....To consent to wear this?\" ",
+   "zh": "「嘶……願佩戴此物嗎？」",
+   "note": "ssss 蛇聲保留 hiss 擬聲感"
+  },
+  {
+   "offset": 1109,
+   "len": 89,
+   "en": "Trusted Dupre whispers frantically to you, \"You mustn't! It's some sort of magical trap!\"",
+   "zh": "身旁信賴的杜普雷急聲低語：「你不能戴！那是某種魔法陷阱！」",
+   "note": "旁白，Dupre 發音已有 glossary"
+  },
+  {
+   "offset": 1205,
+   "len": 74,
+   "en": "The gargoyle waits impatiently for an answer. \"Yes or no, False Prophet?\" ",
+   "zh": "魔像不耐地等候答覆。「偽先知，是還是否？」",
+   "note": "旁白"
+  },
+  {
+   "offset": 1290,
+   "len": 29,
+   "en": "\"To have known it all along!\"",
+   "zh": "「吾早知如此！」",
+   "note": ""
+  },
+  {
+   "offset": 1320,
+   "len": 59,
+   "en": "\"To be a fool for trusting the False Prophet for a moment!\"",
+   "zh": "「片刻信任偽先知，吾真是愚蠢至極！」",
+   "note": ""
+  },
+  {
+   "offset": 1390,
+   "len": 36,
+   "en": "\"To be suspicious of thy motives...\"",
+   "zh": "「吾對汝之動機深感懷疑……」",
+   "note": ""
+  },
+  {
+   "offset": 1448,
+   "len": 74,
+   "en": "\"To be necessary for surrender! To ask again for your acceptance of this.\"",
+   "zh": "「此乃歸降所必需！再次問汝是否接受。」",
+   "note": ""
+  },
+  {
+   "offset": 1524,
+   "len": 13,
+   "en": "Your answer: ",
+   "zh": "你的答覆：",
+   "note": "旁白提示"
+  },
+  {
+   "offset": 1553,
+   "len": 80,
+   "en": "The gargoyle hands you the amulet, and you slip the leather loop over your head.",
+   "zh": "魔像將護符遞給你，你將皮繩套過頭頂。",
+   "note": "旁白"
+  },
+  {
+   "offset": 1654,
+   "len": 87,
+   "en": "\"To surprise me with the nobility of your deed. To no longer be a threat to my people.\"",
+   "zh": "「汝之行為之高尚出乎意料。汝已不再是吾族之威脅。」",
+   "note": ""
+  },
+  {
+   "offset": 1744,
+   "len": 69,
+   "en": "\"To bid you to travel among my people, talk to them, learn our ways.\"",
+   "zh": "「吾准許汝往來吾族之中，與彼等交談，習吾族之道。」",
+   "note": ""
+  },
+  {
+   "offset": 1816,
+   "len": 57,
+   "en": "\"To inform you when the time of your sacrifice has come.\"",
+   "zh": "「待汝獻祭之時辰已至，吾將告知。」",
+   "note": ""
+  },
+  {
+   "offset": 1875,
+   "len": 100,
+   "en": "\"Begone, False Prophet! To seize you for sacrifice the instant my army returns from the Underworld!\"",
+   "zh": "「偽先知，滾開！吾之大軍自幽冥界歸返之際，便是擒汝獻祭之時！」",
+   "note": ""
+  },
+  {
+   "offset": 1978,
+   "len": 27,
+   "en": "\"To be here to surrender?\" ",
+   "zh": "「前來歸降？」",
+   "note": ""
+  },
+  {
+   "offset": 2020,
+   "len": 42,
+   "en": "\"To be willing to die to save my people?\" ",
+   "zh": "「願以一死拯救吾族？」",
+   "note": ""
+  },
+  {
+   "offset": 2064,
+   "len": 25,
+   "en": "\"To grant me your life?\" ",
+   "zh": "「願將性命相授？」",
+   "note": ""
+  },
+  {
+   "offset": 2119,
+   "len": 6,
+   "en": "\"Why?\"",
+   "zh": "「為何？」",
+   "note": ""
+  },
+  {
+   "offset": 2131,
+   "len": 46,
+   "en": "\"To ignore the rhetoric of the False Prophet!\"",
+   "zh": "「莫理偽先知之詭辯！」",
+   "note": ""
+  },
+  {
+   "offset": 2178,
+   "len": 39,
+   "en": "\"To grow impatient with your babbling!\"",
+   "zh": "「汝之喋喋不休令吾不耐！」",
+   "note": ""
+  },
+  {
+   "offset": 2218,
+   "len": 33,
+   "en": "\"To warn you of imminent attack!\"",
+   "zh": "「警告汝——攻擊將至！」",
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {},
+  "places": {}
+ },
+ "riddles_additions": [],
+ "translator_notes": "崔西努森為魔像族統領，語氣威嚴傲慢，對偽先知（Avatar）極度不信任。魔像語叫喊原文保留。遇見玩家在不同狀態下有不同反應（護符前/護符後）。"
+}

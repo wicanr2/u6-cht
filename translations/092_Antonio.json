@@ -1,0 +1,206 @@
+{
+ "translations": [
+  {
+   "offset": 10,
+   "len": 48,
+   "en": "a gentleman of slight build and refined manners.",
+   "zh": "一位身材清瘦、舉止優雅的紳士。",
+   "note": "DESC"
+  },
+  {
+   "offset": 73,
+   "len": 53,
+   "en": "\"Greetings! I am Lord Antonio. Might I ask thy name?\"",
+   "zh": "「您好！在下乃安東尼奧大人。敢問汝尊名？」",
+   "note": ""
+  },
+  {
+   "offset": 133,
+   "len": 27,
+   "en": "\"Then prithee, what is it?\"",
+   "zh": "「那麼，尊名為何？」",
+   "note": ""
+  },
+  {
+   "offset": 170,
+   "len": 14,
+   "en": "\"As you wish.\"",
+   "zh": "「悉聽尊便。」",
+   "note": ""
+  },
+  {
+   "offset": 205,
+   "len": 27,
+   "en": "\"The pleasure is all mine.\"",
+   "zh": "「幸會，榮幸之至。」",
+   "note": ""
+  },
+  {
+   "offset": 237,
+   "len": 47,
+   "en": "\"Greetings, $P! What brings thee here this $T?\"",
+   "zh": "「歡迎，$P！$T有何貴幹？」",
+   "note": ""
+  },
+  {
+   "offset": 292,
+   "len": 21,
+   "en": "\"My name is Antonio.\"",
+   "zh": "「在下名叫安東尼奧。」",
+   "note": ""
+  },
+  {
+   "offset": 323,
+   "len": 25,
+   "en": "\"I govern @New Magincia.\"",
+   "zh": "「在下治理@新馬精西亞。」",
+   "note": ""
+  },
+  {
+   "offset": 350,
+   "len": 113,
+   "en": "*\"Fortunately the fine people of this town have few disputes to settle, leaving me plenty of time for my @hobby.\"",
+   "zh": "*「幸而此鎮良善之民鮮少有爭端需要裁決，使在下有大把閒暇投入我的@嗜好。」",
+   "note": "*控制符保留"
+  },
+  {
+   "offset": 479,
+   "len": 50,
+   "en": "\"The city of @humility is a lovely place to live.\"",
+   "zh": "「@謙遜之城是個宜居的好地方。」",
+   "note": ""
+  },
+  {
+   "offset": 545,
+   "len": 73,
+   "en": "\"I do @magic tricks. It brings a bit of cheer into this imperfect world.\"",
+   "zh": "「在下表演@魔術，為這不完美的世界帶來一絲歡笑。」",
+   "note": ""
+  },
+  {
+   "offset": 678,
+   "len": 51,
+   "en": "\"The most @humble one amongst us knows the mantra.\"",
+   "zh": "「吾等之中最@謙遜者方知真言。」",
+   "note": ""
+  },
+  {
+   "offset": 732,
+   "len": 78,
+   "en": "\"If thou canst find out who that is, tell me, and I will give thee the rune.\"*",
+   "zh": "「若汝能查明此人是誰，告知在下，在下便將符文賜予汝。」*",
+   "note": "*控制符保留"
+  },
+  {
+   "offset": 867,
+   "len": 69,
+   "en": "\"Until we meet again, may your road be short and your fortunes long.\"",
+   "zh": "「後會有期，願汝路途短而福運長。」",
+   "note": ""
+  },
+  {
+   "offset": 941,
+   "len": 31,
+   "en": "\"I cannot help thee with that.\"",
+   "zh": "「此事在下愛莫能助。」",
+   "note": ""
+  },
+  {
+   "offset": 978,
+   "len": 32,
+   "en": "\"Wouldst thou like to see one?\" ",
+   "zh": "「汝可有意看一場？」",
+   "note": ""
+  },
+  {
+   "offset": 1016,
+   "len": 14,
+   "en": "\"As you wish.\"",
+   "zh": "「悉聽尊便。」",
+   "note": ""
+  },
+  {
+   "offset": 1037,
+   "len": 68,
+   "en": "\"Splendid!\" Antonio reaches into his pocket and takes out a balloon.",
+   "zh": "「妙極！」安東尼奧伸手入口袋，取出一個氣球。",
+   "note": ""
+  },
+  {
+   "offset": 1108,
+   "len": 121,
+   "en": "He blows it up until it bursts, and four doves appear from inside it, flying off towards the four points of the compass.*",
+   "zh": "他將氣球吹至爆裂，四隻白鴿從中飛出，分朝四方而去。*",
+   "note": "*控制符保留"
+  },
+  {
+   "offset": 1231,
+   "len": 22,
+   "en": "\"Did you enjoy that?\" ",
+   "zh": "「汝可覺有趣？」",
+   "note": ""
+  },
+  {
+   "offset": 1259,
+   "len": 49,
+   "en": "\"Too bad. Perhaps I should learn a better trick.\"",
+   "zh": "「可惜，或許在下應學一個更好的把戲。」",
+   "note": ""
+  },
+  {
+   "offset": 1311,
+   "len": 45,
+   "en": "\"I knew you would. That's my favorite trick!\"",
+   "zh": "「在下就知道汝會喜歡，那是在下最拿手的把戲！」",
+   "note": ""
+  },
+  {
+   "offset": 1362,
+   "len": 61,
+   "en": "\"Dost thou know who is the most humble person in this town?\" ",
+   "zh": "「汝可知此鎮最謙遜之人是誰？」",
+   "note": ""
+  },
+  {
+   "offset": 1429,
+   "len": 21,
+   "en": "\"Keep asking around.\"",
+   "zh": "「繼續四處詢問吧。」",
+   "note": ""
+  },
+  {
+   "offset": 1457,
+   "len": 34,
+   "en": "\"Then what is that person's name?\"",
+   "zh": "「那此人名叫什麼？」",
+   "note": ""
+  },
+  {
+   "offset": 1504,
+   "len": 80,
+   "en": "\"Very astute of thee! Here is the rune, and I wish thee success on thy mission.\"",
+   "zh": "「汝果然敏銳！符文奉上，願汝任務告捷。」",
+   "note": ""
+  },
+  {
+   "offset": 1602,
+   "len": 44,
+   "en": "\"'Tis not fitting that thou shouldst guess.\"",
+   "zh": "「汝不應猜測，此舉有失妥當。」",
+   "note": ""
+  },
+  {
+   "offset": 1649,
+   "len": 69,
+   "en": "\"Make sure thou dost know the answer before you speak with me again.\"",
+   "zh": "「確認答案後再來找在下。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Antonio": "安東尼奧"
+  }
+ },
+ "translator_notes": "092 Antonio: 新馬精西亞的紳士領主，愛好魔術表演。符文謎題：找出最謙遜之人。"
+}

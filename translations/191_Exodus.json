@@ -1,0 +1,265 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 6,
+   "en": "Exodus",
+   "zh": "厄瑟達斯",
+   "note": "NPC name，邪惡三位一體之一，勤勉之體現"
+  },
+  {
+   "offset": 9,
+   "len": 34,
+   "en": "a stone statue of the evil Exodus.",
+   "zh": "邪惡厄瑟達斯的石像。",
+   "note": "DESC"
+  },
+  {
+   "offset": 59,
+   "len": 36,
+   "en": "\"For what dost thou return, Avatar?\"",
+   "zh": "「聖者，汝為何再度歸來？」",
+   "note": ""
+  },
+  {
+   "offset": 101,
+   "len": 84,
+   "en": "You still remember vividly how you defeated Exodus in your third visit to Brittania.",
+   "zh": "你仍清晰地記得第三次造訪不列顛尼亞時，你是如何擊敗厄瑟達斯的。",
+   "note": "旁白"
+  },
+  {
+   "offset": 188,
+   "len": 78,
+   "en": "Using the four cards, you tricked the accursed machine into destroying itself.",
+   "zh": "你藉助四張牌，誘使那被詛咒的機器自我毀滅。",
+   "note": "旁白"
+  },
+  {
+   "offset": 269,
+   "len": 18,
+   "en": "The statue speaks!",
+   "zh": "石像開口了！",
+   "note": "旁白"
+  },
+  {
+   "offset": 290,
+   "len": 24,
+   "en": "\"We meet again, Avatar.\"",
+   "zh": "「我們再度相遇，聖者。」",
+   "note": ""
+  },
+  {
+   "offset": 317,
+   "len": 55,
+   "en": "\"Fear not! I have but one @task now, and am no threat.\"",
+   "zh": "「無需畏懼！我如今只有一個@task使命，不再構成威脅。」",
+   "note": ""
+  },
+  {
+   "offset": 381,
+   "len": 87,
+   "en": "\"Though I no longer bear the form of the machine you destroyed, yet still am I Exodus.\"",
+   "zh": "「雖然吾不再以汝所摧毀之機器的形態存在，然吾仍是厄瑟達斯。」",
+   "note": ""
+  },
+  {
+   "offset": 483,
+   "len": 78,
+   "en": "\"The gargoyles have enshrined my spirit here as the embodiment of @diligence.\"",
+   "zh": "「魔像將吾之靈魂奉祀於此，作為@diligence勤勉之體現。」",
+   "note": ""
+  },
+  {
+   "offset": 577,
+   "len": 31,
+   "en": "\"I was once a powerful daemon.\"",
+   "zh": "「吾昔日乃一強大魔靈。」",
+   "note": ""
+  },
+  {
+   "offset": 610,
+   "len": 90,
+   "en": "\"Diligence was the essence of my soul--cold, unswerving diligence in my path of conquest.\"",
+   "zh": "「勤勉乃吾靈魂之本質——冷酷、堅定不移地在征服之路上精進不輟。」",
+   "note": ""
+  },
+  {
+   "offset": 703,
+   "len": 70,
+   "en": "\"But in my devotion to achievement I lost sight of my original goals.\"",
+   "zh": "「然而在對成就的執著中，吾失去了對最初目標的視野。」",
+   "note": ""
+  },
+  {
+   "offset": 776,
+   "len": 71,
+   "en": "\"Diligence without a goal is as worthless as a goal without diligence.\"",
+   "zh": "「無目標的勤勉，如同無勤勉的目標，同樣毫無價值。」",
+   "note": ""
+  },
+  {
+   "offset": 850,
+   "len": 69,
+   "en": "\"The means cannot replace the end, and diligence cannot be the goal.\"",
+   "zh": "「手段不能取代目的，勤勉本身不能成為目標。」",
+   "note": ""
+  },
+  {
+   "offset": 922,
+   "len": 37,
+   "en": "\"The gargoyles understand diligence.\"",
+   "zh": "「魔像深諳勤勉之道。」",
+   "note": ""
+  },
+  {
+   "offset": 962,
+   "len": 61,
+   "en": "\"Their society is based on the diligent leading the wayward.\"",
+   "zh": "「其社會以勤勉之人引導迷途者為基礎。」",
+   "note": ""
+  },
+  {
+   "offset": 1026,
+   "len": 75,
+   "en": "\"In this way, they maintain their fight for survival in their harsh world.\"",
+   "zh": "「如此，他們維持著在嚴酷世界中求存的鬥志。」",
+   "note": ""
+  },
+  {
+   "offset": 1126,
+   "len": 43,
+   "en": "\"I have no concern for matters such as $Z.\"",
+   "zh": "「$Z之事，吾不關心。」",
+   "note": ""
+  },
+  {
+   "offset": 1170,
+   "len": 78,
+   "en": "\"I am enshrined here in eternal contemplation of the principle of @diligence.\"",
+   "zh": "「吾永恆地奉祀於此，沉思@diligence勤勉之原則。」",
+   "note": ""
+  },
+  {
+   "offset": 1251,
+   "len": 43,
+   "en": "\"I have no concern for matters such as $Z.\"",
+   "zh": "「$Z之事，吾不關心。」",
+   "note": "重複"
+  },
+  {
+   "offset": 1308,
+   "len": 78,
+   "en": "\"Contemplate what thou hast learned. Repeat after me the Mantra of Diligence.\"",
+   "zh": "「默想汝所習得之事。隨吾覆誦勤勉真言。」",
+   "note": ""
+  },
+  {
+   "offset": 1389,
+   "len": 7,
+   "en": "Us.... ",
+   "zh": "Us…… ",
+   "note": "真言咒語，保留原文"
+  },
+  {
+   "offset": 1399,
+   "len": 9,
+   "en": "Us.... $0",
+   "zh": "Us…… $0",
+   "note": "真言互動"
+  },
+  {
+   "offset": 1411,
+   "len": 9,
+   "en": "Us.... $0",
+   "zh": "Us…… $0",
+   "note": "真言互動"
+  },
+  {
+   "offset": 1433,
+   "len": 27,
+   "en": "\"I can teach thee no more.\"",
+   "zh": "「吾已無更多可教。」",
+   "note": ""
+  },
+  {
+   "offset": 1471,
+   "len": 60,
+   "en": "\"Thy understanding is flawed. But I can teach thee no more.\"",
+   "zh": "「汝之理解有所缺失。然吾已無更多可教。」",
+   "note": ""
+  },
+  {
+   "offset": 1546,
+   "len": 19,
+   "en": "\"Farewell, Avatar.\"",
+   "zh": "「別了，聖者。」",
+   "note": ""
+  },
+  {
+   "offset": 1568,
+   "len": 47,
+   "en": "\"May thy diligence maintain thee on thy quest.\"",
+   "zh": "「願汝之勤勉在使命中持守汝。」",
+   "note": ""
+  },
+  {
+   "offset": 1641,
+   "len": 59,
+   "en": "\"Thou wilt need diligence to succeed in thy quest, Avatar.\"",
+   "zh": "「汝的使命需要勤勉方能成功，聖者。」",
+   "note": ""
+  },
+  {
+   "offset": 1703,
+   "len": 73,
+   "en": "\"But thou wilt most of all need a clear vision of thy goal to be worthy.\"",
+   "zh": "「然最重要的是，汝需對目標有清晰的視野，方能稱得上聖者之名。」",
+   "note": ""
+  },
+  {
+   "offset": 1779,
+   "len": 16,
+   "en": "\"$0 @diligence.\"",
+   "zh": "「$0@diligence勤勉。」",
+   "note": "評語後半"
+  },
+  {
+   "offset": 1803,
+   "len": 24,
+   "en": "Thy deeds show a lack of",
+   "zh": "汝之行為顯示缺乏",
+   "note": "旁白前半（差等）"
+  },
+  {
+   "offset": 1828,
+   "len": 24,
+   "en": "Thy deeds show misguided",
+   "zh": "汝之行為顯示迷失方向的",
+   "note": "旁白前半（中等）"
+  },
+  {
+   "offset": 1853,
+   "len": 31,
+   "en": "Thy deeds show the value of thy",
+   "zh": "汝之行為彰顯了汝之",
+   "note": "旁白前半（良等）"
+  },
+  {
+   "offset": 1885,
+   "len": 26,
+   "en": "I admire thy deeds and thy",
+   "zh": "吾欽佩汝之行為與汝之",
+   "note": "旁白前半（優等）"
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {
+   "Exodus": "厄瑟達斯"
+  },
+  "places": {}
+ },
+ "riddles_additions": [],
+ "translator_notes": "厄瑟達斯是U3反派機器魔靈，在魔像神殿中以勤勉原則之體現存在。「手段不能取代目的」是其核心教訓，對應厄瑟達斯被程式化的盲目執行所毀滅的宿命。真言「Us」保留英文。"
+}

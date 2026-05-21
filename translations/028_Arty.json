@@ -1,0 +1,82 @@
+{
+  "_meta": {
+    "npc": "Arty (Arty the Mute)",
+    "role": "沉默和善的船匠，啞者；本地受敬公民。出售船與小艇之契據（deeds）。所有對白皆為動作描述（微笑、點頭、搖頭、聳肩、攤手），是 U6 中少數無口語的 NPC。"
+  },
+  "translations": [
+    {"offset": 2, "len": 4, "en": "Arty", "zh": "亞提", "zh_bytes": 4, "note": "人名音譯；Arty → 亞提"},
+    {"offset": 7, "len": 30, "en": "a silent but good-natured man.", "zh": "一名沉默卻和善之人。", "zh_bytes": 20, "note": "描述句"},
+    {"offset": 54, "len": 57, "en": "He looks up from his tankard of ale, sees you and smiles.", "zh": "他自酒杯抬眼，見了汝便露出笑容。", "zh_bytes": 32, "note": "tankard of ale → 酒杯"},
+    {"offset": 112, "len": 33, "en": "He grins widely and waves at you.", "zh": "他咧嘴而笑，向汝招手。", "zh_bytes": 22, "note": ""},
+    {"offset": 155, "len": 4, "en": "name", "zh": "名字", "zh_bytes": 4, "note": "@name keyword"},
+    {"offset": 160, "len": 43, "en": "He points to his mouth and shakes his head.", "zh": "他指指自己的口，搖了搖頭。", "zh_bytes": 26, "note": "Arty 啞，無法言語"},
+    {"offset": 228, "len": 39, "en": "$Y speaks. \"I know of this person, $G.\"", "zh": "$Y開口道：「此人我認識，$G。」", "zh_bytes": 30, "note": "$Y=隊友代替發言"},
+    {"offset": 270, "len": 65, "en": "\"He is Arty the Mute, a local shipwright and an honored citizen.\"", "zh": "「他乃啞者亞提，本地船匠，亦是受敬之公民。」", "zh_bytes": 44, "note": "Arty the Mute → 啞者亞提；shipwright → 船匠"},
+    {"offset": 342, "len": 24, "en": "The man smiles and nods.", "zh": "他微笑點頭。", "zh_bytes": 12, "note": ""},
+    {"offset": 373, "len": 4, "en": "mute", "zh": "啞者", "zh_bytes": 4, "note": "@mute keyword"},
+    {"offset": 378, "len": 21, "en": "Arty smiles and nods.", "zh": "亞提微笑點頭。", "zh_bytes": 14, "note": ""},
+    {"offset": 405, "len": 4, "en": "deaf", "zh": "聾", "zh_bytes": 2, "note": "@deaf keyword；len=4 用單字"},
+    {"offset": 410, "len": 24, "en": "The man shakes his head.", "zh": "他搖頭。", "zh_bytes": 8, "note": "他並非聾，所以搖頭"},
+    {"offset": 440, "len": 3, "en": "buy", "zh": "買", "zh_bytes": 2, "note": "@buy keyword"},
+    {"offset": 451, "len": 30, "en": "The man looks at you, puzzled.", "zh": "他困惑地望著汝。", "zh_bytes": 16, "note": ""},
+    {"offset": 499, "len": 67, "en": "The man shakes his head and spreads his hands as if to say \"sorry.\"", "zh": "他搖頭並攤開雙手，似在說「抱歉」。", "zh_bytes": 34, "note": ""},
+    {"offset": 572, "len": 29, "en": "The man smiles and points to ", "zh": "他微笑，指向", "zh_bytes": 12, "note": "與後續契據文字串接"},
+    {"offset": 630, "len": 19, "en": "the deed to a @ship", "zh": "一艘@船的契據", "zh_bytes": 13, "note": "@ship → @船"},
+    {"offset": 708, "len": 10, "en": " and to a ", "zh": "，以及", "zh_bytes": 6, "note": "連接詞"},
+    {"offset": 719, "len": 14, "en": "the deed to a ", "zh": "一艘的契據", "zh_bytes": 10, "note": "尾文（@skiff 接後）"},
+    {"offset": 734, "len": 7, "en": "@skiff.", "zh": "@小艇", "zh_bytes": 5, "note": "@skiff → @小艇"},
+    {"offset": 747, "len": 4, "en": "ship", "zh": "船", "zh_bytes": 2, "note": "@ship keyword"},
+    {"offset": 759, "len": 30, "en": "The man looks at you, puzzled.", "zh": "他困惑地望著汝。", "zh_bytes": 16, "note": ""},
+    {"offset": 851, "len": 67, "en": "The man shakes his head and spreads his hands as if to say \"sorry.\"", "zh": "他搖頭並攤開雙手，似在說「抱歉」。", "zh_bytes": 34, "note": ""},
+    {"offset": 924, "len": 4, "en": "skif", "zh": "小艇", "zh_bytes": 4, "note": "@skiff keyword"},
+    {"offset": 936, "len": 30, "en": "The man looks at you, puzzled.", "zh": "他困惑地望著汝。", "zh_bytes": 16, "note": ""},
+    {"offset": 1028, "len": 67, "en": "The man shakes his head and spreads his hands as if to say \"sorry.\"", "zh": "他搖頭並攤開雙手，似在說「抱歉」。", "zh_bytes": 34, "note": ""},
+    {"offset": 1101, "len": 3, "en": "job", "zh": "業", "zh_bytes": 2, "note": "@job keyword"},
+    {"offset": 1112, "len": 31, "en": "The man looks at you, puzzled.*", "zh": "他困惑地望著汝。*", "zh_bytes": 17, "note": "尾置 * 控制字"},
+    {"offset": 1145, "len": 53, "en": "Then he raises his tankard and goes back to drinking.", "zh": "隨後他舉起酒杯，繼續啜飲。", "zh_bytes": 26, "note": ""},
+    {"offset": 1211, "len": 38, "en": "He smiles and points to the workbench.", "zh": "他微笑指向工作檯。", "zh_bytes": 18, "note": ""},
+    {"offset": 1252, "len": 48, "en": "On the bench, you see the tools of a shipwright.", "zh": "檯上可見船匠之工具。", "zh_bytes": 20, "note": ""},
+    {"offset": 1312, "len": 3, "en": "bye", "zh": "別", "zh_bytes": 2, "note": "@bye keyword"},
+    {"offset": 1316, "len": 41, "en": "Arty waves as you leave, then returns to ", "zh": "亞提揮手送汝離去，再轉回去", "zh_bytes": 26, "note": "與後句串接"},
+    {"offset": 1364, "len": 8, "en": "his ale.", "zh": "飲酒。", "zh_bytes": 6, "note": ""},
+    {"offset": 1374, "len": 18, "en": "what he was doing.", "zh": "繼續手上之事。", "zh_bytes": 14, "note": ""},
+    {"offset": 1405, "len": 56, "en": "The man just shrugs and takes another swig from his mug.", "zh": "他聳聳肩，又自杯中啜飲一口。", "zh_bytes": 28, "note": ""},
+    {"offset": 1474, "len": 70, "en": "The man seems frustrated, as if there were something he wanted to say.", "zh": "他似頗為沮喪，彷彿有話想說卻說不出。", "zh_bytes": 36, "note": ""},
+    {"offset": 1545, "len": 20, "en": "The man just shrugs.", "zh": "他只是聳了聳肩。", "zh_bytes": 16, "note": ""},
+    {"offset": 1620, "len": 6, "en": "#2) $Y", "zh": "#2) $Y", "zh_bytes": 6, "note": "選單格式"},
+    {"offset": 1660, "len": 15, "en": "Who is buying? ", "zh": "是誰要買？ ", "zh_bytes": 11, "note": ""},
+    {"offset": 1741, "len": 56, "en": "$N shows $Y a deed. Written on it is the price, #4 gold.", "zh": "$N向$Y出示一張契據。上面寫著價碼：#4 金。", "zh_bytes": 41, "note": "保留 $N/$Y/#4"},
+    {"offset": 1800, "len": 30, "en": "Does $Y want to buy the deed? ", "zh": "$Y要買此契據麼？ ", "zh_bytes": 17, "note": ""},
+    {"offset": 1831, "len": 2, "en": "yn", "zh": "yn", "zh_bytes": 2, "note": "yes/no token"},
+    {"offset": 1859, "len": 21, "en": "$Y cannot carry that.", "zh": "$Y無法攜帶此物。", "zh_bytes": 16, "note": "背包滿"},
+    {"offset": 1961, "len": 58, "en": "After accepting the gold, $N smiles and hands $Y the deed.", "zh": "$N收下金錢後微笑，把契據交給$Y。", "zh_bytes": 32, "note": ""},
+    {"offset": 2038, "len": 17, "en": "$N seems pleased.", "zh": "$N顯得滿意。", "zh_bytes": 12, "note": ""},
+    {"offset": 2056, "len": 10, "en": "$N shrugs.", "zh": "$N聳肩。", "zh_bytes": 8, "note": ""},
+    {"offset": 2079, "len": 36, "en": "You don't have enough gold for that.", "zh": "汝金錢不足以買此物。", "zh_bytes": 20, "note": ""},
+    {"offset": 2162, "len": 45, "en": "Your party doesn't have enough gold for that.", "zh": "汝隊伍金錢不足以買此物。", "zh_bytes": 24, "note": ""},
+    {"offset": 2269, "len": 56, "en": "Your party takes up a collection to purchase the vessel.", "zh": "汝隊伍湊出金錢買下此船。", "zh_bytes": 24, "note": ""}
+  ],
+  "keyword_mapping": {
+    "@ship": "@船",
+    "@skiff": "@小艇"
+  },
+  "glossary_additions": {
+    "people": {
+      "Arty": "亞提",
+      "Arty the Mute": "啞者亞提"
+    },
+    "concepts": {
+      "shipwright": "船匠",
+      "mute": "啞者",
+      "deed": "契據",
+      "tankard": "酒杯",
+      "workbench": "工作檯"
+    },
+    "items": {
+      "ship": "船",
+      "skiff": "小艇"
+    }
+  },
+  "riddles_additions": [],
+  "translator_notes": "Arty 為啞者（mute），全篇對話實際上是動作描述（微笑、搖頭、聳肩、攤手）。同隊 $Y 會代為介紹其身份，自此玩家方知他是船匠。販售船與小艇之契據（deeds）。獨特的『契據三段串接』（offset 572/630/708/719/734）需確保語意流暢——譯為『他微笑，指向 一艘@船的契據 ，以及 一艘的契據 @小艇』。所有變數 ($N/$Y/#4/*) 保留 ASCII。"
+}

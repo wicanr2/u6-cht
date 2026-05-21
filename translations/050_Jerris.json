@@ -1,0 +1,191 @@
+{
+  "translations": [
+    {
+      "offset": 9,
+      "len": 52,
+      "en": "a slender man with boots that come up to his thighs.",
+      "zh": "一位身形纖細、靴子高至大腿的男子。",
+      "note": "DESC"
+    },
+    {
+      "offset": 71,
+      "len": 65,
+      "en": "\"Don't you know it's rude to interrupt a man when he's brawling?\"",
+      "zh": "「汝難道不知道，打架的時候打擾別人是很失禮的嗎？」",
+      "note": ""
+    },
+    {
+      "offset": 139,
+      "len": 18,
+      "en": "\"Hello there, $G.\"",
+      "zh": "「你好，$G。」",
+      "note": ""
+    },
+    {
+      "offset": 172,
+      "len": 30,
+      "en": "\"Care to join me in a drink?\" ",
+      "zh": "「要不要和吾喝一杯？」",
+      "note": ""
+    },
+    {
+      "offset": 208,
+      "len": 41,
+      "en": "\"Not a mead drinker, I guess.\" He shrugs.",
+      "zh": "「想是不喝蜂蜜酒。」他聳了聳肩。",
+      "note": ""
+    },
+    {
+      "offset": 257,
+      "len": 33,
+      "en": "He hands you a mug for a swallow.",
+      "zh": "他遞給汝一杯讓汝喝一口。",
+      "note": "action"
+    },
+    {
+      "offset": 293,
+      "len": 66,
+      "en": "It is warmed @mead, sweet and bubbly, with a cinnamon stick in it.",
+      "zh": "那是溫熱的@蜂蜜酒，甜蜜起泡，裡頭插著一根肉桂棒。",
+      "note": ""
+    },
+    {
+      "offset": 362,
+      "len": 34,
+      "en": "\"Comes from Verity Isle,\" he says.",
+      "zh": "「產自誠真島，」他說道。",
+      "note": "Verity Isle = Moonglow's island"
+    },
+    {
+      "offset": 419,
+      "len": 42,
+      "en": "\"It's mostly made of honey. Ask a brewer.\"",
+      "zh": "「主要原料是蜂蜜。去問釀酒師吧。」",
+      "note": ""
+    },
+    {
+      "offset": 472,
+      "len": 34,
+      "en": "\"Jerris is my name. And yourself?\"",
+      "zh": "「吾名傑里斯。汝呢？」",
+      "note": ""
+    },
+    {
+      "offset": 509,
+      "len": 36,
+      "en": "\"Pleased to make your acquaintance.\"",
+      "zh": "「幸會。」",
+      "note": ""
+    },
+    {
+      "offset": 561,
+      "len": 63,
+      "en": "\"Some day I hope to join @Zellivan's Stalwarts and be a guard.\"",
+      "zh": "「有朝一日吾希望加入@澤利凡的精銳衛隊，成為一名衛士。」",
+      "note": ""
+    },
+    {
+      "offset": 645,
+      "len": 76,
+      "en": "\"When that last earthquake struck, I was pinned 'neath a great tree branch.\"",
+      "zh": "「上次地震來臨時，吾被一根巨大的樹枝壓住了。」",
+      "note": ""
+    },
+    {
+      "offset": 724,
+      "len": 68,
+      "en": "\"Lord Zellivan himself hoisted it up while a guard pulled me clear.\"",
+      "zh": "「澤利凡爵主親自將它撐起，衛士將吾拖了出來。」",
+      "note": ""
+    },
+    {
+      "offset": 807,
+      "len": 45,
+      "en": "\"It was a rat, as sure as the world is flat.\"",
+      "zh": "「那是一隻老鼠，正如大地是平的一樣確定。」",
+      "note": "echo of Ephemerides's flat-world belief"
+    },
+    {
+      "offset": 855,
+      "len": 22,
+      "en": "\"Darndest thing, too.\"",
+      "zh": "「真是怪事。」",
+      "note": ""
+    },
+    {
+      "offset": 880,
+      "len": 66,
+      "en": "\"Nomaan dropped the rune and the rat took it into a little @hole.\"",
+      "zh": "「諾曼掉了符文，老鼠把它帶進了一個小@洞裡。」",
+      "note": ""
+    },
+    {
+      "offset": 973,
+      "len": 35,
+      "en": "\"It's in the refrain of the @song.\"",
+      "zh": "「就在那首@歌的副歌裡。」",
+      "note": "mantra hint"
+    },
+    {
+      "offset": 1029,
+      "len": 57,
+      "en": "\"Well, I'd rather not sing alone. Get Culham to play it.\"",
+      "zh": "「嗯，吾不想一個人唱。去找卡翰來演奏。」",
+      "note": ""
+    },
+    {
+      "offset": 1096,
+      "len": 10,
+      "en": "\"Goodbye.\"",
+      "zh": "「再見。」",
+      "note": "bye"
+    },
+    {
+      "offset": 1111,
+      "len": 40,
+      "en": "\"Sorry, $G.  I can't help ye with that.\"",
+      "zh": "「抱歉，$G。吾無法在此事上助汝。」",
+      "note": ""
+    },
+    {
+      "offset": 1157,
+      "len": 47,
+      "en": "\"It's right there. On the north wall. See it?\" ",
+      "zh": "「就在那裡。北牆上。看到了嗎？」",
+      "note": ""
+    },
+    {
+      "offset": 1210,
+      "len": 59,
+      "en": "\"Look carefully, $G. Ye will see it if ye keep on looking.\"",
+      "zh": "「仔細看，$G。只要持續尋找，汝必能見到。」",
+      "note": ""
+    },
+    {
+      "offset": 1281,
+      "len": 88,
+      "en": "Shamino points to a spot west of the bar where the wall meets the ground. \"There it is.\"",
+      "zh": "夏米諾指向酒吧西側牆根的一個位置。「就在那裡。」",
+      "note": "action"
+    },
+    {
+      "offset": 1383,
+      "len": 23,
+      "en": "\"Obviously a rat hole.\"",
+      "zh": "「顯然是個鼠洞。」",
+      "note": ""
+    }
+  ],
+  "glossary_additions": {
+    "people": {
+      "Jerris": "傑里斯"
+    },
+    "places": {
+      "Verity Isle": "誠真島"
+    },
+    "concepts": {
+      "stalwarts": "精銳衛隊"
+    }
+  },
+  "translator_notes": "傑里斯是個想加入澤利凡衛隊的年輕人，語氣直爽。蜂蜜酒是月華城的特產。他引用「大地是平的」是對以弗美里迪斯的呼應笑話。"
+}

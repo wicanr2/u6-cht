@@ -1,0 +1,269 @@
+{
+ "translations": [
+  {
+   "offset": 10,
+   "len": 26,
+   "en": "a golden-haired young man.",
+   "zh": "一位金髮燦爛之青年男子。",
+   "note": "DESC"
+  },
+  {
+   "offset": 51,
+   "len": 46,
+   "en": "\"Avatar! Good $T, $G! How has thy quest gone?\"",
+   "zh": "「聖者！$T安，$G！試煉進展如何？」",
+   "note": ""
+  },
+  {
+   "offset": 98,
+   "len": 31,
+   "en": "\"Hey! The Avatar! Good $T, $G!\"",
+   "zh": "「嘿！是聖者！$T安，$G！」",
+   "note": ""
+  },
+  {
+   "offset": 132,
+   "len": 60,
+   "en": "\"You've come to me to aid thee in thy quest! What an honor!\"",
+   "zh": "「汝前來尋我助其試煉！榮幸之至！」",
+   "note": ""
+  },
+  {
+   "offset": 206,
+   "len": 30,
+   "en": "\"What else can I do for thee?\"",
+   "zh": "「還有何處能效勞？」",
+   "note": ""
+  },
+  {
+   "offset": 243,
+   "len": 48,
+   "en": "\"I have a large inventory, so be more specific:\"",
+   "zh": "「在下貨物繁多，請說具體些：」",
+   "note": ""
+  },
+  {
+   "offset": 294,
+   "len": 33,
+   "en": "\"Dost thou want @arms or @armor?\"",
+   "zh": "「汝要@兵器還是@護甲？」",
+   "note": ""
+  },
+  {
+   "offset": 345,
+   "len": 32,
+   "en": "\"Come by my shop when I'm open!\"",
+   "zh": "「開店時歡迎光臨！」",
+   "note": ""
+  },
+  {
+   "offset": 409,
+   "len": 32,
+   "en": "\"Come by my shop when I'm open!\"",
+   "zh": "「開店時歡迎光臨！」",
+   "note": ""
+  },
+  {
+   "offset": 473,
+   "len": 32,
+   "en": "\"Come by my shop when I'm open!\"",
+   "zh": "「開店時歡迎光臨！」",
+   "note": ""
+  },
+  {
+   "offset": 522,
+   "len": 89,
+   "en": "\"Oh, I'm not important like you. I'm just a weaponsmith--and only a @journeyman at that.\"",
+   "zh": "「哦，我哪比得上汝。我不過是個武器匠——而且只是個@中級匠師罷了。」",
+   "note": ""
+  },
+  {
+   "offset": 622,
+   "len": 54,
+   "en": "\"Aye, just a few years ago I was a simple apprentice.\"",
+   "zh": "「是啊，幾年前我還只是個普通學徒。」",
+   "note": ""
+  },
+  {
+   "offset": 679,
+   "len": 36,
+   "en": "\"Now I @supply arms to all Trinsic!\"",
+   "zh": "「如今我@供應整個崔西克的武器！」",
+   "note": ""
+  },
+  {
+   "offset": 726,
+   "len": 54,
+   "en": "\"My name's Brandon, $G, and I'm honored to meet thee!\"",
+   "zh": "「在下布蘭登，$G，能與汝相識，榮幸之至！」",
+   "note": ""
+  },
+  {
+   "offset": 791,
+   "len": 43,
+   "en": "\"That would be a great honor! I'd love to!\"",
+   "zh": "「那真是莫大榮幸！我十分樂意！」",
+   "note": ""
+  },
+  {
+   "offset": 837,
+   "len": 28,
+   "en": "The man comes to his senses.",
+   "zh": "他回過神來。",
+   "note": ""
+  },
+  {
+   "offset": 868,
+   "len": 62,
+   "en": "\"But no, I can't. I've responsibilites here, especially @now.\"",
+   "zh": "「但不行，我有責任在身，尤其是@眼下這個時刻。」",
+   "note": ""
+  },
+  {
+   "offset": 961,
+   "len": 27,
+   "en": "\"And glad I am to hear it!\"",
+   "zh": "「聽到此言甚感欣慰！」",
+   "note": ""
+  },
+  {
+   "offset": 1003,
+   "len": 54,
+   "en": "\"I have to make @weapons to help fight the gargoyles!\"",
+   "zh": "「我須打造@武器以助抗擊魔像族！」",
+   "note": ""
+  },
+  {
+   "offset": 1072,
+   "len": 42,
+   "en": "\"Farewell! May thy quest succeed, Avatar!\"",
+   "zh": "「珍重！願汝試煉告捷，聖者！」",
+   "note": ""
+  },
+  {
+   "offset": 1122,
+   "len": 77,
+   "en": "\"Perhaps you'd like to @buy some. I'd be honored to have thee as a customer.\"",
+   "zh": "「或許汝有意@購買？能以汝為主顧，榮幸之至。」",
+   "note": ""
+  },
+  {
+   "offset": 1207,
+   "len": 17,
+   "en": "\"Beg pardon, $G?\"",
+   "zh": "「$G，請再說一遍？」",
+   "note": ""
+  },
+  {
+   "offset": 1373,
+   "len": 41,
+   "en": "\"Sorry, none of you has anything I need.\"",
+   "zh": "「抱歉，汝等所帶之物均非在下所需。」",
+   "note": ""
+  },
+  {
+   "offset": 1449,
+   "len": 38,
+   "en": "\"Aye, $Y has something of interest...\"",
+   "zh": "「啊，$Y帶有在下感興趣之物……」",
+   "note": ""
+  },
+  {
+   "offset": 1549,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪位？」",
+   "note": ""
+  },
+  {
+   "offset": 1786,
+   "len": 14,
+   "en": "\"Which item?\" ",
+   "zh": "「哪件物品？」",
+   "note": ""
+  },
+  {
+   "offset": 1878,
+   "len": 41,
+   "en": "\"Will you take #7 gold for that $0, $Y?\" ",
+   "zh": "「$Y，#7枚金幣換那件$0，意下如何？」",
+   "note": ""
+  },
+  {
+   "offset": 1932,
+   "len": 32,
+   "en": "\"Perhaps some other time, then.\"",
+   "zh": "「那便改日再談。」",
+   "note": ""
+  },
+  {
+   "offset": 1972,
+   "len": 30,
+   "en": "\"Perhaps something else then?\"",
+   "zh": "「那別的物品如何？」",
+   "note": ""
+  },
+  {
+   "offset": 2126,
+   "len": 24,
+   "en": "\"Changed your mind, eh?\"",
+   "zh": "「改變主意了？」",
+   "note": ""
+  },
+  {
+   "offset": 2238,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪位？」",
+   "note": ""
+  },
+  {
+   "offset": 2400,
+   "len": 14,
+   "en": "\"Which item?\" ",
+   "zh": "「哪件物品？」",
+   "note": ""
+  },
+  {
+   "offset": 2482,
+   "len": 24,
+   "en": "\"That $1 costs #1 gold.\"",
+   "zh": "「$1售價#1枚金幣。」",
+   "note": ""
+  },
+  {
+   "offset": 2509,
+   "len": 14,
+   "en": "\"Interested?\" ",
+   "zh": "「有興趣否？」",
+   "note": ""
+  },
+  {
+   "offset": 2570,
+   "len": 41,
+   "en": "\"But 'twould make thee o'erburdened, $Y!\"",
+   "zh": "「然此舉將令汝負重過多，$Y！」",
+   "note": ""
+  },
+  {
+   "offset": 2665,
+   "len": 12,
+   "en": "\"Excellent!\"",
+   "zh": "「甚好！」",
+   "note": ""
+  },
+  {
+   "offset": 2740,
+   "len": 36,
+   "en": "\"But thou hast not enough gold, $Y!\"",
+   "zh": "「然汝金幣不足，$Y！」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Brandon": "布蘭登"
+  }
+ },
+ "translator_notes": "079 Brandon: 崔西克武器匠，熱情崇拜聖者。交易系統字串保留#N/$N變數。"
+}

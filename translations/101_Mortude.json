@@ -1,0 +1,178 @@
+{
+ "translations": [
+  {
+   "offset": 10,
+   "len": 35,
+   "en": "a man nearly as wide as he is tall.",
+   "zh": "一個寬度幾乎與高度相當的男子。",
+   "note": "DESC"
+  },
+  {
+   "offset": 54,
+   "len": 21,
+   "en": "\"What now?\" he sighs.",
+   "zh": "「又怎麼了？」他嘆氣道。",
+   "note": ""
+  },
+  {
+   "offset": 77,
+   "len": 20,
+   "en": "\"What?\" he grumbles.",
+   "zh": "「什麼？」他嘟囔道。",
+   "note": ""
+  },
+  {
+   "offset": 106,
+   "len": 57,
+   "en": "\"As the sign on my door reads, '@Mortude the Ropemaker.'\"",
+   "zh": "「就如在下門上的招牌所寫，『@莫圖德索具匠』。」",
+   "note": ""
+  },
+  {
+   "offset": 175,
+   "len": 47,
+   "en": "\"What?\" He snorts a bit then clears his throat.",
+   "zh": "「什麼？」他哼了一聲，清了清嗓子。",
+   "note": ""
+  },
+  {
+   "offset": 233,
+   "len": 63,
+   "en": "He looks at you and raises one eyebrow. \"I said I makes @rope.\"",
+   "zh": "他看著汝，挑起一側眉毛。「在下說了，在下做@繩索。」",
+   "note": ""
+  },
+  {
+   "offset": 317,
+   "len": 64,
+   "en": "\"The strongest you'll ever tug!\" he says, pushing out his chest.",
+   "zh": "「汝見過最結實的那種！」他挺起胸膛說。",
+   "note": ""
+  },
+  {
+   "offset": 391,
+   "len": 50,
+   "en": "\"Come to my shop when I'm open and I'll show you!\"",
+   "zh": "「待在下開門時來鋪子，在下讓汝開開眼！」",
+   "note": ""
+  },
+  {
+   "offset": 459,
+   "len": 39,
+   "en": "\"He's a pretty good @flippits, player.\"",
+   "zh": "「他是個不錯的@骨彈戲高手。」",
+   "note": ""
+  },
+  {
+   "offset": 510,
+   "len": 37,
+   "en": "\"You have a @bone on ya? We'll play.\"",
+   "zh": "「汝身上有@骨頭嗎？咱們來玩。」",
+   "note": ""
+  },
+  {
+   "offset": 559,
+   "len": 32,
+   "en": "\"An old @dog bone or somethin'?\"",
+   "zh": "「一塊舊@狗骨頭之類的？」",
+   "note": ""
+  },
+  {
+   "offset": 606,
+   "len": 44,
+   "en": "\"The smaller, the better. And maybe a @hat.\"",
+   "zh": "「越小越好，再加頂@帽子就行了。」",
+   "note": ""
+  },
+  {
+   "offset": 661,
+   "len": 57,
+   "en": "\"A haaat,\" he repeats, mockingly. \"Never played 'ave ya?\"",
+   "zh": "「帽～子，」他嘲弄地重複道。「從沒玩過吧？」",
+   "note": ""
+  },
+  {
+   "offset": 728,
+   "len": 10,
+   "en": "\"Too bad.\"",
+   "zh": "「太可惜了。」",
+   "note": ""
+  },
+  {
+   "offset": 749,
+   "len": 38,
+   "en": "\"Yeah, yeah.\" He plods off, grumbling.",
+   "zh": "「嗯嗯。」他嘟囔著蹣跚離去。",
+   "note": ""
+  },
+  {
+   "offset": 799,
+   "len": 19,
+   "en": "\"Oh, never mind...\"",
+   "zh": "「哦，算了……」",
+   "note": ""
+  },
+  {
+   "offset": 820,
+   "len": 52,
+   "en": "He plays with his braided hair a moment then shrugs.",
+   "zh": "他擺弄著自己的辮子片刻，然後聳聳肩。",
+   "note": ""
+  },
+  {
+   "offset": 969,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝們誰？」",
+   "note": ""
+  },
+  {
+   "offset": 995,
+   "len": 41,
+   "en": "\"Too bad. You'll never find better rope.\"",
+   "zh": "「太可惜了，汝再也找不到更好的繩索了。」",
+   "note": ""
+  },
+  {
+   "offset": 1080,
+   "len": 73,
+   "en": "$N smiles at $Y, \"For my fine rope it will cost you 5 gold. Interested?\" ",
+   "zh": "$N朝$Y微笑，「上等繩索，5金一條，有興趣嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1159,
+   "len": 41,
+   "en": "\"Too bad. You'll never find better rope.\"",
+   "zh": "「太可惜了，汝再也找不到更好的繩索了。」",
+   "note": ""
+  },
+  {
+   "offset": 1227,
+   "len": 29,
+   "en": "\"You look pretty full to me.\"",
+   "zh": "「汝看起來已裝得滿滿的了。」",
+   "note": ""
+  },
+  {
+   "offset": 1300,
+   "len": 64,
+   "en": "\"Fine, fine!\" After accepting $Y's gold, $N hands over the rope.",
+   "zh": "「行，行！」收下$Y的金幣後，$N遞出繩索。",
+   "note": ""
+  },
+  {
+   "offset": 1371,
+   "len": 29,
+   "en": "\"You don't have enough gold.\"",
+   "zh": "「汝的金幣不夠。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Mortude": "莫圖德"
+  }
+ },
+ "translator_notes": "100 Mortude: 索具匠，圓胖粗魯，口頭禪是嘟囔和嘆氣。與辛德爾是骨彈戲玩伴。繩索商。"
+}

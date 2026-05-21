@@ -1,0 +1,454 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 9,
+   "en": "Valkadesh",
+   "zh": "瓦卡德許",
+   "note": "NPC name"
+  },
+  {
+   "offset": 12,
+   "len": 30,
+   "en": "a tall, thin, winged gargoyle.",
+   "zh": "身形高挑削瘦之有翼魔像。",
+   "note": "DESC"
+  },
+  {
+   "offset": 63,
+   "len": 24,
+   "en": "\"Greetings, friend '$P.\"",
+   "zh": "「問候，吾友'$P。」",
+   "note": ""
+  },
+  {
+   "offset": 107,
+   "len": 43,
+   "en": "\"To see you have done the honorable thing.\"",
+   "zh": "「見汝已行榮譽之舉。」",
+   "note": ""
+  },
+  {
+   "offset": 152,
+   "len": 59,
+   "en": "\"To have earned much respect from my people by doing this!\"",
+   "zh": "「如此行事，已贏得吾族諸多敬重！」",
+   "note": ""
+  },
+  {
+   "offset": 212,
+   "len": 48,
+   "en": "\"To hope your travels have brought you wisdom?\" ",
+   "zh": "「盼汝旅途之中已有所得悟？」",
+   "note": ""
+  },
+  {
+   "offset": 266,
+   "len": 27,
+   "en": "\"To wish to hear about it!\"",
+   "zh": "「吾願聞其詳！」",
+   "note": ""
+  },
+  {
+   "offset": 296,
+   "len": 41,
+   "en": "\"To regret that, and to wish to aid you.\"",
+   "zh": "「為此深感遺憾，並願助汝一臂之力。」",
+   "note": ""
+  },
+  {
+   "offset": 344,
+   "len": 36,
+   "en": "\"To offer greetings, False Prophet.\"",
+   "zh": "「向偽先知致意。」",
+   "note": ""
+  },
+  {
+   "offset": 383,
+   "len": 66,
+   "en": "\"To have waited long for you to return to this side of the world.\"",
+   "zh": "「吾已久候汝歸返此側世界。」",
+   "note": ""
+  },
+  {
+   "offset": 452,
+   "len": 50,
+   "en": "\"To believe that the Book of Prophecies is wrong.\"",
+   "zh": "「吾深信預言之書有所謬誤。」",
+   "note": ""
+  },
+  {
+   "offset": 505,
+   "len": 73,
+   "en": "\"To believe that I can reason with you, persuade you to spare my people.\"",
+   "zh": "「吾深信可與汝講理，說服汝放過吾族。」",
+   "note": ""
+  },
+  {
+   "offset": 581,
+   "len": 53,
+   "en": "\"To wish to address you honorably: To ask your name?\"",
+   "zh": "「吾願以禮相稱：敢問汝之名諱？」",
+   "note": ""
+  },
+  {
+   "offset": 647,
+   "len": 62,
+   "en": "\"Noble '$0, to see that you are a being of honor and respect.\"",
+   "zh": "「高貴之'$0，見汝為榮譽而值得尊重之人。」",
+   "note": "$0 = 玩家名字回傳"
+  },
+  {
+   "offset": 712,
+   "len": 50,
+   "en": "\"To not betray that honor - to return the @Codex!\"",
+   "zh": "「莫辜負此榮譽——歸還@Codex守則之書！」",
+   "note": ""
+  },
+  {
+   "offset": 765,
+   "len": 39,
+   "en": "\"To save my people from the @prophecy!\"",
+   "zh": "「拯救吾族脫離@prophecy預言之詛！」",
+   "note": ""
+  },
+  {
+   "offset": 813,
+   "len": 56,
+   "en": "\"To be called Valkadesh Wis-lem, Valkadesh the Scholar.\"",
+   "zh": "「吾名瓦卡德許·維斯-蘭，即學者瓦卡德許。」",
+   "note": ""
+  },
+  {
+   "offset": 872,
+   "len": 72,
+   "en": "\"To have been given a @partial name. To have yet to achieve full honor.\"",
+   "zh": "「曾獲賜@partial部分之名。尚未達到完整榮譽。」",
+   "note": "魔像命名制度"
+  },
+  {
+   "offset": 954,
+   "len": 62,
+   "en": "\"To be a Scholar. To be seeking a way to avert the @prophecy.\"",
+   "zh": "「吾乃學者。正尋覓阻止@prophecy預言之法。」",
+   "note": ""
+  },
+  {
+   "offset": 1037,
+   "len": 47,
+   "en": "\"To be greatly honored by even a partial name.\"",
+   "zh": "「即便只是部分之名，亦深感榮幸。」",
+   "note": ""
+  },
+  {
+   "offset": 1087,
+   "len": 74,
+   "en": "\"To be customary among my people to give names only to those most worthy.\"",
+   "zh": "「吾族習俗，唯有最配得之人方可獲賜名諱。」",
+   "note": ""
+  },
+  {
+   "offset": 1172,
+   "len": 75,
+   "en": "\"To be written in the Book of Prophecies that you would destroy our world.\"",
+   "zh": "「預言之書所載，汝將毀滅吾族之世界。」",
+   "note": ""
+  },
+  {
+   "offset": 1250,
+   "len": 81,
+   "en": "\"To also be written that only the @sacrifice of the False Prophet would save us.\"",
+   "zh": "「亦載，唯偽先知之@sacrifice犧牲方可拯救吾族。」",
+   "note": ""
+  },
+  {
+   "offset": 1342,
+   "len": 37,
+   "en": "\"To believe that it is not too late.\"",
+   "zh": "「吾深信現在為時未晚。」",
+   "note": ""
+  },
+  {
+   "offset": 1382,
+   "len": 33,
+   "en": "\"To beg you to return the Codex.\"",
+   "zh": "「懇請汝歸還守則之書。」",
+   "note": ""
+  },
+  {
+   "offset": 1418,
+   "len": 69,
+   "en": "\"Avert the @prophecy! Save your life, and my people's lives as well!\"",
+   "zh": "「阻止@prophecy預言！保全汝之性命，也保全吾族之命！」",
+   "note": ""
+  },
+  {
+   "offset": 1498,
+   "len": 52,
+   "en": "\"To be the only alternative to returning the Codex.\"",
+   "zh": "「此乃除歸還守則之書之外唯一的選擇。」",
+   "note": ""
+  },
+  {
+   "offset": 1553,
+   "len": 67,
+   "en": "\"Without the Codex, to have no @choice but to sacrifice your life!\"",
+   "zh": "「無守則之書，則別無@choice選擇，唯有獻出汝之性命！」",
+   "note": ""
+  },
+  {
+   "offset": 1631,
+   "len": 87,
+   "en": "\"Wait! To know that sacrifice has three meanings: of self, of others and of valuables.\"",
+   "zh": "「且慢！犧牲有三重含義：自我、他人、以及貴重之物。」",
+   "note": ""
+  },
+  {
+   "offset": 1721,
+   "len": 66,
+   "en": "\"Perhaps to find a better @answer in one of those other meanings.\"",
+   "zh": "「或可在另兩重含義中尋得更佳之@answer解答。」",
+   "note": ""
+  },
+  {
+   "offset": 1803,
+   "len": 28,
+   "en": "\"To be unable to help more.\"",
+   "zh": "「吾無力再多助汝。」",
+   "note": ""
+  },
+  {
+   "offset": 1834,
+   "len": 71,
+   "en": "\"To suggest you seek out @Naxatilor himself for further enlightenment.\"",
+   "zh": "「建議汝親自去尋@Naxatilor納薩蒂，以求進一步啟示。」",
+   "note": ""
+  },
+  {
+   "offset": 1921,
+   "len": 52,
+   "en": "\"To learn much from Naxatilor, the wisest gargoyle.\"",
+   "zh": "「可從最睿智之魔像納薩蒂處學到甚多。」",
+   "note": ""
+  },
+  {
+   "offset": 1976,
+   "len": 70,
+   "en": "\"To find his chambers just to the northeast of the Hall of Knowledge.\"",
+   "zh": "「其居所在智識之殿東北方。」",
+   "note": ""
+  },
+  {
+   "offset": 2049,
+   "len": 51,
+   "en": "\"To suggest you go there and ask him of sacrifice.\"",
+   "zh": "「建議汝前往彼處，向其詢問犧牲之義。」",
+   "note": ""
+  },
+  {
+   "offset": 2121,
+   "len": 60,
+   "en": "\"To go to Draxinusom, the Inquisitor and leader of my race.\"",
+   "zh": "「前往崔西努森，即吾族之審問者與統領。」",
+   "note": ""
+  },
+  {
+   "offset": 2184,
+   "len": 70,
+   "en": "\"To find his chambers just to the northwest of the Hall of Knowledge.\"",
+   "zh": "「其居所在智識之殿西北方。」",
+   "note": ""
+  },
+  {
+   "offset": 2257,
+   "len": 64,
+   "en": "\"To @surrender to him, that you may travel @freely in our land.\"",
+   "zh": "「向其@surrender歸降，汝方可@freely自由往來吾族之地。」",
+   "note": ""
+  },
+  {
+   "offset": 2332,
+   "len": 69,
+   "en": "\"To know that the moons are not properly aligned yet for the ritual.\"",
+   "zh": "「知曉月相尚未對齊，儀式之時機未到。」",
+   "note": ""
+  },
+  {
+   "offset": 2404,
+   "len": 63,
+   "en": "\"To assure you that you will not be sacrificed for many weeks.\"",
+   "zh": "「可向汝保證，數週之內汝不會遭獻祭。」",
+   "note": ""
+  },
+  {
+   "offset": 2470,
+   "len": 86,
+   "en": "\"To assure you further that surrender is the only way you can travel among my people.\"",
+   "zh": "「更可向汝保證，歸降乃是汝往來吾族之間的唯一途徑。」",
+   "note": ""
+  },
+  {
+   "offset": 2577,
+   "len": 82,
+   "en": "\"To have done the honorable thing and now be respected and unfeared by my people.\"",
+   "zh": "「汝已行榮譽之舉，如今可受吾族尊重而無所畏懼。」",
+   "note": ""
+  },
+  {
+   "offset": 2660,
+   "len": 31,
+   "en": "\"To travel to the @Inquisitor.\"",
+   "zh": "「前往@Inquisitor審問者處。」",
+   "note": ""
+  },
+  {
+   "offset": 2694,
+   "len": 44,
+   "en": "\"To tell the Inquisitor that you surrender.\"",
+   "zh": "「告知審問者汝願歸降。」",
+   "note": ""
+  },
+  {
+   "offset": 2741,
+   "len": 57,
+   "en": "\"Then to be no longer a threat, and no longer be feared.\"",
+   "zh": "「如此汝便不再是威脅，亦不再遭人畏懼。」",
+   "note": ""
+  },
+  {
+   "offset": 2815,
+   "len": 53,
+   "en": "\"May your precision and persistence lead to success!\"",
+   "zh": "「願精準與恆毅引領汝走向成功！」",
+   "note": "魔像道別語，三原則典型用語"
+  },
+  {
+   "offset": 2877,
+   "len": 45,
+   "en": "As you turn to leave, the gargoyle stops you.",
+   "zh": "你轉身欲離，魔像攔住了你。",
+   "note": "旁白"
+  },
+  {
+   "offset": 2925,
+   "len": 60,
+   "en": "\"Wait,\" he calls. \"To be feared and hated by all gargoyles.\"",
+   "zh": "「且慢，」他呼喚道。「汝為全體魔像所懼所恨。」",
+   "note": ""
+  },
+  {
+   "offset": 2988,
+   "len": 48,
+   "en": "\"To be unsafe for you right now, False Prophet.\"",
+   "zh": "「偽先知，汝目前處境甚為危險。」",
+   "note": ""
+  },
+  {
+   "offset": 3039,
+   "len": 30,
+   "en": "\"To surrender is only answer.\"",
+   "zh": "「歸降乃唯一之道。」",
+   "note": ""
+  },
+  {
+   "offset": 3072,
+   "len": 29,
+   "en": "\"To surrender to Inquisitor.\"",
+   "zh": "「向審問者歸降。」",
+   "note": ""
+  },
+  {
+   "offset": 3104,
+   "len": 72,
+   "en": "\"Then to be no longer a threat, and then not to be feared by my people!\"",
+   "zh": "「如此汝便不再是威脅，亦不再遭吾族畏懼！」",
+   "note": ""
+  },
+  {
+   "offset": 3179,
+   "len": 81,
+   "en": "\"To surrender to the @Inquisitor, and then to be @free to look for the solution.\"",
+   "zh": "「向@Inquisitor審問者歸降，而後@free自由地尋覓解決之道。」",
+   "note": ""
+  },
+  {
+   "offset": 3269,
+   "len": 32,
+   "en": "\"To be confused by your accent.\"",
+   "zh": "「汝之口音令吾困惑。」",
+   "note": ""
+  },
+  {
+   "offset": 3304,
+   "len": 23,
+   "en": "\"To ask what $Z means?\"",
+   "zh": "「$Z是何意？」",
+   "note": ""
+  },
+  {
+   "offset": 3333,
+   "len": 56,
+   "en": "The gargoyle smiles, but his grin is somehow disturbing.",
+   "zh": "魔像微笑，然那笑容不知為何令人不安。",
+   "note": "旁白"
+  },
+  {
+   "offset": 3392,
+   "len": 33,
+   "en": "\"I human @friend. Walk talk you.\"",
+   "zh": "「我人類@friend朋友。走路說話你。」",
+   "note": "破碎人類語（Captain John 的魔像友人段落）"
+  },
+  {
+   "offset": 3432,
+   "len": 20,
+   "en": "\"Want much to talk.\"",
+   "zh": "「很想說話。」",
+   "note": "破碎語"
+  },
+  {
+   "offset": 3455,
+   "len": 39,
+   "en": "\"@Captain John speak; Captain John go!\"",
+   "zh": "「@Captain約翰船長說話；約翰船長走！」",
+   "note": ""
+  },
+  {
+   "offset": 3502,
+   "len": 52,
+   "en": "\"@Captain John gargoyle friend. Captain John speak.\"",
+   "zh": "「@Captain約翰船長魔像朋友。約翰船長說話。」",
+   "note": ""
+  },
+  {
+   "offset": 3570,
+   "len": 47,
+   "en": "\"Must Captain John go. Only he speak. Must go!\"",
+   "zh": "「約翰船長必須走。只有他會說。必須走！」",
+   "note": "破碎語"
+  },
+  {
+   "offset": 3625,
+   "len": 68,
+   "en": "In a thick accent, the gargoyle croaks, \"I bad with human language.\"",
+   "zh": "魔像用濃重口音嘶啞地說：「我人類語言不好。」",
+   "note": "旁白"
+  },
+  {
+   "offset": 3696,
+   "len": 35,
+   "en": "\"With @Captain John must to speak.\"",
+   "zh": "「必須和@Captain約翰船長說話。」",
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {
+   "Valkadesh": "瓦卡德許"
+  },
+  "places": {}
+ },
+ "riddles_additions": [],
+ "translator_notes": "瓦卡德許為魔像族學者，唯一相信預言可以被阻止之魔像，語氣溫和理性。後段有幾行「破碎人類語」（Captain John 友人），保留語法錯誤以示其說話困難。道別語「願精準與恆毅引領汝走向成功」為魔像典型祝辭。"
+}

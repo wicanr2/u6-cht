@@ -1,5 +1,21 @@
 # Ultima VI 繁體中文化專案
 
+![title](docs/screenshots/01_title.png)
+
+## 實機截圖
+
+| Look 地板 | Look 牆 | Look 階梯 |
+|---|---|---|
+| ![floor](docs/screenshots/04_look_floor.png) | ![wall](docs/screenshots/05_look_wall.png) | ![steps](docs/screenshots/06_look_steps.png) |
+
+| Game Loaded | 戰鬥訊息 | 攻擊對象 |
+|---|---|---|
+| ![loaded](docs/screenshots/03_game_loaded_zh.png) | ![combat](docs/screenshots/07_combat_zh.png) | ![attack](docs/screenshots/08_attack_zh.png) |
+
+| 對話-無對象 | LB 對話 | 開場 cutscene |
+|---|---|---|
+| ![talk](docs/screenshots/09_talk_nothing.png) | ![lb](docs/screenshots/10_lb_dialog.png) | ![intro](docs/screenshots/02_intro.png) |
+
 ## 專案概覽
 
 把 1990 年 Origin Systems 的經典 RPG **Ultima VI: The False Prophet** 改成繁體中文版本。

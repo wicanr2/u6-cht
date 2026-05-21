@@ -1,0 +1,320 @@
+{
+  "translations": [
+    {
+      "offset": 9,
+      "len": 38,
+      "en": "a short, heavyset man dressed in rags.",
+      "zh": "一位身材矮胖、穿著破爛的男子。",
+      "note": "DESC"
+    },
+    {
+      "offset": 72,
+      "len": 56,
+      "en": "\"I ain't talkin' to you, you're just like all the rest!\"",
+      "zh": "「俺不跟汝說話，汝跟那些人一個樣！」",
+      "note": "hostile first greeting (post-confession)"
+    },
+    {
+      "offset": 131,
+      "len": 59,
+      "en": "\"I'll never crack, no matter 'ow many times you come back!\"",
+      "zh": "「俺絕不鬆口，不管汝來多少次！」",
+      "note": ""
+    },
+    {
+      "offset": 193,
+      "len": 23,
+      "en": "\"All right, I give up.\"",
+      "zh": "「好吧，俺認了。」",
+      "note": ""
+    },
+    {
+      "offset": 219,
+      "len": 66,
+      "en": "\"The rune is 'idden under a potted plant at the Slaughtered Lamb.\"",
+      "zh": "「聖符藏在宰羊酒館一盆盆栽下面。」",
+      "note": "h-dropping dialect preserved as rough speech"
+    },
+    {
+      "offset": 288,
+      "len": 33,
+      "en": "\"Now go away and leave me alone.\"",
+      "zh": "「現在走開，讓俺清靜清靜。」",
+      "note": ""
+    },
+    {
+      "offset": 336,
+      "len": 28,
+      "en": "\"$G! Am I glad to see thee!\"",
+      "zh": "「$G！見到汝真是太好了！」",
+      "note": ""
+    },
+    {
+      "offset": 367,
+      "len": 46,
+      "en": "\"You're me last light in a world of darkness.\"",
+      "zh": "「汝是俺在黑暗世界裡最後的一絲光明。」",
+      "note": ""
+    },
+    {
+      "offset": 414,
+      "len": 42,
+      "en": "\"Who's there?\" the thief calls insolently.",
+      "zh": "「誰在那裡？」盜賊傲慢地叫道。",
+      "note": "action"
+    },
+    {
+      "offset": 459,
+      "len": 62,
+      "en": "The thief's tone becomes more respectful as he recognizes you.",
+      "zh": "盜賊認出汝後，語氣頓時變得恭敬了許多。",
+      "note": "action"
+    },
+    {
+      "offset": 524,
+      "len": 28,
+      "en": "\"'Strewth, it's the Avatar!\"",
+      "zh": "「老天，是聖者！」",
+      "note": "'Strewth = mild oath"
+    },
+    {
+      "offset": 555,
+      "len": 40,
+      "en": "\"You've got to get me @out of 'ere, $G!\"",
+      "zh": "「汝得把俺弄@出去，$G！」",
+      "note": ""
+    },
+    {
+      "offset": 628,
+      "len": 30,
+      "en": "\"I admit I robbed that grave.\"",
+      "zh": "「俺承認俺盜了那個墓。」",
+      "note": ""
+    },
+    {
+      "offset": 661,
+      "len": 79,
+      "en": "\"But it were only because 'is Lordship wouldn't be needin' that stuff no more.\"",
+      "zh": "「但那只是因為大人已用不著那些東西了。」",
+      "note": ""
+    },
+    {
+      "offset": 743,
+      "len": 35,
+      "en": "\"I 'ad me @kids to feed, didn't I?\"",
+      "zh": "「俺要養活俺的@孩子，不是嗎？」",
+      "note": ""
+    },
+    {
+      "offset": 789,
+      "len": 85,
+      "en": "\"I'll tell you where the rune is if you'll let me @go. I've got me kids to think of.\"",
+      "zh": "「只要讓俺@走，俺就告訴汝聖符在哪裡。俺得為俺的孩子著想。」",
+      "note": ""
+    },
+    {
+      "offset": 914,
+      "len": 26,
+      "en": "Tears fill the man's eyes.",
+      "zh": "男子眼眶泛紅。",
+      "note": "action"
+    },
+    {
+      "offset": 943,
+      "len": 58,
+      "en": "\"My poor children've got no one to take care of them now.\"",
+      "zh": "「俺那可憐的孩子現在沒人照顧了。」",
+      "note": ""
+    },
+    {
+      "offset": 1004,
+      "len": 51,
+      "en": "\"I only stole to feed them, and that's the @truth.\"",
+      "zh": "「俺偷竊只是為了養活他們，這是@實話。」",
+      "note": ""
+    },
+    {
+      "offset": 1071,
+      "len": 28,
+      "en": "\"True? Of course it's true!\"",
+      "zh": "「真話？當然是真話！」",
+      "note": ""
+    },
+    {
+      "offset": 1102,
+      "len": 50,
+      "en": "\"Even a thief like me wouldn't lie to the Avatar.\"",
+      "zh": "「就算俺是個盜賊，也不會對聖者說謊。」",
+      "note": ""
+    },
+    {
+      "offset": 1182,
+      "len": 48,
+      "en": "\"All right, I admit it. I 'aven't got any kids.\"",
+      "zh": "「好吧，俺承認。俺根本沒有孩子。」",
+      "note": "caught in lie"
+    },
+    {
+      "offset": 1233,
+      "len": 115,
+      "en": "\"But that stupid cow they got runnin' this place won't listen to reason--a little give-and-take, know what I mean?\"",
+      "zh": "「但那個管這地方的蠢女人根本不講理——互相讓步，知道俺的意思嗎？」",
+      "note": "insult for Lenora"
+    },
+    {
+      "offset": 1351,
+      "len": 18,
+      "en": "\"I tell you what.\"",
+      "zh": "「俺告訴汝吧。」",
+      "note": ""
+    },
+    {
+      "offset": 1372,
+      "len": 57,
+      "en": "\"If I tell you where the rune is, will you take it away?\"",
+      "zh": "「如果俺告訴汝聖符在哪裡，汝會把它帶走嗎？」",
+      "note": ""
+    },
+    {
+      "offset": 1432,
+      "len": 57,
+      "en": "\"I don't want these pompous blighters to 'ave it. Okay?\" ",
+      "zh": "「俺不想讓那些自命不凡的傢伙拿到它。好嗎？」",
+      "note": ""
+    },
+    {
+      "offset": 1526,
+      "len": 50,
+      "en": "\"You mean it, $G? Are they gonna let me go 'ome?\" ",
+      "zh": "「$G，汝說真的？他們要讓俺回家了？」",
+      "note": ""
+    },
+    {
+      "offset": 1587,
+      "len": 23,
+      "en": "\"Me name's Boskin, $G.\"",
+      "zh": "「俺叫博斯金，$G。」",
+      "note": ""
+    },
+    {
+      "offset": 1620,
+      "len": 75,
+      "en": "\"I'm but a poor farmer, forced into crime by the harshness of these times.\"",
+      "zh": "「俺不過是個窮苦農夫，被這亂世逼得走上歪路。」",
+      "note": ""
+    },
+    {
+      "offset": 1698,
+      "len": 51,
+      "en": "\"There weren't no other way to feed me family, $G!\"",
+      "zh": "「俺別無他法養活家人，$G！」",
+      "note": ""
+    },
+    {
+      "offset": 1759,
+      "len": 43,
+      "en": "\"Please, $G! Tell them to let me @go 'ome!\"",
+      "zh": "「求汝，$G！告訴他們放俺@回家！」",
+      "note": "bye"
+    },
+    {
+      "offset": 1803,
+      "len": 65,
+      "en": "Tell them about me poor fatherless @kids! They'll listen to you!\"",
+      "zh": "告訴他們俺那些可憐的@孤兒！他們會聽汝的！」",
+      "note": "continuation of bye"
+    },
+    {
+      "offset": 1873,
+      "len": 22,
+      "en": "\"Beg your pardon, $G?\"",
+      "zh": "「$G，請問汝說什麼？」",
+      "note": ""
+    },
+    {
+      "offset": 1907,
+      "len": 45,
+      "en": "\"Then the gargoyles can take the lot of you!\"",
+      "zh": "「那就讓魔像族把汝們統統帶走吧！」",
+      "note": "angry response"
+    },
+    {
+      "offset": 1955,
+      "len": 37,
+      "en": "\"You'll never get nothin' out of me!\"",
+      "zh": "「汝休想從俺這裡得到任何東西！」",
+      "note": ""
+    },
+    {
+      "offset": 2003,
+      "len": 40,
+      "en": "\"All right, I'll take your word for it.\"",
+      "zh": "「好吧，俺相信汝的話。」",
+      "note": ""
+    },
+    {
+      "offset": 2046,
+      "len": 72,
+      "en": "\"Go to the Slaughtered Lamb; I 'id the rune under a potted plant there.\"",
+      "zh": "「去宰羊酒館；俺把聖符藏在那裡一盆盆栽下面。」",
+      "note": ""
+    },
+    {
+      "offset": 2121,
+      "len": 34,
+      "en": "\"And spit on Her Ladyship for me!\"",
+      "zh": "「還有，替俺朝那位大人吐口水！」",
+      "note": ""
+    },
+    {
+      "offset": 2164,
+      "len": 82,
+      "en": "His face falls. \"Then I ain't sayin' nothin'. I've got me kids to think of, I do.\"",
+      "zh": "他神情黯然。「那俺什麼都不說。俺得為俺的孩子著想，俺真的得。」",
+      "note": "action"
+    },
+    {
+      "offset": 2254,
+      "len": 54,
+      "en": "His face lights up. \"I knew I could count on you, $G!\"",
+      "zh": "他神色一亮。「俺就知道可以信任汝，$G！」",
+      "note": "action"
+    },
+    {
+      "offset": 2311,
+      "len": 38,
+      "en": "\"And I'll keep my end of the bargain.\"",
+      "zh": "「俺也會履行俺這邊的協議。」",
+      "note": ""
+    },
+    {
+      "offset": 2352,
+      "len": 66,
+      "en": "\"I 'id the rune under a potted plant in the Slaughtered Lamb inn.\"",
+      "zh": "「俺把聖符藏在宰羊酒館裡一盆盆栽下面。」",
+      "note": ""
+    },
+    {
+      "offset": 2430,
+      "len": 35,
+      "en": "As you leave, Iolo whispers to you.",
+      "zh": "就在汝離去之際，尤洛悄聲對汝說。",
+      "note": "action"
+    },
+    {
+      "offset": 2468,
+      "len": 82,
+      "en": "\"Maybe it was necessary, $P, but lying makes me uneasy. Even to someone like him.\"",
+      "zh": "「$P，也許這是必要的，但說謊讓吾渾身不自在。即使對象是這樣的人。」",
+      "note": "Iolo speaks"
+    }
+  ],
+  "glossary_additions": {
+    "people": {
+      "Boskin": "博斯金"
+    },
+    "places": {},
+    "concepts": {}
+  },
+  "translator_notes": "博斯金是個關在尤城監牢的盜賊，說話帶市井腔（俺）。他聲稱有家人要養，但被拆穿後承認是謊言。知道正義聖符藏在宰羊酒館盆栽下。最後尤洛的旁白台詞以「吾」自稱，符合同伴身份。"
+}

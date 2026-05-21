@@ -1,0 +1,681 @@
+{
+ "_meta": {
+  "npc": "Chuckles",
+  "constraint": "zh_bytes <= en_len, 74 strings 全 FIT"
+ },
+ "translations": [
+  {
+   "offset": 2,
+   "len": 8,
+   "en": "Chuckles",
+   "zh": "笑笑",
+   "zh_bytes": 4,
+   "note": ""
+  },
+  {
+   "offset": 11,
+   "len": 41,
+   "en": "a carefree fellow in a ludicrous costume.",
+   "zh": "一個身著荒誕戲服、無憂無慮的傢伙。",
+   "zh_bytes": 34,
+   "note": ""
+  },
+  {
+   "offset": 55,
+   "len": 68,
+   "en": "\"Ho eyo he hum, I've got a @clue! It's important, and just for you!\"",
+   "zh": "「叮叮咚咚噹啷噹，俺有@線索特意俏！事關重大莫等閒，專為汝來報！」",
+   "zh_bytes": 65,
+   "note": "招牌順口溜 [r2]"
+  },
+  {
+   "offset": 126,
+   "len": 4,
+   "en": "name",
+   "zh": "name",
+   "zh_bytes": 4,
+   "note": "keyword 觸發詞"
+  },
+  {
+   "offset": 131,
+   "len": 91,
+   "en": "\"Why, I'm Chuckles the @jester, of course! You've @heard of me haven't you? Sure you have!\"",
+   "zh": "「哎呀，俺正是@弄臣笑笑！汝@聽說過俺吧？想必聽過囉！」",
+   "zh_bytes": 54,
+   "note": ""
+  },
+  {
+   "offset": 234,
+   "len": 4,
+   "en": "hear",
+   "zh": "hear",
+   "zh_bytes": 4,
+   "note": "keyword"
+  },
+  {
+   "offset": 239,
+   "len": 42,
+   "en": "\"You've heard a word? Why that's @absurd!\"",
+   "zh": "「聞風一句話？簡直@荒誕無涯！」",
+   "zh_bytes": 31,
+   "note": "押韻"
+  },
+  {
+   "offset": 282,
+   "len": 3,
+   "en": "job",
+   "zh": "job",
+   "zh_bytes": 3,
+   "note": "len=3 keyword"
+  },
+  {
+   "offset": 286,
+   "len": 76,
+   "en": "\"To @jape, to jeer, to prance, to frolic! To keep this place unmelancholic!\"",
+   "zh": "「@戲謔嘲諷蹦跳鬧！叫此地永不寂寥！」",
+   "zh_bytes": 37,
+   "note": ""
+  },
+  {
+   "offset": 365,
+   "len": 81,
+   "en": "\"I practice @tomfoolery for Lord @British - or anyone else who passes too close.\"",
+   "zh": "「俺為@不列顛王獻上@愚行——湊近的人也跟著遭殃。」",
+   "zh_bytes": 50,
+   "note": ""
+  },
+  {
+   "offset": 452,
+   "len": 4,
+   "en": "jape",
+   "zh": "jape",
+   "zh_bytes": 4,
+   "note": "keyword"
+  },
+  {
+   "offset": 457,
+   "len": 12,
+   "en": "\"And @jeer!\"",
+   "zh": "「再@諷！」",
+   "zh_bytes": 11,
+   "note": ""
+  },
+  {
+   "offset": 475,
+   "len": 4,
+   "en": "jeer",
+   "zh": "jeer",
+   "zh_bytes": 4,
+   "note": "keyword"
+  },
+  {
+   "offset": 480,
+   "len": 43,
+   "en": "\"And @prance! To dance a Corybantic dance!\"",
+   "zh": "「再@蹦跳！跳支瘋癲狂歌舞飄！」",
+   "zh_bytes": 31,
+   "note": "Corybantic→瘋癲狂躁 [r2]"
+  },
+  {
+   "offset": 529,
+   "len": 9,
+   "en": "pran,danc",
+   "zh": "pran,danc",
+   "zh_bytes": 9,
+   "note": "keyword 列"
+  },
+  {
+   "offset": 539,
+   "len": 38,
+   "en": "\"Jeer and prance! Prance and @frolic!\"",
+   "zh": "「譏笑又蹦跳！蹦跳又@嬉鬧！」",
+   "zh_bytes": 29,
+   "note": "[r2]"
+  },
+  {
+   "offset": 583,
+   "len": 4,
+   "en": "frol",
+   "zh": "frol",
+   "zh_bytes": 4,
+   "note": "keyword"
+  },
+  {
+   "offset": 588,
+   "len": 36,
+   "en": "\"I lurch 'round like an @alcoholic!\"",
+   "zh": "「俺搖晃如@醉漢顛倒！」",
+   "zh_bytes": 23,
+   "note": ""
+  },
+  {
+   "offset": 630,
+   "len": 3,
+   "en": "tom",
+   "zh": "tom",
+   "zh_bytes": 3,
+   "note": "keyword"
+  },
+  {
+   "offset": 634,
+   "len": 44,
+   "en": "\"'Cause Dick and Harry both called in sick.\"",
+   "zh": "「因為張三李四都告病請假了。」",
+   "zh_bytes": 30,
+   "note": "Tom,Dick,Harry 英諺 [r2]"
+  },
+  {
+   "offset": 684,
+   "len": 9,
+   "en": "lord,brit",
+   "zh": "lord,brit",
+   "zh_bytes": 9,
+   "note": "keyword 列"
+  },
+  {
+   "offset": 694,
+   "len": 53,
+   "en": "\"Call him Mr. @Nose... But don't tell him I said so!\"",
+   "zh": "「叫他@鼻先生……可別讓他聽見俺說的！」",
+   "zh_bytes": 39,
+   "note": "[r2]"
+  },
+  {
+   "offset": 753,
+   "len": 7,
+   "en": "mr,nose",
+   "zh": "mr,nose",
+   "zh_bytes": 7,
+   "note": "keyword"
+  },
+  {
+   "offset": 761,
+   "len": 38,
+   "en": "\"Shhh! Don't let him know I told you!\"",
+   "zh": "「噓！可別讓他曉得俺說了！」",
+   "zh_bytes": 28,
+   "note": ""
+  },
+  {
+   "offset": 800,
+   "len": 4,
+   "en": "clue",
+   "zh": "clue",
+   "zh_bytes": 4,
+   "note": "keyword"
+  },
+  {
+   "offset": 811,
+   "len": 4,
+   "en": "hint",
+   "zh": "hint",
+   "zh_bytes": 4,
+   "note": "keyword"
+  },
+  {
+   "offset": 816,
+   "len": 76,
+   "en": "\"If hints were mints and mints were hints, think what a @world it would be!\"",
+   "zh": "「若提示是糖球，糖球是提示，這@世界豈不妙！」",
+   "zh_bytes": 45,
+   "note": "[r2]"
+  },
+  {
+   "offset": 898,
+   "len": 9,
+   "en": "ques,ches",
+   "zh": "ques,ches",
+   "zh_bytes": 9,
+   "note": "keyword 列"
+  },
+  {
+   "offset": 908,
+   "len": 36,
+   "en": "\"A quest, a chest, oh what a @jest!\"",
+   "zh": "「@試煉、寶箱，何等@笑談一場！」",
+   "zh_bytes": 32,
+   "note": ""
+  },
+  {
+   "offset": 950,
+   "len": 4,
+   "en": "jest",
+   "zh": "jest",
+   "zh_bytes": 4,
+   "note": "keyword"
+  },
+  {
+   "offset": 961,
+   "len": 9,
+   "en": "teac,prea",
+   "zh": "teac,prea",
+   "zh_bytes": 9,
+   "note": "keyword 列"
+  },
+  {
+   "offset": 971,
+   "len": 45,
+   "en": "\"To teach, to preach, what waste of @speech!\"",
+   "zh": "「又教又道，盡費@唇舌囉！」",
+   "zh_bytes": 27,
+   "note": ""
+  },
+  {
+   "offset": 1022,
+   "len": 39,
+   "en": "mint,worl,spee,lurc,alco,word,absu,done",
+   "zh": "mint,worl,spee,lurc,alco,word,absu,done",
+   "zh_bytes": 39,
+   "note": "keyword 短碼列保留英文"
+  },
+  {
+   "offset": 1062,
+   "len": 20,
+   "en": "\"I just said @that!\"",
+   "zh": "「俺剛@就這麼說！」",
+   "zh_bytes": 19,
+   "note": ""
+  },
+  {
+   "offset": 1088,
+   "len": 4,
+   "en": "that",
+   "zh": "that",
+   "zh_bytes": 4,
+   "note": "keyword"
+  },
+  {
+   "offset": 1093,
+   "len": 24,
+   "en": "\"You just said '@that!'\"",
+   "zh": "你剛說了『@就這麼』！",
+   "zh_bytes": 21,
+   "note": ""
+  },
+  {
+   "offset": 1123,
+   "len": 4,
+   "en": "nyst",
+   "zh": "nyst",
+   "zh_bytes": 4,
+   "note": "keyword"
+  },
+  {
+   "offset": 1128,
+   "len": 19,
+   "en": "\"Oh, he's no @fun.\"",
+   "zh": "「噢，他無@樂趣！」",
+   "zh_bytes": 19,
+   "note": ""
+  },
+  {
+   "offset": 1153,
+   "len": 3,
+   "en": "fun",
+   "zh": "fun",
+   "zh_bytes": 3,
+   "note": "keyword"
+  },
+  {
+   "offset": 1157,
+   "len": 37,
+   "en": "\"I'll show you fun before I'm @done!\"",
+   "zh": "「俺玩給汝看，玩到@玩完！」",
+   "zh_bytes": 27,
+   "note": ""
+  },
+  {
+   "offset": 1200,
+   "len": 3,
+   "en": "bye",
+   "zh": "bye",
+   "zh_bytes": 3,
+   "note": "keyword"
+  },
+  {
+   "offset": 1212,
+   "len": 66,
+   "en": "\"Ho ho, hee hee, thou art funnier than me! To ask a jester of $Z!\"",
+   "zh": "「呵呵嘻嘻，汝比俺更滑稽！竟問弄臣何為$Z！」",
+   "zh_bytes": 44,
+   "note": "$Z=時辰變數保留"
+  },
+  {
+   "offset": 1284,
+   "len": 68,
+   "en": "\"Yes, it's crucial to your @quest. Do you want to know what it is?\" ",
+   "zh": "「沒錯，這對汝的@試煉至關緊要。汝可想知道是啥麼？」",
+   "zh_bytes": 51,
+   "note": ""
+  },
+  {
+   "offset": 1353,
+   "len": 2,
+   "en": "yn",
+   "zh": "yn",
+   "zh_bytes": 2,
+   "note": "y/n prompt"
+  },
+  {
+   "offset": 1358,
+   "len": 35,
+   "en": "\"Perhaps I don't want to tell you!\"",
+   "zh": "「或許俺不想告訴你哪！」",
+   "zh_bytes": 24,
+   "note": ""
+  },
+  {
+   "offset": 1396,
+   "len": 31,
+   "en": "\"Perhaps I'll tell you anyway!\"",
+   "zh": "「或許俺還是會告訴你！」",
+   "zh_bytes": 24,
+   "note": ""
+  },
+  {
+   "offset": 1430,
+   "len": 23,
+   "en": "\"Do you think I will?\" ",
+   "zh": "「你覺得俺會說嗎？」",
+   "zh_bytes": 20,
+   "note": ""
+  },
+  {
+   "offset": 1454,
+   "len": 2,
+   "en": "yn",
+   "zh": "yn",
+   "zh_bytes": 2,
+   "note": "y/n prompt"
+  },
+  {
+   "offset": 1459,
+   "len": 33,
+   "en": "\"How foolish of you to think so! ",
+   "zh": "「汝這麼想真是傻氣！",
+   "zh_bytes": 20,
+   "note": ""
+  },
+  {
+   "offset": 1495,
+   "len": 40,
+   "en": "\"Congratulations! You're exactly right! ",
+   "zh": "「恭喜！汝完全猜對了！",
+   "zh_bytes": 22,
+   "note": ""
+  },
+  {
+   "offset": 1536,
+   "len": 29,
+   "en": "I won't tell you the clue...\"",
+   "zh": "俺不會告訴你線索的……」",
+   "zh_bytes": 24,
+   "note": ""
+  },
+  {
+   "offset": 1568,
+   "len": 59,
+   "en": "\"But I will give you this @hint that may lead you to it...\"",
+   "zh": "「不過俺給汝這個@提示，或許能引汝尋著……」",
+   "zh_bytes": 43,
+   "note": ""
+  },
+  {
+   "offset": 1630,
+   "len": 38,
+   "en": "\"Search the @chest in @Nystul's room.\"",
+   "zh": "「翻翻@尼斯托房裡那只@寶箱。」",
+   "zh_bytes": 30,
+   "note": "quest hint!"
+  },
+  {
+   "offset": 1673,
+   "len": 77,
+   "en": "\"Have you heard the one about the nun, the dragon, and the drunken penguin?\" ",
+   "zh": "「汝可聽過那則笑話？關於修女、龍、和醉企鵝的？」",
+   "zh_bytes": 48,
+   "note": ""
+  },
+  {
+   "offset": 1751,
+   "len": 2,
+   "en": "yn",
+   "zh": "yn",
+   "zh_bytes": 2,
+   "note": "y/n prompt"
+  },
+  {
+   "offset": 1756,
+   "len": 35,
+   "en": "\"That's too bad... Neither have I!\"",
+   "zh": "「真可惜……俺也沒聽過呢！」",
+   "zh_bytes": 28,
+   "note": ""
+  },
+  {
+   "offset": 1794,
+   "len": 46,
+   "en": "\"Good! Maybe you can @teach it to me someday!\"",
+   "zh": "「太好啦！說不定哪天你能@教俺！」",
+   "zh_bytes": 33,
+   "note": ""
+  },
+  {
+   "offset": 1846,
+   "len": 67,
+   "en": "\"I did my best, did I amuse you? If not, I hope I did confuse you.\"",
+   "zh": "「在下盡力了，可博汝一笑？若沒逗笑，也願讓汝糊塗一遭！」",
+   "zh_bytes": 56,
+   "note": "謝幕語用『在下』"
+  },
+  {
+   "offset": 1916,
+   "len": 26,
+   "en": "\"Did you enjoy my jokes?\" ",
+   "zh": "「汝喜歡俺的笑話嗎？」",
+   "zh_bytes": 22,
+   "note": ""
+  },
+  {
+   "offset": 1943,
+   "len": 2,
+   "en": "yn",
+   "zh": "yn",
+   "zh_bytes": 2,
+   "note": "y/n prompt"
+  },
+  {
+   "offset": 1955,
+   "len": 45,
+   "en": "\"Really? I'll just have to try harder, then!\"",
+   "zh": "「真的？那俺只好再加把勁啦！」",
+   "zh_bytes": 30,
+   "note": ""
+  },
+  {
+   "offset": 2003,
+   "len": 32,
+   "en": "\"Why is Dupre like a horseshoe?\"",
+   "zh": "「杜普雷為何像個馬蹄鐵？」",
+   "zh_bytes": 26,
+   "note": ""
+  },
+  {
+   "offset": 2038,
+   "len": 43,
+   "en": "\"It's because they both have the letter 'r'",
+   "zh": "「因為兩者裡頭都有字母『r』——西洋話啊",
+   "zh_bytes": 39,
+   "note": "字母 r 雙關 [r2]"
+  },
+  {
+   "offset": 2082,
+   "len": 9,
+   "en": "in them!\"",
+   "zh": "！」",
+   "zh_bytes": 4,
+   "note": "[r2]"
+  },
+  {
+   "offset": 2097,
+   "len": 42,
+   "en": "\"You did? Then I'll tell you another one!\"",
+   "zh": "「喜歡？那俺再說一個給你聽！」",
+   "zh_bytes": 30,
+   "note": ""
+  },
+  {
+   "offset": 2142,
+   "len": 65,
+   "en": "\"Riddle me this: Do you know what the goose said to the avatar?\" ",
+   "zh": "「猜這個謎：汝可知鵝對聖者說了啥？」",
+   "zh_bytes": 36,
+   "note": ""
+  },
+  {
+   "offset": 2208,
+   "len": 2,
+   "en": "yn",
+   "zh": "yn",
+   "zh_bytes": 2,
+   "note": "y/n prompt"
+  },
+  {
+   "offset": 2213,
+   "len": 91,
+   "en": "\"No, no, no, that's not how it works! You're supposed to say you don't, so I can tell you!\"",
+   "zh": "「不不不，這樣不對！你該說不知道，俺才好告訴你嘛！」",
+   "zh_bytes": 52,
+   "note": ""
+  },
+  {
+   "offset": 2307,
+   "len": 21,
+   "en": "\"Let's try it again.\"",
+   "zh": "「咱們再試一遍。」",
+   "zh_bytes": 18,
+   "note": ""
+  },
+  {
+   "offset": 2337,
+   "len": 22,
+   "en": "\"It said 'ankh ankh!'\"",
+   "zh": "「牠說『鵝是聖者！』」",
+   "zh_bytes": 22,
+   "note": "honk/ankh 雙關失效 [r2]"
+  },
+  {
+   "offset": 2362,
+   "len": 33,
+   "en": "\"What did you think of that one?\"",
+   "zh": "「汝覺得這個如何？」",
+   "zh_bytes": 20,
+   "note": ""
+  },
+  {
+   "offset": 2398,
+   "len": 30,
+   "en": "\"Well, who asked you, anyway?\"",
+   "zh": "「哼，誰問你來著？」",
+   "zh_bytes": 20,
+   "note": ""
+  },
+  {
+   "offset": 2431,
+   "len": 26,
+   "en": "\"Oh, that's right, I did!\"",
+   "zh": "「噢，對啦，是俺問的！」",
+   "zh_bytes": 24,
+   "note": ""
+  },
+  {
+   "offset": 2460,
+   "len": 98,
+   "en": "\"Hee hee, ho ho, to spread good cheer I go! Come talk to me again and I'll give you another show!\"",
+   "zh": "「嘻嘻哈哈呵呵呵，散播歡樂俺來囉！再來找俺聊一聊，下次給你看新把戲跳！」",
+   "zh_bytes": 72,
+   "note": "結尾呼應開場 [r2]"
+  }
+ ],
+ "keyword_mapping": {
+  "@clue": "@線索",
+  "@jester": "@弄臣",
+  "@heard": "@聽說",
+  "@absurd": "@荒誕",
+  "@jape": "@戲謔",
+  "@tomfoolery": "@愚行",
+  "@British": "@不列顛王",
+  "@jeer": "@諷",
+  "@prance": "@蹦跳",
+  "@frolic": "@嬉鬧",
+  "@alcoholic": "@醉漢",
+  "@Nose": "@鼻先生",
+  "@world": "@世界",
+  "@jest": "@笑談",
+  "@speech": "@唇舌",
+  "@that": "@就這麼",
+  "@fun": "@樂趣",
+  "@done": "@玩完",
+  "@quest": "@試煉",
+  "@hint": "@提示",
+  "@chest": "@寶箱",
+  "@Nystul": "@尼斯托",
+  "@teach": "@教"
+ },
+ "glossary_additions": {
+  "keywords_common": {
+   "@absurd": "@荒誕",
+   "@tomfoolery": "@愚行",
+   "@speech": "@唇舌",
+   "@frolic": "@嬉鬧",
+   "@prance": "@蹦跳",
+   "@jape": "@戲謔",
+   "@alcoholic": "@醉漢",
+   "@chest": "@寶箱",
+   "@hint": "@提示"
+  }
+ },
+ "riddles_additions": [
+  {
+   "npc": "Chuckles",
+   "key": "HO_EYO_HE_HUM",
+   "en": "Ho eyo he hum, I've got a clue!",
+   "zh": "叮叮咚咚噹噹噹，俺有@線索特意俏！",
+   "ref": "招牌順口溜",
+   "strategy": "ㄠ 韻七言式"
+  },
+  {
+   "npc": "Chuckles",
+   "key": "QUEST_CHEST_JEST",
+   "en": "A quest, a chest, oh what a jest!",
+   "zh": "@試煉、寶箱，何等@笑談一場！",
+   "ref": "三字 -est 押韻",
+   "strategy": "ㄤ 韻"
+  },
+  {
+   "npc": "Chuckles",
+   "key": "ANKH_ANKH",
+   "en": "It said 'ankh ankh!'",
+   "zh": "牠說『安克！』",
+   "ref": "honk/ankh 鵝叫雙關",
+   "strategy": "雙關不可譯，保語意"
+  },
+  {
+   "npc": "Chuckles",
+   "key": "DUPRE_HORSESHOE",
+   "en": "It's because they both have the letter 'r' in them!",
+   "zh": "因為兩者都有字母『r』在內！",
+   "ref": "字母 r 諧音",
+   "strategy": "保留 ASCII r 不譯"
+  },
+  {
+   "npc": "Chuckles",
+   "key": "QUEST_HINT",
+   "en": "Search the chest in Nystul's room.",
+   "zh": "翻翻@尼斯托房裡那只@寶箱。",
+   "ref": "主線 quest 第一個 hint！",
+   "strategy": "保留情報"
+  }
+ ],
+ "translator_notes": "Chuckles 自稱『俺』，押韻段優先用『汝』利收音。74 strings 全 ≤ len，最多達 18 個 riddles 押韻處理。失效雙關 2 處（horseshoe r 字母、ankh/honk）保語意捨笑點。短 keyword 觸發詞保英文。"
+}

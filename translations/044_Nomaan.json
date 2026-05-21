@@ -1,0 +1,440 @@
+{
+  "translations": [
+    {
+      "offset": 9,
+      "len": 61,
+      "en": "a blond man with broad shoulders and a stern, unsmiling face.",
+      "zh": "一位金髮寬肩、面容嚴肅不苟言笑之男子。",
+      "note": "DESC"
+    },
+    {
+      "offset": 81,
+      "len": 69,
+      "en": "\"Can't you see there's a lovely brawl going on? Talk to me tomorrow.\"",
+      "zh": "「看不出來現在正有一場精彩的鬥毆嗎？明天再來找吾說話。」",
+      "note": ""
+    },
+    {
+      "offset": 166,
+      "len": 18,
+      "en": "\"Hello again, $G.\"",
+      "zh": "「$G，再度相見。」",
+      "note": ""
+    },
+    {
+      "offset": 190,
+      "len": 36,
+      "en": "\"I am Nomaan. What is thy name, $G?\"",
+      "zh": "「吾乃諾曼。汝的名字，$G？」",
+      "note": ""
+    },
+    {
+      "offset": 229,
+      "len": 32,
+      "en": "He bows stiffly. \"Well met, $G.\"",
+      "zh": "他僵硬地行禮。「幸會，$G。」",
+      "note": ""
+    },
+    {
+      "offset": 274,
+      "len": 33,
+      "en": "\"What else can I help thee with?\"",
+      "zh": "「還有什麼吾能助汝之事？」",
+      "note": ""
+    },
+    {
+      "offset": 314,
+      "len": 16,
+      "en": "\"Certainly, $G.\"",
+      "zh": "「當然，$G。」",
+      "note": ""
+    },
+    {
+      "offset": 333,
+      "len": 46,
+      "en": "\"Wouldst thou like @armaments or @ammunition?\"",
+      "zh": "「汝需要@武器還是@彈藥？」",
+      "note": ""
+    },
+    {
+      "offset": 396,
+      "len": 32,
+      "en": "\"Come by my shop when I'm open!\"",
+      "zh": "「開店時來吾的鋪子！」",
+      "note": ""
+    },
+    {
+      "offset": 573,
+      "len": 32,
+      "en": "\"@Naughty Nomaan, they call me.\"",
+      "zh": "「人稱@頑劣諾曼。」",
+      "note": "nickname"
+    },
+    {
+      "offset": 615,
+      "len": 50,
+      "en": "\"I run the armoury, @buying and @selling weapons.\"",
+      "zh": "「吾經營武器庫，@買賣兵器。」",
+      "note": ""
+    },
+    {
+      "offset": 676,
+      "len": 34,
+      "en": "\"'Tis just a nickname, of course.\"",
+      "zh": "「此不過是個綽號，當然。」",
+      "note": ""
+    },
+    {
+      "offset": 713,
+      "len": 38,
+      "en": "You see a hint of a smile on his face.",
+      "zh": "汝隱約見到他臉上浮現一絲微笑。",
+      "note": "action"
+    },
+    {
+      "offset": 762,
+      "len": 36,
+      "en": "\"I won a rune in a tournament once.\"",
+      "zh": "「吾曾在一次比武中贏得一枚符文。」",
+      "note": ""
+    },
+    {
+      "offset": 801,
+      "len": 60,
+      "en": "\"'Tis gone now, though - and there's a fine @tale about it!\"",
+      "zh": "「如今已不知去向——但其中有段精彩的@故事！」",
+      "note": ""
+    },
+    {
+      "offset": 877,
+      "len": 42,
+      "en": "\"I remember it as if it were yesterday...\"",
+      "zh": "「吾記得彷彿昨日之事……」",
+      "note": ""
+    },
+    {
+      "offset": 922,
+      "len": 63,
+      "en": "\"Zellivan held a tourney and I was awarded the Rune of Valour.\"",
+      "zh": "「澤利凡舉辦了比武，吾獲頒勇氣符文。」",
+      "note": ""
+    },
+    {
+      "offset": 988,
+      "len": 46,
+      "en": "\"Afterwards, we were at the pub, celebrating.\"",
+      "zh": "「之後吾等在酒館慶祝。」",
+      "note": ""
+    },
+    {
+      "offset": 1037,
+      "len": 65,
+      "en": "\"I had drunk a full quart of ale, so my grip was a bit unsteady.\"",
+      "zh": "「吾喝了整整一夸脫的麥酒，手有些不穩。」",
+      "note": ""
+    },
+    {
+      "offset": 1105,
+      "len": 74,
+      "en": "\"I was showing the rune around when it fell from my grasp onto the floor.\"",
+      "zh": "「吾正在展示符文時，它從吾手中滑落至地板上。」",
+      "note": ""
+    },
+    {
+      "offset": 1182,
+      "len": 31,
+      "en": "\"That's when the @rat ran out.\"",
+      "zh": "「那時一隻@老鼠竄了出來。」",
+      "note": ""
+    },
+    {
+      "offset": 1223,
+      "len": 70,
+      "en": "\"It scampered over, seized the trinket and ran back 'cross the floor.\"",
+      "zh": "「牠飛奔過來，叼起那個玩意兒，又穿越地板跑了回去。」",
+      "note": ""
+    },
+    {
+      "offset": 1296,
+      "len": 57,
+      "en": "\"We all leapt at it, but the little beast was too quick.\"",
+      "zh": "「吾等全都撲上去，但那小畜生太快了。」",
+      "note": ""
+    },
+    {
+      "offset": 1356,
+      "len": 51,
+      "en": "\"It was in the @hole before anybody could stop it.\"",
+      "zh": "「未待任何人阻止，它已竄入@洞穴之中。」",
+      "note": ""
+    },
+    {
+      "offset": 1418,
+      "len": 68,
+      "en": "\"It ran into a hole in the west wall of the pub, carrying the rune.\"",
+      "zh": "「牠叼著符文，鑽進了酒館西牆的一個洞裡。」",
+      "note": ""
+    },
+    {
+      "offset": 1489,
+      "len": 74,
+      "en": "\"We tried everything - banging on the wall, digging, poking with a sword.\"",
+      "zh": "「吾等試盡了方法——敲牆、挖掘、用劍戳——」",
+      "note": ""
+    },
+    {
+      "offset": 1566,
+      "len": 54,
+      "en": "\"To no avail, though. We haven't seen the rune since.\"",
+      "zh": "「然而徒勞無功。符文自此便再未出現。」",
+      "note": ""
+    },
+    {
+      "offset": 1631,
+      "len": 30,
+      "en": "\"Go ask around in the tavern.\"",
+      "zh": "「去酒館打聽打聽吧。」",
+      "note": "mantra"
+    },
+    {
+      "offset": 1671,
+      "len": 23,
+      "en": "\"A fine $T to you, $G.\"",
+      "zh": "「願汝有個美好的$T，$G。」",
+      "note": "bye"
+    },
+    {
+      "offset": 1699,
+      "len": 8,
+      "en": "\"Hmm...\"",
+      "zh": "「嗯……」",
+      "note": ""
+    },
+    {
+      "offset": 1710,
+      "len": 42,
+      "en": "\"Nope, I fear I know nothing of that, $G.\"",
+      "zh": "「不，吾對此一無所知，$G。」",
+      "note": ""
+    },
+    {
+      "offset": 1893,
+      "len": 41,
+      "en": "\"Sorry, none of you has anything I need.\"",
+      "zh": "「抱歉，汝等無人持有吾所需之物。」",
+      "note": ""
+    },
+    {
+      "offset": 1969,
+      "len": 38,
+      "en": "\"Aye, $Y has something of interest...\"",
+      "zh": "「嗯，$Y 有件有趣的東西……」",
+      "note": ""
+    },
+    {
+      "offset": 2069,
+      "len": 16,
+      "en": "\"Which of you?\" ",
+      "zh": "「汝等哪一位？」",
+      "note": ""
+    },
+    {
+      "offset": 2303,
+      "len": 14,
+      "en": "\"Which item?\" ",
+      "zh": "「哪件物品？」",
+      "note": ""
+    },
+    {
+      "offset": 2395,
+      "len": 41,
+      "en": "\"Will you take #7 gold for that $0, $Y?\" ",
+      "zh": "「汝願以 #7 枚金幣賣給吾那件 $0 嗎，$Y？」",
+      "note": ""
+    },
+    {
+      "offset": 2449,
+      "len": 32,
+      "en": "\"Perhaps some other time, then.\"",
+      "zh": "「或許他日再議。」",
+      "note": ""
+    },
+    {
+      "offset": 2489,
+      "len": 30,
+      "en": "\"Perhaps something else then?\"",
+      "zh": "「或許有其他物品？」",
+      "note": ""
+    },
+    {
+      "offset": 2535,
+      "len": 52,
+      "en": "\"Done!\" $N hands $Y #7 gold pieces and takes the $0.",
+      "zh": "「成交！」$N 給了 $Y #7 枚金幣並取走 $0。",
+      "note": ""
+    },
+    {
+      "offset": 2644,
+      "len": 24,
+      "en": "\"Changed your mind, eh?\"",
+      "zh": "「改變心意了，嗯？」",
+      "note": ""
+    },
+    {
+      "offset": 2756,
+      "len": 16,
+      "en": "\"Which of you?\" ",
+      "zh": "「汝等哪一位？」",
+      "note": ""
+    },
+    {
+      "offset": 2922,
+      "len": 14,
+      "en": "\"Which item?\" ",
+      "zh": "「哪件物品？」",
+      "note": ""
+    },
+    {
+      "offset": 3004,
+      "len": 24,
+      "en": "\"That $1 costs #1 gold.\"",
+      "zh": "「那件 $1 需 #1 枚金幣。」",
+      "note": ""
+    },
+    {
+      "offset": 3031,
+      "len": 18,
+      "en": "\"Interested, $Y?\" ",
+      "zh": "「$Y 有意購買嗎？」",
+      "note": ""
+    },
+    {
+      "offset": 3086,
+      "len": 41,
+      "en": "\"But 'twould make thee o'erburdened, $Y!\"",
+      "zh": "「但此舉令汝負荷過重，$Y！」",
+      "note": ""
+    },
+    {
+      "offset": 3177,
+      "len": 12,
+      "en": "\"Excellent!\"",
+      "zh": "「甚好！」",
+      "note": ""
+    },
+    {
+      "offset": 3191,
+      "len": 48,
+      "en": "After accepting $Y's gold, $N hands over the $1.",
+      "zh": "收下 $Y 的金幣後，$N 將 $1 交出。",
+      "note": ""
+    },
+    {
+      "offset": 3248,
+      "len": 36,
+      "en": "\"But thou hast not enough gold, $Y!\"",
+      "zh": "「但汝的金幣不足，$Y！」",
+      "note": ""
+    },
+    {
+      "offset": 3373,
+      "len": 16,
+      "en": "\"Which of you?\" ",
+      "zh": "「汝等哪一位？」",
+      "note": ""
+    },
+    {
+      "offset": 3468,
+      "len": 14,
+      "en": "\"Which kind?\" ",
+      "zh": "「哪種？」",
+      "note": ""
+    },
+    {
+      "offset": 3550,
+      "len": 31,
+      "en": "\"I only sell $1s by the dozen.\"",
+      "zh": "「吾只以打為單位出售 $1。」",
+      "note": ""
+    },
+    {
+      "offset": 3584,
+      "len": 35,
+      "en": "\"How many dozens do you want, $Y?\" ",
+      "zh": "「汝要幾打，$Y？」",
+      "note": ""
+    },
+    {
+      "offset": 3743,
+      "len": 12,
+      "en": "\"Excellent!\"",
+      "zh": "「甚好！」",
+      "note": ""
+    },
+    {
+      "offset": 3757,
+      "len": 41,
+      "en": "After accepting $Y's gold, $N hands over ",
+      "zh": "收下 $Y 的金幣後，$N 交出",
+      "note": "partial — concatenated with next"
+    },
+    {
+      "offset": 3808,
+      "len": 7,
+      "en": "#6 $1s.",
+      "zh": "#6 件 $1。",
+      "note": ""
+    },
+    {
+      "offset": 3833,
+      "len": 54,
+      "en": "\"Thou canst not carry that many, but I will give thee ",
+      "zh": "「汝無法攜帶那麼多，但吾給汝",
+      "note": "partial"
+    },
+    {
+      "offset": 3897,
+      "len": 12,
+      "en": "#6 $1s, $Y.\"",
+      "zh": "#6 件 $1，$Y。」",
+      "note": ""
+    },
+    {
+      "offset": 3917,
+      "len": 35,
+      "en": "\"Thou canst not carry any $1s, $Y!\"",
+      "zh": "「汝無法攜帶任何 $1，$Y！」",
+      "note": ""
+    },
+    {
+      "offset": 3964,
+      "len": 55,
+      "en": "\"Thou canst not afford that many, but I will give thee ",
+      "zh": "「汝負擔不起那麼多，但吾給汝",
+      "note": "partial"
+    },
+    {
+      "offset": 4029,
+      "len": 12,
+      "en": "#6 $1s, $Y.\"",
+      "zh": "#6 件 $1，$Y。」",
+      "note": ""
+    },
+    {
+      "offset": 4049,
+      "len": 36,
+      "en": "\"Thou canst not afford any $1s, $Y!\"",
+      "zh": "「汝負擔不起任何 $1，$Y！」",
+      "note": ""
+    }
+  ],
+  "glossary_additions": {
+    "people": {},
+    "places": {},
+    "concepts": {
+      "armaments": "武器",
+      "ammunition": "彈藥"
+    }
+  },
+  "translator_notes": "諾曼是武器商人，有個有趣的綽號「頑劣諾曼」（Naughty Nomaan）。符文被老鼠叼走的故事幽默生動。商店交易系統字串（$0, $1, #N）全數保留。"
+}

@@ -1,0 +1,141 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 5,
+   "en": "Tessa",
+   "zh": "泰莎",
+   "note": "NPC name"
+  },
+  {
+   "offset": 8,
+   "len": 21,
+   "en": "a well dressed woman.",
+   "zh": "衣著考究之婦人。",
+   "note": "DESC"
+  },
+  {
+   "offset": 38,
+   "len": 42,
+   "en": "\"Welcome again to Serpent's Hold, Avatar!\"",
+   "zh": "「聖者，再度歡迎光臨巨蛇堡！」",
+   "note": ""
+  },
+  {
+   "offset": 81,
+   "len": 70,
+   "en": "\"Ah, $G $P! A sailor from Britain said thou had returned to the land!\"",
+   "zh": "「啊，$G $P！一名來自不列顛城的水手說汝已回到此地！」",
+   "note": ""
+  },
+  {
+   "offset": 154,
+   "len": 39,
+   "en": "\"How glad I am to see that it is true!\"",
+   "zh": "「見此果真，實乃喜出望外！」",
+   "note": ""
+  },
+  {
+   "offset": 208,
+   "len": 50,
+   "en": "\"I'm Tessa. We met during thy last quest, Avatar!\"",
+   "zh": "「吾乃泰莎。汝上次試煉時，我們曾相逢，聖者！」",
+   "note": ""
+  },
+  {
+   "offset": 261,
+   "len": 43,
+   "en": "\"Strange that thou didst not recognize me.\"",
+   "zh": "「奇怪，汝竟認不出我了。」",
+   "note": ""
+  },
+  {
+   "offset": 307,
+   "len": 76,
+   "en": "\"I would have hoped that the past years had not taken that much toll on me!\"",
+   "zh": "「吾本以為這些歲月並未在我臉上留下太深的痕跡！」",
+   "note": ""
+  },
+  {
+   "offset": 393,
+   "len": 42,
+   "en": "\"I'm the keeper of the Flame of @Courage.\"",
+   "zh": "「吾乃@Courage之火的守護者。」",
+   "note": "Courage 保留 keyword"
+  },
+  {
+   "offset": 438,
+   "len": 46,
+   "en": "\"I also help my husband @Simon run this town.\"",
+   "zh": "「吾也協助夫君@Simon治理此鎮。」",
+   "note": ""
+  },
+  {
+   "offset": 487,
+   "len": 59,
+   "en": "\"How fortunate we were to come here after the @earthquake!\"",
+   "zh": "「那場@earthquake之後，我們得以來到此地，真是萬幸！」",
+   "note": ""
+  },
+  {
+   "offset": 562,
+   "len": 30,
+   "en": "\"He is the lord of this hold.\"",
+   "zh": "「他是此堡之堡主。」",
+   "note": ""
+  },
+  {
+   "offset": 608,
+   "len": 43,
+   "en": "You'll find many courageous fighters here!\"",
+   "zh": "汝將在此遇見許多英勇的戰士！」",
+   "note": "注意：原文缺開引號，照原樣"
+  },
+  {
+   "offset": 672,
+   "len": 58,
+   "en": "\"After thy last quest, there were many great earthquakes.\"",
+   "zh": "「汝上次試煉之後，發生了多場大地震。」",
+   "note": ""
+  },
+  {
+   "offset": 733,
+   "len": 67,
+   "en": "\"The island of Bordermarch sank into the sea, along with our keep!\"",
+   "zh": "「邊境島沉入海底，連同我們的堡壘一同消失！」",
+   "note": ""
+  },
+  {
+   "offset": 803,
+   "len": 74,
+   "en": "\"Only through great fortune did Simon and I make it off the island alive!\"",
+   "zh": "「全憑上天庇佑，賽門與我才能活著離開那座島！」",
+   "note": ""
+  },
+  {
+   "offset": 887,
+   "len": 42,
+   "en": "\"Farewell, Avatar! Be brave in thy quest!\"",
+   "zh": "「再見，聖者！試煉之途，鼓勇前行！」",
+   "note": ""
+  },
+  {
+   "offset": 934,
+   "len": 9,
+   "en": "\"Pardon?\"",
+   "zh": "「請問？」",
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {
+   "Tessa": "泰莎"
+  },
+  "places": {
+   "Bordermarch": "邊境島"
+  }
+ },
+ "riddles_additions": [],
+ "translator_notes": "Tessa 為泰莎，賽門之妻，巨蛇堡女主人。語氣溫暖熱情。offset 608 原文缺起始引號，照源文保留。@Courage/@earthquake/@Simon 保留 keyword 觸發。"
+}

@@ -1,0 +1,271 @@
+{
+ "translations": [
+  {
+   "offset": 9,
+   "len": 48,
+   "en": "a plump, jovial fellow chewing on a leg of lamb.",
+   "zh": "一位圓胖歡快的男子，正在啃著羊腿。",
+   "note": "DESC"
+  },
+  {
+   "offset": 67,
+   "len": 31,
+   "en": "\"Welcome to the Humble Palate.\"",
+   "zh": "「歡迎來到謙遜味館。」",
+   "note": "opening greeting"
+  },
+  {
+   "offset": 103,
+   "len": 33,
+   "en": "\"Anything else I can do for you?\"",
+   "zh": "「還有什麼吾能為汝效勞的？」",
+   "note": "follow-up"
+  },
+  {
+   "offset": 144,
+   "len": 53,
+   "en": "\"My name is Dunbar,\" he says between bites of mutton.",
+   "zh": "「吾名鄧巴，」他在大口啃羊肉間說道。",
+   "note": "name response；旁白嵌入"
+  },
+  {
+   "offset": 213,
+   "len": 47,
+   "en": "\"Which, @fish, @ale, @mead, @wine, or @mutton?\"",
+   "zh": "「哪樣，@魚、@麥酒、@蜂蜜酒、@葡萄酒，還是@羊肉？」",
+   "note": "buy menu；all @keywords"
+  },
+  {
+   "offset": 270,
+   "len": 48,
+   "en": "\"I sell @fish, @ale, @mead, @wine, and @mutton.\"",
+   "zh": "「吾出售@魚、@麥酒、@蜂蜜酒、@葡萄酒，以及@羊肉。」",
+   "note": "job response；all @keywords"
+  },
+  {
+   "offset": 414,
+   "len": 92,
+   "en": "\"Serving others it the humblest occupation I could imagine. That's why I opened this place.\"",
+   "zh": "「服侍他人是吾所能想到最謙遜的職業。這便是吾開這間店的緣由。」",
+   "note": "humility response；謙遜主題"
+  },
+  {
+   "offset": 509,
+   "len": 54,
+   "en": "He pauses to wipe his mouth with the back of his hand.",
+   "zh": "他停下來用手背擦了擦嘴。",
+   "note": "action"
+  },
+  {
+   "offset": 574,
+   "len": 57,
+   "en": "\"I hear he used to be the head of some important @guild.\"",
+   "zh": "「聽說他以前曾是某個重要@公會的首領。」",
+   "note": "cono keyword；@guild"
+  },
+  {
+   "offset": 652,
+   "len": 114,
+   "en": "\"I don't know anything about it, but maybe it explains that strange @glow you can see over by his house at night.\"",
+   "zh": "「吾對此一無所知，但也許這能解釋為何夜間可在他屋旁看見那奇異的@光芒。」",
+   "note": "@glow keyword；神秘線索"
+  },
+  {
+   "offset": 787,
+   "len": 22,
+   "en": "\"Go see for yourself.\"",
+   "zh": "「汝自行去看便知。」",
+   "note": "expl/stra/glow response"
+  },
+  {
+   "offset": 822,
+   "len": 16,
+   "en": "\"See you later.\"",
+   "zh": "「後會有期。」",
+   "note": "no/bye"
+  },
+  {
+   "offset": 843,
+   "len": 29,
+   "en": "\"I can't help you with that.\"",
+   "zh": "「吾幫不上這個忙。」",
+   "note": "default不解"
+  },
+  {
+   "offset": 919,
+   "len": 6,
+   "en": "#2. $Y",
+   "zh": "#2. $Y",
+   "note": "選項佔位符，原樣保留"
+  },
+  {
+   "offset": 959,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝等哪一位？」",
+   "note": "party member selection"
+  },
+  {
+   "offset": 1037,
+   "len": 49,
+   "en": "\"For that I charge a modest #1 gold. Want some?\" ",
+   "zh": "「此物售價#1枚金幣，甚是公道。要來些嗎？」",
+   "note": "#1 = price variable"
+  },
+  {
+   "offset": 1123,
+   "len": 45,
+   "en": "\"I'm afraid you haven't enough money for it.\"",
+   "zh": "「恐怕汝的金幣不夠。」",
+   "note": "insufficient gold"
+  },
+  {
+   "offset": 1200,
+   "len": 34,
+   "en": "\"You don't have room to carry it.\"",
+   "zh": "「汝已無空間攜帶了。」",
+   "note": "inventory full"
+  },
+  {
+   "offset": 1305,
+   "len": 14,
+   "en": "\"Here you go.\"",
+   "zh": "「拿去吧。」",
+   "note": "item given"
+  },
+  {
+   "offset": 1331,
+   "len": 22,
+   "en": "\"I hope you enjoy it.\"",
+   "zh": "「希望汝喜歡。」",
+   "note": "after purchase"
+  },
+  {
+   "offset": 1408,
+   "len": 6,
+   "en": "#2. $Y",
+   "zh": "#2. $Y",
+   "note": "選項佔位符，原樣保留"
+  },
+  {
+   "offset": 1448,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝等哪一位？」",
+   "note": "party member selection（重複）"
+  },
+  {
+   "offset": 1513,
+   "len": 85,
+   "en": "\"I buy all my fish fresh from @Conor. It's 3 gold per serving. Would you like some?\" ",
+   "zh": "「吾的魚皆自@柯諾處新鮮採購。每份三枚金幣。汝想要些嗎？」",
+   "note": "@Conor keyword；fish price"
+  },
+  {
+   "offset": 1614,
+   "len": 45,
+   "en": "\"I'm afraid you haven't enough money for it.\"",
+   "zh": "「恐怕汝的金幣不夠。」",
+   "note": "insufficient gold（重複）"
+  },
+  {
+   "offset": 1686,
+   "len": 35,
+   "en": "\"You don't have room to carry it.\"*",
+   "zh": "「汝已無空間攜帶了。」*",
+   "note": "inventory full；* 控制符保留"
+  },
+  {
+   "offset": 1767,
+   "len": 20,
+   "en": "$N serves $Y a fish.",
+   "zh": "$N為$Y端上一條魚。",
+   "note": "action"
+  },
+  {
+   "offset": 1818,
+   "len": 44,
+   "en": "\"Next week we should have some red snapper.\"",
+   "zh": "「下週應會有些紅鯛魚進貨。」",
+   "note": "after fish purchase"
+  },
+  {
+   "offset": 1911,
+   "len": 6,
+   "en": "#2. $Y",
+   "zh": "#2. $Y",
+   "note": "選項佔位符，原樣保留"
+  },
+  {
+   "offset": 1951,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝等哪一位？」",
+   "note": "party member selection（重複）"
+  },
+  {
+   "offset": 2055,
+   "len": 45,
+   "en": "\"Rations cost 4 gold. How many do you want?\" ",
+   "zh": "「口糧每份四枚金幣。汝要多少？」",
+   "note": "rations price"
+  },
+  {
+   "offset": 2270,
+   "len": 52,
+   "en": "$N looks at $Y. \"You haven't any room in your pack.\"",
+   "zh": "$N看了看$Y。「汝的背包已無空間。」",
+   "note": "action；inventory full"
+  },
+  {
+   "offset": 2339,
+   "len": 45,
+   "en": "\"I'm afraid you haven't enough money for it.\"",
+   "zh": "「恐怕汝的金幣不夠。」",
+   "note": "insufficient gold（重複）"
+  },
+  {
+   "offset": 2433,
+   "len": 27,
+   "en": "$N hands the rations to $Y.",
+   "zh": "$N將口糧遞給$Y。",
+   "note": "action"
+  },
+  {
+   "offset": 2469,
+   "len": 31,
+   "en": "He hands $Y #9 mutton ration\\s.",
+   "zh": "他將#9份羊肉口糧遞給$Y。",
+   "note": "action；#9 = quantity variable；\\s = plural suffix"
+  },
+  {
+   "offset": 2507,
+   "len": 27,
+   "en": "\"That's all you can carry.\"",
+   "zh": "「這是汝所能攜帶的上限了。」",
+   "note": "carry limit"
+  },
+  {
+   "offset": 2543,
+   "len": 28,
+   "en": "\"That's all you can afford.\"",
+   "zh": "「這是汝所能負擔的上限了。」",
+   "note": "gold limit"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Dunbar": "鄧巴",
+   "Conor": "柯諾"
+  },
+  "places": {
+   "Humble Palate": "謙遜味館"
+  },
+  "items": {
+   "mutton": "羊肉",
+   "mead": "蜂蜜酒",
+   "ale": "麥酒"
+  }
+ },
+ "translator_notes": "096 Dunbar：謙遜味館掌柜，圓胖歡快。謙遜主題：服侍他人即謙遜之業。出售魚、麥酒、蜂蜜酒、葡萄酒、羊肉。線索：鄰人柯諾屋旁夜間發光，曾任公會首領。語氣親切隨和，不過度古典。"
+}

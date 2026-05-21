@@ -1,0 +1,220 @@
+{
+ "translations": [
+  {
+   "offset": 10,
+   "len": 49,
+   "en": "a tall man with muscles looking like huge snakes.",
+   "zh": "一位高大男子，肌肉如巨蟒般盤繞。",
+   "note": "DESC"
+  },
+  {
+   "offset": 62,
+   "len": 64,
+   "en": "\"Speak,\" he growls at you, his voice as rough and cold as stone.",
+   "zh": "「說。」他低吼，聲音如石頭般粗礪冰冷。",
+   "note": ""
+  },
+  {
+   "offset": 134,
+   "len": 62,
+   "en": "\"Are you taking a @census?\" His powerful gaze is fixed on you.",
+   "zh": "「汝是在做@人口調查？」他銳利的目光鎖定汝。",
+   "note": ""
+  },
+  {
+   "offset": 208,
+   "len": 54,
+   "en": "\"Yes, you know, counting people, taking down names...\"",
+   "zh": "「就是那種清點人口、記錄姓名的差事……」",
+   "note": ""
+  },
+  {
+   "offset": 274,
+   "len": 75,
+   "en": "\"That name is given to friends so that they may feel they are close to me.\"",
+   "zh": "「那個名字是給朋友用的，讓他們覺得與我親近。」",
+   "note": ""
+  },
+  {
+   "offset": 352,
+   "len": 42,
+   "en": "\"Since I have none, refrain from its use.\"",
+   "zh": "「既然我沒有朋友，就別用那個名字。」",
+   "note": ""
+  },
+  {
+   "offset": 412,
+   "len": 42,
+   "en": "\"That is a concern of the town, not mine.\"",
+   "zh": "「那是鎮上的事，與我無關。」",
+   "note": ""
+  },
+  {
+   "offset": 466,
+   "len": 85,
+   "en": "\"He was not fortunate. It is written that it is better to be fortunate than skilled.\"",
+   "zh": "「他命不好。古言有云，走運勝過有能耐。」",
+   "note": ""
+  },
+  {
+   "offset": 554,
+   "len": 60,
+   "en": "\"He, I'm sure, would agree.\" His face betrays a slight grin.",
+   "zh": "「他一定同意。」他臉上閃過一絲淡淡的微笑。",
+   "note": ""
+  },
+  {
+   "offset": 631,
+   "len": 53,
+   "en": "\"All men have enemies. A @debt needed to be settled.\"",
+   "zh": "「人人皆有敵手。一筆@恩怨需要了結。」",
+   "note": ""
+  },
+  {
+   "offset": 687,
+   "len": 81,
+   "en": "\"He hadn't the strength to settle it, so someone decided to take the initiative.\"",
+   "zh": "「他沒有能力了結，於是有人便主動出手了。」",
+   "note": ""
+  },
+  {
+   "offset": 771,
+   "len": 53,
+   "en": "He pulls out a knife and begins to pick at his nails.",
+   "zh": "他取出一把刀，開始剔著指甲。",
+   "note": ""
+  },
+  {
+   "offset": 841,
+   "len": 50,
+   "en": "\"Surely you don't buy the fable of the @gargoyle.\"",
+   "zh": "「汝想必不會信那@魔像族的鬼話。」",
+   "note": ""
+  },
+  {
+   "offset": 894,
+   "len": 62,
+   "en": "\"There wouldn't be enough left to bury if this were the case.\"",
+   "zh": "「若真是如此，連埋葬的遺體都不會剩下。」",
+   "note": ""
+  },
+  {
+   "offset": 959,
+   "len": 75,
+   "en": "\"This was no monster who settled the debt, it was the work of man's hands.\"",
+   "zh": "「了結此恩怨的不是怪物，而是人手所為。」",
+   "note": ""
+  },
+  {
+   "offset": 1037,
+   "len": 70,
+   "en": "He brings the knife to his teeth and delicately works it between them.",
+   "zh": "他把刀移到牙齒間，細細剔著。",
+   "note": ""
+  },
+  {
+   "offset": 1119,
+   "len": 25,
+   "en": "\"Have you ever seen one?\"",
+   "zh": "「汝可曾親眼見過魔像族？」",
+   "note": ""
+  },
+  {
+   "offset": 1147,
+   "len": 89,
+   "en": "\"If you had you would not believe the fairy tales \"being told by that incompetent mayor.\"",
+   "zh": "「若汝見過，便不會相信那個無能市長所說的童話。」",
+   "note": ""
+  },
+  {
+   "offset": 1239,
+   "len": 56,
+   "en": "He grabs the knife and holds it aloft. \"See this blade?\"",
+   "zh": "他抓起刀高舉起來。「瞧這把刀？」",
+   "note": ""
+  },
+  {
+   "offset": 1298,
+   "len": 52,
+   "en": "\"Their fangs are twice as long and thrice as sharp.\"",
+   "zh": "「魔像族的獠牙是這把刀的兩倍長，三倍利。」",
+   "note": ""
+  },
+  {
+   "offset": 1377,
+   "len": 44,
+   "en": "\"He is a fool. The perfect man for his job.\"",
+   "zh": "「他是個傻瓜，正好適任此職。」",
+   "note": ""
+  },
+  {
+   "offset": 1433,
+   "len": 19,
+   "en": "\"I don't know him.\"",
+   "zh": "「我不認識他。」",
+   "note": ""
+  },
+  {
+   "offset": 1464,
+   "len": 28,
+   "en": "\"Too kind for his own good.\"",
+   "zh": "「好心過了頭。」",
+   "note": ""
+  },
+  {
+   "offset": 1504,
+   "len": 49,
+   "en": "\"An annoying little man. Makes good wine though.\"",
+   "zh": "「惱人的小個子，但葡萄酒釀得不錯。」",
+   "note": ""
+  },
+  {
+   "offset": 1565,
+   "len": 55,
+   "en": "\"She is kind to me, and yet I believe this is genuine.\"",
+   "zh": "「她對我很好，而且我相信這是出於真心。」",
+   "note": ""
+  },
+  {
+   "offset": 1632,
+   "len": 31,
+   "en": "\"Perhaps the wisest of us all.\"",
+   "zh": "「或許是我等之中最睿智的人。」",
+   "note": ""
+  },
+  {
+   "offset": 1680,
+   "len": 62,
+   "en": "\"He is one to be respected. I have seen him fight, firsthand.\"",
+   "zh": "「他值得敬重。我曾親眼目睹他作戰。」",
+   "note": ""
+  },
+  {
+   "offset": 1745,
+   "len": 53,
+   "en": "\"He is a mighty warrior, as well as a just opponent.\"",
+   "zh": "「他是一位強悍的武士，亦是光明磊落的對手。」",
+   "note": ""
+  },
+  {
+   "offset": 1809,
+   "len": 45,
+   "en": "He resumes cleaning his nails with his knife.",
+   "zh": "他繼續用刀剔著指甲。",
+   "note": ""
+  },
+  {
+   "offset": 1859,
+   "len": 63,
+   "en": "He ignores the question and you think it wise not to ask again.",
+   "zh": "他對此置若罔聞，汝覺得最好不要再問。",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Michael": "麥可"
+  }
+ },
+ "translator_notes": "090 Michael: 昔蒙丹爪牙，冷酷孤傲。對昆頓謀殺案有不同看法（非魔像族所為）。"
+}

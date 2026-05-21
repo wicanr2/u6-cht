@@ -1,0 +1,286 @@
+{
+ "translations": [
+  {
+   "offset": 8,
+   "len": 38,
+   "en": "a pretty young nurse with violet eyes.",
+   "zh": "眼若紫蘿蘭的美麗年輕護士。",
+   "note": "DESC"
+  },
+  {
+   "offset": 49,
+   "len": 58,
+   "en": "\"Leave these men alone! Can't you see they need to @rest?\"",
+   "zh": "「別去打擾這些人！難道看不出他們需要@休息嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 115,
+   "len": 19,
+   "en": "\"My name is Sasha.\"",
+   "zh": "「我叫莎夏。」",
+   "note": ""
+  },
+  {
+   "offset": 150,
+   "len": 63,
+   "en": "\"I @tend the sick. I know how to @heal, @cure, and @resurrect.\"",
+   "zh": "「我@照料病人。我懂得@療傷、@解毒和@起死回生。」",
+   "note": ""
+  },
+  {
+   "offset": 244,
+   "len": 46,
+   "en": "\"Aye, these men's wounds need @time to @heal.\"",
+   "zh": "「是的，這些人的傷口需要@時間來@癒合。」",
+   "note": ""
+  },
+  {
+   "offset": 316,
+   "len": 63,
+   "en": "\"Thou hast kept me from my duties long enough. Away with thee!\"",
+   "zh": "「汝耽誤吾職責已久。去吧！」",
+   "note": "thou/thee 古英文"
+  },
+  {
+   "offset": 390,
+   "len": 35,
+   "en": "\"More wounded? I'll do what I can.\"",
+   "zh": "「又有傷者？我盡力而為。」",
+   "note": ""
+  },
+  {
+   "offset": 428,
+   "len": 40,
+   "en": "The poor nurse seems weary beyond words.",
+   "zh": "這位可憐的護士看上去疲憊不堪。",
+   "note": ""
+  },
+  {
+   "offset": 480,
+   "len": 45,
+   "en": "\"Poison? Yes, I can cure that. Let me see...\"",
+   "zh": "「中毒？是的，我能治。讓我看看……」",
+   "note": ""
+  },
+  {
+   "offset": 539,
+   "len": 52,
+   "en": "Your question seems almost like a blow to the woman.",
+   "zh": "你的問題彷彿給了她當頭一擊。",
+   "note": ""
+  },
+  {
+   "offset": 594,
+   "len": 63,
+   "en": "\"Nay, I cannot. I no longer have the energy, or the @reagents.\"",
+   "zh": "「不，我做不到。吾已精疲力竭，@施法材料也用盡了。」",
+   "note": ""
+  },
+  {
+   "offset": 660,
+   "len": 38,
+   "en": "\"It has been a dark, dark day indeed.\"",
+   "zh": "「今日確實是黑暗的一天。」",
+   "note": ""
+  },
+  {
+   "offset": 701,
+   "len": 62,
+   "en": "\"I am sorry that I cannot help you, but we all @grieve today.\"",
+   "zh": "「很抱歉幫不上忙，但今日吾等皆在@悲慟之中。」",
+   "note": ""
+  },
+  {
+   "offset": 779,
+   "len": 26,
+   "en": "\"I have aided many today.\"",
+   "zh": "「今日吾已救治了許多人。」",
+   "note": "許在中間非尾字，安全"
+  },
+  {
+   "offset": 808,
+   "len": 76,
+   "en": "\"These men are the last; they are beyond the help of all save @time itself.\"",
+   "zh": "「這些人是最後一批；除了@時間本身，誰也幫不了他們了。」",
+   "note": ""
+  },
+  {
+   "offset": 909,
+   "len": 88,
+   "en": "\"These soldiers are the only survivors of an attempt to free the Shrine of @Compassion.\"",
+   "zh": "「這些士兵是試圖解放@慈悲聖壇行動中唯一的倖存者。」",
+   "note": ""
+  },
+  {
+   "offset": 1013,
+   "len": 46,
+   "en": "\"Show thy compassion now and let them @sleep.\"",
+   "zh": "「請以慈悲之心讓他們@安眠吧。」",
+   "note": ""
+  },
+  {
+   "offset": 1069,
+   "len": 10,
+   "en": "\"Goodbye.\"",
+   "zh": "「再見。」",
+   "note": ""
+  },
+  {
+   "offset": 1084,
+   "len": 31,
+   "en": "\"I cannot help thee with that.\"",
+   "zh": "「此事吾幫不上忙。」",
+   "note": ""
+  },
+  {
+   "offset": 1176,
+   "len": 44,
+   "en": "\"Don't waste my time! Thou art not wounded!\"",
+   "zh": "「別浪費我的時間！汝根本沒有受傷！」",
+   "note": ""
+  },
+  {
+   "offset": 1223,
+   "len": 55,
+   "en": "\"'Tis hard enough tending to those truly sick. Begone!\"",
+   "zh": "「照料真正的病人已夠辛苦了。走開！」",
+   "note": ""
+  },
+  {
+   "offset": 1401,
+   "len": 47,
+   "en": "\"Don't waste my time! None of you are wounded!\"",
+   "zh": "「別浪費我的時間！你們沒有一個受傷！」",
+   "note": ""
+  },
+  {
+   "offset": 1648,
+   "len": 23,
+   "en": "\"I see thy injury, $Y.\"",
+   "zh": "「吾見到汝的傷，$Y。」",
+   "note": ""
+  },
+  {
+   "offset": 1674,
+   "len": 41,
+   "en": "\"Wilt thou make an offering of 40 gold?\" ",
+   "zh": "「汝願意獻上40枚金幣嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1737,
+   "len": 41,
+   "en": "Sasha approaches $Y and binds the wounds.",
+   "zh": "莎夏走近$Y，為其包紮傷口。",
+   "note": ""
+  },
+  {
+   "offset": 1820,
+   "len": 43,
+   "en": "\"If thou wilt not pay, I cannot heal thee.\"",
+   "zh": "「若汝不願付酬，吾便無法為汝療傷。」",
+   "note": ""
+  },
+  {
+   "offset": 1877,
+   "len": 52,
+   "en": "\"I'm sorry. Without an offering I cannot heal thee.\"",
+   "zh": "「抱歉，沒有奉獻，吾無法為汝療傷。」",
+   "note": ""
+  },
+  {
+   "offset": 1935,
+   "len": 39,
+   "en": "\"Thou art poor, but thy cause is just.\"",
+   "zh": "「汝雖貧困，但事出有因。」",
+   "note": ""
+  },
+  {
+   "offset": 1977,
+   "len": 35,
+   "en": "\"I will heal thee without payment.\"",
+   "zh": "「吾將免費為汝療傷。」",
+   "note": ""
+  },
+  {
+   "offset": 2069,
+   "len": 40,
+   "en": "\"Is there aught else I can do for thee?\"",
+   "zh": "「還有什麼吾能為汝效勞的？」",
+   "note": ""
+  },
+  {
+   "offset": 2169,
+   "len": 45,
+   "en": "\"Don't waste my time! Thou art not poisoned!\"",
+   "zh": "「別浪費我的時間！汝根本未中毒！」",
+   "note": ""
+  },
+  {
+   "offset": 2395,
+   "len": 48,
+   "en": "\"Don't waste my time! None of you are poisoned!\"",
+   "zh": "「別浪費我的時間！你們沒有一個中毒！」",
+   "note": ""
+  },
+  {
+   "offset": 2643,
+   "len": 37,
+   "en": "\"I sense that thou art poisoned, $Y.\"",
+   "zh": "「吾感知到汝中了毒，$Y。」",
+   "note": ""
+  },
+  {
+   "offset": 2683,
+   "len": 41,
+   "en": "\"Wilt thou make an offering of 15 gold?\" ",
+   "zh": "「汝願意獻上15枚金幣嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 2746,
+   "len": 49,
+   "en": "Sasha grabs a vial and pours it down $Y's throat.",
+   "zh": "莎夏抓起一個小瓶，將藥液灌入$Y喉中。",
+   "note": ""
+  },
+  {
+   "offset": 2798,
+   "len": 21,
+   "en": "$Y feels much better.",
+   "zh": "$Y感覺好多了。",
+   "note": ""
+  },
+  {
+   "offset": 2861,
+   "len": 43,
+   "en": "\"If thou wilt not pay, I cannot cure thee.\"",
+   "zh": "「若汝不願付酬，吾便無法為汝解毒。」",
+   "note": ""
+  },
+  {
+   "offset": 2918,
+   "len": 52,
+   "en": "\"I'm sorry. Without an offering I cannot cure thee.\"",
+   "zh": "「抱歉，沒有奉獻，吾無法為汝解毒。」",
+   "note": ""
+  },
+  {
+   "offset": 2976,
+   "len": 39,
+   "en": "\"Thou art poor, but thy cause is just.\"",
+   "zh": "「汝雖貧困，但事出有因。」",
+   "note": "dup"
+  },
+  {
+   "offset": 3018,
+   "len": 35,
+   "en": "\"I will cure thee without payment.\"",
+   "zh": "「吾將免費為汝解毒。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Sasha": "莎夏"}, "places": {}},
+ "translator_notes": "Sasha 護士，既用口語（「不」「我」）也用 thou/thee 古語（「汝」「吾」），體現人物既善良又疲憊的雙面性。"
+}

@@ -1,0 +1,192 @@
+{
+ "translations": [
+  {
+   "offset": 10,
+   "len": 33,
+   "en": "a tall man with a disarming grin.",
+   "zh": "一位高大男子，笑容令人卸下戒備。",
+   "note": "DESC"
+  },
+  {
+   "offset": 58,
+   "len": 19,
+   "en": "\"Hello, mein freund",
+   "zh": "「你好，我的朋友",
+   "note": "fragment，德語口音"
+  },
+  {
+   "offset": 81,
+   "len": 4,
+   "en": "en.\"",
+   "zh": "們。」",
+   "note": "fragment，複數形"
+  },
+  {
+   "offset": 86,
+   "len": 2,
+   "en": ".\"",
+   "zh": "。」",
+   "note": "fragment，單數形"
+  },
+  {
+   "offset": 89,
+   "len": 34,
+   "en": " His thick fingers grab your hand.",
+   "zh": " 他粗厚的手指握住汝的手。",
+   "note": ""
+  },
+  {
+   "offset": 129,
+   "len": 48,
+   "en": "\"You are back. Gut.\" He leans back on his heels.",
+   "zh": "「汝回來了，很好。」他向後靠在腳跟上。",
+   "note": "Gut=德語「好」"
+  },
+  {
+   "offset": 185,
+   "len": 21,
+   "en": "\"Ubermon @Kalbmilch.\"",
+   "zh": "「@烏伯蒙·卡爾米希。」",
+   "note": ""
+  },
+  {
+   "offset": 229,
+   "len": 41,
+   "en": "\"At your zervice.\" He snaps to attention.",
+   "zh": "「效您的勞。」他立正站好。",
+   "note": "zervice=service，德語口音"
+  },
+  {
+   "offset": 281,
+   "len": 38,
+   "en": "\"I @milk de cows und make de @cheese.\"",
+   "zh": "「在下@擠牛奶並製作@奶酪。」",
+   "note": "de=the，und=and，德語口音"
+  },
+  {
+   "offset": 329,
+   "len": 45,
+   "en": "\"You vant to buy someting, just say de word.\"",
+   "zh": "「汝想買什麼，只需開口說。」",
+   "note": "vant=want，someting=something，德語口音"
+  },
+  {
+   "offset": 376,
+   "len": 58,
+   "en": "\"You vant to buy someting, come by my dairy ven I'm open.\"",
+   "zh": "「汝想買什麼，待在下開門時來乳品場。」",
+   "note": "ven=when，德語口音"
+  },
+  {
+   "offset": 458,
+   "len": 36,
+   "en": "\"Come by my dairy ven I'm open, ja?\"",
+   "zh": "「待在下開門時來乳品場，好嗎？」",
+   "note": "ja=yes，德語"
+  },
+  {
+   "offset": 501,
+   "len": 43,
+   "en": "\"Ja, sure, vat you vant - milk or @cheese?\"",
+   "zh": "「好，當然，汝要什麼——牛奶還是@奶酪？」",
+   "note": "vat=what，德語口音"
+  },
+  {
+   "offset": 563,
+   "len": 36,
+   "en": "\"Come by my dairy ven I'm open, ja?\"",
+   "zh": "「待在下開門時來乳品場，好嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 631,
+   "len": 36,
+   "en": "\"Come by my dairy ven I'm open, ja?\"",
+   "zh": "「待在下開門時來乳品場，好嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 691,
+   "len": 34,
+   "en": "\"Take care among ze British, now.\"",
+   "zh": "「在不列顛人中間要多加留心。」",
+   "note": "ze=the，德語口音"
+  },
+  {
+   "offset": 730,
+   "len": 29,
+   "en": "\"Now I not know vat you say.\"",
+   "zh": "「在下不知道汝說什麼。」",
+   "note": "德語口音"
+  },
+  {
+   "offset": 855,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝們誰？」",
+   "note": ""
+  },
+  {
+   "offset": 881,
+   "len": 15,
+   "en": "\"Vell, okay...\"",
+   "zh": "「好吧……」",
+   "note": "Vell=Well，德語口音"
+  },
+  {
+   "offset": 953,
+   "len": 30,
+   "en": "\"That'll be #1 crowns, okay?\" ",
+   "zh": "「共#1金，好嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 997,
+   "len": 39,
+   "en": "\"Vell, okay, but is very good for you!\"",
+   "zh": "「好吧，但對汝大有裨益！」",
+   "note": ""
+  },
+  {
+   "offset": 1053,
+   "len": 33,
+   "en": "\"You have not ze gold right now.\"",
+   "zh": "「汝現在沒有金幣。」",
+   "note": ""
+  },
+  {
+   "offset": 1116,
+   "len": 34,
+   "en": "\"You don't have room to carry it.\"",
+   "zh": "「汝沒有空間攜帶。」",
+   "note": ""
+  },
+  {
+   "offset": 1189,
+   "len": 24,
+   "en": "\"Good!\" $N gives $Y the ",
+   "zh": "「好！」$N給$Y",
+   "note": "fragment"
+  },
+  {
+   "offset": 1217,
+   "len": 6,
+   "en": "cheese",
+   "zh": "奶酪",
+   "note": "fragment"
+  },
+  {
+   "offset": 1224,
+   "len": 4,
+   "en": "milk",
+   "zh": "牛奶",
+   "note": "fragment"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Ubermon Kalbmilch": "烏伯蒙·卡爾米希"
+  }
+ },
+ "translator_notes": "108 Ubermon: 鴉爪鎮乳品場主，德語口音特色（vant/vell/ja/ze等）。在翻譯中保留異鄉人語氣但不過度誇張。賣牛奶和奶酪。"
+}

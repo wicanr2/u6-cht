@@ -1,0 +1,487 @@
+{
+ "translations": [
+  {
+   "offset": 9,
+   "len": 61,
+   "en": "a tall, delicate looking female. Her smile puts you at ease.*",
+   "zh": "一位高挑、外貌纖弱的女子，她的笑容令汝頓感自在。*",
+   "note": "DESC，*控制符保留"
+  },
+  {
+   "offset": 83,
+   "len": 31,
+   "en": "\"Hello $G, welcome to my home.\"",
+   "zh": "「你好，$G，歡迎來到我家。」",
+   "note": ""
+  },
+  {
+   "offset": 117,
+   "len": 75,
+   "en": "Her eyes are as blue as the ocean and her movements as rythmic as the tide.",
+   "zh": "她的雙眼藍如大海，舉止韻律如潮汐般悠揚。",
+   "note": ""
+  },
+  {
+   "offset": 205,
+   "len": 48,
+   "en": "\"I recognize you from before.\" She winks at you.",
+   "zh": "「我認得汝。」她向汝眨眨眼。",
+   "note": ""
+  },
+  {
+   "offset": 257,
+   "len": 24,
+   "en": "\"What can I do for you?\"",
+   "zh": "「有何需要效勞？」",
+   "note": ""
+  },
+  {
+   "offset": 289,
+   "len": 46,
+   "en": "\"My father chose an ancient word for my name.\"",
+   "zh": "「我的名字是父親從一個古老詞語中選來的。」",
+   "note": ""
+  },
+  {
+   "offset": 338,
+   "len": 61,
+   "en": "\"It means the cool breeze after a storm has passed. @Marney.\"",
+   "zh": "「意為風暴過後的清涼微風。@瑪妮。」",
+   "note": ""
+  },
+  {
+   "offset": 410,
+   "len": 25,
+   "en": "\"I look after the @dock.\"",
+   "zh": "「在下看管@碼頭。」",
+   "note": ""
+  },
+  {
+   "offset": 451,
+   "len": 73,
+   "en": "\"Oh, you're probably wanting a skiff to get out to old Horance's island.\"",
+   "zh": "「哦，汝大概是想要一艘小船去老霍蘭斯的島上吧。」",
+   "note": ""
+  },
+  {
+   "offset": 527,
+   "len": 75,
+   "en": "\"Well, we have none for sale, but feel free to borrow the one at the dock.\"",
+   "zh": "「我們沒有船出售，但碼頭上的那艘可以借用。」",
+   "note": ""
+  },
+  {
+   "offset": 605,
+   "len": 31,
+   "en": "\"Be sure to return it, though!\"",
+   "zh": "「但記得歸還！」",
+   "note": ""
+  },
+  {
+   "offset": 648,
+   "len": 62,
+   "en": "\"It is in a @poem my mother wrote to him when they first met.\"",
+   "zh": "「那在我母親與父親初見時為他所寫的@詩中。」",
+   "note": ""
+  },
+  {
+   "offset": 713,
+   "len": 60,
+   "en": "She grabs a @locket that hangs around her neck and opens it.",
+   "zh": "她取下頸上掛著的@小圓盒，將它打開。",
+   "note": ""
+  },
+  {
+   "offset": 776,
+   "len": 79,
+   "en": "Inside is a folded piece of cloth with words printed on it. She begins to read.",
+   "zh": "裡面有一塊折疊的布片，上面印有文字。她開始朗讀。",
+   "note": ""
+  },
+  {
+   "offset": 858,
+   "len": 79,
+   "en": "\"At first we met and dark clouds gathered, the thunder sounding your approach.\"",
+   "zh": "「初見之時，烏雲密佈，雷聲宣示著汝的到來。」",
+   "note": "詩第一行"
+  },
+  {
+   "offset": 940,
+   "len": 80,
+   "en": "\"Then comes the storm of our hearts pounding and in the end the marney's touch.\"",
+   "zh": "「而後心跳如雷暴湧，最終是那微風般的撫觸。」",
+   "note": "詩第二行，marney=清涼微風"
+  },
+  {
+   "offset": 1032,
+   "len": 64,
+   "en": "\"Certainly you can look at it.\" She hands the tiny cloth to you.",
+   "zh": "「當然可以看看。」她將那塊小布片遞給汝。",
+   "note": ""
+  },
+  {
+   "offset": 1099,
+   "len": 79,
+   "en": "Looking at it, you discover that she has read only the first verse of the poem.",
+   "zh": "細看之下，汝發現她只朗讀了第一節詩。",
+   "note": ""
+  },
+  {
+   "offset": 1181,
+   "len": 56,
+   "en": "The second reads, \"If I should leave and you are lonely,",
+   "zh": "第二節寫道：「若吾已然離去而汝形單影隻，",
+   "note": ""
+  },
+  {
+   "offset": 1239,
+   "len": 31,
+   "en": "Remember where my love is kept:",
+   "zh": "記住吾愛所藏之處：",
+   "note": ""
+  },
+  {
+   "offset": 1272,
+   "len": 33,
+   "en": "Inside a @basket made of promise,",
+   "zh": "在承諾所編之@籃中，",
+   "note": ""
+  },
+  {
+   "offset": 1307,
+   "len": 40,
+   "en": "You'll find my dreams of us have slept.\"",
+   "zh": "汝將尋得吾對你我之夢，靜眠其中。」",
+   "note": ""
+  },
+  {
+   "offset": 1359,
+   "len": 72,
+   "en": "\"A basket? I have one in my hope chest. Feel free to look for yourself.\"",
+   "zh": "「籃子？我的嫁妝箱裡有一個，汝盡可自行查看。」",
+   "note": ""
+  },
+  {
+   "offset": 1448,
+   "len": 69,
+   "en": "\"My mother gave me this just before she was taken by those evil men.\"",
+   "zh": "「這是我母親在被那些惡人擄走前交給我的。」",
+   "note": ""
+  },
+  {
+   "offset": 1520,
+   "len": 72,
+   "en": "\"My mother told me to give it to father when he returned from the @sea.\"",
+   "zh": "「我母親叫我等父親從@大海歸來時交給他。」",
+   "note": ""
+  },
+  {
+   "offset": 1595,
+   "len": 46,
+   "en": "\"Yorl gave it back to me after he was @killed.",
+   "zh": "「尤爾在父親@被殺後，將它還給了我。",
+   "note": "片段"
+  },
+  {
+   "offset": 1652,
+   "len": 73,
+   "en": "\"My father had gone out to help @Yorl bring in the catch that afternoon.\"",
+   "zh": "「那天下午，父親出門去幫@尤爾搬運漁獲。」",
+   "note": ""
+  },
+  {
+   "offset": 1737,
+   "len": 82,
+   "en": "\"I am sorry for our town. You see, my father was the caretaker of the rune stone.\"",
+   "zh": "「為吾鎮感到抱歉。汝知道，我父親是符文石的保管人。」",
+   "note": ""
+  },
+  {
+   "offset": 1822,
+   "len": 62,
+   "en": "\"After he died, we had no way of finding out where he put it.\"",
+   "zh": "「他過世後，我們便無從得知他將符文石藏於何處。」",
+   "note": ""
+  },
+  {
+   "offset": 1896,
+   "len": 66,
+   "en": "She bows her head a moment and with a shaky voice begins to speak.",
+   "zh": "她低下頭，用顫抖的聲音開口說道。",
+   "note": ""
+  },
+  {
+   "offset": 1965,
+   "len": 81,
+   "en": "\"It is something I care not to talk about. His memory brings only sadness to me.\"",
+   "zh": "「此事我不願多談。他的記憶帶給我的只有悲傷。」",
+   "note": ""
+  },
+  {
+   "offset": 2063,
+   "len": 48,
+   "en": "\"My father? He was a brave man and very strong.\"",
+   "zh": "「我父親？他是個勇敢且堅強的人。」",
+   "note": ""
+  },
+  {
+   "offset": 2113,
+   "len": 50,
+   "en": "\"That he died in such a violent way was so wrong.\"",
+   "zh": "「他以如此慘烈的方式死去，實在太不應該。」",
+   "note": ""
+  },
+  {
+   "offset": 2166,
+   "len": 42,
+   "en": "\"But I am sure there is a reason for it.\" ",
+   "zh": "「但我確信一切皆有其緣由。」",
+   "note": ""
+  },
+  {
+   "offset": 2211,
+   "len": 44,
+   "en": "Her blue eyes glisten with new-formed tears.",
+   "zh": "她那雙藍色眼眸中新聚了淚光。",
+   "note": ""
+  },
+  {
+   "offset": 2276,
+   "len": 47,
+   "en": "She rubs her nose with the knuckle of her hand.",
+   "zh": "她用手指關節輕揉了揉鼻子。",
+   "note": ""
+  },
+  {
+   "offset": 2326,
+   "len": 85,
+   "en": "\"I can not see why those beasts would kill him, but perhaps it was just unfortunate.\"",
+   "zh": "「我不明白那些惡獸為何要殺他，但或許只是不幸所致。」",
+   "note": ""
+  },
+  {
+   "offset": 2414,
+   "len": 53,
+   "en": "\"Still, I can't see why he was at the inn that late.\"",
+   "zh": "「然而，我仍不解他為何那麼晚還在旅店附近。」",
+   "note": ""
+  },
+  {
+   "offset": 2470,
+   "len": 55,
+   "en": "\"Had he been drinking, @Yorl would have been with him.\"",
+   "zh": "「若他在喝酒，@尤爾必然也在他身旁。」",
+   "note": ""
+  },
+  {
+   "offset": 2537,
+   "len": 68,
+   "en": "\"Oh, Yorl.\" She smiles to herself. \"He and father were never apart.\"",
+   "zh": "「哦，尤爾。」她自顧微笑。「他和父親形影不離。」",
+   "note": ""
+  },
+  {
+   "offset": 2608,
+   "len": 76,
+   "en": "\"After my mother was kidnapped, Yorl helped my father get back on his feet.\"",
+   "zh": "「我母親被擄走後，尤爾幫助父親振作起來。」",
+   "note": ""
+  },
+  {
+   "offset": 2687,
+   "len": 53,
+   "en": "\"They were always together.\" Her gaze returns to you.",
+   "zh": "「他們總是在一起。」她的目光回到汝身上。",
+   "note": ""
+  },
+  {
+   "offset": 2743,
+   "len": 74,
+   "en": "\"If my @father had been drinking at the @inn, Yorl would have been there.\"",
+   "zh": "「若我@父親在@旅店喝酒，尤爾必然也在。」",
+   "note": ""
+  },
+  {
+   "offset": 2833,
+   "len": 55,
+   "en": "\"My father and Yorl would go there after a good catch.\"",
+   "zh": "「父親和尤爾每逢漁獲豐收後便會去那裡。」",
+   "note": ""
+  },
+  {
+   "offset": 2891,
+   "len": 50,
+   "en": "\"@Gideon had been a friend of theirs since youth.\"",
+   "zh": "「@吉迪恩自年輕起便是他們的好友。」",
+   "note": ""
+  },
+  {
+   "offset": 2944,
+   "len": 53,
+   "en": "\"The three would would drink and reminisce together.\"",
+   "zh": "「三人常在一起暢飲、憶往事。」",
+   "note": ""
+  },
+  {
+   "offset": 3009,
+   "len": 69,
+   "en": "She looks at you and swallows. \"I cannot talk about these creatures.\"",
+   "zh": "她看著汝，嚥了嚥口水。「我無法談論那些生靈。」",
+   "note": ""
+  },
+  {
+   "offset": 3095,
+   "len": 42,
+   "en": "\"I believe he has done all he can for me.\"",
+   "zh": "「我相信他已為我盡力而為。」",
+   "note": ""
+  },
+  {
+   "offset": 3140,
+   "len": 68,
+   "en": "\"When my father was murdered, he took charge to find the gargoyles.\"",
+   "zh": "「父親遇害時，他主動出面追查魔像族。」",
+   "note": ""
+  },
+  {
+   "offset": 3211,
+   "len": 25,
+   "en": "\"None were found though.\"",
+   "zh": "「然而毫無所獲。」",
+   "note": ""
+  },
+  {
+   "offset": 3248,
+   "len": 74,
+   "en": "Her eyes brighten at the mention of his name. \"He is a very handsome man.\"",
+   "zh": "一提到他的名字，她的眼睛便亮了起來。「他是個非常英俊的男子。」",
+   "note": ""
+  },
+  {
+   "offset": 3325,
+   "len": 54,
+   "en": "\"I see him only occasionally when he comes into town.\"",
+   "zh": "「我只是偶爾在他進城時才能見到他。」",
+   "note": ""
+  },
+  {
+   "offset": 3382,
+   "len": 76,
+   "en": "She looks absently out the window. \"Yorl would never let me see him though.\"",
+   "zh": "她茫然地望向窗外。「但尤爾從不讓我去找他。」",
+   "note": ""
+  },
+  {
+   "offset": 3470,
+   "len": 93,
+   "en": "\"He and his wife are very kind to me. They have taught me so much about how to treat others.\"",
+   "zh": "「他和他的妻子對我非常好，教導了我許多待人處世之道。」",
+   "note": ""
+  },
+  {
+   "offset": 3575,
+   "len": 72,
+   "en": "\"He is a sweet little man. He brought me wine on my sixteenth birthday.\"",
+   "zh": "「他是個可愛的小個子，在我十六歲生日時送了我葡萄酒。」",
+   "note": ""
+  },
+  {
+   "offset": 3650,
+   "len": 24,
+   "en": "\"I'm quite fond of him.\"",
+   "zh": "「我頗為喜歡他。」",
+   "note": ""
+  },
+  {
+   "offset": 3686,
+   "len": 59,
+   "en": "\"She has done as much as she can to heal my wounded heart.\"",
+   "zh": "「她盡其所能地撫慰我受傷的心。」",
+   "note": ""
+  },
+  {
+   "offset": 3748,
+   "len": 66,
+   "en": "\"She bakes for me and we have long talks about almost everything.\"",
+   "zh": "「她為我烤點心，我們聊幾乎所有的事情，暢談甚久。」",
+   "note": ""
+  },
+  {
+   "offset": 3817,
+   "len": 36,
+   "en": "\"I wish I were as beautiful as she.\"",
+   "zh": "「我多希望自己能像她一樣美麗。」",
+   "note": ""
+  },
+  {
+   "offset": 3865,
+   "len": 48,
+   "en": "\"Ah, now, Horance is much wiser than most know.\"",
+   "zh": "「啊，霍蘭斯其實比大多數人所知的還要睿智。」",
+   "note": ""
+  },
+  {
+   "offset": 3916,
+   "len": 47,
+   "en": "\"He is also my mentor when it comes to poetry.\"",
+   "zh": "「在詩歌方面，他也是我的引路人。」",
+   "note": ""
+  },
+  {
+   "offset": 3966,
+   "len": 67,
+   "en": "\"He has a way of reminding me that I am too concerned with myself.\"",
+   "zh": "「他有辦法提醒我，我過於自我中心了。」",
+   "note": ""
+  },
+  {
+   "offset": 4036,
+   "len": 42,
+   "en": "\"It is a gentle way, but a firm reminder.\"",
+   "zh": "「那是一種溫柔卻堅定的提醒。」",
+   "note": ""
+  },
+  {
+   "offset": 4095,
+   "len": 42,
+   "en": "\"I saw him once when I was a little girl.\"",
+   "zh": "「我小時候曾見過他一次。」",
+   "note": ""
+  },
+  {
+   "offset": 4140,
+   "len": 88,
+   "en": "\"We had gone to his castle for a celebration and there he sat on a great white charger.\"",
+   "zh": "「我們前往他的城堡參加慶典，他端坐在一匹雪白的駿馬上。」",
+   "note": ""
+  },
+  {
+   "offset": 4231,
+   "len": 22,
+   "en": "\"What a sight he was.\"",
+   "zh": "「那景象實在令人嘆為觀止。」",
+   "note": ""
+  },
+  {
+   "offset": 4264,
+   "len": 56,
+   "en": "\"I am sorry that I wept. It is not your fault. Goodbye.\"",
+   "zh": "「對不起，我失態了。這不是汝的錯，再見。」",
+   "note": ""
+  },
+  {
+   "offset": 4325,
+   "len": 84,
+   "en": "As you ask this, she begins to cry.Gathering her strength she looks at you. \"Sorry?\"",
+   "zh": "汝一開口，她便哭了起來，強忍著看向汝。「對不起？」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Marney": "瑪妮",
+   "Michael": "麥可"
+  }
+ },
+ "translator_notes": "089 Marney: 昆頓之女，美麗憂傷。詩歌段落以古典中文詩體意譯。暗戀麥可。"
+}

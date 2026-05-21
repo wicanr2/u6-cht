@@ -1,0 +1,632 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 8,
+   "en": "Mandrake",
+   "zh": "曼德雷克",
+   "note": "NPC name，曼德雷克根（毒茄蔘），吟遊詩人"
+  },
+  {
+   "offset": 11,
+   "len": 52,
+   "en": "a charming fellow with a peacock feather in his cap.",
+   "zh": "帽子上插著孔雀羽毛、風度翩翩的男子。",
+   "note": "DESC"
+  },
+  {
+   "offset": 78,
+   "len": 61,
+   "en": "\"Welcome, welcome! 'Tis always a pleasure to see a new face.\"",
+   "zh": "「歡迎，歡迎！每次見到新面孔都是一大樂事。」",
+   "note": ""
+  },
+  {
+   "offset": 142,
+   "len": 48,
+   "en": "\"My name is Mandrake. And what may I call thee?\"",
+   "zh": "「在下曼德雷克。敢問閣下如何稱呼？」",
+   "note": ""
+  },
+  {
+   "offset": 203,
+   "len": 95,
+   "en": "\"A pleasure, to be sure, $G. I hope I'll be seeing a lot more of you.\" He gives you a sly wink.",
+   "zh": "「幸會，$G，幸會。希望日後常有緣相見。」他向你狡黠地眨了眨眼。",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 299,
+   "len": 19,
+   "en": "\"Well met, sirrah!\"",
+   "zh": "「幸會，老兄！」",
+   "note": ""
+  },
+  {
+   "offset": 321,
+   "len": 62,
+   "en": "\"You look like the sort who knows how to enjoy a good @story.\"",
+   "zh": "「你看起來像是懂得欣賞好@story故事的人。」",
+   "note": ""
+  },
+  {
+   "offset": 389,
+   "len": 68,
+   "en": "\"$P! It's been too long. What brings you to this part of the realm?\"",
+   "zh": "「$P！好久不見了。是什麼風把你吹到這一帶來了？」",
+   "note": ""
+  },
+  {
+   "offset": 460,
+   "len": 65,
+   "en": "\"Well, never mind that for the moment. Let me sing thee a @song!\"",
+   "zh": "「先別管那個了。且讓在下唱首@song歌給你聽！」",
+   "note": ""
+  },
+  {
+   "offset": 533,
+   "len": 84,
+   "en": "\"Mandrake, my friend, Mandrake. Like the @root, but taller, handsomer, and @louder.\"",
+   "zh": "「曼德雷克，朋友，曼德雷克。如同同名的@root根，但更高、更俊、更@louder響亮。」",
+   "note": ""
+  },
+  {
+   "offset": 628,
+   "len": 55,
+   "en": "\"It grows in swamps, but I'm found mostly in @taverns.\"",
+   "zh": "「那玩意兒長在沼澤，我這個人倒多半出沒在@taverns酒館。」",
+   "note": ""
+  },
+  {
+   "offset": 704,
+   "len": 16,
+   "en": "\"So I've heard.\"",
+   "zh": "「久仰久仰。」",
+   "note": ""
+  },
+  {
+   "offset": 731,
+   "len": 19,
+   "en": "\"I visit them all.\"",
+   "zh": "「每家都去。」",
+   "note": ""
+  },
+  {
+   "offset": 753,
+   "len": 64,
+   "en": "\"The Fallen @Virgin and the Sword and @Keg are rowdy and rough.\"",
+   "zh": "「墮落@Virgin聖女和劍與@Keg酒桶這兩家，粗獷吵鬧。」",
+   "note": ""
+  },
+  {
+   "offset": 819,
+   "len": 77,
+   "en": "\"The Blue @Bottle serves Frasier's @Folly - the finest ale in all Britannia.\"",
+   "zh": "「藍@Bottle瓶子賣的是弗雷澤的@Folly蠢作——不列顛尼亞全境最好的麥酒。」",
+   "note": ""
+  },
+  {
+   "offset": 899,
+   "len": 43,
+   "en": "\"But the Cat's @Lair is still my favorite.\"",
+   "zh": "「不過貓的@Lair巢穴還是我的最愛。」",
+   "note": ""
+  },
+  {
+   "offset": 958,
+   "len": 54,
+   "en": "\"You should try some! 'Twill do thee a world of good.\"",
+   "zh": "「你應該嘗嘗！對你大有好處。」",
+   "note": ""
+  },
+  {
+   "offset": 1028,
+   "len": 52,
+   "en": "\"'Tis in Buccaneer's @Den - no place for the timid.\"",
+   "zh": "「就在海盜@Den巢穴——膽小鬼不宜前往。」",
+   "note": ""
+  },
+  {
+   "offset": 1095,
+   "len": 62,
+   "en": "\"If thou knowest not where it is, I'll not be the one to say.\"",
+   "zh": "「若是不知道在哪兒，我是不打算說的那種人。」",
+   "note": ""
+  },
+  {
+   "offset": 1172,
+   "len": 56,
+   "en": "\"Over in @Jhelom, it is. They always love a good brawl.\"",
+   "zh": "「在@Jhelom那邊。那裡的人向來愛打架。」",
+   "note": ""
+  },
+  {
+   "offset": 1244,
+   "len": 25,
+   "en": "\"Lots of warriors there.\"",
+   "zh": "「那裡武士多。」",
+   "note": ""
+  },
+  {
+   "offset": 1272,
+   "len": 89,
+   "en": "\"They fight just about every night, but they don't mean anything by it. 'Tis all in fun.\"",
+   "zh": "「他們幾乎每晚都打架，但沒有惡意，純屬好玩。」",
+   "note": ""
+  },
+  {
+   "offset": 1377,
+   "len": 20,
+   "en": "\"'Tis in @Moonglow.\"",
+   "zh": "「在@Moonglow月輝城。」",
+   "note": ""
+  },
+  {
+   "offset": 1400,
+   "len": 87,
+   "en": "\"@Derydlus often drinks there - the man can put away more ale than any other I've met.\"",
+   "zh": "「@Derydlus常在那兒喝酒——那人喝酒的量比我見過的任何人都多。」",
+   "note": ""
+  },
+  {
+   "offset": 1490,
+   "len": 48,
+   "en": "\"Many's the time he's drunk me under the table.\"",
+   "zh": "「他不知多少次把我喝趴下了。」",
+   "note": ""
+  },
+  {
+   "offset": 1549,
+   "len": 68,
+   "en": "\"Too honest a town to be much fun, but some fine people live there.\"",
+   "zh": "「那城太誠實，沒多少樂趣，但住著一些好人。」",
+   "note": ""
+  },
+  {
+   "offset": 1620,
+   "len": 55,
+   "en": "\"You should have @Penumbra tell your fortune sometime.\"",
+   "zh": "「你應該找@Penumbra半影算個命。」",
+   "note": ""
+  },
+  {
+   "offset": 1686,
+   "len": 37,
+   "en": "\"Give him my regards if you see him.\"",
+   "zh": "「見到他代我問好。」",
+   "note": ""
+  },
+  {
+   "offset": 1734,
+   "len": 33,
+   "en": "\"I hear she has strange @powers.\"",
+   "zh": "「聽說她有奇異的@powers能力。」",
+   "note": ""
+  },
+  {
+   "offset": 1783,
+   "len": 29,
+   "en": "\"Yes, the gift of @prophecy.\"",
+   "zh": "「是的，@prophecy預言之天賦。」",
+   "note": ""
+  },
+  {
+   "offset": 1828,
+   "len": 12,
+   "en": "\"So I hear.\"",
+   "zh": "「如是聽聞。」",
+   "note": ""
+  },
+  {
+   "offset": 1855,
+   "len": 67,
+   "en": "\"A wonderful place! Dr. Cat gives me free drinks just for singing.\"",
+   "zh": "「好地方！貓博士只要我唱歌就請我免費喝酒。」",
+   "note": ""
+  },
+  {
+   "offset": 1925,
+   "len": 95,
+   "en": "\"He loves games of all kinds too. Mention my name to him and he'll be sure to treat thee well.\"",
+   "zh": "「他也愛各種遊戲。跟他提到我的名字，他準會好好招待你。」",
+   "note": ""
+  },
+  {
+   "offset": 2030,
+   "len": 99,
+   "en": "\"I travel all over to spread important @news throughout the realm - and @tales and @songs as well.\"",
+   "zh": "「在下走遍各地，把重要的@news消息傳遍王國——還有@tales故事和@songs歌謠。」",
+   "note": ""
+  },
+  {
+   "offset": 2132,
+   "len": 57,
+   "en": "\"If you have time enough, I'll favor you with all three.\"",
+   "zh": "「若是你時間充裕，在下可以三樣都送上。」",
+   "note": ""
+  },
+  {
+   "offset": 2210,
+   "len": 65,
+   "en": "\"My travels were interrupted recently in a most fearsome manner.\"",
+   "zh": "「在下最近的旅程以一種極為可怖的方式被打斷了。」",
+   "note": ""
+  },
+  {
+   "offset": 2278,
+   "len": 111,
+   "en": "\"I was captured by the @gargoyles, and taken down to the other side of the world, where they held me prisoner.\"",
+   "zh": "「我被@gargoyles魔像抓走，帶到世界另一面，關了起來。」",
+   "note": ""
+  },
+  {
+   "offset": 2392,
+   "len": 68,
+   "en": "\"But such was my good fortune that one of them helped me to escape.\"",
+   "zh": "「但幸運的是，其中一個幫我逃了出來。」",
+   "note": ""
+  },
+  {
+   "offset": 2463,
+   "len": 82,
+   "en": "\"He spoke but little of our tongue, but I believe he said his name was 'Beh Lem.'\"",
+   "zh": "「他只會說一點點我們的話，但我相信他說他的名字是「貝蘭」。」",
+   "note": ""
+  },
+  {
+   "offset": 2556,
+   "len": 54,
+   "en": "\"I've seen their handiwork many a time in my travels.\"",
+   "zh": "「在下旅途中多次見識過魔像的手段。」",
+   "note": ""
+  },
+  {
+   "offset": 2613,
+   "len": 74,
+   "en": "\"I believe they have taken over all of the shrines of the eight @virtues.\"",
+   "zh": "「我相信他們已佔領了八@virtues德的所有神殿。」",
+   "note": ""
+  },
+  {
+   "offset": 2703,
+   "len": 99,
+   "en": "\"Oh, you know: honesty, compassion, valour, justice, sacrifice, honor, spirituality, and humility.\"",
+   "zh": "「就是那些：誠實、慈悲、英勇、正義、犧牲、榮耀、靈性和謙遜。」",
+   "note": ""
+  },
+  {
+   "offset": 2805,
+   "len": 70,
+   "en": "\"That's what you get for choosing such @stuffy principles as a basis.\"",
+   "zh": "「選了這麼一套@stuffy刻板的原則作基礎，就會這樣。」",
+   "note": ""
+  },
+  {
+   "offset": 2891,
+   "len": 33,
+   "en": "\"Truth, love and courage... hah!\"",
+   "zh": "「真實、愛與勇氣……哈！」",
+   "note": ""
+  },
+  {
+   "offset": 2927,
+   "len": 72,
+   "en": "\"If it had been up to me, I'd have chosen wine, women and song instead.\"",
+   "zh": "「若由我來定，我會選酒、女人和歌謠。」",
+   "note": ""
+  },
+  {
+   "offset": 3002,
+   "len": 44,
+   "en": "\"Think of the virtues those would @lead to!\"",
+   "zh": "「想想那些原則會@lead引出什麼德行！」",
+   "note": ""
+  },
+  {
+   "offset": 3072,
+   "len": 25,
+   "en": "\"I've thought it over...\"",
+   "zh": "「在下仔細想過了……」",
+   "note": ""
+  },
+  {
+   "offset": 3100,
+   "len": 74,
+   "en": "\"The principles of wine, women and song would lead to the eight virtues of",
+   "zh": "「酒、女人和歌謠這三大原則，將衍生出八種德行：",
+   "note": "前半，與下一段合"
+  },
+  {
+   "offset": 3176,
+   "len": 84,
+   "en": "drunkenness, sensuality, harmony, lust, laziness, dance, indulgence, and happiness.\"",
+   "zh": "醉意、感官、和諧、情慾、慵懶、歡舞、縱情與歡樂。」",
+   "note": "後半"
+  },
+  {
+   "offset": 3263,
+   "len": 64,
+   "en": "\"Now there would be the foundation for a fine world to live in!\"",
+   "zh": "「這才是個宜居好世界的基礎！」",
+   "note": ""
+  },
+  {
+   "offset": 3376,
+   "len": 88,
+   "en": "\"Leaving so soon, $G? And I was enjoying your company so.\" He bows and kisses your hand.",
+   "zh": "「這就要走了，$G？在下正享受著你的陪伴呢。」他深深一鞠躬，吻了吻你的手。",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 3465,
+   "len": 82,
+   "en": "\"Well, $P, I'm glad you stopped by to chat with me. We must do it again sometime.\"",
+   "zh": "「好啦，$P，很高興你來找我聊天。下次再找機會敘敘舊。」",
+   "note": ""
+  },
+  {
+   "offset": 3551,
+   "len": 62,
+   "en": "\"I'll be glad to play another song for you when next we meet.\"",
+   "zh": "「下次見面，在下很樂意再為你唱一首。」",
+   "note": ""
+  },
+  {
+   "offset": 3625,
+   "len": 39,
+   "en": "\"I'll tell you of that later, perhaps.\"",
+   "zh": "「或許改天再告訴你。」",
+   "note": ""
+  },
+  {
+   "offset": 3665,
+   "len": 71,
+   "en": "\"Oh, why bother with such a boring subject? How about a @song instead?\"",
+   "zh": "「哎，何必管這麼無聊的事？換個@song歌怎麼樣？」",
+   "note": ""
+  },
+  {
+   "offset": 3743,
+   "len": 65,
+   "en": "\"I sing better if I keep my belly full, and my wineskin as well.\"",
+   "zh": "「肚子飽、酒囊也飽，在下才唱得好。」",
+   "note": ""
+  },
+  {
+   "offset": 3811,
+   "len": 42,
+   "en": "\"Would you care to donate a coin or two?\" ",
+   "zh": "「你願意捐個一兩個銅板嗎？」",
+   "note": "尾隨空格保留"
+  },
+  {
+   "offset": 3859,
+   "len": 14,
+   "en": "\"As you wish.\"",
+   "zh": "「悉聽尊便。」",
+   "note": ""
+  },
+  {
+   "offset": 3884,
+   "len": 26,
+   "en": "How much do you give him? ",
+   "zh": "你給他多少？",
+   "note": "旁白提示"
+  },
+  {
+   "offset": 3923,
+   "len": 25,
+   "en": "You don't have that much.",
+   "zh": "你沒有那麼多錢。",
+   "note": "旁白"
+  },
+  {
+   "offset": 3994,
+   "len": 19,
+   "en": "\"Thank you kindly.\"",
+   "zh": "「多謝好意。」",
+   "note": ""
+  },
+  {
+   "offset": 4016,
+   "len": 17,
+   "en": "\"Ok, here we go!\"",
+   "zh": "「好，開始了！」",
+   "note": ""
+  },
+  {
+   "offset": 4036,
+   "len": 27,
+   "en": "\"The dragon is a scaly sort",
+   "zh": "「巨龍渾身鱗片，",
+   "note": "歌謠第一節第一行"
+  },
+  {
+   "offset": 4065,
+   "len": 33,
+   "en": "Who spouts flame when he sneezes.",
+   "zh": "噴嚏一打便吐火。",
+   "note": "第一節第二行"
+  },
+  {
+   "offset": 4100,
+   "len": 33,
+   "en": "Many a bold knight has he fought,",
+   "zh": "與多少勇騎士廝殺，",
+   "note": "第一節第三行"
+  },
+  {
+   "offset": 4135,
+   "len": 35,
+   "en": "For he goes where e'er he pleases.\"",
+   "zh": "任意縱橫天下。」",
+   "note": "第一節第四行"
+  },
+  {
+   "offset": 4173,
+   "len": 38,
+   "en": "\"Mister Porcupine's naught but spines,",
+   "zh": "「豪豬先生一身刺，",
+   "note": "歌謠第二節第一行"
+  },
+  {
+   "offset": 4213,
+   "len": 36,
+   "en": "To the dismay of him and his missus.",
+   "zh": "令他與夫人苦惱不已。",
+   "note": "第二節第二行"
+  },
+  {
+   "offset": 4251,
+   "len": 33,
+   "en": "For that for which he truly pines",
+   "zh": "他心中最渴盼之事，",
+   "note": "第二節第三行"
+  },
+  {
+   "offset": 4286,
+   "len": 28,
+   "en": "Is one of her sweet kisses.\"",
+   "zh": "不過是她的一個甜吻。」",
+   "note": "第二節第四行"
+  },
+  {
+   "offset": 4317,
+   "len": 29,
+   "en": "\"A gypsy girl and a butterfly",
+   "zh": "「吉普賽女孩與蝴蝶，",
+   "note": "歌謠第三節第一行"
+  },
+  {
+   "offset": 4348,
+   "len": 29,
+   "en": "Were out in the woods at play",
+   "zh": "在林中嬉戲玩耍，",
+   "note": "第三節第二行"
+  },
+  {
+   "offset": 4379,
+   "len": 34,
+   "en": "And when I saw them I said 'Oh my!",
+   "zh": "我見到她們，不禁驚嘆：「哎呀！",
+   "note": "第三節第三行"
+  },
+  {
+   "offset": 4415,
+   "len": 27,
+   "en": "What a perfect sunny day!'\"",
+   "zh": "真是個晴好天氣！」」",
+   "note": "第三節第四行，雙引號：外層歌謠，內層感嘆"
+  },
+  {
+   "offset": 4447,
+   "len": 49,
+   "en": "\"Perhaps my stories would be worth a few coins?\" ",
+   "zh": "「或許在下的故事值幾個銅板？」",
+   "note": "尾隨空格保留"
+  },
+  {
+   "offset": 4502,
+   "len": 14,
+   "en": "\"As you wish.\"",
+   "zh": "「悉聽尊便。」",
+   "note": ""
+  },
+  {
+   "offset": 4525,
+   "len": 26,
+   "en": "How much do you give him? ",
+   "zh": "你給他多少？",
+   "note": "旁白提示"
+  },
+  {
+   "offset": 4564,
+   "len": 25,
+   "en": "You don't have that much.",
+   "zh": "你沒有那麼多錢。",
+   "note": "旁白"
+  },
+  {
+   "offset": 4636,
+   "len": 18,
+   "en": "\"You're too kind.\"",
+   "zh": "「你真是太慷慨了。」",
+   "note": ""
+  },
+  {
+   "offset": 4655,
+   "len": 89,
+   "en": "Mandrake tells you tales for quite a while, yet listening to them you lose track of time.",
+   "zh": "曼德雷克說了許久的故事，聽著聽著你竟渾然忘了時間。",
+   "note": "旁白"
+  },
+  {
+   "offset": 4747,
+   "len": 109,
+   "en": "He tells you of ships sailing off the edge of the world, of earthquakes, and mad wizards, and fierce battles.",
+   "zh": "他說起駛落世界邊緣的船，說起地震、瘋狂術士和激烈戰鬥。",
+   "note": "旁白"
+  },
+  {
+   "offset": 4859,
+   "len": 114,
+   "en": "He speaks of spells that halt the flow of time, a man who found a way to fly, and the strange secret of the wisps.",
+   "zh": "他講述能凝固時間的咒術、尋得飛行之道的人，以及靈火的奇異秘密。",
+   "note": "旁白"
+  },
+  {
+   "offset": 4976,
+   "len": 114,
+   "en": "He tells you that there are two bands of gypsies who travel the King's Way, who are often mistaken for each other.",
+   "zh": "他說王道上有兩支吉普賽隊伍往來，常被人互相搞混。",
+   "note": "旁白"
+  },
+  {
+   "offset": 5093,
+   "len": 128,
+   "en": "He speaks of the pirate ship Empire, which was much dreaded in its day, and of the giant ants that can be found in the Dry Land.",
+   "zh": "他說起曾令人聞風喪膽的海盜船帝國號，以及旱地中可以找到的巨大螞蟻。",
+   "note": "旁白"
+  },
+  {
+   "offset": 5224,
+   "len": 42,
+   "en": "Your head is filled with wondrous visions.",
+   "zh": "你腦中充滿了奇異的幻象。",
+   "note": "旁白"
+  },
+  {
+   "offset": 5268,
+   "len": 12,
+   "en": "But finally ",
+   "zh": "但最終，",
+   "note": "旁白前半（隊伍版，與下一段合）"
+  },
+  {
+   "offset": 5285,
+   "len": 86,
+   "en": "he notices that Dupre has begun to doze off, and decides to bring his tales to an end.",
+   "zh": "他注意到杜普雷已開始打盹，便決定為故事畫下句點。",
+   "note": "旁白後半（隊伍版）"
+  },
+  {
+   "offset": 5372,
+   "len": 25,
+   "en": "his tales come to an end.",
+   "zh": "故事就此落幕。",
+   "note": "旁白（單人版，接在 But finally 之後）"
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {
+   "Mandrake": "曼德雷克",
+   "Derydlus": "戴瑞德拉斯"
+  },
+  "places": {
+   "Cat's Lair": "貓的巢穴"
+  }
+ },
+ "riddles_additions": [],
+ "translator_notes": "曼德雷克為風流才子型吟遊詩人，語氣輕佻自傲，以「在下」自稱增添文人氣息。三首歌謠以散文詩體翻譯，保留幽默感：龍打噴嚏吐火、豪豬刺妨礙接吻、吉普賽女孩賞天氣。「另類八德」（酒女歌）為核心笑料，翻譯保留原文滑稽哲學感。Beh Lem 協助逃脫情節與 183_Captain John 互相呼應。"
+}

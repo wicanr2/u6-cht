@@ -1,0 +1,214 @@
+{
+ "translations": [
+  {
+   "offset": 8,
+   "len": 50,
+   "en": "a plump older woman with an apron about her waist.",
+   "zh": "一位圓胖的年長女子，腰間繫著圍裙。",
+   "note": "DESC"
+  },
+  {
+   "offset": 74,
+   "len": 72,
+   "en": "\"Oh, good, you've come back. Perhaps for some @pie?\" She smiles broadly.",
+   "zh": "「哦，好，汝回來了，或許是想要些@派？」她笑開了臉。",
+   "note": ""
+  },
+  {
+   "offset": 147,
+   "len": 71,
+   "en": "\"Hello,\" she says in a scratchy yet firm voice. \"What can I do for ye?\"",
+   "zh": "「你好，」她用沙啞卻有力的嗓音說道，「有何需要效勞？」",
+   "note": ""
+  },
+  {
+   "offset": 227,
+   "len": 20,
+   "en": "\"Dorin...and yours?\"",
+   "zh": "「朵琳……汝呢？」",
+   "note": ""
+  },
+  {
+   "offset": 250,
+   "len": 14,
+   "en": "\"That's nice.\"",
+   "zh": "「真好。」",
+   "note": ""
+  },
+  {
+   "offset": 282,
+   "len": 49,
+   "en": "\"She was a wonderful cook. Taught me all I know.\"",
+   "zh": "「她是個出色的廚師，把在下所知的一切都傳授給了在下。」",
+   "note": ""
+  },
+  {
+   "offset": 343,
+   "len": 27,
+   "en": "\"It was my @mother's name.\"",
+   "zh": "「那是在下@母親的名字。」",
+   "note": ""
+  },
+  {
+   "offset": 381,
+   "len": 83,
+   "en": "\"At the moment, only Meri and I are here, so I guess I must conduct the @business.\"",
+   "zh": "「目前只有梅里和在下在這裡，所以在下想是得自己打理@生意了。」",
+   "note": ""
+  },
+  {
+   "offset": 481,
+   "len": 34,
+   "en": "\"We are shepherds. We sell @wool.\"",
+   "zh": "「我們是牧羊人，我們販售@羊毛。」",
+   "note": ""
+  },
+  {
+   "offset": 527,
+   "len": 79,
+   "en": "\"He and I like to care for the less fortunate people in town. I like him alot.\"",
+   "zh": "「他和在下都喜歡照顧鎮上不那麼幸運的人，在下很喜歡他。」",
+   "note": ""
+  },
+  {
+   "offset": 623,
+   "len": 56,
+   "en": "\"Old Shorty, eh? He's actually quite a nice little man.\"",
+   "zh": "「老矮冬瓜？他其實是個挺不錯的小個子。」",
+   "note": ""
+  },
+  {
+   "offset": 691,
+   "len": 42,
+   "en": "\"A bit caught up in herself, but likable.\"",
+   "zh": "「有點自我中心，但還算討人喜歡。」",
+   "note": ""
+  },
+  {
+   "offset": 745,
+   "len": 59,
+   "en": "\"Poor little guy. He's afraid of the dark, or so I'm told.\"",
+   "zh": "「可憐的小個子，聽說他怕黑。」",
+   "note": ""
+  },
+  {
+   "offset": 816,
+   "len": 40,
+   "en": "\"He has the best flour in all the land.\"",
+   "zh": "「他有全境最好的麵粉。」",
+   "note": ""
+  },
+  {
+   "offset": 868,
+   "len": 84,
+   "en": "\"She's my little angel. If you see her around here, tell her I have errands to run.\"",
+   "zh": "「她是在下的小天使，若汝在附近見到她，告訴她在下有差事要辦。」",
+   "note": ""
+  },
+  {
+   "offset": 964,
+   "len": 87,
+   "en": "She winces at his name. \"He is a hard worker, but sometimes his smell is quite strong.\"",
+   "zh": "她一聽到他的名字就皺眉。「他是個勤奮的工人，但有時氣味相當強烈。」",
+   "note": ""
+  },
+  {
+   "offset": 1063,
+   "len": 66,
+   "en": "\"I like to go on walks with Uby. He has such an interesting life.\"",
+   "zh": "「在下喜歡和烏比一起散步，他的生活如此有趣。」",
+   "note": "Uby是Ubermon的暱稱"
+  },
+  {
+   "offset": 1154,
+   "len": 54,
+   "en": "\"Oh, dear, I'm afraid you just missed the last piece.\"",
+   "zh": "「哎喲，恐怕汝剛好錯過了最後一塊。」",
+   "note": ""
+  },
+  {
+   "offset": 1211,
+   "len": 63,
+   "en": "\"But I'm baking another, and I'll be sure to save you a slice!\"",
+   "zh": "「但在下正在烤新的，一定給汝留一塊！」",
+   "note": ""
+  },
+  {
+   "offset": 1281,
+   "len": 54,
+   "en": "\"Yes, I'm baking the nicest shepherd's pie right now.\"",
+   "zh": "「是的，在下正在烤一個最棒的牧羊人派。」",
+   "note": ""
+  },
+  {
+   "offset": 1338,
+   "len": 63,
+   "en": "\"It's not done yet, but you can have a slice as soon as it is!\"",
+   "zh": "「還沒烤好，但一烤好汝就可以來拿一塊！」",
+   "note": ""
+  },
+  {
+   "offset": 1439,
+   "len": 58,
+   "en": "She wipes her hand on her apron, and then waves it at you.",
+   "zh": "她在圍裙上擦擦手，然後朝汝揮了揮。",
+   "note": ""
+  },
+  {
+   "offset": 1502,
+   "len": 33,
+   "en": "\"Sorry, don't know about any $Z.\"",
+   "zh": "「抱歉，在下不了解$Z的事。」",
+   "note": ""
+  },
+  {
+   "offset": 1623,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝們誰？」",
+   "note": ""
+  },
+  {
+   "offset": 1678,
+   "len": 60,
+   "en": "\"We charge 5 gold for a bale of wool. Would you like some?\" ",
+   "zh": "「一捆羊毛5金，汝想要嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1758,
+   "len": 29,
+   "en": "\"You look pretty full to me.\"",
+   "zh": "「汝看起來已裝得滿滿的了。」",
+   "note": ""
+  },
+  {
+   "offset": 1846,
+   "len": 63,
+   "en": "\"Very good.\" After accepting $Y's gold, $N hands over the wool.",
+   "zh": "「甚好。」收下$Y的金幣後，$N遞出羊毛。",
+   "note": ""
+  },
+  {
+   "offset": 1932,
+   "len": 53,
+   "en": "\"I'm sorry, but you don't seem to have enough money.\"",
+   "zh": "「抱歉，汝的金幣似乎不足。」",
+   "note": ""
+  },
+  {
+   "offset": 2005,
+   "len": 44,
+   "en": "\"It was a pleasure doing business with you.\"",
+   "zh": "「很高興與汝交易。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Dorin": "朵琳",
+   "Uby": "烏比"
+  }
+ },
+ "translator_notes": "105 Dorin: 鴉爪鎮牧羊人兼烤派高手，慈祥老婦。與提默共同照顧弱勢。女兒Meri(Merideth)讓她引以為傲。賣羊毛。"
+}

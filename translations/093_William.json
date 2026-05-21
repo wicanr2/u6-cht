@@ -1,0 +1,137 @@
+{
+ "translations": [
+  {
+   "offset": 10,
+   "len": 61,
+   "en": "an old farmer who looks to have has made his peace with life.",
+   "zh": "一位老農夫，神情顯示他已與生命和解。",
+   "note": "DESC"
+  },
+  {
+   "offset": 74,
+   "len": 18,
+   "en": "\"Howdy, stranger.\"",
+   "zh": "「嗨，過客。」",
+   "note": ""
+  },
+  {
+   "offset": 100,
+   "len": 20,
+   "en": "\"M'name is William.\"",
+   "zh": "「我叫威廉。」",
+   "note": ""
+  },
+  {
+   "offset": 136,
+   "len": 16,
+   "en": "\"I'm a @farmer.\"",
+   "zh": "「我是個@農夫。」",
+   "note": ""
+  },
+  {
+   "offset": 163,
+   "len": 15,
+   "en": "\"Ask @Antonio.\"",
+   "zh": "「去問@安東尼奧。」",
+   "note": ""
+  },
+  {
+   "offset": 189,
+   "len": 28,
+   "en": "\"The lord of New @Magincia.\"",
+   "zh": "「新@馬精西亞的領主。」",
+   "note": ""
+  },
+  {
+   "offset": 232,
+   "len": 26,
+   "en": "\"That's where ya are now.\"",
+   "zh": "「汝現在就在這裡。」",
+   "note": ""
+  },
+  {
+   "offset": 279,
+   "len": 48,
+   "en": "\"Working the earth is the lowest form 'o labor.\"",
+   "zh": "「耕作是最卑微的勞動形式。」",
+   "note": ""
+  },
+  {
+   "offset": 330,
+   "len": 84,
+   "en": "\"But it provides food for them as writes books, plays music, and other such things.\"",
+   "zh": "「但它為那些寫書、奏樂以及諸如此類之人提供了糧食。」",
+   "note": ""
+  },
+  {
+   "offset": 417,
+   "len": 61,
+   "en": "\"Surely 'tis a humble living, to devote yer life to farmin'.\"",
+   "zh": "「將一生奉獻給耕種，確是謙遜的生計。」",
+   "note": ""
+  },
+  {
+   "offset": 481,
+   "len": 78,
+   "en": "\"It's about all I do with meself, 'cept when I find time for carvin' @hippos.\"",
+   "zh": "「這幾乎是我的全部，除了偶爾有空雕刻@河馬。」",
+   "note": ""
+  },
+  {
+   "offset": 575,
+   "len": 19,
+   "en": "\"I'll show ya one.\"",
+   "zh": "「我拿一個給汝看。」",
+   "note": ""
+  },
+  {
+   "offset": 597,
+   "len": 110,
+   "en": "The old man gets a fiendish gleam in his eyes as he reaches into his pouch and takes out a small wooden hippo.",
+   "zh": "老人眼中閃過一絲惡作劇的光芒，他伸手入袋，取出一個小木雕河馬。",
+   "note": ""
+  },
+  {
+   "offset": 710,
+   "len": 17,
+   "en": "\"Aint she purty?\"",
+   "zh": "「她是不是很美？」",
+   "note": "鄉村口音"
+  },
+  {
+   "offset": 730,
+   "len": 94,
+   "en": "\"If I don't make the purtiest gol' danged hippos you ever did see, you can call me @Mortimer.\"",
+   "zh": "「若我雕的河馬不是汝見過最美的，就叫我@莫提默吧。」",
+   "note": "鄉村口音意譯"
+  },
+  {
+   "offset": 835,
+   "len": 31,
+   "en": "\"He's a mighty foolish fellow.\"",
+   "zh": "「他是個大蠢貨。」",
+   "note": ""
+  },
+  {
+   "offset": 876,
+   "len": 9,
+   "en": "\"See ya.\"",
+   "zh": "「再見了。」",
+   "note": ""
+  },
+  {
+   "offset": 890,
+   "len": 23,
+   "en": "\"Can't help you there.\"",
+   "zh": "「此事幫不上汝。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "William": "威廉",
+   "Mortimer": "莫提默"
+  }
+ },
+ "translator_notes": "093 William: 新馬精西亞老農夫，謙遜美德體現者，愛好雕刻木河馬。鄉村口音以平易語氣表現。"
+}

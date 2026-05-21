@@ -1,0 +1,230 @@
+{
+ "translations": [
+  {
+   "offset": 7,
+   "len": 39,
+   "en": "a strong looking man with just one arm.",
+   "zh": "看起來強壯但只有一隻手臂的男子。",
+   "note": "DESC"
+  },
+  {
+   "offset": 69,
+   "len": 27,
+   "en": "\"Hello,\" he shouts, waving.",
+   "zh": "「你好！」他揮手高呼。",
+   "note": ""
+  },
+  {
+   "offset": 109,
+   "len": 63,
+   "en": "\"You've met @Zeke before, 'aven't ya?\" he says, glaring at you.",
+   "zh": "「你以前見過@齊克，是嗎？」他瞪著你說。",
+   "note": "'aven't=haven't 口音"
+  },
+  {
+   "offset": 175,
+   "len": 17,
+   "en": "\"What d'ya need?\"",
+   "zh": "「你需要什麼？」",
+   "note": ""
+  },
+  {
+   "offset": 200,
+   "len": 38,
+   "en": "\"@Zeke the one-armed @beekeep, it is.\"",
+   "zh": "「@獨臂@養蜂人齊克，正是在下。」",
+   "note": ""
+  },
+  {
+   "offset": 250,
+   "len": 81,
+   "en": "\"Lost me arm and gained that name in @battle.\" He flashes a yellowed grin at you.",
+   "zh": "「在@戰場上丟了手臂，得了這個稱號。」他向你露出泛黃的牙齒笑著。",
+   "note": ""
+  },
+  {
+   "offset": 343,
+   "len": 57,
+   "en": "\"'Twas a horrid affair, but @Mondain had to be thwarted.\"",
+   "zh": "「那是場可怕的事，但@蒙丹必須被阻止。」",
+   "note": ""
+  },
+  {
+   "offset": 412,
+   "len": 47,
+   "en": "\"You must be new here.\" He looks to the ground.",
+   "zh": "「你一定是剛來的。」他低頭看地。",
+   "note": ""
+  },
+  {
+   "offset": 462,
+   "len": 48,
+   "en": "\"He brought an age of great evil unto our land.\"",
+   "zh": "「他為我們的土地帶來了巨大邪惡的時代。」",
+   "note": ""
+  },
+  {
+   "offset": 513,
+   "len": 61,
+   "en": "\"Yet try and tell today's children of the age of darkness...\"",
+   "zh": "「然而試著向今日的孩子們講述那個黑暗時代……」",
+   "note": ""
+  },
+  {
+   "offset": 577,
+   "len": 65,
+   "en": "\"They believe nothing can go wrong, as long as the Avatar lives.\"",
+   "zh": "「他們相信只要聖者在世，就不會有任何差錯。」",
+   "note": ""
+  },
+  {
+   "offset": 679,
+   "len": 79,
+   "en": "\"Bees are true friends. They work all day, making honey and scattering pollen.\"",
+   "zh": "「蜜蜂是真正的朋友。它們整日辛勤工作，釀造蜂蜜、傳播花粉。」",
+   "note": ""
+  },
+  {
+   "offset": 761,
+   "len": 48,
+   "en": "\"All we have to do is provide them with @hives.\"",
+   "zh": "「我們只需要提供@蜂巢給它們。」",
+   "note": ""
+  },
+  {
+   "offset": 812,
+   "len": 43,
+   "en": "He laughs. \"And get stung once in a while!\"",
+   "zh": "他大笑。「偶爾被螫一下！」",
+   "note": ""
+  },
+  {
+   "offset": 867,
+   "len": 63,
+   "en": "\"I buys all my hives from a nice lady in Minoc named Michelle.\"",
+   "zh": "「我的蜂巢都從敏諾克一位叫米歇爾的好女士那裡買的。」",
+   "note": "buys=buy，口語"
+  },
+  {
+   "offset": 933,
+   "len": 31,
+   "en": "\"She weaves them out of straw.\"",
+   "zh": "「她用稻草編製它們。」",
+   "note": ""
+  },
+  {
+   "offset": 975,
+   "len": 39,
+   "en": "\"I'm the @beekeeper here at the abbey.\"",
+   "zh": "「我是修道院這裡的@養蜂人。」",
+   "note": ""
+  },
+  {
+   "offset": 1017,
+   "len": 87,
+   "en": "\"If you want to @buy @honey, or @sell me a honey jar I'm all ears (if only one-armed).\"",
+   "zh": "「若你想@買@蜂蜜，或@賣我一個蜂蜜罐，我洗耳恭聽（雖然只有一隻手臂）。」",
+   "note": ""
+  },
+  {
+   "offset": 1115,
+   "len": 17,
+   "en": "\"Have a nice $T.\"",
+   "zh": "「$T愉快。」",
+   "note": ""
+  },
+  {
+   "offset": 1137,
+   "len": 39,
+   "en": "He scratches his head and looks around.",
+   "zh": "他搔搔頭，環顧四周。",
+   "note": ""
+  },
+  {
+   "offset": 1264,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪位？」",
+   "note": ""
+  },
+  {
+   "offset": 1319,
+   "len": 52,
+   "en": "\"It'll cost you 10 gold for the 'oney, interested?\" ",
+   "zh": "「蜂蜜要10枚金幣，有意嗎？」",
+   "note": "'oney=honey 口音"
+  },
+  {
+   "offset": 1397,
+   "len": 29,
+   "en": "\"You look pretty full to me.\"",
+   "zh": "「你帶的東西已經很多了。」",
+   "note": ""
+  },
+  {
+   "offset": 1486,
+   "len": 64,
+   "en": "\"Excellent!\" After accepting $Y's gold, $N hands over the honey.",
+   "zh": "「太好了！」接過$Y的金幣後，$N遞上蜂蜜。",
+   "note": ""
+  },
+  {
+   "offset": 1573,
+   "len": 67,
+   "en": "$N looks at $Y. \"You ain't that good-looking. My price is 10 gold.\"",
+   "zh": "$N望向$Y。「你沒那麼好看。我的價格是10枚金幣。」",
+   "note": ""
+  },
+  {
+   "offset": 1661,
+   "len": 19,
+   "en": "\"Enjoy your 'oney.\"",
+   "zh": "「好好享用你的蜂蜜。」",
+   "note": ""
+  },
+  {
+   "offset": 1688,
+   "len": 26,
+   "en": "\"You'll find none better.\"",
+   "zh": "「你找不到更好的了。」",
+   "note": ""
+  },
+  {
+   "offset": 1813,
+   "len": 41,
+   "en": "\"Sorry, none of you has anything I need.\"",
+   "zh": "「抱歉，你們沒有一個有我需要的東西。」",
+   "note": ""
+  },
+  {
+   "offset": 2056,
+   "len": 68,
+   "en": "$N turns to $Y, and says \"Will you take 7 gold for that honey jar?\" ",
+   "zh": "$N轉向$Y，說道：「那個蜂蜜罐，7枚金幣如何？」",
+   "note": ""
+  },
+  {
+   "offset": 2130,
+   "len": 58,
+   "en": "\"Done!\" He hands $Y 7 gold pieces and takes the honey jar.",
+   "zh": "「成交！」他遞給$Y 7枚金幣，取走蜂蜜罐。",
+   "note": ""
+  },
+  {
+   "offset": 2236,
+   "len": 36,
+   "en": "\"Sorry, you 'aven't any 'oney jars.\"",
+   "zh": "「抱歉，你沒有蜂蜜罐。」",
+   "note": ""
+  },
+  {
+   "offset": 2279,
+   "len": 43,
+   "en": "\"Changed your mind, eh?\" he folds his arms.",
+   "zh": "「改變主意了，嗯？」他抱起手臂。",
+   "note": "只有一隻手臂的幽默"
+  }
+ ],
+ "glossary_additions": {"people": {"Zeke": "齊克"}, "places": {}},
+ "translator_notes": "齊克是獨臂養蜂人，曾在對抗蒙丹的戰鬥中失去手臂。口語化，'aven't/'oney等省音字略去h音。可購買蜂蜜或出售蜂蜜罐。"
+}

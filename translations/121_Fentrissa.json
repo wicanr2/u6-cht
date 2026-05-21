@@ -1,0 +1,209 @@
+{
+ "translations": [
+  {
+   "offset": 12,
+   "len": 50,
+   "en": "a strong, sinewy woman with a hard look about her.",
+   "zh": "身強體健的女子，眼神剛毅。",
+   "note": "DESC"
+  },
+  {
+   "offset": 78,
+   "len": 57,
+   "en": "\"Smell that salt air, friend. Brings a tear to me eye...\"",
+   "zh": "「聞聞那鹹海風，朋友，讓我眼眶泛濕……」",
+   "note": ""
+  },
+  {
+   "offset": 137,
+   "len": 55,
+   "en": "\"Welcome, welcome!\" She slaps you heartily on the back.",
+   "zh": "「歡迎，歡迎！」她用力拍了拍你的背。",
+   "note": ""
+  },
+  {
+   "offset": 242,
+   "len": 13,
+   "en": "\"@Fentrissa.\"",
+   "zh": "「@芬翠莎。」",
+   "note": ""
+  },
+  {
+   "offset": 273,
+   "len": 68,
+   "en": "\"A strong name, as strong as the @sea.\" She looks into the distance.",
+   "zh": "「響亮的名字，如同@大海一般強勁。」她遠眺天際。",
+   "note": ""
+  },
+  {
+   "offset": 352,
+   "len": 44,
+   "en": "\"Beautiful thing, but a @jealous man he is.\"",
+   "zh": "「美麗之物，卻是個@善妒的傢伙。」",
+   "note": "她稱海為 he（男性），下文有人物回應"
+  },
+  {
+   "offset": 412,
+   "len": 25,
+   "en": "\"Many call her a female.\"",
+   "zh": "「很多人叫它女性。」",
+   "note": ""
+  },
+  {
+   "offset": 440,
+   "len": 48,
+   "en": "\"If ya ask me, men are much more unpredictable.\"",
+   "zh": "「依我說，男人才更難捉摸呢。」",
+   "note": ""
+  },
+  {
+   "offset": 511,
+   "len": 27,
+   "en": "\"You bought my last craft.\"",
+   "zh": "「你把我最後一艘船買走了。」",
+   "note": ""
+  },
+  {
+   "offset": 545,
+   "len": 7,
+   "en": "\"I sell",
+   "zh": "「我賣",
+   "note": "句子開頭，與後面部分拼接"
+  },
+  {
+   "offset": 565,
+   "len": 9,
+   "en": " @ships.\"",
+   "zh": " @帆船。」",
+   "note": ""
+  },
+  {
+   "offset": 594,
+   "len": 10,
+   "en": " @skiffs.\"",
+   "zh": " @小艇。」",
+   "note": ""
+  },
+  {
+   "offset": 611,
+   "len": 21,
+   "en": " @ships and @skiffs.\"",
+   "zh": " @帆船與@小艇。」",
+   "note": ""
+  },
+  {
+   "offset": 688,
+   "len": 32,
+   "en": "\"Sorry, I sold you my last one.\"",
+   "zh": "「抱歉，已賣給你最後一艘了。」",
+   "note": ""
+  },
+  {
+   "offset": 828,
+   "len": 60,
+   "en": "\"I'm out of work after selling you all my ships and skiffs.\"",
+   "zh": "「把船和小艇都賣給你後，我就沒活幹了。」",
+   "note": ""
+  },
+  {
+   "offset": 908,
+   "len": 56,
+   "en": "\"I have @ships for sale, but I sold you my last @skiff.\"",
+   "zh": "「我有@帆船可賣，但最後一艘@小艇已賣給你了。」",
+   "note": ""
+  },
+  {
+   "offset": 984,
+   "len": 63,
+   "en": "\"I sold you my last @ship, but I still have some @skiffs left.\"",
+   "zh": "「最後一艘@帆船已賣給你了，但還有幾艘@小艇。」",
+   "note": ""
+  },
+  {
+   "offset": 1054,
+   "len": 28,
+   "en": "\"I sell @ships and @skiffs.\"",
+   "zh": "「我賣@帆船和@小艇。」",
+   "note": ""
+  },
+  {
+   "offset": 1093,
+   "len": 47,
+   "en": "\"Have a good one.\" She bows, hands on her hips.",
+   "zh": "「保重。」她叉著腰鞠了個躬。",
+   "note": ""
+  },
+  {
+   "offset": 1145,
+   "len": 13,
+   "en": "\"Ask around.\"",
+   "zh": "「去問問別人吧。」",
+   "note": ""
+  },
+  {
+   "offset": 1321,
+   "len": 66,
+   "en": "$N turns to $Y, \"It'll cost you #4 gold for the deed. Interested?\"",
+   "zh": "$N轉向$Y：「這份船契要#4枚金幣。有意嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1414,
+   "len": 45,
+   "en": "$N looks at $Y. \"You look pretty full to me.\"",
+   "zh": "$N看了看$Y：「你好像裝得滿滿的了。」",
+   "note": ""
+  },
+  {
+   "offset": 1500,
+   "len": 60,
+   "en": "\"Excellent!\" After accepting the gold, $N hands $Y the deed.",
+   "zh": "「好極了！」$N收下金幣，將船契遞給$Y。",
+   "note": ""
+  },
+  {
+   "offset": 1588,
+   "len": 20,
+   "en": "\"Sail her straight.\"",
+   "zh": "「一帆風順。」",
+   "note": ""
+  },
+  {
+   "offset": 1615,
+   "len": 35,
+   "en": "\"You'll ne'er find a better craft.\"",
+   "zh": "「你再也找不到更好的船了。」",
+   "note": ""
+  },
+  {
+   "offset": 1705,
+   "len": 33,
+   "en": "\"Your party hasn't enough money.\"",
+   "zh": "「你們的錢不夠。」",
+   "note": ""
+  },
+  {
+   "offset": 1741,
+   "len": 45,
+   "en": "\"It looks like you're #1 gold piece\\s short.\"",
+   "zh": "「你似乎還差#1枚金幣。」",
+   "note": "保留 \\s"
+  },
+  {
+   "offset": 1789,
+   "len": 8,
+   "en": "\"Sorry.\"",
+   "zh": "「抱歉。」",
+   "note": ""
+  },
+  {
+   "offset": 1905,
+   "len": 46,
+   "en": "Your party takes up a collection for the deed.",
+   "zh": "你們一起湊錢買下了船契。",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Fentrissa": "芬翠莎"}, "places": {}},
+ "translator_notes": "Fentrissa 賣船女商人，豪邁海員氣息。ship → 帆船，skiff → 小艇，deed → 船契。"
+}

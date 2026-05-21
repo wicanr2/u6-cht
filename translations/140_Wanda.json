@@ -1,0 +1,300 @@
+{
+ "translations": [
+  {
+   "offset": 8,
+   "len": 39,
+   "en": "a gypsy wench with a voluptuous figure.",
+   "zh": "身材豐盈的吉普賽女子。",
+   "note": "DESC"
+  },
+  {
+   "offset": 55,
+   "len": 28,
+   "en": "\"Hello, wench. How goes it?\"",
+   "zh": "「你好，姑娘。近況如何？」",
+   "note": "對女性玩家的開場"
+  },
+  {
+   "offset": 97,
+   "len": 60,
+   "en": "\"Well, hello handsome! Looking for a little... relaxation?\" ",
+   "zh": "「哦，你好，帥哥！在找點……放鬆嗎？」",
+   "note": "對男性玩家的開場"
+  },
+  {
+   "offset": 163,
+   "len": 25,
+   "en": "\"Well this is the place!\"",
+   "zh": "「這裡就是了！」",
+   "note": ""
+  },
+  {
+   "offset": 191,
+   "len": 57,
+   "en": "\"Ha! You must be afraid of what your mother might think.\"",
+   "zh": "「哈！你肯定是怕你媽知道了怎麼想。」",
+   "note": ""
+  },
+  {
+   "offset": 276,
+   "len": 35,
+   "en": "\"They call me '@Wicked Wanda,' $0.\"",
+   "zh": "「他們叫我『@壞汪達』，$0。」",
+   "note": ""
+  },
+  {
+   "offset": 333,
+   "len": 82,
+   "en": "\"If we can find someplace @private, I'll gladly show you how I got my nickname...\"",
+   "zh": "「若我們能找個@僻靜的地方，我很樂意讓你知道我的綽號是怎麼來的……」",
+   "note": ""
+  },
+  {
+   "offset": 472,
+   "len": 47,
+   "en": "\"Hmm, sounds like I've piqued your interest...\"",
+   "zh": "「嗯，聽起來我已勾起你的興趣……」",
+   "note": ""
+  },
+  {
+   "offset": 525,
+   "len": 5,
+   "en": "\"Why ",
+   "zh": "「哦，",
+   "note": "下接稱謂"
+  },
+  {
+   "offset": 534,
+   "len": 5,
+   "en": "madam",
+   "zh": "夫人",
+   "note": "引擎依性別注入"
+  },
+  {
+   "offset": 540,
+   "len": 6,
+   "en": "sirrah",
+   "zh": "先生",
+   "note": "引擎依性別注入"
+  },
+  {
+   "offset": 547,
+   "len": 41,
+   "en": ", are you trying to insinuate something?\"",
+   "zh": "，您這是在暗示什麼嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 591,
+   "len": 33,
+   "en": "She breaks into a fit of giggles.",
+   "zh": "她忍不住咯咯笑起來。",
+   "note": ""
+  },
+  {
+   "offset": 688,
+   "len": 49,
+   "en": "\"We don't have... Oh, wait, there was something!\"",
+   "zh": "「我們沒有……哦，等等，好像是有那麼回事！」",
+   "note": "關於地圖"
+  },
+  {
+   "offset": 740,
+   "len": 70,
+   "en": "\"@Arturos, he, uh, found a map last time we were up at Empath @Abbey.\"",
+   "zh": "「@阿圖羅斯，呃，上次我們去悲憫@修道院時他找到了一張地圖。」",
+   "note": ""
+  },
+  {
+   "offset": 821,
+   "len": 53,
+   "en": "\"He'll tell your @fortune for you, $0. Just ask him!\"",
+   "zh": "「他可以為你算@命，$0。去問他就是了！」",
+   "note": ""
+  },
+  {
+   "offset": 885,
+   "len": 15,
+   "en": "\"That's right.\"",
+   "zh": "「對，就是。」",
+   "note": ""
+  },
+  {
+   "offset": 916,
+   "len": 55,
+   "en": "\"I don't care much for them. They're all too stuck up.\"",
+   "zh": "「我不太喜歡他們。個個都太自命清高。」",
+   "note": "關於Empath Abbey僧侶"
+  },
+  {
+   "offset": 987,
+   "len": 55,
+   "en": "\"@Andreas has a silver tablet you could ask him about.\"",
+   "zh": "「@安德烈亞斯有塊銀板，你可以去問他。」",
+   "note": ""
+  },
+  {
+   "offset": 1045,
+   "len": 48,
+   "en": "\"But I have something much @sweeter for sale...\"",
+   "zh": "「但我有更@甜蜜的東西出售……」",
+   "note": ""
+  },
+  {
+   "offset": 1108,
+   "len": 44,
+   "en": "\"He could show you a real good time, honey!\"",
+   "zh": "「他能讓你玩得很開心，甜心！」",
+   "note": ""
+  },
+  {
+   "offset": 1158,
+   "len": 72,
+   "en": "\"He's in the same line of work as I am--but I think I'm more your type!\"",
+   "zh": "「他跟我做同一行——但我覺得我更合你的口味！」",
+   "note": ""
+  },
+  {
+   "offset": 1251,
+   "len": 29,
+   "en": "\"'Tis tiring work, you know.\"",
+   "zh": "「這工作很累人，你知道的。」",
+   "note": ""
+  },
+  {
+   "offset": 1297,
+   "len": 73,
+   "en": "\"'Twas a business doing pleasure with you... I hope you come again soon!\"",
+   "zh": "「跟你做生意真是享受……希望你快快再來！」",
+   "note": "pleasure/business雙關"
+  },
+  {
+   "offset": 1387,
+   "len": 84,
+   "en": "\"See you around... And if you meet anyone tall, dark and handsome, send 'em my way!\"",
+   "zh": "「保重……若你遇到又高又壯又英俊的人，把他們送到我這來！」",
+   "note": ""
+  },
+  {
+   "offset": 1472,
+   "len": 75,
+   "en": "\"If you ever decide you need a break from adventuring, come find me again.\"",
+   "zh": "「若你哪天決定想從冒險中喘口氣，再來找我。」",
+   "note": ""
+  },
+  {
+   "offset": 1560,
+   "len": 37,
+   "en": "\"Why concern yourself with that, $0?\"",
+   "zh": "「為何為那事費心，$0？」",
+   "note": ""
+  },
+  {
+   "offset": 1600,
+   "len": 52,
+   "en": "\"Surely you can think of something more pleasant...\"",
+   "zh": "「你肯定能想到更愉快的事……」",
+   "note": ""
+  },
+  {
+   "offset": 1665,
+   "len": 77,
+   "en": "\"Again, so soon? Nay, come back later, when I've had a little time to @rest.\"",
+   "zh": "「又來了，這麼快？不，晚些再來，讓我@休息一下。」",
+   "note": ""
+  },
+  {
+   "offset": 1755,
+   "len": 84,
+   "en": "\"I don't get many lady customers... but why not? You're sure this is what you want?\"",
+   "zh": "「我不常接待女性顧客……但為何不呢？你確定這是你想要的？」",
+   "note": "對女性玩家"
+  },
+  {
+   "offset": 1840,
+   "len": 84,
+   "en": "\"I've a cot in my wagon... 15 gold's the price--and I don't haggle! Interested, $0?\"",
+   "zh": "「我篷車裡有張床……收費15枚金幣——不砍價！有意嗎，$0？」",
+   "note": ""
+  },
+  {
+   "offset": 1946,
+   "len": 51,
+   "en": "$Y speaks. \"I don't think we have time for this...\"",
+   "zh": "$Y說道：「我覺得我們沒有時間做這個……」",
+   "note": ""
+  },
+  {
+   "offset": 2005,
+   "len": 74,
+   "en": "A voice in the back of your head asks, \"Do you really have time for this?\"",
+   "zh": "腦後有個聲音問道：「你真的有時間做這個嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 2083,
+   "len": 79,
+   "en": "\"Come on, $0. Cross my palm with 15 gold and I'll show you a good time. Okay?\" ",
+   "zh": "「來吧，$0。往我手心放15枚金幣，我讓你玩個痛快。好嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 2168,
+   "len": 59,
+   "en": "\"Fine! Come back when you get permission from your mother!\"",
+   "zh": "「好吧！等你媽媽批准了再來！」",
+   "note": ""
+  },
+  {
+   "offset": 2266,
+   "len": 52,
+   "en": "\"Hey, I don't give credit! No pay, no play, capish?\"",
+   "zh": "「嘿，我不賒帳！沒錢沒服務，明白？」",
+   "note": "capish=義大利語「明白嗎」"
+  },
+  {
+   "offset": 2370,
+   "len": 67,
+   "en": "Taking you by the hand, the gyspy wench leads you off to her wagon.",
+   "zh": "那吉普賽女子拉起你的手，帶你去她的篷車。",
+   "note": ""
+  },
+  {
+   "offset": 2439,
+   "len": 42,
+   "en": "After a time, you return to your comrades.",
+   "zh": "過了一會兒，你回到同伴身邊。",
+   "note": ""
+  },
+  {
+   "offset": 2503,
+   "len": 73,
+   "en": "\"That's a fine way to be carrying on when all of Britannia is in danger!\"",
+   "zh": "「整個不列顛尼亞都在危難中，你卻這樣鬼混！」",
+   "note": "同伴評語"
+  },
+  {
+   "offset": 2579,
+   "len": 74,
+   "en": "\"When our quest is complete, then there will be time enough for wenching!\"",
+   "zh": "「等試煉完成，再來尋歡作樂！」",
+   "note": ""
+  },
+  {
+   "offset": 2660,
+   "len": 97,
+   "en": "\"Nothing's wrong with a little fun. There's plenty of time... as long as there's plenty of gold!\"",
+   "zh": "「享樂一下沒什麼不對。時間很多……只要金幣也很多！」",
+   "note": ""
+  },
+  {
+   "offset": 2758,
+   "len": 123,
+   "en": "You try to ignore the nagging voice in the back of your mind that keeps saying, \"You shouldn't have wasted time like that.\"",
+   "zh": "你試圖無視腦後那個不斷念叨「你不該這樣浪費時間」的聲音。",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Wanda": "汪達"}, "places": {}},
+ "translator_notes": "汪達（壞汪達）是吉普賽妓女，口語輕佻，對男女玩家各有不同開場台詞。成人服務收費15金幣。capish（義大利語）意譯為「明白」。"
+}

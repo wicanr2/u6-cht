@@ -1,0 +1,660 @@
+{
+ "translations": [
+  {
+   "offset": 10,
+   "len": 28,
+   "en": "an amused looking gentleman.",
+   "zh": "一位面帶玩味神情的紳士。",
+   "note": "DESC"
+  },
+  {
+   "offset": 47,
+   "len": 59,
+   "en": "\"You'll have to excuse me, but the bar's closed right now.\"",
+   "zh": "「請見諒，酒吧目前已打烊。」",
+   "note": ""
+  },
+  {
+   "offset": 109,
+   "len": 42,
+   "en": "\"@Taynith and I have a lot to talk about.\"",
+   "zh": "「在下與@泰尼絲有很多話要聊。」",
+   "note": ""
+  },
+  {
+   "offset": 173,
+   "len": 52,
+   "en": "\"Come by the Cat's Lair when I'm open for business.\"",
+   "zh": "「待在下開門時來貓窩酒館。」",
+   "note": ""
+  },
+  {
+   "offset": 239,
+   "len": 70,
+   "en": "\"Ah, I see you've brought me a tasty little mouse to feed my @pets...\"",
+   "zh": "「啊，我見汝為在下帶來了美味的小老鼠來餵在下的@寵物……」",
+   "note": ""
+  },
+  {
+   "offset": 316,
+   "len": 9,
+   "en": "\"Eeeeek!\"",
+   "zh": "「啊——！」",
+   "note": "嚇人玩笑"
+  },
+  {
+   "offset": 332,
+   "len": 84,
+   "en": "\"Don't worry, I was just kidding... Any friend of Lord British is a friend of mine.\"",
+   "zh": "「別擔心，在下只是開玩笑……不列顛王的任何朋友都是在下的朋友。」",
+   "note": ""
+  },
+  {
+   "offset": 420,
+   "len": 28,
+   "en": "\"Welcome to the Cat's Lair.\"",
+   "zh": "「歡迎來到貓窩酒館。」",
+   "note": ""
+  },
+  {
+   "offset": 453,
+   "len": 33,
+   "en": "\"Anything else I can do for you?\"",
+   "zh": "「還有什麼在下能效勞的？」",
+   "note": ""
+  },
+  {
+   "offset": 494,
+   "len": 21,
+   "en": "\"My name's Dr. @Cat.\"",
+   "zh": "「在下是@貓博士。」",
+   "note": ""
+  },
+  {
+   "offset": 535,
+   "len": 56,
+   "en": "\"If you treat my cats well, they'll treat you the same.\"",
+   "zh": "「若汝善待在下的貓咪，她們也會以同樣方式對待汝。」",
+   "note": ""
+  },
+  {
+   "offset": 606,
+   "len": 47,
+   "en": "\"Which, @ale, @mead, @wine, @milk, or @mutton?\"",
+   "zh": "「要哪樣？@麥酒、@蜂蜜酒、@葡萄酒、@牛奶還是@羊肉？」",
+   "note": ""
+  },
+  {
+   "offset": 663,
+   "len": 143,
+   "en": "\"I sell @ale, @mead, @wine, @milk, and @mutton. Of course I like to chat with my @patrons, and indulge in a friendly @game every now and then.\"",
+   "zh": "「在下賣@麥酒、@蜂蜜酒、@葡萄酒、@牛奶和@羊肉。當然在下也喜歡與@顧客閒聊，偶爾玩個友誼@遊戲。」",
+   "note": ""
+  },
+  {
+   "offset": 822,
+   "len": 104,
+   "en": "\"@Thindle and @Mortude may not agree, but I like a game that provides a little intellectual @challenge.\"",
+   "zh": "「@辛德爾和@莫圖德或許不同意，但在下喜歡有點智識@挑戰性的遊戲。」",
+   "note": ""
+  },
+  {
+   "offset": 958,
+   "len": 67,
+   "en": "\"I'm sure he'd be glad to @play a few rounds of flippits with you.\"",
+   "zh": "「在下相信他很樂意與汝@玩幾輪骨彈戲。」",
+   "note": ""
+  },
+  {
+   "offset": 1054,
+   "len": 70,
+   "en": "\"If only I had a copy of Snilwit's Big @Book of Boardgame Strategy...\"",
+   "zh": "「若在下能有一本斯尼爾維特的《桌遊@大全》就好了……」",
+   "note": ""
+  },
+  {
+   "offset": 1127,
+   "len": 61,
+   "en": "\"Then I could find some really fine games to teach everyone.\"",
+   "zh": "「那樣在下就能找到些真正好的遊戲教大家玩了。」",
+   "note": ""
+  },
+  {
+   "offset": 1230,
+   "len": 98,
+   "en": "\"This is a nice friendly town. All the townsfolk know each other. We get a lot of @visitors, too.\"",
+   "zh": "「這是個友善的好鎮子，鎮上居民都互相認識，@過客也不少。」",
+   "note": ""
+  },
+  {
+   "offset": 1339,
+   "len": 105,
+   "en": "\"I chose @Paws for my tavern because it's right on the King's Way, midway between @Britain and @Trinsic.\"",
+   "zh": "「在下選擇在@鴉爪鎮開酒館，因為它正好位於王道之上，介於@不列顛城和@崔西克的中途。」",
+   "note": ""
+  },
+  {
+   "offset": 1447,
+   "len": 86,
+   "en": "\"There's no better travelled spot in all Britannia, and that makes for good business.\"",
+   "zh": "「全不列顛尼亞沒有比這裡更繁忙的地方了，這對生意大有裨益。」",
+   "note": ""
+  },
+  {
+   "offset": 1543,
+   "len": 45,
+   "en": "\"I like the name of the town too, of course!\"",
+   "zh": "「當然，在下也很喜歡這個鎮子的名字！」",
+   "note": "鴉爪鎮Paws對貓而言很親切"
+  },
+  {
+   "offset": 1599,
+   "len": 28,
+   "en": "\"A nice place to visit, eh?\"",
+   "zh": "「是個不錯的地方，是嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1638,
+   "len": 63,
+   "en": "\"A bit too honorable for my tastes, if you know what I mean...\"",
+   "zh": "「對在下的口味來說稍嫌過於正直了，如果汝明白在下的意思……」",
+   "note": ""
+  },
+  {
+   "offset": 1712,
+   "len": 71,
+   "en": "\"Taynith is my dearest friend. Her @gypsy band travels the King's Way.\"",
+   "zh": "「泰尼絲是在下最親愛的朋友，她的@吉普賽樂隊走遍王道。」",
+   "note": ""
+  },
+  {
+   "offset": 1786,
+   "len": 41,
+   "en": "\"Once a week, she stops in to say hello.\"",
+   "zh": "「每週一次，她會順道來打個招呼。」",
+   "note": ""
+  },
+  {
+   "offset": 1853,
+   "len": 73,
+   "en": "\"Don't get the two gypsy bands mixed up... Taynith travels with @Zoltan.\"",
+   "zh": "「別把兩支吉普賽樂隊搞混……泰尼絲和@佐坦一起走。」",
+   "note": ""
+  },
+  {
+   "offset": 1929,
+   "len": 62,
+   "en": "\"The other group are a bunch of pickpockets and scallawags...\"",
+   "zh": "「另一支則是一幫扒手和流氓……」",
+   "note": ""
+  },
+  {
+   "offset": 2002,
+   "len": 36,
+   "en": "\"Yes, Zoltan, @king of the gypsies!\"",
+   "zh": "「是的，佐坦，吉普賽的@王！」",
+   "note": ""
+  },
+  {
+   "offset": 2049,
+   "len": 88,
+   "en": "\"I guess you can call yourself king of anything, if nobody comes along to dispute it...\"",
+   "zh": "「在下想，只要沒人提出異議，任何人都可以自稱什麼王……」",
+   "note": ""
+  },
+  {
+   "offset": 2165,
+   "len": 83,
+   "en": "\"A friend of Taynith's, are you? Here, have one on the house.\" He hands you an ale.",
+   "zh": "「汝是泰尼絲的朋友？來，這杯在下請客。」他遞給汝一杯麥酒。",
+   "note": ""
+  },
+  {
+   "offset": 2264,
+   "len": 69,
+   "en": "\"Taynith bet me one time I couldn't catch a duck with my bare hands.\"",
+   "zh": "「泰尼絲曾和在下打賭，說在下徒手抓不到鴨子。」",
+   "note": ""
+  },
+  {
+   "offset": 2336,
+   "len": 76,
+   "en": "\"So I did, and had a leash made for it, so I could give it to her as a pet.\"",
+   "zh": "「在下就抓到了，還特地為鴨子做了條牽繩，好送給她當寵物。」",
+   "note": ""
+  },
+  {
+   "offset": 2415,
+   "len": 71,
+   "en": "\"I doubt she still has it, though. I saw @Zoltan eyeing it hungrily...\"",
+   "zh": "「不過在下懷疑她還留著那鴨子，在下見@佐坦用飢餓的眼神盯著它……」",
+   "note": ""
+  },
+  {
+   "offset": 2497,
+   "len": 47,
+   "en": "\"Very good! you purr almost as well as @Kytyn.\"",
+   "zh": "「說得好！汝的呼嚕聲幾乎和@奇婷一樣好。」",
+   "note": ""
+  },
+  {
+   "offset": 2555,
+   "len": 23,
+   "en": "\"She lives in Britain.\"",
+   "zh": "「她住在不列顛城。」",
+   "note": ""
+  },
+  {
+   "offset": 2589,
+   "len": 90,
+   "en": "\"Are you friends of that deadbeat? He owes me for more drinks than I care to think about.\"",
+   "zh": "「汝是那個賴皮的朋友？他欠在下的酒錢多得在下不想去想。」",
+   "note": ""
+  },
+  {
+   "offset": 2682,
+   "len": 89,
+   "en": "\"The only reason I give him food and drink is because he can't sing with his mouth full!\"",
+   "zh": "「在下給他吃喝的唯一理由，是因為他嘴裡塞滿東西就唱不了歌了！」",
+   "note": ""
+  },
+  {
+   "offset": 3039,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝們誰？」",
+   "note": ""
+  },
+  {
+   "offset": 3107,
+   "len": 31,
+   "en": "\"That's #1 crowns. Want some?\" ",
+   "zh": "「共#1金，要嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 3191,
+   "len": 34,
+   "en": "\"You don't have room to carry it.\"",
+   "zh": "「汝沒有空間攜帶。」",
+   "note": ""
+  },
+  {
+   "offset": 3316,
+   "len": 35,
+   "en": "\"Here you are.\" $N gives $Y the $1.",
+   "zh": "「請。」$N給$Y $1。",
+   "note": ""
+  },
+  {
+   "offset": 3364,
+   "len": 29,
+   "en": "\"You're a bit short on gold.\"",
+   "zh": "「汝的金幣有點不足。」",
+   "note": ""
+  },
+  {
+   "offset": 3409,
+   "len": 60,
+   "en": "\"Drink up and enjoy, for who knows what tomorrow may bring?\"",
+   "zh": "「盡情享用吧，誰知明日會如何？」",
+   "note": ""
+  },
+  {
+   "offset": 3565,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝們誰？」",
+   "note": ""
+  },
+  {
+   "offset": 3620,
+   "len": 78,
+   "en": "\"Milk is very good for you, and only 5 crowns for a whole bucket. Want some?\" ",
+   "zh": "「牛奶對汝大有裨益，整桶只要5金，要嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 3724,
+   "len": 34,
+   "en": "\"You don't have room to carry it.\"",
+   "zh": "「汝沒有空間攜帶。」",
+   "note": ""
+  },
+  {
+   "offset": 3824,
+   "len": 55,
+   "en": "$N gives $Y the milk. \"You have good taste, my friend.\"",
+   "zh": "$N給$Y牛奶。「汝有好品味，朋友。」",
+   "note": ""
+  },
+  {
+   "offset": 3902,
+   "len": 29,
+   "en": "\"You're a bit short on gold.\"",
+   "zh": "「汝的金幣有點不足。」",
+   "note": ""
+  },
+  {
+   "offset": 3943,
+   "len": 71,
+   "en": "\"If you aren't thirsty, you could always get some to give to the cats.\"",
+   "zh": "「若汝不渴，也可以買些牛奶給貓咪喝。」",
+   "note": ""
+  },
+  {
+   "offset": 4017,
+   "len": 50,
+   "en": "\"It's the quickest way to get on their good side.\"",
+   "zh": "「這是討她們歡心的最快方法。」",
+   "note": ""
+  },
+  {
+   "offset": 4168,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝們誰？」",
+   "note": ""
+  },
+  {
+   "offset": 4269,
+   "len": 92,
+   "en": "\"I sell the finest mutton, and for only 3 gold per serving. How many servings do you want?\" ",
+   "zh": "「在下賣最上等的羊肉，每份只需3金，汝要幾份？」",
+   "note": ""
+  },
+  {
+   "offset": 4540,
+   "len": 52,
+   "en": "$N looks at $Y. \"You haven't any room in your pack.\"",
+   "zh": "$N看向$Y，「汝的背包已沒有空間了。」",
+   "note": ""
+  },
+  {
+   "offset": 4612,
+   "len": 29,
+   "en": "\"You're a bit short on gold.\"",
+   "zh": "「汝的金幣有點不足。」",
+   "note": ""
+  },
+  {
+   "offset": 4706,
+   "len": 27,
+   "en": "$N hands the rations to $Y.",
+   "zh": "$N將口糧遞給$Y。",
+   "note": ""
+  },
+  {
+   "offset": 4742,
+   "len": 31,
+   "en": "He hands $Y #9 mutton ration\\s.",
+   "zh": "他遞給$Y #9份羊肉口糧。",
+   "note": ""
+  },
+  {
+   "offset": 4787,
+   "len": 27,
+   "en": "\"That's all you can carry.\"",
+   "zh": "「這是汝能攜帶的極限了。」",
+   "note": ""
+  },
+  {
+   "offset": 4823,
+   "len": 28,
+   "en": "\"That's all you can afford.\"",
+   "zh": "「這是汝能負擔的極限了。」",
+   "note": ""
+  },
+  {
+   "offset": 4872,
+   "len": 4,
+   "en": "Mead",
+   "zh": "蜂蜜酒",
+   "note": ""
+  },
+  {
+   "offset": 4877,
+   "len": 3,
+   "en": "Ale",
+   "zh": "麥酒",
+   "note": ""
+  },
+  {
+   "offset": 4881,
+   "len": 4,
+   "en": "Wine",
+   "zh": "葡萄酒",
+   "note": ""
+  },
+  {
+   "offset": 4886,
+   "len": 50,
+   "en": "\"I think I've got time for a quick game of Nim...\"",
+   "zh": "「在下想在下有時間玩一局快速的尼姆棋……」",
+   "note": "Nim=數學策略桌遊"
+  },
+  {
+   "offset": 4946,
+   "len": 75,
+   "en": "\"Would you care to wager on the outcome, just to keep things interesting?\" ",
+   "zh": "「汝願意下注嗎，只是為了增添點趣味？」",
+   "note": ""
+  },
+  {
+   "offset": 5027,
+   "len": 52,
+   "en": "\"Well, maybe after you've had a few practice games.\"",
+   "zh": "「嗯，或許先練習幾局再說。」",
+   "note": ""
+  },
+  {
+   "offset": 5103,
+   "len": 85,
+   "en": "\"Tell you what... I'm in a reckless mood. This time you can bet as much as you like.\"",
+   "zh": "「這樣吧……在下今天心情冒進，這次汝想賭多少就賭多少。」",
+   "note": ""
+  },
+  {
+   "offset": 5198,
+   "len": 45,
+   "en": "\"Excellent! How much would you like to bet?\" ",
+   "zh": "「極好！汝想賭多少？」",
+   "note": ""
+  },
+  {
+   "offset": 5269,
+   "len": 29,
+   "en": "\"You don't have that much... ",
+   "zh": "「汝沒有那麼多……",
+   "note": "fragment"
+  },
+  {
+   "offset": 5320,
+   "len": 74,
+   "en": "\"That's a little steep for a friendly game. Let's just make it 50 crowns.\"",
+   "zh": "「對友誼賽來說賭注高了點，就定50金吧。」",
+   "note": ""
+  },
+  {
+   "offset": 5426,
+   "len": 66,
+   "en": "\"Let me just remind you of the rules, in case you don't remember.\"",
+   "zh": "「讓在下提醒汝規則，以防汝忘記了。」",
+   "note": ""
+  },
+  {
+   "offset": 5495,
+   "len": 81,
+   "en": "\"We start with ten pieces.\" He takes some colorful glass beads out of his pocket.",
+   "zh": "「我們從十顆棋子開始。」他從口袋裡取出幾顆色彩繽紛的玻璃珠。",
+   "note": ""
+  },
+  {
+   "offset": 5579,
+   "len": 74,
+   "en": "\"Each player takes turns, taking one, two or three beads out of the pile.\"",
+   "zh": "「每位玩家輪流從堆中取走一、二或三顆珠子。」",
+   "note": ""
+  },
+  {
+   "offset": 5656,
+   "len": 33,
+   "en": "\"Whoever gets the last one wins!\"",
+   "zh": "「取走最後一顆者獲勝！」",
+   "note": ""
+  },
+  {
+   "offset": 5743,
+   "len": 28,
+   "en": "\"I'll play first this time.\"",
+   "zh": "「這次在下先走。」",
+   "note": ""
+  },
+  {
+   "offset": 5787,
+   "len": 36,
+   "en": "\"I'll let you play first this time.\"",
+   "zh": "「這次讓汝先走。」",
+   "note": ""
+  },
+  {
+   "offset": 5834,
+   "len": 47,
+   "en": "There are #0 beads left. How many do you take? ",
+   "zh": "剩餘#0顆珠子，汝取走幾顆？",
+   "note": ""
+  },
+  {
+   "offset": 6126,
+   "len": 22,
+   "en": "\"I'll take #1 bead\\s.\"",
+   "zh": "「在下取走#1顆珠子。」",
+   "note": ""
+  },
+  {
+   "offset": 6174,
+   "len": 8,
+   "en": "\"I won!\"",
+   "zh": "「在下贏了！」",
+   "note": ""
+  },
+  {
+   "offset": 6185,
+   "len": 55,
+   "en": "\"Don't take it too hard... I've had a lot of practice.\"",
+   "zh": "「別太難過……在下練習了很久。」",
+   "note": ""
+  },
+  {
+   "offset": 6263,
+   "len": 85,
+   "en": "\"I'll put your money someplace safe, in case you want to come and win it back later.\"",
+   "zh": "「在下把汝的錢放在安全的地方，以防汝之後想來贏回去。」",
+   "note": ""
+  },
+  {
+   "offset": 6357,
+   "len": 35,
+   "en": "\"Well done! You got the last bead.\"",
+   "zh": "「幹得漂亮！汝取走了最後一顆珠子。」",
+   "note": ""
+  },
+  {
+   "offset": 6399,
+   "len": 60,
+   "en": " He takes some money out of a pouch and pays off your wager.",
+   "zh": " 他從錢袋中取出金幣，支付汝的賭注。",
+   "note": ""
+  },
+  {
+   "offset": 6505,
+   "len": 33,
+   "en": "\"Would you like to @play again?\" ",
+   "zh": "「汝想@再玩一局嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 6553,
+   "len": 36,
+   "en": "\"@Purrrrhaps some other time, then.\"",
+   "zh": "「@呼嚕~或許改日吧。」",
+   "note": "貓咪口頭禪，呼嚕聲"
+  },
+  {
+   "offset": 6595,
+   "len": 66,
+   "en": "\"Have you got a copy of Snilwit's that you'd be willing to sell?\" ",
+   "zh": "「汝是否有一本斯尼爾維特的書願意出售？」",
+   "note": ""
+  },
+  {
+   "offset": 6667,
+   "len": 38,
+   "en": "\"That's too bad. I'd pay well for it.\"",
+   "zh": "「太可惜了，在下願意出好價錢。」",
+   "note": ""
+  },
+  {
+   "offset": 6730,
+   "len": 23,
+   "en": "\"You must be mistaken.\"",
+   "zh": "「汝一定是搞錯了。」",
+   "note": ""
+  },
+  {
+   "offset": 6817,
+   "len": 54,
+   "en": "\"Put down some stuff, $Y, so you can carry some gold!\"",
+   "zh": "「$Y，放下些東西，好帶些金幣！」",
+   "note": ""
+  },
+  {
+   "offset": 6877,
+   "len": 56,
+   "en": "\"Great! This is the definitive reference on boardgames.\"",
+   "zh": "「太好了！這是桌遊的權威參考書。」",
+   "note": ""
+  },
+  {
+   "offset": 6936,
+   "len": 28,
+   "en": "He takes the book and gives ",
+   "zh": "他取走書冊，給",
+   "note": "fragment"
+  },
+  {
+   "offset": 6971,
+   "len": 3,
+   "en": "you",
+   "zh": "汝",
+   "note": "fragment"
+  },
+  {
+   "offset": 6975,
+   "len": 2,
+   "en": "$Y",
+   "zh": "$Y",
+   "note": "fragment"
+  },
+  {
+   "offset": 6978,
+   "len": 16,
+   "en": " #0 gold crowns.",
+   "zh": " #0枚金幣。",
+   "note": "fragment"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Dr. Cat": "貓博士",
+   "Taynith": "泰尼絲",
+   "Zoltan": "佐坦",
+   "Kytyn": "奇婷"
+  },
+  "places": {
+   "Cat's Lair": "貓窩酒館"
+  }
+ },
+ "translator_notes": "110 Dr. Cat: 鴉爪鎮貓窩酒館主人，幽默紳士。愛好尼姆棋並與顧客對賭。尋找斯尼爾維特桌遊書。Taynith吉普賽朋友，Zoltan吉普賽王。"
+}

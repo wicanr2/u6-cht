@@ -1,0 +1,248 @@
+{
+ "translations": [
+  {
+   "offset": 10,
+   "len": 51,
+   "en": "a man whose pungent smell greets you before he can.",
+   "zh": "一個刺鼻的氣味在他本人之前便先迎接了汝。",
+   "note": "DESC"
+  },
+  {
+   "offset": 64,
+   "len": 20,
+   "en": "\"Well, hello there, ",
+   "zh": "「嘿，你好，",
+   "note": "fragment，與friend/stranger拼接"
+  },
+  {
+   "offset": 90,
+   "len": 6,
+   "en": "friend",
+   "zh": "朋友",
+   "note": "fragment"
+  },
+  {
+   "offset": 97,
+   "len": 8,
+   "en": "stranger",
+   "zh": "過客",
+   "note": "fragment"
+  },
+  {
+   "offset": 112,
+   "len": 2,
+   "en": "!\"",
+   "zh": "！」",
+   "note": "fragment"
+  },
+  {
+   "offset": 144,
+   "len": 13,
+   "en": "Back for more",
+   "zh": "又來了，還要",
+   "note": "fragment"
+  },
+  {
+   "offset": 158,
+   "len": 13,
+   "en": "Come for some",
+   "zh": "來要些",
+   "note": "fragment"
+  },
+  {
+   "offset": 172,
+   "len": 8,
+   "en": " @meat?\"",
+   "zh": "@肉嗎？」",
+   "note": "fragment"
+  },
+  {
+   "offset": 188,
+   "len": 27,
+   "en": "\"@Hendle the Slaughterman.\"",
+   "zh": "「@亨德爾屠夫。」",
+   "note": ""
+  },
+  {
+   "offset": 232,
+   "len": 6,
+   "en": "\"Yep.\"",
+   "zh": "「就是。」",
+   "note": ""
+  },
+  {
+   "offset": 256,
+   "len": 70,
+   "en": "\"As ya can see, I slaughter the beef and pork which you can then buy.\"",
+   "zh": "「如汝所見，在下宰殺牛豬，汝便可來購買。」",
+   "note": ""
+  },
+  {
+   "offset": 328,
+   "len": 28,
+   "en": "\"I slaughter beef and pork.\"",
+   "zh": "「在下宰殺牛豬。」",
+   "note": ""
+  },
+  {
+   "offset": 359,
+   "len": 54,
+   "en": "\"Makes me a bit unpopular 'ere in the pub!\" he laughs.",
+   "zh": "「這讓在下在這個酒館裡有點不受歡迎！」他大笑。",
+   "note": ""
+  },
+  {
+   "offset": 443,
+   "len": 70,
+   "en": "\"Strewth! If I carried it around with me, I'd be even more unpopular!\"",
+   "zh": "「天哪！若在下把肉帶在身上，那就更不受歡迎了！」",
+   "note": ""
+  },
+  {
+   "offset": 516,
+   "len": 64,
+   "en": "He laughs, then continues, \"Nay, friend, come to my shop later.\"",
+   "zh": "他大笑，然後繼續說：「不，朋友，晚些來在下的鋪子。」",
+   "note": ""
+  },
+  {
+   "offset": 583,
+   "len": 22,
+   "en": "\"I'll fix ya up then.\"",
+   "zh": "「那時在下幫汝備好。」",
+   "note": ""
+  },
+  {
+   "offset": 616,
+   "len": 23,
+   "en": "\"Be careful out there.\"",
+   "zh": "「出門小心。」",
+   "note": ""
+  },
+  {
+   "offset": 651,
+   "len": 53,
+   "en": "He stops chopping and scratches his chin. \"Say what?\"",
+   "zh": "他停下剁肉，摸著下巴。「說什麼？」",
+   "note": ""
+  },
+  {
+   "offset": 706,
+   "len": 56,
+   "en": "He takes a swig from his mug and asks, \"What d'ya mean?\"",
+   "zh": "他喝了一口杯子裡的酒，問：「汝是什麼意思？」",
+   "note": ""
+  },
+  {
+   "offset": 859,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝們誰？」",
+   "note": ""
+  },
+  {
+   "offset": 885,
+   "len": 11,
+   "en": "\"Whatever.\"",
+   "zh": "「隨便吧。」",
+   "note": ""
+  },
+  {
+   "offset": 943,
+   "len": 6,
+   "en": "1. Ham",
+   "zh": "1. 火腿",
+   "note": ""
+  },
+  {
+   "offset": 950,
+   "len": 8,
+   "en": "2. Bacon",
+   "zh": "2. 培根",
+   "note": ""
+  },
+  {
+   "offset": 959,
+   "len": 13,
+   "en": "3. Pork Chops",
+   "zh": "3. 豬排",
+   "note": ""
+  },
+  {
+   "offset": 973,
+   "len": 10,
+   "en": "4. Brisket",
+   "zh": "4. 牛胸肉",
+   "note": ""
+  },
+  {
+   "offset": 984,
+   "len": 8,
+   "en": "5. Steak",
+   "zh": "5. 牛排",
+   "note": ""
+  },
+  {
+   "offset": 993,
+   "len": 7,
+   "en": "6. Ribs",
+   "zh": "6. 排骨",
+   "note": ""
+  },
+  {
+   "offset": 1001,
+   "len": 14,
+   "en": "\"Which item?\" ",
+   "zh": "「要哪樣？」",
+   "note": ""
+  },
+  {
+   "offset": 1025,
+   "len": 11,
+   "en": "\"Whatever.\"",
+   "zh": "「隨便吧。」",
+   "note": ""
+  },
+  {
+   "offset": 1179,
+   "len": 63,
+   "en": "Hendle smiles at $Y, \"That will cost you #1 gold. Interested?\" ",
+   "zh": "亨德爾朝$Y微笑，「那要#1金，有興趣嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1248,
+   "len": 11,
+   "en": "\"Whatever.\"",
+   "zh": "「隨便吧。」",
+   "note": ""
+  },
+  {
+   "offset": 1285,
+   "len": 33,
+   "en": "\"You look pretty full to me, $Y.\"",
+   "zh": "「$Y，汝看起來已裝得滿滿的了。」",
+   "note": ""
+  },
+  {
+   "offset": 1361,
+   "len": 63,
+   "en": "\"Excellent!\" After accepting $Y's gold, $N hands over the food.",
+   "zh": "「極好！」收下$Y的金幣後，$N遞出食物。",
+   "note": ""
+  },
+  {
+   "offset": 1431,
+   "len": 33,
+   "en": "\"You don't have enough gold, $Y.\"",
+   "zh": "「$Y，汝的金幣不夠。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Hendle": "亨德爾"
+  }
+ },
+ "translator_notes": "107 Hendle: 鴉爪鎮屠夫，滿身肉腥味，豪爽幽默。賣各種豬牛肉品（火腿、培根、豬排、牛胸肉、牛排、排骨）。"
+}

@@ -1,0 +1,290 @@
+{
+ "translations": [
+  {
+   "offset": 10,
+   "len": 27,
+   "en": "the humble peasant Katrina.",
+   "zh": "謙遜農婦卡翠娜。",
+   "note": "DESC"
+  },
+  {
+   "offset": 45,
+   "len": 31,
+   "en": "\"I'm but a simple peasant, $G.\"",
+   "zh": "「在下不過是個尋常農婦，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 79,
+   "len": 41,
+   "en": "\"I doubt I could help in this situation.\"",
+   "zh": "「此事在下恐怕無能為力。」",
+   "note": ""
+  },
+  {
+   "offset": 133,
+   "len": 55,
+   "en": "\"Good $T, $G. Wilt thou allow me to follow you again?\" ",
+   "zh": "「$T好，$G。汝可允許在下再次隨行？」",
+   "note": ""
+  },
+  {
+   "offset": 194,
+   "len": 37,
+   "en": "\"Command me to @join and I will, $G.\"",
+   "zh": "「$G，請命令在下@加入，在下即從命。」",
+   "note": ""
+  },
+  {
+   "offset": 239,
+   "len": 24,
+   "en": "\"As thou deem best, $G.\"",
+   "zh": "「$G，一切全憑汝決斷。」",
+   "note": ""
+  },
+  {
+   "offset": 276,
+   "len": 59,
+   "en": "\"Good $T, $G! I hope thou hast fared well in thy travels?\" ",
+   "zh": "「$T好，$G！但願汝一路旅途安好？」",
+   "note": ""
+  },
+  {
+   "offset": 341,
+   "len": 53,
+   "en": "\"The land rejoices when all is well with the Avatar!\"",
+   "zh": "「聖者安好，不列顛尼亞大地亦同歡欣！」",
+   "note": ""
+  },
+  {
+   "offset": 402,
+   "len": 75,
+   "en": "\"If there is aught a humble peasant can do to help, I am yours to command.\"",
+   "zh": "「若有任何謙遜農婦力所能及之事，在下聽命於汝。」",
+   "note": ""
+  },
+  {
+   "offset": 484,
+   "len": 83,
+   "en": "\"$P! I had heard that thou hadst returned to our land, but I dared not believe it!\"",
+   "zh": "「$P！在下聽聞汝已回歸我等之地，卻不敢相信！」",
+   "note": ""
+  },
+  {
+   "offset": 576,
+   "len": 59,
+   "en": "\"Hast thou returned to save our land from the @gargoyles?\" ",
+   "zh": "「汝是否歸來拯救我等之地免受@魔像族侵擾？」",
+   "note": ""
+  },
+  {
+   "offset": 641,
+   "len": 35,
+   "en": "\"Then surely we are saved already!\"",
+   "zh": "「那我等必定已得救了！」",
+   "note": ""
+  },
+  {
+   "offset": 679,
+   "len": 57,
+   "en": "\"Then perhaps the crisis is not so severe as rumor says.\"",
+   "zh": "「那危機或許並不如傳言所說的那般嚴峻。」",
+   "note": ""
+  },
+  {
+   "offset": 740,
+   "len": 90,
+   "en": "\"If there is aught a humble peasant might do to aid thy quest, $G, I am yours to command.\"",
+   "zh": "「$G，若有任何謙遜農婦力所能及之事足以助汝之使命，在下聽命於汝。」",
+   "note": ""
+  },
+  {
+   "offset": 838,
+   "len": 57,
+   "en": "\"I am called Katrina, $G, as I was the last time we met.\"",
+   "zh": "「在下名叫卡翠娜，$G，如同我等上次相逢時一樣。」",
+   "note": ""
+  },
+  {
+   "offset": 905,
+   "len": 73,
+   "en": "\"Times have changed, $G. Where once I grazed sheep, now I till the land.\"",
+   "zh": "「時移勢易，$G。昔日在下放牧羊群，如今則耕作土地。」",
+   "note": ""
+  },
+  {
+   "offset": 980,
+   "len": 40,
+   "en": "\"All work is the same to a peasant, $G.\"",
+   "zh": "「$G，對農婦而言，一切勞作皆無分別。」",
+   "note": ""
+  },
+  {
+   "offset": 1022,
+   "len": 35,
+   "en": "\"We all do what is expected of us.\"",
+   "zh": "「我等皆各司其職，盡其本分。」",
+   "note": ""
+  },
+  {
+   "offset": 1068,
+   "len": 63,
+   "en": "\"If thou wouldst have me @join thy quest, thou needst but ask.\"",
+   "zh": "「若汝欲在下@加入汝的使命，只需開口相告即可。」",
+   "note": ""
+  },
+  {
+   "offset": 1148,
+   "len": 34,
+   "en": "\"Surely I misunderstand thee, $G.\"",
+   "zh": "「$G，在下定是誤解了汝之意思。」",
+   "note": ""
+  },
+  {
+   "offset": 1185,
+   "len": 40,
+   "en": "\"Am I not already a member of thy band?\"",
+   "zh": "「在下不是已是汝隊伍中的一員了嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1246,
+   "len": 45,
+   "en": "\"Since thou dost think it wise, I wilt join.\"",
+   "zh": "「既然汝以為如此為妥，在下便加入。」",
+   "note": ""
+  },
+  {
+   "offset": 1294,
+   "len": 29,
+   "en": "\"I hope I can aid thy quest.\"",
+   "zh": "「但願在下能助汝使命一臂之力。」",
+   "note": ""
+  },
+  {
+   "offset": 1340,
+   "len": 49,
+   "en": "\"I hesitate to deny any request thou might have.\"",
+   "zh": "「在下不忍拒絕汝任何請求。」",
+   "note": ""
+  },
+  {
+   "offset": 1392,
+   "len": 53,
+   "en": "\"But thou seemst to have enough companions as it is.\"",
+   "zh": "「然汝似乎已有足夠的夥伴了。」",
+   "note": ""
+  },
+  {
+   "offset": 1448,
+   "len": 72,
+   "en": "\"Mayhap if one of them left your band, thou might have more need of me.\"",
+   "zh": "「或許若其中一人離開汝的隊伍，汝便更需要在下了。」",
+   "note": ""
+  },
+  {
+   "offset": 1526,
+   "len": 57,
+   "en": "\"But $G, there is no need to join you here, aboard ship.\"",
+   "zh": "「然而$G，在船上並無必要加入汝。」",
+   "note": ""
+  },
+  {
+   "offset": 1586,
+   "len": 31,
+   "en": "\"There is no place else to go!\"",
+   "zh": "「別無他處可去！」",
+   "note": ""
+  },
+  {
+   "offset": 1620,
+   "len": 36,
+   "en": "\"Mayhap if thou asked again ashore.\"",
+   "zh": "「或許待上岸後汝再行詢問。」",
+   "note": ""
+  },
+  {
+   "offset": 1689,
+   "len": 69,
+   "en": "\"Whatever thou thinkest best, $G. I'll leave my equipment with thee.\"",
+   "zh": "「$G，一切全憑汝所認為最妥之決定。在下的裝備就留與汝。」",
+   "note": ""
+  },
+  {
+   "offset": 1761,
+   "len": 41,
+   "en": "\"But $G, there is no place for me to go.\"",
+   "zh": "「然而$G，在下無處可去。」",
+   "note": ""
+  },
+  {
+   "offset": 1805,
+   "len": 46,
+   "en": "\"Mayhap this should wait until we are ashore.\"",
+   "zh": "「或許此事應待我等上岸後再議。」",
+   "note": ""
+  },
+  {
+   "offset": 1863,
+   "len": 51,
+   "en": "\"The gargoyles are a grave threat to the land, $G.\"",
+   "zh": "「魔像族對大地是嚴重的威脅，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 1917,
+   "len": 63,
+   "en": "\"Many brave soldiers have died defending us from the invaders!\"",
+   "zh": "「已有許多勇敢的將士為守衛我等抵禦入侵者而犧牲！」",
+   "note": "許 Big5 OK，此處可用"
+  },
+  {
+   "offset": 2001,
+   "len": 56,
+   "en": "\"I am most sorry, $G, but I cannot answer thy question.\"",
+   "zh": "「$G，在下深感抱歉，但此問題在下無法作答。」",
+   "note": ""
+  },
+  {
+   "offset": 2060,
+   "len": 74,
+   "en": "\"'Twould be vain of me to answer truthfully, and 'twould be worse to lie.\"",
+   "zh": "「如實回答乃自大之舉，撒謊則更糟。」",
+   "note": "謙遜困境：若說自己最謙遜便是驕傲"
+  },
+  {
+   "offset": 2149,
+   "len": 43,
+   "en": "\"May we live up to the trust placed in us.\"",
+   "zh": "「願我等皆能不負眾人所寄之信任。」",
+   "note": ""
+  },
+  {
+   "offset": 2194,
+   "len": 66,
+   "en": "\"Farewell! The Avatar carries with him the hopes of all the land.\"",
+   "zh": "「珍重！聖者承載著全境人民的希望。」",
+   "note": ""
+  },
+  {
+   "offset": 2273,
+   "len": 53,
+   "en": "\"A peasant such as myself knows little about $Z, $G.\"",
+   "zh": "「在下不過是個農婦，對$Z知之甚少，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 2327,
+   "len": 17,
+   "en": "\"Beg pardon, $G?\"",
+   "zh": "「$G，請問汝說什麼？」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Katrina": "卡翠娜"
+  }
+ },
+ "translator_notes": "097 Katrina: 謙遜農婦，聖者昔日同伴。本作中已改牧羊為耕田。謙遜困境：承認自己最謙遜即是驕傲。"
+}

@@ -1,0 +1,396 @@
+{
+ "translations": [
+  {
+   "offset": 10,
+   "len": 33,
+   "en": "a tiny little man with wild eyes.",
+   "zh": "一位眼神狂野的矮小男子。",
+   "note": "DESC"
+  },
+  {
+   "offset": 65,
+   "len": 17,
+   "en": "\"Yeah. Ok. Yeah.\"",
+   "zh": "「是啊，好的，是啊。」",
+   "note": ""
+  },
+  {
+   "offset": 84,
+   "len": 77,
+   "en": "He looks you up and down and then claps his hands together. \"Yeah. Ok. Yeah.\"",
+   "zh": "他上下打量汝，然後將雙手一拍。「是啊，好的，是啊。」",
+   "note": ""
+  },
+  {
+   "offset": 174,
+   "len": 26,
+   "en": "\"Back for some more wine?\"",
+   "zh": "「回來再買些酒？」",
+   "note": ""
+  },
+  {
+   "offset": 207,
+   "len": 24,
+   "en": "\"What can I do you for?\"",
+   "zh": "「有何效勞之處？」",
+   "note": ""
+  },
+  {
+   "offset": 239,
+   "len": 37,
+   "en": "\"@Stivius the wine merchant is mine.\"",
+   "zh": "「@斯提維斯，葡萄酒商人，乃在下大名。」",
+   "note": ""
+  },
+  {
+   "offset": 288,
+   "len": 19,
+   "en": "\"Quite a name, eh?\"",
+   "zh": "「好個名字，是吧？」",
+   "note": ""
+  },
+  {
+   "offset": 318,
+   "len": 15,
+   "en": "\"I make @wine.\"",
+   "zh": "「在下釀製@葡萄酒。」",
+   "note": ""
+  },
+  {
+   "offset": 348,
+   "len": 35,
+   "en": "\"Yeah. Maybe you want to buy some.\"",
+   "zh": "「是啊，或許汝想買些。」",
+   "note": ""
+  },
+  {
+   "offset": 397,
+   "len": 44,
+   "en": "\"It's not just a @tale you've been hearing.\"",
+   "zh": "「汝所聽聞的，並非單純的@傳言。」",
+   "note": ""
+  },
+  {
+   "offset": 453,
+   "len": 48,
+   "en": "\"Everyone knows that @Quenton haunts this town.\"",
+   "zh": "「人人都知道@昆頓的幽靈在此地徘徊。」",
+   "note": ""
+  },
+  {
+   "offset": 504,
+   "len": 70,
+   "en": "\"If I had been @murdered by those evil ones...but that's just gossip.\"",
+   "zh": "「若我也被那些惡徒@謀殺……但那只是流言罷了。」",
+   "note": ""
+  },
+  {
+   "offset": 591,
+   "len": 63,
+   "en": "\"It was late one night and I had just returned from my fields.\"",
+   "zh": "「那是一個深夜，我剛從田地裡回來。」",
+   "note": ""
+  },
+  {
+   "offset": 657,
+   "len": 53,
+   "en": "\"'Course my path takes me right by @Gideon's garden.\"",
+   "zh": "「當然，我走的路正好經過@吉迪恩的花園。」",
+   "note": ""
+  },
+  {
+   "offset": 712,
+   "len": 70,
+   "en": "\"I heard a @noise by the well and saw some @dark forms hunched there.\"",
+   "zh": "「我聽到井邊有@聲響，並看見一些@黑影蜷伏在那裡。」",
+   "note": ""
+  },
+  {
+   "offset": 785,
+   "len": 41,
+   "en": "\"They had huge wings and @evil red eyes.\"",
+   "zh": "「他們有巨大的翅膀和@邪惡的紅色眼睛。」",
+   "note": ""
+  },
+  {
+   "offset": 829,
+   "len": 59,
+   "en": "\"I ran like the wind to my doorway. I was sure I was dead.\"",
+   "zh": "「我如飛奔回門口，以為自己必死無疑。」",
+   "note": ""
+  },
+  {
+   "offset": 900,
+   "len": 56,
+   "en": "\"He was a nice enough soul. I sold many bottles to him.\"",
+   "zh": "「他是個頗可親的人，我賣了許多瓶酒給他。」",
+   "note": ""
+  },
+  {
+   "offset": 973,
+   "len": 32,
+   "en": "\"Gideon runs the Haunting @Inn.\"",
+   "zh": "「吉迪恩打理鬼影@旅店。」",
+   "note": ""
+  },
+  {
+   "offset": 1008,
+   "len": 62,
+   "en": "\"His @wife has a garden which you can see from my front door.\"",
+   "zh": "「他@妻子的花園從我門口就能看到。」",
+   "note": ""
+  },
+  {
+   "offset": 1086,
+   "len": 50,
+   "en": "\"It's the Inn straight across the lane from here.\"",
+   "zh": "「就是從這裡徑直穿過小巷的那家旅店。」",
+   "note": ""
+  },
+  {
+   "offset": 1148,
+   "len": 47,
+   "en": "\"She doesn't do much. Helps him run the place.\"",
+   "zh": "「她不太出門，就幫他打理旅店。」",
+   "note": ""
+  },
+  {
+   "offset": 1207,
+   "len": 65,
+   "en": "\"Twas a strange @whispering, in a tongue I could not understand.\"",
+   "zh": "「那是一種奇異的@低語，用的是我聽不懂的語言。」",
+   "note": ""
+  },
+  {
+   "offset": 1294,
+   "len": 49,
+   "en": "\"It didn't sound like any language I ever heard.\"",
+   "zh": "「那聽起來不像我曾聽過的任何語言。」",
+   "note": ""
+  },
+  {
+   "offset": 1346,
+   "len": 41,
+   "en": "\"More like one o' them guild @languages.\"",
+   "zh": "「更像是某種公會的@行話。」",
+   "note": ""
+  },
+  {
+   "offset": 1404,
+   "len": 37,
+   "en": "\"Like the one the @alchemist speaks.\"",
+   "zh": "「就像那位@鍊金術士說的那種。」",
+   "note": ""
+  },
+  {
+   "offset": 1453,
+   "len": 66,
+   "en": "\"Go ask old @Horance. He can tell ya - if you can understand him!\"",
+   "zh": "「去問老@霍蘭斯，他能解答汝——如果汝聽得懂他說的話！」",
+   "note": ""
+  },
+  {
+   "offset": 1531,
+   "len": 45,
+   "en": "\"He lives over on @Ivers Rounding by himself.",
+   "zh": "「他獨居在@艾佛圓角那邊。",
+   "note": "片段"
+  },
+  {
+   "offset": 1593,
+   "len": 34,
+   "en": "\"You must be new to this village.\"",
+   "zh": "「汝一定是初來此村吧。」",
+   "note": ""
+  },
+  {
+   "offset": 1629,
+   "len": 39,
+   "en": "\"Go see @Marney, she'll get you there.\"",
+   "zh": "「去找@瑪妮，她能帶汝前往。」",
+   "note": ""
+  },
+  {
+   "offset": 1680,
+   "len": 45,
+   "en": "\"She's the daughter of @Quenton - the ghost.\"",
+   "zh": "「她是@昆頓的女兒——就是那個幽靈的女兒。」",
+   "note": ""
+  },
+  {
+   "offset": 1742,
+   "len": 64,
+   "en": "\"I couldn't see too clearly. They were about man-@sized though.\"",
+   "zh": "「我看得不太清楚，但他們大約是人@身般大小。」",
+   "note": ""
+  },
+  {
+   "offset": 1822,
+   "len": 61,
+   "en": "\"Yes, but they were hunched down so it was hard to see them.\"",
+   "zh": "「是的，但他們蜷縮著，所以難以看清。」",
+   "note": ""
+  },
+  {
+   "offset": 1914,
+   "len": 39,
+   "en": "His eyes widen. \"@Gargoyles they were!\"",
+   "zh": "他眼睛睜大。「那是@魔像族！」",
+   "note": ""
+  },
+  {
+   "offset": 1956,
+   "len": 36,
+   "en": "\"Must'a been ten or @twelve of 'em.\"",
+   "zh": "「定是有個十隻或@十二隻。」",
+   "note": ""
+  },
+  {
+   "offset": 2008,
+   "len": 39,
+   "en": "\"Well, perhaps more like two or three.\"",
+   "zh": "「呃，或許是兩三隻。」",
+   "note": ""
+  },
+  {
+   "offset": 2050,
+   "len": 37,
+   "en": "\"I didn't stay around and count 'em.\"",
+   "zh": "「我可沒留下來數清楚。」",
+   "note": ""
+  },
+  {
+   "offset": 2099,
+   "len": 34,
+   "en": "\"Yes. Big, ugly, snarling beasts.\"",
+   "zh": "「是的，碩大、醜陋、齜牙咧嘴的惡獸。」",
+   "note": ""
+  },
+  {
+   "offset": 2135,
+   "len": 46,
+   "en": "\"'Course, they were @kneeling when I saw 'em.\"",
+   "zh": "「當然，我看到他們時，他們正在@跪著。」",
+   "note": ""
+  },
+  {
+   "offset": 2193,
+   "len": 27,
+   "en": "\"You know, on their knees.\"",
+   "zh": "「就是跪在地上的那種。」",
+   "note": ""
+  },
+  {
+   "offset": 2237,
+   "len": 86,
+   "en": "\"I don't care much for him. He's always trying to get me to sell him my wine cheaper.\"",
+   "zh": "「我不太喜歡他，他總想讓我降價賣酒給他。」",
+   "note": ""
+  },
+  {
+   "offset": 2335,
+   "len": 19,
+   "en": "\"She's my sweetie.\"",
+   "zh": "「她是我的心上人。」",
+   "note": ""
+  },
+  {
+   "offset": 2357,
+   "len": 79,
+   "en": "He clasps his hands next to his cheek. \"I count the hours until I can see her.\"",
+   "zh": "他雙手合掌貼在臉旁。「我掰著指頭盼著見她。」",
+   "note": ""
+  },
+  {
+   "offset": 2448,
+   "len": 72,
+   "en": "\"I have never talked to him. He bought wine from me once but that's it.\"",
+   "zh": "「我從未和他說過話。他曾向我買過一次酒，僅此而已。」",
+   "note": ""
+  },
+  {
+   "offset": 2537,
+   "len": 55,
+   "en": "\"Well, what's to say? I am glad he is again our ruler.\"",
+   "zh": "「哦，能說什麼？我很高興他再度成為吾等的君主。」",
+   "note": ""
+  },
+  {
+   "offset": 2603,
+   "len": 31,
+   "en": "\"Come back if you get thirsty.\"",
+   "zh": "「口渴了再來找在下。」",
+   "note": ""
+  },
+  {
+   "offset": 2639,
+   "len": 30,
+   "en": "\"Ask someone else about that.\"",
+   "zh": "「此事另詢他人吧。」",
+   "note": ""
+  },
+  {
+   "offset": 2757,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪位？」",
+   "note": ""
+  },
+  {
+   "offset": 2875,
+   "len": 14,
+   "en": "\"Which item?\" ",
+   "zh": "「哪種酒？」",
+   "note": ""
+  },
+  {
+   "offset": 2958,
+   "len": 64,
+   "en": "$N smiles at $Y. \"For $0 it will cost you #1 gold. Interested?\" ",
+   "zh": "$N向$Y微笑。「$0售價#1枚金幣，有興趣否？」",
+   "note": ""
+  },
+  {
+   "offset": 3060,
+   "len": 29,
+   "en": "\"You look pretty full to me.\"",
+   "zh": "「汝看來已滿載了。」",
+   "note": ""
+  },
+  {
+   "offset": 3151,
+   "len": 63,
+   "en": "\"Excellent!\" After accepting $Y's gold, $N hands over the wine.",
+   "zh": "「甚好！」收下$Y的金幣後，$N將葡萄酒交予其手。",
+   "note": ""
+  },
+  {
+   "offset": 3243,
+   "len": 45,
+   "en": "$N looks at $Y. \"You don't have enough gold.\"",
+   "zh": "$N看向$Y。「汝的金幣不足。」",
+   "note": ""
+  },
+  {
+   "offset": 3300,
+   "len": 16,
+   "en": "\"Enjoy your $1.\"",
+   "zh": "「請享用汝的$1。」",
+   "note": ""
+  },
+  {
+   "offset": 3324,
+   "len": 33,
+   "en": "\"Too bad, it's really good wine.\"",
+   "zh": "「可惜，那真是上好的佳釀。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Stivius": "斯提維斯",
+   "Dezana": "德薩娜"
+  }
+ },
+ "translator_notes": "084 Stivius: 奇特的葡萄酒商人，愛戀德薩娜。目擊魔像族現身。口頭禪「是啊，好的」保留。"
+}

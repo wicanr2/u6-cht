@@ -1,0 +1,294 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 4,
+   "en": "Mole",
+   "zh": "鼴鼠",
+   "note": "NPC name — 掘墓人綽號"
+  },
+  {
+   "offset": 7,
+   "len": 27,
+   "en": "a coarse looking individual",
+   "zh": "一個相貌粗糙的人",
+   "note": "DESC 前半"
+  },
+  {
+   "offset": 44,
+   "len": 41,
+   "en": ", digging in the dirt with his bare hands",
+   "zh": "，正用雙手徒手挖土",
+   "note": "DESC 後半"
+  },
+  {
+   "offset": 109,
+   "len": 74,
+   "en": "\"Now, now. You can't be bringing bodies out here without no reservations.\"",
+   "zh": "「好了好了。你不能就這樣沒預約就把遺體帶來這裡。」",
+   "note": ""
+  },
+  {
+   "offset": 186,
+   "len": 53,
+   "en": "\"Go see me master Glen about having a funeral first.\"",
+   "zh": "「先去找我主人葛倫辦個葬禮手續吧。」",
+   "note": ""
+  },
+  {
+   "offset": 258,
+   "len": 46,
+   "en": "\"Old penny pincher says he's going to pay me?\"",
+   "zh": "「那個老吝嗇鬼說他要付我錢？」",
+   "note": ""
+  },
+  {
+   "offset": 307,
+   "len": 51,
+   "en": "\"I'll believe it when I have the coins in me hand.\"",
+   "zh": "「等錢放到我手心裡再說。」",
+   "note": ""
+  },
+  {
+   "offset": 387,
+   "len": 119,
+   "en": "\"Aye, maybe there'd 'ave been extra for shovel and such in my pay, if the old skinflint had ever remembered to pay me!\"",
+   "zh": "「是啊，要是那個老鐵公雞記得付我工錢，說不定還有額外的鏟子費哩！」",
+   "note": "英語俚口語保留鄉土氣"
+  },
+  {
+   "offset": 532,
+   "len": 94,
+   "en": "\"I'd have been glad to get a new shovel! Believe me, I knows how to pick out a good one, too.\"",
+   "zh": "「我巴不得拿到一把新鏟子！你信我，我還挺懂得挑好鏟子的。」",
+   "note": ""
+  },
+  {
+   "offset": 629,
+   "len": 60,
+   "en": "\"But how'm I supposed to pay for it, you just ask him that!\"",
+   "zh": "「但我哪來的錢買？你去問問他！」",
+   "note": ""
+  },
+  {
+   "offset": 715,
+   "len": 32,
+   "en": "Mole listens, a bit impatiently.",
+   "zh": "鼴鼠聽著，有些不耐煩。",
+   "note": "旁白"
+  },
+  {
+   "offset": 749,
+   "len": 96,
+   "en": "*\"He gave me a shovel, all right - cheapest shovel I ever saw in all my years in the business!\"*",
+   "zh": "*「他是給了我一把鏟子，沒錯——但那是我入行這麼多年見過最劣等的鏟子！」*",
+   "note": "* 控制符保留"
+  },
+  {
+   "offset": 847,
+   "len": 51,
+   "en": "\"Tell 'im it broke the third day I tried usin' it.\"",
+   "zh": "「告訴他，用了第三天就斷了。」",
+   "note": ""
+  },
+  {
+   "offset": 924,
+   "len": 28,
+   "en": "You tell him what Glen said.",
+   "zh": "你把葛倫說的話轉告他。",
+   "note": "旁白"
+  },
+  {
+   "offset": 954,
+   "len": 107,
+   "en": "*\"Wants 'is graves dug, does he? Well, you can tell old zombie-face I'd do a lot better if I had a shovel!\"",
+   "zh": "*「他要挖墳，是嗎？那你告訴那個殭屍臉老頭，給我一把鏟子我能挖得好多了！」",
+   "note": "* 控制符保留，zombie-face 俚稱保留諧謔感"
+  },
+  {
+   "offset": 1071,
+   "len": 76,
+   "en": "\"Hello. If I be speaking with ye, I'd best not be digging at the same time.\"",
+   "zh": "「哈囉。若要和你說話，我最好暫停挖土。」",
+   "note": ""
+  },
+  {
+   "offset": 1155,
+   "len": 12,
+   "en": "\"I be Mole.\"",
+   "zh": "「俺是鼴鼠。」",
+   "note": "鄉土語氣"
+  },
+  {
+   "offset": 1188,
+   "len": 46,
+   "en": "\"Digging's been in me family for generations.\"",
+   "zh": "「挖土這行在俺家已傳了好幾代了。」",
+   "note": ""
+  },
+  {
+   "offset": 1245,
+   "len": 54,
+   "en": "\"If you take away enough dirt, a grave's what's left.\"",
+   "zh": "「把土挖夠多，剩下的就是個墳。」",
+   "note": ""
+  },
+  {
+   "offset": 1302,
+   "len": 60,
+   "en": "\"After they has a @funeral, I puts all the dirt back again.\"",
+   "zh": "「辦完@funeral葬禮之後，我再把土填回去。」",
+   "note": ""
+  },
+  {
+   "offset": 1373,
+   "len": 62,
+   "en": "\"Funerals aren't me trade. I know plenty about @dirt, though.\"",
+   "zh": "「葬禮不是俺的行當。但俺對@dirt泥土可是很在行。」",
+   "note": ""
+  },
+  {
+   "offset": 1446,
+   "len": 52,
+   "en": "\"I knows all the different @kinds of dirt by heart.\"",
+   "zh": "「俺對各種@kinds不同的泥土如數家珍。」",
+   "note": ""
+  },
+  {
+   "offset": 1519,
+   "len": 29,
+   "en": "\"Learned 'em from me father.\"",
+   "zh": "「是俺爹教俺的。」",
+   "note": ""
+  },
+  {
+   "offset": 1563,
+   "len": 38,
+   "en": "\"I @dig @graves for me master, @Glen.\"",
+   "zh": "「俺幫俺主人@Glen挖@graves墳，就這活。」",
+   "note": ""
+  },
+  {
+   "offset": 1629,
+   "len": 75,
+   "en": "\"What 'ave you got I could want? All I needs in me life is a good @shovel.\"",
+   "zh": "「你有啥是俺想要的？俺這輩子只需要一把好@shovel鏟子。」",
+   "note": ""
+  },
+  {
+   "offset": 1733,
+   "len": 29,
+   "en": "\"'Tis the @tool of me trade.\"",
+   "zh": "「那是俺的@tool吃飯傢伙。」",
+   "note": ""
+  },
+  {
+   "offset": 1774,
+   "len": 67,
+   "en": "\"Me father said a good shovel is more important than a good @wife.\"",
+   "zh": "「俺爹說過，好鏟子比好@wife娘子更重要。」",
+   "note": ""
+  },
+  {
+   "offset": 1852,
+   "len": 59,
+   "en": "\"That's what you look for after you've got a good @shovel.\"",
+   "zh": "「等你有了好鏟子，再找@wife娘子也不遲。」",
+   "note": ""
+  },
+  {
+   "offset": 1937,
+   "len": 48,
+   "en": "\"I'll not speak with 'im, the way he treats me.\"",
+   "zh": "「他那樣對我，俺才不和他說話。」",
+   "note": ""
+  },
+  {
+   "offset": 1988,
+   "len": 83,
+   "en": "\"But if you sees him, tell him I could dig these graves better if I had a @shovel!\"",
+   "zh": "「但你見到他，告訴他，給俺一把@shovel鏟子，俺能挖得更好！」",
+   "note": ""
+  },
+  {
+   "offset": 2079,
+   "len": 76,
+   "en": "\"He's a strange one... Nobody knows what he keeps in that back room of 'is.\"",
+   "zh": "「他是個怪人……沒人知道他那後房間藏著啥。」",
+   "note": "暗示 Glen 的秘密"
+  },
+  {
+   "offset": 2166,
+   "len": 101,
+   "en": "\"Oh, going away, are ye? Let me know when ye return, so I'll know 'tis time to speak with ye again.\"*",
+   "zh": "「哦，你要走了？回來時知會俺一聲，這樣俺就知道又可以和你說話了。」*",
+   "note": "* 控制符保留"
+  },
+  {
+   "offset": 2269,
+   "len": 26,
+   "en": "He returns to his digging.",
+   "zh": "他繼續挖土。",
+   "note": "旁白"
+  },
+  {
+   "offset": 2300,
+   "len": 48,
+   "en": "\"I think ye'd best ask someone smarter than me.\"",
+   "zh": "「俺尋思你最好去問個比俺聰明的人。」",
+   "note": ""
+  },
+  {
+   "offset": 2354,
+   "len": 52,
+   "en": "\"Oh, ye've brought a shovel with ye! Is it for me?\" ",
+   "zh": "「哦，你帶了把鏟子來！是給俺的嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 2412,
+   "len": 29,
+   "en": "\"Too bad. I really need one.\"",
+   "zh": "「可惜。俺真的需要一把。」",
+   "note": ""
+  },
+  {
+   "offset": 2464,
+   "len": 52,
+   "en": "\"Thank ye very much! And 'tis not even my birthday!\"",
+   "zh": "「多謝多謝！今日又不是俺的生日！」",
+   "note": ""
+  },
+  {
+   "offset": 2519,
+   "len": 49,
+   "en": "\"Let me tell you this - keep an eye on old Glen.\"",
+   "zh": "「俺告訴你——要盯緊老葛倫。」",
+   "note": ""
+  },
+  {
+   "offset": 2571,
+   "len": 68,
+   "en": "\"They say not all of the bodies end up where they're supposed to...\"",
+   "zh": "「聽說有些遺體不一定到了該去的地方……」",
+   "note": "暗示 Glen 的秘密交易"
+  },
+  {
+   "offset": 2642,
+   "len": 118,
+   "en": "\"You know, 'e was supposed to have paid me for a new shovel, and then you wouldn't have 'ad to go to so much trouble.\"",
+   "zh": "「你知道，他本來應該付錢讓俺買把新鏟子的，那樣你也不用費這麼大勁。」",
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {
+   "Mole": "鼴鼠",
+   "Glen": "葛倫"
+  },
+  "places": {}
+ },
+ "riddles_additions": [],
+ "translator_notes": "鼴鼠為鄉土口音的掘墓人，只在乎鏟子，語氣帶有英語底層工人方言。譯文保留「俺」「吃飯傢伙」等台灣傳統粗俗口語。Glen 的後房秘密（遺體去向不明）為隱藏線索。zombie-face 俚稱保留幽默感。"
+}

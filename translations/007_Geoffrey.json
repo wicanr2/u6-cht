@@ -1,0 +1,140 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 8,
+   "en": "Geoffrey",
+   "zh": "傑佛瑞",
+   "zh_bytes": 6,
+   "note": "NPC name"
+  },
+  {
+   "offset": 11,
+   "len": 21,
+   "en": "a tall, handsome man.",
+   "zh": "高大堂堂之武將。",
+   "zh_bytes": 16,
+   "note": "DESC"
+  },
+  {
+   "offset": 48,
+   "len": 58,
+   "en": "\"Thou hadst best speak to Lord British before aught else.\"",
+   "zh": "「汝最好先去面見不列顛王陛下，餘事容後再議。」",
+   "zh_bytes": 46,
+   "note": ""
+  },
+  {
+   "offset": 128,
+   "len": 78,
+   "en": "\"I'm glad to see thee, $P. Perhaps thou canst prevail where others could not.\"",
+   "zh": "「見汝甚悅，$P。或汝能成就他人未竟之績。」",
+   "zh_bytes": 42,
+   "note": "避『許』『功』5C trail"
+  },
+  {
+   "offset": 209,
+   "len": 81,
+   "en": "\"I sent a party of ten to recapture the Shrine of Compassion from the gargoyles.\"",
+   "zh": "「吾已遣十名兵卒，欲自魔像族手中奪回慈悲聖壇。」",
+   "zh_bytes": 48,
+   "note": ""
+  },
+  {
+   "offset": 293,
+   "len": 29,
+   "en": "\"Alas, they failed dismally.\"",
+   "zh": "「惜哉，敗羽而歸。」",
+   "zh_bytes": 20,
+   "note": ""
+  },
+  {
+   "offset": 324,
+   "len": 53,
+   "en": "\"The survivors are recuperating in the town of Cove.\"",
+   "zh": "「生還者目下正在海灣鎮休養。」",
+   "zh_bytes": 30,
+   "note": ""
+  },
+  {
+   "offset": 380,
+   "len": 48,
+   "en": "\"Thou wouldst do well to speak with them first.\"",
+   "zh": "「汝宜先與彼等一談。」",
+   "zh_bytes": 22,
+   "note": ""
+  },
+  {
+   "offset": 430,
+   "len": 53,
+   "en": "\"Mayhap they learned something which might aid thee.\"",
+   "zh": "「彼等所知，或可助汝一臂之力。」",
+   "zh_bytes": 32,
+   "note": "避『許』5C trail"
+  },
+  {
+   "offset": 486,
+   "len": 34,
+   "en": "\"I must confess I fear the worst.\"",
+   "zh": "「吾不諱言，深恐大禍將至。」",
+   "zh_bytes": 28,
+   "note": ""
+  },
+  {
+   "offset": 523,
+   "len": 73,
+   "en": "\"The gargoyles are such powerful foes, and they are spreading so fast...\"",
+   "zh": "「魔像族敵勢凶猛，蔓延又快……」",
+   "zh_bytes": 32,
+   "note": ""
+  },
+  {
+   "offset": 599,
+   "len": 39,
+   "en": "\"Perhaps the end of the realm is nigh.\"",
+   "zh": "「恐怕王國末日已近矣。」",
+   "zh_bytes": 24,
+   "note": ""
+  },
+  {
+   "offset": 641,
+   "len": 41,
+   "en": "\"Good luck, and my prayers go with thee.\"",
+   "zh": "「祝汝武運昌隆，吾之祈禱與汝同行。」",
+   "zh_bytes": 36,
+   "note": ""
+  },
+  {
+   "offset": 690,
+   "len": 32,
+   "en": "\"Best not waste time talking...\"",
+   "zh": "「莫再耗時空談……」",
+   "zh_bytes": 20,
+   "note": ""
+  },
+  {
+   "offset": 725,
+   "len": 80,
+   "en": "\"Who knows what acts of villainy the gargoyles are comitting even as we speak?\"*",
+   "zh": "「天曉得，當此言之際，魔像族正在何處為非作歹？」*",
+   "zh_bytes": 49,
+   "note": "尾 * 控制符保留"
+  },
+  {
+   "offset": 807,
+   "len": 65,
+   "en": "\"I hope you've had a chance to visit Cove and speak with Gertan.\"",
+   "zh": "「願汝已至海灣鎮，與葛爾坦一晤。」",
+   "zh_bytes": 34,
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {
+   "Gertan": "葛爾坦"
+  }
+ },
+ "riddles_additions": [],
+ "translator_notes": "Strict 重譯：(1) offset 11 縮短為 16 bytes (2) offset 128 避『許/功』5C trail (3) offset 430 避『許』。全 16 條 ≤ len，無 5C trail。"
+}

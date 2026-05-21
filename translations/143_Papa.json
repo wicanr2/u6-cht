@@ -1,0 +1,237 @@
+{
+ "translations": [
+  {
+   "offset": 7,
+   "len": 20,
+   "en": "a huge male cyclops.",
+   "zh": "一頭巨大的雄性獨眼巨人。",
+   "note": "DESC"
+  },
+  {
+   "offset": 37,
+   "len": 21,
+   "en": "\"Hoh, hoh. You back!\"",
+   "zh": "「哦，哦。你回來了！」",
+   "note": ""
+  },
+  {
+   "offset": 61,
+   "len": 22,
+   "en": "\"You bring good fish.\"",
+   "zh": "「你帶來好魚。」",
+   "note": ""
+  },
+  {
+   "offset": 86,
+   "len": 14,
+   "en": "\"Bring more?\" ",
+   "zh": "「帶更多？」",
+   "note": ""
+  },
+  {
+   "offset": 114,
+   "len": 33,
+   "en": "\"No fish?\" The cyclops seems sad.",
+   "zh": "「沒有魚？」獨眼巨人看起來很難過。",
+   "note": ""
+  },
+  {
+   "offset": 160,
+   "len": 23,
+   "en": "\"Hoh! You bring fish?\" ",
+   "zh": "「哦！你帶魚了？」",
+   "note": ""
+  },
+  {
+   "offset": 197,
+   "len": 12,
+   "en": "\"Get @fish!\"",
+   "zh": "「去弄@魚！」",
+   "note": ""
+  },
+  {
+   "offset": 216,
+   "len": 10,
+   "en": "\"Who you?\"",
+   "zh": "「你是誰？」",
+   "note": ""
+  },
+  {
+   "offset": 240,
+   "len": 13,
+   "en": "\"Me cyclops.\"",
+   "zh": "「我獨眼巨人。」",
+   "note": ""
+  },
+  {
+   "offset": 256,
+   "len": 26,
+   "en": "\"@Tiny one say me 'Papa.'\"",
+   "zh": "「@小不點叫我『爸爸』。」",
+   "note": ""
+  },
+  {
+   "offset": 297,
+   "len": 20,
+   "en": "\"Find him on shore.\"",
+   "zh": "「在岸邊找到他。」",
+   "note": ""
+  },
+  {
+   "offset": 320,
+   "len": 34,
+   "en": "\"One-eye little one die long ago.\"",
+   "zh": "「一眼的小不點很久以前死了。」",
+   "note": "獨眼巨人自己的孩子"
+  },
+  {
+   "offset": 357,
+   "len": 43,
+   "en": "\"Female want little one, so keep tiny one.\"",
+   "zh": "「女的想要小孩，所以留下小不點。」",
+   "note": ""
+  },
+  {
+   "offset": 403,
+   "len": 37,
+   "en": "\"Not strong like one-eye little one.\"",
+   "zh": "「不像一眼小不點那樣強壯。」",
+   "note": ""
+  },
+  {
+   "offset": 450,
+   "len": 23,
+   "en": "\"Live here! Eat, hunt!\"",
+   "zh": "「住這！吃東西，打獵！」",
+   "note": ""
+  },
+  {
+   "offset": 484,
+   "len": 24,
+   "en": "\"Cellar no go. @Locked.\"",
+   "zh": "「地下室不能去。@鎖著。」",
+   "note": ""
+  },
+  {
+   "offset": 532,
+   "len": 21,
+   "en": "\"Got key. Want key?\" ",
+   "zh": "「有鑰匙。要鑰匙？」",
+   "note": ""
+  },
+  {
+   "offset": 559,
+   "len": 13,
+   "en": "\"No got key.\"",
+   "zh": "「沒有鑰匙。」",
+   "note": ""
+  },
+  {
+   "offset": 598,
+   "len": 27,
+   "en": "\"Mine. In @cellar. No get!\"",
+   "zh": "「我的。在@地下室。拿不到！」",
+   "note": ""
+  },
+  {
+   "offset": 636,
+   "len": 12,
+   "en": "\"Fish good.\"",
+   "zh": "「魚好吃。」",
+   "note": ""
+  },
+  {
+   "offset": 651,
+   "len": 21,
+   "en": "\"Like eat much fish!\"",
+   "zh": "「喜歡吃很多魚！」",
+   "note": ""
+  },
+  {
+   "offset": 682,
+   "len": 18,
+   "en": "\"Come back, bring ",
+   "zh": "「再來，帶",
+   "note": "下接more fish"
+  },
+  {
+   "offset": 707,
+   "len": 5,
+   "en": "more ",
+   "zh": "更多",
+   "note": ""
+  },
+  {
+   "offset": 713,
+   "len": 6,
+   "en": "fish!\"",
+   "zh": "魚！」",
+   "note": ""
+  },
+  {
+   "offset": 724,
+   "len": 15,
+   "en": "\"What mean $Z?\"",
+   "zh": "「$Z是什麼意思？」",
+   "note": ""
+  },
+  {
+   "offset": 751,
+   "len": 12,
+   "en": "\"Want fish!\"",
+   "zh": "「要魚！」",
+   "note": ""
+  },
+  {
+   "offset": 766,
+   "len": 21,
+   "en": "\"Use pole, get fish.\"",
+   "zh": "「用竿子，釣魚。」",
+   "note": ""
+  },
+  {
+   "offset": 790,
+   "len": 23,
+   "en": "\"Want key, bring fish!\"",
+   "zh": "「要鑰匙，帶魚！」",
+   "note": ""
+  },
+  {
+   "offset": 821,
+   "len": 18,
+   "en": "\"Why ask no want?\"",
+   "zh": "「為什麼問了不想要？」",
+   "note": ""
+  },
+  {
+   "offset": 871,
+   "len": 28,
+   "en": "\"Where fish? No smell fish.\"",
+   "zh": "「魚在哪？沒聞到魚味。」",
+   "note": ""
+  },
+  {
+   "offset": 926,
+   "len": 25,
+   "en": "\"Good fish! Good friend!\"",
+   "zh": "「好魚！好朋友！」",
+   "note": ""
+  },
+  {
+   "offset": 957,
+   "len": 23,
+   "en": "\"Good fish! Here, key.\"",
+   "zh": "「好魚！來，鑰匙。」",
+   "note": ""
+  },
+  {
+   "offset": 983,
+   "len": 42,
+   "en": "The cyclops hands you a large, rusted key.",
+   "zh": "獨眼巨人遞給你一把巨大的生鏽鑰匙。",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Papa": "爸爸"}, "places": {}},
+ "translator_notes": "爸爸是雄性獨眼巨人，說話極簡短，省略代詞和謂語，呈現智力簡單的特徵。「tiny one」（小不點）指人類孩子Myles。用魚換鑰匙是重要互動。"
+}

@@ -1,0 +1,181 @@
+{
+ "translations": [
+  {
+   "offset": 12,
+   "len": 47,
+   "en": "a tough-looking woman with a walk like a troll.",
+   "zh": "走路像山怪一樣的悍婦。",
+   "note": "DESC"
+  },
+  {
+   "offset": 62,
+   "len": 29,
+   "en": "She stares insolently at you.",
+   "zh": "她傲慢地盯著你。",
+   "note": ""
+  },
+  {
+   "offset": 99,
+   "len": 16,
+   "en": "\"I'm Morchella.\"",
+   "zh": "「我是摩切拉。」",
+   "note": ""
+  },
+  {
+   "offset": 131,
+   "len": 35,
+   "en": "\"I be a retired @sailor, that I am.",
+   "zh": "「俺是退役的@水手，就是這樣。",
+   "note": "split string，下接 honest one"
+  },
+  {
+   "offset": 179,
+   "len": 22,
+   "en": "\"Thou wert a @pirate!\"",
+   "zh": "「汝是個@海盜！」",
+   "note": "玩家說的話（or NPC accusation）"
+  },
+  {
+   "offset": 208,
+   "len": 51,
+   "en": "\"Well! How rude!\" She turns up her nose and leaves.",
+   "zh": "「哼！真是無禮！」她翹起鼻子，拂袖而去。",
+   "note": ""
+  },
+  {
+   "offset": 262,
+   "len": 25,
+   "en": " An honest one, mind ye.\"",
+   "zh": "一個誠實的水手，記著。」",
+   "note": "接在 retired sailor 之後"
+  },
+  {
+   "offset": 298,
+   "len": 53,
+   "en": "\"I know nothing about that!\" She walks off in a huff.",
+   "zh": "「那種事俺一概不知！」她憤憤地走開。",
+   "note": ""
+  },
+  {
+   "offset": 364,
+   "len": 79,
+   "en": "\"That's right, me bucko. Why, I've sailed with Lord @British and Captain @John.",
+   "zh": "「沒錯，夥計。俺可是跟@不列顛王和@約翰船長一同出過海的。",
+   "note": "split string，下接 honest sailor"
+  },
+  {
+   "offset": 459,
+   "len": 60,
+   "en": "\"He walks with a limp, ye know. 'Fraid of mice, too, he is.\"",
+   "zh": "「他走路一跛一跛的，你知道嗎。他也怕老鼠。」",
+   "note": "about Lord British"
+  },
+  {
+   "offset": 535,
+   "len": 78,
+   "en": "\"He offered to marry me but of course I refused. Didn't want to be tied down.\"",
+   "zh": "「他提出要娶俺，但俺當然拒絕了。不想被束縛。」",
+   "note": "about Captain John"
+  },
+  {
+   "offset": 623,
+   "len": 99,
+   "en": "She looks around furtively first. \"Well, now, I might have seen the likes of that in me travels...\"",
+   "zh": "她先偷偷環顧四周。「嗯，這個嘛，俺的旅途中或許見過那種東西……」",
+   "note": ""
+  },
+  {
+   "offset": 724,
+   "len": 22,
+   "en": "\"Tell ye what, matey:\"",
+   "zh": "「俺跟你說，夥計：」",
+   "note": ""
+  },
+  {
+   "offset": 749,
+   "len": 89,
+   "en": "\"If ye give me a @shield of the Order of the Serpent, I'll tell ye where that map be at.\"",
+   "zh": "「若你給俺一面蛇紋騎士團的@盾牌，俺就告訴你那張地圖在哪。」",
+   "note": ""
+  },
+  {
+   "offset": 853,
+   "len": 59,
+   "en": "\"I might even ask 'im to marry me.\" She winks slyly at you.",
+   "zh": "「俺甚至可能去求他娶俺。」她狡黠地向你眨眼。",
+   "note": "about Caradon"
+  },
+  {
+   "offset": 922,
+   "len": 17,
+   "en": "\"So long, matey.\"",
+   "zh": "「保重，夥計。」",
+   "note": ""
+  },
+  {
+   "offset": 965,
+   "len": 43,
+   "en": "\"Don't know what to say 'bout that, matey.\"",
+   "zh": "「那個嘛，俺不知道說什麼，夥計。」",
+   "note": ""
+  },
+  {
+   "offset": 1020,
+   "len": 66,
+   "en": "\"Now all I need is a magic sword; then methinks I'll be a knight.\"",
+   "zh": "「現在俺只差一把魔法劍，到時俺就可以當騎士了。」",
+   "note": "methinks=I think 古語"
+  },
+  {
+   "offset": 1110,
+   "len": 60,
+   "en": "\"If I had a Silver Serpent shield, I'd give it to @Caradon.\"",
+   "zh": "「若俺有銀蛇盾，俺會把它送給@卡拉頓。」",
+   "note": ""
+  },
+  {
+   "offset": 1173,
+   "len": 32,
+   "en": "\"He's a fine, brave lad, he is.\"",
+   "zh": "「他是個出色又勇敢的小伙子，是的。」",
+   "note": ""
+  },
+  {
+   "offset": 1211,
+   "len": 79,
+   "en": "\"That be quite a prize there, matey. Will ye trade it to me for a bit o' map?\" ",
+   "zh": "「那可是個好東西，夥計。願意拿它換俺的一片地圖嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1296,
+   "len": 68,
+   "en": "\"Then leave me be!\" She turns her back angrily on you and walks off.",
+   "zh": "「那就別來煩俺！」她憤怒地背對你走開。",
+   "note": ""
+  },
+  {
+   "offset": 1402,
+   "len": 89,
+   "en": "From a little box Morchella hands over a piece of paper. It is a piece of the pirate map.",
+   "zh": "摩切拉從一個小盒子裡取出一張紙遞給你。那是一片海盜地圖的碎片。",
+   "note": ""
+  },
+  {
+   "offset": 1494,
+   "len": 97,
+   "en": "\"I was going to give this magic shield to Caradon, but methinks I'll keep it for meself instead!\"",
+   "zh": "「俺本想把這面魔法盾送給卡拉頓，但俺想俺還是自己留著算了！」",
+   "note": "meself=myself 口語"
+  },
+  {
+   "offset": 1594,
+   "len": 29,
+   "en": "\"Good $T, $G.\" She walks off.",
+   "zh": "「$T好，$G。」她走開了。",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Morchella": "摩切拉"}, "places": {}},
+ "translator_notes": "摩切拉是退役水手（自稱），曾與不列顛王和約翰船長一同出海，拒絕了約翰船長的求婚。她手上有海盜地圖碎片，願意以銀蛇盾交換。她仰慕卡拉頓。口語粗獷，用「俺」。"
+}

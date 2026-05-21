@@ -1,0 +1,151 @@
+{
+ "translations": [
+  {
+   "offset": 10,
+   "len": 42,
+   "en": "a man with sea-blue eyes and a warm smile.",
+   "zh": "一位有著海藍色眼睛和溫暖笑容的男子。",
+   "note": "DESC"
+  },
+  {
+   "offset": 61,
+   "len": 24,
+   "en": "\"Welcome back, my friend",
+   "zh": "「歡迎回來，朋友",
+   "note": "fragment，與後續拼接"
+  },
+  {
+   "offset": 86,
+   "len": 25,
+   "en": "\"Welcome, welcome, friend",
+   "zh": "「歡迎，歡迎，朋友",
+   "note": "fragment，與後續拼接"
+  },
+  {
+   "offset": 118,
+   "len": 34,
+   "en": ". Here for @lodging this fine $T?\"",
+   "zh": "。此$T是來投宿@旅店嗎？」",
+   "note": "fragment"
+  },
+  {
+   "offset": 160,
+   "len": 49,
+   "en": "\"@Timothy.\" He flashes a friendly smile and nods.",
+   "zh": "「@提默。」他閃現一個友好的微笑，點點頭。",
+   "note": ""
+  },
+  {
+   "offset": 227,
+   "len": 48,
+   "en": "\"I'm named after my @uncle. He was a kind soul.\"",
+   "zh": "「在下是以在下的@叔父命名的，他是個善良的人。」",
+   "note": ""
+  },
+  {
+   "offset": 287,
+   "len": 72,
+   "en": "\"Sir Timothy Enders Daverstock. He was a famous @knight in these parts.\"",
+   "zh": "「提默·安德斯·戴沃斯托克爵士，他是此地一位著名的@騎士。」",
+   "note": ""
+  },
+  {
+   "offset": 370,
+   "len": 92,
+   "en": "\"It is a busy one - this job, that is. I find it rewarding, though, meeting friendly faces.\"",
+   "zh": "「這份工作很繁忙，然在下覺得很有意義，因為能見到許多友善的面孔。」",
+   "note": ""
+  },
+  {
+   "offset": 465,
+   "len": 29,
+   "en": "\"Maybe you want a @room, eh?\"",
+   "zh": "「或許汝想要一間@客房，是嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 535,
+   "len": 54,
+   "en": "\"He is perhaps best known for his courage in @battle.\"",
+   "zh": "「他或許以在@戰場上的勇氣最為人稱道。」",
+   "note": ""
+  },
+  {
+   "offset": 606,
+   "len": 79,
+   "en": "\"He once held off a score of men while his own fled to safety across a bridge.\"",
+   "zh": "「他曾以一己之力抵擋二十名敵人，讓己方同伴得以安全撤過橋去。」",
+   "note": ""
+  },
+  {
+   "offset": 696,
+   "len": 17,
+   "en": "\"Farewell, friend",
+   "zh": "「珍重，朋友",
+   "note": "fragment，與後續拼接"
+  },
+  {
+   "offset": 719,
+   "len": 17,
+   "en": ". Travel safely.\"",
+   "zh": "，一路平安。」",
+   "note": "fragment"
+  },
+  {
+   "offset": 741,
+   "len": 36,
+   "en": "\"Hmm... Nope, can't help you there.\"",
+   "zh": "「嗯……不，此事在下幫不上忙。」",
+   "note": ""
+  },
+  {
+   "offset": 802,
+   "len": 49,
+   "en": "\"#0 gold for you to stay and have a meal, good?\" ",
+   "zh": "「住宿加餐食共#0金，好嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 867,
+   "len": 58,
+   "en": "\"I'm sorry, but we require cash in advance for our rooms.\"",
+   "zh": "「抱歉，本旅店要求預付房款。」",
+   "note": ""
+  },
+  {
+   "offset": 941,
+   "len": 33,
+   "en": "You sleep in a comfortable bed...",
+   "zh": "汝在舒適的床鋪上入睡……",
+   "note": ""
+  },
+  {
+   "offset": 977,
+   "len": 42,
+   "en": "You wake rested and eat a large breakfast.",
+   "zh": "汝醒來精神煥發，享用了一頓豐盛的早餐。",
+   "note": ""
+  },
+  {
+   "offset": 1022,
+   "len": 32,
+   "en": "\"Good morning, have a good day.\"",
+   "zh": "「早安，祝汝今日愉快。」",
+   "note": ""
+  },
+  {
+   "offset": 1063,
+   "len": 32,
+   "en": "\"Perhaps some other time, then.\"",
+   "zh": "「那或許改日再來。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Timothy": "提默",
+   "Sir Timothy Enders Daverstock": "提默·安德斯·戴沃斯托克爵士"
+  }
+ },
+ "translator_notes": "109 Timothy: 鴉爪鎮旅店掌柜，溫和親切。以名聞騎士叔父為榮。提供住宿餐食。"
+}

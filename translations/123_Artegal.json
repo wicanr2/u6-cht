@@ -1,0 +1,41 @@
+{
+ "translations": [
+  {
+   "offset": 10,
+   "len": 55,
+   "en": "a heavily scarred man with a look of agony on his face.",
+   "zh": "滿身刀疤之男子，面色痛苦至極。",
+   "note": "DESC"
+  },
+  {
+   "offset": 68,
+   "len": 43,
+   "en": "\"The pain, the pain... Will it never stop?\"",
+   "zh": "「痛，好痛……何時才能結束？」",
+   "note": ""
+  },
+  {
+   "offset": 140,
+   "len": 44,
+   "en": "\"Too many... There were too many of them...\"",
+   "zh": "「太多了……他們太多了……」",
+   "note": ""
+  },
+  {
+   "offset": 185,
+   "len": 36,
+   "en": "\"My head is pounding like a drum...\"",
+   "zh": "「我的頭像在打鼓……」",
+   "note": ""
+  },
+  {
+   "offset": 222,
+   "len": 15,
+   "en": "\"Oh, the pain!\"",
+   "zh": "「唉，好痛！」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Artegal": "阿特葛"}, "places": {}},
+ "translator_notes": "Artegal 受傷戰士，只能在痛苦中呻吟，沒有可對話內容。"
+}

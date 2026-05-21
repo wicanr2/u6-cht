@@ -1,0 +1,712 @@
+{
+ "translations": [
+  {
+   "offset": 9,
+   "len": 66,
+   "en": "a man bent over with age. An old brown tunic hangs loosely on him.",
+   "zh": "一位因老邁而駝背之男子，身著一件鬆垮的褐色舊衫。",
+   "note": "DESC"
+  },
+  {
+   "offset": 90,
+   "len": 79,
+   "en": "He looks at you, then looks over his shoulder and shouts to someone behind him.",
+   "zh": "他看了汝一眼，隨即回頭朝身後之人大喊。",
+   "note": ""
+  },
+  {
+   "offset": 172,
+   "len": 63,
+   "en": "\"There, I told you, Marta. New people, new food for our souls.\"",
+   "zh": "「瞧，我說了吧，瑪塔。新來的人，是滋養靈魂的新養分。」",
+   "note": ""
+  },
+  {
+   "offset": 238,
+   "len": 54,
+   "en": "He turns back to you. \"Welcome to the @Haunting @Inn.\"",
+   "zh": "他轉回面向汝。「歡迎來到@鬼影@旅店。」",
+   "note": ""
+  },
+  {
+   "offset": 295,
+   "len": 46,
+   "en": "\"Come and sit, for you must have many @tales.\"",
+   "zh": "「坐下吧，汝定有許多@故事可說。」",
+   "note": ""
+  },
+  {
+   "offset": 353,
+   "len": 68,
+   "en": "\"Is it you, $P?\" he says, leaning close and staring you in the eyes.",
+   "zh": "「是汝嗎，$P？」他俯身靠近，直視汝的雙眼。",
+   "note": ""
+  },
+  {
+   "offset": 424,
+   "len": 42,
+   "en": "\"Of course it is! Welcome back, traveler.\"",
+   "zh": "「當然是！歡迎回來，旅人。」",
+   "note": ""
+  },
+  {
+   "offset": 474,
+   "len": 62,
+   "en": "\"@Gideon, my friend, Gideon's what I'm called by one and all.\"",
+   "zh": "「@吉迪恩，朋友，人人都這麼叫我。」",
+   "note": ""
+  },
+  {
+   "offset": 548,
+   "len": 41,
+   "en": "\"Yes, let us swap stories for a while...\"",
+   "zh": "「好，讓我們互相交流一番……」",
+   "note": ""
+  },
+  {
+   "offset": 601,
+   "len": 61,
+   "en": "\"Tis an old family name meaning 'one who spreads the @word.'\"",
+   "zh": "「這是個古老的家族名，意為『傳揚@言語之人』。」",
+   "note": ""
+  },
+  {
+   "offset": 665,
+   "len": 53,
+   "en": "\"My @wife tells me I spread too many of them around.\"",
+   "zh": "「我@妻子說我傳的閒話太多了。」",
+   "note": ""
+  },
+  {
+   "offset": 750,
+   "len": 52,
+   "en": "\"The word I spread is one of kindness to all souls!\"",
+   "zh": "「我所傳揚的，是待人善良之道！」",
+   "note": ""
+  },
+  {
+   "offset": 858,
+   "len": 6,
+   "en": "\"Yes.\"",
+   "zh": "「是的。」",
+   "note": ""
+  },
+  {
+   "offset": 875,
+   "len": 80,
+   "en": "\"My @wife would say it is to annoy the customers with idle @banter. She's dear.\"",
+   "zh": "「我@妻子會說，是拿閒@話聒噪客人。她真可愛。」",
+   "note": ""
+  },
+  {
+   "offset": 958,
+   "len": 24,
+   "en": "\"I have @rooms for let.\"",
+   "zh": "「在下有@房間可出租。」",
+   "note": ""
+  },
+  {
+   "offset": 994,
+   "len": 89,
+   "en": "\"When I was a young man I visited the @shrine to contemplate an emptiness I felt inside.\"",
+   "zh": "「我年輕時曾去@聖壇默思心中的空洞。」",
+   "note": ""
+  },
+  {
+   "offset": 1086,
+   "len": 40,
+   "en": "\"Marta was there, so beautiful and shy.\"",
+   "zh": "「瑪塔也在那裡，如此美麗又靦腆。」",
+   "note": ""
+  },
+  {
+   "offset": 1129,
+   "len": 39,
+   "en": "\"We sat in silence together for hours.\"",
+   "zh": "「我們靜靜地並肩坐了好幾個時辰。」",
+   "note": ""
+  },
+  {
+   "offset": 1171,
+   "len": 59,
+   "en": "\"Finally, she could take no more and turned and kissed me.\"",
+   "zh": "「最後，她再也忍不住，轉身吻了我。」",
+   "note": ""
+  },
+  {
+   "offset": 1233,
+   "len": 39,
+   "en": "A shout comes from the room behind him.",
+   "zh": "身後的房間中傳來一聲喊叫。",
+   "note": ""
+  },
+  {
+   "offset": 1275,
+   "len": 56,
+   "en": "He answers, \"No, @Marta, our guests are not asleep yet.\"",
+   "zh": "他答道：「不，@瑪塔，客人們還沒睡著。」",
+   "note": ""
+  },
+  {
+   "offset": 1343,
+   "len": 34,
+   "en": "\"That name used to be just words.\"",
+   "zh": "「這個名字過去不過是空有其名。」",
+   "note": ""
+  },
+  {
+   "offset": 1380,
+   "len": 34,
+   "en": "\"But now, with what @Marta saw...\"",
+   "zh": "「但如今，自從@瑪塔所見之後……」",
+   "note": ""
+  },
+  {
+   "offset": 1426,
+   "len": 69,
+   "en": "\"The shrine of Spirituality. It is where we go when we are troubled.\"",
+   "zh": "「靈性聖壇。那是我等心有煩憂時前去之所。」",
+   "note": ""
+  },
+  {
+   "offset": 1498,
+   "len": 31,
+   "en": "\"You should visit it sometime.\"",
+   "zh": "「汝應該找機會去拜訪。」",
+   "note": ""
+  },
+  {
+   "offset": 1555,
+   "len": 101,
+   "en": "\"She hasn't come out of that room since she saw that darn ghost in the dining room a few nights ago.\"",
+   "zh": "「自從幾夜前她在餐廳看見那個該死的幽靈，她便再也沒有走出那個房間。」",
+   "note": ""
+  },
+  {
+   "offset": 1659,
+   "len": 74,
+   "en": "\"She told me the lanterns went out and a spectre drifted in front of her.\"",
+   "zh": "「她告訴我，燈火驟滅，一個幽靈就飄到她面前。」",
+   "note": ""
+  },
+  {
+   "offset": 1736,
+   "len": 63,
+   "en": "\"She let out such a @scream that I heard her from our bedroom.\"",
+   "zh": "「她@尖叫得如此之響，我在臥房都聽見了。」",
+   "note": ""
+  },
+  {
+   "offset": 1802,
+   "len": 54,
+   "en": "He shakes his head and glances at the room behind him.",
+   "zh": "他搖了搖頭，瞥了一眼身後的房間。",
+   "note": ""
+  },
+  {
+   "offset": 1888,
+   "len": 88,
+   "en": "\"My Marta doesn't spook that easy. After all, she's woke up next to me all these years.\"",
+   "zh": "「我的瑪塔可不是那麼容易被嚇到的。畢竟這些年她都睡在我身旁。」",
+   "note": ""
+  },
+  {
+   "offset": 1979,
+   "len": 78,
+   "en": "\"At first I thought maybe I should lock the @cupboard where we keep the wine.\"",
+   "zh": "「起初我以為，應是有人私開存酒的@櫥櫃。」",
+   "note": ""
+  },
+  {
+   "offset": 2060,
+   "len": 72,
+   "en": "\"But I don't think my Marta's been nippin'. I wish I knew what she saw.\"",
+   "zh": "「但我不覺得我的瑪塔偷喝了酒。只希望知道她究竟看到了什麼。」",
+   "note": ""
+  },
+  {
+   "offset": 2148,
+   "len": 60,
+   "en": "\"If you've never had @Stivius' wine, you're in for a treat.\"",
+   "zh": "「若汝未曾品嚐@斯提維斯的葡萄酒，汝將大飽口福。」",
+   "note": ""
+  },
+  {
+   "offset": 2220,
+   "len": 51,
+   "en": "\"He's the alchemist who lives on @Iver's Rounding.\"",
+   "zh": "「他是住在@艾佛圓角的鍊金術士。」",
+   "note": ""
+  },
+  {
+   "offset": 2274,
+   "len": 41,
+   "en": "\"You'll need a boat to get there though.\"",
+   "zh": "「不過去那裡需要坐船。」",
+   "note": ""
+  },
+  {
+   "offset": 2332,
+   "len": 80,
+   "en": "\"It was named after a famous pirate who beached his craft there during a storm.\"",
+   "zh": "「那地名源自一位著名海盜，他曾在風暴中將船擱淺於此。」",
+   "note": ""
+  },
+  {
+   "offset": 2429,
+   "len": 39,
+   "en": "\"He lives next door. Strange fellow...\"",
+   "zh": "「他住在隔壁，奇怪的傢伙……」",
+   "note": ""
+  },
+  {
+   "offset": 2471,
+   "len": 49,
+   "en": "\"I think he's sampled too much of his own wares.\"",
+   "zh": "「我想他嚐了太多自己的貨品。」",
+   "note": ""
+  },
+  {
+   "offset": 2537,
+   "len": 61,
+   "en": "\"I'm sure by now you've heard such banter about old Quenton.\"",
+   "zh": "「想必汝也聽過不少關於老昆頓的閒話了。」",
+   "note": ""
+  },
+  {
+   "offset": 2601,
+   "len": 62,
+   "en": "\"He was a dear soul.\" Gideon looks past you into the distance.",
+   "zh": "「他是個可貴的靈魂。」吉迪恩目光越過汝，望向遠方。",
+   "note": ""
+  },
+  {
+   "offset": 2666,
+   "len": 69,
+   "en": "\"I could not believe it was him by the well.\" His eyes become watery.",
+   "zh": "「我無法相信井邊躺著的是他。」他眼眶溼潤了。",
+   "note": ""
+  },
+  {
+   "offset": 2738,
+   "len": 87,
+   "en": "\"He lay so quiet, no sign of pain on his face, and just an @amulet in his bloody hand.\"",
+   "zh": "「他靜靜地躺著，臉上毫無痛苦之色，血手中只握著一枚@護符。」",
+   "note": ""
+  },
+  {
+   "offset": 2827,
+   "len": 65,
+   "en": "He looks at the floor and mumbles. \"@Quen, I miss you, old mate.\"",
+   "zh": "他低頭喃喃自語。「@昆，我想念你啊，老夥伴。」",
+   "note": ""
+  },
+  {
+   "offset": 2913,
+   "len": 40,
+   "en": "\"We came to this island many years ago.\"",
+   "zh": "「我們多年前同來到這座島上。」",
+   "note": ""
+  },
+  {
+   "offset": 2956,
+   "len": 60,
+   "en": "\"As children we'd take the boats and race around the point.\"",
+   "zh": "「小時候我們常划船繞著礁角競速。」",
+   "note": ""
+  },
+  {
+   "offset": 3019,
+   "len": 83,
+   "en": "\"Marta and I took care of him when @Mondain's henchmen killed his wife @Elisabeth.\"",
+   "zh": "「當@蒙丹的爪牙殺了他的妻子@伊麗莎貝絲時，瑪塔和我照顧了他。」",
+   "note": ""
+  },
+  {
+   "offset": 3105,
+   "len": 100,
+   "en": "\"We care for his daughter, Marney, now. She's such a brave girl.\" He pauses a moment then continues.",
+   "zh": "「如今我們照料他的女兒瑪妮。她是個如此勇敢的姑娘。」他停頓片刻後繼續說道。",
+   "note": ""
+  },
+  {
+   "offset": 3208,
+   "len": 84,
+   "en": "\"Neither I nor the @travelers staying here heard anything the night he was @killed.\"",
+   "zh": "「他遇害那夜，我和住在這裡的@旅人都沒有聽到任何動靜。」",
+   "note": ""
+  },
+  {
+   "offset": 3304,
+   "len": 94,
+   "en": "He looks at you a moment, then leans closer. \"They say that Quenton was killed by a Gargoyle.\"",
+   "zh": "他看了汝片刻，俯身靠近。「據說昆頓是被一隻魔像族殺害的。」",
+   "note": ""
+  },
+  {
+   "offset": 3401,
+   "len": 80,
+   "en": "\"I've heard these beasts eat their prey. Why did they leave Quenton alone then?\"",
+   "zh": "「聽說這些惡獸會吃掉獵物。那為何昆頓遺體完好？」",
+   "note": ""
+  },
+  {
+   "offset": 3498,
+   "len": 83,
+   "en": "\"Yes, Quenton and Yorl were out fishing when a few of those evil ones landed here.\"",
+   "zh": "「是的，昆頓和尤爾在外捕魚時，那幾個惡徒在此登陸。」",
+   "note": ""
+  },
+  {
+   "offset": 3584,
+   "len": 88,
+   "en": "\"They were fleeing Lord British's men and apparently thought our hamlet was safe haven.\"",
+   "zh": "「他們正在逃避不列顛王的人馬，顯然以為此村可作藏身之所。」",
+   "note": ""
+  },
+  {
+   "offset": 3675,
+   "len": 92,
+   "en": "\"They went around asking for some person named Relthor, or @Renthar... something like that.\"",
+   "zh": "「他們四處詢問一個名叫瑞索爾，或是@瑞塔爾……諸如此類的人。」",
+   "note": ""
+  },
+  {
+   "offset": 3779,
+   "len": 97,
+   "en": "\"She was an angel to view. Blonde hair, green eyes, tall slender body. Marney could be her twin.\"",
+   "zh": "「她美如天使。金髮、綠眸、高挑身段。瑪妮幾乎是她的翻版。」",
+   "note": ""
+  },
+  {
+   "offset": 3879,
+   "len": 70,
+   "en": "\"I can still see Elisa's brave face as the men led her to their boat.\"",
+   "zh": "「我至今仍記得伊麗莎被人押向船隻時那張勇敢的臉龐。」",
+   "note": ""
+  },
+  {
+   "offset": 3952,
+   "len": 107,
+   "en": "\"They said that after she got them past their pursuers she would be freed.\" He hides his face in his hands.",
+   "zh": "「他們說，等她幫他們甩脫追兵便予放人。」他雙手掩面。",
+   "note": ""
+  },
+  {
+   "offset": 4062,
+   "len": 28,
+   "en": "\"Our beliefs held us still.\"",
+   "zh": "「我等的信仰令我等駐足不動。」",
+   "note": ""
+  },
+  {
+   "offset": 4093,
+   "len": 62,
+   "en": "\"She turned and handed @something to her crying little @girl.\"",
+   "zh": "「她轉身將@某物遞給了哭泣的小@女兒。」",
+   "note": ""
+  },
+  {
+   "offset": 4158,
+   "len": 50,
+   "en": "\"Then she @boarded the skiff, and they were gone.\"",
+   "zh": "「而後她@登上小船，他們便離去了。」",
+   "note": ""
+  },
+  {
+   "offset": 4240,
+   "len": 50,
+   "en": "\"She, like her mother, is strong in her @beliefs.\"",
+   "zh": "「她如其母一般，@信念堅定。」",
+   "note": ""
+  },
+  {
+   "offset": 4293,
+   "len": 80,
+   "en": "\"When we buried her father, she sang a song she wrote for him.\" He softly sings.",
+   "zh": "「我們安葬她父親時，她唱了一首她為父親所作之歌。」他輕聲哼起來。",
+   "note": ""
+  },
+  {
+   "offset": 4376,
+   "len": 112,
+   "en": "\"'You put your love in my heart, and now it's fallen apart, but all alone in the dark, I will remove the pain.'\"",
+   "zh": "「『汝將汝的愛植入我心，如今已是支離破碎，但我獨處黑暗之中，誓將痛苦消融。』」",
+   "note": "歌詞意譯"
+  },
+  {
+   "offset": 4491,
+   "len": 105,
+   "en": "\"'There is a sting in my eyes, and your name in my cries, but still I realize, that you are part of me.'\"",
+   "zh": "「『眼中刺痛，哭喊中是汝之名，然我深知，汝已是我的一部分。』」",
+   "note": "歌詞意譯"
+  },
+  {
+   "offset": 4613,
+   "len": 111,
+   "en": "\"Elisabeth bowed her head as they sailed off.\" He looks absently at the floor and attempts to clear his throat.",
+   "zh": "「伊麗莎貝絲在船駛離時低下了頭。」他茫然地看著地板，試圖清嗓。",
+   "note": ""
+  },
+  {
+   "offset": 4727,
+   "len": 93,
+   "en": "Speaking again, his voice is a whisper. \"They found her body along the @coast south of here.\"",
+   "zh": "再度開口，他的聲音已成低語。「他們在此地南方的@海岸邊找到了她的遺體。」",
+   "note": ""
+  },
+  {
+   "offset": 4837,
+   "len": 68,
+   "en": "He looks at you, his eyes red and his lip quivering. He simply nods.",
+   "zh": "他看著汝，雙眼泛紅、嘴唇顫抖，只是默默點頭。",
+   "note": ""
+  },
+  {
+   "offset": 4922,
+   "len": 29,
+   "en": "\"I couldn't see what it was.\"",
+   "zh": "「我看不清那是何物。」",
+   "note": ""
+  },
+  {
+   "offset": 4974,
+   "len": 55,
+   "en": "\"We had no such person in this town. Not by that name.\"",
+   "zh": "「鎮上沒有這樣的人，不叫那個名字。」",
+   "note": ""
+  },
+  {
+   "offset": 5046,
+   "len": 27,
+   "en": "\"We are a peaceful people.\"",
+   "zh": "「我等是愛好和平之民。」",
+   "note": ""
+  },
+  {
+   "offset": 5075,
+   "len": 75,
+   "en": "\"We believe that all men have hearts that can possess either good or evil.\"",
+   "zh": "「我等相信，人人之心皆可善亦可惡。」",
+   "note": ""
+  },
+  {
+   "offset": 5153,
+   "len": 88,
+   "en": "\"These evil ones believed that by tearing down others, they could become more powerful.\"",
+   "zh": "「那些惡徒以為踩低他人便能使自己強大。」",
+   "note": ""
+  },
+  {
+   "offset": 5244,
+   "len": 97,
+   "en": "\"The truth is, when you tear down another's ladder you become no higher, they just become lower.\"",
+   "zh": "「真相是，當汝毀去他人的梯子，汝並未因此更高，只是他人更低了。」",
+   "note": ""
+  },
+  {
+   "offset": 5344,
+   "len": 85,
+   "en": "\"It is harder to build your ladder on your own, but you will see farther in the end.\"",
+   "zh": "「靠自己搭建梯子更為艱難，然最終汝所見的將更為遼遠。」",
+   "note": ""
+  },
+  {
+   "offset": 5446,
+   "len": 50,
+   "en": "\"I questioned them about the night of the murder.\"",
+   "zh": "「我詢問了他們關於命案當夜之事。」",
+   "note": ""
+  },
+  {
+   "offset": 5499,
+   "len": 113,
+   "en": "\"Still, of all of us, my Marta and I had the best vantage point from which to witness, or even hear, the murder.\"",
+   "zh": "「然而，在我等之中，瑪塔和我的位置最佳，最可能目睹乃至聽聞那場謀殺。」",
+   "note": ""
+  },
+  {
+   "offset": 5615,
+   "len": 31,
+   "en": "\"Yet we saw and heard nothing.\"",
+   "zh": "「然而我等所見所聞皆是一片空無。」",
+   "note": ""
+  },
+  {
+   "offset": 5658,
+   "len": 42,
+   "en": "\"We went and told Yorl what had happened.\"",
+   "zh": "「我等去告知尤爾此事。」",
+   "note": ""
+  },
+  {
+   "offset": 5703,
+   "len": 104,
+   "en": "\"When he returned with us to the well, he removed the amulet from Quenton's hand and took it to Marney.\"",
+   "zh": "「他與我等返回井邊時，從昆頓手中取出護符，帶去交給瑪妮。」",
+   "note": ""
+  },
+  {
+   "offset": 5810,
+   "len": 39,
+   "en": "\"It took courage to tell her the news.\"",
+   "zh": "「將此消息告知她，需要莫大的勇氣。」",
+   "note": ""
+  },
+  {
+   "offset": 5866,
+   "len": 65,
+   "en": "\"He means well, it's just his attitude is all wrong for the job.\"",
+   "zh": "「他本意是好的，只是那種態度實在不適合這份差事。」",
+   "note": ""
+  },
+  {
+   "offset": 5934,
+   "len": 45,
+   "en": "\"He should spend some time in New @Magincia.\"",
+   "zh": "「他應該去新@馬精西亞待一段時間。」",
+   "note": ""
+  },
+  {
+   "offset": 5995,
+   "len": 32,
+   "en": "\"You should sail there someday.\"",
+   "zh": "「汝哪天應該乘船前往一遊。」",
+   "note": ""
+  },
+  {
+   "offset": 6039,
+   "len": 71,
+   "en": "His eyes light up \"He is one of the friendliest people in this hamlet.\"",
+   "zh": "他眼睛一亮。「他是此村莊中最友善的人之一。」",
+   "note": ""
+  },
+  {
+   "offset": 6113,
+   "len": 81,
+   "en": "\"You must go see him, down by the pier.\" He stares absently at your shirt pocket.",
+   "zh": "「汝必須去碼頭邊找他。」他茫然地凝視著汝的衣袋。",
+   "note": ""
+  },
+  {
+   "offset": 6197,
+   "len": 36,
+   "en": "\"He's been like a father to Marney.\"",
+   "zh": "「他對瑪妮而言如同父親。」",
+   "note": ""
+  },
+  {
+   "offset": 6245,
+   "len": 80,
+   "en": "\"She's a dear soul. I sometimes feel sorry for her. I mean, her weight and all.\"",
+   "zh": "「她是個可貴的靈魂。我有時為她感到惋惜，就是，體態方面。」",
+   "note": ""
+  },
+  {
+   "offset": 6328,
+   "len": 65,
+   "en": "\"Still, she is one of the most interesting people I've ever met.\"",
+   "zh": "「儘管如此，她是我所見過最有趣的人之一。」",
+   "note": ""
+  },
+  {
+   "offset": 6405,
+   "len": 94,
+   "en": "\"Now there's a sad soul. He was so young when he got tangled up with the wrong group of kids.\"",
+   "zh": "「那真是個可悲的靈魂。他年紀尚小便與壞孩子混在一起了。」",
+   "note": ""
+  },
+  {
+   "offset": 6502,
+   "len": 110,
+   "en": "\"Had he been raised by someone with a good heart, he might have been one of Lord @British's greatest knights.\"",
+   "zh": "「若他由善良之人撫養成人，或許早已成為不列顛@陛下最傑出的騎士之一。」",
+   "note": ""
+  },
+  {
+   "offset": 6629,
+   "len": 72,
+   "en": "\"I'm just an innkeep. Ask @Yorl: his father used to sail for our ruler.\"",
+   "zh": "「我不過是個客棧掌柜。去問@尤爾吧，他父親昔日曾為吾王效命航海。」",
+   "note": ""
+  },
+  {
+   "offset": 6712,
+   "len": 24,
+   "en": "\"Come back, dear souls.\"",
+   "zh": "「再來啊，親愛的旅人們。」",
+   "note": ""
+  },
+  {
+   "offset": 6741,
+   "len": 30,
+   "en": "\"Ask someone else about that.\"",
+   "zh": "「此事另詢他人吧。」",
+   "note": ""
+  },
+  {
+   "offset": 6791,
+   "len": 45,
+   "en": "\"#0 gold for a room and a meal. Interested?\" ",
+   "zh": "「房間加餐飯共#0枚金幣。有興趣否？」",
+   "note": ""
+  },
+  {
+   "offset": 6852,
+   "len": 57,
+   "en": "\"I'm sorry, but we require cash in advance for our rooms.",
+   "zh": "「抱歉，在下的旅店須預付現金。",
+   "note": "片段，無結束引號"
+  },
+  {
+   "offset": 6926,
+   "len": 33,
+   "en": "You sleep in a comfortable bed...",
+   "zh": "汝躺在舒適的床鋪上安然入眠……",
+   "note": ""
+  },
+  {
+   "offset": 6962,
+   "len": 42,
+   "en": "You wake rested and eat a large breakfast.",
+   "zh": "汝醒來後精神煥發，飽食了一頓豐盛早餐。",
+   "note": ""
+  },
+  {
+   "offset": 7007,
+   "len": 24,
+   "en": "\"Good morning, my friend",
+   "zh": "「早安，朋友",
+   "note": "片段"
+  },
+  {
+   "offset": 7037,
+   "len": 2,
+   "en": ".\"",
+   "zh": "。」",
+   "note": "片段尾"
+  },
+  {
+   "offset": 7048,
+   "len": 31,
+   "en": "\"Perhaps some other time, then.",
+   "zh": "「那便改日再說。",
+   "note": "片段"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Gideon": "吉迪恩",
+   "Marta": "瑪塔",
+   "Marney": "瑪妮",
+   "Elisabeth": "伊麗莎貝絲",
+   "Stivius": "斯提維斯",
+   "Yorl": "尤爾"
+  },
+  "places": {
+   "Haunting Inn": "鬼影旅店",
+   "Iver's Rounding": "艾佛圓角"
+  }
+ },
+ "translator_notes": "083 Gideon: 鬼影旅店老闆，慈祥多話。含昆頓謀殺案、伊麗莎貝絲悲劇主線。歌詞意譯。"
+}

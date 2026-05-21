@@ -1,0 +1,230 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 6,
+   "en": "Bolesh",
+   "zh": "波列許",
+   "note": "NPC name — 魔像隊長"
+  },
+  {
+   "offset": 9,
+   "len": 56,
+   "en": "a strong, winged gargoyle warrior. He is sorely wounded.",
+   "zh": "強健之有翼魔像武士，身負重傷。",
+   "note": "DESC"
+  },
+  {
+   "offset": 78,
+   "len": 33,
+   "en": "The gargoyle struggles to sit up.",
+   "zh": "魔像費力地想坐起身。",
+   "note": "旁白"
+  },
+  {
+   "offset": 114,
+   "len": 48,
+   "en": "He shouts, \"An-bal-sil-fer! Agra-lem! Agra-lem!\"",
+   "zh": "他嘶喊：「An-bal-sil-fer！Agra-lem！Agra-lem！」",
+   "note": "魔像語原文保留，此為純粹魔像語叫喊"
+  },
+  {
+   "offset": 165,
+   "len": 34,
+   "en": "The gargoyle collapses, exhausted.",
+   "zh": "魔像精疲力竭，再度倒下。",
+   "note": "旁白"
+  },
+  {
+   "offset": 223,
+   "len": 33,
+   "en": "The gargoyle struggles to sit up.",
+   "zh": "魔像費力地想坐起身。",
+   "note": "旁白（重複）"
+  },
+  {
+   "offset": 259,
+   "len": 47,
+   "en": "He shouts, \"The False Prophet! Guards! Guards!\"",
+   "zh": "他嘶喊：「偽先知！護衛！護衛！」",
+   "note": ""
+  },
+  {
+   "offset": 309,
+   "len": 47,
+   "en": "The gargoyle collapses, outraged but exhausted.",
+   "zh": "魔像雖憤怒不已，仍精疲力竭倒下。",
+   "note": "旁白"
+  },
+  {
+   "offset": 359,
+   "len": 33,
+   "en": "The gargoyle struggles to sit up.",
+   "zh": "魔像費力地想坐起身。",
+   "note": "旁白（重複）"
+  },
+  {
+   "offset": 395,
+   "len": 20,
+   "en": "\"The False Prophet!\"",
+   "zh": "「偽先知！」",
+   "note": ""
+  },
+  {
+   "offset": 418,
+   "len": 39,
+   "en": "\"But to wear the Amulet of Submission?\"",
+   "zh": "「然已佩戴臣服護符？」",
+   "note": "魔像文言語法"
+  },
+  {
+   "offset": 460,
+   "len": 48,
+   "en": "\"Then to express awe at your honor and courage.\"",
+   "zh": "「則對汝之榮譽與勇氣，深感敬畏。」",
+   "note": ""
+  },
+  {
+   "offset": 520,
+   "len": 31,
+   "en": "\"Greetings again, honored one.\"",
+   "zh": "「再度問候，尊者。」",
+   "note": ""
+  },
+  {
+   "offset": 559,
+   "len": 59,
+   "en": "\"To be named Bolesh Us-agra-lem, Bolesh the Troop-@Leader.\"",
+   "zh": "「吾名波列許·烏斯-阿格拉-蘭，即隊伍@Leader統帥波列許。」",
+   "note": ""
+  },
+  {
+   "offset": 633,
+   "len": 49,
+   "en": "\"To lead what remains of our forces into battle.\"",
+   "zh": "「率吾族殘部繼續征戰。」",
+   "note": ""
+  },
+  {
+   "offset": 685,
+   "len": 69,
+   "en": "\"To have recently returned from a mission to your side of the world.\"",
+   "zh": "「近日已自汝等人類一方之世界完成任務歸返。」",
+   "note": ""
+  },
+  {
+   "offset": 757,
+   "len": 36,
+   "en": "\"To have tried to reach the @Codex.\"",
+   "zh": "「曾試圖抵達@Codex守則之書。」",
+   "note": ""
+  },
+  {
+   "offset": 804,
+   "len": 91,
+   "en": "\"To have had victory between our claws, but to have been thwarted on the verge of success!\"",
+   "zh": "「勝利已在爪間，卻在成功邊緣遭人阻攔！」",
+   "note": ""
+  },
+  {
+   "offset": 898,
+   "len": 66,
+   "en": "\"To have encountered an impervious @force field around the Codex.\"",
+   "zh": "「遭遇守則之書四周難以穿透之@force能量場。」",
+   "note": ""
+  },
+  {
+   "offset": 980,
+   "len": 77,
+   "en": "\"To know that such a field surrounded the Codex when my people possessed it.\"",
+   "zh": "「知曉吾族持有守則之書時，此類能量場亦曾環繞其外。」",
+   "note": ""
+  },
+  {
+   "offset": 1060,
+   "len": 70,
+   "en": "\"To remember that only those on sacred @quests for wisdom could pass.\"",
+   "zh": "「記得唯有進行神聖@quests智慧試煉者方能通過。」",
+   "note": ""
+  },
+  {
+   "offset": 1146,
+   "len": 58,
+   "en": "\"To receive a sacred quest at the @Temple of Singularity.\"",
+   "zh": "「須於@Temple獨一神殿接受神聖試煉。」",
+   "note": ""
+  },
+  {
+   "offset": 1207,
+   "len": 72,
+   "en": "\"But to be uncertain whether a human's request would be answered there.\"",
+   "zh": "「然不確定神殿是否接納人類之請求。」",
+   "note": ""
+  },
+  {
+   "offset": 1295,
+   "len": 51,
+   "en": "\"To find the temple in the mountains to the north.\"",
+   "zh": "「神殿位於北方山中。」",
+   "note": ""
+  },
+  {
+   "offset": 1349,
+   "len": 38,
+   "en": "\"To need to fly to get there, though!\"",
+   "zh": "「然須展翅飛翔方可抵達！」",
+   "note": ""
+  },
+  {
+   "offset": 1397,
+   "len": 62,
+   "en": "\"Yes, to be accessible only to the superior winged gargoyles.\"",
+   "zh": "「是，唯有高等有翼魔像方可進入。」",
+   "note": ""
+  },
+  {
+   "offset": 1462,
+   "len": 59,
+   "en": "\"To be totally unreachable by land-bound worker gargoyles!\"",
+   "zh": "「地行的工匠魔像根本無法到達！」",
+   "note": ""
+  },
+  {
+   "offset": 1524,
+   "len": 73,
+   "en": "\"To suppose that it is totally unreachable by land-bound humans as well.\"",
+   "zh": "「吾料陸行之人類亦同樣無法抵達。」",
+   "note": ""
+  },
+  {
+   "offset": 1607,
+   "len": 26,
+   "en": "\"Farewell, False Prophet.\"",
+   "zh": "「告別，偽先知。」",
+   "note": ""
+  },
+  {
+   "offset": 1636,
+   "len": 41,
+   "en": "\"To honor my people with your sacrifice.\"",
+   "zh": "「以汝之犧牲，榮耀吾族。」",
+   "note": ""
+  },
+  {
+   "offset": 1682,
+   "len": 34,
+   "en": "Weakly, the gargoyle says, \"What?\"",
+   "zh": "魔像有氣無力地說：「什麼？」",
+   "note": "旁白"
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {
+   "Bolesh": "波列許"
+  },
+  "places": {}
+ },
+ "riddles_additions": [],
+ "translator_notes": "波列許為受傷的魔像隊長，語氣先憤後敬。魔像語原文（An-bal-sil-fer 等）照原樣保留。魔像說話語法（To+動詞）譯為古典文言。"
+}

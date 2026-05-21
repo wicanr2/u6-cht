@@ -1,0 +1,216 @@
+{
+ "translations": [
+  {
+   "offset": 8,
+   "len": 21,
+   "en": "a fine looking horse.",
+   "zh": "一匹神駿英挺的駿馬。",
+   "note": "DESC"
+  },
+  {
+   "offset": 38,
+   "len": 14,
+   "en": "\"Hello again!\"",
+   "zh": "「又見面了！」",
+   "note": ""
+  },
+  {
+   "offset": 58,
+   "len": 39,
+   "en": "\"Hello, my name is Smith. Who are you?\"",
+   "zh": "「你好，我叫史密斯。你是誰？」",
+   "note": ""
+  },
+  {
+   "offset": 106,
+   "len": 44,
+   "en": "\"Oh, I had something important to tell you!\"",
+   "zh": "「哦，我有件要緊事要告訴你！」",
+   "note": ""
+  },
+  {
+   "offset": 153,
+   "len": 41,
+   "en": "\"I can't remember what it was, though...\"",
+   "zh": "「只是……我想不起來是什麼了……」",
+   "note": ""
+  },
+  {
+   "offset": 202,
+   "len": 42,
+   "en": "\"Oh, that's right, I have a clue for you!\"",
+   "zh": "「哦，對了，我有條線索要給你！」",
+   "note": ""
+  },
+  {
+   "offset": 247,
+   "len": 39,
+   "en": "\"You're the Warrior of Destiny, right?\"",
+   "zh": "「你是命運勇士，對吧？」",
+   "note": ""
+  },
+  {
+   "offset": 289,
+   "len": 110,
+   "en": "\"Well, when you go to rescue Lord British from the underworld, be sure to bring his sandlewood @box with you!\"",
+   "zh": "「好吧，當你去地下世界救不列顛王時，別忘了帶上他的檀木@箱子！」",
+   "note": ""
+  },
+  {
+   "offset": 411,
+   "len": 60,
+   "en": "\"We went to all that trouble just to hear this?\" says Dupre.",
+   "zh": "杜普雷說：「我們千辛萬苦就是為了聽這個？」",
+   "note": ""
+  },
+  {
+   "offset": 474,
+   "len": 56,
+   "en": "\"We rescued Lord British from the underworld years ago!\"",
+   "zh": "「我們幾年前就把不列顛王從地下世界救出來了！」",
+   "note": ""
+  },
+  {
+   "offset": 537,
+   "len": 81,
+   "en": "\"Well, even if you didn't like my clue, it wouldn't kill you to say 'thank you.'\"",
+   "zh": "「好吧，就算你不喜歡我的線索，說聲『謝謝』也不難吧。」",
+   "note": ""
+  },
+  {
+   "offset": 630,
+   "len": 17,
+   "en": "\"You're welcome.\"",
+   "zh": "「不客氣。」",
+   "note": ""
+  },
+  {
+   "offset": 692,
+   "len": 61,
+   "en": "\"I don't know what it all means; I just know it's important.\"",
+   "zh": "「我不知道那究竟是什麼意思；我只知道很重要。」",
+   "note": ""
+  },
+  {
+   "offset": 764,
+   "len": 37,
+   "en": "\"It's 'Smith', like in '@blacksmith'.",
+   "zh": "「是『史密斯』，就像@鐵匠（blacksmith）一樣。」",
+   "note": ""
+  },
+  {
+   "offset": 812,
+   "len": 22,
+   "en": "\"They make my @shoes.\"",
+   "zh": "「他們為我打造@蹄鐵。」",
+   "note": ""
+  },
+  {
+   "offset": 845,
+   "len": 73,
+   "en": "\"They're nailed to my @feet, see?\" He holds up a hoof for you to look at.",
+   "zh": "「釘在我的@腳上，你看。」他舉起一只蹄子給你看。",
+   "note": ""
+  },
+  {
+   "offset": 934,
+   "len": 73,
+   "en": "\"You should try it. Saves you from looking for your shoes every morning.\"",
+   "zh": "「你也應該試試。這樣就不用每天早上找鞋子了。」",
+   "note": ""
+  },
+  {
+   "offset": 1017,
+   "len": 75,
+   "en": "\"I eat Iolo's @hay to keep it from piling up everywhere and making a mess.\"",
+   "zh": "「我吃伊歐羅的@乾草，免得它到處堆積、搞得一團亂。」",
+   "note": ""
+  },
+  {
+   "offset": 1104,
+   "len": 92,
+   "en": "Iolo winks at you. \"And a fine job you do of it, too. I don't know what I'd do without you.\"",
+   "zh": "伊歐羅向你眨眨眼。「你做得真好，少了你我不知該怎麼辦。」",
+   "note": ""
+  },
+  {
+   "offset": 1226,
+   "len": 60,
+   "en": "\"Hay is the greatest menace to the well being of Britannia.\"",
+   "zh": "「乾草是不列顛尼亞安康的頭號大患。」",
+   "note": "幽默誇張語氣"
+  },
+  {
+   "offset": 1289,
+   "len": 73,
+   "en": "\"It takes constant vigilance to keep it from engulfing the entire realm.\"",
+   "zh": "「必須時刻警惕，才能防止它淹沒整個王國。」",
+   "note": ""
+  },
+  {
+   "offset": 1365,
+   "len": 36,
+   "en": "\"I've devoted my life to the @task.\"",
+   "zh": "「我將一生奉獻給這項@使命。」",
+   "note": ""
+  },
+  {
+   "offset": 1417,
+   "len": 52,
+   "en": "\"It's a thankless job, but I am a determined horse.\"",
+   "zh": "「這是個費力不討好的差事，但我是匹有志氣的馬。」",
+   "note": ""
+  },
+  {
+   "offset": 1472,
+   "len": 66,
+   "en": "\"Hay, thou hath met thy nemesis, thy doom, and his name is Smith!\"",
+   "zh": "「嘿，汝已遇見汝的天敵、汝的末日，他的名字叫史密斯！」",
+   "note": "Hay=Hey 雙關，此處保持幽默語氣"
+  },
+  {
+   "offset": 1548,
+   "len": 21,
+   "en": "\"Farewell, two-legger",
+   "zh": "「再見，兩腳獸",
+   "note": "注意：末尾未完，與下一段拼接"
+  },
+  {
+   "offset": 1575,
+   "len": 2,
+   "en": ".\"",
+   "zh": "。」",
+   "note": "接上一段的結尾"
+  },
+  {
+   "offset": 1610,
+   "len": 85,
+   "en": "You see Iolo give Dupre a nudge in the ribs. \"You owe me a drink,\" he says, grinning.",
+   "zh": "你看見伊歐羅用肘推了推杜普雷的肋骨。「你欠我一杯，」他笑嘻嘻地說。",
+   "note": ""
+  },
+  {
+   "offset": 1698,
+   "len": 95,
+   "en": "He turns to you. \"Sir Know-it-all here bet me that there was no such thing as a talking horse!\"",
+   "zh": "他轉向你。「這位萬事通大人賭我，說世上根本沒有會說話的馬！」",
+   "note": ""
+  },
+  {
+   "offset": 1800,
+   "len": 85,
+   "en": "\"Now I've seen everything. I suppose we'll be inviting some ducks over for tea next.\"",
+   "zh": "「現在我什麼都見識過了。我想下次我們大概要邀幾隻鴨子來喝茶了。」",
+   "note": ""
+  },
+  {
+   "offset": 1893,
+   "len": 68,
+   "en": "\"I don't have the answer to everything. I'm just a horse, you know.\"",
+   "zh": "「我不是什麼都知道的。我只是一匹馬，你懂的。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Smith": "史密斯"}, "places": {}},
+ "translator_notes": "史密斯是會說話的馬，性格幽默自嘲。以口語「你/我」為主，配合輕鬆詼諧的語氣。砂木箱（sandlewood box）是劇情關鍵道具。"
+}

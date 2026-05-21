@@ -1,0 +1,151 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 10,
+   "en": "Compassion",
+   "zh": "慈悲祭壇",
+   "note": "NPC name — 神殿祭壇"
+  },
+  {
+   "offset": 13,
+   "len": 24,
+   "en": "the altar of Compassion.",
+   "zh": "慈悲之祭壇。",
+   "note": "DESC"
+  },
+  {
+   "offset": 41,
+   "len": 68,
+   "en": "As you kneel before the altar, a mystical voice sounds in your head.",
+   "zh": "當你跪在祭壇前，一個神秘的聲音在你腦中迴響。",
+   "note": "旁白"
+  },
+  {
+   "offset": 119,
+   "len": 43,
+   "en": "\"Thou hast much to learn about compassion.\"",
+   "zh": "「汝對慈悲仍有許多須學習之處。」",
+   "note": "低階評語"
+  },
+  {
+   "offset": 175,
+   "len": 44,
+   "en": "\"Thy deeds have shown admirable compassion.\"",
+   "zh": "「汝之行為展現了令人欽佩的慈悲。」",
+   "note": "中階評語"
+  },
+  {
+   "offset": 220,
+   "len": 39,
+   "en": "\"Thy deeds serve as an example to all.\"",
+   "zh": "「汝之行為可為眾人表率。」",
+   "note": "高階評語"
+  },
+  {
+   "offset": 263,
+   "len": 39,
+   "en": "Do you wish to meditate at this altar? ",
+   "zh": "你希望在此祭壇冥想嗎？",
+   "note": "旁白提示，尾隨空格保留"
+  },
+  {
+   "offset": 352,
+   "len": 6,
+   "en": "#2. $Y",
+   "zh": "#2。$Y",
+   "note": "控制符保留"
+  },
+  {
+   "offset": 392,
+   "len": 21,
+   "en": "\"Who will meditate?\" ",
+   "zh": "「誰來冥想？」",
+   "note": "尾隨空格保留"
+  },
+  {
+   "offset": 449,
+   "len": 33,
+   "en": "\"Speak the Mantra of Compassion.\"",
+   "zh": "「覆誦慈悲真言。」",
+   "note": ""
+  },
+  {
+   "offset": 485,
+   "len": 13,
+   "en": "\"$Z... $Z...\"",
+   "zh": "「$Z…… $Z……」",
+   "note": "真言提示第一次"
+  },
+  {
+   "offset": 501,
+   "len": 13,
+   "en": "\"$Z... $Z...\"",
+   "zh": "「$Z…… $Z……」",
+   "note": "真言提示第二次"
+  },
+  {
+   "offset": 517,
+   "len": 13,
+   "en": "\"$Z... $Z...\"",
+   "zh": "「$Z…… $Z……」",
+   "note": "真言提示第三次"
+  },
+  {
+   "offset": 536,
+   "len": 50,
+   "en": "\"No beast so fierce but shows some touch of pity.\"",
+   "zh": "「即便最兇猛的野獸，亦不乏些許憐憫之心。」",
+   "note": "聖言（莎士比亞《理查三世》典故）"
+  },
+  {
+   "offset": 589,
+   "len": 39,
+   "en": "\"Sweet mercy is nobility's true badge.\"",
+   "zh": "「仁慈寬恕，乃高貴之真正徽印。」",
+   "note": "聖言（莎士比亞《泰特斯·安德洛尼克斯》典故）"
+  },
+  {
+   "offset": 637,
+   "len": 29,
+   "en": "You receive no enlightenment.",
+   "zh": "你未能獲得啟示。",
+   "note": "旁白"
+  },
+  {
+   "offset": 871,
+   "len": 24,
+   "en": "$Y has gained a level...",
+   "zh": "$Y提升了一個等級……",
+   "note": "升級旁白"
+  },
+  {
+   "offset": 898,
+   "len": 14,
+   "en": "and dexterity!",
+   "zh": "以及敏捷！",
+   "note": "能力提升（慈悲→敏捷）"
+  },
+  {
+   "offset": 916,
+   "len": 53,
+   "en": "\"There is naught else for you to learn here and now.\"",
+   "zh": "「此刻此地，汝已無更多可學。」",
+   "note": ""
+  },
+  {
+   "offset": 972,
+   "len": 49,
+   "en": "\"Return when thy journey has progressed further.\"",
+   "zh": "「待汝的旅程更進一步，再行回返。」",
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {},
+  "places": {}
+ },
+ "riddles_additions": [],
+ "translator_notes": "慈悲神殿，真言 mu（不翻譯）。冥想獲得敏捷提升。聖言引自莎士比亞作品。"
+}

@@ -1,0 +1,139 @@
+{
+ "translations": [
+  {
+   "offset": 7,
+   "len": 22,
+   "en": "a huge female cyclops.",
+   "zh": "一頭巨大的雌性獨眼巨人。",
+   "note": "DESC"
+  },
+  {
+   "offset": 38,
+   "len": 38,
+   "en": "\"You come back! Play with @tiny one?\" ",
+   "zh": "「你回來了！和@小不點玩嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 82,
+   "len": 29,
+   "en": "\"Good, he need tiny friends!\"",
+   "zh": "「好，他需要小小的朋友！」",
+   "note": ""
+  },
+  {
+   "offset": 119,
+   "len": 42,
+   "en": "\"But he need tiny friends! He get lonely!\"",
+   "zh": "「但他需要小小的朋友！他會孤單！」",
+   "note": ""
+  },
+  {
+   "offset": 168,
+   "len": 49,
+   "en": "\"Oh, you cute! You funny-looking like @tiny one!\"",
+   "zh": "「哦，你可愛！你長得奇怪像@小不點！」",
+   "note": ""
+  },
+  {
+   "offset": 231,
+   "len": 13,
+   "en": "\"Me cyclops.\"",
+   "zh": "「我獨眼巨人。」",
+   "note": ""
+  },
+  {
+   "offset": 247,
+   "len": 26,
+   "en": "\"@Tiny one say me 'Mama.'\"",
+   "zh": "「@小不點叫我『媽媽』。」",
+   "note": ""
+  },
+  {
+   "offset": 288,
+   "len": 25,
+   "en": "\"Male find him on shore.\"",
+   "zh": "「男的在岸邊找到他。」",
+   "note": ""
+  },
+  {
+   "offset": 316,
+   "len": 34,
+   "en": "\"One-eye little one die long ago.\"",
+   "zh": "「一眼的小不點很久以前死了。」",
+   "note": ""
+  },
+  {
+   "offset": 353,
+   "len": 34,
+   "en": "\"Two-eye little one just as good!\"",
+   "zh": "「兩眼的小不點一樣好！」",
+   "note": ""
+  },
+  {
+   "offset": 397,
+   "len": 24,
+   "en": "\"Live here! Cook, hunt!\"",
+   "zh": "「住這！煮飯，打獵！」",
+   "note": ""
+  },
+  {
+   "offset": 432,
+   "len": 40,
+   "en": "\"Cellar no go. Deep deep deep. @Locked.\"",
+   "zh": "「地下室不能去。很深很深。@鎖著。」",
+   "note": ""
+  },
+  {
+   "offset": 483,
+   "len": 17,
+   "en": "\"What look like?\"",
+   "zh": "「長什麼樣子？」",
+   "note": ""
+  },
+  {
+   "offset": 511,
+   "len": 13,
+   "en": "\"What color?\"",
+   "zh": "「什麼顏色？」",
+   "note": ""
+  },
+  {
+   "offset": 535,
+   "len": 37,
+   "en": "\"Oh, me seen that! Big black @block!\"",
+   "zh": "「哦，我見過！大大黑色@方塊！」",
+   "note": "關於黑色方形石頭"
+  },
+  {
+   "offset": 587,
+   "len": 25,
+   "en": "\"Talk male. He have key.\"",
+   "zh": "「去找男的說。他有鑰匙。」",
+   "note": ""
+  },
+  {
+   "offset": 623,
+   "len": 28,
+   "en": "\"Male keep that in @cellar.\"",
+   "zh": "「男的把那個放在@地下室。」",
+   "note": ""
+  },
+  {
+   "offset": 661,
+   "len": 42,
+   "en": "\"Come back soon, play with tiny one more!\"",
+   "zh": "「快快回來，多和小不點玩！」",
+   "note": ""
+  },
+  {
+   "offset": 708,
+   "len": 15,
+   "en": "\"What mean $Z?\"",
+   "zh": "「$Z是什麼意思？」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Mama": "媽媽"}, "places": {}},
+ "translator_notes": "媽媽是雌性獨眼巨人，和爸爸一樣說話簡短。兩眼的小不點（Myles）是她收養的人類孩子。black block（黑色方塊）是劇情道具Vortex Cube。"
+}

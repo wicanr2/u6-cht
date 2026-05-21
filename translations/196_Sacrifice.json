@@ -1,0 +1,165 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 9,
+   "en": "Sacrifice",
+   "zh": "犧牲祭壇",
+   "note": "NPC name — 神殿祭壇"
+  },
+  {
+   "offset": 12,
+   "len": 24,
+   "en": "the altar of Sacrifice.",
+   "zh": "犧牲之祭壇。",
+   "note": "DESC"
+  },
+  {
+   "offset": 39,
+   "len": 68,
+   "en": "As you kneel before the altar, a mystical voice sounds in your head.",
+   "zh": "當你跪在祭壇前，一個神秘的聲音在你腦中迴響。",
+   "note": "旁白"
+  },
+  {
+   "offset": 117,
+   "len": 41,
+   "en": "\"Thou hast much to learn about sacrifice.\"",
+   "zh": "「汝對犧牲仍有許多須學習之處。」",
+   "note": "低階評語"
+  },
+  {
+   "offset": 172,
+   "len": 44,
+   "en": "\"Thy deeds have shown admirable sacrifice.\"",
+   "zh": "「汝之行為展現了令人欽佩的犧牲精神。」",
+   "note": "中階評語"
+  },
+  {
+   "offset": 216,
+   "len": 39,
+   "en": "\"Thy deeds serve as an example to all.\"",
+   "zh": "「汝之行為可為眾人表率。」",
+   "note": "高階評語"
+  },
+  {
+   "offset": 259,
+   "len": 39,
+   "en": "Do you wish to meditate at this altar? ",
+   "zh": "你希望在此祭壇冥想嗎？",
+   "note": "旁白提示，尾隨空格保留"
+  },
+  {
+   "offset": 348,
+   "len": 6,
+   "en": "#2. $Y",
+   "zh": "#2。$Y",
+   "note": "控制符保留"
+  },
+  {
+   "offset": 388,
+   "len": 21,
+   "en": "\"Who will meditate?\" ",
+   "zh": "「誰來冥想？」",
+   "note": "尾隨空格保留"
+  },
+  {
+   "offset": 445,
+   "len": 31,
+   "en": "\"Speak the Mantra of Sacrifice.\"",
+   "zh": "「覆誦犧牲真言。」",
+   "note": ""
+  },
+  {
+   "offset": 480,
+   "len": 13,
+   "en": "\"$Z... $Z...\"",
+   "zh": "「$Z…… $Z……」",
+   "note": "真言提示第一次"
+  },
+  {
+   "offset": 496,
+   "len": 13,
+   "en": "\"$Z... $Z...\"",
+   "zh": "「$Z…… $Z……」",
+   "note": "真言提示第二次"
+  },
+  {
+   "offset": 512,
+   "len": 13,
+   "en": "\"$Z... $Z...\"",
+   "zh": "「$Z…… $Z……」",
+   "note": "真言提示第三次"
+  },
+  {
+   "offset": 532,
+   "len": 40,
+   "en": "\"The universe is so vast and so ageless ",
+   "zh": "「宇宙如此廣闊，如此古遠，",
+   "note": "聖言第一段（未閉合）"
+  },
+  {
+   "offset": 574,
+   "len": 47,
+   "en": "that the life of one man can only be justified ",
+   "zh": "一個人的生命之所以有意義，",
+   "note": "聖言第二段"
+  },
+  {
+   "offset": 623,
+   "len": 33,
+   "en": "by the measure of his sacrifice.\"",
+   "zh": "唯在於他犧牲的尺度。」",
+   "note": "聖言第三段（閉合）"
+  },
+  {
+   "offset": 665,
+   "len": 29,
+   "en": "You receive no enlightenment.",
+   "zh": "你未能獲得啟示。",
+   "note": "旁白"
+  },
+  {
+   "offset": 909,
+   "len": 24,
+   "en": "$Y has gained a level...",
+   "zh": "$Y提升了一個等級……",
+   "note": "升級旁白"
+  },
+  {
+   "offset": 936,
+   "len": 11,
+   "en": "strength...",
+   "zh": "力量……",
+   "note": "能力提升（犧牲→力量+敏捷，第一項）"
+  },
+  {
+   "offset": 950,
+   "len": 14,
+   "en": "and dexterity!",
+   "zh": "以及敏捷！",
+   "note": "能力提升第二項"
+  },
+  {
+   "offset": 968,
+   "len": 53,
+   "en": "\"There is naught else for you to learn here and now.\"",
+   "zh": "「此刻此地，汝已無更多可學。」",
+   "note": ""
+  },
+  {
+   "offset": 1024,
+   "len": 49,
+   "en": "\"Return when thy journey has progressed further.\"",
+   "zh": "「待汝的旅程更進一步，再行回返。」",
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {},
+  "places": {}
+ },
+ "riddles_additions": [],
+ "translator_notes": "犧牲神殿，真言 cah（不翻譯）。冥想獲得力量+敏捷提升。聖言三段合一引自科幻作家 Robert A. Heinlein 之句（有說法為 U6 開發者引用），宇宙廣袤與個人犧牲的對比。"
+}

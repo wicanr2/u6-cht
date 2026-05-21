@@ -1,0 +1,369 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 8,
+   "en": "Sionnach",
+   "zh": "夏諾克",
+   "note": "NPC name，愛爾蘭語，發音 'ShaNOK'"
+  },
+  {
+   "offset": 11,
+   "len": 70,
+   "en": "a troubadour with a drum. His tailored suit is travel-worn but bright.",
+   "zh": "攜帶鼓的吟遊詩人，剪裁精良的衣著雖歷風塵，仍鮮亮奪目。",
+   "note": "DESC"
+  },
+  {
+   "offset": 105,
+   "len": 81,
+   "en": "\"Excuse me, ma'am. We are, um, indisposed.\" He returns his attentions to Sylaina.",
+   "zh": "「對不起，女士。我們，呃，正不方便。」他再次把注意力轉回西萊娜身上。",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 189,
+   "len": 57,
+   "en": "\"Pardon me, sir, but I hate to keep my dear one waiting.\"",
+   "zh": "「抱歉，先生，但我實在不捨讓心上人久候。」",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 249,
+   "len": 66,
+   "en": "\"You understand, of course.\" He returns his attentions to Sylaina.",
+   "zh": "「想必你能理解。」他再次把注意力轉回西萊娜身上。",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 318,
+   "len": 12,
+   "en": "\"Greetings, ",
+   "zh": "「你好，",
+   "note": "前半"
+  },
+  {
+   "offset": 334,
+   "len": 7,
+   "en": "folks.\"",
+   "zh": "各位。」",
+   "note": "複數版"
+  },
+  {
+   "offset": 347,
+   "len": 4,
+   "en": "$G.\"",
+   "zh": "$G。」",
+   "note": "單人版"
+  },
+  {
+   "offset": 373,
+   "len": 68,
+   "en": "\"Why, hello there, my friend. You've grown a bit since we met last.\"",
+   "zh": "「哎呀，你好啊，我的朋友。自從上次見面，你長大不少了。」",
+   "note": ""
+  },
+  {
+   "offset": 444,
+   "len": 65,
+   "en": "\"I'm afraid I can't recall your name; you'll have to forgive me.\"",
+   "zh": "「恐怕我想不起你的名字了，還望見諒。」",
+   "note": ""
+  },
+  {
+   "offset": 516,
+   "len": 35,
+   "en": "\"It has been a while, Master Iolo.\"",
+   "zh": "「有一段時日了，尤洛大師。」",
+   "note": ""
+  },
+  {
+   "offset": 567,
+   "len": 51,
+   "en": "\"My name is Sionnach.\" (He pronounces it 'ShaNOK'.)",
+   "zh": "「我叫夏諾克。」（他發音為「夏諾克」。）",
+   "note": ""
+  },
+  {
+   "offset": 634,
+   "len": 31,
+   "en": "\"I'm a @drummer and a @singer.\"",
+   "zh": "「我是@drummer鼓手，也是@singer歌手。」",
+   "note": ""
+  },
+  {
+   "offset": 676,
+   "len": 36,
+   "en": "\"Would you like me to play for you?\"",
+   "zh": "「要我為你演奏嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 728,
+   "len": 73,
+   "en": "\"'Twas long ago... Back when men forced sorcerous secrets from demons...\"",
+   "zh": "「那是很久以前的事了……那時人們還從惡魔口中逼取巫術秘密……」",
+   "note": ""
+  },
+  {
+   "offset": 804,
+   "len": 76,
+   "en": "\"Back when women wove moonbeams into cloth of indescribably fine texture...\"",
+   "zh": "「那時女人們還以月光織出難以言喻之精細布料……」",
+   "note": ""
+  },
+  {
+   "offset": 883,
+   "len": 101,
+   "en": "\"Long ago, Lord Fennian devised a language of raps and knocks on the great drums used by his armies.\"",
+   "zh": "「久遠以前，芬尼恩勛爵為麾下大軍的巨鼓，創制了一套以敲擊與叩打為語言的號令體系。」",
+   "note": ""
+  },
+  {
+   "offset": 987,
+   "len": 83,
+   "en": "\"Each drum was made of the entire skin of a bull, stretched taut by a dozen cords.\"",
+   "zh": "「每面鼓都以整張牛皮製成，以十數根繩索緊繃而成。」",
+   "note": ""
+  },
+  {
+   "offset": 1073,
+   "len": 59,
+   "en": "\"It's true. I read that in a @book I found at the Lycaeum.\"",
+   "zh": "「這是真的。我在學苑找到的一本@book書中讀到的。」",
+   "note": ""
+  },
+  {
+   "offset": 1158,
+   "len": 45,
+   "en": "\"I also read a number of maritime histories.\"",
+   "zh": "「我也讀了許多海洋歷史。」",
+   "note": ""
+  },
+  {
+   "offset": 1206,
+   "len": 66,
+   "en": "\"They record the facts behind the many songs of different @ships.\"",
+   "zh": "「那些書記載了各種@ships船隻歌謠背後的事實。」",
+   "note": ""
+  },
+  {
+   "offset": 1288,
+   "len": 50,
+   "en": "\"The sea is not always a gentle, generous friend.\"",
+   "zh": "「大海並非總是溫柔慷慨的朋友。」",
+   "note": ""
+  },
+  {
+   "offset": 1341,
+   "len": 98,
+   "en": "\"Storms have brought down many a haughty vessel: the evil @Empire, the @Dutchman, the Virtuous...\"",
+   "zh": "「風暴傾覆了許多傲慢的船隻：邪惡的@Empire帝國號、@Dutchman荷蘭人號、美德號……」",
+   "note": ""
+  },
+  {
+   "offset": 1442,
+   "len": 34,
+   "en": "\"Have you heard of the @Virtuous?\"",
+   "zh": "「你聽說過@Virtuous美德號嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1492,
+   "len": 48,
+   "en": "\"I don't know where she rests. Ask other bards.\"",
+   "zh": "「我不知道她安息何處。去問問其他吟遊詩人吧。」",
+   "note": ""
+  },
+  {
+   "offset": 1543,
+   "len": 68,
+   "en": "\"There's probably great treasure on her, and on the @Virtuous, too.\"",
+   "zh": "「她那艘船上，以及@Virtuous美德號上，想必藏有大量寶藏。」",
+   "note": ""
+  },
+  {
+   "offset": 1630,
+   "len": 30,
+   "en": "Sionnach sings softly for you.",
+   "zh": "夏諾克輕柔地為你吟唱。",
+   "note": "旁白"
+  },
+  {
+   "offset": 1663,
+   "len": 33,
+   "en": "\"A southerner from Serpent's Hold",
+   "zh": "「巨蛇堡來的南方人",
+   "note": "歌謠第一節"
+  },
+  {
+   "offset": 1698,
+   "len": 33,
+   "en": "Once slew a pirate crew of eight.",
+   "zh": "曾獨殺八名海盜。",
+   "note": ""
+  },
+  {
+   "offset": 1733,
+   "len": 35,
+   "en": "Young Keegan was this warrior bold,",
+   "zh": "年輕的基根，這位勇武之士，",
+   "note": ""
+  },
+  {
+   "offset": 1770,
+   "len": 39,
+   "en": "And thus he claimed the 'Bitter Kate.'\"",
+   "zh": "就此奪得了『苦澀凱特』號。」",
+   "note": ""
+  },
+  {
+   "offset": 1812,
+   "len": 33,
+   "en": "\"He broke a bottle 'cross her bow",
+   "zh": "「他在船頭砸碎一瓶酒，",
+   "note": "歌謠第二節"
+  },
+  {
+   "offset": 1847,
+   "len": 31,
+   "en": "And 'Virtuous' became her name.",
+   "zh": "她便以『美德』為名。",
+   "note": ""
+  },
+  {
+   "offset": 1880,
+   "len": 35,
+   "en": "For many years she served him well;",
+   "zh": "多年來她忠心效命，",
+   "note": ""
+  },
+  {
+   "offset": 1917,
+   "len": 34,
+   "en": "Good Captain Keegan rose to fame.\"",
+   "zh": "善良的基根船長聲名遠播。」",
+   "note": ""
+  },
+  {
+   "offset": 1954,
+   "len": 37,
+   "en": "\"The Barston Bay came north to fight,",
+   "zh": "「巴斯頓灣號北上出戰，",
+   "note": "歌謠第三節"
+  },
+  {
+   "offset": 1993,
+   "len": 28,
+   "en": "The Jolly Roger on her mast.",
+   "zh": "桅桿高掛骷髏旗。",
+   "note": ""
+  },
+  {
+   "offset": 2023,
+   "len": 40,
+   "en": "To cold Loch Lake she sailed that night.",
+   "zh": "那夜她駛向冰冷的洛克湖，",
+   "note": ""
+  },
+  {
+   "offset": 2065,
+   "len": 41,
+   "en": "To sink Keegan's ship with cannon blast.\"",
+   "zh": "以炮火轟沉了基根的船。」",
+   "note": ""
+  },
+  {
+   "offset": 2109,
+   "len": 48,
+   "en": "\"Ah, the old Bitter Kate, she's mended her ways,",
+   "zh": "「啊，昔日的苦澀凱特已洗心革面，",
+   "note": "歌謠第四節"
+  },
+  {
+   "offset": 2159,
+   "len": 37,
+   "en": "And as the Virtuous, ended her days.\"",
+   "zh": "以美德號之名，終了殘生。」",
+   "note": ""
+  },
+  {
+   "offset": 2199,
+   "len": 44,
+   "en": "\"Captain Keegan, he sleeps the endless sleep",
+   "zh": "「基根船長，他沉眠於永恆的夢鄉，",
+   "note": "歌謠第五節"
+  },
+  {
+   "offset": 2245,
+   "len": 46,
+   "en": "While on Loch Lake's shore the Virtuous lays.\"",
+   "zh": "而美德號則擱淺在洛克湖岸。」",
+   "note": ""
+  },
+  {
+   "offset": 2301,
+   "len": 12,
+   "en": "\"Take care!\"",
+   "zh": "「保重！」",
+   "note": ""
+  },
+  {
+   "offset": 2318,
+   "len": 30,
+   "en": "\"That I cannot help you with.\"",
+   "zh": "「那方面我幫不上忙。」",
+   "note": ""
+  },
+  {
+   "offset": 2360,
+   "len": 18,
+   "en": "\"As you wish, $G.\"",
+   "zh": "「悉聽尊便，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 2386,
+   "len": 78,
+   "en": "The drum is wide and flat. Sionnach holds it by the strings on the back of it.",
+   "zh": "那面鼓又寬又扁。夏諾克以背面的繩索握持著它。",
+   "note": "旁白"
+  },
+  {
+   "offset": 2467,
+   "len": 99,
+   "en": "Then, he taps it in intricate patterns using both ends of the dowel held loosely in his other hand.",
+   "zh": "繼而，他用另一隻手輕鬆握著的木棒兩端，以繁複的節奏敲擊。",
+   "note": "旁白"
+  },
+  {
+   "offset": 2569,
+   "len": 100,
+   "en": "It sounds thus: 'RUM-TE-TUM, RUM-TE-TUM, TUMBLETY-TUM-TE-TUM!'The beat is invigorating and exciting.",
+   "zh": "聲音如此：「咚咚嗒咚，咚咚嗒咚，嗒咚咚嗒咚！」節奏令人精神振奮。",
+   "note": "旁白，擬聲音節譯為中文擬聲"
+  },
+  {
+   "offset": 2670,
+   "len": 27,
+   "en": "\"That's a @battle summons.\"",
+   "zh": "「這是@battle戰鼓召喚曲。」",
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {
+   "Sionnach": "夏諾克",
+   "Sylaina": "西萊娜",
+   "Fennian": "芬尼恩",
+   "Keegan": "基根"
+  },
+  "places": {
+   "Loch Lake": "洛克湖",
+   "Barston Bay": "巴斯頓灣"
+  }
+ },
+ "riddles_additions": [],
+ "translator_notes": "夏諾克（愛爾蘭語 'fox'，發音 ShaNOK）為吟遊詩人鼓手，正在追求西萊娜。提供關於沉船美德號的線索。歌謠五節以散文詩風格翻譯，保留敘事韻律。RUM-TE-TUM 鼓聲改為中文擬聲「咚咚嗒咚」。"
+}

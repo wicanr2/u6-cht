@@ -1,0 +1,125 @@
+{
+ "translations": [
+  {
+   "offset": 10,
+   "len": 37,
+   "en": "a giant of a man with a solemn stare.",
+   "zh": "身形魁梧之男子，目光嚴峻。",
+   "note": "DESC"
+  },
+  {
+   "offset": 56,
+   "len": 52,
+   "en": "\"What you back for? I thought you not like my @inn.\"",
+   "zh": "「回來做甚麼？我以為汝不喜歡我的@客棧。」",
+   "note": "Petroph 說話文法粗疏，譯文略帶洋味"
+  },
+  {
+   "offset": 121,
+   "len": 14,
+   "en": "\"Heylo again.\"",
+   "zh": "「又來囉。」",
+   "note": ""
+  },
+  {
+   "offset": 137,
+   "len": 15,
+   "en": "\"Heylo to you.\"",
+   "zh": "「你好啊。」",
+   "note": ""
+  },
+  {
+   "offset": 161,
+   "len": 11,
+   "en": "\"@Petroph.\"",
+   "zh": "「@彼得羅夫。」",
+   "note": ""
+  },
+  {
+   "offset": 190,
+   "len": 14,
+   "en": "\"Da, Petroph.\"",
+   "zh": "「對，彼得羅夫。」",
+   "note": "Da = 俄語是，保留語感"
+  },
+  {
+   "offset": 215,
+   "len": 47,
+   "en": "\"I am keeping the @inn, here at King's Ransom.\"",
+   "zh": "「我在這裡經營@客棧，叫做『王者贖金』。」",
+   "note": "King's Ransom 為客棧名，意譯保留"
+  },
+  {
+   "offset": 294,
+   "len": 32,
+   "en": "\"Da, goodbye and good riddance!\"",
+   "zh": "「對，再見，算是解脫了！」",
+   "note": ""
+  },
+  {
+   "offset": 328,
+   "len": 18,
+   "en": "\"Have a nice day.\"",
+   "zh": "「祝你愉快。」",
+   "note": ""
+  },
+  {
+   "offset": 352,
+   "len": 37,
+   "en": "\"You speak too quick. What was that?\"",
+   "zh": "「你說太快了。說什麼？」",
+   "note": ""
+  },
+  {
+   "offset": 414,
+   "len": 47,
+   "en": "\"#0 gold for you to stay and have meal, good?\" ",
+   "zh": "「住宿附餐，#0枚金幣，可以嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 477,
+   "len": 50,
+   "en": "\"Must pay in advance for rooms. Sorry, is policy.\"",
+   "zh": "「住房要預先付款。抱歉，這是規定。」",
+   "note": ""
+  },
+  {
+   "offset": 553,
+   "len": 33,
+   "en": "You sleep in a comfortable bed...",
+   "zh": "你睡在舒適的床上……",
+   "note": "敘述文"
+  },
+  {
+   "offset": 589,
+   "len": 42,
+   "en": "You wake rested and eat a large breakfast.",
+   "zh": "你醒來精神充沛，吃了一頓豐盛的早餐。",
+   "note": ""
+  },
+  {
+   "offset": 634,
+   "len": 22,
+   "en": "\"Good morning to you.\"",
+   "zh": "「早安。」",
+   "note": ""
+  },
+  {
+   "offset": 665,
+   "len": 36,
+   "en": "\"What, maybe you don't like my inn?\"",
+   "zh": "「什麼，難道你不喜歡我的客棧？」",
+   "note": ""
+  },
+  {
+   "offset": 704,
+   "len": 38,
+   "en": "\"Well, maybe I don't like you either!\"",
+   "zh": "「那好，也許我也不喜歡你！」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Petroph": "彼得羅夫"}, "places": {"King's Ransom": "王者贖金客棧"}},
+ "translator_notes": "Petroph 帶東歐口音（Da = 是），說話簡短生硬。King's Ransom 為客棧名，直譯。"
+}

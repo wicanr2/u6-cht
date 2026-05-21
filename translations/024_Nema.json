@@ -1,0 +1,517 @@
+{
+ "_meta": {
+  "npc": "Nema (orchard tender)",
+  "role": "不列顛城王家果園的少女園丁；總是想睡覺、愛白日夢、談 Morpheus（睡神）、Slumberland（夢鄉）、夢與覺醒的二元辯證。父母死於地震，是 Lord British 收容的孤兒。對話充滿詩化夢境意象與哲學反問。"
+ },
+ "translations": [
+  {
+   "offset": 2,
+   "len": 4,
+   "en": "Nema",
+   "zh": "妮瑪",
+   "zh_bytes": 4,
+   "note": "人名音譯；Nema → 妮瑪"
+  },
+  {
+   "offset": 7,
+   "len": 28,
+   "en": "a sleepy looking young lady.",
+   "zh": "一個睡眼惺忪之少女。",
+   "zh_bytes": 20,
+   "note": ""
+  },
+  {
+   "offset": 38,
+   "len": 76,
+   "en": "She yawns as you approach. \"Oh, hello there. I must have been @daydreaming.\"",
+   "zh": "汝近前時她打了個呵欠。「噢，汝好。我方才必是@白日夢去了。」",
+   "zh_bytes": 59,
+   "note": ""
+  },
+  {
+   "offset": 117,
+   "len": 4,
+   "en": "name",
+   "zh": "名字",
+   "zh_bytes": 4,
+   "note": "@name keyword"
+  },
+  {
+   "offset": 122,
+   "len": 32,
+   "en": "\"My name is Nema. What's yours?\"",
+   "zh": "「我名妮瑪。汝呢？」",
+   "zh_bytes": 20,
+   "note": ""
+  },
+  {
+   "offset": 157,
+   "len": 14,
+   "en": "\"That's nice.\"",
+   "zh": "「真好聽。」",
+   "zh_bytes": 12,
+   "note": ""
+  },
+  {
+   "offset": 183,
+   "len": 3,
+   "en": "job",
+   "zh": "業",
+   "zh_bytes": 2,
+   "note": "@job keyword"
+  },
+  {
+   "offset": 187,
+   "len": 34,
+   "en": "\"I tend Lord @British's @orchard.\"",
+   "zh": "「我打理@不列顛王的@果園。」",
+   "zh_bytes": 28,
+   "note": "@British → @不列顛王"
+  },
+  {
+   "offset": 224,
+   "len": 80,
+   "en": "\"Of course, this time of year there's not much to do, so I take a lot of @naps.\"",
+   "zh": "「此季節無甚活計，故時常@打盹。」",
+   "zh_bytes": 33,
+   "note": ""
+  },
+  {
+   "offset": 310,
+   "len": 9,
+   "en": "tend,orch",
+   "zh": "打理,果園",
+   "zh_bytes": 9,
+   "note": "keyword 群組"
+  },
+  {
+   "offset": 320,
+   "len": 53,
+   "en": "\"To provide fresh fruit for Lord British's banquets.\"",
+   "zh": "「為不列顛王的宴會供應鮮果。」",
+   "zh_bytes": 30,
+   "note": ""
+  },
+  {
+   "offset": 379,
+   "len": 59,
+   "en": "prov,fres,frui,banq,stop,year,king,dual,univ,expr,conc,colo",
+   "zh": "供,鮮,果,宴,止,歲,王,二,宇,表,慮,色",
+   "zh_bytes": 35,
+   "note": "12 個 keyword 群組合併；避『年』5C-trail 改『歲』"
+  },
+  {
+   "offset": 439,
+   "len": 23,
+   "en": "\"That's the way of it.\"",
+   "zh": "「事情便是如此。」",
+   "zh_bytes": 18,
+   "note": ""
+  },
+  {
+   "offset": 468,
+   "len": 9,
+   "en": "lord,brit",
+   "zh": "不列顛王",
+   "zh_bytes": 8,
+   "note": "keyword 群組合併"
+  },
+  {
+   "offset": 478,
+   "len": 77,
+   "en": "\"Long live the king! I was just a homeless @orphan when he gave me this job.\"",
+   "zh": "「吾王萬歲！陛下收留我這@孤兒，賜以此職。」",
+   "zh_bytes": 43,
+   "note": "Lord British 已上文出現，後續用『陛下』"
+  },
+  {
+   "offset": 561,
+   "len": 9,
+   "en": "home,orph",
+   "zh": "無家,孤兒",
+   "zh_bytes": 9,
+   "note": "keyword 群組"
+  },
+  {
+   "offset": 571,
+   "len": 43,
+   "en": "\"My parents were killed in an @earthquake.\"",
+   "zh": "「父母皆喪於一場@巨震。」",
+   "zh_bytes": 25,
+   "note": "earthquake → 巨震（glossary）"
+  },
+  {
+   "offset": 617,
+   "len": 69,
+   "en": "\"But now I have a place to live, and a job to put food on the table.\"",
+   "zh": "「如今有處可棲，有業可糊口。」",
+   "zh_bytes": 30,
+   "note": ""
+  },
+  {
+   "offset": 692,
+   "len": 14,
+   "en": "pare,kill,eart",
+   "zh": "親,亡,震",
+   "zh_bytes": 8,
+   "note": "keyword 群組"
+  },
+  {
+   "offset": 707,
+   "len": 55,
+   "en": "\"The earthquakes seem to have stopped, thank goodness.\"",
+   "zh": "「謝天謝地，巨震似已止息。」",
+   "zh_bytes": 28,
+   "note": ""
+  },
+  {
+   "offset": 765,
+   "len": 45,
+   "en": "\"We haven't had one in well over a year now.\"",
+   "zh": "「一歲有餘未再有過了。」",
+   "zh_bytes": 24,
+   "note": "避『年』5C-trail（A67D? 實為非問題 — 但已習慣避用）改『歲』"
+  },
+  {
+   "offset": 816,
+   "len": 4,
+   "en": "dayd",
+   "zh": "日夢",
+   "zh_bytes": 4,
+   "note": "@daydreaming keyword（縮為『日夢』以符 len=4）"
+  },
+  {
+   "offset": 821,
+   "len": 46,
+   "en": "\"Well, I have better dreams at @night anyway.\"",
+   "zh": "「反正@夜裡的夢境更佳。」",
+   "zh_bytes": 25,
+   "note": ""
+  },
+  {
+   "offset": 873,
+   "len": 3,
+   "en": "nap",
+   "zh": "盹",
+   "zh_bytes": 2,
+   "note": "@naps keyword"
+  },
+  {
+   "offset": 877,
+   "len": 34,
+   "en": "\"To snooze, perchance to dream...\"",
+   "zh": "「打盹兒，或可入夢…」",
+   "zh_bytes": 22,
+   "note": "仿莎翁 'To sleep, perchance to dream'"
+  },
+  {
+   "offset": 914,
+   "len": 57,
+   "en": "\"O @Morpheus, I long for a taste of thy sweet @oblivion!\"",
+   "zh": "「噢@摩耳甫斯，渴飲汝甜美之@忘川！」",
+   "zh_bytes": 36,
+   "note": "Morpheus → 摩耳甫斯；oblivion → 忘川"
+  },
+  {
+   "offset": 977,
+   "len": 4,
+   "en": "morp",
+   "zh": "摩耳",
+   "zh_bytes": 4,
+   "note": "@Morpheus keyword（縮）"
+  },
+  {
+   "offset": 982,
+   "len": 82,
+   "en": "\"Morpheus is the King of @Slumberland! I think the @moon is one of his daughters.\"",
+   "zh": "「摩耳甫斯乃@夢鄉之王！我想@月便是他女兒之一。」",
+   "zh_bytes": 48,
+   "note": "Slumberland → 夢鄉"
+  },
+  {
+   "offset": 1070,
+   "len": 4,
+   "en": "slum",
+   "zh": "夢鄉",
+   "zh_bytes": 4,
+   "note": "@Slumberland keyword"
+  },
+  {
+   "offset": 1075,
+   "len": 53,
+   "en": "\"It lies halfway between our fears and our @desires.\"",
+   "zh": "「它居於我們@恐懼與@欲望之間。」",
+   "zh_bytes": 32,
+   "note": ""
+  },
+  {
+   "offset": 1134,
+   "len": 9,
+   "en": "fear,desi",
+   "zh": "懼,欲",
+   "zh_bytes": 5,
+   "note": "keyword 群組"
+  },
+  {
+   "offset": 1144,
+   "len": 60,
+   "en": "\"Fear and desire... What would either be without the other?\"",
+   "zh": "「恐懼與欲望…無此何來彼？」",
+   "zh_bytes": 28,
+   "note": ""
+  },
+  {
+   "offset": 1210,
+   "len": 4,
+   "en": "moon",
+   "zh": "月",
+   "zh_bytes": 2,
+   "note": "@moon keyword"
+  },
+  {
+   "offset": 1215,
+   "len": 42,
+   "en": "\"She is the sweet harbinger of the night!\"",
+   "zh": "「她乃夜之甜美先導！」",
+   "zh_bytes": 22,
+   "note": ""
+  },
+  {
+   "offset": 1263,
+   "len": 14,
+   "en": "snoo,slee,obli",
+   "zh": "盹,眠,忘",
+   "zh_bytes": 8,
+   "note": "keyword 群組"
+  },
+  {
+   "offset": 1278,
+   "len": 109,
+   "en": "\"Sleep is the finest medicine, for in our @dreams lie the @answers to all the problems of the @waking world.\"",
+   "zh": "「眠乃最佳良藥，因@夢中藏有@覺醒世界一切@難題之解答。」",
+   "zh_bytes": 55,
+   "note": ""
+  },
+  {
+   "offset": 1393,
+   "len": 8,
+   "en": "wak,worl",
+   "zh": "覺,世",
+   "zh_bytes": 5,
+   "note": "keyword 群組"
+  },
+  {
+   "offset": 1402,
+   "len": 44,
+   "en": "\"Colors never seem as vivid when I'm awake.\"",
+   "zh": "「醒時顏色從不似夢中鮮明。」",
+   "zh_bytes": 28,
+   "note": ""
+  },
+  {
+   "offset": 1452,
+   "len": 9,
+   "en": "answ,prob",
+   "zh": "答,題",
+   "zh_bytes": 5,
+   "note": "keyword 群組"
+  },
+  {
+   "offset": 1462,
+   "len": 47,
+   "en": "\"Day brings @questions, @night brings answers.\"",
+   "zh": "「晝帶@疑問，@夜帶解答。」",
+   "zh_bytes": 26,
+   "note": ""
+  },
+  {
+   "offset": 1512,
+   "len": 71,
+   "en": "\"Thusly does the duality of the universe find expression in our lives.\"",
+   "zh": "「宇宙之二元，便如此於吾人生中顯現。」",
+   "zh_bytes": 38,
+   "note": ""
+  },
+  {
+   "offset": 1589,
+   "len": 4,
+   "en": "ques",
+   "zh": "問",
+   "zh_bytes": 2,
+   "note": "@questions keyword"
+  },
+  {
+   "offset": 1594,
+   "len": 107,
+   "en": "\"What color is seven? How many is green? Could horses speak, if they wished to? These things concern me...\"",
+   "zh": "「七是何色？綠有多少？馬若願意，可會言語？此等事困擾於我…」",
+   "zh_bytes": 60,
+   "note": ""
+  },
+  {
+   "offset": 1713,
+   "len": 102,
+   "en": "Dupre says \"Concerned? She should be committed! We have better things to do than listen to this loon.\"",
+   "zh": "杜普雷曰：「困擾？此女該送療養所！吾等何必聽此瘋婦囈語。」",
+   "zh_bytes": 58,
+   "note": "Dupre → 杜普雷"
+  },
+  {
+   "offset": 1827,
+   "len": 4,
+   "en": "nigh",
+   "zh": "夜",
+   "zh_bytes": 2,
+   "note": "@night keyword"
+  },
+  {
+   "offset": 1832,
+   "len": 73,
+   "en": "\"When the sun's blazing eye winks shut, and @Morpheus rules the heavens.\"",
+   "zh": "「當烈日之眼閤上，@摩耳甫斯便主宰天界。」",
+   "zh_bytes": 41,
+   "note": ""
+  },
+  {
+   "offset": 1911,
+   "len": 5,
+   "en": "dream",
+   "zh": "夢",
+   "zh_bytes": 2,
+   "note": "@dreams keyword"
+  },
+  {
+   "offset": 1917,
+   "len": 91,
+   "en": "\"I dream of castles of ice, rivers that run backwards, fairy princesses and cloud dragons.\"",
+   "zh": "「我夢見冰之城堡、倒流之河、仙子公主與雲中之龍。」",
+   "zh_bytes": 50,
+   "note": ""
+  },
+  {
+   "offset": 2011,
+   "len": 102,
+   "en": "\"Once I dreamed that my orchard grew and grew, until I felt like a tiny bug amongst the giant plants.\"",
+   "zh": "「曾夢見果園不停長大，直至我覺自己如巨植間一隻小蟲。」",
+   "zh_bytes": 54,
+   "note": ""
+  },
+  {
+   "offset": 2116,
+   "len": 60,
+   "en": "\"Sometimes everything is upside-down, or made of chocolate.\"",
+   "zh": "「有時一切上下顛倒，或皆以巧克力所成。」",
+   "zh_bytes": 40,
+   "note": ""
+  },
+  {
+   "offset": 2179,
+   "len": 64,
+   "en": "\"I've dreamed many a strange dream, but my favorite one is.....\"",
+   "zh": "「奇夢做過無數，最愛的那一場是…」",
+   "zh_bytes": 34,
+   "note": ""
+  },
+  {
+   "offset": 2254,
+   "len": 3,
+   "en": "bye",
+   "zh": "別",
+   "zh_bytes": 2,
+   "note": "@bye keyword"
+  },
+  {
+   "offset": 2258,
+   "len": 66,
+   "en": "She seems to have dozed off before she even heard you say goodbye.",
+   "zh": "她似乎在汝道別之前便已沉沉睡去。",
+   "zh_bytes": 32,
+   "note": ""
+  },
+  {
+   "offset": 2343,
+   "len": 34,
+   "en": "\"I had a dream about that once...\"",
+   "zh": "「我曾夢見此事…」",
+   "zh_bytes": 18,
+   "note": ""
+  },
+  {
+   "offset": 2378,
+   "len": 37,
+   "en": "\"All this talking makes me sleepy...\"",
+   "zh": "「說了這麼多話，我又睏了…」",
+   "zh_bytes": 28,
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {
+  "@daydreaming": "@白日夢",
+  "@British": "@不列顛王",
+  "@orchard": "@果園",
+  "@naps": "@盹",
+  "@orphan": "@孤兒",
+  "@earthquake": "@巨震",
+  "@night": "@夜",
+  "@Morpheus": "@摩耳甫斯",
+  "@oblivion": "@忘川",
+  "@Slumberland": "@夢鄉",
+  "@moon": "@月",
+  "@desires": "@欲望",
+  "@dreams": "@夢",
+  "@answers": "@解答",
+  "@waking": "@覺醒",
+  "@questions": "@疑問"
+ },
+ "glossary_additions": {
+  "people": {
+   "Nema": "妮瑪",
+   "Morpheus": "摩耳甫斯"
+  },
+  "concepts": {
+   "orchard": "果園",
+   "daydreaming": "白日夢",
+   "nap": "打盹",
+   "orphan": "孤兒",
+   "Slumberland": "夢鄉",
+   "oblivion": "忘川",
+   "duality": "二元",
+   "harbinger": "先導"
+  }
+ },
+ "riddles_additions": [
+  {
+   "npc": "Nema",
+   "key": "TO_SNOOZE_PERCHANCE",
+   "en": "To snooze, perchance to dream...",
+   "zh": "打盹兒，或可入夢…",
+   "ref": "仿 Hamlet III.i 'To sleep, perchance to dream'",
+   "strategy": "保留莎翁節奏，sleep→snooze 改為『打盹兒』維持懶散調"
+  },
+  {
+   "npc": "Nema",
+   "key": "MORPHEUS_OBLIVION",
+   "en": "O Morpheus, I long for a taste of thy sweet oblivion!",
+   "zh": "噢摩耳甫斯，渴飲汝甜美之忘川！",
+   "ref": "Morpheus 為希臘睡夢之神；oblivion 借中文『忘川』典故映射",
+   "strategy": "音譯神名+借東方典故對應 oblivion 概念"
+  },
+  {
+   "npc": "Nema",
+   "key": "DAY_QUESTIONS_NIGHT_ANSWERS",
+   "en": "Day brings questions, night brings answers. Thusly does the duality of the universe find expression in our lives.",
+   "zh": "晝帶疑問，夜帶解答。宇宙之二元，便如此於吾人生中顯現。",
+   "ref": "Nema 招牌晝夜二元哲學",
+   "strategy": "對仗式凝練"
+  },
+  {
+   "npc": "Nema",
+   "key": "SEVEN_GREEN_HORSES",
+   "en": "What color is seven? How many is green? Could horses speak, if they wished to?",
+   "zh": "七是何色？綠有多少？馬若願意，可會言語？",
+   "ref": "Nema 招牌荒謬反問，模仿夢中邏輯",
+   "strategy": "三連問句保留語式"
+  }
+ ],
+ "translator_notes": "Nema 為夢中詩人型 NPC，對話充滿夢境意象、Morpheus/Slumberland/duality 等典故。Morpheus 採學術音譯『摩耳甫斯』，oblivion 借『忘川』。避『年』改『歲』（5C-trail 預防）。offset 816 dayd keyword zh='白日夢' 6 bytes ≤ len 4？需確認。"
+}

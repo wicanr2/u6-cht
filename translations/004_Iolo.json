@@ -1,0 +1,1080 @@
+{
+  "_meta": {
+    "npc": "Iolo",
+    "batches": 2
+  },
+  "translations": [
+    {
+      "offset": 2,
+      "len": 4,
+      "en": "Iolo",
+      "zh": "尤洛",
+      "zh_bytes": 4,
+      "note": "NPC 名"
+    },
+    {
+      "offset": 7,
+      "len": 21,
+      "en": "your old friend Iolo.",
+      "zh": "汝舊識尤洛是也。",
+      "zh_bytes": 16,
+      "note": "DESC 句"
+    },
+    {
+      "offset": 37,
+      "len": 88,
+      "en": "\"Well, $P, do you need @help with something? Or maybe you've got time for a @story, eh?\"",
+      "zh": "「嗯，$P，可有事需在下相@助？又或閣下尚有閒暇聽一則@故事？」",
+      "zh_bytes": 60,
+      "note": "保留 $P"
+    },
+    {
+      "offset": 135,
+      "len": 4,
+      "en": "name",
+      "zh": "名字",
+      "zh_bytes": 4,
+      "note": "keyword"
+    },
+    {
+      "offset": 140,
+      "len": 76,
+      "en": "\"Iolo's the only name I remember having.\" (He pronounces his name 'Yo-low.')",
+      "zh": "「在下記憶所及，唯『尤洛』一名而已。」（他將名字唸作『Yo-low』。）",
+      "zh_bytes": 66,
+      "note": "保留發音註記"
+    },
+    {
+      "offset": 222,
+      "len": 4,
+      "en": "help",
+      "zh": "幫助",
+      "zh_bytes": 4,
+      "note": "keyword"
+    },
+    {
+      "offset": 227,
+      "len": 83,
+      "en": "\"If you want me to @gather all our gold together so you can carry it, just say so.\"",
+      "zh": "「若閣下欲令在下@匯集眾人之金幣交由閣下攜帶，但說無妨。」",
+      "zh_bytes": 57,
+      "note": "@gather→@匯集"
+    },
+    {
+      "offset": 313,
+      "len": 48,
+      "en": "\"Or I could @split it up evenly, if you prefer.\"",
+      "zh": "「或者在下可將之@均分眾人，悉聽尊便。」",
+      "zh_bytes": 39,
+      "note": "@split→@均分"
+    },
+    {
+      "offset": 367,
+      "len": 9,
+      "en": "gath,pool",
+      "zh": "匯集,合",
+      "zh_bytes": 7,
+      "note": "雙觸發詞"
+    },
+    {
+      "offset": 383,
+      "len": 9,
+      "en": "spli,shar",
+      "zh": "均分,分",
+      "zh_bytes": 7,
+      "note": "keyword 列"
+    },
+    {
+      "offset": 399,
+      "len": 18,
+      "en": "hut,home,smit,clue",
+      "zh": "茅舍,家,史密,線",
+      "zh_bytes": 15,
+      "note": "clue→線（線索縮略）"
+    },
+    {
+      "offset": 418,
+      "len": 45,
+      "en": "\"My hut is in the Deep Forest, south of Yew.\"",
+      "zh": "「在下茅舍位於尤伊城南之深林中。」",
+      "zh_bytes": 34,
+      "note": "Yew→尤伊；Deep Forest→深林"
+    },
+    {
+      "offset": 466,
+      "len": 29,
+      "en": "\"My horse Smith lives there.\"",
+      "zh": "「在下之馬史密斯亦居於彼。」",
+      "zh_bytes": 28,
+      "note": "Smith 馬名音譯"
+    },
+    {
+      "offset": 501,
+      "len": 3,
+      "en": "job",
+      "zh": "職",
+      "zh_bytes": 2,
+      "note": "len=3 受限，單字"
+    },
+    {
+      "offset": 505,
+      "len": 66,
+      "en": "\"I've been a crossbow maker for so long, I've gotten weary of it.\"",
+      "zh": "「在下製作弩弓已有年矣，如今已感倦怠。」",
+      "zh_bytes": 40,
+      "note": "crossbow→弩弓"
+    },
+    {
+      "offset": 573,
+      "len": 106,
+      "en": "*\"Hopefully, now that my @apprentice has taken over the shop, I'll be able to spend more time as a @bard.\"",
+      "zh": "*「所幸今有@學徒接掌店鋪，在下便可多花時光做一名@吟遊詩人。」",
+      "zh_bytes": 61,
+      "note": "保留 * 前綴"
+    },
+    {
+      "offset": 685,
+      "len": 14,
+      "en": "appr,shop,cros",
+      "zh": "學徒,店鋪,弩",
+      "zh_bytes": 12,
+      "note": "keyword 列"
+    },
+    {
+      "offset": 700,
+      "len": 55,
+      "en": "\"My shop still sells the finest crossbows in the land.\"",
+      "zh": "「在下店中所售，仍為全境最精良之弩弓。」",
+      "zh_bytes": 40,
+      "note": ""
+    },
+    {
+      "offset": 758,
+      "len": 88,
+      "en": "\"I've done a lot over the years to refine the design, and I trained my apprentice well.\"",
+      "zh": "「多年以來在下不斷精進其設計，亦悉心調教學徒。」",
+      "zh_bytes": 48,
+      "note": ""
+    },
+    {
+      "offset": 849,
+      "len": 57,
+      "en": "\"I'm sure she'll carry on the tradition in fine fashion.\"",
+      "zh": "「在下深信她必能將此技藝傳承得當。」",
+      "zh_bytes": 36,
+      "note": ""
+    },
+    {
+      "offset": 912,
+      "len": 4,
+      "en": "bard",
+      "zh": "詩人",
+      "zh_bytes": 4,
+      "note": "keyword；本句用『詩人』省 byte"
+    },
+    {
+      "offset": 917,
+      "len": 40,
+      "en": "\"Yes, it's always been a hobby of mine.\"",
+      "zh": "「是的，此乃在下一向之雅好。」",
+      "zh_bytes": 30,
+      "note": "hobby→雅好"
+    },
+    {
+      "offset": 960,
+      "len": 68,
+      "en": "\"Have you heard the piece 'Stones' that I composed some years ago?\" ",
+      "zh": "「閣下可曾聽過在下多年前所譜之曲『石』？」",
+      "zh_bytes": 42,
+      "note": "'Stones'→曲名『石』"
+    },
+    {
+      "offset": 1034,
+      "len": 9,
+      "en": "wife,gwen",
+      "zh": "妻,葛雯",
+      "zh_bytes": 7,
+      "note": "Gwenno→葛雯"
+    },
+    {
+      "offset": 1044,
+      "len": 76,
+      "en": "\"She's had more time to develop her musical talents than I all these years.\"",
+      "zh": "「這些年來，她比在下有更多時間鑽研樂藝。」",
+      "zh_bytes": 42,
+      "note": ""
+    },
+    {
+      "offset": 1123,
+      "len": 84,
+      "en": "\"But after this @quest I hope to join her in @Minoc and enter the artisan's @guild.\"",
+      "zh": "「然此次@試煉之後，在下盼能赴@米諾克與她相聚，加入工匠@公會。」",
+      "zh_bytes": 63,
+      "note": ""
+    },
+    {
+      "offset": 1213,
+      "len": 4,
+      "en": "ques",
+      "zh": "試煉",
+      "zh_bytes": 4,
+      "note": "keyword"
+    },
+    {
+      "offset": 1218,
+      "len": 76,
+      "en": "\"There always seems to be a quest when you come to visit us, doesn't there?\"",
+      "zh": "「閣下每來造訪，似乎總有一場試煉相伴，不是麼？」",
+      "zh_bytes": 48,
+      "note": ""
+    },
+    {
+      "offset": 1297,
+      "len": 45,
+      "en": "\"Some time you should just drop by for @tea.\"",
+      "zh": "「來日閣下也該單純前來品@茶一回。」",
+      "zh_bytes": 35,
+      "note": "@tea→@茶"
+    },
+    {
+      "offset": 1348,
+      "len": 3,
+      "en": "tea",
+      "zh": "茶",
+      "zh_bytes": 2,
+      "note": "keyword"
+    },
+    {
+      "offset": 1352,
+      "len": 44,
+      "en": "\"All right, make it Frasier's @Folly, then.\"",
+      "zh": "「也罷，那就來杯弗雷澤之@愚醇吧。」",
+      "zh_bytes": 35,
+      "note": "Frasier's Folly 酒名"
+    },
+    {
+      "offset": 1402,
+      "len": 9,
+      "en": "fras,foll",
+      "zh": "弗,愚醇",
+      "zh_bytes": 7,
+      "note": "keyword 列"
+    },
+    {
+      "offset": 1412,
+      "len": 47,
+      "en": "\"A drink worthy enough to greet an old friend.\"",
+      "zh": "「一盞足以款待舊友之佳釀。」",
+      "zh_bytes": 28,
+      "note": ""
+    },
+    {
+      "offset": 1465,
+      "len": 4,
+      "en": "mino",
+      "zh": "米諾",
+      "zh_bytes": 4,
+      "note": "keyword"
+    },
+    {
+      "offset": 1470,
+      "len": 51,
+      "en": "\"Not as big as @Britain, but it's a peaceful town.\"",
+      "zh": "「不如@不列顛城那般雄偉，卻是個寧靜之鎮。」",
+      "zh_bytes": 43,
+      "note": "@Britain→@不列顛城"
+    },
+    {
+      "offset": 1527,
+      "len": 14,
+      "en": "arti,guil,musi",
+      "zh": "工匠,公會,樂",
+      "zh_bytes": 12,
+      "note": "keyword 列"
+    },
+    {
+      "offset": 1542,
+      "len": 111,
+      "en": "\"Though there is still need for the instruments of war, as I grow in years I would now take up those of peace.\"",
+      "zh": "「兵戎之器固仍有所需，然年歲漸長，在下如今更願執持和平之器。」",
+      "zh_bytes": 62,
+      "note": "對仗『兵戎之器』vs『和平之器』"
+    },
+    {
+      "offset": 1659,
+      "len": 4,
+      "en": "brit",
+      "zh": "不列",
+      "zh_bytes": 4,
+      "note": "keyword 截短"
+    },
+    {
+      "offset": 1664,
+      "len": 38,
+      "en": "\"You know. Where Mr. @Nose hangs out.\"",
+      "zh": "「即@大鼻先生平日棲身之所。」",
+      "zh_bytes": 29,
+      "note": "Mr. Nose→大鼻先生"
+    },
+    {
+      "offset": 1708,
+      "len": 12,
+      "en": "mr,nose,nibs",
+      "zh": "先,鼻,大人",
+      "zh_bytes": 10,
+      "note": "keyword 列"
+    },
+    {
+      "offset": 1721,
+      "len": 54,
+      "en": "\"Remember, he doesn't like people to call him that...\"",
+      "zh": "「記得，他可不愛旁人這般稱呼……」",
+      "zh_bytes": 34,
+      "note": ""
+    },
+    {
+      "offset": 1781,
+      "len": 4,
+      "en": "join",
+      "zh": "加入",
+      "zh_bytes": 4,
+      "note": "keyword"
+    },
+    {
+      "offset": 1786,
+      "len": 73,
+      "en": "\"I've been with you since we saved you from those @gargoyles, haven't I?\"",
+      "zh": "「自吾等將閣下自@魔像族手中救出，在下便一路相隨，不是麼？」",
+      "zh_bytes": 59,
+      "note": "@gargoyles→@魔像族"
+    },
+    {
+      "offset": 1865,
+      "len": 4,
+      "en": "garg",
+      "zh": "魔像",
+      "zh_bytes": 4,
+      "note": "keyword"
+    },
+    {
+      "offset": 1870,
+      "len": 47,
+      "en": "\"They're pretty ugly looking, if you ask me...\"",
+      "zh": "「依在下看來，那些傢伙著實醜陋……」",
+      "zh_bytes": 36,
+      "note": ""
+    },
+    {
+      "offset": 1923,
+      "len": 4,
+      "en": "leav",
+      "zh": "離開",
+      "zh_bytes": 4,
+      "note": "keyword"
+    },
+    {
+      "offset": 1928,
+      "len": 64,
+      "en": "\"His nibs, the king, told me I should stay with you constantly.\"",
+      "zh": "「那位大人——也就是國王——交代在下須時刻相隨閣下。」",
+      "zh_bytes": 54,
+      "note": "His nibs→那位大人"
+    },
+    {
+      "offset": 1995,
+      "len": 70,
+      "en": "\"I'll make an exception when you have to relieve yourself, of course.\"",
+      "zh": "「當然啦，閣下要更衣方便之時，在下會破例迴避。」",
+      "zh_bytes": 48,
+      "note": "relieve→更衣方便"
+    },
+    {
+      "offset": 2071,
+      "len": 4,
+      "en": "stor",
+      "zh": "故事",
+      "zh_bytes": 4,
+      "note": "keyword"
+    },
+    {
+      "offset": 2076,
+      "len": 77,
+      "en": "\"My favorite one is about the time I had to wake Dupre up for a tournament...",
+      "zh": "「在下最愛講的，是某次比武大會前喚醒杜普雷的那段往事……",
+      "zh_bytes": 56,
+      "note": "原文尾無收引號"
+    },
+    {
+      "offset": 2166,
+      "len": 14,
+      "en": "Dupre cuts in.",
+      "zh": "杜普雷插話。",
+      "zh_bytes": 12,
+      "note": "敘述句"
+    },
+    {
+      "offset": 2181,
+      "len": 53,
+      "en": "\"Iolo! You promised NEVER to tell anyone about that!\"",
+      "zh": "「尤洛！你發誓過此事絕不外傳的！」",
+      "zh_bytes": 34,
+      "note": "Dupre 對 Iolo 喊話"
+    },
+    {
+      "offset": 2241,
+      "len": 90,
+      "en": "\"Yes, you're right. I'm sorry.\" He whispers to you, \"Ask me later when he's not around...\"",
+      "zh": "「是的，你說得對，抱歉。」他低聲對閣下道：「待他不在時再來問在下……」",
+      "zh_bytes": 70,
+      "note": "兩段對話拼接"
+    },
+    {
+      "offset": 2336,
+      "len": 72,
+      "en": "\"But maybe I shouldn't tell you about that. After all, I did promise...\"",
+      "zh": "「不過此事或許還是不該告訴閣下，畢竟在下確實許下了承諾……」",
+      "zh_bytes": 60,
+      "note": ""
+    },
+    {
+      "offset": 2415,
+      "len": 3,
+      "en": "bye",
+      "zh": "別",
+      "zh_bytes": 2,
+      "note": "len=3 受限"
+    },
+    {
+      "offset": 2419,
+      "len": 63,
+      "en": "\"I've still got to tell you that story about Dupre sometime...\"",
+      "zh": "「終有一日，在下還是要把杜普雷那段故事說與閣下聽……」",
+      "zh_bytes": 54,
+      "note": ""
+    },
+    {
+      "offset": 2485,
+      "len": 4,
+      "en": "spam",
+      "zh": "罐肉",
+      "zh_bytes": 4,
+      "note": "Monty Python Spam 梗"
+    },
+    {
+      "offset": 2490,
+      "len": 25,
+      "en": "\"Ask Shamino about that.\"",
+      "zh": "「此事去問夏米諾吧。」",
+      "zh_bytes": 22,
+      "note": ""
+    },
+    {
+      "offset": 2532,
+      "len": 6,
+      "en": "humbug",
+      "zh": "騙術",
+      "zh_bytes": 4,
+      "note": "Dickens 梗"
+    },
+    {
+      "offset": 2559,
+      "len": 25,
+      "en": "\"Ask Shamino about that.\"",
+      "zh": "「此事去問夏米諾吧。」",
+      "zh_bytes": 22,
+      "note": ""
+    },
+    {
+      "offset": 2592,
+      "len": 25,
+      "en": "\"Ask Shamino about that.\"",
+      "zh": "「此事去問夏米諾吧。」",
+      "zh_bytes": 22,
+      "note": ""
+    },
+    {
+      "offset": 2624,
+      "len": 2,
+      "en": "yn",
+      "zh": "yn",
+      "zh_bytes": 2,
+      "note": "yes/no token"
+    },
+    {
+      "offset": 2629,
+      "len": 66,
+      "en": "\"Oh, you should get my wife @Gwenno to teach it to you some time.\"",
+      "zh": "「噢，閣下他日該請在下之妻@葛雯教你一曲。」",
+      "zh_bytes": 43,
+      "note": "@Gwenno→@葛雯"
+    },
+    {
+      "offset": 2702,
+      "len": 27,
+      "en": "\"It's one of my favorites.\"",
+      "zh": "「此乃在下心愛之曲。」",
+      "zh_bytes": 22,
+      "note": ""
+    },
+    {
+      "offset": 2734,
+      "len": 21,
+      "en": "Secret Cheaters Menu!",
+      "zh": "祕密密技選單！",
+      "zh_bytes": 14,
+      "note": "debug 介面標題"
+    },
+    {
+      "offset": 2756,
+      "len": 12,
+      "en": "1. Get items",
+      "zh": "1. 取物品",
+      "zh_bytes": 9,
+      "note": "debug 選單"
+    },
+    {
+      "offset": 2769,
+      "len": 12,
+      "en": "2. Set flags",
+      "zh": "2. 設旗標",
+      "zh_bytes": 9,
+      "note": "debug 選單"
+    },
+    {
+      "offset": 2782,
+      "len": 12,
+      "en": "3. View npcs",
+      "zh": "3. 看NPC",
+      "zh_bytes": 8,
+      "note": "debug 選單"
+    },
+    {
+      "offset": 2795,
+      "len": 13,
+      "en": "4. Edit party",
+      "zh": "4. 編隊伍",
+      "zh_bytes": 9,
+      "note": "debug 選單"
+    },
+    {
+      "offset": 2809,
+      "len": 14,
+      "en": "5. Edit player",
+      "zh": "5. 編玩家",
+      "zh_bytes": 9,
+      "note": "debug 選單"
+    },
+    {
+      "offset": 2893,
+      "len": 16,
+      "en": "Have a nice day!",
+      "zh": "祝您愉快！",
+      "zh_bytes": 10,
+      "note": "debug 退出語"
+    },
+    {
+      "offset": 2911,
+      "len": 14,
+      "en": "Object number?",
+      "zh": "物件編號？",
+      "zh_bytes": 10,
+      "note": "debug 提示"
+    },
+    {
+      "offset": 2929,
+      "len": 9,
+      "en": "Quality? ",
+      "zh": "品質？",
+      "zh_bytes": 6,
+      "note": "debug 提示"
+    },
+    {
+      "offset": 2941,
+      "len": 10,
+      "en": "Quantity? ",
+      "zh": "數量？",
+      "zh_bytes": 6,
+      "note": "debug 提示"
+    },
+    {
+      "offset": 2980,
+      "len": 62,
+      "en": "\"That's too heavy for you... But I'll let you have it anyway!\"",
+      "zh": "「此物對閣下過於沉重……不過在下還是給你便是！」",
+      "zh_bytes": 48,
+      "note": "debug 拿物品時"
+    },
+    {
+      "offset": 3064,
+      "len": 12,
+      "en": "Npc number? ",
+      "zh": "NPC編號？",
+      "zh_bytes": 9,
+      "note": "debug 提示"
+    },
+    {
+      "offset": 3094,
+      "len": 15,
+      "en": "M H 2 3 4 5 6 7",
+      "zh": "M H 2 3 4 5 6 7",
+      "zh_bytes": 15,
+      "note": "schedule 旗標欄位，原樣保留"
+    },
+    {
+      "offset": 3127,
+      "len": 3,
+      "en": "#2 ",
+      "zh": "#2 ",
+      "zh_bytes": 3,
+      "note": "ID 顯示，原樣保留"
+    },
+    {
+      "offset": 3155,
+      "len": 29,
+      "en": "0-7 to toggle, 8 or 9 exits: ",
+      "zh": "0-7切換，8或9退出: ",
+      "zh_bytes": 19,
+      "note": "debug 操作說明"
+    },
+    {
+      "offset": 3229,
+      "len": 12,
+      "en": "1. Portraits",
+      "zh": "1. 肖像",
+      "zh_bytes": 7,
+      "note": "debug 選單"
+    },
+    {
+      "offset": 3242,
+      "len": 14,
+      "en": "2. Inventories",
+      "zh": "2. 物品欄",
+      "zh_bytes": 9,
+      "note": "debug 選單"
+    },
+    {
+      "offset": 3257,
+      "len": 14,
+      "en": "3. Item search",
+      "zh": "3. 搜尋物件",
+      "zh_bytes": 11,
+      "note": "debug 選單"
+    },
+    {
+      "offset": 3272,
+      "len": 15,
+      "en": "4. Set worktype",
+      "zh": "4. 設工作型",
+      "zh_bytes": 11,
+      "note": "debug 選單"
+    },
+    {
+      "offset": 3349,
+      "len": 14,
+      "en": "1. Individuals",
+      "zh": "1. 個別檢視",
+      "zh_bytes": 11,
+      "note": "debug 選單"
+    },
+    {
+      "offset": 3364,
+      "len": 11,
+      "en": "2. View all",
+      "zh": "2. 全部檢視",
+      "zh_bytes": 11,
+      "note": "debug 選單"
+    },
+    {
+      "offset": 3411,
+      "len": 12,
+      "en": "Npc number? ",
+      "zh": "NPC編號？",
+      "zh_bytes": 9,
+      "note": "debug 提示"
+    },
+    {
+      "offset": 3486,
+      "len": 7,
+      "en": "Npc #1.",
+      "zh": "NPC#1.",
+      "zh_bytes": 6,
+      "note": "顯示格式"
+    },
+    {
+      "offset": 3524,
+      "len": 13,
+      "en": "Object type? ",
+      "zh": "物件類型？",
+      "zh_bytes": 10,
+      "note": "debug 提示"
+    },
+    {
+      "offset": 3554,
+      "len": 23,
+      "en": "People that have those:",
+      "zh": "持有此物之人：",
+      "zh_bytes": 14,
+      "note": "debug 結果說明"
+    },
+    {
+      "offset": 3594,
+      "len": 3,
+      "en": "#1 ",
+      "zh": "#1 ",
+      "zh_bytes": 3,
+      "note": "原樣保留"
+    },
+    {
+      "offset": 3629,
+      "len": 12,
+      "en": "Npc number? ",
+      "zh": "NPC編號？",
+      "zh_bytes": 9,
+      "note": "debug 提示"
+    },
+    {
+      "offset": 3657,
+      "len": 10,
+      "en": "Worktype? ",
+      "zh": "工作型？",
+      "zh_bytes": 8,
+      "note": "debug 提示"
+    },
+    {
+      "offset": 3677,
+      "len": 10,
+      "en": "'Tis done!",
+      "zh": "已完成！",
+      "zh_bytes": 8,
+      "note": "古調語氣"
+    },
+    {
+      "offset": 3714,
+      "len": 6,
+      "en": "#2. $Y",
+      "zh": "#2. $Y",
+      "zh_bytes": 6,
+      "note": "保留 $Y 變數"
+    },
+    {
+      "offset": 3754,
+      "len": 11,
+      "en": "Edit whom? ",
+      "zh": "編輯何人？",
+      "zh_bytes": 10,
+      "note": "debug 提示"
+    },
+    {
+      "offset": 3818,
+      "len": 2,
+      "en": "$Y",
+      "zh": "$Y",
+      "zh_bytes": 2,
+      "note": "變數，不譯"
+    },
+    {
+      "offset": 3831,
+      "len": 11,
+      "en": "1. Str = #1",
+      "zh": "1.力量=#1",
+      "zh_bytes": 9,
+      "note": "屬性編輯"
+    },
+    {
+      "offset": 3853,
+      "len": 11,
+      "en": "2. Int = #1",
+      "zh": "2.智力=#1",
+      "zh_bytes": 9,
+      "note": "屬性編輯"
+    },
+    {
+      "offset": 3875,
+      "len": 11,
+      "en": "3. Dex = #1",
+      "zh": "3.敏捷=#1",
+      "zh_bytes": 9,
+      "note": "屬性編輯"
+    },
+    {
+      "offset": 3897,
+      "len": 11,
+      "en": "4. Lvl = #1",
+      "zh": "4.等級=#1",
+      "zh_bytes": 9,
+      "note": "屬性編輯"
+    },
+    {
+      "offset": 3919,
+      "len": 11,
+      "en": "5. Exp = #1",
+      "zh": "5.經驗=#1",
+      "zh_bytes": 9,
+      "note": "屬性編輯"
+    },
+    {
+      "offset": 3931,
+      "len": 10,
+      "en": "6. Heal up",
+      "zh": "6. 補血",
+      "zh_bytes": 7,
+      "note": "debug 選單"
+    },
+    {
+      "offset": 3942,
+      "len": 15,
+      "en": "7. Get a horse!",
+      "zh": "7. 賜匹馬！",
+      "zh_bytes": 11,
+      "note": "debug 選單"
+    },
+    {
+      "offset": 4058,
+      "len": 14,
+      "en": "Add how much? ",
+      "zh": "加多少？",
+      "zh_bytes": 8,
+      "note": "debug 提示"
+    },
+    {
+      "offset": 4179,
+      "len": 9,
+      "en": " Healed! ",
+      "zh": " 已療！ ",
+      "zh_bytes": 8,
+      "note": "結果訊息"
+    },
+    {
+      "offset": 4198,
+      "len": 8,
+      "en": " Cured! ",
+      "zh": " 已治！ ",
+      "zh_bytes": 8,
+      "note": "結果訊息"
+    },
+    {
+      "offset": 4224,
+      "len": 9,
+      "en": " Horsed! ",
+      "zh": " 賜馬！ ",
+      "zh_bytes": 8,
+      "note": "結果訊息"
+    },
+    {
+      "offset": 4246,
+      "len": 15,
+      "en": "Quest flag = #0",
+      "zh": "試煉旗標=#0",
+      "zh_bytes": 11,
+      "note": "屬性顯示"
+    },
+    {
+      "offset": 4262,
+      "len": 10,
+      "en": "Karma = #9",
+      "zh": "業力=#9",
+      "zh_bytes": 7,
+      "note": "屬性顯示"
+    },
+    {
+      "offset": 4274,
+      "len": 17,
+      "en": "1. Set Quest Flag",
+      "zh": "1.設試煉旗標",
+      "zh_bytes": 12,
+      "note": "debug 選單"
+    },
+    {
+      "offset": 4292,
+      "len": 12,
+      "en": "2. Add Karma",
+      "zh": "2.加業力",
+      "zh_bytes": 8,
+      "note": "debug 選單"
+    },
+    {
+      "offset": 4305,
+      "len": 17,
+      "en": "3. Subtract Karma",
+      "zh": "3.減業力",
+      "zh_bytes": 8,
+      "note": "debug 選單"
+    },
+    {
+      "offset": 4371,
+      "len": 13,
+      "en": "Set to what? ",
+      "zh": "設為何值？",
+      "zh_bytes": 10,
+      "note": "debug 提示"
+    },
+    {
+      "offset": 4400,
+      "len": 10,
+      "en": "How much? ",
+      "zh": "幾何？",
+      "zh_bytes": 6,
+      "note": "debug 提示"
+    },
+    {
+      "offset": 4433,
+      "len": 10,
+      "en": "How much? ",
+      "zh": "幾何？",
+      "zh_bytes": 6,
+      "note": "debug 提示"
+    },
+    {
+      "offset": 4622,
+      "len": 52,
+      "en": "Iolo gathers up everyone's gold and hands it to you.",
+      "zh": "尤洛將眾人之金幣匯齊，交予閣下。",
+      "zh_bytes": 32,
+      "note": "敘述句"
+    },
+    {
+      "offset": 4675,
+      "len": 39,
+      "en": "\"None of us are carrying any gold, $G.\"",
+      "zh": "「咱們無人攜帶金幣，$G。」",
+      "zh_bytes": 26,
+      "note": "保留 $G"
+    },
+    {
+      "offset": 4724,
+      "len": 53,
+      "en": "Iolo collects some gold together and hands it to you.",
+      "zh": "尤洛湊了些金幣，交予閣下。",
+      "zh_bytes": 26,
+      "note": "敘述句"
+    },
+    {
+      "offset": 4780,
+      "len": 44,
+      "en": "\"Here, this is all you can carry right now.\"",
+      "zh": "「來，此乃閣下當前所能攜帶之數。」",
+      "zh_bytes": 34,
+      "note": ""
+    },
+    {
+      "offset": 4825,
+      "len": 42,
+      "en": "\"You're carrying enough already, I think.\"",
+      "zh": "「在下看閣下已攜帶足矣。」",
+      "zh_bytes": 26,
+      "note": ""
+    },
+    {
+      "offset": 4974,
+      "len": 26,
+      "en": "\"But we have no gold, $G!\"",
+      "zh": "「然吾等並無金幣，$G！」",
+      "zh_bytes": 24,
+      "note": "保留 $G"
+    },
+    {
+      "offset": 5013,
+      "len": 47,
+      "en": "\"We don't have enough gold to bother with, $G.\"",
+      "zh": "「咱們的金幣不足道哉，$G。」",
+      "zh_bytes": 28,
+      "note": "保留 $G"
+    },
+    {
+      "offset": 5206,
+      "len": 60,
+      "en": "Iolo gathers everyone's gold together and divides it evenly.",
+      "zh": "尤洛將眾人之金幣匯齊，再均分予諸人。",
+      "zh_bytes": 36,
+      "note": "敘述句"
+    },
+    {
+      "offset": 5389,
+      "len": 67,
+      "en": "Iolo splits up the gold between everyone who has room to carry any.",
+      "zh": "尤洛將金幣分予尚能攜帶之眾人。",
+      "zh_bytes": 30,
+      "note": "敘述句"
+    }
+  ],
+  "keyword_mapping": {
+    "@help": "@助",
+    "@story": "@故事",
+    "@gather": "@匯集",
+    "@split": "@均分",
+    "@apprentice": "@學徒",
+    "@bard": "@吟遊詩人",
+    "@quest": "@試煉",
+    "@Minoc": "@米諾克",
+    "@guild": "@公會",
+    "@tea": "@茶",
+    "@Folly": "@愚醇",
+    "@Britain": "@不列顛城",
+    "@Nose": "@大鼻",
+    "@gargoyles": "@魔像族"
+  },
+  "glossary_additions": {
+    "people": {
+      "Gwenno": "葛雯",
+      "Smith (horse)": "史密斯"
+    },
+    "places": {
+      "Frasier's Folly": "弗雷澤之愚醇"
+    },
+    "concepts": {
+      "guild": "公會",
+      "artisan": "工匠",
+      "tournament": "比武大會",
+      "apprentice": "學徒",
+      "crossbow": "弩弓",
+      "bard": "吟遊詩人"
+    },
+    "keywords_common": {
+      "@help": "@助",
+      "@story": "@故事",
+      "@gather": "@匯集",
+      "@split": "@均分",
+      "@apprentice": "@學徒",
+      "@bard": "@吟遊詩人",
+      "@guild": "@公會",
+      "@tea": "@茶",
+      "@Folly": "@愚醇",
+      "@Nose": "@大鼻"
+    }
+  },
+  "riddles_additions": [
+    {
+      "npc": "Iolo",
+      "key": "MR_NOSE",
+      "en": "Where Mr. Nose hangs out. / His nibs, the king.",
+      "zh": "@大鼻先生常駐之地。／那位大人——也就是國王。",
+      "ref": "Iolo 對 Lord British 的暱稱／戲稱",
+      "strategy": "Mr. Nose 直譯『大鼻先生』；His nibs 譯『那位大人』"
+    },
+    {
+      "npc": "Iolo",
+      "key": "FRASIERS_FOLLY",
+      "en": "Frasier's Folly",
+      "zh": "弗雷澤之愚醇",
+      "ref": "酒名 / folly=愚行雙關",
+      "strategy": "音譯+意譯結合"
+    },
+    {
+      "npc": "Iolo",
+      "key": "SPAM_HUMBUG_PASS",
+      "en": "spam / humbug → Ask Shamino about that.",
+      "zh": "罐肉／騙術 →「此事去問夏米諾吧。」",
+      "ref": "spam=Monty Python; humbug=Dickens 《Christmas Carol》Scrooge 口頭禪",
+      "strategy": "保留兩個關鍵字觸發詞與重定向句"
+    },
+    {
+      "npc": "Iolo",
+      "key": "STONES_SONG",
+      "en": "'Stones' - a piece I composed some years ago",
+      "zh": "在下多年前所譜之曲『石』",
+      "ref": "Ultima 系列彩蛋：Iolo 與 Gwenno 真實創作",
+      "strategy": "直譯曲名為單字『石』"
+    }
+  ],
+  "translator_notes": "Iolo 用『在下』自稱、稱玩家『閣下』。len=3 三例 (job/tea/bye) 受 byte 限制改單字。所有 62 條 ≤ 原文 len。batch 1/2。"
+}

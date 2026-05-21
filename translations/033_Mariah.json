@@ -1,0 +1,711 @@
+{
+ "translations": [
+  {
+   "offset": 1,
+   "len": 7,
+   "en": "!Mariah",
+   "zh": "!Mariah",
+   "zh_bytes": 7
+  },
+  {
+   "offset": 9,
+   "len": 47,
+   "zh": "雀斑佳人，笑靨迷人。",
+   "en": "a freckled young lady with an enchanting smile.",
+   "zh_bytes": 20
+  },
+  {
+   "offset": 75,
+   "len": 31,
+   "zh": "「$T安，$G，妾身有何可效勞？」",
+   "en": "\"Good $T, $G, can I help thee?\"",
+   "zh_bytes": 30
+  },
+  {
+   "offset": 109,
+   "len": 4,
+   "zh": "名字",
+   "en": "name",
+   "zh_bytes": 4
+  },
+  {
+   "offset": 114,
+   "len": 22,
+   "zh": "「人喚我瑪萊雅。」",
+   "en": "\"They call me Mariah.\"",
+   "zh_bytes": 18
+  },
+  {
+   "offset": 148,
+   "len": 3,
+   "zh": "業",
+   "en": "job",
+   "zh_bytes": 2
+  },
+  {
+   "offset": 152,
+   "len": 97,
+   "zh": "「妾身乃@法師議會新進之員。總得有人讓事情運轉得順。」",
+   "en": "\"I'm the newest member of the @Council of Wizards. Somebody has to keep things running smoothly.\"",
+   "zh_bytes": 53,
+   "note": "[r2]"
+  },
+  {
+   "offset": 252,
+   "len": 63,
+   "zh": "「閒暇時，妾身於@藏書閣鑽研己學。」",
+   "en": "\"In my spare time I use the @library to pursue my own studies.\"",
+   "zh_bytes": 35,
+   "note": "[r2]"
+  },
+  {
+   "offset": 321,
+   "len": 9,
+   "zh": "議會,法師",
+   "en": "coun,wiza",
+   "zh_bytes": 9
+  },
+  {
+   "offset": 331,
+   "len": 88,
+   "zh": "「他們有時太過投入，連@眠食皆忘！」",
+   "en": "\"They get so caught up in their work sometimes that they forget even to eat and @sleep!\"",
+   "zh_bytes": 35
+  },
+  {
+   "offset": 425,
+   "len": 8,
+   "zh": "食,眠",
+   "en": "eat,slee",
+   "zh_bytes": 5
+  },
+  {
+   "offset": 434,
+   "len": 90,
+   "zh": "「此等小事於彼輩無足輕重。彼常超脫於@感官之外。」",
+   "en": "\"Such things matter little to them. They often dwell apart from the realm of the @senses.\"",
+   "zh_bytes": 49
+  },
+  {
+   "offset": 530,
+   "len": 19,
+   "zh": "投入,超脫,境,感官",
+   "en": "dwel,apar,real,sens",
+   "zh_bytes": 17
+  },
+  {
+   "offset": 550,
+   "len": 14,
+   "zh": "「然也。」",
+   "en": "\"Aye, indeed.\"",
+   "zh_bytes": 10
+  },
+  {
+   "offset": 570,
+   "len": 9,
+   "zh": "藏書,鑽研",
+   "en": "libr,stud",
+   "zh_bytes": 9
+  },
+  {
+   "offset": 580,
+   "len": 43,
+   "zh": "「此乃不列顛尼亞最佳之藏書閣。」",
+   "en": "\"'Tis the finest library in all Britannia.\"",
+   "zh_bytes": 32
+  },
+  {
+   "offset": 626,
+   "len": 88,
+   "zh": "「妾身涉獵諸學，唯覺研習古語最為趣味。」",
+   "en": "\"I study many different things, but I find learning old languages the most interesting.\"",
+   "zh_bytes": 40,
+   "note": "[r2]"
+  },
+  {
+   "offset": 717,
+   "len": 61,
+   "zh": "「由此可窺我等語言之源流！」",
+   "en": "\"One can learn so much about how our own language developed!\"",
+   "zh_bytes": 28
+  },
+  {
+   "offset": 784,
+   "len": 4,
+   "zh": "書",
+   "en": "book",
+   "zh_bytes": 2
+  },
+  {
+   "offset": 857,
+   "len": 24,
+   "zh": "半,版,古,銀,譯",
+   "en": "half,tabl,anci,silv,deci",
+   "zh_bytes": 14
+  },
+  {
+   "offset": 900,
+   "len": 69,
+   "zh": "「妾身這塊銀版乃在酒館中向幾名吉普賽人所得。」",
+   "en": "\"I got my piece of the tablet from some gypsies whom I met at a pub.\"",
+   "zh_bytes": 46,
+   "note": "[r2]"
+  },
+  {
+   "offset": 972,
+   "len": 62,
+   "zh": "「或可問彼等另一塊在何處。」",
+   "en": "\"Mayhap they can tell thee where to look for the other piece.\"",
+   "zh_bytes": 28
+  },
+  {
+   "offset": 1037,
+   "len": 71,
+   "zh": "「將兩塊銀版皆帶來，妾身自當盡言相告。」",
+   "en": "\"Bring both pieces of the tablet here and I will tell thee what I can.\"",
+   "zh_bytes": 40,
+   "note": "[r2]"
+  },
+  {
+   "offset": 1114,
+   "len": 3,
+   "zh": "別",
+   "en": "bye",
+   "zh_bytes": 2
+  },
+  {
+   "offset": 1118,
+   "len": 17,
+   "zh": "「珍重別矣。」",
+   "en": "\"Fare thee well.\"",
+   "zh_bytes": 14
+  },
+  {
+   "offset": 1140,
+   "len": 31,
+   "zh": "「此事妾身無能為力。」",
+   "en": "\"I cannot help thee with that.\"",
+   "zh_bytes": 22,
+   "note": "[r2]"
+  },
+  {
+   "offset": 1246,
+   "len": 71,
+   "zh": "「妾身須兩塊銀版皆備，方能再告汝詳情。」",
+   "en": "\"I must have both halves of the tablet before I can tell you any more.\"",
+   "zh_bytes": 40,
+   "note": "[r2]"
+  },
+  {
+   "offset": 1320,
+   "len": 80,
+   "zh": "「此塊銀版妾身已持有多時，能習者皆已盡學。」",
+   "en": "\"This piece I have had for quite some time, and I've learned all I can from it.\"",
+   "zh_bytes": 44,
+   "note": "[r2]"
+  },
+  {
+   "offset": 1429,
+   "len": 100,
+   "zh": "「啊，汝已尋得銀版餘塊！且自妾書房取另一塊一同攜來。」",
+   "en": "\"Ah, thou hast found the rest of the tablet! Go get the other half from my study and bring it here.\"",
+   "zh_bytes": 54,
+   "note": "[r2]"
+  },
+  {
+   "offset": 1532,
+   "len": 66,
+   "zh": "「兩塊合一，妾身當能告汝更多。」",
+   "en": "\"With the two of them together I should be able to tell you more.\"",
+   "zh_bytes": 32,
+   "note": "[r2]"
+  },
+  {
+   "offset": 1609,
+   "len": 75,
+   "zh": "「尼斯托傳信於妾身，言汝持有一冊異語之書。」",
+   "en": "\"Nystul sent word to me that thou hast a book written in a strange tongue.\"",
+   "zh_bytes": 44,
+   "note": "[r2]"
+  },
+  {
+   "offset": 1687,
+   "len": 40,
+   "zh": "「妾身不介意為汝一看……」",
+   "en": "\"I'd not mind looking at it for thee...\"",
+   "zh_bytes": 26,
+   "note": "[r2]"
+  },
+  {
+   "offset": 1730,
+   "len": 66,
+   "zh": "「然若汝願將其攜來此處，事必更易！」",
+   "en": "\"But I'd find the task much easier if thou wouldst bring it here!\"",
+   "zh_bytes": 36
+  },
+  {
+   "offset": 1808,
+   "len": 60,
+   "zh": "「妾樂為汝一觀。」她端詳此書。",
+   "en": "\"I'd be glad to look at it for thee.\" She examines the book.",
+   "zh_bytes": 30
+  },
+  {
+   "offset": 1871,
+   "len": 35,
+   "zh": "「噢！此種字體妾曾見過！」",
+   "en": "\"Oh! I've seen this script before!\"",
+   "zh_bytes": 26
+  },
+  {
+   "offset": 1909,
+   "len": 97,
+   "zh": "「妾身書房中藏有一塊古銀版之半，其上以我等之語與此字並書。」",
+   "en": "\"I have part of an ancient silver tablet in my study with writing both in our language and this.\"",
+   "zh_bytes": 60,
+   "note": "[r2]"
+  },
+  {
+   "offset": 2009,
+   "len": 80,
+   "zh": "「妾身研之所得僅微，唯能辨少數字句。」",
+   "en": "\"I have learned only a little from studying it, but I can make out a few words.\"",
+   "zh_bytes": 38,
+   "note": "[r2]"
+  },
+  {
+   "offset": 2092,
+   "len": 92,
+   "zh": "「題曰『預言之書』，內中提及『吾界之終末』。」",
+   "en": "\"The title is 'The Book of Prophecies,' and it says something about 'the end of our world.'\"",
+   "zh_bytes": 46
+  },
+  {
+   "offset": 2187,
+   "len": 100,
+   "zh": "「若妾身得另半塊@銀版，或可破譯此書其餘之文。」",
+   "en": "\"If only I had the other half of the @tablet, perhaps I'd be able to decipher the rest of the book.\"",
+   "zh_bytes": 47,
+   "note": "[r2]"
+  },
+  {
+   "offset": 2292,
+   "len": 77,
+   "zh": "「兩塊銀版俱在，妾身當能譯出全文。」",
+   "en": "\"With both pieces of the tablet, I should be able to work out a translation.\"",
+   "zh_bytes": 36,
+   "note": "[r2]"
+  },
+  {
+   "offset": 2372,
+   "len": 86,
+   "zh": "她細觀銀版良久，便自書中遲疑誦讀。",
+   "en": "She studies the tablet for a while, and then starts reading, haltingly, from the book.",
+   "zh_bytes": 34
+  },
+  {
+   "offset": 2462,
+   "len": 82,
+   "zh": "古之預言述及末日，言吾界終亡之時。",
+   "en": "An ancient prophecy tells of the final days, when the end of our world shall come.",
+   "zh_bytes": 34
+  },
+  {
+   "offset": 2547,
+   "len": 33,
+   "zh": "三兆將先於末日而現。",
+   "en": "Three signs will precede the end.",
+   "zh_bytes": 20
+  },
+  {
+   "offset": 2582,
+   "len": 107,
+   "zh": "*大惡之徒將三度降臨吾境，由此可知末日已近。",
+   "en": "*Thrice shall a being of great evil come unto our land, and by this it shall be known that the end is nigh.",
+   "zh_bytes": 43,
+   "note": "[r2]"
+  },
+  {
+   "offset": 2692,
+   "len": 76,
+   "zh": "此惡乃他族之徒，彼族奉此惡為大先知。",
+   "en": "This evil one is of another race, who consider the evil one a great prophet.",
+   "zh_bytes": 36
+  },
+  {
+   "offset": 2771,
+   "len": 84,
+   "zh": "然此偽先知未循克制、熱情與勤勉三原則。",
+   "en": "Yet this false prophet follows not the principles of Control, Passion and Diligence.",
+   "zh_bytes": 38
+  },
+  {
+   "offset": 2858,
+   "len": 71,
+   "zh": "某日偽先知將至，污瀆吾族至聖之聖壇。",
+   "en": "One day the false prophet will come and desecrate our most holy shrine.",
+   "zh_bytes": 36
+  },
+  {
+   "offset": 2932,
+   "len": 86,
+   "zh": "偽先知並將盜走吾族至聖之物，終極智慧守則之書。",
+   "en": "And the false prophet will steal our most holy artifact, the Codex of Ultimate Wisdom.",
+   "zh_bytes": 46
+  },
+  {
+   "offset": 3021,
+   "len": 40,
+   "zh": "是為末日之首兆。",
+   "en": "This shall be the first sign of the end.",
+   "zh_bytes": 16,
+   "note": "[r2]"
+  },
+  {
+   "offset": 3064,
+   "len": 87,
+   "zh": "經文又載，偽先知將下入大地深淵。",
+   "en": "Then, it is written, the false prophet shall descend deep into the bowels of the earth.",
+   "zh_bytes": 32
+  },
+  {
+   "offset": 3154,
+   "len": 60,
+   "zh": "偽先知將使幽冥界傾頹。",
+   "en": "And the false prophet will cause the underworld to collapse.",
+   "zh_bytes": 22,
+   "note": "[r2]"
+  },
+  {
+   "offset": 3217,
+   "len": 108,
+   "zh": "由此巨震將裂吾界於兩半，瘟疫與飢荒亦將降臨。*",
+   "en": "This will cause great earthquakes to tear our world asunder, and there will be a time of plague and famine.*",
+   "zh_bytes": 45
+  },
+  {
+   "offset": 3327,
+   "len": 41,
+   "zh": "是為末日之第二兆。",
+   "en": "This shall be the second sign of the end.",
+   "zh_bytes": 18,
+   "note": "[r2]"
+  },
+  {
+   "offset": 3371,
+   "len": 43,
+   "zh": "偽先知將再度降臨，此為最末一次。",
+   "en": "One last time shall the false prophet come.",
+   "zh_bytes": 32
+  },
+  {
+   "offset": 3417,
+   "len": 63,
+   "zh": "此次偽先知將率一隊戰士同來。",
+   "en": "This time, the false prophet will come with a band of warriors.",
+   "zh_bytes": 28
+  },
+  {
+   "offset": 3483,
+   "len": 60,
+   "zh": "彼等將盡滅魔像族之遺民。",
+   "en": "And they will destroy all that remains of the gargoyle race.",
+   "zh_bytes": 24
+  },
+  {
+   "offset": 3546,
+   "len": 56,
+   "zh": "唯有一法可避此預言之應驗：",
+   "en": "There is only one way that this prophecy may be averted:",
+   "zh_bytes": 26
+  },
+  {
+   "offset": 3605,
+   "len": 46,
+   "zh": "唯以偽先知為犧牲耳。",
+   "en": "That is by the sacrifice of the false prophet.",
+   "zh_bytes": 20,
+   "note": "[r2]"
+  },
+  {
+   "offset": 3655,
+   "len": 43,
+   "zh": "瑪萊雅頓首良久，深陷沉思。",
+   "en": "Mariah pauses for a while, deep in thought.",
+   "zh_bytes": 26
+  },
+  {
+   "offset": 3701,
+   "len": 71,
+   "zh": "「彼言『偽先知』，所指必為汝。」她說。",
+   "en": "\"When they refer to 'the false prophet,' they must mean you.\" she says.",
+   "zh_bytes": 38
+  },
+  {
+   "offset": 3775,
+   "len": 80,
+   "zh": "「依彼族之見，似有理由視汝為惡。」",
+   "en": "\"It would seem that they have reason to think you evil, from their perspective.\"",
+   "zh_bytes": 34
+  },
+  {
+   "offset": 3858,
+   "len": 88,
+   "zh": "「此事甚難了結。妾身以為汝宜再尋些訊息。」",
+   "en": "\"This is a difficult matter to resolve. I think you'd better seek out more information.\"",
+   "zh_bytes": 42,
+   "note": "[r2]"
+  },
+  {
+   "offset": 3949,
+   "len": 86,
+   "zh": "「沙漠之中有一魔像名喚辛弗拉，通曉我等之語。」",
+   "en": "\"There's a gargoyle named Sin'Vraal living out in the desert. He speaks our language.\"",
+   "zh_bytes": 46
+  },
+  {
+   "offset": 4038,
+   "len": 83,
+   "zh": "「或可問他關於此書，及魔像族如何看待我等之事。」",
+   "en": "\"Perhaps he could tell you more about this book, and of how the gargoyles view us.\"",
+   "zh_bytes": 48
+  },
+  {
+   "offset": 4126,
+   "len": 102,
+   "zh": "「歉令汝奔波，唯妾身僅得助通曉法術之人。」",
+   "en": "\"I'm sorry to put you to the trouble, but I'm only supposed to help those who know the ways of magic.\"",
+   "zh_bytes": 42,
+   "note": "[r2]"
+  },
+  {
+   "offset": 4231,
+   "len": 48,
+   "zh": "「故妾身須問汝一題以試之……」",
+   "en": "\"So I have to ask you a question to test you...\"",
+   "zh_bytes": 30,
+   "note": "[r2]"
+  },
+  {
+   "offset": 4357,
+   "len": 41,
+   "zh": "「魔法音節『Zu』為何意？」",
+   "en": "\"What does the magic syllable 'Zu' mean?\"",
+   "zh_bytes": 26
+  },
+  {
+   "offset": 4401,
+   "len": 4,
+   "zh": "眠",
+   "en": "slee",
+   "zh_bytes": 2
+  },
+  {
+   "offset": 4412,
+   "len": 3,
+   "zh": "別",
+   "en": "bye",
+   "zh_bytes": 2
+  },
+  {
+   "offset": 4424,
+   "len": 71,
+   "zh": "「非也，並非如此。汝可有典籍以資查照？」*",
+   "en": "\"No, that's not it. Haven't you a Compendium of knowledge to draw on?\"*",
+   "zh_bytes": 41
+  },
+  {
+   "offset": 4503,
+   "len": 43,
+   "zh": "「魔法音節『Quas』為何意？」",
+   "en": "\"What does the magic syllable 'Quas' mean?\"",
+   "zh_bytes": 28
+  },
+  {
+   "offset": 4549,
+   "len": 4,
+   "zh": "幻",
+   "en": "illu",
+   "zh_bytes": 2
+  },
+  {
+   "offset": 4560,
+   "len": 3,
+   "zh": "別",
+   "en": "bye",
+   "zh_bytes": 2
+  },
+  {
+   "offset": 4572,
+   "len": 71,
+   "zh": "「非也，並非如此。汝可有典籍以資查照？」*",
+   "en": "\"No, that's not it. Haven't you a Compendium of knowledge to draw on?\"*",
+   "zh_bytes": 41
+  },
+  {
+   "offset": 4651,
+   "len": 42,
+   "zh": "「魔法音節『Hur』為何意？」",
+   "en": "\"What does the magic syllable 'Hur' mean?\"",
+   "zh_bytes": 27
+  },
+  {
+   "offset": 4696,
+   "len": 4,
+   "zh": "風",
+   "en": "wind",
+   "zh_bytes": 2
+  },
+  {
+   "offset": 4707,
+   "len": 3,
+   "zh": "別",
+   "en": "bye",
+   "zh_bytes": 2
+  },
+  {
+   "offset": 4719,
+   "len": 71,
+   "zh": "「非也，並非如此。汝可有典籍以資查照？」*",
+   "en": "\"No, that's not it. Haven't you a Compendium of knowledge to draw on?\"*",
+   "zh_bytes": 41
+  },
+  {
+   "offset": 4798,
+   "len": 42,
+   "zh": "「魔法音節『Jux』為何意？」",
+   "en": "\"What does the magic syllable 'Jux' mean?\"",
+   "zh_bytes": 27
+  },
+  {
+   "offset": 4843,
+   "len": 14,
+   "zh": "危,陷阱,傷",
+   "en": "dang,trap.harm",
+   "zh_bytes": 10
+  },
+  {
+   "offset": 4864,
+   "len": 3,
+   "zh": "別",
+   "en": "bye",
+   "zh_bytes": 2
+  },
+  {
+   "offset": 4876,
+   "len": 71,
+   "zh": "「非也，並非如此。汝可有典籍以資查照？」*",
+   "en": "\"No, that's not it. Haven't you a Compendium of knowledge to draw on?\"*",
+   "zh_bytes": 41
+  },
+  {
+   "offset": 4955,
+   "len": 42,
+   "zh": "「魔法音節『Ort』為何意？」",
+   "en": "\"What does the magic syllable 'Ort' mean?\"",
+   "zh_bytes": 27
+  },
+  {
+   "offset": 5000,
+   "len": 4,
+   "zh": "法力",
+   "en": "magi",
+   "zh_bytes": 4
+  },
+  {
+   "offset": 5011,
+   "len": 3,
+   "zh": "別",
+   "en": "bye",
+   "zh_bytes": 2
+  },
+  {
+   "offset": 5023,
+   "len": 71,
+   "zh": "「非也，並非如此。汝可有典籍以資查照？」*",
+   "en": "\"No, that's not it. Haven't you a Compendium of knowledge to draw on?\"*",
+   "zh_bytes": 41
+  },
+  {
+   "offset": 5102,
+   "len": 51,
+   "zh": "「所言不差！且問汝有何見教？」",
+   "en": "\"That's right! Now then, what can I help you with?\"",
+   "zh_bytes": 30,
+   "note": "[r2]"
+  },
+  {
+   "offset": 5165,
+   "len": 73,
+   "zh": "「妾身建議汝先尋典籍研讀，再來相談。」",
+   "en": "\"I'd suggest you find a Compendium to study, then come talk to me again.\"",
+   "zh_bytes": 38,
+   "note": "[r2]"
+  }
+ ],
+ "keyword_mapping": {
+  "@Council": "@法師議會",
+  "@library": "@藏書閣",
+  "@sleep": "@眠",
+  "@senses": "@感官",
+  "@tablet": "@銀版"
+ },
+ "glossary_additions": {
+  "people": {
+   "Sin'Vraal": "辛弗拉"
+  },
+  "concepts": {
+   "Council of Wizards": "法師議會",
+   "library": "藏書閣",
+   "tablet": "銀版",
+   "Book of Prophecies": "預言之書",
+   "false prophet": "偽先知",
+   "Control": "克制",
+   "Passion": "熱情",
+   "Diligence": "勤勉",
+   "earthquake": "巨震",
+   "plague": "瘟疫",
+   "famine": "飢荒",
+   "Zu": "眠 (魔法音節)",
+   "Quas": "幻 (魔法音節)",
+   "Hur": "風 (魔法音節)",
+   "Jux": "危/陷阱/傷 (魔法音節)",
+   "Ort": "法力 (魔法音節)"
+  }
+ },
+ "riddles_additions": [
+  {
+   "npc": "Mariah",
+   "key": "BOOK_OF_PROPHECIES",
+   "en": "Book of Prophecies",
+   "zh": "預言之書",
+   "ref": "魔像族經典，預言世界末日",
+   "strategy": "直譯保留古典感"
+  },
+  {
+   "npc": "Mariah",
+   "key": "THREE_PRINCIPLES_GARGISH",
+   "en": "Control, Passion, Diligence",
+   "zh": "克制、熱情、勤勉",
+   "ref": "魔像族版三原則（呼應人類版 Truth/Love/Courage）",
+   "strategy": "保留 Gargish 三 principles 與人類三 principles 對偶"
+  },
+  {
+   "npc": "Mariah",
+   "key": "FALSE_PROPHET",
+   "en": "false prophet",
+   "zh": "偽先知",
+   "ref": "魔像族預言中的角色 = Avatar 玩家自己（劇情大轉折）",
+   "strategy": "保留宗教/啟示錄意象"
+  },
+  {
+   "npc": "Mariah",
+   "key": "MAGIC_SYLLABLES",
+   "en": "Zu=sleep / Quas=illusion / Hur=wind / Jux=danger/harm / Ort=magic",
+   "zh": "Zu=眠 / Quas=幻 / Hur=風 / Jux=危/陷阱/傷 / Ort=法力",
+   "ref": "U6 法術音節系統，copy protection 題目來自 Compendium",
+   "strategy": "音節保留 ASCII，意義中譯"
+  }
+ ],
+ "translator_notes": "Mariah 學苑女學者，自稱『妾』或『妾身』，對玩家『汝』。88 條全 ≤ len。重要劇情：偽先知預言（Avatar 即偽先知）+ 五個魔法音節 copy protection 問答 + Sin'Vraal 沙漠魔像線索。"
+}

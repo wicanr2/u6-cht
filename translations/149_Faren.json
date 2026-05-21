@@ -1,0 +1,195 @@
+{
+ "translations": [
+  {
+   "offset": 8,
+   "len": 55,
+   "en": "a good looking young man with a wine glass in his hand.",
+   "zh": "手持酒杯的英俊年輕男子。",
+   "note": "DESC"
+  },
+  {
+   "offset": 85,
+   "len": 44,
+   "en": "\"Hello,\" he says, extending a delicate hand.",
+   "zh": "「你好，」他說，伸出一雙纖細的手。",
+   "note": ""
+  },
+  {
+   "offset": 142,
+   "len": 67,
+   "en": "\"I have seen your face before,\" he says, cocking his head sideways.",
+   "zh": "「我以前見過你的臉，」他說，將頭歪向一側。",
+   "note": ""
+  },
+  {
+   "offset": 212,
+   "len": 22,
+   "en": "\"What is it you need?\"",
+   "zh": "「你需要什麼？」",
+   "note": ""
+  },
+  {
+   "offset": 242,
+   "len": 9,
+   "en": "\"@Faren.\"",
+   "zh": "「@法倫。」",
+   "note": ""
+  },
+  {
+   "offset": 254,
+   "len": 53,
+   "en": "\"@Faren the @drunk as some call me.\" He winks at you.",
+   "zh": "「@醉鬼@法倫，有些人這樣叫我。」他向你眨眼。",
+   "note": ""
+  },
+  {
+   "offset": 319,
+   "len": 34,
+   "en": "\"Just kidding.\" He smiles broadly.",
+   "zh": "「只是開玩笑。」他展顏而笑。",
+   "note": ""
+  },
+  {
+   "offset": 366,
+   "len": 66,
+   "en": "\"You might have noticed the similarity between my @sister and me.\"",
+   "zh": "「你也許注意到了我和我@姐姐之間的相似之處。」",
+   "note": ""
+  },
+  {
+   "offset": 444,
+   "len": 33,
+   "en": "\"A beautiful lass @Stephanie is.\"",
+   "zh": "「@史黛芬妮是個美麗的女孩。」",
+   "note": ""
+  },
+  {
+   "offset": 489,
+   "len": 48,
+   "en": "\"Have you met her? Then you know she is @blind.\"",
+   "zh": "「你見過她嗎？那你就知道她是@盲人了。」",
+   "note": ""
+  },
+  {
+   "offset": 549,
+   "len": 31,
+   "en": "\"Yes, has been so since birth.\"",
+   "zh": "「是的，打從出生就這樣了。」",
+   "note": ""
+  },
+  {
+   "offset": 583,
+   "len": 44,
+   "en": "\"For her it is like being born a @gargoyle.\"",
+   "zh": "「對她而言，就像生來是個@魔像族一樣。」",
+   "note": ""
+  },
+  {
+   "offset": 639,
+   "len": 75,
+   "en": "\"She knows no other life. It is her lot to make the best of her situation.\"",
+   "zh": "「她不知道別種生活。她的命運就是盡力應對自己的處境。」",
+   "note": ""
+  },
+  {
+   "offset": 717,
+   "len": 78,
+   "en": "\"In this she is no different than you or I.\" He pauses to gather his thoughts.",
+   "zh": "「在這一點上她和你我沒有分別。」他停頓片刻，整理思緒。",
+   "note": ""
+  },
+  {
+   "offset": 798,
+   "len": 47,
+   "en": "\"Even gargoyles face this dilemma, I'll wager.\"",
+   "zh": "「我敢打賭，連魔像族也面臨這樣的困境。」",
+   "note": ""
+  },
+  {
+   "offset": 848,
+   "len": 88,
+   "en": "\"But we know them more by the ways they differ from us, rather than their similarities.\"",
+   "zh": "「但我們更多是以他們與我們的不同來了解他們，而非共同之處。」",
+   "note": "對魔像族的深刻見解"
+  },
+  {
+   "offset": 962,
+   "len": 68,
+   "en": "\"I sell many types of @wine, made right here.\" He clicks his tongue.",
+   "zh": "「我賣多種@葡萄酒，都是在這裡釀造的。」他嘖嘖稱讚。",
+   "note": ""
+  },
+  {
+   "offset": 1041,
+   "len": 40,
+   "en": "\"Have a nice $T.\" He sips his wineglass.",
+   "zh": "「$T愉快。」他啜了一口酒杯。",
+   "note": ""
+  },
+  {
+   "offset": 1086,
+   "len": 39,
+   "en": "He scratches his head and looks around.",
+   "zh": "他搔搔頭，環顧四周。",
+   "note": ""
+  },
+  {
+   "offset": 1216,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪位？」",
+   "note": ""
+  },
+  {
+   "offset": 1338,
+   "len": 14,
+   "en": "\"Which item?\" ",
+   "zh": "「要哪一種？」",
+   "note": ""
+  },
+  {
+   "offset": 1417,
+   "len": 64,
+   "en": "$N smiles at $Y. \"For $0 it will cost you #1 gold. Interested?\" ",
+   "zh": "$N對$Y微笑。「$0需要#1枚金幣。有意嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1524,
+   "len": 47,
+   "en": "$N glances at $Y, \"You look pretty full to me.\"",
+   "zh": "$N瞥向$Y，「你帶的東西已經很多了。」",
+   "note": ""
+  },
+  {
+   "offset": 1633,
+   "len": 63,
+   "en": "\"Excellent!\" After accepting $Y's gold, $N hands over the wine.",
+   "zh": "「太好了！」接過$Y的金幣後，$N遞上葡萄酒。",
+   "note": ""
+  },
+  {
+   "offset": 1725,
+   "len": 45,
+   "en": "$N looks at $Y. \"You don't have enough gold.\"",
+   "zh": "$N望向$Y。「你的金幣不夠。」",
+   "note": ""
+  },
+  {
+   "offset": 1782,
+   "len": 16,
+   "en": "\"Enjoy your $1.\"",
+   "zh": "「好好享用你的$1。」",
+   "note": ""
+  },
+  {
+   "offset": 1806,
+   "len": 33,
+   "en": "\"Too bad, it's really good wine.\"",
+   "zh": "「可惜，這是非常好的葡萄酒。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Faren": "法倫"}, "places": {}},
+ "translator_notes": "法倫是酒商，史黛芬妮的哥哥。他對魔像族有深刻的人道主義見解，以妹妹的盲眼為例說明理解「他者」的重要性。葡萄酒名為系統字串，略。"
+}

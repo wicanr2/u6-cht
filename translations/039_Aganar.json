@@ -1,0 +1,190 @@
+{
+  "translations": [
+    {
+      "offset": 9,
+      "len": 48,
+      "en": "a gentleman with an air of leadership about him.",
+      "zh": "一位氣宇軒昂、自帶領袖風範之紳士。",
+      "note": "DESC"
+    },
+    {
+      "offset": 66,
+      "len": 59,
+      "en": "\"Good $T, Avatar. Is there ought else I can aid thee with?\"",
+      "zh": "「$T 吉祥，聖者。還有什麼吾能助汝之事嗎？」",
+      "note": ""
+    },
+    {
+      "offset": 126,
+      "len": 67,
+      "en": "\"Thou art the Avatar! I saw thy portrait in Lord British's castle.\"",
+      "zh": "「汝便是聖者！吾曾在不列顛王的城堡中見過汝的畫像。」",
+      "note": ""
+    },
+    {
+      "offset": 196,
+      "len": 65,
+      "en": "\"If there be any assistance I can offer, thou needst but ask it.\"",
+      "zh": "「若吾有任何可效勞之處，汝但說無妨。」",
+      "note": ""
+    },
+    {
+      "offset": 276,
+      "len": 32,
+      "en": "\"I am Lord Aganar of @Moonglow.\"",
+      "zh": "「吾乃@月華城之阿加納爾爵主。」",
+      "note": ""
+    },
+    {
+      "offset": 318,
+      "len": 85,
+      "en": "\"I keep things running smoothly here. 'Tis not difficult in a town of such @honesty.\"",
+      "zh": "「吾在此地維持一切秩序。此乃不難之事——此城百姓甚為@誠實。」",
+      "note": ""
+    },
+    {
+      "offset": 414,
+      "len": 67,
+      "en": "\"Verily, 'tis a fine town. Hast thou ever thought of moving here?\" ",
+      "zh": "「誠然，此乃好地方。汝可曾想過遷居至此？」",
+      "note": ""
+    },
+    {
+      "offset": 492,
+      "len": 14,
+      "en": "\"Aye, indeed.\"",
+      "zh": "「確實如此。」",
+      "note": "fish response"
+    },
+    {
+      "offset": 527,
+      "len": 104,
+      "en": "\"Thou wilt see much drinking at the Blue Bottle Tavern, and singing, and revelry, and telling of tales.\"",
+      "zh": "「在藍瓶酒館，汝可見人們飲酒、歌唱、歡鬧、講述故事。」",
+      "note": ""
+    },
+    {
+      "offset": 634,
+      "len": 23,
+      "en": "\"But mostly @drinking.\"",
+      "zh": "「但主要還是@飲酒。」",
+      "note": ""
+    },
+    {
+      "offset": 693,
+      "len": 46,
+      "en": "\"If thou art curious, why not go pay a visit?\"",
+      "zh": "「若汝好奇，何不前往一探？」",
+      "note": ""
+    },
+    {
+      "offset": 742,
+      "len": 58,
+      "en": "\"Thou cannot miss it - 'tis the biggest building in town.\"",
+      "zh": "「此乃城中最大的建築，汝不會錯過的。」",
+      "note": ""
+    },
+    {
+      "offset": 811,
+      "len": 62,
+      "en": "\"Honesty is the virtue we prize most highly here in Moonglow.\"",
+      "zh": "「誠實乃吾等在月華城最為珍視的美德。」",
+      "note": ""
+    },
+    {
+      "offset": 876,
+      "len": 119,
+      "en": "\"We are closest to the @Shrine of Honesty, and indeed, the @Rune of Honesty was entrusted into my care some years ago.\"",
+      "zh": "「吾等距@誠實聖壇最近，而@誠實符文數年前也曾委托吾代為保管。」",
+      "note": ""
+    },
+    {
+      "offset": 1006,
+      "len": 37,
+      "en": "\"'Tis north of here, on Dagger Isle.\"",
+      "zh": "「此乃在此地以北，位於匕首島上。」",
+      "note": ""
+    },
+    {
+      "offset": 1059,
+      "len": 32,
+      "en": "\"Aye, just a ways to the north.\"",
+      "zh": "「是的，往北行一段路即是。」",
+      "note": ""
+    },
+    {
+      "offset": 1107,
+      "len": 91,
+      "en": "\"I had it once, but I entrusted it to @Beyvin's care, as he is the most honest man I know.\"",
+      "zh": "「吾曾持有，但吾已將之托付@貝文保管，他是吾所知最誠實的人。」",
+      "note": ""
+    },
+    {
+      "offset": 1201,
+      "len": 26,
+      "en": "\"He lives with @Penumbra.\"",
+      "zh": "「他與@潘布拉同住。」",
+      "note": ""
+    },
+    {
+      "offset": 1238,
+      "len": 47,
+      "en": "\"Penumbra might be able to help you with that.\"",
+      "zh": "「潘布拉或許能在此事上助汝。」",
+      "note": ""
+    },
+    {
+      "offset": 1296,
+      "len": 42,
+      "en": "\"I can't imagine what Beyvin sees in her!\"",
+      "zh": "「吾實在想不透貝文看上她哪裡！」",
+      "note": ""
+    },
+    {
+      "offset": 1349,
+      "len": 88,
+      "en": "\"Haven't seen him around lately. Penumbra should be able to tell you where to find him.\"",
+      "zh": "「近來不見他蹤影。潘布拉應知他的下落。」",
+      "note": ""
+    },
+    {
+      "offset": 1447,
+      "len": 27,
+      "en": "\"Until next we meet, then.\"",
+      "zh": "「那就後會有期。」",
+      "note": "bye"
+    },
+    {
+      "offset": 1479,
+      "len": 23,
+      "en": "\"Well you might ask...\"",
+      "zh": "「汝倒也問得……」",
+      "note": "moving-here prompt"
+    },
+    {
+      "offset": 1514,
+      "len": 29,
+      "en": "\"Thou wouldst not regret it.\"",
+      "zh": "「汝必不會後悔的。」",
+      "note": ""
+    },
+    {
+      "offset": 1546,
+      "len": 101,
+      "en": "\"There's good @fishing off our shores, and plenty of merriment to be found over at the Blue @Bottle.\"",
+      "zh": "「吾等岸邊@釣魚甚佳，藍@瓶酒館亦有諸多歡鬧樂事。」",
+      "note": ""
+    }
+  ],
+  "glossary_additions": {
+    "people": {
+      "Aganar": "阿加納爾",
+      "Beyvin": "貝文"
+    },
+    "places": {
+      "Dagger Isle": "匕首島"
+    },
+    "concepts": {}
+  },
+  "translator_notes": "阿加納爾是月華城爵主，語氣高貴有禮，帶古典 thee/thou 風格。Beyvin 音譯為「貝文」。Penumbra 譯為「潘布拉」（半影之意）。"
+}

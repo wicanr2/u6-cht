@@ -1,0 +1,382 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 6,
+   "en": "Healer",
+   "zh": "醫者",
+   "note": "NPC name — glossary 已有"
+  },
+  {
+   "offset": 9,
+   "len": 27,
+   "en": "a somber and calm gargoyle.",
+   "zh": "神色肅穆而沉靜之魔像。",
+   "note": "DESC"
+  },
+  {
+   "offset": 56,
+   "len": 13,
+   "en": "\"An in mani u",
+   "zh": "「An in mani u",
+   "note": "魔像語保留原文"
+  },
+  {
+   "offset": 73,
+   "len": 3,
+   "en": "lem",
+   "zh": "lem",
+   "note": "魔像語"
+  },
+  {
+   "offset": 77,
+   "len": 18,
+   "en": ", An-bal-sil-fer.\"",
+   "zh": ", An-bal-sil-fer.」",
+   "note": "魔像語"
+  },
+  {
+   "offset": 98,
+   "len": 31,
+   "en": "The gargoyle says nothing else.",
+   "zh": "魔像此後一言不發。",
+   "note": "旁白"
+  },
+  {
+   "offset": 147,
+   "len": 45,
+   "en": "\"To be unwilling to help you, False Prophet.\"",
+   "zh": "「吾不願助偽先知。」",
+   "note": ""
+  },
+  {
+   "offset": 195,
+   "len": 35,
+   "en": "\"To be a healer, a being of peace.\"",
+   "zh": "「吾乃醫者，以和為念。」",
+   "note": ""
+  },
+  {
+   "offset": 233,
+   "len": 45,
+   "en": "\"Elsewise, to summon the guards to slay you!\"",
+   "zh": "「否則，吾將召喚護衛將汝誅殺！」",
+   "note": ""
+  },
+  {
+   "offset": 281,
+   "len": 31,
+   "en": "The gargoyle says nothing else.",
+   "zh": "魔像此後一言不發。",
+   "note": "旁白（重複）"
+  },
+  {
+   "offset": 320,
+   "len": 42,
+   "en": "\"To be happy to see you again, noble one.\"",
+   "zh": "「再見尊者，深感欣悅。」",
+   "note": ""
+  },
+  {
+   "offset": 365,
+   "len": 42,
+   "en": "\"But to be sad that you seek my services.\"",
+   "zh": "「然見汝需要吾之服務，吾深感惋惜。」",
+   "note": ""
+  },
+  {
+   "offset": 409,
+   "len": 61,
+   "en": "\"To see the amulet, the symbol of your courage and nobility.\"",
+   "zh": "「見護符在頸，此乃汝之勇氣與榮譽之象徵。」",
+   "note": ""
+  },
+  {
+   "offset": 473,
+   "len": 36,
+   "en": "\"To wish to help you however I can.\"",
+   "zh": "「吾願盡力助汝。」",
+   "note": ""
+  },
+  {
+   "offset": 546,
+   "len": 30,
+   "en": "\"To ask me to raise the dead?\"",
+   "zh": "「汝欲令吾使死者復生？」",
+   "note": ""
+  },
+  {
+   "offset": 579,
+   "len": 44,
+   "en": "\"To apologize, but that is beyond my power.\"",
+   "zh": "「深表歉意，然此超出吾之能力。」",
+   "note": ""
+  },
+  {
+   "offset": 626,
+   "len": 35,
+   "en": "\"To doubt that anyone can do that!\"",
+   "zh": "「吾懷疑任何人能做到此事！」",
+   "note": ""
+  },
+  {
+   "offset": 671,
+   "len": 47,
+   "en": "\"May fortune prevent the need for your return!\"",
+   "zh": "「願上天眷顧，使汝無需再來！」",
+   "note": "道別語"
+  },
+  {
+   "offset": 732,
+   "len": 38,
+   "en": "\"To be nameless, being only a healer.\"",
+   "zh": "「吾無名，不過是個醫者。」",
+   "note": ""
+  },
+  {
+   "offset": 780,
+   "len": 82,
+   "en": "\"To be entrusted with the tasks of @healing those wounded and @curing those sick.\"",
+   "zh": "「受託執行@healing療傷與@curing治病之職責。」",
+   "note": ""
+  },
+  {
+   "offset": 865,
+   "len": 46,
+   "en": "\"To do this for all, as a service to society.\"",
+   "zh": "「此乃吾對社會之奉獻，為所有人服務。」",
+   "note": ""
+  },
+  {
+   "offset": 922,
+   "len": 44,
+   "en": "\"The goodscrafter? To regret his condition.\"",
+   "zh": "「工匠？吾為其處境深感遺憾。」",
+   "note": ""
+  },
+  {
+   "offset": 969,
+   "len": 65,
+   "en": "\"To know that he is in great pain after the loss of his @family.\"",
+   "zh": "「知曉他在失去@family家人後，承受著極大的痛苦。」",
+   "note": ""
+  },
+  {
+   "offset": 1045,
+   "len": 73,
+   "en": "\"To know that his family was lost when the edges of the world @fell off.\"",
+   "zh": "「其家人在世界邊緣@fell崩裂之際而亡。」",
+   "note": "大災變：世界邊緣崩裂，指守則之書被盜後"
+  },
+  {
+   "offset": 1121,
+   "len": 69,
+   "en": "\"But to have less and less patience for his dispassionate self-pity.\"",
+   "zh": "「然對其冷漠的自憐，吾已愈來愈缺乏耐心。」",
+   "note": ""
+  },
+  {
+   "offset": 1205,
+   "len": 29,
+   "en": "\"Yes, during the cataclysms.\"",
+   "zh": "「是的，在那場大災變之中。」",
+   "note": ""
+  },
+  {
+   "offset": 1237,
+   "len": 51,
+   "en": "\"To have lost friends myself during that bad time.\"",
+   "zh": "「那段艱難歲月中，吾自身亦失去了朋友。」",
+   "note": ""
+  },
+  {
+   "offset": 1291,
+   "len": 51,
+   "en": "\"But to maintain the struggle for life diligently!\"",
+   "zh": "「然吾勤勉地堅守對生命的奮鬥！」",
+   "note": ""
+  },
+  {
+   "offset": 1350,
+   "len": 70,
+   "en": "\"To be a healer, dedicated only to my @job. To know nothing about $Z.\"",
+   "zh": "「吾乃醫者，只專注於@job本職。對$Z一無所知。」",
+   "note": ""
+  },
+  {
+   "offset": 1433,
+   "len": 36,
+   "en": "\"To ask that you see me at my shop.\"",
+   "zh": "「請汝到吾的鋪子來。」",
+   "note": ""
+  },
+  {
+   "offset": 1534,
+   "len": 40,
+   "en": "\"To be unfamiliar with human anatomy...\"",
+   "zh": "「吾對人類的身體構造不甚熟悉……」",
+   "note": ""
+  },
+  {
+   "offset": 1577,
+   "len": 38,
+   "en": "\"But to be certain that you are well!\"",
+   "zh": "「然可確認汝安然無恙！」",
+   "note": ""
+  },
+  {
+   "offset": 1742,
+   "len": 40,
+   "en": "\"To be unfamiliar with human anatomy...\"",
+   "zh": "「吾對人類的身體構造不甚熟悉……」",
+   "note": "重複（隊伍成員版）"
+  },
+  {
+   "offset": 1785,
+   "len": 45,
+   "en": "\"But to be certain that all of you are well!\"",
+   "zh": "「然可確認汝等皆安然無恙！」",
+   "note": ""
+  },
+  {
+   "offset": 1867,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝等哪位？」",
+   "note": ""
+  },
+  {
+   "offset": 1976,
+   "len": 61,
+   "en": "The gargoyle mixes strange powders into a foul-smelling brew.",
+   "zh": "魔像將奇異粉末混入一碗惡臭的藥汁。",
+   "note": "旁白"
+  },
+  {
+   "offset": 2071,
+   "len": 39,
+   "en": "You drink the potion and feel restored!",
+   "zh": "你喝下藥水，感到精力恢復！",
+   "note": "旁白"
+  },
+  {
+   "offset": 2111,
+   "len": 40,
+   "en": "$Y drinks the potion and feels restored!",
+   "zh": "$Y喝下藥水，感到精力恢復！",
+   "note": "旁白"
+  },
+  {
+   "offset": 2157,
+   "len": 31,
+   "en": "\"To drink this and be healthy.\"",
+   "zh": "「飲此，汝將康健。」",
+   "note": ""
+  },
+  {
+   "offset": 2191,
+   "len": 2,
+   "en": "Do",
+   "zh": "汝",
+   "note": "旁白提示前半"
+  },
+  {
+   "offset": 2200,
+   "len": 4,
+   "en": " you",
+   "zh": "",
+   "note": "旁白提示（接續）"
+  },
+  {
+   "offset": 2205,
+   "len": 5,
+   "en": "es $Y",
+   "zh": "$Y",
+   "note": "旁白提示（隊伍成員版）"
+  },
+  {
+   "offset": 2211,
+   "len": 11,
+   "en": " drink it? ",
+   "zh": "要喝下它嗎？",
+   "note": "旁白提示後半"
+  },
+  {
+   "offset": 2257,
+   "len": 20,
+   "en": "The gargoyle shrugs.",
+   "zh": "魔像聳聳肩。",
+   "note": "旁白"
+  },
+  {
+   "offset": 2279,
+   "len": 49,
+   "en": "\"To assure you that it is safe and invigorating.\"",
+   "zh": "「可向汝保證此藥安全且提神。」",
+   "note": ""
+  },
+  {
+   "offset": 2331,
+   "len": 52,
+   "en": "\"But not to force anyone to act against their will.\"",
+   "zh": "「然吾不強迫任何人違背意願行事。」",
+   "note": ""
+  },
+  {
+   "offset": 2397,
+   "len": 30,
+   "en": "You drink the potion and feel ",
+   "zh": "你喝下藥水，感到",
+   "note": "旁白前半"
+  },
+  {
+   "offset": 2428,
+   "len": 31,
+   "en": "$Y drinks the potion and feels ",
+   "zh": "$Y喝下藥水，感到",
+   "note": "旁白前半（隊伍版）"
+  },
+  {
+   "offset": 2464,
+   "len": 12,
+   "en": "deathly ill!",
+   "zh": "奄奄一息！",
+   "note": "旁白後半（出錯版）"
+  },
+  {
+   "offset": 2477,
+   "len": 15,
+   "en": "slightly dizzy.",
+   "zh": "略感頭暈。",
+   "note": "旁白後半（輕微副作用版）"
+  },
+  {
+   "offset": 2496,
+   "len": 67,
+   "en": "\"To apologize for the error! But to know exactly what I did wrong.\"",
+   "zh": "「為錯誤深表歉意！然吾已確知何處出了差錯。」",
+   "note": ""
+  },
+  {
+   "offset": 2566,
+   "len": 77,
+   "en": "The gargoyle mixes a different drink that somehow smells worse than the last.",
+   "zh": "魔像調製另一杯飲品，不知為何比上一杯更難聞。",
+   "note": "旁白"
+  },
+  {
+   "offset": 2661,
+   "len": 49,
+   "en": "\"To ask if there is aught else I can do for you?\"",
+   "zh": "「問汝是否還有其他吾可效勞之處？」",
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {},
+  "places": {}
+ },
+ "riddles_additions": [],
+ "translator_notes": "魔像醫者沉穩以和，對護符後的玩家態度轉為友善。治療互動旁白清晰。大災變（world edges fell off）為魔像視角描述守則之書被盜後的地震：世界邊緣碎裂。魔像語前三行（An in mani u / lem / An-bal-sil-fer）保留原文。"
+}

@@ -1,0 +1,157 @@
+{
+ "translations": [
+  {
+   "offset": 8,
+   "len": 39,
+   "en": "a rather plump woman with darting eyes.",
+   "zh": "一位頗為豐腴、眼神靈動的女子。",
+   "note": "DESC"
+  },
+  {
+   "offset": 62,
+   "len": 29,
+   "en": "\"Hello. How are you this $T?\"",
+   "zh": "「你好，$T一切都好嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 98,
+   "len": 31,
+   "en": "\"Hello again. Are you well $T?\"",
+   "zh": "「又見面了，$T一切安好？」",
+   "note": ""
+  },
+  {
+   "offset": 136,
+   "len": 22,
+   "en": "\"What is it you need?\"",
+   "zh": "「有何需要？」",
+   "note": ""
+  },
+  {
+   "offset": 166,
+   "len": 8,
+   "en": "\"Marta.\"",
+   "zh": "「瑪塔。」",
+   "note": ""
+  },
+  {
+   "offset": 192,
+   "len": 46,
+   "en": "\"It is a plain name, but I must live with it.\"",
+   "zh": "「是個平凡的名字，但我也只能接受了。」",
+   "note": ""
+  },
+  {
+   "offset": 249,
+   "len": 54,
+   "en": "\"Oh dear, my husband runs the inn. I tend my @garden.\"",
+   "zh": "「哦，我的丈夫打理旅店，我則照料我的@花園。」",
+   "note": ""
+  },
+  {
+   "offset": 315,
+   "len": 50,
+   "en": "\"You've not seen it? I have the loveliest @roses.\"",
+   "zh": "「你未曾見過？我種了最美麗的@玫瑰。」",
+   "note": ""
+  },
+  {
+   "offset": 377,
+   "len": 36,
+   "en": "\"Red as the evening sun on the sea.\"",
+   "zh": "「紅如海面落日之色。」",
+   "note": ""
+  },
+  {
+   "offset": 425,
+   "len": 39,
+   "en": "\"He's a messy person - and smelly too.\"",
+   "zh": "「他是個邋遢鬼，還很臭。」",
+   "note": ""
+  },
+  {
+   "offset": 481,
+   "len": 70,
+   "en": "\"My dear little one? She is an angel - well minded, kind, thoughtful.\"",
+   "zh": "「我親愛的小妮子？她如天使般——聰慧、善良、體貼。」",
+   "note": ""
+  },
+  {
+   "offset": 554,
+   "len": 15,
+   "en": "\"She's a dear.\"",
+   "zh": "「她真是個好孩子。」",
+   "note": ""
+  },
+  {
+   "offset": 581,
+   "len": 73,
+   "en": "\"Nasty creatures, or so I hear. Can stomp a garden to pieces in minutes.\"",
+   "zh": "「據說是可怕的惡獸，幾分鐘便能將花園踩得一塌糊塗。」",
+   "note": ""
+  },
+  {
+   "offset": 666,
+   "len": 50,
+   "en": "\"My husband talks a bit too much, but I love him.\"",
+   "zh": "「我丈夫話有些多，但我愛他。」",
+   "note": ""
+  },
+  {
+   "offset": 728,
+   "len": 51,
+   "en": "\"I want to move from this house as soon as we can.\"",
+   "zh": "「我想盡快搬離這棟房子。」",
+   "note": ""
+  },
+  {
+   "offset": 791,
+   "len": 53,
+   "en": "\"I cut myself one time in the garden. She healed it.\"",
+   "zh": "「有一次我在花園裡割傷了自己，她替我治好了。」",
+   "note": ""
+  },
+  {
+   "offset": 856,
+   "len": 44,
+   "en": "\"Another strange man. We have so many here.\"",
+   "zh": "「又一個怪人。這裡怪人可真不少。」",
+   "note": ""
+  },
+  {
+   "offset": 912,
+   "len": 27,
+   "en": "\"He never comes into town.\"",
+   "zh": "「他從不進城。」",
+   "note": ""
+  },
+  {
+   "offset": 951,
+   "len": 86,
+   "en": "\"It was the scariest thing I ever saw! I'm sure it's still lurking about somewhere...\"",
+   "zh": "「那是我這輩子見過最驚人的事！我確信它仍在某處徘徊……」",
+   "note": ""
+  },
+  {
+   "offset": 1048,
+   "len": 10,
+   "en": "\"Goodbye.\"",
+   "zh": "「再見。」",
+   "note": ""
+  },
+  {
+   "offset": 1063,
+   "len": 36,
+   "en": "\"You will have to ask another that.\"",
+   "zh": "「此事另詢他人吧。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Marta": "瑪塔"
+  }
+ },
+ "translator_notes": "085 Marta: 吉迪恩之妻，溫和家庭婦女，對幽靈事件心有餘悸。"
+}

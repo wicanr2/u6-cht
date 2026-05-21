@@ -1,0 +1,20 @@
+{
+ "translations": [
+  {
+   "offset": 5,
+   "len": 46,
+   "en": "an unconcious man, his face twisted with pain.",
+   "zh": "昏迷中的男子，面龐因痛苦而扭曲。",
+   "note": "DESC"
+  },
+  {
+   "offset": 54,
+   "len": 26,
+   "en": "He offers you no response.",
+   "zh": "他沒有任何回應。",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {}, "places": {}},
+ "translator_notes": "艾德（ed）處於昏迷，無對話。僅描述文。"
+}

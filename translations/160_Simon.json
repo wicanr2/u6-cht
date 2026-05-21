@@ -1,0 +1,133 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 5,
+   "en": "Simon",
+   "zh": "賽門",
+   "note": "NPC name"
+  },
+  {
+   "offset": 8,
+   "len": 46,
+   "en": "a muscular knight. He speaks in a raspy voice.",
+   "zh": "體魄雄健之武士，聲音沙啞。",
+   "note": "DESC"
+  },
+  {
+   "offset": 63,
+   "len": 14,
+   "en": "\"Good $T, $G.\"",
+   "zh": "「$T好，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 78,
+   "len": 23,
+   "en": "\"Greetings, $G Avatar!\"",
+   "zh": "「聖者$G，你好！」",
+   "note": ""
+  },
+  {
+   "offset": 110,
+   "len": 68,
+   "en": "\"Thou art most welcome in my castle, Avatar.\" He bows deeply to you.",
+   "zh": "「聖者，歡迎蒞臨吾城。」他深深一揖。",
+   "note": ""
+  },
+  {
+   "offset": 193,
+   "len": 20,
+   "en": "\"Call me Simon, $G.\"",
+   "zh": "「叫我賽門即可，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 223,
+   "len": 34,
+   "en": "\"I am the lord of Serpent's Hold.\"",
+   "zh": "「吾乃巨蛇堡之堡主。」",
+   "note": ""
+  },
+  {
+   "offset": 268,
+   "len": 42,
+   "en": "\"I personally favor the mantra of Valour.\"",
+   "zh": "「吾個人最推崇勇氣之真言。」",
+   "note": ""
+  },
+  {
+   "offset": 313,
+   "len": 44,
+   "en": "\"I taught it to the bard @Culham in a song.\"",
+   "zh": "「吾已將此真言譜入歌中，傳授給吟遊詩人@Culham。」",
+   "note": ""
+  },
+  {
+   "offset": 368,
+   "len": 64,
+   "en": "\"He spends much time in Jhelom, though he be a @traveling bard.\"",
+   "zh": "「他雖是@walking吟遊詩人，卻常在傑隆盤桓。」",
+   "note": "traveling bard"
+  },
+  {
+   "offset": 443,
+   "len": 51,
+   "en": "\"Yes, there's no telling where one might find him.\"",
+   "zh": "「確實，他行蹤難以捉摸。」",
+   "note": ""
+  },
+  {
+   "offset": 497,
+   "len": 44,
+   "en": "\"As I said, though, Jhelom is a good guess.\"",
+   "zh": "「但如我所說，傑隆是個不錯的猜測。」",
+   "note": ""
+  },
+  {
+   "offset": 552,
+   "len": 39,
+   "en": "\"If I had a rune, I'd wear it proudly.\"",
+   "zh": "「若吾手持符文，必當引以為傲。」",
+   "note": ""
+  },
+  {
+   "offset": 594,
+   "len": 98,
+   "en": "\"But others fear for the safety of such important talismans, hiding them in some peculiar places.\"",
+   "zh": "「然他人憂慮此等重要護符之安危，將其藏於奇特之處。」",
+   "note": ""
+  },
+  {
+   "offset": 694,
+   "len": 78,
+   "en": "\"I wonder if 'tis considered theft to seize a rune laid out for all to see...\"",
+   "zh": "「吾不禁納悶——拾取擺在眾目睽睽之下的符文，算是盜竊嗎……」",
+   "note": ""
+  },
+  {
+   "offset": 782,
+   "len": 71,
+   "en": "\"Goodbye. I hope thou wilt visit me again when thou hast time, friend.\"",
+   "zh": "「再見。盼汝有暇再來，吾友。」",
+   "note": ""
+  },
+  {
+   "offset": 858,
+   "len": 45,
+   "en": "\"I wish I could help thee with that, Avatar.\"",
+   "zh": "「吾真希望能助汝此事，聖者。」",
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {
+   "Simon": "賽門",
+   "Culham": "庫漢"
+  },
+  "places": {}
+ },
+ "riddles_additions": [],
+ "translator_notes": "Simon 為巨蛇堡堡主、武士，口吻莊重但親切。@traveling bard 用 @walking 保留 keyword 觸發；Culham 為吟遊詩人，常駐傑隆。避 5C trail 字無問題。"
+}

@@ -1,0 +1,353 @@
+{
+  "_meta": {
+    "npc": "Lynn (Lynn the Fletcher)",
+    "role": "傑隆（Jhelom）製箭匠，高挑、長金髮、纖細；專為不列顛王軍隊製造箭矢與弩矢；只賣不買，按打（dozen）售箭。"
+  },
+  "translations": [
+    {
+      "offset": 2,
+      "len": 4,
+      "en": "Lynn",
+      "zh": "林恩",
+      "zh_bytes": 4,
+      "note": "人名沿用 glossary 已有譯名"
+    },
+    {
+      "offset": 7,
+      "len": 43,
+      "en": "a tall, willowy woman with long blond hair.",
+      "zh": "一名高挑纖細、有著長金髮的女子。",
+      "zh_bytes": 32,
+      "note": "描述句保留三特徵 willowy=纖柔"
+    },
+    {
+      "offset": 66,
+      "len": 28,
+      "en": "\"Well, hello again, Avatar!\"",
+      "zh": "「啊，聖者，又見面了！」",
+      "zh_bytes": 24,
+      "note": "Avatar→聖者"
+    },
+    {
+      "offset": 105,
+      "len": 35,
+      "en": "\"How can I help thee this fine $T?\"",
+      "zh": "「此美好的$T可為汝效何勞？」",
+      "zh_bytes": 28,
+      "note": "保留 $T"
+    },
+    {
+      "offset": 143,
+      "len": 4,
+      "en": "name",
+      "zh": "name",
+      "zh_bytes": 4,
+      "note": "@name keyword 內部碼保留"
+    },
+    {
+      "offset": 148,
+      "len": 11,
+      "en": "\"I'm Lynn.\"",
+      "zh": "「林恩。」",
+      "zh_bytes": 10,
+      "note": "len=11 緊；省主詞剛好 10 bytes ≤ 11"
+    },
+    {
+      "offset": 162,
+      "len": 78,
+      "en": "\"Thou needn't tell me thy name, $P. The Avatar is famous throughout the land!\"",
+      "zh": "「不必告知名諱，$P。聖者之名遍傳於此境！」",
+      "zh_bytes": 42,
+      "note": "保留 $P；Avatar→聖者"
+    },
+    {
+      "offset": 246,
+      "len": 3,
+      "en": "job",
+      "zh": "job",
+      "zh_bytes": 3,
+      "note": "@job keyword 內部碼保留"
+    },
+    {
+      "offset": 250,
+      "len": 18,
+      "en": "\"I am a fletcher.\"",
+      "zh": "「我是製箭匠。」",
+      "zh_bytes": 16,
+      "note": "fletcher→製箭匠"
+    },
+    {
+      "offset": 271,
+      "len": 67,
+      "en": "\"I make @arrows and @bolts for the armies of Lord British himself!\"",
+      "zh": "「我為不列顛王陛下的軍隊製作@箭矢與@弩矢！」",
+      "zh_bytes": 44,
+      "note": "@arrows→@箭矢；@bolts→@弩矢；Lord British→不列顛王"
+    },
+    {
+      "offset": 344,
+      "len": 13,
+      "en": "buy,arro,bolt",
+      "zh": "buy,arro,bolt",
+      "zh_bytes": 13,
+      "note": "keyword 群組內部碼保留"
+    },
+    {
+      "offset": 364,
+      "len": 4,
+      "en": "sell",
+      "zh": "sell",
+      "zh_bytes": 4,
+      "note": "@sell keyword 內部碼保留"
+    },
+    {
+      "offset": 369,
+      "len": 66,
+      "en": "\"I have all I need, and have no reason to purchase anything more.\"",
+      "zh": "「我所需之物俱備，無由再添購他物。」",
+      "zh_bytes": 36,
+      "note": ""
+    },
+    {
+      "offset": 438,
+      "len": 29,
+      "en": "\"But I appreciate thy offer.\"",
+      "zh": "「然汝之心意，銘感於心。」",
+      "zh_bytes": 26,
+      "note": ""
+    },
+    {
+      "offset": 473,
+      "len": 3,
+      "en": "bye",
+      "zh": "bye",
+      "zh_bytes": 3,
+      "note": "@bye keyword 內部碼保留"
+    },
+    {
+      "offset": 477,
+      "len": 40,
+      "en": "\"Farewell! I hope I've aided thy quest!\"",
+      "zh": "「珍重！望我能助汝試煉一臂之力！」",
+      "zh_bytes": 34,
+      "note": "quest→試煉"
+    },
+    {
+      "offset": 522,
+      "len": 13,
+      "en": "\"Beg pardon?\"",
+      "zh": "「請再說？」",
+      "zh_bytes": 12,
+      "note": ""
+    },
+    {
+      "offset": 548,
+      "len": 32,
+      "en": "\"Come to my shop when I'm open!\"",
+      "zh": "「待我開店時再來吧！」",
+      "zh_bytes": 22,
+      "note": ""
+    },
+    {
+      "offset": 627,
+      "len": 6,
+      "en": "#2) $Y",
+      "zh": "#2) $Y",
+      "zh_bytes": 6,
+      "note": "格式控制保留"
+    },
+    {
+      "offset": 667,
+      "len": 16,
+      "en": "\"Which of you?\" ",
+      "zh": "「諸位何人？」",
+      "zh_bytes": 14,
+      "note": ""
+    },
+    {
+      "offset": 729,
+      "len": 9,
+      "en": "1) Arrows",
+      "zh": "1) 箭矢",
+      "zh_bytes": 7,
+      "note": "選單項目；保留 1)"
+    },
+    {
+      "offset": 739,
+      "len": 17,
+      "en": "2) Crossbow Bolts",
+      "zh": "2) 弩弓矢",
+      "zh_bytes": 9,
+      "note": "保留 2)；crossbow bolt→弩弓矢"
+    },
+    {
+      "offset": 757,
+      "len": 14,
+      "en": "\"Which item?\" ",
+      "zh": "「擇何物？」",
+      "zh_bytes": 12,
+      "note": ""
+    },
+    {
+      "offset": 804,
+      "len": 17,
+      "en": "\"Beg pardon, $G?\"",
+      "zh": "「請再說，$G？」",
+      "zh_bytes": 16,
+      "note": "保留 $G"
+    },
+    {
+      "offset": 856,
+      "len": 31,
+      "en": "\"I sell $1s only by the dozen.\"",
+      "zh": "「$1s只按打售。」",
+      "zh_bytes": 17,
+      "note": "保留 $1s 變數"
+    },
+    {
+      "offset": 890,
+      "len": 19,
+      "en": "\"How many dozens?\" ",
+      "zh": "「要幾打？」",
+      "zh_bytes": 12,
+      "note": ""
+    },
+    {
+      "offset": 1054,
+      "len": 33,
+      "en": "\"Thou canst not carry that many!\"",
+      "zh": "「汝負荷不了如此多！」",
+      "zh_bytes": 22,
+      "note": ""
+    },
+    {
+      "offset": 1090,
+      "len": 37,
+      "en": "\"I will sell thee just #5 dozen $1s.\"",
+      "zh": "「我只售汝#5打$1s。」",
+      "zh_bytes": 21,
+      "note": "保留 #5 與 $1s"
+    },
+    {
+      "offset": 1136,
+      "len": 35,
+      "en": "\"But thou canst not carry any $1s!\"",
+      "zh": "「汝連一$1s也帶不動！」",
+      "zh_bytes": 23,
+      "note": ""
+    },
+    {
+      "offset": 1184,
+      "len": 42,
+      "en": "\"Thou hast not enough gold for that many!\"",
+      "zh": "「汝之金幣不夠買這麼多！」",
+      "zh_bytes": 26,
+      "note": ""
+    },
+    {
+      "offset": 1229,
+      "len": 38,
+      "en": "\"I will sell thee just #5 dozen $1\\s.\"",
+      "zh": "「我只售汝#5打$1\\s。」",
+      "zh_bytes": 22,
+      "note": "保留 #5、$1、\\s 轉義"
+    },
+    {
+      "offset": 1276,
+      "len": 36,
+      "en": "\"But thou canst not afford any $1s!\"",
+      "zh": "「汝連一$1s也買不起！」",
+      "zh_bytes": 23,
+      "note": ""
+    },
+    {
+      "offset": 1321,
+      "len": 45,
+      "en": "Lynn takes $Y's money and hands over the $1s.",
+      "zh": "林恩收下$Y之金錢，交付$1s。",
+      "zh_bytes": 27,
+      "note": "保留 $Y、$1s"
+    },
+    {
+      "offset": 1369,
+      "len": 28,
+      "en": "\"I appreciate thy business.\"",
+      "zh": "「多謝汝之惠顧。」",
+      "zh_bytes": 18,
+      "note": ""
+    },
+    {
+      "offset": 1400,
+      "len": 40,
+      "en": "\"Is there aught else thou wouldst buy?\" ",
+      "zh": "「尚有他物欲購否？」",
+      "zh_bytes": 20,
+      "note": ""
+    },
+    {
+      "offset": 1441,
+      "len": 2,
+      "en": "yn",
+      "zh": "yn",
+      "zh_bytes": 2,
+      "note": "y/n 觸發碼"
+    },
+    {
+      "offset": 1461,
+      "len": 26,
+      "en": "\"Perhaps some other time.\"",
+      "zh": "「改日再說吧。」",
+      "zh_bytes": 16,
+      "note": "避『許』trail-5C"
+    },
+    {
+      "offset": 1488,
+      "len": 16,
+      "en": "\"Enjoy thy $1s.\"",
+      "zh": "「享用$1s。」",
+      "zh_bytes": 13,
+      "note": "len=16 緊；省『願汝』縮為單動詞 13 bytes ≤ 16"
+    },
+    {
+      "offset": 1519,
+      "len": 5,
+      "en": "arrow",
+      "zh": "arrow",
+      "zh_bytes": 5,
+      "note": "@arrow keyword 內部碼保留"
+    },
+    {
+      "offset": 1525,
+      "len": 4,
+      "en": "bolt",
+      "zh": "bolt",
+      "zh_bytes": 4,
+      "note": "@bolt keyword 內部碼保留"
+    }
+  ],
+  "keyword_mapping": {
+    "@arrows": "@箭矢",
+    "@bolts": "@弩矢",
+    "@name": "@名字（內部碼 name 保留 ASCII）",
+    "@job": "@職業（內部碼 job 保留 ASCII）",
+    "@bye": "@再見（內部碼 bye 保留 ASCII）",
+    "@buy": "@買（內部碼 buy 保留 ASCII）",
+    "@sell": "@賣（內部碼 sell 保留 ASCII）",
+    "@arrow": "@箭矢（內部碼 arro 保留 ASCII）",
+    "@bolt": "@弩矢（內部碼 bolt 保留 ASCII）"
+  },
+  "glossary_additions": {
+    "people": {
+      "Lynn": "林恩"
+    },
+    "concepts": {
+      "fletcher": "製箭匠",
+      "arrows": "箭矢",
+      "bolts": "弩矢",
+      "crossbow bolts": "弩弓矢",
+      "dozen": "打"
+    }
+  },
+  "riddles_additions": [],
+  "translator_notes": "Lynn 是 glossary 已登錄『製箭匠林恩』。製箭匠對話為單一賣家流程：選 箭矢/弩矢→輸入打數→付款。保留所有變數標記 $1s（物品名複數）、$1\\s（轉義 s 表示物品名+s 動態）、#5（實際購買打數）、$Y（角色名）、$G（性別）、$P（玩家名）、$T（時辰）。1) 與 2) 選單編號保留半形含括弧。Lord British 第一次出現用『不列顛王』，加『陛下』作敬語。0 OVERFLOW。"
+}

@@ -1,0 +1,188 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 6,
+   "en": "Sentri",
+   "zh": "桑特里",
+   "note": "NPC name，可加入隊伍的武士，發音 'Sahn-tray'"
+  },
+  {
+   "offset": 9,
+   "len": 19,
+   "en": "a handsome warrior.",
+   "zh": "一位英俊的武士。",
+   "note": "DESC"
+  },
+  {
+   "offset": 48,
+   "len": 62,
+   "en": "\"Good $T, $P. I hope you have returned to ask me to join you.\"",
+   "zh": "「$T好，$P。希望你回來是要邀我同行的。」",
+   "note": ""
+  },
+  {
+   "offset": 111,
+   "len": 28,
+   "en": "\"$P! You have come at last!\"",
+   "zh": "「$P！你終於來了！」",
+   "note": ""
+  },
+  {
+   "offset": 154,
+   "len": 56,
+   "en": "\"It is I, Sentri.\" (He pronounces his name 'Sahn-tray.')",
+   "zh": "「正是在下，桑特里。」（他將自己的名字發音為「桑—特雷」。）",
+   "note": ""
+  },
+  {
+   "offset": 220,
+   "len": 36,
+   "en": "\"I have been waiting here for you.\"*",
+   "zh": "「我一直在此等候你。」*",
+   "note": "* 控制符保留"
+  },
+  {
+   "offset": 258,
+   "len": 69,
+   "en": "\"I heard you had @returned, and knew you would come here eventually.\"",
+   "zh": "「我聽說你@returned回來了，知道你遲早會來這裡。」",
+   "note": ""
+  },
+  {
+   "offset": 353,
+   "len": 54,
+   "en": "\"Britannia needs your help now more than ever before.\"",
+   "zh": "「不列顛尼亞比以往任何時候都更需要你的幫助。」",
+   "note": ""
+  },
+  {
+   "offset": 410,
+   "len": 52,
+   "en": "\"Many have set out to fight the @gargoyles already.\"",
+   "zh": "「已有許多人出發去與@gargoyles魔像作戰了。」",
+   "note": ""
+  },
+  {
+   "offset": 493,
+   "len": 89,
+   "en": "\"Not just the town guards, but any able bodied men that could be spared from their work.\"",
+   "zh": "「不只是城鎮守衛，還有任何能從工作中抽身的壯年男子。」",
+   "note": ""
+  },
+  {
+   "offset": 585,
+   "len": 95,
+   "en": "\"The battle goes poorly. But now that you are here, there is hope. I stand ready to @join you.\"",
+   "zh": "「戰況不佳。但如今你來了，便有了希望。我隨時準備@join加入你。」",
+   "note": ""
+  },
+  {
+   "offset": 701,
+   "len": 94,
+   "en": "\"If you should pass this way again, I will be here. I await but the opportunity to @join you.\"",
+   "zh": "「若你再次路過此地，我便在此。我只等待@join加入你的機會。」",
+   "note": ""
+  },
+  {
+   "offset": 800,
+   "len": 43,
+   "en": "\"I beg your pardon, could you repeat that?\"",
+   "zh": "「抱歉，能再說一遍嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 854,
+   "len": 28,
+   "en": "\"I have joined you already!\"",
+   "zh": "「我已經加入你了！」",
+   "note": ""
+  },
+  {
+   "offset": 888,
+   "len": 27,
+   "en": "\"Shall I join your party?\" ",
+   "zh": "「我加入你的隊伍嗎？」",
+   "note": "尾隨空格保留"
+  },
+  {
+   "offset": 921,
+   "len": 74,
+   "en": "\"I bow to your wisdom. If you have need of me later, you have but to ask.\"",
+   "zh": "「我敬服你的判斷。若日後有需要，開口就行。」",
+   "note": ""
+  },
+  {
+   "offset": 1017,
+   "len": 55,
+   "en": "\"It would be best if you got out of that vessel first.\"",
+   "zh": "「最好先離開那艘船。」",
+   "note": ""
+  },
+  {
+   "offset": 1085,
+   "len": 33,
+   "en": "\"You have enough companions now.\"",
+   "zh": "「你現在同伴已經夠多了。」",
+   "note": ""
+  },
+  {
+   "offset": 1121,
+   "len": 62,
+   "en": "\"If you tell one of them to @leave first, then I'll join you.\"",
+   "zh": "「若你叫其中一人先@leave離開，我就加入你。」",
+   "note": ""
+  },
+  {
+   "offset": 1202,
+   "len": 69,
+   "en": "\"So be it. Now that we are together, surely the realm will be saved.\"",
+   "zh": "「就這樣決定了。如今我們同在，王國必能得救。」",
+   "note": ""
+  },
+  {
+   "offset": 1273,
+   "len": 68,
+   "en": "\"Has the time come when your plans call for me to wait in reserve?\" ",
+   "zh": "「你的計畫是否需要我暫時待命？」",
+   "note": "尾隨空格保留"
+  },
+  {
+   "offset": 1347,
+   "len": 37,
+   "en": "\"Then let's be on about our mission!\"",
+   "zh": "「那就出發執行任務吧！」",
+   "note": ""
+  },
+  {
+   "offset": 1403,
+   "len": 54,
+   "en": "\"Let's get our feet back on solid ground first, okay?\"",
+   "zh": "「先讓我們踩回堅實的地面，好嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1463,
+   "len": 65,
+   "en": "\"Then I shall go wait at Serpent's Hold until you need me again.\"",
+   "zh": "「那麼我去巨蛇堡等候，直到你再次需要我。」",
+   "note": ""
+  },
+  {
+   "offset": 1531,
+   "len": 68,
+   "en": "\"I'd best leave you my equpiment in case you need it on your quest.\"",
+   "zh": "「我最好把裝備留給你，以防你在任務中用得上。」",
+   "note": "原文 equpiment 拼字錯誤，照原文翻譯"
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {
+   "Sentri": "桑特里"
+  },
+  "places": {}
+ },
+ "riddles_additions": [],
+ "translator_notes": "桑特里是忠誠的老朋友武士，熱切盼望加入隊伍、為不列顛尼亞效力。語氣正式帶英雄氣概，與聖者重逢的喜悅清晰可感。發音注記「Sahn-tray」保留於正文中。"
+}

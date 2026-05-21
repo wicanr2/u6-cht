@@ -1,0 +1,328 @@
+{
+ "translations": [
+  {
+   "offset": 10,
+   "len": 25,
+   "en": "a colorfully garbed bard.",
+   "zh": "一位衣著色彩斑斕的吟遊詩人。",
+   "note": "DESC"
+  },
+  {
+   "offset": 38,
+   "len": 10,
+   "en": "\"Good $T, ",
+   "zh": "「$T好，",
+   "note": "fragment — 與後續拼接"
+  },
+  {
+   "offset": 52,
+   "len": 7,
+   "en": "ma'am.\"",
+   "zh": "女士。」",
+   "note": "fragment — 女性稱謂"
+  },
+  {
+   "offset": 60,
+   "len": 8,
+   "en": "sirrah.\"",
+   "zh": "先生。」",
+   "note": "fragment — 男性稱謂"
+  },
+  {
+   "offset": 83,
+   "len": 35,
+   "en": "\"Patrick's the name. What's yours?\"",
+   "zh": "「在下叫派崔克，汝尊名？」",
+   "note": ""
+  },
+  {
+   "offset": 121,
+   "len": 13,
+   "en": "\"A pleasure.\"",
+   "zh": "「幸會。」",
+   "note": ""
+  },
+  {
+   "offset": 144,
+   "len": 75,
+   "en": "\"Same as any @bard - telling @stories, singing @songs, that sort of thing.\"",
+   "zh": "「與一般@吟遊詩人無異——說@故事、唱@歌，諸如此類。」",
+   "note": ""
+  },
+  {
+   "offset": 230,
+   "len": 54,
+   "en": "\"I was trained in the @conservatory, like most of us.\"",
+   "zh": "「在下在@音樂學院受過訓練，大多數人都是如此。」",
+   "note": ""
+  },
+  {
+   "offset": 295,
+   "len": 52,
+   "en": "\"Johann, Lazeena, Sionnach--they all studied there.\"",
+   "zh": "「約翰、拉澤娜、西歐娜——他們都在那裡求學過。」",
+   "note": ""
+  },
+  {
+   "offset": 350,
+   "len": 54,
+   "en": "\"Of course, there are always oddballs like @Mandrake.\"",
+   "zh": "「當然，也有像@曼德雷克這樣的奇人。」",
+   "note": ""
+  },
+  {
+   "offset": 425,
+   "len": 21,
+   "en": "\"A fine bard indeed.\"",
+   "zh": "「確是位出色的吟遊詩人。」",
+   "note": ""
+  },
+  {
+   "offset": 457,
+   "len": 77,
+   "en": "\"Completely self taught, he is. Got some odd ideas about the eight @virtues.\"",
+   "zh": "「他完全是自學成才，對八大@美德也有些奇特的見解。」",
+   "note": ""
+  },
+  {
+   "offset": 537,
+   "len": 38,
+   "en": "\"I have to give him credit, though...\"",
+   "zh": "「不過在下也得承認……」",
+   "note": ""
+  },
+  {
+   "offset": 578,
+   "len": 90,
+   "en": "\"Last time we gathered together for a songwriting competition, he won first prize easily.\"",
+   "zh": "「上次我等齊聚一堂舉辦作曲比賽，他輕鬆奪得首獎。」",
+   "note": ""
+  },
+  {
+   "offset": 684,
+   "len": 19,
+   "en": "\"Ask him yourself.\"",
+   "zh": "「汝自己去問他吧。」",
+   "note": ""
+  },
+  {
+   "offset": 714,
+   "len": 19,
+   "en": "\"Ok, here's one...\"",
+   "zh": "「好吧，說一個……」",
+   "note": ""
+  },
+  {
+   "offset": 736,
+   "len": 39,
+   "en": "\"The owl and the pussycat sailed to sea",
+   "zh": "「貓頭鷹與小花貓揚帆出海",
+   "note": "混搭童謠fragment"
+  },
+  {
+   "offset": 777,
+   "len": 30,
+   "en": "In a beautiful pea green boat.",
+   "zh": "乘著一艘漂亮的豌豆綠小舟。",
+   "note": "混搭童謠fragment"
+  },
+  {
+   "offset": 809,
+   "len": 45,
+   "en": "Along came a spider and sat down beside them,",
+   "zh": "蜘蛛爬來坐在他們身旁，",
+   "note": "混搭童謠fragment"
+  },
+  {
+   "offset": 856,
+   "len": 49,
+   "en": "And the cat said 'Whose been sleeping in my bed!'",
+   "zh": "貓兒說：『誰睡了我的床！』",
+   "note": "混搭童謠fragment"
+  },
+  {
+   "offset": 907,
+   "len": 40,
+   "en": "The clock struck one, the owl fell down,",
+   "zh": "時鐘報一時，貓頭鷹倒下，",
+   "note": "混搭童謠fragment"
+  },
+  {
+   "offset": 949,
+   "len": 70,
+   "en": "And three little piggies went 'Wee wee wee wee wee' all the way home.\"",
+   "zh": "三隻小豬『唧唧唧唧唧』一路跑回家。」",
+   "note": "混搭童謠，刻意胡亂拼接"
+  },
+  {
+   "offset": 1022,
+   "len": 76,
+   "en": "\"I don't understand it at all, but Dr. @Cat says that's his favorite story.\"",
+   "zh": "「在下完全不明白，但@貓博士說那是他最喜歡的故事。」",
+   "note": ""
+  },
+  {
+   "offset": 1108,
+   "len": 61,
+   "en": "\"He's a decent guy, and he doesn't water his @drinks either.\"",
+   "zh": "「他是個好人，而且他的@飲品也不摻水。」",
+   "note": ""
+  },
+  {
+   "offset": 1172,
+   "len": 67,
+   "en": "\"He told me I should learn a story with some @ducks in it, though.\"",
+   "zh": "「不過他說在下應該學一個有@鴨子的故事。」",
+   "note": ""
+  },
+  {
+   "offset": 1250,
+   "len": 36,
+   "en": "\"Being a bard can be @thirsty work.\"",
+   "zh": "「吟遊詩人的工作容易讓人@口渴。」",
+   "note": ""
+  },
+  {
+   "offset": 1297,
+   "len": 51,
+   "en": "\"A warrior mustn't let his blade grow dull, right?\"",
+   "zh": "「武士不能讓刀鋒鈍去，對吧？」",
+   "note": ""
+  },
+  {
+   "offset": 1351,
+   "len": 65,
+   "en": "\"Well, so also must a bard keep his throat from getting too dry!\"",
+   "zh": "「同理，吟遊詩人也得讓喉嚨保持濕潤！」",
+   "note": ""
+  },
+  {
+   "offset": 1427,
+   "len": 54,
+   "en": "\"Don't ask me. If he likes ducks that's his business.\"",
+   "zh": "「別問在下。他喜歡鴨子是他的事。」",
+   "note": ""
+  },
+  {
+   "offset": 1492,
+   "len": 23,
+   "en": "He clears his throat...",
+   "zh": "他清了清嗓子……",
+   "note": ""
+  },
+  {
+   "offset": 1518,
+   "len": 49,
+   "en": "\"A lusty young smith at his feist stood a-firing,",
+   "zh": "「一位年輕力壯的鐵匠站在爐旁鍛鐵，",
+   "note": "民謠fragment，帶雙關意味"
+  },
+  {
+   "offset": 1569,
+   "len": 44,
+   "en": "His hammer lay by but his forge still aglow,",
+   "zh": "錘子擱置一旁但爐火仍燃，",
+   "note": "民謠fragment"
+  },
+  {
+   "offset": 1615,
+   "len": 46,
+   "en": "When to him a buxom young damsel came smiling,",
+   "zh": "豐腴的少女含笑前來，",
+   "note": "民謠fragment"
+  },
+  {
+   "offset": 1663,
+   "len": 47,
+   "en": "And asked if to work at her forge he would go.\"",
+   "zh": "問他可否去她的爐邊效力。」",
+   "note": "民謠fragment，爐=雙關"
+  },
+  {
+   "offset": 1713,
+   "len": 51,
+   "en": "\"With a jingle vang jingle vang jingle vang jingle,",
+   "zh": "「叮鈴鏘當叮鈴鏘當叮鈴鏘當叮鈴，",
+   "note": "副歌擬聲fragment"
+  },
+  {
+   "offset": 1766,
+   "len": 45,
+   "en": "With a jingle vang jingle vang jingle hi ho.\"",
+   "zh": "叮鈴鏘當叮鈴鏘當叮鈴嗨喲。」",
+   "note": "副歌擬聲fragment"
+  },
+  {
+   "offset": 1814,
+   "len": 52,
+   "en": "\"'I will' said the smith and they went off together,",
+   "zh": "「『願意』鐵匠答道，二人便一同而去，",
+   "note": "民謠fragment"
+  },
+  {
+   "offset": 1869,
+   "len": 43,
+   "en": "\"Unto the young damsel's forge they did go.",
+   "zh": "「前往那少女的爐邊，",
+   "note": "民謠fragment"
+  },
+  {
+   "offset": 1914,
+   "len": 58,
+   "en": "They stripped to go to it--'twas hot work and hot weather,",
+   "zh": "二人褪衣勞作——天氣炎熱，活計也熱，",
+   "note": "民謠fragment，雙關"
+  },
+  {
+   "offset": 1974,
+   "len": 49,
+   "en": "She kindled the fire and she soon made him glow.\"",
+   "zh": "她點燃爐火，令他頓時發熱。」",
+   "note": "民謠fragment，雙關"
+  },
+  {
+   "offset": 2026,
+   "len": 51,
+   "en": "\"With a jingle vang jingle vang jingle vang jingle,",
+   "zh": "「叮鈴鏘當叮鈴鏘當叮鈴鏘當叮鈴，",
+   "note": "副歌擬聲fragment"
+  },
+  {
+   "offset": 2079,
+   "len": 45,
+   "en": "With a jingle vang jingle vang jingle hi ho!\"",
+   "zh": "叮鈴鏘當叮鈴鏘當叮鈴嗨喲！」",
+   "note": "副歌擬聲fragment"
+  },
+  {
+   "offset": 2127,
+   "len": 30,
+   "en": "\"I hope you enjoyed the song!\"",
+   "zh": "「希望汝喜歡這首歌！」",
+   "note": ""
+  },
+  {
+   "offset": 2162,
+   "len": 17,
+   "en": "\"Fare thee well.\"",
+   "zh": "「珍重再見。」",
+   "note": ""
+  },
+  {
+   "offset": 2184,
+   "len": 51,
+   "en": "\"That's an excellent question. Ask me another one!\"",
+   "zh": "「這是個絕妙的問題，再問在下一個！」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Patrick": "派崔克",
+   "Lazeena": "拉澤娜",
+   "Sionnach": "西歐娜",
+   "Mandrake": "曼德雷克"
+  }
+ },
+ "translator_notes": "099 Patrick: 吟遊詩人，說混搭童謠與帶雙關的鐵匠民謠。Dr. Cat的好友。副歌擬聲詞以漢語諧音意譯。"
+}

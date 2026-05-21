@@ -1,0 +1,496 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 9,
+   "en": "Naxatilor",
+   "zh": "納薩蒂",
+   "note": "NPC name — glossary 已有"
+  },
+  {
+   "offset": 12,
+   "len": 31,
+   "en": "a dark, rough-skinned gargoyle.",
+   "zh": "膚色幽暗、皮膚粗糙之魔像。",
+   "note": "DESC"
+  },
+  {
+   "offset": 53,
+   "len": 58,
+   "en": "The venerable gargoyle does not acknowledge your presence.",
+   "zh": "這位德高望重的魔像對你的到來置若罔聞。",
+   "note": "旁白"
+  },
+  {
+   "offset": 124,
+   "len": 47,
+   "en": "\"To have nothing to say to you, False Prophet!\"",
+   "zh": "「對偽先知，吾無話可說！」",
+   "note": ""
+  },
+  {
+   "offset": 193,
+   "len": 25,
+   "en": "\"To greet you again, $P.\"",
+   "zh": "「再次問候，$P。」",
+   "note": ""
+  },
+  {
+   "offset": 224,
+   "len": 45,
+   "en": "\"To greet you, $P, Avatar of the Underworld.\"",
+   "zh": "「問候汝，$P，幽冥界之聖者。」",
+   "note": "gargoyle 視角稱呼"
+  },
+  {
+   "offset": 272,
+   "len": 51,
+   "en": "\"To see the Amulet of Submission around your neck.\"",
+   "zh": "「見汝頸間佩有臣服護符。」",
+   "note": ""
+  },
+  {
+   "offset": 326,
+   "len": 58,
+   "en": "\"To consider your acceptance of this both noble and wise.\"",
+   "zh": "「汝之接受，吾視之為高貴且明智之舉。」",
+   "note": ""
+  },
+  {
+   "offset": 394,
+   "len": 69,
+   "en": "\"To observe by your aura that such honorable deeds are rare for you.\"",
+   "zh": "「觀汝靈光，此等榮譽之舉於汝甚是罕見。」",
+   "note": ""
+  },
+  {
+   "offset": 466,
+   "len": 68,
+   "en": "\"To not be surprised, then, that you are @fated to destroy a world.\"",
+   "zh": "「如此，汝@fated命中注定毀滅一個世界，亦不足為奇。」",
+   "note": ""
+  },
+  {
+   "offset": 547,
+   "len": 59,
+   "en": "\"To observe by your aura that you are not a being of evil.\"",
+   "zh": "「觀汝靈光，汝並非邪惡之輩。」",
+   "note": ""
+  },
+  {
+   "offset": 609,
+   "len": 72,
+   "en": "\"To regret for your sake, then, that you are @fated to destroy a world.\"",
+   "zh": "「如此，汝@fated命中注定毀滅一個世界，吾為汝深感惋惜。」",
+   "note": ""
+  },
+  {
+   "offset": 687,
+   "len": 62,
+   "en": "\"To observe by your aura that you are truly a being of honor.\"",
+   "zh": "「觀汝靈光，汝確為榮譽之人。」",
+   "note": ""
+  },
+  {
+   "offset": 752,
+   "len": 64,
+   "en": "\"To be surprised, then, that you are @fated to destroy a world.\"",
+   "zh": "「如此，汝@fated命中注定毀滅一個世界，令吾大感訝異。」",
+   "note": ""
+  },
+  {
+   "offset": 835,
+   "len": 38,
+   "en": "\"To have spoken to Scholar Valkadesh?\"",
+   "zh": "「已與學者瓦卡德許一談否？」",
+   "note": ""
+  },
+  {
+   "offset": 876,
+   "len": 57,
+   "en": "\"Then surely to know what harm you have caused my world!\"",
+   "zh": "「則汝必知已對吾之世界造成何等傷害！」",
+   "note": ""
+  },
+  {
+   "offset": 936,
+   "len": 45,
+   "en": "\"To have no @choice but to return the Codex!\"",
+   "zh": "「別無@choice選擇，唯有歸還守則之書！」",
+   "note": ""
+  },
+  {
+   "offset": 1002,
+   "len": 70,
+   "en": "\"To have wreaked great havoc in this land by your theft of the Codex!\"",
+   "zh": "「汝竊取守則之書，已在此地造成巨大禍害！」",
+   "note": ""
+  },
+  {
+   "offset": 1075,
+   "len": 38,
+   "en": "\"To have no @choice but to return it!\"",
+   "zh": "「別無@choice選擇，唯有歸還！」",
+   "note": ""
+  },
+  {
+   "offset": 1129,
+   "len": 78,
+   "en": "\"To see only two alternatives: to return the @Codex, or to give up your life.\"",
+   "zh": "「唯見兩途：歸還@Codex守則之書，或獻出汝之性命。」",
+   "note": ""
+  },
+  {
+   "offset": 1218,
+   "len": 56,
+   "en": "\"Hss...Yes, to know of the three meanings of that word.\"",
+   "zh": "「嘶……是，此詞有三重含義，吾知之。」",
+   "note": ""
+  },
+  {
+   "offset": 1277,
+   "len": 81,
+   "en": "\"To ask to which type of sacrifice you refer: @self, @others or items of @value?\"",
+   "zh": "「問汝所指何種犧牲：@self自我、@others他人，抑或@value貴重之物？」",
+   "note": ""
+  },
+  {
+   "offset": 1369,
+   "len": 78,
+   "en": "\"To admire your willingness to sacrifice your life for the good of my people.\"",
+   "zh": "「汝願以性命換取吾族福祉，吾甚為敬佩。」",
+   "note": ""
+  },
+  {
+   "offset": 1450,
+   "len": 56,
+   "en": "\"But to doubt that that is the meaning of the prophecy.\"",
+   "zh": "「然吾懷疑此並非預言之真意。」",
+   "note": ""
+  },
+  {
+   "offset": 1517,
+   "len": 8,
+   "en": "\"What?!\"",
+   "zh": "「什麼？！」",
+   "note": ""
+  },
+  {
+   "offset": 1528,
+   "len": 84,
+   "en": "\"To suggest that you can atone for your misdeed by bathing in the blood of others?!\"",
+   "zh": "「汝竟暗示可以沐浴他人之血來洗清罪行？！」",
+   "note": ""
+  },
+  {
+   "offset": 1622,
+   "len": 72,
+   "en": "\"To find such thoughts well in keeping with the blackness of your aura!\"",
+   "zh": "「此等念頭與汝陰暗之靈光可謂相稱！」",
+   "note": ""
+  },
+  {
+   "offset": 1695,
+   "len": 56,
+   "en": "\"To find such thoughts unworthy of your honorable aura!\"",
+   "zh": "「此等念頭有辱汝榮譽之靈光！」",
+   "note": ""
+  },
+  {
+   "offset": 1768,
+   "len": 59,
+   "en": "\"To know of only one item of true value--the Codex itself.\"",
+   "zh": "「吾所知唯一真正有價值之物——正是守則之書本身。」",
+   "note": ""
+  },
+  {
+   "offset": 1830,
+   "len": 36,
+   "en": "\"Surely not to destroy the Codex!?\" ",
+   "zh": "「難道要毀掉守則之書？！」",
+   "note": ""
+  },
+  {
+   "offset": 1887,
+   "len": 62,
+   "en": "\"To direct you to go to the Hall of Knowledge, south of here.\"",
+   "zh": "「指引汝前往此處南方之智識之殿。」",
+   "note": ""
+  },
+  {
+   "offset": 1952,
+   "len": 35,
+   "en": "\"There to read the Book of Ritual.\"",
+   "zh": "「在彼處研讀儀典之書。」",
+   "note": ""
+  },
+  {
+   "offset": 1990,
+   "len": 36,
+   "en": "\"There also to get the Vortex Lens!\"",
+   "zh": "「亦在彼處取得渦旋透鏡！」",
+   "note": ""
+  },
+  {
+   "offset": 2029,
+   "len": 63,
+   "en": "\"Then to return here, where I will tell you what must be done!\"",
+   "zh": "「而後返回此處，吾將告知汝必須做之事！」",
+   "note": ""
+  },
+  {
+   "offset": 2115,
+   "len": 61,
+   "en": "\"To be able to see the @Vortex from both sides of the world!\"",
+   "zh": "「從世界兩側皆能看見@Vortex渦旋！」",
+   "note": ""
+  },
+  {
+   "offset": 2179,
+   "len": 64,
+   "en": "\"To benefit both races equally if the Codex is @returned there!\"",
+   "zh": "「若守則之書@returned歸還彼處，兩族皆可平等受益！」",
+   "note": ""
+  },
+  {
+   "offset": 2254,
+   "len": 25,
+   "en": "\"To be called Naxatilor.\"",
+   "zh": "「吾名納薩蒂。」",
+   "note": ""
+  },
+  {
+   "offset": 2289,
+   "len": 44,
+   "en": "\"To be a seer, mystic advisor to my people.\"",
+   "zh": "「吾乃預言者，吾族之神秘顧問。」",
+   "note": ""
+  },
+  {
+   "offset": 2336,
+   "len": 70,
+   "en": "\"But to be unable to avert what is written in the Book of Prophecies.\"",
+   "zh": "「然吾無力阻止預言之書中所載之事。」",
+   "note": ""
+  },
+  {
+   "offset": 2427,
+   "len": 57,
+   "en": "\"To be sure to show the human lensmaker the Vortex Lens.\"",
+   "zh": "「務必將渦旋透鏡展示給人類造透鏡者看。」",
+   "note": ""
+  },
+  {
+   "offset": 2487,
+   "len": 76,
+   "en": "\"Also to be sure to tell the human lensmaker that his lens must be concave!\"",
+   "zh": "「亦務必告知人類造透鏡者，其所製之透鏡必須是凹面！」",
+   "note": ""
+  },
+  {
+   "offset": 2566,
+   "len": 32,
+   "en": "\"To be most important--concave!\"",
+   "zh": "「此乃重中之重——凹面！」",
+   "note": ""
+  },
+  {
+   "offset": 2609,
+   "len": 33,
+   "en": "\"To know not where the Codex is.\"",
+   "zh": "「吾不知守則之書在何處。」",
+   "note": ""
+  },
+  {
+   "offset": 2645,
+   "len": 67,
+   "en": "\"But to remember that Captain Bolesh just returned from the Codex!\"",
+   "zh": "「然記得隊長波列許方才剛從守則之書處歸來！」",
+   "note": ""
+  },
+  {
+   "offset": 2715,
+   "len": 66,
+   "en": "\"To suggest you seek him. To try the healer's house to the north.\"",
+   "zh": "「建議汝去尋他。到北方醫者之居所試試。」",
+   "note": ""
+  },
+  {
+   "offset": 2797,
+   "len": 66,
+   "en": "\"To find the Vortex Lens in the Hall of Knowledge, south of here.\"",
+   "zh": "「渦旋透鏡在此處南方之智識之殿。」",
+   "note": ""
+  },
+  {
+   "offset": 2880,
+   "len": 66,
+   "en": "\"Farewell! To return when you have visited the Hall of Knowledge!\"",
+   "zh": "「告別！待汝拜訪智識之殿後再來！」",
+   "note": ""
+  },
+  {
+   "offset": 2948,
+   "len": 60,
+   "en": "\"Farewell, $P. To return when there is more we can discuss.\"",
+   "zh": "「告別，$P。待有更多可談之事時再來。」",
+   "note": ""
+  },
+  {
+   "offset": 3014,
+   "len": 34,
+   "en": "\"To have no time to discuss that.\"",
+   "zh": "「吾無暇討論此事。」",
+   "note": ""
+  },
+  {
+   "offset": 3072,
+   "len": 54,
+   "en": "\"Yes, to see that the Vortex Lens is no longer whole.\"",
+   "zh": "「是，見渦旋透鏡已不再完整。」",
+   "note": ""
+  },
+  {
+   "offset": 3129,
+   "len": 59,
+   "en": "\"To go to the lensmaker, whose house is northeast of here.\"",
+   "zh": "「前往造透鏡者處，其居所在此處東北方。」",
+   "note": ""
+  },
+  {
+   "offset": 3191,
+   "len": 33,
+   "en": "\"To get the lens repaired there!\"",
+   "zh": "「在彼處將透鏡修復！」",
+   "note": ""
+  },
+  {
+   "offset": 3227,
+   "len": 42,
+   "en": "\"Then to return here with the whole lens!\"",
+   "zh": "「而後攜完整之透鏡返回此處！」",
+   "note": ""
+  },
+  {
+   "offset": 3284,
+   "len": 44,
+   "en": "\"To require the Vortex Lens, foolish human!\"",
+   "zh": "「需要渦旋透鏡，愚蠢的人類！」",
+   "note": ""
+  },
+  {
+   "offset": 3331,
+   "len": 24,
+   "en": "\"To waste no more time!\"",
+   "zh": "「莫再虛耗時光！」",
+   "note": ""
+  },
+  {
+   "offset": 3358,
+   "len": 51,
+   "en": "\"To go to the @Hall of Knowledge and get the lens!\"",
+   "zh": "「前往@Hall智識之殿取得透鏡！」",
+   "note": ""
+  },
+  {
+   "offset": 3412,
+   "len": 39,
+   "en": "\"To bring it to me personally, Avatar!\"",
+   "zh": "「親自帶回給吾，聖者！」",
+   "note": ""
+  },
+  {
+   "offset": 3457,
+   "len": 45,
+   "en": "\"Good, to see that you have the Vortex Lens.\"",
+   "zh": "「甚好，見汝已持有渦旋透鏡。」",
+   "note": ""
+  },
+  {
+   "offset": 3505,
+   "len": 43,
+   "en": "\"To have read the Book of Ritual as well?\" ",
+   "zh": "「亦已研讀儀典之書否？」",
+   "note": ""
+  },
+  {
+   "offset": 3554,
+   "len": 48,
+   "en": "\"Then to go to the Hall of Knowledge and do so!\"",
+   "zh": "「那便前往智識之殿去讀！」",
+   "note": ""
+  },
+  {
+   "offset": 3614,
+   "len": 50,
+   "en": "\"Good. To be unable to reverse the ritual myself.\"",
+   "zh": "「甚好。吾本身無法逆轉此儀式。」",
+   "note": ""
+  },
+  {
+   "offset": 3667,
+   "len": 76,
+   "en": "\"But to know that the Codex itself will say how to return it to the Vortex.\"",
+   "zh": "「然守則之書本身將說明如何歸還至渦旋。」",
+   "note": ""
+  },
+  {
+   "offset": 3746,
+   "len": 48,
+   "en": "\"To know also that you will need a second lens.\"",
+   "zh": "「亦知汝將需要第二枚透鏡。」",
+   "note": ""
+  },
+  {
+   "offset": 3797,
+   "len": 80,
+   "en": "\"To require a human-crafted @lens, so that your people may also see the @Codex.\"",
+   "zh": "「需要人類製作之@lens透鏡，使汝之族人亦能看見@Codex守則之書。」",
+   "note": ""
+  },
+  {
+   "offset": 3889,
+   "len": 59,
+   "en": "\"To be utterly without hope in the face of such ignorance.\"",
+   "zh": "「面對如此無知，吾已絕望至極。」",
+   "note": ""
+  },
+  {
+   "offset": 3951,
+   "len": 38,
+   "en": "\"To refuse to converse with a daemon.\"",
+   "zh": "「吾拒絕與惡魔交談。」",
+   "note": ""
+  },
+  {
+   "offset": 3994,
+   "len": 40,
+   "en": "\"Perhaps to have another alternative...\"",
+   "zh": "「或有另一途徑……」",
+   "note": ""
+  },
+  {
+   "offset": 4037,
+   "len": 42,
+   "en": "\"Yes! To return the Codex to the @Vortex!\"",
+   "zh": "「是！將守則之書歸還@Vortex渦旋！」",
+   "note": ""
+  },
+  {
+   "offset": 4082,
+   "len": 44,
+   "en": "\"To then be available to @both our peoples!\"",
+   "zh": "「如此可讓@both兩族共享！」",
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {
+   "Naxatilor": "納薩蒂"
+  },
+  "places": {}
+ },
+ "riddles_additions": [],
+ "translator_notes": "納薩蒂為魔像族神秘預言者，語氣莊嚴睿智，對 Avatar 靈光的解讀因玩家選擇而異。核心使命：返還渦旋透鏡、歸還守則之書。凹面透鏡（concave）為重要 quest 資訊，特別保留。"
+}

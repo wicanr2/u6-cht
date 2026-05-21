@@ -1,0 +1,223 @@
+{
+ "translations": [
+  {
+   "offset": 9,
+   "len": 61,
+   "en": "a man with a wide bottom. His voice is almost like a woman's.",
+   "zh": "身形下寬的男子，聲音幾乎像女人。",
+   "note": "DESC"
+  },
+  {
+   "offset": 86,
+   "len": 52,
+   "en": "\"Ooh, you look so thin! Here, have a bite of bread.\"",
+   "zh": "「哎呀，你看起來好瘦！來，吃一口麵包吧。」",
+   "note": ""
+  },
+  {
+   "offset": 140,
+   "len": 53,
+   "en": "He gives you a @roll; it is still warm from the oven.",
+   "zh": "他給你一個@小麵包；還帶著爐子裡的熱氣。",
+   "note": ""
+  },
+  {
+   "offset": 198,
+   "len": 23,
+   "en": "\"Why, hello there, $G.\"",
+   "zh": "「哎，你好，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 229,
+   "len": 24,
+   "en": "\"My name is Shubin, $G.\"",
+   "zh": "「我叫書賓，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 269,
+   "len": 18,
+   "en": "\"I'm a @cook, $G.\"",
+   "zh": "「我是@廚師，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 298,
+   "len": 18,
+   "en": "\"He is my friend.\"",
+   "zh": "「他是我的朋友。」",
+   "note": ""
+  },
+  {
+   "offset": 327,
+   "len": 58,
+   "en": "\"@Sandy says the mantra of eating is 'yum,' $G. Hee, hee!\"",
+   "zh": "「@珊迪說，飲食的咒言是『嗯嗯』，$G。嘻嘻！」",
+   "note": "mantra=真言/咒言（玩笑話）"
+  },
+  {
+   "offset": 397,
+   "len": 71,
+   "en": "You friend Iolo rolls his eyes. \"Such wisdom we can surely do without!\"",
+   "zh": "你的朋友伊歐洛翻了個白眼。「這種智慧，我們倒是可以免了！」",
+   "note": "原文 'You friend' 是錯字，應為 Your"
+  },
+  {
+   "offset": 507,
+   "len": 27,
+   "en": "\"I have no more rolls, $G.\"",
+   "zh": "「我沒有更多小麵包了，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 551,
+   "len": 48,
+   "en": "\"Being a cook is like being an @adventurer, $G.\"",
+   "zh": "「當廚師就像當@冒險家，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 610,
+   "len": 58,
+   "en": "\"Yes, $G. I must gather up all my ingredients with @care.\"",
+   "zh": "「是的，$G。我必須@用心地蒐集所有食材。」",
+   "note": ""
+  },
+  {
+   "offset": 679,
+   "len": 44,
+   "en": "\"So that I have the right @ingredients, $G.\"",
+   "zh": "「這樣才能有正確的@食材，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 734,
+   "len": 70,
+   "en": "\"Adventurers are always searching for this or that, $G. So are cooks.\"",
+   "zh": "「冒險家總是到處尋找這個那個，$G。廚師也是一樣。」",
+   "note": ""
+  },
+  {
+   "offset": 807,
+   "len": 35,
+   "en": "\"Do you know of Magincian Pastry?\" ",
+   "zh": "「你知道瑪金夏的糕點嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 857,
+   "len": 25,
+   "en": "\"Have you one with you?\" ",
+   "zh": "「你身上有一個嗎？」",
+   "note": "dragon egg"
+  },
+  {
+   "offset": 892,
+   "len": 14,
+   "en": "\"Goodbye, $G.\"",
+   "zh": "「再見，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 911,
+   "len": 45,
+   "en": "\"That's one of the eight @mantras, isn't it?\"",
+   "zh": "「那是八個@咒言之一，不是嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 968,
+   "len": 37,
+   "en": "\"Oh, do not tease old Shubin so, $G!\"",
+   "zh": "「哎，別這樣取笑老書賓，$G！」",
+   "note": ""
+  },
+  {
+   "offset": 1032,
+   "len": 38,
+   "en": "\"Oh, thank you, thank you, thank you!\"",
+   "zh": "「哎呀，謝謝你，謝謝你，謝謝你！」",
+   "note": ""
+  },
+  {
+   "offset": 1101,
+   "len": 39,
+   "en": "He ask anxiously \"Do you like it, $G?\" ",
+   "zh": "他焦急地問道：「你喜歡嗎，$G？」",
+   "note": "原文 'He ask' 語法錯誤，保留翻譯語意"
+  },
+  {
+   "offset": 1146,
+   "len": 53,
+   "en": "\"Such a picky eater. No wonder you're so skinny, $G.\"",
+   "zh": "「這麼挑嘴。難怪你這麼瘦，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 1207,
+   "len": 26,
+   "en": "\"Have a whole tray, then.\"",
+   "zh": "「那就拿整盤吧。」",
+   "note": ""
+  },
+  {
+   "offset": 1265,
+   "len": 68,
+   "en": "\"It is a marvellous dish, $G. My friend Sandy gave me the recipe...\"",
+   "zh": "「這是一道了不起的料理，$G。我的朋友珊迪給了我食譜……」",
+   "note": ""
+  },
+  {
+   "offset": 1336,
+   "len": 36,
+   "en": "\"I'm only missing one ingredient...\"",
+   "zh": "「我只缺一樣食材……」",
+   "note": ""
+  },
+  {
+   "offset": 1380,
+   "len": 75,
+   "en": "\"Well, I'd like to make it, $G, but I cannot get one of the ingredients...\"",
+   "zh": "「嗯，$G，我很想做，可是其中一種食材我弄不到……」",
+   "note": ""
+  },
+  {
+   "offset": 1459,
+   "len": 104,
+   "en": "\"I sure would appreciate it if you brought it back for me if you came across one in your travels, $G...\"",
+   "zh": "「若你在旅途中碰巧遇上，能帶回來給老書賓，那就太感激了，$G……」",
+   "note": ""
+  },
+  {
+   "offset": 1566,
+   "len": 51,
+   "en": "\"If you could find time for old Shubin, that is...\"",
+   "zh": "「若你有空的話，$G……」",
+   "note": ""
+  },
+  {
+   "offset": 1620,
+   "len": 69,
+   "en": "\"Would it be too much trouble to bring me back a dragon's @egg, $G?\" ",
+   "zh": "「麻煩你幫老書賓帶一顆龍@蛋回來，好嗎，$G？」",
+   "note": ""
+  },
+  {
+   "offset": 1695,
+   "len": 55,
+   "en": "He sighs. \"Well, $G, it did no harm to ask, I suppose.\"",
+   "zh": "他嘆口氣。「唉，$G，試著問問也無妨，我想。」",
+   "note": ""
+  },
+  {
+   "offset": 1758,
+   "len": 54,
+   "en": "\"I just know you will remember Shubin, $G. Thank you.\"",
+   "zh": "「我就知道你不會忘記書賓的，$G。謝謝你。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Shubin": "書賓"}, "places": {}},
+ "translator_notes": "書賓是修道院廚師，身形下寬、聲音細柔。他想做瑪金夏糕點（Magincian Pastry），缺的食材是龍蛋。友人珊迪給了他食譜。他對飲食的熱情表現在誇張的感謝和關心旅人的言談中。"
+}

@@ -1,0 +1,174 @@
+{
+ "translations": [
+  {
+   "offset": 8,
+   "len": 24,
+   "en": "an amiable, shaggy mutt.",
+   "zh": "一隻友善、毛髮蓬亂的雜種狗。",
+   "note": "DESC"
+  },
+  {
+   "offset": 41,
+   "len": 76,
+   "en": "*The dog gets up and brings you his bowl again, looking at you expectantly. ",
+   "zh": "*狗站起來，再度叼著碗走到你面前，滿懷期待地望著你。",
+   "note": "保留 * 控制符"
+  },
+  {
+   "offset": 178,
+   "len": 59,
+   "en": "The dog looks at you with a puzzled expression on his face.",
+   "zh": "那隻狗用困惑的眼神看著你。",
+   "note": ""
+  },
+  {
+   "offset": 248,
+   "len": 33,
+   "en": "The dog looks at you expectantly.",
+   "zh": "那隻狗滿懷期待地看著你。",
+   "note": ""
+  },
+  {
+   "offset": 291,
+   "len": 13,
+   "en": "The dog sits.",
+   "zh": "那隻狗坐下。",
+   "note": ""
+  },
+  {
+   "offset": 322,
+   "len": 49,
+   "en": "The dog fetches a stick and lays it at your feet.",
+   "zh": "那隻狗叼來一根木棒，放在你腳邊。",
+   "note": ""
+  },
+  {
+   "offset": 389,
+   "len": 29,
+   "en": "The dog shakes paws with you.",
+   "zh": "那隻狗和你握爪。",
+   "note": ""
+  },
+  {
+   "offset": 436,
+   "len": 24,
+   "en": "The dog bites your heel.",
+   "zh": "那隻狗咬了你的腳跟一口。",
+   "note": ""
+  },
+  {
+   "offset": 477,
+   "len": 13,
+   "en": "The dog begs.",
+   "zh": "那隻狗舉爪討食。",
+   "note": ""
+  },
+  {
+   "offset": 513,
+   "len": 19,
+   "en": "The dog plays dead.",
+   "zh": "那隻狗裝死。",
+   "note": ""
+  },
+  {
+   "offset": 555,
+   "len": 19,
+   "en": "The dog rolls over.",
+   "zh": "那隻狗打滾。",
+   "note": ""
+  },
+  {
+   "offset": 622,
+   "len": 266,
+   "en": "\"I feel that the whole debate over 'free will' versus 'determinism' arises from an artificial semantic division. In light of the work of Godel and Heisenberg, it is evident that the two concepts are indistinguishable and thus, for all practical purposes, identical.\"",
+   "zh": "「吾以為，『自由意志』與『決定論』之整個辯論，皆源於一種人為的語義分割。鑑於哥德爾與海森堡的研究成果，顯見此兩概念無從區辨，就一切實際目的而言，實為同一。」",
+   "note": "吉普賽狗忽然說出哲學名言，用文言增強荒誕感"
+  },
+  {
+   "offset": 923,
+   "len": 13,
+   "en": "\"Grrrrrrr...\"",
+   "zh": "「嗚嗚嗚……」",
+   "note": ""
+  },
+  {
+   "offset": 951,
+   "len": 7,
+   "en": "\"Ruff.\"",
+   "zh": "「汪。」",
+   "note": ""
+  },
+  {
+   "offset": 988,
+   "len": 60,
+   "en": "The dog picks up a bowl in his mouth and holds it up to you.",
+   "zh": "那隻狗用嘴叼起碗，舉到你面前。",
+   "note": ""
+  },
+  {
+   "offset": 1051,
+   "len": 76,
+   "en": "You see that it has several coins in it already. Do you give him any money? ",
+   "zh": "你看到碗裡已有幾枚硬幣。你要給他一些錢嗎？",
+   "note": ""
+  },
+  {
+   "offset": 1133,
+   "len": 75,
+   "en": "After a while the dog sets down the bowl, lies down, and starts whimpering.",
+   "zh": "過了一會兒，那隻狗放下碗，趴下來，開始嗚咽。",
+   "note": ""
+  },
+  {
+   "offset": 1216,
+   "len": 22,
+   "en": "How much do you give? ",
+   "zh": "你給多少錢？",
+   "note": ""
+  },
+  {
+   "offset": 1251,
+   "len": 25,
+   "en": "You don't have that much.",
+   "zh": "你沒有那麼多錢。",
+   "note": ""
+  },
+  {
+   "offset": 1329,
+   "len": 22,
+   "en": "The dog seems pleased.",
+   "zh": "那隻狗似乎很高興。",
+   "note": ""
+  },
+  {
+   "offset": 1353,
+   "len": 6,
+   "en": "\"Arf!\"",
+   "zh": "「汪！」",
+   "note": ""
+  },
+  {
+   "offset": 1360,
+   "len": 10,
+   "en": "\"Bow wow.\"",
+   "zh": "「汪汪。」",
+   "note": ""
+  },
+  {
+   "offset": 1371,
+   "len": 45,
+   "en": "The dog jumps up and tries to lick your face.",
+   "zh": "那隻狗跳起來，試圖舔你的臉。",
+   "note": ""
+  },
+  {
+   "offset": 1417,
+   "len": 13,
+   "en": "\"Woof, woof!\"",
+   "zh": "「汪，汪！」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Kador": "卡多"}, "places": {}},
+ "translator_notes": "卡多是吉普賽狗，大部分為動作描述，但意外說出一段引用哥德爾與海森堡的哲學議論——用文言呈現荒誕幽默感。"
+}

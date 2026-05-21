@@ -1,0 +1,38 @@
+{
+  "translations": [
+    {"offset": 2, "len": 6, "en": "Nystul", "zh": "Nystul", "zh_bytes": 6, "note": "NPC name field — engine ID, 保 ASCII；對話內用『尼斯托』"},
+    {"offset": 9, "len": 25, "en": "a concerned looking mage.", "zh": "一位面帶憂色的法師。", "zh_bytes": 20, "note": "外觀描述"},
+    {"offset": 57, "len": 32, "en": "\"Hail to thee $G, and well met.\"", "zh": "「向汝致敬，$G，相見甚悅。」", "zh_bytes": 26, "note": "$G 性別變數保留"},
+    {"offset": 92, "len": 95, "en": "\"'Twas I who learned of thy peril through my mystic arts, so that aid might be sent unto thee.\"", "zh": "「乃老朽藉神祕之術，得知汝有危難，故遣援手相助。」", "zh_bytes": 48, "note": "Nystul 自稱『老朽』"},
+    {"offset": 190, "len": 42, "en": "\"Iolo, I saw that thou didst find a book.\"", "zh": "「尤洛，老朽見汝尋得一本書冊。」", "zh_bytes": 30, "note": ""},
+    {"offset": 235, "len": 21, "en": "\"Might I examine it?\"", "zh": "「可容老朽一觀？」", "zh_bytes": 16, "note": ""},
+    {"offset": 275, "len": 50, "en": "\"I no longer have the book, milord.\" replies Iolo.", "zh": "「那本書已不在我身上，大人。」尤洛答道。", "zh_bytes": 38, "note": "Iolo 對 Nystul 稱『大人』"},
+    {"offset": 332, "len": 86, "en": "\"That is too bad. I had hoped thou might take it to Mariah and have her translate it.\"", "zh": "「可惜也。老朽本想請汝攜之去見瑪萊雅，由她譯解。」", "zh_bytes": 48, "note": "Mariah → 瑪萊雅"},
+    {"offset": 426, "len": 82, "en": "\"Certainly, milord. Perhaps thou canst make better sense of it than I.\" says Iolo.", "zh": "「自然奉上，大人。或者汝能比我看出更多端倪。」尤洛說道。", "zh_bytes": 54, "note": "避用『或許』(許 為 5C trail)"},
+    {"offset": 515, "len": 12, "en": "\"Strange...\"", "zh": "「奇也……」", "zh_bytes": 10, "note": "古文歎詞"},
+    {"offset": 530, "len": 101, "en": "\"This has a picture on its cover of a gargoyle standing with one foot on the chest of a slain human.\"", "zh": "「封面繪有一魔像，一足踏於被屠人類之胸膛。」", "zh_bytes": 42, "note": ""},
+    {"offset": 634, "len": 22, "en": "\"This is interesting.\"", "zh": "「頗為耐人尋味。」", "zh_bytes": 16, "note": ""},
+    {"offset": 659, "len": 40, "en": "\"It's written in a language I know not.\"", "zh": "「書中所用之語，老朽從未識得。」", "zh_bytes": 30, "note": ""},
+    {"offset": 702, "len": 86, "en": "\"Take it to Mariah at the Lycaeum, the finest scribe on the great Council of Wizards.\"", "zh": "「攜之去學苑尋瑪萊雅吧，她是法師議會中第一謄書之士。」", "zh_bytes": 52, "note": "Council of Wizards → 法師議會"},
+    {"offset": 791, "len": 83, "en": "\" She has studied many languages, and perhaps she can decipher this book for thee.\"", "zh": "「 她通曉諸種語言，或可為汝解讀此書。」", "zh_bytes": 37, "note": "保留前導空格"},
+    {"offset": 876, "len": 27, "en": "\"One more thing, Avatar...\"", "zh": "「還有一事，聖者……」", "zh_bytes": 20, "note": ""},
+    {"offset": 906, "len": 57, "en": "\"I noticed that thou didst arrive through a red gateway.\"", "zh": "「老朽留意到，汝乃自一紅色之門而來。」", "zh_bytes": 36, "note": "紅色傳送門劇情關鍵"},
+    {"offset": 966, "len": 49, "en": "\"Dost thou have the stone that opened the gate?\" ", "zh": "「開啟那門之石，汝可持在身上？」 ", "zh_bytes": 31, "note": "保留尾隨空格"},
+    {"offset": 1016, "len": 2, "en": "yn", "zh": "yn", "zh_bytes": 2, "note": "yes/no answer prefix — engine token，不譯"},
+    {"offset": 1021, "len": 57, "en": "\"From whence could it have come? The gargoyles, perhaps?\"", "zh": "「此物從何而來？莫非魔像族所為？」", "zh_bytes": 32, "note": ""},
+    {"offset": 1081, "len": 33, "en": "\"Best ask Lord British about it.\"", "zh": "「此事最好請教不列顛王。」", "zh_bytes": 24, "note": ""},
+    {"offset": 1117, "len": 48, "en": "\"I believe he has some knowledge of such items.\"", "zh": "「老朽相信陛下對此類之物頗有所知。」", "zh_bytes": 34, "note": ""},
+    {"offset": 1168, "len": 28, "en": "\"Such items are quite rare.\"", "zh": "「此類之物，世間極為罕見。」", "zh_bytes": 26, "note": ""},
+    {"offset": 1199, "len": 85, "en": "\"Indeed, the only one I have ever seen is that which Lord British himself possesses.\"", "zh": "「老朽生平所見，唯陛下手中所持之一枚而已。」", "zh_bytes": 42, "note": ""},
+    {"offset": 1293, "len": 79, "en": "\"Hast thou gone to the Lycaeum and shown Mariah the book? 'Tis most important.\"", "zh": "「汝可曾至學苑，將書呈與瑪萊雅一觀？此事至為要緊。」", "zh_bytes": 50, "note": "重啟對話提醒語"},
+    {"offset": 1375, "len": 57, "en": "\"There is naught else I can help thee with at this time.\"", "zh": "「此時此刻，老朽再無他事可助汝。」", "zh_bytes": 32, "note": "結尾語"}
+  ],
+  "keyword_mapping": {},
+  "glossary_additions": {
+    "people": {"Mariah": "瑪萊雅"},
+    "concepts": {"Council of Wizards": "法師議會"},
+    "variables": {"$G": "$G  // 性別/敬稱變數，不譯"}
+  },
+  "riddles_additions": [],
+  "translator_notes": "Nystul 學者口吻，自稱『老朽』稱玩家『汝』『聖者』。所有 26 條 zh_bytes ≤ 原文 len，repack 安全。已避開 5C trail 字（『許』改『或者』）。`yn` (offset 1016) 純引擎 token 不譯。"
+}

@@ -1,0 +1,426 @@
+{
+ "translations": [
+  {
+   "offset": 10,
+   "len": 31,
+   "en": "a handsome, carefree gypsy man.",
+   "zh": "英俊瀟灑、無憂無慮的吉普賽男子。",
+   "note": "DESC"
+  },
+  {
+   "offset": 66,
+   "len": 81,
+   "en": "\"Hey, foxy! I bet you'd like me to unsheathe my weapon so you can have a look...\"",
+   "zh": "「嘿，美人！我敢說你想讓我拔出武器讓你瞧瞧……」",
+   "note": "調情語，foxy=有吸引力（對女性玩家）"
+  },
+  {
+   "offset": 153,
+   "len": 43,
+   "en": "\"Hey there! Welcome to our humble caravan!\"",
+   "zh": "「嘿！歡迎來到我們的吉普賽篷車！」",
+   "note": ""
+  },
+  {
+   "offset": 199,
+   "len": 76,
+   "en": "\"You look like a bold warrior - would you like to spar a bit for practice?\" ",
+   "zh": "「你看起來是個大膽的武士——想切磋練習一下嗎？」",
+   "note": "對男性玩家"
+  },
+  {
+   "offset": 285,
+   "len": 66,
+   "en": "\"Ah, I see you couldn't stay away... I have that effect on women.\"",
+   "zh": "「啊，看來你難以抗拒……我對女人向來有這種魔力。」",
+   "note": ""
+  },
+  {
+   "offset": 352,
+   "len": 71,
+   "en": "\"Welcome back, $P. Came for some more of our gypsy hospitality, I see!\"",
+   "zh": "「歡迎回來，$P。看來是來享受更多吉普賽款待的！」",
+   "note": ""
+  },
+  {
+   "offset": 432,
+   "len": 39,
+   "en": "\"I am Andreas, prince of the @gypsies.\"",
+   "zh": "「我是安德烈亞斯，@吉普賽人的王子。」",
+   "note": ""
+  },
+  {
+   "offset": 481,
+   "len": 65,
+   "en": "\"I live the carefree life of a @gypsy, traveling hither and yon.\"",
+   "zh": "「我過著自由自在的@吉普賽生活，走遍四方。」",
+   "note": ""
+  },
+  {
+   "offset": 576,
+   "len": 56,
+   "en": "\"We all have our @talents. I myself happen to have two.\"",
+   "zh": "「我們都有各自的@才能。我剛好有兩項。」",
+   "note": ""
+  },
+  {
+   "offset": 635,
+   "len": 35,
+   "en": "\"I'd be glad to show you sometime!\"",
+   "zh": "「我很樂意找個時候讓你見識！」",
+   "note": ""
+  },
+  {
+   "offset": 686,
+   "len": 85,
+   "en": "\"What, you mean @swordplay? Just ask, and I'll give thee a @lesson you won't forget!\"",
+   "zh": "「什麼，你說@劍術？只管開口，我給汝一堂汝不會忘記的@課！」",
+   "note": ""
+  },
+  {
+   "offset": 782,
+   "len": 107,
+   "en": "\"She practices the world's oldest @profession. I, of course, have perfected it, and thus need no practice.\"",
+   "zh": "「她從事世界上最古老的@職業。而我，當然，已臻完美，無需再練習。」",
+   "note": "關於Wanda"
+  },
+  {
+   "offset": 900,
+   "len": 40,
+   "en": "\"He's my dad - the king of the gypsies!\"",
+   "zh": "「他是我爸——吉普賽人之王！」",
+   "note": "關於Arturos"
+  },
+  {
+   "offset": 950,
+   "len": 75,
+   "en": "\"A map? Aye, @Arturos has some scrap like that. I know nothing more of it.\"",
+   "zh": "「地圖？是啊，@阿圖羅斯有那樣的廢紙。我對此一無所知。」",
+   "note": ""
+  },
+  {
+   "offset": 1092,
+   "len": 32,
+   "en": "\"Would you like to spar a bit?\" ",
+   "zh": "「想切磋一下嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1157,
+   "len": 18,
+   "en": "\"Come again soon.\"",
+   "zh": "「快快再來。」",
+   "note": ""
+  },
+  {
+   "offset": 1192,
+   "len": 52,
+   "en": "\"I hope we get better acquainted when next we meet.\"",
+   "zh": "「希望下次相遇時我們能更加熟識。」",
+   "note": ""
+  },
+  {
+   "offset": 1247,
+   "len": 68,
+   "en": "\"I like your clothes, but I think you'd look better without them...\"",
+   "zh": "「我喜歡你的衣著，但我覺得沒穿的話你會更好看……」",
+   "note": ""
+  },
+  {
+   "offset": 1317,
+   "len": 37,
+   "en": "\"May your travels prove interesting.\"",
+   "zh": "「願你的旅途精彩有趣。」",
+   "note": ""
+  },
+  {
+   "offset": 1419,
+   "len": 47,
+   "en": "\"Oho, so that's what you're after, you naughty ",
+   "zh": "「哦哈，原來你是衝著這個來的，你這個壞",
+   "note": "後接girl/boy"
+  },
+  {
+   "offset": 1470,
+   "len": 4,
+   "en": "girl",
+   "zh": "丫頭",
+   "note": "引擎依性別注入"
+  },
+  {
+   "offset": 1475,
+   "len": 3,
+   "en": "boy",
+   "zh": "小子",
+   "note": "引擎依性別注入"
+  },
+  {
+   "offset": 1479,
+   "len": 2,
+   "en": "!\"",
+   "zh": "！」",
+   "note": ""
+  },
+  {
+   "offset": 1488,
+   "len": 97,
+   "en": "\"For a mere 10 gold pieces, I'll transport you to the heights of ecstasy. Will it be yea or nay?\"",
+   "zh": "「只需區區10枚金幣，我將帶你登上極樂之巔。是允還是拒？」",
+   "note": "成人服務"
+  },
+  {
+   "offset": 1586,
+   "len": 127,
+   "en": "\"Well... Normally I'm more of a ladies' man. But I guess your money is as good as anyone else's. It'll cost you 10 gold, okay?\"",
+   "zh": "「嗯……我通常更喜歡女人。但你的錢和別人一樣好用。10枚金幣，好嗎？」",
+   "note": "對男性玩家"
+  },
+  {
+   "offset": 1724,
+   "len": 74,
+   "en": "A voice in the back of your head asks, \"Do you really have time for this?\"",
+   "zh": "腦後有個聲音問道：「你真的有時間做這個嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1824,
+   "len": 61,
+   "en": "$Y interrupts. \"`$G, I really doubt we have time for this...\"",
+   "zh": "$Y插嘴道：「$G，我真的懷疑我們有沒有時間做這個……」",
+   "note": ""
+  },
+  {
+   "offset": 1898,
+   "len": 107,
+   "en": "\"Don't trouble yourself about that. The art of the @sword and the art of @love are all that really matter.\"",
+   "zh": "「別為此煩惱。@劍術之道與@愛情之道，才是真正重要的事。」",
+   "note": ""
+  },
+  {
+   "offset": 2015,
+   "len": 96,
+   "en": "\"Naturally, when so lovely a lady as yourself comes along, I offer, shall we say, my @services.\"",
+   "zh": "「自然，當如汝這般可人的女子出現，我便提供，姑且稱之為，我的@服務。」",
+   "note": ""
+  },
+  {
+   "offset": 2117,
+   "len": 83,
+   "en": "\"When the opportunity arises, I do what I can to brighten the lives of the ladies.\"",
+   "zh": "「每當機會出現，我盡力為女士們的生活帶來光彩。」",
+   "note": ""
+  },
+  {
+   "offset": 2212,
+   "len": 24,
+   "en": "\"I'll just bet he does!\"",
+   "zh": "「我就知道他是這種人！」",
+   "note": "同伴評語"
+  },
+  {
+   "offset": 2248,
+   "len": 75,
+   "en": "\"Of course, you'd probably be more interested in my sister @Wanda, right?\" ",
+   "zh": "「當然，你大概對我妹妹@汪達更感興趣吧，對嗎？」",
+   "note": "對男性玩家"
+  },
+  {
+   "offset": 2329,
+   "len": 60,
+   "en": "\"Can't say I blame you. In fact, if she wasn't my sister...\"",
+   "zh": "「我不怪你。說真的，如果她不是我妹妹……」",
+   "note": ""
+  },
+  {
+   "offset": 2397,
+   "len": 48,
+   "en": "\"Hmm, wouldn't have figured you for the type...\"",
+   "zh": "「嗯，沒想到你是這種人……」",
+   "note": ""
+  },
+  {
+   "offset": 2452,
+   "len": 33,
+   "en": "\"Well, come on. Yea or nay, $G?\" ",
+   "zh": "「好吧，怎樣。允還是拒，$G？」",
+   "note": ""
+  },
+  {
+   "offset": 2491,
+   "len": 64,
+   "en": "\"As you like. But take my advice--you should live a little now.\"",
+   "zh": "「隨你。但聽我一句——你應該及時行樂。」",
+   "note": ""
+  },
+  {
+   "offset": 2558,
+   "len": 73,
+   "en": "\"That way, you'll have something to remember when you're old and gray...\"",
+   "zh": "「這樣，等你白髮蒼蒼時，才有些可回味的事……」",
+   "note": ""
+  },
+  {
+   "offset": 2649,
+   "len": 60,
+   "en": "\"Hey, you don't have the money! I don't take charity cases.\"",
+   "zh": "「嘿，你沒錢！我不做慈善。」",
+   "note": ""
+  },
+  {
+   "offset": 2749,
+   "len": 42,
+   "en": "The gypsy leads you into a nearby wagon...",
+   "zh": "那吉普賽人帶你進入附近的篷車……",
+   "note": ""
+  },
+  {
+   "offset": 2794,
+   "len": 86,
+   "en": "After a while, you and he wander back to the rest of the caravan, weary but satisfied.",
+   "zh": "過了一會兒，你們漫步回到篷車隊，疲憊但滿足。",
+   "note": ""
+  },
+  {
+   "offset": 2887,
+   "len": 112,
+   "en": "You try to ignore the nagging voice in the back of your head that says you shouldn't have wasted time like that.",
+   "zh": "你試圖無視腦後那個念念叨叨說你不該這樣浪費時間的聲音。",
+   "note": ""
+  },
+  {
+   "offset": 3040,
+   "len": 77,
+   "en": "$Y scowls. \"Well, you've certainly picked a fine one to be carrying on with.\"",
+   "zh": "$Y皺起眉頭。「好吧，你確實找了個好對象鬼混。」",
+   "note": ""
+  },
+  {
+   "offset": 3120,
+   "len": 111,
+   "en": "\"I would remind you that Britannia is under invasion by hordes of gargoyles, but I'd hate to spoil your fun...\"",
+   "zh": "「我想提醒你不列顛尼亞正遭魔像族大舉入侵，但我不想掃你的興……」",
+   "note": ""
+  },
+  {
+   "offset": 3238,
+   "len": 66,
+   "en": "$N laughs. \"'Tis not a crime to give yourself over to pleasure...\"",
+   "zh": "$N笑道：「沉溺於歡愉並非罪過……」",
+   "note": ""
+  },
+  {
+   "offset": 3315,
+   "len": 24,
+   "en": "\"Maybe some other time.\"",
+   "zh": "「也許改日吧。」",
+   "note": ""
+  },
+  {
+   "offset": 3346,
+   "len": 122,
+   "en": "Pulling a couple of sticks from his belt, the gypsy hands you one. You fight with them as if they were swords for a while.",
+   "zh": "那吉普賽人從腰帶拔出兩根短棍，遞給你一根。你們用它們像劍一樣切磋了一會兒。",
+   "note": ""
+  },
+  {
+   "offset": 3471,
+   "len": 123,
+   "en": "After you're finished, he comes over and puts his arm around your shoulder as he gives you a few pointers on fencing style.",
+   "zh": "結束後，他走過來把手搭在你肩上，給你提了幾點劍法建議。",
+   "note": ""
+  },
+  {
+   "offset": 3639,
+   "len": 97,
+   "en": "You're not sure, but you think perhaps you felt a slight tug at the pouch you keep your coins in.",
+   "zh": "你不確定，但你覺得似乎感受到裝錢的袋子被輕輕拉了一下。",
+   "note": ""
+  },
+  {
+   "offset": 3741,
+   "len": 44,
+   "en": "\"Ah yes, you've heard of the silver tablet!\"",
+   "zh": "「啊是的，你聽說過那塊銀板！」",
+   "note": ""
+  },
+  {
+   "offset": 3788,
+   "len": 101,
+   "en": "\"I haven't got it myself, but I can tell you where it is for a price... Shall we say 7 gold pieces?\" ",
+   "zh": "「我自己沒有，但我可以告訴你它在哪裡，當然要收費……就說7枚金幣吧？」",
+   "note": ""
+  },
+  {
+   "offset": 3895,
+   "len": 16,
+   "en": "\"Suit yourself.\"",
+   "zh": "「隨你便。」",
+   "note": ""
+  },
+  {
+   "offset": 3929,
+   "len": 36,
+   "en": "\"Come back when you have the money.\"",
+   "zh": "「等你有錢了再來。」",
+   "note": ""
+  },
+  {
+   "offset": 3997,
+   "len": 85,
+   "en": "\"I overheard a bard in a tavern say that it was somewhere on the Isle of the Avatar.\"",
+   "zh": "「我在酒館偷聽到一個吟遊詩人說它在聖者之島上某處。」",
+   "note": ""
+  },
+  {
+   "offset": 4085,
+   "len": 44,
+   "en": "\"Perhaps @Arturos could tell you precisely.\"",
+   "zh": "「也許@阿圖羅斯能告訴你確切地點。」",
+   "note": ""
+  },
+  {
+   "offset": 4135,
+   "len": 39,
+   "en": "\"Wouldn't you like to be a gypsy too?\" ",
+   "zh": "「你不想也成為吉普賽人嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 4180,
+   "len": 20,
+   "en": "\"The more fool you!\"",
+   "zh": "「那你真是個大傻瓜！」",
+   "note": "對回答「不」者"
+  },
+  {
+   "offset": 4213,
+   "len": 67,
+   "en": "\"You have the carefree spirit, but alas, one must be born a gypsy.\"",
+   "zh": "「你有那種無憂無慮的靈魂，可惜吉普賽人是天生的。」",
+   "note": ""
+  },
+  {
+   "offset": 4282,
+   "len": 71,
+   "en": "\"A fine thing to dream of! But one such as you could never be a gypsy.\"",
+   "zh": "「美好的夢想！但像你這樣的人永遠成不了吉普賽人。」",
+   "note": ""
+  },
+  {
+   "offset": 4359,
+   "len": 46,
+   "en": "\"My mind is willing, but the flesh is weak...\"",
+   "zh": "「心有餘而力不足……」",
+   "note": ""
+  },
+  {
+   "offset": 4408,
+   "len": 51,
+   "en": "\"Come back later, when I've had some time to rest.\"",
+   "zh": "「晚點再來，等我休息過後。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Andreas": "安德烈亞斯"}, "places": {}},
+ "translator_notes": "安德烈亞斯是吉普賽花花公子，提供成人服務。對男女玩家各有不同台詞。口語化，帶調情意味。涉及劍術練習和偷竊暗示。"
+}

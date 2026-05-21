@@ -1,0 +1,295 @@
+{
+  "translations": [
+    {
+      "offset": 7,
+      "len": 28,
+      "en": "a short, barrel-chested man.",
+      "zh": "一位身材矮小、胸廓寬闊的男子。",
+      "note": "DESC"
+    },
+    {
+      "offset": 39,
+      "len": 28,
+      "en": "\"A good $T to thee, Avatar.\"",
+      "zh": "「聖者，$T好。」",
+      "note": ""
+    },
+    {
+      "offset": 73,
+      "len": 34,
+      "en": "\"Anything else can I do for thee?\"",
+      "zh": "「還有什麼吾能為汝效勞的嗎？」",
+      "note": ""
+    },
+    {
+      "offset": 115,
+      "len": 29,
+      "en": "\"I am Dale the @Glassblower.\"",
+      "zh": "「吾是@玻璃工匠戴爾。」",
+      "note": ""
+    },
+    {
+      "offset": 160,
+      "len": 44,
+      "en": "\"I make @glassware, the finest in the land!\"",
+      "zh": "「吾製作@玻璃器皿，全境最精良的！」",
+      "note": ""
+    },
+    {
+      "offset": 215,
+      "len": 64,
+      "en": "\"If you'd like to @buy some of my glassware, just say the word!\"",
+      "zh": "「若汝想@購買吾的玻璃器皿，開口就是了！」",
+      "note": ""
+    },
+    {
+      "offset": 290,
+      "len": 39,
+      "en": "\"Aye, I know how to make glass swords.\"",
+      "zh": "「是的，吾知道如何製作玻璃劍。」",
+      "note": ""
+    },
+    {
+      "offset": 332,
+      "len": 39,
+      "en": "\"But there is little @demand for them.\"",
+      "zh": "「但@需求量不大。」",
+      "note": ""
+    },
+    {
+      "offset": 382,
+      "len": 71,
+      "en": "\"I require five gems for the crafting. This is too expensive for most.\"",
+      "zh": "「製作需要五顆寶石。對大多數人來說太貴了。」",
+      "note": ""
+    },
+    {
+      "offset": 456,
+      "len": 40,
+      "en": "\"Aye, but things of @beauty they are...\"",
+      "zh": "「是的，但它們確實是@美麗的東西……」",
+      "note": ""
+    },
+    {
+      "offset": 507,
+      "len": 48,
+      "en": "\"Thou seemst like a person who appreciates art.\"",
+      "zh": "「汝看起來是個懂得欣賞藝術的人。」",
+      "note": ""
+    },
+    {
+      "offset": 558,
+      "len": 45,
+      "en": "\"I'll make thee one, if thou hast the @gems.\"",
+      "zh": "「若汝有@寶石，吾可以為汝打造一把。」",
+      "note": ""
+    },
+    {
+      "offset": 624,
+      "len": 50,
+      "en": "\"Hmmm...You'd have to see a lensmaker about that.\"",
+      "zh": "「嗯……汝得去找鏡片師詢問那件事。」",
+      "note": "about crystals/lens/telescope"
+    },
+    {
+      "offset": 677,
+      "len": 38,
+      "en": "\"I hear there's one near the Lycaeum.\"",
+      "zh": "「吾聽說學苑附近有一位。」",
+      "note": ""
+    },
+    {
+      "offset": 732,
+      "len": 33,
+      "en": "\"Come to my shop when it's open!\"",
+      "zh": "「吾開店時來光顧！」",
+      "note": ""
+    },
+    {
+      "offset": 790,
+      "len": 33,
+      "en": "\"Come to my shop when it's open!\"",
+      "zh": "「吾開店時來光顧！」",
+      "note": ""
+    },
+    {
+      "offset": 847,
+      "len": 60,
+      "en": "\"Aye, a glass sword needs fine gems to complete its beauty!\"",
+      "zh": "「是的，玻璃劍需要上等寶石來成就其美感！」",
+      "note": ""
+    },
+    {
+      "offset": 924,
+      "len": 20,
+      "en": "\"A fine $T to thee!\"",
+      "zh": "「祝汝$T愉快！」",
+      "note": "bye"
+    },
+    {
+      "offset": 949,
+      "len": 8,
+      "en": "\"Sorry?\"",
+      "zh": "「請問？」",
+      "note": ""
+    },
+    {
+      "offset": 977,
+      "len": 37,
+      "en": "\"Sorry, $Y, you haven't enough gems.\"",
+      "zh": "「抱歉，$Y，汝的寶石不夠。」",
+      "note": ""
+    },
+    {
+      "offset": 1020,
+      "len": 36,
+      "en": "\"Aye, $Y, I see the gems you carry.\"",
+      "zh": "「嗯，$Y，吾看到汝攜帶的寶石了。」",
+      "note": ""
+    },
+    {
+      "offset": 1059,
+      "len": 49,
+      "en": "\"Dost thou wish me to craft thee a glass sword?\" ",
+      "zh": "「汝是否希望吾為汝打造一把玻璃劍？」",
+      "note": ""
+    },
+    {
+      "offset": 1114,
+      "len": 46,
+      "en": "\"It will cost thee 5 gems! Art thou certain?\" ",
+      "zh": "「需要 5 顆寶石！汝確定嗎？」",
+      "note": ""
+    },
+    {
+      "offset": 1168,
+      "len": 56,
+      "en": "\"Hmm,\" he scowls, \"perhaps I was mistaken about thee...\"",
+      "zh": "「嗯，」他皺眉道，「或許吾看錯汝了……」",
+      "note": "action; refused"
+    },
+    {
+      "offset": 1253,
+      "len": 37,
+      "en": "\"But thou cannot carry such a sword!\"",
+      "zh": "「但汝拿不了那樣的劍！」",
+      "note": ""
+    },
+    {
+      "offset": 1309,
+      "len": 54,
+      "en": "$N turns to the furnace and begins crafting the sword.",
+      "zh": "$N 轉向熔爐，開始鍛造這把劍。",
+      "note": "action"
+    },
+    {
+      "offset": 1366,
+      "len": 50,
+      "en": "Soon it is finished, and you marvel at its beauty!",
+      "zh": "不久後大功告成，汝對其美感嘆不已！",
+      "note": "action"
+    },
+    {
+      "offset": 1419,
+      "len": 51,
+      "en": "\"There she is, and a finer work thou'lt never see!\"",
+      "zh": "「大功告成，汝永遠見不到比這更精美的作品了！」",
+      "note": ""
+    },
+    {
+      "offset": 1491,
+      "len": 56,
+      "en": "\"Hmm,\" he scowls, \"perhaps I was mistaken about thee...\"",
+      "zh": "「嗯，」他皺眉道，「或許吾看錯汝了……」",
+      "note": "action"
+    },
+    {
+      "offset": 1634,
+      "len": 16,
+      "en": "\"Which of you?\" ",
+      "zh": "「汝等哪一位？」",
+      "note": ""
+    },
+    {
+      "offset": 1772,
+      "len": 14,
+      "en": "\"Which item?\" ",
+      "zh": "「哪件物品？」",
+      "note": ""
+    },
+    {
+      "offset": 1851,
+      "len": 24,
+      "en": "\"That $1 costs #1 gold.\"",
+      "zh": "「$1 售價 #1 枚金幣。」",
+      "note": ""
+    },
+    {
+      "offset": 1878,
+      "len": 18,
+      "en": "\"Interested, $Y?\" ",
+      "zh": "「有意嗎，$Y？」",
+      "note": ""
+    },
+    {
+      "offset": 1939,
+      "len": 41,
+      "en": "\"But 'twould make thee o'erburdened, $Y!\"",
+      "zh": "「但那會讓汝行李過重，$Y！」",
+      "note": ""
+    },
+    {
+      "offset": 2030,
+      "len": 12,
+      "en": "\"Excellent!\"",
+      "zh": "「甚好！」",
+      "note": ""
+    },
+    {
+      "offset": 2044,
+      "len": 48,
+      "en": "After accepting $Y's gold, $N hands over the $1.",
+      "zh": "收下 $Y 的金幣後，$N 遞出 $1。",
+      "note": ""
+    },
+    {
+      "offset": 2101,
+      "len": 36,
+      "en": "\"But thou hast not enough gold, $Y!\"",
+      "zh": "「但汝的金幣不足，$Y！」",
+      "note": ""
+    },
+    {
+      "offset": 2159,
+      "len": 5,
+      "en": "Glass",
+      "zh": "玻璃",
+      "note": "item"
+    },
+    {
+      "offset": 2165,
+      "len": 3,
+      "en": "Jar",
+      "zh": "罐子",
+      "note": "item"
+    },
+    {
+      "offset": 2169,
+      "len": 6,
+      "en": "Mirror",
+      "zh": "鏡子",
+      "note": "item"
+    }
+  ],
+  "glossary_additions": {
+    "people": {
+      "Dale": "戴爾"
+    },
+    "places": {},
+    "concepts": {
+      "glassblower": "玻璃工匠",
+      "glass sword": "玻璃劍"
+    }
+  },
+  "translator_notes": "戴爾是密諾克的玻璃工匠，可製作玻璃劍（需 5 顆寶石），也出售玻璃、罐子、鏡子。知道學苑附近有鏡片師（暗示 Ephemerides 的望遠鏡任務）。"
+}

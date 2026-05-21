@@ -1,0 +1,262 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 7,
+   "en": "Phoenix",
+   "zh": "鳳凰",
+   "note": "NPC name"
+  },
+  {
+   "offset": 10,
+   "len": 49,
+   "en": "a graceful, silver haired woman in robes of blue.",
+   "zh": "一位優雅、銀髮飄逸、身著藍袍的女子。",
+   "note": "DESC"
+  },
+  {
+   "offset": 62,
+   "len": 46,
+   "en": "She eyes you suspiciously. \"What do you want?\"",
+   "zh": "她狐疑地打量著汝。「汝要什麼？」",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 116,
+   "len": 15,
+   "en": "\"I am Phoenix.\"",
+   "zh": "「吾乃鳳凰。」",
+   "note": ""
+  },
+  {
+   "offset": 147,
+   "len": 44,
+   "en": "\"I used to be captain of the Black @Thechu.\"",
+   "zh": "「吾昔日曾任黑色@特初號的船長。」",
+   "note": ""
+  },
+  {
+   "offset": 194,
+   "len": 77,
+   "en": "\"But now I'm a member of the @thieves @guild, and I don't care who knows it.\"",
+   "zh": "「但吾如今是@盜賊@公會的成員，吾不在乎誰知道。」",
+   "note": ""
+  },
+  {
+   "offset": 274,
+   "len": 131,
+   "en": "\"Britain is the wealthiest city in the world, and I make a tidy living sneaking up there at night to 'liberate' a few possessions.\"",
+   "zh": "「不列顛城是世上最富有的城市，吾靠著夜間潛入那裡『解放』一些財物維持不錯的生計。」",
+   "note": "liberate 加引號諷刺"
+  },
+  {
+   "offset": 408,
+   "len": 81,
+   "en": "\"Of course, I only steal from those who have too much wealth for their own good.\"",
+   "zh": "「當然，吾只取那些積財過甚之人的一二物。」",
+   "note": ""
+  },
+  {
+   "offset": 510,
+   "len": 70,
+   "en": "\"It's an honorable profession, with as long a tradition as any other.\"",
+   "zh": "「此乃光榮之業，傳統悠久，不亞於任何行當。」",
+   "note": ""
+  },
+  {
+   "offset": 601,
+   "len": 68,
+   "en": "\"She was the finest ship that ever sailed. But those days are past.\"",
+   "zh": "「她是曾在海上航行過最出色的船。但那些日子已成過去。」",
+   "note": ""
+  },
+  {
+   "offset": 672,
+   "len": 97,
+   "en": "\"The crew's scattered to the four corners of the earth, and the Thechu's off amongst the @stars.\"",
+   "zh": "「船員四散天涯，特初號已漂入繁@星之間。」",
+   "note": ""
+  },
+  {
+   "offset": 785,
+   "len": 107,
+   "en": "\"We were at port one day when the anchor chain snapped, and the Thechu drifted off the @edge of the world.\"",
+   "zh": "「有一日吾等停靠在港口，錨鏈驟然斷裂，特初號便漂出了世界的@邊緣。」",
+   "note": ""
+  },
+  {
+   "offset": 895,
+   "len": 52,
+   "en": "\"I'd join her if I could, and sail through space...\"",
+   "zh": "「若能如此，吾真想隨她而去，在星海中遨遊……」",
+   "note": ""
+  },
+  {
+   "offset": 978,
+   "len": 57,
+   "en": "\"The world is flat, you know.\" She eyes you appraisingly.",
+   "zh": "「汝知道嗎，世界是平的。」她打量著汝。",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 1038,
+   "len": 57,
+   "en": "\"Surely any well educated person would be aware of that.\"",
+   "zh": "「任何受過良好教育之人皆應曉得此理。」",
+   "note": ""
+  },
+  {
+   "offset": 1106,
+   "len": 30,
+   "en": "\"You want my belt? I'm sorry, ",
+   "zh": "「汝要吾的腰帶？抱歉，",
+   "note": "前半，接 lass 或 laddy"
+  },
+  {
+   "offset": 1148,
+   "len": 5,
+   "en": "laddy",
+   "zh": "小夥子，",
+   "note": "男性版本"
+  },
+  {
+   "offset": 1143,
+   "len": 4,
+   "en": "lass",
+   "zh": "姑娘，",
+   "note": "女性版本"
+  },
+  {
+   "offset": 1154,
+   "len": 41,
+   "en": ", but I'm not ready to @retire just yet.\"",
+   "zh": "吾尚未準備好@退休。」",
+   "note": "後半"
+  },
+  {
+   "offset": 1206,
+   "len": 57,
+   "en": "\"No way! I'm making too good a living to give it up now.\"",
+   "zh": "「不行！吾現在賺得正好，豈有放棄之理。」",
+   "note": ""
+  },
+  {
+   "offset": 1266,
+   "len": 80,
+   "en": "\"If you want to get my belt, use your @wits. Prove you're worthy to replace me.\"",
+   "zh": "「若想得吾的腰帶，就用汝的@機智。證明汝有資格取代吾。」",
+   "note": ""
+  },
+  {
+   "offset": 1371,
+   "len": 25,
+   "en": "\"Figure it out yourself.\"",
+   "zh": "「自己想辦法。」",
+   "note": ""
+  },
+  {
+   "offset": 1404,
+   "len": 59,
+   "en": "\"If you want to join the guild, go talk to @Budo about it.\"",
+   "zh": "「若想加入公會，去找@布多談談。」",
+   "note": ""
+  },
+  {
+   "offset": 1474,
+   "len": 31,
+   "en": "\"He lives in Buccaneer's @Den.\"",
+   "zh": "「他住在海盜@巢穴。」",
+   "note": ""
+  },
+  {
+   "offset": 1508,
+   "len": 80,
+   "en": "\"These tunnels can take you there - unless you get lost, or the rats get you...\"",
+   "zh": "「這些地道可帶汝過去——除非汝迷了路，或被老鼠解決了……」",
+   "note": ""
+  },
+  {
+   "offset": 1603,
+   "len": 54,
+   "en": "\"The rumors of @pirates there are just idle @chatter.\"",
+   "zh": "「那邊有@海盜的傳言不過是些閒@話。」",
+   "note": ""
+  },
+  {
+   "offset": 1660,
+   "len": 75,
+   "en": "She smiles. \"I haven't been there in a while. It's a lovely little town...\"",
+   "zh": "她微微一笑。「吾好一陣子沒去了。那是個可愛的小城……」",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 1746,
+   "len": 88,
+   "en": "\"I don't know about you, but some of us have more important things to do with our time.\"",
+   "zh": "「吾不知汝怎麼想，但吾等有些人還有更重要的事要做。」",
+   "note": ""
+  },
+  {
+   "offset": 1845,
+   "len": 55,
+   "en": "\"Pirates? I'm sure I wouldn't know a thing about them.\"",
+   "zh": "「海盜？吾可不認識任何海盜。」",
+   "note": ""
+  },
+  {
+   "offset": 1910,
+   "len": 83,
+   "en": "\"About time you were on your way. One thing before you go...\" She draws her dagger.",
+   "zh": "「汝也該上路了。走之前有一件事……」她拔出匕首。",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 1996,
+   "len": 106,
+   "en": "\"Don't tell anyone where my hideout is. If you do, some night you'll go to sleep and never wake up again.\"",
+   "zh": "「不准告訴任何人吾藏身處在哪。若是說了，某日夜裡汝睡著就再也醒不來了。」",
+   "note": ""
+  },
+  {
+   "offset": 2105,
+   "len": 37,
+   "en": "\"You'll never know when it's coming.\"",
+   "zh": "「汝永遠不知道那一刻何時到來。」",
+   "note": ""
+  },
+  {
+   "offset": 2144,
+   "len": 121,
+   "en": "*She turns and throws the dagger at a little mouse that was sniffing around for food, pinning it to the wall by its tail.",
+   "zh": "*她轉身將匕首擲向一隻正在嗅食物的小老鼠，將牠的尾巴釘在牆上。",
+   "note": "* 控制符保留，雪莉出場"
+  },
+  {
+   "offset": 2276,
+   "len": 104,
+   "en": "\"Eeeeek!\" Sherry runs up your leg, and it takes several minutes before you can coax her back down again.",
+   "zh": "「吱吱吱！」雪莉沿著你的腿往上竄，你費了好幾分鐘才把她哄下來。",
+   "note": "旁白，雪莉為隊伍中的老鼠"
+  },
+  {
+   "offset": 2387,
+   "len": 93,
+   "en": "\"I haven't got all day to stand around talking. Get to the point, or go bother someone else.\"",
+   "zh": "「吾沒有整天時間站在這裡說話。說重點，否則去煩別人。」",
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {
+   "Phoenix": "鳳凰",
+   "Budo": "布多",
+   "Sherry": "雪莉"
+  },
+  "places": {
+   "Black Thechu": "黑色特初號"
+  }
+ },
+ "riddles_additions": [],
+ "translator_notes": "鳳凰是銀髮前船長兼盜賊公會成員，語氣冷峻強悍，帶自信的諷刺感。黑色特初號錨鏈斷裂漂出世界邊緣一幕是本作設定中「世界是平的」的具體呈現。離場時的匕首示威（射中雪莉老鼠的尾巴）是全遊戲最具衝擊性的場景之一。laddy/lass 依玩家性別分版本。"
+}

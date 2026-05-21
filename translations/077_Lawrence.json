@@ -1,0 +1,174 @@
+{
+ "translations": [
+  {
+   "offset": 11,
+   "len": 27,
+   "en": "a small, fussy looking man.",
+   "zh": "身材矮小、神情挑剔之男子。",
+   "note": "DESC"
+  },
+  {
+   "offset": 48,
+   "len": 37,
+   "en": "\"Welcome to the Fool's Pair o' Dice.\"",
+   "zh": "「歡迎光臨『愚人雙骰』客棧。」",
+   "note": "Fool's Pair o' Dice 酒館名"
+  },
+  {
+   "offset": 91,
+   "len": 33,
+   "en": "\"Anything else I can do for you?\"",
+   "zh": "「還有什麼需要效勞的？」",
+   "note": ""
+  },
+  {
+   "offset": 132,
+   "len": 16,
+   "en": "\"It's Lawrence.\"",
+   "zh": "「在下勞倫斯。」",
+   "note": ""
+  },
+  {
+   "offset": 164,
+   "len": 50,
+   "en": "\"Which, @grapes, @ale, @mead, @wine, or @rations?\"",
+   "zh": "「要@葡萄、@麥酒、@蜜酒、@葡萄酒，還是@乾糧？」",
+   "note": ""
+  },
+  {
+   "offset": 224,
+   "len": 51,
+   "en": "\"I sell @grapes, @ale, @mead, @wine, and @rations.\"",
+   "zh": "「在下售有@葡萄、@麥酒、@蜜酒、@葡萄酒及@乾糧。」",
+   "note": ""
+  },
+  {
+   "offset": 363,
+   "len": 10,
+   "en": "\"Goodbye.\"",
+   "zh": "「再見。」",
+   "note": ""
+  },
+  {
+   "offset": 378,
+   "len": 29,
+   "en": "\"I can't help you with that.\"",
+   "zh": "「此事在下愛莫能助。」",
+   "note": ""
+  },
+  {
+   "offset": 497,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪位？」",
+   "note": ""
+  },
+  {
+   "offset": 579,
+   "len": 24,
+   "en": "\"That's #1 gold, okay?\" ",
+   "zh": "「共#1枚金幣，可好？」",
+   "note": ""
+  },
+  {
+   "offset": 640,
+   "len": 36,
+   "en": "\"Come back when you have some gold.\"",
+   "zh": "「等有了金幣再來吧。」",
+   "note": ""
+  },
+  {
+   "offset": 707,
+   "len": 34,
+   "en": "\"You don't have room to carry it.\"",
+   "zh": "「汝已無空間可攜帶。」",
+   "note": ""
+  },
+  {
+   "offset": 838,
+   "len": 25,
+   "en": "\"That ought to hold you.\"",
+   "zh": "「這該夠用了。」",
+   "note": ""
+  },
+  {
+   "offset": 961,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪位？」",
+   "note": ""
+  },
+  {
+   "offset": 1030,
+   "len": 27,
+   "en": "\"That'll be 3 gold, okay?\" ",
+   "zh": "「共3枚金幣，可好？」",
+   "note": ""
+  },
+  {
+   "offset": 1073,
+   "len": 36,
+   "en": "\"Come back when you have some gold.\"",
+   "zh": "「等有了金幣再來吧。」",
+   "note": ""
+  },
+  {
+   "offset": 1134,
+   "len": 36,
+   "en": "\"You don't have room to carry them.\"",
+   "zh": "「汝已無空間可攜帶。」",
+   "note": ""
+  },
+  {
+   "offset": 1443,
+   "len": 51,
+   "en": "\"Rations are 4 gold apiece. How many do you want?\" ",
+   "zh": "「乾糧每份4枚金幣，汝要幾份？」",
+   "note": ""
+  },
+  {
+   "offset": 1664,
+   "len": 52,
+   "en": "$N looks at $Y. \"You haven't any room in your pack.\"",
+   "zh": "$N看向$Y。「汝的背包已無空間了。」",
+   "note": ""
+  },
+  {
+   "offset": 1732,
+   "len": 36,
+   "en": "\"Come back when you have some gold.\"",
+   "zh": "「等有了金幣再來吧。」",
+   "note": ""
+  },
+  {
+   "offset": 1855,
+   "len": 34,
+   "en": "He hands $Y #9 ration\\s of mutton.",
+   "zh": "他將#9份羊肉乾糧交予$Y。",
+   "note": ""
+  },
+  {
+   "offset": 1896,
+   "len": 27,
+   "en": "\"That's all you can carry.\"",
+   "zh": "「這已是汝能攜帶的上限了。」",
+   "note": ""
+  },
+  {
+   "offset": 1931,
+   "len": 28,
+   "en": "\"That's all you can afford.\"",
+   "zh": "「這已是汝能負擔的上限了。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Lawrence": "勞倫斯"
+  },
+  "places": {
+   "Fool's Pair o' Dice": "愚人雙骰"
+  }
+ },
+ "translator_notes": "077 Lawrence: 崔西克食品雜貨商。交易用語統一。$N/$Y/#N變數保留。"
+}

@@ -1,0 +1,230 @@
+{
+ "translations": [
+  {
+   "offset": 9,
+   "len": 51,
+   "en": "a dark, bearded man dressed in flowing white robes.",
+   "zh": "身穿白袍、蓄著鬍鬚的黝黑男子。",
+   "note": "DESC"
+  },
+  {
+   "offset": 64,
+   "len": 64,
+   "en": "\"Greetings, mighty Avatar. For what hast thou come to my place?\"",
+   "zh": "「問候，偉大的聖者。汝前來敝處，所為何事？」",
+   "note": ""
+  },
+  {
+   "offset": 178,
+   "len": 14,
+   "en": "\"I am Rudyom.\"",
+   "zh": "「吾乃魯迪奧姆。」",
+   "note": ""
+  },
+  {
+   "offset": 208,
+   "len": 55,
+   "en": "\"I sell magic @books and @reagents, and teach @spells.\"",
+   "zh": "「吾販售魔法@書卷及@施法材料，並傳授@法術。」",
+   "note": ""
+  },
+  {
+   "offset": 273,
+   "len": 32,
+   "en": "\"May peace follow thee, Avatar.\"",
+   "zh": "「願平安伴隨汝，聖者。」",
+   "note": ""
+  },
+  {
+   "offset": 310,
+   "len": 29,
+   "en": "\"Of that I will say nothing.\"",
+   "zh": "「此事吾無可奉告。」",
+   "note": ""
+  },
+  {
+   "offset": 352,
+   "len": 30,
+   "en": "\"My shop is closed right now.\"",
+   "zh": "「店鋪目前關閉。」",
+   "note": ""
+  },
+  {
+   "offset": 447,
+   "len": 33,
+   "en": "\"But thou hast not a spell@book!\"",
+   "zh": "「但汝尚無法術@書卷！」",
+   "note": ""
+  },
+  {
+   "offset": 607,
+   "len": 35,
+   "en": "\"But none of you has a spell@book!\"",
+   "zh": "「但你們沒有一人持有法術@書卷！」",
+   "note": ""
+  },
+  {
+   "offset": 679,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪位？」",
+   "note": ""
+  },
+  {
+   "offset": 811,
+   "len": 41,
+   "en": "\"In which Circle does $Y wish to study?\" ",
+   "zh": "「$Y希望習學第幾階法術？」",
+   "note": ""
+  },
+  {
+   "offset": 875,
+   "len": 51,
+   "en": "\"As everybody knows, there are only eight circles.\"",
+   "zh": "「眾所周知，法術共有八階。」",
+   "note": ""
+  },
+  {
+   "offset": 942,
+   "len": 52,
+   "en": "\"I sense that $Y is only ready for the #1$1 Circle.\"",
+   "zh": "「吾感知到$Y目前只宜修習第#1$1階。」",
+   "note": ""
+  },
+  {
+   "offset": 997,
+   "len": 40,
+   "en": "\"But such matters are not my concern...\"",
+   "zh": "「但此類事吾不置喙……」",
+   "note": ""
+  },
+  {
+   "offset": 1075,
+   "len": 34,
+   "en": "\"I have no spells of that circle.\"",
+   "zh": "「吾無此階法術。」",
+   "note": ""
+  },
+  {
+   "offset": 1187,
+   "len": 18,
+   "en": "\"Which of these?\" ",
+   "zh": "「要哪一項？」",
+   "note": ""
+  },
+  {
+   "offset": 1221,
+   "len": 42,
+   "en": "\"Perhaps $Y is not ready for this circle.\"",
+   "zh": "「或許$Y尚未準備好修習此階。」",
+   "note": ""
+  },
+  {
+   "offset": 1305,
+   "len": 32,
+   "en": "\"$Y lacks the #5 gold required.\"",
+   "zh": "「$Y金幣不足，需#5枚。」",
+   "note": ""
+  },
+  {
+   "offset": 1346,
+   "len": 40,
+   "en": "\"That spell costs #5 gold. Interested?\" ",
+   "zh": "「此法術需#5枚金幣。有意嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1392,
+   "len": 46,
+   "en": "$N hands $Y a piece of rune-covered parchment.",
+   "zh": "$N遞給$Y一張佈滿符文的羊皮紙。",
+   "note": ""
+  },
+  {
+   "offset": 1826,
+   "len": 26,
+   "en": "\"$1 costs #1 per portion.\"",
+   "zh": "「$1每份#1枚金幣。」",
+   "note": ""
+  },
+  {
+   "offset": 1855,
+   "len": 27,
+   "en": "\"How many dost thou want?\" ",
+   "zh": "「汝要幾份？」",
+   "note": ""
+  },
+  {
+   "offset": 2047,
+   "len": 30,
+   "en": "\"Thou cannot carry that much!\"",
+   "zh": "「汝帶不了那麼多！」",
+   "note": ""
+  },
+  {
+   "offset": 2080,
+   "len": 49,
+   "en": "\"I'll give thee #5; thou dost not need the rest.\"",
+   "zh": "「吾給汝#5份；其餘的汝不需要。」",
+   "note": ""
+  },
+  {
+   "offset": 2138,
+   "len": 27,
+   "en": "\"Thou cannot carry any $1!\"",
+   "zh": "「汝帶不了任何$1！」",
+   "note": ""
+  },
+  {
+   "offset": 2178,
+   "len": 31,
+   "en": "\"Thou cannot afford that much!\"",
+   "zh": "「汝負擔不起那麼多！」",
+   "note": ""
+  },
+  {
+   "offset": 2212,
+   "len": 47,
+   "en": "\"I'll give thee #5; thou cannot have the rest.\"",
+   "zh": "「吾給汝#5份；其餘的汝買不起。」",
+   "note": ""
+  },
+  {
+   "offset": 2268,
+   "len": 28,
+   "en": "\"Thou cannot afford any $1!\"",
+   "zh": "「汝買不起任何$1！」",
+   "note": ""
+  },
+  {
+   "offset": 2506,
+   "len": 36,
+   "en": "\"But thou cannot carry a spellbook!\"",
+   "zh": "「但汝帶不了法術書卷！」",
+   "note": ""
+  },
+  {
+   "offset": 2558,
+   "len": 37,
+   "en": "\"But thou cannot afford a spellbook!\"",
+   "zh": "「但汝買不起法術書卷！」",
+   "note": ""
+  },
+  {
+   "offset": 2601,
+   "len": 48,
+   "en": "\"A spellbook costs 50 gold pieces. Interested?\" ",
+   "zh": "「法術書卷需50枚金幣。有意嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 2693,
+   "len": 34,
+   "en": "\"Perhaps one of thy friends then.\"",
+   "zh": "「也許汝的同伴中有人感興趣。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Rudyom": "魯迪奧姆"}, "places": {}},
+ "translator_notes": "Rudyom 魔法商人，說話用 thou/thee 古體。商品名（Blood Moss、Garlic 等施法材料；Create Food 等法術名）為系統字串不在對話流程，略。"
+}

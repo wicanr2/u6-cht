@@ -1,0 +1,258 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 9,
+   "en": "Caretaker",
+   "zh": "守藏者",
+   "note": "NPC name — 魔像守藏官"
+  },
+  {
+   "offset": 12,
+   "len": 86,
+   "en": "an old, winged gargoyle. An odd device crafted of glass and metal rests upon his face.",
+   "zh": "年邁之有翼魔像，臉上架著一具以玻璃與金屬製成的奇特裝置。",
+   "note": "DESC — 即眼鏡"
+  },
+  {
+   "offset": 108,
+   "len": 47,
+   "en": "The gargoyle ignores you and continues writing.",
+   "zh": "魔像無視你，繼續書寫。",
+   "note": "旁白"
+  },
+  {
+   "offset": 158,
+   "len": 38,
+   "en": "\"Yes? To inquire about the reason for ",
+   "zh": "「什麼事？欲問此番",
+   "note": "前半段"
+  },
+  {
+   "offset": 202,
+   "len": 12,
+   "en": "yet another ",
+   "zh": "又一次",
+   "note": ""
+  },
+  {
+   "offset": 215,
+   "len": 5,
+   "en": "this ",
+   "zh": "此番",
+   "note": ""
+  },
+  {
+   "offset": 227,
+   "len": 14,
+   "en": "interruption.\"",
+   "zh": "打擾之緣由？」",
+   "note": "後半段"
+  },
+  {
+   "offset": 254,
+   "len": 40,
+   "en": "\"To suppose that you are making a joke.\"",
+   "zh": "「以為汝在說笑。」",
+   "note": ""
+  },
+  {
+   "offset": 297,
+   "len": 75,
+   "en": "\"To know as well as you that you took the Codex to your side of the world!\"",
+   "zh": "「汝亦知之，汝等已將守則之書帶往人類那一側的世界！」",
+   "note": ""
+  },
+  {
+   "offset": 388,
+   "len": 23,
+   "en": "\"To not be a signpost!\"",
+   "zh": "「吾非路牌！」",
+   "note": "不耐煩的簡短回答"
+  },
+  {
+   "offset": 414,
+   "len": 84,
+   "en": "\"To find the Temple of Singularity in the mountains to the north - if you can @fly!\"",
+   "zh": "「獨身者神殿在北方山中——前提是汝能@fly飛翔！」",
+   "note": ""
+  },
+  {
+   "offset": 508,
+   "len": 74,
+   "en": "\"To be unable to reach the mountain-locked Temple of Singularity on foot.\"",
+   "zh": "「徒步無法抵達深鎖於山中的獨身者神殿。」",
+   "note": ""
+  },
+  {
+   "offset": 585,
+   "len": 72,
+   "en": "\"To only be able to reach that holy place if you are a winged gargoyle.\"",
+   "zh": "「唯有翼魔像方能抵達該聖地。」",
+   "note": ""
+  },
+  {
+   "offset": 660,
+   "len": 39,
+   "en": "\"To find this most fitting and proper.\"",
+   "zh": "「吾認為此乃最為適切之安排。」",
+   "note": ""
+  },
+  {
+   "offset": 702,
+   "len": 58,
+   "en": "\"To see no reason to let human riff-raff into the Temple.\"",
+   "zh": "「吾不見任何理由讓人類烏合之眾進入神殿。」",
+   "note": ""
+  },
+  {
+   "offset": 771,
+   "len": 47,
+   "en": "\"To find what you seek in the @Vortex Chamber.\"",
+   "zh": "「汝所求之物在@Vortex渦旋之室。」",
+   "note": ""
+  },
+  {
+   "offset": 834,
+   "len": 47,
+   "en": "\"To find what you seek in the @Librum Chamber.\"",
+   "zh": "「汝所求之物在@Librum典籍之室。」",
+   "note": ""
+  },
+  {
+   "offset": 892,
+   "len": 70,
+   "en": "\"To regret that that item is lost, stolen by human thieves years ago.\"",
+   "zh": "「可嘆此物已失，多年前遭人類竊賊盜走。」",
+   "note": ""
+  },
+  {
+   "offset": 965,
+   "len": 68,
+   "en": "\"To have heard the humans mention the name @Stonegate as they fled.\"",
+   "zh": "「曾聞逃走的人類提及@Stonegate石門之名。」",
+   "note": ""
+  },
+  {
+   "offset": 1036,
+   "len": 63,
+   "en": "\"To have heard them say they would sail through Lost Hope Bay.\"",
+   "zh": "「曾聞其言將乘船穿越絕望灣。」",
+   "note": ""
+  },
+  {
+   "offset": 1102,
+   "len": 45,
+   "en": "\"To know nothing more about its whereabouts.\"",
+   "zh": "「對其下落，吾一無所知。」",
+   "note": ""
+  },
+  {
+   "offset": 1158,
+   "len": 62,
+   "en": "\"To admit ignorance regarding the location of the moonstones.\"",
+   "zh": "「對月光石之所在，吾坦承不知。」",
+   "note": ""
+  },
+  {
+   "offset": 1236,
+   "len": 63,
+   "en": "\"To suspect it to be someplace in the human-filled Underworld.\"",
+   "zh": "「吾料其在充滿人類的幽冥界某處。」",
+   "note": ""
+  },
+  {
+   "offset": 1310,
+   "len": 48,
+   "en": "\"To be called the Caretaker, in lieu of a name.\"",
+   "zh": "「吾以守藏者之稱代替真名。」",
+   "note": ""
+  },
+  {
+   "offset": 1361,
+   "len": 82,
+   "en": "\"To be honored by being allowed to perform my @duties as caretaker of this @Hall.\"",
+   "zh": "「能在此@Hall殿中盡守藏@duties職責，深感榮幸。」",
+   "note": ""
+  },
+  {
+   "offset": 1462,
+   "len": 75,
+   "en": "\"To care for my race's artifacts that rest here in the @Hall of Knowledge.\"",
+   "zh": "「守護吾族典藏於@Hall智識之殿的珍寶文物。」",
+   "note": ""
+  },
+  {
+   "offset": 1553,
+   "len": 88,
+   "en": "\"To keep the treasured artifacts of our race here in this Hall, in the three @chambers.\"",
+   "zh": "「將吾族珍貴文物置於此殿三@chambers廳室之中。」",
+   "note": ""
+  },
+  {
+   "offset": 1667,
+   "len": 27,
+   "en": "\"To have three rooms here:\"",
+   "zh": "「此殿共有三室：」",
+   "note": ""
+  },
+  {
+   "offset": 1697,
+   "len": 75,
+   "en": "\"To keep artifacts from the @Underworld in the Human Chamber, to the east.\"",
+   "zh": "「東側人類之室存放來自@Underworld幽冥界的文物。」",
+   "note": ""
+  },
+  {
+   "offset": 1775,
+   "len": 60,
+   "en": "\"To keep valuable books in the Librum Chamber, to the west.\"",
+   "zh": "「西側典籍之室存放珍貴典籍。」",
+   "note": ""
+  },
+  {
+   "offset": 1838,
+   "len": 74,
+   "en": "\"And to keep the @Cube and the @Lens in the Vortex Chamber, to the south.\"",
+   "zh": "「南側渦旋之室存放@Cube渦旋立方體與@Lens渦旋透鏡。」",
+   "note": ""
+  },
+  {
+   "offset": 1924,
+   "len": 61,
+   "en": "\"Yes, the Underworld. To believe you know it as 'Britannia.'\"",
+   "zh": "「是的，幽冥界。吾料汝等稱之為『不列顛尼亞』。」",
+   "note": "gargoyle 視角：不列顛尼亞=幽冥界"
+  },
+  {
+   "offset": 1995,
+   "len": 55,
+   "en": "Without another word, the gargoyle returns to his work.",
+   "zh": "魔像一言不發，繼續低頭工作。",
+   "note": "旁白"
+  },
+  {
+   "offset": 2055,
+   "len": 36,
+   "en": "\"To lack any time for idle chatter.\"",
+   "zh": "「吾無暇閒聊。」",
+   "note": ""
+  },
+  {
+   "offset": 2094,
+   "len": 52,
+   "en": "\"To desire you to get to the point and then depart.\"",
+   "zh": "「請直說正事，然後離去。」",
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {},
+  "places": {
+   "Lost Hope Bay": "絕望灣"
+  }
+ },
+ "riddles_additions": [],
+ "translator_notes": "守藏者為學究型老魔像，不耐煩人類打擾，語氣傲慢簡短。魔像To+動詞語法一律譯為文言。其視角中不列顛尼亞=幽冥界，此為魔像族世界觀重要設定。"
+}

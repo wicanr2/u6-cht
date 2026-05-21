@@ -1,0 +1,280 @@
+{
+  "translations": [
+    {
+      "offset": 11,
+      "len": 60,
+      "en": "an old man, tall and thin. He spends all his time whittling.",
+      "zh": "一位高瘦的老人，整天都在削木雕刻。",
+      "note": "DESC"
+    },
+    {
+      "offset": 90,
+      "len": 37,
+      "en": "\"Good $T, $G. Done with the key yet?\"",
+      "zh": "「$G，$T好。鑰匙用完了嗎？」",
+      "note": "repeat greeting when key is out"
+    },
+    {
+      "offset": 151,
+      "len": 20,
+      "en": "\"Well, where is it?\"",
+      "zh": "「那麼，在哪裡？」",
+      "note": ""
+    },
+    {
+      "offset": 174,
+      "len": 29,
+      "en": "\"Well, that does me no good.\"",
+      "zh": "「那對俺沒用。」",
+      "note": ""
+    },
+    {
+      "offset": 206,
+      "len": 15,
+      "en": "\"Need it here.\"",
+      "zh": "「鑰匙得在這裡。」",
+      "note": ""
+    },
+    {
+      "offset": 224,
+      "len": 56,
+      "en": "Without another word, the jailer returns to his carving.",
+      "zh": "獄卒一言不發，繼續他的雕刻。",
+      "note": "action"
+    },
+    {
+      "offset": 296,
+      "len": 61,
+      "en": "\"Much obliged,\" the taciturn jailer says as he takes the key.",
+      "zh": "「承情了，」寡言的獄卒說著，接過鑰匙。",
+      "note": "action"
+    },
+    {
+      "offset": 374,
+      "len": 41,
+      "en": "\"Well, bring it back to me when you are.\"",
+      "zh": "「那就用完後還給俺。」",
+      "note": ""
+    },
+    {
+      "offset": 418,
+      "len": 56,
+      "en": "Without another word, the jailer returns to his carving.",
+      "zh": "獄卒一言不發，繼續他的雕刻。",
+      "note": "action"
+    },
+    {
+      "offset": 476,
+      "len": 37,
+      "en": "\"Good $T, $G. What can I do for you?\"",
+      "zh": "「$G，$T好。俺能為汝做什麼？」",
+      "note": ""
+    },
+    {
+      "offset": 526,
+      "len": 38,
+      "en": "\"He's in @solitary, right over there.\"",
+      "zh": "「他關在@單獨禁閉室，就在那邊。」",
+      "note": ""
+    },
+    {
+      "offset": 599,
+      "len": 38,
+      "en": "\"You'll need my @key to get in there.\"",
+      "zh": "「汝需要俺的@鑰匙才能進去。」",
+      "note": ""
+    },
+    {
+      "offset": 662,
+      "len": 35,
+      "en": "\"Yup, I could give you the key....\"",
+      "zh": "「嗯，俺可以把鑰匙給汝……」",
+      "note": ""
+    },
+    {
+      "offset": 700,
+      "len": 45,
+      "en": "\"But not without Her Ladyship's @permission.\"",
+      "zh": "「但沒有女市長大人的@許可，俺不能給。」",
+      "note": ""
+    },
+    {
+      "offset": 827,
+      "len": 18,
+      "en": "\"Name's Pridgarm.\"",
+      "zh": "「俺叫普里德加姆。」",
+      "note": ""
+    },
+    {
+      "offset": 861,
+      "len": 19,
+      "en": "\"I mind the @jail.\"",
+      "zh": "「俺看管@監牢。」",
+      "note": ""
+    },
+    {
+      "offset": 883,
+      "len": 41,
+      "en": "\"Got a @prisoner in @solitary right now.\"",
+      "zh": "「現在關著一個@囚犯在@單獨禁閉室。」",
+      "note": ""
+    },
+    {
+      "offset": 935,
+      "len": 52,
+      "en": "\"Got four of the cleanest @cells you could ask fer.\"",
+      "zh": "「俺這裡有四間最整潔的@牢房，保證滿意。」",
+      "note": ""
+    },
+    {
+      "offset": 1009,
+      "len": 63,
+      "en": "\"Feller broke into the @grave of His Lordship, the late Mayor.\"",
+      "zh": "「那傢伙闖入了前任市長大人的@墓穴。」",
+      "note": ""
+    },
+    {
+      "offset": 1141,
+      "len": 80,
+      "en": "\"'Taint my place to talk about that. You should go see Her Ladyship, the Mayor.\"",
+      "zh": "「那不是俺該說的。汝應該去見女市長大人。」",
+      "note": ""
+    },
+    {
+      "offset": 1231,
+      "len": 30,
+      "en": "The jailer nods and says \"$T.\"",
+      "zh": "獄卒點點頭說「$T好。」",
+      "note": "bye action"
+    },
+    {
+      "offset": 1273,
+      "len": 32,
+      "en": "\"Don't know nothing about that.\"",
+      "zh": "「俺對那事一無所知。」",
+      "note": ""
+    },
+    {
+      "offset": 1306,
+      "len": 49,
+      "en": "The old man simply shrugs and keeps on whittling.",
+      "zh": "老人只是聳聳肩，繼續削木雕刻。",
+      "note": "action"
+    },
+    {
+      "offset": 1362,
+      "len": 52,
+      "en": "\"You got a letter of permission from Her Ladyship?\" ",
+      "zh": "「汝有女市長大人的許可信函嗎？」",
+      "note": ""
+    },
+    {
+      "offset": 1438,
+      "len": 51,
+      "en": "\"Gotta have a letter if you want to see the thief.\"",
+      "zh": "「要見那個盜賊，得有信函才行。」",
+      "note": ""
+    },
+    {
+      "offset": 1490,
+      "len": 23,
+      "en": "\"Okay, here's the key.\"",
+      "zh": "「好，鑰匙給汝。」",
+      "note": ""
+    },
+    {
+      "offset": 1516,
+      "len": 32,
+      "en": "\"Give it back when you're done.\"",
+      "zh": "「用完歸還給俺。」",
+      "note": ""
+    },
+    {
+      "offset": 1594,
+      "len": 57,
+      "en": "\"Well, gotta have a letter if you want to see the thief.\"",
+      "zh": "「嗯，要見那個盜賊，得有信函才行。」",
+      "note": ""
+    },
+    {
+      "offset": 1657,
+      "len": 27,
+      "en": "\"You offering me a bribe?\" ",
+      "zh": "「汝是在賄賂俺？」",
+      "note": ""
+    },
+    {
+      "offset": 1690,
+      "len": 23,
+      "en": "He thinks for a moment.",
+      "zh": "他想了一會兒。",
+      "note": "action"
+    },
+    {
+      "offset": 1716,
+      "len": 30,
+      "en": "\"Nope. Sorry, not interested.\"",
+      "zh": "「不行。抱歉，俺沒興趣。」",
+      "note": ""
+    },
+    {
+      "offset": 1754,
+      "len": 42,
+      "en": "\"Pity. Never been offered a bribe before.\"",
+      "zh": "「可惜。俺從沒被人行賄過。」",
+      "note": ""
+    },
+    {
+      "offset": 1802,
+      "len": 53,
+      "en": "\"Say, you looking to get the keys to my jail cells?\" ",
+      "zh": "「說說看，汝是想拿俺牢房的鑰匙？」",
+      "note": "hidden bribe route"
+    },
+    {
+      "offset": 1861,
+      "len": 83,
+      "en": "\"Okay. Never had nobody sound so interested in jest hearing about the jail before.\"",
+      "zh": "「好吧。還沒人對聽俺說監牢的事這麼感興趣過。」",
+      "note": ""
+    },
+    {
+      "offset": 1951,
+      "len": 38,
+      "en": "\"Well, ya know, I shouldn't do this.\"*",
+      "zh": "「嗯，汝知道，俺不該這樣做。」*",
+      "note": ""
+    },
+    {
+      "offset": 1991,
+      "len": 70,
+      "en": "\"But Her Ladyship is a little too strict about who she puts in here.\"*",
+      "zh": "「但女市長大人在關人這件事上管得有點太嚴了。」*",
+      "note": ""
+    },
+    {
+      "offset": 2063,
+      "len": 88,
+      "en": "\"So I make up fer it by being a little careless with the keys, if you take my meaning.\"*",
+      "zh": "「所以俺就在鑰匙管理上馬虎一點來補償，汝明白俺的意思吧。」*",
+      "note": ""
+    },
+    {
+      "offset": 2153,
+      "len": 52,
+      "en": "He tosses you some keys, then turns his back on you.",
+      "zh": "他向汝扔了幾把鑰匙，然後轉過身去。",
+      "note": "action"
+    }
+  ],
+  "glossary_additions": {
+    "people": {
+      "Pridgarm": "普里德加姆"
+    },
+    "places": {},
+    "concepts": {
+      "solitary": "單獨禁閉室"
+    }
+  },
+  "translator_notes": "普里德加姆是尤城監牢的寡言獄卒，整天在削木頭。說話用「俺」，語氣簡短務實。沒有許可信函不給鑰匙，但實際上是個心軟的人，暗示可以藉馬虎管理鑰匙來幫忙。"
+}

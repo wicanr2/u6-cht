@@ -1,0 +1,414 @@
+{
+  "translations": [
+    {
+      "offset": 15,
+      "len": 69,
+      "en": "a solemn man, constantly dusting and polishing the items in his shop.",
+      "zh": "一位嚴肅之男子，不停地擦拭店內各件物品。",
+      "note": "DESC"
+    },
+    {
+      "offset": 100,
+      "len": 81,
+      "en": "The old man never turns away from his telescope. \"Shhh! Can't you see I'm busy?!\"",
+      "zh": "老人目不離望遠鏡。「噓！看不出來吾正忙著嗎？！」",
+      "note": "action + speech"
+    },
+    {
+      "offset": 184,
+      "len": 44,
+      "en": "\"Whoever you are, come back in the morning.\"",
+      "zh": "「不論汝是何人，明早再來吧。」",
+      "note": ""
+    },
+    {
+      "offset": 231,
+      "len": 85,
+      "en": "The old man adjusts the telescope, exclaims \"Aha!\" and starts scribbling on a scroll.",
+      "zh": "老人調整望遠鏡，大叫「啊哈！」，隨即在卷軸上奮筆疾書。",
+      "note": "action desc"
+    },
+    {
+      "offset": 357,
+      "len": 38,
+      "en": "\"Ahem. Yes, what can I help you with, ",
+      "zh": "「咳，是，吾能為汝效勞，",
+      "note": "partial string — gender branch"
+    },
+    {
+      "offset": 402,
+      "len": 7,
+      "en": "madam?\"",
+      "zh": "女士？」",
+      "note": "gender branch female"
+    },
+    {
+      "offset": 411,
+      "len": 5,
+      "en": "sir?\"",
+      "zh": "先生？」",
+      "note": "gender branch male"
+    },
+    {
+      "offset": 425,
+      "len": 19,
+      "en": "\"I am Ephemerides.\"",
+      "zh": "「吾乃以弗美里迪斯。」",
+      "note": "name"
+    },
+    {
+      "offset": 461,
+      "len": 97,
+      "en": "\"I am an astronomer. More precisely, I calculate movements of the stars, phases of the @moons...\"",
+      "zh": "「吾乃天文學者。更精確地說，吾計算星辰運行及@月相變化……」",
+      "note": ""
+    },
+    {
+      "offset": 561,
+      "len": 51,
+      "en": "\"My field of specialization is @tidal predictions.\"",
+      "zh": "「吾之專精乃@潮汐預測。」",
+      "note": ""
+    },
+    {
+      "offset": 615,
+      "len": 51,
+      "en": "\"I also make various @glasswares and @instruments.\"",
+      "zh": "「吾亦製造各式@玻璃器皿及@儀器。」",
+      "note": ""
+    },
+    {
+      "offset": 678,
+      "len": 24,
+      "en": "\"Yes, @sextants mostly.\"",
+      "zh": "「是的，主要是@六分儀。」",
+      "note": ""
+    },
+    {
+      "offset": 714,
+      "len": 22,
+      "en": "\"Lenses and the like.\"",
+      "zh": "「鏡片之類的物件。」",
+      "note": ""
+    },
+    {
+      "offset": 779,
+      "len": 91,
+      "en": "\"Lord British has requested the publication of an almanac for use by the general populace.\"",
+      "zh": "「不列顛王已下令編纂一部年鑑，供普通百姓使用。」",
+      "note": "避『曆』5C，改用「年鑑」"
+    },
+    {
+      "offset": 873,
+      "len": 96,
+      "en": "\"It will contain high tides, low tides, ebb tides, flood tides, @spring tides, and @neap tides.\"",
+      "zh": "「其中將收錄高潮、低潮、退潮、漲潮、@大潮及@小潮等資料。」",
+      "note": ""
+    },
+    {
+      "offset": 981,
+      "len": 111,
+      "en": "\"Britannia's tides are a function of the two @moons, Felucca and Trammel, interacting with our world, Sosaria.\"",
+      "zh": "「不列顛尼亞的潮汐，乃兩@月——費魯卡與崔梅爾——與吾等世界索薩利亞交互作用之結果。」",
+      "note": ""
+    },
+    {
+      "offset": 1124,
+      "len": 105,
+      "en": "\"I plan to publish a paper about how the world is flat, to dispel all this foolish talk to the contrary.\"",
+      "zh": "「吾計劃發表一篇論文，闡明大地乃是平坦的，以破除那些荒謬的反面言論。」",
+      "note": "flat-world comedy"
+    },
+    {
+      "offset": 1232,
+      "len": 71,
+      "en": "\"Afterwards, I will construct a model of how it all works: an @orrery.\"",
+      "zh": "「此後，吾將建造一具展示其運作原理的模型：即@天體儀。」",
+      "note": ""
+    },
+    {
+      "offset": 1315,
+      "len": 113,
+      "en": "Pleased with your interest, Ephemerides shows you papers with plans for a clockwork model of the Sosarian system.",
+      "zh": "以弗美里迪斯見汝感興趣，喜出望外，向汝展示一份索薩利亞星系齒輪模型的設計圖。",
+      "note": "action desc"
+    },
+    {
+      "offset": 1431,
+      "len": 111,
+      "en": "\"This, ahem, flat piece is Britannia. Each moon would exert a pull on the oceans thus, resulting in the tides.\"",
+      "zh": "「這個，咳，扁平的部分即是不列顛尼亞。每個月球如此對海洋施加引力，從而產生潮汐。」",
+      "note": ""
+    },
+    {
+      "offset": 1545,
+      "len": 53,
+      "en": "\"You turn that little handle there to get it to go!\"*",
+      "zh": "「轉動那個小把手，模型就會動起來！」*",
+      "note": "trailing * preserved"
+    },
+    {
+      "offset": 1600,
+      "len": 65,
+      "en": "The normally staid Ephemerides is practically giggling with glee.",
+      "zh": "一向嚴肅的以弗美里迪斯此刻幾乎欣喜得咯咯笑個不停。",
+      "note": "action desc"
+    },
+    {
+      "offset": 1677,
+      "len": 9,
+      "en": "\"Absurd!\"",
+      "zh": "「荒謬！」",
+      "note": "for 'round' earth keyword"
+    },
+    {
+      "offset": 1698,
+      "len": 77,
+      "en": "\"Low and high tide marks are close together. The planets are in @quadrature.\"",
+      "zh": "「低潮與高潮水位相距甚近。諸天體正處於@矩象之中。」",
+      "note": ""
+    },
+    {
+      "offset": 1787,
+      "len": 123,
+      "en": "\"Angular separation of two celestial bodies (as measured from a third) being ninety degrees, of course. A very safe @tide.\"",
+      "zh": "「即兩天體（以第三天體為基點量測）夾角為九十度，此乃最安全之@潮汐狀態，自然。」",
+      "note": ""
+    },
+    {
+      "offset": 1922,
+      "len": 72,
+      "en": "\"The opposite of a neap tide; the sun, earth and moons are all aligned.\"",
+      "zh": "「與小潮相反；日、地、月三者連成一線之時。」",
+      "note": ""
+    },
+    {
+      "offset": 1997,
+      "len": 49,
+      "en": "\"Thus, lines of low and high tide are far apart.\"",
+      "zh": "「因此低潮與高潮水位相差懸殊。」",
+      "note": ""
+    },
+    {
+      "offset": 2049,
+      "len": 82,
+      "en": "\"Once I construct my @orrery, I'd be able to demonstrate the principles involved.\"",
+      "zh": "「一旦吾建好@天體儀，便能向汝展示其中原理。」",
+      "note": ""
+    },
+    {
+      "offset": 2160,
+      "len": 49,
+      "en": "\"I hope the lens I made you will prove suitable.\"",
+      "zh": "「但願吾為汝製作的鏡片能合汝之用。」",
+      "note": ""
+    },
+    {
+      "offset": 2237,
+      "len": 32,
+      "en": "\"What sort of lens do you want?\"",
+      "zh": "「汝想要何種鏡片？」",
+      "note": ""
+    },
+    {
+      "offset": 2295,
+      "len": 84,
+      "en": "\"When you bring me a glass @sword, I should be able to duplicate your lens for you.\"",
+      "zh": "「汝若帶一把玻璃@劍來，吾應可為汝複製那片鏡片。」",
+      "note": ""
+    },
+    {
+      "offset": 2386,
+      "len": 57,
+      "en": "\"Ooooh, let me see it... That's a very interesting lens.\"",
+      "zh": "「哇哦，讓吾瞧瞧……這真是一片十分有趣的鏡片。」",
+      "note": ""
+    },
+    {
+      "offset": 2446,
+      "len": 48,
+      "en": "\"You need a concave copy of it? Let me think...\"",
+      "zh": "「汝需要一片凹面複製品？讓吾想想……」",
+      "note": ""
+    },
+    {
+      "offset": 2497,
+      "len": 104,
+      "en": "\"It would be very tricky to duplicate, being magical in nature, but I believe I might be able to do it.\"",
+      "zh": "「此物帶有魔法性質，複製起來頗為棘手，但吾或許能辦到。」",
+      "note": ""
+    },
+    {
+      "offset": 2604,
+      "len": 112,
+      "en": "\"The material and the nature of the enchantment appear similar to those involved in the making of glass swords.\"",
+      "zh": "「其材質與附魔性質，似乎與鑄造玻璃劍所用者相近。」",
+      "note": ""
+    },
+    {
+      "offset": 2719,
+      "len": 102,
+      "en": "\"If I could keep this to analyze while you go get me a glass sword, I'll try and make a copy for you.\"",
+      "zh": "「若汝去為吾取一把玻璃劍的同時，吾可留存此物加以分析，再試著為汝製作複製品。」",
+      "note": ""
+    },
+    {
+      "offset": 2845,
+      "len": 90,
+      "en": "Before you can protest, he pockets the lens. \"Let me know when you have the glass @sword.\"",
+      "zh": "未待汝開口，他已將鏡片收入口袋。「有了玻璃@劍便告知吾。」",
+      "note": ""
+    },
+    {
+      "offset": 2979,
+      "len": 70,
+      "en": "\"I once heard of a @master glassblower who could make glass swords...\"",
+      "zh": "「吾曾聽聞有一位@大師級玻璃吹製匠，能製造玻璃劍……」",
+      "note": ""
+    },
+    {
+      "offset": 3061,
+      "len": 80,
+      "en": "\"Minoc is the logical place to look. That town is filled with master craftsmen.\"",
+      "zh": "「米諾克是理所當然的尋訪之地。那座城鎮聚集了許多工藝大師。」",
+      "note": ""
+    },
+    {
+      "offset": 3144,
+      "len": 68,
+      "en": "\"Why, I once heard of a man from Minoc who built a @flying machine!\"",
+      "zh": "「咦，吾還曾聽說有個米諾克人造出了一台@飛行機器！」",
+      "note": ""
+    },
+    {
+      "offset": 3228,
+      "len": 41,
+      "en": "\"Must have been a fairy tale, of course.\"",
+      "zh": "「當然，那必定是個神話故事罷了。」",
+      "note": ""
+    },
+    {
+      "offset": 3280,
+      "len": 44,
+      "en": "\"Goodbye, $G. It was nice talking with you.\"",
+      "zh": "「再見，$G。與汝交談甚歡。」",
+      "note": "$G preserved"
+    },
+    {
+      "offset": 3329,
+      "len": 30,
+      "en": "\"That I cannot help you with.\"",
+      "zh": "「此事吾無能為力。」",
+      "note": ""
+    },
+    {
+      "offset": 3366,
+      "len": 67,
+      "en": "\"Ah, you've brought me a glass sword! Let me just get your lens...\"",
+      "zh": "「啊，汝帶來了玻璃劍！讓吾先取回汝的鏡片……」",
+      "note": ""
+    },
+    {
+      "offset": 3436,
+      "len": 31,
+      "en": "He fumbles through his pockets.",
+      "zh": "他在口袋裡翻找一番。",
+      "note": "action"
+    },
+    {
+      "offset": 3470,
+      "len": 38,
+      "en": "\"Oh no! I seem to have lost the lens!\"",
+      "zh": "「哦不！鏡片似乎不見了！」",
+      "note": ""
+    },
+    {
+      "offset": 3511,
+      "len": 96,
+      "en": "\"Just kidding... Here it is. Now I'll melt down the glass sword and try to cast a lens for you.\"",
+      "zh": "「開玩笑的……在這裡呢。吾現在將融化那把玻璃劍，試著為汝鑄造一片鏡片。」",
+      "note": ""
+    },
+    {
+      "offset": 3610,
+      "len": 93,
+      "en": "You watch as he works, intently focused on his task. Finally he pronounces the job a success.",
+      "zh": "汝目睹他全神貫注地工作，終於他宣告大功告成。",
+      "note": "action"
+    },
+    {
+      "offset": 3706,
+      "len": 108,
+      "en": "\"Here's your lens back, and the duplicate. There's no charge - the challenge of the task was reward enough.\"",
+      "zh": "「汝的鏡片奉還，附上複製品。不收費——完成此等挑戰本身已是最好的回報。」",
+      "note": ""
+    },
+    {
+      "offset": 3817,
+      "len": 67,
+      "en": "\"I don't know what you need these lenses for, but I wish you luck!\"",
+      "zh": "「吾不知汝要這些鏡片作何用途，但祝汝好運！」",
+      "note": ""
+    },
+    {
+      "offset": 4022,
+      "len": 16,
+      "en": "\"Which of you?\" ",
+      "zh": "「汝等哪一位？」",
+      "note": "shop prompt"
+    },
+    {
+      "offset": 4133,
+      "len": 52,
+      "en": "$N looks at $Y. \"You haven't any room in your pack.\"",
+      "zh": "$N 望向 $Y。「汝的包裹已無空間了。」",
+      "note": ""
+    },
+    {
+      "offset": 4210,
+      "len": 52,
+      "en": "$N looks at $Y. \"`$0s cost more gold than you have.\"",
+      "zh": "$N 望向 $Y。「`$0 所需黃金超出汝所持有之數。」",
+      "note": "backtick preserved"
+    },
+    {
+      "offset": 4288,
+      "len": 68,
+      "en": "$N looks at $Y. \"It'll cost you #0 gold for a $0. Do you want one?\" ",
+      "zh": "$N 望向 $Y。「一件 $0 需 #0 枚金幣。汝要購買嗎？」",
+      "note": ""
+    },
+    {
+      "offset": 4362,
+      "len": 41,
+      "en": "$N frowns at $Y, \"That was a good price.\"",
+      "zh": "$N 皺眉望向 $Y，「那個價錢已是實惠。」",
+      "note": ""
+    },
+    {
+      "offset": 4453,
+      "len": 17,
+      "en": "He hands $Y a $0.",
+      "zh": "他將 $0 遞給 $Y。",
+      "note": ""
+    }
+  ],
+  "glossary_additions": {
+    "people": {
+      "Ephemerides": "以弗美里迪斯"
+    },
+    "places": {
+      "Sosaria": "索薩利亞",
+      "Felucca": "費魯卡",
+      "Trammel": "崔梅爾"
+    },
+    "concepts": {
+      "orrery": "天體儀",
+      "sextant": "六分儀",
+      "quadrature": "矩象",
+      "neap tide": "小潮",
+      "spring tide": "大潮"
+    }
+  },
+  "translator_notes": "以弗美里迪斯是天文學者兼玻璃工匠，語氣嚴肅帶點幽默（相信世界是平的為搞笑設定）。天文術語盡量忠實翻譯。月球名 Felucca/Trammel 依發音譯。動作描述段（第三人稱）照常譯出。"
+}

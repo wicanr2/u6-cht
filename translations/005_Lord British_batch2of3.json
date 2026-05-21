@@ -1,0 +1,366 @@
+{
+  "_meta": {
+    "npc": "Lord British",
+    "batch": "2/3",
+    "note": "agent output normalized format"
+  },
+  "translations": [
+    {
+      "offset": 3035,
+      "len": 80,
+      "zh": "\"汝若能掌握其力，必於遠行之途大有助益。\"",
+      "en": "\"'Twill serve thee well in thy travels if thou dost learn to master its powers.\"",
+      "zh_bytes": 40
+    },
+    {
+      "offset": 3118,
+      "len": 80,
+      "zh": "\"欲開月之門，取石持之，慎置於汝身前數尺。\"",
+      "en": "\"To open a gate, use the stone, and carefully position it a few feet from thee.\"",
+      "zh_bytes": 42
+    },
+    {
+      "offset": 3201,
+      "len": 51,
+      "zh": "\"汝將發現位置乃是關鍵所在。\"",
+      "en": "\"Thou wilt discover that the placement is the key.\"",
+      "zh_bytes": 28
+    },
+    {
+      "offset": 3255,
+      "len": 26,
+      "zh": "\"若置之於正位，",
+      "en": "\"In the proper positions, ",
+      "zh_bytes": 15
+    },
+    {
+      "offset": 3282,
+      "len": 69,
+      "zh": "此石便能召出月之門，攜汝至無數遠方。\"",
+      "en": "the stone canst conjure gates to take thee to numerous destinations.\"",
+      "zh_bytes": 37
+    },
+    {
+      "offset": 3364,
+      "len": 9,
+      "zh": "mant,rune",
+      "en": "mant,rune",
+      "zh_bytes": 9
+    },
+    {
+      "offset": 3374,
+      "len": 52,
+      "zh": "\"可向各城首領詢問此事。",
+      "en": "\"Ask the leaders of each town to tell thee of that. ",
+      "zh_bytes": 23
+    },
+    {
+      "offset": 3432,
+      "len": 4,
+      "zh": "comp",
+      "en": "comp",
+      "zh_bytes": 4
+    },
+    {
+      "offset": 3437,
+      "len": 23,
+      "zh": "\"汝可去問@索登。\"",
+      "en": "\"Do thou ask @Tholden.\"",
+      "zh_bytes": 17
+    },
+    {
+      "offset": 3466,
+      "len": 4,
+      "zh": "thol",
+      "en": "thol",
+      "zh_bytes": 4
+    },
+    {
+      "offset": 3471,
+      "len": 23,
+      "zh": "\"他是朕之@宰相。\"",
+      "en": "\"He is my @chancellor.\"",
+      "zh_bytes": 17
+    },
+    {
+      "offset": 3500,
+      "len": 4,
+      "zh": "chan",
+      "en": "chan",
+      "zh_bytes": 4
+    },
+    {
+      "offset": 3505,
+      "len": 32,
+      "zh": "\"是也，索登乃朕之宰相。\"",
+      "en": "\"Aye, Tholden is my chancellor.\"",
+      "zh_bytes": 24
+    },
+    {
+      "offset": 3543,
+      "len": 9,
+      "zh": "mous,sher",
+      "en": "mous,sher",
+      "zh_bytes": 9
+    },
+    {
+      "offset": 3558,
+      "len": 44,
+      "zh": "\"請好生照看朕的小友。\"",
+      "en": "\"Please take good care of my little friend.\"",
+      "zh_bytes": 22
+    },
+    {
+      "offset": 3608,
+      "len": 42,
+      "zh": "\"啊，汝已聽聞朕的小友？\"",
+      "en": "\"Ah, thou hast heard of my little friend?\"",
+      "zh_bytes": 24
+    },
+    {
+      "offset": 3653,
+      "len": 49,
+      "zh": "\"她名喚雪莉，朕甚以她為傲。\"",
+      "en": "\"Her name is Sherry, and I'm quite proud of her.\"",
+      "zh_bytes": 28
+    },
+    {
+      "offset": 3705,
+      "len": 64,
+      "zh": "\"朕敢說，她乃不列顛尼亞境內唯一會說話的鼠。\"",
+      "en": "\"I'm certain she is the only talking mouse in all of Britannia.\"",
+      "zh_bytes": 44
+    },
+    {
+      "offset": 3772,
+      "len": 49,
+      "zh": "\"汝若有意，盡可前去看望她。\"",
+      "en": "\"Thou art welcome to see her, if thou dost wish.\"",
+      "zh_bytes": 28
+    },
+    {
+      "offset": 3824,
+      "len": 54,
+      "zh": "\"汝可在城堡各處尋得她的蹤跡。\"",
+      "en": "\"Thou canst find her wandering throughout the castle.\"",
+      "zh_bytes": 30
+    },
+    {
+      "offset": 3881,
+      "len": 63,
+      "zh": "\"她每夜必至朕之寢室，朕便講@故事與她聽。\"",
+      "en": "\"She comes by my room every night, so I can tell her @stories.\"",
+      "zh_bytes": 41
+    },
+    {
+      "offset": 3950,
+      "len": 12,
+      "zh": "wiza,oz,book",
+      "en": "wiza,oz,book",
+      "zh_bytes": 12
+    },
+    {
+      "offset": 3963,
+      "len": 23,
+      "zh": "\"朕收藏珍稀之書。\"",
+      "en": "\"I collect rare books.\"",
+      "zh_bytes": 18
+    },
+    {
+      "offset": 3989,
+      "len": 61,
+      "zh": "\"其中有一本，朕多年來苦尋而不得。\"",
+      "en": "\"There's one in particular I've been hunting for many years.\"",
+      "zh_bytes": 34
+    },
+    {
+      "offset": 4053,
+      "len": 52,
+      "zh": "\"那書名喚《綠野仙蹤》，汝可曾聽聞？\" ",
+      "en": "\"It's called 'The Wizard of Oz.' Ever heard of it?\" ",
+      "zh_bytes": 37
+    },
+    {
+      "offset": 4111,
+      "len": 9,
+      "zh": "bedt,stor",
+      "en": "bedt,stor",
+      "zh_bytes": 9
+    },
+    {
+      "offset": 4121,
+      "len": 42,
+      "zh": "\"朕最愛的故事是《@獅子修伯特》。\"",
+      "en": "\"My favorite story is '@Hubert the Lion.'\"",
+      "zh_bytes": 33
+    },
+    {
+      "offset": 4169,
+      "len": 14,
+      "zh": "favo,hube,lion",
+      "en": "favo,hube,lion",
+      "zh_bytes": 14
+    },
+    {
+      "offset": 4184,
+      "len": 59,
+      "zh": "\"自幼便聽過此故事，從此銘記於心。\"",
+      "en": "\"I've known it by heart, ever since I heard it as a child.\"",
+      "zh_bytes": 34
+    },
+    {
+      "offset": 4246,
+      "len": 81,
+      "zh": "\"獅子修伯特性情高傲又虛榮，尤以那華麗鬃毛為傲。\"",
+      "en": "\"Hubert the Lion was haughty and vain, and especially proud of his elegant mane.\"",
+      "zh_bytes": 48
+    },
+    {
+      "offset": 4330,
+      "len": 88,
+      "zh": "\"然此等自負實非美事，獅子修伯特終難免一場跌落之厄。\"",
+      "en": "\"But conceit of this sort is not proper at all, and Hubert the Lion was due for a fall.\"",
+      "zh_bytes": 52
+    },
+    {
+      "offset": 4424,
+      "len": 7,
+      "zh": "mr,nose",
+      "en": "mr,nose",
+      "zh_bytes": 7
+    },
+    {
+      "offset": 4438,
+      "len": 4,
+      "zh": "heal",
+      "en": "heal",
+      "zh_bytes": 4
+    },
+    {
+      "offset": 4449,
+      "len": 4,
+      "zh": "than",
+      "en": "than",
+      "zh_bytes": 4
+    },
+    {
+      "offset": 4454,
+      "len": 77,
+      "zh": "\"該道謝的是朕才對，聖者，汝為不列顛尼亞所做之事，朕銘感於心。\"",
+      "en": "\"'Tis I who should thank thee, Avatar, for all thou hast done for Britannia.\"",
+      "zh_bytes": 62
+    },
+    {
+      "offset": 4537,
+      "len": 3,
+      "zh": "bye",
+      "en": "bye",
+      "zh_bytes": 3
+    },
+    {
+      "offset": 4541,
+      "len": 25,
+      "zh": "\"願好運常隨汝身。\"",
+      "en": "\"May fortune favor thee.\"",
+      "zh_bytes": 18
+    },
+    {
+      "offset": 4571,
+      "len": 31,
+      "zh": "\"此事朕無法相助。\"",
+      "en": "\"I cannot help thee with that.\"",
+      "zh_bytes": 18
+    },
+    {
+      "offset": 4609,
+      "len": 2,
+      "zh": "yn",
+      "en": "yn",
+      "zh_bytes": 2
+    },
+    {
+      "offset": 4614,
+      "len": 50,
+      "zh": "\"也罷，汝若於旅途中偶得此書，",
+      "en": "\"Well, if thou dost run across it in thy travels, ",
+      "zh_bytes": 29
+    },
+    {
+      "offset": 4665,
+      "len": 58,
+      "zh": "朕將深為感激，望汝攜回於此。\"",
+      "en": "I would greatly appreciate if thou couldst bring it here.\"",
+      "zh_bytes": 29
+    },
+    {
+      "offset": 4726,
+      "len": 68,
+      "zh": "\"朕已許下重賞，凡能為朕尋得一本者，必賜厚報。\"",
+      "en": "\"I hath promised a great reward to whosoever shalt bring me a copy.\"",
+      "zh_bytes": 46
+    },
+    {
+      "offset": 4855,
+      "len": 62,
+      "zh": "\"汝身負之物過重，朕難以妥善賞賜……\"",
+      "en": "\"Thou art carrying too much for me to reward thee properly...\"",
+      "zh_bytes": 36
+    },
+    {
+      "offset": 4920,
+      "len": 57,
+      "zh": "\"待汝身輕之時，再將書攜回吧。\"",
+      "en": "\"Bring the book back later, when thou art less burdened.\"",
+      "zh_bytes": 30
+    },
+    {
+      "offset": 4983,
+      "len": 25,
+      "zh": "\"汝竟尋得一本！\"",
+      "en": "\"Thou hath found a copy!\"",
+      "zh_bytes": 16
+    },
+    {
+      "offset": 5010,
+      "len": 40,
+      "zh": "\"朕苦候此刻已久……\"",
+      "en": "\"Long hath I anticipated this moment...\"",
+      "zh_bytes": 20
+    },
+    {
+      "offset": 5053,
+      "len": 57,
+      "zh": "\"自幼之後，朕未曾再讀此奇妙之書。\"",
+      "en": "\"Not since my childhood have I read this wondrous story.\"",
+      "zh_bytes": 34
+    },
+    {
+      "offset": 5113,
+      "len": 83,
+      "zh": "他小心翼翼接過古書，「此為汝之賞賜。」說罷遞給你數枚閃耀寶石。",
+      "en": "Gingerly, he takes the tome. \"Here is your reward.\" He gives you some glowing gems.",
+      "zh_bytes": 62
+    },
+    {
+      "offset": 5231,
+      "len": 34,
+      "zh": "\"是誰告訴汝這綽號的！？\"",
+      "en": "\"Who told thee of that nickname!?\"",
+      "zh_bytes": 24
+    },
+    {
+      "offset": 5270,
+      "len": 47,
+      "zh": "\"也罷，朕寧願汝莫再如此稱呼朕。\"",
+      "en": "\"Well, I'd rather thou didst not call me that.\"",
+      "zh_bytes": 32
+    },
+    {
+      "offset": 5383,
+      "len": 60,
+      "zh": "不列顛王揮手一指，汝之全隊眾人皆獲療癒！",
+      "en": "Lord British waves his hand, and your whole party is healed!",
+      "zh_bytes": 40
+    }
+  ]
+}

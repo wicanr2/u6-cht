@@ -1,0 +1,151 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 8,
+   "en": "Humility",
+   "zh": "謙遜祭壇",
+   "note": "NPC name — 神殿祭壇"
+  },
+  {
+   "offset": 11,
+   "len": 22,
+   "en": "the altar of Humility.",
+   "zh": "謙遜之祭壇。",
+   "note": "DESC"
+  },
+  {
+   "offset": 37,
+   "len": 68,
+   "en": "As you kneel before the altar, a mystical voice sounds in your head.",
+   "zh": "當你跪在祭壇前，一個神秘的聲音在你腦中迴響。",
+   "note": "旁白"
+  },
+  {
+   "offset": 115,
+   "len": 40,
+   "en": "\"Thou hast much to learn about humility.\"",
+   "zh": "「汝對謙遜仍有許多須學習之處。」",
+   "note": "低階評語"
+  },
+  {
+   "offset": 169,
+   "len": 43,
+   "en": "\"Thy deeds have shown admirable humility.\"",
+   "zh": "「汝之行為展現了令人欽佩的謙遜。」",
+   "note": "中階評語"
+  },
+  {
+   "offset": 212,
+   "len": 39,
+   "en": "\"Thy deeds serve as an example to all.\"",
+   "zh": "「汝之行為可為眾人表率。」",
+   "note": "高階評語"
+  },
+  {
+   "offset": 255,
+   "len": 39,
+   "en": "Do you wish to meditate at this altar? ",
+   "zh": "你希望在此祭壇冥想嗎？",
+   "note": "旁白提示，尾隨空格保留"
+  },
+  {
+   "offset": 344,
+   "len": 6,
+   "en": "#2. $Y",
+   "zh": "#2。$Y",
+   "note": "控制符保留"
+  },
+  {
+   "offset": 384,
+   "len": 21,
+   "en": "\"Who will meditate?\" ",
+   "zh": "「誰來冥想？」",
+   "note": "尾隨空格保留"
+  },
+  {
+   "offset": 441,
+   "len": 30,
+   "en": "\"Speak the Mantra of Humility.\"",
+   "zh": "「覆誦謙遜真言。」",
+   "note": ""
+  },
+  {
+   "offset": 475,
+   "len": 13,
+   "en": "\"$Z... $Z...\"",
+   "zh": "「$Z…… $Z……」",
+   "note": "真言提示第一次"
+  },
+  {
+   "offset": 491,
+   "len": 13,
+   "en": "\"$Z... $Z...\"",
+   "zh": "「$Z…… $Z……」",
+   "note": "真言提示第二次"
+  },
+  {
+   "offset": 507,
+   "len": 13,
+   "en": "\"$Z... $Z...\"",
+   "zh": "「$Z…… $Z……」",
+   "note": "真言提示第三次"
+  },
+  {
+   "offset": 527,
+   "len": 40,
+   "en": "\"The humblest citizen of all the land, ",
+   "zh": "「這土地上最謙卑的市民，",
+   "note": "聖言第一段（未閉合）"
+  },
+  {
+   "offset": 567,
+   "len": 46,
+   "en": "when clad in the armor of a righteous cause, ",
+   "zh": "當披上正義大義的鎧甲，",
+   "note": "聖言第二段"
+  },
+  {
+   "offset": 613,
+   "len": 39,
+   "en": "is stronger than all the hosts of error.\"",
+   "zh": "比所有謬誤之眾更為強大。」",
+   "note": "聖言第三段（閉合）"
+  },
+  {
+   "offset": 663,
+   "len": 29,
+   "en": "You receive no enlightenment.",
+   "zh": "你未能獲得啟示。",
+   "note": "旁白"
+  },
+  {
+   "offset": 887,
+   "len": 24,
+   "en": "$Y has gained a level!",
+   "zh": "$Y提升了一個等級！",
+   "note": "升級旁白（謙遜無特定能力提升，故用！而非……）"
+  },
+  {
+   "offset": 913,
+   "len": 53,
+   "en": "\"There is naught else for you to learn here and now.\"",
+   "zh": "「此刻此地，汝已無更多可學。」",
+   "note": ""
+  },
+  {
+   "offset": 969,
+   "len": 49,
+   "en": "\"Return when thy journey has progressed further.\"",
+   "zh": "「待汝的旅程更進一步，再行回返。」",
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {},
+  "places": {}
+ },
+ "riddles_additions": [],
+ "translator_notes": "謙遜神殿，真言 lum（不翻譯）。謙遜是唯一不賦予原則衍生屬性的德行——需單獨修行，無法與其他德行組合。聖言三段合一引自 William Jennings Bryan，謙卑之人因正義而強大的主題。升級符號用「！」而非「……」，呼應本神殿的特殊性。"
+}

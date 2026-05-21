@@ -1,0 +1,286 @@
+{
+ "translations": [
+  {
+   "offset": 8,
+   "len": 65,
+   "en": "a white-haired mage in flowing robes with a mad gleam in his eye.",
+   "zh": "白髮法師，身著飄逸長袍，眼中閃爍著瘋狂的光芒。",
+   "note": "DESC"
+  },
+  {
+   "offset": 105,
+   "len": 63,
+   "en": "\"Get out! Flee before the awesome wrath of the mad mage Sutek!\"",
+   "zh": "「滾開！在瘋法師蘇特克的可怖怒火面前逃命吧！」",
+   "note": ""
+  },
+  {
+   "offset": 183,
+   "len": 75,
+   "en": "\"What brings you back to disturb the musings of the @mad mage Sutek again?\"",
+   "zh": "「是何事使汝再度前來，擾了@瘋法師蘇特克的沉思？」",
+   "note": ""
+  },
+  {
+   "offset": 259,
+   "len": 61,
+   "en": "\"So, Avatar, you disturb the musings of the @mad mage Sutek!\"",
+   "zh": "「哦，聖者，汝竟擾了@瘋法師蘇特克的沉思！」",
+   "note": ""
+  },
+  {
+   "offset": 323,
+   "len": 29,
+   "en": "\"What wisdom dost thou seek?\"",
+   "zh": "「汝欲求何種智慧？」",
+   "note": ""
+  },
+  {
+   "offset": 367,
+   "len": 60,
+   "en": "\"The name Sutek strikes fear in the hearts of mere mortals!\"",
+   "zh": "「蘇特克之名令凡夫俗子心生畏懼！」",
+   "note": ""
+  },
+  {
+   "offset": 430,
+   "len": 44,
+   "en": "\"Everyone knows the name of Sutek the @Mad!\"",
+   "zh": "「人人皆知@瘋子蘇特克之大名！」",
+   "note": ""
+  },
+  {
+   "offset": 484,
+   "len": 62,
+   "en": "\"Sutek the @Mad is the greatest mage the land has ever known!\"",
+   "zh": "「@瘋子蘇特克乃這片土地有史以來最偉大的法師！」",
+   "note": ""
+  },
+  {
+   "offset": 557,
+   "len": 39,
+   "en": "\"Balloonist? Yes, Sutek remembers him.\"",
+   "zh": "「熱氣球師？是的，蘇特克記得他。」",
+   "note": ""
+  },
+  {
+   "offset": 599,
+   "len": 88,
+   "en": "\"He died in Sutek's @catacombs, like most of the others who have ever worked for Sutek!\"",
+   "zh": "「他死在蘇特克的@地下迷宮，正如多數曾為蘇特克效勞之人的下場！」",
+   "note": ""
+  },
+  {
+   "offset": 710,
+   "len": 20,
+   "en": "\"Yes! Sutek is mad!\"",
+   "zh": "「是的！蘇特克確實瘋了！」",
+   "note": ""
+  },
+  {
+   "offset": 733,
+   "len": 59,
+   "en": "\"They say there is a fine line between genius and madness.\"",
+   "zh": "「人皆言，天才與瘋狂僅一線之隔。」",
+   "note": ""
+  },
+  {
+   "offset": 795,
+   "len": 81,
+   "en": "\"Well, Sutek hops up and down on that line, cursing the fools that surround him!\"",
+   "zh": "「嗯，蘇特克就在那條線上蹦來蹦去，詛咒著圍繞他的蠢貨！」",
+   "note": ""
+  },
+  {
+   "offset": 887,
+   "len": 90,
+   "en": "\"Sutek hired many brilliant engineers to build the catacombs that lie beneath his castle.\"",
+   "zh": "「蘇特克曾雇用許多才華橫溢的工程師，在城堡下方建造地下迷宮。」",
+   "note": ""
+  },
+  {
+   "offset": 980,
+   "len": 61,
+   "en": "\"The catacombs are filled with the bones of those engineers!\"",
+   "zh": "「地下迷宮中如今堆滿了那些工程師的白骨！」",
+   "note": ""
+  },
+  {
+   "offset": 1043,
+   "len": 62,
+   "en": "\"The @Pushme-@Pullyu knows where all such bones can be found!\"",
+   "zh": "「@推牠-@拉牠知曉所有白骨的所在！」",
+   "note": ""
+  },
+  {
+   "offset": 1121,
+   "len": 54,
+   "en": "\"Sutek created the Pushme-Pullyu as a test for fools!\"",
+   "zh": "「蘇特克創造推牠-拉牠，是為了測試蠢貨！」",
+   "note": ""
+  },
+  {
+   "offset": 1178,
+   "len": 65,
+   "en": "\"If you can pass the test, you will learn what you wish to know!\"",
+   "zh": "「若汝能通過測試，便可得知所欲知曉之事！」",
+   "note": ""
+  },
+  {
+   "offset": 1259,
+   "len": 8,
+   "en": "\"What?!\"",
+   "zh": "「什麼？！」",
+   "note": ""
+  },
+  {
+   "offset": 1270,
+   "len": 81,
+   "en": "\"Sutek grants thou a piece of wisdom to take to thy grave, and thou refusest it?\"",
+   "zh": "「蘇特克賜予汝一份帶入墳墓的智慧，汝竟拒絕？」",
+   "note": ""
+  },
+  {
+   "offset": 1354,
+   "len": 21,
+   "en": "\"Then thou must die!\"",
+   "zh": "「那麼汝必須死！」",
+   "note": ""
+  },
+  {
+   "offset": 1385,
+   "len": 84,
+   "en": "\"How darest thou leave the presence of Sutek the Mad before he has dissmissed you?!\"",
+   "zh": "「汝怎敢在蘇特克尚未許可之前，擅自離開瘋子蘇特克的面前？！」",
+   "note": "原文 dissmissed 為拼寫錯誤，照意譯"
+  },
+  {
+   "offset": 1472,
+   "len": 59,
+   "en": "\"If thou art so rude, then I banish thee from my presence!\"",
+   "zh": "「若汝如此無禮，那吾便驅逐汝離開吾的面前！」",
+   "note": ""
+  },
+  {
+   "offset": 1534,
+   "len": 38,
+   "en": "\"Begone, and pester Sutek no further!\"",
+   "zh": "「滾！莫再來打擾蘇特克！」",
+   "note": ""
+  },
+  {
+   "offset": 1585,
+   "len": 32,
+   "en": "\"Yes, Sutek knows all about $Z.\"",
+   "zh": "「是的，蘇特克對$Z無所不知。」",
+   "note": ""
+  },
+  {
+   "offset": 1620,
+   "len": 24,
+   "en": "\"But he won't tell you!\"",
+   "zh": "「但他不告訴汝！」",
+   "note": ""
+  },
+  {
+   "offset": 1645,
+   "len": 70,
+   "en": "\"Only a fool would disturb Sutek with frivolous matters such as that!\"",
+   "zh": "「只有蠢人才會拿這等瑣事來打擾蘇特克！」",
+   "note": ""
+  },
+  {
+   "offset": 1731,
+   "len": 27,
+   "en": "\"Thy question is answered.\"",
+   "zh": "「汝的問題已得到解答。」",
+   "note": ""
+  },
+  {
+   "offset": 1761,
+   "len": 58,
+   "en": "\"Now flee before the awesome wrath of the mad mage Sutek!\"",
+   "zh": "「現在在瘋法師蘇特克的可怖怒火面前逃命吧！」",
+   "note": ""
+  },
+  {
+   "offset": 1838,
+   "len": 61,
+   "en": "\"Even the Avatar acknowledges the power and wisdom of Sutek!\"",
+   "zh": "「連聖者都承認蘇特克的力量與智慧！」",
+   "note": ""
+  },
+  {
+   "offset": 1902,
+   "len": 17,
+   "en": "\"Don't you, $G?\" ",
+   "zh": "「是吧，$G？」",
+   "note": ""
+  },
+  {
+   "offset": 1925,
+   "len": 7,
+   "en": "\"Good.\"",
+   "zh": "「很好。」",
+   "note": ""
+  },
+  {
+   "offset": 1940,
+   "len": 25,
+   "en": "\"No?! Then you must die!\"",
+   "zh": "「不？！那麼汝必須死！」",
+   "note": ""
+  },
+  {
+   "offset": 1975,
+   "len": 49,
+   "en": "\"Dost thou seek employment with Sutek the @Mad?\" ",
+   "zh": "「汝欲投效@瘋子蘇特克麾下？」",
+   "note": ""
+  },
+  {
+   "offset": 2030,
+   "len": 42,
+   "en": "\"Well, too bad! Sutek isn't hiring today!\"",
+   "zh": "「唉，真遺憾！蘇特克今日不收人！」",
+   "note": ""
+  },
+  {
+   "offset": 2080,
+   "len": 6,
+   "en": "\"No?!\"",
+   "zh": "「不？！」",
+   "note": ""
+  },
+  {
+   "offset": 2089,
+   "len": 90,
+   "en": "\"What sort of fool passes up the opportunity to work for the greatest genius of this age?\"",
+   "zh": "「何等蠢人才會放棄為這個時代最偉大天才效勞的機會？」",
+   "note": ""
+  },
+  {
+   "offset": 2182,
+   "len": 22,
+   "en": "\"Such fools must die!\"",
+   "zh": "「這等蠢人必須死！」",
+   "note": ""
+  },
+  {
+   "offset": 2208,
+   "len": 88,
+   "en": "\"But Sutek is mad, and so he will grant you one last nugget of wisdom before thy death!\"",
+   "zh": "「但蘇特克是個瘋子，所以他將在汝死前賜予最後一點智慧！」",
+   "note": ""
+  },
+  {
+   "offset": 2299,
+   "len": 33,
+   "en": "\"What wouldst thou like to know?\"",
+   "zh": "「汝想知曉何事？」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Sutek": "蘇特克"}, "places": {}},
+ "translator_notes": "蘇特克瘋法師，全程第三人稱自稱「蘇特克」，說話誇張狂傲，頻繁以死亡威脅訪者。譯文保留其戲劇化語氣。"
+}

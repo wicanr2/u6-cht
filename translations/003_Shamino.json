@@ -1,0 +1,60 @@
+{
+  "translations": [
+    {"offset": 2, "len": 7, "en": "Shamino", "zh": "夏米諾", "zh_bytes": 6, "note": ""},
+    {"offset": 10, "len": 61, "en": "a quiet man, who almost seems to be a creature of the forest.", "zh": "一位沉靜之人，宛如森林之生靈。", "zh_bytes": 30, "note": ""},
+    {"offset": 74, "len": 17, "en": "\"Yes, my friend?\"", "zh": "「何事，老友？」", "zh_bytes": 16, "note": ""},
+    {"offset": 94, "len": 4, "en": "name", "zh": "名字", "zh_bytes": 4, "note": "keyword"},
+    {"offset": 99, "len": 23, "en": "\"Shamino Salle' Dacil.\"", "zh": "「夏米諾薩列。」", "zh_bytes": 16, "note": "全名縮短"},
+    {"offset": 134, "len": 3, "en": "job", "zh": "業 ", "zh_bytes": 3, "note": "len=3 keyword"},
+    {"offset": 138, "len": 39, "en": "\"I help my @friends when they need it.\"", "zh": "「@朋友有難時，我便相助。」", "zh_bytes": 27, "note": ""},
+    {"offset": 180, "len": 61, "en": "\"The rest of my time I prefer to spend exploring the @woods.\"", "zh": "「其餘時光，我寧願在@森林中漫遊。」", "zh_bytes": 35, "note": ""},
+    {"offset": 247, "len": 4, "en": "frie", "zh": "朋友", "zh_bytes": 4, "note": "keyword"},
+    {"offset": 252, "len": 128, "en": "\"Though we have spent much time apart between your several visits to our realm, still I consider you one of my closest friends.\"", "zh": "「雖然汝數度造訪我等之境，相聚甚少，然我仍視汝為摯友。」", "zh_bytes": 56, "note": ""},
+    {"offset": 386, "len": 9, "en": "wood,expl", "zh": "森林,漫遊", "zh_bytes": 9, "note": "keyword"},
+    {"offset": 396, "len": 28, "en": "\"I prefer the Deep @Forest.\"", "zh": "「我偏愛那@深林。」", "zh_bytes": 19, "note": ""},
+    {"offset": 427, "len": 72, "en": "\"Spiritwood isn't as dense, and it has those strange @wisps everywhere.\"", "zh": "「靈魂林不夠幽深，且四處皆是怪異的@幽影。」", "zh_bytes": 43, "note": ""},
+    {"offset": 505, "len": 9, "en": "deep,fore", "zh": "深林,森林", "zh_bytes": 9, "note": "keyword"},
+    {"offset": 515, "len": 20, "en": "\"It is @home to me.\"", "zh": "「那是我的@家。」", "zh_bytes": 17, "note": ""},
+    {"offset": 537, "len": 101, "en": "*\"I love walking in the dark shadows of the trees, and studying the nature of the forest @creatures.\"", "zh": "*「我愛走在林木深影之中，觀察森林@生靈的習性。」", "zh_bytes": 48, "note": "* 控制字"},
+    {"offset": 644, "len": 4, "en": "home", "zh": "家", "zh_bytes": 2, "note": "keyword"},
+    {"offset": 649, "len": 40, "en": "\"A home needs not @walls to make it so.\"", "zh": "「家不必有@牆方成其家。」", "zh_bytes": 25, "note": ""},
+    {"offset": 695, "len": 4, "en": "wall", "zh": "牆", "zh_bytes": 2, "note": "keyword"},
+    {"offset": 700, "len": 96, "en": "\"When folk ask why I have no walls in my home, I ask where are the @trees in theirs!\" He smiles.", "zh": "「人問我屋中何以無牆，我便反問——他們屋中何以無@樹！」他微微一笑。", "zh_bytes": 67, "note": "招牌反問句"},
+    {"offset": 802, "len": 4, "en": "tree", "zh": "樹", "zh_bytes": 2, "note": "keyword"},
+    {"offset": 807, "len": 93, "en": "\"In many ways they are the lifesblood of the realm. Without trees, we could not long endure.\"", "zh": "「樹乃此境之命脈。無樹，吾等難以久存。」", "zh_bytes": 40, "note": ""},
+    {"offset": 906, "len": 4, "en": "crea", "zh": "生靈", "zh_bytes": 4, "note": "keyword"},
+    {"offset": 911, "len": 106, "en": "\"Those that dwell in the woods have lives of their own, more interesting to me than the ways of townfolk.\"", "zh": "「林中生靈各有其道，於我而言，比城裡人更有趣。」", "zh_bytes": 48, "note": ""},
+    {"offset": 1020, "len": 71, "en": "\"There is much to be learned from the animals, if you will but listen.\"", "zh": "「若汝肯聆聽，便能從野獸身上學到不少。」", "zh_bytes": 40, "note": "避『許』5C trail"},
+    {"offset": 1103, "len": 94, "en": "Dupre says \"Now Shamino's going on about talking to animals... The whole world's going batty!\"", "zh": "杜普雷說「夏米諾又在說那跟動物對話的事了……這世界都瘋了！」", "zh_bytes": 60, "note": ""},
+    {"offset": 1209, "len": 4, "en": "wisp", "zh": "幽影", "zh_bytes": 4, "note": "keyword"},
+    {"offset": 1214, "len": 101, "en": "\"I know little of their nature. I believe there are some @mages who have investigated them, however.\"", "zh": "「我所知不多。但聽說有些@法師曾研究此物。」", "zh_bytes": 43, "note": "避『鑽』高筆畫"},
+    {"offset": 1321, "len": 4, "en": "mage", "zh": "法師", "zh_bytes": 4, "note": "keyword"},
+    {"offset": 1326, "len": 64, "en": "\"Perhaps one of the members of the council could tell you more.\"", "zh": "「或者議會中有人能告訴汝更多。」", "zh_bytes": 32, "note": "避『許』5C trail"},
+    {"offset": 1396, "len": 4, "en": "garg", "zh": "魔像", "zh_bytes": 4, "note": "keyword 短碼維持（玩家輸入可 prefix match）"},
+    {"offset": 1401, "len": 66, "en": "\"I feel that Lord @British does not understand their true nature.\"", "zh": "「我覺得@不列顛王並未真正了解@魔像族的本性。」", "zh_bytes": 46, "note": "內嵌譯名統一為『魔像族』"},
+    {"offset": 1473, "len": 9, "en": "lord,brit", "zh": "不列顛王", "zh_bytes": 8, "note": "keyword"},
+    {"offset": 1483, "len": 41, "en": "\"I know him better than you might think.\"", "zh": "「我對他的了解，比汝想的還深。」", "zh_bytes": 32, "note": ""},
+    {"offset": 1530, "len": 4, "en": "join", "zh": "加入", "zh_bytes": 4, "note": "keyword"},
+    {"offset": 1535, "len": 68, "en": "\"I'll follow you wherever you might choose to lead - you know that.\"", "zh": "「汝去哪，我便去哪——此事汝知。」", "zh_bytes": 34, "note": ""},
+    {"offset": 1609, "len": 4, "en": "leav", "zh": "離開", "zh_bytes": 4, "note": "keyword"},
+    {"offset": 1614, "len": 90, "en": "\"I feel you need my guidance through the wild parts of Britannia. I'd best stay with you.\"", "zh": "「我覺得汝在不列顛尼亞的荒野中仍需我引路。我還是隨汝同行為妙。」", "zh_bytes": 64, "note": ""},
+    {"offset": 1710, "len": 3, "en": "bye", "zh": "別 ", "zh_bytes": 3, "note": "len=3 keyword"},
+    {"offset": 1714, "len": 13, "en": "\"A pleasure.\"", "zh": "「榮幸。」", "zh_bytes": 10, "note": "縮短"},
+    {"offset": 1732, "len": 23, "en": "\"Ask Dupre about that.\"", "zh": "「此事問杜普雷便知。」", "zh_bytes": 22, "note": ""}
+  ],
+  "keyword_mapping": {
+    "@friends": "@朋友", "@woods": "@森林", "@Forest": "@深林", "@wisps": "@幽影",
+    "@home": "@家", "@walls": "@牆", "@trees": "@樹", "@creatures": "@生靈",
+    "@mages": "@法師", "@British": "@不列顛王", "@gargoyle": "@魔像族"
+  },
+  "glossary_additions": {
+    "people": {"Shamino Salle' Dacil": "夏米諾薩列"},
+    "places": {"Deep Forest": "深林"},
+    "concepts": {"wisp": "幽影", "creature": "生靈", "townfolk": "城裡人", "council": "議會", "lifesblood": "命脈"}
+  },
+  "riddles_additions": [
+    {"npc": "Shamino", "key": "WALL_TREE", "en": "When folk ask why I have no walls in my home, I ask where are the trees in theirs!", "zh": "「人問我屋中何以無牆，我便反問——他們屋中何以無樹！」", "ref": "Shamino 招牌反問句", "strategy": "對仗式重寫"},
+    {"npc": "Shamino", "key": "LIFESBLOOD", "en": "lifesblood of the realm", "zh": "此境之命脈", "ref": "lifesblood→命脈", "strategy": "凝練意譯"}
+  ],
+  "translator_notes": "Strict 重譯：(1) offset 99 全名縮為『夏米諾薩列』 (2) offset 134 業 (3) offset 1710 別 (4) offset 1714 榮幸。 (5) B-03 fix: keyword 維持『魔像』短碼、內嵌譯『魔像族』 (6) B-08: 鑽→研究 (7) B-09: 許→不少/或者。全 41 條 ≤ len。"
+}

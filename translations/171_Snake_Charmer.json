@@ -1,0 +1,172 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 13,
+   "en": "Snake_Charmer",
+   "zh": "馴蛇者",
+   "note": "NPC name"
+  },
+  {
+   "offset": 16,
+   "len": 23,
+   "en": "an old winged gargoyle.",
+   "zh": "年邁之有翼魔像。",
+   "note": "DESC"
+  },
+  {
+   "offset": 47,
+   "len": 49,
+   "en": "The gargoyle shouts, \"An-bal-sil-fer!\" and flees!",
+   "zh": "魔像大喊：「An-bal-sil-fer！」然後逃走！",
+   "note": "旁白，魔像語保留"
+  },
+  {
+   "offset": 116,
+   "len": 52,
+   "en": "The gargoyle shouts, \"The False Prophet!\" and flees!",
+   "zh": "魔像大喊：「偽先知！」然後逃走！",
+   "note": "旁白"
+  },
+  {
+   "offset": 184,
+   "len": 47,
+   "en": "\"To feel honored by your visit, False Prophet.\"",
+   "zh": "「偽先知光臨，深感榮幸。」",
+   "note": ""
+  },
+  {
+   "offset": 232,
+   "len": 42,
+   "en": "The gargoyle seems afraid of you at first.",
+   "zh": "魔像起初似乎對你心存恐懼。",
+   "note": "旁白"
+  },
+  {
+   "offset": 277,
+   "len": 44,
+   "en": "Then he notices the amulet around your neck.",
+   "zh": "繼而他注意到你頸間的護符。",
+   "note": "旁白"
+  },
+  {
+   "offset": 324,
+   "len": 52,
+   "en": "\"To--to feel honored to address you, False Prophet.\"",
+   "zh": "「能——能向偽先知問候，深感榮幸。」",
+   "note": "緊張結巴"
+  },
+  {
+   "offset": 386,
+   "len": 49,
+   "en": "\"To ask what you wish of a simple @snakecharmer?\"",
+   "zh": "「問汝想從一介@snakecharmer馴蛇者處得到什麼？」",
+   "note": ""
+  },
+  {
+   "offset": 443,
+   "len": 30,
+   "en": "The gargoyle laughs nervously.",
+   "zh": "魔像緊張地笑了。",
+   "note": "旁白"
+  },
+  {
+   "offset": 476,
+   "len": 27,
+   "en": "\"To lack a name, of course.",
+   "zh": "「當然，吾沒有名字。",
+   "note": ""
+  },
+  {
+   "offset": 506,
+   "len": 47,
+   "en": "\"To be called simply by my @job, snakecharmer.\"",
+   "zh": "「只被以@job職業稱之，馴蛇者。」",
+   "note": ""
+  },
+  {
+   "offset": 563,
+   "len": 80,
+   "en": "\"To summon the silver @snake, and to direct the young warriors in defeating it.\"",
+   "zh": "「召喚銀色@snake巨蛇，並指引年輕武士將其擊敗。」",
+   "note": ""
+  },
+  {
+   "offset": 646,
+   "len": 64,
+   "en": "\"Then to extract the venom so that I can make the @battle-drug.\"",
+   "zh": "「而後提取蛇毒，以製作@battle戰鬥藥劑。」",
+   "note": ""
+  },
+  {
+   "offset": 731,
+   "len": 88,
+   "en": "\"To make the drug for our bravest warriors, who take it and turn into fighting daemons!\"",
+   "zh": "「為吾族最勇敢之武士製此藥劑，服之便化身為戰鬥惡魔！」",
+   "note": ""
+  },
+  {
+   "offset": 822,
+   "len": 103,
+   "en": "\"To express sorrow that the drug is fatal, but to express awe and respect for the warriors' sacrifice.\"",
+   "zh": "「此藥必致死，吾深感哀憫；然對武士之犧牲，吾深懷敬畏。」",
+   "note": ""
+  },
+  {
+   "offset": 951,
+   "len": 52,
+   "en": "\"To use the great @horn to summon the silver snake.\"",
+   "zh": "「以巨大之@horn號角召喚銀色巨蛇。」",
+   "note": ""
+  },
+  {
+   "offset": 1006,
+   "len": 57,
+   "en": "\"To always require many warriors to defeat the creature!\"",
+   "zh": "「擊敗此生靈，向來需要眾多武士！」",
+   "note": ""
+  },
+  {
+   "offset": 1074,
+   "len": 42,
+   "en": "\"To find the horn just north of my house.\"",
+   "zh": "「號角就在吾居所以北。」",
+   "note": ""
+  },
+  {
+   "offset": 1119,
+   "len": 41,
+   "en": "\"But to warn you never to blow the horn!\"",
+   "zh": "「然要警告汝，切勿吹響號角！」",
+   "note": ""
+  },
+  {
+   "offset": 1163,
+   "len": 66,
+   "en": "\"To be in grave peril from the snake without a squad of warriors!\"",
+   "zh": "「若無一隊武士在側，巨蛇所帶來的危險極為致命！」",
+   "note": ""
+  },
+  {
+   "offset": 1239,
+   "len": 65,
+   "en": "\"To express my thanks for the sacrifice you have chosen to make!\"",
+   "zh": "「對汝所選擇之犧牲，深表感激！」",
+   "note": ""
+  },
+  {
+   "offset": 1309,
+   "len": 73,
+   "en": "\"To be but a simple snake charmer, unfamiliar with matters such as that.\"",
+   "zh": "「吾不過是個普通馴蛇者，對此等事宜並不熟悉。」",
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {},
+  "places": {}
+ },
+ "riddles_additions": [],
+ "translator_notes": "馴蛇者為魔像族特殊職業NPC，負責召喚銀蛇、製作戰鬥藥劑。關鍵 quest 資訊：號角、銀蛇、致死藥劑。語氣謙遜帶恐懼。"
+}

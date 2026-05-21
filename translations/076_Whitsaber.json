@@ -1,0 +1,291 @@
+{
+ "translations": [
+  {
+   "offset": 12,
+   "len": 32,
+   "en": "a balding but distinguished man.",
+   "zh": "頭髮漸禿，然氣度不凡之男子。",
+   "note": "DESC"
+  },
+  {
+   "offset": 54,
+   "len": 53,
+   "en": "Recognizing you, fear fills the former pirate's eyes.",
+   "zh": "他認出了汝，昔日海盜眼中頓時浮現懼色。",
+   "note": "narrative"
+  },
+  {
+   "offset": 110,
+   "len": 44,
+   "en": "\"What do you want? I thought we had a deal!\"",
+   "zh": "「汝來此何事？我以為你我早有協議！」",
+   "note": ""
+  },
+  {
+   "offset": 166,
+   "len": 23,
+   "en": "\"Welcome back, Avatar!\"",
+   "zh": "「歡迎歸來，聖者！」",
+   "note": ""
+  },
+  {
+   "offset": 190,
+   "len": 18,
+   "en": "\"Welcome, Avatar!\"",
+   "zh": "「歡迎，聖者！」",
+   "note": ""
+  },
+  {
+   "offset": 217,
+   "len": 52,
+   "en": "\"I am Lord Whitsaber, mayor of this honorable town!\"",
+   "zh": "「在下乃惠特薩伯爵，此榮譽之城之市長！」",
+   "note": ""
+  },
+  {
+   "offset": 285,
+   "len": 94,
+   "en": "\"I am entrusted with an honor above all others-that of governing Trinsic, the Town of @Honor!\"",
+   "zh": "「在下受命治理崔西克——@榮譽之城，此乃世間最崇高之榮譽！」",
+   "note": ""
+  },
+  {
+   "offset": 400,
+   "len": 84,
+   "en": "\"Every citizen of this fine town strives every day to be a living example of honor.\"",
+   "zh": "「此鎮每位市民日日力行，以為榮譽之活典範。」",
+   "note": ""
+  },
+  {
+   "offset": 487,
+   "len": 51,
+   "en": "\"Of course, thy own example guides us all, Avatar!\"",
+   "zh": "「汝自身之榜樣，正是吾等最好的引導，聖者！」",
+   "note": ""
+  },
+  {
+   "offset": 575,
+   "len": 44,
+   "en": "\"I gave you the map. What more do you want?\"",
+   "zh": "「地圖已給汝了，還要何物？」",
+   "note": ""
+  },
+  {
+   "offset": 632,
+   "len": 83,
+   "en": "\"All right! If thou wouldst but promise to keep my secret, I'll give thee the map!\"",
+   "zh": "「好吧！若汝肯承諾為我保密，吾便將地圖交予汝！」",
+   "note": ""
+  },
+  {
+   "offset": 717,
+   "len": 10,
+   "en": "\"Agreed?\" ",
+   "zh": "「可否？」",
+   "note": ""
+  },
+  {
+   "offset": 733,
+   "len": 27,
+   "en": "\"What are you insinuating?\"",
+   "zh": "「汝意欲何指？」",
+   "note": ""
+  },
+  {
+   "offset": 772,
+   "len": 23,
+   "en": "\"Me, a pirate? Absurd!\"",
+   "zh": "「我是海盜？荒謬至極！」",
+   "note": ""
+  },
+  {
+   "offset": 798,
+   "len": 64,
+   "en": "He laughs out loud...but you sense a trace of fear in his voice!",
+   "zh": "他放聲大笑……然汝察覺其聲音中隱含一絲懼意！",
+   "note": ""
+  },
+  {
+   "offset": 893,
+   "len": 30,
+   "en": "\"Wh--what did Sandy tell you?\"",
+   "zh": "「那——那個桑迪跟汝說了什麼？」",
+   "note": "Sandy = 桑迪（新）"
+  },
+  {
+   "offset": 926,
+   "len": 35,
+   "en": "\"Did he say I was once a @pirate?\" ",
+   "zh": "「他說我曾是@海盜？」",
+   "note": ""
+  },
+  {
+   "offset": 972,
+   "len": 68,
+   "en": "\"The Rune of Honor? Why, it is on a pedestal in the center of town!\"",
+   "zh": "「榮譽符文？那放在城中央的台座上！」",
+   "note": ""
+  },
+  {
+   "offset": 1043,
+   "len": 73,
+   "en": "\"Even though the rune is our most prized possession, we do not guard it!\"",
+   "zh": "「儘管符文是吾等最珍貴之物，吾等並不派人守護它！」",
+   "note": ""
+  },
+  {
+   "offset": 1119,
+   "len": 30,
+   "en": "\"And dost thou know why not?\" ",
+   "zh": "「汝可知為何否？」",
+   "note": ""
+  },
+  {
+   "offset": 1160,
+   "len": 38,
+   "en": "\"The Mantra of Honor? Let me think...\"",
+   "zh": "「榮譽真言？讓我想想……」",
+   "note": ""
+  },
+  {
+   "offset": 1201,
+   "len": 38,
+   "en": "\"Oh yes, I remember now. It's 'summ.'\"",
+   "zh": "「哦，想起來了，是『summ』。」",
+   "note": "保留真言原文"
+  },
+  {
+   "offset": 1256,
+   "len": 39,
+   "en": "\"Goodbye, Avatar! Thou hast my thanks!\"",
+   "zh": "「再見，聖者！感激不盡！」",
+   "note": ""
+  },
+  {
+   "offset": 1298,
+   "len": 58,
+   "en": "\"Truly are thy compassion and honor an example to us all!\"",
+   "zh": "「汝之慈悲與榮譽，實乃吾等楷模！」",
+   "note": ""
+  },
+  {
+   "offset": 1358,
+   "len": 65,
+   "en": "\"Good $T, Avatar. Return again when thou hast more time to chat!\"",
+   "zh": "「$T安，聖者。何日再來閒談！」",
+   "note": ""
+  },
+  {
+   "offset": 1429,
+   "len": 27,
+   "en": "\"I beg thy pardon, Avatar?\"",
+   "zh": "「聖者，請再說一遍？」",
+   "note": ""
+  },
+  {
+   "offset": 1475,
+   "len": 19,
+   "en": "\"Then all is lost!\"",
+   "zh": "「那便一切皆休！」",
+   "note": ""
+  },
+  {
+   "offset": 1497,
+   "len": 40,
+   "en": "\"Have pity, Avatar, and keep my secret!\"",
+   "zh": "「聖者，發發慈悲，為我保密！」",
+   "note": ""
+  },
+  {
+   "offset": 1540,
+   "len": 53,
+   "en": "\"I have changed since those dark days, truly I have!\"",
+   "zh": "「那段黑暗歲月過後，我早已洗心革面，千真萬確！」",
+   "note": ""
+  },
+  {
+   "offset": 1601,
+   "len": 69,
+   "en": "He seems strangely relieved. \"Oh. Well, good, because it isn't true!\"",
+   "zh": "他似乎奇異地鬆了一口氣。「哦，那便好，因為那根本不是真的！」",
+   "note": ""
+  },
+  {
+   "offset": 1682,
+   "len": 36,
+   "en": "\"Oh.\" He seems disappointed somehow.",
+   "zh": "「哦。」他似乎有些失望。",
+   "note": ""
+  },
+  {
+   "offset": 1726,
+   "len": 39,
+   "en": "\"Because Trinsic is the Town of Honor!\"",
+   "zh": "「因為崔西克乃榮譽之城！」",
+   "note": ""
+  },
+  {
+   "offset": 1768,
+   "len": 53,
+   "en": "\"None here would be dishonorable enough to steal it.\"",
+   "zh": "「此地無人會無恥至去偷竊它。」",
+   "note": ""
+  },
+  {
+   "offset": 1824,
+   "len": 95,
+   "en": "\"And surely, if any took the rune, they would do the honorable thing and return it afterwards!\"",
+   "zh": "「即便有人取走符文，亦必會以榮譽之舉將其歸還！」",
+   "note": ""
+  },
+  {
+   "offset": 1931,
+   "len": 24,
+   "en": "\"Oh, thank you, Avatar.\"",
+   "zh": "「哦，多謝汝，聖者。」",
+   "note": ""
+  },
+  {
+   "offset": 1958,
+   "len": 35,
+   "en": "He hands over his piece of the map.",
+   "zh": "他將那片地圖交到汝手中。",
+   "note": ""
+  },
+  {
+   "offset": 2016,
+   "len": 43,
+   "en": "\"I'll rely on thy honor to keep my secret.\"",
+   "zh": "「吾信賴汝之榮譽，望汝為我守密。」",
+   "note": ""
+  },
+  {
+   "offset": 2067,
+   "len": 51,
+   "en": "\"But what more can I do? I cannot change the past!\"",
+   "zh": "「然我還能如何？往事已無從更改！」",
+   "note": ""
+  },
+  {
+   "offset": 2121,
+   "len": 68,
+   "en": "\"By giving you the map, do I not prove that I have changed my ways?\"",
+   "zh": "「將地圖交予汝，豈非已證明我已浪子回頭？」",
+   "note": ""
+  },
+  {
+   "offset": 2191,
+   "len": 63,
+   "en": "\"No pirate would willingly give up the key to such a treasure!\"",
+   "zh": "「哪個海盜會甘願交出通往寶藏的鑰匙！」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Whitsaber": "惠特薩伯",
+   "Sandy": "桑迪"
+  }
+ },
+ "translator_notes": "076 Whitsaber: 崔西克市長兼昔日海盜，榮譽主題貫串全篇。避5C trail字。@Honor/@pirate 保留@前綴。"
+}

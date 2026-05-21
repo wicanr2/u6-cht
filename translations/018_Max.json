@@ -1,0 +1,486 @@
+{
+ "_meta": {
+  "npc": "Max",
+  "role": "義式腔調的鐵匠（『it'sa』『wantsa』『shopa』），開兵器與甲冑鋪。Trinsic 城內角色之一（同城有 Sentri 等）；幽默粗獷，語氣口頭多用『嘛』『啦』『呐』等助詞模擬義式英語。"
+ },
+ "translations": [
+  {
+   "offset": 2,
+   "len": 3,
+   "en": "Max",
+   "zh": "麥",
+   "zh_bytes": 2,
+   "note": "人名；len=3 限制下取單字『麥』；@Max keyword 不存在，本對話無 lookup 衝突"
+  },
+  {
+   "offset": 6,
+   "len": 21,
+   "en": "a swarthy blacksmith.",
+   "zh": "一名黝黑的鐵匠。",
+   "zh_bytes": 16,
+   "note": "描述句"
+  },
+  {
+   "offset": 43,
+   "len": 37,
+   "en": "\"Hey, it'sa the Avatar. Hello again.\"",
+   "zh": "「嘿，是聖者嘛。又見面啦。」",
+   "zh_bytes": 28,
+   "note": "義式腔以『嘛』『啦』表現"
+  },
+  {
+   "offset": 81,
+   "len": 28,
+   "en": "\"Hey, and a good $T to you.\"",
+   "zh": "「嘿，祝汝$T安好嘛。」",
+   "zh_bytes": 22,
+   "note": "保留 $T 變數"
+  },
+  {
+   "offset": 122,
+   "len": 26,
+   "en": "\"What'sa you wanta nexta?\"",
+   "zh": "「汝下回想要啥嘛？」",
+   "zh_bytes": 20,
+   "note": ""
+  },
+  {
+   "offset": 151,
+   "len": 3,
+   "en": "buy",
+   "zh": "買",
+   "zh_bytes": 2,
+   "note": "@buy keyword"
+  },
+  {
+   "offset": 155,
+   "len": 34,
+   "en": "\"Do you wanta @weapons or @armor?\"",
+   "zh": "「汝想要@兵器抑或@甲冑嘛？」",
+   "zh_bytes": 28,
+   "note": "@weapons → @兵器；@armor → @甲冑"
+  },
+  {
+   "offset": 195,
+   "len": 4,
+   "en": "weap",
+   "zh": "兵器",
+   "zh_bytes": 4,
+   "note": "@weapons keyword"
+  },
+  {
+   "offset": 207,
+   "len": 34,
+   "en": "\"You to my shopa when shesa open!\"",
+   "zh": "「俺鋪子開時再來嘛！」",
+   "zh_bytes": 22,
+   "note": "店歇時通用回覆"
+  },
+  {
+   "offset": 261,
+   "len": 4,
+   "en": "armo",
+   "zh": "甲冑",
+   "zh_bytes": 4,
+   "note": "@armor keyword"
+  },
+  {
+   "offset": 273,
+   "len": 34,
+   "en": "\"You to my shopa when shesa open!\"",
+   "zh": "「俺鋪子開時再來嘛！」",
+   "zh_bytes": 22,
+   "note": "重複句"
+  },
+  {
+   "offset": 327,
+   "len": 4,
+   "en": "sell",
+   "zh": "賣",
+   "zh_bytes": 2,
+   "note": "@sell keyword；len=4 用單字"
+  },
+  {
+   "offset": 338,
+   "len": 3,
+   "en": "job",
+   "zh": "業",
+   "zh_bytes": 2,
+   "note": "@job keyword"
+  },
+  {
+   "offset": 342,
+   "len": 40,
+   "en": "\"Whassamattayu, you blind or somethin'?\"",
+   "zh": "「咋啦，汝瞎了還是怎地？」",
+   "zh_bytes": 26,
+   "note": "粗獷反問"
+  },
+  {
+   "offset": 385,
+   "len": 68,
+   "en": "\"I makea de swords and stuff, what's it alook like I'ma doin' here?\"",
+   "zh": "「俺打製刀劍之類的玩意兒，汝瞧俺在這幹嘛？」",
+   "zh_bytes": 44,
+   "note": ""
+  },
+  {
+   "offset": 456,
+   "len": 60,
+   "en": "\"You gotta somethin' to @sell oda somethin' you wanna @buy?\"",
+   "zh": "「汝有啥要@賣，或想@買啥嘛？」",
+   "zh_bytes": 30,
+   "note": ""
+  },
+  {
+   "offset": 522,
+   "len": 4,
+   "en": "name",
+   "zh": "名字",
+   "zh_bytes": 4,
+   "note": "@name keyword"
+  },
+  {
+   "offset": 527,
+   "len": 18,
+   "en": "\"I'ma nameda Max.\"",
+   "zh": "「俺名喚麥仕。」",
+   "zh_bytes": 16,
+   "note": "自稱用較完整『麥仕』音譯"
+  },
+  {
+   "offset": 551,
+   "len": 3,
+   "en": "bye",
+   "zh": "別",
+   "zh_bytes": 2,
+   "note": "@bye keyword"
+  },
+  {
+   "offset": 555,
+   "len": 40,
+   "en": "\"Goodbyea to you. Come abacka soon, ah?\"",
+   "zh": "「再會啦，早些回來吶？」",
+   "zh_bytes": 24,
+   "note": ""
+  },
+  {
+   "offset": 600,
+   "len": 53,
+   "en": "\"Hey, my hearing, she's notsa so good. What you say?\"",
+   "zh": "「嘿，俺耳朵不靈光啦。汝再說一遍？」",
+   "zh_bytes": 36,
+   "note": "預設不解回應"
+  },
+  {
+   "offset": 666,
+   "len": 34,
+   "en": "\"You to my shopa when shesa open!\"",
+   "zh": "「俺鋪子開時再來嘛！」",
+   "zh_bytes": 22,
+   "note": "重複"
+  },
+  {
+   "offset": 844,
+   "len": 68,
+   "en": "\"Hey, atsa real shame, but anone of you hasa anything I'ma needing.\"",
+   "zh": "「嘿，真可惜哇，可汝等沒人有俺要的東西。」",
+   "zh_bytes": 42,
+   "note": "避『呐』改『哇』"
+  },
+  {
+   "offset": 947,
+   "len": 41,
+   "en": "\"Aye, $Y has asomething ofa interesta...\"",
+   "zh": "「哦，$Y有個有意思的玩意兒……」",
+   "zh_bytes": 32,
+   "note": "保留 $Y"
+  },
+  {
+   "offset": 1020,
+   "len": 6,
+   "en": "#1) $Y",
+   "zh": "#1) $Y",
+   "zh_bytes": 6,
+   "note": "選單格式 — 含 $Y 變數，保留 ASCII"
+  },
+  {
+   "offset": 1050,
+   "len": 17,
+   "en": "\"Awhich of you?\" ",
+   "zh": "「汝等哪個嘛？」",
+   "zh_bytes": 16,
+   "note": ""
+  },
+  {
+   "offset": 1242,
+   "len": 4,
+   "en": "#0) ",
+   "zh": "#0) ",
+   "zh_bytes": 4,
+   "note": "選單前綴 — 保留 ASCII"
+  },
+  {
+   "offset": 1288,
+   "len": 21,
+   "en": "\"Awhicha one adese?\" ",
+   "zh": "「這些哪一件嘛？」",
+   "zh_bytes": 18,
+   "note": ""
+  },
+  {
+   "offset": 1387,
+   "len": 41,
+   "en": "\"Will you take #7 gold for that $0, $Y?\" ",
+   "zh": "「$0這玩意願收#7金嘛，$Y？」",
+   "zh_bytes": 28,
+   "note": "保留 $0/#7/$Y"
+  },
+  {
+   "offset": 1429,
+   "len": 2,
+   "en": "yn",
+   "zh": "yn",
+   "zh_bytes": 2,
+   "note": "yes/no token"
+  },
+  {
+   "offset": 1441,
+   "len": 34,
+   "en": "\"Perhapsa some other atime athen.\"",
+   "zh": "「下回再說嘛。」",
+   "zh_bytes": 16,
+   "note": ""
+  },
+  {
+   "offset": 1483,
+   "len": 33,
+   "en": "\"Perhaps asomethinga else athen?\"",
+   "zh": "「換樣別的嘛？」",
+   "zh_bytes": 16,
+   "note": ""
+  },
+  {
+   "offset": 1532,
+   "len": 59,
+   "en": "\"She'sa done!\" $N hands $Y #7 gold pieces and takes the $0.",
+   "zh": "「成啦！」$N給了$Y #7金，收下$0。",
+   "zh_bytes": 33,
+   "note": "成交描述"
+  },
+  {
+   "offset": 1647,
+   "len": 27,
+   "en": "\"Achanged your aminda, eh?\"",
+   "zh": "「改主意了嘛？」",
+   "zh_bytes": 16,
+   "note": ""
+  },
+  {
+   "offset": 1688,
+   "len": 34,
+   "en": "\"You to my shopa when shesa open!\"",
+   "zh": "「俺鋪子開時再來嘛！」",
+   "zh_bytes": 22,
+   "note": "重複句"
+  },
+  {
+   "offset": 1769,
+   "len": 6,
+   "en": "#2) $Y",
+   "zh": "#2) $Y",
+   "zh_bytes": 6,
+   "note": "選單格式"
+  },
+  {
+   "offset": 1809,
+   "len": 16,
+   "en": "\"Awhich a you?\" ",
+   "zh": "「汝等哪個嘛？」",
+   "zh_bytes": 16,
+   "note": ""
+  },
+  {
+   "offset": 1904,
+   "len": 6,
+   "en": "#0) $0",
+   "zh": "#0) $0",
+   "zh_bytes": 6,
+   "note": "選單格式"
+  },
+  {
+   "offset": 1975,
+   "len": 21,
+   "en": "\"Awhicha one adese?\" ",
+   "zh": "「這些哪一件嘛？」",
+   "zh_bytes": 18,
+   "note": ""
+  },
+  {
+   "offset": 2064,
+   "len": 33,
+   "en": "\"That $1, she'sa costa #1 agold.\"",
+   "zh": "「$1這件嘛，要#1金。」",
+   "zh_bytes": 22,
+   "note": "保留 $1/#1"
+  },
+  {
+   "offset": 2100,
+   "len": 18,
+   "en": "\"Interested, $Y?\" ",
+   "zh": "「$Y有意嘛？」",
+   "zh_bytes": 14,
+   "note": ""
+  },
+  {
+   "offset": 2119,
+   "len": 2,
+   "en": "yn",
+   "zh": "yn",
+   "zh_bytes": 2,
+   "note": "yes/no token"
+  },
+  {
+   "offset": 2161,
+   "len": 42,
+   "en": "\"But she'sa be making thee too heavy, $Y!\"",
+   "zh": "「可這會讓$Y太重啦！」",
+   "zh_bytes": 22,
+   "note": "玩家背包超重"
+  },
+  {
+   "offset": 2253,
+   "len": 18,
+   "en": "\"Hey, at'sa good!\"",
+   "zh": "「嘿，這敢情好！」",
+   "zh_bytes": 18,
+   "note": ""
+  },
+  {
+   "offset": 2273,
+   "len": 48,
+   "en": "After accepting $Y's gold, $N hands over the $1.",
+   "zh": "收下$Y的金錢後，$N將$1交予。",
+   "zh_bytes": 28,
+   "note": "成交描述"
+  },
+  {
+   "offset": 2330,
+   "len": 42,
+   "en": "\"But she'sa costing too much for you, $Y!\"",
+   "zh": "「可這對$Y太貴啦！」",
+   "zh_bytes": 20,
+   "note": "金錢不足"
+  },
+  {
+   "offset": 2422,
+   "len": 6,
+   "en": "Dagger",
+   "zh": "匕首",
+   "zh_bytes": 4,
+   "note": "兵器名"
+  },
+  {
+   "offset": 2429,
+   "len": 5,
+   "en": "Spear",
+   "zh": "長矛",
+   "zh_bytes": 4,
+   "note": "兵器名"
+  },
+  {
+   "offset": 2435,
+   "len": 5,
+   "en": "Sword",
+   "zh": "劍",
+   "zh_bytes": 2,
+   "note": "兵器名"
+  },
+  {
+   "offset": 2441,
+   "len": 11,
+   "en": "2-Hnd Sword",
+   "zh": "雙手劍",
+   "zh_bytes": 6,
+   "note": "兵器名"
+  },
+  {
+   "offset": 2453,
+   "len": 12,
+   "en": "Cloth Armour",
+   "zh": "布甲",
+   "zh_bytes": 4,
+   "note": "甲冑名"
+  },
+  {
+   "offset": 2466,
+   "len": 10,
+   "en": "Chain Mail",
+   "zh": "鎖鏈甲",
+   "zh_bytes": 6,
+   "note": "甲冑名"
+  },
+  {
+   "offset": 2477,
+   "len": 13,
+   "en": "Heater Shield",
+   "zh": "鳶形盾",
+   "zh_bytes": 6,
+   "note": "甲冑名；heater shield=鳶形盾"
+  },
+  {
+   "offset": 2491,
+   "len": 9,
+   "en": "Iron Helm",
+   "zh": "鐵盔",
+   "zh_bytes": 4,
+   "note": "甲冑名"
+  },
+  {
+   "offset": 2501,
+   "len": 14,
+   "en": "Leather Armour",
+   "zh": "皮甲",
+   "zh_bytes": 4,
+   "note": "甲冑名"
+  },
+  {
+   "offset": 2516,
+   "len": 10,
+   "en": "Plate Mail",
+   "zh": "甲甲",
+   "zh_bytes": 4,
+   "note": "甲冑名"
+  }
+ ],
+ "keyword_mapping": {
+  "@weapons": "@兵器",
+  "@armor": "@甲冑",
+  "@sell": "@賣",
+  "@buy": "@買"
+ },
+ "glossary_additions": {
+  "people": {
+   "Max": "麥仕（鐵匠）"
+  },
+  "concepts": {
+   "blacksmith": "鐵匠",
+   "armor": "甲冑",
+   "weapons": "兵器"
+  },
+  "items": {
+   "Dagger": "匕首",
+   "Spear": "長矛",
+   "Sword": "劍",
+   "2-Hnd Sword": "雙手劍",
+   "Cloth Armour": "布甲",
+   "Chain Mail": "鎖鏈甲",
+   "Heater Shield": "鳶形盾",
+   "Iron Helm": "鐵盔",
+   "Leather Armour": "皮甲",
+   "Plate Mail": "鎧甲"
+  }
+ },
+ "riddles_additions": [],
+ "translator_notes": "Max 義式美語腔（『it'sa』『shopa』『makea』『anone』）；中文以『俺』『嘛』『啦』『哇』模擬粗獷外國商人腔調，仍保莊重稱呼『汝』。所有貨幣／物品變數（$0/$1/$Y/$N/#1/#7）原樣保留。avoid 5C trail（無）。Display name 因 len=3 用單字『麥』；自介時擴為『麥仕』。兵器與甲冑名首批進 glossary。"
+}

@@ -1,0 +1,181 @@
+{
+ "translations": [
+  {
+   "offset": 10,
+   "len": 53,
+   "en": "a commanding presence: a tall warrior in black armor.",
+   "zh": "氣勢懾人的高大武士，身著黑色鎧甲。",
+   "note": "DESC"
+  },
+  {
+   "offset": 66,
+   "len": 32,
+   "en": "He stands and bows to you. \"`$G.",
+   "zh": "他起身向你行禮。「`$G，",
+   "note": "split string，下接 Art thou a warrior?"
+  },
+  {
+   "offset": 113,
+   "len": 22,
+   "en": " Art thou a warrior?\" ",
+   "zh": "汝可是武士？」",
+   "note": "接在 `$G 之後"
+  },
+  {
+   "offset": 141,
+   "len": 44,
+   "en": "\"Then why hast thou come to Serpent's Hold?\"",
+   "zh": "「那汝為何來蛇之要塞？」",
+   "note": "hast thou=have you 古語"
+  },
+  {
+   "offset": 193,
+   "len": 52,
+   "en": "\"Good! I seek @courageous warriors to accompany me.\"",
+   "zh": "「好！吾正在尋覓@勇敢的武士同行。」",
+   "note": ""
+  },
+  {
+   "offset": 257,
+   "len": 20,
+   "en": "\"Who wants to know?\"",
+   "zh": "「哪位在問？」",
+   "note": ""
+  },
+  {
+   "offset": 280,
+   "len": 32,
+   "en": "\"Well, `$Z, I am Baron de Hugh.\"",
+   "zh": "「哦，`$Z，吾乃德于格男爵。」",
+   "note": "`$Z = player's name/topic echo"
+  },
+  {
+   "offset": 322,
+   "len": 24,
+   "en": "\"I am a @mercenary now.\"",
+   "zh": "「吾現在是名@傭兵。」",
+   "note": ""
+  },
+  {
+   "offset": 362,
+   "len": 32,
+   "en": "\"First I shall gather an @army.\"",
+   "zh": "「首先吾要聚集一支@大軍。」",
+   "note": ""
+  },
+  {
+   "offset": 415,
+   "len": 51,
+   "en": "\"I plan to build my reputation as a great fighter.\"",
+   "zh": "「吾計劃以強悍戰士之名建立聲望。」",
+   "note": ""
+  },
+  {
+   "offset": 469,
+   "len": 55,
+   "en": "\"My army and I will kill the mighty daemon @Sin'Vraal!\"",
+   "zh": "「吾與大軍將誅殺那強大的邪靈@辛弗拉！」",
+   "note": ""
+  },
+  {
+   "offset": 559,
+   "len": 87,
+   "en": "\"He is a malevolent creature, lord over numerous servants who crawl about the @desert.\"",
+   "zh": "「他是凶惡的生靈，統御著眾多在@沙漠中爬行的僕役。」",
+   "note": ""
+  },
+  {
+   "offset": 657,
+   "len": 67,
+   "en": "\"It is on the north-eastern tip of Britannia. Look it up on a map.\"",
+   "zh": "「就在不列顛尼亞的東北角。查地圖吧。」",
+   "note": ""
+  },
+  {
+   "offset": 735,
+   "len": 90,
+   "en": "\"It is foolish to be courageous unless one is backed by a well-trained force of fighters.\"",
+   "zh": "「若無訓練精良的戰力支援，展現勇氣不過是愚蠢之舉。」",
+   "note": ""
+  },
+  {
+   "offset": 828,
+   "len": 53,
+   "en": "\"Or unless one happens to be the @Avatar, I imagine.\"",
+   "zh": "「或者，除非你碰巧是@聖者，我想。」",
+   "note": ""
+  },
+  {
+   "offset": 892,
+   "len": 52,
+   "en": "\"I heard at the @guild that the Avatar was in town!\"",
+   "zh": "「吾在@公會聽說聖者來到這一帶了！」",
+   "note": ""
+  },
+  {
+   "offset": 960,
+   "len": 91,
+   "en": "\"@Koronada says I will be considered for membership when I have done something noteworthy.\"",
+   "zh": "「@科羅那達說，吾一旦建立功績，便會被考慮入會。」",
+   "note": "Koronada=Koranada的拼法變體"
+  },
+  {
+   "offset": 1054,
+   "len": 42,
+   "en": "\"Have ye ever done aught worthy of note?\" ",
+   "zh": "「汝可曾立下值得一提的功績？」",
+   "note": "aught=anything 古語"
+  },
+  {
+   "offset": 1107,
+   "len": 100,
+   "en": "\"He is firm but fair.  He does not wish to see any unworthy person bear the Silver Serpent @blazon.\"",
+   "zh": "「他嚴格但公正。他不願見到任何不配之人配戴銀蛇@盾徽。」",
+   "note": ""
+  },
+  {
+   "offset": 1223,
+   "len": 71,
+   "en": "\"I believe the silver serpent is a quick and highly venomous creature.\"",
+   "zh": "「吾相信銀蛇是一種行動敏捷、毒性極強的生物。」",
+   "note": ""
+  },
+  {
+   "offset": 1305,
+   "len": 51,
+   "en": "\"A blazon is a shield marking, such as a @serpent.\"",
+   "zh": "「盾徽是盾牌上的紋章標記，例如@蛇紋。」",
+   "note": ""
+  },
+  {
+   "offset": 1366,
+   "len": 16,
+   "en": "\"Good luck, $G.\"",
+   "zh": "「祝汝好運，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 1387,
+   "len": 29,
+   "en": "\"That I cannot help ye with.\"",
+   "zh": "「此事吾幫不上忙。」",
+   "note": ""
+  },
+  {
+   "offset": 1427,
+   "len": 33,
+   "en": "\"Well, actually, neither have I!\"",
+   "zh": "「說實話，吾也沒有！」",
+   "note": "humorous self-deprecating admission"
+  },
+  {
+   "offset": 1468,
+   "len": 115,
+   "en": "\"Then surely Koronada has heard of ye.  Tell him your name and he may invite ye to join the Silver Serpent @guild.\"",
+   "zh": "「那科羅那達必然聽說過汝。去告訴他你的名字，他或許會邀汝加入銀蛇@公會。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"de Hugh": "德于格"}, "places": {"Serpent's Hold": "蛇之要塞"}},
+ "translator_notes": "德于格男爵是野心勃勃的傭兵，想殺死辛弗拉以建立聲望，從而加入銀蛇騎士團。他自承尚未建立任何值得一提的功績（自嘲喜感）。古語半文言風格（吾/汝/hast thou/aught）。"
+}

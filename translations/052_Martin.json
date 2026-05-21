@@ -1,0 +1,154 @@
+{
+  "translations": [
+    {
+      "offset": 9,
+      "len": 29,
+      "en": "a jolly, red-faced innkeeper.",
+      "zh": "一位臉色紅潤、笑容可掬的客棧老闆。",
+      "note": "DESC"
+    },
+    {
+      "offset": 41,
+      "len": 13,
+      "en": "\"Vell, hello ",
+      "zh": "「唔，哈囉",
+      "note": "Dutch-accented partial; V→W simulation"
+    },
+    {
+      "offset": 60,
+      "len": 5,
+      "en": "again",
+      "zh": "，再次見到",
+      "note": "again branch"
+    },
+    {
+      "offset": 66,
+      "len": 4,
+      "en": "dere",
+      "zh": "，那裡的",
+      "note": "there branch"
+    },
+    {
+      "offset": 77,
+      "len": 13,
+      "en": ", mine friend",
+      "zh": "，我的朋友",
+      "note": ""
+    },
+    {
+      "offset": 96,
+      "len": 34,
+      "en": "! Velcome to the Varrior's Stead!\"",
+      "zh": "！歡迎光臨武士驛站！」",
+      "note": "Warrior's Stead inn"
+    },
+    {
+      "offset": 133,
+      "len": 38,
+      "en": "\"Vat can I be doing for thee this $T?\"",
+      "zh": "「吾這個$T能為汝做些什麼？」",
+      "note": "Dutch 'Vat'=What"
+    },
+    {
+      "offset": 179,
+      "len": 56,
+      "en": "\"Mine name ist Martin, but my friends call me '@Dutch.'\"",
+      "zh": "「吾的名字是馬丁，但朋友們叫吾『@荷蘭人』。」",
+      "note": "Dutch nickname"
+    },
+    {
+      "offset": 246,
+      "len": 22,
+      "en": "\"Ja, dat's mine name!\"",
+      "zh": "「對，那就是吾的名號！」",
+      "note": "Ja=Yes in Dutch; dat's=that's"
+    },
+    {
+      "offset": 278,
+      "len": 17,
+      "en": "\"I run dis @inn.\"",
+      "zh": "「吾經營這家@客棧。」",
+      "note": ""
+    },
+    {
+      "offset": 315,
+      "len": 49,
+      "en": "\"Room und board ist 5 gold per night per person.\"",
+      "zh": "「住宿含膳食，每人每晚 5 枚金幣。」",
+      "note": "und=and, ist=is"
+    },
+    {
+      "offset": 367,
+      "len": 14,
+      "en": "\"Interested?\" ",
+      "zh": "「有意嗎？」",
+      "note": ""
+    },
+    {
+      "offset": 391,
+      "len": 44,
+      "en": "\"Haf a good journey!\" he calls as you leave.",
+      "zh": "「祝旅途愉快！」他在汝離去時呼喊道。",
+      "note": "Haf=Have"
+    },
+    {
+      "offset": 440,
+      "len": 57,
+      "en": "\"I speak your language not so good. Vat is meaning '$Z'?\"",
+      "zh": "「吾說汝們的語言不太好。『$Z』是什麼意思？」",
+      "note": ""
+    },
+    {
+      "offset": 517,
+      "len": 36,
+      "en": "\"Vell, perhaps some other time, ja?\"",
+      "zh": "「唔，或許改天，好嗎？」",
+      "note": ""
+    },
+    {
+      "offset": 582,
+      "len": 44,
+      "en": "\"Ach, I'm sorry, but I must haf my #0 gold.\"",
+      "zh": "「唉，抱歉，但吾必須收取 #0 枚金幣。」",
+      "note": ""
+    },
+    {
+      "offset": 629,
+      "len": 43,
+      "en": "\"Come back ven fortune makes you rich, ah?\"",
+      "zh": "「等財運好轉再來，好嗎？」",
+      "note": ""
+    },
+    {
+      "offset": 691,
+      "len": 70,
+      "en": "He shows you to your room, and you drift off into a well-earned sleep.",
+      "zh": "他領汝到房間，汝沉入了當之無愧的好眠。",
+      "note": "action"
+    },
+    {
+      "offset": 765,
+      "len": 60,
+      "en": "The next morning, Martin serves you a huge, tasty breakfast.",
+      "zh": "翌日清晨，馬丁端上一頓豐盛可口的早餐。",
+      "note": "action"
+    },
+    {
+      "offset": 828,
+      "len": 60,
+      "en": "\"A good breakfast is the beginning of a good day!\" he cries.",
+      "zh": "「美好的一天從豐盛的早餐開始！」他高喊道。",
+      "note": ""
+    }
+  ],
+  "glossary_additions": {
+    "people": {
+      "Martin": "馬丁"
+    },
+    "places": {
+      "Warrior's Stead": "武士驛站"
+    },
+    "concepts": {}
+  },
+  "translator_notes": "馬丁（Dutch）是個帶荷蘭腔的客棧老闆，把 W 說成 V（Vell/Vat/Velcome）。中文無法直接模擬此音，但保留其熱情豪爽的個性。Dutch 譯為「荷蘭人」以保留趣味。Martin 已在 glossary。"
+}

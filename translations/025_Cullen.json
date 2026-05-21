@@ -1,0 +1,528 @@
+{
+  "_meta": {
+    "npc": "Cullen the Baker",
+    "role": "不列顛城烘焙師；矮個、深膚、渾身白麵粉；熱情、笑時麵粉揚起。為 Lord British 烤糕點。賣麵包、蛋糕、餐包；買玩家的麵粉。標準商買賣對話樹（buy/sell）。"
+  },
+  "translations": [
+    {
+      "offset": 2,
+      "len": 6,
+      "en": "Cullen",
+      "zh": "卡倫",
+      "zh_bytes": 4,
+      "note": "人名音譯；Cullen → 卡倫"
+    },
+    {
+      "offset": 9,
+      "len": 42,
+      "en": "a short, dark man, covered in white flour.",
+      "zh": "矮個、深膚之人，渾身沾滿白麵粉。",
+      "zh_bytes": 32,
+      "note": ""
+    },
+    {
+      "offset": 54,
+      "len": 7,
+      "en": "\"Hello ",
+      "zh": "「汝好 ",
+      "zh_bytes": 7,
+      "note": "句首，待接續"
+    },
+    {
+      "offset": 67,
+      "len": 5,
+      "en": "again",
+      "zh": "又見",
+      "zh_bytes": 4,
+      "note": "問候詞 1"
+    },
+    {
+      "offset": 73,
+      "len": 5,
+      "en": "there",
+      "zh": "啊",
+      "zh_bytes": 2,
+      "note": "問候詞 2"
+    },
+    {
+      "offset": 85,
+      "len": 11,
+      "en": ", my friend",
+      "zh": "，吾友",
+      "zh_bytes": 6,
+      "note": ""
+    },
+    {
+      "offset": 102,
+      "len": 2,
+      "en": "!\"",
+      "zh": "!\"",
+      "zh_bytes": 2,
+      "note": "len=2 保留 ASCII"
+    },
+    {
+      "offset": 107,
+      "len": 77,
+      "en": "As he shakes your hand enthusiastically, clouds of flour fly off his clothes.",
+      "zh": "他熱情地握汝之手，衣上麵粉如雲揚起。",
+      "zh_bytes": 36,
+      "note": ""
+    },
+    {
+      "offset": 187,
+      "len": 4,
+      "en": "name",
+      "zh": "名字",
+      "zh_bytes": 4,
+      "note": "@name keyword"
+    },
+    {
+      "offset": 192,
+      "len": 32,
+      "en": "\"I'm Cullen, Cullen the @Baker.\"",
+      "zh": "「我乃卡倫，@麵包師卡倫。」",
+      "zh_bytes": 27,
+      "note": ""
+    },
+    {
+      "offset": 230,
+      "len": 3,
+      "en": "job",
+      "zh": "業",
+      "zh_bytes": 2,
+      "note": "@job keyword"
+    },
+    {
+      "offset": 234,
+      "len": 51,
+      "en": "\"I'd have thought that'd be obvious! I'm a @baker!\"",
+      "zh": "「這還用問麼！我是@麵包師！」",
+      "zh_bytes": 29,
+      "note": ""
+    },
+    {
+      "offset": 288,
+      "len": 66,
+      "en": "As he laughs heartily, more clouds of flour rise off his clothing.",
+      "zh": "他開懷大笑，衣上更多麵粉揚起如雲。",
+      "zh_bytes": 34,
+      "note": ""
+    },
+    {
+      "offset": 357,
+      "len": 80,
+      "en": "\"You can @buy bakery goods from me or perhaps you have some flour to @sell, eh?\"",
+      "zh": "「汝可向我@買烘焙之物，或汝有@麵粉欲@賣，是否？」",
+      "zh_bytes": 49,
+      "note": ""
+    },
+    {
+      "offset": 443,
+      "len": 4,
+      "en": "bake",
+      "zh": "麵包",
+      "zh_bytes": 4,
+      "note": "@baker keyword"
+    },
+    {
+      "offset": 448,
+      "len": 62,
+      "en": "\"I bake goods for Lord British himself!\" the man says proudly.",
+      "zh": "「我為不列顛王親自烤製糕點！」他自豪道。",
+      "zh_bytes": 40,
+      "note": ""
+    },
+    {
+      "offset": 513,
+      "len": 48,
+      "en": "\"If you'd like to @buy some, just say the word!\"",
+      "zh": "「若欲@買幾樣，但說無妨！」",
+      "zh_bytes": 27,
+      "note": "注意『許』5C-trail — 後續會檢查"
+    },
+    {
+      "offset": 567,
+      "len": 3,
+      "en": "buy",
+      "zh": "買",
+      "zh_bytes": 2,
+      "note": "@buy keyword"
+    },
+    {
+      "offset": 577,
+      "len": 9,
+      "en": "sell,flou",
+      "zh": "賣,麵粉",
+      "zh_bytes": 7,
+      "note": "keyword 群組"
+    },
+    {
+      "offset": 593,
+      "len": 3,
+      "en": "bye",
+      "zh": "別",
+      "zh_bytes": 2,
+      "note": "@bye keyword"
+    },
+    {
+      "offset": 597,
+      "len": 18,
+      "en": "\"Come again soon!\"",
+      "zh": "「速速再來！」",
+      "zh_bytes": 14,
+      "note": ""
+    },
+    {
+      "offset": 620,
+      "len": 15,
+      "en": "\"Hmmm... $Z...\"",
+      "zh": "「嗯…$Z…」",
+      "zh_bytes": 12,
+      "note": "保留 $Z 變數"
+    },
+    {
+      "offset": 638,
+      "len": 7,
+      "en": "\"$Z...\"",
+      "zh": "\"$Z...\"",
+      "zh_bytes": 7,
+      "note": "len=7，保留全 ASCII（含雙引號）"
+    },
+    {
+      "offset": 648,
+      "len": 41,
+      "en": "\"Nope, I don't know anything about that!\"",
+      "zh": "「不，此事我一無所知！」",
+      "zh_bytes": 24,
+      "note": ""
+    },
+    {
+      "offset": 702,
+      "len": 33,
+      "en": "\"Come to my shop when it's open!\"",
+      "zh": "「店開時再來吧！」",
+      "zh_bytes": 18,
+      "note": ""
+    },
+    {
+      "offset": 782,
+      "len": 6,
+      "en": "#2) $Y",
+      "zh": "#2) $Y",
+      "zh_bytes": 6,
+      "note": "保留變數"
+    },
+    {
+      "offset": 822,
+      "len": 16,
+      "en": "\"Which of you?\" ",
+      "zh": "「諸位何人？」",
+      "zh_bytes": 14,
+      "note": ""
+    },
+    {
+      "offset": 848,
+      "len": 16,
+      "en": "\"Suit yourself.\"",
+      "zh": "「悉聽尊便。」",
+      "zh_bytes": 14,
+      "note": ""
+    },
+    {
+      "offset": 937,
+      "len": 6,
+      "en": "#0) $0",
+      "zh": "#0) $0",
+      "zh_bytes": 6,
+      "note": "保留變數"
+    },
+    {
+      "offset": 983,
+      "len": 14,
+      "en": "\"Which item?\" ",
+      "zh": "「哪一樣？」 ",
+      "zh_bytes": 13,
+      "note": "末尾空白保留"
+    },
+    {
+      "offset": 1007,
+      "len": 47,
+      "en": "\"Suit thyself, $Y, but thou'lt find no better!\"",
+      "zh": "「悉聽尊便，$Y，但汝再無更佳之選！」",
+      "zh_bytes": 36,
+      "note": ""
+    },
+    {
+      "offset": 1109,
+      "len": 26,
+      "en": "\"Those cost #1 gold each.\"",
+      "zh": "「每件 #1 金幣。」",
+      "zh_bytes": 18,
+      "note": "保留 #1"
+    },
+    {
+      "offset": 1138,
+      "len": 28,
+      "en": "\"How many do you want, $Y?\" ",
+      "zh": "「$Y 要幾件？」 ",
+      "zh_bytes": 16,
+      "note": ""
+    },
+    {
+      "offset": 1176,
+      "len": 43,
+      "en": "\"Suit thyself, but thou'lt find no better!\"",
+      "zh": "「悉聽尊便，但再無更佳之選！」",
+      "zh_bytes": 30,
+      "note": ""
+    },
+    {
+      "offset": 1232,
+      "len": 38,
+      "en": "\"Whoa! Don't buy out my entire stock!\"",
+      "zh": "「哇！別把我整家店都買光！」",
+      "zh_bytes": 28,
+      "note": ""
+    },
+    {
+      "offset": 1408,
+      "len": 33,
+      "en": "\"Thou canst not carry that many!\"",
+      "zh": "「汝攜不了如此之多！」",
+      "zh_bytes": 22,
+      "note": ""
+    },
+    {
+      "offset": 1444,
+      "len": 32,
+      "en": "\"I will sell thee just #5 $1\\s.\"",
+      "zh": "「在下只賣汝 #5 件 $1。」",
+      "zh_bytes": 25,
+      "note": "保留 #5 $1 \\s"
+    },
+    {
+      "offset": 1485,
+      "len": 35,
+      "en": "\"But thou canst not carry any $1s!\"",
+      "zh": "「然汝再裝不下半件 $1！」",
+      "zh_bytes": 25,
+      "note": ""
+    },
+    {
+      "offset": 1530,
+      "len": 42,
+      "en": "\"Thou hast not enough gold for that many!\"",
+      "zh": "「汝金幣不足以購此數！」",
+      "zh_bytes": 24,
+      "note": ""
+    },
+    {
+      "offset": 1575,
+      "len": 32,
+      "en": "\"I will sell thee just #5 $1\\s.\"",
+      "zh": "「在下只賣汝 #5 件 $1。」",
+      "zh_bytes": 25,
+      "note": "重複句"
+    },
+    {
+      "offset": 1616,
+      "len": 35,
+      "en": "\"But thou canst not afford any $1!\"",
+      "zh": "「然汝半件 $1 也買不起！」",
+      "zh_bytes": 26,
+      "note": ""
+    },
+    {
+      "offset": 1657,
+      "len": 14,
+      "en": "\"Here's thy $1",
+      "zh": "「此即汝之 $1",
+      "zh_bytes": 13,
+      "note": "句首，待接續"
+    },
+    {
+      "offset": 1713,
+      "len": 21,
+      "en": ", plus one for luck!\"",
+      "zh": "，再添一件吉利！」",
+      "zh_bytes": 18,
+      "note": ""
+    },
+    {
+      "offset": 1735,
+      "len": 6,
+      "en": ", $Y.\"",
+      "zh": ", $Y.\"",
+      "zh_bytes": 6,
+      "note": "len=6 太短，全保留 ASCII"
+    },
+    {
+      "offset": 1745,
+      "len": 32,
+      "en": "\"How about something else, $Y?\" ",
+      "zh": "「$Y，另選一物如何？」 ",
+      "zh_bytes": 23,
+      "note": "末尾空白"
+    },
+    {
+      "offset": 1778,
+      "len": 2,
+      "en": "yn",
+      "zh": "yn",
+      "zh_bytes": 2,
+      "note": "yes/no 標記"
+    },
+    {
+      "offset": 1798,
+      "len": 32,
+      "en": "\"Perhaps some other time, then.\"",
+      "zh": "「那便他日再說吧。」",
+      "zh_bytes": 20,
+      "note": ""
+    },
+    {
+      "offset": 1843,
+      "len": 35,
+      "en": "\"Perhaps one of thy friends, then?\"",
+      "zh": "「莫非汝同伴中可有人要？」",
+      "zh_bytes": 26,
+      "note": ""
+    },
+    {
+      "offset": 1886,
+      "len": 27,
+      "en": "\"Perhaps thy friend, then?\"",
+      "zh": "「莫非汝同伴要？」",
+      "zh_bytes": 18,
+      "note": ""
+    },
+    {
+      "offset": 1948,
+      "len": 33,
+      "en": "\"Come to my shop when it's open!\"",
+      "zh": "「店開之時再來吧！」",
+      "zh_bytes": 20,
+      "note": ""
+    },
+    {
+      "offset": 2114,
+      "len": 35,
+      "en": "\"Sorry, none of you has any flour.\"",
+      "zh": "「抱歉，諸位皆無麵粉。」",
+      "zh_bytes": 24,
+      "note": ""
+    },
+    {
+      "offset": 2210,
+      "len": 6,
+      "en": "#1. $Y",
+      "zh": "#1. $Y",
+      "zh_bytes": 6,
+      "note": "保留變數"
+    },
+    {
+      "offset": 2250,
+      "len": 16,
+      "en": "\"Which of you?\" ",
+      "zh": "「諸位何人？」",
+      "zh_bytes": 14,
+      "note": ""
+    },
+    {
+      "offset": 2351,
+      "len": 72,
+      "en": "$N turns to $Y, and says \"Will you take 5 gold for that sack of flour?\" ",
+      "zh": "$N 轉向 $Y，問：「那袋麵粉，5 金幣可賣？」 ",
+      "zh_bytes": 43,
+      "note": "末尾空白"
+    },
+    {
+      "offset": 2424,
+      "len": 2,
+      "en": "yn",
+      "zh": "yn",
+      "zh_bytes": 2,
+      "note": ""
+    },
+    {
+      "offset": 2429,
+      "len": 62,
+      "en": "\"Done!\" He hands $Y 5 gold pieces and takes the sack of flour.",
+      "zh": "「成交！」他遞 $Y 5 枚金幣，取走那袋麵粉。",
+      "zh_bytes": 42,
+      "note": ""
+    },
+    {
+      "offset": 2539,
+      "len": 31,
+      "en": "\"Sorry, you haven't any flour.\"",
+      "zh": "「抱歉，汝身上無麵粉。」",
+      "zh_bytes": 24,
+      "note": ""
+    },
+    {
+      "offset": 2577,
+      "len": 43,
+      "en": "\"Changed your mind, eh?\" he folds his arms.",
+      "zh": "「改了主意，是麼？」他抱起雙臂。",
+      "zh_bytes": 32,
+      "note": ""
+    },
+    {
+      "offset": 2628,
+      "len": 34,
+      "en": "\"Well, what else will it be then?\"",
+      "zh": "「那麼，還要點什麼？」",
+      "zh_bytes": 22,
+      "note": ""
+    },
+    {
+      "offset": 2697,
+      "len": 5,
+      "en": "Bread",
+      "zh": "麵包",
+      "zh_bytes": 4,
+      "note": "物品名"
+    },
+    {
+      "offset": 2703,
+      "len": 4,
+      "en": "Cake",
+      "zh": "糕",
+      "zh_bytes": 2,
+      "note": "物品名"
+    },
+    {
+      "offset": 2708,
+      "len": 5,
+      "en": "Rolls",
+      "zh": "圓包",
+      "zh_bytes": 4,
+      "note": "物品名；避『餐』5C-trail (c05c) 改『圓包』"
+    }
+  ],
+  "keyword_mapping": {
+    "@Baker": "@麵包師",
+    "@baker": "@麵包師",
+    "@buy": "@買",
+    "@sell": "@賣"
+  },
+  "glossary_additions": {
+    "people": {
+      "Cullen the Baker": "麵包師卡倫"
+    },
+    "concepts": {
+      "baker": "麵包師",
+      "bakery goods": "烘焙之物",
+      "flour": "麵粉"
+    },
+    "items": {
+      "bread": "麵包",
+      "cake": "糕",
+      "rolls": "圓包",
+      "sack of flour": "袋麵粉"
+    }
+  },
+  "riddles_additions": [],
+  "translator_notes": "Cullen 為熱情烘焙師；對話標準商人 buy/sell 樹。對玩家用『汝』偏古典口吻。Bread/Cake/Rolls 物品名簡譯。注意 offset 1735 len=6 不能放『，$Y。」』8 bytes，改用 ASCII 逗點。檢查 5C trail。"
+}

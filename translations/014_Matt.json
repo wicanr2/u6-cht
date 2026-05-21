@@ -1,0 +1,72 @@
+{
+  "_meta": {
+    "npc": "Matt",
+    "role": "聾啞工人（Trinsic？居民），透過 Dupre 的解說讓玩家了解 Matt 無法言語，應去問他的妻子。"
+  },
+  "translations": [
+    {
+      "offset": 2,
+      "len": 4,
+      "en": "Matt",
+      "zh": "馬特",
+      "zh_bytes": 4,
+      "note": "人名音譯"
+    },
+    {
+      "offset": 7,
+      "len": 69,
+      "en": "a gaunt fellow, with eyes that take in everything and reveal nothing.",
+      "zh": "一名瘦削的漢子，雙眼將一切盡收，卻不流露分毫。",
+      "zh_bytes": 46,
+      "note": "描述句"
+    },
+    {
+      "offset": 79,
+      "len": 97,
+      "en": "When you address him, the man replies with gestures that appear to be some kind of sign language.",
+      "zh": "汝向他開口時，此人僅以手勢回應，似乎是某種手語。",
+      "zh_bytes": 48,
+      "note": "描述句"
+    },
+    {
+      "offset": 179,
+      "len": 94,
+      "en": "When he sees that you can't understand him, he shrugs his shoulders and returns to his duties.",
+      "zh": "他見汝聽不懂他的意思，便聳了聳肩，回去繼續做他的事。",
+      "zh_bytes": 52,
+      "note": "描述句"
+    },
+    {
+      "offset": 285,
+      "len": 49,
+      "en": "Dupre puts his hand on your shoulder and whispers",
+      "zh": "杜普雷將手搭上汝的肩膀，低聲說道",
+      "zh_bytes": 32,
+      "note": "Dupre 旁白"
+    },
+    {
+      "offset": 337,
+      "len": 85,
+      "en": "\"Matt here had a most unfortunate accident as a child, and it left him deaf and dumb.",
+      "zh": "「這位馬特幼時遭逢不幸，自此便又聾又啞。",
+      "zh_bytes": 40,
+      "note": "Dupre 解說"
+    },
+    {
+      "offset": 425,
+      "len": 42,
+      "en": "I'd suggest you ask his wife instead, $P.\"",
+      "zh": "$P，建議汝改去問他妻子。」",
+      "zh_bytes": 26,
+      "note": "保留 $P"
+    }
+  ],
+  "keyword_mapping": {},
+  "glossary_additions": {
+    "people": {
+      "Matt": "馬特"
+    }
+  },
+  "riddles_additions": [],
+  "translator_notes": "Matt 為聾啞 NPC，所有對白由 Dupre 旁白替代。譯文採文白並用，杜普雷沿用既定譯名。"
+}

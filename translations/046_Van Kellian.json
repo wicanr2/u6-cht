@@ -1,0 +1,327 @@
+{
+  "translations": [
+    {
+      "offset": 14,
+      "len": 61,
+      "en": "a man dressed in velvets and silks of yellow, green and blue.",
+      "zh": "一位身著黃、綠、藍三色天鵝絨與絲綢的男子。",
+      "note": "DESC"
+    },
+    {
+      "offset": 78,
+      "len": 29,
+      "en": "His voice is rich and mellow.",
+      "zh": "他的聲音渾厚圓潤。",
+      "note": "DESC cont."
+    },
+    {
+      "offset": 117,
+      "len": 83,
+      "en": "He glances behind him and ducks, as if expecting someone to throw something at him.",
+      "zh": "他往身後瞟了一眼，隨即低頭躲閃，彷彿預期有人要往他身上扔什麼東西。",
+      "note": "action"
+    },
+    {
+      "offset": 203,
+      "len": 75,
+      "en": "\"Bit of a brawl going on just now. Be glad to talk to you some other time.\"",
+      "zh": "「現在正鬧著一場鬥毆。改天再與汝暢談。」",
+      "note": ""
+    },
+    {
+      "offset": 296,
+      "len": 43,
+      "en": "\"How do you do. I am the bard Van Kellian.\"",
+      "zh": "「幸會。吾乃吟遊詩人范凱利安。」",
+      "note": ""
+    },
+    {
+      "offset": 342,
+      "len": 30,
+      "en": "\"Please, speak your name, $G.\"",
+      "zh": "「請告知吾汝的名號，$G。」",
+      "note": ""
+    },
+    {
+      "offset": 375,
+      "len": 29,
+      "en": "\"A pleasure, to be sure, $Z.\"",
+      "zh": "「幸會，$Z，確實如此。」",
+      "note": "$Z player input preserved"
+    },
+    {
+      "offset": 405,
+      "len": 34,
+      "en": "\"A very good $T to ye, my friend.\"",
+      "zh": "「$T 吉祥，吾友。」",
+      "note": ""
+    },
+    {
+      "offset": 453,
+      "len": 14,
+      "en": "\"Call me Van.\"",
+      "zh": "「叫吾范便是。」",
+      "note": ""
+    },
+    {
+      "offset": 477,
+      "len": 27,
+      "en": "\"Why, singing is my trade.\"",
+      "zh": "「哦，吟唱乃吾之本業。」",
+      "note": ""
+    },
+    {
+      "offset": 507,
+      "len": 48,
+      "en": "\"Songs to soothe the soul and refresh the mind.\"",
+      "zh": "「以歌聲撫慰靈魂、提振精神。」",
+      "note": ""
+    },
+    {
+      "offset": 558,
+      "len": 23,
+      "en": "\"Shall I sing for ye?\" ",
+      "zh": "「吾為汝獻唱如何？」",
+      "note": ""
+    },
+    {
+      "offset": 593,
+      "len": 40,
+      "en": "Iolo rolls his eyes and whispers to you.",
+      "zh": "尤洛翻了個白眼，在汝耳邊低語。",
+      "note": "action"
+    },
+    {
+      "offset": 636,
+      "len": 51,
+      "en": "\"He believes he does us a favor. This I must hear.\"",
+      "zh": "「他以為自己是在幫我們。這個我非聽不可。」",
+      "note": "Iolo aside"
+    },
+    {
+      "offset": 694,
+      "len": 27,
+      "en": "\"Well? How about a @song?\" ",
+      "zh": "「怎麼樣？要聽@歌嗎？」",
+      "note": ""
+    },
+    {
+      "offset": 738,
+      "len": 31,
+      "en": "\"'Tis such a topsy-turvy world ",
+      "zh": "「此世界顛倒乖離",
+      "note": "song verse 1 line 1"
+    },
+    {
+      "offset": 770,
+      "len": 34,
+      "en": "When my sweet lady-love whirls by ",
+      "zh": "吾甜心佳人翩然而過",
+      "note": "song verse 1 line 2"
+    },
+    {
+      "offset": 806,
+      "len": 35,
+      "en": "I would that I could catch her eye ",
+      "zh": "吾但願能引她回眸一盼",
+      "note": "song verse 1 line 3"
+    },
+    {
+      "offset": 843,
+      "len": 20,
+      "en": "Sing ho eyo he hum!\"",
+      "zh": "嗨呦嗨呦哼！」",
+      "note": "song refrain; phonetic rendering"
+    },
+    {
+      "offset": 874,
+      "len": 72,
+      "en": "\"Did ye know that the mantra of pride is 'mul?' A @beggar told me that.\"",
+      "zh": "「汝可知驕傲之真言為『mul』？一位@乞丐告訴吾的。」",
+      "note": "mantra 'mul' stays as game mechanic word"
+    },
+    {
+      "offset": 966,
+      "len": 57,
+      "en": "\"There is little enough dignity in the life of a beggar.\"",
+      "zh": "「乞丐的生活中所剩無幾的尊嚴。」",
+      "note": ""
+    },
+    {
+      "offset": 1026,
+      "len": 36,
+      "en": "\"I gave him a few coins, of course.\"",
+      "zh": "「吾當然給了他幾枚銅幣。」",
+      "note": ""
+    },
+    {
+      "offset": 1078,
+      "len": 75,
+      "en": "\"Starhelm and I have often debated the nature of the gargoyle @Sin 'Vraal.\"",
+      "zh": "「史塔赫姆與吾曾多次辯論魔像@辛弗拉的本質。」",
+      "note": ""
+    },
+    {
+      "offset": 1173,
+      "len": 64,
+      "en": "\"If Lord British suffers him to live, then I will not harm him.\"",
+      "zh": "「若不列顛王容他存活，吾便不傷害他。」",
+      "note": ""
+    },
+    {
+      "offset": 1240,
+      "len": 76,
+      "en": "\"What possible threat could one @gargoyle living alone in the Dry Lands be?\"",
+      "zh": "「一個獨居於旱地的@魔像族，能有何威脅？」",
+      "note": ""
+    },
+    {
+      "offset": 1328,
+      "len": 33,
+      "en": "Stelnar says \"I'll tell ye, Van.\"",
+      "zh": "史塔赫姆說：「吾來告訴汝，范。」",
+      "note": ""
+    },
+    {
+      "offset": 1364,
+      "len": 30,
+      "en": "\"If ye let one gargoyle live, ",
+      "zh": "「若汝放過一隻魔像，",
+      "note": "partial"
+    },
+    {
+      "offset": 1395,
+      "len": 39,
+      "en": "then ye'll be tempted to spare trolls, ",
+      "zh": "則汝便會心軟放過食人魔，",
+      "note": "partial"
+    },
+    {
+      "offset": 1435,
+      "len": 25,
+      "en": "and then even cyclopses.\"",
+      "zh": "乃至獨眼巨人。」",
+      "note": ""
+    },
+    {
+      "offset": 1463,
+      "len": 65,
+      "en": "\"And then ye forget valour, and soon ye are overrun by monsters!\"",
+      "zh": "「然後汝忘卻勇氣，很快便被怪物淹沒！」",
+      "note": ""
+    },
+    {
+      "offset": 1550,
+      "len": 47,
+      "en": "\"Valour comes from the courage to be virtuous.\"",
+      "zh": "「勇氣來自於踐行美德的勇敢。」",
+      "note": "Van's response"
+    },
+    {
+      "offset": 1600,
+      "len": 54,
+      "en": "\"Just as compassion comes from a love of all mankind.\"",
+      "zh": "「正如慈悲源於對眾生的愛。」",
+      "note": ""
+    },
+    {
+      "offset": 1666,
+      "len": 67,
+      "en": "\"Aha! That means monsters are not deserving of mercy!\" says Stelnar",
+      "zh": "「啊哈！那就是說怪物不值得憐憫！」史塔赫姆說道",
+      "note": ""
+    },
+    {
+      "offset": 1740,
+      "len": 30,
+      "en": "\"Courage grows. Why not love?\"",
+      "zh": "「勇氣可以成長。為何愛不能？」",
+      "note": "Van's comeback"
+    },
+    {
+      "offset": 1782,
+      "len": 45,
+      "en": "\"Well, I hear their skin is stony and rough.\"",
+      "zh": "「嗯，吾聽說牠們的皮膚粗糙如石。」",
+      "note": ""
+    },
+    {
+      "offset": 1829,
+      "len": 71,
+      "en": "\"Their cries are fierce yowlings to make the blood run cold with fear.\"",
+      "zh": "「牠們的嚎叫猛烈刺耳，令人聞之膽寒。」",
+      "note": ""
+    },
+    {
+      "offset": 1903,
+      "len": 59,
+      "en": "\"Though, mind ye, I myself have never faced one in combat.\"",
+      "zh": "「不過，請注意，吾本人從未親自與之交戰。」",
+      "note": ""
+    },
+    {
+      "offset": 1972,
+      "len": 24,
+      "en": "\"Good $T, and farewell.\"",
+      "zh": "「$T 吉祥，告辭了。」",
+      "note": "bye"
+    },
+    {
+      "offset": 2001,
+      "len": 38,
+      "en": "\"Hmm. No, I cannot help ye with that.\"",
+      "zh": "「嗯。不，此事吾無法助汝。」",
+      "note": ""
+    },
+    {
+      "offset": 2051,
+      "len": 35,
+      "en": "\"Well, perhaps another time, then.\"",
+      "zh": "「嗯，那便改日吧。」",
+      "note": ""
+    },
+    {
+      "offset": 2089,
+      "len": 32,
+      "en": "The bard plays a harp and sings.",
+      "zh": "詩人撥弄豎琴高聲吟唱。",
+      "note": "action"
+    },
+    {
+      "offset": 2124,
+      "len": 34,
+      "en": "\"Tho' she disdains to speak to me ",
+      "zh": "「雖她不屑與吾言",
+      "note": "song verse 2 line 1"
+    },
+    {
+      "offset": 2160,
+      "len": 31,
+      "en": "Ah how I pine and sigh for her ",
+      "zh": "啊吾為她朝思暮想",
+      "note": "song verse 2 line 2"
+    },
+    {
+      "offset": 2193,
+      "len": 32,
+      "en": "I would that I were handsome- o ",
+      "zh": "吾但願自身能英俊—哦",
+      "note": "song verse 2 line 3"
+    },
+    {
+      "offset": 2227,
+      "len": 20,
+      "en": "Sing ho eyo he hum!\"",
+      "zh": "嗨呦嗨呦哼！」",
+      "note": "refrain"
+    }
+  ],
+  "glossary_additions": {
+    "people": {
+      "Van Kellian": "范凱利安"
+    },
+    "places": {},
+    "concepts": {}
+  },
+  "translator_notes": "范凱利安是吟遊詩人，語氣雅致柔軟，與史塔赫姆的粗獷形成對比。歌詞力求韻律感，以意境為主。真言『mul』保留英文。尤洛的旁白調侃范的演唱天賦。"
+}

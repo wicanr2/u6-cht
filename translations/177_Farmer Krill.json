@@ -1,0 +1,249 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 12,
+   "en": "Farmer Krill",
+   "zh": "農夫克里爾",
+   "note": "NPC name"
+  },
+  {
+   "offset": 15,
+   "len": 41,
+   "en": "a large, healthy-looking winged gargoyle.",
+   "zh": "體格高大健壯之有翼魔像。",
+   "note": "DESC"
+  },
+  {
+   "offset": 66,
+   "len": 58,
+   "en": "The gargoyle screams, \"An-bal-sil-fer! Des-lem, klep lem!\"",
+   "zh": "魔像嘶喊：「An-bal-sil-fer！Des-lem, klep lem！」",
+   "note": "魔像語保留"
+  },
+  {
+   "offset": 137,
+   "len": 59,
+   "en": "The gargoyle screams, \"The False Prophet! Workers, attack!\"",
+   "zh": "魔像嘶喊：「偽先知！工人們，攻擊！」",
+   "note": "旁白嵌入"
+  },
+  {
+   "offset": 205,
+   "len": 50,
+   "en": "\"Good $T, noble $P. To be pleased by your return!\"",
+   "zh": "「$T好，高貴之$P。汝之歸返令吾甚悅！」",
+   "note": ""
+  },
+  {
+   "offset": 256,
+   "len": 49,
+   "en": "\"To note that you wear the Amulet of Submission.\"",
+   "zh": "「注意到汝佩戴臣服護符。」",
+   "note": ""
+  },
+  {
+   "offset": 308,
+   "len": 58,
+   "en": "\"To admire your courage and to appreciate your sacrifice.\"",
+   "zh": "「敬佩汝之勇氣，感激汝之犧牲。」",
+   "note": ""
+  },
+  {
+   "offset": 369,
+   "len": 61,
+   "en": "\"To ask your name, that I may address you in a noble manner?\"",
+   "zh": "「敢問汝之名諱，以便以高貴之方式稱呼汝？」",
+   "note": ""
+  },
+  {
+   "offset": 441,
+   "len": 19,
+   "en": "\"To greet you, $0.\"",
+   "zh": "「向$0致意。」",
+   "note": ""
+  },
+  {
+   "offset": 475,
+   "len": 65,
+   "en": "\"To be named Krill Us-arb-vas-lem, Krill the @Leader of Farmers.\"",
+   "zh": "「吾名克里爾·烏斯-阿爾布-瓦斯-蘭，即農夫@Leader統帥克里爾。」",
+   "note": ""
+  },
+  {
+   "offset": 550,
+   "len": 74,
+   "en": "\"To @lead the @wingless ones, the worker gargoyles who tend these fields.\"",
+   "zh": "「@lead領導@wingless無翼者，即看守這些田地的工匠魔像。」",
+   "note": ""
+  },
+  {
+   "offset": 627,
+   "len": 40,
+   "en": "\"To have great fortune in my @harvests!\"",
+   "zh": "「吾之@harvests收成一向極為豐盛！」",
+   "note": ""
+  },
+  {
+   "offset": 693,
+   "len": 86,
+   "en": "\"To be forced by necessity to give the @wingless ones no room for choice or @freedom.\"",
+   "zh": "「迫於必要，對@wingless無翼者毫不給予選擇或@freedom自由之餘地。」",
+   "note": ""
+  },
+  {
+   "offset": 794,
+   "len": 93,
+   "en": "\"Beh Lem? To be but a child. To someday grow wings just like his father, Scholar @Valkadesh.\"",
+   "zh": "「貝蘭？不過是個孩子。他日必如其父學者@Valkadesh一般長出翅膀。」",
+   "note": ""
+  },
+  {
+   "offset": 888,
+   "len": 34,
+   "en": "\"To not understand what you mean.\"",
+   "zh": "「不明白汝之意。」",
+   "note": ""
+  },
+  {
+   "offset": 934,
+   "len": 83,
+   "en": "\"To admire the wisdom of Scholar Valkadesh, but to consider his @studies unseemly.\"",
+   "zh": "「敬佩學者瓦卡德許之智慧，然認為其@studies研究不成體統。」",
+   "note": ""
+  },
+  {
+   "offset": 1028,
+   "len": 54,
+   "en": "\"To abhor his continued study of the accursed humans!\"",
+   "zh": "「對其持續研究被詛咒的人類深惡痛絕！」",
+   "note": ""
+  },
+  {
+   "offset": 1085,
+   "len": 33,
+   "en": "The gargoyle pauses, embarrassed.",
+   "zh": "魔像停頓一下，有些尷尬。",
+   "note": "旁白"
+  },
+  {
+   "offset": 1121,
+   "len": 32,
+   "en": "\"To mean no offense to you, $P.\"",
+   "zh": "「無意冒犯汝，$P。」",
+   "note": ""
+  },
+  {
+   "offset": 1156,
+   "len": 48,
+   "en": "\"To acknowledge the nobility of your sacrifice.\"",
+   "zh": "「承認汝之犧牲之高貴。」",
+   "note": ""
+  },
+  {
+   "offset": 1207,
+   "len": 46,
+   "en": "\"To consider you a great credit to your race!\"",
+   "zh": "「認為汝是汝族之莫大榮耀！」",
+   "note": ""
+  },
+  {
+   "offset": 1274,
+   "len": 114,
+   "en": "\"To acknowledge that it may seem harsh, but to assure you that there is no other way to treat the @wingless ones.\"",
+   "zh": "「承認此舉看似嚴苛，然向汝保證，對待@wingless無翼者別無他法。」",
+   "note": ""
+  },
+  {
+   "offset": 1391,
+   "len": 74,
+   "en": "\"To receive good @harvests only through firm control and clear direction.\"",
+   "zh": "「唯有嚴格管控與明確指引，方能獲得豐盛@harvests收成。」",
+   "note": ""
+  },
+  {
+   "offset": 1476,
+   "len": 46,
+   "en": "\"To consider them valuable members of society ",
+   "zh": "「視之為社會之有用成員，",
+   "note": "前半"
+  },
+  {
+   "offset": 1523,
+   "len": 46,
+   "en": "who need firm control and strong @leadership.\"",
+   "zh": "然需要嚴格管控與強力@leadership統率。」",
+   "note": "後半"
+  },
+  {
+   "offset": 1572,
+   "len": 62,
+   "en": "\"To explain that they are far less intelligent than you or I.\"",
+   "zh": "「要說明，他們的智力遠不如汝或吾。」",
+   "note": ""
+  },
+  {
+   "offset": 1670,
+   "len": 82,
+   "en": "\"To receive bountiful harvests thanks to the efforts of my well-directed workers.\"",
+   "zh": "「多虧吾悉心指導的工人們努力，才能獲得豐盛收成。」",
+   "note": ""
+  },
+  {
+   "offset": 1755,
+   "len": 77,
+   "en": "\"To feed my workers far better than misguided Farmer @Nash to the east does.\"",
+   "zh": "「吾對工人的照料遠勝東邊那個錯誤引導的@Nash農夫納許。」",
+   "note": ""
+  },
+  {
+   "offset": 1843,
+   "len": 45,
+   "en": "\"To be ashamed that Nash lacks common sense.\"",
+   "zh": "「為納許缺乏常識而深感羞愧。」",
+   "note": ""
+  },
+  {
+   "offset": 1891,
+   "len": 63,
+   "en": "\"To be appalled by his uncontrolled heart and undirected mind.\"",
+   "zh": "「對他缺乏克制之心與條理之思，吾深感震驚。」",
+   "note": ""
+  },
+  {
+   "offset": 1956,
+   "len": 59,
+   "en": "\"To point out his unproductive fields as an example of why ",
+   "zh": "「以他的低產田地為例，說明何以",
+   "note": "前半"
+  },
+  {
+   "offset": 2016,
+   "len": 39,
+   "en": "the wingless ones need firm @guidance.\"",
+   "zh": "無翼者需要嚴格的@guidance引導。」",
+   "note": "後半"
+  },
+  {
+   "offset": 2065,
+   "len": 54,
+   "en": "\"To have greatly enjoyed this conversation, noble $P.\"",
+   "zh": "「此番交談令吾深感愉快，高貴之$P。」",
+   "note": ""
+  },
+  {
+   "offset": 2124,
+   "len": 29,
+   "en": "\"To ask what you mean by $Z?\"",
+   "zh": "「請問$Z是何意？」",
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {},
+  "places": {}
+ },
+ "riddles_additions": [],
+ "translator_notes": "農夫克里爾與農夫納許形成對比：克里爾豐收但嚴苛，納許仁慈但低產。此為魔像社會中有翼者與無翼者階級問題的縮影。克里爾研究人類之論帶有偏見，但被玩家（偽先知）的在場搞得尷尬。"
+}

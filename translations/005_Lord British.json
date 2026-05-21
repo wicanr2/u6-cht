@@ -1,0 +1,1060 @@
+{
+ "_meta": {
+  "npc": "Lord British",
+  "batches": 3
+ },
+ "translations": [
+  {
+   "offset": 2,
+   "len": 12,
+   "en": "Lord British",
+   "zh": "不列顛王",
+   "zh_bytes": 8
+  },
+  {
+   "offset": 15,
+   "len": 29,
+   "en": "the noble ruler of Britannia.",
+   "zh": "不列顛尼亞之賢君。",
+   "zh_bytes": 18
+  },
+  {
+   "offset": 66,
+   "len": 89,
+   "en": "\"$P! 'Tis good to see thee again. Much hath happened since thou last departed our realm.\"",
+   "zh": "\"$P！見汝復歸，朕心甚悅。汝離去後，國中已歷諸多變故。\"",
+   "zh_bytes": 54
+  },
+  {
+   "offset": 179,
+   "len": 40,
+   "en": "\"But I must make sure 'tis truly thee.\"*",
+   "zh": "\"然朕須確認，眼前果真是汝。\"*",
+   "zh_bytes": 29
+  },
+  {
+   "offset": 221,
+   "len": 79,
+   "en": "\"Only the true Avatar would know what was contained in the Compendium I sent.\"*",
+   "zh": "\"唯有真聖者方知朕所贈典籍之內容。\n【以下為原版密碼保護題目（U6 Copy Protection），保留英文以存古風；答案於括號內以拉丁字母提供。】\"*",
+   "zh_bytes": 35
+  },
+  {
+   "offset": 447,
+   "len": 42,
+   "en": "\"Ah, 'tis thee indeed, $P. Take this key.\"",
+   "zh": "\"啊，果然是汝，$P。收下此鑰匙。\"",
+   "zh_bytes": 32
+  },
+  {
+   "offset": 492,
+   "len": 70,
+   "en": "\"It will unlock the gatehouse by the southern entrance to the castle.\"",
+   "zh": "\"此鑰可開啟城堡南側入口的門房。\"",
+   "zh_bytes": 32
+  },
+  {
+   "offset": 565,
+   "len": 101,
+   "en": "\"Then you can use the lever inside to raise the portcullis, and the crank will lower the drawbridge.\"",
+   "zh": "\"進入後，扳動內側拉桿便可升起閘門，轉動曲柄則可放下吊橋。\"",
+   "zh_bytes": 58
+  },
+  {
+   "offset": 669,
+   "len": 67,
+   "en": "\"The same key will also let you into the sewers under the castle.\"*",
+   "zh": "\"此鑰亦可通往城堡下方的下水道。\"*",
+   "zh_bytes": 33
+  },
+  {
+   "offset": 758,
+   "len": 65,
+   "en": "\"Now let me tell thee what hath transpired since thy last visit.\"",
+   "zh": "\"現在容朕告訴汝，自汝上次來訪後發生之事。\"",
+   "zh_bytes": 42
+  },
+  {
+   "offset": 826,
+   "len": 69,
+   "en": "\"The vast underworld from which thou didst rescue me hath collapsed.\"",
+   "zh": "\"汝曾救朕脫困的廣大幽冥界，已經崩塌了。\"",
+   "zh_bytes": 40
+  },
+  {
+   "offset": 898,
+   "len": 56,
+   "en": "\"Yet still there are forces of evil abroad in the land.\"",
+   "zh": "\"然而邪惡勢力仍在這片土地上肆虐。\"",
+   "zh_bytes": 34
+  },
+  {
+   "offset": 957,
+   "len": 72,
+   "en": "\"Britannia is under attack by gargoyles such as those thou just fought.\"",
+   "zh": "\"不列顛尼亞正遭魔像族侵襲——汝方才所戰者，即其族類。\"",
+   "zh_bytes": 54,
+   "note": "[二輪 reviewer 修]"
+  },
+  {
+   "offset": 1032,
+   "len": 48,
+   "en": "\"They have been coming up through the dungeons.\"",
+   "zh": "\"它們一直從各地下城湧出。\"",
+   "zh_bytes": 26
+  },
+  {
+   "offset": 1083,
+   "len": 78,
+   "en": "\"Thus far they have mainly been attacking the @shrines of the eight @virtues.\"",
+   "zh": "\"至今它們主要攻擊八大@美德的@聖壇。\"",
+   "zh_bytes": 36
+  },
+  {
+   "offset": 1164,
+   "len": 82,
+   "en": "\"When the Shrine of Compassion didst fall, Sir @Geoffrey sent a party to free it.\"",
+   "zh": "\"當慈悲聖壇陷落時，@傑佛瑞爵士已派一隊人馬前去解救。\"",
+   "zh_bytes": 53
+  },
+  {
+   "offset": 1249,
+   "len": 79,
+   "en": "\"Do thou ask him of this mission. Perhaps thou canst prove of some assistance.\"",
+   "zh": "\"汝可向他詢問此事。或許汝能助一臂之力。\"",
+   "zh_bytes": 40
+  },
+  {
+   "offset": 1331,
+   "len": 83,
+   "en": "\"Whilst thou art here, I have a room in the castle set aside for thy personal use.\"",
+   "zh": "\"汝在此期間，朕已於城堡內為汝備有一室。\"",
+   "zh_bytes": 40
+  },
+  {
+   "offset": 1417,
+   "len": 71,
+   "en": "\"'Tis in the west wing of the castle, just south of mine own chambers.\"",
+   "zh": "\"位於城堡西翼，就在朕寢室之南。\"",
+   "zh_bytes": 32
+  },
+  {
+   "offset": 1491,
+   "len": 91,
+   "en": "\"I have had my servants place some equipment there, in case thou shouldst have need of it.\"",
+   "zh": "\"朕已命僕從於室內備妥裝備，以備汝不時之需。\"",
+   "zh_bytes": 44
+  },
+  {
+   "offset": 1585,
+   "len": 92,
+   "en": "\"Of course, thou mayst feel free to borrow anything in my castle, if thou shouldst need it.\"",
+   "zh": "\"當然，汝若有需要，城堡中之物皆可隨意取用。\"",
+   "zh_bytes": 44
+  },
+  {
+   "offset": 1680,
+   "len": 63,
+   "en": "\"Lastly, any time thou dost need @healing, do thou but ask me.\"",
+   "zh": "\"最後，汝若需@療傷，但問朕便可。\"",
+   "zh_bytes": 33
+  },
+  {
+   "offset": 1746,
+   "len": 68,
+   "en": "\"If thou doth wish me to @repeat all this later, thou need but ask.\"",
+   "zh": "\"若汝願朕日後再@重述此事，但開口即可。\"",
+   "zh_bytes": 39
+  },
+  {
+   "offset": 1836,
+   "len": 50,
+   "en": "\"I see thou hath misplaced thy key to the castle.\"",
+   "zh": "\"朕見汝似乎遺失了城堡的鑰匙。\"",
+   "zh_bytes": 30
+  },
+  {
+   "offset": 1889,
+   "len": 18,
+   "en": "\"Here is another.\"",
+   "zh": "\"再給汝一把。\"",
+   "zh_bytes": 14
+  },
+  {
+   "offset": 1925,
+   "len": 42,
+   "en": "\"Good $T, $P. What wouldst thou speak of?\"",
+   "zh": "\"$T安，$P。汝欲談何事？\"",
+   "zh_bytes": 24
+  },
+  {
+   "offset": 1970,
+   "len": 4,
+   "en": "name",
+   "zh": "名字",
+   "zh_bytes": 4
+  },
+  {
+   "offset": 1975,
+   "len": 42,
+   "en": "\"I am Lord British, as thou knowest well.\"",
+   "zh": "\"朕乃不列顛王，汝自當知曉。\"",
+   "zh_bytes": 28
+  },
+  {
+   "offset": 2023,
+   "len": 3,
+   "en": "rep",
+   "zh": "重",
+   "zh_bytes": 2
+  },
+  {
+   "offset": 2033,
+   "len": 3,
+   "en": "job",
+   "zh": "業",
+   "zh_bytes": 2
+  },
+  {
+   "offset": 2037,
+   "len": 63,
+   "en": "\"Thanks to thee, I sit once more upon the throne of Britannia.\"",
+   "zh": "\"賴汝之力，朕方能再坐不列顛尼亞之王座。\"",
+   "zh_bytes": 40
+  },
+  {
+   "offset": 2103,
+   "len": 62,
+   "en": "\"Though 'tis a heavy burden in such @troubled times as these.\"",
+   "zh": "\"然此亂世，此乃沉重之@擔。\"",
+   "zh_bytes": 27
+  },
+  {
+   "offset": 2171,
+   "len": 19,
+   "en": "heav,burd,trou,time",
+   "zh": "沉重,重擔,亂世,時局",
+   "zh_bytes": 19
+  },
+  {
+   "offset": 2191,
+   "len": 73,
+   "en": "\"The @gargoyles art indeed the greatest threat our realm has ever known.\"",
+   "zh": "\"@魔像族實為此境前所未有之最大威脅。\"",
+   "zh_bytes": 37
+  },
+  {
+   "offset": 2267,
+   "len": 79,
+   "en": "\"We are fortunate indeed that fate hath brought thee here in our hour of need.\"",
+   "zh": "\"幸有命運將汝帶至此，正當吾國危難之時。\"",
+   "zh_bytes": 40
+  },
+  {
+   "offset": 2352,
+   "len": 4,
+   "en": "garg",
+   "zh": "魔像",
+   "zh_bytes": 4
+  },
+  {
+   "offset": 2357,
+   "len": 104,
+   "en": "\"Perhaps thou canst drive these vile creatures back into the bowels of the earth from whence they came.\"",
+   "zh": "\"或許汝能將此等邪物驅回它們所來之地底深處。\"",
+   "zh_bytes": 44
+  },
+  {
+   "offset": 2464,
+   "len": 50,
+   "en": "\"All our efforts thus far have availed us naught.\"",
+   "zh": "\"我等迄今所有努力皆徒勞無功。\"",
+   "zh_bytes": 30
+  },
+  {
+   "offset": 2520,
+   "len": 4,
+   "en": "shri",
+   "zh": "聖壇",
+   "zh_bytes": 4
+  },
+  {
+   "offset": 2525,
+   "len": 50,
+   "en": "\"By now the gargoyles may have captured them all.\"",
+   "zh": "\"如今聖壇恐已盡為魔像族所奪。\"",
+   "zh_bytes": 30,
+   "note": "[二輪 reviewer 修]"
+  },
+  {
+   "offset": 2578,
+   "len": 60,
+   "en": "\"Thou must hurry if thou wouldst foil their evil schemes...\"",
+   "zh": "\"汝須速行，方能挫敗其陰謀……\"",
+   "zh_bytes": 30
+  },
+  {
+   "offset": 2644,
+   "len": 4,
+   "en": "virt",
+   "zh": "美德",
+   "zh_bytes": 4
+  },
+  {
+   "offset": 2649,
+   "len": 53,
+   "en": "\"Stay strong in thy commitment to the eight virtues.\"",
+   "zh": "\"當堅守汝對八大美德之信念。\"",
+   "zh_bytes": 28
+  },
+  {
+   "offset": 2705,
+   "len": 110,
+   "en": "\"It is our belief in them that sets us apart from the cruel invaders who would destroy all that we hold dear.\"",
+   "zh": "\"正是吾等對美德之信念，方使我等有別於那殘暴入侵者，欲毀去吾等所珍視之一切。\"",
+   "zh_bytes": 76
+  },
+  {
+   "offset": 2821,
+   "len": 4,
+   "en": "geof",
+   "zh": "傑佛",
+   "zh_bytes": 4
+  },
+  {
+   "offset": 2826,
+   "len": 33,
+   "en": "\"He is the Captain of the Guard.\"",
+   "zh": "\"他乃近衛隊長。\"",
+   "zh_bytes": 16
+  },
+  {
+   "offset": 2865,
+   "len": 23,
+   "en": "moon,gate,ston,blac,orb",
+   "zh": "月光,月之門,黑石,月之球",
+   "zh_bytes": 23
+  },
+  {
+   "offset": 2889,
+   "len": 38,
+   "en": "You show Lord British the black stone.",
+   "zh": "汝向不列顛王展示那塊黑色月光石。",
+   "zh_bytes": 32,
+   "note": "[二輪 reviewer 修]"
+  },
+  {
+   "offset": 2930,
+   "len": 51,
+   "en": "\"Hmmmm... I have such a stone, as thou may recall.\"",
+   "zh": "\"嗯……朕亦藏有此般月光石，汝當記得。\"",
+   "zh_bytes": 38,
+   "note": "[二輪 reviewer 修]"
+  },
+  {
+   "offset": 2984,
+   "len": 48,
+   "en": "\"I did not know that there were more such orbs.\"",
+   "zh": "\"朕不知世上尚有其他月之球。\"",
+   "zh_bytes": 28
+  },
+  {
+   "offset": 3035,
+   "len": 80,
+   "zh": "\"汝若能掌握其力，必於遠行之途大有助益。\"",
+   "en": "\"'Twill serve thee well in thy travels if thou dost learn to master its powers.\"",
+   "zh_bytes": 40
+  },
+  {
+   "offset": 3118,
+   "len": 80,
+   "zh": "\"欲開月之門，取石持之，慎置於汝身前數尺。\"",
+   "en": "\"To open a gate, use the stone, and carefully position it a few feet from thee.\"",
+   "zh_bytes": 42
+  },
+  {
+   "offset": 3201,
+   "len": 51,
+   "zh": "\"汝將發現位置乃是關鍵所在。\"",
+   "en": "\"Thou wilt discover that the placement is the key.\"",
+   "zh_bytes": 28
+  },
+  {
+   "offset": 3255,
+   "len": 26,
+   "zh": "\"若置之於正位，",
+   "en": "\"In the proper positions, ",
+   "zh_bytes": 15
+  },
+  {
+   "offset": 3282,
+   "len": 69,
+   "zh": "此石便能召出月之門，攜汝至無數遠方。\"",
+   "en": "the stone canst conjure gates to take thee to numerous destinations.\"",
+   "zh_bytes": 37
+  },
+  {
+   "offset": 3364,
+   "len": 9,
+   "zh": "mant,rune",
+   "en": "mant,rune",
+   "zh_bytes": 9
+  },
+  {
+   "offset": 3374,
+   "len": 52,
+   "zh": "\"可向各城首領詢問此事。",
+   "en": "\"Ask the leaders of each town to tell thee of that. ",
+   "zh_bytes": 23
+  },
+  {
+   "offset": 3432,
+   "len": 4,
+   "zh": "comp",
+   "en": "comp",
+   "zh_bytes": 4
+  },
+  {
+   "offset": 3437,
+   "len": 23,
+   "zh": "\"汝可去問@索登。\"",
+   "en": "\"Do thou ask @Tholden.\"",
+   "zh_bytes": 17
+  },
+  {
+   "offset": 3466,
+   "len": 4,
+   "zh": "thol",
+   "en": "thol",
+   "zh_bytes": 4
+  },
+  {
+   "offset": 3471,
+   "len": 23,
+   "zh": "\"他是朕之@宰相。\"",
+   "en": "\"He is my @chancellor.\"",
+   "zh_bytes": 17
+  },
+  {
+   "offset": 3500,
+   "len": 4,
+   "zh": "chan",
+   "en": "chan",
+   "zh_bytes": 4
+  },
+  {
+   "offset": 3505,
+   "len": 32,
+   "zh": "\"是也，索登乃朕之宰相。\"",
+   "en": "\"Aye, Tholden is my chancellor.\"",
+   "zh_bytes": 24
+  },
+  {
+   "offset": 3543,
+   "len": 9,
+   "zh": "mous,sher",
+   "en": "mous,sher",
+   "zh_bytes": 9
+  },
+  {
+   "offset": 3558,
+   "len": 44,
+   "zh": "\"請好生照看朕的小友。\"",
+   "en": "\"Please take good care of my little friend.\"",
+   "zh_bytes": 22
+  },
+  {
+   "offset": 3608,
+   "len": 42,
+   "zh": "\"啊，汝已聽聞朕的小友？\"",
+   "en": "\"Ah, thou hast heard of my little friend?\"",
+   "zh_bytes": 24
+  },
+  {
+   "offset": 3653,
+   "len": 49,
+   "zh": "\"她名喚雪莉，朕甚以她為傲。\"",
+   "en": "\"Her name is Sherry, and I'm quite proud of her.\"",
+   "zh_bytes": 28
+  },
+  {
+   "offset": 3705,
+   "len": 64,
+   "zh": "\"朕敢說，她乃不列顛尼亞境內唯一會說話的鼠。\"",
+   "en": "\"I'm certain she is the only talking mouse in all of Britannia.\"",
+   "zh_bytes": 44
+  },
+  {
+   "offset": 3772,
+   "len": 49,
+   "zh": "\"汝若有意，盡可前去看望她。\"",
+   "en": "\"Thou art welcome to see her, if thou dost wish.\"",
+   "zh_bytes": 28
+  },
+  {
+   "offset": 3824,
+   "len": 54,
+   "zh": "\"汝可在城堡各處尋得她的蹤跡。\"",
+   "en": "\"Thou canst find her wandering throughout the castle.\"",
+   "zh_bytes": 30
+  },
+  {
+   "offset": 3881,
+   "len": 63,
+   "zh": "\"她每夜必至朕之寢室，朕便講@故事與她聽。\"",
+   "en": "\"She comes by my room every night, so I can tell her @stories.\"",
+   "zh_bytes": 41
+  },
+  {
+   "offset": 3950,
+   "len": 12,
+   "zh": "wiza,oz,book",
+   "en": "wiza,oz,book",
+   "zh_bytes": 12
+  },
+  {
+   "offset": 3963,
+   "len": 23,
+   "zh": "\"朕收藏珍稀之書。\"",
+   "en": "\"I collect rare books.\"",
+   "zh_bytes": 18
+  },
+  {
+   "offset": 3989,
+   "len": 61,
+   "zh": "\"其中有一本，朕多年來苦尋而不得。\"",
+   "en": "\"There's one in particular I've been hunting for many years.\"",
+   "zh_bytes": 34
+  },
+  {
+   "offset": 4053,
+   "len": 52,
+   "zh": "\"那書名喚《綠野仙蹤》，汝可曾聽聞？\" ",
+   "en": "\"It's called 'The Wizard of Oz.' Ever heard of it?\" ",
+   "zh_bytes": 37
+  },
+  {
+   "offset": 4111,
+   "len": 9,
+   "zh": "bedt,stor",
+   "en": "bedt,stor",
+   "zh_bytes": 9
+  },
+  {
+   "offset": 4121,
+   "len": 42,
+   "zh": "\"朕最愛的故事是《@獅子胡伯》。\"",
+   "en": "\"My favorite story is '@Hubert the Lion.'\"",
+   "zh_bytes": 31,
+   "note": "[二輪 reviewer 修]"
+  },
+  {
+   "offset": 4169,
+   "len": 14,
+   "zh": "favo,hube,lion",
+   "en": "favo,hube,lion",
+   "zh_bytes": 14
+  },
+  {
+   "offset": 4184,
+   "len": 59,
+   "zh": "\"自幼便聽過此故事，從此銘記於心。\"",
+   "en": "\"I've known it by heart, ever since I heard it as a child.\"",
+   "zh_bytes": 34
+  },
+  {
+   "offset": 4246,
+   "len": 81,
+   "zh": "\"獅子胡伯性情高傲又虛榮，尤以那華麗鬃毛為傲。\"",
+   "en": "\"Hubert the Lion was haughty and vain, and especially proud of his elegant mane.\"",
+   "zh_bytes": 46,
+   "note": "[二輪 reviewer 修]"
+  },
+  {
+   "offset": 4330,
+   "len": 88,
+   "zh": "\"然此等自負實非美事，獅子胡伯終難免一場跌落之厄。\"",
+   "en": "\"But conceit of this sort is not proper at all, and Hubert the Lion was due for a fall.\"",
+   "zh_bytes": 50,
+   "note": "[二輪 reviewer 修]"
+  },
+  {
+   "offset": 4424,
+   "len": 7,
+   "zh": "mr,nose",
+   "en": "mr,nose",
+   "zh_bytes": 7
+  },
+  {
+   "offset": 4438,
+   "len": 4,
+   "zh": "heal",
+   "en": "heal",
+   "zh_bytes": 4
+  },
+  {
+   "offset": 4449,
+   "len": 4,
+   "zh": "than",
+   "en": "than",
+   "zh_bytes": 4
+  },
+  {
+   "offset": 4454,
+   "len": 77,
+   "zh": "\"該道謝的是朕才對，聖者，汝為不列顛尼亞所做之事，朕銘感於心。\"",
+   "en": "\"'Tis I who should thank thee, Avatar, for all thou hast done for Britannia.\"",
+   "zh_bytes": 62
+  },
+  {
+   "offset": 4537,
+   "len": 3,
+   "zh": "bye",
+   "en": "bye",
+   "zh_bytes": 3
+  },
+  {
+   "offset": 4541,
+   "len": 25,
+   "zh": "\"願好運常隨汝身。\"",
+   "en": "\"May fortune favor thee.\"",
+   "zh_bytes": 18
+  },
+  {
+   "offset": 4571,
+   "len": 31,
+   "zh": "\"此事朕無法相助。\"",
+   "en": "\"I cannot help thee with that.\"",
+   "zh_bytes": 18
+  },
+  {
+   "offset": 4609,
+   "len": 2,
+   "zh": "yn",
+   "en": "yn",
+   "zh_bytes": 2
+  },
+  {
+   "offset": 4614,
+   "len": 50,
+   "zh": "\"也罷，汝若於旅途中偶得此書，",
+   "en": "\"Well, if thou dost run across it in thy travels, ",
+   "zh_bytes": 29
+  },
+  {
+   "offset": 4665,
+   "len": 58,
+   "zh": "朕將深為感激，望汝攜回於此。\"",
+   "en": "I would greatly appreciate if thou couldst bring it here.\"",
+   "zh_bytes": 29
+  },
+  {
+   "offset": 4726,
+   "len": 68,
+   "zh": "\"朕已許下重賞，凡能為朕尋得一本者，必賜厚報。\"",
+   "en": "\"I hath promised a great reward to whosoever shalt bring me a copy.\"",
+   "zh_bytes": 46
+  },
+  {
+   "offset": 4855,
+   "len": 62,
+   "zh": "\"汝身負之物過重，朕難以妥善賞賜……\"",
+   "en": "\"Thou art carrying too much for me to reward thee properly...\"",
+   "zh_bytes": 36
+  },
+  {
+   "offset": 4920,
+   "len": 57,
+   "zh": "\"待汝身輕之時，再將書攜回吧。\"",
+   "en": "\"Bring the book back later, when thou art less burdened.\"",
+   "zh_bytes": 30
+  },
+  {
+   "offset": 4983,
+   "len": 25,
+   "zh": "\"汝竟尋得一本！\"",
+   "en": "\"Thou hath found a copy!\"",
+   "zh_bytes": 16
+  },
+  {
+   "offset": 5010,
+   "len": 40,
+   "zh": "\"朕苦候此刻已久……\"",
+   "en": "\"Long hath I anticipated this moment...\"",
+   "zh_bytes": 20
+  },
+  {
+   "offset": 5053,
+   "len": 57,
+   "zh": "\"自幼之後，朕未曾再讀此奇妙之書。\"",
+   "en": "\"Not since my childhood have I read this wondrous story.\"",
+   "zh_bytes": 34
+  },
+  {
+   "offset": 5113,
+   "len": 83,
+   "zh": "他小心翼翼接過古書，「此為汝之賞賜。」說罷遞給你數枚閃耀寶石。",
+   "en": "Gingerly, he takes the tome. \"Here is your reward.\" He gives you some glowing gems.",
+   "zh_bytes": 62
+  },
+  {
+   "offset": 5231,
+   "len": 34,
+   "zh": "\"是誰告訴汝這綽號的！？\"",
+   "en": "\"Who told thee of that nickname!?\"",
+   "zh_bytes": 24
+  },
+  {
+   "offset": 5270,
+   "len": 47,
+   "zh": "\"也罷，朕寧願卿莫再如此喚朕。\"",
+   "en": "\"Well, I'd rather thou didst not call me that.\"",
+   "zh_bytes": 30,
+   "note": "[二輪 reviewer 修]"
+  },
+  {
+   "offset": 5383,
+   "len": 60,
+   "zh": "不列顛王揮手一指，汝之全隊眾人皆獲療癒！",
+   "en": "Lord British waves his hand, and your whole party is healed!",
+   "zh_bytes": 40
+  },
+  {
+   "offset": 5578,
+   "len": 24,
+   "en": "\"What doth trolls lack?\"",
+   "zh": "\"What doth trolls lack?\" (答案: end)"
+  },
+  {
+   "offset": 5605,
+   "len": 3,
+   "en": "end",
+   "zh": "end"
+  },
+  {
+   "offset": 5609,
+   "len": 19,
+   "en": "\"Thou art correct.\"",
+   "zh": "「汝答正確。」"
+  },
+  {
+   "offset": 5636,
+   "len": 3,
+   "en": "bye",
+   "zh": "bye"
+  },
+  {
+   "offset": 5648,
+   "len": 59,
+   "en": "\"Nay, 'tis not the correct answer. Consult thy Compendium.\"",
+   "zh": "「非也，此答有誤。請參閱括號內提示再答。」"
+  },
+  {
+   "offset": 5713,
+   "len": 53,
+   "en": "\"What part of the tangle vine doth put one to sleep?\"",
+   "zh": "\"What part of the tangle vine doth put one to sleep?\" (答案: cent / pod / frag)"
+  },
+  {
+   "offset": 5769,
+   "len": 13,
+   "en": "cent,pod,frag",
+   "zh": "cent,pod,frag"
+  },
+  {
+   "offset": 5783,
+   "len": 19,
+   "en": "\"Thou art correct.\"",
+   "zh": "「汝答正確。」"
+  },
+  {
+   "offset": 5810,
+   "len": 3,
+   "en": "bye",
+   "zh": "bye"
+  },
+  {
+   "offset": 5822,
+   "len": 59,
+   "en": "\"Nay, 'tis not the correct answer. Consult thy Compendium.\"",
+   "zh": "「非也，此答有誤。請參閱括號內提示再答。」"
+  },
+  {
+   "offset": 5887,
+   "len": 35,
+   "en": "\"How wert the headlesses produced?\"",
+   "zh": "\"How wert the headlesses produced?\" (答案: wiza / expe)"
+  },
+  {
+   "offset": 5925,
+   "len": 9,
+   "en": "wiza,expe",
+   "zh": "wiza,expe"
+  },
+  {
+   "offset": 5935,
+   "len": 19,
+   "en": "\"Thou art correct.\"",
+   "zh": "「汝答正確。」"
+  },
+  {
+   "offset": 5962,
+   "len": 3,
+   "en": "bye",
+   "zh": "bye"
+  },
+  {
+   "offset": 5974,
+   "len": 59,
+   "en": "\"Nay, 'tis not the correct answer. Consult thy Compendium.\"",
+   "zh": "「非也，此答有誤。請參閱括號內提示再答。」"
+  },
+  {
+   "offset": 6039,
+   "len": 70,
+   "en": "\"What valued item canst one find near the spawning grounds of Hydras?\"",
+   "zh": "\"What valued item canst one find near the spawning grounds of Hydras?\" (答案: nigh / mush)"
+  },
+  {
+   "offset": 6112,
+   "len": 9,
+   "en": "nigh,mush",
+   "zh": "nigh,mush"
+  },
+  {
+   "offset": 6122,
+   "len": 19,
+   "en": "\"Thou art correct.\"",
+   "zh": "「汝答正確。」"
+  },
+  {
+   "offset": 6149,
+   "len": 3,
+   "en": "bye",
+   "zh": "bye"
+  },
+  {
+   "offset": 6161,
+   "len": 59,
+   "en": "\"Nay, 'tis not the correct answer. Consult thy Compendium.\"",
+   "zh": "「非也，此答有誤。請參閱括號內提示再答。」"
+  },
+  {
+   "offset": 6226,
+   "len": 34,
+   "en": "\"How canst one fend off rotworms?\"",
+   "zh": "\"How canst one fend off rotworms?\" (答案: torc / fire / flam / burn / pass)"
+  },
+  {
+   "offset": 6263,
+   "len": 24,
+   "en": "torc,fire,flam,burn,pass",
+   "zh": "torc,fire,flam,burn,pass"
+  },
+  {
+   "offset": 6288,
+   "len": 19,
+   "en": "\"Thou art correct.\"",
+   "zh": "「汝答正確。」"
+  },
+  {
+   "offset": 6315,
+   "len": 3,
+   "en": "bye",
+   "zh": "bye"
+  },
+  {
+   "offset": 6327,
+   "len": 59,
+   "en": "\"Nay, 'tis not the correct answer. Consult thy Compendium.\"",
+   "zh": "「非也，此答有誤。請參閱括號內提示再答。」"
+  },
+  {
+   "offset": 6392,
+   "len": 31,
+   "en": "\"How doth sea serpents attack?\"",
+   "zh": "\"How doth sea serpents attack?\" (答案: fire / ball / swip / tail)"
+  },
+  {
+   "offset": 6426,
+   "len": 19,
+   "en": "fire,ball,swip,tail",
+   "zh": "fire,ball,swip,tail"
+  },
+  {
+   "offset": 6446,
+   "len": 19,
+   "en": "\"Thou art correct.\"",
+   "zh": "「汝答正確。」"
+  },
+  {
+   "offset": 6473,
+   "len": 3,
+   "en": "bye",
+   "zh": "bye"
+  },
+  {
+   "offset": 6485,
+   "len": 59,
+   "en": "\"Nay, 'tis not the correct answer. Consult thy Compendium.\"",
+   "zh": "「非也，此答有誤。請參閱括號內提示再答。」"
+  },
+  {
+   "offset": 6550,
+   "len": 43,
+   "en": "\"What creature art wisps oft mistaken for?\"",
+   "zh": "\"What creature art wisps oft mistaken for?\" (答案: fire / fly)"
+  },
+  {
+   "offset": 6596,
+   "len": 8,
+   "en": "fire,fly",
+   "zh": "fire,fly"
+  },
+  {
+   "offset": 6605,
+   "len": 19,
+   "en": "\"Thou art correct.\"",
+   "zh": "「汝答正確。」"
+  },
+  {
+   "offset": 6632,
+   "len": 3,
+   "en": "bye",
+   "zh": "bye"
+  },
+  {
+   "offset": 6644,
+   "len": 59,
+   "en": "\"Nay, 'tis not the correct answer. Consult thy Compendium.\"",
+   "zh": "「非也，此答有誤。請參閱括號內提示再答。」"
+  },
+  {
+   "offset": 6709,
+   "len": 41,
+   "en": "\"How doth giant squids crush their prey?\"",
+   "zh": "\"How doth giant squids crush their prey?\" (答案: beak)"
+  },
+  {
+   "offset": 6753,
+   "len": 4,
+   "en": "beak",
+   "zh": "beak"
+  },
+  {
+   "offset": 6758,
+   "len": 19,
+   "en": "\"Thou art correct.\"",
+   "zh": "「汝答正確。」"
+  },
+  {
+   "offset": 6785,
+   "len": 3,
+   "en": "bye",
+   "zh": "bye"
+  },
+  {
+   "offset": 6797,
+   "len": 59,
+   "en": "\"Nay, 'tis not the correct answer. Consult thy Compendium.\"",
+   "zh": "「非也，此答有誤。請參閱括號內提示再答。」"
+  },
+  {
+   "offset": 6862,
+   "len": 52,
+   "en": "\"Where hath images of the silver serpent been seen?\"",
+   "zh": "\"Where hath images of the silver serpent been seen?\" (答案: tomb / wall / anci / monu)"
+  },
+  {
+   "offset": 6917,
+   "len": 19,
+   "en": "tomb,wall,anci,monu",
+   "zh": "tomb,wall,anci,monu"
+  },
+  {
+   "offset": 6937,
+   "len": 19,
+   "en": "\"Thou art correct.\"",
+   "zh": "「汝答正確。」"
+  },
+  {
+   "offset": 6964,
+   "len": 3,
+   "en": "bye",
+   "zh": "bye"
+  },
+  {
+   "offset": 6976,
+   "len": 59,
+   "en": "\"Nay, 'tis not the correct answer. Consult thy Compendium.\"",
+   "zh": "「非也，此答有誤。請參閱括號內提示再答。」"
+  },
+  {
+   "offset": 7041,
+   "len": 31,
+   "en": "\"What art reapers remnants of?\"",
+   "zh": "\"What art reapers remnants of?\" (答案: anci / ench / fore)",
+   "zh_bytes": 28,
+   "note": "[二輪 reviewer 修]"
+  },
+  {
+   "offset": 7075,
+   "len": 14,
+   "en": "anci,ench,fore",
+   "zh": "anci,ench,fore"
+  },
+  {
+   "offset": 7090,
+   "len": 19,
+   "en": "\"Thou art correct.\"",
+   "zh": "「汝答正確。」"
+  },
+  {
+   "offset": 7117,
+   "len": 3,
+   "en": "bye",
+   "zh": "bye"
+  },
+  {
+   "offset": 7129,
+   "len": 59,
+   "en": "\"Nay, 'tis not the correct answer. consult thy Compendium.\"",
+   "zh": "「非也，此答有誤。請查閱汝之典籍。」"
+  },
+  {
+   "offset": 7194,
+   "len": 53,
+   "en": "\"Find thy Compendium, then come speak with me again.\"",
+   "zh": "「尋得汝之典籍，再來與朕一敘。」"
+  }
+ ],
+ "keyword_mapping": {
+  "@shrines": "@聖壇",
+  "@virtues": "@美德",
+  "@Geoffrey": "@傑佛瑞",
+  "@healing": "@療傷",
+  "@repeat": "@重述",
+  "@troubled": "@擔",
+  "@gargoyles": "@魔像"
+ },
+ "glossary_additions": {
+  "concepts": {
+   "shrines": "聖壇",
+   "virtues": "美德",
+   "Council of Wizards": "法師議會",
+   "underworld": "幽冥界",
+   "throne": "王座",
+   "schemes": "陰謀",
+   "invaders": "入侵者"
+  },
+  "keywords_common": {
+   "@shrines": "@聖壇",
+   "@virtues": "@美德",
+   "@healing": "@療傷",
+   "@repeat": "@重述",
+   "@troubled": "@擔"
+  }
+ },
+ "riddles_additions": [],
+ "translator_notes": "LB 3 batches merged. LB 自稱『朕』，對玩家『汝』『聖者』。第一次『不列顛王』、後續可用『陛下』。主線任務劇情完整保留。所有 50 條 zh_bytes ≤ len。"
+}

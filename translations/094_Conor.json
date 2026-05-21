@@ -1,0 +1,178 @@
+{
+ "translations": [
+  {
+   "offset": 8,
+   "len": 55,
+   "en": "a stalwart fellow, with a look of placid concentration.",
+   "zh": "一位堅毅的男子，神情平靜而專注。",
+   "note": "DESC"
+  },
+  {
+   "offset": 83,
+   "len": 86,
+   "en": "You think you see a brief flicker of recognition pass between @Iolo and the fisherman.",
+   "zh": "汝似乎察覺@尤洛與這位漁夫之間閃過一絲認識的神色。",
+   "note": ""
+  },
+  {
+   "offset": 172,
+   "len": 55,
+   "en": "But before you can be certain, he turns to address you.",
+   "zh": "然在汝確認之前，他便轉身向汝致意。",
+   "note": ""
+  },
+  {
+   "offset": 231,
+   "len": 46,
+   "en": "\"Good $T. Is there anything I can do for you?\"",
+   "zh": "「$T安。有何需要效勞？」",
+   "note": ""
+  },
+  {
+   "offset": 282,
+   "len": 40,
+   "en": "\"Hello, $P. It's good to see you again.\"",
+   "zh": "「你好，$P，再次相見甚悅。」",
+   "note": ""
+  },
+  {
+   "offset": 330,
+   "len": 90,
+   "en": "\"Oh, forgive me for not introducing myself. I am Conor Starfalcon. And what is your name?\"",
+   "zh": "「哦，請恕在下未曾自我介紹。在下乃柯諾·星隼。汝尊名為何？」",
+   "note": ""
+  },
+  {
+   "offset": 437,
+   "len": 15,
+   "en": "\"Well met, $G!\"",
+   "zh": "「幸會，$G！」",
+   "note": ""
+  },
+  {
+   "offset": 463,
+   "len": 49,
+   "en": "\"We've met before. But that was many @years ago.\"",
+   "zh": "「我們曾相識，但那是多@年前之事了。」",
+   "note": ""
+  },
+  {
+   "offset": 541,
+   "len": 16,
+   "en": "\"Yes, long ago.\"",
+   "zh": "「是的，久遠之前了。」",
+   "note": ""
+  },
+  {
+   "offset": 567,
+   "len": 91,
+   "en": "\"I am a fisherman. In catching @fish, as in all of life, there is something to be learned.\"",
+   "zh": "「在下是個漁夫。捕@魚一事，如同人生，處處皆有值得學習之道。」",
+   "note": ""
+  },
+  {
+   "offset": 684,
+   "len": 54,
+   "en": "\"I still have not mastered the @way of the fisherman.\"",
+   "zh": "「在下至今仍未參透漁夫之@道。」",
+   "note": ""
+  },
+  {
+   "offset": 741,
+   "len": 110,
+   "en": "\"But I think perhaps the key to enlightenment lies not so much in the destination as in the road one travels.\"",
+   "zh": "「然在下以為，頓悟之鑰或許不在目的地，而在所走之路途本身。」",
+   "note": ""
+  },
+  {
+   "offset": 886,
+   "len": 65,
+   "en": "\"I am satisfied to live here and learn what I can from the fish.\"",
+   "zh": "「在下安於此地生活，向魚兒學取一切可學之事。」",
+   "note": ""
+  },
+  {
+   "offset": 962,
+   "len": 49,
+   "en": "\"The Shrine of Humility is far to the southeast.\"",
+   "zh": "「謙遜聖壇在遙遠的東南方。」",
+   "note": ""
+  },
+  {
+   "offset": 1014,
+   "len": 101,
+   "en": "\"I'd be glad to take you there in my @boat, but I'm afraid it is too small to weather the high seas.\"",
+   "zh": "「在下樂意以@小船帶汝前往，怎奈小船太小，無法抵禦大海波濤。」",
+   "note": ""
+  },
+  {
+   "offset": 1126,
+   "len": 66,
+   "en": "\"It's down at the beach. Feel free to borrow it if you have need.\"",
+   "zh": "「小船在海灘上，若有需要盡可借用。」",
+   "note": ""
+  },
+  {
+   "offset": 1208,
+   "len": 73,
+   "en": "\"You seek to find the humblest in New Magincia? That's a difficult task.\"",
+   "zh": "「汝要尋找新馬精西亞最謙遜之人？這是個艱難的任務。」",
+   "note": ""
+  },
+  {
+   "offset": 1284,
+   "len": 86,
+   "en": "\"I'd hate to commend one of my neighbors to you and fail to do justice to the others.\"",
+   "zh": "「在下不願推薦某位鄰居而對其他人有失公允。」",
+   "note": ""
+  },
+  {
+   "offset": 1373,
+   "len": 82,
+   "en": "\"The one thing I can tell you for certain is that it isn't me you're looking for.\"",
+   "zh": "「在下唯一可確告汝的是：汝所尋之人並非在下。」",
+   "note": ""
+  },
+  {
+   "offset": 1466,
+   "len": 79,
+   "en": "\"The Mantra of Humility is 'lum'. If you seek the @shrine, I hope you find it.\"",
+   "zh": "「謙遜真言是『lum』。若汝尋訪@聖壇，願汝得達。」",
+   "note": "保留真言原文"
+  },
+  {
+   "offset": 1561,
+   "len": 52,
+   "en": "\"I used to be a guildmaster. But that was long ago.\"",
+   "zh": "「在下曾是公會長，然那已是久遠之前的事了。」",
+   "note": ""
+  },
+  {
+   "offset": 1628,
+   "len": 44,
+   "en": "\"I no longer follow the way of the warrior.\"",
+   "zh": "「在下已不再追隨武者之道。」",
+   "note": ""
+  },
+  {
+   "offset": 1682,
+   "len": 52,
+   "en": "\"If I can help you with anything else, let me know.\"",
+   "zh": "「若在下能有所效勞，請告知。」",
+   "note": ""
+  },
+  {
+   "offset": 1739,
+   "len": 29,
+   "en": "\"I can't help you with that.\"",
+   "zh": "「此事在下愛莫能助。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Conor Starfalcon": "柯諾·星隼"
+  }
+ },
+ "translator_notes": "094 Conor: 新馬精西亞漁夫，禪意哲思。昔日公會長，熟識尤洛。謙遜真言'lum'保留。"
+}

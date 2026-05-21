@@ -1,0 +1,202 @@
+{
+ "translations": [
+  {
+   "offset": 8,
+   "len": 41,
+   "en": "a charismatic man with an engaging smile.",
+   "zh": "魅力十足之男子，笑容令人心悅。",
+   "note": "DESC"
+  },
+  {
+   "offset": 58,
+   "len": 42,
+   "en": "\"Welcome back, stranger.\" He winks at you.",
+   "zh": "「又回來了，陌生人。」他向你眨眨眼。",
+   "note": ""
+  },
+  {
+   "offset": 102,
+   "len": 52,
+   "en": "\"Welcome.\" He makes a sweeping gesture with his hat.",
+   "zh": "「歡迎光臨。」他以帽子做了個大幅的招手。",
+   "note": ""
+  },
+  {
+   "offset": 163,
+   "len": 16,
+   "en": "\"Shawn, friend.\"",
+   "zh": "「肖恩，朋友。」",
+   "note": ""
+  },
+  {
+   "offset": 196,
+   "len": 47,
+   "en": "\"Which: @ham, @ale, @mead, @wine, or @rations?\"",
+   "zh": "「請問要哪樣：@火腿、@麥酒、@蜜酒、@葡萄酒，還是@口糧？」",
+   "note": ""
+  },
+  {
+   "offset": 254,
+   "len": 48,
+   "en": "\"I sell @ham, @ale, @mead, @wine, and @rations.\"",
+   "zh": "「我賣@火腿、@麥酒、@蜜酒、@葡萄酒及@口糧。」",
+   "note": ""
+  },
+  {
+   "offset": 388,
+   "len": 12,
+   "en": "\"That's it.\"",
+   "zh": "「就這樣了。」",
+   "note": ""
+  },
+  {
+   "offset": 411,
+   "len": 57,
+   "en": "\"I'm glad you stopped by.\" He gives you a firm handshake.",
+   "zh": "「很高興你來了。」他與你握了握手。",
+   "note": ""
+  },
+  {
+   "offset": 473,
+   "len": 48,
+   "en": "\"I'm sorry. Perhaps you could ask someone else.\"",
+   "zh": "「抱歉，或許可以去問問別人。」",
+   "note": ""
+  },
+  {
+   "offset": 612,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪位？」",
+   "note": ""
+  },
+  {
+   "offset": 638,
+   "len": 14,
+   "en": "\"Very well...\"",
+   "zh": "「好吧……」",
+   "note": ""
+  },
+  {
+   "offset": 709,
+   "len": 68,
+   "en": "$N smiles at $Y and says, \"That will cost you #1 gold. Interested?\" ",
+   "zh": "$N對$Y微笑道：「這要#1枚金幣。有意嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 835,
+   "len": 25,
+   "en": "\"You can't carry it, $Y.\"",
+   "zh": "「你帶不了，$Y。」",
+   "note": ""
+  },
+  {
+   "offset": 909,
+   "len": 62,
+   "en": "\"Fine!\" After accepting $Y's gold, $N hands over the purchase.",
+   "zh": "「好！」$N收下$Y的金幣，將購物遞了過去。",
+   "note": ""
+  },
+  {
+   "offset": 978,
+   "len": 33,
+   "en": "\"You don't have enough gold, $Y.\"",
+   "zh": "「你的金幣不夠，$Y。」",
+   "note": ""
+  },
+  {
+   "offset": 1186,
+   "len": 49,
+   "en": "\"It'll cost you 5 gold for the ham. Interested?\" ",
+   "zh": "「火腿要5枚金幣。有意嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1258,
+   "len": 25,
+   "en": "\"You can't carry it, $Y.\"",
+   "zh": "「你帶不了，$Y。」",
+   "note": "dup"
+  },
+  {
+   "offset": 1326,
+   "len": 60,
+   "en": "\"Excellent!\" After accepting the gold, $N serves $Y the ham.",
+   "zh": "「好極了！」$N收下金幣，為$Y上了火腿。",
+   "note": ""
+  },
+  {
+   "offset": 1393,
+   "len": 47,
+   "en": "\"How were you looking to pay for the meal? Eh?\"",
+   "zh": "「這頓飯你打算怎麼付帳？嗯？」",
+   "note": ""
+  },
+  {
+   "offset": 1678,
+   "len": 88,
+   "en": "$N looks at $Y and says, \"It'll cost you 4 gold for each ration. How many do you want?\" ",
+   "zh": "$N看著$Y道：「每份口糧4枚金幣。你要幾份？」",
+   "note": ""
+  },
+  {
+   "offset": 1776,
+   "len": 50,
+   "en": "\"Come now, that's a little much, don't you think?\"",
+   "zh": "「得了吧，這也太多了，不是嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1842,
+   "len": 50,
+   "en": "$N frowns at $Y and says, \"That was a good price.\"",
+   "zh": "$N對$Y皺眉道：「那已經是優惠價了。」",
+   "note": ""
+  },
+  {
+   "offset": 2028,
+   "len": 40,
+   "en": "\"You haven't any room in your pack, $Y.\"",
+   "zh": "「你的背包沒地方了，$Y。」",
+   "note": ""
+  },
+  {
+   "offset": 2082,
+   "len": 50,
+   "en": "\"Mutton rations cost more gold than you have, $Y.\"",
+   "zh": "「羊肉口糧的價格超過你的金幣，$Y。」",
+   "note": ""
+  },
+  {
+   "offset": 2168,
+   "len": 31,
+   "en": "He hands $Y #2 mutton ration\\s.",
+   "zh": "他將#2份羊肉口糧遞給$Y。",
+   "note": "保留 \\s"
+  },
+  {
+   "offset": 2243,
+   "len": 14,
+   "en": "\"There ya go.\"",
+   "zh": "「拿去吧。」",
+   "note": ""
+  },
+  {
+   "offset": 2258,
+   "len": 27,
+   "en": "\"That's all you can carry.\"",
+   "zh": "「你只能帶這麼多了。」",
+   "note": ""
+  },
+  {
+   "offset": 2286,
+   "len": 28,
+   "en": "\"That's all you can afford.\"",
+   "zh": "「你只能買這麼多了。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {"people": {"Shawn": "肖恩"}, "places": {}},
+ "translator_notes": "Shawn 是酒館/食品商人，口吻熱絡。商品詞保留 @ 前綴以供 keyword 比對。"
+}

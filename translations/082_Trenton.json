@@ -1,0 +1,383 @@
+{
+ "translations": [
+  {
+   "offset": 10,
+   "len": 52,
+   "en": "a tall, rather well dressed man with a wilted smile.",
+   "zh": "高大衣著考究、笑容僵滯之男子。",
+   "note": "DESC"
+  },
+  {
+   "offset": 77,
+   "len": 82,
+   "en": "\"Yes?\" he asks, reaching over and removing something invisible from your shoulder.",
+   "zh": "「是？」他問道，伸手從汝肩頭拂去某樣看不見的東西。",
+   "note": ""
+  },
+  {
+   "offset": 165,
+   "len": 73,
+   "en": "Recognizing you, his smile flickers a moment. \"You have come back. Well?\"",
+   "zh": "他認出汝，笑容一閃即逝。「汝回來了。那呢？」",
+   "note": ""
+  },
+  {
+   "offset": 252,
+   "len": 48,
+   "en": "\"You've forgotten? Well, 'Your @honor' will do.\"",
+   "zh": "「忘了？那叫我『@大人』便是。」",
+   "note": ""
+  },
+  {
+   "offset": 307,
+   "len": 47,
+   "en": "He sniffs the air as if smelling something bad.",
+   "zh": "他嗅了嗅空氣，彷彿聞到了什麼令人不悅的氣味。",
+   "note": ""
+  },
+  {
+   "offset": 357,
+   "len": 45,
+   "en": "\"I am, of course, @Trenton @Bell, the mayor.\"",
+   "zh": "「在下當然便是@崔頓·@貝爾市長。」",
+   "note": ""
+  },
+  {
+   "offset": 405,
+   "len": 31,
+   "en": "\"You may call me 'Your Honor'.\"",
+   "zh": "「可稱呼我為『大人』。」",
+   "note": ""
+  },
+  {
+   "offset": 453,
+   "len": 63,
+   "en": "\"I would appreciate if you would use my @title, 'Your @Honor'.\"",
+   "zh": "「請使用在下之@稱號——『@大人』，感激不盡。」",
+   "note": ""
+  },
+  {
+   "offset": 528,
+   "len": 18,
+   "en": "\"Yes, I am mayor.\"",
+   "zh": "「是的，在下是市長。」",
+   "note": ""
+  },
+  {
+   "offset": 568,
+   "len": 6,
+   "en": "\"Yes?\"",
+   "zh": "「是？」",
+   "note": ""
+  },
+  {
+   "offset": 606,
+   "len": 6,
+   "en": "\"Yes.\"",
+   "zh": "「是。」",
+   "note": ""
+  },
+  {
+   "offset": 624,
+   "len": 37,
+   "en": "\"Well, surely thou canst @read, yes?\"",
+   "zh": "「哦，汝想必能@閱讀，對吧？」",
+   "note": ""
+  },
+  {
+   "offset": 673,
+   "len": 53,
+   "en": "\"Yes, reading books is good for your spiritual side.\"",
+   "zh": "「是的，閱讀書籍有益靈性修養。」",
+   "note": ""
+  },
+  {
+   "offset": 737,
+   "len": 35,
+   "en": "\"Job? I do not @labor like others.\"",
+   "zh": "「職業？在下不似他人般@勞作。」",
+   "note": ""
+  },
+  {
+   "offset": 794,
+   "len": 53,
+   "en": "\"You know: @rigging the masts or swabbing the decks.\"",
+   "zh": "「就是那種@爬桅杆或擦甲板的活計。」",
+   "note": ""
+  },
+  {
+   "offset": 873,
+   "len": 38,
+   "en": "\"You aren't much of a sailor are you?\"",
+   "zh": "「汝似乎不怎麼懂得航海？」",
+   "note": ""
+  },
+  {
+   "offset": 914,
+   "len": 61,
+   "en": "\"@Yorl and that young @Delancy girl can tell you about that.\"",
+   "zh": "「@尤爾和那個年輕的@德蘭西姑娘可以告訴汝。」",
+   "note": ""
+  },
+  {
+   "offset": 987,
+   "len": 46,
+   "en": "\"He works at the pier with the @Delancy girl.\"",
+   "zh": "「他在碼頭與@德蘭西姑娘一同工作。」",
+   "note": ""
+  },
+  {
+   "offset": 1050,
+   "len": 84,
+   "en": "\"She has run the pier ever since her father, @Quenton, was attacked by a @gargoyle.\"",
+   "zh": "「自她父親@昆頓遭@魔像族襲擊後，她便一直掌管碼頭。」",
+   "note": ""
+  },
+  {
+   "offset": 1137,
+   "len": 33,
+   "en": "He coughs then clears his throat.",
+   "zh": "他咳了一聲，清了清嗓子。",
+   "note": ""
+  },
+  {
+   "offset": 1182,
+   "len": 53,
+   "en": "\"@Quenton, not I, was in charge of its safe keeping.\"",
+   "zh": "「@昆頓而非在下，負責保管符文。」",
+   "note": ""
+  },
+  {
+   "offset": 1238,
+   "len": 80,
+   "en": "\"Just as I suspected, when he died, so too did our chances of finding the rune.\"",
+   "zh": "「果不其然，他一死，尋獲符文的希望也隨之消逝。」",
+   "note": ""
+  },
+  {
+   "offset": 1321,
+   "len": 53,
+   "en": "\"You see, he never told anyone where it was located.\"",
+   "zh": "「汝可知，他從未告訴任何人符文藏於何處。」",
+   "note": ""
+  },
+  {
+   "offset": 1396,
+   "len": 28,
+   "en": "\"Speak to @Horance of that.\"",
+   "zh": "「此事可詢問@霍蘭斯。」",
+   "note": ""
+  },
+  {
+   "offset": 1427,
+   "len": 71,
+   "en": "\"He may be mad, but he is still quick and astute in the ways of magic.\"",
+   "zh": "「他或許瘋癲，但在魔法之道上依然敏銳精湛。」",
+   "note": ""
+  },
+  {
+   "offset": 1515,
+   "len": 76,
+   "en": "\"We were not friends...not good friends, that is. He resented my @position.\"",
+   "zh": "「吾等並非朋友……至少不是好友。他對在下之@地位頗有不滿。」",
+   "note": ""
+  },
+  {
+   "offset": 1608,
+   "len": 81,
+   "en": "\"Yes, well, as mayor, I am the shepherd of the @spiritual people of this hamlet.\"",
+   "zh": "「是的，身為市長，在下乃此村莊@靈性之民的牧者。」",
+   "note": ""
+  },
+  {
+   "offset": 1716,
+   "len": 62,
+   "en": "\"We do not believe in violence as a solution to our problems.\"",
+   "zh": "「我等不以暴力解決問題。」",
+   "note": ""
+  },
+  {
+   "offset": 1781,
+   "len": 42,
+   "en": "\"My flock would not fight against anyone.\"",
+   "zh": "「吾之信眾不會與任何人交戰。」",
+   "note": ""
+  },
+  {
+   "offset": 1826,
+   "len": 59,
+   "en": "\"Therefore, I'm alarmed at the recent @gargoyle sightings.\"",
+   "zh": "「因此，近來@魔像族的出沒令在下深感憂慮。」",
+   "note": ""
+  },
+  {
+   "offset": 1897,
+   "len": 34,
+   "en": "\"Huge fierce creatures, they are.\"",
+   "zh": "「那些是龐大兇猛的生靈。」",
+   "note": ""
+  },
+  {
+   "offset": 1934,
+   "len": 85,
+   "en": "\"Quenton didn't even have time to @scream before one of those beasts had killed him.\"",
+   "zh": "「昆頓來不及@呼救，便已遭那頭惡獸殺害。」",
+   "note": ""
+  },
+  {
+   "offset": 2031,
+   "len": 76,
+   "en": "\"Many believe if he had screamed, someone in the @inn would have heard him.\"",
+   "zh": "「許多人認為，若他呼救了，@旅店中的人定能聽見。」",
+   "note": "許→避5C trail，改「許多人認為」用法可接受，'許' Big5=0xB3C許 lead=0xB3 trail=0xC3，無5C問題"
+  },
+  {
+   "offset": 2128,
+   "len": 89,
+   "en": "\"A couple of @travelers were staying there that night, but they said they heard nothing.\"",
+   "zh": "「那夜有兩位@旅人住在那裡，然他們皆言未曾聽到任何聲響。」",
+   "note": ""
+  },
+  {
+   "offset": 2220,
+   "len": 30,
+   "en": "\"Still, I find this @strange.\"",
+   "zh": "「然在下仍覺@蹊蹺。」",
+   "note": ""
+  },
+  {
+   "offset": 2267,
+   "len": 28,
+   "en": "\"I do not know their names.\"",
+   "zh": "「在下不知他們的名字。」",
+   "note": ""
+  },
+  {
+   "offset": 2298,
+   "len": 39,
+   "en": "\"'Twas @Gideon questioned them, not I.\"",
+   "zh": "「詢問他們的是@吉迪恩，並非在下。」",
+   "note": ""
+  },
+  {
+   "offset": 2349,
+   "len": 28,
+   "en": "\"He runs the @Haunting Inn.\"",
+   "zh": "「他打理@鬼影旅店。」",
+   "note": ""
+  },
+  {
+   "offset": 2389,
+   "len": 72,
+   "en": "\"The one the @travelers were at. It's across the way.\" He frowns at you.",
+   "zh": "「@旅人下榻之所，就在對面。」他皺眉看著汝。",
+   "note": ""
+  },
+  {
+   "offset": 2473,
+   "len": 55,
+   "en": "\"Yes, you see, my brother is a guard for Lord British.\"",
+   "zh": "「是的，吾弟乃不列顛王的護衛。」",
+   "note": ""
+  },
+  {
+   "offset": 2531,
+   "len": 68,
+   "en": "\"A few months ago, a gargoyle attempted to enter the castle proper.\"",
+   "zh": "「幾月前，一隻魔像族試圖闖入城堡正殿。」",
+   "note": ""
+  },
+  {
+   "offset": 2602,
+   "len": 97,
+   "en": "\"He said that although they killed the beast, it's horrifying noises still give him @nightmares.\"",
+   "zh": "「他說，雖然他們殺死了那頭惡獸，但那駭人的嘶吼至今仍令他做@惡夢。」",
+   "note": ""
+  },
+  {
+   "offset": 2721,
+   "len": 34,
+   "en": "\"He keeps hearing its deep growl.\"",
+   "zh": "「他耳邊總迴響著那低沉的咆哮聲。」",
+   "note": ""
+  },
+  {
+   "offset": 2758,
+   "len": 85,
+   "en": "\"I'm sure that even if Quenton couldn't scream, someone would have heard that growl.\"",
+   "zh": "「在下確信，即便昆頓無法呼救，那咆哮聲也必有人聽到。」",
+   "note": ""
+  },
+  {
+   "offset": 2855,
+   "len": 52,
+   "en": "\"She is a peaceful woman. Very pleasant to talk to.\"",
+   "zh": "「她是位溫和之女子，與她交談令人心曠神怡。」",
+   "note": ""
+  },
+  {
+   "offset": 2919,
+   "len": 65,
+   "en": "\"For the life of me I've never understood a word he's ever said.\"",
+   "zh": "「他說的話，在下從來一個字也聽不懂。」",
+   "note": ""
+  },
+  {
+   "offset": 2987,
+   "len": 41,
+   "en": "\"They say he drank one too many potions.\"",
+   "zh": "「都說他喝了太多藥水所致。」",
+   "note": ""
+  },
+  {
+   "offset": 3040,
+   "len": 58,
+   "en": "\"He is a very private sort. I've never been to his abode.\"",
+   "zh": "「他是個極為低調之人，在下從未登門拜訪過。」",
+   "note": ""
+  },
+  {
+   "offset": 3101,
+   "len": 51,
+   "en": "\"He lives east of here, along the road to Britain.\"",
+   "zh": "「他住在此地以東，通往不列顛城的路邊。」",
+   "note": ""
+  },
+  {
+   "offset": 3163,
+   "len": 10,
+   "en": "\"Goodbye.\"",
+   "zh": "「再見。」",
+   "note": ""
+  },
+  {
+   "offset": 3191,
+   "len": 57,
+   "en": "\"I fail to see how that relates to the matter at hand...\"",
+   "zh": "「在下看不出此事與當下之議有何關聯……」",
+   "note": ""
+  },
+  {
+   "offset": 3250,
+   "len": 39,
+   "en": "\"You will have to ask another of that.\"",
+   "zh": "「此事還請另詢他人。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Trenton Bell": "崔頓·貝爾",
+   "Quenton": "昆頓",
+   "Delancy": "德蘭西",
+   "Horance": "霍蘭斯",
+   "Gideon": "吉迪恩",
+   "Yorl": "尤爾"
+  },
+  "places": {
+   "Haunting Inn": "鬼影旅店",
+   "Iver's Rounding": "艾佛圓角"
+  }
+ },
+ "translator_notes": "082 Trenton Bell: 村莊自命清高的市長，傲慢語氣。昆頓謀殺案線索重要。"
+}

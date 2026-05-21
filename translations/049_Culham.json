@@ -1,0 +1,438 @@
+{
+ "translations": [
+  {
+   "offset": 9,
+   "len": 49,
+   "en": "a small man in a handsome vest made of seashells.",
+   "zh": "一位身材矮小、穿著貝殼製成的華美背心之男子。",
+   "note": "DESC"
+  },
+  {
+   "offset": 68,
+   "len": 42,
+   "en": "\"It's fighting time. Talking's for later.\"",
+   "zh": "「現在是打架時間。說話的事待會兒再說。」",
+   "note": ""
+  },
+  {
+   "offset": 125,
+   "len": 44,
+   "en": "\"Why, hullo there, $G. And who might ye be?\"",
+   "zh": "「哦，你好，$G。汝又是哪位？」",
+   "note": ""
+  },
+  {
+   "offset": 185,
+   "len": 42,
+   "en": "\"Well met, $G $Z. Let me tell ye a @tale.\"",
+   "zh": "「幸會，$G $Z。讓吾為汝說個@故事。」",
+   "note": ""
+  },
+  {
+   "offset": 233,
+   "len": 41,
+   "en": "\"Oho, that be a name in need of a story.\"",
+   "zh": "「哦，那名字倒是需要一個故事來配。」",
+   "note": ""
+  },
+  {
+   "offset": 280,
+   "len": 66,
+   "en": "\"Why, hullo there, $P. Have I told ye the one about the gypsies?\" ",
+   "zh": "「哦，你好，$P。吾跟汝說過那個吉普賽人的故事嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 352,
+   "len": 28,
+   "en": "\"Oh. Perhaps a @song, then.\"",
+   "zh": "「哦。那來首@歌如何。」",
+   "note": ""
+  },
+  {
+   "offset": 388,
+   "len": 22,
+   "en": "\"Now there's a @tale.\"",
+   "zh": "「那才是個@故事。」",
+   "note": ""
+  },
+  {
+   "offset": 424,
+   "len": 23,
+   "en": "\"Culham's me name, $G.\"",
+   "zh": "「吾名卡翰，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 457,
+   "len": 53,
+   "en": "\"When @spirits be low, I play tunes to bring @cheer.\"",
+   "zh": "「當眾人@意氣消沉，吾便奏起樂曲帶來@歡愉。」",
+   "note": ""
+  },
+  {
+   "offset": 521,
+   "len": 35,
+   "en": "\"Once I heard a haunting melody...\"",
+   "zh": "「吾曾聽見一段縈繞不去的旋律……」",
+   "note": ""
+  },
+  {
+   "offset": 559,
+   "len": 33,
+   "en": "\"...in Old @Magincia.\" He laughs.",
+   "zh": "「……在舊@馬精西亞。」他大笑。",
+   "note": "ghost town pun"
+  },
+  {
+   "offset": 612,
+   "len": 35,
+   "en": "\"Well, it used to be a ghost town.\"",
+   "zh": "「嗯，那裡曾是個鬼城。」",
+   "note": "haunting/ghost double pun"
+  },
+  {
+   "offset": 649,
+   "len": 46,
+   "en": "He laughs and plays a little tune on his lute.",
+   "zh": "他大笑，並在魯特琴上撥弄了一段小曲。",
+   "note": "action"
+  },
+  {
+   "offset": 711,
+   "len": 44,
+   "en": "\"The Mantra of Valour bringeth great cheer.\"",
+   "zh": "「勇氣真言帶來無限歡愉。」",
+   "note": ""
+  },
+  {
+   "offset": 758,
+   "len": 62,
+   "en": "\"I'm not a great singer, but I love to play a song of valour.\"",
+   "zh": "「吾算不上什麼了不起的歌手，但吾愛演奏勇氣之歌。」",
+   "note": ""
+  },
+  {
+   "offset": 822,
+   "len": 20,
+   "en": "\"It makes me @sing.\"",
+   "zh": "「它令吾想要@高歌。」",
+   "note": ""
+  },
+  {
+   "offset": 858,
+   "len": 37,
+   "en": "\"I'll sing, though I'd rather @play.\"",
+   "zh": "「吾來唱，雖然吾更想@演奏。」",
+   "note": ""
+  },
+  {
+   "offset": 955,
+   "len": 44,
+   "en": "The pub is filled with the sound of singing.",
+   "zh": "酒館中歌聲響徹。",
+   "note": "action"
+  },
+  {
+   "offset": 1000,
+   "len": 21,
+   "en": "Culham sings for you.",
+   "zh": "卡翰為汝高聲吟唱。",
+   "note": "action"
+  },
+  {
+   "offset": 1025,
+   "len": 35,
+   "en": "\"It seemed like such an easy climb ",
+   "zh": "「看似輕而易舉的攀登",
+   "note": "song verse 1 line 1"
+  },
+  {
+   "offset": 1062,
+   "len": 35,
+   "en": "I crawled upon the Serpent's Spine ",
+   "zh": "吾爬上了巨蛇脊背",
+   "note": "song verse 1 line 2; Serpent's Spine = mountain range"
+  },
+  {
+   "offset": 1099,
+   "len": 29,
+   "en": "I hadn't even time to blanch ",
+   "zh": "連臉色發白的時間都沒有",
+   "note": "song verse 1 line 3"
+  },
+  {
+   "offset": 1130,
+   "len": 35,
+   "en": "When down there came an avalanche!\"",
+   "zh": "雪崩轟然而至！」",
+   "note": "song verse 1 line 4"
+  },
+  {
+   "offset": 1168,
+   "len": 33,
+   "en": "\"And then my mantra came to mind ",
+   "zh": "「然後真言浮現心頭",
+   "note": "song verse 2 line 1"
+  },
+  {
+   "offset": 1203,
+   "len": 45,
+   "en": "'Tho boulders bounced and passed with speed. ",
+   "zh": "巨石橫飛呼嘯而過。",
+   "note": "song verse 2 line 2"
+  },
+  {
+   "offset": 1250,
+   "len": 34,
+   "en": "My frozen fingers gripped to rock ",
+   "zh": "吾凍僵的手指緊抓岩石",
+   "note": "song verse 2 line 3"
+  },
+  {
+   "offset": 1286,
+   "len": 37,
+   "en": "As sliding snow swept loose my feet.\"",
+   "zh": "流雪將吾雙腳帶走。」",
+   "note": "song verse 2 line 4"
+  },
+  {
+   "offset": 1326,
+   "len": 35,
+   "en": "\"Sing 'ra,' my friends, sing 'ra.' ",
+   "zh": "「齊唱『ra』，吾友，齊唱『ra』。",
+   "note": "mantra 'ra' revealed; stays as-is"
+  },
+  {
+   "offset": 1363,
+   "len": 32,
+   "en": "'Tis a song to make thee strong ",
+   "zh": "此歌令汝強壯",
+   "note": "song chorus"
+  },
+  {
+   "offset": 1397,
+   "len": 27,
+   "en": "When the mountains be high ",
+   "zh": "當群山高聳",
+   "note": ""
+  },
+  {
+   "offset": 1426,
+   "len": 25,
+   "en": "And the ground be far...\"",
+   "zh": "而地面遙遠……」",
+   "note": ""
+  },
+  {
+   "offset": 1454,
+   "len": 38,
+   "en": "\"...Sing 'ra,' my friends, sing 'ra!'\"",
+   "zh": "「……齊唱『ra』，吾友，齊唱『ra』！」",
+   "note": "song chorus repeat; mantra 'ra' kept as-is"
+  },
+  {
+   "offset": 1522,
+   "len": 37,
+   "en": "\"Ah, yes. That's quite a story, too.\"",
+   "zh": "「啊，是的。那也是個精彩的故事。」",
+   "note": "rune/rat story"
+  },
+  {
+   "offset": 1562,
+   "len": 71,
+   "en": "\"Naughty Nomaan dropped the Rune of Valor, and the rat carried it off.\"",
+   "zh": "「頑劣諾曼把勇氣符文掉了，老鼠把它叼走了。」",
+   "note": ""
+  },
+  {
+   "offset": 1636,
+   "len": 17,
+   "en": "He laughs loudly.",
+   "zh": "他放聲大笑。",
+   "note": "action"
+  },
+  {
+   "offset": 1664,
+   "len": 83,
+   "en": "Too loudly. Stelnar and Jerris begin to argue over whether it was a rat or a mouse.",
+   "zh": "笑得太大聲了。史塔赫姆與傑里斯開始爭論那是老鼠還是鼷鼠。",
+   "note": "action"
+  },
+  {
+   "offset": 1750,
+   "len": 30,
+   "en": "Once again a brawl breaks out!",
+   "zh": "又一場鬥毆爆發了！",
+   "note": "action"
+  },
+  {
+   "offset": 1798,
+   "len": 33,
+   "en": "\"May we meet again soon, friend.\"",
+   "zh": "「願吾等不久後再相見，朋友。」",
+   "note": "bye"
+  },
+  {
+   "offset": 1836,
+   "len": 36,
+   "en": "\"Sorry, I cannot help ye with that.\"",
+   "zh": "「抱歉，吾無法在此事上助汝。」",
+   "note": ""
+  },
+  {
+   "offset": 1878,
+   "len": 40,
+   "en": "\"Would ye really like to hear a story?\" ",
+   "zh": "「汝真的想聽故事嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1924,
+   "len": 50,
+   "en": "\"Well, not everyone likes gypsy tales, I suppose.\"",
+   "zh": "「嗯，不是每個人都喜歡吉普賽故事，吾想。」",
+   "note": ""
+  },
+  {
+   "offset": 1982,
+   "len": 22,
+   "en": "\"I call this story...\"",
+   "zh": "「吾稱這個故事為……」",
+   "note": ""
+  },
+  {
+   "offset": 2007,
+   "len": 11,
+   "en": "\"Arturosis\"",
+   "zh": "「阿圖羅病症」",
+   "note": "fictional disease name"
+  },
+  {
+   "offset": 2021,
+   "len": 47,
+   "en": "\"Two gypsies come to Trinsic, hungry as usual.\"",
+   "zh": "「兩個吉普賽人來到崔西克，一如往常地飢腸轆轆。」",
+   "note": ""
+  },
+  {
+   "offset": 2070,
+   "len": 60,
+   "en": "\"One goes out and gathers a poisonous weed from the swamps.\"",
+   "zh": "「一人出去，從沼澤中採集了有毒的野草。」",
+   "note": ""
+  },
+  {
+   "offset": 2132,
+   "len": 75,
+   "en": "\"The other sneaks into town and puts the plant into the trough of a horse.\"",
+   "zh": "「另一人偷偷溜進城，把那草放入一匹馬的水槽裡。」",
+   "note": ""
+  },
+  {
+   "offset": 2210,
+   "len": 39,
+   "en": "\"Well, poor horse doesn't know better.\"",
+   "zh": "「可憐的馬什麼都不懂。」",
+   "note": ""
+  },
+  {
+   "offset": 2252,
+   "len": 45,
+   "en": "\"He eats the stuff, swells up and takes ill.\"",
+   "zh": "「牠吃了那東西，腫了起來，病倒了。」",
+   "note": ""
+  },
+  {
+   "offset": 2300,
+   "len": 49,
+   "en": "\"The owner, Immanuelle, doesn't know what to do.\"",
+   "zh": "「馬的主人伊曼紐爾不知所措。」",
+   "note": ""
+  },
+  {
+   "offset": 2352,
+   "len": 43,
+   "en": "\"Along come the gypsies. 'Aiee!' they cry.\"",
+   "zh": "「吉普賽人隨即趕來。他們大呼：『哎呀！』」",
+   "note": ""
+  },
+  {
+   "offset": 2398,
+   "len": 42,
+   "en": "\"'Yonder nag hath contracted 'Arturosis.'\"",
+   "zh": "「『那匹駑馬染上了「阿圖羅病症」。』」",
+   "note": ""
+  },
+  {
+   "offset": 2443,
+   "len": 81,
+   "en": "\"Unless it be immediately removed, the rest shall catch the same fatal disease.'\"",
+   "zh": "「『若不立即移除，其餘牲口皆將染上此致命之疾。』」",
+   "note": ""
+  },
+  {
+   "offset": 2527,
+   "len": 82,
+   "en": "\"Immanuelle decides to sacrifice the diseased one and the gypsies agree heartily.\"",
+   "zh": "「伊曼紐爾決定犧牲那匹病馬，吉普賽人欣然同意。」",
+   "note": ""
+  },
+  {
+   "offset": 2612,
+   "len": 91,
+   "en": "\"'For but a few coins,' say the gypsies,' we will lead it away and bury it far from here.'\"",
+   "zh": "「『只需幾枚銅幣，』吉普賽人說，『吾等將牠帶走，葬於遠處。』」",
+   "note": ""
+  },
+  {
+   "offset": 2706,
+   "len": 82,
+   "en": "\"Immanuelle is too happy to hand them the doomed animal's bridle, plus ten coins.\"",
+   "zh": "「伊曼紐爾高高興興地把那倒楣牲口的韁繩交給他們，再加上十枚銅幣。」",
+   "note": ""
+  },
+  {
+   "offset": 2791,
+   "len": 69,
+   "en": "\"So the gypsies make a great kettle of horse stew and bury the rest.\"",
+   "zh": "「於是吉普賽人燉了一大鍋馬肉湯，把剩下的埋了。」",
+   "note": ""
+  },
+  {
+   "offset": 2863,
+   "len": 42,
+   "en": "\"A great feast is held 'mongst gypsykind.\"",
+   "zh": "「吉普賽族中大擺宴席。」",
+   "note": ""
+  },
+  {
+   "offset": 2908,
+   "len": 83,
+   "en": "\"Meanwhile, Immanuelle thanks virtue that the equine epidemic was caught early on!\"",
+   "zh": "「與此同時，伊曼紐爾感謝美德的庇護，馬瘟發現得如此之早！」",
+   "note": ""
+  },
+  {
+   "offset": 2994,
+   "len": 31,
+   "en": "\"'Tis a true story, my friend.\"",
+   "zh": "「此乃真實故事，吾友。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Culham": "卡翰",
+   "Jerris": "傑里斯",
+   "Immanuelle": "伊曼紐爾"
+  },
+  "places": {
+   "Serpent's Spine": "巨蛇脊背"
+  },
+  "concepts": {
+   "gypsy": "吉普賽人"
+  }
+ },
+ "translator_notes": "卡翰是個說故事兼演奏的遊吟詩人，語氣快活詼諧。歌詞保留意象，真言「ra」以原文呈現（遊戲機制字）。吉普賽故事幽默地揭示吉普賽人的詭計，伊曼紐爾受騙。Serpent's Spine 為山脈名。"
+}

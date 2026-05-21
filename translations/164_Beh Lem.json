@@ -1,0 +1,499 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 7,
+   "en": "Beh Lem",
+   "zh": "貝蘭",
+   "note": "NPC name — Gargish, 'just one'，音譯為貝蘭"
+  },
+  {
+   "offset": 10,
+   "len": 32,
+   "en": "a small, light-skinned gargoyle.",
+   "zh": "皮膚白皙之矮小魔像。",
+   "note": "DESC"
+  },
+  {
+   "offset": 50,
+   "len": 49,
+   "en": "\"To ask how I can help, mighty $P,\" Beh Lem asks.",
+   "zh": "「願問強大之$P，我能如何效勞？」貝蘭問道。",
+   "note": "魔像語法：以「To+動詞」開頭，譯為文言"
+  },
+  {
+   "offset": 123,
+   "len": 71,
+   "en": "The gargoyle greets you enthusiastically, but you can't understand him!",
+   "zh": "魔像熱情地與你打招呼，你卻完全聽不懂！",
+   "note": "旁白"
+  },
+  {
+   "offset": 197,
+   "len": 90,
+   "en": "Seeing your confusion, he switches to the human language. It's obviously a strain for him.",
+   "zh": "見你一臉困惑，他切換成人類語言。這對他顯然費勁。",
+   "note": "旁白"
+  },
+  {
+   "offset": 290,
+   "len": 31,
+   "en": "\"Hello. I little human @speak.\"",
+   "zh": "「哈囉。我一點點人類@speak說話。」",
+   "note": "破碎的人類語，保留原味"
+  },
+  {
+   "offset": 398,
+   "len": 38,
+   "en": "$Y speaks. \"$P, let's away from here.\"",
+   "zh": "$Y說：「$P，我們離開這裡吧。」",
+   "note": ""
+  },
+  {
+   "offset": 439,
+   "len": 59,
+   "en": "\"There's naught of use this creature can tell us. Agreed?\" ",
+   "zh": "「這生靈對我們毫無用處。同意嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 504,
+   "len": 37,
+   "en": "The confused gargoyle waves good-bye.",
+   "zh": "困惑的魔像揮手告別。",
+   "note": "旁白"
+  },
+  {
+   "offset": 546,
+   "len": 18,
+   "en": "\"As you wish, $G.\"",
+   "zh": "「悉聽尊便，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 589,
+   "len": 49,
+   "en": "\"Captain John friend. He come here. I wait here.\"",
+   "zh": "「約翰船長朋友。他來這。我等這。」",
+   "note": "貝蘭破碎人類語"
+  },
+  {
+   "offset": 649,
+   "len": 21,
+   "en": "\"No name. I Beh Lem.\"",
+   "zh": "「沒名字。我貝蘭。」",
+   "note": "破碎語法"
+  },
+  {
+   "offset": 680,
+   "len": 34,
+   "en": "\"I wait here. @Captain John come.\"",
+   "zh": "「我等這。@Captain約翰船長會來。」",
+   "note": ""
+  },
+  {
+   "offset": 745,
+   "len": 65,
+   "en": "\"@Captain John teach I human speak,\" the gargoyle says haltingly.",
+   "zh": "「@Captain約翰船長教我人類說話，」魔像吞吞吐吐地說。",
+   "note": ""
+  },
+  {
+   "offset": 820,
+   "len": 37,
+   "en": "The confused gargoyle waves good-bye.",
+   "zh": "困惑的魔像揮手告別。",
+   "note": "旁白（重複）"
+  },
+  {
+   "offset": 862,
+   "len": 20,
+   "en": "The gargoyle shrugs.",
+   "zh": "魔像聳聳肩。",
+   "note": "旁白"
+  },
+  {
+   "offset": 898,
+   "len": 62,
+   "en": "\"To greet you, human. To recognize you as the False @Prophet!\"",
+   "zh": "「見人類而作禮。認汝乃偽@Prophet先知！」",
+   "note": "魔像文言語法"
+  },
+  {
+   "offset": 967,
+   "len": 19,
+   "en": "\"Good $T, my friend",
+   "zh": "「$T好，吾友",
+   "note": "前半"
+  },
+  {
+   "offset": 992,
+   "len": 30,
+   "en": ". To have met @Valkadesh yet?\"",
+   "zh": "。已見過@Valkadesh否？」",
+   "note": "後半"
+  },
+  {
+   "offset": 1045,
+   "len": 93,
+   "en": "\"To know Captain John! To help him and @Valkedesh in their work,\" the youngster says proudly.",
+   "zh": "「識得約翰船長！助他與@Valkedesh共事，」這小傢伙自豪地說。",
+   "note": ""
+  },
+  {
+   "offset": 1149,
+   "len": 64,
+   "en": "\"To not receive a true name until I have proved myself @worthy.\"",
+   "zh": "「未證己之@worthy配得，不受真名。」",
+   "note": "魔像名制度"
+  },
+  {
+   "offset": 1224,
+   "len": 86,
+   "en": "\"To be called Beh Lem, which means 'just one.' To have not yet received a @true name.\"",
+   "zh": "「吾被稱作貝蘭，意為『僅此一人』。尚未獲賜@true真名。」",
+   "note": ""
+  },
+  {
+   "offset": 1326,
+   "len": 84,
+   "en": "\"To not deserve a name yet. But to get one someday, just like my father @Valkadesh!\"",
+   "zh": "「尚不配得真名。然終將得之，如吾父@Valkadesh一般！」",
+   "note": ""
+  },
+  {
+   "offset": 1425,
+   "len": 35,
+   "en": "\"To be here to help you, noble $P.\"",
+   "zh": "「在此效力於高貴之$P。」",
+   "note": ""
+  },
+  {
+   "offset": 1461,
+   "len": 39,
+   "en": "\"To be here to wait for Captain @John.\"",
+   "zh": "「在此等候@John約翰船長。」",
+   "note": ""
+  },
+  {
+   "offset": 1533,
+   "len": 43,
+   "en": "\"To very much respect Valkadesh my father.\"",
+   "zh": "「吾父瓦卡德許，甚為敬仰。」",
+   "note": ""
+  },
+  {
+   "offset": 1579,
+   "len": 48,
+   "en": "\"To want to be a scholar someday just like him!\"",
+   "zh": "「願他日成一學者，如吾父一般！」",
+   "note": ""
+  },
+  {
+   "offset": 1641,
+   "len": 38,
+   "en": "\"To ask what directions were unclear?\"",
+   "zh": "「問何處指引不明？」",
+   "note": ""
+  },
+  {
+   "offset": 1722,
+   "len": 73,
+   "en": "\"To not know much about that. But to be sure that @Valkadesh would know!\"",
+   "zh": "「吾所知甚少。然@Valkadesh定知曉！」",
+   "note": ""
+  },
+  {
+   "offset": 1816,
+   "len": 39,
+   "en": "\"To be one of our guiding @principles.\"",
+   "zh": "「乃吾族指引之@principles原則之一。」",
+   "note": ""
+  },
+  {
+   "offset": 1866,
+   "len": 43,
+   "en": "\"To be surprised that you don't know that!\"",
+   "zh": "「竟不知此，令吾驚訝！」",
+   "note": ""
+  },
+  {
+   "offset": 1912,
+   "len": 72,
+   "en": "\"To have three guiding principles - @control, @diligence, and @passion.\"",
+   "zh": "「吾族有三大指引原則——@control克制、@diligence勤勉、@passion熱情。」",
+   "note": ""
+  },
+  {
+   "offset": 1987,
+   "len": 42,
+   "en": "\"To be the basis of all gargoyle beliefs.\"",
+   "zh": "「此乃吾族全部信仰之根基。」",
+   "note": ""
+  },
+  {
+   "offset": 2045,
+   "len": 76,
+   "en": "\"To be feared by everybody - everybody except me and @Valkadesh, my father!\"",
+   "zh": "「人人皆懼之——除吾與吾父@Valkadesh之外！」",
+   "note": ""
+  },
+  {
+   "offset": 2148,
+   "len": 27,
+   "en": "\"To wish to stay with you!\"",
+   "zh": "「願與汝同行！」",
+   "note": ""
+  },
+  {
+   "offset": 2178,
+   "len": 54,
+   "en": "\"To not leave until there is peace between our races!\"",
+   "zh": "「兩族未達和平，決不離去！」",
+   "note": ""
+  },
+  {
+   "offset": 2258,
+   "len": 5,
+   "en": "\"May ",
+   "zh": "「願",
+   "note": "道別語前半"
+  },
+  {
+   "offset": 2273,
+   "len": 47,
+   "en": "our persistence and precision lead to success!\"",
+   "zh": "以恆毅與精準引領吾等走向勝利！」",
+   "note": "道別語後半"
+  },
+  {
+   "offset": 2336,
+   "len": 97,
+   "en": "During your absence, $9 decided to head for the surface, to inform Lord British of your progress.",
+   "zh": "你離開期間，$9決定前往地面，向不列顛王稟報進度。",
+   "note": "旁白"
+  },
+  {
+   "offset": 2448,
+   "len": 50,
+   "en": "\"To be in danger from the lava! To stay far away!\"",
+   "zh": "「岩漿危險！須遠離！」",
+   "note": ""
+  },
+  {
+   "offset": 2509,
+   "len": 83,
+   "en": "\"To walk clockwise around the mountains from Hythloth to reach my father's @house.\"",
+   "zh": "「自海帝羅斯出發，順時針繞山而行，可至吾父之@house居所。」",
+   "note": ""
+  },
+  {
+   "offset": 2603,
+   "len": 78,
+   "en": "\"To find the house of Valkadesh my father through the pass east of the @Hall.\"",
+   "zh": "「穿過@Hall智識之殿以東的山口，可尋得吾父瓦卡德許之居所。」",
+   "note": ""
+  },
+  {
+   "offset": 2707,
+   "len": 57,
+   "en": "\"To find the Hall of Knowledge to the south of the city.\"",
+   "zh": "「智識之殿在城市南方。」",
+   "note": ""
+  },
+  {
+   "offset": 2765,
+   "len": 49,
+   "en": "\"To avoid the Hall! To talk to @Valkadesh first!\"",
+   "zh": "「勿入智識之殿！先去見@Valkadesh！」",
+   "note": ""
+  },
+  {
+   "offset": 2877,
+   "len": 59,
+   "en": "\"Good! To know that he very much wanted to speak with you.\"",
+   "zh": "「好！他非常想與汝一談。」",
+   "note": ""
+  },
+  {
+   "offset": 2974,
+   "len": 29,
+   "en": "\"To wish to meet Valkadesh?\" ",
+   "zh": "「願見瓦卡德許否？」",
+   "note": ""
+  },
+  {
+   "offset": 3020,
+   "len": 38,
+   "en": "\"To go with you and @guide you there!\"",
+   "zh": "「與汝同行，@guide引路！」",
+   "note": ""
+  },
+  {
+   "offset": 3070,
+   "len": 41,
+   "en": "\"Oh.\" The little gargoyle seems saddened.",
+   "zh": "「哦。」小魔像似乎有些失落。",
+   "note": "旁白"
+  },
+  {
+   "offset": 3117,
+   "len": 49,
+   "en": "\"To wish @directions to the house of Valkadesh?\" ",
+   "zh": "「需要前往瓦卡德許居所的@directions指引嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 3179,
+   "len": 29,
+   "en": "\"Then to not understand you.\"",
+   "zh": "「那吾便不解汝之意了。」",
+   "note": ""
+  },
+  {
+   "offset": 3213,
+   "len": 73,
+   "en": "\"To go from the entrance to Hythloth westward, following the @mountains.\"",
+   "zh": "「自海帝羅斯入口向西，沿@mountains山脈而行。」",
+   "note": ""
+  },
+  {
+   "offset": 3289,
+   "len": 48,
+   "en": "\"Then to turn north, at the @Hall of Knowledge.\"",
+   "zh": "「至@Hall智識之殿處北轉。」",
+   "note": ""
+  },
+  {
+   "offset": 3340,
+   "len": 67,
+   "en": "\"To walk east along the mountains until you come to a narrow pass.\"",
+   "zh": "「沿山東行，直至窄口山道。」",
+   "note": ""
+  },
+  {
+   "offset": 3410,
+   "len": 51,
+   "en": "\"To find the @house of Valkadesh through the pass!\"",
+   "zh": "「穿越山道，即可尋得瓦卡德許之@house居所！」",
+   "note": ""
+  },
+  {
+   "offset": 3464,
+   "len": 64,
+   "en": "\"To see it at 40 degrees south, 65 degrees east by the sextant.\"",
+   "zh": "「以六分儀測量，位於南緯40度、東經65度。」",
+   "note": ""
+  },
+  {
+   "offset": 3531,
+   "len": 71,
+   "en": "\"But to take care! To avoid the @lava pits and the @Hall of Knowledge!\"",
+   "zh": "「但須小心！避開@lava岩漿坑與@Hall智識之殿！」",
+   "note": ""
+  },
+  {
+   "offset": 3605,
+   "len": 35,
+   "en": "\"To understand these @directions?\" ",
+   "zh": "「明白此@directions指引嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 3646,
+   "len": 7,
+   "en": "\"Good!\"",
+   "zh": "「好！」",
+   "note": ""
+  },
+  {
+   "offset": 3661,
+   "len": 26,
+   "en": "\"To ask what was unclear?\"",
+   "zh": "「問何處不明？」",
+   "note": ""
+  },
+  {
+   "offset": 3711,
+   "len": 45,
+   "en": "The little gargoyle eagerly joins your group.",
+   "zh": "小魔像迫不及待地加入你的隊伍。",
+   "note": "旁白"
+  },
+  {
+   "offset": 3785,
+   "len": 87,
+   "en": "\"To wish very much to join you. But to not have enough room in your party for another.\"",
+   "zh": "「甚願加入，然汝之隊伍已無多餘位置。」",
+   "note": ""
+  },
+  {
+   "offset": 3964,
+   "len": 82,
+   "en": "$9 speaks. \"$G, I'll return to the surface and let everyone know of our progress.\"",
+   "zh": "$9說：「$G，吾將返回地面，向大家稟報我們的進度。」",
+   "note": ""
+  },
+  {
+   "offset": 4084,
+   "len": 68,
+   "en": "\"To not be able to join you right now. To ask again later, perhaps.\"",
+   "zh": "「眼下無法與汝同行。也許稍後再問。」",
+   "note": ""
+  },
+  {
+   "offset": 4155,
+   "len": 45,
+   "en": "The little gargoyle eagerly joins your group.",
+   "zh": "小魔像迫不及待地加入你的隊伍。",
+   "note": "旁白（重複）"
+  },
+  {
+   "offset": 4206,
+   "len": 29,
+   "en": "\"To know nothing about that.\"",
+   "zh": "「對此毫不知曉。」",
+   "note": ""
+  },
+  {
+   "offset": 4236,
+   "len": 53,
+   "en": "\"To be young. To think you should ask someone older.\"",
+   "zh": "「吾年幼。此事當問年長者。」",
+   "note": ""
+  },
+  {
+   "offset": 4290,
+   "len": 43,
+   "en": "\"To truly wish I could help you with that.\"",
+   "zh": "「誠心盼能助汝於此事。」",
+   "note": ""
+  },
+  {
+   "offset": 4334,
+   "len": 40,
+   "en": "\"To not understand what you mean by $Z.\"",
+   "zh": "「不解汝所言$Z之意。」",
+   "note": ""
+  },
+  {
+   "offset": 4375,
+   "len": 47,
+   "en": "\"To not have enough experience to answer that.\"",
+   "zh": "「吾閱歷尚淺，無從作答。」",
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {
+   "Beh Lem": "貝蘭",
+   "Valkadesh": "瓦卡德許"
+  },
+  "places": {
+   "Hythloth": "海帝羅斯"
+  }
+ },
+ "riddles_additions": [],
+ "translator_notes": "貝蘭為年輕魔像，習得破碎人類語（早期對話）及魔像典雅語法（後期）。前段人類語保留破碎口語感；後段魔像語用文言「To+動詞」對應為文言句式。道別語「願以恆毅與精準引領吾等走向勝利」保留魔像三原則意象。"
+}

@@ -1,0 +1,167 @@
+{
+ "translations": [
+  {
+   "offset": 2,
+   "len": 5,
+   "en": "Linda",
+   "zh": "琳達",
+   "note": "NPC name，女農夫，賣穀物"
+  },
+  {
+   "offset": 8,
+   "len": 29,
+   "en": "a rugged looking lady farmer.",
+   "zh": "一位看起來結實幹練的女農夫。",
+   "note": "DESC"
+  },
+  {
+   "offset": 40,
+   "len": 18,
+   "en": "\"Welcome, friend.\"",
+   "zh": "「歡迎，朋友。」",
+   "note": ""
+  },
+  {
+   "offset": 72,
+   "len": 19,
+   "en": "\"My name is Linda.\"",
+   "zh": "「我叫琳達。」",
+   "note": ""
+  },
+  {
+   "offset": 101,
+   "len": 71,
+   "en": "\"I raise @crops. If you'd like to buy some @grain, just say the @word.\"",
+   "zh": "「我種@crops農作物。若想買些@grain穀物，說個@word口令就行。」",
+   "note": ""
+  },
+  {
+   "offset": 188,
+   "len": 67,
+   "en": "\"@Bread, cakes, pies, pastries... They all have their @roots here.\"",
+   "zh": "「@Bread麵包、蛋糕、派、糕點……它們的@roots根源都在這裡。」",
+   "note": ""
+  },
+  {
+   "offset": 280,
+   "len": 38,
+   "en": "\"@Woman does not live on @meat alone.\"",
+   "zh": "「@Woman女人不能只靠@meat肉食活命。」",
+   "note": "聖經典故改寫"
+  },
+  {
+   "offset": 329,
+   "len": 61,
+   "en": "\"Cows and @sheep are much more trouble to raise than @wheat.\"",
+   "zh": "「牛和@sheep羊比@wheat小麥難養多了。」",
+   "note": ""
+  },
+  {
+   "offset": 405,
+   "len": 44,
+   "en": "\"They have their place. But not on my farm.\"",
+   "zh": "「它們有它們的用途。但不在我的農場。」",
+   "note": ""
+  },
+  {
+   "offset": 475,
+   "len": 75,
+   "en": "\"I was born to work the earth. It was either this, or be a @gravedigger...\"",
+   "zh": "「我天生就是要耕地的。不然就只能去當@gravedigger掘墓人了……」",
+   "note": ""
+  },
+  {
+   "offset": 561,
+   "len": 29,
+   "en": "\"That's not my kind of work.\"",
+   "zh": "「那不是我喜歡的活。」",
+   "note": ""
+  },
+  {
+   "offset": 601,
+   "len": 38,
+   "en": "\"Yes, men need to eat too, I suppose.\"",
+   "zh": "「是的，男人也要吃飯，我想是這樣。」",
+   "note": ""
+  },
+  {
+   "offset": 650,
+   "len": 27,
+   "en": "\"The word '@grain,' silly!\"",
+   "zh": "「口令是「@grain穀物」啦，笨！」",
+   "note": ""
+  },
+  {
+   "offset": 703,
+   "len": 63,
+   "en": "\"May the sun shine on you, and the rain bring you nourishment.\"",
+   "zh": "「願陽光照耀你，雨水滋養你。」",
+   "note": "農夫式的告別祝福"
+  },
+  {
+   "offset": 771,
+   "len": 27,
+   "en": "\"I don't know. I guess so.\"",
+   "zh": "「我不知道。我想是的。」",
+   "note": ""
+  },
+  {
+   "offset": 845,
+   "len": 6,
+   "en": "#2. $Y",
+   "zh": "#2。$Y",
+   "note": "控制符保留"
+  },
+  {
+   "offset": 885,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪一位？」",
+   "note": "尾隨空格保留"
+  },
+  {
+   "offset": 940,
+   "len": 57,
+   "en": "\"It'll cost you 2 gold for a sack of grain. Interested?\" ",
+   "zh": "「一袋穀物要2金幣。有興趣嗎？」",
+   "note": "尾隨空格保留"
+  },
+  {
+   "offset": 1017,
+   "len": 29,
+   "en": "\"You look pretty full to me.\"",
+   "zh": "「你看起來裝得挺滿的了。」",
+   "note": "背包滿了"
+  },
+  {
+   "offset": 1097,
+   "len": 14,
+   "en": "\"Here you go.\"",
+   "zh": "「給你。」",
+   "note": ""
+  },
+  {
+   "offset": 1125,
+   "len": 34,
+   "en": "\"Best check your coinpouch again.\"",
+   "zh": "「最好再查查你的錢袋。」",
+   "note": ""
+  },
+  {
+   "offset": 1168,
+   "len": 7,
+   "en": "\"Okay.\"",
+   "zh": "「好。」",
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {},
+ "glossary_additions": {
+  "people": {
+   "Linda": "琳達"
+  },
+  "places": {}
+ },
+ "riddles_additions": [],
+ "translator_notes": "琳達是直率的女農夫，賣穀物（2金幣一袋），對畜牧不感興趣。「Woman does not live on meat alone」仿聖經「人不能單靠麵包」。告別祝詞保留農耕意象。"
+}

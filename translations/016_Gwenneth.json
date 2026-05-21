@@ -1,0 +1,692 @@
+{
+  "_meta": {
+    "npc": "Gwenneth",
+    "role": "弓店店主，Iolo 昔日學徒"
+  },
+  "translations": [
+    {
+      "offset": 2,
+      "len": 8,
+      "en": "Gwenneth",
+      "zh": "葛雯妮絲",
+      "zh_bytes": 8
+    },
+    {
+      "offset": 11,
+      "len": 39,
+      "en": "a petite woman with flowing brown hair.",
+      "zh": "一位嬌小女子，棕髮飄逸。",
+      "zh_bytes": 24
+    },
+    {
+      "offset": 83,
+      "len": 6,
+      "en": "\"Iolo!",
+      "zh": "尤洛！",
+      "zh_bytes": 6
+    },
+    {
+      "offset": 100,
+      "len": 29,
+      "en": " And thy companions as well!\"",
+      "zh": "還有汝的同伴們！」",
+      "zh_bytes": 18
+    },
+    {
+      "offset": 135,
+      "len": 39,
+      "en": "\"I heard rumors that you were in town!\"",
+      "zh": "「聞汝至此城之傳言！」",
+      "zh_bytes": 22
+    },
+    {
+      "offset": 181,
+      "len": 41,
+      "en": "Iolo greets his former apprentice warmly.",
+      "zh": "尤洛親切地向昔日學徒問好。",
+      "zh_bytes": 26
+    },
+    {
+      "offset": 225,
+      "len": 30,
+      "en": "\"How goes business, Gwenneth?\"",
+      "zh": "「生意如何，葛雯妮絲？」",
+      "zh_bytes": 24
+    },
+    {
+      "offset": 262,
+      "len": 84,
+      "en": "\"Very well, very well indeed. Sir Geoffrey himself just placed quite a large order!\"",
+      "zh": "「甚好，甚好。傑佛瑞爵士剛親下一筆大訂單！」",
+      "zh_bytes": 44
+    },
+    {
+      "offset": 349,
+      "len": 60,
+      "en": "\"Much demand for bows these days, what with the @gargoyles!\"",
+      "zh": "「如今@魔像族肆虐，弓的需求大增！」",
+      "zh_bytes": 35
+    },
+    {
+      "offset": 416,
+      "len": 67,
+      "en": "Turning to you, Gwenneth says, \"And what can I do for Iolo's friend",
+      "zh": "葛雯妮絲轉向你，說：「尤洛之友啊，於",
+      "zh_bytes": 36
+    },
+    {
+      "offset": 499,
+      "len": 15,
+      "en": " this fine $T?\"",
+      "zh": "此$T可效勞？」",
+      "zh_bytes": 14
+    },
+    {
+      "offset": 519,
+      "len": 47,
+      "en": "\"I recongize thee! Thou art Iolo's friend, $P!\"",
+      "zh": "「我認得汝！汝便是尤洛之友，$P！」",
+      "zh_bytes": 34
+    },
+    {
+      "offset": 569,
+      "len": 38,
+      "en": "\"What can I do for thee this fine $T?\"",
+      "zh": "「此美好之$T，可效何勞？」",
+      "zh_bytes": 26
+    },
+    {
+      "offset": 612,
+      "len": 51,
+      "en": "\"Hello again. What can I do for thee this fine $T?\"",
+      "zh": "「又見面了。此$T可效何勞？」",
+      "zh_bytes": 28
+    },
+    {
+      "offset": 669,
+      "len": 21,
+      "en": "\"What'll it be next?\"",
+      "zh": "「接下來要什麼？」",
+      "zh_bytes": 18
+    },
+    {
+      "offset": 693,
+      "len": 3,
+      "en": "buy",
+      "zh": "買",
+      "zh_bytes": 2
+    },
+    {
+      "offset": 703,
+      "len": 4,
+      "en": "sell",
+      "zh": "賣",
+      "zh_bytes": 2
+    },
+    {
+      "offset": 714,
+      "len": 4,
+      "en": "name",
+      "zh": "名字",
+      "zh_bytes": 4
+    },
+    {
+      "offset": 724,
+      "len": 51,
+      "en": "\"What a strange question. I'm Gwenneth, of course.\"",
+      "zh": "「何等怪問。我自然是葛雯妮絲。」",
+      "zh_bytes": 32
+    },
+    {
+      "offset": 778,
+      "len": 16,
+      "en": "\"Just ask Iolo!\"",
+      "zh": "「問尤洛便知！」",
+      "zh_bytes": 16
+    },
+    {
+      "offset": 795,
+      "len": 30,
+      "en": "\"But dost thou not know Iolo?\"",
+      "zh": "「汝豈不識尤洛？」",
+      "zh_bytes": 18
+    },
+    {
+      "offset": 828,
+      "len": 45,
+      "en": "\"Well, I am his former aprrentice, Gwenneth.\"",
+      "zh": "「在下乃他昔日學徒葛雯妮絲。」",
+      "zh_bytes": 30
+    },
+    {
+      "offset": 880,
+      "len": 3,
+      "en": "job",
+      "zh": "業",
+      "zh_bytes": 2
+    },
+    {
+      "offset": 884,
+      "len": 62,
+      "en": "\"Once was I Iolo's apprentice, but then he decided to retire.\"",
+      "zh": "「昔我曾為尤洛之徒，後他決意退隱。」",
+      "zh_bytes": 36
+    },
+    {
+      "offset": 949,
+      "len": 51,
+      "en": "\"Now 'tis my shop, and I craft the bows sold here!\"",
+      "zh": "「如今此店歸我，所售之弓皆由我親製！」",
+      "zh_bytes": 38
+    },
+    {
+      "offset": 1003,
+      "len": 74,
+      "en": "\\\"'Course, 'tis still called @Iolo's Bows, out of respect for the master.\"",
+      "zh": "\\\"「然店名仍為@尤洛之弓，以敬師父。」",
+      "zh_bytes": 37
+    },
+    {
+      "offset": 1085,
+      "len": 29,
+      "en": "At this, Iolo blushes humbly.",
+      "zh": "尤洛謙遜地紅了臉。",
+      "zh_bytes": 18
+    },
+    {
+      "offset": 1127,
+      "len": 4,
+      "en": "garg",
+      "zh": "魔像",
+      "zh_bytes": 4
+    },
+    {
+      "offset": 1132,
+      "len": 67,
+      "en": "\"I hear from the soldiers that the gargoyles are fierce opponents.\"",
+      "zh": "「聽士兵說，@魔像族乃強悍敵手。」",
+      "zh_bytes": 33
+    },
+    {
+      "offset": 1202,
+      "len": 84,
+      "en": "\"Some gargoyles move like the wind itself, and can strike you like lightning bolts!\"",
+      "zh": "「有些魔像迅如疾風，攻擊宛若雷霆閃電！」",
+      "zh_bytes": 40
+    },
+    {
+      "offset": 1289,
+      "len": 57,
+      "en": "\"The gargoyles also have a strange and terrible @weapon.\"",
+      "zh": "「魔像族另有一種怪異可怖之@武器。」",
+      "zh_bytes": 35
+    },
+    {
+      "offset": 1352,
+      "len": 4,
+      "en": "weap",
+      "zh": "武器",
+      "zh_bytes": 4
+    },
+    {
+      "offset": 1357,
+      "len": 66,
+      "en": "\"'Tis called a boomerang, and it is a most bizarre ranged weapon.\"",
+      "zh": "「名曰飛去來器，乃極為奇特之遠程兵器。」",
+      "zh_bytes": 40
+    },
+    {
+      "offset": 1426,
+      "len": 76,
+      "en": "\"It flies out to strike its target, then returns to the hand that threw it!\"",
+      "zh": "「擲出能擊中目標，又自行飛回擲者之手！」",
+      "zh_bytes": 40
+    },
+    {
+      "offset": 1505,
+      "len": 91,
+      "en": "\"Against such magic the soldiers chose to arm themselves with good, stout Britannian bows!\"",
+      "zh": "「為禦此等魔法，士兵們選用堅固的不列顛尼亞之弓！」",
+      "zh_bytes": 50
+    },
+    {
+      "offset": 1602,
+      "len": 4,
+      "en": "iolo",
+      "zh": "尤洛",
+      "zh_bytes": 4
+    },
+    {
+      "offset": 1612,
+      "len": 68,
+      "en": "She smiles. \"I would not wish to speak of Iolo amongst his friends.\"",
+      "zh": "她笑了笑。「在尤洛朋友面前，我不便多言他事。」",
+      "zh_bytes": 46
+    },
+    {
+      "offset": 1683,
+      "len": 23,
+      "en": "\"I might embarass him!\"",
+      "zh": "「免得讓他臉紅！」",
+      "zh_bytes": 18
+    },
+    {
+      "offset": 1707,
+      "len": 69,
+      "en": "\"Nay, I really would not wish to speak of my master behind his back.\"",
+      "zh": "「不，我實不願在師父背後議論他。」",
+      "zh_bytes": 34
+    },
+    {
+      "offset": 1783,
+      "len": 9,
+      "en": "arro,bolt",
+      "zh": "箭,弩矢",
+      "zh_bytes": 7
+    },
+    {
+      "offset": 1793,
+      "len": 41,
+      "en": "\"Aye, usually do I carry those in stock.\"",
+      "zh": "「是，平日皆有存貨。」",
+      "zh_bytes": 22
+    },
+    {
+      "offset": 1837,
+      "len": 70,
+      "en": "\"But there has been a shortage of late, because of the @gargoyle war.\"",
+      "zh": "「然近來因@魔像族戰事而短缺。」",
+      "zh_bytes": 31
+    },
+    {
+      "offset": 1910,
+      "len": 46,
+      "en": "\"Go see Lynn the Fletcher, over to the north.\"",
+      "zh": "「往北去找製箭匠林恩吧。」",
+      "zh_bytes": 26
+    },
+    {
+      "offset": 1962,
+      "len": 4,
+      "en": "lynn",
+      "zh": "林恩",
+      "zh_bytes": 4
+    },
+    {
+      "offset": 1967,
+      "len": 81,
+      "en": "\"Lynn is a fine fletcher, and usually keeps me supplied with @arrows and @bolts.\"",
+      "zh": "「林恩乃好箭匠，常為我供應@箭與@弩矢。」",
+      "zh_bytes": 40
+    },
+    {
+      "offset": 2051,
+      "len": 70,
+      "en": "\"I've none left in stock, though, since the soldiers bought them all.\"",
+      "zh": "「不過如今皆售予士兵，已無存貨。」",
+      "zh_bytes": 34
+    },
+    {
+      "offset": 2127,
+      "len": 4,
+      "en": "trip",
+      "zh": "三連",
+      "zh_bytes": 4
+    },
+    {
+      "offset": 2139,
+      "len": 48,
+      "en": "\"I fear I had but one triple crossbow for sale.\"",
+      "zh": "「我只剩一具三連弩可賣，恐怕。」",
+      "zh_bytes": 32
+    },
+    {
+      "offset": 2190,
+      "len": 49,
+      "en": "\"Come back in six months and I may have another.\"",
+      "zh": "「半年後再來，可能還有一具。」",
+      "zh_bytes": 30
+    },
+    {
+      "offset": 2252,
+      "len": 3,
+      "en": "bye",
+      "zh": "別",
+      "zh_bytes": 2
+    },
+    {
+      "offset": 2260,
+      "len": 23,
+      "en": "\"Farewell, all of you.\"",
+      "zh": "「諸位，珍重。」",
+      "zh_bytes": 16
+    },
+    {
+      "offset": 2284,
+      "len": 19,
+      "en": "\"Farewell to thee!\"",
+      "zh": "「汝亦珍重！」",
+      "zh_bytes": 14
+    },
+    {
+      "offset": 2312,
+      "len": 72,
+      "en": "\"Iolo, I'll see thee again soon with thy share of this month's profits!\"",
+      "zh": "「尤洛，本月分潤我不久將再尋汝交付！」",
+      "zh_bytes": 38
+    },
+    {
+      "offset": 2390,
+      "len": 13,
+      "en": "\"Beg pardon?\"",
+      "zh": "「請再說？」",
+      "zh_bytes": 12
+    },
+    {
+      "offset": 2409,
+      "len": 40,
+      "en": "\"Ah, I see thou art a discerning buyer.\"",
+      "zh": "「啊，汝果是行家。」",
+      "zh_bytes": 20
+    },
+    {
+      "offset": 2452,
+      "len": 44,
+      "en": "\"The triple-crossbow is a marvel to behold.\"",
+      "zh": "「三連弩乃一奇物。」",
+      "zh_bytes": 20
+    },
+    {
+      "offset": 2499,
+      "len": 50,
+      "en": "\"This enchanted weapon fires three bolts at once!\"",
+      "zh": "「此附魔之器一發三矢！」",
+      "zh_bytes": 24
+    },
+    {
+      "offset": 2552,
+      "len": 42,
+      "en": "\"Normally, I would not offer it for sale.\"",
+      "zh": "「平時我絕不出售。」",
+      "zh_bytes": 20
+    },
+    {
+      "offset": 2597,
+      "len": 84,
+      "en": "\"But, because thy cause is important, I will allow thee--and thee only!--to buy it.\"",
+      "zh": "「然汝之任重大，我願讓汝——僅讓汝——購之。」",
+      "zh_bytes": 46
+    },
+    {
+      "offset": 2684,
+      "len": 43,
+      "en": "\"But I fear I must charge 400 gold for it.\"",
+      "zh": "「然須收四百金幣，恐怕。」",
+      "zh_bytes": 26
+    },
+    {
+      "offset": 2730,
+      "len": 37,
+      "en": "\"Dost thou wish to buy this weapon?\" ",
+      "zh": "「汝可願購此兵器？」 ",
+      "zh_bytes": 21
+    },
+    {
+      "offset": 2768,
+      "len": 2,
+      "en": "yn",
+      "zh": "是",
+      "zh_bytes": 2
+    },
+    {
+      "offset": 2794,
+      "len": 27,
+      "en": "\"But thou cannot carry it!\"",
+      "zh": "「汝攜不動此物！」",
+      "zh_bytes": 18
+    },
+    {
+      "offset": 2841,
+      "len": 28,
+      "en": "\"But thou cannot afford it!\"",
+      "zh": "「汝財不足購之！」",
+      "zh_bytes": 18
+    },
+    {
+      "offset": 2924,
+      "len": 64,
+      "en": "\"It will be here, waiting for thee, if thou hast a need for it.\"",
+      "zh": "「此物將留於此，待汝有需之時。」",
+      "zh_bytes": 32
+    },
+    {
+      "offset": 3132,
+      "len": 41,
+      "en": "\"Sorry, none of you has anything I need.\"",
+      "zh": "「抱歉，諸位皆無我所需之物。」",
+      "zh_bytes": 30
+    },
+    {
+      "offset": 3208,
+      "len": 38,
+      "en": "\"Aye, $Y has something of interest...\"",
+      "zh": "「啊，$Y有趣物……」",
+      "zh_bytes": 20
+    },
+    {
+      "offset": 3278,
+      "len": 6,
+      "en": "#1) $Y",
+      "zh": "#1) $Y",
+      "zh_bytes": 6
+    },
+    {
+      "offset": 3308,
+      "len": 16,
+      "en": "\"Which of you?\" ",
+      "zh": "「諸位何人？」 ",
+      "zh_bytes": 15
+    },
+    {
+      "offset": 3499,
+      "len": 4,
+      "en": "#0) ",
+      "zh": "#0) ",
+      "zh_bytes": 4
+    },
+    {
+      "offset": 3545,
+      "len": 14,
+      "en": "\"Which item?\" ",
+      "zh": "「何物？」 ",
+      "zh_bytes": 11
+    },
+    {
+      "offset": 3637,
+      "len": 41,
+      "en": "\"Will you take #7 gold for that $0, $Y?\" ",
+      "zh": "「$Y，七金幣換此$0，可乎？」 ",
+      "zh_bytes": 29
+    },
+    {
+      "offset": 3679,
+      "len": 2,
+      "en": "yn",
+      "zh": "是",
+      "zh_bytes": 2
+    },
+    {
+      "offset": 3691,
+      "len": 32,
+      "en": "\"Perhaps some other time, then.\"",
+      "zh": "「那麼，改日再說吧。」",
+      "zh_bytes": 22
+    },
+    {
+      "offset": 3731,
+      "len": 30,
+      "en": "\"Perhaps something else then?\"",
+      "zh": "「那麼，可有他物？」",
+      "zh_bytes": 20
+    },
+    {
+      "offset": 3777,
+      "len": 52,
+      "en": "\"Done!\" $N hands $Y #7 gold pieces and takes the $0.",
+      "zh": "「成交！」$N付$Y七金幣，取走$0。",
+      "zh_bytes": 32
+    },
+    {
+      "offset": 3885,
+      "len": 24,
+      "en": "\"Changed your mind, eh?\"",
+      "zh": "「改主意了，是嗎？」",
+      "zh_bytes": 20
+    },
+    {
+      "offset": 3957,
+      "len": 6,
+      "en": "#2) $Y",
+      "zh": "#2) $Y",
+      "zh_bytes": 6
+    },
+    {
+      "offset": 3997,
+      "len": 16,
+      "en": "\"Which of you?\" ",
+      "zh": "「諸位何人？」 ",
+      "zh_bytes": 15
+    },
+    {
+      "offset": 4089,
+      "len": 6,
+      "en": "#0) $0",
+      "zh": "#0) $0",
+      "zh_bytes": 6
+    },
+    {
+      "offset": 4126,
+      "len": 14,
+      "en": "\"Which item?\" ",
+      "zh": "「何物？」 ",
+      "zh_bytes": 11
+    },
+    {
+      "offset": 4205,
+      "len": 24,
+      "en": "\"That $1 costs #1 gold.\"",
+      "zh": "「此$1售#1金幣。」",
+      "zh_bytes": 18
+    },
+    {
+      "offset": 4232,
+      "len": 18,
+      "en": "\"Interested, $Y?\" ",
+      "zh": "「$Y可有興趣？」 ",
+      "zh_bytes": 17
+    },
+    {
+      "offset": 4251,
+      "len": 2,
+      "en": "yn",
+      "zh": "是",
+      "zh_bytes": 2
+    },
+    {
+      "offset": 4293,
+      "len": 41,
+      "en": "\"But 'twould make thee o'erburdened, $Y!\"",
+      "zh": "「然$Y，此將令汝負重過甚！」",
+      "zh_bytes": 28
+    },
+    {
+      "offset": 4384,
+      "len": 12,
+      "en": "\"Excellent!\"",
+      "zh": "「絕妙！」",
+      "zh_bytes": 10
+    },
+    {
+      "offset": 4398,
+      "len": 48,
+      "en": "After accepting $Y's gold, $N hands over the $1.",
+      "zh": "收下$Y之金後，$N交付$1。",
+      "zh_bytes": 24
+    },
+    {
+      "offset": 4469,
+      "len": 36,
+      "en": "\"But thou hast not enough gold, $Y!\"",
+      "zh": "「然$Y，汝金不足！」",
+      "zh_bytes": 20
+    },
+    {
+      "offset": 4523,
+      "len": 32,
+      "en": "\"Thou hast not enough gold, $Y.\"",
+      "zh": "「$Y，汝金不足。」",
+      "zh_bytes": 18
+    },
+    {
+      "offset": 4558,
+      "len": 78,
+      "en": "She winks at Iolo. \"But I think I can trust thee with credit, just this once!\"",
+      "zh": "她向尤洛眨眼。「然此次我可信汝賒帳！」",
+      "zh_bytes": 38
+    },
+    {
+      "offset": 4670,
+      "len": 62,
+      "en": "\"I'm sorry, $Y, but I cannot offer more credit, even to thee.\"",
+      "zh": "「$Y，抱歉，即便對汝，我亦不能再賒。」",
+      "zh_bytes": 38
+    },
+    {
+      "offset": 4735,
+      "len": 50,
+      "en": "\"The @gargoyle wars make my wares much in demand!\"",
+      "zh": "「@魔像族戰事使我貨品大為熱銷！」",
+      "zh_bytes": 33
+    },
+    {
+      "offset": 4811,
+      "len": 3,
+      "en": "Bow",
+      "zh": "弓",
+      "zh_bytes": 2
+    },
+    {
+      "offset": 4815,
+      "len": 8,
+      "en": "Crossbow",
+      "zh": "十字弓",
+      "zh_bytes": 6
+    },
+    {
+      "offset": 4824,
+      "len": 5,
+      "en": "Sling",
+      "zh": "投石",
+      "zh_bytes": 4
+    },
+    {
+      "offset": 4830,
+      "len": 9,
+      "en": "Magic Bow",
+      "zh": "魔法弓",
+      "zh_bytes": 6
+    }
+  ],
+  "glossary_additions": {
+    "people": {
+      "Gwenneth": "葛雯妮絲",
+      "Lynn the Fletcher": "製箭匠林恩"
+    },
+    "concepts": {
+      "triple crossbow": "三連弩",
+      "boomerang": "飛去來器"
+    }
+  },
+  "riddles_additions": [],
+  "translator_notes": "Gwenneth=葛雯妮絲（與 Gwenno=葛雯 區隔）。Iolo 昔日學徒、自營弓店。96 條 ≤ len，無 5C trail。"
+}
