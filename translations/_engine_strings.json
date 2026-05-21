@@ -246,7 +246,7 @@
   { "en": "nothing!\n", "zh": "無對象！\n" },
   { "en": "nothing!",   "zh": "無對象！" },
   { "en": "what?",      "zh": "什麼？" },
-  { "en": "Out of range!", "zh": "夠不著！" },
+  { "en": "Out of range!", "zh": "搆不著！" },
   { "en": "Pass!",      "zh": "跳過！" },
   { "en": "critical!",  "zh": "致命一擊！" },
   { "en": "grazed.",    "zh": "擦傷。" },
@@ -257,10 +257,10 @@
   { "en": "job",  "zh": "job"  },
   { "en": "bye",  "zh": "bye"  },
 
-  { "en": "Out of range.\n", "zh": "夠不著。\n" },
-  { "en": "Out of range\n",  "zh": "夠不著\n" },
-  { "en": "Out of range.",   "zh": "夠不著。" },
-  { "en": "Out of range",    "zh": "夠不著" },
+  { "en": "Out of range.\n", "zh": "搆不著。\n" },
+  { "en": "Out of range\n",  "zh": "搆不著\n" },
+  { "en": "Out of range.",   "zh": "搆不著。" },
+  { "en": "Out of range",    "zh": "搆不著" },
 
   { "en": "Move-", "zh": "移動-" },
   { "en": "Cast-", "zh": "施咒-" },

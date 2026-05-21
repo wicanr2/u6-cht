@@ -18,11 +18,11 @@
   { "en": " dead.\n",               "zh": " 已亡。\n" },
   { "en": " killed!\n",             "zh": " 被擊殺！\n" },
 
-  { "en": "Out of range.\n",        "zh": "夠不著。\n" },
-  { "en": "Out of range!\n",        "zh": "夠不著！\n" },
-  { "en": "Out of range!",          "zh": "夠不著！" },
-  { "en": "Out of range\n",         "zh": "夠不著\n" },
-  { "en": "Out of range",           "zh": "夠不著" },
+  { "en": "Out of range.\n",        "zh": "搆不著。\n" },
+  { "en": "Out of range!\n",        "zh": "搆不著！\n" },
+  { "en": "Out of range!",          "zh": "搆不著！" },
+  { "en": "Out of range\n",         "zh": "搆不著\n" },
+  { "en": "Out of range",           "zh": "搆不著" },
 
   { "en": "Blocked.\n",             "zh": "被阻擋。\n" },
   { "en": "Blocked\n",              "zh": "被阻擋\n" },

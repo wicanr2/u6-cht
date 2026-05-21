@@ -1032,3 +1032,145 @@ index 374ee036..f9a70087 100644
  	}
  	//FIXME load other fonts for MD / SE if needed here.
  	if (game_type == NUVIE_GAME_SE) {
+diff --git a/engines/ultima/nuvie/views/container_view_gump.cpp b/engines/ultima/nuvie/views/container_view_gump.cpp
+index 2b9b98a2..b5db963f 100644
+--- a/engines/ultima/nuvie/views/container_view_gump.cpp
++++ b/engines/ultima/nuvie/views/container_view_gump.cpp
+@@ -27,6 +27,7 @@
+ #include "ultima/nuvie/core/u6_objects.h"
+ #include "ultima/nuvie/core/party.h"
+ #include "ultima/nuvie/actors/actor.h"
++#include "ultima/nuvie/misc/cht_translate.h"
+ #include "ultima/nuvie/fonts/font.h"
+ #include "ultima/nuvie/views/view_manager.h"
+ #include "ultima/nuvie/fonts/font_manager.h"
+@@ -265,7 +266,7 @@ void ContainerViewGump::Display(bool full_redraw) {
+ 	DisplayChildren(full_redraw);
+ 
+ 	if (actor) {
+-		font->drawString(screen, actor->get_name(), area.left + 18, area.top + 2, 15, 15);
++		Common::String _name_tr = CHTranslate::get()->translate(actor->get_name()); font->drawString(screen, _name_tr.c_str(), area.left + 18, area.top + 2, 15, 15);
+ 		display_inventory_weight();
+ 	}
+ 	update_display = false;
+diff --git a/engines/ultima/nuvie/views/doll_view_gump.cpp b/engines/ultima/nuvie/views/doll_view_gump.cpp
+index 4d5e9016..55d9325b 100644
+--- a/engines/ultima/nuvie/views/doll_view_gump.cpp
++++ b/engines/ultima/nuvie/views/doll_view_gump.cpp
+@@ -26,6 +26,7 @@
+ #include "ultima/nuvie/gui/gui_button.h"
+ #include "ultima/nuvie/core/party.h"
+ #include "ultima/nuvie/actors/actor.h"
++#include "ultima/nuvie/misc/cht_translate.h"
+ #include "ultima/nuvie/views/view_manager.h"
+ #include "ultima/nuvie/views/container_view_gump.h"
+ #include "ultima/nuvie/views/doll_widget.h"
+@@ -240,7 +241,7 @@ void DollViewGump::Display(bool full_redraw) {
+ 	}
+ 
+ 	uint8 w = font->getCenter(actor->get_name(), 58);
+-	font->textOut(screen->get_sdl_surface(), area.left + 29 + w, area.top + 7, actor->get_name());
++	Common::String _name_tr = CHTranslate::get()->translate(actor->get_name()); font->textOut(screen->get_sdl_surface(), area.left + 29 + w, area.top + 7, _name_tr.c_str());
+ 
+ 	displayEquipWeight();
+ 
+diff --git a/engines/ultima/nuvie/views/party_view.cpp b/engines/ultima/nuvie/views/party_view.cpp
+index 591ec55b..8e16862a 100644
+--- a/engines/ultima/nuvie/views/party_view.cpp
++++ b/engines/ultima/nuvie/views/party_view.cpp
+@@ -22,6 +22,7 @@
+ #include "ultima/nuvie/core/nuvie_defs.h"
+ #include "ultima/nuvie/actors/actor.h"
+ #include "ultima/nuvie/core/party.h"
++#include "ultima/nuvie/misc/cht_translate.h"
+ #include "ultima/nuvie/core/player.h"
+ #include "ultima/nuvie/core/game_clock.h"
+ #include "ultima/nuvie/views/party_view.h"
+@@ -314,6 +315,8 @@ void PartyView::Display(bool full_redraw) {
+ 
+ 			screen->blit(area.left + x_offset, area.top + y_offset + (i - row_offset)*rowH, actor_tile->data, 8, 16, 16, 16, true);
+ 			const char *actor_name = party->get_actor_name(i);
++			// CHT: translate party member name (right panel)
++			Common::String _actor_name_tr = CHTranslate::get()->translate(actor_name);
+ 
+ 			if (SE) {
+ 				x_offset = 4;
+@@ -322,7 +325,7 @@ void PartyView::Display(bool full_redraw) {
+ 			if (MD)
+ 				y_offset = -3;
+ 			// FIXME: Martian Dreams text is somewhat center aligned
+-			font->drawString(screen, actor_name, area.left + x_offset + 24, area.top + y_offset + (i - row_offset) * rowH + 8);
++			font->drawString(screen, _actor_name_tr.c_str(), area.left + x_offset + 24, area.top + y_offset + (i - row_offset) * rowH + 8);
+ 			char hp_string[4];
+ 			Common::sprintf_s(hp_string, "%3d", actor->get_hp());
+ 			hp_text_color = actor->get_hp_text_color();
+diff --git a/engines/ultima/nuvie/views/portrait_view.cpp b/engines/ultima/nuvie/views/portrait_view.cpp
+index a84f9601..d52f90ae 100644
+--- a/engines/ultima/nuvie/views/portrait_view.cpp
++++ b/engines/ultima/nuvie/views/portrait_view.cpp
+@@ -38,6 +38,7 @@
+ #include "ultima/nuvie/views/doll_widget.h"
+ #include "ultima/nuvie/views/portrait_view.h"
+ #include "ultima/nuvie/views/sun_moon_strip_widget.h"
++#include "ultima/nuvie/misc/cht_translate.h"
+ 
+ namespace Ultima {
+ namespace Nuvie {
+@@ -193,12 +194,23 @@ bool PortraitView::set_portrait(Actor *actor, const char *name) {
+ }
+ 
+ void PortraitView::display_name(uint16 y_offset) {
+-	const char *name;
+-
+-	name = name_string->c_str();
+-
+-	font->drawString(screen, name, area.left + (area.width() - strlen(name) * 8) / 2, area.top + y_offset);
+-
++	// CHT: translate to Big5 + compute visual width counting Big5 pairs as 2 cells
++	Common::String translated = CHTranslate::get()->translate(name_string->c_str());
++	int display_w = 0;
++	for (uint32 i = 0; i < translated.size(); ++i) {
++		uint8 c = (uint8)translated[i];
++		if (c >= 0xA1 && c <= 0xFE && i + 1 < translated.size()) {
++			uint8 c2 = (uint8)translated[i + 1];
++			if ((c2 >= 0x40 && c2 <= 0x7E) || (c2 >= 0xA1 && c2 <= 0xFE)) {
++				display_w += 16;
++				++i;
++				continue;
++			}
++		}
++		display_w += 8;
++	}
++	font->drawString(screen, translated.c_str(),
++	                 area.left + (area.width() - display_w) / 2, area.top + y_offset);
+ 	return;
+ }
+ 
+diff --git a/engines/ultima/nuvie/views/portrait_view_gump.cpp b/engines/ultima/nuvie/views/portrait_view_gump.cpp
+index 269ef215..82a743cb 100644
+--- a/engines/ultima/nuvie/views/portrait_view_gump.cpp
++++ b/engines/ultima/nuvie/views/portrait_view_gump.cpp
+@@ -30,6 +30,7 @@
+ #include "ultima/nuvie/views/view_manager.h"
+ #include "ultima/nuvie/views/container_widget_gump.h"
+ #include "ultima/nuvie/views/portrait_view_gump.h"
++#include "ultima/nuvie/misc/cht_translate.h"
+ #include "ultima/nuvie/keybinding/keys.h"
+ 
+ namespace Ultima {
+@@ -137,11 +138,13 @@ void PortraitViewGump::Display(bool full_redraw) {
+ 	screen->blit(area.left + 25, area.top + 17, portrait_data, 8, portrait->get_portrait_width(), portrait->get_portrait_height(), portrait->get_portrait_width(), false);
+ 
+ 	int w, h;
+-	w = font->getCenter(actor->get_name(), 138);
++	// CHT: translate portrait name (NPC dialog header)
++	Common::String actor_name_tr = CHTranslate::get()->translate(actor->get_name());
++	w = font->getCenter(actor_name_tr.c_str(), 138);
+ 
+ 	font->setColoring(0x08, 0x08, 0x08, 0x80, 0x58, 0x30, 0x00, 0x00, 0x00);
+ 
+-	font->textOut(screen->get_sdl_surface(), area.left + 29 + w, area.top + 6, actor->get_name());
++	font->textOut(screen->get_sdl_surface(), area.left + 29 + w, area.top + 6, actor_name_tr.c_str());
+ 
+ 	buf = Common::String::format("%d", actor->get_strength());
+ 	font->textExtent(buf.c_str(), &w, &h);
