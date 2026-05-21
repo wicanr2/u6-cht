@@ -900,7 +900,7 @@ index cab5034a..da45965f 100644
  
  } // End of namespace Nuvie
 diff --git a/engines/ultima/nuvie/gui/widgets/msg_scroll.cpp b/engines/ultima/nuvie/gui/widgets/msg_scroll.cpp
-index ba7134a2..237be6d6 100644
+index ba7134a2..1974171b 100644
 --- a/engines/ultima/nuvie/gui/widgets/msg_scroll.cpp
 +++ b/engines/ultima/nuvie/gui/widgets/msg_scroll.cpp
 @@ -23,6 +23,7 @@
@@ -911,18 +911,16 @@ index ba7134a2..237be6d6 100644
  #include "ultima/nuvie/fonts/font_manager.h"
  #include "ultima/nuvie/fonts/font.h"
  #include "ultima/nuvie/screen/game_palette.h"
-@@ -201,7 +202,9 @@ MsgScroll::MsgScroll(const Configuration *cfg, Font *f) : GUI_Widget(nullptr, 0,
+@@ -201,7 +202,7 @@ MsgScroll::MsgScroll(const Configuration *cfg, Font *f) : GUI_Widget(nullptr, 0,
  	case NUVIE_GAME_U6 :
  	default :
  		scroll_width = MSGSCROLL_U6_WIDTH;
 -		scroll_height = MSGSCROLL_U6_HEIGHT;
-+		// CHT: 10 lines × 10 px stride = 100 px > 80 px panel.
-+		// Reduce capacity to 8 lines (80 px) to fit panel bounds.
-+		scroll_height = 8;
++		scroll_height = MSGSCROLL_U6_HEIGHT;  // 10 lines — restored
  		x = 176;
  		y = 112;
  		break;
-@@ -353,12 +356,18 @@ void MsgScroll::display_string(const Common::String &s, Font *f, bool include_on
+@@ -353,12 +354,18 @@ void MsgScroll::display_string(const Common::String &s, Font *f, bool include_on
  	display_string(s, f, font_color, include_on_map_window);
  }
  
@@ -943,7 +941,7 @@ index ba7134a2..237be6d6 100644
  	if (f == nullptr)
  		f = font;
  
-@@ -407,11 +416,29 @@ MsgText *MsgScroll::holding_buffer_get_token() {
+@@ -407,11 +414,29 @@ MsgText *MsgScroll::holding_buffer_get_token() {
  		return nullptr;
  	}
  
@@ -977,7 +975,7 @@ index ba7134a2..237be6d6 100644
  
  	if (i > 0) {
  		token = new MsgText(input->s.substr(0, i), font); // FIX maybe a format flag. // input->font);
-@@ -979,7 +1006,10 @@ inline void MsgScroll::drawLine(Screen *theScreen, MsgLine *msg_line, uint16 lin
+@@ -979,7 +1004,10 @@ inline void MsgScroll::drawLine(Screen *theScreen, MsgLine *msg_line, uint16 lin
  	uint16 total_length = 0;
  
  	for (MsgText *token : msg_line->text) {
