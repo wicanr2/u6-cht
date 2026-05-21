@@ -1039,10 +1039,18 @@ index aaa8f5d4..f7164507 100644
  		::debug(1, "%s", string);
  	}
 diff --git a/engines/ultima/nuvie/script/script_cutscene.cpp b/engines/ultima/nuvie/script/script_cutscene.cpp
-index 374ee036..f9a70087 100644
+index 374ee036..5ba40086 100644
 --- a/engines/ultima/nuvie/script/script_cutscene.cpp
 +++ b/engines/ultima/nuvie/script/script_cutscene.cpp
-@@ -1182,6 +1182,12 @@ ScriptCutscene::ScriptCutscene(GUI *g, Configuration *cfg, SoundManager *sm) : G
+@@ -35,6 +35,7 @@
+ #include "ultima/nuvie/core/cursor.h"
+ #include "ultima/nuvie/keybinding/keys.h"
+ #include "ultima/nuvie/script/script_cutscene.h"
++#include "ultima/nuvie/misc/cht_translate.h"
+ #include "common/system.h"
+ 
+ namespace Ultima {
+@@ -1182,6 +1183,12 @@ ScriptCutscene::ScriptCutscene(GUI *g, Configuration *cfg, SoundManager *sm) : G
  	if (game_type == NUVIE_GAME_U6) {
  		config_get_path(config, "u6.set", path);
  		font->init(path);
@@ -1055,6 +1063,28 @@ index 374ee036..f9a70087 100644
  	}
  	//FIXME load other fonts for MD / SE if needed here.
  	if (game_type == NUVIE_GAME_SE) {
+@@ -1485,7 +1492,9 @@ void ScriptCutscene::print_text(CSImage *image, const char *s, uint16 *x, uint16
+ 	int len = *x - startx;
+ 	size_t start = 0;
+ 	size_t found;
+-	Common::String str = s;
++	// CHT: translate cinematic caption before render. Word-wrap stays
++	// space-based which works for ASCII; Big5 output mostly fits single line.
++	Common::String str = CHTranslate::get()->translate(s);
+ 	Common::List<Common::String> tokens;
+ 	int space_width = font->getStringWidth(" ");
+ 	//uint16 x1 = startx;
+@@ -1539,7 +1548,9 @@ void ScriptCutscene::print_text(CSImage *image, const char *s, uint16 *x, uint16
+ }
+ 
+ void ScriptCutscene::print_text_raw(CSImage *image, const char *string, uint16 x, uint16 y, uint8 color) const {
+-	((WOUFont *)font)->drawStringToShape(image->shp, string, x, y, color);
++	// CHT: translate raw cinematic text before draw
++	Common::String t = CHTranslate::get()->translate(string);
++	((WOUFont *)font)->drawStringToShape(image->shp, t.c_str(), x, y, color);
+ }
+ 
+ void ScriptCutscene::load_palette(const char *filename, int idx) {
 diff --git a/engines/ultima/nuvie/views/container_view_gump.cpp b/engines/ultima/nuvie/views/container_view_gump.cpp
 index 2b9b98a2..b5db963f 100644
 --- a/engines/ultima/nuvie/views/container_view_gump.cpp
