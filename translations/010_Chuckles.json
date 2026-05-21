@@ -424,7 +424,7 @@
    "offset": 1630,
    "len": 38,
    "en": "\"Search the @chest in @Nystul's room.\"",
-   "zh": "「翻翻@chest（寶箱）托房裡那只@Nystul（寶箱）。」",
+   "zh": "「去翻@Nystul（尼斯托）房裡的@chest（寶箱）。」",
    "zh_bytes": 30,
    "note": "quest hint!"
   },

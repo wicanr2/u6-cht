@@ -248,7 +248,7 @@
    "offset": 1306,
    "len": 63,
    "en": "Lord @British gave the runes to the lords of the eight cities.\"",
-   "zh": "@British（不列顛王）顛王便將符文授予八城之領主。」",
+   "zh": "@British（不列顛王）便將符文授予八城之領主。」",
    "zh_bytes": 36,
    "note": "@British → @不列顛王，保留 @ prefix 供 keyword lookup"
   },

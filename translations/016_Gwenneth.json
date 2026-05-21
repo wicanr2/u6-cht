@@ -64,7 +64,7 @@
    "offset": 349,
    "len": 60,
    "en": "\"Much demand for bows these days, what with the @gargoyles!\"",
-   "zh": "「如今@gargoyles（魔像族）族肆虐，弓的需求大增！」",
+   "zh": "「如今@gargoyles（魔像族）肆虐，弓的需求大增！」",
    "zh_bytes": 35
   },
   {
@@ -295,7 +295,7 @@
    "offset": 1837,
    "len": 70,
    "en": "\"But there has been a shortage of late, because of the @gargoyle war.\"",
-   "zh": "「然近來因@gargoyle（魔像）族戰事而短缺。」",
+   "zh": "「然近來因@gargoyle（魔像族）戰事而短缺。」",
    "zh_bytes": 31
   },
   {
@@ -645,7 +645,7 @@
    "offset": 4735,
    "len": 50,
    "en": "\"The @gargoyle wars make my wares much in demand!\"",
-   "zh": "「@gargoyle（魔像）族戰事使我貨品大為熱銷！」",
+   "zh": "「@gargoyle（魔像族）戰事使我貨品大為熱銷！」",
    "zh_bytes": 33
   },
   {

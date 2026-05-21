@@ -60,7 +60,7 @@
    "offset": 364,
    "len": 79,
    "en": "\"That's right, me bucko. Why, I've sailed with Lord @British and Captain @John.",
-   "zh": "「沒錯，夥計。俺可是跟@British（不列顛王）顛王和@John（約翰）船長一同出過海的。",
+   "zh": "「沒錯，夥計。俺可是跟@British（不列顛王）和@John（約翰）船長一同出過海的。",
    "note": "split string，下接 honest sailor"
   },
   {

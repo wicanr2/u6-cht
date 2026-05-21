@@ -36,14 +36,14 @@
    "offset": 156,
    "len": 58,
    "en": "\"I am Tholden von Bazillius, Chancellor to Lord @British.\"",
-   "zh": "「老臣索登·馮·巴齊柳斯，乃@British（不列顛王）顛王之宰相。」",
+   "zh": "「老臣索登·馮·巴齊柳斯，乃@British（不列顛王）之宰相。」",
    "zh_bytes": 47
   },
   {
    "offset": 217,
    "len": 73,
    "en": "\"In my younger days, I was known as 'The @Werecat of the Wine Cellar'...\"",
-   "zh": "「想當年，老臣有個綽號叫『@Werecat（酒窖之貓人）之貓人』……」",
+   "zh": "「想當年，老臣有個綽號叫『@Werecat（酒窖之貓人）』……」",
    "zh_bytes": 45
   },
   {

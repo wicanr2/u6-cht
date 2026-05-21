@@ -12,7 +12,7 @@
    "offset": 8,
    "len": 58,
    "en": "a ruggedly handsome man, wearing a gleaming suit of armor.",
-   "zh": "一名粗獷英挺的男子，身披一襲閃亮的甲甲。",
+   "zh": "一名粗獷英挺的男子，身披一襲閃亮甲冑。",
    "zh_bytes": 40,
    "note": "描述句"
   },
@@ -156,7 +156,7 @@
    "offset": 718,
    "len": 82,
    "en": "\"He'll throw us a fine feast if you can deal with the @gargoyle invasion somehow.\"",
-   "zh": "「兄弟，你若能想法子收拾@gargoyle（魔像）族的入侵，他必設盛宴款待咱們。」",
+   "zh": "「兄弟，你若能想法子收拾@gargoyle（魔像族）的入侵，他必設盛宴款待咱們。」",
    "zh_bytes": 62,
    "note": "@gargoyle @invasion"
   },

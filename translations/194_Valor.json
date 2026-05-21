@@ -4,7 +4,7 @@
    "offset": 2,
    "len": 5,
    "en": "Valor",
-   "zh": "英勇祭壇",
+   "zh": "勇敢祭壇",
    "note": "NPC name — 神殿祭壇"
   },
   {
@@ -25,7 +25,7 @@
    "offset": 109,
    "len": 38,
    "en": "\"Thou hast much to learn about valor.\"",
-   "zh": "「汝對英勇仍有許多須學習之處。」",
+   "zh": "「汝對勇敢仍有許多須學習之處。」",
    "note": "低階評語"
   },
   {
