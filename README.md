@@ -16,6 +16,14 @@
 |---|---|
 | ![quiz](docs/screenshots/07_lb_quiz_correct.png) | ![lb](docs/screenshots/08_lb_dialog.png) |
 
+### Intro Cinematic 繁中字幕（v1.2+）
+
+| 開場字幕 | 寒風漸起 | 雷光交響 |
+|---|---|---|
+| ![intro1](docs/screenshots/11_intro_caption1.png) | ![intro2](docs/screenshots/12_intro_chill_wind.png) | ![intro3](docs/screenshots/13_intro_lightning.png) |
+
+> v1.3.1 完成全 27 個 intro cinematic Lua chunk 中文化，涵蓋開場至黑曜石石陣完整劇情。
+
 ## 專案概覽
 
 把 1990 年 Origin Systems 的經典 RPG **Ultima VI: The False Prophet** 改成繁體中文版本。

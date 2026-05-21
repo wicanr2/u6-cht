@@ -1,5 +1,52 @@
 # Changelog
 
+## v1.3.1 (2026-05-22)
+
+### Fixed
+- **Intro cinematic 全 27 chunks 補完** — debug-logged 所有 `image_print` Lua 呼叫，補齊 9 個缺失 fragments：
+  - `'You bolt from your house, stumbling, running blind in the'` + 續行
+  - `'storm. Into the forest, down the path, through the rain... to the stones.'`
+  - `'Near the stones, the smell of damp, blasted earth hangs in the air.'`
+  - `'In a frozen moment of lightning-struck daylight, you glimpse a tiny obsidian'`
+  - `'midst of the circle!'`
+  - `'Wondering, you pick it up....'`
+  - `'...and from the heart of the stones, a softly glowing door ascends in silence!'`
+  - `'Exultant memories wash over you as you clutch the stone.'`
+  - `'When last you saw an orb such as this, it was cast down by Lord British to banish the tyrant Blackthorn!'`
+- 所有 27 個 intro Lua chunk 現已有中文對應
+
+### Verified in-game
+- 「汝之世界已歷五載春秋，自汝凱旋歸自不列顛尼亞」（開場）
+- 「屋外，寒風漸起……」（寒風）
+- 「一聲雷光交響之間，一道熾烈藍火擊中大地！」（雷電）
+
+### Known issue
+- Cinematic 字幕視覺重疊（Big5 12px > 原版 English 8px），需更深層 engine 重構才能解決
+
+### Screenshots
+- `11_intro_caption1.png` — 汝之世界已歷五載春秋
+- `12_intro_chill_wind.png` — 屋外，寒風漸起……
+- `13_intro_lightning.png` — 一聲雷光交響之間
+
+### Build
+- `releases/u6cht-1.3.1-linux-x86_64.AppImage` (123 MB)
+- `releases/u6cht-1.3.1-windows-x86.7z` (91 MB)
+
+---
+
+## v1.3 (2026-05-22)
+
+### Added
+- **? / help / 說明 magic command** — Talk 模式下輸入 `?` 或 `help` 或 `說明` 可顯示當前 NPC keyword 清單（中文提示）
+- Trinsic 全域統一：川辛/特林希克 → **崔西克**
+- Jhelom 全域統一：哲倫 → **傑隆**
+
+### Build
+- `releases/u6cht-1.3-linux-x86_64.AppImage` (123 MB)
+- `releases/u6cht-1.3-windows-x86.7z` (91 MB)
+
+---
+
 ## v1.2.1 (2026-05-22)
 
 ### Fixed

@@ -11,8 +11,9 @@ description: Ultima VI 繁體中文化專案的工作流知識庫。包含 Plan 
 
 - **目標**：把 1990 年 Origin Systems *Ultima VI: The False Prophet* 漢化為繁體中文（Big5），跑在 **ScummVM/Nuvie engine** 上。
 - **路線**：**Plan B 載入時字串替換**（不動 `CONVERSE.A` bytecode，engine 印字前查 lookup 表替換英文 → 中文）。
-- **狀態**：v1.0 已 ship。199 NPC + BOOK.DAT 翻完、7298 lookup entries + 40 fragments、in-game Big5 渲染驗證。GitHub: https://github.com/wicanr2/u6-cht
+- **狀態**：v1.3.1 已 ship。199 NPC + BOOK.DAT + 27 個 intro cinematic Lua chunks 翻完、7298+ lookup entries + 77 fragments、in-game Big5 渲染驗證。GitHub: https://github.com/wicanr2/u6-cht
 - **語言風格**：文白並用古典中文（thee/thou → 汝/卿、'tis → 此乃）。LB 用「朕/卿」國王語。
+- **版本標籤**：v1.0 v1.1 v1.2 v1.2.1 v1.3 v1.3.1（共 6 個，Linux AppImage + Win 7z 各 6）
 
 ---
 
@@ -84,6 +85,32 @@ description: Ultima VI 繁體中文化專案的工作流知識庫。包含 Plan 
 | `nscript_print()` (Lua print) | prefix-aware「Thou dost see X.」拼接 |
 | **`MsgScroll::display_string`（中央 hook）** | 所有 scroll 輸出最後一道防線 |
 | `Player::get_gender_title()` | `$G` 變數 milord/milady → 公子/姑娘 |
+| **`ScriptCutscene::print_text` + `print_text_raw`** | intro cinematic Lua 字幕（v1.2 起）|
+
+### Intro Cinematic Hook 特別說明（v1.2+）
+
+Intro cinematic 在 `ScriptCutscene::ScriptCutscene` constructor 階段執行，**早於 `Game::init()`**，
+而 CHTranslate 原本在 `Game::init()` 才載入。結果：intro 跑的時候 CHT 還沒準備好，整段 cinematic 顯示英文。
+
+**修正**：在 `ScriptCutscene::ScriptCutscene` ctor 最早期（load assets 之前）加入：
+
+```cpp
+CHTranslate::get()->load(config);
+```
+
+確保 cinematic 啟動時 CHT 已就位。
+
+### Lua chunk fragment split 原理
+
+`print_text` 把 intro 字幕按換行拆成多個 Lua chunk 分次呼叫 engine。
+每個 chunk 必須對 fragment 表 **完全匹配**（字元都不差）才能命中。
+
+**Debug 技巧**：在 `ScriptCutscene::print_text` 加：
+```cpp
+debug(1, "CIN: %s", s);
+```
+啟動 ScummVM 加 `--debuglevel=1`，即可在 stderr 看到每個 Lua 實際傳入的 chunk 字串，
+再把這些字串逐條加入 `_engine_fragments.json`。
 
 ---
 
@@ -176,17 +203,30 @@ DISPLAY=:2 ffmpeg -y -f x11grab -video_size 800x600 -i :2 -frames:v 1 /tmp/shot.
 
 完整見 `dumps/glossary.json`。
 
-| EN | 中譯 |
-|---|---|
-| Lord British | 不列顛王 |
-| Avatar | 聖者 |
-| gargoyle | 魔像族 |
-| Britannia | 不列顛尼亞 |
-| Britain | 不列顛城 |
-| Codex (of Ultimate Wisdom) | 守則之書（終極智慧守則之書）|
-| Singularity | 獨一 |
-| Control / Passion / Diligence | 控制 / 熱情 / 勤勉（魔像族三原則）|
-| Honesty / Compassion / Valor | 誠實 / 慈悲 / 勇氣（八德前三） |
+| EN | 中譯 | 備注 |
+|---|---|---|
+| Lord British | 不列顛王 | |
+| Avatar | 聖者 | |
+| gargoyle | 魔像族 | |
+| Britannia | 不列顛尼亞 | |
+| Britain | 不列顛城 | |
+| Codex (of Ultimate Wisdom) | **知識寶典**（終極智慧知識寶典）| v1.1 起改：聖者之書 1992 正典用語 |
+| Singularity | 獨一 | |
+| Control / Passion / Diligence | 控制 / 熱情 / 勤勉（魔像族三原則）| |
+| Honesty / Compassion / Valor | 誠實 / 慈悲 / **勇敢**（八德前三） | Valor = 勇敢（v1.2 起），非「勇氣」|
+| Honor | 榮譽 | v1.2 統一（多數用法 25:12）|
+| Trinsic | 崔西克 | v1.3 統一（從川辛改）|
+| Jhelom | 傑隆 | v1.3 統一（從哲倫改）|
+
+### 重要譯名變動記錄
+
+| 版本 | 舊譯 | 新譯 | 原因 |
+|---|---|---|---|
+| v1.1 | Codex 守則之書 | 知識寶典 | 聖者之書 1992 正典用語 |
+| v1.2 | Valor 勇氣 | 勇敢 | 統一 4 個 NPC / 5 處（044/049/127/160）|
+| v1.2 | Honor 榮耀 | 榮譽 | 多數用法（NPC 197）|
+| v1.3 | Trinsic 川辛/特林希克 | 崔西克 | 全域統一 |
+| v1.3 | Jhelom 哲倫 | 傑隆 | 全域統一 |
 
 ## LB Compendium quiz 答案速查表
 
