@@ -1,0 +1,209 @@
+{
+ "_meta": {},
+ "translations": [
+  {
+   "hash": "40d69b29ed253f10",
+   "zh": "夏米諾"
+  },
+  {
+   "hash": "d8b8c6e8c8b8c3b0",
+   "zh": "一位沉靜之人，宛如森林之生靈。"
+  },
+  {
+   "hash": "df0744dc28d2aa6b",
+   "zh": "「何事，老友？」"
+  },
+  {
+   "hash": "c4bcadba8e631b86",
+   "zh": "名字",
+   "note": "keyword"
+  },
+  {
+   "hash": "ebcb7734f55c5e8d",
+   "zh": "「夏米諾薩列。」",
+   "note": "全名縮短"
+  },
+  {
+   "hash": "45627c193a5b605c",
+   "zh": "業 ",
+   "note": "len=3 keyword"
+  },
+  {
+   "hash": "8d8fb29f2aa7adc3",
+   "zh": "「@朋友有難時，我便相助。」"
+  },
+  {
+   "hash": "f00f1d151e6617ef",
+   "zh": "「其餘時光，我寧願在@森林中漫遊。」"
+  },
+  {
+   "hash": "7f6f3478d7933517",
+   "zh": "朋友",
+   "note": "keyword"
+  },
+  {
+   "hash": "7c5fe3e4f1a43df7",
+   "zh": "「雖然汝數度造訪我等之境，相聚甚少，然我仍視汝為摯友。」"
+  },
+  {
+   "hash": "ecb0cb4e766d1135",
+   "zh": "森林,漫遊",
+   "note": "keyword"
+  },
+  {
+   "hash": "1adaaff1e63045fc",
+   "zh": "「我偏愛那@深林。」"
+  },
+  {
+   "hash": "d4e96f40e60a6db6",
+   "zh": "「靈魂林不夠幽深，且四處皆是怪異的@幽影。」"
+  },
+  {
+   "hash": "cc56d81bf7521ddb",
+   "zh": "深林,森林",
+   "note": "keyword"
+  },
+  {
+   "hash": "608cd78368fff51a",
+   "zh": "「那是我的@家。」"
+  },
+  {
+   "hash": "95bd23c8ba051958",
+   "zh": "*「我愛走在林木深影之中，觀察森林@生靈的習性。」",
+   "note": "* 控制字"
+  },
+  {
+   "hash": "402d1bcc7e6f9d6e",
+   "zh": "家",
+   "note": "keyword"
+  },
+  {
+   "hash": "5eb009eddc657474",
+   "zh": "「家不必有@牆方成其家。」"
+  },
+  {
+   "hash": "5e76c2f62c1e1615",
+   "zh": "牆",
+   "note": "keyword"
+  },
+  {
+   "hash": "e5a0f194676f376f",
+   "zh": "「人問我屋中何以無牆，我便反問——他們屋中何以無@樹！」他微微一笑。",
+   "note": "招牌反問句"
+  },
+  {
+   "hash": "5b25b8ef511eb395",
+   "zh": "樹",
+   "note": "keyword"
+  },
+  {
+   "hash": "20c9861819b79ab4",
+   "zh": "「樹乃此境之命脈。無樹，吾等難以久存。」"
+  },
+  {
+   "hash": "12547a908c903b1a",
+   "zh": "生靈",
+   "note": "keyword"
+  },
+  {
+   "hash": "a75ca7cac45ff922",
+   "zh": "「林中生靈各有其道，於我而言，比城裡人更有趣。」"
+  },
+  {
+   "hash": "5d698e2049aa9d93",
+   "zh": "「若汝肯聆聽，便能從野獸身上學到不少。」",
+   "note": "避『許』5C trail"
+  },
+  {
+   "hash": "4f3e6753fc488649",
+   "zh": "杜普雷說「夏米諾又在說那跟動物對話的事了……這世界都瘋了！」"
+  },
+  {
+   "hash": "a67bfcf655af251e",
+   "zh": "幽影",
+   "note": "keyword"
+  },
+  {
+   "hash": "545b67e4ee9527f2",
+   "zh": "「我所知不多。但聽說有些@法師曾研究此物。」",
+   "note": "避『鑽』高筆畫"
+  },
+  {
+   "hash": "1f7b59a2ceb4dae3",
+   "zh": "法師",
+   "note": "keyword"
+  },
+  {
+   "hash": "27b1d84298ef1a0c",
+   "zh": "「或者議會中有人能告訴汝更多。」",
+   "note": "避『許』5C trail"
+  },
+  {
+   "hash": "8b0d9772045c66f6",
+   "zh": "魔像",
+   "note": "keyword 短碼維持（玩家輸入可 prefix match）"
+  },
+  {
+   "hash": "8e742a2cd10906ca",
+   "zh": "「我覺得@不列顛王並未真正了解@魔像族的本性。」",
+   "note": "內嵌譯名統一為『魔像族』"
+  },
+  {
+   "hash": "7d560e159b945c3b",
+   "zh": "不列顛王",
+   "note": "keyword"
+  },
+  {
+   "hash": "a87718dbf2ac87e0",
+   "zh": "「我對他的了解，比汝想的還深。」"
+  },
+  {
+   "hash": "41def2de29651139",
+   "zh": "加入",
+   "note": "keyword"
+  },
+  {
+   "hash": "6327e05e0ba77f69",
+   "zh": "「汝去哪，我便去哪——此事汝知。」"
+  },
+  {
+   "hash": "24ad74ada201eda5",
+   "zh": "離開",
+   "note": "keyword"
+  },
+  {
+   "hash": "1e5ca200ef230796",
+   "zh": "「我覺得汝在不列顛尼亞的荒野中仍需我引路。我還是隨汝同行為妙。」"
+  },
+  {
+   "hash": "008a2f19137d94c3",
+   "zh": "別 ",
+   "note": "len=3 keyword"
+  },
+  {
+   "hash": "5b4c3788ac7d44bb",
+   "zh": "「榮幸。」",
+   "note": "縮短"
+  },
+  {
+   "hash": "cf9d3a4354ad68cc",
+   "zh": "「此事問杜普雷便知。」"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Shamino Salle' Dacil": "夏米諾薩列"
+  },
+  "places": {
+   "Deep Forest": "深林"
+  },
+  "concepts": {
+   "wisp": "幽影",
+   "creature": "生靈",
+   "townfolk": "城裡人",
+   "council": "議會",
+   "lifesblood": "命脈"
+  }
+ },
+ "translator_notes": "Strict 重譯：(1) offset 99 全名縮為『夏米諾薩列』 (2) offset 134 業 (3) offset 1710 別 (4) offset 1714 榮幸。 (5) B-03 fix: keyword 維持『魔像』短碼、內嵌譯『魔像族』 (6) B-08: 鑽→研究 (7) B-09: 許→不少/或者。全 41 條 ≤ len。"
+}

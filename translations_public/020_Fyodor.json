@@ -1,0 +1,308 @@
+{
+ "_meta": {
+  "npc": "Fyodor",
+  "role": "彩衣織匠，手指修長靈巧；織機設計來自不列顛王舊書。會提到 L. Frank Baum 的『奧茲巫師』與新馬精西亞織絲師夏綠蒂（Charlotte）。為玩家熱氣球線索鋪墊。"
+ },
+ "translations": [
+  {
+   "hash": "c51a06eaccb51caa",
+   "zh": "費歐多",
+   "note": "人名音譯；len=6 容三字"
+  },
+  {
+   "hash": "bacffd925471685b",
+   "zh": "一名身披彩衣之人，手指修長而靈巧。",
+   "note": "描述句"
+  },
+  {
+   "hash": "664c6352ad80bdca",
+   "zh": "「$G，又見面了。」",
+   "note": "保留 $G"
+  },
+  {
+   "hash": "4e9135aed8fd2fb1",
+   "zh": "「$T好，$G。」",
+   "note": "緊；保留 $T/$G"
+  },
+  {
+   "hash": "0bc4ca1a19ea2eae",
+   "zh": "「我能為汝效何勞？」"
+  },
+  {
+   "hash": "c4bcadba8e631b86",
+   "zh": "名字",
+   "note": "@name keyword"
+  },
+  {
+   "hash": "f2294e19ebd9385a",
+   "zh": "「我喚作費歐多。汝姓甚名誰？」"
+  },
+  {
+   "hash": "46ac5f9b77e06719",
+   "zh": "「幸會，`$Z。」",
+   "note": "保留 `$Z 變數（玩家輸入名字）"
+  },
+  {
+   "hash": "45627c193a5b605c",
+   "zh": "業",
+   "note": "@job keyword"
+  },
+  {
+   "hash": "6a283106a2a2e550",
+   "zh": "「我以@織機織布。汝或想@買些。」",
+   "note": "@loom → @織機；@buy → @買"
+  },
+  {
+   "hash": "00612319135a7b4b",
+   "zh": "買",
+   "note": "@buy keyword"
+  },
+  {
+   "hash": "74af1b2c440e9afa",
+   "zh": "「恐怕我此處無存貨，$G。」"
+  },
+  {
+   "hash": "3b14b15f85b53bd2",
+   "zh": "「待我在織機前時再來，我便為汝服務。」"
+  },
+  {
+   "hash": "2d19df18d4078885",
+   "zh": "賣",
+   "note": "@sell keyword"
+  },
+  {
+   "hash": "5945bf198f38fed4",
+   "zh": "「但我此地用不上羊毛，$G！」"
+  },
+  {
+   "hash": "24e334f3bb13a6c3",
+   "zh": "「待我在織機前時再來，我便與汝交易。」"
+  },
+  {
+   "hash": "fbd1d7734b6de016",
+   "zh": "布,織機",
+   "note": "keyword 群組"
+  },
+  {
+   "hash": "e92511a9f72df259",
+   "zh": "「以足踩動踏板——像這樣。」"
+  },
+  {
+   "hash": "c510e1b554d80c3c",
+   "zh": "「然後拉動這些把手。」"
+  },
+  {
+   "hash": "0704b283e8929451",
+   "zh": "「花紋取決於我移動把手與踏板的各種組合。」"
+  },
+  {
+   "hash": "e77fb1b780021efa",
+   "zh": "「家父之織機不若此般繁複。此設計來自不列顛王一本舊@書。」",
+   "note": "Lord British → 不列顛王（首次出現用全稱）"
+  },
+  {
+   "hash": "ce73e9bfe7d8a8ec",
+   "zh": "「我所操作之新織機甚大。圖樣來自不列顛王一本舊@書。」"
+  },
+  {
+   "hash": "3687959e9f179253",
+   "zh": "不列顛王,舊,書",
+   "note": "keyword 群組"
+  },
+  {
+   "hash": "02bf04c9d21cf7d7",
+   "zh": "「不列顛王珍視古物。有一本書他願以重金懸賞："
+  },
+  {
+   "hash": "8f76abb4d8c4eaaf",
+   "zh": "「『@奧茲@巫師』。」",
+   "note": "@Oz → @奧茲；@wiza 觸發後續說明（書名）"
+  },
+  {
+   "hash": "78caf56b3415eb95",
+   "zh": "巫,奧茲",
+   "note": "keyword 群組緊"
+  },
+  {
+   "hash": "5e18839342828cc6",
+   "zh": "「想是 L·法蘭克·鮑姆 所著。」",
+   "note": "L. Frank Baum → 法蘭克·鮑姆（glossary）"
+  },
+  {
+   "hash": "a9d7d3195c2787fe",
+   "zh": "「書中講一少女冒險者、奇境，以及一名聰穎的@氣球師。」",
+   "note": "@balloonist → @氣球師"
+  },
+  {
+   "hash": "9a13d89ba9fbca24",
+   "zh": "氣球",
+   "note": "@balloon keyword"
+  },
+  {
+   "hash": "72b785a1de5e7ddd",
+   "zh": "「莫非以@絲綢製成，狀如大袋？」",
+   "note": "@silk → @絲綢"
+  },
+  {
+   "hash": "1db24e0fd56a4eae",
+   "zh": "絲,袋",
+   "note": "keyword 群組"
+  },
+  {
+   "hash": "025aae5e9c9659fb",
+   "zh": "「絲乃奇強之物，輕巧無比。」"
+  },
+  {
+   "hash": "b851a86a77cd9a44",
+   "zh": "「可惜我手藝未足以織絲。」"
+  },
+  {
+   "hash": "8fbc40888fd4d88b",
+   "zh": "「然而新馬精西亞有一織絲師@夏綠蒂居於彼處。」",
+   "note": "@Charlotte → @夏綠蒂；New Magincia → 新馬精西亞"
+  },
+  {
+   "hash": "f2a393910b5b3ebd",
+   "zh": "夏綠",
+   "note": "@Charlotte keyword"
+  },
+  {
+   "hash": "ca15fb9ce871ef49",
+   "zh": "「她是我所知唯一能織絲之人。」"
+  },
+  {
+   "hash": "008a2f19137d94c3",
+   "zh": "別",
+   "note": "@bye keyword"
+  },
+  {
+   "hash": "4feb0b7ae21c1a16",
+   "zh": "「願日後我等再會。」"
+  },
+  {
+   "hash": "f0e4fb1bc08a48cf",
+   "zh": "「此事我無能為力。」",
+   "note": "預設不解回應"
+  },
+  {
+   "hash": "50e77701c0136675",
+   "zh": "#2. $Y",
+   "note": "選單格式"
+  },
+  {
+   "hash": "7bf2e7fe4fc43e63",
+   "zh": "「汝等哪位？」"
+  },
+  {
+   "hash": "763e879af30fc330",
+   "zh": "「@布或@線，$Y？」",
+   "note": "@Cloth → @布；@thread → @線"
+  },
+  {
+   "hash": "138235911d787e21",
+   "zh": "布",
+   "note": "@Cloth keyword"
+  },
+  {
+   "hash": "2540ceef320d5434",
+   "zh": "線",
+   "note": "@thread keyword"
+  },
+  {
+   "hash": "36f822f39c820a4f",
+   "zh": "「$0需#1金。$Y有意？」",
+   "note": "保留 $0/#1/$Y"
+  },
+  {
+   "hash": "08ed5807b58a118e",
+   "zh": "yn",
+   "note": "yes/no token"
+  },
+  {
+   "hash": "b3e06e01d84ec8f7",
+   "zh": "「汝看來已滿載。」",
+   "note": "背包滿"
+  },
+  {
+   "hash": "86527df2eabd4bc0",
+   "zh": "「妙！」收下$Y的金錢後，$N將$0交予。",
+   "note": "成交描述"
+  },
+  {
+   "hash": "aca33c4b6e532530",
+   "zh": "「汝身上無此金錢。」"
+  },
+  {
+   "hash": "5cab713508d60380",
+   "zh": "「此乃上好$0。」",
+   "note": "保留 $0"
+  },
+  {
+   "hash": "8d933ad3c6b8e5a0",
+   "zh": "「再無更好者。」"
+  },
+  {
+   "hash": "22a8c8e2b8bf6bd1",
+   "zh": "「抱歉，汝等無我所需之物。」"
+  },
+  {
+   "hash": "77494dfbd4a5bdf8",
+   "zh": "#1. $Y",
+   "note": "選單格式"
+  },
+  {
+   "hash": "7bf2e7fe4fc43e63",
+   "zh": "「汝等哪位？」"
+  },
+  {
+   "hash": "5ac2ec431a3e848c",
+   "zh": "$N轉向$Y說：「汝那羊毛願收 8 金？」",
+   "note": "保留 $N/$Y/數字"
+  },
+  {
+   "hash": "08ed5807b58a118e",
+   "zh": "yn",
+   "note": "yes/no token"
+  },
+  {
+   "hash": "975d1786510faaac",
+   "zh": "「成交！」他付$Y 8 金並收下羊毛。"
+  },
+  {
+   "hash": "eb948587b5439c71",
+   "zh": "「抱歉，汝無羊毛可賣。」"
+  },
+  {
+   "hash": "d714edfefe55a466",
+   "zh": "「改主意了？」"
+  },
+  {
+   "hash": "9ebf4e9513be960b",
+   "zh": "布",
+   "note": "物品名（顯示用）"
+  },
+  {
+   "hash": "59561bcb7e9336b1",
+   "zh": "線",
+   "note": "物品名"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Fyodor": "費歐多",
+   "Charlotte": "夏綠蒂"
+  },
+  "concepts": {
+   "loom": "織機",
+   "cloth": "布",
+   "thread": "線",
+   "silk": "絲綢",
+   "wool": "羊毛",
+   "balloonist": "氣球師"
+  },
+  "items": {
+   "The Wizard of Oz": "奧茲巫師"
+  }
+ },
+ "translator_notes": "Fyodor 織匠，禮貌、舉止優雅，用『汝』『莫非』『此乃』『可惜』等中等文白語氣。其對話為熱氣球主線伏筆：他知道新馬精西亞織絲師 Charlotte，可織氣球用之絲綢。Lord British 首次出現用全稱『不列顛王』。`$Z 是玩家自填名字變數，保留 ASCII。所有貨幣／物品變數 ($0/$1/#1/$Y/$N) 保留。"
+}

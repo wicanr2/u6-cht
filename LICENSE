@@ -1,0 +1,83 @@
+Ultima VI 繁體中文化專案 — Licensing
+======================================
+
+本 repo 包含多種來源之資產，授權條款分述如下：
+
+---
+
+## 1. Engine patches (`patches/scummvm-u6cht.patch`)
+
+ScummVM 衍生修改，繼承上游授權：**GNU General Public License v3.0+**
+
+原始 ScummVM 著作權屬 ScummVM team 及各 contributor。
+本 patch 改動的部份係本專案作者於 2026-05 期間針對 ScummVM 主線
+（ultima/nuvie 子系統）所作之翻譯支援補丁，亦以 GPL v3+ 授權釋出。
+
+完整 GPL 條款見：https://www.gnu.org/licenses/gpl-3.0.html
+
+要與此 patch 一同編譯，請至 https://github.com/scummvm/scummvm
+clone 主線，再 `git apply patches/scummvm-u6cht.patch`。
+
+---
+
+## 2. Translation data (`translations/*.json`, `docs/glossary.json`, `docs/style_guide.md`)
+
+本專案作者原創之繁體中文譯文與翻譯規範，採 **CC BY-SA 4.0** 釋出：
+https://creativecommons.org/licenses/by-sa/4.0/
+
+允許複製、改作、再釋出（含商業用途），條件為：
+- 標示原始作者
+- 衍生作須採同等授權（ShareAlike）
+
+JSON 檔中之 `en` 欄位為 lookup key，引用自 1990 年 Origin Systems
+所發行之 *Ultima VI: The False Prophet* CONVERSE.A 之 ASCII 字串。
+此引用以本地化參考目的使用，原版遊戲著作權仍屬 Electronic Arts。
+
+---
+
+## 3. Bitmap font (`fonts/big5_u6_12x12.fnt`)
+
+由 `fonts/build-big5-font-wqysharp.py` 自 **文泉驛正黑 (WenQuanYi Zen Hei
+Sharp)** 12px 嵌入式點陣字派生而來。
+
+WenQuanYi Zen Hei 採 **Apache 2.0 License**：
+https://www.apache.org/licenses/LICENSE-2.0
+
+派生字型檔同樣以 Apache 2.0 釋出。
+
+---
+
+## 4. Tools (`tools/*.py`)
+
+本專案作者原創之 Python 工具，採 **MIT License** 釋出：
+
+```
+Copyright (c) 2026 U6-CHT contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+```
+
+---
+
+## 5. Documentation & screenshots (`README.md`, `docs/*.md`, `docs/screenshots/`)
+
+採 **CC BY 4.0** 釋出：https://creativecommons.org/licenses/by/4.0/
+
+截圖為本專案執行畫面紀錄，含玩家自訂角色名與場景。
+
+---
+
+## 不包含原版遊戲檔案
+
+本 repo **不** 包含 `CONVERSE.A`、`BOOK.DAT` 或其他 Ultima VI 原始遊戲
+資料。使用者須自備合法持有之 Ultima VI 副本（可至 GOG.com 購買）。

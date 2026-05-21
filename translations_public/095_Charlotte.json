@@ -1,0 +1,257 @@
+{
+ "_meta": {},
+ "translations": [
+  {
+   "hash": "4fc7ae2dba5a2d39",
+   "zh": "一位秀麗的年輕女子，眼神低垂。",
+   "note": "DESC"
+  },
+  {
+   "hash": "664c6352ad80bdca",
+   "zh": "「又見面了，$G。」",
+   "note": "再次見面問候"
+  },
+  {
+   "hash": "4e9135aed8fd2fb1",
+   "zh": "「$T安，$G。」",
+   "note": "時段問候"
+  },
+  {
+   "hash": "42328b848d3275de",
+   "zh": "「吾名夏綠蒂·@織女，$G。」",
+   "note": "@Weaver keyword"
+  },
+  {
+   "hash": "8ccab1b8899d4250",
+   "zh": "「吾不過是個謙遜的@織工，$G。」",
+   "note": "@weaver keyword"
+  },
+  {
+   "hash": "e90a614a3c4022a4",
+   "zh": "「吾將@羊毛織成布匹。」",
+   "note": "@wool keyword"
+  },
+  {
+   "hash": "0ad7ebfbfa50ae4a",
+   "zh": "「吾技藝不精，但有些人憐憫吾，仍願買吾的@布匹。」",
+   "note": "@cloth keyword；謙遜自嘲"
+  },
+  {
+   "hash": "e8c1eb571ac0c7aa",
+   "zh": "「吾店開門時，歡迎光臨！」",
+   "note": "buy/cloth response"
+  },
+  {
+   "hash": "599a22601150c955",
+   "zh": "「汝可想要些布匹？」",
+   "note": "cloth sale offer"
+  },
+  {
+   "hash": "e8c1eb571ac0c7aa",
+   "zh": "「吾店開門時，歡迎光臨！」",
+   "note": "sell/wool response"
+  },
+  {
+   "hash": "253111dfb49cfb8c",
+   "zh": "「汝可有羊毛欲出售？」",
+   "note": "wool sell inquiry"
+  },
+  {
+   "hash": "e8c1eb571ac0c7aa",
+   "zh": "「吾店開門時，歡迎光臨！」",
+   "note": "silk response"
+  },
+  {
+   "hash": "612a04d0fe607c6e",
+   "zh": "「她住在鴉爪鎮。」",
+   "note": "mari keyword response"
+  },
+  {
+   "hash": "c6a02493e18fe431",
+   "zh": "「他住在鴉爪鎮。」",
+   "note": "arbe keyword response"
+  },
+  {
+   "hash": "7194cb8ff8799f23",
+   "zh": "「此乃非吾置喙之事，$G。」",
+   "note": "humb keyword deflect"
+  },
+  {
+   "hash": "828ab4393a8d3ca1",
+   "zh": "「但誠實亦是一種美德，誠實迫使吾承認：吾乃新馬精西亞最謙遜之人。」",
+   "note": "幽默諷刺：以誠實聲稱自己最謙遜；New Magencia → 新馬精西亞"
+  },
+  {
+   "hash": "93b4696cd7bb9b4b",
+   "zh": "「別了，$G！」",
+   "note": "bye"
+  },
+  {
+   "hash": "7194cb8ff8799f23",
+   "zh": "「此乃非吾置喙之事，$G。」",
+   "note": "default deflect（重複）"
+  },
+  {
+   "hash": "99f66600f2f33b84",
+   "zh": "「悉聽汝意，$G。」",
+   "note": "yn response"
+  },
+  {
+   "hash": "99f66600f2f33b84",
+   "zh": "「悉聽汝意，$G。」",
+   "note": "yn response（重複）"
+  },
+  {
+   "hash": "4bbfc544d2dcc8c6",
+   "zh": "「冒昧稟告，$G，吾並未見到絲線！」",
+   "note": "no silk detected"
+  },
+  {
+   "hash": "5c19cf0947b8d796",
+   "zh": "「是的，$Y，吾能將汝的絲線織成布匹。」",
+   "note": "silk weaving offer"
+  },
+  {
+   "hash": "bf3d127ea64e97d8",
+   "zh": "「須花費十枚金幣。汝有意乎？」",
+   "note": "price quote"
+  },
+  {
+   "hash": "2ac6038dde173fc0",
+   "zh": "「冒昧稟告，$Y，汝並無十枚金幣！」",
+   "note": "insufficient gold"
+  },
+  {
+   "hash": "88a8e9307d0e5b1d",
+   "zh": "夏綠蒂轉向織布機，不一會兒便將絲線織成精美的絲綢布匹。",
+   "note": "action；weaving scene"
+  },
+  {
+   "hash": "61e13f7228ce4e19",
+   "zh": "「完成了！」她收下$Y的金幣，將布匹遞了過去。",
+   "note": "action；transaction complete"
+  },
+  {
+   "hash": "42c36d5589c35021",
+   "zh": "「汝最清楚了，$Y。」",
+   "note": "declined"
+  },
+  {
+   "hash": "4ee5567b2610509d",
+   "zh": "「冒昧稟告，吾並未見到羊毛！」",
+   "note": "no wool detected"
+  },
+  {
+   "hash": "ad84cda7c81bfbcb",
+   "zh": "「是的，$Y，吾願向汝購買羊毛……」",
+   "note": "wool buy offer"
+  },
+  {
+   "hash": "42c1fbc2b3fd0c7f",
+   "zh": "#1) $Y",
+   "note": "選項列表佔位符，原樣保留"
+  },
+  {
+   "hash": "7bf2e7fe4fc43e63",
+   "zh": "「汝等哪一位？」",
+   "note": "party member selection"
+  },
+  {
+   "hash": "70d420190e4ac2ed",
+   "zh": "「悉聽尊意……」",
+   "note": "declined"
+  },
+  {
+   "hash": "672a56f78c3100de",
+   "zh": "「汝願以十枚金幣出售一捆羊毛嗎，$Y？」",
+   "note": "wool purchase offer"
+  },
+  {
+   "hash": "1ec1b2840556664e",
+   "zh": "「那便改日再說。」",
+   "note": "declined"
+  },
+  {
+   "hash": "cb429bc1c0261c98",
+   "zh": "「成交！」$N將十枚金幣遞給$Y，並取走羊毛。",
+   "note": "action；wool transaction"
+  },
+  {
+   "hash": "311dc8d8111ea702",
+   "zh": "#2) $Y",
+   "note": "選項列表佔位符，原樣保留"
+  },
+  {
+   "hash": "7bf2e7fe4fc43e63",
+   "zh": "「汝等哪一位？」",
+   "note": "party member selection（重複）"
+  },
+  {
+   "hash": "99f66600f2f33b84",
+   "zh": "「悉聽汝意，$G。」",
+   "note": "declined"
+  },
+  {
+   "hash": "ef00dd09cf19fe81",
+   "zh": "「吾的布匹售價二十五枚金幣。$Y，有意乎？」",
+   "note": "cloth price quote"
+  },
+  {
+   "hash": "42c36d5589c35021",
+   "zh": "「汝最清楚了，$Y。」",
+   "note": "declined"
+  },
+  {
+   "hash": "17b442a747cda944",
+   "zh": "「然如此一來汝將負荷過重，$Y！」",
+   "note": "inventory full warning"
+  },
+  {
+   "hash": "637c367ca69d206c",
+   "zh": "「多謝惠顧！」",
+   "note": "purchase thank you"
+  },
+  {
+   "hash": "035cc123ef59b7f5",
+   "zh": "收下$Y的金幣後，$N將布匹遞了過去。",
+   "note": "action；cloth transaction"
+  },
+  {
+   "hash": "b308280d0a2bd0e3",
+   "zh": "「然汝金幣不足，$Y！」",
+   "note": "insufficient gold"
+  },
+  {
+   "hash": "ab064b64330b0f64",
+   "zh": "「吾不甚明白汝的意思。」",
+   "note": "default不解"
+  },
+  {
+   "hash": "58831a1f3b1a2fba",
+   "zh": "「將布匹帶去找@瑪麗莎。也許她能為汝縫製一個袋子。」",
+   "note": "@Marissa keyword；plan/ball/bag response"
+  },
+  {
+   "hash": "6ddc7e26c5bb27df",
+   "zh": "「吾可為汝將那@絲線織成布匹……然後汝應去找@瑪麗莎談談。」",
+   "note": "@silk @Marissa keywords"
+  },
+  {
+   "hash": "7306a016cff435af",
+   "zh": "「若汝有些@絲線，吾便能相助。去問問@阿伯斯他是否有多餘的。」",
+   "note": "@silk @Arbeth keywords"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Charlotte Weaver": "夏綠蒂·織女",
+   "Marissa": "瑪麗莎",
+   "Arbeth": "阿伯斯"
+  },
+  "places": {
+   "Paws": "鴉爪鎮",
+   "New Magincia": "新馬精西亞"
+  }
+ },
+ "translator_notes": "095 Charlotte：新馬精西亞謙遜織工。謙遜德行主題：自稱技藝不精，以「誠實」聲稱自己是最謙遜之人，為角色小幽默。語氣低調、謙遜。避 5C trail 字。"
+}

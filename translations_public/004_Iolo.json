@@ -1,0 +1,641 @@
+{
+ "_meta": {
+  "npc": "Iolo",
+  "batches": 2
+ },
+ "translations": [
+  {
+   "hash": "2797d2d17fd34fd8",
+   "zh": "尤洛",
+   "note": "NPC 名"
+  },
+  {
+   "hash": "f58ba61c79297210",
+   "zh": "汝舊識尤洛是也。",
+   "note": "DESC 句"
+  },
+  {
+   "hash": "631d2c1a9f3fb365",
+   "zh": "「嗯，$P，可有事需在下相@助？又或閣下尚有閒暇聽一則@故事？」",
+   "note": "保留 $P"
+  },
+  {
+   "hash": "c4bcadba8e631b86",
+   "zh": "名字",
+   "note": "keyword"
+  },
+  {
+   "hash": "7a7a2cde6ec7d65d",
+   "zh": "「在下記憶所及，唯『尤洛』一名而已。」（他將名字唸作『Yo-low』。）",
+   "note": "保留發音註記"
+  },
+  {
+   "hash": "0a9918cc5fa26aba",
+   "zh": "幫助",
+   "note": "keyword"
+  },
+  {
+   "hash": "2023466fc2063cb2",
+   "zh": "「若閣下欲令在下@匯集眾人之金幣交由閣下攜帶，但說無妨。」",
+   "note": "@gather→@匯集"
+  },
+  {
+   "hash": "3c54207d9719facb",
+   "zh": "「或者在下可將之@均分眾人，悉聽尊便。」",
+   "note": "@split→@均分"
+  },
+  {
+   "hash": "381ec30e42c15f6d",
+   "zh": "匯集,合",
+   "note": "雙觸發詞"
+  },
+  {
+   "hash": "ea01a8dbdfb53033",
+   "zh": "均分,分",
+   "note": "keyword 列"
+  },
+  {
+   "hash": "c1f6e70eaf9866c3",
+   "zh": "茅舍,家,史密,線",
+   "note": "clue→線（線索縮略）"
+  },
+  {
+   "hash": "dfd96e50bd0dc1dc",
+   "zh": "「在下茅舍位於尤伊城南之深林中。」",
+   "note": "Yew→尤伊；Deep Forest→深林"
+  },
+  {
+   "hash": "4905071dc8dc045c",
+   "zh": "「在下之馬史密斯亦居於彼。」",
+   "note": "Smith 馬名音譯"
+  },
+  {
+   "hash": "45627c193a5b605c",
+   "zh": "職",
+   "note": "len=3 受限，單字"
+  },
+  {
+   "hash": "40bd91eff4b2278e",
+   "zh": "「在下製作弩弓已有年矣，如今已感倦怠。」",
+   "note": "crossbow→弩弓"
+  },
+  {
+   "hash": "c080288d367d9e1b",
+   "zh": "*「所幸今有@學徒接掌店鋪，在下便可多花時光做一名@吟遊詩人。」",
+   "note": "保留 * 前綴"
+  },
+  {
+   "hash": "9e16f151c4b028f1",
+   "zh": "學徒,店鋪,弩",
+   "note": "keyword 列"
+  },
+  {
+   "hash": "18f1dcd9442d79c0",
+   "zh": "「在下店中所售，仍為全境最精良之弩弓。」"
+  },
+  {
+   "hash": "9aa7a6fced724830",
+   "zh": "「多年以來在下不斷精進其設計，亦悉心調教學徒。」"
+  },
+  {
+   "hash": "d4fe29c03694ceb2",
+   "zh": "「在下深信她必能將此技藝傳承得當。」"
+  },
+  {
+   "hash": "9a7a049baa52c81a",
+   "zh": "詩人",
+   "note": "keyword；本句用『詩人』省 byte"
+  },
+  {
+   "hash": "7e8f0a78ffaafce1",
+   "zh": "「是的，此乃在下一向之雅好。」",
+   "note": "hobby→雅好"
+  },
+  {
+   "hash": "9dda6980209bfffb",
+   "zh": "「閣下可曾聽過在下多年前所譜之曲『石』？」",
+   "note": "'Stones'→曲名『石』"
+  },
+  {
+   "hash": "f72a42618951ffb5",
+   "zh": "妻,葛雯",
+   "note": "Gwenno→葛雯"
+  },
+  {
+   "hash": "7fa564636d580d3c",
+   "zh": "「這些年來，她比在下有更多時間鑽研樂藝。」"
+  },
+  {
+   "hash": "13f9ea4ee0874a23",
+   "zh": "「然此次@試煉之後，在下盼能赴@米諾克與她相聚，加入工匠@公會。」"
+  },
+  {
+   "hash": "1e166c07b290f07b",
+   "zh": "試煉",
+   "note": "keyword"
+  },
+  {
+   "hash": "1adc37fbcd4e737a",
+   "zh": "「閣下每來造訪，似乎總有一場試煉相伴，不是麼？」"
+  },
+  {
+   "hash": "9ea51de4a5044ce7",
+   "zh": "「來日閣下也該單純前來品@茶一回。」",
+   "note": "@tea→@茶"
+  },
+  {
+   "hash": "56e4c91944536249",
+   "zh": "茶",
+   "note": "keyword"
+  },
+  {
+   "hash": "fca0e989ea60d8c8",
+   "zh": "「也罷，那就來杯弗雷澤之@愚醇吧。」",
+   "note": "Frasier's Folly 酒名"
+  },
+  {
+   "hash": "3690a4a56a22cec4",
+   "zh": "弗,愚醇",
+   "note": "keyword 列"
+  },
+  {
+   "hash": "a2a4dc89fe758f7f",
+   "zh": "「一盞足以款待舊友之佳釀。」"
+  },
+  {
+   "hash": "da4e1ba2a78ee8c8",
+   "zh": "米諾",
+   "note": "keyword"
+  },
+  {
+   "hash": "c08220cb2c0bba25",
+   "zh": "「不如@不列顛城那般雄偉，卻是個寧靜之鎮。」",
+   "note": "@Britain→@不列顛城"
+  },
+  {
+   "hash": "563b884ebcb33390",
+   "zh": "工匠,公會,樂",
+   "note": "keyword 列"
+  },
+  {
+   "hash": "52b5541ad009751a",
+   "zh": "「兵戎之器固仍有所需，然年歲漸長，在下如今更願執持和平之器。」",
+   "note": "對仗『兵戎之器』vs『和平之器』"
+  },
+  {
+   "hash": "3d34eb9c05f7e880",
+   "zh": "不列",
+   "note": "keyword 截短"
+  },
+  {
+   "hash": "6b66148800c4ce51",
+   "zh": "「即@大鼻先生平日棲身之所。」",
+   "note": "Mr. Nose→大鼻先生"
+  },
+  {
+   "hash": "0bd44b386ffff329",
+   "zh": "先,鼻,大人",
+   "note": "keyword 列"
+  },
+  {
+   "hash": "176db4b8e490fa55",
+   "zh": "「記得，他可不愛旁人這般稱呼……」"
+  },
+  {
+   "hash": "41def2de29651139",
+   "zh": "加入",
+   "note": "keyword"
+  },
+  {
+   "hash": "337e9d990831973c",
+   "zh": "「自吾等將閣下自@魔像族手中救出，在下便一路相隨，不是麼？」",
+   "note": "@gargoyles→@魔像族"
+  },
+  {
+   "hash": "8b0d9772045c66f6",
+   "zh": "魔像",
+   "note": "keyword"
+  },
+  {
+   "hash": "422b91a13d1f30a4",
+   "zh": "「依在下看來，那些傢伙著實醜陋……」"
+  },
+  {
+   "hash": "24ad74ada201eda5",
+   "zh": "離開",
+   "note": "keyword"
+  },
+  {
+   "hash": "bc14ae9b6f47ee83",
+   "zh": "「那位大人——也就是國王——交代在下須時刻相隨閣下。」",
+   "note": "His nibs→那位大人"
+  },
+  {
+   "hash": "fab162011c9a5442",
+   "zh": "「當然啦，閣下要更衣方便之時，在下會破例迴避。」",
+   "note": "relieve→更衣方便"
+  },
+  {
+   "hash": "af1f50191db2b95f",
+   "zh": "故事",
+   "note": "keyword"
+  },
+  {
+   "hash": "320ab17ffcb8a573",
+   "zh": "「在下最愛講的，是某次比武大會前喚醒杜普雷的那段往事……",
+   "note": "原文尾無收引號"
+  },
+  {
+   "hash": "6a05e8dca1eb727f",
+   "zh": "杜普雷插話。",
+   "note": "敘述句"
+  },
+  {
+   "hash": "db4a645595778dda",
+   "zh": "「尤洛！你發誓過此事絕不外傳的！」",
+   "note": "Dupre 對 Iolo 喊話"
+  },
+  {
+   "hash": "f1586486a7a56f11",
+   "zh": "「是的，你說得對，抱歉。」他低聲對閣下道：「待他不在時再來問在下……」",
+   "note": "兩段對話拼接"
+  },
+  {
+   "hash": "300d3d3dcfd3fd67",
+   "zh": "「不過此事或許還是不該告訴閣下，畢竟在下確實許下了承諾……」"
+  },
+  {
+   "hash": "008a2f19137d94c3",
+   "zh": "別",
+   "note": "len=3 受限"
+  },
+  {
+   "hash": "0c019104e4855815",
+   "zh": "「終有一日，在下還是要把杜普雷那段故事說與閣下聽……」"
+  },
+  {
+   "hash": "8b7dbd19093ccbc8",
+   "zh": "罐肉",
+   "note": "Monty Python Spam 梗"
+  },
+  {
+   "hash": "74746bced4613a69",
+   "zh": "「此事去問夏米諾吧。」"
+  },
+  {
+   "hash": "1f9b3f442e3a4be9",
+   "zh": "騙術",
+   "note": "Dickens 梗"
+  },
+  {
+   "hash": "74746bced4613a69",
+   "zh": "「此事去問夏米諾吧。」"
+  },
+  {
+   "hash": "74746bced4613a69",
+   "zh": "「此事去問夏米諾吧。」"
+  },
+  {
+   "hash": "08ed5807b58a118e",
+   "zh": "yn",
+   "note": "yes/no token"
+  },
+  {
+   "hash": "26cc91ebb27ee9a3",
+   "zh": "「噢，閣下他日該請在下之妻@葛雯教你一曲。」",
+   "note": "@Gwenno→@葛雯"
+  },
+  {
+   "hash": "242c139aa2d0224a",
+   "zh": "「此乃在下心愛之曲。」"
+  },
+  {
+   "hash": "c082cc854a062308",
+   "zh": "祕密密技選單！",
+   "note": "debug 介面標題"
+  },
+  {
+   "hash": "50e7bfa4cba34256",
+   "zh": "1. 取物品",
+   "note": "debug 選單"
+  },
+  {
+   "hash": "e1f8ff010ea39f5a",
+   "zh": "2. 設旗標",
+   "note": "debug 選單"
+  },
+  {
+   "hash": "319f28346f696167",
+   "zh": "3. 看NPC",
+   "note": "debug 選單"
+  },
+  {
+   "hash": "1a229684262b8935",
+   "zh": "4. 編隊伍",
+   "note": "debug 選單"
+  },
+  {
+   "hash": "8a15e1fb788420ff",
+   "zh": "5. 編玩家",
+   "note": "debug 選單"
+  },
+  {
+   "hash": "3148be3e60e3ff6a",
+   "zh": "祝您愉快！",
+   "note": "debug 退出語"
+  },
+  {
+   "hash": "a512e8bb916d9c0c",
+   "zh": "物件編號？",
+   "note": "debug 提示"
+  },
+  {
+   "hash": "a8a66db379648b41",
+   "zh": "品質？",
+   "note": "debug 提示"
+  },
+  {
+   "hash": "9479ec64015bd07f",
+   "zh": "數量？",
+   "note": "debug 提示"
+  },
+  {
+   "hash": "1d4bf188ef754c09",
+   "zh": "「此物對閣下過於沉重……不過在下還是給你便是！」",
+   "note": "debug 拿物品時"
+  },
+  {
+   "hash": "6117458b9698164e",
+   "zh": "NPC編號？",
+   "note": "debug 提示"
+  },
+  {
+   "hash": "1721316798ce94e3",
+   "zh": "M H 2 3 4 5 6 7",
+   "note": "schedule 旗標欄位，原樣保留"
+  },
+  {
+   "hash": "cc1d6117d3673160",
+   "zh": "#2 ",
+   "note": "ID 顯示，原樣保留"
+  },
+  {
+   "hash": "b85e16e6beecf67d",
+   "zh": "0-7切換，8或9退出: ",
+   "note": "debug 操作說明"
+  },
+  {
+   "hash": "d8ed858ca662fcfe",
+   "zh": "1. 肖像",
+   "note": "debug 選單"
+  },
+  {
+   "hash": "2f490ba930fccda1",
+   "zh": "2. 物品欄",
+   "note": "debug 選單"
+  },
+  {
+   "hash": "407c429568675405",
+   "zh": "3. 搜尋物件",
+   "note": "debug 選單"
+  },
+  {
+   "hash": "65ff02b05fa89a6c",
+   "zh": "4. 設工作型",
+   "note": "debug 選單"
+  },
+  {
+   "hash": "4cfee179c6ab01c2",
+   "zh": "1. 個別檢視",
+   "note": "debug 選單"
+  },
+  {
+   "hash": "4045462e57916459",
+   "zh": "2. 全部檢視",
+   "note": "debug 選單"
+  },
+  {
+   "hash": "6117458b9698164e",
+   "zh": "NPC編號？",
+   "note": "debug 提示"
+  },
+  {
+   "hash": "d9b648d571360e92",
+   "zh": "NPC#1.",
+   "note": "顯示格式"
+  },
+  {
+   "hash": "48f17acb06b0c719",
+   "zh": "物件類型？",
+   "note": "debug 提示"
+  },
+  {
+   "hash": "01bab8fde41a6d28",
+   "zh": "持有此物之人：",
+   "note": "debug 結果說明"
+  },
+  {
+   "hash": "cc279317d36fdadb",
+   "zh": "#1 ",
+   "note": "原樣保留"
+  },
+  {
+   "hash": "6117458b9698164e",
+   "zh": "NPC編號？",
+   "note": "debug 提示"
+  },
+  {
+   "hash": "5bfe336e5aee18ef",
+   "zh": "工作型？",
+   "note": "debug 提示"
+  },
+  {
+   "hash": "7275969d19da0755",
+   "zh": "已完成！",
+   "note": "古調語氣"
+  },
+  {
+   "hash": "50e77701c0136675",
+   "zh": "#2. $Y",
+   "note": "保留 $Y 變數"
+  },
+  {
+   "hash": "4589e5f5bb30130b",
+   "zh": "編輯何人？",
+   "note": "debug 提示"
+  },
+  {
+   "hash": "07b86707b483db9e",
+   "zh": "$Y",
+   "note": "變數，不譯"
+  },
+  {
+   "hash": "7aed61a65f590bf6",
+   "zh": "1.力量=#1",
+   "note": "屬性編輯"
+  },
+  {
+   "hash": "a37a86bf3b1abe65",
+   "zh": "2.智力=#1",
+   "note": "屬性編輯"
+  },
+  {
+   "hash": "5626667a04495c1e",
+   "zh": "3.敏捷=#1",
+   "note": "屬性編輯"
+  },
+  {
+   "hash": "1dd3e939c7d87be2",
+   "zh": "4.等級=#1",
+   "note": "屬性編輯"
+  },
+  {
+   "hash": "caa43c4fe26a4622",
+   "zh": "5.經驗=#1",
+   "note": "屬性編輯"
+  },
+  {
+   "hash": "c994560df1ff1cd2",
+   "zh": "6. 補血",
+   "note": "debug 選單"
+  },
+  {
+   "hash": "dd1bb862dbce3255",
+   "zh": "7. 賜匹馬！",
+   "note": "debug 選單"
+  },
+  {
+   "hash": "b5d1a23de91f5e08",
+   "zh": "加多少？",
+   "note": "debug 提示"
+  },
+  {
+   "hash": "c82d8b2b6dcd10cd",
+   "zh": " 已療！ ",
+   "note": "結果訊息"
+  },
+  {
+   "hash": "83783e46413e3a6b",
+   "zh": " 已治！ ",
+   "note": "結果訊息"
+  },
+  {
+   "hash": "ca74f949e94fd095",
+   "zh": " 賜馬！ ",
+   "note": "結果訊息"
+  },
+  {
+   "hash": "fc0f5c4d12a97c2d",
+   "zh": "試煉旗標=#0",
+   "note": "屬性顯示"
+  },
+  {
+   "hash": "0e296cd120424bc8",
+   "zh": "業力=#9",
+   "note": "屬性顯示"
+  },
+  {
+   "hash": "ea352978317ed572",
+   "zh": "1.設試煉旗標",
+   "note": "debug 選單"
+  },
+  {
+   "hash": "9e523c389ee76f7e",
+   "zh": "2.加業力",
+   "note": "debug 選單"
+  },
+  {
+   "hash": "41441db33c6f2810",
+   "zh": "3.減業力",
+   "note": "debug 選單"
+  },
+  {
+   "hash": "cbe19ba6dcdbec2d",
+   "zh": "設為何值？",
+   "note": "debug 提示"
+  },
+  {
+   "hash": "1e01776dc14a929d",
+   "zh": "幾何？",
+   "note": "debug 提示"
+  },
+  {
+   "hash": "1e01776dc14a929d",
+   "zh": "幾何？",
+   "note": "debug 提示"
+  },
+  {
+   "hash": "adea976f474ab972",
+   "zh": "尤洛將眾人之金幣匯齊，交予閣下。",
+   "note": "敘述句"
+  },
+  {
+   "hash": "7f360c3cded0842c",
+   "zh": "「咱們無人攜帶金幣，$G。」",
+   "note": "保留 $G"
+  },
+  {
+   "hash": "824a7843c6a2fad3",
+   "zh": "尤洛湊了些金幣，交予閣下。",
+   "note": "敘述句"
+  },
+  {
+   "hash": "0d582d89ce86f3d6",
+   "zh": "「來，此乃閣下當前所能攜帶之數。」"
+  },
+  {
+   "hash": "85810d254e5e228e",
+   "zh": "「在下看閣下已攜帶足矣。」"
+  },
+  {
+   "hash": "ab18b48ae9786753",
+   "zh": "「然吾等並無金幣，$G！」",
+   "note": "保留 $G"
+  },
+  {
+   "hash": "c51e2c25cf4ddfc7",
+   "zh": "「咱們的金幣不足道哉，$G。」",
+   "note": "保留 $G"
+  },
+  {
+   "hash": "9b7017b34d1ccbb6",
+   "zh": "尤洛將眾人之金幣匯齊，再均分予諸人。",
+   "note": "敘述句"
+  },
+  {
+   "hash": "7e6788fe88ae4ecf",
+   "zh": "尤洛將金幣分予尚能攜帶之眾人。",
+   "note": "敘述句"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Gwenno": "葛雯",
+   "Smith (horse)": "史密斯"
+  },
+  "places": {
+   "Frasier's Folly": "弗雷澤之愚醇"
+  },
+  "concepts": {
+   "guild": "公會",
+   "artisan": "工匠",
+   "tournament": "比武大會",
+   "apprentice": "學徒",
+   "crossbow": "弩弓",
+   "bard": "吟遊詩人"
+  },
+  "keywords_common": {
+   "@help": "@助",
+   "@story": "@故事",
+   "@gather": "@匯集",
+   "@split": "@均分",
+   "@apprentice": "@學徒",
+   "@bard": "@吟遊詩人",
+   "@guild": "@公會",
+   "@tea": "@茶",
+   "@Folly": "@愚醇",
+   "@Nose": "@大鼻"
+  }
+ },
+ "translator_notes": "Iolo 用『在下』自稱、稱玩家『閣下』。len=3 三例 (job/tea/bye) 受 byte 限制改單字。所有 62 條 ≤ 原文 len。batch 1/2。"
+}

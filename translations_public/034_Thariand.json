@@ -1,0 +1,196 @@
+{
+ "_meta": {},
+ "translations": [
+  {
+   "hash": "667711e3d137c766",
+   "zh": "一身藍袍、案牘勞形之男子。",
+   "note": "DESC"
+  },
+  {
+   "hash": "90906f5c50bcac00",
+   "zh": "「書冊浩如煙海，整理起來耗時費力，哪還有餘閒自修……」"
+  },
+  {
+   "hash": "46eb397fe4a182e3",
+   "zh": "「有何需要，吾可為汝效勞？」"
+  },
+  {
+   "hash": "0a9daf9f96848825",
+   "zh": "「吾乃薩里安，藍@星之人。」",
+   "note": "@star keyword preserved"
+  },
+  {
+   "hash": "6a0c89a08d196340",
+   "zh": "「凡@尼科德穆斯門下弟子，皆以此為標誌。」",
+   "note": "@Nicodemus keyword preserved"
+  },
+  {
+   "hash": "2b139498c3d03261",
+   "zh": "「彼居於@尤伊城東南。」",
+   "note": "@Yew keyword preserved"
+  },
+  {
+   "hash": "6454469ad7701a32",
+   "zh": "「當地必有人能為汝指路。」"
+  },
+  {
+   "hash": "2472450b4982908b",
+   "zh": "「吾是圖書館館員。」"
+  },
+  {
+   "hash": "9cd08714f747dd43",
+   "zh": "*「吾本更願鑽研@魔法，但若汝能長話短說，吾可代汝尋些@書冊。」",
+   "note": "leading * preserved"
+  },
+  {
+   "hash": "ede92504f276a18c",
+   "zh": "「若吾能盡覽這批典籍中所有秘術，必可成就古往今來第一大術師！」*",
+   "note": "trailing * preserved"
+  },
+  {
+   "hash": "182fcdd948ff6b57",
+   "zh": "「當然，尋齊所需書冊亦非易事……」"
+  },
+  {
+   "hash": "d114d3c5fe5a82c8",
+   "zh": "「噢，抱歉，吾這才想起——那本書上週已借出去了。汝改日再來試試吧。」"
+  },
+  {
+   "hash": "274a72ca4f9e8664",
+   "zh": "「我館藏有一冊記載聖壇歷史之書，只是書名一時想不起來……」"
+  },
+  {
+   "hash": "ebb2744d8c00ff41",
+   "zh": "「請記住，凡從此處借出之書冊，須於下次雙月交會前歸還！」"
+  },
+  {
+   "hash": "92b6cd4f4f501069",
+   "zh": "「汝或許能在《普利維格萬用知識大全》中找到更多相關資料。」"
+  },
+  {
+   "hash": "4caf7de1f4c45349",
+   "zh": "汝有意查閱哪類書冊：",
+   "note": "menu prompt"
+  },
+  {
+   "hash": "4e6bb417aa1ebb36",
+   "zh": "甲、文學小說",
+   "note": "menu item"
+  },
+  {
+   "hash": "b876bb8b393a7cbb",
+   "zh": "乙、非虛構類",
+   "note": "menu item"
+  },
+  {
+   "hash": "b31b1b02a005c4f1",
+   "zh": "丙、參考工具",
+   "note": "menu item"
+  },
+  {
+   "hash": "fa377778ca761b3c",
+   "zh": "此類目吾可推薦以下書目：",
+   "note": "menu header"
+  },
+  {
+   "hash": "3664b61779e23275",
+   "zh": "《弗瑞塔的洞窟》",
+   "note": "book title"
+  },
+  {
+   "hash": "6b87488fb1ce34c3",
+   "zh": "《乘洗衣桶環遊世界》",
+   "note": "book title"
+  },
+  {
+   "hash": "3d8966cb84d67c49",
+   "zh": "《奧茲的術師》",
+   "note": "book title"
+  },
+  {
+   "hash": "fa377778ca761b3c",
+   "zh": "此類目吾可推薦以下書目：",
+   "note": "menu header (repeat)"
+  },
+  {
+   "hash": "ee3428ca6f8baf6e",
+   "zh": "《北原馬人的交配習俗》",
+   "note": "book title"
+  },
+  {
+   "hash": "ab088c27504abfb4",
+   "zh": "《夢境與幻象》",
+   "note": "book title"
+  },
+  {
+   "hash": "d3c521c61ec07abd",
+   "zh": "《失傳的熱氣球術》",
+   "note": "book title"
+  },
+  {
+   "hash": "e46fe3850ef6e817",
+   "zh": "《召喚夢魔：樂趣與利益兼顧》",
+   "note": "book title"
+  },
+  {
+   "hash": "fa377778ca761b3c",
+   "zh": "此類目吾可推薦以下書目：",
+   "note": "menu header (repeat)"
+  },
+  {
+   "hash": "b9eedf61a70d35d2",
+   "zh": "《迪薩良言年鑑》",
+   "note": "book title; 避『年』→不用「年曆」"
+  },
+  {
+   "hash": "f4518f314ad46cbf",
+   "zh": "《普利維格萬用知識大全》",
+   "note": "book title"
+  },
+  {
+   "hash": "4448ad1bf7cbf5be",
+   "zh": "《失傳真言之書》",
+   "note": "book title"
+  },
+  {
+   "hash": "6d1fac1d62bcf7b9",
+   "zh": "「汝還有其他想找的書嗎？」",
+   "note": "trailing space preserved in en"
+  },
+  {
+   "hash": "46528bf596eba5d5",
+   "zh": "「甚好。只要手中有索書號碼，汝便不難尋得所需。」"
+  },
+  {
+   "hash": "4784d9f9e30e9b96",
+   "zh": "「汝應當曉得我館書冊的排列方式，對吧？」"
+  },
+  {
+   "hash": "a349fb3f996ce624",
+   "zh": "「甚好。吾還有更重要的事情要辦，實在無暇向汝解說。」"
+  },
+  {
+   "hash": "115fa6d6bc4c796a",
+   "zh": "「既然如此，吾建議汝查閱《@杜威十進位分類法入門指引》。」"
+  },
+  {
+   "hash": "acfc14973d2bb8a9",
+   "zh": "「其索書號為 T17 0035 r16RL.5 v43。」",
+   "note": "call number kept verbatim"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Thariand": "薩里安",
+   "Nicodemus": "尼科德穆斯",
+   "Priliwig": "普利維格",
+   "Dilzal": "迪薩",
+   "Freitag": "弗瑞塔"
+  },
+  "places": {},
+  "concepts": {
+   "Dewey Decimal System": "杜威十進位分類法"
+  }
+ },
+ "translator_notes": "Thariand 是學苑圖書館員，語氣帶點書卷氣但略顯牢騷。書目名稱全數翻譯並加《》。索書號碼（如 821.34 Rzl4n）純為系統資料，不翻譯。避免使用 5C trail 字，以「薩里安」代 Thariand。Nicodemus 依發音譯為「尼科德穆斯」。"
+}

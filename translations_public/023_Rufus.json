@@ -1,0 +1,171 @@
+{
+ "_meta": {
+  "npc": "Rufus the Red (blacksmith / farrier)",
+  "role": "不列顛城紅髮鐵匠（farrier）；只釘馬蹄鐵。粗獷豪邁，會抓玩家手臂招呼。對話含 'shoe horses' 與紅髮名號雙關（@Red）。"
+ },
+ "translations": [
+  {
+   "hash": "f47148d07e516682",
+   "zh": "魯佛",
+   "note": "人名音譯；Rufus → 魯佛"
+  },
+  {
+   "hash": "e904b9003e406e61",
+   "zh": "一個粗獷不羈、頭髮蓬亂之人。"
+  },
+  {
+   "hash": "30006c9b077daa58",
+   "zh": "「啊，這$T時辰好，朋友",
+   "note": "保留 $T 變數；句尾留接續"
+  },
+  {
+   "hash": "07da0e07b4a02ac9",
+   "zh": ".\"",
+   "note": "len=2 保留 ASCII"
+  },
+  {
+   "hash": "80e07cefa08dc2b0",
+   "zh": "「我正忙著。何不來我鐵舖一趟——",
+   "note": "smithy → 鐵舖；句尾留接續"
+  },
+  {
+   "hash": "83d09fce3c4d2932",
+   "zh": "明日 ",
+   "note": "時段詞 1，末空格"
+  },
+  {
+   "hash": "2d960205da5f7ebc",
+   "zh": "稍晚今日 ",
+   "note": "時段詞 2"
+  },
+  {
+   "hash": "9699b72592c1db9a",
+   "zh": "再來細談吧。」"
+  },
+  {
+   "hash": "4e81ca3291613914",
+   "zh": "「$T安好，友",
+   "note": "保留 $T；末尾留接續"
+  },
+  {
+   "hash": "07da0e07b4a02ac9",
+   "zh": ".\"",
+   "note": "len=2 保留 ASCII"
+  },
+  {
+   "hash": "7f094a48311fe1d8",
+   "zh": "「見汝甚悅，友也！」他抓住汝手臂。",
+   "note": "'Tis 古英文文體"
+  },
+  {
+   "hash": "a68362da906fe73b",
+   "zh": "「汝需何物？」"
+  },
+  {
+   "hash": "c4bcadba8e631b86",
+   "zh": "名字",
+   "note": "@name keyword"
+  },
+  {
+   "hash": "fe5939bdaa20bb8c",
+   "zh": "「@紅髮魯佛也。」",
+   "note": "@Red 紅髮綽號保留 keyword"
+  },
+  {
+   "hash": "3d708bfe33fba3da",
+   "zh": "魯佛,紅",
+   "note": "keyword 群組（名字+紅髮）"
+  },
+  {
+   "hash": "827a7fee0f14a897",
+   "zh": "「瞧我這頭髮還用問？」"
+  },
+  {
+   "hash": "00612319135a7b4b",
+   "zh": "買",
+   "note": "@buy keyword"
+  },
+  {
+   "hash": "45627c193a5b605c",
+   "zh": "業",
+   "note": "@job keyword"
+  },
+  {
+   "hash": "c8ff11fa336509b6",
+   "zh": "「若欲@買馬蹄鐵，儘管開口。」"
+  },
+  {
+   "hash": "953d243f428b94ae",
+   "zh": "別,無",
+   "note": "keyword 群組（bye + nothing）"
+  },
+  {
+   "hash": "5453a56a45b4c531",
+   "zh": "「記得常給座騎換@蹄鐵。再見。」"
+  },
+  {
+   "hash": "46dc5118e28e0df2",
+   "zh": "蹄鐵",
+   "note": "@shoe keyword"
+  },
+  {
+   "hash": "a17e118dfd6b7b07",
+   "zh": "「啊，可保牠們的蹄不傷於石塊之類。」"
+  },
+  {
+   "hash": "febd90cf2bf1a0aa",
+   "zh": "「在下只釘馬@蹄鐵，抱歉。」"
+  },
+  {
+   "hash": "50e77701c0136675",
+   "zh": "#2. $Y",
+   "note": "保留變數"
+  },
+  {
+   "hash": "7bf2e7fe4fc43e63",
+   "zh": "「諸位何人？」"
+  },
+  {
+   "hash": "cd645f656f15e63e",
+   "zh": "「一副蹄鐵 2 金幣。可有意？」 ",
+   "note": "末尾空白保留"
+  },
+  {
+   "hash": "08ed5807b58a118e",
+   "zh": "yn",
+   "note": "yes/no 選項標記"
+  },
+  {
+   "hash": "b3e06e01d84ec8f7",
+   "zh": "「瞧汝身上已甚滿。」"
+  },
+  {
+   "hash": "52c39ad741ff0c21",
+   "zh": "「好好！」$N 收下 $Y 的金幣，遞上一副蹄鐵。"
+  },
+  {
+   "hash": "4ed873f707cdf576",
+   "zh": "「汝金幣不足！」"
+  },
+  {
+   "hash": "8dfa567ee9e6b484",
+   "zh": "「這蹄鐵夠汝用上一陣。」"
+  },
+  {
+   "hash": "0697dc453ebf6092",
+   "zh": "「再無更堅之物可尋。」"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Rufus the Red": "紅髮魯佛"
+  },
+  "concepts": {
+   "smithy": "鐵舖",
+   "farrier": "釘蹄匠",
+   "horseshoe": "馬蹄鐵",
+   "steed": "座騎"
+  }
+ },
+ "translator_notes": "Rufus 為釘蹄匠。對話粗豪、含古英文 'Tis/thee 元素。Red 兼指紅髮與綽號，譯『紅髮』。所有 zh_bytes ≤ len，0 OVERFLOW。"
+}

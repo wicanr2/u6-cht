@@ -1,0 +1,107 @@
+{
+ "_meta": {},
+ "translations": [
+  {
+   "hash": "9d5cdd3cf452517c",
+   "zh": "一位臉色紅潤、笑容可掬的客棧老闆。",
+   "note": "DESC"
+  },
+  {
+   "hash": "2be417adde487cb8",
+   "zh": "「唔，哈囉",
+   "note": "Dutch-accented partial; V→W simulation"
+  },
+  {
+   "hash": "af7bfe15af02b5cf",
+   "zh": "，再次見到",
+   "note": "again branch"
+  },
+  {
+   "hash": "a5e81167427aab6f",
+   "zh": "，那裡的",
+   "note": "there branch"
+  },
+  {
+   "hash": "9c0243ade10c524a",
+   "zh": "，我的朋友"
+  },
+  {
+   "hash": "18a6fc9c41337500",
+   "zh": "！歡迎光臨武士驛站！」",
+   "note": "Warrior's Stead inn"
+  },
+  {
+   "hash": "7974b8b79a7f8679",
+   "zh": "「吾這個$T能為汝做些什麼？」",
+   "note": "Dutch 'Vat'=What"
+  },
+  {
+   "hash": "6335d9f370c3dcb6",
+   "zh": "「吾的名字是馬丁，但朋友們叫吾『@荷蘭人』。」",
+   "note": "Dutch nickname"
+  },
+  {
+   "hash": "9372d1e9407775da",
+   "zh": "「對，那就是吾的名號！」",
+   "note": "Ja=Yes in Dutch; dat's=that's"
+  },
+  {
+   "hash": "e7abe8d20f13bf48",
+   "zh": "「吾經營這家@客棧。」"
+  },
+  {
+   "hash": "449bb82fa030a95d",
+   "zh": "「住宿含膳食，每人每晚 5 枚金幣。」",
+   "note": "und=and, ist=is"
+  },
+  {
+   "hash": "25267418a58a557d",
+   "zh": "「有意嗎？」"
+  },
+  {
+   "hash": "35cd72557fe1852d",
+   "zh": "「祝旅途愉快！」他在汝離去時呼喊道。",
+   "note": "Haf=Have"
+  },
+  {
+   "hash": "d6282557d3f482e8",
+   "zh": "「吾說汝們的語言不太好。『$Z』是什麼意思？」"
+  },
+  {
+   "hash": "af27991287ee11e6",
+   "zh": "「唔，或許改天，好嗎？」"
+  },
+  {
+   "hash": "8de37b3b1d0d2896",
+   "zh": "「唉，抱歉，但吾必須收取 #0 枚金幣。」"
+  },
+  {
+   "hash": "db86d3fb84250156",
+   "zh": "「等財運好轉再來，好嗎？」"
+  },
+  {
+   "hash": "51f920daa1fc7316",
+   "zh": "他領汝到房間，汝沉入了當之無愧的好眠。",
+   "note": "action"
+  },
+  {
+   "hash": "7f35937ddd4abf01",
+   "zh": "翌日清晨，馬丁端上一頓豐盛可口的早餐。",
+   "note": "action"
+  },
+  {
+   "hash": "d414e7c152c574d5",
+   "zh": "「美好的一天從豐盛的早餐開始！」他高喊道。"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Martin": "馬丁"
+  },
+  "places": {
+   "Warrior's Stead": "武士驛站"
+  },
+  "concepts": {}
+ },
+ "translator_notes": "馬丁（Dutch）是個帶荷蘭腔的客棧老闆，把 W 說成 V（Vell/Vat/Velcome）。中文無法直接模擬此音，但保留其熱情豪爽的個性。Dutch 譯為「荷蘭人」以保留趣味。Martin 已在 glossary。"
+}

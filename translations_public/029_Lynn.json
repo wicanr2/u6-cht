@@ -1,0 +1,208 @@
+{
+ "_meta": {
+  "npc": "Lynn (Lynn the Fletcher)",
+  "role": "傑隆（Jhelom）製箭匠，高挑、長金髮、纖細；專為不列顛王軍隊製造箭矢與弩矢；只賣不買，按打（dozen）售箭。"
+ },
+ "translations": [
+  {
+   "hash": "ca1c0fb4d086f032",
+   "zh": "林恩",
+   "note": "人名沿用 glossary 已有譯名"
+  },
+  {
+   "hash": "971b23e26a8e71ff",
+   "zh": "一名高挑纖細、有著長金髮的女子。",
+   "note": "描述句保留三特徵 willowy=纖柔"
+  },
+  {
+   "hash": "00f85eb71710e565",
+   "zh": "「啊，聖者，又見面了！」",
+   "note": "Avatar→聖者"
+  },
+  {
+   "hash": "a03f812c43321748",
+   "zh": "「此美好的$T可為汝效何勞？」",
+   "note": "保留 $T"
+  },
+  {
+   "hash": "c4bcadba8e631b86",
+   "zh": "name",
+   "note": "@name keyword 內部碼保留"
+  },
+  {
+   "hash": "3985f067c1c12e17",
+   "zh": "「林恩。」",
+   "note": "len=11 緊；省主詞剛好 10 bytes ≤ 11"
+  },
+  {
+   "hash": "022115ee5b4f01b2",
+   "zh": "「不必告知名諱，$P。聖者之名遍傳於此境！」",
+   "note": "保留 $P；Avatar→聖者"
+  },
+  {
+   "hash": "45627c193a5b605c",
+   "zh": "job",
+   "note": "@job keyword 內部碼保留"
+  },
+  {
+   "hash": "b1e28fe1711a7648",
+   "zh": "「我是製箭匠。」",
+   "note": "fletcher→製箭匠"
+  },
+  {
+   "hash": "b04d2c107f4bb37c",
+   "zh": "「我為不列顛王陛下的軍隊製作@箭矢與@弩矢！」",
+   "note": "@arrows→@箭矢；@bolts→@弩矢；Lord British→不列顛王"
+  },
+  {
+   "hash": "06df78c7cb8d468c",
+   "zh": "buy,arro,bolt",
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "hash": "2d19df18d4078885",
+   "zh": "sell",
+   "note": "@sell keyword 內部碼保留"
+  },
+  {
+   "hash": "616bcfe3cf161ebd",
+   "zh": "「我所需之物俱備，無由再添購他物。」"
+  },
+  {
+   "hash": "9f663273e6eb9a52",
+   "zh": "「然汝之心意，銘感於心。」"
+  },
+  {
+   "hash": "008a2f19137d94c3",
+   "zh": "bye",
+   "note": "@bye keyword 內部碼保留"
+  },
+  {
+   "hash": "fcd44bd48b3f51b9",
+   "zh": "「珍重！望我能助汝試煉一臂之力！」",
+   "note": "quest→試煉"
+  },
+  {
+   "hash": "57f6e4ebe2f3306a",
+   "zh": "「請再說？」"
+  },
+  {
+   "hash": "e8c1eb571ac0c7aa",
+   "zh": "「待我開店時再來吧！」"
+  },
+  {
+   "hash": "311dc8d8111ea702",
+   "zh": "#2) $Y",
+   "note": "格式控制保留"
+  },
+  {
+   "hash": "7bf2e7fe4fc43e63",
+   "zh": "「諸位何人？」"
+  },
+  {
+   "hash": "6ba16b297cf4bc37",
+   "zh": "1) 箭矢",
+   "note": "選單項目；保留 1)"
+  },
+  {
+   "hash": "916c2556615ea650",
+   "zh": "2) 弩弓矢",
+   "note": "保留 2)；crossbow bolt→弩弓矢"
+  },
+  {
+   "hash": "62aaff84f5558c2c",
+   "zh": "「擇何物？」"
+  },
+  {
+   "hash": "7a810f9033eb2c9f",
+   "zh": "「請再說，$G？」",
+   "note": "保留 $G"
+  },
+  {
+   "hash": "0c82366b002f3cbe",
+   "zh": "「$1s只按打售。」",
+   "note": "保留 $1s 變數"
+  },
+  {
+   "hash": "b0fd811a762f6c2a",
+   "zh": "「要幾打？」"
+  },
+  {
+   "hash": "bcaf35c487676fe1",
+   "zh": "「汝負荷不了如此多！」"
+  },
+  {
+   "hash": "786492b9c2836dea",
+   "zh": "「我只售汝#5打$1s。」",
+   "note": "保留 #5 與 $1s"
+  },
+  {
+   "hash": "734f28daae0cf716",
+   "zh": "「汝連一$1s也帶不動！」"
+  },
+  {
+   "hash": "c720114525a94908",
+   "zh": "「汝之金幣不夠買這麼多！」"
+  },
+  {
+   "hash": "b12f252f583bc758",
+   "zh": "「我只售汝#5打$1\\s。」",
+   "note": "保留 #5、$1、\\s 轉義"
+  },
+  {
+   "hash": "24e5f8c858cd4bcf",
+   "zh": "「汝連一$1s也買不起！」"
+  },
+  {
+   "hash": "752851220ecb7d79",
+   "zh": "林恩收下$Y之金錢，交付$1s。",
+   "note": "保留 $Y、$1s"
+  },
+  {
+   "hash": "232abf650359c1c5",
+   "zh": "「多謝汝之惠顧。」"
+  },
+  {
+   "hash": "28a96de771204974",
+   "zh": "「尚有他物欲購否？」"
+  },
+  {
+   "hash": "08ed5807b58a118e",
+   "zh": "yn",
+   "note": "y/n 觸發碼"
+  },
+  {
+   "hash": "aca82add6e45274d",
+   "zh": "「改日再說吧。」",
+   "note": "避『許』trail-5C"
+  },
+  {
+   "hash": "3e0f87b6b88954cf",
+   "zh": "「享用$1s。」",
+   "note": "len=16 緊；省『願汝』縮為單動詞 13 bytes ≤ 16"
+  },
+  {
+   "hash": "4f970eb634c08746",
+   "zh": "arrow",
+   "note": "@arrow keyword 內部碼保留"
+  },
+  {
+   "hash": "cd32da9bc6b254c6",
+   "zh": "bolt",
+   "note": "@bolt keyword 內部碼保留"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Lynn": "林恩"
+  },
+  "concepts": {
+   "fletcher": "製箭匠",
+   "arrows": "箭矢",
+   "bolts": "弩矢",
+   "crossbow bolts": "弩弓矢",
+   "dozen": "打"
+  }
+ },
+ "translator_notes": "Lynn 是 glossary 已登錄『製箭匠林恩』。製箭匠對話為單一賣家流程：選 箭矢/弩矢→輸入打數→付款。保留所有變數標記 $1s（物品名複數）、$1\\s（轉義 s 表示物品名+s 動態）、#5（實際購買打數）、$Y（角色名）、$G（性別）、$P（玩家名）、$T（時辰）。1) 與 2) 選單編號保留半形含括弧。Lord British 第一次出現用『不列顛王』，加『陛下』作敬語。0 OVERFLOW。"
+}

@@ -1,0 +1,298 @@
+{
+ "_meta": {
+  "npc": "Max",
+  "role": "義式腔調的鐵匠（『it'sa』『wantsa』『shopa』），開兵器與甲冑鋪。Trinsic 城內角色之一（同城有 Sentri 等）；幽默粗獷，語氣口頭多用『嘛』『啦』『呐』等助詞模擬義式英語。"
+ },
+ "translations": [
+  {
+   "hash": "1e187119b5262c59",
+   "zh": "麥",
+   "note": "人名；len=3 限制下取單字『麥』；@Max keyword 不存在，本對話無 lookup 衝突"
+  },
+  {
+   "hash": "4f512e9b4f30b900",
+   "zh": "一名黝黑的鐵匠。",
+   "note": "描述句"
+  },
+  {
+   "hash": "ae25a88fc499d7b3",
+   "zh": "「嘿，是聖者嘛。又見面啦。」",
+   "note": "義式腔以『嘛』『啦』表現"
+  },
+  {
+   "hash": "61c1c1603cf52d10",
+   "zh": "「嘿，祝汝$T安好嘛。」",
+   "note": "保留 $T 變數"
+  },
+  {
+   "hash": "2698a355844e9547",
+   "zh": "「汝下回想要啥嘛？」"
+  },
+  {
+   "hash": "00612319135a7b4b",
+   "zh": "買",
+   "note": "@buy keyword"
+  },
+  {
+   "hash": "4994b46e96e0224e",
+   "zh": "「汝想要@兵器抑或@甲冑嘛？」",
+   "note": "@weapons → @兵器；@armor → @甲冑"
+  },
+  {
+   "hash": "3d730cf619e19878",
+   "zh": "兵器",
+   "note": "@weapons keyword"
+  },
+  {
+   "hash": "b9cdc0f1c25bf37b",
+   "zh": "「俺鋪子開時再來嘛！」",
+   "note": "店歇時通用回覆"
+  },
+  {
+   "hash": "893544843eac166e",
+   "zh": "甲冑",
+   "note": "@armor keyword"
+  },
+  {
+   "hash": "b9cdc0f1c25bf37b",
+   "zh": "「俺鋪子開時再來嘛！」",
+   "note": "重複句"
+  },
+  {
+   "hash": "2d19df18d4078885",
+   "zh": "賣",
+   "note": "@sell keyword；len=4 用單字"
+  },
+  {
+   "hash": "45627c193a5b605c",
+   "zh": "業",
+   "note": "@job keyword"
+  },
+  {
+   "hash": "7f05168587e7e33d",
+   "zh": "「咋啦，汝瞎了還是怎地？」",
+   "note": "粗獷反問"
+  },
+  {
+   "hash": "36bc8dd506287b9d",
+   "zh": "「俺打製刀劍之類的玩意兒，汝瞧俺在這幹嘛？」"
+  },
+  {
+   "hash": "078fedc4552b982d",
+   "zh": "「汝有啥要@賣，或想@買啥嘛？」"
+  },
+  {
+   "hash": "c4bcadba8e631b86",
+   "zh": "名字",
+   "note": "@name keyword"
+  },
+  {
+   "hash": "cb3d6094dd49da3b",
+   "zh": "「俺名喚麥仕。」",
+   "note": "自稱用較完整『麥仕』音譯"
+  },
+  {
+   "hash": "008a2f19137d94c3",
+   "zh": "別",
+   "note": "@bye keyword"
+  },
+  {
+   "hash": "ef9a0ff2c81eed57",
+   "zh": "「再會啦，早些回來吶？」"
+  },
+  {
+   "hash": "2927dee8aefb9a92",
+   "zh": "「嘿，俺耳朵不靈光啦。汝再說一遍？」",
+   "note": "預設不解回應"
+  },
+  {
+   "hash": "b9cdc0f1c25bf37b",
+   "zh": "「俺鋪子開時再來嘛！」",
+   "note": "重複"
+  },
+  {
+   "hash": "29b75e2b53fbcefb",
+   "zh": "「嘿，真可惜哇，可汝等沒人有俺要的東西。」",
+   "note": "避『呐』改『哇』"
+  },
+  {
+   "hash": "d993a5f4015afdb7",
+   "zh": "「哦，$Y有個有意思的玩意兒……」",
+   "note": "保留 $Y"
+  },
+  {
+   "hash": "42c1fbc2b3fd0c7f",
+   "zh": "#1) $Y",
+   "note": "選單格式 — 含 $Y 變數，保留 ASCII"
+  },
+  {
+   "hash": "b4b1f59f50b2d1b0",
+   "zh": "「汝等哪個嘛？」"
+  },
+  {
+   "hash": "4db5477c4189df47",
+   "zh": "#0) ",
+   "note": "選單前綴 — 保留 ASCII"
+  },
+  {
+   "hash": "1caf6399a6443213",
+   "zh": "「這些哪一件嘛？」"
+  },
+  {
+   "hash": "0151a6fe6165af39",
+   "zh": "「$0這玩意願收#7金嘛，$Y？」",
+   "note": "保留 $0/#7/$Y"
+  },
+  {
+   "hash": "08ed5807b58a118e",
+   "zh": "yn",
+   "note": "yes/no token"
+  },
+  {
+   "hash": "12b3b245651bb39b",
+   "zh": "「下回再說嘛。」"
+  },
+  {
+   "hash": "8766dcb954b1c412",
+   "zh": "「換樣別的嘛？」"
+  },
+  {
+   "hash": "e020ebb2e5fee2a9",
+   "zh": "「成啦！」$N給了$Y #7金，收下$0。",
+   "note": "成交描述"
+  },
+  {
+   "hash": "e1f0f455e1f9b1d7",
+   "zh": "「改主意了嘛？」"
+  },
+  {
+   "hash": "b9cdc0f1c25bf37b",
+   "zh": "「俺鋪子開時再來嘛！」",
+   "note": "重複句"
+  },
+  {
+   "hash": "311dc8d8111ea702",
+   "zh": "#2) $Y",
+   "note": "選單格式"
+  },
+  {
+   "hash": "b2a3a676130640a8",
+   "zh": "「汝等哪個嘛？」"
+  },
+  {
+   "hash": "4c8e66177eef3e4b",
+   "zh": "#0) $0",
+   "note": "選單格式"
+  },
+  {
+   "hash": "1caf6399a6443213",
+   "zh": "「這些哪一件嘛？」"
+  },
+  {
+   "hash": "b2bd85bf8db7f47d",
+   "zh": "「$1這件嘛，要#1金。」",
+   "note": "保留 $1/#1"
+  },
+  {
+   "hash": "09e61d3bae68d9cc",
+   "zh": "「$Y有意嘛？」"
+  },
+  {
+   "hash": "08ed5807b58a118e",
+   "zh": "yn",
+   "note": "yes/no token"
+  },
+  {
+   "hash": "6a7f122f5c663c68",
+   "zh": "「可這會讓$Y太重啦！」",
+   "note": "玩家背包超重"
+  },
+  {
+   "hash": "629ef12a448f80d5",
+   "zh": "「嘿，這敢情好！」"
+  },
+  {
+   "hash": "b3984455c20f3402",
+   "zh": "收下$Y的金錢後，$N將$1交予。",
+   "note": "成交描述"
+  },
+  {
+   "hash": "2388782e832e1d3f",
+   "zh": "「可這對$Y太貴啦！」",
+   "note": "金錢不足"
+  },
+  {
+   "hash": "9357e823f15b88bb",
+   "zh": "匕首",
+   "note": "兵器名"
+  },
+  {
+   "hash": "e2334ef11229563e",
+   "zh": "長矛",
+   "note": "兵器名"
+  },
+  {
+   "hash": "2d872b089df7ec36",
+   "zh": "劍",
+   "note": "兵器名"
+  },
+  {
+   "hash": "2ec23e9f8e340ddb",
+   "zh": "雙手劍",
+   "note": "兵器名"
+  },
+  {
+   "hash": "df34de80e03205dd",
+   "zh": "布甲",
+   "note": "甲冑名"
+  },
+  {
+   "hash": "2c8e2c7bf323d491",
+   "zh": "鎖鏈甲",
+   "note": "甲冑名"
+  },
+  {
+   "hash": "5a84aeefa475fe69",
+   "zh": "鳶形盾",
+   "note": "甲冑名；heater shield=鳶形盾"
+  },
+  {
+   "hash": "f55421a72ed1a88d",
+   "zh": "鐵盔",
+   "note": "甲冑名"
+  },
+  {
+   "hash": "5a9c1faeaf3660da",
+   "zh": "皮甲",
+   "note": "甲冑名"
+  },
+  {
+   "hash": "907475a3e77e19f2",
+   "zh": "甲甲",
+   "note": "甲冑名"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Max": "麥仕（鐵匠）"
+  },
+  "concepts": {
+   "blacksmith": "鐵匠",
+   "armor": "甲冑",
+   "weapons": "兵器"
+  },
+  "items": {
+   "Dagger": "匕首",
+   "Spear": "長矛",
+   "Sword": "劍",
+   "2-Hnd Sword": "雙手劍",
+   "Cloth Armour": "布甲",
+   "Chain Mail": "鎖鏈甲",
+   "Heater Shield": "鳶形盾",
+   "Iron Helm": "鐵盔",
+   "Leather Armour": "皮甲",
+   "Plate Mail": "鎧甲"
+  }
+ },
+ "translator_notes": "Max 義式美語腔（『it'sa』『shopa』『makea』『anone』）；中文以『俺』『嘛』『啦』『哇』模擬粗獷外國商人腔調，仍保莊重稱呼『汝』。所有貨幣／物品變數（$0/$1/$Y/$N/#1/#7）原樣保留。avoid 5C trail（無）。Display name 因 len=3 用單字『麥』；自介時擴為『麥仕』。兵器與甲冑名首批進 glossary。"
+}

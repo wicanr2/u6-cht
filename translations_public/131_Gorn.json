@@ -1,0 +1,139 @@
+{
+ "_meta": {},
+ "translations": [
+  {
+   "hash": "024d66f4805b58f0",
+   "zh": "身形魁梧的蠻族武士。",
+   "note": "DESC"
+  },
+  {
+   "hash": "3049fddb87f80982",
+   "zh": "「有仗可打，何必廢話？」",
+   "note": "日耳曼口音（v→w, d→th）譯為質樸豪邁"
+  },
+  {
+   "hash": "01cd9cf00d5b4bb5",
+   "zh": "「喲，聖者，汝回來了！」"
+  },
+  {
+   "hash": "954e5ca7cf1770d1",
+   "zh": "「嗨，$P！吾聽聞了汝的事蹟，聖者！」",
+   "note": "haf→have 日耳曼口音"
+  },
+  {
+   "hash": "5bdae1bc2d6eb083",
+   "zh": "「俺叫葛爾恩，$G。」",
+   "note": "I be 為口語，用「俺」呈現粗獷感"
+  },
+  {
+   "hash": "5034054e5ba50bc8",
+   "zh": "「俺跟著汝，$G。俺現在沒別的差事了。」"
+  },
+  {
+   "hash": "8ab213668f35a89b",
+   "zh": "「俺是個武士，無家可歸的流浪者。」",
+   "note": "vanderer→wanderer 口音"
+  },
+  {
+   "hash": "aebdf3035227241b",
+   "zh": "「俺在這等著，等找到別人一起@旅行。」",
+   "note": "vait=wait, somevun=someone, trafel=travel, mit=with"
+  },
+  {
+   "hash": "caf101b955a80f75",
+   "zh": "「對，俺喜歡旅行！」"
+  },
+  {
+   "hash": "eac5767d450480b1",
+   "zh": "「俺很想再度闖蕩，但現在沒人跟俺一起旅行了。」"
+  },
+  {
+   "hash": "874823baa872804b",
+   "zh": "「遲早會有人邀俺@同行的。」"
+  },
+  {
+   "hash": "93a40ef1be84681a",
+   "zh": "「俺不懂，$G。汝說$Z是何意？」",
+   "note": "Vat=What"
+  },
+  {
+   "hash": "5ca7a3420223d030",
+   "zh": "「和汝說話，$G，每回都是一種享受。」",
+   "note": "alvays=always"
+  },
+  {
+   "hash": "50802d23c2578eb3",
+   "zh": "「蘇特克是個瘋子。」"
+  },
+  {
+   "hash": "0467804273724bba",
+   "zh": "「他非常危險。」"
+  },
+  {
+   "hash": "e3d2223b68f6fed1",
+   "zh": "「若俺是汝，俺會躲著他。」"
+  },
+  {
+   "hash": "28ed3006e267e964",
+   "zh": "「但他確實知道許多事，有時也是有用的。」",
+   "note": "tings=things, und=and"
+  },
+  {
+   "hash": "e5b5c8ea4ef11bd3",
+   "zh": "「俺只是個粗人武士，$G，對$Z一無所知。」",
+   "note": "varrior=warrior"
+  },
+  {
+   "hash": "4c0dcf7d18440cbe",
+   "zh": "「肯定有旁人比俺更了解$Z，$G。」",
+   "note": "zere=there"
+  },
+  {
+   "hash": "12bbc073445265cc",
+   "zh": "「俺很樂意加入汝，$G$0」",
+   "note": "$0為引擎注入的附加條件字串"
+  },
+  {
+   "hash": "6ded9f85eceaf5f8",
+   "zh": "「但俺先到的，對吧？」",
+   "note": "vas=was, ya=yes（日耳曼語氣詞）"
+  },
+  {
+   "hash": "2d2013901dd0aec4",
+   "zh": "「等靠岸了再說，好嗎？」",
+   "note": "ven=when, ve=we"
+  },
+  {
+   "hash": "22cf4fafc762f125",
+   "zh": "「好吧，若那是汝所願。也許晚些見。」",
+   "note": "zee=see"
+  },
+  {
+   "hash": "5037907bdeeba4c7",
+   "zh": "「這些東西先由汝保管，好嗎？」",
+   "note": "zis=this"
+  },
+  {
+   "hash": "e80ed0cf92d19b92",
+   "zh": "，但吾等正在海上！",
+   "note": "引擎注入的附加條件片段"
+  },
+  {
+   "hash": "59d1656a00f960ce",
+   "zh": "，但俺不喜歡這麼大的隊伍。",
+   "note": "引擎注入的附加條件片段"
+  },
+  {
+   "hash": "0c7fea4fcdfedb25",
+   "zh": "，而且俺早就加入了！",
+   "note": "und=and, haf=have"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Gorn": "葛爾恩"
+  },
+  "places": {}
+ },
+ "translator_notes": "葛爾恩是日耳曼口音蠻族武士。英文中 v→w、d→th、z→s/th 等音替換，中文以「俺」＋質樸豪邁語氣呈現其粗獷個性。"
+}

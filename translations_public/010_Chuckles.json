@@ -1,0 +1,357 @@
+{
+ "_meta": {
+  "npc": "Chuckles",
+  "constraint": "zh_bytes <= en_len, 74 strings 全 FIT"
+ },
+ "translations": [
+  {
+   "hash": "572d91aa6ead7dcd",
+   "zh": "笑笑"
+  },
+  {
+   "hash": "03067664cc706030",
+   "zh": "一個身著荒誕戲服、無憂無慮的傢伙。"
+  },
+  {
+   "hash": "52c2f6164e9d5537",
+   "zh": "「叮叮咚咚噹啷噹，俺有@線索特意俏！事關重大莫等閒，專為汝來報！」",
+   "note": "招牌順口溜 [r2]"
+  },
+  {
+   "hash": "c4bcadba8e631b86",
+   "zh": "name",
+   "note": "keyword 觸發詞"
+  },
+  {
+   "hash": "360d62f0ec63e2a1",
+   "zh": "「哎呀，俺正是@弄臣笑笑！汝@聽說過俺吧？想必聽過囉！」"
+  },
+  {
+   "hash": "0a8f08cc5f99fb05",
+   "zh": "hear",
+   "note": "keyword"
+  },
+  {
+   "hash": "62020f6d4bd22ad9",
+   "zh": "「聞風一句話？簡直@荒誕無涯！」",
+   "note": "押韻"
+  },
+  {
+   "hash": "45627c193a5b605c",
+   "zh": "job",
+   "note": "len=3 keyword"
+  },
+  {
+   "hash": "369a532f3e978082",
+   "zh": "「@戲謔嘲諷蹦跳鬧！叫此地永不寂寥！」"
+  },
+  {
+   "hash": "8cf943153b376c94",
+   "zh": "「俺為@不列顛王獻上@愚行——湊近的人也跟著遭殃。」"
+  },
+  {
+   "hash": "982891de5a2c740b",
+   "zh": "jape",
+   "note": "keyword"
+  },
+  {
+   "hash": "70c2e3db9853aae3",
+   "zh": "「再@諷！」"
+  },
+  {
+   "hash": "777cf4de483a96bf",
+   "zh": "jeer",
+   "note": "keyword"
+  },
+  {
+   "hash": "a37e942094bef875",
+   "zh": "「再@蹦跳！跳支瘋癲狂歌舞飄！」",
+   "note": "Corybantic→瘋癲狂躁 [r2]"
+  },
+  {
+   "hash": "94964d92bf994de0",
+   "zh": "pran,danc",
+   "note": "keyword 列"
+  },
+  {
+   "hash": "9e10265a1148c79e",
+   "zh": "「譏笑又蹦跳！蹦跳又@嬉鬧！」",
+   "note": "[r2]"
+  },
+  {
+   "hash": "7f844f78d7a5bf02",
+   "zh": "frol",
+   "note": "keyword"
+  },
+  {
+   "hash": "7f460b5edf4d724a",
+   "zh": "「俺搖晃如@醉漢顛倒！」"
+  },
+  {
+   "hash": "56f9b1194465958b",
+   "zh": "tom",
+   "note": "keyword"
+  },
+  {
+   "hash": "df451b0b73d0abee",
+   "zh": "「因為張三李四都告病請假了。」",
+   "note": "Tom,Dick,Harry 英諺 [r2]"
+  },
+  {
+   "hash": "7d560e159b945c3b",
+   "zh": "lord,brit",
+   "note": "keyword 列"
+  },
+  {
+   "hash": "8807aa5215a8296a",
+   "zh": "「叫他@鼻先生……可別讓他聽見俺說的！」",
+   "note": "[r2]"
+  },
+  {
+   "hash": "4425a54635c16d85",
+   "zh": "mr,nose",
+   "note": "keyword"
+  },
+  {
+   "hash": "c55b02d3c7bbc73d",
+   "zh": "「噓！可別讓他曉得俺說了！」"
+  },
+  {
+   "hash": "136d40911d6634c8",
+   "zh": "clue",
+   "note": "keyword"
+  },
+  {
+   "hash": "7341fccc9b1d9b78",
+   "zh": "hint",
+   "note": "keyword"
+  },
+  {
+   "hash": "abc1b96d70a55bc4",
+   "zh": "「若提示是糖球，糖球是提示，這@世界豈不妙！」",
+   "note": "[r2]"
+  },
+  {
+   "hash": "14490c41d0c319f6",
+   "zh": "ques,ches",
+   "note": "keyword 列"
+  },
+  {
+   "hash": "321a75c9428f9d95",
+   "zh": "「@試煉、寶箱，何等@笑談一場！」"
+  },
+  {
+   "hash": "77aceede4863b04f",
+   "zh": "jest",
+   "note": "keyword"
+  },
+  {
+   "hash": "abf5c0e1ff6c489a",
+   "zh": "teac,prea",
+   "note": "keyword 列"
+  },
+  {
+   "hash": "1c64b326201b9d9d",
+   "zh": "「又教又道，盡費@唇舌囉！」"
+  },
+  {
+   "hash": "d0f8f0462110b79c",
+   "zh": "mint,worl,spee,lurc,alco,word,absu,done",
+   "note": "keyword 短碼列保留英文"
+  },
+  {
+   "hash": "0e11d7f62244866d",
+   "zh": "「俺剛@就這麼說！」"
+  },
+  {
+   "hash": "256cadef3232570c",
+   "zh": "that",
+   "note": "keyword"
+  },
+  {
+   "hash": "c61570238ccd9583",
+   "zh": "你剛說了『@就這麼』！"
+  },
+  {
+   "hash": "7ff172ba678ff8df",
+   "zh": "nyst",
+   "note": "keyword"
+  },
+  {
+   "hash": "84ee890cf76c2623",
+   "zh": "「噢，他無@樂趣！」"
+  },
+  {
+   "hash": "dc907418febced5e",
+   "zh": "fun",
+   "note": "keyword"
+  },
+  {
+   "hash": "a66bdc4dca510657",
+   "zh": "「俺玩給汝看，玩到@玩完！」"
+  },
+  {
+   "hash": "008a2f19137d94c3",
+   "zh": "bye",
+   "note": "keyword"
+  },
+  {
+   "hash": "79be00f99f55b62b",
+   "zh": "「呵呵嘻嘻，汝比俺更滑稽！竟問弄臣何為$Z！」",
+   "note": "$Z=時辰變數保留"
+  },
+  {
+   "hash": "aded7e375e83d5a6",
+   "zh": "「沒錯，這對汝的@試煉至關緊要。汝可想知道是啥麼？」"
+  },
+  {
+   "hash": "08ed5807b58a118e",
+   "zh": "yn",
+   "note": "y/n prompt"
+  },
+  {
+   "hash": "01a9be6ab75d001f",
+   "zh": "「或許俺不想告訴你哪！」"
+  },
+  {
+   "hash": "3d54292c2e23e04c",
+   "zh": "「或許俺還是會告訴你！」"
+  },
+  {
+   "hash": "2c4c9eea7af88ea3",
+   "zh": "「你覺得俺會說嗎？」"
+  },
+  {
+   "hash": "08ed5807b58a118e",
+   "zh": "yn",
+   "note": "y/n prompt"
+  },
+  {
+   "hash": "ac22934aec12e7f9",
+   "zh": "「汝這麼想真是傻氣！"
+  },
+  {
+   "hash": "254ae05b4f3976a3",
+   "zh": "「恭喜！汝完全猜對了！"
+  },
+  {
+   "hash": "e2d3cb632fe4ce33",
+   "zh": "俺不會告訴你線索的……」"
+  },
+  {
+   "hash": "1953cf70ad4c735d",
+   "zh": "「不過俺給汝這個@提示，或許能引汝尋著……」"
+  },
+  {
+   "hash": "869becb8f88e5f12",
+   "zh": "「翻翻@尼斯托房裡那只@寶箱。」",
+   "note": "quest hint!"
+  },
+  {
+   "hash": "113294bac2b27300",
+   "zh": "「汝可聽過那則笑話？關於修女、龍、和醉企鵝的？」"
+  },
+  {
+   "hash": "08ed5807b58a118e",
+   "zh": "yn",
+   "note": "y/n prompt"
+  },
+  {
+   "hash": "680d0b59c3cf1d5e",
+   "zh": "「真可惜……俺也沒聽過呢！」"
+  },
+  {
+   "hash": "134d5275ac9d5124",
+   "zh": "「太好啦！說不定哪天你能@教俺！」"
+  },
+  {
+   "hash": "27d1382d6ef05771",
+   "zh": "「在下盡力了，可博汝一笑？若沒逗笑，也願讓汝糊塗一遭！」",
+   "note": "謝幕語用『在下』"
+  },
+  {
+   "hash": "834d27ad0a317fe7",
+   "zh": "「汝喜歡俺的笑話嗎？」"
+  },
+  {
+   "hash": "08ed5807b58a118e",
+   "zh": "yn",
+   "note": "y/n prompt"
+  },
+  {
+   "hash": "35b3ecf9a4151487",
+   "zh": "「真的？那俺只好再加把勁啦！」"
+  },
+  {
+   "hash": "08f944756d6ea47a",
+   "zh": "「杜普雷為何像個馬蹄鐵？」"
+  },
+  {
+   "hash": "7a099ab5ffc38d12",
+   "zh": "「因為兩者裡頭都有字母『r』——西洋話啊",
+   "note": "字母 r 雙關 [r2]"
+  },
+  {
+   "hash": "f4cf91437d947c5f",
+   "zh": "！」",
+   "note": "[r2]"
+  },
+  {
+   "hash": "3f3759e2fba99e7d",
+   "zh": "「喜歡？那俺再說一個給你聽！」"
+  },
+  {
+   "hash": "a7040a17fc55a5e3",
+   "zh": "「猜這個謎：汝可知鵝對聖者說了啥？」"
+  },
+  {
+   "hash": "08ed5807b58a118e",
+   "zh": "yn",
+   "note": "y/n prompt"
+  },
+  {
+   "hash": "e5c5af975758f09b",
+   "zh": "「不不不，這樣不對！你該說不知道，俺才好告訴你嘛！」"
+  },
+  {
+   "hash": "a74d5b8d16547e9e",
+   "zh": "「咱們再試一遍。」"
+  },
+  {
+   "hash": "01482d7eb1120f6a",
+   "zh": "「牠說『鵝是聖者！』」",
+   "note": "honk/ankh 雙關失效 [r2]"
+  },
+  {
+   "hash": "b95814f95e78867a",
+   "zh": "「汝覺得這個如何？」"
+  },
+  {
+   "hash": "dc2ced8651b070e4",
+   "zh": "「哼，誰問你來著？」"
+  },
+  {
+   "hash": "d477781cb83b81e8",
+   "zh": "「噢，對啦，是俺問的！」"
+  },
+  {
+   "hash": "3052bbd68ea4f2b4",
+   "zh": "「嘻嘻哈哈呵呵呵，散播歡樂俺來囉！再來找俺聊一聊，下次給你看新把戲跳！」",
+   "note": "結尾呼應開場 [r2]"
+  }
+ ],
+ "glossary_additions": {
+  "keywords_common": {
+   "@absurd": "@荒誕",
+   "@tomfoolery": "@愚行",
+   "@speech": "@唇舌",
+   "@frolic": "@嬉鬧",
+   "@prance": "@蹦跳",
+   "@jape": "@戲謔",
+   "@alcoholic": "@醉漢",
+   "@chest": "@寶箱",
+   "@hint": "@提示"
+  }
+ },
+ "translator_notes": "Chuckles 自稱『俺』，押韻段優先用『汝』利收音。74 strings 全 ≤ len，最多達 18 個 riddles 押韻處理。失效雙關 2 處（horseshoe r 字母、ankh/honk）保語意捨笑點。短 keyword 觸發詞保英文。"
+}

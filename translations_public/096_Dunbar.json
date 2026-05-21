@@ -1,0 +1,200 @@
+{
+ "_meta": {},
+ "translations": [
+  {
+   "hash": "403898244d8b2174",
+   "zh": "一位圓胖歡快的男子，正在啃著羊腿。",
+   "note": "DESC"
+  },
+  {
+   "hash": "a8fe981b75dafd61",
+   "zh": "「歡迎來到謙遜味館。」",
+   "note": "opening greeting"
+  },
+  {
+   "hash": "0be13806e89dec07",
+   "zh": "「還有什麼吾能為汝效勞的？」",
+   "note": "follow-up"
+  },
+  {
+   "hash": "c846fb95a6b34a54",
+   "zh": "「吾名鄧巴，」他在大口啃羊肉間說道。",
+   "note": "name response；旁白嵌入"
+  },
+  {
+   "hash": "67c251d77b51737b",
+   "zh": "「哪樣，@魚、@麥酒、@蜂蜜酒、@葡萄酒，還是@羊肉？」",
+   "note": "buy menu；all @keywords"
+  },
+  {
+   "hash": "6567212c693f81c8",
+   "zh": "「吾出售@魚、@麥酒、@蜂蜜酒、@葡萄酒，以及@羊肉。」",
+   "note": "job response；all @keywords"
+  },
+  {
+   "hash": "db184369c84246c1",
+   "zh": "「服侍他人是吾所能想到最謙遜的職業。這便是吾開這間店的緣由。」",
+   "note": "humility response；謙遜主題"
+  },
+  {
+   "hash": "41beea02cbdc0700",
+   "zh": "他停下來用手背擦了擦嘴。",
+   "note": "action"
+  },
+  {
+   "hash": "716a8cf9f2c4c85b",
+   "zh": "「聽說他以前曾是某個重要@公會的首領。」",
+   "note": "cono keyword；@guild"
+  },
+  {
+   "hash": "0e03df4bf3121d7f",
+   "zh": "「吾對此一無所知，但也許這能解釋為何夜間可在他屋旁看見那奇異的@光芒。」",
+   "note": "@glow keyword；神秘線索"
+  },
+  {
+   "hash": "04ac76c9a0014b70",
+   "zh": "「汝自行去看便知。」",
+   "note": "expl/stra/glow response"
+  },
+  {
+   "hash": "6d9c98e86f12dbc9",
+   "zh": "「後會有期。」",
+   "note": "no/bye"
+  },
+  {
+   "hash": "90b28b3722ed6c32",
+   "zh": "「吾幫不上這個忙。」",
+   "note": "default不解"
+  },
+  {
+   "hash": "50e77701c0136675",
+   "zh": "#2. $Y",
+   "note": "選項佔位符，原樣保留"
+  },
+  {
+   "hash": "7bf2e7fe4fc43e63",
+   "zh": "「汝等哪一位？」",
+   "note": "party member selection"
+  },
+  {
+   "hash": "91c857bb590e8efa",
+   "zh": "「此物售價#1枚金幣，甚是公道。要來些嗎？」",
+   "note": "#1 = price variable"
+  },
+  {
+   "hash": "b942c2be6fb8d10f",
+   "zh": "「恐怕汝的金幣不夠。」",
+   "note": "insufficient gold"
+  },
+  {
+   "hash": "6c98fa7d7578a208",
+   "zh": "「汝已無空間攜帶了。」",
+   "note": "inventory full"
+  },
+  {
+   "hash": "f8e09482dae4a1f6",
+   "zh": "「拿去吧。」",
+   "note": "item given"
+  },
+  {
+   "hash": "ea343998bfd55487",
+   "zh": "「希望汝喜歡。」",
+   "note": "after purchase"
+  },
+  {
+   "hash": "50e77701c0136675",
+   "zh": "#2. $Y",
+   "note": "選項佔位符，原樣保留"
+  },
+  {
+   "hash": "7bf2e7fe4fc43e63",
+   "zh": "「汝等哪一位？」",
+   "note": "party member selection（重複）"
+  },
+  {
+   "hash": "fd9234262afb021b",
+   "zh": "「吾的魚皆自@柯諾處新鮮採購。每份三枚金幣。汝想要些嗎？」",
+   "note": "@Conor keyword；fish price"
+  },
+  {
+   "hash": "b942c2be6fb8d10f",
+   "zh": "「恐怕汝的金幣不夠。」",
+   "note": "insufficient gold（重複）"
+  },
+  {
+   "hash": "0093c52e9bfb7fc6",
+   "zh": "「汝已無空間攜帶了。」*",
+   "note": "inventory full；* 控制符保留"
+  },
+  {
+   "hash": "0d03bcd81ab4a14b",
+   "zh": "$N為$Y端上一條魚。",
+   "note": "action"
+  },
+  {
+   "hash": "5a9967649f0bbf81",
+   "zh": "「下週應會有些紅鯛魚進貨。」",
+   "note": "after fish purchase"
+  },
+  {
+   "hash": "50e77701c0136675",
+   "zh": "#2. $Y",
+   "note": "選項佔位符，原樣保留"
+  },
+  {
+   "hash": "7bf2e7fe4fc43e63",
+   "zh": "「汝等哪一位？」",
+   "note": "party member selection（重複）"
+  },
+  {
+   "hash": "947f5f54a0af1fa8",
+   "zh": "「口糧每份四枚金幣。汝要多少？」",
+   "note": "rations price"
+  },
+  {
+   "hash": "a9ddc43177f68397",
+   "zh": "$N看了看$Y。「汝的背包已無空間。」",
+   "note": "action；inventory full"
+  },
+  {
+   "hash": "b942c2be6fb8d10f",
+   "zh": "「恐怕汝的金幣不夠。」",
+   "note": "insufficient gold（重複）"
+  },
+  {
+   "hash": "be6f490468460ac4",
+   "zh": "$N將口糧遞給$Y。",
+   "note": "action"
+  },
+  {
+   "hash": "a39068314f0c1ddc",
+   "zh": "他將#9份羊肉口糧遞給$Y。",
+   "note": "action；#9 = quantity variable；\\s = plural suffix"
+  },
+  {
+   "hash": "e968c0e5ea00bb87",
+   "zh": "「這是汝所能攜帶的上限了。」",
+   "note": "carry limit"
+  },
+  {
+   "hash": "e2268050dcd1697e",
+   "zh": "「這是汝所能負擔的上限了。」",
+   "note": "gold limit"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Dunbar": "鄧巴",
+   "Conor": "柯諾"
+  },
+  "places": {
+   "Humble Palate": "謙遜味館"
+  },
+  "items": {
+   "mutton": "羊肉",
+   "mead": "蜂蜜酒",
+   "ale": "麥酒"
+  }
+ },
+ "translator_notes": "096 Dunbar：謙遜味館掌柜，圓胖歡快。謙遜主題：服侍他人即謙遜之業。出售魚、麥酒、蜂蜜酒、葡萄酒、羊肉。線索：鄰人柯諾屋旁夜間發光，曾任公會首領。語氣親切隨和，不過度古典。"
+}

@@ -1,0 +1,268 @@
+{
+ "_meta": {
+  "npc": "Ariana",
+  "role": "可愛短髮小女童；Kenneth/Nan 之高徒（最有前途）；父母經營藍野豬酒館；持有慈悲符文。三歲起學作吟遊詩人，最愛大鍵琴。需先報名後再對話；對玩家試煉感興趣，會主動把符文交給玩家（須先得父母同意）。"
+ },
+ "translations": [
+  {
+   "hash": "c69cf13537488599",
+   "zh": "艾莉安",
+   "note": "人名；len=6 限制下取『艾莉安娜』前三字；@aria keyword 用此前綴可命中"
+  },
+  {
+   "hash": "3c911fec4c67a473",
+   "zh": "一名可愛的短髮小女童。",
+   "note": "描述句"
+  },
+  {
+   "hash": "105995df6302cbc7",
+   "zh": "「父母教我不可與生客交談。汝姓甚名誰？」",
+   "note": "小孩首遇玩家警戒詢問"
+  },
+  {
+   "hash": "cd2eac3e2a5c9a71",
+   "zh": "「好，可與汝交談了！」",
+   "note": "原 len=28 緊；省去『現』『如今』"
+  },
+  {
+   "hash": "a8f27384ab23a92a",
+   "zh": "「噢，又見面了。」",
+   "note": "再會問候"
+  },
+  {
+   "hash": "c4bcadba8e631b86",
+   "zh": "名字",
+   "note": "@name keyword"
+  },
+  {
+   "hash": "f912315e4a40adca",
+   "zh": "她優雅地行了個禮。「我叫艾莉安娜。」",
+   "note": "小女孩自我介紹；curtsy 行屈膝禮"
+  },
+  {
+   "hash": "45627c193a5b605c",
+   "zh": "業",
+   "note": "@job keyword；len=3 用單字"
+  },
+  {
+   "hash": "662da1535198517d",
+   "zh": "「我在學作@吟遊詩人。我最愛@彈大鍵琴。」",
+   "note": "@bard → @吟遊詩人；@play → @彈"
+  },
+  {
+   "hash": "9a7a049baa52c81a",
+   "zh": "吟遊",
+   "note": "@bard keyword 前綴（玩家輸入『吟遊』可命中）"
+  },
+  {
+   "hash": "06335cfad4681583",
+   "zh": "「我長大要當吟遊詩人。他們可比誰都@快活！」",
+   "note": "@fun → @快活"
+  },
+  {
+   "hash": "0bcd0e91195fc6aa",
+   "zh": "慈悲",
+   "note": "@compassion keyword"
+  },
+  {
+   "hash": "16018cf0c1182447",
+   "zh": "「他們教我慈悲之道。聽說此事於詩人尤為要緊。」",
+   "note": "they=Kenneth/Nan 等師父"
+  },
+  {
+   "hash": "1f645ea2cea20481",
+   "zh": "真言",
+   "note": "@mantra keyword"
+  },
+  {
+   "hash": "76ddec0aa0add222",
+   "zh": "「我此刻記不起來……@肯尼斯上週才教過我……」",
+   "note": "小孩記憶；@Kenneth → @肯尼斯"
+  },
+  {
+   "hash": "b75de1ec116dc5b9",
+   "zh": "「等等，是「mo」！」",
+   "note": "len=26 緊；mo 保留 ASCII（真言音節系統）"
+  },
+  {
+   "hash": "18c66d3779963baa",
+   "zh": "「莫非是om……或mu，或um……反正類似那樣。」",
+   "note": "保留 mu/om/um ASCII；mu 真實是慈悲真言（Mariah 系統）"
+  },
+  {
+   "hash": "bfedd21f6f583ddd",
+   "zh": "符文",
+   "note": "@rune keyword"
+  },
+  {
+   "hash": "71c7d465071f1198",
+   "zh": "歌曲,音樂,彈,琴",
+   "note": "keyword 群組；對應四個關鍵字"
+  },
+  {
+   "hash": "dc907418febced5e",
+   "zh": "樂",
+   "note": "@fun keyword；len=3 用單字『樂』（快活之意）"
+  },
+  {
+   "hash": "2f8d62ae2fdc5b48",
+   "zh": "「噢是啊，多得很！」"
+  },
+  {
+   "hash": "3dc95919365b2a69",
+   "zh": "肯",
+   "note": "@Kenneth keyword；len=3 用單字"
+  },
+  {
+   "hash": "c21a4fcb2f25e068",
+   "zh": "「他是我師父。」"
+  },
+  {
+   "hash": "008a2f19137d94c3",
+   "zh": "別",
+   "note": "@bye keyword；單字『別』"
+  },
+  {
+   "hash": "6d9c98e86f12dbc9",
+   "zh": "「待會兒見。」"
+  },
+  {
+   "hash": "e49a2da08f360ee9",
+   "zh": "「汝意指何事？」",
+   "note": "預設不解回應"
+  },
+  {
+   "hash": "38f40f1d5f6a33a3",
+   "zh": "「我自三歲起便學作吟遊詩人。」她舉起三根手指。",
+   "note": "三根手指=三歲，譯文直接點明"
+  },
+  {
+   "hash": "cd9bd870474e5c19",
+   "zh": "「我本想為汝奏一曲，無奈尚不夠熟練。」"
+  },
+  {
+   "hash": "882c500dfeb9054b",
+   "zh": "她別過頭去片刻，回望時雙頰微紅。"
+  },
+  {
+   "hash": "95ca9561b805766f",
+   "zh": "「待我長大後，汝若得空，可否再來聽我奏樂？」",
+   "note": "trailing space 在原文，譯文以句號收"
+  },
+  {
+   "hash": "08ed5807b58a118e",
+   "zh": "yn",
+   "note": "yes/no token 不譯"
+  },
+  {
+   "hash": "ab953f66789fe2a9",
+   "zh": "小女童抽了抽鼻子，眼眶頓時泛紅，似將哭泣。",
+   "note": "避『淚』（5C trail）改『哭泣』"
+  },
+  {
+   "hash": "468eb2dad5d538d5",
+   "zh": "*「對不起，」她說，「不該問此事。」她轉過身去，似羞於再面對汝。",
+   "note": "保留前置 * 控制字"
+  },
+  {
+   "hash": "cfb005e7ebab2499",
+   "zh": "小女童綻開笑容，明亮得能照亮整間屋子。"
+  },
+  {
+   "hash": "448935752bd9d26c",
+   "zh": "「真的？我會很高興的。」"
+  },
+  {
+   "hash": "edb4ea5f655c3d14",
+   "zh": "「我早已給了汝呀，傻氣。但願汝懂得如何用它。」",
+   "note": "回頭找她要符文時的回答（已給過）"
+  },
+  {
+   "hash": "7bde9e7e7b23c4d2",
+   "zh": "「我有@慈悲@符文。漂不漂亮？」她自口袋取出，展示給汝看。*",
+   "note": "尾置 * 控制字保留"
+  },
+  {
+   "hash": "6e001c994fae6330",
+   "zh": "「汝需用它做何事？」"
+  },
+  {
+   "hash": "08ed5807b58a118e",
+   "zh": "yn",
+   "note": "yes/no token"
+  },
+  {
+   "hash": "2690a1f1ce875ec3",
+   "zh": "好。",
+   "note": "len=5 緊，省去括號"
+  },
+  {
+   "hash": "036d2cf6b19f4631",
+   "zh": "「汝是否在進行要緊@試煉？」",
+   "note": "quest → 試煉（與 glossary 一致）"
+  },
+  {
+   "hash": "08ed5807b58a118e",
+   "zh": "yn",
+   "note": "yes/no token"
+  },
+  {
+   "hash": "b8fe380dc2eed837",
+   "zh": "「那我還是收好為妙。長輩交代要好好看顧。」",
+   "note": "非要緊試煉的話拒絕交出"
+  },
+  {
+   "hash": "398c3f5351728ddc",
+   "zh": "「我本不該交給旁人。但若汝當真需要……」"
+  },
+  {
+   "hash": "553ece6c27c4f58a",
+   "zh": "「我不知該如何是好。」"
+  },
+  {
+   "hash": "31d87bbb809cf970",
+   "zh": "「我知道了！我父母在「藍野豬」酒館。汝去問可否借走符文。」",
+   "note": "Blue Boar Tavern → 藍野豬酒館（新詞，回寫 glossary）"
+  },
+  {
+   "hash": "de21a03e13418f0e",
+   "zh": "「他們若應允，我便給汝。」"
+  },
+  {
+   "hash": "adba895bb54361e9",
+   "zh": "「嗨！我父母可允汝借符文了嗎？」"
+  },
+  {
+   "hash": "08ed5807b58a118e",
+   "zh": "yn",
+   "note": "yes/no token"
+  },
+  {
+   "hash": "e78c0b6d3659b6f8",
+   "zh": "「噢，汝身上拿太多東西了。日後再來取吧。」",
+   "note": "背包滿"
+  },
+  {
+   "hash": "c4ce1d7bcfa7dd13",
+   "zh": "「那就交給汝。」她把符文遞給汝。「祝汝@試煉一路順遂。」",
+   "note": "符文交出時的祝福"
+  },
+  {
+   "hash": "9ea5f826469d7642",
+   "zh": "「好，日後若得他們應允，再來告訴我。」"
+  }
+ ],
+ "glossary_additions": {
+  "places": {
+   "Blue Boar Tavern": "藍野豬酒館"
+  },
+  "concepts": {
+   "harpsichord": "大鍵琴",
+   "Rune of Compassion": "慈悲符文"
+  },
+  "people": {
+   "Ariana's parents": "艾莉安娜之雙親（藍野豬酒館主）"
+  }
+ },
+ "translator_notes": "Ariana 三歲小女童語氣，純真但仍有禮（『汝』『可否』『莫非』）。是 Nan/Kenneth 之高徒（對照 011_Kenneth/012_Nan：『young @Ariana』『最有前途之高徒』），人名統一『艾莉安娜』，display name 因 len=6 取『艾莉安』前三字（@aria keyword 仍可命中前綴）。父母經營藍野豬酒館 Blue Boar Tavern（新詞回寫）。慈悲符文 Rune of Compassion 是主線收集物之一；玩家需向其父母申請借符文。避用『淚』（5C trail）改『哭泣』；避用『許』改『莫非／應允』。"
+}

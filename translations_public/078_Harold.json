@@ -1,0 +1,65 @@
+{
+ "_meta": {},
+ "translations": [
+  {
+   "hash": "8af3ab9eddab689f",
+   "zh": "高大健壯、神情肅穆之男子。",
+   "note": "DESC"
+  },
+  {
+   "hash": "ceaa35532facde2a",
+   "zh": "「歡迎，$G。」"
+  },
+  {
+   "hash": "0bc4ca1a19ea2eae",
+   "zh": "「有何需要效勞？」"
+  },
+  {
+   "hash": "2f0279a7eefa1522",
+   "zh": "「在下哈羅德。」"
+  },
+  {
+   "hash": "9c1eecf8ec690751",
+   "zh": "「販售@馬蹄鐵乃在下之生計。」"
+  },
+  {
+   "hash": "40372b8e3a37c579",
+   "zh": "「珍重。」"
+  },
+  {
+   "hash": "90b28b3722ed6c32",
+   "zh": "「此事在下愛莫能助。」"
+  },
+  {
+   "hash": "7bf2e7fe4fc43e63",
+   "zh": "「你們哪位？」"
+  },
+  {
+   "hash": "8edaff6edc06f710",
+   "zh": "「馬蹄鐵售價2枚金幣，有興趣否？」"
+  },
+  {
+   "hash": "b3e06e01d84ec8f7",
+   "zh": "「汝看來已攜滿了。」"
+  },
+  {
+   "hash": "f8e09482dae4a1f6",
+   "zh": "「拿去吧。」"
+  },
+  {
+   "hash": "2c360c6a7ef2b1fe",
+   "zh": "「最好再查查汝的錢袋。」"
+  },
+  {
+   "hash": "d73c16e5b16909e7",
+   "zh": "好吧。」",
+   "note": "開頭無引號，保留原樣"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Harold": "哈羅德"
+  }
+ },
+ "translator_notes": "078 Harold: 崔西克馬蹄鐵鐵匠，話少實在。"
+}

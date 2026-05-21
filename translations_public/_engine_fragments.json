@@ -1,0 +1,169 @@
+{
+ "_meta": {
+  "purpose": "Sub-string fragment table. Engine does find-and-replace inline (not full-string lookup). Used for Lua-generated dynamic strings where actor names are interpolated mid-string (e.g. '`Dupre grazed.\\n').",
+  "owner": "engine-side; loaded as separate section in cht_strings.tab v2",
+  "order": "Longer fragments listed first to avoid prefix shadowing during substitution"
+ },
+ "fragments": [
+  {
+   "en": " mortally wounded.\n",
+   "zh": " 致命傷。\n"
+  },
+  {
+   "en": " barely wounded.\n",
+   "zh": " 輕微受傷。\n"
+  },
+  {
+   "en": " lightly wounded.\n",
+   "zh": " 輕度受傷。\n"
+  },
+  {
+   "en": " heavily wounded.\n",
+   "zh": " 重度受傷。\n"
+  },
+  {
+   "en": " critically wounded.\n",
+   "zh": " 命危受傷。\n"
+  },
+  {
+   "en": " wounded.\n",
+   "zh": " 受傷。\n"
+  },
+  {
+   "en": " critical!\n",
+   "zh": " 命危！\n"
+  },
+  {
+   "en": " grazed.\n",
+   "zh": " 擦傷。\n"
+  },
+  {
+   "en": " grazed!\n",
+   "zh": " 擦傷！\n"
+  },
+  {
+   "en": " missed.\n",
+   "zh": " 揮空。\n"
+  },
+  {
+   "en": " dead.\n",
+   "zh": " 已亡。\n"
+  },
+  {
+   "en": " killed!\n",
+   "zh": " 被擊殺！\n"
+  },
+  {
+   "en": "Out of range.\n",
+   "zh": "夠不著。\n"
+  },
+  {
+   "en": "Out of range!\n",
+   "zh": "夠不著！\n"
+  },
+  {
+   "en": "Out of range!",
+   "zh": "夠不著！"
+  },
+  {
+   "en": "Out of range\n",
+   "zh": "夠不著\n"
+  },
+  {
+   "en": "Out of range",
+   "zh": "夠不著"
+  },
+  {
+   "en": "Blocked.\n",
+   "zh": "被阻擋。\n"
+  },
+  {
+   "en": "Blocked\n",
+   "zh": "被阻擋\n"
+  },
+  {
+   "en": "Pass!\n",
+   "zh": "略過！\n"
+  },
+  {
+   "en": "Lord British",
+   "zh": "不列顛王"
+  },
+  {
+   "en": "Lord Michael",
+   "zh": "米切爾領主"
+  },
+  {
+   "en": "Sin'Vraal",
+   "zh": "辛弗拉"
+  },
+  {
+   "en": "Mariah",
+   "zh": "瑪萊雅"
+  },
+  {
+   "en": "Shamino",
+   "zh": "夏米諾"
+  },
+  {
+   "en": "Geoffrey",
+   "zh": "傑佛瑞"
+  },
+  {
+   "en": "Chuckles",
+   "zh": "笑笑"
+  },
+  {
+   "en": "Sherry",
+   "zh": "雪莉"
+  },
+  {
+   "en": "Dupre",
+   "zh": "杜普雷"
+  },
+  {
+   "en": "Iolo",
+   "zh": "尤洛"
+  },
+  {
+   "en": "Linda",
+   "zh": "琳達"
+  },
+  {
+   "en": "Sentri",
+   "zh": "山特利"
+  },
+  {
+   "en": "Gargoyles",
+   "zh": "魔像族"
+  },
+  {
+   "en": "gargoyles",
+   "zh": "魔像族"
+  },
+  {
+   "en": "Gargoyle",
+   "zh": "魔像"
+  },
+  {
+   "en": "gargoyle",
+   "zh": "魔像"
+  },
+  {
+   "en": " north",
+   "zh": " 北方"
+  },
+  {
+   "en": " south",
+   "zh": " 南方"
+  },
+  {
+   "en": " east",
+   "zh": " 東方"
+  },
+  {
+   "en": " west",
+   "zh": " 西方"
+  }
+ ]
+}

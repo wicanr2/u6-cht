@@ -1,0 +1,347 @@
+{
+ "_meta": {
+  "npc": "Terri",
+  "role": "造幣廠主管，由王家敕命專責鑄造不列顛官方錢幣（銅 pence、銀 piece、金 crown）；對聖者明顯有曖昧好感、會捏肩、眨眼、嘆息；Kytyn 之友；母親曾出席聖者凱旋慶典。"
+ },
+ "translations": [
+  {
+   "hash": "d47596aeb957294d",
+   "zh": "泰莉",
+   "note": "人名音譯；女性短名"
+  },
+  {
+   "hash": "eff16bae3bac8545",
+   "zh": "一名衣著俐落、身段豐腴的女子。",
+   "note": "voluptuous=豐腴；sharply dressed=衣著俐落"
+  },
+  {
+   "hash": "d3397e268ab0ba39",
+   "zh": "「我正在用膳。改日來造幣廠尋我，再聊吧。」",
+   "note": "mint=造幣廠；避『餐』trail-5C 改『膳』"
+  },
+  {
+   "hash": "6feb4a382e1bc5ef",
+   "zh": "「噢，你又回來看我了！」",
+   "note": "Terri 對玩家用『你』展現親暱口吻（曖昧 NPC）"
+  },
+  {
+   "hash": "c4bcadba8e631b86",
+   "zh": "name",
+   "note": "@name keyword 內部碼保留"
+  },
+  {
+   "hash": "735f0df6c266a882",
+   "zh": "「我是泰莉…",
+   "note": "拼接後續"
+  },
+  {
+   "hash": "92f9d38821723f4e",
+   "zh": "但我倒希望我是依你之名命名的。」",
+   "note": "曖昧語氣"
+  },
+  {
+   "hash": "5734a1fde5d7e8a9",
+   "zh": "你不覺得這名字配當聖者之妻很合適嗎？」",
+   "note": "Avatar→聖者；曖昧"
+  },
+  {
+   "hash": "45627c193a5b605c",
+   "zh": "job",
+   "note": "@job keyword 內部碼保留"
+  },
+  {
+   "hash": "af00e890d41bc2b3",
+   "zh": "「奉王命，唯有我可@鑄造此境之官方錢幣。」",
+   "note": "@mint→@鑄造"
+  },
+  {
+   "hash": "54d9c67461810865",
+   "zh": "*「銅@便士、銀幣、@金冕——皆在此地鑄造。」",
+   "note": "@pence→@便士；@gold→@金；保留 * 前綴"
+  },
+  {
+   "hash": "7add7d9cd8de9f99",
+   "zh": "「我@父親從前掌管造幣廠。但我有時也覺孤單…」",
+   "note": "@father→@父親"
+  },
+  {
+   "hash": "430e9a180648f701",
+   "zh": "「你能來找我聊天真是太好了。」"
+  },
+  {
+   "hash": "3cde49daa57b4110",
+   "zh": "「我若告知@凱婷我親見@聖者，她定不會相信！」",
+   "note": "@Kytyn→@凱婷；@Avatar→@聖者"
+  },
+  {
+   "hash": "64e9978429a57cab",
+   "zh": "avat",
+   "note": "@Avatar keyword 內部碼保留"
+  },
+  {
+   "hash": "8a210e6b2ab3e318",
+   "zh": "「你必是最英勇的",
+   "note": "拼接 wo+man"
+  },
+  {
+   "hash": "08cb5907b56d2cdb",
+   "zh": "wo",
+   "note": "wo+man 拼接 woman/man 性別變數 — 保留 ASCII"
+  },
+  {
+   "hash": "74fb755d597b83bc",
+   "zh": "人。我所見過最了不起的，難以置信真是你！」",
+   "note": "承接 wo+man → wo+人/人；意譯整段"
+  },
+  {
+   "hash": "ef5d647916c85474",
+   "zh": "fath",
+   "note": "@father keyword 內部碼保留"
+  },
+  {
+   "hash": "a55e5b769b8c7806",
+   "zh": "「願他安息。」"
+  },
+  {
+   "hash": "0d0810a2c3f05d21",
+   "zh": "moth",
+   "note": "@mother keyword 內部碼保留"
+  },
+  {
+   "hash": "f500e05419221a77",
+   "zh": "「願她安息。」"
+  },
+  {
+   "hash": "0eb43c76afee66c8",
+   "zh": "copp,penc,silv,piec",
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "hash": "e850f6b5ddb741f6",
+   "zh": "「當然，似你這般要人，必定只帶@金冕在身。」"
+  },
+  {
+   "hash": "0fa446064de8a5fd",
+   "zh": "她伸手親暱地捏了捏你的肩。",
+   "note": "曖昧動作"
+  },
+  {
+   "hash": "2ad06d8865950691",
+   "zh": "mint,offi,coin,made",
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "hash": "7f780e8e82dd5fb9",
+   "zh": "「來，我給你看看。」她取出各種錢幣樣品供你過目。"
+  },
+  {
+   "hash": "61e72034b12d7c0a",
+   "zh": "便士一面是安克符，另一面是交叉雙劍。",
+   "note": "ankh→安克符（glossary）"
+  },
+  {
+   "hash": "d81ee119e2d2d2ab",
+   "zh": "銀幣正面為不列顛王肖像，背面為一條蛇。",
+   "note": "Lord British→不列顛王"
+  },
+  {
+   "hash": "f3064cab9c98f580",
+   "zh": "金冕則是熟悉的樣式，有王冠與守則之書徽記。",
+   "note": "Codex→守則之書（glossary）"
+  },
+  {
+   "hash": "0ad99c46edd230a0",
+   "zh": "三種錢幣皆是新鑄，光亮如鏡。"
+  },
+  {
+   "hash": "fca9c98e3a81df96",
+   "zh": "exch,trad",
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "hash": "9313fb8f034cca99",
+   "zh": "gold,nugg,crow",
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "hash": "5f9d60bfa3f8c696",
+   "zh": "「近來不列顛尼亞繁榮昌盛，金幣需求頗大。」",
+   "note": "Britannia→不列顛尼亞"
+  },
+  {
+   "hash": "dbbfa0d261df13f5",
+   "zh": "「當然得感謝你尋回守則之書、救了不列顛王。」"
+  },
+  {
+   "hash": "f512073a708e1a2f",
+   "zh": "code,lord",
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "hash": "5de6a73e5fbc0810",
+   "zh": "「@母親將那段事全告訴了我。」",
+   "note": "@mother→@母親"
+  },
+  {
+   "hash": "78cc25d76eb53bda",
+   "zh": "kyty",
+   "note": "@Kytyn keyword 內部碼保留"
+  },
+  {
+   "hash": "9142187e98305bf6",
+   "zh": "「她是我的好友，掌管那座@博物館。」",
+   "note": "@museum→@博物館"
+  },
+  {
+   "hash": "b66c5da292e2ce2b",
+   "zh": "muse",
+   "note": "@museum keyword 內部碼保留"
+  },
+  {
+   "hash": "043210510349a51c",
+   "zh": "「你該抽空去看看。不過請先留下，再陪我多聊幾句…」",
+   "note": "曖昧挽留"
+  },
+  {
+   "hash": "008a2f19137d94c3",
+   "zh": "bye",
+   "note": "@bye keyword 內部碼保留"
+  },
+  {
+   "hash": "463b98791263bf04",
+   "zh": "「我知你忙於拯救不列顛尼亞諸事，但望你能再來看我…"
+  },
+  {
+   "hash": "3d1aac4dc2d3fc6a",
+   "zh": "「能與你交談實在是莫大的喜悅。」"
+  },
+  {
+   "hash": "9d5369f6acbd9d1c",
+   "zh": "「若你他日得閒，我能讓你見識的可不只幾枚小錢呢！」",
+   "note": "曖昧暗示"
+  },
+  {
+   "hash": "c97d0e505fddb980",
+   "zh": "你轉身離去時，她捏了你一下。"
+  },
+  {
+   "hash": "d0d43a6dd1b09fd5",
+   "zh": "你察覺她正以夢幻的眼神望著你。"
+  },
+  {
+   "hash": "8cf2eb6df199a828",
+   "zh": "「噢，抱歉我沒在聽。我方才正",
+   "note": "拼接後續兩分支"
+  },
+  {
+   "hash": "247d2672544ec0df",
+   "zh": "在想——能像你這般美麗該有多好。」",
+   "note": "對女聖者分支"
+  },
+  {
+   "hash": "f81ae4f255f5b0ae",
+   "zh": "在留意你是何等強健俊朗…」",
+   "note": "對男聖者分支"
+  },
+  {
+   "hash": "75e9616c5de42c2e",
+   "zh": "她別過頭，輕嘆一聲。"
+  },
+  {
+   "hash": "9ba3388720f36ab2",
+   "zh": "「我多數的金子來自有人攜金塊來@兌換錢幣。」",
+   "note": "@exchange→@兌換"
+  },
+  {
+   "hash": "75e9cd4d52d82a5b",
+   "zh": "「你有金塊想換成金冕嗎？」",
+   "note": "nugget→金塊；crown→金冕"
+  },
+  {
+   "hash": "08ed5807b58a118e",
+   "zh": "yn",
+   "note": "y/n 觸發碼"
+  },
+  {
+   "hash": "ffc2567696e38f01",
+   "zh": "「若日後有了，記得來尋我便是。」"
+  },
+  {
+   "hash": "1626e4b7ea1e5f5f",
+   "zh": "「你必是弄錯了。日後若覓得金塊，再來告知我。」"
+  },
+  {
+   "hash": "03271161d40de44a",
+   "zh": "「兌換通常要抽一成稅。」"
+  },
+  {
+   "hash": "ed0eb0da0a31f203",
+   "zh": "「但你既是聖者，每一石之金，我便給足一百枚金冕。」",
+   "note": "stone's-weight→一石之金（重量單位）"
+  },
+  {
+   "hash": "480bc19c938c1f5e",
+   "zh": "她將你所有金塊換成新鑄金冕。"
+  },
+  {
+   "hash": "08ed5807b58a118e",
+   "zh": "yn",
+   "note": "y/n 觸發碼"
+  },
+  {
+   "hash": "31051e3f469c4ef9",
+   "zh": "她對你眨眨眼。"
+  },
+  {
+   "hash": "fb0d64b3d51fe360",
+   "zh": "「你好，我是泰莉——掌管造幣廠。」"
+  },
+  {
+   "hash": "8a28b0b7eb088180",
+   "zh": "「咦，你不就是聖者嗎？是的，從畫像認得你…」"
+  },
+  {
+   "hash": "ac78551dea52ce55",
+   "zh": "「我幼時，母親常向我講你的故事。」"
+  },
+  {
+   "hash": "6688d7a9dc37a813",
+   "zh": "「你大概不記得她了，但你尋回守則之書後的盛大慶典上她有來。」"
+  },
+  {
+   "hash": "10b55e9fd729d344",
+   "zh": "「總之…我只想告訴你，我一直",
+   "note": "拼接兩分支"
+  },
+  {
+   "hash": "e3c5a0b5e24cd8a3",
+   "zh": "都希望長大後能成為像你那樣的人…」",
+   "note": "女聖者分支"
+  },
+  {
+   "hash": "2329a285f25b1847",
+   "zh": "都盼望有朝一日能遇見像你這樣的男人…」",
+   "note": "男聖者分支（曖昧）"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Terri": "泰莉",
+   "Kytyn": "凱婷"
+  },
+  "concepts": {
+   "mint": "造幣廠",
+   "pence": "便士",
+   "silver piece": "銀幣",
+   "gold crown": "金冕",
+   "gold nugget": "金塊",
+   "stone's-weight": "一石之重",
+   "coinage": "錢幣",
+   "museum": "博物館",
+   "royal decree": "王命",
+   "voluptuous": "豐腴",
+   "sharply dressed": "衣著俐落"
+  }
+ },
+ "translator_notes": "Terri 是 U6 著名的『曖昧 NPC』之一，對玩家明顯有好感，會捏肩、捏腰、眨眼、嘆息。對玩家用『你』而非『汝』以強化現代曖昧口吻（古英文 thee/thou 在 Terri 對話中其實沒出現，原文是 you）。性別分支兩處：offset 760 wo+man 拼接 / offset 2314 vs 2371 / offset 3450 vs 3492。Codex/Avatar/Lord British/Britannia 等 glossary 沿用。錢幣譯名：pence→便士、silver piece→銀幣、gold crown→金冕（取冠冕之意，較『金幣』更高貴）、nugget→金塊。0 OVERFLOW。"
+}

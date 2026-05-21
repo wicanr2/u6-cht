@@ -1,0 +1,192 @@
+{
+ "_meta": {
+  "npc": "Wilbur",
+  "role": "傑隆（Jhelom）馬廄夥計，瘦削、深髮、笑容緊張；售馬；對『會說話的馬』(Smith/Ed) 話題裝傻、變得更緊張，是隱藏支線觸發。"
+ },
+ "translations": [
+  {
+   "hash": "bfecd8960225f470",
+   "zh": "威伯",
+   "note": "人名音譯；Wilbur→威伯"
+  },
+  {
+   "hash": "f38f866803898eae",
+   "zh": "一名瘦削、深髮、笑容緊張的男子。",
+   "note": "描述句保留三特徵"
+  },
+  {
+   "hash": "49e8cf8f6528ee73",
+   "zh": "「又見面了，朋友",
+   "note": "拼接下文 s! / this $T?"
+  },
+  {
+   "hash": "cf9c5efdade8e8b4",
+   "zh": "「旅人安好",
+   "note": "拼接下文"
+  },
+  {
+   "hash": "94ed0c3cffc4a8c1",
+   "zh": "們！有何事可為汝效勞",
+   "note": "拼接前文 friend → friends! 注：保留複數語意但中文不分單複數，這是 friends 版本"
+  },
+  {
+   "hash": "d927a5d0c9325d7b",
+   "zh": "！有何事可為汝效勞",
+   "note": "單數版本"
+  },
+  {
+   "hash": "7a72ec4425387dbc",
+   "zh": "此$T？」",
+   "note": "保留 $T"
+  },
+  {
+   "hash": "c4bcadba8e631b86",
+   "zh": "name",
+   "note": "@name keyword 內部碼"
+  },
+  {
+   "hash": "beb97b3e0f492198",
+   "zh": "「在下名喚威伯，$G。」",
+   "note": "保留 $G"
+  },
+  {
+   "hash": "45627c193a5b605c",
+   "zh": "job",
+   "note": "@job keyword"
+  },
+  {
+   "hash": "239a8b88af4e2dae",
+   "zh": "「我在此馬房做事，照看群馬。」",
+   "note": "stables→馬房（避『廄』trail-5C）"
+  },
+  {
+   "hash": "50a1c9550c879910",
+   "zh": "「汝若有意可@買一匹。」",
+   "note": "@buy→@買"
+  },
+  {
+   "hash": "a7fd59d1508963d5",
+   "zh": "ed,smit,talk",
+   "note": "keyword 群組：Ed/Smith/talk（會說話馬名）；ASCII 保留"
+  },
+  {
+   "hash": "b6bcc8a2e175f66c",
+   "zh": "「會說話的馬？荒謬！這是誰告訴汝的？」",
+   "note": "Wilbur 裝傻不認"
+  },
+  {
+   "hash": "45b74e76d279df80",
+   "zh": "他看起來比之前更緊張了。",
+   "note": "情緒描述"
+  },
+  {
+   "hash": "40740dcc7eab8847",
+   "zh": "hors",
+   "note": "@horse keyword 內部碼前綴"
+  },
+  {
+   "hash": "07a1d9843ac93ecc",
+   "zh": "「是的，汝若願@買一匹，只消開口。」"
+  },
+  {
+   "hash": "00612319135a7b4b",
+   "zh": "buy",
+   "note": "@buy keyword 內部碼"
+  },
+  {
+   "hash": "008a2f19137d94c3",
+   "zh": "bye",
+   "note": "@bye keyword 內部碼"
+  },
+  {
+   "hash": "738f9771579738eb",
+   "zh": "「歡迎再光臨！」"
+  },
+  {
+   "hash": "7a810f9033eb2c9f",
+   "zh": "「請再說，$G？」",
+   "note": "保留 $G"
+  },
+  {
+   "hash": "c5c2668b83fd6f71",
+   "zh": "「但汝已有一匹馬了！」"
+  },
+  {
+   "hash": "311dc8d8111ea702",
+   "zh": "#2) $Y",
+   "note": "格式控制保留"
+  },
+  {
+   "hash": "2c7367f99b18b213",
+   "zh": "「但諸位皆已騎乘有馬！」"
+  },
+  {
+   "hash": "311dc8d8111ea702",
+   "zh": "#2) $Y",
+   "note": "格式控制保留"
+  },
+  {
+   "hash": "7bf2e7fe4fc43e63",
+   "zh": "「諸位何人？」"
+  },
+  {
+   "hash": "9d4672b87f6e3ca4",
+   "zh": "「是的$Y，汝正需要一匹馬。」",
+   "note": "保留 $Y"
+  },
+  {
+   "hash": "d038697433295ae5",
+   "zh": "「但汝買不起呀！」"
+  },
+  {
+   "hash": "7f2f845ad0608b9b",
+   "zh": "「售價#9枚金幣，分毫不減。有意否？」",
+   "note": "保留 #9"
+  },
+  {
+   "hash": "08ed5807b58a118e",
+   "zh": "yn",
+   "note": "y/n 觸發碼"
+  },
+  {
+   "hash": "3770117b8b92f9e0",
+   "zh": "「好極！」$N收下$Y之金，將良駒韁繩交予手中。",
+   "note": "保留 $N、$Y"
+  },
+  {
+   "hash": "c885eef96cc62230",
+   "zh": "「那麼改日再說吧。」",
+   "note": "避『許』trail-5C"
+  },
+  {
+   "hash": "05626850ca2850cc",
+   "zh": "「不如",
+   "note": "拼接 one of thy friends / thy friend / ?\""
+  },
+  {
+   "hash": "116327daa3c9fb82",
+   "zh": "汝同伴中之一人"
+  },
+  {
+   "hash": "a79dc711cfddc540",
+   "zh": "汝之友伴"
+  },
+  {
+   "hash": "080d0407b4cb7364",
+   "zh": "?\"",
+   "note": "len=2 中文標點各佔 4 bytes 會超；直接保留半形 ?\"  控制 bytes（拼接前句中文化後仍可讀）"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Wilbur": "威伯"
+  },
+  "concepts": {
+   "stables": "馬廄",
+   "stable hand": "馬廄夥計",
+   "reins": "韁繩",
+   "fine horse": "良駒"
+  }
+ },
+ "translator_notes": "Wilbur 是 Mister Ed 經典美劇致敬：Wilbur Post 是劇中飼主，馬名 Mister Ed。U6 把馬名拆為 Smith / Ed 兩個 keyword 觸發詞。中文版保留 Mister Ed 致敬不必明說。注意 offset 1292 len=2 的 ?\" 因中文標點佔 4 bytes 改用半形 ? 控制 bytes。其他 keyword 內部碼（name/job/bye/buy/hors/ed/smit/talk/yn）一律 ASCII 保留以利 prefix match。0 OVERFLOW。"
+}

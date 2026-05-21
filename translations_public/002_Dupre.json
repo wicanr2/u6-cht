@@ -1,0 +1,172 @@
+{
+ "_meta": {},
+ "translations": [
+  {
+   "hash": "7515f158e614821b",
+   "zh": "杜普 ",
+   "note": "人名；len=5 限制下用短譯『杜普』+空白塞滿 5 bytes"
+  },
+  {
+   "hash": "44d056fcda820a15",
+   "zh": "一名粗獷英挺的男子，身披一襲閃亮的甲甲。",
+   "note": "描述句"
+  },
+  {
+   "hash": "2f3f254bc3c44df5",
+   "zh": "何事，$P？",
+   "note": "保留 $P；len=10 故省略「」"
+  },
+  {
+   "hash": "c4bcadba8e631b86",
+   "zh": "名字",
+   "note": "@name keyword"
+  },
+  {
+   "hash": "6c8742dac209e3c4",
+   "zh": "「是杜普雷——聽起來像『朝露之禱』，記得吧？」",
+   "note": "諧音雙關，寫入 riddles"
+  },
+  {
+   "hash": "45627c193a5b605c",
+   "zh": "業 ",
+   "note": "@job keyword；len=3 限制下單字『業』+空白"
+  },
+  {
+   "hash": "4316b7c7e8cff434",
+   "zh": "「當然是闖蕩@試煉啦！咱倆可一同經歷過不少@試煉哩。」",
+   "note": "豪邁軍人腔"
+  },
+  {
+   "hash": "1e166c07b290f07b",
+   "zh": "試煉",
+   "note": "@quest keyword 對應"
+  },
+  {
+   "hash": "7f2647dcab70e067",
+   "zh": "「是啊，兄弟，你可幹過幾樁漂亮的活兒。」",
+   "note": "稱玩家『兄弟』"
+  },
+  {
+   "hash": "07d42763143690a5",
+   "zh": "「你不在時，我只好將就著去解救@佳人、尋找@聖杯之類的勾當。」",
+   "note": "@damsels @grails"
+  },
+  {
+   "hash": "0f56c838509d5a11",
+   "zh": "解救,佳人",
+   "note": "兩個 keyword 對應"
+  },
+  {
+   "hash": "803e1ce0a7b9fb3e",
+   "zh": "「也算不上苦差事。」",
+   "note": "好色弦外之音"
+  },
+  {
+   "hash": "25e086cdc2eef08c",
+   "zh": "「她們之中可有幾位，急著要向我表達@謝意呢，你@明白我的@意思吧……」",
+   "note": "好色但不下流；含 @grat @know @mean"
+  },
+  {
+   "hash": "9cdfc28e046a3ac9",
+   "zh": "急著,謝意,明白,意思",
+   "note": "四個 keyword"
+  },
+  {
+   "hash": "b2660a2c81abf04a",
+   "zh": "「眨眼示意，戳一下肋骨，不必多說……」",
+   "note": "Monty Python 致敬，寫入 riddles"
+  },
+  {
+   "hash": "bbd834c5e40d0bb1",
+   "zh": "尋找,聖杯",
+   "note": "兩個 keyword"
+  },
+  {
+   "hash": "e55d712d21f8d6c8",
+   "zh": "「正是如此。」"
+  },
+  {
+   "hash": "6dda4f798a8d0a51",
+   "zh": "「不列顛王愛在@宴會上拿聖杯擺場面，可他老是把那玩意兒搞丟。」",
+   "note": "@banquets keyword"
+  },
+  {
+   "hash": "0a26ae7dd7835ec5",
+   "zh": "不列顛王,宴會",
+   "note": "兩個 keyword (lord+brit 連起來指 Lord British)"
+  },
+  {
+   "hash": "f4bf1bd7c6e155f5",
+   "zh": "「兄弟，你若能想法子收拾@魔像族的@入侵，他必設盛宴款待咱們。」",
+   "note": "@gargoyle @invasion"
+  },
+  {
+   "hash": "2ca9d909b8a95e0c",
+   "zh": "魔像,侵  ",
+   "note": "兩個 keyword；len=9 限制下縮為『魔像』『侵』+空白塞滿；keyword 前綴匹配仍有效"
+  },
+  {
+   "hash": "5da41f910c629d68",
+   "zh": "「彼輩或許是咱們此生所遇最棘手的勁敵。",
+   "note": "軍人腔，注意原文無結尾引號"
+  },
+  {
+   "hash": "41def2de29651139",
+   "zh": "入伙",
+   "note": "@join keyword"
+  },
+  {
+   "hash": "18b581760d334fe6",
+   "zh": "「老朋友，這趟試煉打從一開始我便隨你同行，不是嗎？」",
+   "note": "稱『老朋友』"
+  },
+  {
+   "hash": "24ad74ada201eda5",
+   "zh": "離隊",
+   "note": "@leave keyword"
+  },
+  {
+   "hash": "03865048a8f63342",
+   "zh": "「不列顛王嚴令在身——這趟試煉未了之前，我不得離你左右半步。」"
+  },
+  {
+   "hash": "03a75bb05974edb4",
+   "zh": "「再說，你也清楚，好試煉我可從不肯錯過。」"
+  },
+  {
+   "hash": "1cd06766f54105d8",
+   "zh": "鴨子",
+   "note": "@duck keyword"
+  },
+  {
+   "hash": "ed672d5a45cbeb50",
+   "zh": "「拜託，咱們別再提鴨子的事了……」",
+   "note": "Ultima 系列梗，Dupre 怕鴨子"
+  },
+  {
+   "hash": "008a2f19137d94c3",
+   "zh": "別 ",
+   "note": "@bye keyword；len=3 限制下用『別』+空白；keyword 前綴匹配仍有效"
+  },
+  {
+   "hash": "ce46f76854b3c46d",
+   "zh": "「好啦，閒話夠多了。走，咱們找場硬仗去！」",
+   "note": "軍人腔"
+  },
+  {
+   "hash": "be1f1ca20b222303",
+   "zh": "「那事兒去問尤洛吧。」",
+   "note": "預設應答，導向尤洛"
+  }
+ ],
+ "glossary_additions": {
+  "concepts": {
+   "quest": "試煉",
+   "damsel": "佳人",
+   "grail": "聖杯",
+   "banquet": "宴會",
+   "invasion": "入侵"
+  }
+ },
+ "translator_notes": "Dupre 採『豪邁兄弟兵』口吻。本版修正 5 處 byte overflow：(1) offset 2 '杜普雷'(6) → '杜普 '(5)，避免人名顯示但保 byte；(2) offset 75 移除「」，'何事，$P？'(10) 剛好等於 len；(3) offset 145 'job' 譯為單字『業 '(3)，可能稍弱但 byte 對齊；(4) offset 806 '魔像,侵  '(9)，keyword 仍前綴匹配 garg/inva；(5) offset 1150 'bye' 譯為『別 '(3)。所有 zh_bytes ≤ len 確認。@quest 譯為『試煉』與 glossary 既有 'Avatar's quest=聖者試煉' 一致。lord,brit 兩個 keyword 共指 Lord British，譯文合併為單一『不列顛王』。注意 offset 816 字串原文末尾無結尾引號，譯文保留不加閉引號以對齊。"
+}

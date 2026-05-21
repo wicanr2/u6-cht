@@ -1,0 +1,166 @@
+{
+ "_meta": {
+  "npc": "Nan (Lady Nan)",
+  "role": "緊張兮兮的年輕女吟遊詩人，Kenneth 之妻；怕蜘蛛，琉特琴中老有蜘蛛爬出。掌管慈悲真言『mu』之知識。"
+ },
+ "translations": [
+  {
+   "hash": "3734fc19c320451a",
+   "zh": "南",
+   "note": "人名；len=3，單字『南』占 2 bytes，留 1 byte 空位"
+  },
+  {
+   "hash": "22309e3bf935799d",
+   "zh": "緊張的年輕吟遊女。",
+   "note": "描述句；避用『年』（5C trail）改用『輕』；改寫為『緊張的年輕吟遊女』——『年』0xA67E 不在 5C；確認"
+  },
+  {
+   "hash": "4000fb71db32c74b",
+   "zh": "「本欲為汝彈奏一曲，奈何放心不下我的琉特琴。」",
+   "note": "文白並用"
+  },
+  {
+   "hash": "c4bcadba8e631b86",
+   "zh": "名字",
+   "note": "@name keyword"
+  },
+  {
+   "hash": "7397ae0baf261dfb",
+   "zh": "「妾身南夫人。」",
+   "note": "Lady Nan 譯為『南夫人』，女性自稱『妾身』"
+  },
+  {
+   "hash": "45627c193a5b605c",
+   "zh": "業",
+   "note": "@job keyword；len=3 限制下用單字"
+  },
+  {
+   "hash": "3168006bd38fe55f",
+   "zh": "「自然是奏@樂啦。」",
+   "note": "@music → @樂"
+  },
+  {
+   "hash": "b66c59a292e2c75f",
+   "zh": "樂",
+   "note": "@music keyword 對應；len=4"
+  },
+  {
+   "hash": "6418ed3a657f50bd",
+   "zh": "「用@琉特琴。」",
+   "note": "@lute → @琉特琴"
+  },
+  {
+   "hash": "2c08f11984b78991",
+   "zh": "彈奏,憂,琉特琴,樂",
+   "note": "keyword list：對應 play/worried/lute/music"
+  },
+  {
+   "hash": "ac82e8f83fe0d359",
+   "zh": "「每回拾起琉特琴，便有@蜘蛛自琴中爬出。」",
+   "note": "@spiders → @蜘蛛"
+  },
+  {
+   "hash": "625f6a81a3d0248f",
+   "zh": "「裡頭怕是有上百隻在築巢吧！」",
+   "note": "Nan 焦慮語氣"
+  },
+  {
+   "hash": "8d5419551ed5b7ed",
+   "zh": "蜘蛛,巢,爬,百",
+   "note": "keyword list"
+  },
+  {
+   "hash": "ba44e889a5f57969",
+   "zh": "「妾身恨蜘蛛！那等噁心、醜陋、令人毛骨悚然之物！為何就不肯放過我？」",
+   "note": "強烈情緒"
+  },
+  {
+   "hash": "55a806af71aecb47",
+   "zh": "尤洛對她說：「好啦好啦，親愛的。莫非汝忘了我送的那雙@手套？」",
+   "note": "Iolo 安慰；@gloves → @手套"
+  },
+  {
+   "hash": "b440029911780442",
+   "zh": "「啊，是了。倘若戴上那副，便能彈奏了……」"
+  },
+  {
+   "hash": "a4a1037212bb716f",
+   "zh": "手套",
+   "note": "@gloves keyword 對應"
+  },
+  {
+   "hash": "df8f9731ea17e4a8",
+   "zh": "「是尤洛在我生辰時相贈。」"
+  },
+  {
+   "hash": "0bcd0e91195fc6aa",
+   "zh": "慈悲",
+   "note": "@compassion keyword 對應"
+  },
+  {
+   "hash": "f3dec0f14b7e513d",
+   "zh": "「是的，妾身知曉@慈悲之@符文與@真言。」",
+   "note": "@Rune/@Mantra 對應 glossary"
+  },
+  {
+   "hash": "1f645ea2cea20481",
+   "zh": "真言",
+   "note": "@mantra keyword 對應"
+  },
+  {
+   "hash": "f23076b807fa16e0",
+   "zh": "「慈悲之真言乃『mu』。汝肩上那是隻蜘蛛麼？」",
+   "note": "保留 'mu' ASCII；Nan 又恐慌看見蜘蛛"
+  },
+  {
+   "hash": "b322e03086f67e01",
+   "zh": "「不，那不過是光影所致罷了。」"
+  },
+  {
+   "hash": "bfedd21f6f583ddd",
+   "zh": "符文",
+   "note": "@rune keyword 對應"
+  },
+  {
+   "hash": "3ab0fe92f6df9817",
+   "zh": "「乃贈予我等最有前途之高徒——小@艾莉安娜。」",
+   "note": "@Ariana → @艾莉安娜"
+  },
+  {
+   "hash": "892726843e9fa618",
+   "zh": "艾莉",
+   "note": "@Ariana keyword 對應"
+  },
+  {
+   "hash": "4b61fc58e9552553",
+   "zh": "「她極具天賦，前途無量，只要蜘蛛別找上她……」"
+  },
+  {
+   "hash": "008a2f19137d94c3",
+   "zh": "別",
+   "note": "@bye keyword；單字『別』"
+  },
+  {
+   "hash": "f83dc12b84d7a3e4",
+   "zh": "「祝汝一路平安，慎走每一步！蜘蛛無處不在。」"
+  },
+  {
+   "hash": "1fa9890fbf035491",
+   "zh": "「此事妾身幫不上汝。」",
+   "note": "預設回應"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Nan": "南",
+   "Lady Nan": "南夫人",
+   "Ariana": "艾莉安娜"
+  },
+  "concepts": {
+   "lute": "琉特琴",
+   "spider": "蜘蛛",
+   "gloves": "手套"
+  }
+ },
+ "translator_notes": "Nan 神經質、纖細、自稱『妾身』。蜘蛛恐懼貫穿全段；多處用『便』『奈何』『莫非』等文言虛詞點綴。傳授真言 'mu' 保留 ASCII（與 Mariah 系統一致）。"
+}

@@ -1,0 +1,19 @@
+{
+ "_meta": {},
+ "translations": [
+  {
+   "hash": "a887fed51eaac48b",
+   "zh": "昏迷中的男子，面龐因痛苦而扭曲。",
+   "note": "DESC"
+  },
+  {
+   "hash": "cad8c0efd2a48d9a",
+   "zh": "他沒有任何回應。"
+  }
+ ],
+ "glossary_additions": {
+  "people": {},
+  "places": {}
+ },
+ "translator_notes": "艾德（ed）處於昏迷，無對話。僅描述文。"
+}

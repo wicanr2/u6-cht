@@ -1,0 +1,347 @@
+{
+ "_meta": {
+  "npc": "Kytyn",
+  "role": "不列顛城博物館（@oddities 奇珍館）館長，戴左手皮手套，原為訓鷹師（falconer），由不列顛王任命為館長；介紹館中展品（巨石碑、能量場、永動之機、Zog 之骨、奧泉、龍頭翼蛋）；告別時會發出貓似的呼嚕聲（致敬其名 Kytyn=kitten 諧音）。"
+ },
+ "translations": [
+  {
+   "hash": "bd33e0215a4d343c",
+   "zh": "凱婷",
+   "note": "人名音譯；Kytyn 諧音 kitten（小貓）"
+  },
+  {
+   "hash": "ea346060d77f552d",
+   "zh": "一名纖瘦的女子，左手戴著一隻皮手套。",
+   "note": "描述句保留三特徵"
+  },
+  {
+   "hash": "db12982f8ee13c9c",
+   "zh": "「您好，$G，歡迎光臨！」",
+   "note": "保留 $G"
+  },
+  {
+   "hash": "c4bcadba8e631b86",
+   "zh": "name",
+   "note": "@name keyword 內部碼保留"
+  },
+  {
+   "hash": "ff721a69edc0d1e6",
+   "zh": "「我是凱婷。」她微笑道，「這大概便是我愛@飛禽的原因。」",
+   "note": "@birds→@飛禽；避『許』trail-5C"
+  },
+  {
+   "hash": "e7607907efdd4dae",
+   "zh": "glov,bird",
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "hash": "b1aed8c2f1c940da",
+   "zh": "「我從前是@訓鷹師。」",
+   "note": "@falconer→@訓鷹師"
+  },
+  {
+   "hash": "ef0c4f791683d99d",
+   "zh": "falc",
+   "note": "@falconer keyword 內部碼保留"
+  },
+  {
+   "hash": "a384c5393581f42f",
+   "zh": "「那是在不列顛@王任命我擔任此職之前。」",
+   "note": "@British→@王（內部觸發 brit 保留 ASCII）"
+  },
+  {
+   "hash": "7d560e159b945c3b",
+   "zh": "lord,brit",
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "hash": "af1b4b9592808b68",
+   "zh": "「真是我所見過最有風範的紳士。」"
+  },
+  {
+   "hash": "ab556263a63ee2d9",
+   "zh": "job,appo,posi",
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "hash": "367fcc679408f0dc",
+   "zh": "「我是王家@奇珍@博物館之館長。」",
+   "note": "@museum→@博物館；@oddities→@奇珍"
+  },
+  {
+   "hash": "a16bae9f0eaeafee",
+   "zh": "roya,muse",
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "hash": "0227835283d4d6f9",
+   "zh": "「這只是不列顛王為謀百姓福祉所資助的@志業之一。」",
+   "note": "@projects→@志業"
+  },
+  {
+   "hash": "10dbdc2ece87f3b0",
+   "zh": "proj,fund,bett,life",
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "hash": "65f454b8fc673d70",
+   "zh": "「陛下亦設立@音樂院，與博物館共用此樓。」",
+   "note": "@conservatory→@音樂院（glossary）"
+  },
+  {
+   "hash": "bac885730d9d6fc9",
+   "zh": "「橫貫此境的@道路亦是他所興建。」",
+   "note": "@roads→@道路；避『功』trail-5C"
+  },
+  {
+   "hash": "6f0087c60fd29490",
+   "zh": "cons,shar,buil",
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "hash": "4f7460f91db368fb",
+   "zh": "「有時可聽見@樂聲穿牆而過…」",
+   "note": "@music→@樂聲"
+  },
+  {
+   "hash": "ae8c6a2cc59d4676",
+   "zh": "「但通常被那嘈雜霹啪作響的能量場掩沒了。」",
+   "note": "避『蓋』trail-5C"
+  },
+  {
+   "hash": "9ad0d4aea3549620",
+   "zh": "musi,drif,hear",
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "hash": "21401be896cdc62a",
+   "zh": "「十分動聽。」"
+  },
+  {
+   "hash": "9247af42b833fe53",
+   "zh": "road,real,netw",
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "hash": "630a815dee1708fb",
+   "zh": "「@旅行近來輕鬆多了。」",
+   "note": "@Travel→@旅行"
+  },
+  {
+   "hash": "5b18a5ef511408f0",
+   "zh": "trav",
+   "note": "@travel keyword 內部碼保留"
+  },
+  {
+   "hash": "1ad05d28eff487ae",
+   "zh": "「確實如此。」"
+  },
+  {
+   "hash": "ed4d54753a9a2ebd",
+   "zh": "cura,odd",
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "hash": "a4cbb3e61662c923",
+   "zh": "「汝若對任何@展品有興趣，我可詳述。」",
+   "note": "@exhibits→@展品"
+  },
+  {
+   "hash": "b4c0455371d81ee1",
+   "zh": "exhi,inte",
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "hash": "1126b0d849a2ad51",
+   "zh": "「我們有@巨石碑、@能量場、永動之@機、Zog 的@骨骸、奧@泉，以及@龍的頭、翼、與蛋。」*",
+   "note": "@monolith→@巨石碑；@energy→@能量；@machine→@機；@bones→@骨骸；@fountain→@泉；@dragon→@龍；保留 Zog 不譯與末 *"
+  },
+  {
+   "hash": "80738257f1b024de",
+   "zh": "「汝對何者感興趣？」"
+  },
+  {
+   "hash": "4db53b70396bd63f",
+   "zh": "bone,zog",
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "hash": "f0de83ac20c6e903",
+   "zh": "「此骸骨看來比不列顛尼亞其他遺骨皆要古老十倍。」",
+   "note": "Britannia→不列顛尼亞"
+  },
+  {
+   "hash": "1472434484155094",
+   "zh": "「它必有諸多吾人起源之祕可告，倘吾人能解其意！」"
+  },
+  {
+   "hash": "5ae2be3ec0bd61b3",
+   "zh": "drag,head,wing,egg",
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "hash": "838c765d048a3f88",
+   "zh": "「一位名為『@葛爾坦』者捐獻了所有部位。」",
+   "note": "@Gertan→@葛爾坦（glossary）"
+  },
+  {
+   "hash": "8e4a679df0fa156e",
+   "zh": "「他似乎提到一條名為『弗瑞塔』的龍。」",
+   "note": "Freitag→弗瑞塔（glossary）"
+  },
+  {
+   "hash": "61257144854b58d3",
+   "zh": "gert,frei",
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "hash": "6bf98a5acf7b719a",
+   "zh": "「汝若欲詢葛爾坦，我想他在海灣鎮。」",
+   "note": "Cove→海灣鎮（glossary）"
+  },
+  {
+   "hash": "92f2d8f722dbd178",
+   "zh": "myst,foun",
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "hash": "e22b223885947a0f",
+   "zh": "「有人尋得一塊巨岩，其中噴湧出一股水柱。」"
+  },
+  {
+   "hash": "4c094222dfcfb34e",
+   "zh": "*「我們以法術將之傳送至此，將表面與地面齊平埋下，再於其上建此樓。」",
+   "note": "保留 * 前綴"
+  },
+  {
+   "hash": "fb7691f1880def7d",
+   "zh": "「當然，地面留有一孔讓水柱噴湧而出。」"
+  },
+  {
+   "hash": "5a0be7c3f162ec49",
+   "zh": "「我口渴時常飲此水。水質甚佳，但有些古怪之處。」"
+  },
+  {
+   "hash": "1573dd903378ccc5",
+   "zh": "「水在落地前便不知所終地消失了…」"
+  },
+  {
+   "hash": "4203fd1892f67bfb",
+   "zh": "perp,moti,mach,gear",
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "hash": "3dfcc2fbb8ba6336",
+   "zh": "「那是極奇妙的裝置。每一齒輪之動帶轉另一輪，運動終又傳回最初的齒輪。」"
+  },
+  {
+   "hash": "4c182d7de4f04843",
+   "zh": "「有一事我始終想不通。」"
+  },
+  {
+   "hash": "b96cf3917dfd83b9",
+   "zh": "「我們已繪此裝置之圖，卻看不出當初是如何使其動起來的。」"
+  },
+  {
+   "hash": "2766a6f92d64a613",
+   "zh": "「除非其餘齒輪皆已在動，無一輪能獨自轉動。」"
+  },
+  {
+   "hash": "ae5cf1d9af93968a",
+   "zh": "「更糟的是，這些運動正是維繫整機之力。」"
+  },
+  {
+   "hash": "e168aa6714b554cd",
+   "zh": "「齒輪若靜止，整機便散落！它如何被造出，實是一謎。」"
+  },
+  {
+   "hash": "e1de36739c5c9013",
+   "zh": "ener,fiel,nois,crac",
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "hash": "0c9ba7ccc84240a5",
+   "zh": "「此場由一道奇異法術所生。」"
+  },
+  {
+   "hash": "302f0de00d3c3f67",
+   "zh": "「以某種尚未明的過程，將魔力轉為電力，產生連續的放電。」"
+  },
+  {
+   "hash": "86ddd341dfba00ec",
+   "zh": "「若能更深明此過程，當可帶來諸多有用之應用。」"
+  },
+  {
+   "hash": "0d5ff1a2c43a9e4a",
+   "zh": "mono",
+   "note": "@monolith keyword 內部碼保留"
+  },
+  {
+   "hash": "d15d2e4cb27ad930",
+   "zh": "「此事我所知無多。是不列顛王將之捐予博物館，但他不願多談。」"
+  },
+  {
+   "hash": "0f238eafd52174a3",
+   "zh": "「依他寥寥數語推之，似是來自他故鄉世界的遺物。」",
+   "note": "home world→故鄉世界（指地球）"
+  },
+  {
+   "hash": "a966d63281eff62d",
+   "zh": "libr,lyca",
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "hash": "270820786ccc2e13",
+   "zh": "「彼處對於認真治學者，有大量學問可得。」"
+  },
+  {
+   "hash": "008a2f19137d94c3",
+   "zh": "bye",
+   "note": "@bye keyword 內部碼保留"
+  },
+  {
+   "hash": "1322521f113afc0c",
+   "zh": "「來時務必觀賞我們的畫作。歡迎不日再臨…」"
+  },
+  {
+   "hash": "cd6869987e2bcfcb",
+   "zh": "「我們正等候些獨角獸角，以及一只來自崔西克的克萊因瓶。」",
+   "note": "Trinsic→崔西克；Klein bottle→克萊因瓶（拓樸學經典）"
+  },
+  {
+   "hash": "6c7c070e275e6392",
+   "zh": "purr",
+   "note": "@purr keyword 內部碼保留"
+  },
+  {
+   "hash": "4d95eb20838ab4e3",
+   "zh": "她對汝發出一聲低沉、喉間的呼嚕，恰似貓鳴。",
+   "note": "Kytyn=kitten 諧音；呼嚕貓鳴致敬"
+  },
+  {
+   "hash": "5b38b3ac84d7e725",
+   "zh": "「此事我幫不上忙，請去學苑的@藏書閣試試。」",
+   "note": "@library→@藏書閣；Lycaeum→學苑（glossary）"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Kytyn": "凱婷"
+  },
+  "concepts": {
+   "curator": "館長",
+   "royal museum of oddities": "王家奇珍博物館",
+   "falconer": "訓鷹師",
+   "exhibit": "展品",
+   "bones of Zog": "Zog 之骨骸",
+   "Klein bottle": "克萊因瓶",
+   "unicorn horn": "獨角獸角",
+   "discharge": "放電",
+   "gear": "齒輪",
+   "boulder": "巨岩",
+   "home world": "故鄉世界",
+   "paintings": "畫作"
+  }
+ },
+ "translator_notes": "Kytyn 是博物館（@oddities 奇珍館）館長，名稱諧音 kitten。她戴左手皮手套是從前訓鷹師職業遺跡。展品列表（offset 1081, len=157）是 keyword hub：@monolith @energy @machine @bones @fountain @dragon 各觸發後續解說。保留 Zog 不譯（U6 設定中遠古生物學名）。Klein bottle 是拓樸學雙關彩蛋。Lord British 之 @British keyword 內部碼 brit 保留 ASCII，但 keyword 觸發後可看到中文『王』。0 OVERFLOW。"
+}

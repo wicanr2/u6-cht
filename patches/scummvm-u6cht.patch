@@ -1,0 +1,1034 @@
+diff --git a/engines/ultima/module.mk b/engines/ultima/module.mk
+index 33555fc4..8c1a73c3 100644
+--- a/engines/ultima/module.mk
++++ b/engines/ultima/module.mk
+@@ -345,6 +345,7 @@ MODULE_OBJS += \
+ 	nuvie/misc/u6_line_walker.o \
+ 	nuvie/misc/u6_list.o \
+ 	nuvie/misc/u6_misc.o \
++	nuvie/misc/cht_translate.o \
+ 	nuvie/pathfinder/actor_path_finder.o \
+ 	nuvie/pathfinder/astar_path.o \
+ 	nuvie/pathfinder/combat_path_finder.o \
+diff --git a/engines/ultima/nuvie/core/book.cpp b/engines/ultima/nuvie/core/book.cpp
+index 2cb07976..fa786e92 100644
+--- a/engines/ultima/nuvie/core/book.cpp
++++ b/engines/ultima/nuvie/core/book.cpp
+@@ -24,6 +24,7 @@
+ #include "ultima/nuvie/conf/configuration.h"
+ #include "ultima/nuvie/files/u6_lib_n.h"
+ #include "ultima/nuvie/misc/u6_misc.h"
++#include "ultima/nuvie/misc/cht_translate.h"
+ #include "ultima/nuvie/core/book.h"
+ 
+ namespace Ultima {
+@@ -51,7 +52,25 @@ char *Book::get_book_data(uint16 num) {
+ 	if (num >= books->get_num_items())
+ 		return nullptr;
+ 
+-	return reinterpret_cast<char *>(books->get_item(num));
++	char *raw = reinterpret_cast<char *>(books->get_item(num));
++	if (!raw)
++		return nullptr;
++
++	// CHT: substitute Big5 translation from cht_strings.tab.
++	// Caller free()s the returned pointer, so allocate via malloc.
++	Common::String en(raw);
++	Common::String zh = CHTranslate::get()->translate(en);
++	if (zh == en)
++		return raw; // no translation; return original malloc'd buffer
++
++	free(raw);
++	size_t sz = zh.size();
++	char *buf = (char *)malloc(sz + 1);
++	if (!buf)
++		return nullptr;
++	memcpy(buf, zh.c_str(), sz);
++	buf[sz] = '\0';
++	return buf;
+ }
+ 
+ } // End of namespace Nuvie
+diff --git a/engines/ultima/nuvie/core/converse.cpp b/engines/ultima/nuvie/core/converse.cpp
+index 3d68353d..5f936a23 100644
+--- a/engines/ultima/nuvie/core/converse.cpp
++++ b/engines/ultima/nuvie/core/converse.cpp
+@@ -23,6 +23,7 @@
+ #include "ultima/nuvie/core/game.h"
+ #include "ultima/nuvie/conf/configuration.h"
+ #include "ultima/nuvie/misc/u6_misc.h"
++#include "ultima/nuvie/misc/cht_translate.h"
+ #include "ultima/nuvie/files/u6_lzw.h"
+ #include "ultima/nuvie/core/player.h"
+ #include "ultima/nuvie/core/party.h"
+@@ -415,10 +416,14 @@ void Converse::print(const char *s) {
+ #ifdef CONVERSE_DEBUG
+ 	DEBUG(0, LEVEL_DEBUGGING, "Converse: PRINT \"%s\"\n\n", s ? s : get_output().c_str());
+ #endif
+-	if (s)
+-		scroll->display_string(s, MSGSCROLL_NO_MAP_DISPLAY);
+-	else
++	if (s) {
++		// CHT: lookup hardcoded engine strings (e.g. "You see ", "[EOF]").
++		// Already-translated Big5 strings won't match any English key — no-op.
++		Common::String t = CHTranslate::get()->translate(s);
++		scroll->display_string(t, MSGSCROLL_NO_MAP_DISPLAY);
++	} else {
+ 		scroll->display_string(get_output(), MSGSCROLL_NO_MAP_DISPLAY);
++	}
+ }
+ 
+ void Converse::print_prompt() {
+diff --git a/engines/ultima/nuvie/core/converse_interpret.cpp b/engines/ultima/nuvie/core/converse_interpret.cpp
+index 3c7f8a1d..5e03b176 100644
+--- a/engines/ultima/nuvie/core/converse_interpret.cpp
++++ b/engines/ultima/nuvie/core/converse_interpret.cpp
+@@ -21,6 +21,7 @@
+ 
+ #include "ultima/nuvie/core/nuvie_defs.h"
+ #include "ultima/nuvie/misc/u6_misc.h"
++#include "ultima/nuvie/misc/cht_translate.h"
+ #include "ultima/nuvie/core/player.h"
+ #include "ultima/nuvie/core/party.h"
+ #include "ultima/nuvie/usecode/u6_usecode.h"
+@@ -246,9 +247,14 @@ void ConverseInterpret::exec() {
+ 
+ 
+ /* Print script text, resolving special symbols as they are encountered.
++ *
++ * CHT: substitute Big5 translation BEFORE formatting so that $P/$G/$N
++ * placeholders are still present in the lookup key and resolve afterward.
+  */
+ void ConverseInterpret::do_text() {
+-	Common::String output = get_formatted_text(converse->get_output().c_str());
++	Common::String raw = converse->get_output();
++	Common::String translated = CHTranslate::get()->translate(raw);
++	Common::String output = get_formatted_text(translated.c_str());
+ 	converse->print(output.c_str());
+ }
+ 
+@@ -263,6 +269,22 @@ Common::String ConverseInterpret::get_formatted_text(const char *c_str) {
+ 	uint32 last_value = 0;
+ 
+ 	while (i < len) {
++		// CHT: skip Big5 pair atomically so trail bytes (0x5C `\`, 0x7B `{`,
++		// 0x7E `~`) inside Big5 chars (e.g. 閱=BE 5C, 校=AE 75... etc) aren't
++		// misinterpreted as plural/FM-Towns/speech format markers.
++		{
++			uint8 c0 = (uint8)c_str[i];
++			if (c0 >= 0xA1 && c0 <= 0xFE && i + 1 < len) {
++				uint8 c1 = (uint8)c_str[i + 1];
++				if ((c1 >= 0x40 && c1 <= 0x7E) || (c1 >= 0xA1 && c1 <= 0xFE)) {
++					output += c_str[i];
++					output += c_str[i + 1];
++					i += 2;
++					continue;
++				}
++			}
++		}
++
+ 		switch (c_str[i]) {
+ 
+ 		case '$' :
+@@ -751,11 +773,14 @@ bool ConverseInterpret::op(Common::Stack<converse_typed_value> &i) {
+ 			DEBUG(0, LEVEL_WARNING,
+ 			      "Converse: npc number inVal script (%d) does not"
+ 			      " match actor number (%d)\n", v[0], converse->npc_num);
+-		converse->_name = get_text(); // collected
++		converse->_name = CHTranslate::get()->translate(get_text()); // CHT: NPC name
+ 		break;
+ 	case U6OP_SLOOK: // 0xf1, description follows
+-		converse->_desc = get_formatted_text(get_text().c_str()); // collected
+-		converse->print("\nYou see ");
++		{
++			Common::String desc_raw = CHTranslate::get()->translate(get_text()); // CHT: DESC
++			converse->_desc = get_formatted_text(desc_raw.c_str()); // collected
++		}
++		converse->print(CHTranslate::get()->translate("\nYou see ").c_str());
+ 		converse->print(converse->_desc.c_str());
+ 		converse->print("\n");
+ 		break;
+diff --git a/engines/ultima/nuvie/core/events.cpp b/engines/ultima/nuvie/core/events.cpp
+index 4bf9ce3a..f5834de2 100644
+--- a/engines/ultima/nuvie/core/events.cpp
++++ b/engines/ultima/nuvie/core/events.cpp
+@@ -32,6 +32,7 @@
+ #include "ultima/nuvie/core/player.h"
+ #include "ultima/nuvie/core/party.h"
+ #include "ultima/nuvie/core/book.h"
++#include "ultima/nuvie/misc/cht_translate.h"
+ #include "ultima/nuvie/views/view_manager.h"
+ #include "ultima/nuvie/views/portrait_view.h"
+ #include "ultima/nuvie/core/timed_event.h"
+@@ -1092,12 +1093,17 @@ bool Events::look(Actor *actor) {
+ 	}
+ 
+ 	actor_manager->print_actor(actor); // DEBUG
+-	scroll->display_string("Thou dost see ");
+-	// show real actor name and portrait if in avatar's party
+-	if ((p_id = player->get_party()->get_member_num(actor)) >= 0)
+-		scroll->display_string(player->get_party()->get_actor_name(p_id));
+-	else
+-		scroll->display_string(actor_manager->look_actor(actor, true));
++	// CHT: translate the prompt + actor name/description.
++	scroll->display_string(CHTranslate::get()->translate("Thou dost see "));
++	if ((p_id = player->get_party()->get_member_num(actor)) >= 0) {
++		const char *pname = player->get_party()->get_actor_name(p_id);
++		::debug(1, "CHT-LOOK party-name: %s", pname);
++		scroll->display_string(CHTranslate::get()->translate(pname));
++	} else {
++		const char *aname = actor_manager->look_actor(actor, true);
++		::debug(1, "CHT-LOOK actor-look: %s", aname);
++		scroll->display_string(CHTranslate::get()->translate(aname));
++	}
+ 	scroll->display_string("\n");
+ 	return had_portrait;
+ }
+@@ -1110,9 +1116,9 @@ bool Events::search(Obj *obj) {
+ 		return false;
+ 
+ 	if (obj->get_engine_loc() == OBJ_LOC_MAP && player_loc.distance(target_loc) <= 1) {
+-		scroll->display_string("\nSearching here, you find ");
++		scroll->display_string(CHTranslate::get()->translate("\nSearching here, you find "));
+ 		if (!usecode->search_obj(obj, player->get_actor()))
+-			scroll->display_string("nothing.\n");
++			scroll->display_string(CHTranslate::get()->translate("nothing.\n"));
+ 		else {
+ 			scroll->display_string(".\n");
+ 			map_window->updateBlacking(); // secret doors
+@@ -1146,7 +1152,7 @@ bool Events::lookAtCursor(bool delayed, uint16 x, uint16 y, uint8 z, Obj *obj, A
+ 		return false;
+ 
+ 	if (map_window->tile_is_black(x, y))
+-		scroll->display_string("Thou dost see darkness.\n");
++		scroll->display_string(CHTranslate::get()->translate("Thou dost see darkness.\n"));
+ 	else if (actor && actor->is_visible())
+ 		display_prompt = !look(actor);
+ 	else if (obj) {
+@@ -1155,10 +1161,11 @@ bool Events::lookAtCursor(bool delayed, uint16 x, uint16 y, uint8 z, Obj *obj, A
+ 		else
+ 			display_prompt = false;
+ 	} else { // ground
+-		scroll->display_string("Thou dost see ");
+-		/*   if(game->is_new_style())
+-		     new TextEffect(game->get_game_map()->look(x, y, z), MapCoord((x - map_window->get_cur_x())*16,(y-map_window->get_cur_y())*16,z));*/
+-		scroll->display_string(game->get_game_map()->look(x, y, z));
++		// CHT: translate prompt + ground tile name.
++		Common::String ground_en = game->get_game_map()->look(x, y, z);
++		::debug(1, "CHT-LOOK ground: %s", ground_en.c_str());
++		scroll->display_string(CHTranslate::get()->translate("Thou dost see "));
++		scroll->display_string(CHTranslate::get()->translate(ground_en));
+ 		scroll->display_string("\n");
+ 	}
+ 
+diff --git a/engines/ultima/nuvie/core/game.cpp b/engines/ultima/nuvie/core/game.cpp
+index 1f474137..ec0ed05d 100644
+--- a/engines/ultima/nuvie/core/game.cpp
++++ b/engines/ultima/nuvie/core/game.cpp
+@@ -22,6 +22,7 @@
+ #include "ultima/nuvie/core/nuvie_defs.h"
+ #include "ultima/nuvie/conf/configuration.h"
+ #include "ultima/nuvie/misc/u6_misc.h"
++#include "ultima/nuvie/misc/cht_translate.h"
+ #include "ultima/nuvie/gui/gui.h"
+ #include "ultima/nuvie/gui/widgets/console.h"
+ #include "ultima/nuvie/screen/dither.h"
+@@ -194,6 +195,9 @@ bool Game::loadGame(Script *s) {
+ 	font_manager = new FontManager(config);
+ 	font_manager->init(game_type);
+ 
++	// CHT: load Traditional Chinese load-time string substitution table.
++	CHTranslate::get()->load(config);
++
+ 	if (!is_new_style()) {
+ 		scroll = new MsgScroll(config, font_manager->get_font(0));
+ 	} else {
+diff --git a/engines/ultima/nuvie/core/player.cpp b/engines/ultima/nuvie/core/player.cpp
+index ffe73053..d74f64d1 100644
+--- a/engines/ultima/nuvie/core/player.cpp
++++ b/engines/ultima/nuvie/core/player.cpp
+@@ -251,22 +251,25 @@ void Player::subtract_movement_points(uint8 points) {
+ }
+ 
+ const char *Player::get_gender_title() const {
++	// CHT patch: Big5-encoded gender titles for ZH conversation flow.
++	// U6: 公子 / 姑娘 (Big5 4 bytes each).
++	// MD: 大人 / 夫人.
+ 	switch (game_type) {
+ 	case NUVIE_GAME_U6 :
+ 		if (gender == 0)
+-			return "milord";
++			return "\244\275\244l"; // 公子
+ 		else
+-			return "milady";
++			return "\251h\256Q";    // 姑娘
+ 	case NUVIE_GAME_MD :
+ 		if (gender == 0)
+-			return "Sir";
++			return "\244j\244H"; // 大人
+ 		else
+-			return "Madam";
++			return "\244\322\244H"; // 夫人
+ 	default :
+ 		break;
+ 	}
+ 
+-	return "Sir"; //FIXME is this needed for SE?
++	return "\244j\244H"; // 大人 (fallback)
+ }
+ 
+ bool Player::check_moveRelative(sint16 rel_x, sint16 rel_y) {
+diff --git a/engines/ultima/nuvie/fonts/conv_font.cpp b/engines/ultima/nuvie/fonts/conv_font.cpp
+index 3c2d3900..4663a049 100644
+--- a/engines/ultima/nuvie/fonts/conv_font.cpp
++++ b/engines/ultima/nuvie/fonts/conv_font.cpp
+@@ -19,6 +19,7 @@
+  *
+  */
+ 
++#include "common/file.h"
+ #include "common/str.h"
+ #include "ultima/nuvie/core/nuvie_defs.h"
+ #include "ultima/nuvie/screen/screen.h"
+@@ -27,11 +28,46 @@
+ namespace Ultima {
+ namespace Nuvie {
+ 
+-ConvFont::ConvFont() : data_offset(0), f_data(nullptr), f_w_data(nullptr) {
++// Big5 font geometry — same as U6Font.
++static const uint32 CFB5_NUM_TRAIL = 157;
++static const uint32 CFB5_GLYPH_BYTES = 24;
++static const uint32 CFB5_FILE_SIZE = 94 * CFB5_NUM_TRAIL * CFB5_GLYPH_BYTES;
++
++static inline bool isBig5Lead(uint8 c) {
++	return c >= 0xA1 && c <= 0xFE;
++}
++
++static inline bool isBig5Trail(uint8 c) {
++	return (c >= 0x40 && c <= 0x7E) || (c >= 0xA1 && c <= 0xFE);
++}
++
++ConvFont::ConvFont() : data_offset(0), f_data(nullptr), f_w_data(nullptr),
++		big5_data(nullptr), big5_size(0) {
+ }
+ 
+ ConvFont::~ConvFont() {
++	if (big5_data != nullptr)
++		free(big5_data);
++}
+ 
++bool ConvFont::initBig5(const Common::Path &path) {
++	Common::File f;
++	if (!f.open(path))
++		return false;
++	uint32 sz = f.size();
++	if (sz != CFB5_FILE_SIZE) {
++		f.close();
++		return false;
++	}
++	big5_data = (unsigned char *)malloc(sz);
++	if (!big5_data) {
++		f.close();
++		return false;
++	}
++	f.read(big5_data, sz);
++	big5_size = sz;
++	f.close();
++	return true;
+ }
+ 
+ bool ConvFont::init(unsigned char *data, uint8 *width_data, uint16 num_c, uint16 char_offset) {
+@@ -58,5 +94,65 @@ uint16 ConvFont::drawChar(Screen *screen, uint8 char_num, uint16 x, uint16 y,
+ 	return getCharWidth(char_num);
+ }
+ 
++// Render a Big5 wide character into a 14x12 canvas (12-px glyph + 2-px right gap).
++// Returns advance width in pixels.
++uint16 ConvFont::drawBig5Char(Screen *screen, uint8 lead, uint8 trail,
++                              uint16 x, uint16 y, uint8 color) {
++	if (!big5_data || !isBig5Lead(lead) || !isBig5Trail(trail))
++		return 14;
++
++	uint32 toff;
++	if (trail >= 0x40 && trail <= 0x7E)
++		toff = trail - 0x40;
++	else
++		toff = trail - 0xA1 + 63;
++	uint32 idx = (lead - 0xA1) * CFB5_NUM_TRAIL + toff;
++	const unsigned char *g = &big5_data[idx * CFB5_GLYPH_BYTES];
++
++	unsigned char buf[14 * 12];
++	memset(buf, 0xff, sizeof(buf));
++	for (int row = 0; row < 12; row++) {
++		uint16 bits = ((uint16)g[row * 2] << 8) | g[row * 2 + 1];
++		for (int col = 0; col < 12; col++) {
++			if (bits & (0x8000 >> col))
++				buf[row * 14 + col + 1] = color; // 1-px left margin
++		}
++	}
++	screen->blit(x, y, buf, 8, 14, 12, 14, true, nullptr);
++	return 14;
++}
++
++uint16 ConvFont::drawString(Screen *screen, const char *str, uint16 string_len,
++                            uint16 x, uint16 y, uint8 color, uint8 highlight_color) {
++	if (!big5_data)
++		return Font::drawString(screen, str, string_len, x, y, color, highlight_color);
++
++	uint16 font_len = 0;
++	bool highlight = false;
++	for (uint16 i = 0; i < string_len; i++) {
++		uint8 c = (uint8)str[i];
++		if (isBig5Lead(c) && i + 1 < string_len && isBig5Trail((uint8)str[i + 1])) {
++			// CHT: render at y (no lift). ConverseGump line stride is 10 px so
++			// 12 px Big5 has 2 px tail intruding into next line top — usually
++			// empty descender padding in WQY Sharp.
++			font_len += drawBig5Char(screen, c, (uint8)str[i + 1],
++			                         x + font_len, y,
++			                         highlight ? highlight_color : color);
++			i++;
++			highlight = false;
++			continue;
++		}
++		if (c == '@') {
++			highlight = true;
++			continue;
++		}
++		if (!Common::isAlpha(c))
++			highlight = false;
++		font_len += drawChar(screen, c, x + font_len, y,
++		                     highlight ? highlight_color : color);
++	}
++	return font_len;
++}
++
+ } // End of namespace Nuvie
+ } // End of namespace Ultima
+diff --git a/engines/ultima/nuvie/fonts/conv_font.h b/engines/ultima/nuvie/fonts/conv_font.h
+index 56374d6e..17e8f5ac 100644
+--- a/engines/ultima/nuvie/fonts/conv_font.h
++++ b/engines/ultima/nuvie/fonts/conv_font.h
+@@ -22,6 +22,7 @@
+ #ifndef NUVIE_FONTS_CONV_FONT_H
+ #define NUVIE_FONTS_CONV_FONT_H
+ 
++#include "common/path.h"
+ #include "ultima/nuvie/fonts/font.h"
+ 
+ namespace Ultima {
+@@ -34,12 +35,21 @@ class ConvFont : public Font {
+ 	unsigned char *f_data;
+ 	uint8 *f_w_data;
+ 	uint16 data_offset;
++
++	// Optional Big5 12x12 wide-char font shared with U6Font.
++	unsigned char *big5_data;
++	uint32 big5_size;
+ public:
+ 
+ 	ConvFont();
+ 	~ConvFont() override;
+ 
+ 	bool init(unsigned char *data, uint8 *width_data, uint16 num_chars, uint16 char_offset);
++	bool initBig5(const Common::Path &path);
++	bool hasBig5() const { return big5_data != nullptr; }
++
++	using Font::drawString;
++	using Font::drawChar;
+ 
+ 	uint16 getCharWidth(uint8 c) override;
+ 	uint16 getCharHeight() override {
+@@ -47,6 +57,11 @@ public:
+ 	}
+ 	uint16 drawChar(Screen *screen, uint8 char_num, uint16 x, uint16 y,
+ 	                uint8 color) override;
++	uint16 drawString(Screen *screen, const char *str, uint16 string_len,
++	                  uint16 x, uint16 y, uint8 color, uint8 highlight_color) override;
++protected:
++	uint16 drawBig5Char(Screen *screen, uint8 lead, uint8 trail,
++	                    uint16 x, uint16 y, uint8 color);
+ };
+ 
+ } // End of namespace Nuvie
+diff --git a/engines/ultima/nuvie/fonts/font.h b/engines/ultima/nuvie/fonts/font.h
+index c41ecbbb..cca3dca6 100644
+--- a/engines/ultima/nuvie/fonts/font.h
++++ b/engines/ultima/nuvie/fonts/font.h
+@@ -65,7 +65,7 @@ public:
+ //   bool drawString(Screen *screen, Common::String str, uint16 x, uint16 y);
+ 	uint16 drawString(Screen *screen, const char *str, uint16 x, uint16 y);
+ 	uint16 drawString(Screen *screen, const char *str, uint16 x, uint16 y, uint8 color, uint8 highlight_color);
+-	uint16 drawString(Screen *screen, const char *str, uint16 string_len, uint16 x, uint16 y, uint8 color, uint8 highlight_color);
++	virtual uint16 drawString(Screen *screen, const char *str, uint16 string_len, uint16 x, uint16 y, uint8 color, uint8 highlight_color);
+ 
+ 	uint16 drawChar(Screen *screen, uint8 char_num, uint16 x, uint16 y);
+ 	virtual uint16 drawChar(Screen *screen, uint8 char_num, uint16 x, uint16 y,
+diff --git a/engines/ultima/nuvie/fonts/font_manager.cpp b/engines/ultima/nuvie/fonts/font_manager.cpp
+index 0343a40f..2042c76e 100644
+--- a/engines/ultima/nuvie/fonts/font_manager.cpp
++++ b/engines/ultima/nuvie/fonts/font_manager.cpp
+@@ -85,6 +85,11 @@ bool FontManager::initU6() {
+ // english font
+ 	font = new U6Font();
+ 	font->init(font_data, 128, 0);
++	// Optional: Big5 12x12 CJK wide-char data alongside u6.ch.
++	Common::Path big5_path;
++	config_get_path(config, "big5_u6_12x12.fnt", big5_path);
++	if (font->initBig5(big5_path))
++		::debug(1, "U6Font: loaded big5_u6_12x12.fnt — CJK enabled");
+ 	fonts.push_back(font);
+ 	num_fonts++;
+ 
+@@ -179,6 +184,12 @@ bool FontManager::initConvFonts(nuvie_game_t game_type) {
+ 	conv_font = new ConvFont();
+ 	((ConvFont *)conv_font)->init(conv_font_data, conv_font_widths, 256, 0);
+ 
++	// Optional Big5 CJK path — loads from gamedir/big5_u6_12x12.fnt.
++	Common::Path big5_path;
++	config_get_path(config, "big5_u6_12x12.fnt", big5_path);
++	if (((ConvFont *)conv_font)->initBig5(big5_path))
++		::debug(1, "ConvFont: loaded big5_u6_12x12.fnt — ConverseGump CJK enabled");
++
+ 	if (game_type == NUVIE_GAME_U6) {
+ 		conv_garg_font = new ConvFont();
+ 		((ConvFont *)conv_garg_font)->init(conv_font_data, conv_font_widths, 256, 128);
+diff --git a/engines/ultima/nuvie/fonts/u6_font.cpp b/engines/ultima/nuvie/fonts/u6_font.cpp
+index 8013b387..cd785854 100644
+--- a/engines/ultima/nuvie/fonts/u6_font.cpp
++++ b/engines/ultima/nuvie/fonts/u6_font.cpp
+@@ -19,6 +19,7 @@
+  *
+  */
+ 
++#include "common/file.h"
+ #include "ultima/nuvie/core/nuvie_defs.h"
+ #include "ultima/nuvie/conf/configuration.h"
+ #include "ultima/nuvie/screen/screen.h"
+@@ -27,12 +28,50 @@
+ namespace Ultima {
+ namespace Nuvie {
+ 
+-U6Font::U6Font() : font_data(nullptr) {
++// Big5 12x12 font geometry (must match build-big5-font-wqysharp.py).
++//   num_trail = (0x7E - 0x40 + 1) + (0xFE - 0xA1 + 1) = 63 + 94 = 157
++//   num_lead  = 0xFE - 0xA1 + 1                       = 94
++//   glyph     = 12 rows * 2 bytes/row                 = 24
++static const uint32 BIG5_NUM_TRAIL = 157;
++static const uint32 BIG5_GLYPH_BYTES = 24;
++static const uint32 BIG5_FILE_SIZE = 94 * BIG5_NUM_TRAIL * BIG5_GLYPH_BYTES; // 354192
++
++static inline bool isBig5Lead(uint8 c) {
++	return c >= 0xA1 && c <= 0xFE;
++}
++
++static inline bool isBig5Trail(uint8 c) {
++	return (c >= 0x40 && c <= 0x7E) || (c >= 0xA1 && c <= 0xFE);
++}
++
++U6Font::U6Font() : font_data(nullptr), big5_data(nullptr), big5_size(0) {
+ }
+ 
+ U6Font::~U6Font() {
+ 	if (font_data != nullptr)
+ 		free(font_data);
++	if (big5_data != nullptr)
++		free(big5_data);
++}
++
++bool U6Font::initBig5(const Common::Path &path) {
++	Common::File f;
++	if (!f.open(path))
++		return false;
++	uint32 sz = f.size();
++	if (sz != BIG5_FILE_SIZE) {
++		f.close();
++		return false;
++	}
++	big5_data = (unsigned char *)malloc(sz);
++	if (!big5_data) {
++		f.close();
++		return false;
++	}
++	f.read(big5_data, sz);
++	big5_size = sz;
++	f.close();
++	return true;
+ }
+ 
+ bool U6Font::init(unsigned char *data, uint16 num_c, uint16 char_offset) {
+@@ -76,5 +115,66 @@ uint16 U6Font::drawChar(Screen *screen, uint8 char_num, uint16 x, uint16 y,
+ 	return 8;
+ }
+ 
++// Render a Big5 wide character into a 16x12 canvas (12-pixel glyph centered
++// in 16 px so it occupies 2 columns in the 8-pixel MsgScroll grid).
++uint16 U6Font::drawBig5Char(Screen *screen, uint8 lead, uint8 trail,
++                            uint16 x, uint16 y, uint8 color) {
++	if (!big5_data || !isBig5Lead(lead) || !isBig5Trail(trail))
++		return 16;
++
++	uint32 toff;
++	if (trail >= 0x40 && trail <= 0x7E)
++		toff = trail - 0x40;
++	else
++		toff = trail - 0xA1 + 63;
++	uint32 idx = (lead - 0xA1) * BIG5_NUM_TRAIL + toff;
++	const unsigned char *g = &big5_data[idx * BIG5_GLYPH_BYTES];
++
++	// 16x12 canvas, transparent background (0xff = "skip" sentinel used by blit).
++	unsigned char buf[16 * 12];
++	memset(buf, 0xff, sizeof(buf));
++	for (int row = 0; row < 12; row++) {
++		uint16 bits = ((uint16)g[row * 2] << 8) | g[row * 2 + 1];
++		for (int col = 0; col < 12; col++) {
++			if (bits & (0x8000 >> col))
++				buf[row * 16 + col + 2] = color; // 2-px left margin to center 12 in 16
++		}
++	}
++	screen->blit(x, y, buf, 8, 16, 12, 16, true, nullptr);
++	return 16;
++}
++
++uint16 U6Font::drawString(Screen *screen, const char *str, uint16 string_len,
++                          uint16 x, uint16 y, uint8 color, uint8 highlight_color) {
++	if (!big5_data)
++		return Font::drawString(screen, str, string_len, x, y, color, highlight_color);
++
++	uint16 font_len = 0;
++	bool highlight = false;
++	for (uint16 i = 0; i < string_len; i++) {
++		uint8 c = (uint8)str[i];
++		if (isBig5Lead(c) && i + 1 < string_len && isBig5Trail((uint8)str[i + 1])) {
++			// CHT: with line stride bumped to 10px, Big5 12px renders at y (no lift).
++			// The 2 px tail of the 12px glyph crosses into next line's top area,
++			// but rows 10-11 of WQY Sharp 12px are usually empty descender padding.
++			font_len += drawBig5Char(screen, c, (uint8)str[i + 1],
++			                         x + font_len, y,
++			                         highlight ? highlight_color : color);
++			i++; // consumed trail
++			highlight = false;
++			continue;
++		}
++		if (c == '@') {
++			highlight = true;
++			continue;
++		}
++		if (!Common::isAlpha(c))
++			highlight = false;
++		font_len += drawChar(screen, get_char_num(c), x + font_len, y,
++		                     highlight ? highlight_color : color);
++	}
++	return font_len;
++}
++
+ } // End of namespace Nuvie
+ } // End of namespace Ultima
+diff --git a/engines/ultima/nuvie/fonts/u6_font.h b/engines/ultima/nuvie/fonts/u6_font.h
+index 85e97fb9..c23f32e9 100644
+--- a/engines/ultima/nuvie/fonts/u6_font.h
++++ b/engines/ultima/nuvie/fonts/u6_font.h
+@@ -25,6 +25,7 @@
+ #define FONT_COLOR_U6_NORMAL    0x48
+ #define FONT_COLOR_U6_HIGHLIGHT 0x0c
+ 
++#include "common/path.h"
+ #include "ultima/nuvie/fonts/font.h"
+ 
+ namespace Ultima {
+@@ -37,12 +38,19 @@ class U6Font : public Font {
+ private:
+ 	unsigned char *font_data;
+ 
++	// Optional Big5 12x12 wide-char font (loaded from big5_u6_12x12.fnt).
++	// When present, drawString routes 0xA1..0xFE lead bytes to drawBig5Char.
++	unsigned char *big5_data;
++	uint32 big5_size;
++
+ public:
+ 
+ 	U6Font();
+ 	~U6Font() override;
+ 
+ 	bool init(unsigned char *data, uint16 num_chars, uint16 char_offset);
++	bool initBig5(const Common::Path &path);
++	bool hasBig5() const { return big5_data != nullptr; }
+ 
+ 	uint16 getCharWidth(uint8 c) override {
+ 		return 8;
+@@ -50,10 +58,16 @@ public:
+ 	uint16 getCharHeight() override {
+ 		return 8;
+ 	}
++	using Font::drawString;
++	using Font::drawChar;
++
+ 	uint16 drawChar(Screen *screen, uint8 char_num, uint16 x, uint16 y,
+ 	                uint8 color) override;
++	uint16 drawString(Screen *screen, const char *str, uint16 string_len,
++	                  uint16 x, uint16 y, uint8 color, uint8 highlight_color) override;
+ protected:
+-
++	uint16 drawBig5Char(Screen *screen, uint8 lead, uint8 trail,
++	                    uint16 x, uint16 y, uint8 color);
+ };
+ 
+ } // End of namespace Nuvie
+diff --git a/engines/ultima/nuvie/fonts/wou_font.cpp b/engines/ultima/nuvie/fonts/wou_font.cpp
+index 339da5f7..cfca74de 100644
+--- a/engines/ultima/nuvie/fonts/wou_font.cpp
++++ b/engines/ultima/nuvie/fonts/wou_font.cpp
+@@ -19,6 +19,7 @@
+  *
+  */
+ 
++#include "common/file.h"
+ #include "ultima/nuvie/core/nuvie_defs.h"
+ #include "ultima/nuvie/conf/configuration.h"
+ #include "ultima/nuvie/screen/screen.h"
+@@ -30,8 +31,21 @@
+ namespace Ultima {
+ namespace Nuvie {
+ 
++// Big5 geometry shared with U6Font / ConvFont.
++static const uint32 WB5_NUM_TRAIL = 157;
++static const uint32 WB5_GLYPH_BYTES = 24;
++static const uint32 WB5_FILE_SIZE = 94 * WB5_NUM_TRAIL * WB5_GLYPH_BYTES;
++
++static inline bool wb5IsLead(uint8 c) {
++	return c >= 0xA1 && c <= 0xFE;
++}
++
++static inline bool wb5IsTrail(uint8 c) {
++	return (c >= 0x40 && c <= 0x7E) || (c >= 0xA1 && c <= 0xFE);
++}
++
+ WOUFont::WOUFont() : font_data(nullptr), char_buf(nullptr), height(0),
+-		pixel_char(0) {
++		pixel_char(0), big5_data(nullptr), big5_size(0) {
+ }
+ 
+ WOUFont::~WOUFont() {
+@@ -40,6 +54,29 @@ WOUFont::~WOUFont() {
+ 
+ 	if (char_buf != nullptr)
+ 		free(char_buf);
++
++	if (big5_data != nullptr)
++		free(big5_data);
++}
++
++bool WOUFont::initBig5(const Common::Path &path) {
++	Common::File f;
++	if (!f.open(path))
++		return false;
++	uint32 sz = f.size();
++	if (sz != WB5_FILE_SIZE) {
++		f.close();
++		return false;
++	}
++	big5_data = (unsigned char *)malloc(sz);
++	if (!big5_data) {
++		f.close();
++		return false;
++	}
++	f.read(big5_data, sz);
++	big5_size = sz;
++	f.close();
++	return true;
+ }
+ 
+ bool WOUFont::init(const Common::Path &filename) {
+@@ -120,6 +157,93 @@ uint16 WOUFont::drawChar(Screen *screen, uint8 char_num, uint16 x, uint16 y,
+ 	return width;
+ }
+ 
++uint16 WOUFont::drawBig5Char(Screen *screen, uint8 lead, uint8 trail,
++                             uint16 x, uint16 y, uint8 color) {
++	if (!big5_data || !wb5IsLead(lead) || !wb5IsTrail(trail))
++		return 14;
++
++	uint32 toff;
++	if (trail >= 0x40 && trail <= 0x7E)
++		toff = trail - 0x40;
++	else
++		toff = trail - 0xA1 + 63;
++	uint32 idx = (lead - 0xA1) * WB5_NUM_TRAIL + toff;
++	const unsigned char *g = &big5_data[idx * WB5_GLYPH_BYTES];
++
++	unsigned char buf[14 * 12];
++	memset(buf, 0xff, sizeof(buf));
++	for (int row = 0; row < 12; row++) {
++		uint16 bits = ((uint16)g[row * 2] << 8) | g[row * 2 + 1];
++		for (int col = 0; col < 12; col++) {
++			if (bits & (0x8000 >> col))
++				buf[row * 14 + col + 1] = color;
++		}
++	}
++	screen->blit(x, y, buf, 8, 14, 12, 14, true, nullptr);
++	return 14;
++}
++
++uint16 WOUFont::drawString(Screen *screen, const char *str, uint16 string_len,
++                           uint16 x, uint16 y, uint8 color, uint8 highlight_color) {
++	if (!big5_data)
++		return Font::drawString(screen, str, string_len, x, y, color, highlight_color);
++
++	uint16 font_len = 0;
++	bool highlight = false;
++	int ydraw = y; // WOUFont uses font_data[0] = height; for 12px CJK, no offset
++	for (uint16 i = 0; i < string_len; i++) {
++		uint8 c = (uint8)str[i];
++		if (wb5IsLead(c) && i + 1 < string_len && wb5IsTrail((uint8)str[i + 1])) {
++			font_len += drawBig5Char(screen, c, (uint8)str[i + 1],
++			                         x + font_len, ydraw,
++			                         highlight ? highlight_color : color);
++			i++;
++			highlight = false;
++			continue;
++		}
++		if (c == '@') {
++			highlight = true;
++			continue;
++		}
++		if (!Common::isAlpha(c))
++			highlight = false;
++		font_len += drawChar(screen, get_char_num(c), x + font_len, y,
++		                     highlight ? highlight_color : color);
++	}
++	return font_len;
++}
++
++uint8 WOUFont::drawBig5CharToShape(U6Shape *shp, uint8 lead, uint8 trail,
++                                   uint16 x, uint16 y, uint8 color) {
++	if (!big5_data || !wb5IsLead(lead) || !wb5IsTrail(trail))
++		return 14;
++
++	uint32 toff;
++	if (trail >= 0x40 && trail <= 0x7E)
++		toff = trail - 0x40;
++	else
++		toff = trail - 0xA1 + 63;
++	uint32 idx = (lead - 0xA1) * WB5_NUM_TRAIL + toff;
++	const unsigned char *g = &big5_data[idx * WB5_GLYPH_BYTES];
++
++	unsigned char *dst = shp->get_data();
++	uint16 dst_w, dst_h;
++	shp->get_size(&dst_w, &dst_h);
++	dst += y * dst_w + x;
++
++	for (int row = 0; row < 12; row++) {
++		uint16 bits = ((uint16)g[row * 2] << 8) | g[row * 2 + 1];
++		for (int col = 0; col < 12; col++) {
++			if (bits & (0x8000 >> col)) {
++				int dx = col + 1; // 1-px left margin
++				if (x + dx < dst_w && y + row < dst_h)
++					dst[row * dst_w + dx] = color;
++			}
++		}
++	}
++	return 14;
++}
++
+ uint16 WOUFont::drawStringToShape(U6Shape *shp, const char *str, uint16 x, uint16 y, uint8 color) {
+ 	uint16 i;
+ 	uint16 string_len = strlen(str);
+@@ -128,7 +252,13 @@ uint16 WOUFont::drawStringToShape(U6Shape *shp, const char *str, uint16 x, uint1
+ 		return x;
+ 
+ 	for (i = 0; i < string_len; i++) {
+-		x += drawCharToShape(shp, get_char_num(str[i]), x, y, color);
++		uint8 c = (uint8)str[i];
++		if (big5_data && wb5IsLead(c) && i + 1 < string_len && wb5IsTrail((uint8)str[i + 1])) {
++			x += drawBig5CharToShape(shp, c, (uint8)str[i + 1], x, y, color);
++			i++;
++			continue;
++		}
++		x += drawCharToShape(shp, get_char_num(c), x, y, color);
+ 	}
+ 
+ 	return x;
+diff --git a/engines/ultima/nuvie/fonts/wou_font.h b/engines/ultima/nuvie/fonts/wou_font.h
+index cab5034a..da45965f 100644
+--- a/engines/ultima/nuvie/fonts/wou_font.h
++++ b/engines/ultima/nuvie/fonts/wou_font.h
+@@ -22,6 +22,7 @@
+ #ifndef NUVIE_FONTS_WOU_FONT_H
+ #define NUVIE_FONTS_WOU_FONT_H
+ 
++#include "common/path.h"
+ #include "ultima/nuvie/fonts/font.h"
+ 
+ namespace Ultima {
+@@ -38,6 +39,10 @@ private:
+ 	uint16 height;
+ 	uint8 pixel_char;
+ 
++	// Optional Big5 12x12 wide-char font shared with U6Font / ConvFont.
++	unsigned char *big5_data;
++	uint32 big5_size;
++
+ public:
+ 
+ 	WOUFont();
+@@ -45,10 +50,17 @@ public:
+ 
+ 	bool init(const Common::Path &filename);
+ 	bool initWithBuffer(unsigned char *buffer, uint32 buffer_len);
++	bool initBig5(const Common::Path &path);
++	bool hasBig5() const { return big5_data != nullptr; }
++
+ 
++	using Font::drawString;
++	using Font::drawChar;
+ 
+ 	uint16 drawChar(Screen *screen, uint8 char_num, uint16 x, uint16 y,
+ 	                        uint8 color) override;
++	uint16 drawString(Screen *screen, const char *str, uint16 string_len,
++	                  uint16 x, uint16 y, uint8 color, uint8 highlight_color) override;
+ 
+ 	uint16 drawStringToShape(U6Shape *shp, const char *str, uint16 x, uint16 y, uint8 color);
+ 	uint8 drawCharToShape(U6Shape *shp, uint8 char_num, uint16 x, uint16 y, uint8 color);
+@@ -59,6 +71,10 @@ public:
+ 	}
+ private:
+ 	bool initCharBuf();
++	uint16 drawBig5Char(Screen *screen, uint8 lead, uint8 trail,
++	                    uint16 x, uint16 y, uint8 color);
++	uint8 drawBig5CharToShape(U6Shape *shp, uint8 lead, uint8 trail,
++	                          uint16 x, uint16 y, uint8 color);
+ };
+ 
+ } // End of namespace Nuvie
+diff --git a/engines/ultima/nuvie/gui/widgets/msg_scroll.cpp b/engines/ultima/nuvie/gui/widgets/msg_scroll.cpp
+index ba7134a2..c8b78170 100644
+--- a/engines/ultima/nuvie/gui/widgets/msg_scroll.cpp
++++ b/engines/ultima/nuvie/gui/widgets/msg_scroll.cpp
+@@ -23,6 +23,7 @@
+ #include "ultima/nuvie/core/nuvie_defs.h"
+ #include "ultima/nuvie/conf/configuration.h"
+ #include "ultima/nuvie/misc/u6_misc.h"
++#include "ultima/nuvie/misc/cht_translate.h"
+ #include "ultima/nuvie/fonts/font_manager.h"
+ #include "ultima/nuvie/fonts/font.h"
+ #include "ultima/nuvie/screen/game_palette.h"
+@@ -353,12 +354,18 @@ void MsgScroll::display_string(const Common::String &s, Font *f, bool include_on
+ 	display_string(s, f, font_color, include_on_map_window);
+ }
+ 
+-void MsgScroll::display_string(const Common::String &s, Font *f, uint8 color, bool include_on_map_window) {
++void MsgScroll::display_string(const Common::String &s_in, Font *f, uint8 color, bool include_on_map_window) {
+ 	MsgText *msg_text;
+ 
+-	if (s.empty())
++	if (s_in.empty())
+ 		return;
+ 
++	// CHT: central display_string hook — substitute every text fragment
++	// regardless of who called us (events.cpp, save_game, usecode, lua print,
++	// converse print, etc). Already-translated Big5 strings don't match any
++	// English key so they pass through as no-op.
++	Common::String s = CHTranslate::get()->translate(s_in);
++
+ 	if (f == nullptr)
+ 		f = font;
+ 
+@@ -407,11 +414,29 @@ MsgText *MsgScroll::holding_buffer_get_token() {
+ 		return nullptr;
+ 	}
+ 
+-	i = input->s.findFirstOf(" \t\n*<>`", 0);
+-	if (i == 0) i++;
++	// CHT: if the next byte is a Big5 lead, the next "word" is one CJK char (2 bytes).
++	// This lets line-wrap break between any two CJK chars (Chinese text has no spaces),
++	// otherwise the whole Chinese run becomes a single oversized token and overflows.
++	auto is_big5_pair = [](uint8 lead, uint8 trail) {
++		return (lead >= 0xA1 && lead <= 0xFE) &&
++		       ((trail >= 0x40 && trail <= 0x7E) || (trail >= 0xA1 && trail <= 0xFE));
++	};
++	if (input->s.size() >= 2 &&
++	    is_big5_pair((uint8)input->s[0], (uint8)input->s[1])) {
++		i = 2;
++	} else {
++		i = input->s.findFirstOf(" \t\n*<>`", 0);
++		if (i == 0) i++;
++
++		if (i == -1)
++			i = input->s.size();
+ 
+-	if (i == -1)
+-		i = input->s.size();
++		// CHT: also stop the token at the first Big5 lead seen in the run, so the
++		// next call starts cleanly at the CJK char.
++		for (int j = 0; j < i; ++j) {
++			if ((uint8)input->s[j] >= 0xA1) { i = j == 0 ? 1 : j; break; }
++		}
++	}
+ 
+ 	if (i > 0) {
+ 		token = new MsgText(input->s.substr(0, i), font); // FIX maybe a format flag. // input->font);
+@@ -979,7 +1004,10 @@ inline void MsgScroll::drawLine(Screen *theScreen, MsgLine *msg_line, uint16 lin
+ 	uint16 total_length = 0;
+ 
+ 	for (MsgText *token : msg_line->text) {
+-		token->font->drawString(theScreen, token->s.c_str(), area.left + left_margin + total_length * 8, area.top + line_y * 8, token->color, font_highlight_color); //FIX for hardcoded font height
++		// CHT: line stride bumped 8 → 10 so Big5 12px glyph + ASCII 8px both fit
++		// without vertical overlap. ASCII has 2 px gap (acceptable), Big5 has
++		// 2 px overlap with next line (acceptable; bottom rows usually empty).
++		token->font->drawString(theScreen, token->s.c_str(), area.left + left_margin + total_length * 8, area.top + line_y * 10, token->color, font_highlight_color);
+ 		total_length += token->s.size();
+ 	}
+ }
+diff --git a/engines/ultima/nuvie/script/script.cpp b/engines/ultima/nuvie/script/script.cpp
+index aaa8f5d4..f7164507 100644
+--- a/engines/ultima/nuvie/script/script.cpp
++++ b/engines/ultima/nuvie/script/script.cpp
+@@ -26,6 +26,7 @@
+ #include "ultima/nuvie/core/nuvie_defs.h"
+ #include "ultima/nuvie/conf/configuration.h"
+ #include "ultima/nuvie/misc/u6_misc.h"
++#include "ultima/nuvie/misc/cht_translate.h"
+ #include "ultima/nuvie/core/u6_objects.h"
+ #include "ultima/nuvie/core/game.h"
+ #include "ultima/nuvie/core/game_clock.h"
+@@ -2319,7 +2320,23 @@ static int nscript_print(lua_State *L) {
+ 	MsgScroll *scroll = Game::get_game()->get_scroll();
+ 	const char *string = luaL_checkstring(L, 1);
+ 	if (scroll) {
+-		scroll->display_string(string);
++		// CHT: full-string lookup first; if miss, try prefix-rewrite for common
++		// patterns like "Thou dost see <obj>." (Lua script concatenates).
++		Common::String s(string);
++		Common::String t = CHTranslate::get()->translate(s);
++		if (t == s) {
++			static const char *kPrefix = "Thou dost see ";
++			const size_t plen = 14;
++			if (s.size() > plen && memcmp(s.c_str(), kPrefix, plen) == 0) {
++				Common::String prefix_zh = CHTranslate::get()->translate(Common::String(kPrefix));
++				Common::String rest(s.c_str() + plen);
++				bool has_period = !rest.empty() && rest.lastChar() == '.';
++				Common::String rest_noperiod = has_period ? Common::String(rest.c_str(), rest.size() - 1) : rest;
++				Common::String rest_zh = CHTranslate::get()->translate(rest_noperiod);
++				t = prefix_zh + rest_zh + (has_period ? "\xa1\x43" : ""); // Big5 "。"
++			}
++		}
++		scroll->display_string(t);
+ 	} else {
+ 		::debug(1, "%s", string);
+ 	}
+diff --git a/engines/ultima/nuvie/script/script_cutscene.cpp b/engines/ultima/nuvie/script/script_cutscene.cpp
+index 374ee036..f9a70087 100644
+--- a/engines/ultima/nuvie/script/script_cutscene.cpp
++++ b/engines/ultima/nuvie/script/script_cutscene.cpp
+@@ -1182,6 +1182,12 @@ ScriptCutscene::ScriptCutscene(GUI *g, Configuration *cfg, SoundManager *sm) : G
+ 	if (game_type == NUVIE_GAME_U6) {
+ 		config_get_path(config, "u6.set", path);
+ 		font->init(path);
++
++		// Optional Big5 CJK path for cutscene/intro text.
++		Common::Path big5_path;
++		config_get_path(config, "big5_u6_12x12.fnt", big5_path);
++		if (font->initBig5(big5_path))
++			::debug(1, "WOUFont(cutscene): loaded big5_u6_12x12.fnt — intro CJK enabled");
+ 	}
+ 	//FIXME load other fonts for MD / SE if needed here.
+ 	if (game_type == NUVIE_GAME_SE) {

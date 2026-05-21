@@ -1,0 +1,132 @@
+{
+ "_meta": {},
+ "translations": [
+  {
+   "hash": "ed5403d983e94d2c",
+   "zh": "一位高大男子，笑容令人卸下戒備。",
+   "note": "DESC"
+  },
+  {
+   "hash": "ca8852941f5f7fa6",
+   "zh": "「你好，我的朋友",
+   "note": "fragment，德語口音"
+  },
+  {
+   "hash": "9029f3605cbb90ea",
+   "zh": "們。」",
+   "note": "fragment，複數形"
+  },
+  {
+   "hash": "07da0e07b4a02ac9",
+   "zh": "。」",
+   "note": "fragment，單數形"
+  },
+  {
+   "hash": "ce1bfdbb76b5ffba",
+   "zh": " 他粗厚的手指握住汝的手。"
+  },
+  {
+   "hash": "ae3aa0a8ce730e00",
+   "zh": "「汝回來了，很好。」他向後靠在腳跟上。",
+   "note": "Gut=德語「好」"
+  },
+  {
+   "hash": "acb1d6b8fce3fc80",
+   "zh": "「@烏伯蒙·卡爾米希。」"
+  },
+  {
+   "hash": "624a4e92082718c4",
+   "zh": "「效您的勞。」他立正站好。",
+   "note": "zervice=service，德語口音"
+  },
+  {
+   "hash": "3d8ed701dc409fe7",
+   "zh": "「在下@擠牛奶並製作@奶酪。」",
+   "note": "de=the，und=and，德語口音"
+  },
+  {
+   "hash": "7594e735734b1250",
+   "zh": "「汝想買什麼，只需開口說。」",
+   "note": "vant=want，someting=something，德語口音"
+  },
+  {
+   "hash": "4e6e535991792398",
+   "zh": "「汝想買什麼，待在下開門時來乳品場。」",
+   "note": "ven=when，德語口音"
+  },
+  {
+   "hash": "9aefdc54cf0fcba7",
+   "zh": "「待在下開門時來乳品場，好嗎？」",
+   "note": "ja=yes，德語"
+  },
+  {
+   "hash": "1d514163ca2179d5",
+   "zh": "「好，當然，汝要什麼——牛奶還是@奶酪？」",
+   "note": "vat=what，德語口音"
+  },
+  {
+   "hash": "9aefdc54cf0fcba7",
+   "zh": "「待在下開門時來乳品場，好嗎？」"
+  },
+  {
+   "hash": "9aefdc54cf0fcba7",
+   "zh": "「待在下開門時來乳品場，好嗎？」"
+  },
+  {
+   "hash": "2b380efbeff94d85",
+   "zh": "「在不列顛人中間要多加留心。」",
+   "note": "ze=the，德語口音"
+  },
+  {
+   "hash": "aab4307cef63faf7",
+   "zh": "「在下不知道汝說什麼。」",
+   "note": "德語口音"
+  },
+  {
+   "hash": "7bf2e7fe4fc43e63",
+   "zh": "「汝們誰？」"
+  },
+  {
+   "hash": "d363398e72ee321c",
+   "zh": "「好吧……」",
+   "note": "Vell=Well，德語口音"
+  },
+  {
+   "hash": "2d9d317e80032fc5",
+   "zh": "「共#1金，好嗎？」"
+  },
+  {
+   "hash": "06c653a2aec2747f",
+   "zh": "「好吧，但對汝大有裨益！」"
+  },
+  {
+   "hash": "ab4f57ed144a6084",
+   "zh": "「汝現在沒有金幣。」"
+  },
+  {
+   "hash": "6c98fa7d7578a208",
+   "zh": "「汝沒有空間攜帶。」"
+  },
+  {
+   "hash": "853c3b2d05d43d9d",
+   "zh": "「好！」$N給$Y",
+   "note": "fragment"
+  },
+  {
+   "hash": "e38acbdfbd0ee0c8",
+   "zh": "奶酪",
+   "note": "fragment"
+  },
+  {
+   "hash": "da551fa2a7950e42",
+   "zh": "牛奶",
+   "note": "fragment"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Ubermon Kalbmilch": "烏伯蒙·卡爾米希"
+  }
+ },
+ "translator_notes": "108 Ubermon: 鴉爪鎮乳品場主，德語口音特色（vant/vell/ja/ze等）。在翻譯中保留異鄉人語氣但不過度誇張。賣牛奶和奶酪。"
+}

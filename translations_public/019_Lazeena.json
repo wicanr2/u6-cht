@@ -1,0 +1,226 @@
+{
+ "_meta": {
+  "npc": "Lazeena (Lazeena the Dove)",
+  "role": "海灣鎮（Cove）來的愁苦女吟者，秀髮垂至腳踝；丈夫 Artagel（醫者）赴慈悲聖壇朝拜未歸。她以歌代言，會唱兩首歌謠：(1)短謠記丈夫失蹤 (2)長謠『荷蘭船』敘船難。@Dove 為其外號。"
+ },
+ "translations": [
+  {
+   "hash": "92377a2375b8e297",
+   "zh": "拉瑟娜",
+   "note": "人名音譯；Lazeena → 拉瑟娜；len=7 可容三字"
+  },
+  {
+   "hash": "2dd8ad53001e92d8",
+   "zh": "一名愁苦女子，秀髮垂至腳踝。",
+   "note": "描述句"
+  },
+  {
+   "hash": "0bc1c489cef6ec96",
+   "zh": "她無聲徐行，伴有輕微叮噹之響。",
+   "note": "jingling=身上裝飾叮噹聲"
+  },
+  {
+   "hash": "62034377d98c780f",
+   "zh": "她不言語，只以蘆葦穿風般的嗓音歌唱。",
+   "note": "詩意意譯"
+  },
+  {
+   "hash": "629c1a50d510283c",
+   "zh": "「呵，$G，前來聽歌吧。我有的是時光為汝歌唱。」",
+   "note": "保留 $G"
+  },
+  {
+   "hash": "c4bcadba8e631b86",
+   "zh": "名字",
+   "note": "@name keyword"
+  },
+  {
+   "hash": "c8d69904bc3facf8",
+   "zh": "「人稱我拉瑟娜，@白鴿拉瑟娜。」",
+   "note": "@Dove → @白鴿（外號）"
+  },
+  {
+   "hash": "1398ea40a2101528",
+   "zh": "「我自海灣鎮來，那是滿溢愛意之地。」",
+   "note": "Cove → 海灣鎮（glossary）"
+  },
+  {
+   "hash": "46871c05fdc303c9",
+   "zh": "唱,業,愛,白鴿",
+   "note": "keyword 群組"
+  },
+  {
+   "hash": "e3520056104e053e",
+   "zh": "「畢生之願，是如鳥兒般歌唱。」"
+  },
+  {
+   "hash": "250eb638943858a7",
+   "zh": "「汝可願聽我所聞之新事？」"
+  },
+  {
+   "hash": "e0d68ea0af760a6d",
+   "zh": "謠,岸",
+   "note": "keyword 群組（rhyme/shore）"
+  },
+  {
+   "hash": "a5f3ea8fe5cc153d",
+   "zh": "她歌唱。",
+   "note": "場景描述"
+  },
+  {
+   "hash": "2be4da4d438f58f2",
+   "zh": "「洛克湖之南，海灣之北，",
+   "note": "短謠首句；Loch Lake → 洛克湖（新詞）"
+  },
+  {
+   "hash": "039457ce63ee6956",
+   "zh": "美麗的慈悲聖壇坐落其間。」",
+   "note": "Shrine of Compassion → 慈悲聖壇"
+  },
+  {
+   "hash": "f5ee8391a8577856",
+   "zh": "「@亞塔格爾一日啟程往那兒誦祝。」",
+   "note": "@Artagel → @亞塔格爾"
+  },
+  {
+   "hash": "76783a41806bcd8f",
+   "zh": "「然他至今未歸。」"
+  },
+  {
+   "hash": "e9116e6c54a567e3",
+   "zh": "「莫非為巨人或惡臭的無頭怪所擄，",
+   "note": "headless → 無頭怪（glossary）"
+  },
+  {
+   "hash": "0f025a6c0920f655",
+   "zh": "無人能敵其臭氣？」"
+  },
+  {
+   "hash": "d0c493c61233c736",
+   "zh": "「他本應數週前便歸家。」"
+  },
+  {
+   "hash": "76783a41806bcd8f",
+   "zh": "「然他至今未歸。」",
+   "note": "重複句"
+  },
+  {
+   "hash": "89162a843e9139b1",
+   "zh": "亞塔",
+   "note": "@Artagel keyword"
+  },
+  {
+   "hash": "e1dc2e18b3445ca6",
+   "zh": "「他乃醫者，汝可知曉。」",
+   "note": "healer → 醫者（glossary）"
+  },
+  {
+   "hash": "bedd1424b6fcb697",
+   "zh": "歌,海",
+   "note": "keyword 群組"
+  },
+  {
+   "hash": "a5f3ea8fe5cc153d",
+   "zh": "她歌唱。"
+  },
+  {
+   "hash": "50ac2ca2ffca6b95",
+   "zh": "「荷蘭巨船桅杆採自最巨之樹。」",
+   "note": "Dutchman → 荷蘭巨船（船名）；長謠第 1 句"
+  },
+  {
+   "hash": "8f8b138a172024ac",
+   "zh": "「萬民之榮耀，海上之霸主。」",
+   "note": "長謠 2"
+  },
+  {
+   "hash": "ab45fc3429f6ed78",
+   "zh": "「春日晴朗出港，遠航他鄉之岸。」",
+   "note": "長謠 3"
+  },
+  {
+   "hash": "03c1f630d99f3486",
+   "zh": "「不意狂風驟起，撞向船腹。」",
+   "note": "britney=狂風（疑為 brisk wind 或方言）；長謠 4"
+  },
+  {
+   "hash": "7006b7d7f1b350e3",
+   "zh": "「水手奮力與之搏鬥，奔忙收帆。」",
+   "note": "長謠 5"
+  },
+  {
+   "hash": "85a33b17763e8527",
+   "zh": "「雷鳴轟然作響，巨船劇烈搖晃。」",
+   "note": "長謠 6"
+  },
+  {
+   "hash": "7354b66192026ed9",
+   "zh": "「翌晨輕風重歸海面之上。」",
+   "note": "長謠 7"
+  },
+  {
+   "hash": "a400a5c7dbe69b06",
+   "zh": "「荷蘭船之軀僅餘殘骸碎片。」",
+   "note": "長謠 8"
+  },
+  {
+   "hash": "bde085810a61184b",
+   "zh": "「此事如今了無蹤跡，唯海底一片墓場。」",
+   "note": "長謠 9；gravesight=墓場意象"
+  },
+  {
+   "hash": "fc0a893e560c1866",
+   "zh": "「她長眠於死者沼澤，再無揚帆之日。」",
+   "note": "長謠 10；Fens o' the Dead → 死者沼澤（新詞）"
+  },
+  {
+   "hash": "008a2f19137d94c3",
+   "zh": "別",
+   "note": "@bye keyword"
+  },
+  {
+   "hash": "30b18b9ef1610321",
+   "zh": "「再會吧，吾友。」"
+  },
+  {
+   "hash": "1fa9890fbf035491",
+   "zh": "「此事我無能為力。」",
+   "note": "預設不解回應"
+  },
+  {
+   "hash": "08ed5807b58a118e",
+   "zh": "yn",
+   "note": "yes/no token"
+  },
+  {
+   "hash": "02ad3e593695ef1b",
+   "zh": "「那便告訴我，汝更愛何者："
+  },
+  {
+   "hash": "100a41950f596283",
+   "zh": "海之@歌謠抑或岸之@詩謠？」",
+   "note": "@song → @歌謠；@rhyme → @詩謠"
+  },
+  {
+   "hash": "2a91e17a4f09019f",
+   "zh": "「願能助汝更多，可這小鳥不知能為何事。」",
+   "note": "Lazeena 自比小鳥"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Lazeena": "拉瑟娜",
+   "Lazeena the Dove": "白鴿拉瑟娜",
+   "Artagel": "亞塔格爾"
+  },
+  "places": {
+   "Loch Lake": "洛克湖",
+   "Fens of the Dead": "死者沼澤",
+   "Shrine of Compassion": "慈悲聖壇"
+  },
+  "concepts": {
+   "Dutchman (ship)": "荷蘭船"
+  }
+ },
+ "translator_notes": "Lazeena 來自海灣鎮（Cove），是吟唱式 NPC——她不說話，只以歌唱回應，文體用較凝練的『古典短句』。所有 quote 改寫為意譯（原英文有韻腳/不規則拼字如『britney/Dutchy』），中譯放棄韻腳以換取莊重感與長度安全。@Dove 是她自己的外號（dove=和平／柔順意象，譯『白鴿』）。@Artagel 譯名亞塔格爾，是其丈夫醫者，因前往慈悲聖壇朝拜未歸——這是劇情線索。Fens of the Dead/Loch Lake 為新地名回寫 glossary。"
+}

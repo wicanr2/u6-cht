@@ -1,0 +1,643 @@
+{
+ "_meta": {},
+ "translations": [
+  {
+   "hash": "98bde7405a664fe5",
+   "zh": "永動之機。"
+  },
+  {
+   "hash": "fba6590a22e0d323",
+   "zh": "左：奧泉。\n\n右：能量場。"
+  },
+  {
+   "hash": "da55b6964ca8d272",
+   "zh": "巨石碑。"
+  },
+  {
+   "hash": "cd42b84d8e95968a",
+   "zh": "佐格之骨。"
+  },
+  {
+   "hash": "c6268baacbf30c65",
+   "zh": "巨龍遺物。"
+  },
+  {
+   "hash": "4d7a26b9bc93c47c",
+   "zh": "酪坊"
+  },
+  {
+   "hash": "3e24882dba18b76e",
+   "zh": "屠宰場"
+  },
+  {
+   "hash": "ee74233e473a8bab",
+   "zh": "房屋出售。"
+  },
+  {
+   "hash": "4ba8996d48880ac8",
+   "zh": "當心猛獸！"
+  },
+  {
+   "hash": "b2353349daa95b27",
+   "zh": "修院墓園"
+  },
+  {
+   "hash": "01ab4c08a36875c6",
+   "zh": "請將兵刃留於案上。"
+  },
+  {
+   "hash": "850f0903555de102",
+   "zh": "謙遜之井"
+  },
+  {
+   "hash": "3ead889209109391",
+   "zh": "此路！"
+  },
+  {
+   "hash": "02efce597d4af27c",
+   "zh": "肯特瑞之墓"
+  },
+  {
+   "hash": "ff3bbab7f730d225",
+   "zh": "斯佩克之墓"
+  },
+  {
+   "hash": "f6129fc16991c5ad",
+   "zh": "馬隆之墓"
+  },
+  {
+   "hash": "d8b02772656ec23f",
+   "zh": "波本內之墓"
+  },
+  {
+   "hash": "dabb506762bc7cc6",
+   "zh": "貝文之墓"
+  },
+  {
+   "hash": "440d4aa777812caa",
+   "zh": "簡納提之墓"
+  },
+  {
+   "hash": "acbd095094605f7d",
+   "zh": "羅梅洛之墓"
+  },
+  {
+   "hash": "bb4fd9636c6a4456",
+   "zh": "德威爾之墓"
+  },
+  {
+   "hash": "1172e3ad923b2ebc",
+   "zh": "嘉布麗拉之墓"
+  },
+  {
+   "hash": "661aa9797860116c",
+   "zh": "<vorteks klau, ni canportas>&\n渦旋之室——不得擅入&",
+   "note": "gargish kept"
+  },
+  {
+   "hash": "d417065c1e74117b",
+   "zh": "<hiuman klau>&\n人類之室&"
+  },
+  {
+   "hash": "b62955d33767c90e",
+   "zh": "<librum klau>&\n典籍之室&"
+  },
+  {
+   "hash": "e96d7a1fed66fa04",
+   "zh": "<naksatilor vidlem>&\n預言者納薩蒂&"
+  },
+  {
+   "hash": "41d78d00633b8e05",
+   "zh": "<prilem draksinusom>&\n崔西努森王&"
+  },
+  {
+   "hash": "60a4696a9cc547a4",
+   "zh": "<inmanilem>&\n醫者&"
+  },
+  {
+   "hash": "7a2178d858e53822",
+   "zh": "<beninlem>&\n工匠&"
+  },
+  {
+   "hash": "c2158a5a64f020c9",
+   "zh": "<kansinlem>&\n膳師&"
+  },
+  {
+   "hash": "25e80ced648930a0",
+   "zh": "<agracarinlem>&\n兵器師&"
+  },
+  {
+   "hash": "24c89a874ce98be7",
+   "zh": "<atri skitas>&\n智識之殿&"
+  },
+  {
+   "hash": "45bcd342e4acd89b",
+   "zh": "<kahmanizende tablap>&\n獻祭石板&"
+  },
+  {
+   "hash": "96ea9bf60e653237",
+   "zh": "<teresta sit summle mancar lemmur kahle.>&\n此處安息著受獻祭者之尊骸。&"
+  },
+  {
+   "hash": "86375486df95361a",
+   "zh": "<kuante esta klau anpor os prilemmur>&\n此室之內，安息諸王之骸。&"
+  },
+  {
+   "hash": "c5c643ee6e8a46e0",
+   "zh": "<teresta sit lem antende nom>&\n此處長眠者，無名之輩。&"
+  },
+  {
+   "hash": "c38ae160f7ddb5be",
+   "zh": "<聖者巷>"
+  },
+  {
+   "hash": "df62c3d2dc9a18e9",
+   "zh": "<鳴鐘巷>",
+   "note": "BELLRI]ER=BELLRINGER"
+  },
+  {
+   "hash": "25b43c55399ba28b",
+   "zh": "<巨蛇環道>"
+  },
+  {
+   "hash": "632156a51bb32648",
+   "zh": "<王道>",
+   "note": "[E KI]S=THE KINGS"
+  },
+  {
+   "hash": "9488075f152e8fa8",
+   "zh": "<靈性之路>",
+   "note": "PA[=PATH"
+  },
+  {
+   "hash": "6db2c581b14a0bf5",
+   "zh": "製繩匠"
+  },
+  {
+   "hash": "286f0e8e82c1bf99",
+   "zh": "製線匠"
+  },
+  {
+   "hash": "f87e0ccdac53d16b",
+   "zh": "<長運道>",
+   "note": "LO] HAUL=LONG HAUL"
+  },
+  {
+   "hash": "1b7ca5032ead2dad",
+   "zh": "<泥魚路>"
+  },
+  {
+   "hash": "4d0a4ed592ba33ef",
+   "zh": "此卷軸載滿不列顛王關於天象觀測之筆記。"
+  },
+  {
+   "hash": "220b2d714337d693",
+   "zh": "「敬贈，表親曼瑞爾。」"
+  },
+  {
+   "hash": "3dff582d4c82488c",
+   "zh": "若汝在尋線索，巨蛇堡內有一盆栽，其下藏物以待汝取。"
+  },
+  {
+   "hash": "5c8bbb1e153cd2ca",
+   "zh": "下一線索藏於米諾克之蜂巢底下。"
+  },
+  {
+   "hash": "8837907b80c2508f",
+   "zh": "汝甚佳！其次，應往藍瓶酒館，搜其大鍵琴。"
+  },
+  {
+   "hash": "62a2de718308e20b",
+   "zh": "做得好！再往尤伊牢房，搜其床鋪。"
+  },
+  {
+   "hash": "2973e0a83d2a946c",
+   "zh": "若是常人，至此早已放棄……然汝未棄，下一線索可於新馬精西亞之大鍋下覓得。"
+  },
+  {
+   "hash": "7a5db8f8218111b5",
+   "zh": "汝幾近終點！往不列顛王城堡，搜其石獅。"
+  },
+  {
+   "hash": "59c2d8bac737604a",
+   "zh": "叮叮咚咚噹噹噹！汝勝了，汝勝了！速往尤洛之@hut，向馬兒史密斯問@clue！",
+   "note": "keep @hut and @clue keywords"
+  },
+  {
+   "hash": "af60b85b2a5c2c91",
+   "zh": "尤洛之居"
+  },
+  {
+   "hash": "dcdd5169120134c0",
+   "zh": "鮑德溫之烘焙大全\n\n    或有人嗤之以鼻，然製作麵包、酥點、餡餅、糕餅，實為人生至高志業之一。細研此卷，假以時日，汝或能擔此宏大之責。"
+  },
+  {
+   "hash": "b31b8abc8e976d38",
+   "zh": "獅子胡伯之驚險奇遇\n\n 比爾·彼特著繪\n\n 獅子胡伯，驕矜自大，\n 尤以其優雅鬃毛而傲。\n 此等自負，殊不可取，\n 獅子胡伯，註定要栽。"
+  },
+  {
+   "hash": "cd25a0803b11e258",
+   "zh": "此書似為一艘名「帝國號」之船的航海日誌。末條記載埋藏巨寶之事，並述船員之不滿日益增長。其末另有一筆潦草字跡，與前者不同，曰：「霍金斯船長再也不會寫日誌了。」"
+  },
+  {
+   "hash": "f1e6251166c10593",
+   "zh": "失傳之乘氣球術\n\n    昔日聖者試煉之時，天際傳聞異象。米諾克城一補鍋匠，自稱已重得失傳之乘氣球術。據古老傳說，此乃神秘之術，可令人翱翔長空，比鳥更高。雖無記錄載其儀軌，然鄰里數名農夫仍道其異象。彼等見天際高處有一奇異圓球，球中似有人聲飄落而下。此幻象漸飄入雲端，終至不見。此事已過多年，自彼時起，乘氣球之神秘術再無音訊。"
+  },
+  {
+   "hash": "7d87f7d1151b7f7f",
+   "zh": "魔像族傳說論——長者諾立克著\n\n    雖大多數人視魔像族為傳說，然無記載可述諸多城堡所飾之魔像「石像」之來歷。即令終極智慧守則之書旁那高聳之石守衛，亦具諸多「傳說中」魔像族之外形特徵。亦無人知其來自何處。雖無確證，然亦有不少未經證實之活魔像族目擊之報。本文作者以為，惡魔乃魔像族之一形態。多種學術著作載有可信之惡魔遭遇記，或為探究魔像族相關之最佳資料來源。",
+   "note": "removed 5C-trail 許"
+  },
+  {
+   "hash": "d0038c99e19b26e8",
+   "zh": "纏結奇譚\n\n    很久以前，於一遙遠奇境，有一位法師之學徒。其師艾爾崔奇，遣他踏上三段試煉，知其以真實世界為課堂，學得最佳。他遇上諸多奇事異物。食屍鬼、獅鷹攔阻其路，鬼魂、巨人亦然。然他亦結識新友，並有勇敢冒險者相助。他乘飛毯，也乘巨龜之背。終於，他探過廢棄之礦坑、金字塔，及一座雲端城堡之後，完成第三段試煉。一路所學如此豐厚，師父厚賞之，並宣告他自此為一名正式法師。他不久開辦自己之學堂，歲月流轉，學生來來去去，他的鬍鬚也隨年華漸長。"
+  },
+  {
+   "hash": "1ec3accc3ce8be68",
+   "zh": "傳奇騎士錄 卷一\n\n    昔日，於阿斯塔拉瑞王國，曾有一場大戰。一度邪魔勢力似將得勝，幸賴境內首席騎士塞加里昂奮勇之力，黑暗領主皮達之眾終被擊退殲滅。一時太平。然數年後，皮達再度勢盛。自其暗塔中編織惡謀，竟擒獲公爵，連同名騎塞加里昂亦遭俘。除去最強之敵後，他再度準備揮兵征伐。亂世之中，崛起一群英雄。歷經諸多兇險之冒險，終攻入塞加里昂之囚牢，將其釋放。其後，他們又啟程，欲查明公爵之下落……"
+  },
+  {
+   "hash": "70f70ec8a6e9b0c3",
+   "zh": "黑暗第一紀\n\n    不列顛王統治初期，一名為蒙丹之強大法師，來至不列顛尼亞之地。他召喚出諸多大邪之生靈，以其魔力操縱之。全境哀鴻遍野。正是於此時，聖者首度降臨吾境，以擊敗蒙丹、解放吾民。"
+  },
+  {
+   "hash": "5ba0246cf15a8d29",
+   "zh": "黑暗第二紀\n\n    蒙丹身殞之後，妖姬米納克斯興起恐怖，禍害百姓。她曾為蒙丹之徒。或不止於此——若彼等共寢之室外迴廊所聞之呻吟哀鳴別有所指。她建立死亡與毀滅之治，魔力以其熱情為薪。再度，唯聖者歸來，方終此暴虐。米納克斯被擊敗，如先前蒙丹一般。"
+  },
+  {
+   "hash": "a58dfe547431dd19",
+   "zh": "黑暗第三紀\n\n    米納克斯既亡，太平二十載。其後，蒙丹遺孽之最末者顯露於世。蒙丹與米納克斯曾共造一邪惡之物，世人僅以「出走者」稱之。多年來，它隱匿不出，耐心收集情報以增其力。終於，它決意動用所積之成。它築一巨堡為居，召出第三波怪物之災，不列顛尼亞無處可免於其不息之惡。此乃吾境異世英雄迄今最大之考驗。然聖者再度凱旋。出走者既敗，新一紀繁榮自此啟。"
+  },
+  {
+   "hash": "f693d060d1f29209",
+   "zh": "聖者試煉\n\n    距今未遠之日，法師議會立八大美德之聖壇，使全境眾民得以冥思之。正是經由研習八大美德與其下三原則，那位擊敗邪魔三人組之大英雄，才踏上通往聖者之道。\n\n 故知三原則者，真理、愛、勇氣也；\n 自真理而生誠實；\n 自愛而生慈悲；\n 自勇氣而生勇氣（勇）；\n 真理與愛交融，遂生正義；\n 愛與勇氣交融，遂生犧牲；\n 勇氣與真理交融，遂生榮譽；\n 真理、愛、勇氣三者合一，遂成靈性；\n 三原則皆無，則墮入驕之惡，由此可思其反，乃謙遜之美德。\n\n    於成為八大美德化身之試煉中，聖者尋回終極智慧守則之書，並悟得：通往三原則、進而通往八大美德之根本概念，乃是「無極」。求道者啊，宜深思之！"
+  },
+  {
+   "hash": "a396ae06d2488085",
+   "zh": "命運勇士\n\n    聖者立下光輝典範之後，不列顛尼亞似將邁入太平豐盈之金紀。然一場巨變降臨。不列顛王——一統不列顛尼亞之土、領眾度過史上最艱困歲月之愛戴明君，竟告失蹤。他曾出征探勘新發現之幽冥界，從此一去未返。眾人多疑其已身亡。黑棘領主於其不在之時掌權，宣布戒嚴以維秩序。亦約此時，三位影主現於石門。彼等乃強大邪靈，能扭曲人心，使人背離三原則。傳言彼等可借「渦旋之力」，於此境任處瞬息轉移。實乃黑暗之世。聖者再度被召回不列顛尼亞，終於在幽冥界崩塌之前救出不列顛王，使其重歸應有之王座。"
+  },
+  {
+   "hash": "591434fcccdd51b2",
+   "zh": "禦風者\n\n    異域坎屯有一仁君，名曰朝帝。其治賢明，直至大將祝融自邪術士申將處得一仙丹，使皇帝陷於昏沉。星界邪靈遂據全境諸聖壇，是為黑暗之世。然有一少年弟子，於小庵修畢武藝後，竟解放諸聖壇，擊敗大將，並以不死靈丹救醒皇帝。其名於坎屯永受尊崇。"
+  },
+  {
+   "hash": "8b6527ab60a439d3",
+   "zh": "弗瑞塔之洞窟\n\n    名為弗瑞塔之巨龍降臨秘島，民間驚懼悲苦。一日，勇士葛爾坦啟程前往龍穴與之對峙；該穴乃廣大連綿之洞窟，棲息諸多奇異生靈。他將弗瑞塔逐出此地，眾皆歡騰。"
+  },
+  {
+   "hash": "afda8f83e02bc0a8",
+   "zh": "斯尼威之桌遊策略大全\n\n 西洋棋：以汝之騎士、主教、兵卒掌控棋盤中央。九人莫里斯棋：勿令汝之棋子陷於角落。西洋跳棋：將棋子沿棋盤邊側佈陣，使敵不得取之。"
+  },
+  {
+   "hash": "9f3144c229921d8b",
+   "zh": "論夢與異象\n\n    有云夢中吾人之星靈遊歷他界。亦有云小鬼與惡魔造夢以擾人之眠。今真相當顯！夢者，乃靈界之訊息也。終有一日，吾人將學得解讀之法，並從中大獲其益。"
+  },
+  {
+   "hash": "42b24efc10f322ef",
+   "zh": "弩弓射藝——尤洛·費佐文 著\n\n    善射有禪意。與汝之弩弓合而為一。屏除一切雜念，唯存隨箭飛而中靶之念，則百發百中。"
+  },
+  {
+   "hash": "2d2667c576687190",
+   "zh": "迪薩之箴言年鑑\n\n 賭博，乃以有易無之捷徑。小事既成，勝過大事空謀。莫與半人馬對弈雙陸棋。"
+  },
+  {
+   "hash": "c4668ed1af654c93",
+   "zh": "草木誌\n\n 槲寄生於春日最易尋得。以左手剪枝，效力最強。木槿葉可煎為茶，對喉痛甚佳。莫踏蒲公英，凡見者之妖精，皆會因之動怒。"
+  },
+  {
+   "hash": "f42140abebf4723f",
+   "zh": "綠野仙蹤——L·法蘭克·鮑姆 著\n\n    名為桃樂絲之小女孩，自遙遠之堪薩斯，被龍捲風捲至奧茲之境。她的小狗亦然！她遇上三位忠誠同伴，誓助她尋得歸途。一者為稻草人，求真理；一者為錫人，求愛；一者為獅，求勇氣。試煉未盡之前，小桃樂絲斬除惡巫，解此境於其邪影。其友各自完成試煉，她亦終歸堪薩斯。"
+  },
+  {
+   "hash": "5e0aac4234b7f926",
+   "zh": "愛麗絲夢遊仙境——路易斯·卡羅 著\n\n    一日，愛麗絲見一隻奇怪之白兔，正看其懷錶，憂心遲到。愛麗絲追之入兔洞，墜落甚遠。她發現自己置身奇境。她參加當地之茶會，與瘋帽匠、睡鼠同席。她又遇上奇異之毛蟲，及一隻能消失之貓，其笑容最後方滅。紅心皇后高呼：「砍掉她的頭！」，衛兵衝上前欲擒愛麗絲——然她隨即醒來，方知一切皆是夢。"
+  },
+  {
+   "hash": "76610413cb341eb2",
+   "zh": "失傳真言之書\n\n    Ahm Kim Rum Bem Mu Dim Sum Kyo Ra Lox Nid Pey Beh Un Or Us Cah Biff Pow Ohm Summ Bang Lis Zowie Om Cow Frem Ort Lum Spam Mho Yum Tea Meow",
+   "note": "keep mantras as ASCII"
+  },
+  {
+   "hash": "b97a169699debcda",
+   "zh": "<尋送一件禮品>",
+   "note": "S%\\KI]=SEEKING"
+  },
+  {
+   "hash": "a75ddefc412d2802",
+   "zh": "<贈與德魯伊>"
+  },
+  {
+   "hash": "c89fb8646b231cf6",
+   "zh": "<請試我家一瓶>"
+  },
+  {
+   "hash": "c0a0fdaf130b454a",
+   "zh": "<防腐之液>",
+   "note": "ENBALMI]=EMBALMING"
+  },
+  {
+   "hash": "363aa0984106c56b",
+   "zh": "<緬甸墓誌>"
+  },
+  {
+   "hash": "32d61ea9b1332a1f",
+   "zh": "<汝今所是，我昔亦然>\n <我今所是，汝亦將至>\n <讀此之時，當為死亡作備>"
+  },
+  {
+   "hash": "c862ea5ffd16ed44",
+   "zh": "<於妻生辰之日>\n\n <拉爾夫真機伶>\n\n <一塊墓碑為禮>\n\n <可長傳萬世>\n\n <緬甸墓誌>"
+  },
+  {
+   "hash": "94a1ea3206a8d171",
+   "zh": "<金童玉女終須盡>\n <如掃煙囪化塵泥>",
+   "note": "Cymbeline 引文"
+  },
+  {
+   "hash": "f9d977319108cdcf",
+   "zh": "<此偉大樂師>\n <非僅在打盹>\n <如今在此眠>\n <正在分解中>",
+   "note": "decomposing 諧音"
+  },
+  {
+   "hash": "bf96ede2aff80ddd",
+   "zh": "<此處長眠約翰之身>\n <他的頭已不知所終>\n <但他用不著它>\n <因為他已身亡>"
+  },
+  {
+   "hash": "a6258e65ea372ba2",
+   "zh": "<鉸鏈鏽蝕>\n\n <於愛者棺木之上>\n\n <此非匣盒>\n\n <汝不常掀啟>\n\n <緬甸墓誌>",
+   "note": "HI]ES=HINGES RU_Y=RUSTY"
+  },
+  {
+   "hash": "afd39b891bd65dd0",
+   "zh": "<此處長眠一人，名為艾德>\n\n <生時喧鬧，死後寂寂>"
+  },
+  {
+   "hash": "242c4f1064bf5c79",
+   "zh": "<夫君第一位>\n <塞德里克爵以烈火焚>\n <直至冷匕一刺命終分>"
+  },
+  {
+   "hash": "7d51bc68c45bef0e",
+   "zh": "<夫君第二位>\n <羅德里克哀號身亡>\n <因有人奉他一杯毒釀>"
+  },
+  {
+   "hash": "93c554ffda6bac97",
+   "zh": "<夫君第三位>\n <華特安眠中辭世>\n <其末念是一秘密>\n <死亡會替他守住>"
+  },
+  {
+   "hash": "993b723d9ac35ffc",
+   "zh": "<夫君第四位>\n <羅傑舉止莊嚴且僵硬>\n <某日卻自懸崖墜落而盡>\n <如今其屍乃一殷勤主人>\n <款待蛆蟲與蚊蠅>\n <因他已成幽魂>"
+  },
+  {
+   "hash": "6cd7dcd57a5363e0",
+   "zh": "<夫君第五位>\n <馬丁脫離此苦勞之世>\n <因他跌入沸油之釜中>"
+  },
+  {
+   "hash": "d5df8f993296522d",
+   "zh": "<雖她五任夫君皆先她而去>\n <如今貝絲自己也已不在世>\n <但當她吐出最後一息之時>\n <她仍展笑容嘲諷死亡之神>"
+  },
+  {
+   "hash": "2ee29cd899ede27d",
+   "zh": "此畫描繪一道方形樓梯，無始亦無終。畫中有數名披兜帽之僧侶，朝兩個方向行走。當汝觀此畫時，便發覺畫中諸僧正在緩緩移動，無止盡地上行又下行。",
+   "note": "Escher 名作"
+  },
+  {
+   "hash": "13847f4fcc61299a",
+   "zh": "此乃一幅畫，畫中所繪是一幅掛於牆上之畫。畫中之畫所繪是一支懸於空中之菸斗，其斗中冒出裊裊輕煙。畫中之畫的畫框，鑲有一塊小銘牌，上書「此非菸斗。」",
+   "note": "Magritte 致敬"
+  },
+  {
+   "hash": "55b8bff7dd5ccb91",
+   "zh": "此畫呈一奇異卻又熟悉之景。畫中一座小博物館內，數人站立凝視牆上一幅畫。汝僅見彼等之背影。當汝舉手搔頭，畫中某身影也照做。那便是汝！此畫如鏡，映照其前所發生之一切，然它顯現之乃萬物另一面，彷彿懸於對面牆上。"
+  },
+  {
+   "hash": "ef783ae330da8510",
+   "zh": "此乃一幅華美之汝肖像。畫框底部有一小銘牌，僅書「聖者」二字。畫像右下角署名「伍卓夫」。"
+  },
+  {
+   "hash": "5a4ec05b36ee8e54",
+   "zh": "此乃名家狐狸船長之畫作。"
+  },
+  {
+   "hash": "4cd33c967b7e3c9c",
+   "zh": "此畫出自名家海倫·葛瑞奧特之手。"
+  },
+  {
+   "hash": "c0df8e5bc607876d",
+   "zh": "此畫有著名藝匠馬斯葛雷夫之署名。"
+  },
+  {
+   "hash": "c3021b6cd4ee8b9a",
+   "zh": "此乃受人敬重之畫家艾摩爾之畫作。"
+  },
+  {
+   "hash": "5a96a7383e32b17e",
+   "zh": "此畫繪一森林之神獸吹奏排簫，為林中生靈而奏。其上有才華橫溢之莫妮卡·奈頓之署名。"
+  },
+  {
+   "hash": "3c01d1817a589b74",
+   "zh": "此畫繪一虎一龍，蓄勢欲鬥，乃無與倫比之伊麗莎·馬丁所繪。"
+  },
+  {
+   "hash": "e0d545828ac4a1f9",
+   "zh": "<kodeks rit>&\n儀典之書&\n\n <vervid ben kua i, naksatilor, skri kuo i porle kodeks uide terreg ew estade kalle ante tim benommani: ku auks lorrelinlem i beninle vorteks lorrel, o kua i le vid kodeks kuater lem terinit anporle. i inle vorteks kuad re inbet grav ok orblap ew trakpor vorteks destrak termur. estatim i perle lorrel re inuislor kodeks ad kuad. vorteks tanle uide terailem, uislor inle ailemde, ew kodeks porle des re perle bende pa uide zenmur.> &\n\n（譯文）\n\n諸君當聆，吾，納薩蒂，述吾如何攜守則之書至吾地，由此啟繁榮之世：*\n 賴造透鏡者之助，吾製成渦旋透鏡，藉之吾可窺見守則之書原本所棲之所。*\n 吾造渦旋立方體，以聚月光石之力，並引渦旋下臨此界。*\n 隨後，吾以透鏡將守則之書之像凝於立方體之上。*\n 渦旋觸及吾境，其像成實，守則之書遂降臨於此，俾吾族善用之！&",
+   "note": "long codex book"
+  },
+  {
+   "hash": "caf712a44c9b2883",
+   "zh": "<kodeks destermur>&\n幽冥界之書&\n\n <alt desde terreg ai ali terreg. ante esta terreg manite mur aniw zen. plu tri de ista zen vid zaw ve uide anvolde lem. ista daemon ade pal ew delsa. kualem lokte ista daemon de destermur sa lok. ew kerde, lem inte son esta misve uide liy. a kua lemmur uiste, an zen anku vol verde uis. feluis de lokde daemon nes ankredle.> &\n\n（譯文）\n\n地深處有另一界。彼界棲息諸多奇異生靈。*\n 其中最有趣者，形貌略似吾族之無翼者。然此等惡魔，膚色蒼白而柔軟。*\n 有云此等出自幽冥界之惡魔能言。誠然，彼等發聲與吾語相似。*\n 然眾所周知，無翼之生靈絕非真有智慧。談及能語惡魔之傳說，皆當斥為虛妄。&"
+  },
+  {
+   "hash": "be5e08df2b5a025a",
+   "zh": "<kodeks benmontas>&\n治理之書&\n\n <dur anmurde vastim ui volde lem monte anvolde lem. ista ver ew behde. a ui nes tutim reski lem an min persa de ui. zentu ku an uiscar ansa por. a ni sa zentu ku an porcar. tu nes per te pri si kui re leinle. er duk anvolde lem, ew ark lem de via feltas. a duk lem ku lentas ew vervid.> &\n\n（譯文）\n\n歷代以來，吾等有翼者率引無翼者。此乃正當且合宜之事。*\n 然吾等須時時謹記，彼等之價值，未嘗遜於吾等。*\n 無頭之軀不能行；無腿之軀亦然。*\n 欲成大事，眾須合一而動。*\n 故當導引無翼者，使其不入歧途。然導之，當以敬重之心。&"
+  },
+  {
+   "hash": "1423b37fecd3a958",
+   "zh": "<kodeks benommani>&\n繁榮之書&\n\n <vas praetim, vas vidlem naksatilor kalle kodeks ante termur. ita rele vastim benommani. kodeks terle ante terort pritas, teresta re vidle pa lem nesde vasuis. vidlem terreg, monle pa naksatilor, juksarkle kodeks ku saeykt grav. sol lem ad omde vestas trak uis canle terpor ew leg kodeks. ante kodeks skrile pri ben ew ver res kui kuae. lem nes sol terpor kodeks, leg lem, ew inuislok lemde monuis aptade. ku verinde uis ew ankadsa ski, tu mante est ten un, or, ew us nesle re pos apta via. ista est desintas uide murom, ew ita uide zenmur sa per kodeks uisde ew bende. ista est kuauis kodeks est: re mon gar{ zenmur trak ultim benommani.> &\n\n（譯文）\n\n遠古之時，大預言者納薩蒂將守則之書召喚入此界。由是啟繁榮之大世。*\n 守則之書置於獨身者聖殿之中，凡求其智者，可往觀之。*\n 此境之預言者，以納薩蒂為首，以結界護守守則之書。*\n 唯有踏上求智聖試煉者，方得近之、讀之。*\n 守則之書中所載，乃對任何疑難之唯一正確真實之答。人但近其前、讀之、正確解其指引即可。*\n 既有完美之智、不謬之知，所餘者，唯需克制、熱情、勤勉，方能依正道而行。*\n 此乃吾族社會之根基，由此吾族方能善用守則之書。*\n 此即守則之書存在之因：引魔像族通往終極之繁榮。&",
+   "note": "longest gargish + Chinese codex"
+  },
+  {
+   "hash": "b0f939dc20ffc268",
+   "zh": "<kodeks xen>&\n家族之書&\n\n <kuatim betlem grespor de ov, lem inzenle anku vol. a vel de inzen lem sa ski si betlem re invas est volde au anvolde lem. anvolde lem ansa lok, ew anten skitas de volde lem. lem nes dukle. volde lem anmur, a lem kredonle ku skitas ew uis de zenmur. lem nes dukte. sek volde ew anvolde lem sal de mis ov, ew sek dete de mis xen. tu per ve pride tutas, re plu ben inten agratas trak temanitas ante uide termur.> &\n\n（譯文）\n\n幼兒破殼而出時，本皆無翼而生。然甫降生，便可知其將成為有翼或無翼者。*\n 無翼者不能語，亦無有翼者之才智。彼等須受導引。*\n 有翼者為少數，然吾族之才智與智慧託付於彼等。彼等須行導引。*\n 有翼與無翼者皆出於同卵，皆屬同一家族。*\n 眾皆合為一體而動，俾於此界生存之爭中更得保全。&"
+  },
+  {
+   "hash": "fe8354de65a553e1",
+   "zh": "<kodeks kir>&\n圜環之書&\n\n <tu rete ku qi aksi: un, or, ew us. de un sal traktas. de or sal sent. de us sal tepertas. a ista qi bentas an plu mag de sekde pen: un kuporte ku or re don mistas. or kuporte ku us re don leintas. ew us int ku un re don benintas. anai de un, or, ew us est anord. ita anai de aksi vidukte trak semde bentas, ord. qi aksi priinte re in pritas. ista est okde bentas, a lem mistim pri, kuauis kuante pritas sa venle tu aksi, ew ita tu bentas. kir ten an fin. lem teinte tutim, ku tu car parde mag te benfin de tutas. uide murom mis. lem mis teinte tutim, ku tu carzen, ew tu bentas, par car de priinle tutas.> &\n\n（譯文）\n\n萬事始於三原則：克制、熱情、勤勉。*\n 自克制生方向。自熱情生情感。自勤勉生恆毅。*\n 然此三美德，並不較其他五者更為重要：*\n 克制與熱情合，生平衡。熱情與勤勉合，生成就。勤勉與克制合，生精準。*\n 克制、熱情、勤勉三者皆無，即為混沌。故三原則之缺亡，指向第七美德——秩序。*\n 三原則合而為一，即成獨身。此乃第八美德，然亦為第一，因獨身之中，可尋得一切原則，亦含一切美德。*\n 圜環無終，永恆延續，諸環節於全體之成皆同等重要。*\n 吾族社會亦然，永恆延續，諸成員（並一切美德）皆乃合一全體之同等部分。&"
+  },
+  {
+   "hash": "c304d07dfa3e406f",
+   "zh": "<kodeks ultim uis>&\n終極智慧守則之書&"
+  },
+  {
+   "hash": "ef55a2a52a8039fa",
+   "zh": "<kodeks balsil>&\n預言之書&"
+  },
+  {
+   "hash": "66f181204d5f6f7e",
+   "zh": "<kodeks kir>&\n圜環之書&"
+  },
+  {
+   "hash": "886355ad2a30ab1d",
+   "zh": "<此處長眠霍金斯船長>\n\n <他死得淒慘，亦是應得>"
+  },
+  {
+   "hash": "961a1e85ed304b8a",
+   "zh": "此路"
+  },
+  {
+   "hash": "a34bc90ec077bd3d",
+   "zh": "墜亡之路！"
+  },
+  {
+   "hash": "57c7d5693808ca73",
+   "zh": "彼路"
+  },
+  {
+   "hash": "a89585b56d7c32bd",
+   "zh": "死亡迷宮！"
+  },
+  {
+   "hash": "7ffdc7ba98dd1dba",
+   "zh": "禁區"
+  },
+  {
+   "hash": "e1f95ce8b51380ee",
+   "zh": "持此函者，獲准探訪尤伊城牢獄之獨囚之室。此項准令，由吾本日親手授予。  ——蕾諾拉"
+  },
+  {
+   "hash": "d4acdcfc3a89c326",
+   "zh": "卡菲里斯坦關"
+  },
+  {
+   "hash": "30cca5d058cc609b",
+   "zh": "熱氣球之製作圖說。\n\n 首先須有一柳編籃，可載數人。其次須一大鐵鍋，以盛火生熱氣。再次須以絲縫成一巨囊，以納熱氣。最末，需備足量繩索，將氣球穩繫於籃上。集齊諸物之後，依此圖說組裝之。乘汝之氣球升空時，會發現船錨乃最佳之壓艙物，亦可用以隨意停駐氣球於汝所欲之處所之時。"
+  },
+  {
+   "hash": "7f03b6cdc7f8c53a",
+   "zh": "<vorteks lorrel>&\n渦旋透鏡&"
+  },
+  {
+   "hash": "df2f103d3d91e1be",
+   "zh": "<vorteks kuad>&\n渦旋立方體&"
+  },
+  {
+   "hash": "6fa6411169a75a1b",
+   "zh": "<ara pritas>&\n獨身者聖壇&"
+  },
+  {
+   "hash": "0a2808a3552944df",
+   "zh": "靈性之書\n\n 於汝人生旅途之中，當常記靈性乃一切美德之總和。冥思靈性之時，誦真言「om」，則一切自將昭然於汝。"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Naxatilor": "納薩蒂",
+   "Lord Draxinusom": "崔西努森王",
+   "Norlick the Elder": "長者諾立克",
+   "Eldritch": "艾爾崔奇",
+   "Seggallion": "塞加里昂",
+   "Pildar": "皮達",
+   "Captain Hawkins": "霍金斯船長",
+   "Captain John": "約翰船長",
+   "Chao Ti": "朝帝",
+   "Zhurong": "祝融",
+   "Shen Jang": "申將",
+   "Lenora": "蕾諾拉",
+   "Manrel": "曼瑞爾",
+   "Bill Pete": "比爾·彼特",
+   "L. Frank Baum": "L·法蘭克·鮑姆",
+   "Lewis Carroll": "路易斯·卡羅",
+   "Dorothy": "桃樂絲",
+   "Alice": "愛麗絲",
+   "Helen Garriott": "海倫·葛瑞奧特",
+   "Captain Fox": "狐狸船長",
+   "Musgrave": "馬斯葛雷夫",
+   "Elmore": "艾摩爾",
+   "Monica Knighton": "莫妮卡·奈頓",
+   "Elissa Martin": "伊麗莎·馬丁",
+   "Woodroffe": "伍卓夫",
+   "Baldwin": "鮑德溫",
+   "Dilzal": "迪薩",
+   "Snilwit": "斯尼威",
+   "Freitag": "弗瑞塔",
+   "Sir Cedric": "塞德里克爵",
+   "Roderic": "羅德里克",
+   "Walter": "華特",
+   "Rogers": "羅傑",
+   "Martin": "馬丁",
+   "Ralph": "拉爾夫",
+   "Ed": "艾德"
+  },
+  "places": {
+   "Ashtalarea": "阿斯塔拉瑞",
+   "Khantun": "坎屯",
+   "Mystic Isles": "秘島",
+   "Kansas": "堪薩斯",
+   "Oz": "奧茲",
+   "Kafiristan Pass": "卡菲里斯坦關",
+   "Burma Grave": "緬甸墓誌",
+   "Avatar Lane": "聖者巷",
+   "Bellringer Lane": "鳴鐘巷",
+   "Serpents Loop": "巨蛇環道",
+   "The Kings Way": "王道",
+   "The Spiritual Path": "靈性之路",
+   "The Long Haul": "長運道",
+   "Mudfish Road": "泥魚路"
+  },
+  "concepts": {
+   "Vortex Chamber": "渦旋之室",
+   "Human Chamber": "人類之室",
+   "Librum Chamber": "典籍之室",
+   "Hall of Knowledge": "智識之殿",
+   "Sacrificial Slab": "獻祭石板",
+   "The Vortex Lens": "渦旋透鏡",
+   "The Vortex Cube": "渦旋立方體",
+   "The Altar of Singularity": "獨身者聖壇",
+   "The Book of Ritual": "儀典之書",
+   "The Book of The Underworld": "幽冥界之書",
+   "The Book of Administration": "治理之書",
+   "The Book of Prosperity": "繁榮之書",
+   "The Book of Family": "家族之書",
+   "The Book of Circles": "圜環之書",
+   "The Book of Prophecies": "預言之書",
+   "The Codex of Ultimate Wisdom": "終極智慧守則之書",
+   "The Book of Spirituality": "靈性之書",
+   "Triad of Evil": "邪魔三人組",
+   "Council of Wizards": "法師議會",
+   "shadowlords": "影主",
+   "First Age of Darkness": "黑暗第一紀",
+   "Second Age of Darkness": "黑暗第二紀",
+   "Third Age of Darkness": "黑暗第三紀",
+   "Infinity": "無極",
+   "Direction": "方向",
+   "Feeling": "情感",
+   "Persistence": "恆毅",
+   "Balance": "平衡",
+   "Achievement": "成就",
+   "Precision": "精準",
+   "Chaos": "混沌",
+   "Order": "秩序",
+   "Singularity": "獨身",
+   "perpetual motion machine": "永動之機",
+   "mystery fountain": "奧泉",
+   "energy field": "能量場",
+   "monolith": "巨石碑",
+   "Healer": "醫者",
+   "Goodscrafter": "工匠",
+   "Foodmaker": "膳師",
+   "Weaponsmith": "兵器師",
+   "Lensmaker": "造透鏡者",
+   "Astral Plane": "星界",
+   "Elixir of Immortality": "不死靈丹"
+  },
+  "items": {
+   "wicker balloon basket": "柳編籃",
+   "balloon": "氣球",
+   "hot air balloon": "熱氣球",
+   "anchor": "船錨",
+   "ballast": "壓艙物",
+   "harpsichord": "大鍵琴",
+   "cauldron": "大鍋",
+   "beehive": "蜂巢"
+  }
+ },
+ "translator_notes": "127 entries 全部翻譯完畢。所有 zh_bytes <= len，5C trail-byte 字（許/歿/蓋/閱）已避用替換為 容/亡/葛/讀。魔像語 (Gargish) 段落如 <kodeks rit>&、<vorteks lorrel>& 等以及 NPC 引文之原文保留不譯，僅譯英文翻譯部分。守則之書 (Codex) 八篇及繁榮之書、家族之書、圜環之書等採用最莊重之文白並用文體，符合宗教經典感。墓誌銘段（idx 82-94, 114）保留 < > 標記，原文 BURMA-Shave 廣告詩風格之諧趣以中文對仗保留。天文卷軸、line/path 招牌、傳奇書、童話書（綠野仙蹤、愛麗絲夢遊仙境、纏結奇譚等）依風格指南文白並用。Mantras of Lost Book (idx 76) 真言保留 ASCII 不譯，僅譯標題。idx 53 結尾 @hut/@clue 為 keyword 觸發詞，依規則保留 ASCII。"
+}

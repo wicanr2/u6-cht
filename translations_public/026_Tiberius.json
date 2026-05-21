@@ -1,0 +1,319 @@
+{
+ "_meta": {
+  "npc": "Tiberius",
+  "role": "新馬精西亞鎮（New Magincia）的胖修士醫者，主治療傷、解毒、復活；對玩家稱『吾兒』（my child）。"
+ },
+ "translations": [
+  {
+   "hash": "bf7baf8c21486266",
+   "zh": "提貝里斯",
+   "note": "人名音譯，四字 8 bytes 剛好"
+  },
+  {
+   "hash": "74fdf4aa9a476e45",
+   "zh": "一名身披修士袍的圓胖男子。",
+   "note": "描述句"
+  },
+  {
+   "hash": "c96cfa7b1f530ddb",
+   "zh": "「吾兒安好",
+   "note": "Tiberius 對玩家稱『吾兒』；與 ren 拼接"
+  },
+  {
+   "hash": "89e9c81960f4d31a",
+   "zh": "ren",
+   "note": "字串拼接後綴 children 的 ren，保留 ASCII"
+  },
+  {
+   "hash": "43182261effce050",
+   "zh": "。今日有何事可效勞？」",
+   "note": "修士謙卑口吻"
+  },
+  {
+   "hash": "0a8f1acc5f9a199b",
+   "zh": "heal",
+   "note": "@heal keyword 內部觸發碼，保留 ASCII"
+  },
+  {
+   "hash": "4c968190ace35550",
+   "zh": "cure",
+   "note": "@cure keyword 內部觸發碼，保留 ASCII"
+  },
+  {
+   "hash": "4cb66e1fbfb4e024",
+   "zh": "resu",
+   "note": "@resurrect keyword 內部觸發碼，保留 ASCII"
+  },
+  {
+   "hash": "b2aa4eee99206af1",
+   "zh": "「汝何故悲泣？同伴中無一人亡故！」"
+  },
+  {
+   "hash": "c4bcadba8e631b86",
+   "zh": "name",
+   "note": "@name keyword 內部碼保留"
+  },
+  {
+   "hash": "6eafa3b213da6a17",
+   "zh": "「我乃提貝里斯，此鎮之醫者。」"
+  },
+  {
+   "hash": "45627c193a5b605c",
+   "zh": "job",
+   "note": "@job keyword 內部碼保留"
+  },
+  {
+   "hash": "83df54a986108c74",
+   "zh": "「照看病傷之人，乃我之職責。」"
+  },
+  {
+   "hash": "276748e88e481b46",
+   "zh": "「我可@療傷、@解毒，必要時更可@復活倒下之人。」",
+   "note": "@heal→@療傷；@cure→@解毒；@resurrect→@復活"
+  },
+  {
+   "hash": "7c7099bbbf484532",
+   "zh": "bye,no",
+   "note": "keyword 內部碼保留"
+  },
+  {
+   "hash": "950241292d65a8b8",
+   "zh": "「平安去吧，吾兒",
+   "note": "與 ren 拼接成 children"
+  },
+  {
+   "hash": "89e9c81960f4d31a",
+   "zh": "ren",
+   "note": "拼接後綴保留 ASCII"
+  },
+  {
+   "hash": "07da0e07b4a02ac9",
+   "zh": "。",
+   "note": "len=2 緊；單個全形句號剛好"
+  },
+  {
+   "hash": "b53f7a197981b790",
+   "zh": "yes",
+   "note": "@yes keyword 內部碼保留"
+  },
+  {
+   "hash": "8f14487cf8cce24b",
+   "zh": "「有何事可為汝效勞？」"
+  },
+  {
+   "hash": "8ded6a1041341d62",
+   "zh": "「汝意何指？」"
+  },
+  {
+   "hash": "e8c1eb571ac0c7aa",
+   "zh": "「待我開門時再來吧！」"
+  },
+  {
+   "hash": "5d7b9eba74f9536f",
+   "zh": "「勿憂，汝身體無恙。」"
+  },
+  {
+   "hash": "311dc8d8111ea702",
+   "zh": "#2) $Y",
+   "note": "格式控制保留"
+  },
+  {
+   "hash": "7bc2cd1592661070",
+   "zh": "「勿憂，諸位皆健康無恙！」"
+  },
+  {
+   "hash": "311dc8d8111ea702",
+   "zh": "#2) $Y",
+   "note": "格式控制保留"
+  },
+  {
+   "hash": "7bf2e7fe4fc43e63",
+   "zh": "「諸位何人？」"
+  },
+  {
+   "hash": "0096c89bdb1ea6cc",
+   "zh": "「我見汝之傷，$Y。」",
+   "note": "保留 $Y"
+  },
+  {
+   "hash": "87ef4fd0f61f6961",
+   "zh": "「汝願獻金三十枚否？」"
+  },
+  {
+   "hash": "08ed5807b58a118e",
+   "zh": "yn",
+   "note": "y/n 觸發碼保留"
+  },
+  {
+   "hash": "1562253d87bc51fd",
+   "zh": "提貝里斯按手於$Y，傷處便已癒合。",
+   "note": "按手治療動作描述"
+  },
+  {
+   "hash": "eb56ee104dc7ff07",
+   "zh": "「若汝不付獻金，我無法為汝療傷。」"
+  },
+  {
+   "hash": "e5f8119409f78da4",
+   "zh": "「實感歉意。無獻金則無法為汝療傷。」"
+  },
+  {
+   "hash": "432e96e99d4ce8fd",
+   "zh": "「汝雖貧寒，然汝之志正大。」"
+  },
+  {
+   "hash": "73a57cdee2cf317a",
+   "zh": "「我願為汝療傷，分文不取。」"
+  },
+  {
+   "hash": "1562253d87bc51fd",
+   "zh": "提貝里斯按手於$Y，傷處便已癒合。"
+  },
+  {
+   "hash": "184ec2cf143a8639",
+   "zh": "「尚有他事可為汝效勞否？」"
+  },
+  {
+   "hash": "e8c1eb571ac0c7aa",
+   "zh": "「待我開門時再來吧！」"
+  },
+  {
+   "hash": "5d7b9eba74f9536f",
+   "zh": "「勿憂，汝身體無恙。」"
+  },
+  {
+   "hash": "311dc8d8111ea702",
+   "zh": "#2) $Y",
+   "note": "格式控制保留"
+  },
+  {
+   "hash": "7bcd3f15926f26ab",
+   "zh": "「勿憂，諸位皆健康無恙。」"
+  },
+  {
+   "hash": "311dc8d8111ea702",
+   "zh": "#2) $Y",
+   "note": "格式控制保留"
+  },
+  {
+   "hash": "7bf2e7fe4fc43e63",
+   "zh": "「諸位何人？」"
+  },
+  {
+   "hash": "b1c30cf120a76e6a",
+   "zh": "「我察覺汝身中毒，$Y。」"
+  },
+  {
+   "hash": "c2e73e73444a5d5b",
+   "zh": "「汝願獻金十枚否？」"
+  },
+  {
+   "hash": "08ed5807b58a118e",
+   "zh": "yn",
+   "note": "y/n 觸發碼保留"
+  },
+  {
+   "hash": "a1429cf918feee05",
+   "zh": "提貝里斯按手於$Y，毒素便已消散。"
+  },
+  {
+   "hash": "eb56ee104dc7ff07",
+   "zh": "「若汝不付獻金，我無法為汝療傷。」"
+  },
+  {
+   "hash": "e5f8119409f78da4",
+   "zh": "「實感歉意。無獻金則無法為汝療傷。」"
+  },
+  {
+   "hash": "432e96e99d4ce8fd",
+   "zh": "「汝雖貧寒，然汝之志正大。」"
+  },
+  {
+   "hash": "6c3f002ce822cfcb",
+   "zh": "「我願為汝解毒，分文不取。」"
+  },
+  {
+   "hash": "a1429cf918feee05",
+   "zh": "提貝里斯按手於$Y，毒素便已消散。"
+  },
+  {
+   "hash": "f1ee6e17884cb4db",
+   "zh": "「我見$Y懷中載一已逝之友。」"
+  },
+  {
+   "hash": "e8c1eb571ac0c7aa",
+   "zh": "「待我開門時再來吧！」"
+  },
+  {
+   "hash": "bee3fae276f0725c",
+   "zh": "「汝願獻金四百枚否？」"
+  },
+  {
+   "hash": "08ed5807b58a118e",
+   "zh": "yn"
+  },
+  {
+   "hash": "0ba8420e5395b116",
+   "zh": "「那麼我所能為者，唯與汝同悲。」"
+  },
+  {
+   "hash": "b924be6ab9afb455",
+   "zh": "「此金錢不足。」"
+  },
+  {
+   "hash": "46a5f426ffa5bbcb",
+   "zh": "「汝尚欠#1枚金幣。」",
+   "note": "保留 #1 與 \\s 變數標記"
+  },
+  {
+   "hash": "4bad2430a4712596",
+   "zh": "「去找掘墓人吧，料想他索價會低些。」",
+   "note": "gravedigger→掘墓人"
+  },
+  {
+   "hash": "442e99118a9e0726",
+   "zh": "汝之同伴為亡故之友湊起一筆款項。"
+  },
+  {
+   "hash": "aa0158a9f71f2090",
+   "zh": "提貝里斯按手於屍身……"
+  },
+  {
+   "hash": "514009a24fcb86ac",
+   "zh": "「多曼…」",
+   "note": "復活咒語音節音譯，第一節；單個 ellipsis 控 bytes"
+  },
+  {
+   "hash": "f969324013f7d968",
+   "zh": "「席薩…」",
+   "note": "復活咒語第二節；單個 ellipsis"
+  },
+  {
+   "hash": "f9ef335076824b7b",
+   "zh": "「安瑞!」",
+   "note": "復活咒語末節；用半形 ! 控 bytes"
+  },
+  {
+   "hash": "5882524ad132e7e4",
+   "zh": "亡者重獲生命！"
+  },
+  {
+   "hash": "9c99f8344f21dfee",
+   "zh": "「我見$Y又懷中載一亡友。」"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Tiberius": "提貝里斯"
+  },
+  "concepts": {
+   "healer": "醫者",
+   "gravedigger": "掘墓人",
+   "offering": "獻金",
+   "lay hands": "按手",
+   "fallen": "倒下之人",
+   "parted friend": "已逝之友"
+  }
+ },
+ "translator_notes": "Tiberius 用 \"my child\" 對玩家親稱，譯『吾兒』展現修士口吻。三組重複的療傷／解毒／復活對話保持譯文一致以利讀者學習介面。復活咒語 Doman/thixus/anretu 為自編音節，採音譯以保留神秘感。len=2 的 .\" 因中文標點佔 4 bytes 改為單『。』。對於 yn / yes / no / heal / cure / resu / name / job / bye 等 keyword 內部觸發碼一律保留 ASCII 不譯（因玩家通常輸入英文 keyword 觸發；句中 @heal/@cure/@resurrect 仍譯為中文供顯示）。0 OVERFLOW。"
+}

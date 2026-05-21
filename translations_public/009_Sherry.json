@@ -1,0 +1,313 @@
+{
+ "_meta": {},
+ "translations": [
+  {
+   "hash": "c306e263db5397c8",
+   "zh": "雪莉"
+  },
+  {
+   "hash": "a33cda8421d46c8c",
+   "zh": "一隻可愛小老鼠。",
+   "note": "[DESC]"
+  },
+  {
+   "hash": "d58aa94ef2d1237a",
+   "zh": "「吱、吱、@吱吱!」",
+   "note": "@squeak keyword"
+  },
+  {
+   "hash": "92b982eb9604d479",
+   "zh": "「跟老鼠講話?」杜普雷說道。"
+  },
+  {
+   "hash": "b078ff61ccbe68eb",
+   "zh": "「俺看汝怕是開始幻想了……」"
+  },
+  {
+   "hash": "9617de190fcb2723",
+   "zh": "sque",
+   "note": "keyword 觸發詞保留英文"
+  },
+  {
+   "hash": "cfadb30bd04da637",
+   "zh": "「吱吱@吱嚕?」"
+  },
+  {
+   "hash": "4986dc69a5b5fa77",
+   "zh": "squi,nitt,fibl",
+   "note": "keyword 觸發詞"
+  },
+  {
+   "hash": "305996a661aaf5ef",
+   "zh": "「吱──!」"
+  },
+  {
+   "hash": "561edd130cc74315",
+   "zh": "cat,meow,boo",
+   "note": "keyword 觸發詞"
+  },
+  {
+   "hash": "9b1752ece59660ed",
+   "zh": "「咿!」"
+  },
+  {
+   "hash": "c4bcadba8e631b86",
+   "zh": "name",
+   "note": "keyword 觸發詞"
+  },
+  {
+   "hash": "030919ebc85286cb",
+   "zh": "「俺乃@不列顛王的好友@雪莉是也。」"
+  },
+  {
+   "hash": "7d560e159b945c3b",
+   "zh": "lord,brit",
+   "note": "keyword 觸發詞"
+  },
+  {
+   "hash": "43b3dd95ee9e8b27",
+   "zh": "「他每晚都唸@故事哄奴家入睡哩。」"
+  },
+  {
+   "hash": "2aaa657a1c005b7c",
+   "zh": "bed,stor,nigh",
+   "note": "keyword 觸發詞"
+  },
+  {
+   "hash": "ba1eefe5a38f1013",
+   "zh": "「他連@獅子胡伯的故事都能倒背如流呢!」"
+  },
+  {
+   "hash": "f832f61ce78a431f",
+   "zh": "hube,lion",
+   "note": "keyword 觸發詞"
+  },
+  {
+   "hash": "d733795a1c57f101",
+   "zh": "「那是奴家最愛聽的故事。」"
+  },
+  {
+   "hash": "46fe5c18e2ab0709",
+   "zh": "sher",
+   "note": "keyword 觸發詞"
+  },
+  {
+   "hash": "577c7b8adb080125",
+   "zh": "「見到大人真高興!」"
+  },
+  {
+   "hash": "f04ef197201714e0",
+   "zh": "help,rune,mous,hole,join",
+   "note": "keyword 觸發詞"
+  },
+  {
+   "hash": "f5bac2255d8ba20f",
+   "zh": "「給點@乳酪奴家,再來問一次嘛。」"
+  },
+  {
+   "hash": "779b8e1228ad10d6",
+   "zh": "kerc,bles,gesh,snee,dust",
+   "note": "keyword 觸發詞"
+  },
+  {
+   "hash": "805d8b15c1957007",
+   "zh": "「真希望大家會把床底和櫃下打掃乾淨……」"
+  },
+  {
+   "hash": "54941e2cf9f56900",
+   "zh": "「塵球可不是俺的朋友!」",
+   "note": "dust mice→塵球"
+  },
+  {
+   "hash": "f2958c910b4ef57c",
+   "zh": "chee",
+   "note": "keyword 觸發詞"
+  },
+  {
+   "hash": "008a2f19137d94c3",
+   "zh": "bye",
+   "note": "len=3 太短保留英文"
+  },
+  {
+   "hash": "507fcf6f3e36a22b",
+   "zh": "「尼特@菲伯。」"
+  },
+  {
+   "hash": "f7fd0eb2996796a0",
+   "zh": "「要常來看奴家喔!」"
+  },
+  {
+   "hash": "bfdbf6b9cbb45a59",
+   "zh": "「哈啾!」",
+   "note": "打噴嚏聲"
+  },
+  {
+   "hash": "3b432f076d843e75",
+   "zh": "老鼠對汝抖了抖鬍鬚。"
+  },
+  {
+   "hash": "28c47f922231aca9",
+   "zh": "「大人有乳酪嗎?」"
+  },
+  {
+   "hash": "08ed5807b58a118e",
+   "zh": "yn",
+   "note": "y/n prompt"
+  },
+  {
+   "hash": "1ac6f4834eb74dd4",
+   "zh": "「哎呀,真可惜。」"
+  },
+  {
+   "hash": "d95aa1dc4804b49f",
+   "zh": "「俺聞不到乳酪味呢!」"
+  },
+  {
+   "hash": "2fd0b61e2757c4bf",
+   "zh": "「給俺一些嘛?」"
+  },
+  {
+   "hash": "08ed5807b58a118e",
+   "zh": "yn",
+   "note": "y/n prompt"
+  },
+  {
+   "hash": "9ebfd03938f67002",
+   "zh": "「真沒意思。」"
+  },
+  {
+   "hash": "666b2d071b96863e",
+   "zh": "「多謝大人!」"
+  },
+  {
+   "hash": "560914e0865737e8",
+   "zh": "「奴家能幫汝!想讓奴家同行嗎?」"
+  },
+  {
+   "hash": "08ed5807b58a118e",
+   "zh": "yn",
+   "note": "y/n prompt"
+  },
+  {
+   "hash": "2690a1f1ce875ec3",
+   "zh": "\"好\"",
+   "note": "ASCII 引號省 byte"
+  },
+  {
+   "hash": "2cf2347a8e15828d",
+   "zh": "「讚!」"
+  },
+  {
+   "hash": "cbd77761788509f5",
+   "zh": "「乘船會暈船哩。」"
+  },
+  {
+   "hash": "1e8307569f6e48ea",
+   "zh": "「人那麼多會被踩扁啦!」"
+  },
+  {
+   "hash": "c9c884e7b2717695",
+   "zh": "「跟大人同遊真有趣!但願能再多找到些乳酪呢。」"
+  },
+  {
+   "hash": "c4bcadba8e631b86",
+   "zh": "name",
+   "note": "keyword 觸發詞"
+  },
+  {
+   "hash": "030919ebc85286cb",
+   "zh": "「俺乃@不列顛王的好友@雪莉是也。」"
+  },
+  {
+   "hash": "7d560e159b945c3b",
+   "zh": "lord,brit",
+   "note": "keyword 觸發詞"
+  },
+  {
+   "hash": "1abf02f28f24bab8",
+   "zh": "「他從前每晚都唸@故事哄奴家睡覺呢。」"
+  },
+  {
+   "hash": "2aaa657a1c005b7c",
+   "zh": "bed,stor,nigh",
+   "note": "keyword 觸發詞"
+  },
+  {
+   "hash": "ba1eefe5a38f1013",
+   "zh": "「他連@獅子胡伯的故事都能倒背如流呢!」"
+  },
+  {
+   "hash": "f832f61ce78a431f",
+   "zh": "hube,lion",
+   "note": "keyword 觸發詞"
+  },
+  {
+   "hash": "d733795a1c57f101",
+   "zh": "「那是奴家最愛聽的故事。」"
+  },
+  {
+   "hash": "46fe5c18e2ab0709",
+   "zh": "sher",
+   "note": "keyword 觸發詞"
+  },
+  {
+   "hash": "577c7b8adb080125",
+   "zh": "「見到大人真高興!」"
+  },
+  {
+   "hash": "45627c193a5b605c",
+   "zh": "job",
+   "note": "len=3 保留英文"
+  },
+  {
+   "hash": "ad8990b2742b82b0",
+   "zh": "「俺能鑽過大人過不去的小縫呢!」"
+  },
+  {
+   "hash": "008a2f19137d94c3",
+   "zh": "bye",
+   "note": "keyword 觸發詞"
+  },
+  {
+   "hash": "a8ef8b7aa642d823",
+   "zh": "「大人真逗!」"
+  },
+  {
+   "hash": "476859ac76173477",
+   "zh": "「噢,再會。是要奴家現在回家了嗎?」"
+  },
+  {
+   "hash": "08ed5807b58a118e",
+   "zh": "yn",
+   "note": "y/n prompt"
+  },
+  {
+   "hash": "e608466a8ab44245",
+   "zh": "\"好的\"",
+   "note": "ASCII 引號"
+  },
+  {
+   "hash": "43a7d841563e8f4f",
+   "zh": "「沒出去之前奴家可不下船!」"
+  },
+  {
+   "hash": "aa36155cdeea1e33",
+   "zh": "「太好了!奴家又能聽床邊故事啦!」"
+  },
+  {
+   "hash": "0f710b6dc627dd5e",
+   "zh": "「俺的東西先交給大人,以備不時之需。」"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Hubert the Lion": "獅子胡伯"
+  },
+  "concepts": {
+   "cheese": "乳酪",
+   "dust mice": "塵球",
+   "bedtime stories": "床邊故事"
+  }
+ },
+ "translator_notes": "Sherry 童趣老鼠，混用『俺/奴家』，稱玩家『大人』。短 keyword 觸發詞保留英文以符 byte 約束。Ok./Okay. 改 ASCII 引號省 byte。67 strings 全 ≤ len。"
+}

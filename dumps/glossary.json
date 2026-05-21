@@ -1,0 +1,1350 @@
+{
+  "_meta": {
+    "purpose": "Ultima VI EN→繁中譯名統一表。所有譯者 agent 必讀，新詞要回寫。",
+    "style": "古英文 thee/thou/hath → 文白並用的古典中文 (爾/汝/卿)，避免過度文言；玩家對話可平白。",
+    "constraints": [
+      "保留所有 @keyword（前綴 @ 標記，是 NPC 對話 lookup trigger，後接 ASCII 字母）",
+      "保留 $P, $T, $N 等變數（$P=玩家名, $T=time-of-day 等）",
+      "保留 0xF1 / 0xF3 / 0xF6 / 0xF7 / 0xF8 等控制 byte（不是 ASCII，是 converse VM opcode）",
+      "Big5 encode，trail 0x5C 字（『運』『橋』『年』『甲』等）要 escape 成 5C 5C",
+      "句長盡量不超過原文 bytes（不超過 1.6x 為佳），免得 repack 後 offset 漂移",
+      "@keyword 譯名要跟句中 [@xxx] 對應，例如 @virtue 譯『美德』，後面 keyword section 也要列『美德』作 keyword"
+    ]
+  },
+  "people": {
+    "Avatar": "聖者",
+    "Lord British": "不列顛王",
+    "Blackthorn": "黑棘",
+    "Mondain": "蒙丹",
+    "Minax": "米納克斯",
+    "Exodus": "出走者",
+    "Dupre": "杜普雷",
+    "Shamino": "夏米諾",
+    "Iolo": "尤洛",
+    "Geoffrey": "傑佛瑞",
+    "Tholden": "索登",
+    "Nystul": "尼斯托",
+    "Sherry": "雪莉",
+    "Chuckles": "笑笑（弄臣）",
+    "Linda": "琳達",
+    "Sentri": "山特利",
+    "Captain John": "約翰船長",
+    "Phoenix": "鳳凰",
+    "Singularity": "獨身者",
+    "The King": "貓王",
+    "Shamino Salle' Dacil": "夏米諾·薩列·達席爾",
+    "Mariah": "瑪萊雅",
+    "Gertan": "葛爾坦",
+    "Gwenno": "葛雯",
+    "Gwenneth": "葛雯妮絲",
+    "Lynn the Fletcher": "製箭匠林恩",
+    "Smith (horse)": "史密斯",
+    "Hubert the Lion": "獅子胡伯",
+    "Tholden von Bazillius": "索登·馮·巴齊柳斯",
+    "Sin'Vraal": "辛弗拉",
+    "Kenneth": "肯尼斯",
+    "Sir Kenneth": "肯尼斯爵士",
+    "Nan": "南",
+    "Lady Nan": "南夫人",
+    "Ariana": "艾莉安娜",
+    "Matt": "馬特",
+    "Peyton": "佩頓",
+    "Naxatilor": "納薩蒂",
+    "Lord Draxinusom": "崔西努森王",
+    "Norlick the Elder": "長者諾立克",
+    "Eldritch": "艾爾崔奇",
+    "Seggallion": "塞加里昂",
+    "Pildar": "皮達",
+    "Captain Hawkins": "霍金斯船長",
+    "Chao Ti": "朝帝",
+    "Zhurong": "祝融",
+    "Shen Jang": "申將",
+    "Lenora": "蕾諾拉",
+    "Manrel": "曼瑞爾",
+    "Bill Pete": "比爾·彼特",
+    "L. Frank Baum": "L·法蘭克·鮑姆",
+    "Lewis Carroll": "路易斯·卡羅",
+    "Dorothy": "桃樂絲",
+    "Alice": "愛麗絲",
+    "Helen Garriott": "海倫·葛瑞奧特",
+    "Captain Fox": "狐狸船長",
+    "Musgrave": "馬斯葛雷夫",
+    "Elmore": "艾摩爾",
+    "Monica Knighton": "莫妮卡·奈頓",
+    "Elissa Martin": "伊麗莎·馬丁",
+    "Woodroffe": "伍卓夫",
+    "Baldwin": "鮑德溫",
+    "Dilzal": "迪薩",
+    "Snilwit": "斯尼威",
+    "Freitag": "弗瑞塔",
+    "Sir Cedric": "塞德里克爵",
+    "Roderic": "羅德里克",
+    "Walter": "華特",
+    "Rogers": "羅傑",
+    "Martin": "馬丁",
+    "Ralph": "拉爾夫",
+    "Ed": "艾德"
+  },
+  "places": {
+    "Britannia": "不列顛尼亞",
+    "Britain": "不列顛城",
+    "Trinsic": "崔西克",
+    "Magincia": "馬精西亞",
+    "New Magincia": "新馬精西亞",
+    "Yew": "尤伊",
+    "Minoc": "米諾克",
+    "Moonglow": "月華城",
+    "Skara Brae": "斯卡拉布雷",
+    "Jhelom": "傑隆",
+    "Cove": "海灣鎮",
+    "Vesper": "晚星鎮",
+    "Buccaneer's Den": "海盜窩",
+    "Empath Abbey": "共感修道院",
+    "Lycaeum": "學苑",
+    "Serpent's Hold": "巨蛇堡",
+    "Stonegate": "石門",
+    "Underworld": "幽冥界",
+    "Spiritwood": "靈魂林",
+    "Spirituality Shrine": "聖靈聖壇",
+    "Codex of Ultimate Wisdom": "終極智慧守則之書",
+    "Deep Forest": "深林",
+    "Frasier's Folly": "弗雷澤之愚醇",
+    "Wayfarer's Inn": "旅人客棧",
+    "Ashtalarea": "阿斯塔拉瑞",
+    "Khantun": "坎屯",
+    "Mystic Isles": "秘島",
+    "Kansas": "堪薩斯",
+    "Oz": "奧茲",
+    "Kafiristan Pass": "卡菲里斯坦關",
+    "Burma Grave": "緬甸墓誌",
+    "Avatar Lane": "聖者巷",
+    "Bellringer Lane": "鳴鐘巷",
+    "Serpents Loop": "巨蛇環道",
+    "The Kings Way": "王道",
+    "The Spiritual Path": "靈性之路",
+    "The Long Haul": "長運道",
+    "Mudfish Road": "泥魚路"
+  },
+  "concepts": {
+    "Compendium": "典籍",
+    "Codex": "守則之書",
+    "Quick Reference Card": "速查卡",
+    "Virtue": "美德",
+    "the eight virtues": "八大美德",
+    "Honesty": "誠實",
+    "Compassion": "慈悲",
+    "Valor": "勇氣",
+    "Justice": "正義",
+    "Sacrifice": "犧牲",
+    "Honor": "榮譽",
+    "Spirituality": "靈性",
+    "Humility": "謙遜",
+    "Three Principles": "三原則",
+    "Truth": "真理",
+    "Love": "愛",
+    "Courage": "勇氣",
+    "Shrine": "聖壇",
+    "Moonstone": "月光石",
+    "Moongate": "月之門",
+    "Orb of the Moons": "月之球",
+    "Rune": "符文",
+    "Mantra": "真言",
+    "Ankh": "安克符",
+    "Gargoyle": "魔像族",
+    "Gargish": "魔像語",
+    "Mage": "法師",
+    "Avatar's quest": "聖者試煉",
+    "quest": "試煉",
+    "damsel": "佳人",
+    "grail": "聖杯",
+    "banquet": "宴會",
+    "invasion": "入侵",
+    "wisp": "幽影",
+    "creature": "生靈",
+    "townfolk": "城裡人",
+    "council": "議會",
+    "lifesblood": "命脈",
+    "Council of Wizards": "法師議會",
+    "guild": "公會",
+    "artisan": "工匠",
+    "tournament": "比武大會",
+    "apprentice": "學徒",
+    "crossbow": "弩弓",
+    "triple crossbow": "三連弩",
+    "boomerang": "飛去來器",
+    "bard": "吟遊詩人",
+    "Karma": "業力",
+    "Quest flag": "試煉旗標",
+    "worktype": "工作型",
+    "Strength": "力量",
+    "Intelligence": "智力",
+    "Dexterity": "敏捷",
+    "Level": "等級",
+    "Experience": "經驗",
+    "shrines": "聖壇",
+    "virtues": "美德",
+    "underworld": "幽冥界",
+    "throne": "王座",
+    "schemes": "陰謀",
+    "invaders": "入侵者",
+    "cheese": "乳酪",
+    "dust mice": "塵球",
+    "bedtime stories": "床邊故事",
+    "Chancellor": "宰相",
+    "Conservatory": "音樂院",
+    "Werecat": "貓人",
+    "ledger": "帳冊",
+    "festival": "節慶",
+    "paperwork": "文牘",
+    "adventurer": "冒險者",
+    "library": "藏書閣",
+    "tablet": "銀版",
+    "Book of Prophecies": "預言之書",
+    "false prophet": "偽先知",
+    "Control": "克制",
+    "Passion": "熱情",
+    "Diligence": "勤勉",
+    "earthquake": "巨震",
+    "plague": "瘟疫",
+    "famine": "飢荒",
+    "Zu": "眠 (魔法音節)",
+    "Quas": "幻 (魔法音節)",
+    "Hur": "風 (魔法音節)",
+    "Jux": "危/陷阱/傷 (魔法音節)",
+    "Ort": "法力 (魔法音節)",
+    "concert": "音樂會",
+    "composition": "作曲",
+    "improvisation": "即興",
+    "performance": "演奏",
+    "lute": "琉特琴",
+    "spider": "蜘蛛",
+    "gloves": "手套",
+    "inn": "客棧",
+    "room": "客房",
+    "Vortex Chamber": "渦旋之室",
+    "Human Chamber": "人類之室",
+    "Librum Chamber": "典籍之室",
+    "Hall of Knowledge": "智識之殿",
+    "Sacrificial Slab": "獻祭石板",
+    "The Vortex Lens": "渦旋透鏡",
+    "The Vortex Cube": "渦旋立方體",
+    "The Altar of Singularity": "獨身者聖壇",
+    "The Book of Ritual": "儀典之書",
+    "The Book of The Underworld": "幽冥界之書",
+    "The Book of Administration": "治理之書",
+    "The Book of Prosperity": "繁榮之書",
+    "The Book of Family": "家族之書",
+    "The Book of Circles": "圜環之書",
+    "The Book of Prophecies": "預言之書",
+    "The Codex of Ultimate Wisdom": "終極智慧守則之書",
+    "The Book of Spirituality": "靈性之書",
+    "Triad of Evil": "邪魔三人組",
+    "shadowlords": "影主",
+    "First Age of Darkness": "黑暗第一紀",
+    "Second Age of Darkness": "黑暗第二紀",
+    "Third Age of Darkness": "黑暗第三紀",
+    "Infinity": "無極",
+    "Direction": "方向",
+    "Feeling": "情感",
+    "Persistence": "恆毅",
+    "Balance": "平衡",
+    "Achievement": "成就",
+    "Precision": "精準",
+    "Chaos": "混沌",
+    "Order": "秩序",
+    "Singularity": "獨身",
+    "perpetual motion machine": "永動之機",
+    "mystery fountain": "奧泉",
+    "energy field": "能量場",
+    "monolith": "巨石碑",
+    "Healer": "醫者",
+    "Goodscrafter": "工匠",
+    "Foodmaker": "膳師",
+    "Weaponsmith": "兵器師",
+    "Lensmaker": "造透鏡者",
+    "Astral Plane": "星界",
+    "Elixir of Immortality": "不死靈丹"
+  },
+  "items": {
+    "potion": "藥水",
+    "scroll": "卷軸",
+    "spell": "法術",
+    "key": "鑰匙",
+    "torch": "火炬",
+    "lockpick": "撬鎖工具",
+    "spellbook": "法術書",
+    "reagent": "施法材料",
+    "wicker balloon basket": "柳編籃",
+    "balloon": "氣球",
+    "hot air balloon": "熱氣球",
+    "anchor": "船錨",
+    "ballast": "壓艙物",
+    "harpsichord": "大鍵琴",
+    "cauldron": "大鍋",
+    "beehive": "蜂巢"
+  },
+  "monsters": {
+    "gargoyle": "魔像",
+    "winged gargoyle": "有翼魔像",
+    "daemon": "惡魔",
+    "wisp": "幽影",
+    "dragon": "龍",
+    "headless": "無頭怪",
+    "skeleton": "骷髏",
+    "ghost": "幽魂",
+    "troll": "山怪",
+    "orc": "獸人",
+    "mongbat": "魔蝠"
+  },
+  "pronouns_grammar": {
+    "thee": "汝",
+    "thou": "汝/爾",
+    "thy": "汝之",
+    "thine": "汝之",
+    "ye": "諸位",
+    "'tis": "是也",
+    "hath": "已",
+    "dost": "「動詞」乎",
+    "doth": "做",
+    "mayst": "可"
+  },
+  "variables": {
+    "$P": "$P  // 玩家名，不譯",
+    "$T": "$T  // 時辰，不譯",
+    "$N": "$N  // 名字，不譯",
+    "$G": "$G  // 性別/敬稱變數，不譯"
+  },
+  "keywords_common": {
+    "_note": "@xxx keyword tag 統一譯名 — 玩家會輸入這些 keyword 觸發對話分支",
+    "@name": "@名字",
+    "@job": "@職業",
+    "@bye": "@再見",
+    "@word": "@關鍵字",
+    "@buy": "@買",
+    "@sell": "@賣",
+    "@yes": "@是",
+    "@no": "@否",
+    "@virtue": "@美德",
+    "@shrine": "@聖壇",
+    "@gargoyle": "@魔像",
+    "@rune": "@符文",
+    "@mantra": "@真言",
+    "@moonstone": "@月光石",
+    "@gate": "@月之門",
+    "@orb": "@月之球",
+    "@compendium": "@典籍",
+    "@codex": "@守則之書",
+    "@grain": "@穀子",
+    "@crops": "@作物",
+    "@bread": "@麵包",
+    "@roots": "@根",
+    "@meat": "@肉",
+    "@wheat": "@小麥",
+    "@sheep": "@羊",
+    "@gravedigger": "@掘墓人",
+    "@help": "@助",
+    "@story": "@故事",
+    "@gather": "@匯集",
+    "@split": "@均分",
+    "@apprentice": "@學徒",
+    "@bard": "@吟遊詩人",
+    "@guild": "@公會",
+    "@tea": "@茶",
+    "@Folly": "@愚醇",
+    "@Nose": "@大鼻",
+    "@shrines": "@聖壇",
+    "@virtues": "@美德",
+    "@healing": "@療傷",
+    "@repeat": "@重述",
+    "@troubled": "@擔",
+    "@absurd": "@荒誕",
+    "@tomfoolery": "@愚行",
+    "@speech": "@唇舌",
+    "@frolic": "@嬉鬧",
+    "@prance": "@蹦跳",
+    "@jape": "@戲謔",
+    "@alcoholic": "@醉漢",
+    "@chest": "@寶箱",
+    "@hint": "@提示",
+    "@Conservatory": "@音樂院",
+    "@Werecat": "@酒窖之貓人"
+  },
+  "riddles": {
+    "_note": "謎語、雙關、占卜段；每 entry: npc, key, en, zh, ref, strategy",
+    "entries": [
+      {
+        "npc": "Linda",
+        "key": "MEAT_TALK",
+        "en": "Woman does not live on meat alone.",
+        "zh": "女人活著，不能單靠肉。",
+        "ref": "Matthew 4:4 仿經文 + 性別反轉 (Man/bread → Woman/meat)",
+        "strategy": "仿聖經句式，省略語助詞保留莊重感"
+      },
+      {
+        "npc": "Dupre",
+        "key": "DEW_PRAY",
+        "en": "It's Dupre - sounds like dew pray, remember?",
+        "zh": "是杜普雷——聽起來像『朝露之禱』，記得吧？",
+        "ref": "Dupre / dew pray 英語諧音雙關",
+        "strategy": "音譯保留人名『杜普雷』，諧音改寫為意境相近的中文短語『朝露之禱』"
+      },
+      {
+        "npc": "Dupre",
+        "key": "WINK_NUDGE",
+        "en": "Wink wink, nudge nudge, say no more...",
+        "zh": "眨眼示意，戳一下肋骨，不必多說……",
+        "ref": "Monty Python's Flying Circus sketch 致敬",
+        "strategy": "直譯動作 + 保留『不必多說』暗示語氣"
+      },
+      {
+        "npc": "Dupre",
+        "key": "DUCKS",
+        "en": "Please, let's not talk about ducks...",
+        "zh": "拜託，咱們別再提鴨子的事了……",
+        "ref": "Ultima V 系列梗：Dupre 怕鴨子",
+        "strategy": "直譯，保留荒謬幽默"
+      },
+      {
+        "npc": "Shamino",
+        "key": "WALL_TREE",
+        "en": "When folk ask why I have no walls in my home, I ask where are the trees in theirs!",
+        "zh": "「人問我屋中何以無牆，我便反問——他們屋中何以無樹！」",
+        "ref": "Shamino 招牌反問句。家＝森林、樹＝牆",
+        "strategy": "對仗式重寫"
+      },
+      {
+        "npc": "Shamino",
+        "key": "LIFESBLOOD",
+        "en": "In many ways they are the lifesblood of the realm.",
+        "zh": "「樹乃此境之命脈。」",
+        "ref": "lifesblood→命脈",
+        "strategy": "凝練意譯"
+      },
+      {
+        "npc": "Dupre",
+        "key": "DEW_PRAY",
+        "en": "It's Dupre - sounds like dew pray, remember?",
+        "zh": "是杜普雷——聽起來像『朝露之禱』，記得吧？",
+        "ref": "Dupre / dew pray 英語諧音雙關",
+        "strategy": "音譯保留人名『杜普雷』，諧音改寫為意境相近的中文短語『朝露之禱』"
+      },
+      {
+        "npc": "Dupre",
+        "key": "WINK_NUDGE",
+        "en": "Wink wink, nudge nudge, say no more...",
+        "zh": "眨眼示意，戳一下肋骨，不必多說……",
+        "ref": "Monty Python's Flying Circus sketch 致敬",
+        "strategy": "直譯動作 + 保留『不必多說』暗示語氣"
+      },
+      {
+        "npc": "Dupre",
+        "key": "DUCKS",
+        "en": "Please, let's not talk about ducks...",
+        "zh": "拜託，咱們別再提鴨子的事了……",
+        "ref": "Ultima V 系列梗：Dupre 怕鴨子",
+        "strategy": "直譯，保留荒謬幽默"
+      },
+      {
+        "npc": "Shamino",
+        "key": "WALL_TREE",
+        "en": "When folk ask why I have no walls in my home, I ask where are the trees in theirs!",
+        "zh": "「人問我屋中何以無牆，我便反問——他們屋中何以無樹！」",
+        "ref": "Shamino 招牌反問句",
+        "strategy": "對仗式重寫"
+      },
+      {
+        "npc": "Shamino",
+        "key": "LIFESBLOOD",
+        "en": "lifesblood of the realm",
+        "zh": "此境之命脈",
+        "ref": "lifesblood→命脈",
+        "strategy": "凝練意譯"
+      },
+      {
+        "npc": "Iolo",
+        "key": "MR_NOSE",
+        "en": "Where Mr. Nose hangs out. / His nibs, the king.",
+        "zh": "@大鼻先生常駐之地。／那位大人——也就是國王。",
+        "ref": "Iolo 對 Lord British 的暱稱／戲稱",
+        "strategy": "Mr. Nose 直譯『大鼻先生』；His nibs 譯『那位大人』"
+      },
+      {
+        "npc": "Iolo",
+        "key": "FRASIERS_FOLLY",
+        "en": "Frasier's Folly",
+        "zh": "弗雷澤之愚醇",
+        "ref": "酒名 / folly=愚行雙關",
+        "strategy": "音譯+意譯結合"
+      },
+      {
+        "npc": "Iolo",
+        "key": "SPAM_HUMBUG_PASS",
+        "en": "spam / humbug → Ask Shamino about that.",
+        "zh": "罐肉／騙術 →「此事去問夏米諾吧。」",
+        "ref": "spam=Monty Python; humbug=Dickens 《Christmas Carol》Scrooge 口頭禪",
+        "strategy": "保留兩個關鍵字觸發詞與重定向句"
+      },
+      {
+        "npc": "Iolo",
+        "key": "STONES_SONG",
+        "en": "'Stones' - a piece I composed some years ago",
+        "zh": "在下多年前所譜之曲『石』",
+        "ref": "Ultima 系列彩蛋：Iolo 與 Gwenno 真實創作",
+        "strategy": "直譯曲名為單字『石』"
+      },
+      {
+        "npc": "Iolo",
+        "key": "MR_NOSE",
+        "en": "Where Mr. Nose hangs out. / His nibs, the king.",
+        "zh": "@大鼻先生常駐之地。／那位大人——也就是國王。",
+        "ref": "Iolo 對 Lord British 的暱稱／戲稱",
+        "strategy": "Mr. Nose 直譯『大鼻先生』；His nibs 譯『那位大人』"
+      },
+      {
+        "npc": "Iolo",
+        "key": "FRASIERS_FOLLY",
+        "en": "Frasier's Folly",
+        "zh": "弗雷澤之愚醇",
+        "ref": "酒名 / folly=愚行雙關",
+        "strategy": "音譯+意譯結合"
+      },
+      {
+        "npc": "Iolo",
+        "key": "SPAM_HUMBUG_PASS",
+        "en": "spam / humbug → Ask Shamino about that.",
+        "zh": "罐肉／騙術 →「此事去問夏米諾吧。」",
+        "ref": "spam=Monty Python; humbug=Dickens 《Christmas Carol》Scrooge 口頭禪",
+        "strategy": "保留兩個關鍵字觸發詞與重定向句"
+      },
+      {
+        "npc": "Iolo",
+        "key": "STONES_SONG",
+        "en": "'Stones' - a piece I composed some years ago",
+        "zh": "在下多年前所譜之曲『石』",
+        "ref": "Ultima 系列彩蛋：Iolo 與 Gwenno 真實創作",
+        "strategy": "直譯曲名為單字『石』"
+      },
+      {
+        "npc": "Sherry",
+        "key": "MOUSE_TALK",
+        "en": "Squeak, squeak / Nitters fiblik / Squeak squirk",
+        "zh": "吱、吱 / 尼特菲伯 / 吱吱吱嚕",
+        "ref": "Sherry 老鼠話",
+        "strategy": "音譯擬聲+保留 keyword 觸發字"
+      },
+      {
+        "npc": "Sherry",
+        "key": "HUBERT_LION",
+        "en": "Hubert the Lion",
+        "zh": "獅子胡伯",
+        "ref": "虛構童話獅子",
+        "strategy": "音譯+類型詞"
+      },
+      {
+        "npc": "Sherry",
+        "key": "DUST_MICE",
+        "en": "Dust mice are no friends of mine!",
+        "zh": "塵球可不是俺的朋友!",
+        "ref": "dust mice=灰塵團俚語",
+        "strategy": "意譯為塵球，放棄 mouse 雙關"
+      },
+      {
+        "npc": "Chuckles",
+        "key": "HO_EYO_HE_HUM",
+        "en": "Ho eyo he hum, I've got a clue!",
+        "zh": "叮叮咚咚噹噹噹，俺有@線索特意俏！",
+        "ref": "招牌順口溜",
+        "strategy": "ㄠ 韻七言式"
+      },
+      {
+        "npc": "Chuckles",
+        "key": "QUEST_CHEST_JEST",
+        "en": "A quest, a chest, oh what a jest!",
+        "zh": "@試煉、寶箱，何等@笑談一場！",
+        "ref": "三字 -est 押韻",
+        "strategy": "ㄤ 韻"
+      },
+      {
+        "npc": "Chuckles",
+        "key": "ANKH_ANKH",
+        "en": "It said 'ankh ankh!'",
+        "zh": "牠說『安克！』",
+        "ref": "honk/ankh 鵝叫雙關",
+        "strategy": "雙關不可譯，保語意"
+      },
+      {
+        "npc": "Chuckles",
+        "key": "DUPRE_HORSESHOE",
+        "en": "It's because they both have the letter 'r' in them!",
+        "zh": "因為兩者都有字母『r』在內！",
+        "ref": "字母 r 諧音",
+        "strategy": "保留 ASCII r 不譯"
+      },
+      {
+        "npc": "Chuckles",
+        "key": "QUEST_HINT",
+        "en": "Search the chest in Nystul's room.",
+        "zh": "翻翻@尼斯托房裡那只@寶箱。",
+        "ref": "主線 quest 第一個 hint！",
+        "strategy": "保留情報"
+      },
+      {
+        "npc": "Dupre",
+        "key": "DEW_PRAY",
+        "en": "It's Dupre - sounds like dew pray, remember?",
+        "zh": "是杜普雷——聽起來像『朝露之禱』，記得吧？",
+        "ref": "Dupre / dew pray 英語諧音雙關",
+        "strategy": "音譯保留人名『杜普雷』，諧音改寫為意境相近的中文短語『朝露之禱』"
+      },
+      {
+        "npc": "Dupre",
+        "key": "WINK_NUDGE",
+        "en": "Wink wink, nudge nudge, say no more...",
+        "zh": "眨眼示意，戳一下肋骨，不必多說……",
+        "ref": "Monty Python's Flying Circus sketch 致敬",
+        "strategy": "直譯動作 + 保留『不必多說』暗示語氣"
+      },
+      {
+        "npc": "Dupre",
+        "key": "DUCKS",
+        "en": "Please, let's not talk about ducks...",
+        "zh": "拜託，咱們別再提鴨子的事了……",
+        "ref": "Ultima V 系列梗：Dupre 怕鴨子",
+        "strategy": "直譯，保留荒謬幽默"
+      },
+      {
+        "npc": "Shamino",
+        "key": "WALL_TREE",
+        "en": "When folk ask why I have no walls in my home, I ask where are the trees in theirs!",
+        "zh": "「人問我屋中何以無牆，我便反問——他們屋中何以無樹！」",
+        "ref": "Shamino 招牌反問句",
+        "strategy": "對仗式重寫"
+      },
+      {
+        "npc": "Shamino",
+        "key": "LIFESBLOOD",
+        "en": "lifesblood of the realm",
+        "zh": "此境之命脈",
+        "ref": "lifesblood→命脈",
+        "strategy": "凝練意譯"
+      },
+      {
+        "npc": "Iolo",
+        "key": "MR_NOSE",
+        "en": "Where Mr. Nose hangs out. / His nibs, the king.",
+        "zh": "@大鼻先生常駐之地。／那位大人——也就是國王。",
+        "ref": "Iolo 對 Lord British 的暱稱／戲稱",
+        "strategy": "Mr. Nose 直譯『大鼻先生』；His nibs 譯『那位大人』"
+      },
+      {
+        "npc": "Iolo",
+        "key": "FRASIERS_FOLLY",
+        "en": "Frasier's Folly",
+        "zh": "弗雷澤之愚醇",
+        "ref": "酒名 / folly=愚行雙關",
+        "strategy": "音譯+意譯結合"
+      },
+      {
+        "npc": "Iolo",
+        "key": "SPAM_HUMBUG_PASS",
+        "en": "spam / humbug → Ask Shamino about that.",
+        "zh": "罐肉／騙術 →「此事去問夏米諾吧。」",
+        "ref": "spam=Monty Python; humbug=Dickens 《Christmas Carol》Scrooge 口頭禪",
+        "strategy": "保留兩個關鍵字觸發詞與重定向句"
+      },
+      {
+        "npc": "Iolo",
+        "key": "STONES_SONG",
+        "en": "'Stones' - a piece I composed some years ago",
+        "zh": "在下多年前所譜之曲『石』",
+        "ref": "Ultima 系列彩蛋：Iolo 與 Gwenno 真實創作",
+        "strategy": "直譯曲名為單字『石』"
+      },
+      {
+        "npc": "Iolo",
+        "key": "MR_NOSE",
+        "en": "Where Mr. Nose hangs out. / His nibs, the king.",
+        "zh": "@大鼻先生常駐之地。／那位大人——也就是國王。",
+        "ref": "Iolo 對 Lord British 的暱稱／戲稱",
+        "strategy": "Mr. Nose 直譯『大鼻先生』；His nibs 譯『那位大人』"
+      },
+      {
+        "npc": "Iolo",
+        "key": "FRASIERS_FOLLY",
+        "en": "Frasier's Folly",
+        "zh": "弗雷澤之愚醇",
+        "ref": "酒名 / folly=愚行雙關",
+        "strategy": "音譯+意譯結合"
+      },
+      {
+        "npc": "Iolo",
+        "key": "SPAM_HUMBUG_PASS",
+        "en": "spam / humbug → Ask Shamino about that.",
+        "zh": "罐肉／騙術 →「此事去問夏米諾吧。」",
+        "ref": "spam=Monty Python; humbug=Dickens 《Christmas Carol》Scrooge 口頭禪",
+        "strategy": "保留兩個關鍵字觸發詞與重定向句"
+      },
+      {
+        "npc": "Iolo",
+        "key": "STONES_SONG",
+        "en": "'Stones' - a piece I composed some years ago",
+        "zh": "在下多年前所譜之曲『石』",
+        "ref": "Ultima 系列彩蛋：Iolo 與 Gwenno 真實創作",
+        "strategy": "直譯曲名為單字『石』"
+      },
+      {
+        "npc": "Tholden",
+        "key": "WERECAT_WINE_CELLAR",
+        "en": "'The Werecat of the Wine Cellar'",
+        "zh": "『酒窖之貓人』",
+        "ref": "Tholden 年輕時綽號",
+        "strategy": "直譯 werecat=貓人"
+      },
+      {
+        "npc": "Sherry",
+        "key": "MOUSE_TALK",
+        "en": "Squeak, squeak / Nitters fiblik / Squeak squirk",
+        "zh": "吱、吱 / 尼特菲伯 / 吱吱吱嚕",
+        "ref": "Sherry 老鼠話",
+        "strategy": "音譯擬聲+保留 keyword 觸發字"
+      },
+      {
+        "npc": "Sherry",
+        "key": "HUBERT_LION",
+        "en": "Hubert the Lion",
+        "zh": "獅子胡伯",
+        "ref": "虛構童話獅子",
+        "strategy": "音譯+類型詞"
+      },
+      {
+        "npc": "Sherry",
+        "key": "DUST_MICE",
+        "en": "Dust mice are no friends of mine!",
+        "zh": "塵球可不是俺的朋友!",
+        "ref": "dust mice=灰塵團俚語",
+        "strategy": "意譯為塵球，放棄 mouse 雙關"
+      },
+      {
+        "npc": "Chuckles",
+        "key": "HO_EYO_HE_HUM",
+        "en": "Ho eyo he hum, I've got a clue!",
+        "zh": "叮叮咚咚噹噹噹，俺有@線索特意俏！",
+        "ref": "招牌順口溜",
+        "strategy": "ㄠ 韻七言式"
+      },
+      {
+        "npc": "Chuckles",
+        "key": "QUEST_CHEST_JEST",
+        "en": "A quest, a chest, oh what a jest!",
+        "zh": "@試煉、寶箱，何等@笑談一場！",
+        "ref": "三字 -est 押韻",
+        "strategy": "ㄤ 韻"
+      },
+      {
+        "npc": "Chuckles",
+        "key": "ANKH_ANKH",
+        "en": "It said 'ankh ankh!'",
+        "zh": "牠說『安克！』",
+        "ref": "honk/ankh 鵝叫雙關",
+        "strategy": "雙關不可譯，保語意"
+      },
+      {
+        "npc": "Chuckles",
+        "key": "DUPRE_HORSESHOE",
+        "en": "It's because they both have the letter 'r' in them!",
+        "zh": "因為兩者都有字母『r』在內！",
+        "ref": "字母 r 諧音",
+        "strategy": "保留 ASCII r 不譯"
+      },
+      {
+        "npc": "Chuckles",
+        "key": "QUEST_HINT",
+        "en": "Search the chest in Nystul's room.",
+        "zh": "翻翻@尼斯托房裡那只@寶箱。",
+        "ref": "主線 quest 第一個 hint！",
+        "strategy": "保留情報"
+      },
+      {
+        "npc": "Mariah",
+        "key": "BOOK_OF_PROPHECIES",
+        "en": "Book of Prophecies",
+        "zh": "預言之書",
+        "ref": "魔像族經典，預言世界末日",
+        "strategy": "直譯保留古典感"
+      },
+      {
+        "npc": "Mariah",
+        "key": "THREE_PRINCIPLES_GARGISH",
+        "en": "Control, Passion, Diligence",
+        "zh": "克制、熱情、勤勉",
+        "ref": "魔像族版三原則（呼應人類版 Truth/Love/Courage）",
+        "strategy": "保留 Gargish 三 principles 與人類三 principles 對偶"
+      },
+      {
+        "npc": "Mariah",
+        "key": "FALSE_PROPHET",
+        "en": "false prophet",
+        "zh": "偽先知",
+        "ref": "魔像族預言中的角色 = Avatar 玩家自己（劇情大轉折）",
+        "strategy": "保留宗教/啟示錄意象"
+      },
+      {
+        "npc": "Mariah",
+        "key": "MAGIC_SYLLABLES",
+        "en": "Zu=sleep / Quas=illusion / Hur=wind / Jux=danger/harm / Ort=magic",
+        "zh": "Zu=眠 / Quas=幻 / Hur=風 / Jux=危/陷阱/傷 / Ort=法力",
+        "ref": "U6 法術音節系統，copy protection 題目來自 Compendium",
+        "strategy": "音節保留 ASCII，意義中譯"
+      },
+      {
+        "npc": "Dupre",
+        "key": "DEW_PRAY",
+        "en": "It's Dupre - sounds like dew pray, remember?",
+        "zh": "是杜普雷——聽起來像『朝露之禱』，記得吧？",
+        "ref": "Dupre / dew pray 英語諧音雙關",
+        "strategy": "音譯保留人名『杜普雷』，諧音改寫為意境相近的中文短語『朝露之禱』"
+      },
+      {
+        "npc": "Dupre",
+        "key": "WINK_NUDGE",
+        "en": "Wink wink, nudge nudge, say no more...",
+        "zh": "眨眼示意，戳一下肋骨，不必多說……",
+        "ref": "Monty Python's Flying Circus sketch 致敬",
+        "strategy": "直譯動作 + 保留『不必多說』暗示語氣"
+      },
+      {
+        "npc": "Dupre",
+        "key": "DUCKS",
+        "en": "Please, let's not talk about ducks...",
+        "zh": "拜託，咱們別再提鴨子的事了……",
+        "ref": "Ultima V 系列梗：Dupre 怕鴨子",
+        "strategy": "直譯，保留荒謬幽默"
+      },
+      {
+        "npc": "Shamino",
+        "key": "WALL_TREE",
+        "en": "When folk ask why I have no walls in my home, I ask where are the trees in theirs!",
+        "zh": "「人問我屋中何以無牆，我便反問——他們屋中何以無樹！」",
+        "ref": "Shamino 招牌反問句",
+        "strategy": "對仗式重寫"
+      },
+      {
+        "npc": "Shamino",
+        "key": "LIFESBLOOD",
+        "en": "lifesblood of the realm",
+        "zh": "此境之命脈",
+        "ref": "lifesblood→命脈",
+        "strategy": "凝練意譯"
+      },
+      {
+        "npc": "Iolo",
+        "key": "MR_NOSE",
+        "en": "Where Mr. Nose hangs out. / His nibs, the king.",
+        "zh": "@大鼻先生常駐之地。／那位大人——也就是國王。",
+        "ref": "Iolo 對 Lord British 的暱稱／戲稱",
+        "strategy": "Mr. Nose 直譯『大鼻先生』；His nibs 譯『那位大人』"
+      },
+      {
+        "npc": "Iolo",
+        "key": "FRASIERS_FOLLY",
+        "en": "Frasier's Folly",
+        "zh": "弗雷澤之愚醇",
+        "ref": "酒名 / folly=愚行雙關",
+        "strategy": "音譯+意譯結合"
+      },
+      {
+        "npc": "Iolo",
+        "key": "SPAM_HUMBUG_PASS",
+        "en": "spam / humbug → Ask Shamino about that.",
+        "zh": "罐肉／騙術 →「此事去問夏米諾吧。」",
+        "ref": "spam=Monty Python; humbug=Dickens 《Christmas Carol》Scrooge 口頭禪",
+        "strategy": "保留兩個關鍵字觸發詞與重定向句"
+      },
+      {
+        "npc": "Iolo",
+        "key": "STONES_SONG",
+        "en": "'Stones' - a piece I composed some years ago",
+        "zh": "在下多年前所譜之曲『石』",
+        "ref": "Ultima 系列彩蛋：Iolo 與 Gwenno 真實創作",
+        "strategy": "直譯曲名為單字『石』"
+      },
+      {
+        "npc": "Iolo",
+        "key": "MR_NOSE",
+        "en": "Where Mr. Nose hangs out. / His nibs, the king.",
+        "zh": "@大鼻先生常駐之地。／那位大人——也就是國王。",
+        "ref": "Iolo 對 Lord British 的暱稱／戲稱",
+        "strategy": "Mr. Nose 直譯『大鼻先生』；His nibs 譯『那位大人』"
+      },
+      {
+        "npc": "Iolo",
+        "key": "FRASIERS_FOLLY",
+        "en": "Frasier's Folly",
+        "zh": "弗雷澤之愚醇",
+        "ref": "酒名 / folly=愚行雙關",
+        "strategy": "音譯+意譯結合"
+      },
+      {
+        "npc": "Iolo",
+        "key": "SPAM_HUMBUG_PASS",
+        "en": "spam / humbug → Ask Shamino about that.",
+        "zh": "罐肉／騙術 →「此事去問夏米諾吧。」",
+        "ref": "spam=Monty Python; humbug=Dickens 《Christmas Carol》Scrooge 口頭禪",
+        "strategy": "保留兩個關鍵字觸發詞與重定向句"
+      },
+      {
+        "npc": "Iolo",
+        "key": "STONES_SONG",
+        "en": "'Stones' - a piece I composed some years ago",
+        "zh": "在下多年前所譜之曲『石』",
+        "ref": "Ultima 系列彩蛋：Iolo 與 Gwenno 真實創作",
+        "strategy": "直譯曲名為單字『石』"
+      },
+      {
+        "npc": "Tholden",
+        "key": "WERECAT_WINE_CELLAR",
+        "en": "'The Werecat of the Wine Cellar'",
+        "zh": "『酒窖之貓人』",
+        "ref": "Tholden 年輕時綽號",
+        "strategy": "直譯 werecat=貓人"
+      },
+      {
+        "npc": "Sherry",
+        "key": "MOUSE_TALK",
+        "en": "Squeak, squeak / Nitters fiblik / Squeak squirk",
+        "zh": "吱、吱 / 尼特菲伯 / 吱吱吱嚕",
+        "ref": "Sherry 老鼠話",
+        "strategy": "音譯擬聲+保留 keyword 觸發字"
+      },
+      {
+        "npc": "Sherry",
+        "key": "HUBERT_LION",
+        "en": "Hubert the Lion",
+        "zh": "獅子胡伯",
+        "ref": "虛構童話獅子",
+        "strategy": "音譯+類型詞"
+      },
+      {
+        "npc": "Sherry",
+        "key": "DUST_MICE",
+        "en": "Dust mice are no friends of mine!",
+        "zh": "塵球可不是俺的朋友!",
+        "ref": "dust mice=灰塵團俚語",
+        "strategy": "意譯為塵球，放棄 mouse 雙關"
+      },
+      {
+        "npc": "Chuckles",
+        "key": "HO_EYO_HE_HUM",
+        "en": "Ho eyo he hum, I've got a clue!",
+        "zh": "叮叮咚咚噹噹噹，俺有@線索特意俏！",
+        "ref": "招牌順口溜",
+        "strategy": "ㄠ 韻七言式"
+      },
+      {
+        "npc": "Chuckles",
+        "key": "QUEST_CHEST_JEST",
+        "en": "A quest, a chest, oh what a jest!",
+        "zh": "@試煉、寶箱，何等@笑談一場！",
+        "ref": "三字 -est 押韻",
+        "strategy": "ㄤ 韻"
+      },
+      {
+        "npc": "Chuckles",
+        "key": "ANKH_ANKH",
+        "en": "It said 'ankh ankh!'",
+        "zh": "牠說『安克！』",
+        "ref": "honk/ankh 鵝叫雙關",
+        "strategy": "雙關不可譯，保語意"
+      },
+      {
+        "npc": "Chuckles",
+        "key": "DUPRE_HORSESHOE",
+        "en": "It's because they both have the letter 'r' in them!",
+        "zh": "因為兩者都有字母『r』在內！",
+        "ref": "字母 r 諧音",
+        "strategy": "保留 ASCII r 不譯"
+      },
+      {
+        "npc": "Chuckles",
+        "key": "QUEST_HINT",
+        "en": "Search the chest in Nystul's room.",
+        "zh": "翻翻@尼斯托房裡那只@寶箱。",
+        "ref": "主線 quest 第一個 hint！",
+        "strategy": "保留情報"
+      },
+      {
+        "npc": "Kenneth",
+        "key": "WEAR_NAME_OUT",
+        "en": "Kenneth's my name - don't wear it out. / I asked you not to wear it out! It's the only name I've got.",
+        "zh": "在下肯尼斯——別叫得太勤了。／都說了別叫得太勤！這可是我唯一的名字啊。",
+        "ref": "英文俚語 'don't wear it out'（別把名字叫到磨損）；Kenneth 招牌笑話",
+        "strategy": "意譯為『別叫得太勤』，保留俚語的幽默回擊感"
+      },
+      {
+        "npc": "Kenneth",
+        "key": "MU_UNKNOWN",
+        "en": "I've been trying to work the Mantra of Compassion into a song - but I don't know what '@mu' means. / Nobody I know does either.",
+        "zh": "在下一直想把慈悲真言譜進歌中——只是還不知『mu』究竟何意。／在下相識者亦無人知曉。",
+        "ref": "禪宗『無門關』之『無/mu』；Kenneth 不知此哲學典故，遂成笑點",
+        "strategy": "保留 mu ASCII（與 Mariah 真言系統一致），笑點留給玩家自行體會"
+      },
+      {
+        "npc": "Nan",
+        "key": "MANTRA_MU_SPIDER",
+        "en": "The Mantra of Compassion is 'mu.' Is that a spider on your shoulder?",
+        "zh": "慈悲之真言乃『mu』。汝肩上那是隻蜘蛛麼？",
+        "ref": "Nan 一邊傳授真言一邊神經質地誤認蜘蛛",
+        "strategy": "mantra 音節 'mu' 保留 ASCII，承襲 Mariah 章程"
+      },
+      {
+        "npc": "Nan",
+        "key": "SPIDERS_LURKING",
+        "en": "The spiders are lurking everywhere.",
+        "zh": "蜘蛛無處不在。",
+        "ref": "Nan 招牌焦慮口吻；告別時也不忘恐嚇",
+        "strategy": "直譯保留荒謬感"
+      },
+      {
+        "npc": "Mariah",
+        "key": "BOOK_OF_PROPHECIES",
+        "en": "Book of Prophecies",
+        "zh": "預言之書",
+        "ref": "魔像族經典，預言世界末日",
+        "strategy": "直譯保留古典感"
+      },
+      {
+        "npc": "Mariah",
+        "key": "THREE_PRINCIPLES_GARGISH",
+        "en": "Control, Passion, Diligence",
+        "zh": "克制、熱情、勤勉",
+        "ref": "魔像族版三原則（呼應人類版 Truth/Love/Courage）",
+        "strategy": "保留 Gargish 三 principles 與人類三 principles 對偶"
+      },
+      {
+        "npc": "Mariah",
+        "key": "FALSE_PROPHET",
+        "en": "false prophet",
+        "zh": "偽先知",
+        "ref": "魔像族預言中的角色 = Avatar 玩家自己（劇情大轉折）",
+        "strategy": "保留宗教/啟示錄意象"
+      },
+      {
+        "npc": "Mariah",
+        "key": "MAGIC_SYLLABLES",
+        "en": "Zu=sleep / Quas=illusion / Hur=wind / Jux=danger/harm / Ort=magic",
+        "zh": "Zu=眠 / Quas=幻 / Hur=風 / Jux=危/陷阱/傷 / Ort=法力",
+        "ref": "U6 法術音節系統，copy protection 題目來自 Compendium",
+        "strategy": "音節保留 ASCII，意義中譯"
+      },
+      {
+        "npc": "Dupre",
+        "key": "DEW_PRAY",
+        "en": "It's Dupre - sounds like dew pray, remember?",
+        "zh": "是杜普雷——聽起來像『朝露之禱』，記得吧？",
+        "ref": "Dupre / dew pray 英語諧音雙關",
+        "strategy": "音譯保留人名『杜普雷』，諧音改寫為意境相近的中文短語『朝露之禱』"
+      },
+      {
+        "npc": "Dupre",
+        "key": "WINK_NUDGE",
+        "en": "Wink wink, nudge nudge, say no more...",
+        "zh": "眨眼示意，戳一下肋骨，不必多說……",
+        "ref": "Monty Python's Flying Circus sketch 致敬",
+        "strategy": "直譯動作 + 保留『不必多說』暗示語氣"
+      },
+      {
+        "npc": "Dupre",
+        "key": "DUCKS",
+        "en": "Please, let's not talk about ducks...",
+        "zh": "拜託，咱們別再提鴨子的事了……",
+        "ref": "Ultima V 系列梗：Dupre 怕鴨子",
+        "strategy": "直譯，保留荒謬幽默"
+      },
+      {
+        "npc": "Shamino",
+        "key": "WALL_TREE",
+        "en": "When folk ask why I have no walls in my home, I ask where are the trees in theirs!",
+        "zh": "「人問我屋中何以無牆，我便反問——他們屋中何以無樹！」",
+        "ref": "Shamino 招牌反問句",
+        "strategy": "對仗式重寫"
+      },
+      {
+        "npc": "Shamino",
+        "key": "LIFESBLOOD",
+        "en": "lifesblood of the realm",
+        "zh": "此境之命脈",
+        "ref": "lifesblood→命脈",
+        "strategy": "凝練意譯"
+      },
+      {
+        "npc": "Iolo",
+        "key": "MR_NOSE",
+        "en": "Where Mr. Nose hangs out. / His nibs, the king.",
+        "zh": "@大鼻先生常駐之地。／那位大人——也就是國王。",
+        "ref": "Iolo 對 Lord British 的暱稱／戲稱",
+        "strategy": "Mr. Nose 直譯『大鼻先生』；His nibs 譯『那位大人』"
+      },
+      {
+        "npc": "Iolo",
+        "key": "FRASIERS_FOLLY",
+        "en": "Frasier's Folly",
+        "zh": "弗雷澤之愚醇",
+        "ref": "酒名 / folly=愚行雙關",
+        "strategy": "音譯+意譯結合"
+      },
+      {
+        "npc": "Iolo",
+        "key": "SPAM_HUMBUG_PASS",
+        "en": "spam / humbug → Ask Shamino about that.",
+        "zh": "罐肉／騙術 →「此事去問夏米諾吧。」",
+        "ref": "spam=Monty Python; humbug=Dickens 《Christmas Carol》Scrooge 口頭禪",
+        "strategy": "保留兩個關鍵字觸發詞與重定向句"
+      },
+      {
+        "npc": "Iolo",
+        "key": "STONES_SONG",
+        "en": "'Stones' - a piece I composed some years ago",
+        "zh": "在下多年前所譜之曲『石』",
+        "ref": "Ultima 系列彩蛋：Iolo 與 Gwenno 真實創作",
+        "strategy": "直譯曲名為單字『石』"
+      },
+      {
+        "npc": "Iolo",
+        "key": "MR_NOSE",
+        "en": "Where Mr. Nose hangs out. / His nibs, the king.",
+        "zh": "@大鼻先生常駐之地。／那位大人——也就是國王。",
+        "ref": "Iolo 對 Lord British 的暱稱／戲稱",
+        "strategy": "Mr. Nose 直譯『大鼻先生』；His nibs 譯『那位大人』"
+      },
+      {
+        "npc": "Iolo",
+        "key": "FRASIERS_FOLLY",
+        "en": "Frasier's Folly",
+        "zh": "弗雷澤之愚醇",
+        "ref": "酒名 / folly=愚行雙關",
+        "strategy": "音譯+意譯結合"
+      },
+      {
+        "npc": "Iolo",
+        "key": "SPAM_HUMBUG_PASS",
+        "en": "spam / humbug → Ask Shamino about that.",
+        "zh": "罐肉／騙術 →「此事去問夏米諾吧。」",
+        "ref": "spam=Monty Python; humbug=Dickens 《Christmas Carol》Scrooge 口頭禪",
+        "strategy": "保留兩個關鍵字觸發詞與重定向句"
+      },
+      {
+        "npc": "Iolo",
+        "key": "STONES_SONG",
+        "en": "'Stones' - a piece I composed some years ago",
+        "zh": "在下多年前所譜之曲『石』",
+        "ref": "Ultima 系列彩蛋：Iolo 與 Gwenno 真實創作",
+        "strategy": "直譯曲名為單字『石』"
+      },
+      {
+        "npc": "Tholden",
+        "key": "WERECAT_WINE_CELLAR",
+        "en": "'The Werecat of the Wine Cellar'",
+        "zh": "『酒窖之貓人』",
+        "ref": "Tholden 年輕時綽號",
+        "strategy": "直譯 werecat=貓人"
+      },
+      {
+        "npc": "Sherry",
+        "key": "MOUSE_TALK",
+        "en": "Squeak, squeak / Nitters fiblik / Squeak squirk",
+        "zh": "吱、吱 / 尼特菲伯 / 吱吱吱嚕",
+        "ref": "Sherry 老鼠話",
+        "strategy": "音譯擬聲+保留 keyword 觸發字"
+      },
+      {
+        "npc": "Sherry",
+        "key": "HUBERT_LION",
+        "en": "Hubert the Lion",
+        "zh": "獅子胡伯",
+        "ref": "虛構童話獅子",
+        "strategy": "音譯+類型詞"
+      },
+      {
+        "npc": "Sherry",
+        "key": "DUST_MICE",
+        "en": "Dust mice are no friends of mine!",
+        "zh": "塵球可不是俺的朋友!",
+        "ref": "dust mice=灰塵團俚語",
+        "strategy": "意譯為塵球，放棄 mouse 雙關"
+      },
+      {
+        "npc": "Chuckles",
+        "key": "HO_EYO_HE_HUM",
+        "en": "Ho eyo he hum, I've got a clue!",
+        "zh": "叮叮咚咚噹噹噹，俺有@線索特意俏！",
+        "ref": "招牌順口溜",
+        "strategy": "ㄠ 韻七言式"
+      },
+      {
+        "npc": "Chuckles",
+        "key": "QUEST_CHEST_JEST",
+        "en": "A quest, a chest, oh what a jest!",
+        "zh": "@試煉、寶箱，何等@笑談一場！",
+        "ref": "三字 -est 押韻",
+        "strategy": "ㄤ 韻"
+      },
+      {
+        "npc": "Chuckles",
+        "key": "ANKH_ANKH",
+        "en": "It said 'ankh ankh!'",
+        "zh": "牠說『安克！』",
+        "ref": "honk/ankh 鵝叫雙關",
+        "strategy": "雙關不可譯，保語意"
+      },
+      {
+        "npc": "Chuckles",
+        "key": "DUPRE_HORSESHOE",
+        "en": "It's because they both have the letter 'r' in them!",
+        "zh": "因為兩者都有字母『r』在內！",
+        "ref": "字母 r 諧音",
+        "strategy": "保留 ASCII r 不譯"
+      },
+      {
+        "npc": "Chuckles",
+        "key": "QUEST_HINT",
+        "en": "Search the chest in Nystul's room.",
+        "zh": "翻翻@尼斯托房裡那只@寶箱。",
+        "ref": "主線 quest 第一個 hint！",
+        "strategy": "保留情報"
+      },
+      {
+        "npc": "Kenneth",
+        "key": "WEAR_NAME_OUT",
+        "en": "Kenneth's my name - don't wear it out. / I asked you not to wear it out! It's the only name I've got.",
+        "zh": "在下肯尼斯——別叫得太勤了。／都說了別叫得太勤！這可是我唯一的名字啊。",
+        "ref": "英文俚語 'don't wear it out'（別把名字叫到磨損）；Kenneth 招牌笑話",
+        "strategy": "意譯為『別叫得太勤』，保留俚語的幽默回擊感"
+      },
+      {
+        "npc": "Kenneth",
+        "key": "MU_UNKNOWN",
+        "en": "I've been trying to work the Mantra of Compassion into a song - but I don't know what '@mu' means. / Nobody I know does either.",
+        "zh": "在下一直想把慈悲真言譜進歌中——只是還不知『mu』究竟何意。／在下相識者亦無人知曉。",
+        "ref": "禪宗『無門關』之『無/mu』；Kenneth 不知此哲學典故，遂成笑點",
+        "strategy": "保留 mu ASCII（與 Mariah 真言系統一致），笑點留給玩家自行體會"
+      },
+      {
+        "npc": "Nan",
+        "key": "MANTRA_MU_SPIDER",
+        "en": "The Mantra of Compassion is 'mu.' Is that a spider on your shoulder?",
+        "zh": "慈悲之真言乃『mu』。汝肩上那是隻蜘蛛麼？",
+        "ref": "Nan 一邊傳授真言一邊神經質地誤認蜘蛛",
+        "strategy": "mantra 音節 'mu' 保留 ASCII，承襲 Mariah 章程"
+      },
+      {
+        "npc": "Nan",
+        "key": "SPIDERS_LURKING",
+        "en": "The spiders are lurking everywhere.",
+        "zh": "蜘蛛無處不在。",
+        "ref": "Nan 招牌焦慮口吻；告別時也不忘恐嚇",
+        "strategy": "直譯保留荒謬感"
+      },
+      {
+        "npc": "Mariah",
+        "key": "BOOK_OF_PROPHECIES",
+        "en": "Book of Prophecies",
+        "zh": "預言之書",
+        "ref": "魔像族經典，預言世界末日",
+        "strategy": "直譯保留古典感"
+      },
+      {
+        "npc": "Mariah",
+        "key": "THREE_PRINCIPLES_GARGISH",
+        "en": "Control, Passion, Diligence",
+        "zh": "克制、熱情、勤勉",
+        "ref": "魔像族版三原則（呼應人類版 Truth/Love/Courage）",
+        "strategy": "保留 Gargish 三 principles 與人類三 principles 對偶"
+      },
+      {
+        "npc": "Mariah",
+        "key": "FALSE_PROPHET",
+        "en": "false prophet",
+        "zh": "偽先知",
+        "ref": "魔像族預言中的角色 = Avatar 玩家自己（劇情大轉折）",
+        "strategy": "保留宗教/啟示錄意象"
+      },
+      {
+        "npc": "Mariah",
+        "key": "MAGIC_SYLLABLES",
+        "en": "Zu=sleep / Quas=illusion / Hur=wind / Jux=danger/harm / Ort=magic",
+        "zh": "Zu=眠 / Quas=幻 / Hur=風 / Jux=危/陷阱/傷 / Ort=法力",
+        "ref": "U6 法術音節系統，copy protection 題目來自 Compendium",
+        "strategy": "音節保留 ASCII，意義中譯"
+      },
+      {
+        "npc": "BOOK.DAT",
+        "key": "TOMBSTONE_AS_YOU_ARE",
+        "en": "As you are now so once was I / As I am now you soon shall be / Prepare for death when this you see",
+        "zh": "汝今所是，我昔亦然 / 我今所是，汝亦將至 / 讀此之時，當為死亡作備",
+        "ref": "傳統墓誌銘三段式",
+        "strategy": "對仗式重寫，保留勸世警句節奏"
+      },
+      {
+        "npc": "BOOK.DAT",
+        "key": "DECOMPOSING_MUSICIAN",
+        "en": "This great musician is not just dozing / Here he lies now decomposing",
+        "zh": "此偉大樂師 / 非僅在打盹 / 如今在此眠 / 正在分解中",
+        "ref": "decomposing 一語雙關（屍體分解／作曲）",
+        "strategy": "雙關不能完美對應中文，譯為『分解中』保留意象"
+      },
+      {
+        "npc": "BOOK.DAT",
+        "key": "GOLDEN_LADS_LASSES",
+        "en": "Golden lads and lasses must / Like chimney sweepers come to dust",
+        "zh": "金童玉女終須盡 / 如掃煙囪化塵泥",
+        "ref": "Shakespeare Cymbeline IV.ii.262 引文",
+        "strategy": "對仗五言/七言，保留塵土歸塵土之意象"
+      },
+      {
+        "npc": "BOOK.DAT",
+        "key": "HUSBANDS_FIVE",
+        "en": "Though she outlasted husbands five / Now Beth too is no more alive...",
+        "zh": "雖她五任夫君皆先她而去 / 如今貝絲自己也已不在世 / 但當她吐出最後一息之時 / 她仍展笑容嘲諷死亡之神",
+        "ref": "五夫之妻黑色幽默墓誌組詩之終",
+        "strategy": "保留組詩順序與末句反諷"
+      },
+      {
+        "npc": "BOOK.DAT",
+        "key": "AVATAR_QUEST_PRINCIPLES",
+        "en": "From Truth arises Honesty; From Love arises Compassion; From Courage arises Valour;",
+        "zh": "自真理而生誠實；自愛而生慈悲；自勇氣而生勇氣（勇）；",
+        "ref": "Ultima IV 經典美德推導公式",
+        "strategy": "Courage→Valour 中文皆譯『勇氣』，第三句加註『勇』以區別，符宗教典籍口吻"
+      },
+      {
+        "npc": "BOOK.DAT",
+        "key": "MAGRITTE_PIPE",
+        "en": "This is not a pipe.",
+        "zh": "此非菸斗。",
+        "ref": "Magritte 《La trahison des images》致敬",
+        "strategy": "直譯保留禪意"
+      },
+      {
+        "npc": "BOOK.DAT",
+        "key": "OM_MANTRA",
+        "en": "Chant the mantra \"om\"",
+        "zh": "誦真言「om」",
+        "ref": "靈性聖壇真言，保留 ASCII",
+        "strategy": "音節保留 ASCII 不譯"
+      }
+    ]
+  },
+  "ux_known_issues": {
+    "high_stroke_density_12px": [
+      "耀",
+      "獷",
+      "餡",
+      "澤",
+      "鬱",
+      "響",
+      "鑽",
+      "鑲"
+    ],
+    "_note": "12×12 點陣字可能糊。長期方案：逐字 hint。短期：翻譯時避用或同義字替代"
+  }
+}

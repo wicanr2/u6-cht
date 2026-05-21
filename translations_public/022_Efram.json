@@ -1,0 +1,245 @@
+{
+ "_meta": {
+  "npc": "Efram (provisioner)",
+  "role": "不列顛城補給商，賣火炬、油、寶石、背包、麻袋、鏟、火藥桶。性情粗悶、肥胖、常哼鼻聲（Hrmmph）；標準商人對話樹（buy / job / name）。"
+ },
+ "translations": [
+  {
+   "hash": "b610fedea43bf25a",
+   "zh": "艾弗",
+   "note": "人名音譯；Efram → 艾弗；len=5"
+  },
+  {
+   "hash": "7ddefa1ecc405b5d",
+   "zh": "一個哼鼻嘀咕、大腹便便之人。",
+   "note": "描述句"
+  },
+  {
+   "hash": "c530e781127b8c30",
+   "zh": "「哼！我正忙著。」",
+   "note": "Hrmmph → 哼"
+  },
+  {
+   "hash": "a9ddf585c1675446",
+   "zh": "「哼，這樣吧，再來我店裡逛逛——",
+   "note": "句子待時段續接"
+  },
+  {
+   "hash": "dacf6e73c32ee57a",
+   "zh": "明日晨間",
+   "note": "時段詞 1"
+  },
+  {
+   "hash": "9b82a8777a1b86a9",
+   "zh": "今日午後",
+   "note": "時段詞 2"
+  },
+  {
+   "hash": "07da0e07b4a02ac9",
+   "zh": ".\"",
+   "note": "len=2 只能保留 ASCII；前句已用全形句結"
+  },
+  {
+   "hash": "421dfdd1d1b6b7e6",
+   "zh": "「哼。汝好。」他呼吸甚為粗重。"
+  },
+  {
+   "hash": "69be9682a4c1e13c",
+   "zh": "「哼，我們不是…算了。哼。」"
+  },
+  {
+   "hash": "be04a35f5b04669c",
+   "zh": "「汝需何物？」"
+  },
+  {
+   "hash": "c4bcadba8e631b86",
+   "zh": "名字",
+   "note": "@name keyword"
+  },
+  {
+   "hash": "465b78eb267725e5",
+   "zh": "「補給商艾弗也。」",
+   "note": "provisioner → 補給商"
+  },
+  {
+   "hash": "4c68526036ca8873",
+   "zh": "艾弗",
+   "note": "@efra keyword（自己名字）"
+  },
+  {
+   "hash": "229b42a01032cfc1",
+   "zh": "「這名字還算順耳，哼。」"
+  },
+  {
+   "hash": "00612319135a7b4b",
+   "zh": "買",
+   "note": "@buy keyword"
+  },
+  {
+   "hash": "2820ba234e64fbbd",
+   "zh": "「要哪樣，@火炬、@油、@寶石、@背包、@麻袋、@鏟，還是@火藥桶？」",
+   "note": "7 個 @keyword 列舉"
+  },
+  {
+   "hash": "45627c193a5b605c",
+   "zh": "業",
+   "note": "@job keyword"
+  },
+  {
+   "hash": "9160a25c3438428a",
+   "zh": "「我賣@火炬、@油、@寶石、@背包、@麻袋、@鏟、@火藥桶。」"
+  },
+  {
+   "hash": "3009c5ef38c2d8f3",
+   "zh": "火炬",
+   "note": "@torches keyword"
+  },
+  {
+   "hash": "884e3612475bed6b",
+   "zh": "油,瓶",
+   "note": "@oil 群組（oil + flask）"
+  },
+  {
+   "hash": "d4e26a18faaa85dc",
+   "zh": "石",
+   "note": "@gems keyword"
+  },
+  {
+   "hash": "9a46ff9baa276602",
+   "zh": "背包",
+   "note": "@backpacks keyword"
+  },
+  {
+   "hash": "9a38df9baa1af246",
+   "zh": "麻袋",
+   "note": "@bags keyword"
+  },
+  {
+   "hash": "46dc6018e28e276f",
+   "zh": "鏟",
+   "note": "@shovels keyword"
+  },
+  {
+   "hash": "8c3de90da8a1caa3",
+   "zh": "藥桶",
+   "note": "@powder kegs keyword（縮短為『藥桶』）"
+  },
+  {
+   "hash": "008a2f19137d94c3",
+   "zh": "別",
+   "note": "@bye keyword"
+  },
+  {
+   "hash": "14c7925d192ce7bf",
+   "zh": "「幸蒙駐足。」他與汝有力一握。"
+  },
+  {
+   "hash": "9afc8a95982888e8",
+   "zh": "「何意？」"
+  },
+  {
+   "hash": "31215a0f32912f7e",
+   "zh": "「哼，這事不如問別人吧。」"
+  },
+  {
+   "hash": "77494dfbd4a5bdf8",
+   "zh": "#1. $Y",
+   "note": "保留變數格式"
+  },
+  {
+   "hash": "7bf2e7fe4fc43e63",
+   "zh": "「諸位何人？」"
+  },
+  {
+   "hash": "c8568e91537116a0",
+   "zh": "$N 望 $Y。「每件 $0 售 #0 金幣。要幾件？」",
+   "note": "保留 $N $Y $0 #0 變數"
+  },
+  {
+   "hash": "257590679aef9850",
+   "zh": "「拜託，這未免太多了吧？」"
+  },
+  {
+   "hash": "25a713b16ef9d3ce",
+   "zh": "$N 對 $Y 皺眉。「哼。價錢甚為公道。罷了…」"
+  },
+  {
+   "hash": "a9ddc43177f68397",
+   "zh": "$N 望 $Y。「汝包中已無空處。」"
+  },
+  {
+   "hash": "5035de56d28f2341",
+   "zh": "$N 望 $Y。「$0 之價，逾汝所有。」"
+  },
+  {
+   "hash": "9cd0c9eba44c3b13",
+   "zh": "他遞 $Y #2 件 $0。 ",
+   "note": "保留 \\s 控制；末尾保留空白"
+  },
+  {
+   "hash": "2333d7e3e52b61c1",
+   "zh": "火炬",
+   "note": "物品名"
+  },
+  {
+   "hash": "7c573287bf710f81",
+   "zh": "油瓶",
+   "note": "物品名"
+  },
+  {
+   "hash": "eaeb8a199863923c",
+   "zh": "石",
+   "note": "物品名（單字省略）"
+  },
+  {
+   "hash": "ec5d79a96719e10b",
+   "zh": "背包",
+   "note": "物品名"
+  },
+  {
+   "hash": "16414119b0f07f31",
+   "zh": "袋",
+   "note": "物品名"
+  },
+  {
+   "hash": "83c79d107db0ccf6",
+   "zh": "鏟",
+   "note": "物品名"
+  },
+  {
+   "hash": "2b14cb31ec14f4a1",
+   "zh": "火藥桶",
+   "note": "物品名"
+  },
+  {
+   "hash": "110bdb5b6f7cab65",
+   "zh": "「拿去吧。」"
+  },
+  {
+   "hash": "e968c0e5ea00bb87",
+   "zh": "「汝只能再帶這些。」"
+  },
+  {
+   "hash": "e2268050dcd1697e",
+   "zh": "「汝只買得起這些。」"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Efram": "艾弗"
+  },
+  "concepts": {
+   "provisioner": "補給商"
+  },
+  "items": {
+   "torch": "火炬",
+   "flask of oil": "油瓶",
+   "gem": "寶石",
+   "backpack": "背包",
+   "bag": "袋",
+   "shovel": "鏟",
+   "powder keg": "火藥桶"
+  }
+ },
+ "translator_notes": "Efram 為標準補給商，對話樹簡單；無詩文/雙關。Hrmmph 統一譯為『哼』。注意 powd keyword 縮為『藥桶』避免長度壓力。offset 187 len=2 只能保留 ASCII 結尾 .\"（前句已用全形句結）。所有 zh_bytes ≤ len。無 5C trail 字風險（避用『運』『年』『甲』等）。"
+}

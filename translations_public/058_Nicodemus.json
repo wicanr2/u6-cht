@@ -1,0 +1,337 @@
+{
+ "_meta": {},
+ "translations": [
+  {
+   "hash": "acb87410d421d97f",
+   "zh": "一位滿臉皺紋、笑容可掬的老者。",
+   "note": "DESC"
+  },
+  {
+   "hash": "0aec009d91631cef",
+   "zh": "「聖者，$T好。汝此來所為何事？」"
+  },
+  {
+   "hash": "9ba90ba67068b0f9",
+   "zh": "「吾乃尼科德慕斯。」"
+  },
+  {
+   "hash": "5f60dd6edb987bf7",
+   "zh": "「哎呀，天佑我，吾就在這裡做事！」"
+  },
+  {
+   "hash": "ce1f71089bd2cfa9",
+   "zh": "「吾販售@藥材，傳授@法術，並打造魔法@法杖。」"
+  },
+  {
+   "hash": "24cbb4b53d1bb456",
+   "zh": "「吾也做些@實驗。」"
+  },
+  {
+   "hash": "8dbdfe2d375a152d",
+   "zh": "「哦，沒什麼，像汝這樣的大冒險者不會@感興趣的。」"
+  },
+  {
+   "hash": "a2e1b785cb1a23f5",
+   "zh": "他眼中閃過一絲疑惑之色。",
+   "note": "action"
+  },
+  {
+   "hash": "043f30a1446c8813",
+   "zh": "「別太愛管閒事，",
+   "note": "partial; gender branch follows"
+  },
+  {
+   "hash": "9f96388bb56f2946",
+   "zh": "小姑娘！」",
+   "note": "female branch"
+  },
+  {
+   "hash": "8a83f0e6d61d2921",
+   "zh": "小子！」",
+   "note": "male branch"
+  },
+  {
+   "hash": "4dcf3f558615d300",
+   "zh": "「隨時歡迎再來！」",
+   "note": "bye"
+  },
+  {
+   "hash": "ab7a25912172e85c",
+   "zh": "「不，不，吾不談那件事！」"
+  },
+  {
+   "hash": "31e8c720e45ef68a",
+   "zh": "「但汝沒有@法術書！」"
+  },
+  {
+   "hash": "5c7edb8ee62e1f01",
+   "zh": "「但汝等無人有@法術書！」"
+  },
+  {
+   "hash": "7bf2e7fe4fc43e63",
+   "zh": "「汝等哪一位？」"
+  },
+  {
+   "hash": "5d46e73c04015d0f",
+   "zh": "「$Y 希望修習第幾環的法術？」"
+  },
+  {
+   "hash": "7fb5194af92d0a52",
+   "zh": "「眾所周知，法術環共有八環。」"
+  },
+  {
+   "hash": "221ceb71ef20b21e",
+   "zh": "「吾感覺 $Y 只適合修習第 #1$1 環。」",
+   "note": "#1 = circle number, $1 = ordinal suffix (th/st/nd/rd)"
+  },
+  {
+   "hash": "39441f98e0f898fc",
+   "zh": "「但此等事並非吾所關切……」"
+  },
+  {
+   "hash": "09c3489e7eba1c4e",
+   "zh": "「吾沒有那一環的法術。」"
+  },
+  {
+   "hash": "ad382ddf6d73ea3f",
+   "zh": "「這些中哪一個？」"
+  },
+  {
+   "hash": "c2a585f7f938b436",
+   "zh": "「或許 $Y 尚未準備好修習這一環。」"
+  },
+  {
+   "hash": "38e28c553924d7fa",
+   "zh": "「$Y 缺乏所需的 #5 枚金幣。」"
+  },
+  {
+   "hash": "681bf837d48f48da",
+   "zh": "「那個法術需 #5 枚金幣。有意購買？」"
+  },
+  {
+   "hash": "a22a19da93a5eead",
+   "zh": "$N 遞給 $Y 一張佈滿符文的羊皮紙。"
+  },
+  {
+   "hash": "7bf2e7fe4fc43e63",
+   "zh": "「汝等哪一位？」"
+  },
+  {
+   "hash": "ad382ddf6d73ea3f",
+   "zh": "「這些中哪一個？」"
+  },
+  {
+   "hash": "1a5c50992da77078",
+   "zh": "「$1 每份 #1 枚金幣。」",
+   "note": "reagent price"
+  },
+  {
+   "hash": "f8d92c716eb3e363",
+   "zh": "「汝要購買幾份？」"
+  },
+  {
+   "hash": "9e20188c5876a688",
+   "zh": "$N 遞給 $Y $1。"
+  },
+  {
+   "hash": "835d6182d3504dca",
+   "zh": "「汝帶不了那麼多！」"
+  },
+  {
+   "hash": "728518924ad41fa1",
+   "zh": "「吾給汝 #5 份；其餘汝不需要。」"
+  },
+  {
+   "hash": "e851a65453925a3f",
+   "zh": "「汝什麼 $1 都帶不了！」"
+  },
+  {
+   "hash": "341685f0f18f3b53",
+   "zh": "「汝付不起那麼多！」"
+  },
+  {
+   "hash": "d3312e8b052e147b",
+   "zh": "「吾賣給汝 #5 份；其餘汝付不起。」"
+  },
+  {
+   "hash": "1478913253368c2c",
+   "zh": "「汝連一份 $1 也付不起！」"
+  },
+  {
+   "hash": "7bf2e7fe4fc43e63",
+   "zh": "「汝等哪一位？」"
+  },
+  {
+   "hash": "69e5b03b303e477b",
+   "zh": "「但汝帶不了法術書！」"
+  },
+  {
+   "hash": "8a1ddb63dfc8ec48",
+   "zh": "「但汝買不起法術書！」"
+  },
+  {
+   "hash": "ed5bfc1d23390a87",
+   "zh": "「法術書售價 45 枚金幣。有意購買？」"
+  },
+  {
+   "hash": "cad0cd6e28573484",
+   "zh": "「那或許汝的某位友人？」"
+  },
+  {
+   "hash": "e8fa00d4225add72",
+   "zh": "「是的，吾製作魔法紫杉法杖。」"
+  },
+  {
+   "hash": "a94d85f9d1a58632",
+   "zh": "「若汝知曉附魔法術，便可將一個法術封印於法杖之中，以備急用！」"
+  },
+  {
+   "hash": "a137db243164a187",
+   "zh": "「紫杉法杖售價 100 枚金幣，但其價值是這的兩倍！」"
+  },
+  {
+   "hash": "198a84c17c400dd2",
+   "zh": "「汝是否有意購買？」"
+  },
+  {
+   "hash": "1ec1b2840556664e",
+   "zh": "「那或許改天再說。」"
+  },
+  {
+   "hash": "7bf2e7fe4fc43e63",
+   "zh": "「汝等哪一位？」"
+  },
+  {
+   "hash": "56b633c31e0258a2",
+   "zh": "「但汝帶不了法杖！」"
+  },
+  {
+   "hash": "57750f5a97f9d32d",
+   "zh": "「但汝買不起法杖！」"
+  },
+  {
+   "hash": "7402c4369a5ecade",
+   "zh": "老者遞給 $Y 一根紫杉法杖。"
+  },
+  {
+   "hash": "57ec68a79ae67df3",
+   "zh": "血苔",
+   "note": "reagent"
+  },
+  {
+   "hash": "abc2e0ed6c20f58f",
+   "zh": "大蒜",
+   "note": "reagent"
+  },
+  {
+   "hash": "d4633ca1d99eca3e",
+   "zh": "人蔘",
+   "note": "reagent"
+  },
+  {
+   "hash": "b87f53a7accc3245",
+   "zh": "蜘蛛絲",
+   "note": "reagent"
+  },
+  {
+   "hash": "50139fdcd78f8229",
+   "zh": "硫磺灰",
+   "note": "reagent"
+  },
+  {
+   "hash": "873f18fd8d8b7a15",
+   "zh": "偵測陷阱",
+   "note": "spell"
+  },
+  {
+   "hash": "503cbccd6a5cdea8",
+   "zh": "催眠",
+   "note": "spell"
+  },
+  {
+   "hash": "13615d0d9822393a",
+   "zh": "解除魔封",
+   "note": "spell"
+  },
+  {
+   "hash": "a4503d7b2167ed61",
+   "zh": "解除陷阱",
+   "note": "spell"
+  },
+  {
+   "hash": "6d249aa6f1e9d88b",
+   "zh": "魔法封鎖",
+   "note": "spell"
+  },
+  {
+   "hash": "1c78d841bf6c4d86",
+   "zh": "群體催眠",
+   "note": "spell"
+  },
+  {
+   "hash": "a0c37dbfb6f435fa",
+   "zh": "護身術",
+   "note": "spell"
+  },
+  {
+   "hash": "a17bae3179e77c72",
+   "zh": "驅除不死",
+   "note": "spell"
+  },
+  {
+   "hash": "61d4d076b72ddcbf",
+   "zh": "召喚術",
+   "note": "spell"
+  },
+  {
+   "hash": "0fafb8ddb1d4e045",
+   "zh": "蟲群術",
+   "note": "spell"
+  },
+  {
+   "hash": "66f276dcbe210dd0",
+   "zh": "魅惑術",
+   "note": "spell"
+  },
+  {
+   "hash": "c63de4dbd417fc7e",
+   "zh": "混亂術",
+   "note": "spell"
+  },
+  {
+   "hash": "c07ea37ca0c3f4da",
+   "zh": "群體護身",
+   "note": "spell"
+  },
+  {
+   "hash": "74aa0119e62b2b51",
+   "zh": "蛛網術",
+   "note": "spell"
+  },
+  {
+   "hash": "813baa7f9f6b2ef2",
+   "zh": "附魔術",
+   "note": "spell"
+  },
+  {
+   "hash": "9ba5b1c6663e4aec",
+   "zh": "群體隱身",
+   "note": "spell"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Nicodemus": "尼科德慕斯"
+  },
+  "places": {},
+  "concepts": {
+   "yew staff": "紫杉法杖",
+   "spellbook": "法術書",
+   "Blood Moss": "血苔",
+   "Ginseng": "人蔘",
+   "Spider Silk": "蜘蛛絲",
+   "Sulfurous Ash": "硫磺灰"
+  }
+ },
+ "translator_notes": "尼科德慕斯是個親切但神秘的老法師，住在尤城東北。販售藥材、傳授法術、打造魔法紫杉法杖。對自身實驗諱莫如深，用「別太愛管閒事」打發好奇者。法術名稱依循中文玩家習慣意譯。"
+}

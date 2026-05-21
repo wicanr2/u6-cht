@@ -1,0 +1,214 @@
+{
+ "_meta": {},
+ "translations": [
+  {
+   "hash": "fef66940b9f1afca",
+   "zh": "一位身著黃、綠、藍三色天鵝絨與絲綢的男子。",
+   "note": "DESC"
+  },
+  {
+   "hash": "7f0e16f9238cb03c",
+   "zh": "他的聲音渾厚圓潤。",
+   "note": "DESC cont."
+  },
+  {
+   "hash": "6aa0317416abfe8e",
+   "zh": "他往身後瞟了一眼，隨即低頭躲閃，彷彿預期有人要往他身上扔什麼東西。",
+   "note": "action"
+  },
+  {
+   "hash": "d90a9ed1da2f0276",
+   "zh": "「現在正鬧著一場鬥毆。改天再與汝暢談。」"
+  },
+  {
+   "hash": "6193ff3006394a56",
+   "zh": "「幸會。吾乃吟遊詩人范凱利安。」"
+  },
+  {
+   "hash": "6b7ddd1c21112f38",
+   "zh": "「請告知吾汝的名號，$G。」"
+  },
+  {
+   "hash": "f8af3c3d8564c75e",
+   "zh": "「幸會，$Z，確實如此。」",
+   "note": "$Z player input preserved"
+  },
+  {
+   "hash": "09bb7352c7d03c4c",
+   "zh": "「$T 吉祥，吾友。」"
+  },
+  {
+   "hash": "147be818e9c21a58",
+   "zh": "「叫吾范便是。」"
+  },
+  {
+   "hash": "94ee7c0050345f1e",
+   "zh": "「哦，吟唱乃吾之本業。」"
+  },
+  {
+   "hash": "9fc92933ef2a5ee1",
+   "zh": "「以歌聲撫慰靈魂、提振精神。」"
+  },
+  {
+   "hash": "b98a581d44753913",
+   "zh": "「吾為汝獻唱如何？」"
+  },
+  {
+   "hash": "9b6450ae42df446a",
+   "zh": "尤洛翻了個白眼，在汝耳邊低語。",
+   "note": "action"
+  },
+  {
+   "hash": "8adf2688d8629d58",
+   "zh": "「他以為自己是在幫我們。這個我非聽不可。」",
+   "note": "Iolo aside"
+  },
+  {
+   "hash": "ddedac92dddb47be",
+   "zh": "「怎麼樣？要聽@歌嗎？」"
+  },
+  {
+   "hash": "d83217c7e5364b7e",
+   "zh": "「此世界顛倒乖離",
+   "note": "song verse 1 line 1"
+  },
+  {
+   "hash": "bf444d11cf973d8c",
+   "zh": "吾甜心佳人翩然而過",
+   "note": "song verse 1 line 2"
+  },
+  {
+   "hash": "125c14882629d3d3",
+   "zh": "吾但願能引她回眸一盼",
+   "note": "song verse 1 line 3"
+  },
+  {
+   "hash": "5fa163f6ee6018d6",
+   "zh": "嗨呦嗨呦哼！」",
+   "note": "song refrain; phonetic rendering"
+  },
+  {
+   "hash": "0c32e4009b38cf97",
+   "zh": "「汝可知驕傲之真言為『mul』？一位@乞丐告訴吾的。」",
+   "note": "mantra 'mul' stays as game mechanic word"
+  },
+  {
+   "hash": "bcda71c1d7de3159",
+   "zh": "「乞丐的生活中所剩無幾的尊嚴。」"
+  },
+  {
+   "hash": "626ff82391304baa",
+   "zh": "「吾當然給了他幾枚銅幣。」"
+  },
+  {
+   "hash": "0995a279b6abc9ff",
+   "zh": "「史塔赫姆與吾曾多次辯論魔像@辛弗拉的本質。」"
+  },
+  {
+   "hash": "687268664eebdd9e",
+   "zh": "「若不列顛王容他存活，吾便不傷害他。」"
+  },
+  {
+   "hash": "b484ce8d7f6a972a",
+   "zh": "「一個獨居於旱地的@魔像族，能有何威脅？」"
+  },
+  {
+   "hash": "ff8d8765d449f6ae",
+   "zh": "史塔赫姆說：「吾來告訴汝，范。」"
+  },
+  {
+   "hash": "7485b9366f102e03",
+   "zh": "「若汝放過一隻魔像，",
+   "note": "partial"
+  },
+  {
+   "hash": "68a1db3be254afeb",
+   "zh": "則汝便會心軟放過食人魔，",
+   "note": "partial"
+  },
+  {
+   "hash": "30c00bc2a6b9deca",
+   "zh": "乃至獨眼巨人。」"
+  },
+  {
+   "hash": "9d7d2809a887d713",
+   "zh": "「然後汝忘卻勇氣，很快便被怪物淹沒！」"
+  },
+  {
+   "hash": "2e38a9c3c354f3bf",
+   "zh": "「勇氣來自於踐行美德的勇敢。」",
+   "note": "Van's response"
+  },
+  {
+   "hash": "779b462ad0aa3543",
+   "zh": "「正如慈悲源於對眾生的愛。」"
+  },
+  {
+   "hash": "d46d10f26f421e0f",
+   "zh": "「啊哈！那就是說怪物不值得憐憫！」史塔赫姆說道"
+  },
+  {
+   "hash": "915cff500aa2fc29",
+   "zh": "「勇氣可以成長。為何愛不能？」",
+   "note": "Van's comeback"
+  },
+  {
+   "hash": "b8d9beded6b45f32",
+   "zh": "「嗯，吾聽說牠們的皮膚粗糙如石。」"
+  },
+  {
+   "hash": "6fa5d2051044452a",
+   "zh": "「牠們的嚎叫猛烈刺耳，令人聞之膽寒。」"
+  },
+  {
+   "hash": "7ae472504eec96d9",
+   "zh": "「不過，請注意，吾本人從未親自與之交戰。」"
+  },
+  {
+   "hash": "45d47dcfa919748f",
+   "zh": "「$T 吉祥，告辭了。」",
+   "note": "bye"
+  },
+  {
+   "hash": "bea8e5a7a935c9b4",
+   "zh": "「嗯。不，此事吾無法助汝。」"
+  },
+  {
+   "hash": "db6a96108a9298c5",
+   "zh": "「嗯，那便改日吧。」"
+  },
+  {
+   "hash": "3027583a2cd46271",
+   "zh": "詩人撥弄豎琴高聲吟唱。",
+   "note": "action"
+  },
+  {
+   "hash": "ce035dee06f18820",
+   "zh": "「雖她不屑與吾言",
+   "note": "song verse 2 line 1"
+  },
+  {
+   "hash": "ccbd28d60aeed1c1",
+   "zh": "啊吾為她朝思暮想",
+   "note": "song verse 2 line 2"
+  },
+  {
+   "hash": "7c829b7196cd710d",
+   "zh": "吾但願自身能英俊—哦",
+   "note": "song verse 2 line 3"
+  },
+  {
+   "hash": "5fa163f6ee6018d6",
+   "zh": "嗨呦嗨呦哼！」",
+   "note": "refrain"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Van Kellian": "范凱利安"
+  },
+  "places": {},
+  "concepts": {}
+ },
+ "translator_notes": "范凱利安是吟遊詩人，語氣雅致柔軟，與史塔赫姆的粗獷形成對比。歌詞力求韻律感，以意境為主。真言『mul』保留英文。尤洛的旁白調侃范的演唱天賦。"
+}

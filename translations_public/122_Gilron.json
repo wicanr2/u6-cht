@@ -1,0 +1,44 @@
+{
+ "_meta": {},
+ "translations": [
+  {
+   "hash": "317c580f79e97c65",
+   "zh": "神情發燒、病懨懨的武士。",
+   "note": "DESC"
+  },
+  {
+   "hash": "d0b2305893a4bb59",
+   "zh": "「……」",
+   "note": "無意識喃喃"
+  },
+  {
+   "hash": "7ed34ed8d1d0cb36",
+   "zh": "「嗚嗚嗚……」"
+  },
+  {
+   "hash": "6d0d36dd478c84fc",
+   "zh": "「姆特拉……哈爾……費朋……」",
+   "note": "胡言亂語，音譯擬聲"
+  },
+  {
+   "hash": "a1dc251e8b4c367f",
+   "zh": "「嗯嗯嗯……」"
+  },
+  {
+   "hash": "c17f54b3014d155d",
+   "zh": "「……………」"
+  },
+  {
+   "hash": "e69cbbb48b83695a",
+   "zh": "「咕嚕嚕……葛……」",
+   "note": "喉音擬聲"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Gilron": "吉爾隆"
+  },
+  "places": {}
+ },
+ "translator_notes": "Gilron 重傷昏迷，只發出呻吟與胡言亂語。全部為無意義音，做音感翻譯。"
+}

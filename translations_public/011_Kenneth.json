@@ -1,0 +1,202 @@
+{
+ "_meta": {
+  "npc": "Kenneth (Sir Kenneth)",
+  "role": "活潑的男吟遊詩人，眼帶笑意；Nan 之夫；與妻共同教授年輕詩人作曲、演奏、即興；個性開朗、愛打趣。"
+ },
+ "translations": [
+  {
+   "hash": "916456b76a940cfc",
+   "zh": "肯尼斯",
+   "note": "人名音譯"
+  },
+  {
+   "hash": "e274dc1a47e720f3",
+   "zh": "一名眼帶笑意、活潑開朗的吟遊詩人。",
+   "note": "描述句"
+  },
+  {
+   "hash": "154339126caa5454",
+   "zh": "「歡迎，$G！在下肯尼斯爵士，願為汝奏一曲@歌謠。」",
+   "note": "保留 $G；@song → @歌謠"
+  },
+  {
+   "hash": "c4bcadba8e631b86",
+   "zh": "名字",
+   "note": "@name keyword"
+  },
+  {
+   "hash": "b94a97973f74b610",
+   "zh": "「在下@肯尼斯——別叫得太勤了。」",
+   "note": "輕鬆口吻"
+  },
+  {
+   "hash": "3dc95919365b2a69",
+   "zh": "肯",
+   "note": "@kenneth keyword 對應；單字"
+  },
+  {
+   "hash": "041428a913add276",
+   "zh": "「都說了別叫得太勤！這可是我唯一的名字啊。」"
+  },
+  {
+   "hash": "cc43b9f1e2775df5",
+   "zh": "業,授,學",
+   "note": "keyword list"
+  },
+  {
+   "hash": "65664e0c6645182a",
+   "zh": "「在下與@內人教導年輕詩人作曲、演奏與即興之藝。」",
+   "note": "@wife → @內人"
+  },
+  {
+   "hash": "752f5015d27e9bc2",
+   "zh": "「我倆偶爾也辦@音樂會。」",
+   "note": "@concerts → @音樂會"
+  },
+  {
+   "hash": "ec68c254baa3949b",
+   "zh": "演奏,即興,作曲,會",
+   "note": "keyword list；最後 conc → 會（音樂會）"
+  },
+  {
+   "hash": "1a725c9f4d08cbc6",
+   "zh": "「吟遊之人於此等事務皆須通曉。」"
+  },
+  {
+   "hash": "a63afdf655778fdc",
+   "zh": "內人",
+   "note": "@wife keyword 對應"
+  },
+  {
+   "hash": "f7fb963fee0224ae",
+   "zh": "「她叫@南。汝萬萬不可在她面前提及@蜘蛛之事……」",
+   "note": "@Nan、@spiders 觸發詞保留"
+  },
+  {
+   "hash": "045c32a918abc0cc",
+   "zh": "南,蜘蛛",
+   "note": "keyword list"
+  },
+  {
+   "hash": "03ce21e0e55647b9",
+   "zh": "「她@想像力豐沛，有時竟被自己的幻想牽著走。」",
+   "note": "@imagination → @想像力"
+  },
+  {
+   "hash": "ee17a7c57698839b",
+   "zh": "想像",
+   "note": "@imagination keyword 對應"
+  },
+  {
+   "hash": "0357579b45229994",
+   "zh": "「平日裡倒也未曾為她惹來麻煩。」"
+  },
+  {
+   "hash": "0bcd0e91195fc6aa",
+   "zh": "慈悲",
+   "note": "@compassion keyword 對應"
+  },
+  {
+   "hash": "f3dec0f14b7e513d",
+   "zh": "「是的，在下知曉@慈悲之@符文與@真言。」",
+   "note": "與 Nan 同句"
+  },
+  {
+   "hash": "1f645ea2cea20481",
+   "zh": "真言",
+   "note": "@mantra keyword 對應"
+  },
+  {
+   "hash": "c7e12fad547c1424",
+   "zh": "「在下一直想把慈悲真言譜進歌中——只是還不知『@mu』究竟何意。」",
+   "note": "保留 'mu' ASCII"
+  },
+  {
+   "hash": "08a94f07b5503577",
+   "zh": "mu",
+   "note": "魔法音節，保留 ASCII"
+  },
+  {
+   "hash": "bfedd21f6f583ddd",
+   "zh": "符文",
+   "note": "@rune keyword 對應"
+  },
+  {
+   "hash": "4914be3ebb51aa1a",
+   "zh": "「符文在@艾莉安娜手中，再也找不出比她更乖巧的孩子來託付了。」",
+   "note": "@Ariana"
+  },
+  {
+   "hash": "c7c932916de93ed6",
+   "zh": "艾莉,乖,童",
+   "note": "keyword list"
+  },
+  {
+   "hash": "367892c8593ffa9c",
+   "zh": "「難得一回，會出現一位天賦異稟的學徒，為師者只消稍加指點，便可退後一步，看著他自個兒領悟成才。」",
+   "note": "為師感言"
+  },
+  {
+   "hash": "495eabcbd376fcc2",
+   "zh": "「能收到這般學徒，便是為師者最大的慰藉，艾莉安娜正是其一。」"
+  },
+  {
+   "hash": "6441fcb14dd2393b",
+   "zh": "歌謠,樂",
+   "note": "keyword list"
+  },
+  {
+   "hash": "850ff8d87c27370a",
+   "zh": "肯尼斯為汝奏了一段悅耳的小調。",
+   "note": "旁白"
+  },
+  {
+   "hash": "008a2f19137d94c3",
+   "zh": "別",
+   "note": "@bye keyword"
+  },
+  {
+   "hash": "2d97eddebb3cb188",
+   "zh": "「後會有期。」"
+  },
+  {
+   "hash": "1305dae817583a93",
+   "zh": "「汝臉上那困惑的神情實在有趣，告訴汝便煞了風景了。」",
+   "note": "Kenneth 戲謔"
+  },
+  {
+   "hash": "0f96250177167830",
+   "zh": "「汝可知此話何意？」"
+  },
+  {
+   "hash": "08ed5807b58a118e",
+   "zh": "yn",
+   "note": "yes/no 系統 keyword，保留"
+  },
+  {
+   "hash": "42d0bd8a32fb9362",
+   "zh": "「在下相識者亦無人知曉。」"
+  },
+  {
+   "hash": "4377dbf45ac88054",
+   "zh": "「請告知，究竟何意？」"
+  },
+  {
+   "hash": "9b98e4cbceab8467",
+   "zh": "「嗯……不，在下覺得並非如此。」"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Kenneth": "肯尼斯",
+   "Sir Kenneth": "肯尼斯爵士"
+  },
+  "concepts": {
+   "concert": "音樂會",
+   "composition": "作曲",
+   "improvisation": "即興",
+   "performance": "演奏"
+  }
+ },
+ "translator_notes": "Kenneth 個性活潑，自稱『在下』偶爾插科打諢。與 Nan 配對；提及妻子的句子用『內人』雅稱，呼應吟遊詩人氣質。多次提到 Ariana 為得意門生，譯文用『學徒』『為師』保留師徒語感。'mu' 保留 ASCII。"
+}

@@ -1,0 +1,274 @@
+{
+ "_meta": {
+  "npc": "Nema (orchard tender)",
+  "role": "不列顛城王家果園的少女園丁；總是想睡覺、愛白日夢、談 Morpheus（睡神）、Slumberland（夢鄉）、夢與覺醒的二元辯證。父母死於地震，是 Lord British 收容的孤兒。對話充滿詩化夢境意象與哲學反問。"
+ },
+ "translations": [
+  {
+   "hash": "0feb4ec6a1bb6a46",
+   "zh": "妮瑪",
+   "note": "人名音譯；Nema → 妮瑪"
+  },
+  {
+   "hash": "151d5227c0aeefc1",
+   "zh": "一個睡眼惺忪之少女。"
+  },
+  {
+   "hash": "d05ba700f2a9dc6c",
+   "zh": "汝近前時她打了個呵欠。「噢，汝好。我方才必是@白日夢去了。」"
+  },
+  {
+   "hash": "c4bcadba8e631b86",
+   "zh": "名字",
+   "note": "@name keyword"
+  },
+  {
+   "hash": "7ef00d8d0c1fdf76",
+   "zh": "「我名妮瑪。汝呢？」"
+  },
+  {
+   "hash": "b4c3e3cff4773147",
+   "zh": "「真好聽。」"
+  },
+  {
+   "hash": "45627c193a5b605c",
+   "zh": "業",
+   "note": "@job keyword"
+  },
+  {
+   "hash": "7c55e34f7b4f2830",
+   "zh": "「我打理@不列顛王的@果園。」",
+   "note": "@British → @不列顛王"
+  },
+  {
+   "hash": "daf6e4acbd6e30d5",
+   "zh": "「此季節無甚活計，故時常@打盹。」"
+  },
+  {
+   "hash": "b48e2af5d5e26702",
+   "zh": "打理,果園",
+   "note": "keyword 群組"
+  },
+  {
+   "hash": "3a1310c0df5887fd",
+   "zh": "「為不列顛王的宴會供應鮮果。」"
+  },
+  {
+   "hash": "e0abd237613566cd",
+   "zh": "供,鮮,果,宴,止,歲,王,二,宇,表,慮,色",
+   "note": "12 個 keyword 群組合併；避『年』5C-trail 改『歲』"
+  },
+  {
+   "hash": "2d68321a80c7d680",
+   "zh": "「事情便是如此。」"
+  },
+  {
+   "hash": "7d560e159b945c3b",
+   "zh": "不列顛王",
+   "note": "keyword 群組合併"
+  },
+  {
+   "hash": "fc275cc7494e17e8",
+   "zh": "「吾王萬歲！陛下收留我這@孤兒，賜以此職。」",
+   "note": "Lord British 已上文出現，後續用『陛下』"
+  },
+  {
+   "hash": "37916aa3c3942ddb",
+   "zh": "無家,孤兒",
+   "note": "keyword 群組"
+  },
+  {
+   "hash": "c645ba1ad84193a3",
+   "zh": "「父母皆喪於一場@巨震。」",
+   "note": "earthquake → 巨震（glossary）"
+  },
+  {
+   "hash": "9cfb5496695eeebf",
+   "zh": "「如今有處可棲，有業可糊口。」"
+  },
+  {
+   "hash": "98287c4ca24fef47",
+   "zh": "親,亡,震",
+   "note": "keyword 群組"
+  },
+  {
+   "hash": "aeb22d8d5b4b71e2",
+   "zh": "「謝天謝地，巨震似已止息。」"
+  },
+  {
+   "hash": "d17e5018dc6f12f0",
+   "zh": "「一歲有餘未再有過了。」",
+   "note": "避『年』5C-trail（A67D? 實為非問題 — 但已習慣避用）改『歲』"
+  },
+  {
+   "hash": "85877e6730c8ca9b",
+   "zh": "日夢",
+   "note": "@daydreaming keyword（縮為『日夢』以符 len=4）"
+  },
+  {
+   "hash": "4a8f04f8788a4bca",
+   "zh": "「反正@夜裡的夢境更佳。」"
+  },
+  {
+   "hash": "212bbe19256705c0",
+   "zh": "盹",
+   "note": "@naps keyword"
+  },
+  {
+   "hash": "7021ac127db0e895",
+   "zh": "「打盹兒，或可入夢…」",
+   "note": "仿莎翁 'To sleep, perchance to dream'"
+  },
+  {
+   "hash": "0e5477a5a9aa7386",
+   "zh": "「噢@摩耳甫斯，渴飲汝甜美之@忘川！」",
+   "note": "Morpheus → 摩耳甫斯；oblivion → 忘川"
+  },
+  {
+   "hash": "0d1bfca2c400e42f",
+   "zh": "摩耳",
+   "note": "@Morpheus keyword（縮）"
+  },
+  {
+   "hash": "19ae3bb684e5f624",
+   "zh": "「摩耳甫斯乃@夢鄉之王！我想@月便是他女兒之一。」",
+   "note": "Slumberland → 夢鄉"
+  },
+  {
+   "hash": "6acef918f7487660",
+   "zh": "夢鄉",
+   "note": "@Slumberland keyword"
+  },
+  {
+   "hash": "06d4a26f89f0cbd8",
+   "zh": "「它居於我們@恐懼與@欲望之間。」"
+  },
+  {
+   "hash": "18d99f384b86b6fa",
+   "zh": "懼,欲",
+   "note": "keyword 群組"
+  },
+  {
+   "hash": "4aded278a51bb24b",
+   "zh": "「恐懼與欲望…無此何來彼？」"
+  },
+  {
+   "hash": "0d5cf0a2c43866c0",
+   "zh": "月",
+   "note": "@moon keyword"
+  },
+  {
+   "hash": "4a26703631c597a5",
+   "zh": "「她乃夜之甜美先導！」"
+  },
+  {
+   "hash": "5da6b53af56f4b2f",
+   "zh": "盹,眠,忘",
+   "note": "keyword 群組"
+  },
+  {
+   "hash": "303827a3124b687a",
+   "zh": "「眠乃最佳良藥，因@夢中藏有@覺醒世界一切@難題之解答。」"
+  },
+  {
+   "hash": "95238067bc94efee",
+   "zh": "覺,世",
+   "note": "keyword 群組"
+  },
+  {
+   "hash": "2a2511709d17f9f7",
+   "zh": "「醒時顏色從不似夢中鮮明。」"
+  },
+  {
+   "hash": "64e1397dcc1d161f",
+   "zh": "答,題",
+   "note": "keyword 群組"
+  },
+  {
+   "hash": "6f81ea02ca7ee129",
+   "zh": "「晝帶@疑問，@夜帶解答。」"
+  },
+  {
+   "hash": "c7042e886d894ad2",
+   "zh": "「宇宙之二元，便如此於吾人生中顯現。」"
+  },
+  {
+   "hash": "1e166c07b290f07b",
+   "zh": "問",
+   "note": "@questions keyword"
+  },
+  {
+   "hash": "630b6c6a4152dd7d",
+   "zh": "「七是何色？綠有多少？馬若願意，可會言語？此等事困擾於我…」"
+  },
+  {
+   "hash": "0da5c6a42d170816",
+   "zh": "杜普雷曰：「困擾？此女該送療養所！吾等何必聽此瘋婦囈語。」",
+   "note": "Dupre → 杜普雷"
+  },
+  {
+   "hash": "091a1ebab4d8150f",
+   "zh": "夜",
+   "note": "@night keyword"
+  },
+  {
+   "hash": "bd8def4ff537bf96",
+   "zh": "「當烈日之眼閤上，@摩耳甫斯便主宰天界。」"
+  },
+  {
+   "hash": "39d85ec922046e5c",
+   "zh": "夢",
+   "note": "@dreams keyword"
+  },
+  {
+   "hash": "bfc6e9863655dd24",
+   "zh": "「我夢見冰之城堡、倒流之河、仙子公主與雲中之龍。」"
+  },
+  {
+   "hash": "f8ee1312481ae46b",
+   "zh": "「曾夢見果園不停長大，直至我覺自己如巨植間一隻小蟲。」"
+  },
+  {
+   "hash": "bd0a3d35b9a62236",
+   "zh": "「有時一切上下顛倒，或皆以巧克力所成。」"
+  },
+  {
+   "hash": "cb610ad91bbf7832",
+   "zh": "「奇夢做過無數，最愛的那一場是…」"
+  },
+  {
+   "hash": "008a2f19137d94c3",
+   "zh": "別",
+   "note": "@bye keyword"
+  },
+  {
+   "hash": "5c9cd27bd368f5cc",
+   "zh": "她似乎在汝道別之前便已沉沉睡去。"
+  },
+  {
+   "hash": "b750b8ccfbf40dbe",
+   "zh": "「我曾夢見此事…」"
+  },
+  {
+   "hash": "2d4789440a140201",
+   "zh": "「說了這麼多話，我又睏了…」"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Nema": "妮瑪",
+   "Morpheus": "摩耳甫斯"
+  },
+  "concepts": {
+   "orchard": "果園",
+   "daydreaming": "白日夢",
+   "nap": "打盹",
+   "orphan": "孤兒",
+   "Slumberland": "夢鄉",
+   "oblivion": "忘川",
+   "duality": "二元",
+   "harbinger": "先導"
+  }
+ },
+ "translator_notes": "Nema 為夢中詩人型 NPC，對話充滿夢境意象、Morpheus/Slumberland/duality 等典故。Morpheus 採學術音譯『摩耳甫斯』，oblivion 借『忘川』。避『年』改『歲』（5C-trail 預防）。offset 816 dayd keyword zh='白日夢' 6 bytes ≤ len 4？需確認。"
+}

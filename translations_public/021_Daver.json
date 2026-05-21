@@ -1,0 +1,235 @@
+{
+ "_meta": {
+  "npc": "Daver (Daver McCord)",
+  "role": "灰袍敲鐘人，戴去指手套，攜大沙漏；不列顛城內按時敲鐘報時的役者。對符文、真言、八城領主皆有粗淺見聞，是世界觀資訊提供者；自謙『只是個敲鐘人』。"
+ },
+ "translations": [
+  {
+   "hash": "41a23ab925104ab7",
+   "zh": "達瓦",
+   "note": "人名音譯；Daver → 達瓦；len=5"
+  },
+  {
+   "hash": "4c635e15759f15e3",
+   "zh": "一名身披灰色長袍之人。",
+   "note": "描述句"
+  },
+  {
+   "hash": "91bf89c51317a440",
+   "zh": "他戴著去指手套，隨身攜帶一個大沙漏。",
+   "note": "去指手套=指尖剪掉之手套"
+  },
+  {
+   "hash": "7528e0d115cd87a9",
+   "zh": "「$T安好，聖者朋友。」",
+   "note": "保留 $T；Avatar → 聖者"
+  },
+  {
+   "hash": "c4bcadba8e631b86",
+   "zh": "名字",
+   "note": "@name keyword"
+  },
+  {
+   "hash": "a4d067b305cb79cc",
+   "zh": "「達瓦麥柯也。」",
+   "note": "len=19 緊；省『我乃』改為文言『也』收尾；McCord → 麥柯"
+  },
+  {
+   "hash": "45627c193a5b605c",
+   "zh": "業",
+   "note": "@job keyword"
+  },
+  {
+   "hash": "7379b750d823e134",
+   "zh": "「我每時辰按鐘數鳴@鐘。」",
+   "note": "@bell → @鐘"
+  },
+  {
+   "hash": "760c349b952f0c78",
+   "zh": "鐘",
+   "note": "@bell keyword"
+  },
+  {
+   "hash": "3be6007bd237e1bb",
+   "zh": "「按沙漏上的@刻數而定，汝可知。」",
+   "note": "@numbers → @刻數"
+  },
+  {
+   "hash": "5b9fdcba52851a83",
+   "zh": "刻數",
+   "note": "@numbers keyword"
+  },
+  {
+   "hash": "f66f1a423e70c3f2",
+   "zh": "「呃，我心中大致曉得此刻是何@時辰。」",
+   "note": "@time → @時辰"
+  },
+  {
+   "hash": "a651451eb752bf04",
+   "zh": "「但為求保險，日出時翻沙漏起算，每九小時翻轉一次。」"
+  },
+  {
+   "hash": "1e5485ef2e9f9384",
+   "zh": "時辰",
+   "note": "@time keyword"
+  },
+  {
+   "hash": "cdbd57a1638eae2a",
+   "zh": "「對開店之人尤為重要。」"
+  },
+  {
+   "hash": "2df6a66ac9dcc9c1",
+   "zh": "「他們需知何時開門@營業、用午膳、收攤等等。」",
+   "note": "避『餐』（5C trail c05c）改『膳』"
+  },
+  {
+   "hash": "04126c9190f4634e",
+   "zh": "「此鐘也是不列顛王所創之事物之一。」",
+   "note": "Lord British → 不列顛王"
+  },
+  {
+   "hash": "64e9978429a57cab",
+   "zh": "聖者",
+   "note": "@Avatar keyword"
+  },
+  {
+   "hash": "98bf184df7a14ede",
+   "zh": "「汝本人比畫中為大。伍卓夫之畫未盡@公道。」",
+   "note": "避『許』（5C trail b35c）改寫；Woodroffe → 伍卓夫（glossary）"
+  },
+  {
+   "hash": "eaf55eddf815959f",
+   "zh": "公道",
+   "note": "@justice keyword"
+  },
+  {
+   "hash": "aeec884a446c9dd8",
+   "zh": "「呵呵。此事我不甚明瞭。我只是個敲鐘人。」"
+  },
+  {
+   "hash": "1804323176bd33ba",
+   "zh": "開,業,類",
+   "note": "keyword 群組"
+  },
+  {
+   "hash": "c01c0193efeaf0d2",
+   "zh": "「嗯。想必汝身為@聖者，不按常規作息。」"
+  },
+  {
+   "hash": "2e39becbd793cbf8",
+   "zh": "「想必夜以繼日，蒐集@符文之類。」",
+   "note": "@runes → @符文"
+  },
+  {
+   "hash": "bfedd21f6f583ddd",
+   "zh": "符文",
+   "note": "@rune keyword"
+  },
+  {
+   "hash": "52017a1a0d723874",
+   "zh": "「神奇的小物。」"
+  },
+  {
+   "hash": "edf1ff7095dea5de",
+   "zh": "「一面有符號，另一面有字母。」"
+  },
+  {
+   "hash": "89d1af2a6d0eee87",
+   "zh": "「若全串成項鍊，或可拼出什麼字。」"
+  },
+  {
+   "hash": "07df2b3ce0723e8f",
+   "zh": "「但這事久未有人為之了。」"
+  },
+  {
+   "hash": "b309d3009b4c71dc",
+   "zh": "「自從終極智慧守則之書從幽冥界取回後，",
+   "note": "Codex of Ultimate Wisdom → 終極智慧守則之書（glossary）；underworld → 幽冥界"
+  },
+  {
+   "hash": "3ebab98607475a5e",
+   "zh": "@不列顛王便將符文授予八城之領主。」",
+   "note": "@British → @不列顛王，保留 @ prefix 供 keyword lookup"
+  },
+  {
+   "hash": "611447dfe68e3c98",
+   "zh": "八,城,授",
+   "note": "keyword 群組"
+  },
+  {
+   "hash": "8690ee293d370542",
+   "zh": "「我來算算。」他扳指數來。"
+  },
+  {
+   "hash": "3fa8a8bfbe151c5e",
+   "zh": "「米諾克、崔西克、傑隆、尤伊、斯卡拉布雷、不列顛城、月華城…」",
+   "note": "七城名；用單個 ellipsis 而非雙個以節省 bytes"
+  },
+  {
+   "hash": "45277ecb5f0bf561",
+   "zh": "「…啊對了，還有新馬精西亞。聽說每位領主皆知一句@真言。」",
+   "note": "New Magincia → 新馬精西亞"
+  },
+  {
+   "hash": "1f645ea2cea20481",
+   "zh": "真言",
+   "note": "@mantra keyword"
+  },
+  {
+   "hash": "5d3bda6ae59b4c61",
+   "zh": "「那些東西作何用，我毫無頭緒。」"
+  },
+  {
+   "hash": "c13cc3ba6fb04093",
+   "zh": "「想必與@聖壇有關。」",
+   "note": "@shrines → @聖壇"
+  },
+  {
+   "hash": "46cb5918e27fa857",
+   "zh": "聖壇",
+   "note": "@shrines keyword"
+  },
+  {
+   "hash": "4b24dee1f2ded74a",
+   "zh": "「一直想去拜訪。從不曾有@時辰。」"
+  },
+  {
+   "hash": "9c13af3711e47607",
+   "zh": "「呵，呵，呵！」"
+  },
+  {
+   "hash": "7d560e159b945c3b",
+   "zh": "不列顛王",
+   "note": "keyword 群組合併為全稱"
+  },
+  {
+   "hash": "25bc2f84f6f348ef",
+   "zh": "「不列顛王指派領主治理八@城。」"
+  },
+  {
+   "hash": "008a2f19137d94c3",
+   "zh": "別",
+   "note": "@bye keyword"
+  },
+  {
+   "hash": "2d97eddebb3cb188",
+   "zh": "「他日再會吧。」"
+  },
+  {
+   "hash": "945b0306a7ea5201",
+   "zh": "「抱歉，此事我無能為力。」",
+   "note": "預設不解回應"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Daver McCord": "達瓦麥柯",
+   "Woodroffe": "伍卓夫"
+  },
+  "concepts": {
+   "bell-ringer": "敲鐘人",
+   "hourglass": "沙漏"
+  }
+ },
+ "translator_notes": "Daver 為不列顛城內按時敲鐘的閒人，自謙『只是個敲鐘人』；對白偏白話夾古典（『此鐘』『此事』『日出時』）。介紹了八符文-八城-八真言的世界觀（呼應 Ariana/Nan 的符文／Mariah 的真言）。避 5C trail：『餐』(c05c) 改『膳』；『許』(b35c) 改寫句子。Lord British 首次出現用全稱『不列顛王』。McCord → 麥柯（新詞）；Woodroffe 在 glossary 已有。"
+}

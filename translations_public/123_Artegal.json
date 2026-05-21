@@ -1,0 +1,33 @@
+{
+ "_meta": {},
+ "translations": [
+  {
+   "hash": "70ba796804ea7b61",
+   "zh": "滿身刀疤之男子，面色痛苦至極。",
+   "note": "DESC"
+  },
+  {
+   "hash": "5cadfcf40481afef",
+   "zh": "「痛，好痛……何時才能結束？」"
+  },
+  {
+   "hash": "f2a173a9945d895b",
+   "zh": "「太多了……他們太多了……」"
+  },
+  {
+   "hash": "bcaca46d7dcb23b1",
+   "zh": "「我的頭像在打鼓……」"
+  },
+  {
+   "hash": "5cf72d1e2cfa8d74",
+   "zh": "「唉，好痛！」"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Artegal": "阿特葛"
+  },
+  "places": {}
+ },
+ "translator_notes": "Artegal 受傷戰士，只能在痛苦中呻吟，沒有可對話內容。"
+}

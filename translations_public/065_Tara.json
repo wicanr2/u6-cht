@@ -1,0 +1,247 @@
+{
+ "_meta": {},
+ "translations": [
+  {
+   "hash": "86f39c7dbb29ec94",
+   "zh": "一位和藹可親的老婦人。",
+   "note": "DESC"
+  },
+  {
+   "hash": "444b6ba4f5679e75",
+   "zh": "「歡迎來到吾的治療所，聖者。」",
+   "note": "first greeting"
+  },
+  {
+   "hash": "b797d601d2485a82",
+   "zh": "「吾希望汝不需要吾的服務！」"
+  },
+  {
+   "hash": "5d0e19ee56eea546",
+   "zh": "「再次歡迎，尊貴的聖者。」"
+  },
+  {
+   "hash": "9d2fa3d733d0dd89",
+   "zh": "「吾希望這次來訪是為了閒聊，而非看病！」"
+  },
+  {
+   "hash": "0b67bc8b3bd4f12b",
+   "zh": "「但吾很高興地說汝的隊伍無人陣亡！」",
+   "note": "resurrection check; no one dead"
+  },
+  {
+   "hash": "267b75360034e714",
+   "zh": "「吾的名字是塔拉。」"
+  },
+  {
+   "hash": "eabf93427cf77da3",
+   "zh": "「吾是這座城鎮的治療師。」"
+  },
+  {
+   "hash": "37e2dff64c89fcd3",
+   "zh": "「吾在這裡照料@體弱者已有六十年了！」"
+  },
+  {
+   "hash": "0a29131a348b58f9",
+   "zh": "「那些需要@治療、@解毒，或需要被@復活的人。」"
+  },
+  {
+   "hash": "3ef5979ad506e907",
+   "zh": "「『cah』，那是奉獻的咒語。」",
+   "note": "mantra kept as-is"
+  },
+  {
+   "hash": "401f618e3a238f5a",
+   "zh": "「珍重！」",
+   "note": "bye"
+  },
+  {
+   "hash": "8f14487cf8cce24b",
+   "zh": "「吾能為汝做什麼？」"
+  },
+  {
+   "hash": "933197594b850982",
+   "zh": "「吾不理解『$Z』。」"
+  },
+  {
+   "hash": "8ded6a1041341d62",
+   "zh": "「請問汝說什麼？」"
+  },
+  {
+   "hash": "715a86bc79bafa60",
+   "zh": "「但汝身體無恙！」",
+   "note": "heal; no injury"
+  },
+  {
+   "hash": "f13782857ba64cfc",
+   "zh": "「但汝等全都身體無恙！」"
+  },
+  {
+   "hash": "7bf2e7fe4fc43e63",
+   "zh": "「汝等哪一位？」"
+  },
+  {
+   "hash": "0096c89bdb1ea6cc",
+   "zh": "「吾看到汝的傷勢了，$Y。」",
+   "note": "heal 30g"
+  },
+  {
+   "hash": "87ef4fd0f61f6961",
+   "zh": "「汝願意獻上 30 枚金幣嗎？」"
+  },
+  {
+   "hash": "5d89cc7119087070",
+   "zh": "塔拉走近 $Y，為其包紮傷口。",
+   "note": "action"
+  },
+  {
+   "hash": "eb56ee104dc7ff07",
+   "zh": "「若汝不願付費，吾便無法為汝治療。」"
+  },
+  {
+   "hash": "e5f8119409f78da4",
+   "zh": "「抱歉。沒有獻金，吾無法為汝治療。」",
+   "note": "no gold"
+  },
+  {
+   "hash": "432e96e99d4ce8fd",
+   "zh": "「汝雖貧窮，但汝的事業是正義的。」",
+   "note": "free heal for Avatar"
+  },
+  {
+   "hash": "73a57cdee2cf317a",
+   "zh": "「吾將免費為汝治療。」"
+  },
+  {
+   "hash": "772cc3679027164e",
+   "zh": "莎莎走近 $Y，為其包紮傷口。",
+   "note": "action; NPC named Sasha helps"
+  },
+  {
+   "hash": "184ec2cf143a8639",
+   "zh": "「吾還有其他能為汝效勞的嗎？」"
+  },
+  {
+   "hash": "715a86bc79bafa60",
+   "zh": "「但汝身體無恙！」",
+   "note": "cure; no poison"
+  },
+  {
+   "hash": "f13782857ba64cfc",
+   "zh": "「但汝等全都身體無恙！」"
+  },
+  {
+   "hash": "7bf2e7fe4fc43e63",
+   "zh": "「汝等哪一位？」"
+  },
+  {
+   "hash": "0096c89bdb1ea6cc",
+   "zh": "「吾看到汝的傷勢了，$Y。」",
+   "note": "cure 10g"
+  },
+  {
+   "hash": "c2e73e73444a5d5b",
+   "zh": "「汝願意獻上 10 枚金幣嗎？」"
+  },
+  {
+   "hash": "6b60f674ddb00675",
+   "zh": "塔拉拿起一個小瓶，將藥液灌入 $Y 的喉嚨。",
+   "note": "action; cure"
+  },
+  {
+   "hash": "c789600089e2432c",
+   "zh": "$Y 感覺好多了。",
+   "note": "action"
+  },
+  {
+   "hash": "eb56ee104dc7ff07",
+   "zh": "「若汝不願付費，吾便無法為汝治療。」"
+  },
+  {
+   "hash": "e5f8119409f78da4",
+   "zh": "「抱歉。沒有獻金，吾無法為汝治療。」"
+  },
+  {
+   "hash": "432e96e99d4ce8fd",
+   "zh": "「汝雖貧窮，但汝的事業是正義的。」"
+  },
+  {
+   "hash": "73a57cdee2cf317a",
+   "zh": "「吾將免費為汝治療。」"
+  },
+  {
+   "hash": "6b60f674ddb00675",
+   "zh": "塔拉拿起一個小瓶，將藥液灌入 $Y 的喉嚨。",
+   "note": "action"
+  },
+  {
+   "hash": "c789600089e2432c",
+   "zh": "$Y 感覺好多了。",
+   "note": "action"
+  },
+  {
+   "hash": "49c01317adc6b249",
+   "zh": "「哦！吾看到 $Y 攜帶著一位倒下的同伴！」",
+   "note": "resurrect"
+  },
+  {
+   "hash": "bee3fae276f0725c",
+   "zh": "「汝願意獻上 400 枚金幣嗎？」"
+  },
+  {
+   "hash": "0ba8420e5395b116",
+   "zh": "「那吾只能與汝同哀，別無他法。」"
+  },
+  {
+   "hash": "813c53fce851f38b",
+   "zh": "「金幣不夠。」"
+  },
+  {
+   "hash": "46a5f426ffa5bbcb",
+   "zh": "「汝還差 #1 枚金幣。」"
+  },
+  {
+   "hash": "442e99118a9e0726",
+   "zh": "汝的隊伍為倒下的同伴湊錢。",
+   "note": "action"
+  },
+  {
+   "hash": "809bcea7abff768d",
+   "zh": "塔拉將雙手按在屍體上……",
+   "note": "resurrection action"
+  },
+  {
+   "hash": "514009a24fcb86ac",
+   "zh": "「Doman……」",
+   "note": "resurrection incantation; kept as-is"
+  },
+  {
+   "hash": "f969324013f7d968",
+   "zh": "「thixus……」",
+   "note": "resurrection incantation; kept as-is"
+  },
+  {
+   "hash": "f9ef335076824b7b",
+   "zh": "「anretu！」",
+   "note": "resurrection incantation; kept as-is"
+  },
+  {
+   "hash": "5882524ad132e7e4",
+   "zh": "死者復活了！",
+   "note": "action"
+  },
+  {
+   "hash": "9c99f8344f21dfee",
+   "zh": "「吾看到 $Y 又攜帶著另一位陣亡的友人。」"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Tara": "塔拉"
+  },
+  "places": {},
+  "concepts": {
+   "Mantra of Sacrifice": "cah"
+  }
+ },
+ "translator_notes": "塔拉是密諾克的仁慈老治療師，行醫六十年。知道奉獻咒語「cah」。提供治療（30金）、解毒（10金）、復活（400金）服務。對貧窮的聖者可免費施術。復活咒語 Doman/thixus/anretu 保留原文。"
+}

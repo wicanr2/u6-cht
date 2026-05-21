@@ -1,0 +1,64 @@
+# --- 原版遊戲檔（請玩家自備 legit copy） ---
+ultima6/
+working/
+nuvie/
+*.A
+*.B
+CONVERSE.*
+BOOK.DAT
+*.LZD
+*.LZC
+*.M
+*.SHP
+
+# --- ScummVM source 子目錄（玩家自行 clone scummvm 並 apply patch） ---
+scummvm-src/
+scummvm-win-src/
+
+# --- Save games / user-specific config ---
+SAVEGAME/
+*.sav
+.scummvmrc
+scummvm.ini
+
+# --- 私有 en+zh source 譯文（含原版英文，不公開） ---
+# 公開版位於 translations_public/ — 只有 hash + zh，無原版英文
+dumps/translations/
+
+# --- 過程資料、暫存（包含原版 English 文字，不公開） ---
+dumps/converse/
+dumps/npc_extracted/
+dumps/converse_strings.json
+dumps/book_dat_entries.json
+dumps/linda*.json
+dumps/linda*.png
+dumps/game_tester_report.md
+dumps/review_*.md
+MORNING_REPORT.md
+*.bak
+*.bak.*
+.teleport.bak
+
+# --- jsdos / 原始解壓檔 ---
+*.jsdos
+*.jpeg
+269e0df3-*.jpeg
+ultima6.zip
+u6-decompiled/
+
+# --- 工具產物 ---
+working/game/cht_strings.tab
+*.fnt.bak
+
+# --- IDE / OS / agent session data ---
+.claude/
+.vscode/
+.idea/
+*.swp
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+
+# --- 大型截圖（只留 docs/screenshots/） ---
+/tmp/u6_*.png
