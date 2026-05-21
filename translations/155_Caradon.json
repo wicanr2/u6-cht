@@ -32,7 +32,7 @@
    "offset": 218,
    "len": 51,
    "en": " But please, $G. Let me tell you of my @adventure.\"",
-   "zh": "但請允許，$G，讓吾向汝述說吾的@歷險。」",
+   "zh": "但請允許，$G，讓吾向汝述說吾的@adventure（歷險）。」",
    "note": "接在上兩個 split string 之後"
   },
   {
@@ -46,14 +46,14 @@
    "offset": 344,
    "len": 67,
    "en": "\"I am a knight. Currently, though, I am recovering from a @battle.\"",
-   "zh": "「吾乃騎士。然而眼下，正從一場@戰鬥中療傷復原。」",
+   "zh": "「吾乃騎士。然而眼下，正從一場@battle（戰鬥）中療傷復原。」",
    "note": ""
   },
   {
    "offset": 432,
    "len": 80,
    "en": "\"I've just come home from fighting in Yew. I fought gargoyles near the @shrine.\"",
-   "zh": "「吾剛從伊尤的戰場歸來。在@神殿附近與魔像族交手。」",
+   "zh": "「吾剛從伊尤的戰場歸來。在@shrine（聖壇）附近與魔像族交手。」",
    "note": ""
   },
   {
@@ -102,7 +102,7 @@
    "offset": 1018,
    "len": 63,
    "en": "\"Then the gargoyles looked up at us and fell over, both @dead.\"",
-   "zh": "「然後那兩隻魔像族抬頭望向我們，隨即倒地，雙雙@斃命。」",
+   "zh": "「然後那兩隻魔像族抬頭望向我們，隨即倒地，雙雙@dead（斃命）。」",
    "note": ""
   },
   {
@@ -116,7 +116,7 @@
    "offset": 1134,
    "len": 62,
    "en": "\"I only wish I could have killed them myself, for @vengeance!\"",
-   "zh": "「吾只恨不能親手將他們殺死，以@復仇！」",
+   "zh": "「吾只恨不能親手將他們殺死，以@vengeance（復仇）！」",
    "note": ""
   },
   {
@@ -130,7 +130,7 @@
    "offset": 1284,
    "len": 57,
    "en": "For a moment, Caradon looks ready to weep. \"The @beasts!\"",
-   "zh": "卡拉頓片刻間幾近落淚。「這些@野獸！」",
+   "zh": "卡拉頓片刻間幾近落淚。「這些@beasts（野獸）！」",
    "note": ""
   },
   {
@@ -155,6 +155,11 @@
    "note": "thee=you 古語"
   }
  ],
- "glossary_additions": {"people": {"Caradon": "卡拉頓"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Caradon": "卡拉頓"
+  },
+  "places": {}
+ },
  "translator_notes": "卡拉頓是特林希克聖騎士，從伊尤神殿附近的戰鬥返回療傷。他目睹兩隻魔像族飲下藥水後猛烈交戰，最後在隊長被焚屍後突然暴斃。魔像族猝死情節是重要劇情線索。騎士文體用吾/汝/彼。"
 }

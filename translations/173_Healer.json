@@ -166,7 +166,7 @@
    "len": 73,
    "en": "\"To know that his family was lost when the edges of the world @fell off.\"",
    "zh": "「其家人在世界邊緣@fell崩裂之際而亡。」",
-   "note": "大災變：世界邊緣崩裂，指守則之書被盜後"
+   "note": "大災變：世界邊緣崩裂，指知識寶典被盜後"
   },
   {
    "offset": 1121,
@@ -378,5 +378,5 @@
   "places": {}
  },
  "riddles_additions": [],
- "translator_notes": "魔像醫者沉穩以和，對護符後的玩家態度轉為友善。治療互動旁白清晰。大災變（world edges fell off）為魔像視角描述守則之書被盜後的地震：世界邊緣碎裂。魔像語前三行（An in mani u / lem / An-bal-sil-fer）保留原文。"
+ "translator_notes": "魔像醫者沉穩以和，對護符後的玩家態度轉為友善。治療互動旁白清晰。大災變（world edges fell off）為魔像視角描述知識寶典被盜後的地震：世界邊緣碎裂。魔像語前三行（An in mani u / lem / An-bal-sil-fer）保留原文。"
 }

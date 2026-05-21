@@ -24,7 +24,7 @@
    "offset": 38,
    "len": 76,
    "en": "She yawns as you approach. \"Oh, hello there. I must have been @daydreaming.\"",
-   "zh": "汝近前時她打了個呵欠。「噢，汝好。我方才必是@白日夢去了。」",
+   "zh": "汝近前時她打了個呵欠。「噢，汝好。我方才必是@daydreaming（白日）夢去了。」",
    "zh_bytes": 59,
    "note": ""
   },
@@ -64,7 +64,7 @@
    "offset": 187,
    "len": 34,
    "en": "\"I tend Lord @British's @orchard.\"",
-   "zh": "「我打理@不列顛王的@果園。」",
+   "zh": "「我打理@British（不列）顛王的@orchard（果園）。」",
    "zh_bytes": 28,
    "note": "@British → @不列顛王"
   },
@@ -72,7 +72,7 @@
    "offset": 224,
    "len": 80,
    "en": "\"Of course, this time of year there's not much to do, so I take a lot of @naps.\"",
-   "zh": "「此季節無甚活計，故時常@打盹。」",
+   "zh": "「此季節無甚活計，故時常@naps（打盹）。」",
    "zh_bytes": 33,
    "note": ""
   },
@@ -120,7 +120,7 @@
    "offset": 478,
    "len": 77,
    "en": "\"Long live the king! I was just a homeless @orphan when he gave me this job.\"",
-   "zh": "「吾王萬歲！陛下收留我這@孤兒，賜以此職。」",
+   "zh": "「吾王萬歲！陛下收留我這@orphan（孤兒），賜以此職。」",
    "zh_bytes": 43,
    "note": "Lord British 已上文出現，後續用『陛下』"
   },
@@ -136,7 +136,7 @@
    "offset": 571,
    "len": 43,
    "en": "\"My parents were killed in an @earthquake.\"",
-   "zh": "「父母皆喪於一場@巨震。」",
+   "zh": "「父母皆喪於一場@earthquake（巨震）。」",
    "zh_bytes": 25,
    "note": "earthquake → 巨震（glossary）"
   },
@@ -184,7 +184,7 @@
    "offset": 821,
    "len": 46,
    "en": "\"Well, I have better dreams at @night anyway.\"",
-   "zh": "「反正@夜裡的夢境更佳。」",
+   "zh": "「反正@night（夜裡）的夢境更佳。」",
    "zh_bytes": 25,
    "note": ""
   },
@@ -208,7 +208,7 @@
    "offset": 914,
    "len": 57,
    "en": "\"O @Morpheus, I long for a taste of thy sweet @oblivion!\"",
-   "zh": "「噢@摩耳甫斯，渴飲汝甜美之@忘川！」",
+   "zh": "「噢@Morpheus（摩耳）甫斯，渴飲汝甜美之@oblivion（忘川）！」",
    "zh_bytes": 36,
    "note": "Morpheus → 摩耳甫斯；oblivion → 忘川"
   },
@@ -224,7 +224,7 @@
    "offset": 982,
    "len": 82,
    "en": "\"Morpheus is the King of @Slumberland! I think the @moon is one of his daughters.\"",
-   "zh": "「摩耳甫斯乃@夢鄉之王！我想@月便是他女兒之一。」",
+   "zh": "「摩耳甫斯乃@Slumberland（夢鄉）之王！我想@moon（月）便是他女兒之一。」",
    "zh_bytes": 48,
    "note": "Slumberland → 夢鄉"
   },
@@ -240,7 +240,7 @@
    "offset": 1075,
    "len": 53,
    "en": "\"It lies halfway between our fears and our @desires.\"",
-   "zh": "「它居於我們@恐懼與@欲望之間。」",
+   "zh": "「它居於我們@desires（恐懼）與欲望之間。」",
    "zh_bytes": 32,
    "note": ""
   },
@@ -288,7 +288,7 @@
    "offset": 1278,
    "len": 109,
    "en": "\"Sleep is the finest medicine, for in our @dreams lie the @answers to all the problems of the @waking world.\"",
-   "zh": "「眠乃最佳良藥，因@夢中藏有@覺醒世界一切@難題之解答。」",
+   "zh": "「眠乃最佳良藥，因@dreams（夢）中藏有@answers（覺醒）世界一切@waking（難題）之解答。」",
    "zh_bytes": 55,
    "note": ""
   },
@@ -320,7 +320,7 @@
    "offset": 1462,
    "len": 47,
    "en": "\"Day brings @questions, @night brings answers.\"",
-   "zh": "「晝帶@疑問，@夜帶解答。」",
+   "zh": "「晝帶@questions（疑問），@night（夜帶）解答。」",
    "zh_bytes": 26,
    "note": ""
   },
@@ -368,7 +368,7 @@
    "offset": 1832,
    "len": 73,
    "en": "\"When the sun's blazing eye winks shut, and @Morpheus rules the heavens.\"",
-   "zh": "「當烈日之眼閤上，@摩耳甫斯便主宰天界。」",
+   "zh": "「當烈日之眼閤上，@Morpheus（摩耳）甫斯便主宰天界。」",
    "zh_bytes": 41,
    "note": ""
   },

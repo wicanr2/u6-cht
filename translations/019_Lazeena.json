@@ -1,90 +1,384 @@
 {
-  "_meta": {
-    "npc": "Lazeena (Lazeena the Dove)",
-    "role": "海灣鎮（Cove）來的愁苦女吟者，秀髮垂至腳踝；丈夫 Artagel（醫者）赴慈悲聖壇朝拜未歸。她以歌代言，會唱兩首歌謠：(1)短謠記丈夫失蹤 (2)長謠『荷蘭船』敘船難。@Dove 為其外號。"
+ "_meta": {
+  "npc": "Lazeena (Lazeena the Dove)",
+  "role": "海灣鎮（Cove）來的愁苦女吟者，秀髮垂至腳踝；丈夫 Artagel（醫者）赴慈悲聖壇朝拜未歸。她以歌代言，會唱兩首歌謠：(1)短謠記丈夫失蹤 (2)長謠『荷蘭船』敘船難。@Dove 為其外號。"
+ },
+ "translations": [
+  {
+   "offset": 2,
+   "len": 7,
+   "en": "Lazeena",
+   "zh": "拉瑟娜",
+   "zh_bytes": 6,
+   "note": "人名音譯；Lazeena → 拉瑟娜；len=7 可容三字"
   },
-  "translations": [
-    {"offset": 2, "len": 7, "en": "Lazeena", "zh": "拉瑟娜", "zh_bytes": 6, "note": "人名音譯；Lazeena → 拉瑟娜；len=7 可容三字"},
-    {"offset": 10, "len": 40, "en": "a sad lady with hair down to her ankles.", "zh": "一名愁苦女子，秀髮垂至腳踝。", "zh_bytes": 28, "note": "描述句"},
-    {"offset": 53, "len": 44, "en": "A soft jingling accompanies her silent walk.", "zh": "她無聲徐行，伴有輕微叮噹之響。", "zh_bytes": 30, "note": "jingling=身上裝飾叮噹聲"},
-    {"offset": 100, "len": 66, "en": "Rather than talking, she sings in a voice like wind through reeds.", "zh": "她不言語，只以蘆葦穿風般的嗓音歌唱。", "zh_bytes": 36, "note": "詩意意譯"},
-    {"offset": 169, "len": 76, "en": "\"Hail, there, $G; come listen to me. I've plenty of time to sing unto thee.\"", "zh": "「呵，$G，前來聽歌吧。我有的是時光為汝歌唱。」", "zh_bytes": 46, "note": "保留 $G"},
-    {"offset": 248, "len": 4, "en": "name", "zh": "名字", "zh_bytes": 4, "note": "@name keyword"},
-    {"offset": 253, "len": 42, "en": "\"Lazeena they call me, Lazeena the @Dove.\"", "zh": "「人稱我拉瑟娜，@白鴿拉瑟娜。」", "zh_bytes": 31, "note": "@Dove → @白鴿（外號）"},
-    {"offset": 298, "len": 49, "en": "\"From Cove I did come, 'tis a town full of love.\"", "zh": "「我自海灣鎮來，那是滿溢愛意之地。」", "zh_bytes": 36, "note": "Cove → 海灣鎮（glossary）"},
-    {"offset": 359, "len": 18, "en": "sing,job,love,dove", "zh": "唱,業,愛,白鴿", "zh_bytes": 13, "note": "keyword 群組"},
-    {"offset": 378, "len": 46, "en": "\"'Tis the aim of my life to sing like a bird.\"", "zh": "「畢生之願，是如鳥兒般歌唱。」", "zh_bytes": 30, "note": ""},
-    {"offset": 427, "len": 48, "en": "\"Wouldst thou like to hear the news I've heard?\"", "zh": "「汝可願聽我所聞之新事？」", "zh_bytes": 26, "note": ""},
-    {"offset": 481, "len": 9, "en": "rhym,shor", "zh": "謠,岸", "zh_bytes": 5, "note": "keyword 群組（rhyme/shore）"},
-    {"offset": 491, "len": 10, "en": "She sings.", "zh": "她歌唱。", "zh_bytes": 8, "note": "場景描述"},
-    {"offset": 503, "len": 42, "en": "\"South of Loch Lake and north of the bay, ", "zh": "「洛克湖之南，海灣之北，", "zh_bytes": 24, "note": "短謠首句；Loch Lake → 洛克湖（新詞）"},
-    {"offset": 546, "len": 45, "en": "the beautiful Shrine of Compassion doth lay.\"", "zh": "美麗的慈悲聖壇坐落其間。」", "zh_bytes": 26, "note": "Shrine of Compassion → 慈悲聖壇"},
-    {"offset": 594, "len": 45, "en": "\"My @Artagel set out to chant there one day.\"", "zh": "「@亞塔格爾一日啟程往那兒誦祝。」", "zh_bytes": 33, "note": "@Artagel → @亞塔格爾"},
-    {"offset": 642, "len": 32, "en": "\"But still he has not returned.\"", "zh": "「然他至今未歸。」", "zh_bytes": 18, "note": ""},
-    {"offset": 677, "len": 45, "en": "\"Was he taken by giants or headless so foul, ", "zh": "「莫非為巨人或惡臭的無頭怪所擄，", "zh_bytes": 32, "note": "headless → 無頭怪（glossary）"},
-    {"offset": 723, "len": 46, "en": "that nary a man could contend with the smell.\"", "zh": "無人能敵其臭氣？」", "zh_bytes": 18, "note": ""},
-    {"offset": 772, "len": 41, "en": "\"He should have come home weeks ago now.\"", "zh": "「他本應數週前便歸家。」", "zh_bytes": 24, "note": ""},
-    {"offset": 816, "len": 32, "en": "\"But still he has not returned.\"", "zh": "「然他至今未歸。」", "zh_bytes": 18, "note": "重複句"},
-    {"offset": 854, "len": 4, "en": "arta", "zh": "亞塔", "zh_bytes": 4, "note": "@Artagel keyword"},
-    {"offset": 859, "len": 26, "en": "\"He is a healer, you see.\"", "zh": "「他乃醫者，汝可知曉。」", "zh_bytes": 24, "note": "healer → 醫者（glossary）"},
-    {"offset": 891, "len": 8, "en": "song,sea", "zh": "歌,海", "zh_bytes": 5, "note": "keyword 群組"},
-    {"offset": 900, "len": 10, "en": "She sings.", "zh": "她歌唱。", "zh_bytes": 8, "note": ""},
-    {"offset": 912, "len": 66, "en": "\"The Dutchman was a giant ship with masts from the largest trees.\"", "zh": "「荷蘭巨船桅杆採自最巨之樹。」", "zh_bytes": 30, "note": "Dutchman → 荷蘭巨船（船名）；長謠第 1 句"},
-    {"offset": 981, "len": 67, "en": "\"The pride of the people she was hailed, the ruler of all the sea.\"", "zh": "「萬民之榮耀，海上之霸主。」", "zh_bytes": 28, "note": "長謠 2"},
-    {"offset": 1051, "len": 76, "en": "\"She sailed out of port one fine spring day, and headed for distant shores.\"", "zh": "「春日晴朗出港，遠航他鄉之岸。」", "zh_bytes": 32, "note": "長謠 3"},
-    {"offset": 1130, "len": 69, "en": "\"But a britney caught her by surprise, 'twas flung against her core.\"", "zh": "「不意狂風驟起，撞向船腹。」", "zh_bytes": 28, "note": "britney=狂風（疑為 brisk wind 或方言）；長謠 4"},
-    {"offset": 1202, "len": 62, "en": "\"The match began the grim men fought, to gather in her sails.\"", "zh": "「水手奮力與之搏鬥，奔忙收帆。」", "zh_bytes": 32, "note": "長謠 5"},
-    {"offset": 1267, "len": 64, "en": "\"But thunderous was the crack and lo, the mighty vessel reeled.\"", "zh": "「雷鳴轟然作響，巨船劇烈搖晃。」", "zh_bytes": 32, "note": "長謠 6"},
-    {"offset": 1334, "len": 68, "en": "\"When gentle winds danced 'cross the surf, again the followed morn.\"", "zh": "「翌晨輕風重歸海面之上。」", "zh_bytes": 26, "note": "長謠 7"},
-    {"offset": 1405, "len": 63, "en": "\"'twas nothing left of Dutchy's hull but remnants of her born.\"", "zh": "「荷蘭船之軀僅餘殘骸碎片。」", "zh_bytes": 28, "note": "長謠 8"},
-    {"offset": 1471, "len": 67, "en": "\"And now the tale has nothing left, but a gravesight on the floor.\"", "zh": "「此事如今了無蹤跡，唯海底一片墓場。」", "zh_bytes": 38, "note": "長謠 9；gravesight=墓場意象"},
-    {"offset": 1541, "len": 66, "en": "\"On the Fens o' the Dead she came to rest, ne'er to sail no more.\"", "zh": "「她長眠於死者沼澤，再無揚帆之日。」", "zh_bytes": 36, "note": "長謠 10；Fens o' the Dead → 死者沼澤（新詞）"},
-    {"offset": 1613, "len": 3, "en": "bye", "zh": "別", "zh_bytes": 2, "note": "@bye keyword"},
-    {"offset": 1617, "len": 22, "en": "\"Farewell, my friend.\"", "zh": "「再會吧，吾友。」", "zh_bytes": 18, "note": ""},
-    {"offset": 1644, "len": 31, "en": "\"I cannot help thee with that.\"", "zh": "「此事我無能為力。」", "zh_bytes": 20, "note": "預設不解回應"},
-    {"offset": 1682, "len": 2, "en": "yn", "zh": "yn", "zh_bytes": 2, "note": "yes/no token"},
-    {"offset": 1687, "len": 43, "en": "\"Then tell me what would please thee more: ", "zh": "「那便告訴我，汝更愛何者：", "zh_bytes": 26, "note": ""},
-    {"offset": 1731, "len": 45, "en": "a @song of the sea or a @rhyme of the shore?\"", "zh": "海之@歌謠抑或岸之@詩謠？」", "zh_bytes": 26, "note": "@song → @歌謠；@rhyme → @詩謠"},
-    {"offset": 1784, "len": 72, "en": "\"To be of more help, I wish I knew just what this little bird could do.\"", "zh": "「願能助汝更多，可這小鳥不知能為何事。」", "zh_bytes": 40, "note": "Lazeena 自比小鳥"}
-  ],
-  "keyword_mapping": {
-    "@Dove": "@白鴿",
-    "@Artagel": "@亞塔格爾",
-    "@song": "@歌謠",
-    "@rhyme": "@詩謠"
+  {
+   "offset": 10,
+   "len": 40,
+   "en": "a sad lady with hair down to her ankles.",
+   "zh": "一名愁苦女子，秀髮垂至腳踝。",
+   "zh_bytes": 28,
+   "note": "描述句"
   },
-  "glossary_additions": {
-    "people": {
-      "Lazeena": "拉瑟娜",
-      "Lazeena the Dove": "白鴿拉瑟娜",
-      "Artagel": "亞塔格爾"
-    },
-    "places": {
-      "Loch Lake": "洛克湖",
-      "Fens of the Dead": "死者沼澤",
-      "Shrine of Compassion": "慈悲聖壇"
-    },
-    "concepts": {
-      "Dutchman (ship)": "荷蘭船"
-    }
+  {
+   "offset": 53,
+   "len": 44,
+   "en": "A soft jingling accompanies her silent walk.",
+   "zh": "她無聲徐行，伴有輕微叮噹之響。",
+   "zh_bytes": 30,
+   "note": "jingling=身上裝飾叮噹聲"
   },
-  "riddles_additions": [
-    {
-      "npc": "Lazeena",
-      "key": "SHORT_RHYME_HUSBAND_LOST",
-      "en": "South of Loch Lake and north of the bay, the beautiful Shrine of Compassion doth lay. My Artagel set out to chant there one day. But still he has not returned. ...",
-      "zh": "洛克湖之南，海灣之北，美麗的慈悲聖壇坐落其間。@亞塔格爾一日啟程往那兒誦祝。然他至今未歸。……",
-      "ref": "Lazeena 短謠記丈夫 Artagel 赴慈悲聖壇未歸；劇情線索",
-      "strategy": "對仗式重寫，保留方位與離別意象"
-    },
-    {
-      "npc": "Lazeena",
-      "key": "DUTCHMAN_SONG",
-      "en": "The Dutchman was a giant ship with masts from the largest trees... On the Fens o' the Dead she came to rest, ne'er to sail no more.",
-      "zh": "荷蘭巨船桅杆採自最巨之樹……她長眠於死者沼澤，再無揚帆之日。",
-      "ref": "長謠『荷蘭船』敘述船難；典故 Flying Dutchman 鬼船傳說",
-      "strategy": "凝練意譯各句，犧牲韻腳以保長度與意象；死者沼澤 Fens of the Dead 是 U6 地理位置（北方）"
-    }
-  ],
-  "translator_notes": "Lazeena 來自海灣鎮（Cove），是吟唱式 NPC——她不說話，只以歌唱回應，文體用較凝練的『古典短句』。所有 quote 改寫為意譯（原英文有韻腳/不規則拼字如『britney/Dutchy』），中譯放棄韻腳以換取莊重感與長度安全。@Dove 是她自己的外號（dove=和平／柔順意象，譯『白鴿』）。@Artagel 譯名亞塔格爾，是其丈夫醫者，因前往慈悲聖壇朝拜未歸——這是劇情線索。Fens of the Dead/Loch Lake 為新地名回寫 glossary。"
+  {
+   "offset": 100,
+   "len": 66,
+   "en": "Rather than talking, she sings in a voice like wind through reeds.",
+   "zh": "她不言語，只以蘆葦穿風般的嗓音歌唱。",
+   "zh_bytes": 36,
+   "note": "詩意意譯"
+  },
+  {
+   "offset": 169,
+   "len": 76,
+   "en": "\"Hail, there, $G; come listen to me. I've plenty of time to sing unto thee.\"",
+   "zh": "「呵，$G，前來聽歌吧。我有的是時光為汝歌唱。」",
+   "zh_bytes": 46,
+   "note": "保留 $G"
+  },
+  {
+   "offset": 248,
+   "len": 4,
+   "en": "name",
+   "zh": "名字",
+   "zh_bytes": 4,
+   "note": "@name keyword"
+  },
+  {
+   "offset": 253,
+   "len": 42,
+   "en": "\"Lazeena they call me, Lazeena the @Dove.\"",
+   "zh": "「人稱我拉瑟娜，@Dove（白鴿）拉瑟娜。」",
+   "zh_bytes": 31,
+   "note": "@Dove → @白鴿（外號）"
+  },
+  {
+   "offset": 298,
+   "len": 49,
+   "en": "\"From Cove I did come, 'tis a town full of love.\"",
+   "zh": "「我自海灣鎮來，那是滿溢愛意之地。」",
+   "zh_bytes": 36,
+   "note": "Cove → 海灣鎮（glossary）"
+  },
+  {
+   "offset": 359,
+   "len": 18,
+   "en": "sing,job,love,dove",
+   "zh": "唱,業,愛,白鴿",
+   "zh_bytes": 13,
+   "note": "keyword 群組"
+  },
+  {
+   "offset": 378,
+   "len": 46,
+   "en": "\"'Tis the aim of my life to sing like a bird.\"",
+   "zh": "「畢生之願，是如鳥兒般歌唱。」",
+   "zh_bytes": 30,
+   "note": ""
+  },
+  {
+   "offset": 427,
+   "len": 48,
+   "en": "\"Wouldst thou like to hear the news I've heard?\"",
+   "zh": "「汝可願聽我所聞之新事？」",
+   "zh_bytes": 26,
+   "note": ""
+  },
+  {
+   "offset": 481,
+   "len": 9,
+   "en": "rhym,shor",
+   "zh": "謠,岸",
+   "zh_bytes": 5,
+   "note": "keyword 群組（rhyme/shore）"
+  },
+  {
+   "offset": 491,
+   "len": 10,
+   "en": "She sings.",
+   "zh": "她歌唱。",
+   "zh_bytes": 8,
+   "note": "場景描述"
+  },
+  {
+   "offset": 503,
+   "len": 42,
+   "en": "\"South of Loch Lake and north of the bay, ",
+   "zh": "「洛克湖之南，海灣之北，",
+   "zh_bytes": 24,
+   "note": "短謠首句；Loch Lake → 洛克湖（新詞）"
+  },
+  {
+   "offset": 546,
+   "len": 45,
+   "en": "the beautiful Shrine of Compassion doth lay.\"",
+   "zh": "美麗的慈悲聖壇坐落其間。」",
+   "zh_bytes": 26,
+   "note": "Shrine of Compassion → 慈悲聖壇"
+  },
+  {
+   "offset": 594,
+   "len": 45,
+   "en": "\"My @Artagel set out to chant there one day.\"",
+   "zh": "「@Artagel（亞塔）格爾一日啟程往那兒誦祝。」",
+   "zh_bytes": 33,
+   "note": "@Artagel → @亞塔格爾"
+  },
+  {
+   "offset": 642,
+   "len": 32,
+   "en": "\"But still he has not returned.\"",
+   "zh": "「然他至今未歸。」",
+   "zh_bytes": 18,
+   "note": ""
+  },
+  {
+   "offset": 677,
+   "len": 45,
+   "en": "\"Was he taken by giants or headless so foul, ",
+   "zh": "「莫非為巨人或惡臭的無頭怪所擄，",
+   "zh_bytes": 32,
+   "note": "headless → 無頭怪（glossary）"
+  },
+  {
+   "offset": 723,
+   "len": 46,
+   "en": "that nary a man could contend with the smell.\"",
+   "zh": "無人能敵其臭氣？」",
+   "zh_bytes": 18,
+   "note": ""
+  },
+  {
+   "offset": 772,
+   "len": 41,
+   "en": "\"He should have come home weeks ago now.\"",
+   "zh": "「他本應數週前便歸家。」",
+   "zh_bytes": 24,
+   "note": ""
+  },
+  {
+   "offset": 816,
+   "len": 32,
+   "en": "\"But still he has not returned.\"",
+   "zh": "「然他至今未歸。」",
+   "zh_bytes": 18,
+   "note": "重複句"
+  },
+  {
+   "offset": 854,
+   "len": 4,
+   "en": "arta",
+   "zh": "亞塔",
+   "zh_bytes": 4,
+   "note": "@Artagel keyword"
+  },
+  {
+   "offset": 859,
+   "len": 26,
+   "en": "\"He is a healer, you see.\"",
+   "zh": "「他乃醫者，汝可知曉。」",
+   "zh_bytes": 24,
+   "note": "healer → 醫者（glossary）"
+  },
+  {
+   "offset": 891,
+   "len": 8,
+   "en": "song,sea",
+   "zh": "歌,海",
+   "zh_bytes": 5,
+   "note": "keyword 群組"
+  },
+  {
+   "offset": 900,
+   "len": 10,
+   "en": "She sings.",
+   "zh": "她歌唱。",
+   "zh_bytes": 8,
+   "note": ""
+  },
+  {
+   "offset": 912,
+   "len": 66,
+   "en": "\"The Dutchman was a giant ship with masts from the largest trees.\"",
+   "zh": "「荷蘭巨船桅杆採自最巨之樹。」",
+   "zh_bytes": 30,
+   "note": "Dutchman → 荷蘭巨船（船名）；長謠第 1 句"
+  },
+  {
+   "offset": 981,
+   "len": 67,
+   "en": "\"The pride of the people she was hailed, the ruler of all the sea.\"",
+   "zh": "「萬民之榮耀，海上之霸主。」",
+   "zh_bytes": 28,
+   "note": "長謠 2"
+  },
+  {
+   "offset": 1051,
+   "len": 76,
+   "en": "\"She sailed out of port one fine spring day, and headed for distant shores.\"",
+   "zh": "「春日晴朗出港，遠航他鄉之岸。」",
+   "zh_bytes": 32,
+   "note": "長謠 3"
+  },
+  {
+   "offset": 1130,
+   "len": 69,
+   "en": "\"But a britney caught her by surprise, 'twas flung against her core.\"",
+   "zh": "「不意狂風驟起，撞向船腹。」",
+   "zh_bytes": 28,
+   "note": "britney=狂風（疑為 brisk wind 或方言）；長謠 4"
+  },
+  {
+   "offset": 1202,
+   "len": 62,
+   "en": "\"The match began the grim men fought, to gather in her sails.\"",
+   "zh": "「水手奮力與之搏鬥，奔忙收帆。」",
+   "zh_bytes": 32,
+   "note": "長謠 5"
+  },
+  {
+   "offset": 1267,
+   "len": 64,
+   "en": "\"But thunderous was the crack and lo, the mighty vessel reeled.\"",
+   "zh": "「雷鳴轟然作響，巨船劇烈搖晃。」",
+   "zh_bytes": 32,
+   "note": "長謠 6"
+  },
+  {
+   "offset": 1334,
+   "len": 68,
+   "en": "\"When gentle winds danced 'cross the surf, again the followed morn.\"",
+   "zh": "「翌晨輕風重歸海面之上。」",
+   "zh_bytes": 26,
+   "note": "長謠 7"
+  },
+  {
+   "offset": 1405,
+   "len": 63,
+   "en": "\"'twas nothing left of Dutchy's hull but remnants of her born.\"",
+   "zh": "「荷蘭船之軀僅餘殘骸碎片。」",
+   "zh_bytes": 28,
+   "note": "長謠 8"
+  },
+  {
+   "offset": 1471,
+   "len": 67,
+   "en": "\"And now the tale has nothing left, but a gravesight on the floor.\"",
+   "zh": "「此事如今了無蹤跡，唯海底一片墓場。」",
+   "zh_bytes": 38,
+   "note": "長謠 9；gravesight=墓場意象"
+  },
+  {
+   "offset": 1541,
+   "len": 66,
+   "en": "\"On the Fens o' the Dead she came to rest, ne'er to sail no more.\"",
+   "zh": "「她長眠於死者沼澤，再無揚帆之日。」",
+   "zh_bytes": 36,
+   "note": "長謠 10；Fens o' the Dead → 死者沼澤（新詞）"
+  },
+  {
+   "offset": 1613,
+   "len": 3,
+   "en": "bye",
+   "zh": "別",
+   "zh_bytes": 2,
+   "note": "@bye keyword"
+  },
+  {
+   "offset": 1617,
+   "len": 22,
+   "en": "\"Farewell, my friend.\"",
+   "zh": "「再會吧，吾友。」",
+   "zh_bytes": 18,
+   "note": ""
+  },
+  {
+   "offset": 1644,
+   "len": 31,
+   "en": "\"I cannot help thee with that.\"",
+   "zh": "「此事我無能為力。」",
+   "zh_bytes": 20,
+   "note": "預設不解回應"
+  },
+  {
+   "offset": 1682,
+   "len": 2,
+   "en": "yn",
+   "zh": "yn",
+   "zh_bytes": 2,
+   "note": "yes/no token"
+  },
+  {
+   "offset": 1687,
+   "len": 43,
+   "en": "\"Then tell me what would please thee more: ",
+   "zh": "「那便告訴我，汝更愛何者：",
+   "zh_bytes": 26,
+   "note": ""
+  },
+  {
+   "offset": 1731,
+   "len": 45,
+   "en": "a @song of the sea or a @rhyme of the shore?\"",
+   "zh": "海之@song（歌謠）抑或岸之@rhyme（詩謠）？」",
+   "zh_bytes": 26,
+   "note": "@song → @歌謠；@rhyme → @詩謠"
+  },
+  {
+   "offset": 1784,
+   "len": 72,
+   "en": "\"To be of more help, I wish I knew just what this little bird could do.\"",
+   "zh": "「願能助汝更多，可這小鳥不知能為何事。」",
+   "zh_bytes": 40,
+   "note": "Lazeena 自比小鳥"
+  }
+ ],
+ "keyword_mapping": {
+  "@Dove": "@白鴿",
+  "@Artagel": "@亞塔格爾",
+  "@song": "@歌謠",
+  "@rhyme": "@詩謠"
+ },
+ "glossary_additions": {
+  "people": {
+   "Lazeena": "拉瑟娜",
+   "Lazeena the Dove": "白鴿拉瑟娜",
+   "Artagel": "亞塔格爾"
+  },
+  "places": {
+   "Loch Lake": "洛克湖",
+   "Fens of the Dead": "死者沼澤",
+   "Shrine of Compassion": "慈悲聖壇"
+  },
+  "concepts": {
+   "Dutchman (ship)": "荷蘭船"
+  }
+ },
+ "riddles_additions": [
+  {
+   "npc": "Lazeena",
+   "key": "SHORT_RHYME_HUSBAND_LOST",
+   "en": "South of Loch Lake and north of the bay, the beautiful Shrine of Compassion doth lay. My Artagel set out to chant there one day. But still he has not returned. ...",
+   "zh": "洛克湖之南，海灣之北，美麗的慈悲聖壇坐落其間。@亞塔格爾一日啟程往那兒誦祝。然他至今未歸。……",
+   "ref": "Lazeena 短謠記丈夫 Artagel 赴慈悲聖壇未歸；劇情線索",
+   "strategy": "對仗式重寫，保留方位與離別意象"
+  },
+  {
+   "npc": "Lazeena",
+   "key": "DUTCHMAN_SONG",
+   "en": "The Dutchman was a giant ship with masts from the largest trees... On the Fens o' the Dead she came to rest, ne'er to sail no more.",
+   "zh": "荷蘭巨船桅杆採自最巨之樹……她長眠於死者沼澤，再無揚帆之日。",
+   "ref": "長謠『荷蘭船』敘述船難；典故 Flying Dutchman 鬼船傳說",
+   "strategy": "凝練意譯各句，犧牲韻腳以保長度與意象；死者沼澤 Fens of the Dead 是 U6 地理位置（北方）"
+  }
+ ],
+ "translator_notes": "Lazeena 來自海灣鎮（Cove），是吟唱式 NPC——她不說話，只以歌唱回應，文體用較凝練的『古典短句』。所有 quote 改寫為意譯（原英文有韻腳/不規則拼字如『britney/Dutchy』），中譯放棄韻腳以換取莊重感與長度安全。@Dove 是她自己的外號（dove=和平／柔順意象，譯『白鴿』）。@Artagel 譯名亞塔格爾，是其丈夫醫者，因前往慈悲聖壇朝拜未歸——這是劇情線索。Fens of the Dead/Loch Lake 為新地名回寫 glossary。"
 }

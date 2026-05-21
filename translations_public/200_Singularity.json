@@ -24,7 +24,7 @@
   },
   {
    "hash": "4f23ef40c8d31b40",
-   "zh": "「去尋『守則之書』吧——願無物阻汝之神聖追尋！」"
+   "zh": "「去尋『知識寶典』吧——願無物阻汝之神聖追尋！」"
   },
   {
    "hash": "7d6484c15e97905b",
@@ -72,7 +72,7 @@
   },
   {
    "hash": "bcaa2ed68d940314",
-   "zh": "「汝究竟為誰而尋『守則之書』？」"
+   "zh": "「汝究竟為誰而尋『知識寶典』？」"
   },
   {
    "hash": "d250e6cb493b7644",
@@ -136,7 +136,7 @@
   },
   {
    "hash": "c754b0f19e6389c2",
-   "zh": "汝感一股莫之能禦之衝動，欲去尋『守則之書』。"
+   "zh": "汝感一股莫之能禦之衝動，欲去尋『知識寶典』。"
   },
   {
    "hash": "c9cb7a48d724dc48",
@@ -152,7 +152,7 @@
   },
   {
    "hash": "5a2162e5c55339e5",
-   "zh": "「再思之，聖者：汝為誰而尋『守則之書』？」"
+   "zh": "「再思之，聖者：汝為誰而尋『知識寶典』？」"
   },
   {
    "hash": "a25edf4f03b2ed76",
@@ -246,8 +246,8 @@
  "glossary_additions": {
   "concepts": {
    "Singularity": "獨一",
-   "Codex": "守則之書",
-   "Codex of Ultimate Wisdom": "終極智慧守則之書",
+   "Codex": "知識寶典",
+   "Codex of Ultimate Wisdom": "終極智慧之寶典",
    "Control": "控制",
    "Passion": "熱情",
    "Diligence": "勤勉",
@@ -258,5 +258,5 @@
    "principles of the gargoyle race": "魔像族之原則"
   }
  },
- "translator_notes": "★ U6 劇情核心 NPC：魔像族 Altar of Singularity，劇情倒轉之鍵。Singularity = 魔像族第八德（對應人類 Humility），譯『獨一』取『精神合一、志一之獨』之意，呼應結局『動機與目標合一』。三大原則 Control/Passion/Diligence 譯『控制/熱情/勤勉』為一致定譯。Codex 譯『守則之書』保留古籍感，全句『Codex of Ultimate Wisdom』譯『終極智慧守則之書』。對話展開 quiz：為誰而尋 Codex，唯有 both/our/peac/all/ever（為兩族和平）才算智答。"
+ "translator_notes": "★ U6 劇情核心 NPC：魔像族 Altar of Singularity，劇情倒轉之鍵。Singularity = 魔像族第八德（對應人類 Humility），譯『獨一』取『精神合一、志一之獨』之意，呼應結局『動機與目標合一』。三大原則 Control/Passion/Diligence 譯『控制/熱情/勤勉』為一致定譯。Codex 譯『知識寶典』保留古籍感，全句『Codex of Ultimate Wisdom』譯『終極智慧之寶典』。對話展開 quiz：為誰而尋 Codex，唯有 both/our/peac/all/ever（為兩族和平）才算智答。"
 }

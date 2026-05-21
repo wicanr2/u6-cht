@@ -25,7 +25,7 @@
    "offset": 208,
    "len": 55,
    "en": "\"I sell magic @books and @reagents, and teach @spells.\"",
-   "zh": "「吾販售魔法@書卷及@施法材料，並傳授@法術。」",
+   "zh": "「吾販售魔法@books（書卷）及@reagents（施法）材料，並傳授@spells（法術）。」",
    "note": ""
   },
   {
@@ -53,14 +53,14 @@
    "offset": 447,
    "len": 33,
    "en": "\"But thou hast not a spell@book!\"",
-   "zh": "「但汝尚無法術@書卷！」",
+   "zh": "「但汝尚無法術@book（書卷）！」",
    "note": ""
   },
   {
    "offset": 607,
    "len": 35,
    "en": "\"But none of you has a spell@book!\"",
-   "zh": "「但你們沒有一人持有法術@書卷！」",
+   "zh": "「但你們沒有一人持有法術@book（書卷）！」",
    "note": ""
   },
   {
@@ -225,6 +225,11 @@
    "note": ""
   }
  ],
- "glossary_additions": {"people": {"Rudyom": "魯迪奧姆"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Rudyom": "魯迪奧姆"
+  },
+  "places": {}
+ },
  "translator_notes": "Rudyom 魔法商人，說話用 thou/thee 古體。商品名（Blood Moss、Garlic 等施法材料；Create Food 等法術名）為系統字串不在對話流程，略。"
 }

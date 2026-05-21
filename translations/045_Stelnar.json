@@ -1,270 +1,270 @@
 {
-  "translations": [
-    {
-      "offset": 10,
-      "len": 56,
-      "en": "an angry-looking man wearing short swords on either hip.",
-      "zh": "一位面色憤怒、腰間各配一把短劍的男子。",
-      "note": "DESC"
-    },
-    {
-      "offset": 76,
-      "len": 60,
-      "en": "He was just about to punch someone when you approached him.*",
-      "zh": "就在汝靠近他時，他正準備揮拳打人。*",
-      "note": "action; trailing * preserved"
-    },
-    {
-      "offset": 138,
-      "len": 51,
-      "en": "\"This is no time for talk. There's fighting to do!\"",
-      "zh": "「現在不是說話的時候，有架要打！」",
-      "note": ""
-    },
-    {
-      "offset": 201,
-      "len": 10,
-      "en": "\"Good $T.\"",
-      "zh": "「$T 吉祥。」",
-      "note": ""
-    },
-    {
-      "offset": 212,
-      "len": 15,
-      "en": "\"Ho there, $G!\"",
-      "zh": "「哈，$G！」",
-      "note": ""
-    },
-    {
-      "offset": 254,
-      "len": 85,
-      "en": "\"Good $T, Stelnar.\" @Shamino and Stelnar shake hands. \"$P, this is Stelnar Starhelm.\"",
-      "zh": "「$T 吉祥，史塔赫姆。」@夏米諾與史塔赫姆握手。「$P，這位是史塔赫姆。」",
-      "note": "Shamino keyword preserved with @"
-    },
-    {
-      "offset": 346,
-      "len": 29,
-      "en": "\"Pleased to meet you, $G $P.\"",
-      "zh": "「幸會，$G $P。」",
-      "note": ""
-    },
-    {
-      "offset": 397,
-      "len": 22,
-      "en": "\"I'm called Starhelm.\"",
-      "zh": "「吾人稱史塔赫姆。」",
-      "note": ""
-    },
-    {
-      "offset": 436,
-      "len": 30,
-      "en": "\"Arvin? He seems a good sort.\"",
-      "zh": "「阿文？他看起來是個好人。」",
-      "note": ""
-    },
-    {
-      "offset": 477,
-      "len": 40,
-      "en": "\"He's a bard. I do not really know him.\"",
-      "zh": "「他是個吟遊詩人。吾並不太認識他。」",
-      "note": "about Culham"
-    },
-    {
-      "offset": 528,
-      "len": 24,
-      "en": "\"Oh, yes. Brave fellow.\"",
-      "zh": "「哦，是的。勇敢的傢伙。」",
-      "note": "about Jerris"
-    },
-    {
-      "offset": 568,
-      "len": 61,
-      "en": "\"Shamino and I travelled the Spiritwood together for a time.\"",
-      "zh": "「夏米諾與吾曾一同在靈魂林遊歷了一段時日。」",
-      "note": ""
-    },
-    {
-      "offset": 639,
-      "len": 25,
-      "en": "\"I am a @monster-slayer.\"",
-      "zh": "「吾乃@滅怪者。」",
-      "note": ""
-    },
-    {
-      "offset": 680,
-      "len": 66,
-      "en": "\"I hate all monsters. They are a blight on the face of Britannia!\"",
-      "zh": "「吾憎恨所有怪物。彼等乃不列顛尼亞大地之禍害！」",
-      "note": ""
-    },
-    {
-      "offset": 749,
-      "len": 72,
-      "en": "\"For the past year I've been killing @wisps and the like in Spiritwood.\"",
-      "zh": "「過去一整年，吾在靈魂林中獵殺@幽影等生靈。」",
-      "note": ""
-    },
-    {
-      "offset": 842,
-      "len": 72,
-      "en": "\"Wisps are nasty flickers, very hard to kill. Not like @gargoyles, now.\"",
-      "zh": "「幽影是惡毒的鬼火，極難殺滅。與@魔像族不同。」",
-      "note": ""
-    },
-    {
-      "offset": 925,
-      "len": 41,
-      "en": "\"There's one that they call @Sin 'Vraal.\"",
-      "zh": "「其中有一位名為@辛弗拉的。」",
-      "note": ""
-    },
-    {
-      "offset": 969,
-      "len": 52,
-      "en": "\"If I had my way, that gargoyle would be a @statue.\"",
-      "zh": "「若讓吾做主，那魔像早已成了一座@石像。」",
-      "note": ""
-    },
-    {
-      "offset": 1032,
-      "len": 39,
-      "en": "\"They turn to stone when ye slay them.\"",
-      "zh": "「殺死牠們後，牠們會化為石頭。」",
-      "note": "Stelnar's belief"
-    },
-    {
-      "offset": 1083,
-      "len": 51,
-      "en": "\"That's drivel, friend Starhelm!\" says Van Kellian.",
-      "zh": "「胡說，朋友史塔赫姆！」范凱利安說道。",
-      "note": ""
-    },
-    {
-      "offset": 1137,
-      "len": 39,
-      "en": "\"A gargoyle's a flesh and blood beast.\"",
-      "zh": "「魔像族乃血肉之軀。」",
-      "note": ""
-    },
-    {
-      "offset": 1179,
-      "len": 15,
-      "en": "\"Stone indeed!\"",
-      "zh": "「石頭！哼！」",
-      "note": ""
-    },
-    {
-      "offset": 1201,
-      "len": 57,
-      "en": "\"Bards! A gargoyle is an @ugly monster, and that's that.\"",
-      "zh": "「詩人！魔像不過是@醜陋的怪物，就這樣。」",
-      "note": ""
-    },
-    {
-      "offset": 1279,
-      "len": 60,
-      "en": "\"Van murmurs \"Ugliness is but skin deep, just as beauty is.\"",
-      "zh": "「范低語道：「醜陋不過皮相而已，如同美貌一樣。」",
-      "note": ""
-    },
-    {
-      "offset": 1346,
-      "len": 58,
-      "en": "\"Gargoyle skin is very thick and deep, as everyone knows.\"",
-      "zh": "「眾所皆知，魔像族的皮膚又厚又深，」",
-      "note": "Stelnar's comeback"
-    },
-    {
-      "offset": 1405,
-      "len": 28,
-      "en": "\"Never trust anything ugly.\"",
-      "zh": "「永遠別信任醜陋的東西。」",
-      "note": ""
-    },
-    {
-      "offset": 1454,
-      "len": 25,
-      "en": "\"He's a vicious @daemon.\"",
-      "zh": "「牠是個兇殘的@惡魔。」",
-      "note": ""
-    },
-    {
-      "offset": 1495,
-      "len": 36,
-      "en": "\"Yes, Sin 'Vraal is an evil wretch.\"",
-      "zh": "「是的，辛弗拉是個邪惡的惡棍。」",
-      "note": ""
-    },
-    {
-      "offset": 1534,
-      "len": 74,
-      "en": "\"How could Lord @British imagine that a gargoyle could understand virtue?\"",
-      "zh": "「@不列顛王怎能想像魔像族能理解美德？」",
-      "note": ""
-    },
-    {
-      "offset": 1629,
-      "len": 53,
-      "en": "\"Lord British defeated Sin 'Vraal in the underworld.\"",
-      "zh": "「不列顛王曾在幽冥界擊敗辛弗拉。」",
-      "note": ""
-    },
-    {
-      "offset": 1685,
-      "len": 45,
-      "en": "\"The gargoyle went to live in the @Dry Land.\"",
-      "zh": "「那魔像去了@旱地居住。」",
-      "note": ""
-    },
-    {
-      "offset": 1745,
-      "len": 68,
-      "en": "\"'Tis a @desert east of the Bloody Plains. There is a shrine there.\"",
-      "zh": "「此乃血腥平原以東的一處@沙漠。那裡有一座聖壇。」",
-      "note": ""
-    },
-    {
-      "offset": 1824,
-      "len": 59,
-      "en": "\"I've never been to that desert, or the Shrine of Honesty.\"",
-      "zh": "「吾從未去過那片沙漠，也未曾到過誠實聖壇。」",
-      "note": ""
-    },
-    {
-      "offset": 1900,
-      "len": 15,
-      "en": "\"Farewell, $P.\"",
-      "zh": "「告辭，$P。」",
-      "note": "bye"
-    },
-    {
-      "offset": 1916,
-      "len": 25,
-      "en": "\"Have a pleasant $T, $G.\"",
-      "zh": "「願汝有個愉快的$T，$G。」",
-      "note": "bye"
-    },
-    {
-      "offset": 1947,
-      "len": 29,
-      "en": "\"I cannot help ye with that.\"",
-      "zh": "「此事吾無法助汝。」",
-      "note": ""
-    }
-  ],
-  "glossary_additions": {
-    "people": {
-      "Stelnar": "史塔赫姆",
-      "Arvin": "阿文"
-    },
-    "places": {
-      "Bloody Plains": "血腥平原",
-      "Dry Land": "旱地"
-    },
-    "concepts": {
-      "daemon": "惡魔"
-    }
+ "translations": [
+  {
+   "offset": 10,
+   "len": 56,
+   "en": "an angry-looking man wearing short swords on either hip.",
+   "zh": "一位面色憤怒、腰間各配一把短劍的男子。",
+   "note": "DESC"
   },
-  "translator_notes": "史塔赫姆是個偏激的怪物獵人，深信魔像族邪惡無救。與范凱利安的辯論（魔像皮膚是否為石頭）頗有趣味。Shamino 在此以@ keyword 形式出現。辛弗拉（Sin'Vraal）沿用 glossary 譯名。"
+  {
+   "offset": 76,
+   "len": 60,
+   "en": "He was just about to punch someone when you approached him.*",
+   "zh": "就在汝靠近他時，他正準備揮拳打人。*",
+   "note": "action; trailing * preserved"
+  },
+  {
+   "offset": 138,
+   "len": 51,
+   "en": "\"This is no time for talk. There's fighting to do!\"",
+   "zh": "「現在不是說話的時候，有架要打！」",
+   "note": ""
+  },
+  {
+   "offset": 201,
+   "len": 10,
+   "en": "\"Good $T.\"",
+   "zh": "「$T 吉祥。」",
+   "note": ""
+  },
+  {
+   "offset": 212,
+   "len": 15,
+   "en": "\"Ho there, $G!\"",
+   "zh": "「哈，$G！」",
+   "note": ""
+  },
+  {
+   "offset": 254,
+   "len": 85,
+   "en": "\"Good $T, Stelnar.\" @Shamino and Stelnar shake hands. \"$P, this is Stelnar Starhelm.\"",
+   "zh": "「$T 吉祥，史塔赫姆。」@Shamino（夏米）諾與史塔赫姆握手。「$P，這位是史塔赫姆。」",
+   "note": "Shamino keyword preserved with @"
+  },
+  {
+   "offset": 346,
+   "len": 29,
+   "en": "\"Pleased to meet you, $G $P.\"",
+   "zh": "「幸會，$G $P。」",
+   "note": ""
+  },
+  {
+   "offset": 397,
+   "len": 22,
+   "en": "\"I'm called Starhelm.\"",
+   "zh": "「吾人稱史塔赫姆。」",
+   "note": ""
+  },
+  {
+   "offset": 436,
+   "len": 30,
+   "en": "\"Arvin? He seems a good sort.\"",
+   "zh": "「阿文？他看起來是個好人。」",
+   "note": ""
+  },
+  {
+   "offset": 477,
+   "len": 40,
+   "en": "\"He's a bard. I do not really know him.\"",
+   "zh": "「他是個吟遊詩人。吾並不太認識他。」",
+   "note": "about Culham"
+  },
+  {
+   "offset": 528,
+   "len": 24,
+   "en": "\"Oh, yes. Brave fellow.\"",
+   "zh": "「哦，是的。勇敢的傢伙。」",
+   "note": "about Jerris"
+  },
+  {
+   "offset": 568,
+   "len": 61,
+   "en": "\"Shamino and I travelled the Spiritwood together for a time.\"",
+   "zh": "「夏米諾與吾曾一同在靈魂林遊歷了一段時日。」",
+   "note": ""
+  },
+  {
+   "offset": 639,
+   "len": 25,
+   "en": "\"I am a @monster-slayer.\"",
+   "zh": "「吾乃@monster（滅怪）者。」",
+   "note": ""
+  },
+  {
+   "offset": 680,
+   "len": 66,
+   "en": "\"I hate all monsters. They are a blight on the face of Britannia!\"",
+   "zh": "「吾憎恨所有怪物。彼等乃不列顛尼亞大地之禍害！」",
+   "note": ""
+  },
+  {
+   "offset": 749,
+   "len": 72,
+   "en": "\"For the past year I've been killing @wisps and the like in Spiritwood.\"",
+   "zh": "「過去一整年，吾在靈魂林中獵殺@wisps（幽影）等生靈。」",
+   "note": ""
+  },
+  {
+   "offset": 842,
+   "len": 72,
+   "en": "\"Wisps are nasty flickers, very hard to kill. Not like @gargoyles, now.\"",
+   "zh": "「幽影是惡毒的鬼火，極難殺滅。與@gargoyles（魔像）族不同。」",
+   "note": ""
+  },
+  {
+   "offset": 925,
+   "len": 41,
+   "en": "\"There's one that they call @Sin 'Vraal.\"",
+   "zh": "「其中有一位名為@Sin（辛弗）拉的。」",
+   "note": ""
+  },
+  {
+   "offset": 969,
+   "len": 52,
+   "en": "\"If I had my way, that gargoyle would be a @statue.\"",
+   "zh": "「若讓吾做主，那魔像早已成了一座@statue（石像）。」",
+   "note": ""
+  },
+  {
+   "offset": 1032,
+   "len": 39,
+   "en": "\"They turn to stone when ye slay them.\"",
+   "zh": "「殺死牠們後，牠們會化為石頭。」",
+   "note": "Stelnar's belief"
+  },
+  {
+   "offset": 1083,
+   "len": 51,
+   "en": "\"That's drivel, friend Starhelm!\" says Van Kellian.",
+   "zh": "「胡說，朋友史塔赫姆！」范凱利安說道。",
+   "note": ""
+  },
+  {
+   "offset": 1137,
+   "len": 39,
+   "en": "\"A gargoyle's a flesh and blood beast.\"",
+   "zh": "「魔像族乃血肉之軀。」",
+   "note": ""
+  },
+  {
+   "offset": 1179,
+   "len": 15,
+   "en": "\"Stone indeed!\"",
+   "zh": "「石頭！哼！」",
+   "note": ""
+  },
+  {
+   "offset": 1201,
+   "len": 57,
+   "en": "\"Bards! A gargoyle is an @ugly monster, and that's that.\"",
+   "zh": "「詩人！魔像不過是@ugly（醜陋）的怪物，就這樣。」",
+   "note": ""
+  },
+  {
+   "offset": 1279,
+   "len": 60,
+   "en": "\"Van murmurs \"Ugliness is but skin deep, just as beauty is.\"",
+   "zh": "「范低語道：「醜陋不過皮相而已，如同美貌一樣。」",
+   "note": ""
+  },
+  {
+   "offset": 1346,
+   "len": 58,
+   "en": "\"Gargoyle skin is very thick and deep, as everyone knows.\"",
+   "zh": "「眾所皆知，魔像族的皮膚又厚又深，」",
+   "note": "Stelnar's comeback"
+  },
+  {
+   "offset": 1405,
+   "len": 28,
+   "en": "\"Never trust anything ugly.\"",
+   "zh": "「永遠別信任醜陋的東西。」",
+   "note": ""
+  },
+  {
+   "offset": 1454,
+   "len": 25,
+   "en": "\"He's a vicious @daemon.\"",
+   "zh": "「牠是個兇殘的@daemon（惡魔）。」",
+   "note": ""
+  },
+  {
+   "offset": 1495,
+   "len": 36,
+   "en": "\"Yes, Sin 'Vraal is an evil wretch.\"",
+   "zh": "「是的，辛弗拉是個邪惡的惡棍。」",
+   "note": ""
+  },
+  {
+   "offset": 1534,
+   "len": 74,
+   "en": "\"How could Lord @British imagine that a gargoyle could understand virtue?\"",
+   "zh": "「@British（不列）顛王怎能想像魔像族能理解美德？」",
+   "note": ""
+  },
+  {
+   "offset": 1629,
+   "len": 53,
+   "en": "\"Lord British defeated Sin 'Vraal in the underworld.\"",
+   "zh": "「不列顛王曾在幽冥界擊敗辛弗拉。」",
+   "note": ""
+  },
+  {
+   "offset": 1685,
+   "len": 45,
+   "en": "\"The gargoyle went to live in the @Dry Land.\"",
+   "zh": "「那魔像去了@Dry（旱地）居住。」",
+   "note": ""
+  },
+  {
+   "offset": 1745,
+   "len": 68,
+   "en": "\"'Tis a @desert east of the Bloody Plains. There is a shrine there.\"",
+   "zh": "「此乃血腥平原以東的一處@desert（沙漠）。那裡有一座聖壇。」",
+   "note": ""
+  },
+  {
+   "offset": 1824,
+   "len": 59,
+   "en": "\"I've never been to that desert, or the Shrine of Honesty.\"",
+   "zh": "「吾從未去過那片沙漠，也未曾到過誠實聖壇。」",
+   "note": ""
+  },
+  {
+   "offset": 1900,
+   "len": 15,
+   "en": "\"Farewell, $P.\"",
+   "zh": "「告辭，$P。」",
+   "note": "bye"
+  },
+  {
+   "offset": 1916,
+   "len": 25,
+   "en": "\"Have a pleasant $T, $G.\"",
+   "zh": "「願汝有個愉快的$T，$G。」",
+   "note": "bye"
+  },
+  {
+   "offset": 1947,
+   "len": 29,
+   "en": "\"I cannot help ye with that.\"",
+   "zh": "「此事吾無法助汝。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Stelnar": "史塔赫姆",
+   "Arvin": "阿文"
+  },
+  "places": {
+   "Bloody Plains": "血腥平原",
+   "Dry Land": "旱地"
+  },
+  "concepts": {
+   "daemon": "惡魔"
+  }
+ },
+ "translator_notes": "史塔赫姆是個偏激的怪物獵人，深信魔像族邪惡無救。與范凱利安的辯論（魔像皮膚是否為石頭）頗有趣味。Shamino 在此以@ keyword 形式出現。辛弗拉（Sin'Vraal）沿用 glossary 譯名。"
 }

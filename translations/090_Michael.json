@@ -18,7 +18,7 @@
    "offset": 134,
    "len": 62,
    "en": "\"Are you taking a @census?\" His powerful gaze is fixed on you.",
-   "zh": "「汝是在做@人口調查？」他銳利的目光鎖定汝。",
+   "zh": "「汝是在做@census（人口）調查？」他銳利的目光鎖定汝。",
    "note": ""
   },
   {
@@ -67,7 +67,7 @@
    "offset": 631,
    "len": 53,
    "en": "\"All men have enemies. A @debt needed to be settled.\"",
-   "zh": "「人人皆有敵手。一筆@恩怨需要了結。」",
+   "zh": "「人人皆有敵手。一筆@debt（恩怨）需要了結。」",
    "note": ""
   },
   {
@@ -88,7 +88,7 @@
    "offset": 841,
    "len": 50,
    "en": "\"Surely you don't buy the fable of the @gargoyle.\"",
-   "zh": "「汝想必不會信那@魔像族的鬼話。」",
+   "zh": "「汝想必不會信那@gargoyle（魔像）族的鬼話。」",
    "note": ""
   },
   {

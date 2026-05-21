@@ -32,14 +32,14 @@
    "offset": 147,
    "len": 44,
    "en": "\"I used to be captain of the Black @Thechu.\"",
-   "zh": "「吾昔日曾任黑色@特初號的船長。」",
+   "zh": "「吾昔日曾任黑色@Thechu（特初）號的船長。」",
    "note": ""
   },
   {
    "offset": 194,
    "len": 77,
    "en": "\"But now I'm a member of the @thieves @guild, and I don't care who knows it.\"",
-   "zh": "「但吾如今是@盜賊@公會的成員，吾不在乎誰知道。」",
+   "zh": "「但吾如今是@thieves（盜賊）@guild（公會）的成員，吾不在乎誰知道。」",
    "note": ""
   },
   {
@@ -74,14 +74,14 @@
    "offset": 672,
    "len": 97,
    "en": "\"The crew's scattered to the four corners of the earth, and the Thechu's off amongst the @stars.\"",
-   "zh": "「船員四散天涯，特初號已漂入繁@星之間。」",
+   "zh": "「船員四散天涯，特初號已漂入繁@stars（星）之間。」",
    "note": ""
   },
   {
    "offset": 785,
    "len": 107,
    "en": "\"We were at port one day when the anchor chain snapped, and the Thechu drifted off the @edge of the world.\"",
-   "zh": "「有一日吾等停靠在港口，錨鏈驟然斷裂，特初號便漂出了世界的@邊緣。」",
+   "zh": "「有一日吾等停靠在港口，錨鏈驟然斷裂，特初號便漂出了世界的@edge（邊緣）。」",
    "note": ""
   },
   {
@@ -130,7 +130,7 @@
    "offset": 1154,
    "len": 41,
    "en": ", but I'm not ready to @retire just yet.\"",
-   "zh": "吾尚未準備好@退休。」",
+   "zh": "吾尚未準備好@retire（退休）。」",
    "note": "後半"
   },
   {
@@ -144,7 +144,7 @@
    "offset": 1266,
    "len": 80,
    "en": "\"If you want to get my belt, use your @wits. Prove you're worthy to replace me.\"",
-   "zh": "「若想得吾的腰帶，就用汝的@機智。證明汝有資格取代吾。」",
+   "zh": "「若想得吾的腰帶，就用汝的@wits（機智）。證明汝有資格取代吾。」",
    "note": ""
   },
   {
@@ -158,14 +158,14 @@
    "offset": 1404,
    "len": 59,
    "en": "\"If you want to join the guild, go talk to @Budo about it.\"",
-   "zh": "「若想加入公會，去找@布多談談。」",
+   "zh": "「若想加入公會，去找@Budo（布多）談談。」",
    "note": ""
   },
   {
    "offset": 1474,
    "len": 31,
    "en": "\"He lives in Buccaneer's @Den.\"",
-   "zh": "「他住在海盜@巢穴。」",
+   "zh": "「他住在海盜@Den（巢穴）。」",
    "note": ""
   },
   {
@@ -179,7 +179,7 @@
    "offset": 1603,
    "len": 54,
    "en": "\"The rumors of @pirates there are just idle @chatter.\"",
-   "zh": "「那邊有@海盜的傳言不過是些閒@話。」",
+   "zh": "「那邊有@pirates（海盜）的傳言不過是些閒@chatter（話）。」",
    "note": ""
   },
   {

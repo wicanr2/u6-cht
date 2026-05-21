@@ -25,7 +25,7 @@
    "offset": 185,
    "len": 62,
    "en": "\"Mind that you stay out of the flight paths of the @bees, $G.\"",
-   "zh": "「小心別擋住@蜜蜂的飛行路線，$G。」",
+   "zh": "「小心別擋住@bees（蜜蜂）的飛行路線，$G。」",
    "note": ""
   },
   {
@@ -67,7 +67,7 @@
    "offset": 486,
    "len": 45,
    "en": "\"I care for the @garden and tend the @vines.\"",
-   "zh": "「我照料@花園，也打理@葡萄藤。」",
+   "zh": "「我照料@garden（花園），也打理@vines（葡萄）藤。」",
    "note": ""
   },
   {
@@ -102,21 +102,21 @@
    "offset": 756,
    "len": 18,
    "en": "@seedless grapes.\"",
-   "zh": "@無籽葡萄。」",
+   "zh": "@seedless無籽葡萄。」",
    "note": ""
   },
   {
    "offset": 790,
    "len": 57,
    "en": "\"Amazing, ain't it, $G. The @enchanter made them for us.\"",
-   "zh": "「神奇吧，$G。@魔法師為我們培育出來的。」",
+   "zh": "「神奇吧，$G。@enchanter（魔法）師為我們培育出來的。」",
    "note": ""
   },
   {
    "offset": 850,
    "len": 80,
    "en": "\"Now I grow new vines by grafting seedless @grapevines onto regular rootstocks.\"",
-   "zh": "「現在我用嫁接的方式，把無籽@葡萄藤接到普通的砧木上培育新藤。」",
+   "zh": "「現在我用嫁接的方式，把無籽@grapevines（葡萄）藤接到普通的砧木上培育新藤。」",
    "note": ""
   },
   {
@@ -144,7 +144,7 @@
    "offset": 1138,
    "len": 46,
    "en": "\"Now those grapes there are for making @wine.\"",
-   "zh": "「那邊那些葡萄是用來釀@葡萄酒的。」",
+   "zh": "「那邊那些葡萄是用來釀@wine（葡萄）酒的。」",
    "note": ""
   },
   {
@@ -172,7 +172,7 @@
    "offset": 1457,
    "len": 21,
    "en": "\"Ask @Faren of that.\"",
-   "zh": "「那就去問@法倫吧。」",
+   "zh": "「那就去問@Faren（法倫）吧。」",
    "note": ""
   },
   {
@@ -204,6 +204,11 @@
    "note": ""
   }
  ],
- "glossary_additions": {"people": {"Eckhart": "艾克哈特"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Eckhart": "艾克哈特"
+  },
+  "places": {}
+ },
  "translator_notes": "艾克哈特是修道院的葡萄園看守人，負責種植無籽葡萄（由魔法師尼可迪默斯培育）及打理玫瑰花園。修道院因此成為玫瑰兄弟會。split strings 處理：offset 695/728 為半句開頭，無引號結尾。"
 }

@@ -1,475 +1,475 @@
 {
-  "_meta": {
-    "npc": "Maldric (cook)",
-    "role": "不列顛城堡廚師；前野豬獵人，因獻烤豬肉得 Lord British 賞識而為宮廷掌廚。光膀肌肉男、汗濕生光。對聖者一見傾心（依玩家性別 $G 顯示不同台詞），含浪漫求愛意味、提及『火爐邊共度良夜』等。"
+ "_meta": {
+  "npc": "Maldric (cook)",
+  "role": "不列顛城堡廚師；前野豬獵人，因獻烤豬肉得 Lord British 賞識而為宮廷掌廚。光膀肌肉男、汗濕生光。對聖者一見傾心（依玩家性別 $G 顯示不同台詞），含浪漫求愛意味、提及『火爐邊共度良夜』等。"
+ },
+ "translations": [
+  {
+   "offset": 1,
+   "len": 8,
+   "en": " Maldric",
+   "zh": " 馬德力",
+   "zh_bytes": 7,
+   "note": "人名音譯；前置空格保留"
   },
-  "translations": [
-    {
-      "offset": 1,
-      "len": 8,
-      "en": " Maldric",
-      "zh": " 馬德力",
-      "zh_bytes": 7,
-      "note": "人名音譯；前置空格保留"
-    },
-    {
-      "offset": 10,
-      "len": 60,
-      "en": "a bare chested, muscular man, his body gleaming with sweat.*",
-      "zh": "一個赤膊肌肉男，汗水使其身軀閃閃發光。*",
-      "zh_bytes": 39,
-      "note": "末尾 * 保留"
-    },
-    {
-      "offset": 92,
-      "len": 104,
-      "en": "\"Excuse me a moment.\" He pulls a napkin from his belt and mops at his brow. \"Now, what were you saying?\"",
-      "zh": "「失陪片刻。」他自腰帶抽出一條布巾擦汗。「來，方才汝說什麼？」",
-      "zh_bytes": 62,
-      "note": ""
-    },
-    {
-      "offset": 199,
-      "len": 103,
-      "en": "\"Wait a minute,\" he interrupts, \"I recognize you... You're the Avatar! I've always wanted to meet you.\"",
-      "zh": "「且慢，」他打斷道，「我認得汝…汝乃聖者！我一直渴望相見。」",
-      "zh_bytes": 60,
-      "note": ""
-    },
-    {
-      "offset": 313,
-      "len": 102,
-      "en": "From the day I first saw your portrait, I knew you must be the most beautiful woman in all Britannia.\"",
-      "zh": "自初見汝之畫像，我便知汝必為不列顛尼亞最美之女子。」",
-      "zh_bytes": 52,
-      "note": "對女性聖者；Britannia → 不列顛尼亞"
-    },
-    {
-      "offset": 416,
-      "len": 42,
-      "en": "You're the greatest hero in all the land.\"",
-      "zh": "汝乃全境最偉大之英雄。」",
-      "zh_bytes": 24,
-      "note": "對男性聖者"
-    },
-    {
-      "offset": 472,
-      "len": 62,
-      "en": "\"Oh, $G Avatar, 'tis an unexpected pleasure to see you again!\"",
-      "zh": "「噢，$G聖者，再見汝實乃意外之喜！」",
-      "zh_bytes": 36,
-      "note": "保留 $G 性別變數"
-    },
-    {
-      "offset": 535,
-      "len": 46,
-      "en": "\"Hey, my old buddy $P! Good to see you again.\"",
-      "zh": "「嘿，老友 $P！再見汝甚悅。」",
-      "zh_bytes": 29,
-      "note": "保留 $P"
-    },
-    {
-      "offset": 585,
-      "len": 4,
-      "en": "name",
-      "zh": "名字",
-      "zh_bytes": 4,
-      "note": "@name keyword"
-    },
-    {
-      "offset": 590,
-      "len": 69,
-      "en": "\"Maldric, I am. Once Maldric the @boar hunter, now Maldric the cook.\"",
-      "zh": "「在下馬德力。@昔為野豬獵人，今為廚子也。」",
-      "zh_bytes": 43,
-      "note": ""
-    },
-    {
-      "offset": 665,
-      "len": 14,
-      "en": "once,boar,hunt",
-      "zh": "昔,豬,獵",
-      "zh_bytes": 8,
-      "note": "keyword 群組"
-    },
-    {
-      "offset": 680,
-      "len": 57,
-      "en": "\"Aye, I used to live in the @forest and hunt wild boars.\"",
-      "zh": "「啊，吾曾居於@林中，獵殺野豬。」",
-      "zh_bytes": 33,
-      "note": ""
-    },
-    {
-      "offset": 740,
-      "len": 116,
-      "en": "\"But one day I presented a @roast boar as a gift to his @majesty, and he liked it so much he hired me as his @cook.\"",
-      "zh": "「某日獻@烤豬於@陛下，他甚喜，遂聘吾為其@御廚。」",
-      "zh_bytes": 49,
-      "note": ""
-    },
-    {
-      "offset": 862,
-      "len": 4,
-      "en": "maje",
-      "zh": "陛下",
-      "zh_bytes": 4,
-      "note": "@majesty keyword"
-    },
-    {
-      "offset": 867,
-      "len": 29,
-      "en": "\"Yes, Lord @British himself.\"",
-      "zh": "「是的，便是@不列顛王本人。」",
-      "zh_bytes": 29,
-      "note": ""
-    },
-    {
-      "offset": 902,
-      "len": 4,
-      "en": "fore",
-      "zh": "林",
-      "zh_bytes": 2,
-      "note": "@forest keyword"
-    },
-    {
-      "offset": 907,
-      "len": 44,
-      "en": "\"Those were good times. But I'm happy here.\"",
-      "zh": "「彼時美好。然此處亦堪稱樂土。」",
-      "zh_bytes": 32,
-      "note": ""
-    },
-    {
-      "offset": 957,
-      "len": 19,
-      "en": "pres,gift,roas,like",
-      "zh": "獻,贈,烤,喜",
-      "zh_bytes": 11,
-      "note": "keyword 群組"
-    },
-    {
-      "offset": 977,
-      "len": 58,
-      "en": "\"The secret is in the spices. It's an old family @recipe.\"",
-      "zh": "「秘訣在於香料。乃我家傳老@祕方也。」",
-      "zh_bytes": 37,
-      "note": ""
-    },
-    {
-      "offset": 1041,
-      "len": 14,
-      "en": "secr,fami,reci",
-      "zh": "祕,家,方",
-      "zh_bytes": 8,
-      "note": "keyword 群組"
-    },
-    {
-      "offset": 1056,
-      "len": 17,
-      "en": "\"I'll never tell.",
-      "zh": "「絕不外傳。",
-      "zh_bytes": 12,
-      "note": "句首待接續"
-    },
-    {
-      "offset": 1080,
-      "len": 49,
-      "en": " Though for one so sweet, I must say I'm tempted.",
-      "zh": " 然對如此甜美之人，吾不免心動。",
-      "zh_bytes": 31,
-      "note": ""
-    },
-    {
-      "offset": 1137,
-      "len": 3,
-      "en": "job",
-      "zh": "業",
-      "zh_bytes": 2,
-      "note": "@job keyword"
-    },
-    {
-      "offset": 1141,
-      "len": 104,
-      "en": "\"I @cook for all those who live in the @castle, and for any @guests who dine with Lord British as well.\"",
-      "zh": "「吾為@城堡中所有居者掌@廚，亦為與不列顛王共@膳之@賓客做菜。」",
-      "zh_bytes": 62,
-      "note": "避『餐』改『膳』"
-    },
-    {
-      "offset": 1248,
-      "len": 84,
-      "en": "\"'Tis sastisfying work, yet at times I wish I could @travel with one such as you...\"",
-      "zh": "「此業甚足吾意，然偶望能與汝這般之人共@遊…」",
-      "zh_bytes": 45,
-      "note": ""
-    },
-    {
-      "offset": 1338,
-      "len": 9,
-      "en": "gues,dine",
-      "zh": "賓,膳",
-      "zh_bytes": 5,
-      "note": "keyword 群組；避『餐』改『膳』"
-    },
-    {
-      "offset": 1348,
-      "len": 32,
-      "en": "\"Lord British has many friends.\"",
-      "zh": "「不列顛王朋友眾多。」",
-      "zh_bytes": 22,
-      "note": ""
-    },
-    {
-      "offset": 1386,
-      "len": 4,
-      "en": "cast",
-      "zh": "城堡",
-      "zh_bytes": 4,
-      "note": "@castle keyword"
-    },
-    {
-      "offset": 1391,
-      "len": 99,
-      "en": "\"A fancier home than any of my family ever lived in. Yet I still miss my simple hut in the forest.\"",
-      "zh": "「比吾家祖輩所居皆豪奢之屋。然吾仍懷念林中那簡樸小屋。」",
-      "zh_bytes": 56,
-      "note": ""
-    },
-    {
-      "offset": 1500,
-      "len": 104,
-      "en": "\"I wish it were still there, so I could invite you to come spend an evening by the @fireplace with me...",
-      "zh": "「願它尚存，吾便可邀汝來@爐火邊共度一宵…",
-      "zh_bytes": 41,
-      "note": "fireplace → 爐火；無結尾引號保留"
-    },
-    {
-      "offset": 1611,
-      "len": 19,
-      "en": "spen,even,fire,invi",
-      "zh": "度,宵,爐,邀",
-      "zh_bytes": 11,
-      "note": "keyword 群組"
-    },
-    {
-      "offset": 1631,
-      "len": 67,
-      "en": "\"There's fire enough in my kitchen, but 'tis no place for romance.\"",
-      "zh": "「廚中之火足矣，惟非適浪漫之所。」",
-      "zh_bytes": 34,
-      "note": ""
-    },
-    {
-      "offset": 1704,
-      "len": 34,
-      "en": "kitc,plac,roma,trav,wish,join,warr",
-      "zh": "廚,所,浪,遊,願,從,武",
-      "zh_bytes": 20,
-      "note": "7 keyword 群組"
-    },
-    {
-      "offset": 1739,
-      "len": 40,
-      "en": "\"I shouldn't even speak of such things.\"",
-      "zh": "「此等事吾本不該妄言。」",
-      "zh_bytes": 24,
-      "note": ""
-    },
-    {
-      "offset": 1782,
-      "len": 75,
-      "en": "\"After all, you are the Avatar, and I but a lowly cook. Please forgive me.\"",
-      "zh": "「畢竟汝乃聖者，吾不過卑微廚子。望汝寬恕。」",
-      "zh_bytes": 44,
-      "note": ""
-    },
-    {
-      "offset": 1860,
-      "len": 9,
-      "en": "lord,brit",
-      "zh": "不列顛王",
-      "zh_bytes": 8,
-      "note": "keyword 群組"
-    },
-    {
-      "offset": 1870,
-      "len": 55,
-      "en": "\"He's a good man. Likes plenty of @pepper in his stew.\"",
-      "zh": "「他是個好人。喜在@燉湯中多放@胡椒。」",
-      "zh_bytes": 38,
-      "note": ""
-    },
-    {
-      "offset": 1931,
-      "len": 9,
-      "en": "pepp,stew",
-      "zh": "椒,燉",
-      "zh_bytes": 5,
-      "note": "keyword 群組"
-    },
-    {
-      "offset": 1941,
-      "len": 56,
-      "en": "\"Spice puts some variety in life, is what I always say.\"",
-      "zh": "「香料為生活添點變化，此乃吾常言。」",
-      "zh_bytes": 36,
-      "note": ""
-    },
-    {
-      "offset": 2003,
-      "len": 4,
-      "en": "spic",
-      "zh": "香料",
-      "zh_bytes": 4,
-      "note": "@spice keyword"
-    },
-    {
-      "offset": 2021,
-      "len": 47,
-      "en": "\"You're a pretty spicy little number yourself!\"",
-      "zh": "「汝自個兒也是個夠味之小尤物呢！」",
-      "zh_bytes": 34,
-      "note": ""
-    },
-    {
-      "offset": 2075,
-      "len": 39,
-      "en": "spic,vari,life,frie,hear,adve,peop,happ",
-      "zh": "料,變,生,友,聞,險,人,樂",
-      "zh_bytes": 23,
-      "note": "8 keyword 群組"
-    },
-    {
-      "offset": 2115,
-      "len": 13,
-      "en": "\"Yes indeed.\"",
-      "zh": "「確乎。」",
-      "zh_bytes": 10,
-      "note": "縮譯以符 len=13"
-    },
-    {
-      "offset": 2134,
-      "len": 4,
-      "en": "avat",
-      "zh": "聖者",
-      "zh_bytes": 4,
-      "note": "@avatar keyword"
-    },
-    {
-      "offset": 2139,
-      "len": 92,
-      "en": "\"I've heard about all of your adventures. I wish I were a warrior too, and not just a cook!\"",
-      "zh": "「汝之冒險吾皆有所聞。多願吾亦能為武士，而非僅一廚子！」",
-      "zh_bytes": 56,
-      "note": ""
-    },
-    {
-      "offset": 2237,
-      "len": 4,
-      "en": "cook",
-      "zh": "廚子",
-      "zh_bytes": 4,
-      "note": "@cook keyword"
-    },
-    {
-      "offset": 2242,
-      "len": 52,
-      "en": "\"I like having a job where I can make people happy.\"",
-      "zh": "「吾喜此業：能令人歡喜。」",
-      "zh_bytes": 26,
-      "note": ""
-    },
-    {
-      "offset": 2300,
-      "len": 3,
-      "en": "bye",
-      "zh": "別",
-      "zh_bytes": 2,
-      "note": "@bye keyword"
-    },
-    {
-      "offset": 2304,
-      "len": 90,
-      "en": "\"See you later. And next time you dine with his majesty, I'll cook you something special.\"",
-      "zh": "「後會。下回汝與陛下同膳時，吾必為汝烹一道特別之菜。」",
-      "zh_bytes": 54,
-      "note": ""
-    },
-    {
-      "offset": 2404,
-      "len": 60,
-      "en": "He seems about to say more, with a hopeful look in his eyes.",
-      "zh": "他似欲再言，眼中懷著期盼之色。",
-      "zh_bytes": 30,
-      "note": ""
-    },
-    {
-      "offset": 2467,
-      "len": 40,
-      "en": "But then he turns away without speaking.",
-      "zh": "但隨即默然轉身而去。",
-      "zh_bytes": 20,
-      "note": ""
-    },
-    {
-      "offset": 2513,
-      "len": 85,
-      "en": "\"Funny you should mention that... It reminds me of my secret recipe for @roast boar.\"",
-      "zh": "「妙哉汝提起此事…令吾憶起@烤豬之祕方。」",
-      "zh_bytes": 41,
-      "note": ""
-    }
-  ],
-  "keyword_mapping": {
-    "@boar": "@豬",
-    "@forest": "@林",
-    "@roast": "@烤",
-    "@majesty": "@陛下",
-    "@British": "@不列顛王",
-    "@cook": "@廚子",
-    "@recipe": "@祕方",
-    "@castle": "@城堡",
-    "@guests": "@賓客",
-    "@travel": "@遊",
-    "@fireplace": "@爐火",
-    "@pepper": "@胡椒",
-    "@stew": "@燉湯",
-    "@spice": "@香料"
+  {
+   "offset": 10,
+   "len": 60,
+   "en": "a bare chested, muscular man, his body gleaming with sweat.*",
+   "zh": "一個赤膊肌肉男，汗水使其身軀閃閃發光。*",
+   "zh_bytes": 39,
+   "note": "末尾 * 保留"
   },
-  "glossary_additions": {
-    "people": {
-      "Maldric": "馬德力"
-    },
-    "concepts": {
-      "boar hunter": "野豬獵人",
-      "cook": "廚子",
-      "majesty": "陛下",
-      "recipe": "祕方",
-      "fireplace": "爐火",
-      "spice": "香料",
-      "pepper": "胡椒",
-      "stew": "燉湯",
-      "warrior": "武士"
-    }
+  {
+   "offset": 92,
+   "len": 104,
+   "en": "\"Excuse me a moment.\" He pulls a napkin from his belt and mops at his brow. \"Now, what were you saying?\"",
+   "zh": "「失陪片刻。」他自腰帶抽出一條布巾擦汗。「來，方才汝說什麼？」",
+   "zh_bytes": 62,
+   "note": ""
   },
-  "riddles_additions": [
-    {
-      "npc": "Maldric",
-      "key": "FIREPLACE_INVITATION",
-      "en": "I wish it were still there, so I could invite you to come spend an evening by the fireplace with me...",
-      "zh": "願它尚存，吾便可邀汝來爐火邊共度一宵…",
-      "ref": "Maldric 對 Avatar 的浪漫求愛暗示；遊戲中宮廷廚子單戀玩家",
-      "strategy": "保留含蓄浪漫語氣；『共度一宵』翻譯 spend an evening 留含蓄"
-    },
-    {
-      "npc": "Maldric",
-      "key": "SPICY_NUMBER",
-      "en": "You're a pretty spicy little number yourself!",
-      "zh": "汝自個兒也是個夠味之小尤物呢！",
-      "ref": "spicy number = 性感小可人；spice/spicy 雙關（食物香料 vs. 人物嗆辣）",
-      "strategy": "保留 spice 雙關意味：『夠味』兼指食物與人物魅力"
-    }
-  ],
-  "translator_notes": "Maldric 為宮廷廚師，背景設定豐富（野豬獵人轉廚）。對 Avatar 含浪漫單戀調情語氣，依 $G 性別變數顯示不同台詞（女性聖者最美、男性聖者最偉大）。Lord British 首次於對話中出現用全稱『不列顛王』，後續用『陛下』。避『餐』改『膳』（5C-trail c05c）。Maldric 譯『馬德力』新詞。所有 zh_bytes ≤ len，0 OVERFLOW。"
+  {
+   "offset": 199,
+   "len": 103,
+   "en": "\"Wait a minute,\" he interrupts, \"I recognize you... You're the Avatar! I've always wanted to meet you.\"",
+   "zh": "「且慢，」他打斷道，「我認得汝…汝乃聖者！我一直渴望相見。」",
+   "zh_bytes": 60,
+   "note": ""
+  },
+  {
+   "offset": 313,
+   "len": 102,
+   "en": "From the day I first saw your portrait, I knew you must be the most beautiful woman in all Britannia.\"",
+   "zh": "自初見汝之畫像，我便知汝必為不列顛尼亞最美之女子。」",
+   "zh_bytes": 52,
+   "note": "對女性聖者；Britannia → 不列顛尼亞"
+  },
+  {
+   "offset": 416,
+   "len": 42,
+   "en": "You're the greatest hero in all the land.\"",
+   "zh": "汝乃全境最偉大之英雄。」",
+   "zh_bytes": 24,
+   "note": "對男性聖者"
+  },
+  {
+   "offset": 472,
+   "len": 62,
+   "en": "\"Oh, $G Avatar, 'tis an unexpected pleasure to see you again!\"",
+   "zh": "「噢，$G聖者，再見汝實乃意外之喜！」",
+   "zh_bytes": 36,
+   "note": "保留 $G 性別變數"
+  },
+  {
+   "offset": 535,
+   "len": 46,
+   "en": "\"Hey, my old buddy $P! Good to see you again.\"",
+   "zh": "「嘿，老友 $P！再見汝甚悅。」",
+   "zh_bytes": 29,
+   "note": "保留 $P"
+  },
+  {
+   "offset": 585,
+   "len": 4,
+   "en": "name",
+   "zh": "名字",
+   "zh_bytes": 4,
+   "note": "@name keyword"
+  },
+  {
+   "offset": 590,
+   "len": 69,
+   "en": "\"Maldric, I am. Once Maldric the @boar hunter, now Maldric the cook.\"",
+   "zh": "「在下馬德力。@boar（昔）為野豬獵人，今為廚子也。」",
+   "zh_bytes": 43,
+   "note": ""
+  },
+  {
+   "offset": 665,
+   "len": 14,
+   "en": "once,boar,hunt",
+   "zh": "昔,豬,獵",
+   "zh_bytes": 8,
+   "note": "keyword 群組"
+  },
+  {
+   "offset": 680,
+   "len": 57,
+   "en": "\"Aye, I used to live in the @forest and hunt wild boars.\"",
+   "zh": "「啊，吾曾居於@forest（林）中，獵殺野豬。」",
+   "zh_bytes": 33,
+   "note": ""
+  },
+  {
+   "offset": 740,
+   "len": 116,
+   "en": "\"But one day I presented a @roast boar as a gift to his @majesty, and he liked it so much he hired me as his @cook.\"",
+   "zh": "「某日獻@roast（烤豬）於@majesty（陛）下，他甚喜，遂聘吾為其@cook（御廚）。」",
+   "zh_bytes": 49,
+   "note": ""
+  },
+  {
+   "offset": 862,
+   "len": 4,
+   "en": "maje",
+   "zh": "陛下",
+   "zh_bytes": 4,
+   "note": "@majesty keyword"
+  },
+  {
+   "offset": 867,
+   "len": 29,
+   "en": "\"Yes, Lord @British himself.\"",
+   "zh": "「是的，便是@British（不列）顛王本人。」",
+   "zh_bytes": 29,
+   "note": ""
+  },
+  {
+   "offset": 902,
+   "len": 4,
+   "en": "fore",
+   "zh": "林",
+   "zh_bytes": 2,
+   "note": "@forest keyword"
+  },
+  {
+   "offset": 907,
+   "len": 44,
+   "en": "\"Those were good times. But I'm happy here.\"",
+   "zh": "「彼時美好。然此處亦堪稱樂土。」",
+   "zh_bytes": 32,
+   "note": ""
+  },
+  {
+   "offset": 957,
+   "len": 19,
+   "en": "pres,gift,roas,like",
+   "zh": "獻,贈,烤,喜",
+   "zh_bytes": 11,
+   "note": "keyword 群組"
+  },
+  {
+   "offset": 977,
+   "len": 58,
+   "en": "\"The secret is in the spices. It's an old family @recipe.\"",
+   "zh": "「秘訣在於香料。乃我家傳老@recipe（祕）方也。」",
+   "zh_bytes": 37,
+   "note": ""
+  },
+  {
+   "offset": 1041,
+   "len": 14,
+   "en": "secr,fami,reci",
+   "zh": "祕,家,方",
+   "zh_bytes": 8,
+   "note": "keyword 群組"
+  },
+  {
+   "offset": 1056,
+   "len": 17,
+   "en": "\"I'll never tell.",
+   "zh": "「絕不外傳。",
+   "zh_bytes": 12,
+   "note": "句首待接續"
+  },
+  {
+   "offset": 1080,
+   "len": 49,
+   "en": " Though for one so sweet, I must say I'm tempted.",
+   "zh": " 然對如此甜美之人，吾不免心動。",
+   "zh_bytes": 31,
+   "note": ""
+  },
+  {
+   "offset": 1137,
+   "len": 3,
+   "en": "job",
+   "zh": "業",
+   "zh_bytes": 2,
+   "note": "@job keyword"
+  },
+  {
+   "offset": 1141,
+   "len": 104,
+   "en": "\"I @cook for all those who live in the @castle, and for any @guests who dine with Lord British as well.\"",
+   "zh": "「吾為@cook（城堡）中所有居者掌@castle（廚），亦為與不列顛王共@guests（膳）之賓客做菜。」",
+   "zh_bytes": 62,
+   "note": "避『餐』改『膳』"
+  },
+  {
+   "offset": 1248,
+   "len": 84,
+   "en": "\"'Tis sastisfying work, yet at times I wish I could @travel with one such as you...\"",
+   "zh": "「此業甚足吾意，然偶望能與汝這般之人共@travel（遊）…」",
+   "zh_bytes": 45,
+   "note": ""
+  },
+  {
+   "offset": 1338,
+   "len": 9,
+   "en": "gues,dine",
+   "zh": "賓,膳",
+   "zh_bytes": 5,
+   "note": "keyword 群組；避『餐』改『膳』"
+  },
+  {
+   "offset": 1348,
+   "len": 32,
+   "en": "\"Lord British has many friends.\"",
+   "zh": "「不列顛王朋友眾多。」",
+   "zh_bytes": 22,
+   "note": ""
+  },
+  {
+   "offset": 1386,
+   "len": 4,
+   "en": "cast",
+   "zh": "城堡",
+   "zh_bytes": 4,
+   "note": "@castle keyword"
+  },
+  {
+   "offset": 1391,
+   "len": 99,
+   "en": "\"A fancier home than any of my family ever lived in. Yet I still miss my simple hut in the forest.\"",
+   "zh": "「比吾家祖輩所居皆豪奢之屋。然吾仍懷念林中那簡樸小屋。」",
+   "zh_bytes": 56,
+   "note": ""
+  },
+  {
+   "offset": 1500,
+   "len": 104,
+   "en": "\"I wish it were still there, so I could invite you to come spend an evening by the @fireplace with me...",
+   "zh": "「願它尚存，吾便可邀汝來@fireplace（爐火）邊共度一宵…",
+   "zh_bytes": 41,
+   "note": "fireplace → 爐火；無結尾引號保留"
+  },
+  {
+   "offset": 1611,
+   "len": 19,
+   "en": "spen,even,fire,invi",
+   "zh": "度,宵,爐,邀",
+   "zh_bytes": 11,
+   "note": "keyword 群組"
+  },
+  {
+   "offset": 1631,
+   "len": 67,
+   "en": "\"There's fire enough in my kitchen, but 'tis no place for romance.\"",
+   "zh": "「廚中之火足矣，惟非適浪漫之所。」",
+   "zh_bytes": 34,
+   "note": ""
+  },
+  {
+   "offset": 1704,
+   "len": 34,
+   "en": "kitc,plac,roma,trav,wish,join,warr",
+   "zh": "廚,所,浪,遊,願,從,武",
+   "zh_bytes": 20,
+   "note": "7 keyword 群組"
+  },
+  {
+   "offset": 1739,
+   "len": 40,
+   "en": "\"I shouldn't even speak of such things.\"",
+   "zh": "「此等事吾本不該妄言。」",
+   "zh_bytes": 24,
+   "note": ""
+  },
+  {
+   "offset": 1782,
+   "len": 75,
+   "en": "\"After all, you are the Avatar, and I but a lowly cook. Please forgive me.\"",
+   "zh": "「畢竟汝乃聖者，吾不過卑微廚子。望汝寬恕。」",
+   "zh_bytes": 44,
+   "note": ""
+  },
+  {
+   "offset": 1860,
+   "len": 9,
+   "en": "lord,brit",
+   "zh": "不列顛王",
+   "zh_bytes": 8,
+   "note": "keyword 群組"
+  },
+  {
+   "offset": 1870,
+   "len": 55,
+   "en": "\"He's a good man. Likes plenty of @pepper in his stew.\"",
+   "zh": "「他是個好人。喜在@pepper（燉湯）中多放胡椒。」",
+   "zh_bytes": 38,
+   "note": ""
+  },
+  {
+   "offset": 1931,
+   "len": 9,
+   "en": "pepp,stew",
+   "zh": "椒,燉",
+   "zh_bytes": 5,
+   "note": "keyword 群組"
+  },
+  {
+   "offset": 1941,
+   "len": 56,
+   "en": "\"Spice puts some variety in life, is what I always say.\"",
+   "zh": "「香料為生活添點變化，此乃吾常言。」",
+   "zh_bytes": 36,
+   "note": ""
+  },
+  {
+   "offset": 2003,
+   "len": 4,
+   "en": "spic",
+   "zh": "香料",
+   "zh_bytes": 4,
+   "note": "@spice keyword"
+  },
+  {
+   "offset": 2021,
+   "len": 47,
+   "en": "\"You're a pretty spicy little number yourself!\"",
+   "zh": "「汝自個兒也是個夠味之小尤物呢！」",
+   "zh_bytes": 34,
+   "note": ""
+  },
+  {
+   "offset": 2075,
+   "len": 39,
+   "en": "spic,vari,life,frie,hear,adve,peop,happ",
+   "zh": "料,變,生,友,聞,險,人,樂",
+   "zh_bytes": 23,
+   "note": "8 keyword 群組"
+  },
+  {
+   "offset": 2115,
+   "len": 13,
+   "en": "\"Yes indeed.\"",
+   "zh": "「確乎。」",
+   "zh_bytes": 10,
+   "note": "縮譯以符 len=13"
+  },
+  {
+   "offset": 2134,
+   "len": 4,
+   "en": "avat",
+   "zh": "聖者",
+   "zh_bytes": 4,
+   "note": "@avatar keyword"
+  },
+  {
+   "offset": 2139,
+   "len": 92,
+   "en": "\"I've heard about all of your adventures. I wish I were a warrior too, and not just a cook!\"",
+   "zh": "「汝之冒險吾皆有所聞。多願吾亦能為武士，而非僅一廚子！」",
+   "zh_bytes": 56,
+   "note": ""
+  },
+  {
+   "offset": 2237,
+   "len": 4,
+   "en": "cook",
+   "zh": "廚子",
+   "zh_bytes": 4,
+   "note": "@cook keyword"
+  },
+  {
+   "offset": 2242,
+   "len": 52,
+   "en": "\"I like having a job where I can make people happy.\"",
+   "zh": "「吾喜此業：能令人歡喜。」",
+   "zh_bytes": 26,
+   "note": ""
+  },
+  {
+   "offset": 2300,
+   "len": 3,
+   "en": "bye",
+   "zh": "別",
+   "zh_bytes": 2,
+   "note": "@bye keyword"
+  },
+  {
+   "offset": 2304,
+   "len": 90,
+   "en": "\"See you later. And next time you dine with his majesty, I'll cook you something special.\"",
+   "zh": "「後會。下回汝與陛下同膳時，吾必為汝烹一道特別之菜。」",
+   "zh_bytes": 54,
+   "note": ""
+  },
+  {
+   "offset": 2404,
+   "len": 60,
+   "en": "He seems about to say more, with a hopeful look in his eyes.",
+   "zh": "他似欲再言，眼中懷著期盼之色。",
+   "zh_bytes": 30,
+   "note": ""
+  },
+  {
+   "offset": 2467,
+   "len": 40,
+   "en": "But then he turns away without speaking.",
+   "zh": "但隨即默然轉身而去。",
+   "zh_bytes": 20,
+   "note": ""
+  },
+  {
+   "offset": 2513,
+   "len": 85,
+   "en": "\"Funny you should mention that... It reminds me of my secret recipe for @roast boar.\"",
+   "zh": "「妙哉汝提起此事…令吾憶起@roast（烤豬）之祕方。」",
+   "zh_bytes": 41,
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {
+  "@boar": "@豬",
+  "@forest": "@林",
+  "@roast": "@烤",
+  "@majesty": "@陛下",
+  "@British": "@不列顛王",
+  "@cook": "@廚子",
+  "@recipe": "@祕方",
+  "@castle": "@城堡",
+  "@guests": "@賓客",
+  "@travel": "@遊",
+  "@fireplace": "@爐火",
+  "@pepper": "@胡椒",
+  "@stew": "@燉湯",
+  "@spice": "@香料"
+ },
+ "glossary_additions": {
+  "people": {
+   "Maldric": "馬德力"
+  },
+  "concepts": {
+   "boar hunter": "野豬獵人",
+   "cook": "廚子",
+   "majesty": "陛下",
+   "recipe": "祕方",
+   "fireplace": "爐火",
+   "spice": "香料",
+   "pepper": "胡椒",
+   "stew": "燉湯",
+   "warrior": "武士"
+  }
+ },
+ "riddles_additions": [
+  {
+   "npc": "Maldric",
+   "key": "FIREPLACE_INVITATION",
+   "en": "I wish it were still there, so I could invite you to come spend an evening by the fireplace with me...",
+   "zh": "願它尚存，吾便可邀汝來爐火邊共度一宵…",
+   "ref": "Maldric 對 Avatar 的浪漫求愛暗示；遊戲中宮廷廚子單戀玩家",
+   "strategy": "保留含蓄浪漫語氣；『共度一宵』翻譯 spend an evening 留含蓄"
+  },
+  {
+   "npc": "Maldric",
+   "key": "SPICY_NUMBER",
+   "en": "You're a pretty spicy little number yourself!",
+   "zh": "汝自個兒也是個夠味之小尤物呢！",
+   "ref": "spicy number = 性感小可人；spice/spicy 雙關（食物香料 vs. 人物嗆辣）",
+   "strategy": "保留 spice 雙關意味：『夠味』兼指食物與人物魅力"
+  }
+ ],
+ "translator_notes": "Maldric 為宮廷廚師，背景設定豐富（野豬獵人轉廚）。對 Avatar 含浪漫單戀調情語氣，依 $G 性別變數顯示不同台詞（女性聖者最美、男性聖者最偉大）。Lord British 首次於對話中出現用全稱『不列顛王』，後續用『陛下』。避『餐』改『膳』（5C-trail c05c）。Maldric 譯『馬德力』新詞。所有 zh_bytes ≤ len，0 OVERFLOW。"
 }

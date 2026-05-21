@@ -1,499 +1,499 @@
 {
-  "translations": [
-    {
-      "offset": 11,
-      "len": 47,
-      "en": "a small, inscrutable woman, cloaked in shadows.",
-      "zh": "一位身形嬌小、深不可測的女子，籠罩在幽暗之中。",
-      "note": "DESC"
-    },
-    {
-      "offset": 70,
-      "len": 60,
-      "en": "\"Ah, hello Avatar. I was wondering when you would get here.\"",
-      "zh": "「啊，聖者，你好。吾正在想汝何時會到。」",
-      "note": ""
-    },
-    {
-      "offset": 137,
-      "len": 45,
-      "en": "\"I see you have yet to fulfill your destiny.\"",
-      "zh": "「吾見汝尚未完成命中注定之事業。」",
-      "note": ""
-    },
-    {
-      "offset": 191,
-      "len": 34,
-      "en": "\"I am the one known as @Penumbra.\"",
-      "zh": "「吾乃世人所稱之@潘布拉。」",
-      "note": ""
-    },
-    {
-      "offset": 236,
-      "len": 35,
-      "en": "\"I am the daughter of the eclipse.\"",
-      "zh": "「吾乃日蝕之女。」",
-      "note": "atmospheric self-description"
-    },
-    {
-      "offset": 281,
-      "len": 25,
-      "en": "\"I am a @fortune teller.\"",
-      "zh": "「吾乃@占卜師。」",
-      "note": ""
-    },
-    {
-      "offset": 322,
-      "len": 43,
-      "en": "\"Yes, I can foretell your @future for you.\"",
-      "zh": "「是的，吾能為汝預卜@命運。」",
-      "note": ""
-    },
-    {
-      "offset": 392,
-      "len": 39,
-      "en": "\"Yes he was a terribly @honest fellow.\"",
-      "zh": "「是的，他確是極為@誠實之人。」",
-      "note": "Beyvin"
-    },
-    {
-      "offset": 434,
-      "len": 45,
-      "en": "\"Alas, though, he lacked the virtue of tact.\"",
-      "zh": "「然而惜哉，他欠缺圓滑的美德。」",
-      "note": ""
-    },
-    {
-      "offset": 482,
-      "len": 80,
-      "en": "\"He told the truth once too often, and those he spoke of did not appreciate it.\"",
-      "zh": "「他說真話說得太多，被說者並不領情。」",
-      "note": ""
-    },
-    {
-      "offset": 565,
-      "len": 73,
-      "en": "\"He's buried in the catacombs under Moonglow now, pushing up @daffodils.\"",
-      "zh": "「他如今長眠於月華城地下的墓窟，靜待@水仙花從身上綻放。」",
-      "note": "idiom 'pushing up daisies' adapted"
-    },
-    {
-      "offset": 641,
-      "len": 28,
-      "en": "\"Even virtue has its price.\"",
-      "zh": "「美德亦有其代價。」",
-      "note": ""
-    },
-    {
-      "offset": 680,
-      "len": 17,
-      "en": "\"Yes, daffodils.\"",
-      "zh": "「是的，水仙花。」",
-      "note": ""
-    },
-    {
-      "offset": 708,
-      "len": 51,
-      "en": "\"I can tell you of both the @rune and the @mantra.\"",
-      "zh": "「吾可告知汝@符文及@真言兩者之事。」",
-      "note": ""
-    },
-    {
-      "offset": 770,
-      "len": 44,
-      "en": "\"'Twas buried with @Beyvin, rest his shade.\"",
-      "zh": "「符文已隨@貝文長埋地下，願其魂靈安息。」",
-      "note": ""
-    },
-    {
-      "offset": 835,
-      "len": 22,
-      "en": "\"Your destiny awaits.\"",
-      "zh": "「汝的命運正在等候。」",
-      "note": "bye"
-    },
-    {
-      "offset": 862,
-      "len": 45,
-      "en": "\"You must seek the answer to that elsewhere.\"",
-      "zh": "「此問之答，汝須他處尋覓。」",
-      "note": ""
-    },
-    {
-      "offset": 913,
-      "len": 89,
-      "en": "\"For five gold coins I can use my powers to divine the mantra for you. Shall I do this?\" ",
-      "zh": "「吾可以五枚金幣，運用神通為汝卜算真言。汝願否？」",
-      "note": ""
-    },
-    {
-      "offset": 1008,
-      "len": 45,
-      "en": "\"It is a small price for so profound a word.\"",
-      "zh": "「如此深奧之言，此代價不過小事。」",
-      "note": ""
-    },
-    {
-      "offset": 1072,
-      "len": 37,
-      "en": "\"Your ambitions outreach your means.\"",
-      "zh": "「汝的志向超出汝的能力。」",
-      "note": "not enough gold"
-    },
-    {
-      "offset": 1141,
-      "len": 64,
-      "en": "She closes her eyes in concentration. For long minutes you wait.",
-      "zh": "她闔目凝神。汝等候了良久。",
-      "note": "action"
-    },
-    {
-      "offset": 1217,
-      "len": 42,
-      "en": "\"What are we waiting for!\" whispers Dupre.",
-      "zh": "「我們在等什麼！」杜普雷低聲說道。",
-      "note": ""
-    },
-    {
-      "offset": 1262,
-      "len": 76,
-      "en": "\"She's doubtless fallen asleep, and you've wasted good money for nothing...\"",
-      "zh": "「她恐怕已經睡著了，汝白白浪費了錢財……」",
-      "note": ""
-    },
-    {
-      "offset": 1346,
-      "len": 68,
-      "en": "Finally Penumbra opens her eyes again. \"The word you seek is 'ahm.'\"",
-      "zh": "終於潘布拉再度睜眼。「汝所尋之真言乃『ahm』。」",
-      "note": "mantra 'ahm' stays as-is (game mechanic)"
-    },
-    {
-      "offset": 1419,
-      "len": 45,
-      "en": "\"I require a small donation for my services.\"",
-      "zh": "「吾需要一點奉獻作為酬勞。」",
-      "note": ""
-    },
-    {
-      "offset": 1466,
-      "len": 26,
-      "en": "How much do you give her? ",
-      "zh": "汝要給她多少？",
-      "note": "UI prompt"
-    },
-    {
-      "offset": 1505,
-      "len": 25,
-      "en": "You don't have that much.",
-      "zh": "汝沒有那麼多金幣。",
-      "note": ""
-    },
-    {
-      "offset": 1543,
-      "len": 11,
-      "en": "\"So be it.\"",
-      "zh": "「如此便罷。」",
-      "note": ""
-    },
-    {
-      "offset": 1573,
-      "len": 103,
-      "en": "She holds her hands out on either side of her crystal ball, not quite touching it, and closes her eyes.",
-      "zh": "她將雙手懸於水晶球兩側，幾乎要觸碰卻未觸碰，隨即闔上眼瞼。",
-      "note": "action"
-    },
-    {
-      "offset": 1679,
-      "len": 25,
-      "en": "After a time, she speaks.",
-      "zh": "片刻之後，她開口說道。",
-      "note": "action"
-    },
-    {
-      "offset": 1707,
-      "len": 40,
-      "en": "\"The future looks dark. All is unclear.\"",
-      "zh": "「前途晦暗，一切模糊不清。」",
-      "note": "fortune-telling"
-    },
-    {
-      "offset": 1750,
-      "len": 60,
-      "en": "\"Some more gold would shed further light on your destiny...\"",
-      "zh": "「再奉上些許金幣，或可為汝的命運照亮更多……」",
-      "note": ""
-    },
-    {
-      "offset": 1812,
-      "len": 26,
-      "en": "How much do you give her? ",
-      "zh": "汝要給她多少？",
-      "note": ""
-    },
-    {
-      "offset": 1851,
-      "len": 25,
-      "en": "You don't have that much.",
-      "zh": "汝沒有那麼多金幣。",
-      "note": ""
-    },
-    {
-      "offset": 1889,
-      "len": 11,
-      "en": "\"So be it.\"",
-      "zh": "「如此便罷。」",
-      "note": ""
-    },
-    {
-      "offset": 1919,
-      "len": 61,
-      "en": "\"Though all is dark, I see a light at the end of the tunnel.\"",
-      "zh": "「縱使黑暗籠罩，吾見隧道盡頭有一線光明。」",
-      "note": ""
-    },
-    {
-      "offset": 1983,
-      "len": 63,
-      "en": "\"Quickly - more coins before I lose the thread of this vision!\"",
-      "zh": "「快——再多些金幣，吾即將失去此幻象的絲線！」",
-      "note": ""
-    },
-    {
-      "offset": 2048,
-      "len": 26,
-      "en": "How much do you give her? ",
-      "zh": "汝要給她多少？",
-      "note": ""
-    },
-    {
-      "offset": 2087,
-      "len": 25,
-      "en": "You don't have that much.",
-      "zh": "汝沒有那麼多金幣。",
-      "note": ""
-    },
-    {
-      "offset": 2125,
-      "len": 11,
-      "en": "\"So be it.\"",
-      "zh": "「如此便罷。」",
-      "note": ""
-    },
-    {
-      "offset": 2155,
-      "len": 44,
-      "en": "\"Much conflict lies before you. Your end...\"",
-      "zh": "「前路充滿衝突。汝的終局……」",
-      "note": ""
-    },
-    {
-      "offset": 2202,
-      "len": 39,
-      "en": "\"I cannot see it. More gold is needed.\"",
-      "zh": "「吾看不清楚。需要更多金幣。」",
-      "note": ""
-    },
-    {
-      "offset": 2243,
-      "len": 26,
-      "en": "How much do you give her? ",
-      "zh": "汝要給她多少？",
-      "note": ""
-    },
-    {
-      "offset": 2282,
-      "len": 25,
-      "en": "You don't have that much.",
-      "zh": "汝沒有那麼多金幣。",
-      "note": ""
-    },
-    {
-      "offset": 2320,
-      "len": 11,
-      "en": "\"So be it.\"",
-      "zh": "「如此便罷。」",
-      "note": ""
-    },
-    {
-      "offset": 2350,
-      "len": 62,
-      "en": "\"You shall travel throughout the land before you are through.\"",
-      "zh": "「汝將踏遍整片大地，方能完成使命。」",
-      "note": ""
-    },
-    {
-      "offset": 2415,
-      "len": 43,
-      "en": "\"A few more coins and all should be clear.\"",
-      "zh": "「再多幾枚金幣，一切便可清晰。」",
-      "note": ""
-    },
-    {
-      "offset": 2460,
-      "len": 26,
-      "en": "How much do you give her? ",
-      "zh": "汝要給她多少？",
-      "note": ""
-    },
-    {
-      "offset": 2499,
-      "len": 25,
-      "en": "You don't have that much.",
-      "zh": "汝沒有那麼多金幣。",
-      "note": ""
-    },
-    {
-      "offset": 2537,
-      "len": 11,
-      "en": "\"So be it.\"",
-      "zh": "「如此便罷。」",
-      "note": ""
-    },
-    {
-      "offset": 2567,
-      "len": 50,
-      "en": "\"You will journey into the depths of the earth...\"",
-      "zh": "「汝將深入地底……」",
-      "note": ""
-    },
-    {
-      "offset": 2620,
-      "len": 36,
-      "en": "\"Strange creatures will you face...\"",
-      "zh": "「汝將面對奇異的生靈……」",
-      "note": ""
-    },
-    {
-      "offset": 2659,
-      "len": 31,
-      "en": "\"I can almost see the end now.\"",
-      "zh": "「吾幾乎已能看見終點了。」",
-      "note": ""
-    },
-    {
-      "offset": 2692,
-      "len": 26,
-      "en": "How much do you give her? ",
-      "zh": "汝要給她多少？",
-      "note": ""
-    },
-    {
-      "offset": 2731,
-      "len": 25,
-      "en": "You don't have that much.",
-      "zh": "汝沒有那麼多金幣。",
-      "note": ""
-    },
-    {
-      "offset": 2769,
-      "len": 11,
-      "en": "\"So be it.\"",
-      "zh": "「如此便罷。」",
-      "note": ""
-    },
-    {
-      "offset": 2799,
-      "len": 55,
-      "en": "\"You and your companions will face terrible choices...\"",
-      "zh": "「汝與汝的同伴將面臨嚴酷的抉擇……」",
-      "note": ""
-    },
-    {
-      "offset": 2857,
-      "len": 44,
-      "en": "\"You will need powerful magic to prevail...\"",
-      "zh": "「汝將需要強大的魔法方能取勝……」",
-      "note": ""
-    },
-    {
-      "offset": 2904,
-      "len": 42,
-      "en": "\"Wait... There is some barrier before me.\"",
-      "zh": "「且慢……吾面前有某種障礙。」",
-      "note": ""
-    },
-    {
-      "offset": 2949,
-      "len": 64,
-      "en": "\"Give me just one more coin and I think I can break through it.\"",
-      "zh": "「再給吾一枚金幣，吾想吾能突破它。」",
-      "note": ""
-    },
-    {
-      "offset": 3015,
-      "len": 26,
-      "en": "How much do you give her? ",
-      "zh": "汝要給她多少？",
-      "note": ""
-    },
-    {
-      "offset": 3054,
-      "len": 25,
-      "en": "You don't have that much.",
-      "zh": "汝沒有那麼多金幣。",
-      "note": ""
-    },
-    {
-      "offset": 3092,
-      "len": 11,
-      "en": "\"So be it.\"",
-      "zh": "「如此便罷。」",
-      "note": ""
-    },
-    {
-      "offset": 3122,
-      "len": 35,
-      "en": "\"Yes, now all is made clear to me!\"",
-      "zh": "「是的，一切此刻清晰呈現於吾眼前！」",
-      "note": ""
-    },
-    {
-      "offset": 3160,
-      "len": 23,
-      "en": "\"I see a great Vortex.\"",
-      "zh": "「吾見一股巨大的漩渦。」",
-      "note": ""
-    },
-    {
-      "offset": 3186,
-      "len": 93,
-      "en": "\"There is a violet lens that is crucial to your quest. It is broken, and must be made whole.\"",
-      "zh": "「有一片紫色鏡片，對汝的試煉至關重要。它已破碎，必須修復。」",
-      "note": ""
-    },
-    {
-      "offset": 3282,
-      "len": 60,
-      "en": "\"But one lens is not enough! A blue lens is needed as well.\"",
-      "zh": "「但一片鏡片不夠！還需要一片藍色鏡片。」",
-      "note": ""
-    },
-    {
-      "offset": 3345,
-      "len": 51,
-      "en": "\"You must have two lenses, else all is for naught.\"",
-      "zh": "「汝必須擁有兩片鏡片，否則一切徒勞。」",
-      "note": ""
-    },
-    {
-      "offset": 3399,
-      "len": 77,
-      "en": "She opens her eyes. \"I can see no more for now. Leave me, that I might rest.\"",
-      "zh": "她睜開眼睛。「吾目前無法再視。且去，讓吾休息。」",
-      "note": ""
-    }
-  ],
-  "glossary_additions": {
-    "people": {
-      "Penumbra": "潘布拉",
-      "Beyvin": "貝文"
-    },
-    "places": {},
-    "concepts": {
-      "fortune teller": "占卜師",
-      "Vortex": "漩渦"
-    }
+ "translations": [
+  {
+   "offset": 11,
+   "len": 47,
+   "en": "a small, inscrutable woman, cloaked in shadows.",
+   "zh": "一位身形嬌小、深不可測的女子，籠罩在幽暗之中。",
+   "note": "DESC"
   },
-  "translator_notes": "潘布拉是神秘占卜師，語氣飄渺、引人入勝，且善於榨取金幣——搞笑橋段需保留幽默感。「ahm」真言保留英文（遊戲機制字）。Dupre 在此段引用。「pushing up daffodils」化用「pushing up daisies」慣用語，改以「水仙花從身上綻放」意象翻譯。"
+  {
+   "offset": 70,
+   "len": 60,
+   "en": "\"Ah, hello Avatar. I was wondering when you would get here.\"",
+   "zh": "「啊，聖者，你好。吾正在想汝何時會到。」",
+   "note": ""
+  },
+  {
+   "offset": 137,
+   "len": 45,
+   "en": "\"I see you have yet to fulfill your destiny.\"",
+   "zh": "「吾見汝尚未完成命中注定之事業。」",
+   "note": ""
+  },
+  {
+   "offset": 191,
+   "len": 34,
+   "en": "\"I am the one known as @Penumbra.\"",
+   "zh": "「吾乃世人所稱之@Penumbra（潘布）拉。」",
+   "note": ""
+  },
+  {
+   "offset": 236,
+   "len": 35,
+   "en": "\"I am the daughter of the eclipse.\"",
+   "zh": "「吾乃日蝕之女。」",
+   "note": "atmospheric self-description"
+  },
+  {
+   "offset": 281,
+   "len": 25,
+   "en": "\"I am a @fortune teller.\"",
+   "zh": "「吾乃@fortune（占卜）師。」",
+   "note": ""
+  },
+  {
+   "offset": 322,
+   "len": 43,
+   "en": "\"Yes, I can foretell your @future for you.\"",
+   "zh": "「是的，吾能為汝預卜@future（命運）。」",
+   "note": ""
+  },
+  {
+   "offset": 392,
+   "len": 39,
+   "en": "\"Yes he was a terribly @honest fellow.\"",
+   "zh": "「是的，他確是極為@honest（誠實）之人。」",
+   "note": "Beyvin"
+  },
+  {
+   "offset": 434,
+   "len": 45,
+   "en": "\"Alas, though, he lacked the virtue of tact.\"",
+   "zh": "「然而惜哉，他欠缺圓滑的美德。」",
+   "note": ""
+  },
+  {
+   "offset": 482,
+   "len": 80,
+   "en": "\"He told the truth once too often, and those he spoke of did not appreciate it.\"",
+   "zh": "「他說真話說得太多，被說者並不領情。」",
+   "note": ""
+  },
+  {
+   "offset": 565,
+   "len": 73,
+   "en": "\"He's buried in the catacombs under Moonglow now, pushing up @daffodils.\"",
+   "zh": "「他如今長眠於月華城地下的墓窟，靜待@daffodils（水仙）花從身上綻放。」",
+   "note": "idiom 'pushing up daisies' adapted"
+  },
+  {
+   "offset": 641,
+   "len": 28,
+   "en": "\"Even virtue has its price.\"",
+   "zh": "「美德亦有其代價。」",
+   "note": ""
+  },
+  {
+   "offset": 680,
+   "len": 17,
+   "en": "\"Yes, daffodils.\"",
+   "zh": "「是的，水仙花。」",
+   "note": ""
+  },
+  {
+   "offset": 708,
+   "len": 51,
+   "en": "\"I can tell you of both the @rune and the @mantra.\"",
+   "zh": "「吾可告知汝@rune（符文）及@mantra（真言）兩者之事。」",
+   "note": ""
+  },
+  {
+   "offset": 770,
+   "len": 44,
+   "en": "\"'Twas buried with @Beyvin, rest his shade.\"",
+   "zh": "「符文已隨@Beyvin（貝文）長埋地下，願其魂靈安息。」",
+   "note": ""
+  },
+  {
+   "offset": 835,
+   "len": 22,
+   "en": "\"Your destiny awaits.\"",
+   "zh": "「汝的命運正在等候。」",
+   "note": "bye"
+  },
+  {
+   "offset": 862,
+   "len": 45,
+   "en": "\"You must seek the answer to that elsewhere.\"",
+   "zh": "「此問之答，汝須他處尋覓。」",
+   "note": ""
+  },
+  {
+   "offset": 913,
+   "len": 89,
+   "en": "\"For five gold coins I can use my powers to divine the mantra for you. Shall I do this?\" ",
+   "zh": "「吾可以五枚金幣，運用神通為汝卜算真言。汝願否？」",
+   "note": ""
+  },
+  {
+   "offset": 1008,
+   "len": 45,
+   "en": "\"It is a small price for so profound a word.\"",
+   "zh": "「如此深奧之言，此代價不過小事。」",
+   "note": ""
+  },
+  {
+   "offset": 1072,
+   "len": 37,
+   "en": "\"Your ambitions outreach your means.\"",
+   "zh": "「汝的志向超出汝的能力。」",
+   "note": "not enough gold"
+  },
+  {
+   "offset": 1141,
+   "len": 64,
+   "en": "She closes her eyes in concentration. For long minutes you wait.",
+   "zh": "她闔目凝神。汝等候了良久。",
+   "note": "action"
+  },
+  {
+   "offset": 1217,
+   "len": 42,
+   "en": "\"What are we waiting for!\" whispers Dupre.",
+   "zh": "「我們在等什麼！」杜普雷低聲說道。",
+   "note": ""
+  },
+  {
+   "offset": 1262,
+   "len": 76,
+   "en": "\"She's doubtless fallen asleep, and you've wasted good money for nothing...\"",
+   "zh": "「她恐怕已經睡著了，汝白白浪費了錢財……」",
+   "note": ""
+  },
+  {
+   "offset": 1346,
+   "len": 68,
+   "en": "Finally Penumbra opens her eyes again. \"The word you seek is 'ahm.'\"",
+   "zh": "終於潘布拉再度睜眼。「汝所尋之真言乃『ahm』。」",
+   "note": "mantra 'ahm' stays as-is (game mechanic)"
+  },
+  {
+   "offset": 1419,
+   "len": 45,
+   "en": "\"I require a small donation for my services.\"",
+   "zh": "「吾需要一點奉獻作為酬勞。」",
+   "note": ""
+  },
+  {
+   "offset": 1466,
+   "len": 26,
+   "en": "How much do you give her? ",
+   "zh": "汝要給她多少？",
+   "note": "UI prompt"
+  },
+  {
+   "offset": 1505,
+   "len": 25,
+   "en": "You don't have that much.",
+   "zh": "汝沒有那麼多金幣。",
+   "note": ""
+  },
+  {
+   "offset": 1543,
+   "len": 11,
+   "en": "\"So be it.\"",
+   "zh": "「如此便罷。」",
+   "note": ""
+  },
+  {
+   "offset": 1573,
+   "len": 103,
+   "en": "She holds her hands out on either side of her crystal ball, not quite touching it, and closes her eyes.",
+   "zh": "她將雙手懸於水晶球兩側，幾乎要觸碰卻未觸碰，隨即闔上眼瞼。",
+   "note": "action"
+  },
+  {
+   "offset": 1679,
+   "len": 25,
+   "en": "After a time, she speaks.",
+   "zh": "片刻之後，她開口說道。",
+   "note": "action"
+  },
+  {
+   "offset": 1707,
+   "len": 40,
+   "en": "\"The future looks dark. All is unclear.\"",
+   "zh": "「前途晦暗，一切模糊不清。」",
+   "note": "fortune-telling"
+  },
+  {
+   "offset": 1750,
+   "len": 60,
+   "en": "\"Some more gold would shed further light on your destiny...\"",
+   "zh": "「再奉上些許金幣，或可為汝的命運照亮更多……」",
+   "note": ""
+  },
+  {
+   "offset": 1812,
+   "len": 26,
+   "en": "How much do you give her? ",
+   "zh": "汝要給她多少？",
+   "note": ""
+  },
+  {
+   "offset": 1851,
+   "len": 25,
+   "en": "You don't have that much.",
+   "zh": "汝沒有那麼多金幣。",
+   "note": ""
+  },
+  {
+   "offset": 1889,
+   "len": 11,
+   "en": "\"So be it.\"",
+   "zh": "「如此便罷。」",
+   "note": ""
+  },
+  {
+   "offset": 1919,
+   "len": 61,
+   "en": "\"Though all is dark, I see a light at the end of the tunnel.\"",
+   "zh": "「縱使黑暗籠罩，吾見隧道盡頭有一線光明。」",
+   "note": ""
+  },
+  {
+   "offset": 1983,
+   "len": 63,
+   "en": "\"Quickly - more coins before I lose the thread of this vision!\"",
+   "zh": "「快——再多些金幣，吾即將失去此幻象的絲線！」",
+   "note": ""
+  },
+  {
+   "offset": 2048,
+   "len": 26,
+   "en": "How much do you give her? ",
+   "zh": "汝要給她多少？",
+   "note": ""
+  },
+  {
+   "offset": 2087,
+   "len": 25,
+   "en": "You don't have that much.",
+   "zh": "汝沒有那麼多金幣。",
+   "note": ""
+  },
+  {
+   "offset": 2125,
+   "len": 11,
+   "en": "\"So be it.\"",
+   "zh": "「如此便罷。」",
+   "note": ""
+  },
+  {
+   "offset": 2155,
+   "len": 44,
+   "en": "\"Much conflict lies before you. Your end...\"",
+   "zh": "「前路充滿衝突。汝的終局……」",
+   "note": ""
+  },
+  {
+   "offset": 2202,
+   "len": 39,
+   "en": "\"I cannot see it. More gold is needed.\"",
+   "zh": "「吾看不清楚。需要更多金幣。」",
+   "note": ""
+  },
+  {
+   "offset": 2243,
+   "len": 26,
+   "en": "How much do you give her? ",
+   "zh": "汝要給她多少？",
+   "note": ""
+  },
+  {
+   "offset": 2282,
+   "len": 25,
+   "en": "You don't have that much.",
+   "zh": "汝沒有那麼多金幣。",
+   "note": ""
+  },
+  {
+   "offset": 2320,
+   "len": 11,
+   "en": "\"So be it.\"",
+   "zh": "「如此便罷。」",
+   "note": ""
+  },
+  {
+   "offset": 2350,
+   "len": 62,
+   "en": "\"You shall travel throughout the land before you are through.\"",
+   "zh": "「汝將踏遍整片大地，方能完成使命。」",
+   "note": ""
+  },
+  {
+   "offset": 2415,
+   "len": 43,
+   "en": "\"A few more coins and all should be clear.\"",
+   "zh": "「再多幾枚金幣，一切便可清晰。」",
+   "note": ""
+  },
+  {
+   "offset": 2460,
+   "len": 26,
+   "en": "How much do you give her? ",
+   "zh": "汝要給她多少？",
+   "note": ""
+  },
+  {
+   "offset": 2499,
+   "len": 25,
+   "en": "You don't have that much.",
+   "zh": "汝沒有那麼多金幣。",
+   "note": ""
+  },
+  {
+   "offset": 2537,
+   "len": 11,
+   "en": "\"So be it.\"",
+   "zh": "「如此便罷。」",
+   "note": ""
+  },
+  {
+   "offset": 2567,
+   "len": 50,
+   "en": "\"You will journey into the depths of the earth...\"",
+   "zh": "「汝將深入地底……」",
+   "note": ""
+  },
+  {
+   "offset": 2620,
+   "len": 36,
+   "en": "\"Strange creatures will you face...\"",
+   "zh": "「汝將面對奇異的生靈……」",
+   "note": ""
+  },
+  {
+   "offset": 2659,
+   "len": 31,
+   "en": "\"I can almost see the end now.\"",
+   "zh": "「吾幾乎已能看見終點了。」",
+   "note": ""
+  },
+  {
+   "offset": 2692,
+   "len": 26,
+   "en": "How much do you give her? ",
+   "zh": "汝要給她多少？",
+   "note": ""
+  },
+  {
+   "offset": 2731,
+   "len": 25,
+   "en": "You don't have that much.",
+   "zh": "汝沒有那麼多金幣。",
+   "note": ""
+  },
+  {
+   "offset": 2769,
+   "len": 11,
+   "en": "\"So be it.\"",
+   "zh": "「如此便罷。」",
+   "note": ""
+  },
+  {
+   "offset": 2799,
+   "len": 55,
+   "en": "\"You and your companions will face terrible choices...\"",
+   "zh": "「汝與汝的同伴將面臨嚴酷的抉擇……」",
+   "note": ""
+  },
+  {
+   "offset": 2857,
+   "len": 44,
+   "en": "\"You will need powerful magic to prevail...\"",
+   "zh": "「汝將需要強大的魔法方能取勝……」",
+   "note": ""
+  },
+  {
+   "offset": 2904,
+   "len": 42,
+   "en": "\"Wait... There is some barrier before me.\"",
+   "zh": "「且慢……吾面前有某種障礙。」",
+   "note": ""
+  },
+  {
+   "offset": 2949,
+   "len": 64,
+   "en": "\"Give me just one more coin and I think I can break through it.\"",
+   "zh": "「再給吾一枚金幣，吾想吾能突破它。」",
+   "note": ""
+  },
+  {
+   "offset": 3015,
+   "len": 26,
+   "en": "How much do you give her? ",
+   "zh": "汝要給她多少？",
+   "note": ""
+  },
+  {
+   "offset": 3054,
+   "len": 25,
+   "en": "You don't have that much.",
+   "zh": "汝沒有那麼多金幣。",
+   "note": ""
+  },
+  {
+   "offset": 3092,
+   "len": 11,
+   "en": "\"So be it.\"",
+   "zh": "「如此便罷。」",
+   "note": ""
+  },
+  {
+   "offset": 3122,
+   "len": 35,
+   "en": "\"Yes, now all is made clear to me!\"",
+   "zh": "「是的，一切此刻清晰呈現於吾眼前！」",
+   "note": ""
+  },
+  {
+   "offset": 3160,
+   "len": 23,
+   "en": "\"I see a great Vortex.\"",
+   "zh": "「吾見一股巨大的漩渦。」",
+   "note": ""
+  },
+  {
+   "offset": 3186,
+   "len": 93,
+   "en": "\"There is a violet lens that is crucial to your quest. It is broken, and must be made whole.\"",
+   "zh": "「有一片紫色鏡片，對汝的試煉至關重要。它已破碎，必須修復。」",
+   "note": ""
+  },
+  {
+   "offset": 3282,
+   "len": 60,
+   "en": "\"But one lens is not enough! A blue lens is needed as well.\"",
+   "zh": "「但一片鏡片不夠！還需要一片藍色鏡片。」",
+   "note": ""
+  },
+  {
+   "offset": 3345,
+   "len": 51,
+   "en": "\"You must have two lenses, else all is for naught.\"",
+   "zh": "「汝必須擁有兩片鏡片，否則一切徒勞。」",
+   "note": ""
+  },
+  {
+   "offset": 3399,
+   "len": 77,
+   "en": "She opens her eyes. \"I can see no more for now. Leave me, that I might rest.\"",
+   "zh": "她睜開眼睛。「吾目前無法再視。且去，讓吾休息。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Penumbra": "潘布拉",
+   "Beyvin": "貝文"
+  },
+  "places": {},
+  "concepts": {
+   "fortune teller": "占卜師",
+   "Vortex": "漩渦"
+  }
+ },
+ "translator_notes": "潘布拉是神秘占卜師，語氣飄渺、引人入勝，且善於榨取金幣——搞笑橋段需保留幽默感。「ahm」真言保留英文（遊戲機制字）。Dupre 在此段引用。「pushing up daffodils」化用「pushing up daisies」慣用語，改以「水仙花從身上綻放」意象翻譯。"
 }

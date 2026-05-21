@@ -1,85 +1,472 @@
 {
  "translations": [
-  {"offset": 1, "len": 6, "en": "tHomer", "zh": "霍默"},
-  {"offset": 8, "len": 72, "en": "a shifty-eyed character. He carries a cane and walks with a slight limp.", "zh": "一名目光閃爍之人，拄杖行走，腳下微跛。"},
-  {"offset": 194, "len": 88, "en": "\"You served your purpose by bringing me the cloak... Now I have no further need of you.\"", "zh": "「汝既已將斗篷送來，便已無用……我再也不需汝了。」"},
-  {"offset": 285, "len": 53, "en": "\"I have big plans now, and no time to waste talking.\"", "zh": "「我有大事將為，無暇與汝多言。」"},
-  {"offset": 407, "len": 77, "en": "He takes your measure, looking you over from head to toe. \"What do you want?\"", "zh": "他從頭到腳將汝打量一番。「汝有何事？」"},
-  {"offset": 492, "len": 20, "en": "\"Who wants to know?\"", "zh": "「誰要問？」"},
-  {"offset": 515, "len": 75, "en": "\"Fine, '$Z' - if that's what your name really is... You can call me Homer.\"", "zh": "「也罷，『$Z』——若那真是汝之名……汝可喚我霍默。」"},
-  {"offset": 607, "len": 23, "en": "\"Well, get on with it!\"", "zh": "「快點說正事！」"},
-  {"offset": 640, "len": 69, "en": "\"I once sailed on the ship called '@Empire,' under Captain @Hawkins.\"", "zh": "「我曾在@霍金斯船長手下，於『@帝國號』上跑船。」"},
-  {"offset": 725, "len": 81, "en": "\"It was wrecked on the cape, southwest of here. Not too far from Serpent's Hold.\"", "zh": "「船於此西南方海角觸礁，離蛇要塞不遠。」"},
-  {"offset": 812, "len": 58, "en": "His eyes light up with hatred. \"That heartless bastard...\"", "zh": "他雙目燃起恨意。「那無心之雜種……」"},
-  {"offset": 873, "len": 69, "en": "\"He was killed by his own men, and it was no worse than he deserved.\"", "zh": "「他被自家手下所殺，正是罪有應得。」"},
-  {"offset": 945, "len": 74, "en": "He hesitates, then adds quickly, \"Of course, I had nothing to do with it.\"", "zh": "他略一遲疑，急急補道：「自然，此事與我無關。」"},
-  {"offset": 1052, "len": 38, "en": "He regards you warily. \"Who sent you?\"", "zh": "他警覺打量汝。「誰派汝來？」"},
-  {"offset": 1093, "len": 83, "en": "\"I see.\" He screws his face up into an even more suspicious expression than before.", "zh": "「我懂了。」他臉色變得更加狐疑。"},
-  {"offset": 1179, "len": 48, "en": "\"Just why do you want to know about it, anyway?\"", "zh": "「汝究竟為何想知此事？」"},
-  {"offset": 1230, "len": 71, "en": "\"You're not a member of the @guild. I don't have to tell you anything.\"", "zh": "「汝非@公會中人。我無須告汝任何事。」"},
-  {"offset": 1306, "len": 87, "en": "\"You're looking for the silver tablet? It's part of Captain Hawkin's buried @treasure.\"", "zh": "「汝在找銀板？那是霍金斯船長埋藏的@寶藏之一部分。」"},
-  {"offset": 1420, "len": 33, "en": "\"It was buried in a small @cave.\"", "zh": "「埋於一小@洞中。」"},
-  {"offset": 1454, "len": 31, "en": "\"Don't know anything about it.\"", "zh": "「對此一無所知。」"},
-  {"offset": 1514, "len": 29, "en": "\"What are you talking about?\"", "zh": "「汝在說啥？」"},
-  {"offset": 1555, "len": 60, "en": "\"Go ask Budo. And you didn't hear that from me, understand?\"", "zh": "「去問布多。但這話可不是從我口中聽來的，懂否？」"},
-  {"offset": 1636, "len": 26, "en": "\"Farewell, brother thief.\"", "zh": "「再會了，賊兄。」"},
-  {"offset": 1663, "len": 32, "en": "\"Can't say its been a pleasure.\"", "zh": "「不能說是何愉快之事。」"},
-  {"offset": 1712, "len": 23, "en": "\"Can't help you there.\"", "zh": "「此事我幫不上忙。」"},
-  {"offset": 1736, "len": 78, "en": "\"You've got an awful lot of questions... Maybe I don't care to talk about $Z.\"", "zh": "「汝問題真多……我或許不想談 $Z 此事。」"},
-  {"offset": 1821, "len": 79, "en": "\"After Captain Hawkins passed away, we tore his treasure map into nine pieces.\"", "zh": "「霍金斯船長亡後，我等將其寶藏圖撕為九片。」"},
-  {"offset": 1903, "len": 92, "en": "\"The plan was, when nobody was looking for us any more, we'd get together and go dig it up.\"", "zh": "「原計畫是：俟風頭過後，我等便聚首掘寶。」"},
-  {"offset": 1998, "len": 82, "en": "\"Splitting up the map was my idea - that way nobody could doublecross the others.\"", "zh": "「分圖乃我之主意——如此無人可背叛他人。」"},
-  {"offset": 2083, "len": 123, "en": "\"I figure after all these years the others must have given up, so its alright for me to search for the treasure by myself.\"", "zh": "「我想隔了這許多年，其餘人必早已放棄，故我自行尋寶亦無不可。」"},
-  {"offset": 2209, "len": 86, "en": "\"Trouble is, I've got a bit of the gout in one leg, and I can't travel much any more.\"", "zh": "「奈何此腿患痛風，已不能長途遠行。」"},
-  {"offset": 2298, "len": 35, "en": "\"Maybe we can help each other out.\"", "zh": "「我等或可互相幫襯。」"},
-  {"offset": 2336, "len": 119, "en": "\"I know where my piece of the map is hidden, and if you bring me the other eight pieces, perhaps we could make a deal.\"", "zh": "「我知曉自己那片藏處；汝若能將其餘八片帶來，我等或可達成交易。」"},
-  {"offset": 2458, "len": 61, "en": "\"I'll tell you all I know about where the pieces might be...\"", "zh": "「我便將所知告知：各片可能何在……」"},
-  {"offset": 2522, "len": 87, "en": "\"Ol' Hawknose set out for the Dry Land, to kill the daemon that is said to live there.\"", "zh": "「老鷹鼻去了乾地，欲除傳說中居於彼處之惡魔。」"},
-  {"offset": 2612, "len": 62, "en": "\"Sandy, the ship's cook, went to Trinsic with the first mate.\"", "zh": "「船上廚子桑迪與大副同往川辛。」"},
-  {"offset": 2677, "len": 81, "en": "\"Old Ybarra said he was headed for the dungeon Shame, looking for more treasure.\"", "zh": "「老伊巴拉言其欲往恥辱地穴尋更多寶藏。」"},
-  {"offset": 2761, "len": 45, "en": "\"I think one of the men died in a shipwreck.\"", "zh": "「其中一人據聞死於沉船。」"},
-  {"offset": 2809, "len": 95, "en": "\"Then there was one more... Can't remember his name, but I've heard tell he settled in Jhelom.\"", "zh": "「另有一人……名字我忘了，但聽聞他落腳於哲倫。」"},
-  {"offset": 2907, "len": 74, "en": "\"He'll be easy to recognize - he has a hook in place o' one of his hands.\"", "zh": "「他易認得很——一隻手換成了鉤子。」"},
-  {"offset": 2984, "len": 89, "en": "\"That's all I know. Perhaps in your travels you can find out where the others have gone.\"", "zh": "「我所知止此。汝行旅之中，或可探得其餘人之去向。」"},
-  {"offset": 3076, "len": 92, "en": "\"When you find the pieces, you can lay them out on the ground to see how they fit together.\"", "zh": "「尋得碎片之後，可攤於地上拼湊。」"},
-  {"offset": 3171, "len": 104, "en": "\"But remember, only I know where the ninth piece is, so come back here when you've got the other eight.\"", "zh": "「但謹記：唯我知第九片藏處，集齊其餘八片再回此處。」"},
-  {"offset": 3284, "len": 38, "en": "\"Have you found the storm cloak yet?\" ", "zh": "「風暴之斗篷可尋著了？」"},
-  {"offset": 3328, "len": 42, "en": "\"Then get off your duff and go dig it up!\"", "zh": "「那便動屁股去挖出來！」"},
-  {"offset": 3376, "len": 76, "en": "\"Then hand it over and we're even.\" His eyes gleam with greedy anticipation.", "zh": "「那便交來，我等便兩清。」他雙目閃著貪婪。"},
-  {"offset": 3455, "len": 27, "en": "Do you give him the cloak? ", "zh": "汝是否將斗篷交予他？"},
-  {"offset": 3488, "len": 70, "en": "\"Blast ye! If I still had two good legs, I'd keelhaul the lot of you!\"", "zh": "「該死！若我兩腿尚好，定將汝等盡綁於船底！」"},
-  {"offset": 3561, "len": 79, "en": "\"We had a deal! Besides, I helped steal that treasure myself, fair and square.\"", "zh": "「我等有約！再說那寶藏我自己也親手盜過，公平公道！」"},
-  {"offset": 3642, "len": 35, "en": "\"Can't trust anybody these days...\"", "zh": "「如今真是誰也信不得……」"},
-  {"offset": 3705, "len": 36, "en": "You have no storm cloak to give him.", "zh": "汝身上並無風暴斗篷可贈。"},
-  {"offset": 3768, "len": 102, "en": "He takes the cloak from you. \"Thanks for keeping your word. There's not many that does, these days...\"", "zh": "他自汝手中接過斗篷。「謝汝守信。如今守信之人已少……」"},
-  {"offset": 3872, "len": 53, "en": "\"So, have ye found the eight pieces of the map yet?\" ", "zh": "「那麼，八片地圖可集齊了？」"},
-  {"offset": 3931, "len": 40, "en": "\"Then what are you wasting my time for?\"", "zh": "「那汝浪費我時間做甚？」"},
-  {"offset": 3990, "len": 71, "en": "\"Best count again. You need eight pieces before I'll bargain with you.\"", "zh": "「再數數吧。集齊八片我才與汝談判。」"},
-  {"offset": 4067, "len": 67, "en": "\"Very well. I've been thinking about how we could work out a deal.\"", "zh": "「甚好。我一直在想此事如何交易。」"},
-  {"offset": 4137, "len": 75, "en": "\"I know you want the silver tablet. Far as I'm concerned, you can have it.\"", "zh": "「我知汝要銀板。對我而言，給汝便是。」"},
-  {"offset": 4214, "len": 85, "en": "\"All I really want is the magical cloak that's buried with the rest of the treasure.\"", "zh": "「我所要者，唯是埋於寶藏中之魔法斗篷。」"},
-  {"offset": 4302, "len": 92, "en": "\"So I'll tell you where the ninth piece of the map is if you promise to bring me the cloak.\"", "zh": "「故只要汝允諾將斗篷帶回，我便告知第九片之所在。」"},
-  {"offset": 4397, "len": 79, "en": "\"The rest of the treasure should be loot enough to satisfy you. Is it a deal?\" ", "zh": "「餘下之寶足夠汝享。成不成交？」"},
-  {"offset": 4482, "len": 55, "en": "\"Suit yourself, mate, that's the only deal I'll offer.\"", "zh": "「隨汝便，伙計，我只給這一個價。」"},
-  {"offset": 4551, "len": 47, "en": "\"Okay. The ninth piece of the map is hidden...\"", "zh": "「好。第九片地圖藏處在……」"},
-  {"offset": 4601, "len": 45, "en": "\"Right here in my pocket!\" He grins wickedly.", "zh": "「就在我這口袋裡！」他奸笑一聲。"},
-  {"offset": 4649, "len": 74, "en": "\"I had to keep it safe while you were off gathering the others, didn't I?\"", "zh": "「汝去搜集其餘各片之際，總得有人替其守著吧？」"},
-  {"offset": 4726, "len": 39, "en": "He hands you the last piece of the map.", "zh": "他將最後一片地圖交予汝。"},
-  {"offset": 4768, "len": 62, "en": "\"The island in the upper left hand corner is Buccaneer's Den.\"", "zh": "「左上角之島乃海盜窟。」"},
-  {"offset": 4847, "len": 88, "en": "\"You'll keep your word and come right back here with the magic storm cloak, won't you?\" ", "zh": "「汝會守信，將魔法風暴斗篷帶回此處，是吧？」"},
-  {"offset": 4941, "len": 61, "en": "\"Don't want to keep your word now that you have the map, eh?\"", "zh": "「拿了地圖便不肯履約了，是吧？」"},
-  {"offset": 5004, "len": 74, "en": "\"Well, then, I won't tell you where you need to dig to find the treasure!\"", "zh": "「那好，我便不告汝該往何處挖寶！」"},
-  {"offset": 5097, "len": 32, "en": "\"Good. Then I'll tell you this:\"", "zh": "「好。那我便告知：」"},
-  {"offset": 5132, "len": 93, "en": "\"When you reach the island marked with the X, find the three stones and stand in the center.\"", "zh": "「至 X 標記之島後，覓三石而立其中央。」"},
-  {"offset": 5228, "len": 84, "en": "\"Then walk three paces due south, nine paces due west, and twelve more paces south.\"", "zh": "「然後向南三步，向西九步，再向南十二步。」"},
-  {"offset": 5315, "len": 53, "en": "\"That should put you right next to an old dead tree.\"", "zh": "「便會至一株枯老樹下。」"},
-  {"offset": 5371, "len": 82, "en": "\"Dig in the patch of dirt just to the south of you, and you'll find the treasure!\"", "zh": "「於汝南側之土堆掘之，便可得寶藏！」"},
-  {"offset": 5456, "len": 16, "en": "\"Now go get it!\"", "zh": "「去取吧！」"}
+  {
+   "offset": 1,
+   "len": 6,
+   "en": "tHomer",
+   "zh": "霍默"
+  },
+  {
+   "offset": 8,
+   "len": 72,
+   "en": "a shifty-eyed character. He carries a cane and walks with a slight limp.",
+   "zh": "一名目光閃爍之人，拄杖行走，腳下微跛。"
+  },
+  {
+   "offset": 194,
+   "len": 88,
+   "en": "\"You served your purpose by bringing me the cloak... Now I have no further need of you.\"",
+   "zh": "「汝既已將斗篷送來，便已無用……我再也不需汝了。」"
+  },
+  {
+   "offset": 285,
+   "len": 53,
+   "en": "\"I have big plans now, and no time to waste talking.\"",
+   "zh": "「我有大事將為，無暇與汝多言。」"
+  },
+  {
+   "offset": 407,
+   "len": 77,
+   "en": "He takes your measure, looking you over from head to toe. \"What do you want?\"",
+   "zh": "他從頭到腳將汝打量一番。「汝有何事？」"
+  },
+  {
+   "offset": 492,
+   "len": 20,
+   "en": "\"Who wants to know?\"",
+   "zh": "「誰要問？」"
+  },
+  {
+   "offset": 515,
+   "len": 75,
+   "en": "\"Fine, '$Z' - if that's what your name really is... You can call me Homer.\"",
+   "zh": "「也罷，『$Z』——若那真是汝之名……汝可喚我霍默。」"
+  },
+  {
+   "offset": 607,
+   "len": 23,
+   "en": "\"Well, get on with it!\"",
+   "zh": "「快點說正事！」"
+  },
+  {
+   "offset": 640,
+   "len": 69,
+   "en": "\"I once sailed on the ship called '@Empire,' under Captain @Hawkins.\"",
+   "zh": "「我曾在@Empire（霍金）斯船長手下，於『@Hawkins（帝國）號』上跑船。」"
+  },
+  {
+   "offset": 725,
+   "len": 81,
+   "en": "\"It was wrecked on the cape, southwest of here. Not too far from Serpent's Hold.\"",
+   "zh": "「船於此西南方海角觸礁，離蛇要塞不遠。」"
+  },
+  {
+   "offset": 812,
+   "len": 58,
+   "en": "His eyes light up with hatred. \"That heartless bastard...\"",
+   "zh": "他雙目燃起恨意。「那無心之雜種……」"
+  },
+  {
+   "offset": 873,
+   "len": 69,
+   "en": "\"He was killed by his own men, and it was no worse than he deserved.\"",
+   "zh": "「他被自家手下所殺，正是罪有應得。」"
+  },
+  {
+   "offset": 945,
+   "len": 74,
+   "en": "He hesitates, then adds quickly, \"Of course, I had nothing to do with it.\"",
+   "zh": "他略一遲疑，急急補道：「自然，此事與我無關。」"
+  },
+  {
+   "offset": 1052,
+   "len": 38,
+   "en": "He regards you warily. \"Who sent you?\"",
+   "zh": "他警覺打量汝。「誰派汝來？」"
+  },
+  {
+   "offset": 1093,
+   "len": 83,
+   "en": "\"I see.\" He screws his face up into an even more suspicious expression than before.",
+   "zh": "「我懂了。」他臉色變得更加狐疑。"
+  },
+  {
+   "offset": 1179,
+   "len": 48,
+   "en": "\"Just why do you want to know about it, anyway?\"",
+   "zh": "「汝究竟為何想知此事？」"
+  },
+  {
+   "offset": 1230,
+   "len": 71,
+   "en": "\"You're not a member of the @guild. I don't have to tell you anything.\"",
+   "zh": "「汝非@guild（公會）中人。我無須告汝任何事。」"
+  },
+  {
+   "offset": 1306,
+   "len": 87,
+   "en": "\"You're looking for the silver tablet? It's part of Captain Hawkin's buried @treasure.\"",
+   "zh": "「汝在找銀板？那是霍金斯船長埋藏的@treasure（寶藏）之一部分。」"
+  },
+  {
+   "offset": 1420,
+   "len": 33,
+   "en": "\"It was buried in a small @cave.\"",
+   "zh": "「埋於一小@cave（洞）中。」"
+  },
+  {
+   "offset": 1454,
+   "len": 31,
+   "en": "\"Don't know anything about it.\"",
+   "zh": "「對此一無所知。」"
+  },
+  {
+   "offset": 1514,
+   "len": 29,
+   "en": "\"What are you talking about?\"",
+   "zh": "「汝在說啥？」"
+  },
+  {
+   "offset": 1555,
+   "len": 60,
+   "en": "\"Go ask Budo. And you didn't hear that from me, understand?\"",
+   "zh": "「去問布多。但這話可不是從我口中聽來的，懂否？」"
+  },
+  {
+   "offset": 1636,
+   "len": 26,
+   "en": "\"Farewell, brother thief.\"",
+   "zh": "「再會了，賊兄。」"
+  },
+  {
+   "offset": 1663,
+   "len": 32,
+   "en": "\"Can't say its been a pleasure.\"",
+   "zh": "「不能說是何愉快之事。」"
+  },
+  {
+   "offset": 1712,
+   "len": 23,
+   "en": "\"Can't help you there.\"",
+   "zh": "「此事我幫不上忙。」"
+  },
+  {
+   "offset": 1736,
+   "len": 78,
+   "en": "\"You've got an awful lot of questions... Maybe I don't care to talk about $Z.\"",
+   "zh": "「汝問題真多……我或許不想談 $Z 此事。」"
+  },
+  {
+   "offset": 1821,
+   "len": 79,
+   "en": "\"After Captain Hawkins passed away, we tore his treasure map into nine pieces.\"",
+   "zh": "「霍金斯船長亡後，我等將其寶藏圖撕為九片。」"
+  },
+  {
+   "offset": 1903,
+   "len": 92,
+   "en": "\"The plan was, when nobody was looking for us any more, we'd get together and go dig it up.\"",
+   "zh": "「原計畫是：俟風頭過後，我等便聚首掘寶。」"
+  },
+  {
+   "offset": 1998,
+   "len": 82,
+   "en": "\"Splitting up the map was my idea - that way nobody could doublecross the others.\"",
+   "zh": "「分圖乃我之主意——如此無人可背叛他人。」"
+  },
+  {
+   "offset": 2083,
+   "len": 123,
+   "en": "\"I figure after all these years the others must have given up, so its alright for me to search for the treasure by myself.\"",
+   "zh": "「我想隔了這許多年，其餘人必早已放棄，故我自行尋寶亦無不可。」"
+  },
+  {
+   "offset": 2209,
+   "len": 86,
+   "en": "\"Trouble is, I've got a bit of the gout in one leg, and I can't travel much any more.\"",
+   "zh": "「奈何此腿患痛風，已不能長途遠行。」"
+  },
+  {
+   "offset": 2298,
+   "len": 35,
+   "en": "\"Maybe we can help each other out.\"",
+   "zh": "「我等或可互相幫襯。」"
+  },
+  {
+   "offset": 2336,
+   "len": 119,
+   "en": "\"I know where my piece of the map is hidden, and if you bring me the other eight pieces, perhaps we could make a deal.\"",
+   "zh": "「我知曉自己那片藏處；汝若能將其餘八片帶來，我等或可達成交易。」"
+  },
+  {
+   "offset": 2458,
+   "len": 61,
+   "en": "\"I'll tell you all I know about where the pieces might be...\"",
+   "zh": "「我便將所知告知：各片可能何在……」"
+  },
+  {
+   "offset": 2522,
+   "len": 87,
+   "en": "\"Ol' Hawknose set out for the Dry Land, to kill the daemon that is said to live there.\"",
+   "zh": "「老鷹鼻去了乾地，欲除傳說中居於彼處之惡魔。」"
+  },
+  {
+   "offset": 2612,
+   "len": 62,
+   "en": "\"Sandy, the ship's cook, went to Trinsic with the first mate.\"",
+   "zh": "「船上廚子桑迪與大副同往川辛。」"
+  },
+  {
+   "offset": 2677,
+   "len": 81,
+   "en": "\"Old Ybarra said he was headed for the dungeon Shame, looking for more treasure.\"",
+   "zh": "「老伊巴拉言其欲往恥辱地穴尋更多寶藏。」"
+  },
+  {
+   "offset": 2761,
+   "len": 45,
+   "en": "\"I think one of the men died in a shipwreck.\"",
+   "zh": "「其中一人據聞死於沉船。」"
+  },
+  {
+   "offset": 2809,
+   "len": 95,
+   "en": "\"Then there was one more... Can't remember his name, but I've heard tell he settled in Jhelom.\"",
+   "zh": "「另有一人……名字我忘了，但聽聞他落腳於哲倫。」"
+  },
+  {
+   "offset": 2907,
+   "len": 74,
+   "en": "\"He'll be easy to recognize - he has a hook in place o' one of his hands.\"",
+   "zh": "「他易認得很——一隻手換成了鉤子。」"
+  },
+  {
+   "offset": 2984,
+   "len": 89,
+   "en": "\"That's all I know. Perhaps in your travels you can find out where the others have gone.\"",
+   "zh": "「我所知止此。汝行旅之中，或可探得其餘人之去向。」"
+  },
+  {
+   "offset": 3076,
+   "len": 92,
+   "en": "\"When you find the pieces, you can lay them out on the ground to see how they fit together.\"",
+   "zh": "「尋得碎片之後，可攤於地上拼湊。」"
+  },
+  {
+   "offset": 3171,
+   "len": 104,
+   "en": "\"But remember, only I know where the ninth piece is, so come back here when you've got the other eight.\"",
+   "zh": "「但謹記：唯我知第九片藏處，集齊其餘八片再回此處。」"
+  },
+  {
+   "offset": 3284,
+   "len": 38,
+   "en": "\"Have you found the storm cloak yet?\" ",
+   "zh": "「風暴之斗篷可尋著了？」"
+  },
+  {
+   "offset": 3328,
+   "len": 42,
+   "en": "\"Then get off your duff and go dig it up!\"",
+   "zh": "「那便動屁股去挖出來！」"
+  },
+  {
+   "offset": 3376,
+   "len": 76,
+   "en": "\"Then hand it over and we're even.\" His eyes gleam with greedy anticipation.",
+   "zh": "「那便交來，我等便兩清。」他雙目閃著貪婪。"
+  },
+  {
+   "offset": 3455,
+   "len": 27,
+   "en": "Do you give him the cloak? ",
+   "zh": "汝是否將斗篷交予他？"
+  },
+  {
+   "offset": 3488,
+   "len": 70,
+   "en": "\"Blast ye! If I still had two good legs, I'd keelhaul the lot of you!\"",
+   "zh": "「該死！若我兩腿尚好，定將汝等盡綁於船底！」"
+  },
+  {
+   "offset": 3561,
+   "len": 79,
+   "en": "\"We had a deal! Besides, I helped steal that treasure myself, fair and square.\"",
+   "zh": "「我等有約！再說那寶藏我自己也親手盜過，公平公道！」"
+  },
+  {
+   "offset": 3642,
+   "len": 35,
+   "en": "\"Can't trust anybody these days...\"",
+   "zh": "「如今真是誰也信不得……」"
+  },
+  {
+   "offset": 3705,
+   "len": 36,
+   "en": "You have no storm cloak to give him.",
+   "zh": "汝身上並無風暴斗篷可贈。"
+  },
+  {
+   "offset": 3768,
+   "len": 102,
+   "en": "He takes the cloak from you. \"Thanks for keeping your word. There's not many that does, these days...\"",
+   "zh": "他自汝手中接過斗篷。「謝汝守信。如今守信之人已少……」"
+  },
+  {
+   "offset": 3872,
+   "len": 53,
+   "en": "\"So, have ye found the eight pieces of the map yet?\" ",
+   "zh": "「那麼，八片地圖可集齊了？」"
+  },
+  {
+   "offset": 3931,
+   "len": 40,
+   "en": "\"Then what are you wasting my time for?\"",
+   "zh": "「那汝浪費我時間做甚？」"
+  },
+  {
+   "offset": 3990,
+   "len": 71,
+   "en": "\"Best count again. You need eight pieces before I'll bargain with you.\"",
+   "zh": "「再數數吧。集齊八片我才與汝談判。」"
+  },
+  {
+   "offset": 4067,
+   "len": 67,
+   "en": "\"Very well. I've been thinking about how we could work out a deal.\"",
+   "zh": "「甚好。我一直在想此事如何交易。」"
+  },
+  {
+   "offset": 4137,
+   "len": 75,
+   "en": "\"I know you want the silver tablet. Far as I'm concerned, you can have it.\"",
+   "zh": "「我知汝要銀板。對我而言，給汝便是。」"
+  },
+  {
+   "offset": 4214,
+   "len": 85,
+   "en": "\"All I really want is the magical cloak that's buried with the rest of the treasure.\"",
+   "zh": "「我所要者，唯是埋於寶藏中之魔法斗篷。」"
+  },
+  {
+   "offset": 4302,
+   "len": 92,
+   "en": "\"So I'll tell you where the ninth piece of the map is if you promise to bring me the cloak.\"",
+   "zh": "「故只要汝允諾將斗篷帶回，我便告知第九片之所在。」"
+  },
+  {
+   "offset": 4397,
+   "len": 79,
+   "en": "\"The rest of the treasure should be loot enough to satisfy you. Is it a deal?\" ",
+   "zh": "「餘下之寶足夠汝享。成不成交？」"
+  },
+  {
+   "offset": 4482,
+   "len": 55,
+   "en": "\"Suit yourself, mate, that's the only deal I'll offer.\"",
+   "zh": "「隨汝便，伙計，我只給這一個價。」"
+  },
+  {
+   "offset": 4551,
+   "len": 47,
+   "en": "\"Okay. The ninth piece of the map is hidden...\"",
+   "zh": "「好。第九片地圖藏處在……」"
+  },
+  {
+   "offset": 4601,
+   "len": 45,
+   "en": "\"Right here in my pocket!\" He grins wickedly.",
+   "zh": "「就在我這口袋裡！」他奸笑一聲。"
+  },
+  {
+   "offset": 4649,
+   "len": 74,
+   "en": "\"I had to keep it safe while you were off gathering the others, didn't I?\"",
+   "zh": "「汝去搜集其餘各片之際，總得有人替其守著吧？」"
+  },
+  {
+   "offset": 4726,
+   "len": 39,
+   "en": "He hands you the last piece of the map.",
+   "zh": "他將最後一片地圖交予汝。"
+  },
+  {
+   "offset": 4768,
+   "len": 62,
+   "en": "\"The island in the upper left hand corner is Buccaneer's Den.\"",
+   "zh": "「左上角之島乃海盜窟。」"
+  },
+  {
+   "offset": 4847,
+   "len": 88,
+   "en": "\"You'll keep your word and come right back here with the magic storm cloak, won't you?\" ",
+   "zh": "「汝會守信，將魔法風暴斗篷帶回此處，是吧？」"
+  },
+  {
+   "offset": 4941,
+   "len": 61,
+   "en": "\"Don't want to keep your word now that you have the map, eh?\"",
+   "zh": "「拿了地圖便不肯履約了，是吧？」"
+  },
+  {
+   "offset": 5004,
+   "len": 74,
+   "en": "\"Well, then, I won't tell you where you need to dig to find the treasure!\"",
+   "zh": "「那好，我便不告汝該往何處挖寶！」"
+  },
+  {
+   "offset": 5097,
+   "len": 32,
+   "en": "\"Good. Then I'll tell you this:\"",
+   "zh": "「好。那我便告知：」"
+  },
+  {
+   "offset": 5132,
+   "len": 93,
+   "en": "\"When you reach the island marked with the X, find the three stones and stand in the center.\"",
+   "zh": "「至 X 標記之島後，覓三石而立其中央。」"
+  },
+  {
+   "offset": 5228,
+   "len": 84,
+   "en": "\"Then walk three paces due south, nine paces due west, and twelve more paces south.\"",
+   "zh": "「然後向南三步，向西九步，再向南十二步。」"
+  },
+  {
+   "offset": 5315,
+   "len": 53,
+   "en": "\"That should put you right next to an old dead tree.\"",
+   "zh": "「便會至一株枯老樹下。」"
+  },
+  {
+   "offset": 5371,
+   "len": 82,
+   "en": "\"Dig in the patch of dirt just to the south of you, and you'll find the treasure!\"",
+   "zh": "「於汝南側之土堆掘之，便可得寶藏！」"
+  },
+  {
+   "offset": 5456,
+   "len": 16,
+   "en": "\"Now go get it!\"",
+   "zh": "「去取吧！」"
+  }
  ],
  "glossary_additions": {
-  "people": {"Homer": "霍默", "Old Ybarra": "老伊巴拉", "Ol' Hawknose": "老鷹鼻"},
-  "places": {"Buccaneer's Den": "海盜窟", "Shame": "恥辱地穴", "the Dry Land": "乾地"},
-  "concepts": {"silver tablet": "銀板", "storm cloak": "風暴之斗篷", "Empire": "帝國號"}
+  "people": {
+   "Homer": "霍默",
+   "Old Ybarra": "老伊巴拉",
+   "Ol' Hawknose": "老鷹鼻"
+  },
+  "places": {
+   "Buccaneer's Den": "海盜窟",
+   "Shame": "恥辱地穴",
+   "the Dry Land": "乾地"
+  },
+  "concepts": {
+   "silver tablet": "銀板",
+   "storm cloak": "風暴之斗篷",
+   "Empire": "帝國號"
+  }
  },
  "translator_notes": "Homer = 霍金斯船長舊部，藏有第九片寶藏地圖。劇情線：玩家需收集八片，他持有第九片，要求換取風暴斗篷。語氣：狡猾、貪婪、警覺。Buccaneer's Den 沿用『海盜窟』；Shame 沿用『恥辱地穴』（八大地穴對應 Anti-Virtue Pride 的反詞）。"
 }

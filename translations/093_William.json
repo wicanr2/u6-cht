@@ -25,21 +25,21 @@
    "offset": 136,
    "len": 16,
    "en": "\"I'm a @farmer.\"",
-   "zh": "「我是個@農夫。」",
+   "zh": "「我是個@farmer（農夫）。」",
    "note": ""
   },
   {
    "offset": 163,
    "len": 15,
    "en": "\"Ask @Antonio.\"",
-   "zh": "「去問@安東尼奧。」",
+   "zh": "「去問@Antonio（安東）尼奧。」",
    "note": ""
   },
   {
    "offset": 189,
    "len": 28,
    "en": "\"The lord of New @Magincia.\"",
-   "zh": "「新@馬精西亞的領主。」",
+   "zh": "「新@Magincia（馬精）西亞的領主。」",
    "note": ""
   },
   {
@@ -74,7 +74,7 @@
    "offset": 481,
    "len": 78,
    "en": "\"It's about all I do with meself, 'cept when I find time for carvin' @hippos.\"",
-   "zh": "「這幾乎是我的全部，除了偶爾有空雕刻@河馬。」",
+   "zh": "「這幾乎是我的全部，除了偶爾有空雕刻@hippos（河馬）。」",
    "note": ""
   },
   {
@@ -102,7 +102,7 @@
    "offset": 730,
    "len": 94,
    "en": "\"If I don't make the purtiest gol' danged hippos you ever did see, you can call me @Mortimer.\"",
-   "zh": "「若我雕的河馬不是汝見過最美的，就叫我@莫提默吧。」",
+   "zh": "「若我雕的河馬不是汝見過最美的，就叫我@Mortimer（莫提）默吧。」",
    "note": "鄉村口音意譯"
   },
   {

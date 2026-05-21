@@ -18,7 +18,7 @@
    "offset": 109,
    "len": 63,
    "en": "\"You've met @Zeke before, 'aven't ya?\" he says, glaring at you.",
-   "zh": "「你以前見過@齊克，是嗎？」他瞪著你說。",
+   "zh": "「你以前見過@Zeke（齊克），是嗎？」他瞪著你說。",
    "note": "'aven't=haven't 口音"
   },
   {
@@ -32,21 +32,21 @@
    "offset": 200,
    "len": 38,
    "en": "\"@Zeke the one-armed @beekeep, it is.\"",
-   "zh": "「@獨臂@養蜂人齊克，正是在下。」",
+   "zh": "「@Zeke（獨臂）@beekeep（養蜂）人齊克，正是在下。」",
    "note": ""
   },
   {
    "offset": 250,
    "len": 81,
    "en": "\"Lost me arm and gained that name in @battle.\" He flashes a yellowed grin at you.",
-   "zh": "「在@戰場上丟了手臂，得了這個稱號。」他向你露出泛黃的牙齒笑著。",
+   "zh": "「在@battle（戰場）上丟了手臂，得了這個稱號。」他向你露出泛黃的牙齒笑著。",
    "note": ""
   },
   {
    "offset": 343,
    "len": 57,
    "en": "\"'Twas a horrid affair, but @Mondain had to be thwarted.\"",
-   "zh": "「那是場可怕的事，但@蒙丹必須被阻止。」",
+   "zh": "「那是場可怕的事，但@Mondain（蒙丹）必須被阻止。」",
    "note": ""
   },
   {
@@ -88,7 +88,7 @@
    "offset": 761,
    "len": 48,
    "en": "\"All we have to do is provide them with @hives.\"",
-   "zh": "「我們只需要提供@蜂巢給它們。」",
+   "zh": "「我們只需要提供@hives（蜂巢）給它們。」",
    "note": ""
   },
   {
@@ -116,14 +116,14 @@
    "offset": 975,
    "len": 39,
    "en": "\"I'm the @beekeeper here at the abbey.\"",
-   "zh": "「我是修道院這裡的@養蜂人。」",
+   "zh": "「我是修道院這裡的@beekeeper（養蜂）人。」",
    "note": ""
   },
   {
    "offset": 1017,
    "len": 87,
    "en": "\"If you want to @buy @honey, or @sell me a honey jar I'm all ears (if only one-armed).\"",
-   "zh": "「若你想@買@蜂蜜，或@賣我一個蜂蜜罐，我洗耳恭聽（雖然只有一隻手臂）。」",
+   "zh": "「若你想@buy（買）@honey（蜂蜜），或@sell（賣）一個蜂蜜罐，我洗耳恭聽（雖然只有一隻手臂）。」",
    "note": ""
   },
   {
@@ -225,6 +225,11 @@
    "note": "只有一隻手臂的幽默"
   }
  ],
- "glossary_additions": {"people": {"Zeke": "齊克"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Zeke": "齊克"
+  },
+  "places": {}
+ },
  "translator_notes": "齊克是獨臂養蜂人，曾在對抗蒙丹的戰鬥中失去手臂。口語化，'aven't/'oney等省音字略去h音。可購買蜂蜜或出售蜂蜜罐。"
 }

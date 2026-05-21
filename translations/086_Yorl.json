@@ -46,14 +46,14 @@
    "offset": 366,
    "len": 40,
    "en": "\"Yorl. A short name, but a @strong one!\"",
-   "zh": "「尤爾。雖是短名，卻@強悍！」",
+   "zh": "「尤爾。雖是短名，卻@strong（強悍）！」",
    "note": ""
   },
   {
    "offset": 423,
    "len": 35,
    "en": "\"My @father was a coastal @raider.\"",
-   "zh": "「我@父親是個海岸@劫匪。」",
+   "zh": "「我@father（父親）是個海岸@raider（劫匪）。」",
    "note": ""
   },
   {
@@ -109,7 +109,7 @@
    "offset": 801,
    "len": 72,
    "en": "\"'Tisn't quite as exciting as some jobs, but it keeps me near the @sea.\"",
-   "zh": "「雖不比有些差事刺激，但讓我能守著@大海。」",
+   "zh": "「雖不比有些差事刺激，但讓我能守著@sea（大海）。」",
    "note": ""
   },
   {
@@ -123,7 +123,7 @@
    "offset": 916,
    "len": 43,
    "en": "\"Even if the @fishing's been poor of late.\"",
-   "zh": "「即便近來@漁獲不佳。」",
+   "zh": "「即便近來@fishing（漁獲）不佳。」",
    "note": ""
   },
   {
@@ -144,7 +144,7 @@
    "offset": 1062,
    "len": 58,
    "en": "\"And when they do, I'll be waitin' for 'em with my @nets!\"",
-   "zh": "「等他們回來，我就用@漁網在這等著！」",
+   "zh": "「等他們回來，我就用@nets（漁網）在這等著！」",
    "note": ""
   },
   {
@@ -158,7 +158,7 @@
    "offset": 1182,
    "len": 44,
    "en": "\"A @pole'll never catch you enough to sell.\"",
-   "zh": "「用@釣竿可釣不到夠賣的量。」",
+   "zh": "「用@pole（釣竿）可釣不到夠賣的量。」",
    "note": ""
   },
   {
@@ -179,14 +179,14 @@
    "offset": 1340,
    "len": 81,
    "en": "\"That's a @tale they tell in town. I've seen no spirits. Except at old Stivius'.\"",
-   "zh": "「那是鎮上流傳的@傳說。我沒見過什麼幽靈，除了在老斯提維斯那裡喝的酒以外。」",
+   "zh": "「那是鎮上流傳的@tale（傳說）。我沒見過什麼幽靈，除了在老斯提維斯那裡喝的酒以外。」",
    "note": "雙關：spirits=幽靈/酒"
   },
   {
    "offset": 1433,
    "len": 52,
    "en": "\"You know, 'bout @Marn's pa haunting the @vineyard.\"",
-   "zh": "「就是說@瑪妮她父親的幽魂在@葡萄園徘徊那事。」",
+   "zh": "「就是說@Marn（瑪妮）她父親的幽魂在@vineyard（葡萄）園徘徊那事。」",
    "note": ""
   },
   {
@@ -200,7 +200,7 @@
    "offset": 1537,
    "len": 49,
    "en": "\"I think @Stivius has been drinkin' his profits.\"",
-   "zh": "「我看@斯提維斯是把自己的獲利都喝進肚子裡了。」",
+   "zh": "「我看@Stivius（斯提）維斯是把自己的獲利都喝進肚子裡了。」",
    "note": ""
   },
   {
@@ -235,7 +235,7 @@
    "offset": 1907,
    "len": 55,
    "en": "\"They say that @Quen's ghost haunts that area of town.\"",
-   "zh": "「據說@昆的幽靈在那一帶出沒。」",
+   "zh": "「據說@Quen（昆）的幽靈在那一帶出沒。」",
    "note": ""
   },
   {
@@ -291,7 +291,7 @@
    "offset": 2429,
    "len": 81,
    "en": "\"He and I were mates. I can still remember the moment @they told me he was dead.\"",
-   "zh": "「他和我是好夥伴。我至今記得@他們告知我他已身亡的那一刻。」",
+   "zh": "「他和我是好夥伴。我至今記得@they（他們）告知我他已身亡的那一刻。」",
    "note": ""
   },
   {
@@ -305,28 +305,28 @@
    "offset": 2588,
    "len": 23,
    "en": "\"@Gideon and @Stivius.\"",
-   "zh": "「@吉迪恩和@斯提維斯。」",
+   "zh": "「@Gideon（吉迪）恩和@Stivius（斯提）維斯。」",
    "note": ""
   },
   {
    "offset": 2614,
    "len": 88,
    "en": "\"They came to my house before dawn and told me that Quen had been killed by @gargoyles.\"",
-   "zh": "「他們在黎明前來到我家，告訴我昆頓被@魔像族殺害了。」",
+   "zh": "「他們在黎明前來到我家，告訴我昆頓被@gargoyles（魔像）族殺害了。」",
    "note": ""
   },
   {
    "offset": 2714,
    "len": 81,
    "en": "\"He owns the Haunting Inn. He's good people, though his @wife is a bit of a nag.\"",
-   "zh": "「他是鬼影旅店的主人，是個好人，只是他@妻子有點嘮叨。」",
+   "zh": "「他是鬼影旅店的主人，是個好人，只是他@wife（妻子）有點嘮叨。」",
    "note": ""
   },
   {
    "offset": 2807,
    "len": 52,
    "en": "\"She always complains that my house is an @eyesore.\"",
-   "zh": "「她老嫌我的房子是個@礙眼之物。」",
+   "zh": "「她老嫌我的房子是個@eyesore（礙眼）之物。」",
    "note": ""
   },
   {
@@ -361,7 +361,7 @@
    "offset": 3100,
    "len": 81,
    "en": "\"I seen alot o' things out at sea, @serpents as big as the biggest four-@master.\"",
-   "zh": "「在海上見過不少奇物，有@海蛇大得像最大的四桅@帆船。」",
+   "zh": "「在海上見過不少奇物，有@serpents（海蛇）大得像最大的四桅@master（帆船）。」",
    "note": ""
   },
   {
@@ -375,21 +375,21 @@
    "offset": 3261,
    "len": 93,
    "en": "\"One o' the tall ships. My father used to pilot one o' the biggest in Lord @British's fleet.\"",
-   "zh": "「就是高桅大帆船。我父親曾駕駛不列顛@陛下艦隊中最大的一艘。」",
+   "zh": "「就是高桅大帆船。我父親曾駕駛不列顛@British（陛）下艦隊中最大的一艘。」",
    "note": ""
   },
   {
    "offset": 3357,
    "len": 56,
    "en": "\"The Merideth @Ann. She was a sight to behold, she was.\"",
-   "zh": "「就是『梅蕾蒂絲@安號』，那真是一艘令人嘆為觀止的船。」",
+   "zh": "「就是『梅蕾蒂絲@Ann（安號）』，那真是一艘令人嘆為觀止的船。」",
    "note": ""
   },
   {
    "offset": 3429,
    "len": 80,
    "en": "\"She'd seen many a battle with pirates. Then she went to her grave in a @storm.\"",
-   "zh": "「她歷經無數次海盜戰役，最後在一場@風暴中沉入海底。」",
+   "zh": "「她歷經無數次海盜戰役，最後在一場@storm（風暴）中沉入海底。」",
    "note": ""
   },
   {
@@ -403,7 +403,7 @@
    "offset": 3568,
    "len": 57,
    "en": "\"Came up all of a sudden. I say it was @Mondain's doing.\"",
-   "zh": "「那場風暴突如其來。我認為是@蒙丹所為。」",
+   "zh": "「那場風暴突如其來。我認為是@Mondain（蒙丹）所為。」",
    "note": ""
   },
   {
@@ -431,7 +431,7 @@
    "offset": 3814,
    "len": 69,
    "en": "\"Where have you been @scuttled? That's too long a story for this $T.\"",
-   "zh": "「汝去哪裡@沉船了？這個故事說來話長，此時$T難以細說。」",
+   "zh": "「汝去哪裡@scuttled（沉船）了？這個故事說來話長，此時$T難以細說。」",
    "note": ""
   },
   {
@@ -466,7 +466,7 @@
    "offset": 4122,
    "len": 44,
    "en": "\"Not just any fish, mind ya, a @light-horn.\"",
-   "zh": "「不是普通的魚，要釣@光角魚。」",
+   "zh": "「不是普通的魚，要釣@light（光角）魚。」",
    "note": ""
   },
   {
@@ -487,7 +487,7 @@
    "offset": 4288,
    "len": 61,
    "en": "\"Said if a body could @catch one, good fortune would be his.\"",
-   "zh": "「他說若能@捕獲一條，必得吉祥如意。」",
+   "zh": "「他說若能@catch（捕獲）一條，必得吉祥如意。」",
    "note": ""
   },
   {
@@ -515,7 +515,7 @@
    "offset": 4497,
    "len": 65,
    "en": "\"It only comes close to the surface when the sea is like @glass.\"",
-   "zh": "「只有海面如@鏡時，它才會浮游近水面。」",
+   "zh": "「只有海面如@glass（鏡）時，它才會浮游近水面。」",
    "note": ""
   },
   {
@@ -536,7 +536,7 @@
    "offset": 4729,
    "len": 60,
    "en": "\"Anyway, Quen and I 'cided we'd catch us one in our @skiff.\"",
-   "zh": "「總之，昆和我決定用@小船去捕一條。」",
+   "zh": "「總之，昆和我決定用@skiff（小船）去捕一條。」",
    "note": ""
   },
   {
@@ -550,7 +550,7 @@
    "offset": 4865,
    "len": 104,
    "en": "\"Well, even though the skiff was small, we figured that we'd @spear the beast and drag it back to port.\"",
-   "zh": "「哦，雖然小船很小，我們盤算著用魚叉@刺穿那頭大魚，再拖回港口。」",
+   "zh": "「哦，雖然小船很小，我們盤算著用魚叉@spear（刺穿）那頭大魚，再拖回港口。」",
    "note": ""
   },
   {
@@ -564,7 +564,7 @@
    "offset": 5068,
    "len": 84,
    "en": "\"Anyway, we rowed out past Ivers @Rounding and sat in our skiff waiting to see one.\"",
-   "zh": "「總之，我們划過艾佛@圓角，坐在小船上等候。」",
+   "zh": "「總之，我們划過艾佛@Rounding（圓角），坐在小船上等候。」",
    "note": ""
   },
   {
@@ -578,7 +578,7 @@
    "offset": 5211,
    "len": 44,
    "en": "\"You know, past where the @alchemist lives.\"",
-   "zh": "「就是越過那位@鍊金術士住所的地方。」",
+   "zh": "「就是越過那位@alchemist（鍊金）術士住所的地方。」",
    "note": ""
   },
   {
@@ -592,7 +592,7 @@
    "offset": 5321,
    "len": 107,
    "en": "\"Then, suddenly, in the distance we could see a tall @neck rising out of the water and heading towards us.\"",
-   "zh": "「然後，忽然，遠處出現一根高聳的@頸部從水中升起，朝我們游來。」",
+   "zh": "「然後，忽然，遠處出現一根高聳的@neck（頸部）從水中升起，朝我們游來。」",
    "note": ""
   },
   {

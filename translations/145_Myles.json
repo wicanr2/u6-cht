@@ -81,7 +81,7 @@
    "offset": 488,
    "len": 22,
    "en": "\"So they @adopted me!\"",
-   "zh": "「所以他們@收養了我！」",
+   "zh": "「所以他們@adopted（收養）了我！」",
    "note": ""
   },
   {
@@ -95,7 +95,7 @@
    "offset": 561,
    "len": 85,
    "en": "\"It's a real neat place, with all sorts of rooms and @cellars and stairs and @stuff.\"",
-   "zh": "「那是個很棒的地方，有各種各樣的房間、@地下室、樓梯和@雜物。」",
+   "zh": "「那是個很棒的地方，有各種各樣的房間、@cellars（地）下室、樓梯和@stuff（雜物）。」",
    "note": ""
   },
   {
@@ -109,7 +109,7 @@
    "offset": 722,
    "len": 28,
    "en": "\"Oh, I help Mama and @Papa!\"",
-   "zh": "「哦，我幫媽媽和@爸爸！」",
+   "zh": "「哦，我幫媽媽和@Papa（爸爸）！」",
    "note": ""
   },
   {
@@ -155,6 +155,11 @@
    "note": ""
   }
  ],
- "glossary_additions": {"people": {"Myles": "邁爾斯"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Myles": "邁爾斯"
+  },
+  "places": {}
+ },
  "translator_notes": "邁爾斯是被獨眼巨人夫婦收養的人類孩童，活潑直白的孩子口吻。獨眼巨人只叫他「小不點」。"
 }

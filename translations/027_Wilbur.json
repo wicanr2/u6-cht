@@ -1,328 +1,328 @@
 {
-  "_meta": {
-    "npc": "Wilbur",
-    "role": "傑隆（Jhelom）馬廄夥計，瘦削、深髮、笑容緊張；售馬；對『會說話的馬』(Smith/Ed) 話題裝傻、變得更緊張，是隱藏支線觸發。"
+ "_meta": {
+  "npc": "Wilbur",
+  "role": "傑隆（Jhelom）馬廄夥計，瘦削、深髮、笑容緊張；售馬；對『會說話的馬』(Smith/Ed) 話題裝傻、變得更緊張，是隱藏支線觸發。"
+ },
+ "translations": [
+  {
+   "offset": 2,
+   "len": 6,
+   "en": "Wilbur",
+   "zh": "威伯",
+   "zh_bytes": 4,
+   "note": "人名音譯；Wilbur→威伯"
   },
-  "translations": [
-    {
-      "offset": 2,
-      "len": 6,
-      "en": "Wilbur",
-      "zh": "威伯",
-      "zh_bytes": 4,
-      "note": "人名音譯；Wilbur→威伯"
-    },
-    {
-      "offset": 9,
-      "len": 45,
-      "en": "a thin, dark-haired man with a nervous smile.",
-      "zh": "一名瘦削、深髮、笑容緊張的男子。",
-      "zh_bytes": 32,
-      "note": "描述句保留三特徵"
-    },
-    {
-      "offset": 70,
-      "len": 23,
-      "en": "\"Hello again, my friend",
-      "zh": "「又見面了，朋友",
-      "zh_bytes": 16,
-      "note": "拼接下文 s! / this $T?"
-    },
-    {
-      "offset": 94,
-      "len": 20,
-      "en": "\"Greetings, traveler",
-      "zh": "「旅人安好",
-      "zh_bytes": 10,
-      "note": "拼接下文"
-    },
-    {
-      "offset": 125,
-      "len": 24,
-      "en": "s! What can I do for you",
-      "zh": "們！有何事可為汝效勞",
-      "zh_bytes": 20,
-      "note": "拼接前文 friend → friends! 注：保留複數語意但中文不分單複數，這是 friends 版本"
-    },
-    {
-      "offset": 150,
-      "len": 24,
-      "en": "! What can I do for thee",
-      "zh": "！有何事可為汝效勞",
-      "zh_bytes": 18,
-      "note": "單數版本"
-    },
-    {
-      "offset": 175,
-      "len": 10,
-      "en": " this $T?\"",
-      "zh": "此$T？」",
-      "zh_bytes": 8,
-      "note": "保留 $T"
-    },
-    {
-      "offset": 188,
-      "len": 4,
-      "en": "name",
-      "zh": "name",
-      "zh_bytes": 4,
-      "note": "@name keyword 內部碼"
-    },
-    {
-      "offset": 193,
-      "len": 23,
-      "en": "\"My name's Wilbur, $G.\"",
-      "zh": "「在下名喚威伯，$G。」",
-      "zh_bytes": 22,
-      "note": "保留 $G"
-    },
-    {
-      "offset": 222,
-      "len": 3,
-      "en": "job",
-      "zh": "job",
-      "zh_bytes": 3,
-      "note": "@job keyword"
-    },
-    {
-      "offset": 226,
-      "len": 56,
-      "en": "\"I work here at the stables, taking care of the horses.\"",
-      "zh": "「我在此馬房做事，照看群馬。」",
-      "zh_bytes": 30,
-      "note": "stables→馬房（避『廄』trail-5C）"
-    },
-    {
-      "offset": 285,
-      "len": 33,
-      "en": "\"You can @buy one if you'd like.\"",
-      "zh": "「汝若有意可@買一匹。」",
-      "zh_bytes": 23,
-      "note": "@buy→@買"
-    },
-    {
-      "offset": 324,
-      "len": 12,
-      "en": "ed,smit,talk",
-      "zh": "ed,smit,talk",
-      "zh_bytes": 12,
-      "note": "keyword 群組：Ed/Smith/talk（會說話馬名）；ASCII 保留"
-    },
-    {
-      "offset": 337,
-      "len": 49,
-      "en": "\"A talking horse? Ridiculous! Who told you that?\"",
-      "zh": "「會說話的馬？荒謬！這是誰告訴汝的？」",
-      "zh_bytes": 38,
-      "note": "Wilbur 裝傻不認"
-    },
-    {
-      "offset": 389,
-      "len": 34,
-      "en": "He seems more nervous than before.",
-      "zh": "他看起來比之前更緊張了。",
-      "zh_bytes": 24,
-      "note": "情緒描述"
-    },
-    {
-      "offset": 429,
-      "len": 4,
-      "en": "hors",
-      "zh": "hors",
-      "zh_bytes": 4,
-      "note": "@horse keyword 內部碼前綴"
-    },
-    {
-      "offset": 434,
-      "len": 50,
-      "en": "\"Aye, if you wish to @buy one, just say the word.\"",
-      "zh": "「是的，汝若願@買一匹，只消開口。」",
-      "zh_bytes": 35,
-      "note": ""
-    },
-    {
-      "offset": 490,
-      "len": 3,
-      "en": "buy",
-      "zh": "buy",
-      "zh_bytes": 3,
-      "note": "@buy keyword 內部碼"
-    },
-    {
-      "offset": 500,
-      "len": 3,
-      "en": "bye",
-      "zh": "bye",
-      "zh_bytes": 3,
-      "note": "@bye keyword 內部碼"
-    },
-    {
-      "offset": 504,
-      "len": 18,
-      "en": "\"Come back again!\"",
-      "zh": "「歡迎再光臨！」",
-      "zh_bytes": 16,
-      "note": ""
-    },
-    {
-      "offset": 527,
-      "len": 17,
-      "en": "\"Beg pardon, $G?\"",
-      "zh": "「請再說，$G？」",
-      "zh_bytes": 16,
-      "note": "保留 $G"
-    },
-    {
-      "offset": 599,
-      "len": 32,
-      "en": "\"But thou already hast a horse!\"",
-      "zh": "「但汝已有一匹馬了！」",
-      "zh_bytes": 22,
-      "note": ""
-    },
-    {
-      "offset": 718,
-      "len": 6,
-      "en": "#2) $Y",
-      "zh": "#2) $Y",
-      "zh_bytes": 6,
-      "note": "格式控制保留"
-    },
-    {
-      "offset": 764,
-      "len": 39,
-      "en": "\"But all of you are already on horses!\"",
-      "zh": "「但諸位皆已騎乘有馬！」",
-      "zh_bytes": 24,
-      "note": ""
-    },
-    {
-      "offset": 833,
-      "len": 6,
-      "en": "#2) $Y",
-      "zh": "#2) $Y",
-      "zh_bytes": 6,
-      "note": "格式控制保留"
-    },
-    {
-      "offset": 847,
-      "len": 16,
-      "en": "\"Which of you?\" ",
-      "zh": "「諸位何人？」",
-      "zh_bytes": 14,
-      "note": ""
-    },
-    {
-      "offset": 955,
-      "len": 37,
-      "en": "\"Aye, $Y, thou hast need of a horse.\"",
-      "zh": "「是的$Y，汝正需要一匹馬。」",
-      "zh_bytes": 28,
-      "note": "保留 $Y"
-    },
-    {
-      "offset": 1005,
-      "len": 32,
-      "en": "\"But thou canst not afford one!\"",
-      "zh": "「但汝買不起呀！」",
-      "zh_bytes": 18,
-      "note": ""
-    },
-    {
-      "offset": 1043,
-      "len": 51,
-      "en": "\"My price is #9 gold pieces, no less. Interested?\" ",
-      "zh": "「售價#9枚金幣，分毫不減。有意否？」",
-      "zh_bytes": 36,
-      "note": "保留 #9"
-    },
-    {
-      "offset": 1095,
-      "len": 2,
-      "en": "yn",
-      "zh": "yn",
-      "zh_bytes": 2,
-      "note": "y/n 觸發碼"
-    },
-    {
-      "offset": 1100,
-      "len": 69,
-      "en": "\"Good!\" $N takes $Y's gold, and hands over the reins of a fine horse.",
-      "zh": "「好極！」$N收下$Y之金，將良駒韁繩交予手中。",
-      "zh_bytes": 44,
-      "note": "保留 $N、$Y"
-    },
-    {
-      "offset": 1194,
-      "len": 31,
-      "en": "\"Perhaps some other time then.\"",
-      "zh": "「那麼改日再說吧。」",
-      "zh_bytes": 20,
-      "note": "避『許』trail-5C"
-    },
-    {
-      "offset": 1244,
-      "len": 11,
-      "en": "\"How about ",
-      "zh": "「不如",
-      "zh_bytes": 6,
-      "note": "拼接 one of thy friends / thy friend / ?\""
-    },
-    {
-      "offset": 1262,
-      "len": 18,
-      "en": "one of thy friends",
-      "zh": "汝同伴中之一人",
-      "zh_bytes": 14,
-      "note": ""
-    },
-    {
-      "offset": 1281,
-      "len": 10,
-      "en": "thy friend",
-      "zh": "汝之友伴",
-      "zh_bytes": 8,
-      "note": ""
-    },
-    {
-      "offset": 1292,
-      "len": 2,
-      "en": "?\"",
-      "zh": "?\"",
-      "zh_bytes": 2,
-      "note": "len=2 中文標點各佔 4 bytes 會超；直接保留半形 ?\"  控制 bytes（拼接前句中文化後仍可讀）"
-    }
-  ],
-  "keyword_mapping": {
-    "@buy": "@買",
-    "@name": "@名字（內部碼 name 保留 ASCII）",
-    "@job": "@職業（內部碼 job 保留 ASCII）",
-    "@bye": "@再見（內部碼 bye 保留 ASCII）",
-    "@horse": "@馬（內部碼 hors 保留 ASCII）",
-    "@Ed": "@艾德（內部碼 ed 保留 ASCII）",
-    "@Smith": "@史密斯（內部碼 smit 保留 ASCII）",
-    "@talk": "@談話（內部碼 talk 保留 ASCII）"
+  {
+   "offset": 9,
+   "len": 45,
+   "en": "a thin, dark-haired man with a nervous smile.",
+   "zh": "一名瘦削、深髮、笑容緊張的男子。",
+   "zh_bytes": 32,
+   "note": "描述句保留三特徵"
   },
-  "glossary_additions": {
-    "people": {
-      "Wilbur": "威伯"
-    },
-    "concepts": {
-      "stables": "馬廄",
-      "stable hand": "馬廄夥計",
-      "reins": "韁繩",
-      "fine horse": "良駒"
-    }
+  {
+   "offset": 70,
+   "len": 23,
+   "en": "\"Hello again, my friend",
+   "zh": "「又見面了，朋友",
+   "zh_bytes": 16,
+   "note": "拼接下文 s! / this $T?"
   },
-  "riddles_additions": [
-    {
-      "npc": "Wilbur",
-      "key": "TALKING_HORSE_DENIAL",
-      "en": "A talking horse? Ridiculous! Who told you that? / He seems more nervous than before.",
-      "zh": "「會說話的馬？荒謬！這是誰告訴汝的？」／他看起來比之前更緊張了。",
-      "ref": "支線伏筆：Smith/Ed 是會說話的馬（致敬 Mister Ed 1960s 美劇），Wilbur 名也借自該劇 Wilbur Post",
-      "strategy": "直譯保留 Wilbur 慌張否認語氣；致敬不另作說明，留給玩家發現"
-    }
-  ],
-  "translator_notes": "Wilbur 是 Mister Ed 經典美劇致敬：Wilbur Post 是劇中飼主，馬名 Mister Ed。U6 把馬名拆為 Smith / Ed 兩個 keyword 觸發詞。中文版保留 Mister Ed 致敬不必明說。注意 offset 1292 len=2 的 ?\" 因中文標點佔 4 bytes 改用半形 ? 控制 bytes。其他 keyword 內部碼（name/job/bye/buy/hors/ed/smit/talk/yn）一律 ASCII 保留以利 prefix match。0 OVERFLOW。"
+  {
+   "offset": 94,
+   "len": 20,
+   "en": "\"Greetings, traveler",
+   "zh": "「旅人安好",
+   "zh_bytes": 10,
+   "note": "拼接下文"
+  },
+  {
+   "offset": 125,
+   "len": 24,
+   "en": "s! What can I do for you",
+   "zh": "們！有何事可為汝效勞",
+   "zh_bytes": 20,
+   "note": "拼接前文 friend → friends! 注：保留複數語意但中文不分單複數，這是 friends 版本"
+  },
+  {
+   "offset": 150,
+   "len": 24,
+   "en": "! What can I do for thee",
+   "zh": "！有何事可為汝效勞",
+   "zh_bytes": 18,
+   "note": "單數版本"
+  },
+  {
+   "offset": 175,
+   "len": 10,
+   "en": " this $T?\"",
+   "zh": "此$T？」",
+   "zh_bytes": 8,
+   "note": "保留 $T"
+  },
+  {
+   "offset": 188,
+   "len": 4,
+   "en": "name",
+   "zh": "name",
+   "zh_bytes": 4,
+   "note": "@name keyword 內部碼"
+  },
+  {
+   "offset": 193,
+   "len": 23,
+   "en": "\"My name's Wilbur, $G.\"",
+   "zh": "「在下名喚威伯，$G。」",
+   "zh_bytes": 22,
+   "note": "保留 $G"
+  },
+  {
+   "offset": 222,
+   "len": 3,
+   "en": "job",
+   "zh": "job",
+   "zh_bytes": 3,
+   "note": "@job keyword"
+  },
+  {
+   "offset": 226,
+   "len": 56,
+   "en": "\"I work here at the stables, taking care of the horses.\"",
+   "zh": "「我在此馬房做事，照看群馬。」",
+   "zh_bytes": 30,
+   "note": "stables→馬房（避『廄』trail-5C）"
+  },
+  {
+   "offset": 285,
+   "len": 33,
+   "en": "\"You can @buy one if you'd like.\"",
+   "zh": "「汝若有意可@buy（買）匹。」",
+   "zh_bytes": 23,
+   "note": "@buy→@買"
+  },
+  {
+   "offset": 324,
+   "len": 12,
+   "en": "ed,smit,talk",
+   "zh": "ed,smit,talk",
+   "zh_bytes": 12,
+   "note": "keyword 群組：Ed/Smith/talk（會說話馬名）；ASCII 保留"
+  },
+  {
+   "offset": 337,
+   "len": 49,
+   "en": "\"A talking horse? Ridiculous! Who told you that?\"",
+   "zh": "「會說話的馬？荒謬！這是誰告訴汝的？」",
+   "zh_bytes": 38,
+   "note": "Wilbur 裝傻不認"
+  },
+  {
+   "offset": 389,
+   "len": 34,
+   "en": "He seems more nervous than before.",
+   "zh": "他看起來比之前更緊張了。",
+   "zh_bytes": 24,
+   "note": "情緒描述"
+  },
+  {
+   "offset": 429,
+   "len": 4,
+   "en": "hors",
+   "zh": "hors",
+   "zh_bytes": 4,
+   "note": "@horse keyword 內部碼前綴"
+  },
+  {
+   "offset": 434,
+   "len": 50,
+   "en": "\"Aye, if you wish to @buy one, just say the word.\"",
+   "zh": "「是的，汝若願@buy（買）匹，只消開口。」",
+   "zh_bytes": 35,
+   "note": ""
+  },
+  {
+   "offset": 490,
+   "len": 3,
+   "en": "buy",
+   "zh": "buy",
+   "zh_bytes": 3,
+   "note": "@buy keyword 內部碼"
+  },
+  {
+   "offset": 500,
+   "len": 3,
+   "en": "bye",
+   "zh": "bye",
+   "zh_bytes": 3,
+   "note": "@bye keyword 內部碼"
+  },
+  {
+   "offset": 504,
+   "len": 18,
+   "en": "\"Come back again!\"",
+   "zh": "「歡迎再光臨！」",
+   "zh_bytes": 16,
+   "note": ""
+  },
+  {
+   "offset": 527,
+   "len": 17,
+   "en": "\"Beg pardon, $G?\"",
+   "zh": "「請再說，$G？」",
+   "zh_bytes": 16,
+   "note": "保留 $G"
+  },
+  {
+   "offset": 599,
+   "len": 32,
+   "en": "\"But thou already hast a horse!\"",
+   "zh": "「但汝已有一匹馬了！」",
+   "zh_bytes": 22,
+   "note": ""
+  },
+  {
+   "offset": 718,
+   "len": 6,
+   "en": "#2) $Y",
+   "zh": "#2) $Y",
+   "zh_bytes": 6,
+   "note": "格式控制保留"
+  },
+  {
+   "offset": 764,
+   "len": 39,
+   "en": "\"But all of you are already on horses!\"",
+   "zh": "「但諸位皆已騎乘有馬！」",
+   "zh_bytes": 24,
+   "note": ""
+  },
+  {
+   "offset": 833,
+   "len": 6,
+   "en": "#2) $Y",
+   "zh": "#2) $Y",
+   "zh_bytes": 6,
+   "note": "格式控制保留"
+  },
+  {
+   "offset": 847,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「諸位何人？」",
+   "zh_bytes": 14,
+   "note": ""
+  },
+  {
+   "offset": 955,
+   "len": 37,
+   "en": "\"Aye, $Y, thou hast need of a horse.\"",
+   "zh": "「是的$Y，汝正需要一匹馬。」",
+   "zh_bytes": 28,
+   "note": "保留 $Y"
+  },
+  {
+   "offset": 1005,
+   "len": 32,
+   "en": "\"But thou canst not afford one!\"",
+   "zh": "「但汝買不起呀！」",
+   "zh_bytes": 18,
+   "note": ""
+  },
+  {
+   "offset": 1043,
+   "len": 51,
+   "en": "\"My price is #9 gold pieces, no less. Interested?\" ",
+   "zh": "「售價#9枚金幣，分毫不減。有意否？」",
+   "zh_bytes": 36,
+   "note": "保留 #9"
+  },
+  {
+   "offset": 1095,
+   "len": 2,
+   "en": "yn",
+   "zh": "yn",
+   "zh_bytes": 2,
+   "note": "y/n 觸發碼"
+  },
+  {
+   "offset": 1100,
+   "len": 69,
+   "en": "\"Good!\" $N takes $Y's gold, and hands over the reins of a fine horse.",
+   "zh": "「好極！」$N收下$Y之金，將良駒韁繩交予手中。",
+   "zh_bytes": 44,
+   "note": "保留 $N、$Y"
+  },
+  {
+   "offset": 1194,
+   "len": 31,
+   "en": "\"Perhaps some other time then.\"",
+   "zh": "「那麼改日再說吧。」",
+   "zh_bytes": 20,
+   "note": "避『許』trail-5C"
+  },
+  {
+   "offset": 1244,
+   "len": 11,
+   "en": "\"How about ",
+   "zh": "「不如",
+   "zh_bytes": 6,
+   "note": "拼接 one of thy friends / thy friend / ?\""
+  },
+  {
+   "offset": 1262,
+   "len": 18,
+   "en": "one of thy friends",
+   "zh": "汝同伴中之一人",
+   "zh_bytes": 14,
+   "note": ""
+  },
+  {
+   "offset": 1281,
+   "len": 10,
+   "en": "thy friend",
+   "zh": "汝之友伴",
+   "zh_bytes": 8,
+   "note": ""
+  },
+  {
+   "offset": 1292,
+   "len": 2,
+   "en": "?\"",
+   "zh": "?\"",
+   "zh_bytes": 2,
+   "note": "len=2 中文標點各佔 4 bytes 會超；直接保留半形 ?\"  控制 bytes（拼接前句中文化後仍可讀）"
+  }
+ ],
+ "keyword_mapping": {
+  "@buy": "@買",
+  "@name": "@名字（內部碼 name 保留 ASCII）",
+  "@job": "@職業（內部碼 job 保留 ASCII）",
+  "@bye": "@再見（內部碼 bye 保留 ASCII）",
+  "@horse": "@馬（內部碼 hors 保留 ASCII）",
+  "@Ed": "@艾德（內部碼 ed 保留 ASCII）",
+  "@Smith": "@史密斯（內部碼 smit 保留 ASCII）",
+  "@talk": "@談話（內部碼 talk 保留 ASCII）"
+ },
+ "glossary_additions": {
+  "people": {
+   "Wilbur": "威伯"
+  },
+  "concepts": {
+   "stables": "馬廄",
+   "stable hand": "馬廄夥計",
+   "reins": "韁繩",
+   "fine horse": "良駒"
+  }
+ },
+ "riddles_additions": [
+  {
+   "npc": "Wilbur",
+   "key": "TALKING_HORSE_DENIAL",
+   "en": "A talking horse? Ridiculous! Who told you that? / He seems more nervous than before.",
+   "zh": "「會說話的馬？荒謬！這是誰告訴汝的？」／他看起來比之前更緊張了。",
+   "ref": "支線伏筆：Smith/Ed 是會說話的馬（致敬 Mister Ed 1960s 美劇），Wilbur 名也借自該劇 Wilbur Post",
+   "strategy": "直譯保留 Wilbur 慌張否認語氣；致敬不另作說明，留給玩家發現"
+  }
+ ],
+ "translator_notes": "Wilbur 是 Mister Ed 經典美劇致敬：Wilbur Post 是劇中飼主，馬名 Mister Ed。U6 把馬名拆為 Smith / Ed 兩個 keyword 觸發詞。中文版保留 Mister Ed 致敬不必明說。注意 offset 1292 len=2 的 ?\" 因中文標點佔 4 bytes 改用半形 ? 控制 bytes。其他 keyword 內部碼（name/job/bye/buy/hors/ed/smit/talk/yn）一律 ASCII 保留以利 prefix match。0 OVERFLOW。"
 }

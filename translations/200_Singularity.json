@@ -1,71 +1,372 @@
 {
  "translations": [
-  {"offset": 2, "len": 11, "en": "Singularity", "zh": "獨一", "note": "魔像族第八德=人類 Humility 對應"},
-  {"offset": 14, "len": 30, "en": "a finely-carved stone pyramid.", "zh": "一座雕工精細之石造金字塔。"},
-  {"offset": 54, "len": 50, "en": "As you face the altar, a voice rings in your head.", "zh": "汝面對此祭壇之時，一個聲音響於汝心識之中。"},
-  {"offset": 107, "len": 66, "en": "You understand it perfectly, but you can't recognize the language!", "zh": "汝盡解其意，卻認不出此乃何種語言！"},
-  {"offset": 180, "len": 65, "en": "\"There is no more wisdom for thee to acquire here, noble Avatar.\"", "zh": "「高貴的聖者，此處再無智慧可授汝。」"},
-  {"offset": 248, "len": 58, "en": "\"Seek the Codex, and may nothing impede thy sacred quest!\"", "zh": "「去尋『守則之書』吧——願無物阻汝之神聖追尋！」"},
-  {"offset": 317, "len": 53, "en": "\"Hast thou completed thy journey to the @catacombs?\" ", "zh": "「汝可已完成往@地下墓穴之行？」"},
-  {"offset": 376, "len": 36, "en": "\"What is the Mantra of Singularity?\"", "zh": "「『獨一』之真言為何？」"},
-  {"offset": 420, "len": 32, "en": "\"Which catacomb dost thou seek?\"", "zh": "「汝欲尋哪一座墓穴？」"},
-  {"offset": 465, "len": 48, "en": "\"Thy deeds make thee unworthy of enlightenment.\"", "zh": "「汝之行止令汝不配受啟悟。」"},
-  {"offset": 516, "len": 39, "en": "\"Return when thy path is more focused.\"", "zh": "「待汝心專志一之時再來。」"},
-  {"offset": 566, "len": 92, "en": "\"Thou hast far to travel and much to achieve, but thy inner fire will surely guide thy way.\"", "zh": "「汝前路尚遙、所為尚多，然汝心之內火必引汝之路。」"},
-  {"offset": 659, "len": 46, "en": "\"Thou hast far to travel and much to achieve.\"", "zh": "「汝前路尚遙、所為尚多。」"},
-  {"offset": 708, "len": 59, "en": "\"May the wisdom imparted here help purify thy inner flame.\"", "zh": "「願此處所授之智慧助汝淨化內焰。」"},
-  {"offset": 771, "len": 27, "en": "\"What do you seek, Avatar?\"", "zh": "「聖者，汝所求為何？」"},
-  {"offset": 828, "len": 36, "en": "\"What is the Mantra of Singularity?\"", "zh": "「『獨一』之真言為何？」"},
-  {"offset": 871, "len": 52, "en": "\"Look deep inside thyself, Avatar, and answer this:\"", "zh": "「聖者，深察汝之內心，回答此問：」"},
-  {"offset": 925, "len": 42, "en": "\"For whom dost thou truly seek the Codex?\"", "zh": "「汝究竟為誰而尋『守則之書』？」"},
-  {"offset": 1029, "len": 59, "en": "\"$0 is one of the guiding principles of the gargoyle race.\"", "zh": "「$0 乃魔像族之指引原則之一。」"},
-  {"offset": 1091, "len": 70, "en": "\"Go thou into the @Catacombs of $0, near the coast to the $1 of here.\"", "zh": "「請往$0之@地下墓穴，於此處$1之海岸附近。」"},
-  {"offset": 1164, "len": 69, "en": "\"There you will find the being who most exemplifies this @principle.\"", "zh": "「彼處汝將遇最足以代表此@原則之亡者。」"},
-  {"offset": 1249, "len": 103, "en": "\"The three principles of @Control, @Passion and @Diligence form the basis of the gargoyle way of life.\"", "zh": "「@控制、@熱情、@勤勉三原則乃魔像族生命之本。」"},
-  {"offset": 1367, "len": 66, "en": "\"Thou hast reached the Altar of Singularity. What dost thou seek?\"", "zh": "「汝已抵『獨一』之祭壇。汝所求何物？」"},
-  {"offset": 1444, "len": 32, "en": "\"Which catacomb dost thou seek?\"", "zh": "「汝欲尋哪一座墓穴？」"},
-  {"offset": 1486, "len": 55, "en": "The mystic voice falls silent, and you leave the altar.", "zh": "神秘之聲歸於靜默，汝離祭壇而去。"},
-  {"offset": 1553, "len": 36, "en": "\"The answer to that lies elsewhere.\"", "zh": "「彼答案乃在他處。」"},
-  {"offset": 1590, "len": 41, "en": "\"The answer to that lies within thyself.\"", "zh": "「彼答案乃在汝之內心。」"},
-  {"offset": 1656, "len": 47, "en": "\"Let the principle of control guide thy quest.\"", "zh": "「願控制之則引汝之追尋。」"},
-  {"offset": 1706, "len": 47, "en": "\"Let the principle of passion drive thy quest.\"", "zh": "「願熱情之則驅汝之追尋。」"},
-  {"offset": 1756, "len": 52, "en": "\"Let the principle of diligence maintain thy quest.\"", "zh": "「願勤勉之則持汝之追尋。」"},
-  {"offset": 1811, "len": 124, "en": "\"Then wilt thou truly achieve the unified spirit and singularity of purpose that is necessary for success in all endeavors.\"", "zh": "「如此汝方能真正達到精神之合一、志一之獨——萬事成就所必須之境。」"},
-  {"offset": 1938, "len": 54, "en": "\"This is the gargoyle way; let it be thy way as well.\"", "zh": "「此乃魔像族之道；願亦為汝之道。」"},
-  {"offset": 1995, "len": 39, "en": "The altar glows with a cold blue flame.", "zh": "祭壇泛起冷藍之焰。"},
-  {"offset": 2037, "len": 41, "en": "You feel compelled to seek out the Codex.", "zh": "汝感一股莫之能禦之衝動，欲去尋『守則之書』。"},
-  {"offset": 2081, "len": 27, "en": "Your final quest has begun!", "zh": "汝之終局之旅已然啟程！"},
-  {"offset": 2217, "len": 72, "en": "\"You have not yet become familiar with the wisdom of the gargoyle race.\"", "zh": "「汝尚未通曉魔像族之智慧。」"},
-  {"offset": 2292, "len": 22, "en": "\"Continue thy search.\"", "zh": "「繼續汝之追尋。」"},
-  {"offset": 2322, "len": 57, "en": "\"Think again, Avatar: For whom dost thou seek the Codex?\"", "zh": "「再思之，聖者：汝為誰而尋『守則之書』？」"},
-  {"offset": 2405, "len": 21, "en": "\"Thy answer is wise.\"", "zh": "「汝答得有智慧。」"},
-  {"offset": 2429, "len": 91, "en": "\"But how canst thou truly work for the good of a race whose ways thou dost not understand?\"", "zh": "「然汝若不明一族之道，又何以真正為其族謀福？」"},
-  {"offset": 2523, "len": 67, "en": "\"Go thou into the @Catacombs of @Control, @Passion and @Diligence.\"", "zh": "「請往@控制、@熱情、@勤勉之@地下墓穴。」"},
-  {"offset": 2593, "len": 99, "en": "\"In each wilt thou find the final resting place of the being who most exemplifies that @principle.\"", "zh": "「於每一處汝將見最足以代表彼@原則之亡者長眠之所。」"},
-  {"offset": 2695, "len": 47, "en": "\"Return when thou hast found these @catacombs.\"", "zh": "「俟汝尋得此諸@墓穴之後再返。」"},
-  {"offset": 2776, "len": 24, "en": "\"Thy answer is foolish.\"", "zh": "「汝答非智者之言。」"},
-  {"offset": 2803, "len": 89, "en": "\"A journey made for selfish reasons can never be a sacred quest, regardless of its goal.\"", "zh": "「為一己之私而行，雖目標崇高，亦終非神聖之追尋。」"},
-  {"offset": 2924, "len": 24, "en": "\"Thy answer is foolish.\"", "zh": "「汝答非智者之言。」"},
-  {"offset": 2951, "len": 84, "en": "\"There is no nobility or honor in betraying one's own race for the sake of another.\"", "zh": "「為他族而背叛己族，無高貴可言，無榮譽可說。」"},
-  {"offset": 3038, "len": 42, "en": "\"Such a path can never be a sacred quest.\"", "zh": "「此道永不能成為神聖之追尋。」"},
-  {"offset": 3111, "len": 24, "en": "\"Thy answer is foolish.\"", "zh": "「汝答非智者之言。」"},
-  {"offset": 3138, "len": 75, "en": "\"Thy compassion is acknowledged, but compassion is not the key to success.\"", "zh": "「汝之慈悲固然可嘉，然慈悲非成事之關鍵。」"},
-  {"offset": 3216, "len": 81, "en": "\"The motive must be as one with the goal for a journey to become a sacred quest.\"", "zh": "「動機須與目標合一，旅程方能成神聖之追尋。」"},
-  {"offset": 3308, "len": 52, "en": "\"Return when thou canst truly answer this question.\"", "zh": "「俟汝真能答此一問之時再返。」"},
-  {"offset": 3365, "len": 24, "en": "\"Thy answer is foolish.\"", "zh": "「汝答非智者之言。」"},
-  {"offset": 3392, "len": 88, "en": "\"Thy mind must be focused clearly on thy path for thy journey to become a sacred quest.\"", "zh": "「汝之心志須清明專一於汝之道，旅程方能成神聖之追尋。」"},
-  {"offset": 3487, "len": 7, "en": "Control", "zh": "控制"},
-  {"offset": 3495, "len": 9, "en": "Diligence", "zh": "勤勉"},
-  {"offset": 3505, "len": 7, "en": "Passion", "zh": "熱情"},
-  {"offset": 3514, "len": 4, "en": "west", "zh": "西"},
-  {"offset": 3519, "len": 5, "en": "south", "zh": "南"},
-  {"offset": 3525, "len": 4, "en": "east", "zh": "東"}
+  {
+   "offset": 2,
+   "len": 11,
+   "en": "Singularity",
+   "zh": "獨一",
+   "note": "魔像族第八德=人類 Humility 對應"
+  },
+  {
+   "offset": 14,
+   "len": 30,
+   "en": "a finely-carved stone pyramid.",
+   "zh": "一座雕工精細之石造金字塔。"
+  },
+  {
+   "offset": 54,
+   "len": 50,
+   "en": "As you face the altar, a voice rings in your head.",
+   "zh": "汝面對此祭壇之時，一個聲音響於汝心識之中。"
+  },
+  {
+   "offset": 107,
+   "len": 66,
+   "en": "You understand it perfectly, but you can't recognize the language!",
+   "zh": "汝盡解其意，卻認不出此乃何種語言！"
+  },
+  {
+   "offset": 180,
+   "len": 65,
+   "en": "\"There is no more wisdom for thee to acquire here, noble Avatar.\"",
+   "zh": "「高貴的聖者，此處再無智慧可授汝。」"
+  },
+  {
+   "offset": 248,
+   "len": 58,
+   "en": "\"Seek the Codex, and may nothing impede thy sacred quest!\"",
+   "zh": "「去尋『知識寶典』吧——願無物阻汝之神聖追尋！」"
+  },
+  {
+   "offset": 317,
+   "len": 53,
+   "en": "\"Hast thou completed thy journey to the @catacombs?\" ",
+   "zh": "「汝可已完成往@catacombs（地）下墓穴之行？」"
+  },
+  {
+   "offset": 376,
+   "len": 36,
+   "en": "\"What is the Mantra of Singularity?\"",
+   "zh": "「『獨一』之真言為何？」"
+  },
+  {
+   "offset": 420,
+   "len": 32,
+   "en": "\"Which catacomb dost thou seek?\"",
+   "zh": "「汝欲尋哪一座墓穴？」"
+  },
+  {
+   "offset": 465,
+   "len": 48,
+   "en": "\"Thy deeds make thee unworthy of enlightenment.\"",
+   "zh": "「汝之行止令汝不配受啟悟。」"
+  },
+  {
+   "offset": 516,
+   "len": 39,
+   "en": "\"Return when thy path is more focused.\"",
+   "zh": "「待汝心專志一之時再來。」"
+  },
+  {
+   "offset": 566,
+   "len": 92,
+   "en": "\"Thou hast far to travel and much to achieve, but thy inner fire will surely guide thy way.\"",
+   "zh": "「汝前路尚遙、所為尚多，然汝心之內火必引汝之路。」"
+  },
+  {
+   "offset": 659,
+   "len": 46,
+   "en": "\"Thou hast far to travel and much to achieve.\"",
+   "zh": "「汝前路尚遙、所為尚多。」"
+  },
+  {
+   "offset": 708,
+   "len": 59,
+   "en": "\"May the wisdom imparted here help purify thy inner flame.\"",
+   "zh": "「願此處所授之智慧助汝淨化內焰。」"
+  },
+  {
+   "offset": 771,
+   "len": 27,
+   "en": "\"What do you seek, Avatar?\"",
+   "zh": "「聖者，汝所求為何？」"
+  },
+  {
+   "offset": 828,
+   "len": 36,
+   "en": "\"What is the Mantra of Singularity?\"",
+   "zh": "「『獨一』之真言為何？」"
+  },
+  {
+   "offset": 871,
+   "len": 52,
+   "en": "\"Look deep inside thyself, Avatar, and answer this:\"",
+   "zh": "「聖者，深察汝之內心，回答此問：」"
+  },
+  {
+   "offset": 925,
+   "len": 42,
+   "en": "\"For whom dost thou truly seek the Codex?\"",
+   "zh": "「汝究竟為誰而尋『知識寶典』？」"
+  },
+  {
+   "offset": 1029,
+   "len": 59,
+   "en": "\"$0 is one of the guiding principles of the gargoyle race.\"",
+   "zh": "「$0 乃魔像族之指引原則之一。」"
+  },
+  {
+   "offset": 1091,
+   "len": 70,
+   "en": "\"Go thou into the @Catacombs of $0, near the coast to the $1 of here.\"",
+   "zh": "「請往$0之@Catacombs（地）下墓穴，於此處$1之海岸附近。」"
+  },
+  {
+   "offset": 1164,
+   "len": 69,
+   "en": "\"There you will find the being who most exemplifies this @principle.\"",
+   "zh": "「彼處汝將遇最足以代表此@principle（原）則之亡者。」"
+  },
+  {
+   "offset": 1249,
+   "len": 103,
+   "en": "\"The three principles of @Control, @Passion and @Diligence form the basis of the gargoyle way of life.\"",
+   "zh": "「@Control（控制）、@Passion（熱情）、@Diligence（勤勉）三原則乃魔像族生命之本。」"
+  },
+  {
+   "offset": 1367,
+   "len": 66,
+   "en": "\"Thou hast reached the Altar of Singularity. What dost thou seek?\"",
+   "zh": "「汝已抵『獨一』之祭壇。汝所求何物？」"
+  },
+  {
+   "offset": 1444,
+   "len": 32,
+   "en": "\"Which catacomb dost thou seek?\"",
+   "zh": "「汝欲尋哪一座墓穴？」"
+  },
+  {
+   "offset": 1486,
+   "len": 55,
+   "en": "The mystic voice falls silent, and you leave the altar.",
+   "zh": "神秘之聲歸於靜默，汝離祭壇而去。"
+  },
+  {
+   "offset": 1553,
+   "len": 36,
+   "en": "\"The answer to that lies elsewhere.\"",
+   "zh": "「彼答案乃在他處。」"
+  },
+  {
+   "offset": 1590,
+   "len": 41,
+   "en": "\"The answer to that lies within thyself.\"",
+   "zh": "「彼答案乃在汝之內心。」"
+  },
+  {
+   "offset": 1656,
+   "len": 47,
+   "en": "\"Let the principle of control guide thy quest.\"",
+   "zh": "「願控制之則引汝之追尋。」"
+  },
+  {
+   "offset": 1706,
+   "len": 47,
+   "en": "\"Let the principle of passion drive thy quest.\"",
+   "zh": "「願熱情之則驅汝之追尋。」"
+  },
+  {
+   "offset": 1756,
+   "len": 52,
+   "en": "\"Let the principle of diligence maintain thy quest.\"",
+   "zh": "「願勤勉之則持汝之追尋。」"
+  },
+  {
+   "offset": 1811,
+   "len": 124,
+   "en": "\"Then wilt thou truly achieve the unified spirit and singularity of purpose that is necessary for success in all endeavors.\"",
+   "zh": "「如此汝方能真正達到精神之合一、志一之獨——萬事成就所必須之境。」"
+  },
+  {
+   "offset": 1938,
+   "len": 54,
+   "en": "\"This is the gargoyle way; let it be thy way as well.\"",
+   "zh": "「此乃魔像族之道；願亦為汝之道。」"
+  },
+  {
+   "offset": 1995,
+   "len": 39,
+   "en": "The altar glows with a cold blue flame.",
+   "zh": "祭壇泛起冷藍之焰。"
+  },
+  {
+   "offset": 2037,
+   "len": 41,
+   "en": "You feel compelled to seek out the Codex.",
+   "zh": "汝感一股莫之能禦之衝動，欲去尋『知識寶典』。"
+  },
+  {
+   "offset": 2081,
+   "len": 27,
+   "en": "Your final quest has begun!",
+   "zh": "汝之終局之旅已然啟程！"
+  },
+  {
+   "offset": 2217,
+   "len": 72,
+   "en": "\"You have not yet become familiar with the wisdom of the gargoyle race.\"",
+   "zh": "「汝尚未通曉魔像族之智慧。」"
+  },
+  {
+   "offset": 2292,
+   "len": 22,
+   "en": "\"Continue thy search.\"",
+   "zh": "「繼續汝之追尋。」"
+  },
+  {
+   "offset": 2322,
+   "len": 57,
+   "en": "\"Think again, Avatar: For whom dost thou seek the Codex?\"",
+   "zh": "「再思之，聖者：汝為誰而尋『知識寶典』？」"
+  },
+  {
+   "offset": 2405,
+   "len": 21,
+   "en": "\"Thy answer is wise.\"",
+   "zh": "「汝答得有智慧。」"
+  },
+  {
+   "offset": 2429,
+   "len": 91,
+   "en": "\"But how canst thou truly work for the good of a race whose ways thou dost not understand?\"",
+   "zh": "「然汝若不明一族之道，又何以真正為其族謀福？」"
+  },
+  {
+   "offset": 2523,
+   "len": 67,
+   "en": "\"Go thou into the @Catacombs of @Control, @Passion and @Diligence.\"",
+   "zh": "「請往@Catacombs（控制）、@Control（熱情）、@Passion（勤勉）之@Diligence（地）下墓穴。」"
+  },
+  {
+   "offset": 2593,
+   "len": 99,
+   "en": "\"In each wilt thou find the final resting place of the being who most exemplifies that @principle.\"",
+   "zh": "「於每一處汝將見最足以代表彼@principle（原）則之亡者長眠之所。」"
+  },
+  {
+   "offset": 2695,
+   "len": 47,
+   "en": "\"Return when thou hast found these @catacombs.\"",
+   "zh": "「俟汝尋得此諸@catacombs（墓穴）之後再返。」"
+  },
+  {
+   "offset": 2776,
+   "len": 24,
+   "en": "\"Thy answer is foolish.\"",
+   "zh": "「汝答非智者之言。」"
+  },
+  {
+   "offset": 2803,
+   "len": 89,
+   "en": "\"A journey made for selfish reasons can never be a sacred quest, regardless of its goal.\"",
+   "zh": "「為一己之私而行，雖目標崇高，亦終非神聖之追尋。」"
+  },
+  {
+   "offset": 2924,
+   "len": 24,
+   "en": "\"Thy answer is foolish.\"",
+   "zh": "「汝答非智者之言。」"
+  },
+  {
+   "offset": 2951,
+   "len": 84,
+   "en": "\"There is no nobility or honor in betraying one's own race for the sake of another.\"",
+   "zh": "「為他族而背叛己族，無高貴可言，無榮譽可說。」"
+  },
+  {
+   "offset": 3038,
+   "len": 42,
+   "en": "\"Such a path can never be a sacred quest.\"",
+   "zh": "「此道永不能成為神聖之追尋。」"
+  },
+  {
+   "offset": 3111,
+   "len": 24,
+   "en": "\"Thy answer is foolish.\"",
+   "zh": "「汝答非智者之言。」"
+  },
+  {
+   "offset": 3138,
+   "len": 75,
+   "en": "\"Thy compassion is acknowledged, but compassion is not the key to success.\"",
+   "zh": "「汝之慈悲固然可嘉，然慈悲非成事之關鍵。」"
+  },
+  {
+   "offset": 3216,
+   "len": 81,
+   "en": "\"The motive must be as one with the goal for a journey to become a sacred quest.\"",
+   "zh": "「動機須與目標合一，旅程方能成神聖之追尋。」"
+  },
+  {
+   "offset": 3308,
+   "len": 52,
+   "en": "\"Return when thou canst truly answer this question.\"",
+   "zh": "「俟汝真能答此一問之時再返。」"
+  },
+  {
+   "offset": 3365,
+   "len": 24,
+   "en": "\"Thy answer is foolish.\"",
+   "zh": "「汝答非智者之言。」"
+  },
+  {
+   "offset": 3392,
+   "len": 88,
+   "en": "\"Thy mind must be focused clearly on thy path for thy journey to become a sacred quest.\"",
+   "zh": "「汝之心志須清明專一於汝之道，旅程方能成神聖之追尋。」"
+  },
+  {
+   "offset": 3487,
+   "len": 7,
+   "en": "Control",
+   "zh": "控制"
+  },
+  {
+   "offset": 3495,
+   "len": 9,
+   "en": "Diligence",
+   "zh": "勤勉"
+  },
+  {
+   "offset": 3505,
+   "len": 7,
+   "en": "Passion",
+   "zh": "熱情"
+  },
+  {
+   "offset": 3514,
+   "len": 4,
+   "en": "west",
+   "zh": "西"
+  },
+  {
+   "offset": 3519,
+   "len": 5,
+   "en": "south",
+   "zh": "南"
+  },
+  {
+   "offset": 3525,
+   "len": 4,
+   "en": "east",
+   "zh": "東"
+  }
  ],
  "glossary_additions": {
   "concepts": {
    "Singularity": "獨一",
-   "Codex": "守則之書",
-   "Codex of Ultimate Wisdom": "終極智慧守則之書",
+   "Codex": "知識寶典",
+   "Codex of Ultimate Wisdom": "終極智慧之寶典",
    "Control": "控制",
    "Passion": "熱情",
    "Diligence": "勤勉",
@@ -76,5 +377,5 @@
    "principles of the gargoyle race": "魔像族之原則"
   }
  },
- "translator_notes": "★ U6 劇情核心 NPC：魔像族 Altar of Singularity，劇情倒轉之鍵。Singularity = 魔像族第八德（對應人類 Humility），譯『獨一』取『精神合一、志一之獨』之意，呼應結局『動機與目標合一』。三大原則 Control/Passion/Diligence 譯『控制/熱情/勤勉』為一致定譯。Codex 譯『守則之書』保留古籍感，全句『Codex of Ultimate Wisdom』譯『終極智慧守則之書』。對話展開 quiz：為誰而尋 Codex，唯有 both/our/peac/all/ever（為兩族和平）才算智答。"
+ "translator_notes": "★ U6 劇情核心 NPC：魔像族 Altar of Singularity，劇情倒轉之鍵。Singularity = 魔像族第八德（對應人類 Humility），譯『獨一』取『精神合一、志一之獨』之意，呼應結局『動機與目標合一』。三大原則 Control/Passion/Diligence 譯『控制/熱情/勤勉』為一致定譯。Codex 譯『知識寶典』保留古籍感，全句『Codex of Ultimate Wisdom』譯『終極智慧之寶典』。對話展開 quiz：為誰而尋 Codex，唯有 both/our/peac/all/ever（為兩族和平）才算智答。"
 }

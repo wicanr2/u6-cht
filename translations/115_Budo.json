@@ -1,79 +1,436 @@
 {
  "translations": [
-  {"offset": 1, "len": 5, "en": "sBudo", "zh": "布多"},
-  {"offset": 7, "len": 26, "en": "a chubby, jovial merchant.", "zh": "一個圓胖開朗的商人。"},
-  {"offset": 35, "len": 10, "en": "\"Good $T! ", "zh": "「$T 安！"},
-  {"offset": 63, "len": 60, "en": "I bet you've come back to pick up that @orrery you ordered.\"", "zh": "我猜汝是來取訂下的那座@渾天儀吧。」"},
-  {"offset": 135, "len": 87, "en": "\"Don't be ridiculous! This is the first time we've ever been in your shop!\" says Dupre.", "zh": "「胡說！我等乃首次踏入汝店！」杜普雷道。"},
-  {"offset": 229, "len": 65, "en": "\"Oh, I'm sorry. I must have thought you were somebody you aren't.", "zh": "「噢，抱歉。我必是把汝錯認為他人。"},
-  {"offset": 297, "len": 36, "en": "\"I'm afraid it still hasn't arrived.", "zh": "「恐怕貨還未到。"},
-  {"offset": 338, "len": 36, "en": "\"Do you need to buy some supplies?\" ", "zh": "「汝需採購何物嗎？」"},
-  {"offset": 380, "len": 89, "en": "\"Which, @torches, @oil, @lockpicks, @gems, @backpacks, @bags, @shovels, or @powder kegs?\"", "zh": "「@火把、@油、@撬鎖工具、@寶石、@背包、@袋子、@鏟子，還是@火藥桶？」"},
-  {"offset": 477, "len": 48, "en": "\"Then it must be Thursday--or possibly Tuesday.\"", "zh": "「那今日定是週四——或者週二。」"},
-  {"offset": 528, "len": 44, "en": "\"I never seem to sell anything on Tuesdays.\"", "zh": "「週二我向來賣不出東西。」"},
-  {"offset": 577, "len": 24, "en": "\"What can I do you for?\"", "zh": "「能為汝效何勞？」"},
-  {"offset": 609, "len": 58, "en": "\"Why, it's Budo, I believe. That's what it was last week.\"", "zh": "「嗯，叫布多，我想。上週是這名。」"},
-  {"offset": 670, "len": 60, "en": "\"Some call me 'the @Den', but I don't think that's my name.\"", "zh": "「也有人喚我『@老巢』，不過我想那不是我之名。」"},
-  {"offset": 740, "len": 48, "en": "\"I think someone told me that was @Nick's name.\"", "zh": "「有人說過那是@尼克之名。」"},
-  {"offset": 799, "len": 29, "en": "\"I've never met him, myself.\"", "zh": "「我自己倒從未見過他。」"},
-  {"offset": 839, "len": 53, "en": "\"I don't know what it is, but I've got one on order.\"", "zh": "「我不知那玩意兒究竟是甚，總之訂了一座。」"},
-  {"offset": 902, "len": 27, "en": "\"Oh, I sell this and that.\"", "zh": "「噢，我這賣賣那賣賣。」"},
-  {"offset": 932, "len": 69, "en": "\"I'm not sure what 'this' and 'that' are, but I @sell a lot of them!\"", "zh": "「我也說不準『這個』『那個』究竟是甚，但我@賣得可多了！」"},
-  {"offset": 1004, "len": 42, "en": "\"People give me @money for them, that is.\"", "zh": "「人們以@金幣易之。」"},
-  {"offset": 1057, "len": 67, "en": "\"It's not as sweet as @honey, but you can trade one for the other.\"", "zh": "「金幣雖不如@蜜之甘，卻可互易。」"},
-  {"offset": 1140, "len": 15, "en": "\"I like honey.\"", "zh": "「我喜歡蜂蜜。」"},
-  {"offset": 1183, "len": 73, "en": "\"To keep the guild safe, each member only knows the names of two others.\"", "zh": "「為保公會周全，每員只識另外二人之名。」"},
-  {"offset": 1259, "len": 79, "en": "\"You're safer not knowing more about the guild than you have to, believe me...\"", "zh": "「相信我，關於公會，知道得越少，越安全……」"},
-  {"offset": 1355, "len": 64, "en": "He glances about quickly, to make sure nobody else is listening.", "zh": "他迅速環顧四周，確認無他人偷聽。"},
-  {"offset": 1422, "len": 68, "en": "In a low voice he says, \"Congratulations, and welcome to the guild.\"", "zh": "低聲道：「恭喜，歡迎加入公會。」"},
-  {"offset": 1493, "len": 69, "en": "\"I can offer you the standard member's discount on all supplies now.\"", "zh": "「自此汝可享一切貨品之會員折扣。」"},
-  {"offset": 1565, "len": 69, "en": "\"Just remember, whatever you do, don't tell anyone about our @guild!\"", "zh": "「謹記：無論如何，莫向任何人提及我等@公會！」"},
-  {"offset": 1647, "len": 43, "en": "A startling change comes over his features.", "zh": "他面色驟然一變。"},
-  {"offset": 1693, "len": 121, "en": "Suddenly the good-natured bumbler that stood before you has been transformed into a shrewd, sharp, dangerous looking man.", "zh": "方才在汝面前那笨拙好心人，剎那間化為精明銳利、形貌兇險之徒。"},
-  {"offset": 1817, "len": 75, "en": "He leans forward staring straight into your eyes as he asks \"Who sent you?\"", "zh": "他傾身向前，目光直射汝瞳：「誰派汝來？」"},
-  {"offset": 1895, "len": 43, "en": "\"Uh-huh. Well... Were you hoping to join?\" ", "zh": "「嗯哼。那……汝欲加入嗎？」"},
-  {"offset": 1963, "len": 90, "en": "\"Which, @torches, @oil, @lockpicks, @gems, @backpacks, @bags, @shovels, or @powder @kegs?\"", "zh": "「@火把、@油、@撬鎖工具、@寶石、@背包、@袋子、@鏟子，還是@火藥@桶？」"},
-  {"offset": 2216, "len": 75, "en": "He winks at you. \"The guild is behind you, as long as you keep our secret.\"", "zh": "他朝汝眨眼。「只要守住秘密，公會便是汝的後盾。」"},
-  {"offset": 2293, "len": 16, "en": "\"Ta ta for now.\"", "zh": "「先這樣，再會。」"},
-  {"offset": 2315, "len": 93, "en": "\"$Z? It seems to me I knew something about that, but I'm having trouble with my remembering.\"", "zh": "「$Z？我隱約記得這事，惜記性不佳。」"},
-  {"offset": 2420, "len": 52, "en": "He leans even closer, transfixing you with his gaze.", "zh": "他傾得更近，目光釘住汝身。"},
-  {"offset": 2475, "len": 82, "en": "\"Then just remember this. I don't take kindly to anyone spreading secrets around.\"", "zh": "「那汝謹記此言。我向來不喜任何人四處走漏秘密。」"},
-  {"offset": 2560, "len": 65, "en": "\"If you were to tell anyone I'm involved with the guild, well...\"", "zh": "「若汝告訴任何人我與公會有涉，嗯……」"},
-  {"offset": 2628, "len": 65, "en": "\"Let's just say accidents can happen to anyone--even the Avatar.\"", "zh": "「不妨這麼說：任誰皆有可能出意外——縱使聖者亦然。」"},
-  {"offset": 2696, "len": 25, "en": "\"Now get out of my shop.\"", "zh": "「立刻滾出我店。」"},
-  {"offset": 2726, "len": 55, "en": "\"All right, maybe you've got what it takes. We'll see.\"", "zh": "「好吧，汝或許具備條件。日後便知。」"},
-  {"offset": 2784, "len": 70, "en": "\"To be a member of the thieves' guild, you have to get your own belt.\"", "zh": "「欲成盜賊公會之員，須得自己掙來一條腰帶。」"},
-  {"offset": 2857, "len": 79, "en": "\"Now we have a limited membership, so there's only so many belts in the world.\"", "zh": "「公會員額有限，故世間腰帶數亦有定數。」"},
-  {"offset": 2939, "len": 70, "en": "\"If you want one of them, you have to 'retire' a member of the guild.\"", "zh": "「汝若想得其一，須令一名公會成員『退休』。」"},
-  {"offset": 3012, "len": 82, "en": "\"Lucky for you, it just happens there's a member we'd like to see 'retired' soon.\"", "zh": "「汝運氣不錯，正巧我等想令某員早日『退休』。」"},
-  {"offset": 3097, "len": 97, "en": "\"Her hideout is deep below Britain, in the sewers. You'd best watch out for the rats down there!\"", "zh": "「她窩在不列顛城下水道深處。下去小心鼠輩！」"},
-  {"offset": 3197, "len": 21, "en": "\"One last thing... It", "zh": "「最後一事……此"},
-  {"offset": 3219, "len": 81, "en": "would be an embarassment for the guild to have bodies turning up inconveniently.\"", "zh": "若屍體出現於不該之處，將令公會難堪。」"},
-  {"offset": 3303, "len": 46, "en": "\"So don't get too violent unless you have to.\"", "zh": "「非必要莫過於凶殘。」"},
-  {"offset": 3352, "len": 37, "en": "\"I'll talk to you when you get back.\"", "zh": "「汝回來時再說。」"},
-  {"offset": 3593, "len": 6, "en": "#1. $Y", "zh": "#1。$Y"},
-  {"offset": 3633, "len": 16, "en": "\"Which of you?\" ", "zh": "「哪一位？」"},
-  {"offset": 3772, "len": 76, "en": "$N looks at $Y, \"It'll cost you #0 gold for each $0, how many do you want?\" ", "zh": "$N 看著 $Y：「每 $0 需 #0 金，汝欲幾何？」"},
-  {"offset": 3858, "len": 49, "en": "\"Come now, that's a little much don't you think?\"", "zh": "「拜託，這數目未免太多了吧？」"},
-  {"offset": 3923, "len": 41, "en": "$N frowns at $Y, \"That was a good price.\"", "zh": "$N 對 $Y 蹙眉：「那已是好價了。」"},
-  {"offset": 4131, "len": 52, "en": "$N looks at $Y. \"You haven't any room in your pack.\"", "zh": "$N 看 $Y：「汝包裡已無位置。」"},
-  {"offset": 4219, "len": 46, "en": "\"I think you have less gold than you thought.\"", "zh": "「我看汝金幣比汝想的還少。」"},
-  {"offset": 4341, "len": 21, "en": "He hands $Y #2 $0\\s. ", "zh": "他遞給 $Y #2 個 $0\\s。"},
-  {"offset": 4427, "len": 5, "en": "Torch", "zh": "火把"},
-  {"offset": 4433, "len": 3, "en": "Oil", "zh": "油"},
-  {"offset": 4437, "len": 8, "en": "Lockpick", "zh": "撬鎖工具"},
-  {"offset": 4446, "len": 3, "en": "Gem", "zh": "寶石"},
-  {"offset": 4450, "len": 8, "en": "Backpack", "zh": "背包"},
-  {"offset": 4459, "len": 3, "en": "Bag", "zh": "袋子"},
-  {"offset": 4463, "len": 6, "en": "Shovel", "zh": "鏟子"},
-  {"offset": 4470, "len": 10, "en": "Powder Keg", "zh": "火藥桶"},
-  {"offset": 4481, "len": 15, "en": "\"There you go.\"", "zh": "「拿去吧。」"},
-  {"offset": 4497, "len": 27, "en": "\"That's all you can carry.\"", "zh": "「汝至多只能帶這些。」"},
-  {"offset": 4525, "len": 28, "en": "\"That's all you can afford.\"", "zh": "「汝錢只夠這些。」"}
+  {
+   "offset": 1,
+   "len": 5,
+   "en": "sBudo",
+   "zh": "布多"
+  },
+  {
+   "offset": 7,
+   "len": 26,
+   "en": "a chubby, jovial merchant.",
+   "zh": "一個圓胖開朗的商人。"
+  },
+  {
+   "offset": 35,
+   "len": 10,
+   "en": "\"Good $T! ",
+   "zh": "「$T 安！"
+  },
+  {
+   "offset": 63,
+   "len": 60,
+   "en": "I bet you've come back to pick up that @orrery you ordered.\"",
+   "zh": "我猜汝是來取訂下的那座@orrery（渾天）儀吧。」"
+  },
+  {
+   "offset": 135,
+   "len": 87,
+   "en": "\"Don't be ridiculous! This is the first time we've ever been in your shop!\" says Dupre.",
+   "zh": "「胡說！我等乃首次踏入汝店！」杜普雷道。"
+  },
+  {
+   "offset": 229,
+   "len": 65,
+   "en": "\"Oh, I'm sorry. I must have thought you were somebody you aren't.",
+   "zh": "「噢，抱歉。我必是把汝錯認為他人。"
+  },
+  {
+   "offset": 297,
+   "len": 36,
+   "en": "\"I'm afraid it still hasn't arrived.",
+   "zh": "「恐怕貨還未到。"
+  },
+  {
+   "offset": 338,
+   "len": 36,
+   "en": "\"Do you need to buy some supplies?\" ",
+   "zh": "「汝需採購何物嗎？」"
+  },
+  {
+   "offset": 380,
+   "len": 89,
+   "en": "\"Which, @torches, @oil, @lockpicks, @gems, @backpacks, @bags, @shovels, or @powder kegs?\"",
+   "zh": "「@torches（火把）、@oil（油）、@lockpicks（撬鎖）工具、@gems（寶石）、@backpacks（背包）、@bags（袋子）、@shovels（鏟子），還是@powder（火藥）桶？」"
+  },
+  {
+   "offset": 477,
+   "len": 48,
+   "en": "\"Then it must be Thursday--or possibly Tuesday.\"",
+   "zh": "「那今日定是週四——或者週二。」"
+  },
+  {
+   "offset": 528,
+   "len": 44,
+   "en": "\"I never seem to sell anything on Tuesdays.\"",
+   "zh": "「週二我向來賣不出東西。」"
+  },
+  {
+   "offset": 577,
+   "len": 24,
+   "en": "\"What can I do you for?\"",
+   "zh": "「能為汝效何勞？」"
+  },
+  {
+   "offset": 609,
+   "len": 58,
+   "en": "\"Why, it's Budo, I believe. That's what it was last week.\"",
+   "zh": "「嗯，叫布多，我想。上週是這名。」"
+  },
+  {
+   "offset": 670,
+   "len": 60,
+   "en": "\"Some call me 'the @Den', but I don't think that's my name.\"",
+   "zh": "「也有人喚我『@Den（老巢）』，不過我想那不是我之名。」"
+  },
+  {
+   "offset": 740,
+   "len": 48,
+   "en": "\"I think someone told me that was @Nick's name.\"",
+   "zh": "「有人說過那是@Nick（尼克）之名。」"
+  },
+  {
+   "offset": 799,
+   "len": 29,
+   "en": "\"I've never met him, myself.\"",
+   "zh": "「我自己倒從未見過他。」"
+  },
+  {
+   "offset": 839,
+   "len": 53,
+   "en": "\"I don't know what it is, but I've got one on order.\"",
+   "zh": "「我不知那玩意兒究竟是甚，總之訂了一座。」"
+  },
+  {
+   "offset": 902,
+   "len": 27,
+   "en": "\"Oh, I sell this and that.\"",
+   "zh": "「噢，我這賣賣那賣賣。」"
+  },
+  {
+   "offset": 932,
+   "len": 69,
+   "en": "\"I'm not sure what 'this' and 'that' are, but I @sell a lot of them!\"",
+   "zh": "「我也說不準『這個』『那個』究竟是甚，但我@sell（賣）可多了！」"
+  },
+  {
+   "offset": 1004,
+   "len": 42,
+   "en": "\"People give me @money for them, that is.\"",
+   "zh": "「人們以@money（金幣）易之。」"
+  },
+  {
+   "offset": 1057,
+   "len": 67,
+   "en": "\"It's not as sweet as @honey, but you can trade one for the other.\"",
+   "zh": "「金幣雖不如@honey（蜜）之甘，卻可互易。」"
+  },
+  {
+   "offset": 1140,
+   "len": 15,
+   "en": "\"I like honey.\"",
+   "zh": "「我喜歡蜂蜜。」"
+  },
+  {
+   "offset": 1183,
+   "len": 73,
+   "en": "\"To keep the guild safe, each member only knows the names of two others.\"",
+   "zh": "「為保公會周全，每員只識另外二人之名。」"
+  },
+  {
+   "offset": 1259,
+   "len": 79,
+   "en": "\"You're safer not knowing more about the guild than you have to, believe me...\"",
+   "zh": "「相信我，關於公會，知道得越少，越安全……」"
+  },
+  {
+   "offset": 1355,
+   "len": 64,
+   "en": "He glances about quickly, to make sure nobody else is listening.",
+   "zh": "他迅速環顧四周，確認無他人偷聽。"
+  },
+  {
+   "offset": 1422,
+   "len": 68,
+   "en": "In a low voice he says, \"Congratulations, and welcome to the guild.\"",
+   "zh": "低聲道：「恭喜，歡迎加入公會。」"
+  },
+  {
+   "offset": 1493,
+   "len": 69,
+   "en": "\"I can offer you the standard member's discount on all supplies now.\"",
+   "zh": "「自此汝可享一切貨品之會員折扣。」"
+  },
+  {
+   "offset": 1565,
+   "len": 69,
+   "en": "\"Just remember, whatever you do, don't tell anyone about our @guild!\"",
+   "zh": "「謹記：無論如何，莫向任何人提及我等@guild（公會）！」"
+  },
+  {
+   "offset": 1647,
+   "len": 43,
+   "en": "A startling change comes over his features.",
+   "zh": "他面色驟然一變。"
+  },
+  {
+   "offset": 1693,
+   "len": 121,
+   "en": "Suddenly the good-natured bumbler that stood before you has been transformed into a shrewd, sharp, dangerous looking man.",
+   "zh": "方才在汝面前那笨拙好心人，剎那間化為精明銳利、形貌兇險之徒。"
+  },
+  {
+   "offset": 1817,
+   "len": 75,
+   "en": "He leans forward staring straight into your eyes as he asks \"Who sent you?\"",
+   "zh": "他傾身向前，目光直射汝瞳：「誰派汝來？」"
+  },
+  {
+   "offset": 1895,
+   "len": 43,
+   "en": "\"Uh-huh. Well... Were you hoping to join?\" ",
+   "zh": "「嗯哼。那……汝欲加入嗎？」"
+  },
+  {
+   "offset": 1963,
+   "len": 90,
+   "en": "\"Which, @torches, @oil, @lockpicks, @gems, @backpacks, @bags, @shovels, or @powder @kegs?\"",
+   "zh": "「@torches（火把）、@oil（油）、@lockpicks（撬鎖）工具、@gems（寶石）、@backpacks（背包）、@bags（袋子）、@shovels（鏟子），還是@powder（火藥）@kegs（桶）？」"
+  },
+  {
+   "offset": 2216,
+   "len": 75,
+   "en": "He winks at you. \"The guild is behind you, as long as you keep our secret.\"",
+   "zh": "他朝汝眨眼。「只要守住秘密，公會便是汝的後盾。」"
+  },
+  {
+   "offset": 2293,
+   "len": 16,
+   "en": "\"Ta ta for now.\"",
+   "zh": "「先這樣，再會。」"
+  },
+  {
+   "offset": 2315,
+   "len": 93,
+   "en": "\"$Z? It seems to me I knew something about that, but I'm having trouble with my remembering.\"",
+   "zh": "「$Z？我隱約記得這事，惜記性不佳。」"
+  },
+  {
+   "offset": 2420,
+   "len": 52,
+   "en": "He leans even closer, transfixing you with his gaze.",
+   "zh": "他傾得更近，目光釘住汝身。"
+  },
+  {
+   "offset": 2475,
+   "len": 82,
+   "en": "\"Then just remember this. I don't take kindly to anyone spreading secrets around.\"",
+   "zh": "「那汝謹記此言。我向來不喜任何人四處走漏秘密。」"
+  },
+  {
+   "offset": 2560,
+   "len": 65,
+   "en": "\"If you were to tell anyone I'm involved with the guild, well...\"",
+   "zh": "「若汝告訴任何人我與公會有涉，嗯……」"
+  },
+  {
+   "offset": 2628,
+   "len": 65,
+   "en": "\"Let's just say accidents can happen to anyone--even the Avatar.\"",
+   "zh": "「不妨這麼說：任誰皆有可能出意外——縱使聖者亦然。」"
+  },
+  {
+   "offset": 2696,
+   "len": 25,
+   "en": "\"Now get out of my shop.\"",
+   "zh": "「立刻滾出我店。」"
+  },
+  {
+   "offset": 2726,
+   "len": 55,
+   "en": "\"All right, maybe you've got what it takes. We'll see.\"",
+   "zh": "「好吧，汝或許具備條件。日後便知。」"
+  },
+  {
+   "offset": 2784,
+   "len": 70,
+   "en": "\"To be a member of the thieves' guild, you have to get your own belt.\"",
+   "zh": "「欲成盜賊公會之員，須得自己掙來一條腰帶。」"
+  },
+  {
+   "offset": 2857,
+   "len": 79,
+   "en": "\"Now we have a limited membership, so there's only so many belts in the world.\"",
+   "zh": "「公會員額有限，故世間腰帶數亦有定數。」"
+  },
+  {
+   "offset": 2939,
+   "len": 70,
+   "en": "\"If you want one of them, you have to 'retire' a member of the guild.\"",
+   "zh": "「汝若想得其一，須令一名公會成員『退休』。」"
+  },
+  {
+   "offset": 3012,
+   "len": 82,
+   "en": "\"Lucky for you, it just happens there's a member we'd like to see 'retired' soon.\"",
+   "zh": "「汝運氣不錯，正巧我等想令某員早日『退休』。」"
+  },
+  {
+   "offset": 3097,
+   "len": 97,
+   "en": "\"Her hideout is deep below Britain, in the sewers. You'd best watch out for the rats down there!\"",
+   "zh": "「她窩在不列顛城下水道深處。下去小心鼠輩！」"
+  },
+  {
+   "offset": 3197,
+   "len": 21,
+   "en": "\"One last thing... It",
+   "zh": "「最後一事……此"
+  },
+  {
+   "offset": 3219,
+   "len": 81,
+   "en": "would be an embarassment for the guild to have bodies turning up inconveniently.\"",
+   "zh": "若屍體出現於不該之處，將令公會難堪。」"
+  },
+  {
+   "offset": 3303,
+   "len": 46,
+   "en": "\"So don't get too violent unless you have to.\"",
+   "zh": "「非必要莫過於凶殘。」"
+  },
+  {
+   "offset": 3352,
+   "len": 37,
+   "en": "\"I'll talk to you when you get back.\"",
+   "zh": "「汝回來時再說。」"
+  },
+  {
+   "offset": 3593,
+   "len": 6,
+   "en": "#1. $Y",
+   "zh": "#1。$Y"
+  },
+  {
+   "offset": 3633,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「哪一位？」"
+  },
+  {
+   "offset": 3772,
+   "len": 76,
+   "en": "$N looks at $Y, \"It'll cost you #0 gold for each $0, how many do you want?\" ",
+   "zh": "$N 看著 $Y：「每 $0 需 #0 金，汝欲幾何？」"
+  },
+  {
+   "offset": 3858,
+   "len": 49,
+   "en": "\"Come now, that's a little much don't you think?\"",
+   "zh": "「拜託，這數目未免太多了吧？」"
+  },
+  {
+   "offset": 3923,
+   "len": 41,
+   "en": "$N frowns at $Y, \"That was a good price.\"",
+   "zh": "$N 對 $Y 蹙眉：「那已是好價了。」"
+  },
+  {
+   "offset": 4131,
+   "len": 52,
+   "en": "$N looks at $Y. \"You haven't any room in your pack.\"",
+   "zh": "$N 看 $Y：「汝包裡已無位置。」"
+  },
+  {
+   "offset": 4219,
+   "len": 46,
+   "en": "\"I think you have less gold than you thought.\"",
+   "zh": "「我看汝金幣比汝想的還少。」"
+  },
+  {
+   "offset": 4341,
+   "len": 21,
+   "en": "He hands $Y #2 $0\\s. ",
+   "zh": "他遞給 $Y #2 個 $0\\s。"
+  },
+  {
+   "offset": 4427,
+   "len": 5,
+   "en": "Torch",
+   "zh": "火把"
+  },
+  {
+   "offset": 4433,
+   "len": 3,
+   "en": "Oil",
+   "zh": "油"
+  },
+  {
+   "offset": 4437,
+   "len": 8,
+   "en": "Lockpick",
+   "zh": "撬鎖工具"
+  },
+  {
+   "offset": 4446,
+   "len": 3,
+   "en": "Gem",
+   "zh": "寶石"
+  },
+  {
+   "offset": 4450,
+   "len": 8,
+   "en": "Backpack",
+   "zh": "背包"
+  },
+  {
+   "offset": 4459,
+   "len": 3,
+   "en": "Bag",
+   "zh": "袋子"
+  },
+  {
+   "offset": 4463,
+   "len": 6,
+   "en": "Shovel",
+   "zh": "鏟子"
+  },
+  {
+   "offset": 4470,
+   "len": 10,
+   "en": "Powder Keg",
+   "zh": "火藥桶"
+  },
+  {
+   "offset": 4481,
+   "len": 15,
+   "en": "\"There you go.\"",
+   "zh": "「拿去吧。」"
+  },
+  {
+   "offset": 4497,
+   "len": 27,
+   "en": "\"That's all you can carry.\"",
+   "zh": "「汝至多只能帶這些。」"
+  },
+  {
+   "offset": 4525,
+   "len": 28,
+   "en": "\"That's all you can afford.\"",
+   "zh": "「汝錢只夠這些。」"
+  }
  ],
  "glossary_additions": {
-  "people": {"Budo": "布多", "the Den": "老巢", "Nick": "尼克"},
-  "concepts": {"thieves' guild": "盜賊公會", "orrery": "渾天儀"}
+  "people": {
+   "Budo": "布多",
+   "the Den": "老巢",
+   "Nick": "尼克"
+  },
+  "concepts": {
+   "thieves' guild": "盜賊公會",
+   "orrery": "渾天儀"
+  }
  },
  "translator_notes": "Budo = 海盜窟商店主，盜賊公會聯絡人。雙面角色：表面糊塗商人，私下兇狠公會幹部。對話前後反差是表演關鍵。"
 }

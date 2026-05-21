@@ -25,28 +25,28 @@
    "offset": 118,
    "len": 34,
    "en": ". Here for @lodging this fine $T?\"",
-   "zh": "。此$T是來投宿@旅店嗎？」",
+   "zh": "。此$T是來投宿@lodging（旅店）嗎？」",
    "note": "fragment"
   },
   {
    "offset": 160,
    "len": 49,
    "en": "\"@Timothy.\" He flashes a friendly smile and nods.",
-   "zh": "「@提默。」他閃現一個友好的微笑，點點頭。",
+   "zh": "「@Timothy（提默）。」他閃現一個友好的微笑，點點頭。",
    "note": ""
   },
   {
    "offset": 227,
    "len": 48,
    "en": "\"I'm named after my @uncle. He was a kind soul.\"",
-   "zh": "「在下是以在下的@叔父命名的，他是個善良的人。」",
+   "zh": "「在下是以在下的@uncle（叔父）命名的，他是個善良的人。」",
    "note": ""
   },
   {
    "offset": 287,
    "len": 72,
    "en": "\"Sir Timothy Enders Daverstock. He was a famous @knight in these parts.\"",
-   "zh": "「提默·安德斯·戴沃斯托克爵士，他是此地一位著名的@騎士。」",
+   "zh": "「提默·安德斯·戴沃斯托克爵士，他是此地一位著名的@knight（騎士）。」",
    "note": ""
   },
   {
@@ -60,14 +60,14 @@
    "offset": 465,
    "len": 29,
    "en": "\"Maybe you want a @room, eh?\"",
-   "zh": "「或許汝想要一間@客房，是嗎？」",
+   "zh": "「或許汝想要一間@room（客房），是嗎？」",
    "note": ""
   },
   {
    "offset": 535,
    "len": 54,
    "en": "\"He is perhaps best known for his courage in @battle.\"",
-   "zh": "「他或許以在@戰場上的勇氣最為人稱道。」",
+   "zh": "「他或許以在@battle（戰場）上的勇氣最為人稱道。」",
    "note": ""
   },
   {

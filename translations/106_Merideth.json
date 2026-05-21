@@ -32,14 +32,14 @@
    "offset": 218,
    "len": 28,
    "en": "\"@Merideth Cassandra Lamby!\"",
-   "zh": "「@梅蕾蒂絲·卡珊卓·藍比！」",
+   "zh": "「@Merideth（梅蕾）蒂絲·卡珊卓·藍比！」",
    "note": ""
   },
   {
    "offset": 274,
    "len": 33,
    "en": "\"I'm named after my great @aunt.\"",
-   "zh": "「在下是以偉大的@姑婆命名的。」",
+   "zh": "「在下是以偉大的@aunt（姑婆）命名的。」",
    "note": ""
   },
   {
@@ -53,7 +53,7 @@
    "offset": 356,
    "len": 50,
    "en": "\"Oh, I don't work. My @Memah can help you though.\"",
-   "zh": "「哦，在下不工作，但在下的@麻麻可以幫汝。」",
+   "zh": "「哦，在下不工作，但在下的@Memah（麻麻）可以幫汝。」",
    "note": "Memah=小女孩對祖母的稱呼"
   },
   {

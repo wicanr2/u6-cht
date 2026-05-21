@@ -32,7 +32,7 @@
    "offset": 194,
    "len": 37,
    "en": "\"Command me to @join and I will, $G.\"",
-   "zh": "「$G，請命令在下@加入，在下即從命。」",
+   "zh": "「$G，請命令在下@join（加入），在下即從命。」",
    "note": ""
   },
   {
@@ -74,7 +74,7 @@
    "offset": 576,
    "len": 59,
    "en": "\"Hast thou returned to save our land from the @gargoyles?\" ",
-   "zh": "「汝是否歸來拯救我等之地免受@魔像族侵擾？」",
+   "zh": "「汝是否歸來拯救我等之地免受@gargoyles（魔像）族侵擾？」",
    "note": ""
   },
   {
@@ -130,7 +130,7 @@
    "offset": 1068,
    "len": 63,
    "en": "\"If thou wouldst have me @join thy quest, thou needst but ask.\"",
-   "zh": "「若汝欲在下@加入汝的使命，只需開口相告即可。」",
+   "zh": "「若汝欲在下@join（加入）汝的使命，只需開口相告即可。」",
    "note": ""
   },
   {

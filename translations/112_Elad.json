@@ -39,14 +39,14 @@
    "offset": 365,
    "len": 85,
    "en": "He looks at you uneasily. \"I'm @Captain Elad. Not that it's any business of yours...\"",
-   "zh": "他不安地看著汝。「在下是@伊拉德船長，不過這與汝無關……」",
+   "zh": "他不安地看著汝。「在下是@Captain（伊拉）德船長，不過這與汝無關……」",
    "note": ""
   },
   {
    "offset": 466,
    "len": 56,
    "en": "\"I was Captain of the Theodosia Marie--until she @sank.\"",
-   "zh": "「在下曾是狄奧多西亞·瑪麗號的船長——直到她@沉沒。」",
+   "zh": "「在下曾是狄奧多西亞·瑪麗號的船長——直到她@sank（沉沒）。」",
    "note": ""
   },
   {
@@ -88,21 +88,21 @@
    "offset": 964,
    "len": 109,
    "en": "\"Aye, 'twas a terrible ordeal. We were sailing just off @Bordermarch when the whole island started @shaking.\"",
-   "zh": "「是的，那真是一場可怕的災難。我們正在@邊境地附近航行，整個島嶼突然開始@震動。」",
+   "zh": "「是的，那真是一場可怕的災難。我們正在@Bordermarch（邊境）地附近航行，整個島嶼突然開始@shaking（震動）。」",
    "note": ""
   },
   {
    "offset": 1076,
    "len": 61,
    "en": "\"Must have been one of those @earthquakes we've been having.\"",
-   "zh": "「必定是近來接連發生的@地震之一。」",
+   "zh": "「必定是近來接連發生的@earthquakes（地震）之一。」",
    "note": ""
   },
   {
    "offset": 1183,
    "len": 98,
    "en": "\"The whole island sank beneath the waves. We were caught in the huge @whirlpool left in its wake.\"",
-   "zh": "「整個島嶼沉入波濤之下，我們陷入了它留下的巨大@旋渦之中。」",
+   "zh": "「整個島嶼沉入波濤之下，我們陷入了它留下的巨大@whirlpool（旋渦）之中。」",
    "note": ""
   },
   {
@@ -123,14 +123,14 @@
    "offset": 1499,
    "len": 93,
    "en": "\"A fair sized island, and now she's gone! Some o' them @earthquakes have been mighty fierce.\"",
-   "zh": "「一個相當大的島嶼，如今消失了！那些@地震中有幾次猛烈異常。」",
+   "zh": "「一個相當大的島嶼，如今消失了！那些@earthquakes（地震）中有幾次猛烈異常。」",
    "note": ""
   },
   {
    "offset": 1608,
    "len": 78,
    "en": "\"Yes, they started soon after Lord @British was @rescued from the underworld.\"",
-   "zh": "「是的，那些地震在不列顛@王從地下世界獲@救後不久就開始了。」",
+   "zh": "「是的，那些地震在不列顛@British（王）從地下世界獲@rescued（救）後不久就開始了。」",
    "note": ""
   },
   {
@@ -172,21 +172,21 @@
    "offset": 2079,
    "len": 60,
    "en": "\"You don't hear much about the @virtues in a pirate town...\"",
-   "zh": "「在海盜鎮上，關於@美德的話題是聽不到多少的……」",
+   "zh": "「在海盜鎮上，關於@virtues（美德）的話題是聽不到多少的……」",
    "note": ""
   },
   {
    "offset": 2164,
    "len": 82,
    "en": "\"I could use more virtue in me life. I've just given up @drinking, to start with.\"",
-   "zh": "「在下生命中需要更多美德，先從戒@飲酒做起。」",
+   "zh": "「在下生命中需要更多美德，先從戒@drinking（飲酒）做起。」",
    "note": ""
   },
   {
    "offset": 2257,
    "len": 32,
    "en": "\"Aye, 'tis quite a @temptation.\"",
-   "zh": "「是的，這是相當大的@誘惑。」",
+   "zh": "「是的，這是相當大的@temptation（誘惑）。」",
    "note": ""
   },
   {
@@ -221,7 +221,7 @@
    "offset": 2545,
    "len": 55,
    "en": "\"I was wondering--do you know the @Mantra of Honesty?\" ",
-   "zh": "「在下在想——汝可知道@誠實真言？」",
+   "zh": "「在下在想——汝可知道@Mantra（真言）真言？」",
    "note": ""
   },
   {

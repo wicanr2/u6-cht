@@ -1,131 +1,131 @@
 {
-  "translations": [
-    {
-      "offset": 11,
-      "len": 85,
-      "en": "a man who looks very amused--whether with his surroundings or himself is hard to say.",
-      "zh": "一位看起來自得其樂之男子——究竟是對周遭感到有趣，還是對自己感到有趣，實難分辨。",
-      "note": "DESC"
-    },
-    {
-      "offset": 99,
-      "len": 46,
-      "en": "\"Ah, welcome, $G! Come have a @drink with me!\"",
-      "zh": "「啊，歡迎，$G！來和吾@喝一杯！」",
-      "note": ""
-    },
-    {
-      "offset": 162,
-      "len": 37,
-      "en": "\"Have you had your fortune told yet?\"",
-      "zh": "「汝可曾算過命？」",
-      "note": ""
-    },
-    {
-      "offset": 209,
-      "len": 136,
-      "en": "\"Some people think @Penumbra's a hoax. But she knows her stuff. You should bear with her - she can truly be of great assistance to you.\"",
-      "zh": "「有些人以為@潘布拉是個騙子。但她確有真本事。汝應耐心配合她——她確實能給汝莫大的幫助。」",
-      "note": ""
-    },
-    {
-      "offset": 354,
-      "len": 37,
-      "en": "\"Derydlus. And what was yours again?\"",
-      "zh": "「德里德拉斯。汝的名字又是什麼來著？」",
-      "note": ""
-    },
-    {
-      "offset": 394,
-      "len": 40,
-      "en": "\"Oh, yes, of course. Come, have a seat.\"",
-      "zh": "「哦，是的，當然。來，請坐。」",
-      "note": ""
-    },
-    {
-      "offset": 444,
-      "len": 89,
-      "en": "\"Trying to discover all the subtleties of Frasier's @Folly is almost a career in itself!\"",
-      "zh": "「鑽研弗雷澤之@愚醇的所有微妙之處，幾乎本身就是一份職業！」",
-      "note": ""
-    },
-    {
-      "offset": 536,
-      "len": 10,
-      "en": "He smiles.",
-      "zh": "他微笑道。",
-      "note": "action"
-    },
-    {
-      "offset": 557,
-      "len": 44,
-      "en": "\"Aye, this is the home of Frasier's @Folly!\"",
-      "zh": "「是的，此乃弗雷澤之@愚醇的發源地！」",
-      "note": ""
-    },
-    {
-      "offset": 627,
-      "len": 60,
-      "en": "\"In all the towns of Britannia, you'll find no better brew.\"",
-      "zh": "「縱觀不列顛尼亞諸城，無處能找到更佳的釀造。」",
-      "note": ""
-    },
-    {
-      "offset": 698,
-      "len": 21,
-      "en": "\"Here's to Mandrake!\"",
-      "zh": "「敬曼陀羅根！」",
-      "note": "Mandrake is reagent/ingredient toast"
-    },
-    {
-      "offset": 730,
-      "len": 64,
-      "en": "\"My drinking buddy! Let's drink a toast to him, wherever he is.\"",
-      "zh": "「吾的飲酒伙伴！無論他身在何處，讓吾等舉杯致敬。」",
-      "note": "Manrel reference"
-    },
-    {
-      "offset": 806,
-      "len": 21,
-      "en": "\"I'll drink to that!\"",
-      "zh": "「為此乾杯！」",
-      "note": ""
-    },
-    {
-      "offset": 844,
-      "len": 44,
-      "en": "\"She's a strange one, but she has the gift.\"",
-      "zh": "「她確是怪人，但她有天賦。」",
-      "note": "Penumbra"
-    },
-    {
-      "offset": 898,
-      "len": 54,
-      "en": "\"Leaving already? And you're not even wobbling yet...\"",
-      "zh": "「這就要走？汝連走路都還沒搖搖晃晃呢……」",
-      "note": "bye"
-    },
-    {
-      "offset": 964,
-      "len": 55,
-      "en": "\"I'll drink to that,\" he says, suiting action to words.",
-      "zh": "「為此乾杯，」他說道，言出必行地舉杯飲下。",
-      "note": "action"
-    },
-    {
-      "offset": 1020,
-      "len": 34,
-      "en": "\"`$Z? Aye, indeed! A toast to $Z!\"",
-      "zh": "「`$Z？哈，確實！敬 $Z！」",
-      "note": "backtick and $Z preserved"
-    }
-  ],
-  "glossary_additions": {
-    "people": {
-      "Derydlus": "德里德拉斯"
-    },
-    "places": {},
-    "concepts": {}
+ "translations": [
+  {
+   "offset": 11,
+   "len": 85,
+   "en": "a man who looks very amused--whether with his surroundings or himself is hard to say.",
+   "zh": "一位看起來自得其樂之男子——究竟是對周遭感到有趣，還是對自己感到有趣，實難分辨。",
+   "note": "DESC"
   },
-  "translator_notes": "德里德拉斯是個終日在酒館喝酒的快活人，語氣隨性、詼諧。萬事皆可舉杯相慶。$Z 是玩家輸入的詞，保留不譯。"
+  {
+   "offset": 99,
+   "len": 46,
+   "en": "\"Ah, welcome, $G! Come have a @drink with me!\"",
+   "zh": "「啊，歡迎，$G！來和吾@drink（喝一）杯！」",
+   "note": ""
+  },
+  {
+   "offset": 162,
+   "len": 37,
+   "en": "\"Have you had your fortune told yet?\"",
+   "zh": "「汝可曾算過命？」",
+   "note": ""
+  },
+  {
+   "offset": 209,
+   "len": 136,
+   "en": "\"Some people think @Penumbra's a hoax. But she knows her stuff. You should bear with her - she can truly be of great assistance to you.\"",
+   "zh": "「有些人以為@Penumbra（潘布）拉是個騙子。但她確有真本事。汝應耐心配合她——她確實能給汝莫大的幫助。」",
+   "note": ""
+  },
+  {
+   "offset": 354,
+   "len": 37,
+   "en": "\"Derydlus. And what was yours again?\"",
+   "zh": "「德里德拉斯。汝的名字又是什麼來著？」",
+   "note": ""
+  },
+  {
+   "offset": 394,
+   "len": 40,
+   "en": "\"Oh, yes, of course. Come, have a seat.\"",
+   "zh": "「哦，是的，當然。來，請坐。」",
+   "note": ""
+  },
+  {
+   "offset": 444,
+   "len": 89,
+   "en": "\"Trying to discover all the subtleties of Frasier's @Folly is almost a career in itself!\"",
+   "zh": "「鑽研弗雷澤之@Folly（愚醇）的所有微妙之處，幾乎本身就是一份職業！」",
+   "note": ""
+  },
+  {
+   "offset": 536,
+   "len": 10,
+   "en": "He smiles.",
+   "zh": "他微笑道。",
+   "note": "action"
+  },
+  {
+   "offset": 557,
+   "len": 44,
+   "en": "\"Aye, this is the home of Frasier's @Folly!\"",
+   "zh": "「是的，此乃弗雷澤之@Folly（愚醇）的發源地！」",
+   "note": ""
+  },
+  {
+   "offset": 627,
+   "len": 60,
+   "en": "\"In all the towns of Britannia, you'll find no better brew.\"",
+   "zh": "「縱觀不列顛尼亞諸城，無處能找到更佳的釀造。」",
+   "note": ""
+  },
+  {
+   "offset": 698,
+   "len": 21,
+   "en": "\"Here's to Mandrake!\"",
+   "zh": "「敬曼陀羅根！」",
+   "note": "Mandrake is reagent/ingredient toast"
+  },
+  {
+   "offset": 730,
+   "len": 64,
+   "en": "\"My drinking buddy! Let's drink a toast to him, wherever he is.\"",
+   "zh": "「吾的飲酒伙伴！無論他身在何處，讓吾等舉杯致敬。」",
+   "note": "Manrel reference"
+  },
+  {
+   "offset": 806,
+   "len": 21,
+   "en": "\"I'll drink to that!\"",
+   "zh": "「為此乾杯！」",
+   "note": ""
+  },
+  {
+   "offset": 844,
+   "len": 44,
+   "en": "\"She's a strange one, but she has the gift.\"",
+   "zh": "「她確是怪人，但她有天賦。」",
+   "note": "Penumbra"
+  },
+  {
+   "offset": 898,
+   "len": 54,
+   "en": "\"Leaving already? And you're not even wobbling yet...\"",
+   "zh": "「這就要走？汝連走路都還沒搖搖晃晃呢……」",
+   "note": "bye"
+  },
+  {
+   "offset": 964,
+   "len": 55,
+   "en": "\"I'll drink to that,\" he says, suiting action to words.",
+   "zh": "「為此乾杯，」他說道，言出必行地舉杯飲下。",
+   "note": "action"
+  },
+  {
+   "offset": 1020,
+   "len": 34,
+   "en": "\"`$Z? Aye, indeed! A toast to $Z!\"",
+   "zh": "「`$Z？哈，確實！敬 $Z！」",
+   "note": "backtick and $Z preserved"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Derydlus": "德里德拉斯"
+  },
+  "places": {},
+  "concepts": {}
+ },
+ "translator_notes": "德里德拉斯是個終日在酒館喝酒的快活人，語氣隨性、詼諧。萬事皆可舉杯相慶。$Z 是玩家輸入的詞，保留不譯。"
 }

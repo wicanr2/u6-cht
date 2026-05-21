@@ -1,56 +1,300 @@
 {
  "translations": [
-  {"offset": 2, "len": 8, "en": "Koranada", "zh": "科蘭納達"},
-  {"offset": 11, "len": 64, "en": "a dignified man wearing a loose jacket decorated with a serpent.", "zh": "一位舉止莊重之男子，身著繡有蛇紋之寬袍。"},
-  {"offset": 84, "len": 35, "en": "\"It is good to see thee again, $P.\"", "zh": "「$P，再見汝甚悅。」"},
-  {"offset": 125, "len": 18, "en": "\"Hello, adventurer", "zh": "「汝好，冒險者"},
-  {"offset": 149, "len": 2, "en": "!\"", "zh": "！」"},
-  {"offset": 154, "len": 80, "en": "\"As guildmaster, I welcome thee in the name of the Order of the Silver Serpent.\"", "zh": "「在下為公會首座，謹以銀蛇騎士團之名歡迎汝。」"},
-  {"offset": 237, "len": 19, "en": "\"What is thy name?\"", "zh": "「汝何名？」"},
-  {"offset": 259, "len": 22, "en": "\"Well met, $G Avatar!\"", "zh": "「幸會，$G 聖者！」"},
-  {"offset": 300, "len": 32, "en": "\"I am Koranada, son of Kulebra.\"", "zh": "「在下科蘭納達，庫雷布拉之子。」"},
-  {"offset": 335, "len": 43, "en": "\"My father was a brave @lighthouse keeper.\"", "zh": "「家父乃勇敢之@燈塔守。」"},
-  {"offset": 393, "len": 106, "en": "\"An earthquake destroyed the lighthouse, else I would have inherited the position of keeper in Greyhaven.\"", "zh": "「地震毀了燈塔，否則我本可承繼灰港之守塔之職。」"},
-  {"offset": 502, "len": 58, "en": "\"I traveled to Serpent's Hold to join the @Order instead.\"", "zh": "「故改往蛇要塞，加入@騎士團。」"},
-  {"offset": 581, "len": 41, "en": "\"We stand for the principle of @Courage.\"", "zh": "「我等以@勇氣為宗。」"},
-  {"offset": 642, "len": 50, "en": "\"We are honored by thy membership, worthy Avatar!\"", "zh": "「聖者大駕加盟，乃我等之榮幸！」"},
-  {"offset": 705, "len": 81, "en": "\"Acquire a Silver Serpent @shield and thou wilt be admitted to the order, $G $P.\"", "zh": "「取得銀蛇@盾，便可入團，$G $P。」"},
-  {"offset": 792, "len": 58, "en": "\"Dost thou wish to join the Order of the Silver Serpent?\" ", "zh": "「汝可願加入銀蛇騎士團？」"},
-  {"offset": 866, "len": 66, "en": "\"Go and speak to de Hugh. Observe what he believes to be courage.\"", "zh": "「可往訪德修，聽其論勇之要義。」"},
-  {"offset": 935, "len": 80, "en": "\"Though he is a fine fighter, he has yet to prove himself worthy of our @order.\"", "zh": "「他雖戰技卓越，然尚未證明自己堪入我@團。」"},
-  {"offset": 1026, "len": 83, "en": "\"The Serpent Shield of our order is a sacred symbol of our brotherhood of bravery.\"", "zh": "「我團之蛇盾，乃勇者兄弟會之神聖象徵。」"},
-  {"offset": 1123, "len": 22, "en": "\"Carry it with pride!\"", "zh": "「持之以榮！」"},
-  {"offset": 1151, "len": 35, "en": "\"Its making is a magical @process.\"", "zh": "「鑄之乃一道魔法@工序。」"},
-  {"offset": 1198, "len": 46, "en": "\"@Gherick the Smithy will help thee make one.\"", "zh": "「鐵匠@格里克可助汝鑄一面。」"},
-  {"offset": 1261, "len": 23, "en": "\"'Tis secret, as well.\"", "zh": "「此事亦為秘傳。」"},
-  {"offset": 1295, "len": 50, "en": "\"You will most likely find him at Siege Crafters.\"", "zh": "「汝多半可在『攻城匠坊』尋得其人。」"},
-  {"offset": 1356, "len": 29, "en": "\"I have responsibilities here", "zh": "「我在此身負職責"},
-  {"offset": 1392, "len": 36, "en": ",$G. But I am honored by the offer.\"", "zh": "，$G。然蒙汝相邀，深感榮幸。」"},
-  {"offset": 1434, "len": 13, "en": ". However...\"", "zh": "。然而……」"},
-  {"offset": 1450, "len": 58, "en": "\"Dost thou wish to join the Order of the Silver Serpent?\" ", "zh": "「汝可願加入銀蛇騎士團？」"},
-  {"offset": 1519, "len": 70, "en": "\"Without the meaning, such a symbol is just a meaningless scratching.\"", "zh": "「若不明其意，此符號不過無謂之刻痕。」"},
-  {"offset": 1592, "len": 30, "en": "\"We @meditate on valour here.\"", "zh": "「我等於此@冥思勇之德。」"},
-  {"offset": 1638, "len": 79, "en": "\"A mantra is a concept, a special word to be turned over and over in the mind.\"", "zh": "「真言乃一概念，一特殊之語，於心中反覆推敲。」"},
-  {"offset": 1720, "len": 86, "en": "\"When we meditate on a mantra, we do so in order to find the @meaning of that virtue.\"", "zh": "「冥思真言之目的，乃為尋彼德之@真意。」"},
-  {"offset": 1817, "len": 59, "en": "\"It is not enough just to know a mantra or possess a rune.\"", "zh": "「知真言、執符文，未為足也。」"},
-  {"offset": 1879, "len": 52, "en": "\"In order to be @virtuous, one must act virtuously.\"", "zh": "「欲@有德，必當踐德。」"},
-  {"offset": 1947, "len": 105, "en": "\"Sometimes one virtue conflicts with another, though both be numbered amongst the virtues of the Avatar.\"", "zh": "「諸德之中，二德有時亦相衝，雖皆列於聖者八德之中。」"},
-  {"offset": 2055, "len": 98, "en": "\"The hero seeks to act with an awareness of these conflicts instead of merely following instinct.\"", "zh": "「英雄行事，當有此衝突之自覺，而非僅憑本能。」"},
-  {"offset": 2156, "len": 35, "en": "\"My teacher @Conor taught me this.\"", "zh": "「此乃吾師@康諾爾所教。」"},
-  {"offset": 2202, "len": 64, "en": "\"A dear friend. He was guildmaster here when I was in training.\"", "zh": "「至交也。我修業之時，他正為此處之首座。」"},
-  {"offset": 2269, "len": 38, "en": "\"He lives humbly in New Magincia now.\"", "zh": "「他如今隱居於新馬精西亞。」"},
-  {"offset": 2317, "len": 17, "en": "\"Fare thee well.\"", "zh": "「祝汝一路順遂。」"},
-  {"offset": 2339, "len": 31, "en": "\"That I cannot help thee with.\"", "zh": "「此事我幫不上汝。」"},
-  {"offset": 2382, "len": 49, "en": "\"There will always be a place here for thee, $G.\"", "zh": "「此處永為汝預留一席，$G。」"},
-  {"offset": 2440, "len": 62, "en": "\"We would be greatly honored if thou wouldst join us, Avatar.\"", "zh": "「聖者若願加盟，乃我等莫大之榮。」"},
-  {"offset": 2504, "len": 35, "en": "\"Thy deeds speak well of thee, $P.\"", "zh": "「$P，汝之行止已為汝立言。」"},
-  {"offset": 2542, "len": 106, "en": "\"I shall waive the usual requirements since thy adventures are more than sufficient proof of thy courage.\"", "zh": "「鑒於汝歷險之績已足證汝之勇，例行條件得免。」"},
-  {"offset": 2651, "len": 51, "en": "\"However, thou must still create thine own shield.\"", "zh": "「然汝仍須親手鑄就自己之盾。」"}
+  {
+   "offset": 2,
+   "len": 8,
+   "en": "Koranada",
+   "zh": "科蘭納達"
+  },
+  {
+   "offset": 11,
+   "len": 64,
+   "en": "a dignified man wearing a loose jacket decorated with a serpent.",
+   "zh": "一位舉止莊重之男子，身著繡有蛇紋之寬袍。"
+  },
+  {
+   "offset": 84,
+   "len": 35,
+   "en": "\"It is good to see thee again, $P.\"",
+   "zh": "「$P，再見汝甚悅。」"
+  },
+  {
+   "offset": 125,
+   "len": 18,
+   "en": "\"Hello, adventurer",
+   "zh": "「汝好，冒險者"
+  },
+  {
+   "offset": 149,
+   "len": 2,
+   "en": "!\"",
+   "zh": "！」"
+  },
+  {
+   "offset": 154,
+   "len": 80,
+   "en": "\"As guildmaster, I welcome thee in the name of the Order of the Silver Serpent.\"",
+   "zh": "「在下為公會首座，謹以銀蛇騎士團之名歡迎汝。」"
+  },
+  {
+   "offset": 237,
+   "len": 19,
+   "en": "\"What is thy name?\"",
+   "zh": "「汝何名？」"
+  },
+  {
+   "offset": 259,
+   "len": 22,
+   "en": "\"Well met, $G Avatar!\"",
+   "zh": "「幸會，$G 聖者！」"
+  },
+  {
+   "offset": 300,
+   "len": 32,
+   "en": "\"I am Koranada, son of Kulebra.\"",
+   "zh": "「在下科蘭納達，庫雷布拉之子。」"
+  },
+  {
+   "offset": 335,
+   "len": 43,
+   "en": "\"My father was a brave @lighthouse keeper.\"",
+   "zh": "「家父乃勇敢之@lighthouse（燈塔）守。」"
+  },
+  {
+   "offset": 393,
+   "len": 106,
+   "en": "\"An earthquake destroyed the lighthouse, else I would have inherited the position of keeper in Greyhaven.\"",
+   "zh": "「地震毀了燈塔，否則我本可承繼灰港之守塔之職。」"
+  },
+  {
+   "offset": 502,
+   "len": 58,
+   "en": "\"I traveled to Serpent's Hold to join the @Order instead.\"",
+   "zh": "「故改往蛇要塞，加入@Order（騎士）團。」"
+  },
+  {
+   "offset": 581,
+   "len": 41,
+   "en": "\"We stand for the principle of @Courage.\"",
+   "zh": "「我等以@Courage（勇氣）為宗。」"
+  },
+  {
+   "offset": 642,
+   "len": 50,
+   "en": "\"We are honored by thy membership, worthy Avatar!\"",
+   "zh": "「聖者大駕加盟，乃我等之榮幸！」"
+  },
+  {
+   "offset": 705,
+   "len": 81,
+   "en": "\"Acquire a Silver Serpent @shield and thou wilt be admitted to the order, $G $P.\"",
+   "zh": "「取得銀蛇@shield（盾），便可入團，$G $P。」"
+  },
+  {
+   "offset": 792,
+   "len": 58,
+   "en": "\"Dost thou wish to join the Order of the Silver Serpent?\" ",
+   "zh": "「汝可願加入銀蛇騎士團？」"
+  },
+  {
+   "offset": 866,
+   "len": 66,
+   "en": "\"Go and speak to de Hugh. Observe what he believes to be courage.\"",
+   "zh": "「可往訪德修，聽其論勇之要義。」"
+  },
+  {
+   "offset": 935,
+   "len": 80,
+   "en": "\"Though he is a fine fighter, he has yet to prove himself worthy of our @order.\"",
+   "zh": "「他雖戰技卓越，然尚未證明自己堪入我@order（團）。」"
+  },
+  {
+   "offset": 1026,
+   "len": 83,
+   "en": "\"The Serpent Shield of our order is a sacred symbol of our brotherhood of bravery.\"",
+   "zh": "「我團之蛇盾，乃勇者兄弟會之神聖象徵。」"
+  },
+  {
+   "offset": 1123,
+   "len": 22,
+   "en": "\"Carry it with pride!\"",
+   "zh": "「持之以榮！」"
+  },
+  {
+   "offset": 1151,
+   "len": 35,
+   "en": "\"Its making is a magical @process.\"",
+   "zh": "「鑄之乃一道魔法@process（工序）。」"
+  },
+  {
+   "offset": 1198,
+   "len": 46,
+   "en": "\"@Gherick the Smithy will help thee make one.\"",
+   "zh": "「鐵匠@Gherick（格里）克可助汝鑄一面。」"
+  },
+  {
+   "offset": 1261,
+   "len": 23,
+   "en": "\"'Tis secret, as well.\"",
+   "zh": "「此事亦為秘傳。」"
+  },
+  {
+   "offset": 1295,
+   "len": 50,
+   "en": "\"You will most likely find him at Siege Crafters.\"",
+   "zh": "「汝多半可在『攻城匠坊』尋得其人。」"
+  },
+  {
+   "offset": 1356,
+   "len": 29,
+   "en": "\"I have responsibilities here",
+   "zh": "「我在此身負職責"
+  },
+  {
+   "offset": 1392,
+   "len": 36,
+   "en": ",$G. But I am honored by the offer.\"",
+   "zh": "，$G。然蒙汝相邀，深感榮幸。」"
+  },
+  {
+   "offset": 1434,
+   "len": 13,
+   "en": ". However...\"",
+   "zh": "。然而……」"
+  },
+  {
+   "offset": 1450,
+   "len": 58,
+   "en": "\"Dost thou wish to join the Order of the Silver Serpent?\" ",
+   "zh": "「汝可願加入銀蛇騎士團？」"
+  },
+  {
+   "offset": 1519,
+   "len": 70,
+   "en": "\"Without the meaning, such a symbol is just a meaningless scratching.\"",
+   "zh": "「若不明其意，此符號不過無謂之刻痕。」"
+  },
+  {
+   "offset": 1592,
+   "len": 30,
+   "en": "\"We @meditate on valour here.\"",
+   "zh": "「我等於此@meditate（冥思）勇之德。」"
+  },
+  {
+   "offset": 1638,
+   "len": 79,
+   "en": "\"A mantra is a concept, a special word to be turned over and over in the mind.\"",
+   "zh": "「真言乃一概念，一特殊之語，於心中反覆推敲。」"
+  },
+  {
+   "offset": 1720,
+   "len": 86,
+   "en": "\"When we meditate on a mantra, we do so in order to find the @meaning of that virtue.\"",
+   "zh": "「冥思真言之目的，乃為尋彼德之@meaning（真意）。」"
+  },
+  {
+   "offset": 1817,
+   "len": 59,
+   "en": "\"It is not enough just to know a mantra or possess a rune.\"",
+   "zh": "「知真言、執符文，未為足也。」"
+  },
+  {
+   "offset": 1879,
+   "len": 52,
+   "en": "\"In order to be @virtuous, one must act virtuously.\"",
+   "zh": "「欲@virtuous有德，必當踐德。」"
+  },
+  {
+   "offset": 1947,
+   "len": 105,
+   "en": "\"Sometimes one virtue conflicts with another, though both be numbered amongst the virtues of the Avatar.\"",
+   "zh": "「諸德之中，二德有時亦相衝，雖皆列於聖者八德之中。」"
+  },
+  {
+   "offset": 2055,
+   "len": 98,
+   "en": "\"The hero seeks to act with an awareness of these conflicts instead of merely following instinct.\"",
+   "zh": "「英雄行事，當有此衝突之自覺，而非僅憑本能。」"
+  },
+  {
+   "offset": 2156,
+   "len": 35,
+   "en": "\"My teacher @Conor taught me this.\"",
+   "zh": "「此乃吾師@Conor（康諾）爾所教。」"
+  },
+  {
+   "offset": 2202,
+   "len": 64,
+   "en": "\"A dear friend. He was guildmaster here when I was in training.\"",
+   "zh": "「至交也。我修業之時，他正為此處之首座。」"
+  },
+  {
+   "offset": 2269,
+   "len": 38,
+   "en": "\"He lives humbly in New Magincia now.\"",
+   "zh": "「他如今隱居於新馬精西亞。」"
+  },
+  {
+   "offset": 2317,
+   "len": 17,
+   "en": "\"Fare thee well.\"",
+   "zh": "「祝汝一路順遂。」"
+  },
+  {
+   "offset": 2339,
+   "len": 31,
+   "en": "\"That I cannot help thee with.\"",
+   "zh": "「此事我幫不上汝。」"
+  },
+  {
+   "offset": 2382,
+   "len": 49,
+   "en": "\"There will always be a place here for thee, $G.\"",
+   "zh": "「此處永為汝預留一席，$G。」"
+  },
+  {
+   "offset": 2440,
+   "len": 62,
+   "en": "\"We would be greatly honored if thou wouldst join us, Avatar.\"",
+   "zh": "「聖者若願加盟，乃我等莫大之榮。」"
+  },
+  {
+   "offset": 2504,
+   "len": 35,
+   "en": "\"Thy deeds speak well of thee, $P.\"",
+   "zh": "「$P，汝之行止已為汝立言。」"
+  },
+  {
+   "offset": 2542,
+   "len": 106,
+   "en": "\"I shall waive the usual requirements since thy adventures are more than sufficient proof of thy courage.\"",
+   "zh": "「鑒於汝歷險之績已足證汝之勇，例行條件得免。」"
+  },
+  {
+   "offset": 2651,
+   "len": 51,
+   "en": "\"However, thou must still create thine own shield.\"",
+   "zh": "「然汝仍須親手鑄就自己之盾。」"
+  }
  ],
  "glossary_additions": {
-  "people": {"Koranada": "科蘭納達", "Kulebra": "庫雷布拉", "de Hugh": "德修", "Gherick": "格里克", "Conor": "康諾爾"},
-  "places": {"Greyhaven": "灰港", "Siege Crafters": "攻城匠坊"},
-  "concepts": {"Order of the Silver Serpent": "銀蛇騎士團", "Silver Serpent shield": "銀蛇盾", "mantra": "真言", "rune": "符文"}
+  "people": {
+   "Koranada": "科蘭納達",
+   "Kulebra": "庫雷布拉",
+   "de Hugh": "德修",
+   "Gherick": "格里克",
+   "Conor": "康諾爾"
+  },
+  "places": {
+   "Greyhaven": "灰港",
+   "Siege Crafters": "攻城匠坊"
+  },
+  "concepts": {
+   "Order of the Silver Serpent": "銀蛇騎士團",
+   "Silver Serpent shield": "銀蛇盾",
+   "mantra": "真言",
+   "rune": "符文"
+  }
  },
  "translator_notes": "Koranada = 蛇要塞銀蛇騎士團首座，Valor 城核心 NPC，劇情點：解釋八德、mantra/rune 概念、發起 Silver Serpent shield 任務。語氣莊重 thee/thou → 汝。"
 }

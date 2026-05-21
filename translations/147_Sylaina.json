@@ -32,28 +32,28 @@
    "offset": 239,
    "len": 25,
    "en": "\"I'm Sylaina @Moorehead.\"",
-   "zh": "「我是希拉依娜·@穆爾希德。」",
+   "zh": "「我是希拉依娜·@Moorehead（穆爾）希德。」",
    "note": ""
   },
   {
    "offset": 274,
    "len": 68,
    "en": "\"When I need some money for food and such, I work as a @seamstress.\"",
-   "zh": "「需要買食物之類的東西時，我就做@裁縫師的活計。」",
+   "zh": "「需要買食物之類的東西時，我就做@seamstress（裁縫）師的活計。」",
    "note": ""
   },
   {
    "offset": 345,
    "len": 54,
    "en": "\"Most of the time, however, I live off the @seashore.\"",
-   "zh": "「不過大部分時間，我靠著@海邊生活。」",
+   "zh": "「不過大部分時間，我靠著@seashore（海邊）生活。」",
    "note": ""
   },
   {
    "offset": 424,
    "len": 60,
    "en": "\"Yes. I used to make such fine clothes for my @Nathaniel...\"",
-   "zh": "「是的。我以前為我的@納撒尼爾縫製那麼漂亮的衣裳……」",
+   "zh": "「是的。我以前為我的@Nathaniel（納撒）尼爾縫製那麼漂亮的衣裳……」",
    "note": ""
   },
   {
@@ -74,14 +74,14 @@
    "offset": 642,
    "len": 53,
    "en": "\"They say he went down in a storm. He was a @pirate.\"",
-   "zh": "「據說他在一場風暴中沉沒。他是個@海盜。」",
+   "zh": "「據說他在一場風暴中沉沒。他是個@pirate（海盜）。」",
    "note": ""
   },
   {
    "offset": 706,
    "len": 53,
    "en": "\"I'm a @widow now. I live in a cottage on the beach.\"",
-   "zh": "「我現在是個@寡婦。住在海邊的小屋裡。」",
+   "zh": "「我現在是個@widow（寡婦）。住在海邊的小屋裡。」",
    "note": ""
   },
   {
@@ -95,7 +95,7 @@
    "offset": 875,
    "len": 30,
    "en": "\"I'm as carefree as a @gypsy.\"",
-   "zh": "「我像@吉普賽人一樣無憂無慮。」",
+   "zh": "「我像@gypsy（吉普）賽人一樣無憂無慮。」",
    "note": ""
   },
   {
@@ -130,7 +130,7 @@
    "offset": 1235,
    "len": 59,
    "en": "\"But one time a group of gypsies @stole my prized @locket!\"",
-   "zh": "「但有一次一群吉普賽人@偷走了我珍愛的@墜飾！」",
+   "zh": "「但有一次一群吉普賽人@stole（偷走）了我珍愛的@locket（墜飾）！」",
    "note": ""
   },
   {
@@ -158,7 +158,7 @@
    "offset": 1491,
    "len": 54,
    "en": "\"That locket was all I had to remember @Nathaniel by.\"",
-   "zh": "「那個墜飾是我用來記念@納撒尼爾的唯一物品。」",
+   "zh": "「那個墜飾是我用來記念@Nathaniel（納撒）尼爾的唯一物品。」",
    "note": ""
   },
   {
@@ -179,7 +179,7 @@
    "offset": 1709,
    "len": 90,
    "en": "\"I don't have the locket or the map anymore. The gypsies came by one day and @stole them.\"",
-   "zh": "「我不再有那個墜飾或地圖了。有一天吉普賽人來@偷走了它們。」",
+   "zh": "「我不再有那個墜飾或地圖了。有一天吉普賽人來@stole（偷走）了它們。」",
    "note": ""
   },
   {
@@ -204,6 +204,12 @@
    "note": ""
   }
  ],
- "glossary_additions": {"people": {"Sylaina": "希拉依娜", "Nathaniel": "納撒尼爾"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Sylaina": "希拉依娜",
+   "Nathaniel": "納撒尼爾"
+  },
+  "places": {}
+ },
  "translator_notes": "希拉依娜是海邊寡婦裁縫師，丈夫納撒尼爾是海盜，已溺斃。金墜飾（含航海圖碎片）被吉普賽人偷走，是重要線索。"
 }

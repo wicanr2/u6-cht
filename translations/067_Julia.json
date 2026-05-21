@@ -1,504 +1,504 @@
 {
-  "translations": [
-    {
-      "offset": 8,
-      "len": 54,
-      "en": "a sturdy woman with calloused hands and a loud manner.",
-      "zh": "一位身形壯碩、雙手長滿繭、說話嗓門大的女子。",
-      "note": "DESC; Irish-accented companion"
-    },
-    {
-      "offset": 70,
-      "len": 39,
-      "en": "\"Aye, and wha' can ye be askin' of me?\"",
-      "zh": "「哎，汝要問吾什麼？」",
-      "note": "Irish dialect: aye/ye rendered as rough speech"
-    },
-    {
-      "offset": 112,
-      "len": 55,
-      "en": "\"Sure an' I don't think I can be helpin' ya with this!\"",
-      "zh": "「哎呀，吾可幫不了汝這件事！」",
-      "note": ""
-    },
-    {
-      "offset": 188,
-      "len": 53,
-      "en": "\"Aye, so the great Avatar deigns to return, does he?\"",
-      "zh": "「哎，偉大的聖者大駕光臨了，是嗎？」",
-      "note": "sarcastic; 'does he' — gender neutral in zh"
-    },
-    {
-      "offset": 244,
-      "len": 17,
-      "en": "\"Well, what does ",
-      "zh": "「那麼，",
-      "note": "partial; gender branch"
-    },
-    {
-      "offset": 265,
-      "len": 8,
-      "en": "her lady",
-      "zh": "這位女",
-      "note": "female branch"
-    },
-    {
-      "offset": 274,
-      "len": 8,
-      "en": "his lord",
-      "zh": "這位男",
-      "note": "male branch"
-    },
-    {
-      "offset": 283,
-      "len": 15,
-      "en": "ship want now?\"",
-      "zh": "聖者現在要什麼？」",
-      "note": "partial end; lordship/ladyship"
-    },
-    {
-      "offset": 312,
-      "len": 33,
-      "en": "\"Well, then the rumors are true!\"",
-      "zh": "「那麼，傳言是真的！」",
-      "note": ""
-    },
-    {
-      "offset": 348,
-      "len": 63,
-      "en": "\"'Tis well and good that ye have returned to our land, Avatar!\"",
-      "zh": "「聖者回到吾等的土地，真是再好不過了！」",
-      "note": ""
-    },
-    {
-      "offset": 428,
-      "len": 19,
-      "en": "\"Well met, Avatar. ",
-      "zh": "「幸會，聖者。",
-      "note": "partial"
-    },
-    {
-      "offset": 455,
-      "len": 40,
-      "en": "An' what can I be doin' for ye this $T?\"",
-      "zh": "這個$T吾能為汝做什麼？」",
-      "note": ""
-    },
-    {
-      "offset": 516,
-      "len": 33,
-      "en": "\"Sure and you're goin' daft, $G.\"",
-      "zh": "「哎呀，$G，汝是不是糊塗了。」",
-      "note": ""
-    },
-    {
-      "offset": 552,
-      "len": 49,
-      "en": "\"I be named Julia, same as the last time we met!\"",
-      "zh": "「吾叫茱莉亞，跟上次吾等相遇時一樣！」",
-      "note": ""
-    },
-    {
-      "offset": 602,
-      "len": 47,
-      "en": "\"Named Julia I am, $G, and pleased to meet ye.\"",
-      "zh": "「吾叫茱莉亞，$G，很高興認識汝。」",
-      "note": ""
-    },
-    {
-      "offset": 660,
-      "len": 45,
-      "en": "\"Instruments I make, the finest in the land.\"",
-      "zh": "「吾製作樂器，是全境最精良的。」",
-      "note": ""
-    },
-    {
-      "offset": 713,
-      "len": 55,
-      "en": "\"For now, though, I'm followin' ye, and glad to do it!\"",
-      "zh": "「不過，眼下吾是在跟著汝，而且甘之如飴！」",
-      "note": "in party"
-    },
-    {
-      "offset": 769,
-      "len": 58,
-      "en": "\"Not to be immodest, but I'm respected by all the @Guild!\"",
-      "zh": "「吾不是要自誇，但整個@公會都對吾敬重有加！」",
-      "note": ""
-    },
-    {
-      "offset": 830,
-      "len": 75,
-      "en": "\"Ach, but give it all up I would for a life of @adventure like your own...\"",
-      "zh": "「哎，吾真願意拋下一切，過上像汝那樣的@冒險生活……」",
-      "note": ""
-    },
-    {
-      "offset": 917,
-      "len": 60,
-      "en": "\"If ye would like to be a member too, go talk to @Selganor.\"",
-      "zh": "「若汝也想成為成員，去找@瑟爾嘉諾吧。」",
-      "note": ""
-    },
-    {
-      "offset": 988,
-      "len": 23,
-      "en": "\"He's the guildmaster.\"",
-      "zh": "「他是公會會長。」",
-      "note": ""
-    },
-    {
-      "offset": 1026,
-      "len": 51,
-      "en": "\"Sent you to me they did? Aye, I can believe that.\"",
-      "zh": "「他們叫汝來找吾？哎，這吾相信。」",
-      "note": "panpipes quest"
-    },
-    {
-      "offset": 1080,
-      "len": 43,
-      "en": "\"Now the panpipes are a tricky instrument.\"",
-      "zh": "「排笛這玩意兒可不好做。」",
-      "note": ""
-    },
-    {
-      "offset": 1126,
-      "len": 33,
-      "en": "\"You gotta have the finest wood.\"",
-      "zh": "「得用最好的木頭才行。」",
-      "note": ""
-    },
-    {
-      "offset": 1161,
-      "len": 76,
-      "en": "\"If you want to learn how to make pipes, you'll need to bring a yew @board.\"",
-      "zh": "「若汝想學做排笛，需要帶一塊紫杉@木板來。」",
-      "note": ""
-    },
-    {
-      "offset": 1240,
-      "len": 30,
-      "en": "\"But it must be freshly @cut!\"",
-      "zh": "「但必須是@新鮮切割的！」",
-      "note": ""
-    },
-    {
-      "offset": 1328,
-      "len": 32,
-      "en": "\"Aye, I'd @join you if ye wish.\"",
-      "zh": "「哎，若汝願意，吾可以@加入汝。」",
-      "note": ""
-    },
-    {
-      "offset": 1371,
-      "len": 14,
-      "en": "\"Join ye? Me?\"",
-      "zh": "「加入汝？吾？」",
-      "note": ""
-    },
-    {
-      "offset": 1394,
-      "len": 56,
-      "en": "\"Aye, and be dumped off in the middle of nowhere again?\"",
-      "zh": "「哎，然後再被扔在荒野之中？」",
-      "note": "previous quest reference"
-    },
-    {
-      "offset": 1453,
-      "len": 53,
-      "en": "\"Not likely! Find some other sap to do your bidding!\"",
-      "zh": "「才不呢！去找別的傻瓜替汝跑腿！」",
-      "note": "refusing to join"
-    },
-    {
-      "offset": 1527,
-      "len": 35,
-      "en": "\"Aye, gladly! Let's be on our way.\"",
-      "zh": "「哎，欣然從命！出發吧。」",
-      "note": "joining"
-    },
-    {
-      "offset": 1578,
-      "len": 56,
-      "en": "\"Ach, I can tell that you say that to everyone ye meet.\"",
-      "zh": "「哎呀，吾看得出汝對每個遇到的人都這樣說。」",
-      "note": ""
-    },
-    {
-      "offset": 1637,
-      "len": 51,
-      "en": "\"Ask me again when you haven't as many companions.\"",
-      "zh": "「等汝的同伴沒這麼多時再問吾。」",
-      "note": "party full"
-    },
-    {
-      "offset": 1694,
-      "len": 20,
-      "en": "\"What are ye, daft? ",
-      "zh": "「汝是糊塗了嗎？",
-      "note": "partial; at sea"
-    },
-    {
-      "offset": 1722,
-      "len": 37,
-      "en": "If I join ye, where are we gonna go?\"",
-      "zh": "若吾加入汝，吾等要去哪裡？」",
-      "note": ""
-    },
-    {
-      "offset": 1762,
-      "len": 36,
-      "en": "\"Nay, $G. Ask me when we're ashore.\"",
-      "zh": "「不，$G。等吾等上岸再問吾。」",
-      "note": "at sea"
-    },
-    {
-      "offset": 1804,
-      "len": 26,
-      "en": "I'm already in your band!\"",
-      "zh": "吾已在汝的隊伍中了！」",
-      "note": "already in party"
-    },
-    {
-      "offset": 1833,
-      "len": 66,
-      "en": "\"Though now I'm not so sure I want to be led by a crazy person...\"",
-      "zh": "「雖然吾現在不確定吾是否想被一個瘋子帶著跑……」",
-      "note": ""
-    },
-    {
-      "offset": 1919,
-      "len": 48,
-      "en": "\"Leave! Nay, 'tis my house. You do the leavin'!\"",
-      "zh": "「離開！不，這是吾的房子。汝自己走！」",
-      "note": ""
-    },
-    {
-      "offset": 1988,
-      "len": 30,
-      "en": "\"Leave?! And jump overboard?!\"",
-      "zh": "「離開？！跳船？！」",
-      "note": "at sea"
-    },
-    {
-      "offset": 2021,
-      "len": 42,
-      "en": "\"Ach, I get it. You're makin' a wee joke!\"",
-      "zh": "「哎呀，吾明白了。汝是在開個小玩笑！」",
-      "note": ""
-    },
-    {
-      "offset": 2069,
-      "len": 62,
-      "en": "\"What? Oh, I suppose a craftsman isn't warrior enough to suit ",
-      "zh": "「什麼？哦，吾想一個工匠對",
-      "note": "partial; leaving party"
-    },
-    {
-      "offset": 2135,
-      "len": 8,
-      "en": "her lady",
-      "zh": "這位女",
-      "note": "female branch"
-    },
-    {
-      "offset": 2144,
-      "len": 8,
-      "en": "his lord",
-      "zh": "這位男",
-      "note": "male branch"
-    },
-    {
-      "offset": 2153,
-      "len": 15,
-      "en": "ship's tastes!\"",
-      "zh": "聖者來說不夠英武！」",
-      "note": ""
-    },
-    {
-      "offset": 2171,
-      "len": 38,
-      "en": "\"Well, that's fine and dandy with me!\"",
-      "zh": "「嗯，吾無所謂！」",
-      "note": ""
-    },
-    {
-      "offset": 2212,
-      "len": 44,
-      "en": "\"A good $T and a good bye to the lot of ye!\"",
-      "zh": "「祝汝等$T好，再見！」",
-      "note": ""
-    },
-    {
-      "offset": 2259,
-      "len": 45,
-      "en": "\"I'm tired of carrying all this junk anyway!\"",
-      "zh": "「再說吾早就厭倦帶著這一堆破爛了！」",
-      "note": ""
-    },
-    {
-      "offset": 2322,
-      "len": 42,
-      "en": "\"Aye, enough chatting. On with our quest!\"",
-      "zh": "「哎，聊夠了。繼續吾等的任務吧！」",
-      "note": "bye; in party"
-    },
-    {
-      "offset": 2376,
-      "len": 35,
-      "en": "\"May fortune follow ye on thy way!\"",
-      "zh": "「願好運一路伴汝！」",
-      "note": "bye; not in party"
-    },
-    {
-      "offset": 2414,
-      "len": 36,
-      "en": "\"Ach, aye! I wouldna want to hinder ",
-      "zh": "「哎呀！吾不想阻礙",
-      "note": "partial; bye"
-    },
-    {
-      "offset": 2454,
-      "len": 8,
-      "en": "her lady",
-      "zh": "這位女",
-      "note": "female branch"
-    },
-    {
-      "offset": 2463,
-      "len": 8,
-      "en": "his lord",
-      "zh": "這位男",
-      "note": "male branch"
-    },
-    {
-      "offset": 2472,
-      "len": 16,
-      "en": "ship's journey!\"",
-      "zh": "聖者的旅途！」",
-      "note": ""
-    },
-    {
-      "offset": 2505,
-      "len": 50,
-      "en": "\"Are ye daft? Why would I know anything about $Z?\"",
-      "zh": "「汝糊塗了嗎？吾為何會知道『$Z』的事？」",
-      "note": ""
-    },
-    {
-      "offset": 2556,
-      "len": 35,
-      "en": "\"Nay, $G, I know nothing about $Z.\"",
-      "zh": "「不，$G，吾對『$Z』一無所知。」",
-      "note": ""
-    },
-    {
-      "offset": 2598,
-      "len": 45,
-      "en": "Do ye have a fine yew board for me this $T?\" ",
-      "zh": "汝這個$T有帶好的紫杉木板來嗎？」",
-      "note": ""
-    },
-    {
-      "offset": 2657,
-      "len": 48,
-      "en": "\"Well where is it? I canna see any board on ye!\"",
-      "zh": "「那在哪兒？吾看不到汝身上有任何木板！」",
-      "note": ""
-    },
-    {
-      "offset": 2711,
-      "len": 73,
-      "en": "\"Ach, aye, and good wood it is, too. A fine set of pipes this will make!\"",
-      "zh": "「哎呀，好木頭哩。這能做出一組好排笛！」",
-      "note": ""
-    },
-    {
-      "offset": 2796,
-      "len": 62,
-      "en": "\"No? What are ye, daft? I canna be makin' pipes without wood!\"",
-      "zh": "「沒有？汝糊塗了嗎？沒有木頭吾怎麼做排笛！」",
-      "note": ""
-    },
-    {
-      "offset": 2867,
-      "len": 55,
-      "en": "\"Go to Yew where they grow the best wood in Britannia.\"",
-      "zh": "「去尤城，那裡出產不列顛尼亞最好的木材。」",
-      "note": ""
-    },
-    {
-      "offset": 2925,
-      "len": 53,
-      "en": "\"Buy a freshly-cut yew log and take it to a sawmill.\"",
-      "zh": "「買一根新切割的紫杉原木，帶到鋸木廠去。」",
-      "note": ""
-    },
-    {
-      "offset": 2981,
-      "len": 55,
-      "en": "\"Have 'em cut it into a board, and bring it back here.\"",
-      "zh": "「讓他們把它鋸成木板，再帶回來給吾。」",
-      "note": ""
-    },
-    {
-      "offset": 3039,
-      "len": 42,
-      "en": "\"Then I'll show ye how panpipes are made!\"",
-      "zh": "「那時吾就來教汝怎麼做排笛！」",
-      "note": ""
-    },
-    {
-      "offset": 3086,
-      "len": 55,
-      "en": "Julia sets the wood down on a bench and starts carving.",
-      "zh": "茱莉亞把木板放在工作台上，開始雕刻。",
-      "note": "action"
-    },
-    {
-      "offset": 3144,
-      "len": 65,
-      "en": "As you watch, the rough board slowly turns into smooth wood rods.",
-      "zh": "汝看著，粗糙的木板慢慢變成了光滑的木棒。",
-      "note": "action"
-    },
-    {
-      "offset": 3211,
-      "len": 57,
-      "en": "Then she hollows out each rod and pegs them all together.",
-      "zh": "然後她將每根木棒掏空，用榫釘將它們固定在一起。",
-      "note": "action"
-    },
-    {
-      "offset": 3271,
-      "len": 70,
-      "en": "Lastly, she notches each tube and cuts them all to the proper lengths.",
-      "zh": "最後，她在每根管子上刻出缺口，並切割成適當的長度。",
-      "note": "action"
-    },
-    {
-      "offset": 3344,
-      "len": 70,
-      "en": "\"An' there it is, $G, a set of panpipes fit for any bard in the land!\"",
-      "zh": "「好了，$G，一組足以讓任何吟遊詩人稱心如意的排笛！」",
-      "note": ""
-    },
-    {
-      "offset": 3417,
-      "len": 33,
-      "en": "She hands you the finished pipes.",
-      "zh": "她將做好的排笛遞給汝。",
-      "note": "action"
-    }
-  ],
-  "glossary_additions": {
-    "people": {
-      "Julia": "茱莉亞"
-    },
-    "places": {},
-    "concepts": {
-      "yew board": "紫杉木板"
-    }
+ "translations": [
+  {
+   "offset": 8,
+   "len": 54,
+   "en": "a sturdy woman with calloused hands and a loud manner.",
+   "zh": "一位身形壯碩、雙手長滿繭、說話嗓門大的女子。",
+   "note": "DESC; Irish-accented companion"
   },
-  "translator_notes": "茱莉亞是密諾克工匠公會的愛爾蘭腔樂器工匠，中文無法直接重現愛爾蘭腔，以「哎」「哎呀」等語氣詞傳達其直爽個性。她製作排笛需要新鮮切割的紫杉木板，木板需從鋸木廠取得。「lordship/ladyship」配合性別分支譯為「女聖者/男聖者」的概念。"
+  {
+   "offset": 70,
+   "len": 39,
+   "en": "\"Aye, and wha' can ye be askin' of me?\"",
+   "zh": "「哎，汝要問吾什麼？」",
+   "note": "Irish dialect: aye/ye rendered as rough speech"
+  },
+  {
+   "offset": 112,
+   "len": 55,
+   "en": "\"Sure an' I don't think I can be helpin' ya with this!\"",
+   "zh": "「哎呀，吾可幫不了汝這件事！」",
+   "note": ""
+  },
+  {
+   "offset": 188,
+   "len": 53,
+   "en": "\"Aye, so the great Avatar deigns to return, does he?\"",
+   "zh": "「哎，偉大的聖者大駕光臨了，是嗎？」",
+   "note": "sarcastic; 'does he' — gender neutral in zh"
+  },
+  {
+   "offset": 244,
+   "len": 17,
+   "en": "\"Well, what does ",
+   "zh": "「那麼，",
+   "note": "partial; gender branch"
+  },
+  {
+   "offset": 265,
+   "len": 8,
+   "en": "her lady",
+   "zh": "這位女",
+   "note": "female branch"
+  },
+  {
+   "offset": 274,
+   "len": 8,
+   "en": "his lord",
+   "zh": "這位男",
+   "note": "male branch"
+  },
+  {
+   "offset": 283,
+   "len": 15,
+   "en": "ship want now?\"",
+   "zh": "聖者現在要什麼？」",
+   "note": "partial end; lordship/ladyship"
+  },
+  {
+   "offset": 312,
+   "len": 33,
+   "en": "\"Well, then the rumors are true!\"",
+   "zh": "「那麼，傳言是真的！」",
+   "note": ""
+  },
+  {
+   "offset": 348,
+   "len": 63,
+   "en": "\"'Tis well and good that ye have returned to our land, Avatar!\"",
+   "zh": "「聖者回到吾等的土地，真是再好不過了！」",
+   "note": ""
+  },
+  {
+   "offset": 428,
+   "len": 19,
+   "en": "\"Well met, Avatar. ",
+   "zh": "「幸會，聖者。",
+   "note": "partial"
+  },
+  {
+   "offset": 455,
+   "len": 40,
+   "en": "An' what can I be doin' for ye this $T?\"",
+   "zh": "這個$T吾能為汝做什麼？」",
+   "note": ""
+  },
+  {
+   "offset": 516,
+   "len": 33,
+   "en": "\"Sure and you're goin' daft, $G.\"",
+   "zh": "「哎呀，$G，汝是不是糊塗了。」",
+   "note": ""
+  },
+  {
+   "offset": 552,
+   "len": 49,
+   "en": "\"I be named Julia, same as the last time we met!\"",
+   "zh": "「吾叫茱莉亞，跟上次吾等相遇時一樣！」",
+   "note": ""
+  },
+  {
+   "offset": 602,
+   "len": 47,
+   "en": "\"Named Julia I am, $G, and pleased to meet ye.\"",
+   "zh": "「吾叫茱莉亞，$G，很高興認識汝。」",
+   "note": ""
+  },
+  {
+   "offset": 660,
+   "len": 45,
+   "en": "\"Instruments I make, the finest in the land.\"",
+   "zh": "「吾製作樂器，是全境最精良的。」",
+   "note": ""
+  },
+  {
+   "offset": 713,
+   "len": 55,
+   "en": "\"For now, though, I'm followin' ye, and glad to do it!\"",
+   "zh": "「不過，眼下吾是在跟著汝，而且甘之如飴！」",
+   "note": "in party"
+  },
+  {
+   "offset": 769,
+   "len": 58,
+   "en": "\"Not to be immodest, but I'm respected by all the @Guild!\"",
+   "zh": "「吾不是要自誇，但整個@Guild（公會）都對吾敬重有加！」",
+   "note": ""
+  },
+  {
+   "offset": 830,
+   "len": 75,
+   "en": "\"Ach, but give it all up I would for a life of @adventure like your own...\"",
+   "zh": "「哎，吾真願意拋下一切，過上像汝那樣的@adventure（冒險）生活……」",
+   "note": ""
+  },
+  {
+   "offset": 917,
+   "len": 60,
+   "en": "\"If ye would like to be a member too, go talk to @Selganor.\"",
+   "zh": "「若汝也想成為成員，去找@Selganor（瑟爾）嘉諾吧。」",
+   "note": ""
+  },
+  {
+   "offset": 988,
+   "len": 23,
+   "en": "\"He's the guildmaster.\"",
+   "zh": "「他是公會會長。」",
+   "note": ""
+  },
+  {
+   "offset": 1026,
+   "len": 51,
+   "en": "\"Sent you to me they did? Aye, I can believe that.\"",
+   "zh": "「他們叫汝來找吾？哎，這吾相信。」",
+   "note": "panpipes quest"
+  },
+  {
+   "offset": 1080,
+   "len": 43,
+   "en": "\"Now the panpipes are a tricky instrument.\"",
+   "zh": "「排笛這玩意兒可不好做。」",
+   "note": ""
+  },
+  {
+   "offset": 1126,
+   "len": 33,
+   "en": "\"You gotta have the finest wood.\"",
+   "zh": "「得用最好的木頭才行。」",
+   "note": ""
+  },
+  {
+   "offset": 1161,
+   "len": 76,
+   "en": "\"If you want to learn how to make pipes, you'll need to bring a yew @board.\"",
+   "zh": "「若汝想學做排笛，需要帶一塊紫杉@board（木板）來。」",
+   "note": ""
+  },
+  {
+   "offset": 1240,
+   "len": 30,
+   "en": "\"But it must be freshly @cut!\"",
+   "zh": "「但必須是@cut（新鮮）切割的！」",
+   "note": ""
+  },
+  {
+   "offset": 1328,
+   "len": 32,
+   "en": "\"Aye, I'd @join you if ye wish.\"",
+   "zh": "「哎，若汝願意，吾可以@join（加入）汝。」",
+   "note": ""
+  },
+  {
+   "offset": 1371,
+   "len": 14,
+   "en": "\"Join ye? Me?\"",
+   "zh": "「加入汝？吾？」",
+   "note": ""
+  },
+  {
+   "offset": 1394,
+   "len": 56,
+   "en": "\"Aye, and be dumped off in the middle of nowhere again?\"",
+   "zh": "「哎，然後再被扔在荒野之中？」",
+   "note": "previous quest reference"
+  },
+  {
+   "offset": 1453,
+   "len": 53,
+   "en": "\"Not likely! Find some other sap to do your bidding!\"",
+   "zh": "「才不呢！去找別的傻瓜替汝跑腿！」",
+   "note": "refusing to join"
+  },
+  {
+   "offset": 1527,
+   "len": 35,
+   "en": "\"Aye, gladly! Let's be on our way.\"",
+   "zh": "「哎，欣然從命！出發吧。」",
+   "note": "joining"
+  },
+  {
+   "offset": 1578,
+   "len": 56,
+   "en": "\"Ach, I can tell that you say that to everyone ye meet.\"",
+   "zh": "「哎呀，吾看得出汝對每個遇到的人都這樣說。」",
+   "note": ""
+  },
+  {
+   "offset": 1637,
+   "len": 51,
+   "en": "\"Ask me again when you haven't as many companions.\"",
+   "zh": "「等汝的同伴沒這麼多時再問吾。」",
+   "note": "party full"
+  },
+  {
+   "offset": 1694,
+   "len": 20,
+   "en": "\"What are ye, daft? ",
+   "zh": "「汝是糊塗了嗎？",
+   "note": "partial; at sea"
+  },
+  {
+   "offset": 1722,
+   "len": 37,
+   "en": "If I join ye, where are we gonna go?\"",
+   "zh": "若吾加入汝，吾等要去哪裡？」",
+   "note": ""
+  },
+  {
+   "offset": 1762,
+   "len": 36,
+   "en": "\"Nay, $G. Ask me when we're ashore.\"",
+   "zh": "「不，$G。等吾等上岸再問吾。」",
+   "note": "at sea"
+  },
+  {
+   "offset": 1804,
+   "len": 26,
+   "en": "I'm already in your band!\"",
+   "zh": "吾已在汝的隊伍中了！」",
+   "note": "already in party"
+  },
+  {
+   "offset": 1833,
+   "len": 66,
+   "en": "\"Though now I'm not so sure I want to be led by a crazy person...\"",
+   "zh": "「雖然吾現在不確定吾是否想被一個瘋子帶著跑……」",
+   "note": ""
+  },
+  {
+   "offset": 1919,
+   "len": 48,
+   "en": "\"Leave! Nay, 'tis my house. You do the leavin'!\"",
+   "zh": "「離開！不，這是吾的房子。汝自己走！」",
+   "note": ""
+  },
+  {
+   "offset": 1988,
+   "len": 30,
+   "en": "\"Leave?! And jump overboard?!\"",
+   "zh": "「離開？！跳船？！」",
+   "note": "at sea"
+  },
+  {
+   "offset": 2021,
+   "len": 42,
+   "en": "\"Ach, I get it. You're makin' a wee joke!\"",
+   "zh": "「哎呀，吾明白了。汝是在開個小玩笑！」",
+   "note": ""
+  },
+  {
+   "offset": 2069,
+   "len": 62,
+   "en": "\"What? Oh, I suppose a craftsman isn't warrior enough to suit ",
+   "zh": "「什麼？哦，吾想一個工匠對",
+   "note": "partial; leaving party"
+  },
+  {
+   "offset": 2135,
+   "len": 8,
+   "en": "her lady",
+   "zh": "這位女",
+   "note": "female branch"
+  },
+  {
+   "offset": 2144,
+   "len": 8,
+   "en": "his lord",
+   "zh": "這位男",
+   "note": "male branch"
+  },
+  {
+   "offset": 2153,
+   "len": 15,
+   "en": "ship's tastes!\"",
+   "zh": "聖者來說不夠英武！」",
+   "note": ""
+  },
+  {
+   "offset": 2171,
+   "len": 38,
+   "en": "\"Well, that's fine and dandy with me!\"",
+   "zh": "「嗯，吾無所謂！」",
+   "note": ""
+  },
+  {
+   "offset": 2212,
+   "len": 44,
+   "en": "\"A good $T and a good bye to the lot of ye!\"",
+   "zh": "「祝汝等$T好，再見！」",
+   "note": ""
+  },
+  {
+   "offset": 2259,
+   "len": 45,
+   "en": "\"I'm tired of carrying all this junk anyway!\"",
+   "zh": "「再說吾早就厭倦帶著這一堆破爛了！」",
+   "note": ""
+  },
+  {
+   "offset": 2322,
+   "len": 42,
+   "en": "\"Aye, enough chatting. On with our quest!\"",
+   "zh": "「哎，聊夠了。繼續吾等的任務吧！」",
+   "note": "bye; in party"
+  },
+  {
+   "offset": 2376,
+   "len": 35,
+   "en": "\"May fortune follow ye on thy way!\"",
+   "zh": "「願好運一路伴汝！」",
+   "note": "bye; not in party"
+  },
+  {
+   "offset": 2414,
+   "len": 36,
+   "en": "\"Ach, aye! I wouldna want to hinder ",
+   "zh": "「哎呀！吾不想阻礙",
+   "note": "partial; bye"
+  },
+  {
+   "offset": 2454,
+   "len": 8,
+   "en": "her lady",
+   "zh": "這位女",
+   "note": "female branch"
+  },
+  {
+   "offset": 2463,
+   "len": 8,
+   "en": "his lord",
+   "zh": "這位男",
+   "note": "male branch"
+  },
+  {
+   "offset": 2472,
+   "len": 16,
+   "en": "ship's journey!\"",
+   "zh": "聖者的旅途！」",
+   "note": ""
+  },
+  {
+   "offset": 2505,
+   "len": 50,
+   "en": "\"Are ye daft? Why would I know anything about $Z?\"",
+   "zh": "「汝糊塗了嗎？吾為何會知道『$Z』的事？」",
+   "note": ""
+  },
+  {
+   "offset": 2556,
+   "len": 35,
+   "en": "\"Nay, $G, I know nothing about $Z.\"",
+   "zh": "「不，$G，吾對『$Z』一無所知。」",
+   "note": ""
+  },
+  {
+   "offset": 2598,
+   "len": 45,
+   "en": "Do ye have a fine yew board for me this $T?\" ",
+   "zh": "汝這個$T有帶好的紫杉木板來嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 2657,
+   "len": 48,
+   "en": "\"Well where is it? I canna see any board on ye!\"",
+   "zh": "「那在哪兒？吾看不到汝身上有任何木板！」",
+   "note": ""
+  },
+  {
+   "offset": 2711,
+   "len": 73,
+   "en": "\"Ach, aye, and good wood it is, too. A fine set of pipes this will make!\"",
+   "zh": "「哎呀，好木頭哩。這能做出一組好排笛！」",
+   "note": ""
+  },
+  {
+   "offset": 2796,
+   "len": 62,
+   "en": "\"No? What are ye, daft? I canna be makin' pipes without wood!\"",
+   "zh": "「沒有？汝糊塗了嗎？沒有木頭吾怎麼做排笛！」",
+   "note": ""
+  },
+  {
+   "offset": 2867,
+   "len": 55,
+   "en": "\"Go to Yew where they grow the best wood in Britannia.\"",
+   "zh": "「去尤城，那裡出產不列顛尼亞最好的木材。」",
+   "note": ""
+  },
+  {
+   "offset": 2925,
+   "len": 53,
+   "en": "\"Buy a freshly-cut yew log and take it to a sawmill.\"",
+   "zh": "「買一根新切割的紫杉原木，帶到鋸木廠去。」",
+   "note": ""
+  },
+  {
+   "offset": 2981,
+   "len": 55,
+   "en": "\"Have 'em cut it into a board, and bring it back here.\"",
+   "zh": "「讓他們把它鋸成木板，再帶回來給吾。」",
+   "note": ""
+  },
+  {
+   "offset": 3039,
+   "len": 42,
+   "en": "\"Then I'll show ye how panpipes are made!\"",
+   "zh": "「那時吾就來教汝怎麼做排笛！」",
+   "note": ""
+  },
+  {
+   "offset": 3086,
+   "len": 55,
+   "en": "Julia sets the wood down on a bench and starts carving.",
+   "zh": "茱莉亞把木板放在工作台上，開始雕刻。",
+   "note": "action"
+  },
+  {
+   "offset": 3144,
+   "len": 65,
+   "en": "As you watch, the rough board slowly turns into smooth wood rods.",
+   "zh": "汝看著，粗糙的木板慢慢變成了光滑的木棒。",
+   "note": "action"
+  },
+  {
+   "offset": 3211,
+   "len": 57,
+   "en": "Then she hollows out each rod and pegs them all together.",
+   "zh": "然後她將每根木棒掏空，用榫釘將它們固定在一起。",
+   "note": "action"
+  },
+  {
+   "offset": 3271,
+   "len": 70,
+   "en": "Lastly, she notches each tube and cuts them all to the proper lengths.",
+   "zh": "最後，她在每根管子上刻出缺口，並切割成適當的長度。",
+   "note": "action"
+  },
+  {
+   "offset": 3344,
+   "len": 70,
+   "en": "\"An' there it is, $G, a set of panpipes fit for any bard in the land!\"",
+   "zh": "「好了，$G，一組足以讓任何吟遊詩人稱心如意的排笛！」",
+   "note": ""
+  },
+  {
+   "offset": 3417,
+   "len": 33,
+   "en": "She hands you the finished pipes.",
+   "zh": "她將做好的排笛遞給汝。",
+   "note": "action"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Julia": "茱莉亞"
+  },
+  "places": {},
+  "concepts": {
+   "yew board": "紫杉木板"
+  }
+ },
+ "translator_notes": "茱莉亞是密諾克工匠公會的愛爾蘭腔樂器工匠，中文無法直接重現愛爾蘭腔，以「哎」「哎呀」等語氣詞傳達其直爽個性。她製作排笛需要新鮮切割的紫杉木板，木板需從鋸木廠取得。「lordship/ladyship」配合性別分支譯為「女聖者/男聖者」的概念。"
 }

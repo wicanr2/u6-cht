@@ -39,14 +39,14 @@
    "offset": 276,
    "len": 35,
    "en": "\"They call me '@Wicked Wanda,' $0.\"",
-   "zh": "「他們叫我『@壞汪達』，$0。」",
+   "zh": "「他們叫我『@Wicked（壞汪）達』，$0。」",
    "note": ""
   },
   {
    "offset": 333,
    "len": 82,
    "en": "\"If we can find someplace @private, I'll gladly show you how I got my nickname...\"",
-   "zh": "「若我們能找個@僻靜的地方，我很樂意讓你知道我的綽號是怎麼來的……」",
+   "zh": "「若我們能找個@private（僻靜）的地方，我很樂意讓你知道我的綽號是怎麼來的……」",
    "note": ""
   },
   {
@@ -102,14 +102,14 @@
    "offset": 740,
    "len": 70,
    "en": "\"@Arturos, he, uh, found a map last time we were up at Empath @Abbey.\"",
-   "zh": "「@阿圖羅斯，呃，上次我們去悲憫@修道院時他找到了一張地圖。」",
+   "zh": "「@Arturos（阿圖）羅斯，呃，上次我們去悲憫@Abbey（修道）院時他找到了一張地圖。」",
    "note": ""
   },
   {
    "offset": 821,
    "len": 53,
    "en": "\"He'll tell your @fortune for you, $0. Just ask him!\"",
-   "zh": "「他可以為你算@命，$0。去問他就是了！」",
+   "zh": "「他可以為你算@fortune（命），$0。去問他就是了！」",
    "note": ""
   },
   {
@@ -130,14 +130,14 @@
    "offset": 987,
    "len": 55,
    "en": "\"@Andreas has a silver tablet you could ask him about.\"",
-   "zh": "「@安德烈亞斯有塊銀板，你可以去問他。」",
+   "zh": "「@Andreas（安德）烈亞斯有塊銀板，你可以去問他。」",
    "note": ""
   },
   {
    "offset": 1045,
    "len": 48,
    "en": "\"But I have something much @sweeter for sale...\"",
-   "zh": "「但我有更@甜蜜的東西出售……」",
+   "zh": "「但我有更@sweeter（甜蜜）的東西出售……」",
    "note": ""
   },
   {
@@ -200,7 +200,7 @@
    "offset": 1665,
    "len": 77,
    "en": "\"Again, so soon? Nay, come back later, when I've had a little time to @rest.\"",
-   "zh": "「又來了，這麼快？不，晚些再來，讓我@休息一下。」",
+   "zh": "「又來了，這麼快？不，晚些再來，讓我@rest（休息）一下。」",
    "note": ""
   },
   {
@@ -295,6 +295,11 @@
    "note": ""
   }
  ],
- "glossary_additions": {"people": {"Wanda": "汪達"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Wanda": "汪達"
+  },
+  "places": {}
+ },
  "translator_notes": "汪達（壞汪達）是吉普賽妓女，口語輕佻，對男女玩家各有不同開場台詞。成人服務收費15金幣。capish（義大利語）意譯為「明白」。"
 }

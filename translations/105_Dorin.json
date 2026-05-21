@@ -11,7 +11,7 @@
    "offset": 74,
    "len": 72,
    "en": "\"Oh, good, you've come back. Perhaps for some @pie?\" She smiles broadly.",
-   "zh": "「哦，好，汝回來了，或許是想要些@派？」她笑開了臉。",
+   "zh": "「哦，好，汝回來了，或許是想要些@pie（派）？」她笑開了臉。",
    "note": ""
   },
   {
@@ -46,21 +46,21 @@
    "offset": 343,
    "len": 27,
    "en": "\"It was my @mother's name.\"",
-   "zh": "「那是在下@母親的名字。」",
+   "zh": "「那是在下@mother（母親）的名字。」",
    "note": ""
   },
   {
    "offset": 381,
    "len": 83,
    "en": "\"At the moment, only Meri and I are here, so I guess I must conduct the @business.\"",
-   "zh": "「目前只有梅里和在下在這裡，所以在下想是得自己打理@生意了。」",
+   "zh": "「目前只有梅里和在下在這裡，所以在下想是得自己打理@business（生意）了。」",
    "note": ""
   },
   {
    "offset": 481,
    "len": 34,
    "en": "\"We are shepherds. We sell @wool.\"",
-   "zh": "「我們是牧羊人，我們販售@羊毛。」",
+   "zh": "「我們是牧羊人，我們販售@wool（羊毛）。」",
    "note": ""
   },
   {

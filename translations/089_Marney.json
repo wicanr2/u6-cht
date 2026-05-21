@@ -46,14 +46,14 @@
    "offset": 338,
    "len": 61,
    "en": "\"It means the cool breeze after a storm has passed. @Marney.\"",
-   "zh": "「意為風暴過後的清涼微風。@瑪妮。」",
+   "zh": "「意為風暴過後的清涼微風。@Marney（瑪妮）。」",
    "note": ""
   },
   {
    "offset": 410,
    "len": 25,
    "en": "\"I look after the @dock.\"",
-   "zh": "「在下看管@碼頭。」",
+   "zh": "「在下看管@dock（碼頭）。」",
    "note": ""
   },
   {
@@ -81,14 +81,14 @@
    "offset": 648,
    "len": 62,
    "en": "\"It is in a @poem my mother wrote to him when they first met.\"",
-   "zh": "「那在我母親與父親初見時為他所寫的@詩中。」",
+   "zh": "「那在我母親與父親初見時為他所寫的@poem（詩）中。」",
    "note": ""
   },
   {
    "offset": 713,
    "len": 60,
    "en": "She grabs a @locket that hangs around her neck and opens it.",
-   "zh": "她取下頸上掛著的@小圓盒，將它打開。",
+   "zh": "她取下頸上掛著的@locket（小圓）盒，將它打開。",
    "note": ""
   },
   {
@@ -144,7 +144,7 @@
    "offset": 1272,
    "len": 33,
    "en": "Inside a @basket made of promise,",
-   "zh": "在承諾所編之@籃中，",
+   "zh": "在承諾所編之@basket（籃）中，",
    "note": ""
   },
   {
@@ -172,21 +172,21 @@
    "offset": 1520,
    "len": 72,
    "en": "\"My mother told me to give it to father when he returned from the @sea.\"",
-   "zh": "「我母親叫我等父親從@大海歸來時交給他。」",
+   "zh": "「我母親叫我等父親從@sea（大海）歸來時交給他。」",
    "note": ""
   },
   {
    "offset": 1595,
    "len": 46,
    "en": "\"Yorl gave it back to me after he was @killed.",
-   "zh": "「尤爾在父親@被殺後，將它還給了我。",
+   "zh": "「尤爾在父親@killed被殺後，將它還給了我。",
    "note": "片段"
   },
   {
    "offset": 1652,
    "len": 73,
    "en": "\"My father had gone out to help @Yorl bring in the catch that afternoon.\"",
-   "zh": "「那天下午，父親出門去幫@尤爾搬運漁獲。」",
+   "zh": "「那天下午，父親出門去幫@Yorl（尤爾）搬運漁獲。」",
    "note": ""
   },
   {
@@ -270,7 +270,7 @@
    "offset": 2470,
    "len": 55,
    "en": "\"Had he been drinking, @Yorl would have been with him.\"",
-   "zh": "「若他在喝酒，@尤爾必然也在他身旁。」",
+   "zh": "「若他在喝酒，@Yorl（尤爾）必然也在他身旁。」",
    "note": ""
   },
   {
@@ -298,7 +298,7 @@
    "offset": 2743,
    "len": 74,
    "en": "\"If my @father had been drinking at the @inn, Yorl would have been there.\"",
-   "zh": "「若我@父親在@旅店喝酒，尤爾必然也在。」",
+   "zh": "「若我@father（父親）在@inn（旅店）喝酒，尤爾必然也在。」",
    "note": ""
   },
   {
@@ -312,7 +312,7 @@
    "offset": 2891,
    "len": 50,
    "en": "\"@Gideon had been a friend of theirs since youth.\"",
-   "zh": "「@吉迪恩自年輕起便是他們的好友。」",
+   "zh": "「@Gideon（吉迪）恩自年輕起便是他們的好友。」",
    "note": ""
   },
   {

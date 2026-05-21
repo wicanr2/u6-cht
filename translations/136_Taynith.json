@@ -11,7 +11,7 @@
    "offset": 74,
    "len": 51,
    "en": "\"My chances to visit Dr. @Cat come all too seldom.\"",
-   "zh": "「吾拜訪@貓醫生的機會實在太少了。」",
+   "zh": "「吾拜訪@Cat（貓醫）生的機會實在太少了。」",
    "note": ""
   },
   {
@@ -46,14 +46,14 @@
    "offset": 361,
    "len": 57,
    "en": "\"Some know me as @Taynith. That is what you may call me.\"",
-   "zh": "「有些人知道吾的名字是@泰妮絲。汝可如此稱呼吾。」",
+   "zh": "「有些人知道吾的名字是@Taynith（泰妮）絲。汝可如此稱呼吾。」",
    "note": ""
   },
   {
    "offset": 444,
    "len": 48,
    "en": "\"Seek not my @true name. Let 'Taynith' suffice.\"",
-   "zh": "「莫要探尋吾的@真名。『泰妮絲』已足夠。」",
+   "zh": "「莫要探尋吾的@true（真名）。『泰妮絲』已足夠。」",
    "note": ""
   },
   {
@@ -67,7 +67,7 @@
    "offset": 539,
    "len": 33,
    "en": "\"I tell @fortunes - for a price.\"",
-   "zh": "「吾算@命——但要收費。」",
+   "zh": "「吾算@fortunes（命）——但要收費。」",
    "note": ""
   },
   {
@@ -81,7 +81,7 @@
    "offset": 701,
    "len": 50,
    "en": "\"Our @paths will cross again. I have foreseen it.\"",
-   "zh": "「吾等的@道路將再次交會。此乃吾所預見。」",
+   "zh": "「吾等的@paths（道路）將再次交會。此乃吾所預見。」",
    "note": ""
   },
   {
@@ -95,14 +95,14 @@
    "offset": 859,
    "len": 66,
    "en": "\"@Zoltan took care of the deal, so he could tell you more than I.\"",
-   "zh": "「@佐爾坦負責了那次交易，他能告訴汝的比吾更多。」",
+   "zh": "「@Zoltan（佐爾）坦負責了那次交易，他能告訴汝的比吾更多。」",
    "note": ""
   },
   {
    "offset": 946,
    "len": 23,
    "en": "\"Ask @Zoltan about it.\"",
-   "zh": "「去問@佐爾坦。」",
+   "zh": "「去問@Zoltan（佐爾）坦。」",
    "note": ""
   },
   {
@@ -116,14 +116,14 @@
    "offset": 1040,
    "len": 64,
    "en": "\"My path leads to @Paws, as soon as I have time to visit there.\"",
-   "zh": "「吾的道路通往@帕斯，一旦有暇便去拜訪。」",
+   "zh": "「吾的道路通往@Paws（帕斯），一旦有暇便去拜訪。」",
    "note": ""
   },
   {
    "offset": 1114,
    "len": 38,
    "en": "\"My good @friend Dr. Cat lives there.\"",
-   "zh": "「吾的好@友貓醫生就住在那裡。」",
+   "zh": "「吾的好@friend（友貓）醫生就住在那裡。」",
    "note": ""
   },
   {
@@ -144,7 +144,7 @@
    "offset": 1245,
    "len": 35,
    "en": "\"@Zoltan can tell you where it is.\"",
-   "zh": "「@佐爾坦能告訴汝它在哪裡。」",
+   "zh": "「@Zoltan（佐爾）坦能告訴汝它在哪裡。」",
    "note": ""
   },
   {
@@ -193,7 +193,7 @@
    "offset": 1590,
    "len": 81,
    "en": "\"Look through the books at the @Lycaeum. You might learn something useful there.\"",
-   "zh": "「去查閱@萊西厄姆的藏書。汝或許能在那裡學到有用的東西。」",
+   "zh": "「去查閱@Lycaeum（萊西）厄姆的藏書。汝或許能在那裡學到有用的東西。」",
    "note": ""
   },
   {
@@ -242,7 +242,7 @@
    "offset": 2088,
    "len": 92,
    "en": "\"If you consult the tiles another time, perhaps they will have more to say of your @future.\"",
-   "zh": "「若汝再次請吾占卦，也許牌面對汝的@未來會有更多啟示。」",
+   "zh": "「若汝再次請吾占卦，也許牌面對汝的@future（未來）會有更多啟示。」",
    "note": ""
   },
   {
@@ -263,7 +263,7 @@
    "offset": 2352,
    "len": 85,
    "en": "\"Seek out @Penumbra. Her crystal ball should hold more of an affinity for this item.\"",
-   "zh": "「去尋@潘努布拉。她的水晶球與此物的親和力應更深。」",
+   "zh": "「去尋@Penumbra（潘努）布拉。她的水晶球與此物的親和力應更深。」",
    "note": ""
   },
   {
@@ -358,6 +358,11 @@
    "note": ""
   }
  ],
- "glossary_additions": {"people": {"Taynith": "泰妮絲"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Taynith": "泰妮絲"
+  },
+  "places": {}
+ },
  "translator_notes": "泰妮絲是吉普賽占卜師，神秘預知能力，用文言（「汝/吾/乃」）傳達莊重感。骨牌牌名直接翻譯。"
 }

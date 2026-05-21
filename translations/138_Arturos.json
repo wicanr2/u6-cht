@@ -11,14 +11,14 @@
    "offset": 54,
    "len": 91,
    "en": "\"Hey, paisan! If you were looking to geta your @fortune told, you came to the right place.\"",
-   "zh": "「嘿，老鄉！若你想算@命，算是來對地方了。」",
+   "zh": "「嘿，老鄉！若你想算@fortune（命），算是來對地方了。」",
    "note": "義大利口音：paisan（同鄉），語助詞 geta→to get"
   },
   {
    "offset": 160,
    "len": 121,
    "en": "\"I'ma called Arturos. That meansa either 'foolish monkey' or 'he who sells cheese', depending on howa you @translate it.\"",
-   "zh": "「俺叫阿圖羅斯。依照@翻譯方式不同，這個名字的意思或是『蠢猴子』，或是『賣乳酪的人』。」",
+   "zh": "「俺叫阿圖羅斯。依照@translate（翻譯）方式不同，這個名字的意思或是『蠢猴子』，或是『賣乳酪的人』。」",
    "note": "義大利腔：I'ma, meansa, howa"
   },
   {
@@ -53,14 +53,14 @@
    "offset": 591,
    "len": 96,
    "en": "\"Of course, thatsa what you call more of an 'honorary' @title, so I tell @fortunes on the side.\"",
-   "zh": "「當然，那頭@銜比較算是……榮譽性的，所以俺副業是算@命。」",
+   "zh": "「當然，那頭@title（銜比）較算是……榮譽性的，所以俺副業是算@fortunes（命）。」",
    "note": ""
   },
   {
    "offset": 718,
    "len": 53,
    "en": "\"You cana just call me '@Uncle @Arthur' if you like.\"",
-   "zh": "「你也可以叫俺『@阿叔@亞瑟』，若你喜歡的話。」",
+   "zh": "「你也可以叫俺『@Uncle（阿叔）@Arthur（亞瑟）』，若你喜歡的話。」",
    "note": ""
   },
   {
@@ -102,7 +102,7 @@
    "offset": 1256,
    "len": 62,
    "en": "\"But hey, maybe there's something in the @cards about it, ah?\"",
-   "zh": "「但嘿，也許@牌裡有它的消息，對不？」",
+   "zh": "「但嘿，也許@cards（牌裡）有它的消息，對不？」",
    "note": ""
   },
   {
@@ -470,6 +470,11 @@
    "note": ""
   }
  ],
- "glossary_additions": {"people": {"Arturos": "阿圖羅斯"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Arturos": "阿圖羅斯"
+  },
+  "places": {}
+ },
  "translator_notes": "阿圖羅斯是義大利腔騙子吉普賽人，說話充滿語助詞（thatsa/meansa/ima）。塔羅牌占卜場景詼諧荒誕，教皇牌被誤解為大象的笑話是核心幽默點。"
 }

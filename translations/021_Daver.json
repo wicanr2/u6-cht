@@ -1,88 +1,410 @@
 {
-  "_meta": {
-    "npc": "Daver (Daver McCord)",
-    "role": "灰袍敲鐘人，戴去指手套，攜大沙漏；不列顛城內按時敲鐘報時的役者。對符文、真言、八城領主皆有粗淺見聞，是世界觀資訊提供者；自謙『只是個敲鐘人』。"
+ "_meta": {
+  "npc": "Daver (Daver McCord)",
+  "role": "灰袍敲鐘人，戴去指手套，攜大沙漏；不列顛城內按時敲鐘報時的役者。對符文、真言、八城領主皆有粗淺見聞，是世界觀資訊提供者；自謙『只是個敲鐘人』。"
+ },
+ "translations": [
+  {
+   "offset": 2,
+   "len": 5,
+   "en": "Daver",
+   "zh": "達瓦",
+   "zh_bytes": 4,
+   "note": "人名音譯；Daver → 達瓦；len=5"
   },
-  "translations": [
-    {"offset": 2, "len": 5, "en": "Daver", "zh": "達瓦", "zh_bytes": 4, "note": "人名音譯；Daver → 達瓦；len=5"},
-    {"offset": 8, "len": 32, "en": "a man wearing a long grey cloak.", "zh": "一名身披灰色長袍之人。", "zh_bytes": 22, "note": "描述句"},
-    {"offset": 43, "len": 81, "en": "He wears gloves with the fingers cut off, and carries a large hourglass with him.", "zh": "他戴著去指手套，隨身攜帶一個大沙漏。", "zh_bytes": 36, "note": "去指手套=指尖剪掉之手套"},
-    {"offset": 127, "len": 25, "en": "\"Good $T, friend Avatar.\"", "zh": "「$T安好，聖者朋友。」", "zh_bytes": 22, "note": "保留 $T；Avatar → 聖者"},
-    {"offset": 155, "len": 4, "en": "name", "zh": "名字", "zh_bytes": 4, "note": "@name keyword"},
-    {"offset": 160, "len": 19, "en": "\"I'm Daver McCord.\"", "zh": "「達瓦麥柯也。」", "zh_bytes": 16, "note": "len=19 緊；省『我乃』改為文言『也』收尾；McCord → 麥柯"},
-    {"offset": 191, "len": 3, "en": "job", "zh": "業", "zh_bytes": 2, "note": "@job keyword"},
-    {"offset": 195, "len": 60, "en": "\"Every hour of the day, I ring the @bell a number of times.\"", "zh": "「我每時辰按鐘數鳴@鐘。」", "zh_bytes": 25, "note": "@bell → @鐘"},
-    {"offset": 261, "len": 4, "en": "bell", "zh": "鐘", "zh_bytes": 2, "note": "@bell keyword"},
-    {"offset": 266, "len": 54, "en": "\"According to the @numbers on the hourglass, you see.\"", "zh": "「按沙漏上的@刻數而定，汝可知。」", "zh_bytes": 33, "note": "@numbers → @刻數"},
-    {"offset": 326, "len": 4, "en": "numb", "zh": "刻數", "zh_bytes": 4, "note": "@numbers keyword"},
-    {"offset": 331, "len": 67, "en": "\"Well, I usually know what @time it is up here in my head somehow.\"", "zh": "「呃，我心中大致曉得此刻是何@時辰。」", "zh_bytes": 37, "note": "@time → @時辰"},
-    {"offset": 401, "len": 86, "en": "\"But just in case, I start this hourglass at sunup, turning it over every nine hours.\"", "zh": "「但為求保險，日出時翻沙漏起算，每九小時翻轉一次。」", "zh_bytes": 52, "note": ""},
-    {"offset": 493, "len": 4, "en": "time", "zh": "時辰", "zh_bytes": 4, "note": "@time keyword"},
-    {"offset": 498, "len": 50, "en": "\"It is especially important for those with shops.\"", "zh": "「對開店之人尤為重要。」", "zh_bytes": 24, "note": ""},
-    {"offset": 551, "len": 81, "en": "\"They know when to open for @business, eat lunch, close, and that sort of thing.\"", "zh": "「他們需知何時開門@營業、用午膳、收攤等等。」", "zh_bytes": 45, "note": "避『餐』（5C trail c05c）改『膳』"},
-    {"offset": 635, "len": 57, "en": "\"Another of Lord British's innovations, this bell thing.\"", "zh": "「此鐘也是不列顛王所創之事物之一。」", "zh_bytes": 36, "note": "Lord British → 不列顛王"},
-    {"offset": 698, "len": 4, "en": "avat", "zh": "聖者", "zh_bytes": 4, "note": "@Avatar keyword"},
-    {"offset": 703, "len": 80, "en": "\"You look much taller in person. Woodroffe's painting does not do you @justice.\"", "zh": "「汝本人比畫中為大。伍卓夫之畫未盡@公道。」", "zh_bytes": 43, "note": "避『許』（5C trail b35c）改寫；Woodroffe → 伍卓夫（glossary）"},
-    {"offset": 789, "len": 4, "en": "just", "zh": "公道", "zh_bytes": 4, "note": "@justice keyword"},
-    {"offset": 794, "len": 60, "en": "\"Heh, heh. I know little of that. I'm just the bell-ringer.\"", "zh": "「呵呵。此事我不甚明瞭。我只是個敲鐘人。」", "zh_bytes": 42, "note": ""},
-    {"offset": 860, "len": 14, "en": "open,busi,sort", "zh": "開,業,類", "zh_bytes": 8, "note": "keyword 群組"},
-    {"offset": 875, "len": 82, "en": "\"Hmmm. I guess that you don't keep a regular schedule, being the @Avatar and all.\"", "zh": "「嗯。想必汝身為@聖者，不按常規作息。」", "zh_bytes": 39, "note": ""},
-    {"offset": 960, "len": 58, "en": "\"Probably out till all hours, collecting @runes and such.\"", "zh": "「想必夜以繼日，蒐集@符文之類。」", "zh_bytes": 33, "note": "@runes → @符文"},
-    {"offset": 1024, "len": 4, "en": "rune", "zh": "符文", "zh_bytes": 4, "note": "@rune keyword"},
-    {"offset": 1029, "len": 24, "en": "\"Magical little things.\"", "zh": "「神奇的小物。」", "zh_bytes": 16, "note": ""},
-    {"offset": 1056, "len": 58, "en": "\"There's a symbol on one side, and a letter on the other.\"", "zh": "「一面有符號，另一面有字母。」", "zh_bytes": 30, "note": ""},
-    {"offset": 1117, "len": 64, "en": "\"Probably spell something out if you put 'em all on a necklace.\"", "zh": "「若全串成項鍊，或可拼出什麼字。」", "zh_bytes": 34, "note": ""},
-    {"offset": 1184, "len": 44, "en": "\"But that hasn't been done for a long time.\"", "zh": "「但這事久未有人為之了。」", "zh_bytes": 26, "note": ""},
-    {"offset": 1231, "len": 74, "en": "\"After the Codex of Ultimate Wisdom was brought back from the underworld, ", "zh": "「自從終極智慧守則之書從幽冥界取回後，", "zh_bytes": 38, "note": "Codex of Ultimate Wisdom → 終極智慧守則之書（glossary）；underworld → 幽冥界"},
-    {"offset": 1306, "len": 63, "en": "Lord @British gave the runes to the lords of the eight cities.\"", "zh": "@不列顛王便將符文授予八城之領主。」", "zh_bytes": 36, "note": "@British → @不列顛王，保留 @ prefix 供 keyword lookup"},
-    {"offset": 1375, "len": 14, "en": "eigh,citi,gave", "zh": "八,城,授", "zh_bytes": 8, "note": "keyword 群組"},
-    {"offset": 1390, "len": 51, "en": "\"Let's see now.\" He counts them off on his fingers.", "zh": "「我來算算。」他扳指數來。", "zh_bytes": 26, "note": ""},
-    {"offset": 1444, "len": 63, "en": "\"Minoc, Trinsic, Jhelom, Yew, Skara Brae, Britain, Moonglow...\"", "zh": "「米諾克、崔西克、傑隆、尤伊、斯卡拉布雷、不列顛城、月華城…」", "zh_bytes": 62, "note": "七城名；用單個 ellipsis 而非雙個以節省 bytes"},
-    {"offset": 1510, "len": 72, "en": "\"...Ah yes, and New Magincia. I hear each of the lords knows a @mantra.\"", "zh": "「…啊對了，還有新馬精西亞。聽說每位領主皆知一句@真言。」", "zh_bytes": 57, "note": "New Magincia → 新馬精西亞"},
-    {"offset": 1588, "len": 4, "en": "mant", "zh": "真言", "zh_bytes": 4, "note": "@mantra keyword"},
-    {"offset": 1593, "len": 42, "en": "\"Haven't the foggiest what those are for.\"", "zh": "「那些東西作何用，我毫無頭緒。」", "zh_bytes": 32, "note": ""},
-    {"offset": 1638, "len": 45, "en": "\"Something to do with the @shrines, I think.\"", "zh": "「想必與@聖壇有關。」", "zh_bytes": 21, "note": "@shrines → @聖壇"},
-    {"offset": 1689, "len": 4, "en": "shri", "zh": "聖壇", "zh_bytes": 4, "note": "@shrines keyword"},
-    {"offset": 1694, "len": 51, "en": "\"Always wanted to visit them. Never had the @time.\"", "zh": "「一直想去拜訪。從不曾有@時辰。」", "zh_bytes": 33, "note": ""},
-    {"offset": 1748, "len": 16, "en": "\"Heh, heh, heh!\"", "zh": "「呵，呵，呵！」", "zh_bytes": 16, "note": ""},
-    {"offset": 1770, "len": 9, "en": "lord,brit", "zh": "不列顛王", "zh_bytes": 8, "note": "keyword 群組合併為全稱"},
-    {"offset": 1780, "len": 57, "en": "\"Lord British appointed lords to rule the eight @cities.\"", "zh": "「不列顛王指派領主治理八@城。」", "zh_bytes": 31, "note": ""},
-    {"offset": 1843, "len": 3, "en": "bye", "zh": "別", "zh_bytes": 2, "note": "@bye keyword"},
-    {"offset": 1847, "len": 22, "en": "\"Until we meet again.\"", "zh": "「他日再會吧。」", "zh_bytes": 16, "note": ""},
-    {"offset": 1874, "len": 37, "en": "\"Sorry, I cannot help you with that.\"", "zh": "「抱歉，此事我無能為力。」", "zh_bytes": 26, "note": "預設不解回應"}
-  ],
-  "keyword_mapping": {
-    "@bell": "@鐘",
-    "@numbers": "@刻數",
-    "@time": "@時辰",
-    "@business": "@營業",
-    "@Avatar": "@聖者",
-    "@justice": "@公道",
-    "@runes": "@符文",
-    "@mantra": "@真言",
-    "@shrines": "@聖壇",
-    "@cities": "@城",
-    "@British": "@不列顛王"
+  {
+   "offset": 8,
+   "len": 32,
+   "en": "a man wearing a long grey cloak.",
+   "zh": "一名身披灰色長袍之人。",
+   "zh_bytes": 22,
+   "note": "描述句"
   },
-  "glossary_additions": {
-    "people": {
-      "Daver McCord": "達瓦麥柯",
-      "Woodroffe": "伍卓夫"
-    },
-    "concepts": {
-      "bell-ringer": "敲鐘人",
-      "hourglass": "沙漏"
-    }
+  {
+   "offset": 43,
+   "len": 81,
+   "en": "He wears gloves with the fingers cut off, and carries a large hourglass with him.",
+   "zh": "他戴著去指手套，隨身攜帶一個大沙漏。",
+   "zh_bytes": 36,
+   "note": "去指手套=指尖剪掉之手套"
   },
-  "riddles_additions": [
-    {
-      "npc": "Daver",
-      "key": "EIGHT_CITIES_RUNES",
-      "en": "After the Codex of Ultimate Wisdom was brought back from the underworld, Lord British gave the runes to the lords of the eight cities. Minoc, Trinsic, Jhelom, Yew, Skara Brae, Britain, Moonglow... and New Magincia.",
-      "zh": "自從終極智慧守則之書從幽冥界取回後，不列顛王便將符文授予八城之領主。米諾克、崔西克、傑隆、尤伊、斯卡拉布雷、不列顛城、月華城…啊對了，還有新馬精西亞。聽說每位領主皆知一句@真言。",
-      "ref": "Ultima 系列八城八德對應；玩家主線需從八城領主處收齊八符文與八真言。Daver 簡介此設定。",
-      "strategy": "保留城名次序，符合 Ultima 系列正典；用單字 ellipsis 節省 bytes"
-    }
-  ],
-  "translator_notes": "Daver 為不列顛城內按時敲鐘的閒人，自謙『只是個敲鐘人』；對白偏白話夾古典（『此鐘』『此事』『日出時』）。介紹了八符文-八城-八真言的世界觀（呼應 Ariana/Nan 的符文／Mariah 的真言）。避 5C trail：『餐』(c05c) 改『膳』；『許』(b35c) 改寫句子。Lord British 首次出現用全稱『不列顛王』。McCord → 麥柯（新詞）；Woodroffe 在 glossary 已有。"
+  {
+   "offset": 127,
+   "len": 25,
+   "en": "\"Good $T, friend Avatar.\"",
+   "zh": "「$T安好，聖者朋友。」",
+   "zh_bytes": 22,
+   "note": "保留 $T；Avatar → 聖者"
+  },
+  {
+   "offset": 155,
+   "len": 4,
+   "en": "name",
+   "zh": "名字",
+   "zh_bytes": 4,
+   "note": "@name keyword"
+  },
+  {
+   "offset": 160,
+   "len": 19,
+   "en": "\"I'm Daver McCord.\"",
+   "zh": "「達瓦麥柯也。」",
+   "zh_bytes": 16,
+   "note": "len=19 緊；省『我乃』改為文言『也』收尾；McCord → 麥柯"
+  },
+  {
+   "offset": 191,
+   "len": 3,
+   "en": "job",
+   "zh": "業",
+   "zh_bytes": 2,
+   "note": "@job keyword"
+  },
+  {
+   "offset": 195,
+   "len": 60,
+   "en": "\"Every hour of the day, I ring the @bell a number of times.\"",
+   "zh": "「我每時辰按鐘數鳴@bell（鐘）。」",
+   "zh_bytes": 25,
+   "note": "@bell → @鐘"
+  },
+  {
+   "offset": 261,
+   "len": 4,
+   "en": "bell",
+   "zh": "鐘",
+   "zh_bytes": 2,
+   "note": "@bell keyword"
+  },
+  {
+   "offset": 266,
+   "len": 54,
+   "en": "\"According to the @numbers on the hourglass, you see.\"",
+   "zh": "「按沙漏上的@numbers（刻數）而定，汝可知。」",
+   "zh_bytes": 33,
+   "note": "@numbers → @刻數"
+  },
+  {
+   "offset": 326,
+   "len": 4,
+   "en": "numb",
+   "zh": "刻數",
+   "zh_bytes": 4,
+   "note": "@numbers keyword"
+  },
+  {
+   "offset": 331,
+   "len": 67,
+   "en": "\"Well, I usually know what @time it is up here in my head somehow.\"",
+   "zh": "「呃，我心中大致曉得此刻是何@time時辰。」",
+   "zh_bytes": 37,
+   "note": "@time → @時辰"
+  },
+  {
+   "offset": 401,
+   "len": 86,
+   "en": "\"But just in case, I start this hourglass at sunup, turning it over every nine hours.\"",
+   "zh": "「但為求保險，日出時翻沙漏起算，每九小時翻轉一次。」",
+   "zh_bytes": 52,
+   "note": ""
+  },
+  {
+   "offset": 493,
+   "len": 4,
+   "en": "time",
+   "zh": "時辰",
+   "zh_bytes": 4,
+   "note": "@time keyword"
+  },
+  {
+   "offset": 498,
+   "len": 50,
+   "en": "\"It is especially important for those with shops.\"",
+   "zh": "「對開店之人尤為重要。」",
+   "zh_bytes": 24,
+   "note": ""
+  },
+  {
+   "offset": 551,
+   "len": 81,
+   "en": "\"They know when to open for @business, eat lunch, close, and that sort of thing.\"",
+   "zh": "「他們需知何時開門@business（營業）、用午膳、收攤等等。」",
+   "zh_bytes": 45,
+   "note": "避『餐』（5C trail c05c）改『膳』"
+  },
+  {
+   "offset": 635,
+   "len": 57,
+   "en": "\"Another of Lord British's innovations, this bell thing.\"",
+   "zh": "「此鐘也是不列顛王所創之事物之一。」",
+   "zh_bytes": 36,
+   "note": "Lord British → 不列顛王"
+  },
+  {
+   "offset": 698,
+   "len": 4,
+   "en": "avat",
+   "zh": "聖者",
+   "zh_bytes": 4,
+   "note": "@Avatar keyword"
+  },
+  {
+   "offset": 703,
+   "len": 80,
+   "en": "\"You look much taller in person. Woodroffe's painting does not do you @justice.\"",
+   "zh": "「汝本人比畫中為大。伍卓夫之畫未盡@justice（公道）。」",
+   "zh_bytes": 43,
+   "note": "避『許』（5C trail b35c）改寫；Woodroffe → 伍卓夫（glossary）"
+  },
+  {
+   "offset": 789,
+   "len": 4,
+   "en": "just",
+   "zh": "公道",
+   "zh_bytes": 4,
+   "note": "@justice keyword"
+  },
+  {
+   "offset": 794,
+   "len": 60,
+   "en": "\"Heh, heh. I know little of that. I'm just the bell-ringer.\"",
+   "zh": "「呵呵。此事我不甚明瞭。我只是個敲鐘人。」",
+   "zh_bytes": 42,
+   "note": ""
+  },
+  {
+   "offset": 860,
+   "len": 14,
+   "en": "open,busi,sort",
+   "zh": "開,業,類",
+   "zh_bytes": 8,
+   "note": "keyword 群組"
+  },
+  {
+   "offset": 875,
+   "len": 82,
+   "en": "\"Hmmm. I guess that you don't keep a regular schedule, being the @Avatar and all.\"",
+   "zh": "「嗯。想必汝身為@Avatar（聖者），不按常規作息。」",
+   "zh_bytes": 39,
+   "note": ""
+  },
+  {
+   "offset": 960,
+   "len": 58,
+   "en": "\"Probably out till all hours, collecting @runes and such.\"",
+   "zh": "「想必夜以繼日，蒐集@runes（符文）之類。」",
+   "zh_bytes": 33,
+   "note": "@runes → @符文"
+  },
+  {
+   "offset": 1024,
+   "len": 4,
+   "en": "rune",
+   "zh": "符文",
+   "zh_bytes": 4,
+   "note": "@rune keyword"
+  },
+  {
+   "offset": 1029,
+   "len": 24,
+   "en": "\"Magical little things.\"",
+   "zh": "「神奇的小物。」",
+   "zh_bytes": 16,
+   "note": ""
+  },
+  {
+   "offset": 1056,
+   "len": 58,
+   "en": "\"There's a symbol on one side, and a letter on the other.\"",
+   "zh": "「一面有符號，另一面有字母。」",
+   "zh_bytes": 30,
+   "note": ""
+  },
+  {
+   "offset": 1117,
+   "len": 64,
+   "en": "\"Probably spell something out if you put 'em all on a necklace.\"",
+   "zh": "「若全串成項鍊，或可拼出什麼字。」",
+   "zh_bytes": 34,
+   "note": ""
+  },
+  {
+   "offset": 1184,
+   "len": 44,
+   "en": "\"But that hasn't been done for a long time.\"",
+   "zh": "「但這事久未有人為之了。」",
+   "zh_bytes": 26,
+   "note": ""
+  },
+  {
+   "offset": 1231,
+   "len": 74,
+   "en": "\"After the Codex of Ultimate Wisdom was brought back from the underworld, ",
+   "zh": "「自從終極智慧之寶典從幽冥界取回後，",
+   "zh_bytes": 38,
+   "note": "Codex of Ultimate Wisdom → 終極智慧之寶典（glossary）；underworld → 幽冥界"
+  },
+  {
+   "offset": 1306,
+   "len": 63,
+   "en": "Lord @British gave the runes to the lords of the eight cities.\"",
+   "zh": "@British（不列）顛王便將符文授予八城之領主。」",
+   "zh_bytes": 36,
+   "note": "@British → @不列顛王，保留 @ prefix 供 keyword lookup"
+  },
+  {
+   "offset": 1375,
+   "len": 14,
+   "en": "eigh,citi,gave",
+   "zh": "八,城,授",
+   "zh_bytes": 8,
+   "note": "keyword 群組"
+  },
+  {
+   "offset": 1390,
+   "len": 51,
+   "en": "\"Let's see now.\" He counts them off on his fingers.",
+   "zh": "「我來算算。」他扳指數來。",
+   "zh_bytes": 26,
+   "note": ""
+  },
+  {
+   "offset": 1444,
+   "len": 63,
+   "en": "\"Minoc, Trinsic, Jhelom, Yew, Skara Brae, Britain, Moonglow...\"",
+   "zh": "「米諾克、崔西克、傑隆、尤伊、斯卡拉布雷、不列顛城、月華城…」",
+   "zh_bytes": 62,
+   "note": "七城名；用單個 ellipsis 而非雙個以節省 bytes"
+  },
+  {
+   "offset": 1510,
+   "len": 72,
+   "en": "\"...Ah yes, and New Magincia. I hear each of the lords knows a @mantra.\"",
+   "zh": "「…啊對了，還有新馬精西亞。聽說每位領主皆知一句@mantra（真言）。」",
+   "zh_bytes": 57,
+   "note": "New Magincia → 新馬精西亞"
+  },
+  {
+   "offset": 1588,
+   "len": 4,
+   "en": "mant",
+   "zh": "真言",
+   "zh_bytes": 4,
+   "note": "@mantra keyword"
+  },
+  {
+   "offset": 1593,
+   "len": 42,
+   "en": "\"Haven't the foggiest what those are for.\"",
+   "zh": "「那些東西作何用，我毫無頭緒。」",
+   "zh_bytes": 32,
+   "note": ""
+  },
+  {
+   "offset": 1638,
+   "len": 45,
+   "en": "\"Something to do with the @shrines, I think.\"",
+   "zh": "「想必與@shrines（聖壇）有關。」",
+   "zh_bytes": 21,
+   "note": "@shrines → @聖壇"
+  },
+  {
+   "offset": 1689,
+   "len": 4,
+   "en": "shri",
+   "zh": "聖壇",
+   "zh_bytes": 4,
+   "note": "@shrines keyword"
+  },
+  {
+   "offset": 1694,
+   "len": 51,
+   "en": "\"Always wanted to visit them. Never had the @time.\"",
+   "zh": "「一直想去拜訪。從不曾有@time時辰。」",
+   "zh_bytes": 33,
+   "note": ""
+  },
+  {
+   "offset": 1748,
+   "len": 16,
+   "en": "\"Heh, heh, heh!\"",
+   "zh": "「呵，呵，呵！」",
+   "zh_bytes": 16,
+   "note": ""
+  },
+  {
+   "offset": 1770,
+   "len": 9,
+   "en": "lord,brit",
+   "zh": "不列顛王",
+   "zh_bytes": 8,
+   "note": "keyword 群組合併為全稱"
+  },
+  {
+   "offset": 1780,
+   "len": 57,
+   "en": "\"Lord British appointed lords to rule the eight @cities.\"",
+   "zh": "「不列顛王指派領主治理八@cities（城）。」",
+   "zh_bytes": 31,
+   "note": ""
+  },
+  {
+   "offset": 1843,
+   "len": 3,
+   "en": "bye",
+   "zh": "別",
+   "zh_bytes": 2,
+   "note": "@bye keyword"
+  },
+  {
+   "offset": 1847,
+   "len": 22,
+   "en": "\"Until we meet again.\"",
+   "zh": "「他日再會吧。」",
+   "zh_bytes": 16,
+   "note": ""
+  },
+  {
+   "offset": 1874,
+   "len": 37,
+   "en": "\"Sorry, I cannot help you with that.\"",
+   "zh": "「抱歉，此事我無能為力。」",
+   "zh_bytes": 26,
+   "note": "預設不解回應"
+  }
+ ],
+ "keyword_mapping": {
+  "@bell": "@鐘",
+  "@numbers": "@刻數",
+  "@time": "@時辰",
+  "@business": "@營業",
+  "@Avatar": "@聖者",
+  "@justice": "@公道",
+  "@runes": "@符文",
+  "@mantra": "@真言",
+  "@shrines": "@聖壇",
+  "@cities": "@城",
+  "@British": "@不列顛王"
+ },
+ "glossary_additions": {
+  "people": {
+   "Daver McCord": "達瓦麥柯",
+   "Woodroffe": "伍卓夫"
+  },
+  "concepts": {
+   "bell-ringer": "敲鐘人",
+   "hourglass": "沙漏"
+  }
+ },
+ "riddles_additions": [
+  {
+   "npc": "Daver",
+   "key": "EIGHT_CITIES_RUNES",
+   "en": "After the Codex of Ultimate Wisdom was brought back from the underworld, Lord British gave the runes to the lords of the eight cities. Minoc, Trinsic, Jhelom, Yew, Skara Brae, Britain, Moonglow... and New Magincia.",
+   "zh": "自從終極智慧之寶典從幽冥界取回後，不列顛王便將符文授予八城之領主。米諾克、崔西克、傑隆、尤伊、斯卡拉布雷、不列顛城、月華城…啊對了，還有新馬精西亞。聽說每位領主皆知一句@真言。",
+   "ref": "Ultima 系列八城八德對應；玩家主線需從八城領主處收齊八符文與八真言。Daver 簡介此設定。",
+   "strategy": "保留城名次序，符合 Ultima 系列正典；用單字 ellipsis 節省 bytes"
+  }
+ ],
+ "translator_notes": "Daver 為不列顛城內按時敲鐘的閒人，自謙『只是個敲鐘人』；對白偏白話夾古典（『此鐘』『此事』『日出時』）。介紹了八符文-八城-八真言的世界觀（呼應 Ariana/Nan 的符文／Mariah 的真言）。避 5C trail：『餐』(c05c) 改『膳』；『許』(b35c) 改寫句子。Lord British 首次出現用全稱『不列顛王』。McCord → 麥柯（新詞）；Woodroffe 在 glossary 已有。"
 }

@@ -18,7 +18,7 @@
    "offset": 140,
    "len": 53,
    "en": "He gives you a @roll; it is still warm from the oven.",
-   "zh": "他給你一個@小麵包；還帶著爐子裡的熱氣。",
+   "zh": "他給你一個@roll（小麵）包；還帶著爐子裡的熱氣。",
    "note": ""
   },
   {
@@ -39,7 +39,7 @@
    "offset": 269,
    "len": 18,
    "en": "\"I'm a @cook, $G.\"",
-   "zh": "「我是@廚師，$G。」",
+   "zh": "「我是@cook（廚師），$G。」",
    "note": ""
   },
   {
@@ -53,7 +53,7 @@
    "offset": 327,
    "len": 58,
    "en": "\"@Sandy says the mantra of eating is 'yum,' $G. Hee, hee!\"",
-   "zh": "「@珊迪說，飲食的咒言是『嗯嗯』，$G。嘻嘻！」",
+   "zh": "「@Sandy（珊迪）說，飲食的咒言是『嗯嗯』，$G。嘻嘻！」",
    "note": "mantra=真言/咒言（玩笑話）"
   },
   {
@@ -74,21 +74,21 @@
    "offset": 551,
    "len": 48,
    "en": "\"Being a cook is like being an @adventurer, $G.\"",
-   "zh": "「當廚師就像當@冒險家，$G。」",
+   "zh": "「當廚師就像當@adventurer（冒險）家，$G。」",
    "note": ""
   },
   {
    "offset": 610,
    "len": 58,
    "en": "\"Yes, $G. I must gather up all my ingredients with @care.\"",
-   "zh": "「是的，$G。我必須@用心地蒐集所有食材。」",
+   "zh": "「是的，$G。我必須@care（用心）地蒐集所有食材。」",
    "note": ""
   },
   {
    "offset": 679,
    "len": 44,
    "en": "\"So that I have the right @ingredients, $G.\"",
-   "zh": "「這樣才能有正確的@食材，$G。」",
+   "zh": "「這樣才能有正確的@ingredients（食材），$G。」",
    "note": ""
   },
   {
@@ -123,7 +123,7 @@
    "offset": 911,
    "len": 45,
    "en": "\"That's one of the eight @mantras, isn't it?\"",
-   "zh": "「那是八個@咒言之一，不是嗎？」",
+   "zh": "「那是八個@mantras（咒言）之一，不是嗎？」",
    "note": ""
   },
   {
@@ -200,7 +200,7 @@
    "offset": 1620,
    "len": 69,
    "en": "\"Would it be too much trouble to bring me back a dragon's @egg, $G?\" ",
-   "zh": "「麻煩你幫老書賓帶一顆龍@蛋回來，好嗎，$G？」",
+   "zh": "「麻煩你幫老書賓帶一顆龍@egg（蛋回）來，好嗎，$G？」",
    "note": ""
   },
   {
@@ -218,6 +218,11 @@
    "note": ""
   }
  ],
- "glossary_additions": {"people": {"Shubin": "書賓"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Shubin": "書賓"
+  },
+  "places": {}
+ },
  "translator_notes": "書賓是修道院廚師，身形下寬、聲音細柔。他想做瑪金夏糕點（Magincian Pastry），缺的食材是龍蛋。友人珊迪給了他食譜。他對飲食的熱情表現在誇張的感謝和關心旅人的言談中。"
 }

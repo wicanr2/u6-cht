@@ -1,253 +1,253 @@
 {
-  "translations": [
-    {
-      "offset": 11,
-      "len": 69,
-      "en": "a beggar, clad in the rags of a sailor, with a hook for a right hand.",
-      "zh": "一位乞丐，身著水手破爛衣衫，右手以鐵鉤代替。",
-      "note": "DESC"
-    },
-    {
-      "offset": 83,
-      "len": 61,
-      "en": "\"Spare a doubloon fer an old seahand?\" He holds out his hand.",
-      "zh": "「老海手能討幾枚銀幣嗎？」他伸出手來。",
-      "note": "sailor dialect; doubloon=舊式金銀幣"
-    },
-    {
-      "offset": 147,
-      "len": 27,
-      "en": "Do you give him any money? ",
-      "zh": "汝要給他錢嗎？",
-      "note": "UI prompt"
-    },
-    {
-      "offset": 189,
-      "len": 22,
-      "en": "How much do you give? ",
-      "zh": "汝要給多少？",
-      "note": ""
-    },
-    {
-      "offset": 224,
-      "len": 26,
-      "en": "You do not have that much.",
-      "zh": "汝沒有那麼多。",
-      "note": ""
-    },
-    {
-      "offset": 296,
-      "len": 26,
-      "en": "\"Thank, ye kindly, matey.\"",
-      "zh": "「多謝，兄弟，多謝了。」",
-      "note": "sailor speech; matey=兄弟"
-    },
-    {
-      "offset": 331,
-      "len": 29,
-      "en": "\"I be Heftimus McPry, matey.\"",
-      "zh": "「俺是赫夫提穆斯·麥普萊，兄弟。」",
-      "note": "sailor dialect; 一人稱用「俺」"
-    },
-    {
-      "offset": 376,
-      "len": 57,
-      "en": "\"Once Buccaneer's @Den quaked at the mention o' me name.\"",
-      "zh": "「曾幾何時，俺的名號令@海盜窩聞之色變。」",
-      "note": ""
-    },
-    {
-      "offset": 436,
-      "len": 56,
-      "en": "\"I was the greatest sabre fighter on all the high seas.\"",
-      "zh": "「俺曾是整片公海上最了不起的軍刀武士。」",
-      "note": ""
-    },
-    {
-      "offset": 495,
-      "len": 17,
-      "en": "\"Then one day...\"",
-      "zh": "「後來有那麼一天……」",
-      "note": ""
-    },
-    {
-      "offset": 514,
-      "len": 88,
-      "en": "\"I fought Captain @Hawkins, that scurvy dog, an' he struck off me @hand with his sword.\"",
-      "zh": "「俺與那不要臉的@霍金斯船長交戰，他用劍砍下了俺的@手。」",
-      "note": ""
-    },
-    {
-      "offset": 633,
-      "len": 51,
-      "en": "\"'Twas a bitter fight; I almost died o' the wound.\"",
-      "zh": "「那一仗打得慘烈；俺差點因傷而亡。」",
-      "note": ""
-    },
-    {
-      "offset": 687,
-      "len": 38,
-      "en": "\"Hawkins threw me hand to the sharks.\"",
-      "zh": "「霍金斯把俺的手扔給了鯊魚。」",
-      "note": ""
-    },
-    {
-      "offset": 741,
-      "len": 71,
-      "en": "\"He be long gone now, he an' his ship the Empire. A pox on his memory!\"",
-      "zh": "「他和他那艘帝國號早已消失無蹤。詛咒他的亡靈！」",
-      "note": ""
-    },
-    {
-      "offset": 827,
-      "len": 72,
-      "en": "\"That be an island, matey, and no place fer a decent soul like yerself.\"",
-      "zh": "「那是個海島，兄弟，不是好人該去的地方，像汝這樣的。」",
-      "note": "Buccaneer's Den"
-    },
-    {
-      "offset": 909,
-      "len": 78,
-      "en": "\"That bit o' news will cost ye twenty coins. What say ye, matey? Aye or nay?\" ",
-      "zh": "「那個消息要二十枚金幣。兄弟，汝意下如何？要還是不要？」",
-      "note": ""
-    },
-    {
-      "offset": 998,
-      "len": 36,
-      "en": "\"I've been into the dungeon @Wrong.\"",
-      "zh": "「俺去過地下城@錯道。」",
-      "note": ""
-    },
-    {
-      "offset": 1037,
-      "len": 56,
-      "en": "\"There's a @cave on this island that looks a lot safer.\"",
-      "zh": "「此島上有個@洞穴，看起來安全多了。」",
-      "note": ""
-    },
-    {
-      "offset": 1104,
-      "len": 37,
-      "en": "\"I sleep in front of it every night.\"",
-      "zh": "「俺每晚就睡在洞穴口前。」",
-      "note": ""
-    },
-    {
-      "offset": 1144,
-      "len": 68,
-      "en": "\"Soon as I've saved up a stake, I'm going in there to dig for gold.\"",
-      "zh": "「等俺積攢夠了本錢，就進去挖黃金。」",
-      "note": ""
-    },
-    {
-      "offset": 1223,
-      "len": 58,
-      "en": "\"'Twas certainly the wrong place for an old seadog to be!\"",
-      "zh": "「那對一個老水手來說確實是個不該去的地方！」",
-      "note": "Wrong dungeon pun"
-    },
-    {
-      "offset": 1284,
-      "len": 42,
-      "en": "He laughs, chokes, and coughs for a while.",
-      "zh": "他大笑起來，笑得嗆咳了好一陣子。",
-      "note": "action"
-    },
-    {
-      "offset": 1329,
-      "len": 26,
-      "en": "\"I'll be allright, matey.\"",
-      "zh": "「俺沒事，兄弟。」",
-      "note": ""
-    },
-    {
-      "offset": 1365,
-      "len": 15,
-      "en": "\"Good journey.\"",
-      "zh": "「一路平安。」",
-      "note": "bye"
-    },
-    {
-      "offset": 1385,
-      "len": 32,
-      "en": "\"Sorry, don't really know that.\"",
-      "zh": "「抱歉，俺真的不知道那個。」",
-      "note": ""
-    },
-    {
-      "offset": 1439,
-      "len": 30,
-      "en": "\"Then maybe ten? Aye or nay?\" ",
-      "zh": "「那十枚如何？要還是不要？」",
-      "note": ""
-    },
-    {
-      "offset": 1476,
-      "len": 18,
-      "en": "\"So be it, matey.\"",
-      "zh": "「如此便罷，兄弟。」",
-      "note": ""
-    },
-    {
-      "offset": 1511,
-      "len": 25,
-      "en": "\"I can't help ye, matey.\"",
-      "zh": "「俺幫不上汝，兄弟。」",
-      "note": ""
-    },
-    {
-      "offset": 1583,
-      "len": 6,
-      "en": "\"Hmm.\"",
-      "zh": "「嗯。」",
-      "note": ""
-    },
-    {
-      "offset": 1621,
-      "len": 70,
-      "en": "\"I thank ye kindly, matey. The last I saw o' that bit o' parchment...\"",
-      "zh": "「多謝，兄弟。俺最後一次見到那片羊皮紙的時候……」",
-      "note": ""
-    },
-    {
-      "offset": 1694,
-      "len": 44,
-      "en": "\"I needed it to start a fire in a @dungeon.\"",
-      "zh": "「俺要用它在@地下城裡生火。」",
-      "note": ""
-    },
-    {
-      "offset": 1741,
-      "len": 83,
-      "en": "\"But afore I could apply sparks to the tinder, a huge swarm o' rats drove me away.\"",
-      "zh": "「但就在俺要點火之前，一大群老鼠把俺趕了出來。」",
-      "note": ""
-    },
-    {
-      "offset": 1827,
-      "len": 53,
-      "en": "\"The scrap o' map lies in the dungeon @Wrong, matey.\"",
-      "zh": "「那片地圖碎片就在@錯道地下城裡，兄弟。」",
-      "note": ""
-    },
-    {
-      "offset": 1885,
-      "len": 30,
-      "en": "\"Pah!\" He spits on the ground.",
-      "zh": "「呸！」他往地上吐了口唾沫。",
-      "note": "action"
-    }
-  ],
-  "glossary_additions": {
-    "people": {
-      "Heftimus McPry": "赫夫提穆斯·麥普萊",
-      "Captain Hawkins": "霍金斯船長"
-    },
-    "places": {
-      "Wrong": "錯道"
-    },
-    "concepts": {}
+ "translations": [
+  {
+   "offset": 11,
+   "len": 69,
+   "en": "a beggar, clad in the rags of a sailor, with a hook for a right hand.",
+   "zh": "一位乞丐，身著水手破爛衣衫，右手以鐵鉤代替。",
+   "note": "DESC"
   },
-  "translator_notes": "赫夫提穆斯是個老水手乞丐，語氣帶海員腔（「俺」自稱、「兄弟」稱對方）。dungeon Wrong 的雙關（Wrong=錯誤的地方）在中文譯為「錯道」，保留雙關意味。doubloon 等海事幣制詞彙以「銀幣」意譯。"
+  {
+   "offset": 83,
+   "len": 61,
+   "en": "\"Spare a doubloon fer an old seahand?\" He holds out his hand.",
+   "zh": "「老海手能討幾枚銀幣嗎？」他伸出手來。",
+   "note": "sailor dialect; doubloon=舊式金銀幣"
+  },
+  {
+   "offset": 147,
+   "len": 27,
+   "en": "Do you give him any money? ",
+   "zh": "汝要給他錢嗎？",
+   "note": "UI prompt"
+  },
+  {
+   "offset": 189,
+   "len": 22,
+   "en": "How much do you give? ",
+   "zh": "汝要給多少？",
+   "note": ""
+  },
+  {
+   "offset": 224,
+   "len": 26,
+   "en": "You do not have that much.",
+   "zh": "汝沒有那麼多。",
+   "note": ""
+  },
+  {
+   "offset": 296,
+   "len": 26,
+   "en": "\"Thank, ye kindly, matey.\"",
+   "zh": "「多謝，兄弟，多謝了。」",
+   "note": "sailor speech; matey=兄弟"
+  },
+  {
+   "offset": 331,
+   "len": 29,
+   "en": "\"I be Heftimus McPry, matey.\"",
+   "zh": "「俺是赫夫提穆斯·麥普萊，兄弟。」",
+   "note": "sailor dialect; 一人稱用「俺」"
+  },
+  {
+   "offset": 376,
+   "len": 57,
+   "en": "\"Once Buccaneer's @Den quaked at the mention o' me name.\"",
+   "zh": "「曾幾何時，俺的名號令@Den（海盜）窩聞之色變。」",
+   "note": ""
+  },
+  {
+   "offset": 436,
+   "len": 56,
+   "en": "\"I was the greatest sabre fighter on all the high seas.\"",
+   "zh": "「俺曾是整片公海上最了不起的軍刀武士。」",
+   "note": ""
+  },
+  {
+   "offset": 495,
+   "len": 17,
+   "en": "\"Then one day...\"",
+   "zh": "「後來有那麼一天……」",
+   "note": ""
+  },
+  {
+   "offset": 514,
+   "len": 88,
+   "en": "\"I fought Captain @Hawkins, that scurvy dog, an' he struck off me @hand with his sword.\"",
+   "zh": "「俺與那不要臉的@Hawkins（霍金）斯船長交戰，他用劍砍下了俺的@hand（手）。」",
+   "note": ""
+  },
+  {
+   "offset": 633,
+   "len": 51,
+   "en": "\"'Twas a bitter fight; I almost died o' the wound.\"",
+   "zh": "「那一仗打得慘烈；俺差點因傷而亡。」",
+   "note": ""
+  },
+  {
+   "offset": 687,
+   "len": 38,
+   "en": "\"Hawkins threw me hand to the sharks.\"",
+   "zh": "「霍金斯把俺的手扔給了鯊魚。」",
+   "note": ""
+  },
+  {
+   "offset": 741,
+   "len": 71,
+   "en": "\"He be long gone now, he an' his ship the Empire. A pox on his memory!\"",
+   "zh": "「他和他那艘帝國號早已消失無蹤。詛咒他的亡靈！」",
+   "note": ""
+  },
+  {
+   "offset": 827,
+   "len": 72,
+   "en": "\"That be an island, matey, and no place fer a decent soul like yerself.\"",
+   "zh": "「那是個海島，兄弟，不是好人該去的地方，像汝這樣的。」",
+   "note": "Buccaneer's Den"
+  },
+  {
+   "offset": 909,
+   "len": 78,
+   "en": "\"That bit o' news will cost ye twenty coins. What say ye, matey? Aye or nay?\" ",
+   "zh": "「那個消息要二十枚金幣。兄弟，汝意下如何？要還是不要？」",
+   "note": ""
+  },
+  {
+   "offset": 998,
+   "len": 36,
+   "en": "\"I've been into the dungeon @Wrong.\"",
+   "zh": "「俺去過地下城@Wrong（錯道）。」",
+   "note": ""
+  },
+  {
+   "offset": 1037,
+   "len": 56,
+   "en": "\"There's a @cave on this island that looks a lot safer.\"",
+   "zh": "「此島上有個@cave（洞穴），看起來安全多了。」",
+   "note": ""
+  },
+  {
+   "offset": 1104,
+   "len": 37,
+   "en": "\"I sleep in front of it every night.\"",
+   "zh": "「俺每晚就睡在洞穴口前。」",
+   "note": ""
+  },
+  {
+   "offset": 1144,
+   "len": 68,
+   "en": "\"Soon as I've saved up a stake, I'm going in there to dig for gold.\"",
+   "zh": "「等俺積攢夠了本錢，就進去挖黃金。」",
+   "note": ""
+  },
+  {
+   "offset": 1223,
+   "len": 58,
+   "en": "\"'Twas certainly the wrong place for an old seadog to be!\"",
+   "zh": "「那對一個老水手來說確實是個不該去的地方！」",
+   "note": "Wrong dungeon pun"
+  },
+  {
+   "offset": 1284,
+   "len": 42,
+   "en": "He laughs, chokes, and coughs for a while.",
+   "zh": "他大笑起來，笑得嗆咳了好一陣子。",
+   "note": "action"
+  },
+  {
+   "offset": 1329,
+   "len": 26,
+   "en": "\"I'll be allright, matey.\"",
+   "zh": "「俺沒事，兄弟。」",
+   "note": ""
+  },
+  {
+   "offset": 1365,
+   "len": 15,
+   "en": "\"Good journey.\"",
+   "zh": "「一路平安。」",
+   "note": "bye"
+  },
+  {
+   "offset": 1385,
+   "len": 32,
+   "en": "\"Sorry, don't really know that.\"",
+   "zh": "「抱歉，俺真的不知道那個。」",
+   "note": ""
+  },
+  {
+   "offset": 1439,
+   "len": 30,
+   "en": "\"Then maybe ten? Aye or nay?\" ",
+   "zh": "「那十枚如何？要還是不要？」",
+   "note": ""
+  },
+  {
+   "offset": 1476,
+   "len": 18,
+   "en": "\"So be it, matey.\"",
+   "zh": "「如此便罷，兄弟。」",
+   "note": ""
+  },
+  {
+   "offset": 1511,
+   "len": 25,
+   "en": "\"I can't help ye, matey.\"",
+   "zh": "「俺幫不上汝，兄弟。」",
+   "note": ""
+  },
+  {
+   "offset": 1583,
+   "len": 6,
+   "en": "\"Hmm.\"",
+   "zh": "「嗯。」",
+   "note": ""
+  },
+  {
+   "offset": 1621,
+   "len": 70,
+   "en": "\"I thank ye kindly, matey. The last I saw o' that bit o' parchment...\"",
+   "zh": "「多謝，兄弟。俺最後一次見到那片羊皮紙的時候……」",
+   "note": ""
+  },
+  {
+   "offset": 1694,
+   "len": 44,
+   "en": "\"I needed it to start a fire in a @dungeon.\"",
+   "zh": "「俺要用它在@dungeon（地）下城裡生火。」",
+   "note": ""
+  },
+  {
+   "offset": 1741,
+   "len": 83,
+   "en": "\"But afore I could apply sparks to the tinder, a huge swarm o' rats drove me away.\"",
+   "zh": "「但就在俺要點火之前，一大群老鼠把俺趕了出來。」",
+   "note": ""
+  },
+  {
+   "offset": 1827,
+   "len": 53,
+   "en": "\"The scrap o' map lies in the dungeon @Wrong, matey.\"",
+   "zh": "「那片地圖碎片就在@Wrong（錯道）地下城裡，兄弟。」",
+   "note": ""
+  },
+  {
+   "offset": 1885,
+   "len": 30,
+   "en": "\"Pah!\" He spits on the ground.",
+   "zh": "「呸！」他往地上吐了口唾沫。",
+   "note": "action"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Heftimus McPry": "赫夫提穆斯·麥普萊",
+   "Captain Hawkins": "霍金斯船長"
+  },
+  "places": {
+   "Wrong": "錯道"
+  },
+  "concepts": {}
+ },
+ "translator_notes": "赫夫提穆斯是個老水手乞丐，語氣帶海員腔（「俺」自稱、「兄弟」稱對方）。dungeon Wrong 的雙關（Wrong=錯誤的地方）在中文譯為「錯道」，保留雙關意味。doubloon 等海事幣制詞彙以「銀幣」意譯。"
 }

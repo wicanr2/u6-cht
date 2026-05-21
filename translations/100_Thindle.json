@@ -25,7 +25,7 @@
    "offset": 206,
    "len": 41,
    "en": "\"@Thindle the spindler.\" He grins at you.",
-   "zh": "「@辛德爾紡線匠。」他咧嘴朝汝笑。",
+   "zh": "「@Thindle（辛德）爾紡線匠。」他咧嘴朝汝笑。",
    "note": ""
   },
   {
@@ -67,14 +67,14 @@
    "offset": 541,
    "len": 36,
    "en": "\"Sew, sew, I @sew 'cause I said so.\"",
-   "zh": "「縫縫縫，在下@縫紉，因為在下說了算。」",
+   "zh": "「縫縫縫，在下@sew（縫紉），因為在下說了算。」",
    "note": "押韻口吃語氣"
   },
   {
    "offset": 588,
    "len": 72,
    "en": "\"Beautiful @clothes, more pretty than those,\" he points to your stomach.",
-   "zh": "「美麗的@衣裳，比那些更漂亮，」他指著汝的腹部說。",
+   "zh": "「美麗的@clothes（衣裳），比那些更漂亮，」他指著汝的腹部說。",
    "note": ""
   },
   {
@@ -88,7 +88,7 @@
    "offset": 709,
    "len": 50,
    "en": "\"Shorty is my friend. We play @flippits together.\"",
-   "zh": "「矮冬瓜是我朋友，我們一起玩@骨彈戲。」",
+   "zh": "「矮冬瓜是我朋友，我們一起玩@flippits（骨彈）戲。」",
    "note": "Shorty = 對Mortude的暱稱"
   },
   {
@@ -109,7 +109,7 @@
    "offset": 836,
    "len": 39,
    "en": "\"See @Charlotte. She can, yes she can!\"",
-   "zh": "「去找@夏綠蒂，她行，是的她行！」",
+   "zh": "「去找@Charlotte（夏綠）蒂，她行，是的她行！」",
    "note": ""
   },
   {
@@ -137,28 +137,28 @@
    "offset": 1012,
    "len": 65,
    "en": "\"A nice piece of bone and a small hard @pea--that's all ya need.\"",
-   "zh": "「一塊好骨頭和一顆小硬@豌豆——就這些就夠了。」",
+   "zh": "「一塊好骨頭和一顆小硬@pea（豌豆）——就這些就夠了。」",
    "note": ""
   },
   {
    "offset": 1099,
    "len": 47,
    "en": "\"Like an old dog bone. You'll need a @hat too.\"",
-   "zh": "「就像條舊狗骨頭，汝還需要一頂@帽子。」",
+   "zh": "「就像條舊狗骨頭，汝還需要一頂@hat（帽子）。」",
    "note": ""
   },
   {
    "offset": 1167,
    "len": 81,
    "en": "\"The smaller, the better.\" He pulls an old @bone from his pocket and a small pea.",
-   "zh": "「越小越好。」他從口袋裡掏出一塊舊@骨頭和一顆小豌豆。",
+   "zh": "「越小越好。」他從口袋裡掏出一塊舊@bone（骨頭）和一顆小豌豆。",
    "note": ""
   },
   {
    "offset": 1251,
    "len": 21,
    "en": "\"Now you get a @hat.\"",
-   "zh": "「現在去找頂@帽子。」",
+   "zh": "「現在去找頂@hat（帽子）。」",
    "note": ""
   },
   {
@@ -179,7 +179,7 @@
    "offset": 1444,
    "len": 50,
    "en": "\"Bye now. Bye. Say hi to @Mortude if you see him.\"",
-   "zh": "「再見了，再見。見到@莫圖德代在下問好。」",
+   "zh": "「再見了，再見。見到@Mortude（莫圖）德代在下問好。」",
    "note": ""
   },
   {

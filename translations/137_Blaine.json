@@ -32,7 +32,7 @@
    "offset": 191,
    "len": 66,
    "en": "\"I am a @juggler. But I would fain @join thee and go adventuring.\"",
-   "zh": "「吾是一名@雜耍師。但吾心願@加入汝一同冒險。」",
+   "zh": "「吾是一名@juggler（雜耍）師。但吾心願@join（加入）汝一同冒險。」",
    "note": ""
   },
   {
@@ -221,7 +221,7 @@
    "offset": 1905,
    "len": 67,
    "en": "\"If you ask one of them to @leave first, I'd be happy to join you.\"",
-   "zh": "「若汝請其中一人先@離隊，吾很樂意加入。」",
+   "zh": "「若汝請其中一人先@leave（離隊），吾很樂意加入。」",
    "note": ""
   },
   {
@@ -295,6 +295,11 @@
    "note": ""
   }
  ],
- "glossary_additions": {"people": {"Blaine": "布萊恩"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Blaine": "布萊恩"
+  },
+  "places": {}
+ },
  "translator_notes": "布萊恩是可加入隊伍的吉普賽雜耍少年，有火舞表演場景。用半文言（「吾/汝」）表現年輕人憧憬冒險的語氣。歌詞適度譯出。"
 }

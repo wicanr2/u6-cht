@@ -45,7 +45,7 @@
   {
    "offset": 152,
    "len": 97,
-   "zh": "「妾身乃@法師議會新進之員。總得有人讓事情運轉得順。」",
+   "zh": "「妾身乃@Council（法師）議會新進之員。總得有人讓事情運轉得順。」",
    "en": "\"I'm the newest member of the @Council of Wizards. Somebody has to keep things running smoothly.\"",
    "zh_bytes": 53,
    "note": "[r2]"
@@ -53,7 +53,7 @@
   {
    "offset": 252,
    "len": 63,
-   "zh": "「閒暇時，妾身於@藏書閣鑽研己學。」",
+   "zh": "「閒暇時，妾身於@library（藏書）閣鑽研己學。」",
    "en": "\"In my spare time I use the @library to pursue my own studies.\"",
    "zh_bytes": 35,
    "note": "[r2]"
@@ -68,7 +68,7 @@
   {
    "offset": 331,
    "len": 88,
-   "zh": "「他們有時太過投入，連@眠食皆忘！」",
+   "zh": "「他們有時太過投入，連@sleep（眠食）皆忘！」",
    "en": "\"They get so caught up in their work sometimes that they forget even to eat and @sleep!\"",
    "zh_bytes": 35
   },
@@ -82,7 +82,7 @@
   {
    "offset": 434,
    "len": 90,
-   "zh": "「此等小事於彼輩無足輕重。彼常超脫於@感官之外。」",
+   "zh": "「此等小事於彼輩無足輕重。彼常超脫於@senses（感官）之外。」",
    "en": "\"Such things matter little to them. They often dwell apart from the realm of the @senses.\"",
    "zh_bytes": 49
   },
@@ -283,7 +283,7 @@
   {
    "offset": 2187,
    "len": 100,
-   "zh": "「若妾身得另半塊@銀版，或可破譯此書其餘之文。」",
+   "zh": "「若妾身得另半塊@tablet（銀版），或可破譯此書其餘之文。」",
    "en": "\"If only I had the other half of the @tablet, perhaps I'd be able to decipher the rest of the book.\"",
    "zh_bytes": 47,
    "note": "[r2]"
@@ -349,7 +349,7 @@
   {
    "offset": 2932,
    "len": 86,
-   "zh": "偽先知並將盜走吾族至聖之物，終極智慧守則之書。",
+   "zh": "偽先知並將盜走吾族至聖之物，終極智慧之寶典。",
    "en": "And the false prophet will steal our most holy artifact, the Codex of Ultimate Wisdom.",
    "zh_bytes": 46
   },

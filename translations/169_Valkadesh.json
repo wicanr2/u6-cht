@@ -102,7 +102,7 @@
    "offset": 712,
    "len": 50,
    "en": "\"To not betray that honor - to return the @Codex!\"",
-   "zh": "「莫辜負此榮譽——歸還@Codex守則之書！」",
+   "zh": "「莫辜負此榮譽——歸還@Codex知識寶典！」",
    "note": ""
   },
   {
@@ -172,7 +172,7 @@
    "offset": 1382,
    "len": 33,
    "en": "\"To beg you to return the Codex.\"",
-   "zh": "「懇請汝歸還守則之書。」",
+   "zh": "「懇請汝歸還知識寶典。」",
    "note": ""
   },
   {
@@ -186,14 +186,14 @@
    "offset": 1498,
    "len": 52,
    "en": "\"To be the only alternative to returning the Codex.\"",
-   "zh": "「此乃除歸還守則之書之外唯一的選擇。」",
+   "zh": "「此乃除歸還知識寶典之外唯一的選擇。」",
    "note": ""
   },
   {
    "offset": 1553,
    "len": 67,
    "en": "\"Without the Codex, to have no @choice but to sacrifice your life!\"",
-   "zh": "「無守則之書，則別無@choice選擇，唯有獻出汝之性命！」",
+   "zh": "「無知識寶典，則別無@choice選擇，唯有獻出汝之性命！」",
    "note": ""
   },
   {

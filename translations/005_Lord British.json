@@ -107,14 +107,14 @@
    "offset": 1083,
    "len": 78,
    "en": "\"Thus far they have mainly been attacking the @shrines of the eight @virtues.\"",
-   "zh": "\"至今它們主要攻擊八大@美德的@聖壇。\"",
+   "zh": "\"至今它們主要攻擊八大@shrines（聖壇）的@virtues（美德）。\"",
    "zh_bytes": 36
   },
   {
    "offset": 1164,
    "len": 82,
    "en": "\"When the Shrine of Compassion didst fall, Sir @Geoffrey sent a party to free it.\"",
-   "zh": "\"當慈悲聖壇陷落時，@傑佛瑞爵士已派一隊人馬前去解救。\"",
+   "zh": "\"當慈悲聖壇陷落時，@Geoffrey（傑佛）瑞爵士已派一隊人馬前去解救。\"",
    "zh_bytes": 53
   },
   {
@@ -156,14 +156,14 @@
    "offset": 1680,
    "len": 63,
    "en": "\"Lastly, any time thou dost need @healing, do thou but ask me.\"",
-   "zh": "\"最後，汝若需@療傷，但問朕便可。\"",
+   "zh": "\"最後，汝若需@healing（療傷），但問朕便可。\"",
    "zh_bytes": 33
   },
   {
    "offset": 1746,
    "len": 68,
    "en": "\"If thou doth wish me to @repeat all this later, thou need but ask.\"",
-   "zh": "\"若汝願朕日後再@重述此事，但開口即可。\"",
+   "zh": "\"若汝願朕日後再@repeat（重述）此事，但開口即可。\"",
    "zh_bytes": 39
   },
   {
@@ -226,7 +226,7 @@
    "offset": 2103,
    "len": 62,
    "en": "\"Though 'tis a heavy burden in such @troubled times as these.\"",
-   "zh": "\"然此亂世，此乃沉重之@擔。\"",
+   "zh": "\"然此亂世，此乃沉重之@troubled（擔）。\"",
    "zh_bytes": 27
   },
   {
@@ -240,7 +240,7 @@
    "offset": 2191,
    "len": 73,
    "en": "\"The @gargoyles art indeed the greatest threat our realm has ever known.\"",
-   "zh": "\"@魔像族實為此境前所未有之最大威脅。\"",
+   "zh": "\"@gargoyles（魔像）族實為此境前所未有之最大威脅。\"",
    "zh_bytes": 37
   },
   {
@@ -417,7 +417,7 @@
   {
    "offset": 3437,
    "len": 23,
-   "zh": "\"汝可去問@索登。\"",
+   "zh": "\"汝可去問@Tholden（索登）。\"",
    "en": "\"Do thou ask @Tholden.\"",
    "zh_bytes": 17
   },
@@ -431,7 +431,7 @@
   {
    "offset": 3471,
    "len": 23,
-   "zh": "\"他是朕之@宰相。\"",
+   "zh": "\"他是朕之@chancellor（宰相）。\"",
    "en": "\"He is my @chancellor.\"",
    "zh_bytes": 17
   },
@@ -501,7 +501,7 @@
   {
    "offset": 3881,
    "len": 63,
-   "zh": "\"她每夜必至朕之寢室，朕便講@故事與她聽。\"",
+   "zh": "\"她每夜必至朕之寢室，朕便講@stories故事與她聽。\"",
    "en": "\"She comes by my room every night, so I can tell her @stories.\"",
    "zh_bytes": 41
   },
@@ -543,7 +543,7 @@
   {
    "offset": 4121,
    "len": 42,
-   "zh": "\"朕最愛的故事是《@獅子胡伯》。\"",
+   "zh": "\"朕最愛的故事是《@Hubert（獅子）胡伯》。\"",
    "en": "\"My favorite story is '@Hubert the Lion.'\"",
    "zh_bytes": 31,
    "note": "[二輪 reviewer 修]"

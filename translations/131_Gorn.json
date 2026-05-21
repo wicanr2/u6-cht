@@ -53,7 +53,7 @@
    "offset": 323,
    "len": 55,
    "en": "\"Here I vait until I find somevun else to @trafel mit.\"",
-   "zh": "「俺在這等著，等找到別人一起@旅行。」",
+   "zh": "「俺在這等著，等找到別人一起@trafel（旅行）。」",
    "note": "vait=wait, somevun=someone, trafel=travel, mit=with"
   },
   {
@@ -74,7 +74,7 @@
    "offset": 503,
    "len": 56,
    "en": "\"Somevun vill ask me to @join mit them zooner or later.\"",
-   "zh": "「遲早會有人邀俺@同行的。」",
+   "zh": "「遲早會有人邀俺@join（同行）的。」",
    "note": ""
   },
   {
@@ -190,6 +190,11 @@
    "note": "und=and, haf=have"
   }
  ],
- "glossary_additions": {"people": {"Gorn": "葛爾恩"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Gorn": "葛爾恩"
+  },
+  "places": {}
+ },
  "translator_notes": "葛爾恩是日耳曼口音蠻族武士。英文中 v→w、d→th、z→s/th 等音替換，中文以「俺」＋質樸豪邁語氣呈現其粗獷個性。"
 }

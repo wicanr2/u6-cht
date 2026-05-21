@@ -46,28 +46,28 @@
    "offset": 362,
    "len": 71,
    "en": "\"I govern here in @Cove. 'Tis hard work, but my people love me for it.\"",
-   "zh": "「吾在@海灣鎮治政，雖勞苦，但深得民心。」",
+   "zh": "「吾在@Cove（海灣）鎮治政，雖勞苦，但深得民心。」",
    "note": ""
   },
   {
    "offset": 435,
    "len": 118,
    "en": "*\"I always thought it a blessing to live so close to a @shrine, though since the gargoyles came none dare go near it.\"",
-   "zh": "*「吾向來以為，能居於@聖壇附近實乃福氣，然自魔像族到來，無人敢再靠近。」",
+   "zh": "*「吾向來以為，能居於@shrine（聖壇）附近實乃福氣，然自魔像族到來，無人敢再靠近。」",
    "note": "保留 * 控制符"
   },
   {
    "offset": 569,
    "len": 69,
    "en": "\"We have fine facilities here for healing the wounded and the @sick.\"",
-   "zh": "「吾鎮設有上等療傷設施，可照料傷者與@病人。」",
+   "zh": "「吾鎮設有上等療傷設施，可照料傷者與@sick（病人）。」",
    "note": ""
   },
   {
    "offset": 649,
    "len": 89,
    "en": "\"In Britannia there are eight shrines, one for each of the eight @virtues of the Avatar.\"",
-   "zh": "「不列顛尼亞共有八處聖壇，對應聖者的八大@美德，各一處。」",
+   "zh": "「不列顛尼亞共有八處聖壇，對應聖者的八大@virtues（美德），各一處。」",
    "note": ""
   },
   {
@@ -88,14 +88,14 @@
    "offset": 928,
    "len": 48,
    "en": "\"'Tis good to @meditate on these virtues often.\"",
-   "zh": "「時常@冥想這些美德，大有裨益。」",
+   "zh": "「時常@meditate（冥想）這些美德，大有裨益。」",
    "note": ""
   },
   {
    "offset": 987,
    "len": 101,
    "en": "\"Each shrine has its own @mantra. This is a chant which one should recite whilst meditating therein.\"",
-   "zh": "「每處聖壇都有專屬的@真言，冥想時應吟誦之。」",
+   "zh": "「每處聖壇都有專屬的@mantra（真言），冥想時應吟誦之。」",
    "note": ""
   },
   {
@@ -123,7 +123,7 @@
    "offset": 1417,
    "len": 47,
    "en": "\"I spoke with their @leader when they arrived.\"",
-   "zh": "「他們抵達時，吾曾與其@領隊交談。」",
+   "zh": "「他們抵達時，吾曾與其@leader（領隊）交談。」",
    "note": ""
   },
   {
@@ -137,7 +137,7 @@
    "offset": 1551,
    "len": 95,
    "en": "\"I think mayhap 'tis similar to the @force which blocked entry to the shrines many years ago.\"*",
-   "zh": "「吾以為，此與多年前阻擋人進入聖壇的那股@力量頗為相似。」*",
+   "zh": "「吾以為，此與多年前阻擋人進入聖壇的那股@force（力量）頗為相似。」*",
    "note": "保留 * 控制符"
   },
   {
@@ -158,7 +158,7 @@
    "offset": 1790,
    "len": 71,
    "en": "\"Use the Rune of Compassion whilst chanting the @Mantra of Compassion.\"",
-   "zh": "「使用慈悲符文，同時吟唱@慈悲真言。」",
+   "zh": "「使用慈悲符文，同時吟唱@Mantra（真言）真言。」",
    "note": ""
   },
   {
@@ -232,6 +232,11 @@
    "note": ""
   }
  ],
- "glossary_additions": {"people": {"Ahrmaand": "阿赫曼德"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Ahrmaand": "阿赫曼德"
+  },
+  "places": {}
+ },
  "translator_notes": "Ahrmaand 海灣鎮子爵，說話優雅，用 thee/thou 古體。對女性玩家有額外殷切語句。"
 }

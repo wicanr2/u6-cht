@@ -32,14 +32,14 @@
    "offset": 242,
    "len": 9,
    "en": "\"@Faren.\"",
-   "zh": "「@法倫。」",
+   "zh": "「@Faren（法倫）。」",
    "note": ""
   },
   {
    "offset": 254,
    "len": 53,
    "en": "\"@Faren the @drunk as some call me.\" He winks at you.",
-   "zh": "「@醉鬼@法倫，有些人這樣叫我。」他向你眨眼。",
+   "zh": "「@Faren（醉鬼）@drunk（法倫），有些人這樣叫我。」他向你眨眼。",
    "note": ""
   },
   {
@@ -53,21 +53,21 @@
    "offset": 366,
    "len": 66,
    "en": "\"You might have noticed the similarity between my @sister and me.\"",
-   "zh": "「你也許注意到了我和我@姐姐之間的相似之處。」",
+   "zh": "「你也許注意到了我和我@sister（姐姐）之間的相似之處。」",
    "note": ""
   },
   {
    "offset": 444,
    "len": 33,
    "en": "\"A beautiful lass @Stephanie is.\"",
-   "zh": "「@史黛芬妮是個美麗的女孩。」",
+   "zh": "「@Stephanie（史黛）芬妮是個美麗的女孩。」",
    "note": ""
   },
   {
    "offset": 489,
    "len": 48,
    "en": "\"Have you met her? Then you know she is @blind.\"",
-   "zh": "「你見過她嗎？那你就知道她是@盲人了。」",
+   "zh": "「你見過她嗎？那你就知道她是@blind（盲人）了。」",
    "note": ""
   },
   {
@@ -81,7 +81,7 @@
    "offset": 583,
    "len": 44,
    "en": "\"For her it is like being born a @gargoyle.\"",
-   "zh": "「對她而言，就像生來是個@魔像族一樣。」",
+   "zh": "「對她而言，就像生來是個@gargoyle（魔像）族一樣。」",
    "note": ""
   },
   {
@@ -116,7 +116,7 @@
    "offset": 962,
    "len": 68,
    "en": "\"I sell many types of @wine, made right here.\" He clicks his tongue.",
-   "zh": "「我賣多種@葡萄酒，都是在這裡釀造的。」他嘖嘖稱讚。",
+   "zh": "「我賣多種@wine（葡萄）酒，都是在這裡釀造的。」他嘖嘖稱讚。",
    "note": ""
   },
   {
@@ -190,6 +190,11 @@
    "note": ""
   }
  ],
- "glossary_additions": {"people": {"Faren": "法倫"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Faren": "法倫"
+  },
+  "places": {}
+ },
  "translator_notes": "法倫是酒商，史黛芬妮的哥哥。他對魔像族有深刻的人道主義見解，以妹妹的盲眼為例說明理解「他者」的重要性。葡萄酒名為系統字串，略。"
 }

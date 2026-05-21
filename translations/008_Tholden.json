@@ -1,44 +1,246 @@
 {
-  "_meta": {"npc": "Tholden", "role": "Chancellor"},
-  "translations": [
-    {"offset": 2, "len": 7, "en": "Tholden", "zh": "索登", "zh_bytes": 4},
-    {"offset": 10, "len": 49, "en": "a preoccupied man holding a ledger under one arm.", "zh": "一名腋下夾著帳冊，神情專注的男子。", "zh_bytes": 34},
-    {"offset": 62, "len": 86, "en": "\"Records to keep, festivals to plan, I'm so busy... But I can spare you a moment, $G.\"", "zh": "「要記帳冊，要籌節慶，老臣忙得很……但仍可為$G撥冗片刻。」", "zh_bytes": 58},
-    {"offset": 151, "len": 4, "en": "name", "zh": "名字", "zh_bytes": 4},
-    {"offset": 156, "len": 58, "en": "\"I am Tholden von Bazillius, Chancellor to Lord @British.\"", "zh": "「老臣索登·馮·巴齊柳斯，乃@不列顛王之宰相。」", "zh_bytes": 47},
-    {"offset": 217, "len": 73, "en": "\"In my younger days, I was known as 'The @Werecat of the Wine Cellar'...\"", "zh": "「想當年，老臣有個綽號叫『@酒窖之貓人』……」", "zh_bytes": 45},
-    {"offset": 302, "len": 23, "en": "were,cat,wine,cell,youn", "zh": "貓人,貓,酒,窖,當年", "zh_bytes": 18},
-    {"offset": 326, "len": 63, "en": "\"I could tell you stories... But there's no time for that now.\"", "zh": "「故事多得是，可惜如今已無暇細說了。」", "zh_bytes": 38},
-    {"offset": 395, "len": 9, "en": "lord,brit", "zh": "lord,brit", "zh_bytes": 9},
-    {"offset": 405, "len": 84, "en": "\"A fine ruler indeed. 'Tis a pleasure to keep his kingdom running smoothly for him.\"", "zh": "「實乃一代賢君。能為陛下打理國政，老臣甚以為樂。」", "zh_bytes": 50},
-    {"offset": 495, "len": 3, "en": "job", "zh": "業", "zh_bytes": 2},
-    {"offset": 499, "len": 79, "en": "\"All the little details of governing, all the paperwork falls on my shoulders.\"", "zh": "「治國繁瑣諸事、文牘案牘，皆落在老臣肩上。」", "zh_bytes": 44},
-    {"offset": 581, "len": 79, "en": "\"Someone must do it, and yet I miss the days when I was a carefree adventurer.\"", "zh": "「總得有人來做，然老臣仍懷念當年無拘無束的冒險歲月。」", "zh_bytes": 54},
-    {"offset": 666, "len": 14, "en": "rune,mant,comp", "zh": "符文,真言,慈悲", "zh_bytes": 14},
-    {"offset": 681, "len": 89, "en": "\"The rune and mantra of Compassion are in the keeping of the bards at the @Conservatory.\"", "zh": "「慈悲之符文與真言，由@音樂院的吟遊詩人們所保管。」", "zh_bytes": 51},
-    {"offset": 773, "len": 67, "en": "\"I entrusted them with the rune due to their compassionate nature.\"", "zh": "「老臣因詩人們秉性慈悲，故將符文託予之。」", "zh_bytes": 42},
-    {"offset": 843, "len": 99, "en": "\"As for the other runes - they are no longer together, as they were when the @Codex was recovered.\"", "zh": "「至於其餘符文，自@守則之書尋回後，便不再聚於一處。」", "zh_bytes": 53},
-    {"offset": 945, "len": 102, "en": "\"Since then, they have become scattered throughout the land. Each was sent to a town near its shrine.\"", "zh": "「自彼時起，諸符文便散佈於全境，各自送往臨近其聖壇之城。」", "zh_bytes": 58},
-    {"offset": 1050, "len": 91, "en": "\"If thou dost ask the lords of each of these towns, they should be able to tell thee more.\"", "zh": "「汝若向各城首領詢問，應能得知更多詳情。」", "zh_bytes": 42},
-    {"offset": 1144, "len": 84, "en": "\"The towns are Moonglow, Jhelom, Yew, Minoc, Trinsic, Skara Brae, and New Magincia.\"", "zh": "「諸城為月華城、傑隆、尤伊、米諾克、崔西克、斯卡拉布雷、新馬精西亞。」", "zh_bytes": 70},
-    {"offset": 1234, "len": 4, "en": "code", "zh": "守則", "zh_bytes": 4},
-    {"offset": 1239, "len": 46, "en": "\"'Tis the greatest treasure in all the realm.\"", "zh": "「此乃此境最珍貴之寶。」", "zh_bytes": 24},
-    {"offset": 1291, "len": 4, "en": "cons", "zh": "音樂", "zh_bytes": 4},
-    {"offset": 1296, "len": 32, "en": "\"'Twas founded by Lord British.\"", "zh": "「乃陛下所創立。」", "zh_bytes": 18},
-    {"offset": 1334, "len": 3, "en": "bye", "zh": "bye", "zh_bytes": 3},
-    {"offset": 1345, "len": 52, "en": "Tholden goes down on one knee and kisses your hand. ", "zh": "索登單膝跪地，輕吻汝之手。", "zh_bytes": 26},
-    {"offset": 1398, "len": 21, "en": "Tholden bows deeply. ", "zh": "索登深深一鞠躬。", "zh_bytes": 16},
-    {"offset": 1420, "len": 39, "en": "\"I hope I have been of assistance, $G.\"", "zh": "「願老臣有所助益，$G。」", "zh_bytes": 24},
-    {"offset": 1464, "len": 31, "en": "\"I cannot help thee with that.\"", "zh": "「此事老臣無能為力。」", "zh_bytes": 22}
-  ],
-  "keyword_mapping": {"@British": "@不列顛王", "@Werecat": "@酒窖之貓人", "@Conservatory": "@音樂院", "@Codex": "@守則之書"},
-  "glossary_additions": {
-    "people": {"Tholden von Bazillius": "索登·馮·巴齊柳斯"},
-    "concepts": {"Chancellor": "宰相", "Conservatory": "音樂院", "Werecat": "貓人", "ledger": "帳冊", "festival": "節慶", "paperwork": "文牘", "adventurer": "冒險者"},
-    "keywords_common": {"@Conservatory": "@音樂院", "@Werecat": "@酒窖之貓人"}
+ "_meta": {
+  "npc": "Tholden",
+  "role": "Chancellor"
+ },
+ "translations": [
+  {
+   "offset": 2,
+   "len": 7,
+   "en": "Tholden",
+   "zh": "索登",
+   "zh_bytes": 4
   },
-  "riddles_additions": [
-    {"npc": "Tholden", "key": "WERECAT_WINE_CELLAR", "en": "'The Werecat of the Wine Cellar'", "zh": "『酒窖之貓人』", "ref": "Tholden 年輕時綽號", "strategy": "直譯 werecat=貓人"}
-  ],
-  "translator_notes": "Tholden 自稱『老臣/臣』，對 LB 稱『陛下』，對玩家『汝』。29 條 ≤ len。"
+  {
+   "offset": 10,
+   "len": 49,
+   "en": "a preoccupied man holding a ledger under one arm.",
+   "zh": "一名腋下夾著帳冊，神情專注的男子。",
+   "zh_bytes": 34
+  },
+  {
+   "offset": 62,
+   "len": 86,
+   "en": "\"Records to keep, festivals to plan, I'm so busy... But I can spare you a moment, $G.\"",
+   "zh": "「要記帳冊，要籌節慶，老臣忙得很……但仍可為$G撥冗片刻。」",
+   "zh_bytes": 58
+  },
+  {
+   "offset": 151,
+   "len": 4,
+   "en": "name",
+   "zh": "名字",
+   "zh_bytes": 4
+  },
+  {
+   "offset": 156,
+   "len": 58,
+   "en": "\"I am Tholden von Bazillius, Chancellor to Lord @British.\"",
+   "zh": "「老臣索登·馮·巴齊柳斯，乃@British（不列）顛王之宰相。」",
+   "zh_bytes": 47
+  },
+  {
+   "offset": 217,
+   "len": 73,
+   "en": "\"In my younger days, I was known as 'The @Werecat of the Wine Cellar'...\"",
+   "zh": "「想當年，老臣有個綽號叫『@Werecat（酒窖之貓人）之貓人』……」",
+   "zh_bytes": 45
+  },
+  {
+   "offset": 302,
+   "len": 23,
+   "en": "were,cat,wine,cell,youn",
+   "zh": "貓人,貓,酒,窖,當年",
+   "zh_bytes": 18
+  },
+  {
+   "offset": 326,
+   "len": 63,
+   "en": "\"I could tell you stories... But there's no time for that now.\"",
+   "zh": "「故事多得是，可惜如今已無暇細說了。」",
+   "zh_bytes": 38
+  },
+  {
+   "offset": 395,
+   "len": 9,
+   "en": "lord,brit",
+   "zh": "lord,brit",
+   "zh_bytes": 9
+  },
+  {
+   "offset": 405,
+   "len": 84,
+   "en": "\"A fine ruler indeed. 'Tis a pleasure to keep his kingdom running smoothly for him.\"",
+   "zh": "「實乃一代賢君。能為陛下打理國政，老臣甚以為樂。」",
+   "zh_bytes": 50
+  },
+  {
+   "offset": 495,
+   "len": 3,
+   "en": "job",
+   "zh": "業",
+   "zh_bytes": 2
+  },
+  {
+   "offset": 499,
+   "len": 79,
+   "en": "\"All the little details of governing, all the paperwork falls on my shoulders.\"",
+   "zh": "「治國繁瑣諸事、文牘案牘，皆落在老臣肩上。」",
+   "zh_bytes": 44
+  },
+  {
+   "offset": 581,
+   "len": 79,
+   "en": "\"Someone must do it, and yet I miss the days when I was a carefree adventurer.\"",
+   "zh": "「總得有人來做，然老臣仍懷念當年無拘無束的冒險歲月。」",
+   "zh_bytes": 54
+  },
+  {
+   "offset": 666,
+   "len": 14,
+   "en": "rune,mant,comp",
+   "zh": "符文,真言,慈悲",
+   "zh_bytes": 14
+  },
+  {
+   "offset": 681,
+   "len": 89,
+   "en": "\"The rune and mantra of Compassion are in the keeping of the bards at the @Conservatory.\"",
+   "zh": "「慈悲之符文與真言，由@Conservatory（音樂院）院的吟遊詩人們所保管。」",
+   "zh_bytes": 51
+  },
+  {
+   "offset": 773,
+   "len": 67,
+   "en": "\"I entrusted them with the rune due to their compassionate nature.\"",
+   "zh": "「老臣因詩人們秉性慈悲，故將符文託予之。」",
+   "zh_bytes": 42
+  },
+  {
+   "offset": 843,
+   "len": 99,
+   "en": "\"As for the other runes - they are no longer together, as they were when the @Codex was recovered.\"",
+   "zh": "「至於其餘符文，自@Codex（知識寶典）則之書尋回後，便不再聚於一處。」",
+   "zh_bytes": 53
+  },
+  {
+   "offset": 945,
+   "len": 102,
+   "en": "\"Since then, they have become scattered throughout the land. Each was sent to a town near its shrine.\"",
+   "zh": "「自彼時起，諸符文便散佈於全境，各自送往臨近其聖壇之城。」",
+   "zh_bytes": 58
+  },
+  {
+   "offset": 1050,
+   "len": 91,
+   "en": "\"If thou dost ask the lords of each of these towns, they should be able to tell thee more.\"",
+   "zh": "「汝若向各城首領詢問，應能得知更多詳情。」",
+   "zh_bytes": 42
+  },
+  {
+   "offset": 1144,
+   "len": 84,
+   "en": "\"The towns are Moonglow, Jhelom, Yew, Minoc, Trinsic, Skara Brae, and New Magincia.\"",
+   "zh": "「諸城為月華城、傑隆、尤伊、米諾克、崔西克、斯卡拉布雷、新馬精西亞。」",
+   "zh_bytes": 70
+  },
+  {
+   "offset": 1234,
+   "len": 4,
+   "en": "code",
+   "zh": "守則",
+   "zh_bytes": 4
+  },
+  {
+   "offset": 1239,
+   "len": 46,
+   "en": "\"'Tis the greatest treasure in all the realm.\"",
+   "zh": "「此乃此境最珍貴之寶。」",
+   "zh_bytes": 24
+  },
+  {
+   "offset": 1291,
+   "len": 4,
+   "en": "cons",
+   "zh": "音樂",
+   "zh_bytes": 4
+  },
+  {
+   "offset": 1296,
+   "len": 32,
+   "en": "\"'Twas founded by Lord British.\"",
+   "zh": "「乃陛下所創立。」",
+   "zh_bytes": 18
+  },
+  {
+   "offset": 1334,
+   "len": 3,
+   "en": "bye",
+   "zh": "bye",
+   "zh_bytes": 3
+  },
+  {
+   "offset": 1345,
+   "len": 52,
+   "en": "Tholden goes down on one knee and kisses your hand. ",
+   "zh": "索登單膝跪地，輕吻汝之手。",
+   "zh_bytes": 26
+  },
+  {
+   "offset": 1398,
+   "len": 21,
+   "en": "Tholden bows deeply. ",
+   "zh": "索登深深一鞠躬。",
+   "zh_bytes": 16
+  },
+  {
+   "offset": 1420,
+   "len": 39,
+   "en": "\"I hope I have been of assistance, $G.\"",
+   "zh": "「願老臣有所助益，$G。」",
+   "zh_bytes": 24
+  },
+  {
+   "offset": 1464,
+   "len": 31,
+   "en": "\"I cannot help thee with that.\"",
+   "zh": "「此事老臣無能為力。」",
+   "zh_bytes": 22
+  }
+ ],
+ "keyword_mapping": {
+  "@British": "@不列顛王",
+  "@Werecat": "@酒窖之貓人",
+  "@Conservatory": "@音樂院",
+  "@Codex": "@知識寶典"
+ },
+ "glossary_additions": {
+  "people": {
+   "Tholden von Bazillius": "索登·馮·巴齊柳斯"
+  },
+  "concepts": {
+   "Chancellor": "宰相",
+   "Conservatory": "音樂院",
+   "Werecat": "貓人",
+   "ledger": "帳冊",
+   "festival": "節慶",
+   "paperwork": "文牘",
+   "adventurer": "冒險者"
+  },
+  "keywords_common": {
+   "@Conservatory": "@音樂院",
+   "@Werecat": "@酒窖之貓人"
+  }
+ },
+ "riddles_additions": [
+  {
+   "npc": "Tholden",
+   "key": "WERECAT_WINE_CELLAR",
+   "en": "'The Werecat of the Wine Cellar'",
+   "zh": "『酒窖之貓人』",
+   "ref": "Tholden 年輕時綽號",
+   "strategy": "直譯 werecat=貓人"
+  }
+ ],
+ "translator_notes": "Tholden 自稱『老臣/臣』，對 LB 稱『陛下』，對玩家『汝』。29 條 ≤ len。"
 }

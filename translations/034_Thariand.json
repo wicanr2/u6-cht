@@ -1,284 +1,284 @@
 {
-  "translations": [
-    {
-      "offset": 11,
-      "len": 39,
-      "en": "a busy looking man wearing a blue robe.",
-      "zh": "一身藍袍、案牘勞形之男子。",
-      "note": "DESC"
-    },
-    {
-      "offset": 53,
-      "len": 86,
-      "en": "\"So many books to keep organized, it's a wonder I have any time for my own studies...\"",
-      "zh": "「書冊浩如煙海，整理起來耗時費力，哪還有餘閒自修……」",
-      "note": ""
-    },
-    {
-      "offset": 142,
-      "len": 32,
-      "en": "\"Can I help you with something?\"",
-      "zh": "「有何需要，吾可為汝效勞？」",
-      "note": ""
-    },
-    {
-      "offset": 182,
-      "len": 35,
-      "en": "\"I am Thariand, of the blue @star.\"",
-      "zh": "「吾乃薩里安，藍@星之人。」",
-      "note": "@star keyword preserved"
-    },
-    {
-      "offset": 239,
-      "len": 48,
-      "en": "\"All the students of @Nicodemus bear this sign.\"",
-      "zh": "「凡@尼科德穆斯門下弟子，皆以此為標誌。」",
-      "note": "@Nicodemus keyword preserved"
-    },
-    {
-      "offset": 298,
-      "len": 29,
-      "en": "\"He lives southeast of @Yew.\"",
-      "zh": "「彼居於@尤伊城東南。」",
-      "note": "@Yew keyword preserved"
-    },
-    {
-      "offset": 337,
-      "len": 55,
-      "en": "\"Somebody there should be able to give you directions.\"",
-      "zh": "「當地必有人能為汝指路。」",
-      "note": ""
-    },
-    {
-      "offset": 402,
-      "len": 20,
-      "en": "\"I'm the librarian.\"",
-      "zh": "「吾是圖書館館員。」",
-      "note": ""
-    },
-    {
-      "offset": 424,
-      "len": 102,
-      "en": "*\"I prefer to spend my time studying @magic, but I'll help you find some @books if you keep it quick.\"",
-      "zh": "*「吾本更願鑽研@魔法，但若汝能長話短說，吾可代汝尋些@書冊。」",
-      "note": "leading * preserved"
-    },
-    {
-      "offset": 542,
-      "len": 113,
-      "en": "\"Were I to master all the arcane lore contained within these volumes, I'd be the greatest sorcerer of all time!\"*",
-      "zh": "「若吾能盡覽這批典籍中所有秘術，必可成就古往今來第一大術師！」*",
-      "note": "trailing * preserved"
-    },
-    {
-      "offset": 657,
-      "len": 60,
-      "en": "\"Of course, finding all the right books is no small task...\"",
-      "zh": "「當然，尋齊所需書冊亦非易事……」",
-      "note": ""
-    },
-    {
-      "offset": 769,
-      "len": 102,
-      "en": "\"Oh, I'm sorry, I just remembered. That book was checked out last week. Try coming back for it later.\"",
-      "zh": "「噢，抱歉，吾這才想起——那本書上週已借出去了。汝改日再來試試吧。」",
-      "note": ""
-    },
-    {
-      "offset": 882,
-      "len": 93,
-      "en": "\"We have a book that tells the history of the shrines. If only I could remember the title...\"",
-      "zh": "「我館藏有一冊記載聖壇歷史之書，只是書名一時想不起來……」",
-      "note": ""
-    },
-    {
-      "offset": 985,
-      "len": 98,
-      "en": "\"Remember, any books you take out of here are due back before the next bipolar lunar conjunction!\"",
-      "zh": "「請記住，凡從此處借出之書冊，須於下次雙月交會前歸還！」",
-      "note": ""
-    },
-    {
-      "offset": 1088,
-      "len": 106,
-      "en": "\"You could probably find more information on that topic in Priliwig's Universial Compendium of Knowledge.\"",
-      "zh": "「汝或許能在《普利維格萬用知識大全》中找到更多相關資料。」",
-      "note": ""
-    },
-    {
-      "offset": 1200,
-      "len": 23,
-      "en": "Were you interested in:",
-      "zh": "汝有意查閱哪類書冊：",
-      "note": "menu prompt"
-    },
-    {
-      "offset": 1225,
-      "len": 10,
-      "en": "A. Fiction",
-      "zh": "甲、文學小說",
-      "note": "menu item"
-    },
-    {
-      "offset": 1236,
-      "len": 14,
-      "en": "B. Non-fiction",
-      "zh": "乙、非虛構類",
-      "note": "menu item"
-    },
-    {
-      "offset": 1251,
-      "len": 12,
-      "en": "C. Reference",
-      "zh": "丙、參考工具",
-      "note": "menu item"
-    },
-    {
-      "offset": 1271,
-      "len": 33,
-      "en": "In that category I can recommend:",
-      "zh": "此類目吾可推薦以下書目：",
-      "note": "menu header"
-    },
-    {
-      "offset": 1320,
-      "len": 22,
-      "en": "The Caverns of Freitag",
-      "zh": "《弗瑞塔的洞窟》",
-      "note": "book title"
-    },
-    {
-      "offset": 1360,
-      "len": 29,
-      "en": "Around the World in a Washtub",
-      "zh": "《乘洗衣桶環遊世界》",
-      "note": "book title"
-    },
-    {
-      "offset": 1406,
-      "len": 16,
-      "en": "The Wizard of Oz",
-      "zh": "《奧茲的術師》",
-      "note": "book title"
-    },
-    {
-      "offset": 1432,
-      "len": 33,
-      "en": "In that category I can recommend:",
-      "zh": "此類目吾可推薦以下書目：",
-      "note": "menu header (repeat)"
-    },
-    {
-      "offset": 1481,
-      "len": 45,
-      "en": "Mating Rituals of the Northern Plains Centaur",
-      "zh": "《北原馬人的交配習俗》",
-      "note": "book title"
-    },
-    {
-      "offset": 1539,
-      "len": 21,
-      "en": "Of Dreams and Visions",
-      "zh": "《夢境與幻象》",
-      "note": "book title"
-    },
-    {
-      "offset": 1576,
-      "len": 26,
-      "en": "The Lost Art of Ballooning",
-      "zh": "《失傳的熱氣球術》",
-      "note": "book title"
-    },
-    {
-      "offset": 1617,
-      "len": 35,
-      "en": "Summoning Incubi for Fun and Profit",
-      "zh": "《召喚夢魔：樂趣與利益兼顧》",
-      "note": "book title"
-    },
-    {
-      "offset": 1662,
-      "len": 33,
-      "en": "In that category I can recommend:",
-      "zh": "此類目吾可推薦以下書目：",
-      "note": "menu header (repeat)"
-    },
-    {
-      "offset": 1710,
-      "len": 31,
-      "en": "Dilzal's Almanac of Good Advice",
-      "zh": "《迪薩良言年鑑》",
-      "note": "book title; 避『年』→不用「年曆」"
-    },
-    {
-      "offset": 1755,
-      "len": 44,
-      "en": "Priliwig's Universal Compendium of Knowledge",
-      "zh": "《普利維格萬用知識大全》",
-      "note": "book title"
-    },
-    {
-      "offset": 1813,
-      "len": 24,
-      "en": "The Lost Book of Mantras",
-      "zh": "《失傳真言之書》",
-      "note": "book title"
-    },
-    {
-      "offset": 1846,
-      "len": 45,
-      "en": "\"Is there anything else you wanted to find?\" ",
-      "zh": "「汝還有其他想找的書嗎？」",
-      "note": "trailing space preserved in en"
-    },
-    {
-      "offset": 1904,
-      "len": 87,
-      "en": "\"Fine. You should have no trouble finding what you want once you have the call number.\"",
-      "zh": "「甚好。只要手中有索書號碼，汝便不難尋得所需。」",
-      "note": ""
-    },
-    {
-      "offset": 1994,
-      "len": 60,
-      "en": "\"You do understand how our books are organized, don't you?\" ",
-      "zh": "「汝應當曉得我館書冊的排列方式，對吧？」",
-      "note": ""
-    },
-    {
-      "offset": 2060,
-      "len": 66,
-      "en": "\"Good. I have more important things to do than explain it to you.\"",
-      "zh": "「甚好。吾還有更重要的事情要辦，實在無暇向汝解說。」",
-      "note": ""
-    },
-    {
-      "offset": 2133,
-      "len": 93,
-      "en": "\"Well then, I'd suggest you look it up in The Beginner's Guide to the @Dewey Decimal System.\"",
-      "zh": "「既然如此，吾建議汝查閱《@杜威十進位分類法入門指引》。」",
-      "note": ""
-    },
-    {
-      "offset": 2229,
-      "len": 42,
-      "en": "\"Its call number is T17 0035 r16RL.5 v43.\"",
-      "zh": "「其索書號為 T17 0035 r16RL.5 v43。」",
-      "note": "call number kept verbatim"
-    }
-  ],
-  "glossary_additions": {
-    "people": {
-      "Thariand": "薩里安",
-      "Nicodemus": "尼科德穆斯",
-      "Priliwig": "普利維格",
-      "Dilzal": "迪薩",
-      "Freitag": "弗瑞塔"
-    },
-    "places": {},
-    "concepts": {
-      "Dewey Decimal System": "杜威十進位分類法"
-    }
+ "translations": [
+  {
+   "offset": 11,
+   "len": 39,
+   "en": "a busy looking man wearing a blue robe.",
+   "zh": "一身藍袍、案牘勞形之男子。",
+   "note": "DESC"
   },
-  "translator_notes": "Thariand 是學苑圖書館員，語氣帶點書卷氣但略顯牢騷。書目名稱全數翻譯並加《》。索書號碼（如 821.34 Rzl4n）純為系統資料，不翻譯。避免使用 5C trail 字，以「薩里安」代 Thariand。Nicodemus 依發音譯為「尼科德穆斯」。"
+  {
+   "offset": 53,
+   "len": 86,
+   "en": "\"So many books to keep organized, it's a wonder I have any time for my own studies...\"",
+   "zh": "「書冊浩如煙海，整理起來耗時費力，哪還有餘閒自修……」",
+   "note": ""
+  },
+  {
+   "offset": 142,
+   "len": 32,
+   "en": "\"Can I help you with something?\"",
+   "zh": "「有何需要，吾可為汝效勞？」",
+   "note": ""
+  },
+  {
+   "offset": 182,
+   "len": 35,
+   "en": "\"I am Thariand, of the blue @star.\"",
+   "zh": "「吾乃薩里安，藍@star（星）之人。」",
+   "note": "@star keyword preserved"
+  },
+  {
+   "offset": 239,
+   "len": 48,
+   "en": "\"All the students of @Nicodemus bear this sign.\"",
+   "zh": "「凡@Nicodemus（尼科）德穆斯門下弟子，皆以此為標誌。」",
+   "note": "@Nicodemus keyword preserved"
+  },
+  {
+   "offset": 298,
+   "len": 29,
+   "en": "\"He lives southeast of @Yew.\"",
+   "zh": "「彼居於@Yew（尤伊）城東南。」",
+   "note": "@Yew keyword preserved"
+  },
+  {
+   "offset": 337,
+   "len": 55,
+   "en": "\"Somebody there should be able to give you directions.\"",
+   "zh": "「當地必有人能為汝指路。」",
+   "note": ""
+  },
+  {
+   "offset": 402,
+   "len": 20,
+   "en": "\"I'm the librarian.\"",
+   "zh": "「吾是圖書館館員。」",
+   "note": ""
+  },
+  {
+   "offset": 424,
+   "len": 102,
+   "en": "*\"I prefer to spend my time studying @magic, but I'll help you find some @books if you keep it quick.\"",
+   "zh": "*「吾本更願鑽研@magic（魔法），但若汝能長話短說，吾可代汝尋些@books（書冊）。」",
+   "note": "leading * preserved"
+  },
+  {
+   "offset": 542,
+   "len": 113,
+   "en": "\"Were I to master all the arcane lore contained within these volumes, I'd be the greatest sorcerer of all time!\"*",
+   "zh": "「若吾能盡覽這批典籍中所有秘術，必可成就古往今來第一大術師！」*",
+   "note": "trailing * preserved"
+  },
+  {
+   "offset": 657,
+   "len": 60,
+   "en": "\"Of course, finding all the right books is no small task...\"",
+   "zh": "「當然，尋齊所需書冊亦非易事……」",
+   "note": ""
+  },
+  {
+   "offset": 769,
+   "len": 102,
+   "en": "\"Oh, I'm sorry, I just remembered. That book was checked out last week. Try coming back for it later.\"",
+   "zh": "「噢，抱歉，吾這才想起——那本書上週已借出去了。汝改日再來試試吧。」",
+   "note": ""
+  },
+  {
+   "offset": 882,
+   "len": 93,
+   "en": "\"We have a book that tells the history of the shrines. If only I could remember the title...\"",
+   "zh": "「我館藏有一冊記載聖壇歷史之書，只是書名一時想不起來……」",
+   "note": ""
+  },
+  {
+   "offset": 985,
+   "len": 98,
+   "en": "\"Remember, any books you take out of here are due back before the next bipolar lunar conjunction!\"",
+   "zh": "「請記住，凡從此處借出之書冊，須於下次雙月交會前歸還！」",
+   "note": ""
+  },
+  {
+   "offset": 1088,
+   "len": 106,
+   "en": "\"You could probably find more information on that topic in Priliwig's Universial Compendium of Knowledge.\"",
+   "zh": "「汝或許能在《普利維格萬用知識大全》中找到更多相關資料。」",
+   "note": ""
+  },
+  {
+   "offset": 1200,
+   "len": 23,
+   "en": "Were you interested in:",
+   "zh": "汝有意查閱哪類書冊：",
+   "note": "menu prompt"
+  },
+  {
+   "offset": 1225,
+   "len": 10,
+   "en": "A. Fiction",
+   "zh": "甲、文學小說",
+   "note": "menu item"
+  },
+  {
+   "offset": 1236,
+   "len": 14,
+   "en": "B. Non-fiction",
+   "zh": "乙、非虛構類",
+   "note": "menu item"
+  },
+  {
+   "offset": 1251,
+   "len": 12,
+   "en": "C. Reference",
+   "zh": "丙、參考工具",
+   "note": "menu item"
+  },
+  {
+   "offset": 1271,
+   "len": 33,
+   "en": "In that category I can recommend:",
+   "zh": "此類目吾可推薦以下書目：",
+   "note": "menu header"
+  },
+  {
+   "offset": 1320,
+   "len": 22,
+   "en": "The Caverns of Freitag",
+   "zh": "《弗瑞塔的洞窟》",
+   "note": "book title"
+  },
+  {
+   "offset": 1360,
+   "len": 29,
+   "en": "Around the World in a Washtub",
+   "zh": "《乘洗衣桶環遊世界》",
+   "note": "book title"
+  },
+  {
+   "offset": 1406,
+   "len": 16,
+   "en": "The Wizard of Oz",
+   "zh": "《奧茲的術師》",
+   "note": "book title"
+  },
+  {
+   "offset": 1432,
+   "len": 33,
+   "en": "In that category I can recommend:",
+   "zh": "此類目吾可推薦以下書目：",
+   "note": "menu header (repeat)"
+  },
+  {
+   "offset": 1481,
+   "len": 45,
+   "en": "Mating Rituals of the Northern Plains Centaur",
+   "zh": "《北原馬人的交配習俗》",
+   "note": "book title"
+  },
+  {
+   "offset": 1539,
+   "len": 21,
+   "en": "Of Dreams and Visions",
+   "zh": "《夢境與幻象》",
+   "note": "book title"
+  },
+  {
+   "offset": 1576,
+   "len": 26,
+   "en": "The Lost Art of Ballooning",
+   "zh": "《失傳的熱氣球術》",
+   "note": "book title"
+  },
+  {
+   "offset": 1617,
+   "len": 35,
+   "en": "Summoning Incubi for Fun and Profit",
+   "zh": "《召喚夢魔：樂趣與利益兼顧》",
+   "note": "book title"
+  },
+  {
+   "offset": 1662,
+   "len": 33,
+   "en": "In that category I can recommend:",
+   "zh": "此類目吾可推薦以下書目：",
+   "note": "menu header (repeat)"
+  },
+  {
+   "offset": 1710,
+   "len": 31,
+   "en": "Dilzal's Almanac of Good Advice",
+   "zh": "《迪薩良言年鑑》",
+   "note": "book title; 避『年』→不用「年曆」"
+  },
+  {
+   "offset": 1755,
+   "len": 44,
+   "en": "Priliwig's Universal Compendium of Knowledge",
+   "zh": "《普利維格萬用知識大全》",
+   "note": "book title"
+  },
+  {
+   "offset": 1813,
+   "len": 24,
+   "en": "The Lost Book of Mantras",
+   "zh": "《失傳真言之書》",
+   "note": "book title"
+  },
+  {
+   "offset": 1846,
+   "len": 45,
+   "en": "\"Is there anything else you wanted to find?\" ",
+   "zh": "「汝還有其他想找的書嗎？」",
+   "note": "trailing space preserved in en"
+  },
+  {
+   "offset": 1904,
+   "len": 87,
+   "en": "\"Fine. You should have no trouble finding what you want once you have the call number.\"",
+   "zh": "「甚好。只要手中有索書號碼，汝便不難尋得所需。」",
+   "note": ""
+  },
+  {
+   "offset": 1994,
+   "len": 60,
+   "en": "\"You do understand how our books are organized, don't you?\" ",
+   "zh": "「汝應當曉得我館書冊的排列方式，對吧？」",
+   "note": ""
+  },
+  {
+   "offset": 2060,
+   "len": 66,
+   "en": "\"Good. I have more important things to do than explain it to you.\"",
+   "zh": "「甚好。吾還有更重要的事情要辦，實在無暇向汝解說。」",
+   "note": ""
+  },
+  {
+   "offset": 2133,
+   "len": 93,
+   "en": "\"Well then, I'd suggest you look it up in The Beginner's Guide to the @Dewey Decimal System.\"",
+   "zh": "「既然如此，吾建議汝查閱《@Dewey（杜威）十進位分類法入門指引》。」",
+   "note": ""
+  },
+  {
+   "offset": 2229,
+   "len": 42,
+   "en": "\"Its call number is T17 0035 r16RL.5 v43.\"",
+   "zh": "「其索書號為 T17 0035 r16RL.5 v43。」",
+   "note": "call number kept verbatim"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Thariand": "薩里安",
+   "Nicodemus": "尼科德穆斯",
+   "Priliwig": "普利維格",
+   "Dilzal": "迪薩",
+   "Freitag": "弗瑞塔"
+  },
+  "places": {},
+  "concepts": {
+   "Dewey Decimal System": "杜威十進位分類法"
+  }
+ },
+ "translator_notes": "Thariand 是學苑圖書館員，語氣帶點書卷氣但略顯牢騷。書目名稱全數翻譯並加《》。索書號碼（如 821.34 Rzl4n）純為系統資料，不翻譯。避免使用 5C trail 字，以「薩里安」代 Thariand。Nicodemus 依發音譯為「尼科德穆斯」。"
 }

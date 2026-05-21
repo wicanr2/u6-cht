@@ -32,14 +32,14 @@
    "offset": 267,
    "len": 51,
    "en": "\"Which, @ale, @mead, @wine, @rations or @Waybread?\"",
-   "zh": "「要@麥酒、@蜂蜜酒、@葡萄酒、@口糧還是@行路麵包？」",
+   "zh": "「要@ale（麥酒）、@mead（蜂蜜）酒、@wine（葡萄）酒、@rations（口糧）還是@Waybread（行路）麵包？」",
    "note": ""
   },
   {
    "offset": 329,
    "len": 52,
    "en": "\"I sell @ale, @mead, @wine, @rations and @Waybread.\"",
-   "zh": "「我賣@麥酒、@蜂蜜酒、@葡萄酒、@口糧和@行路麵包。」",
+   "zh": "「我賣@ale（麥酒）、@mead（蜂蜜）酒、@wine（葡萄）酒、@rations（口糧）和@Waybread（行路）麵包。」",
    "note": ""
   },
   {
@@ -239,6 +239,11 @@
    "note": ""
   }
  ],
- "glossary_additions": {"people": {"Amanda": "阿曼達"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Amanda": "阿曼達"
+  },
+  "places": {}
+ },
  "translator_notes": "阿曼達是熱情開朗的食物商，自稱「曼迪小姐」（Miss Mandy）。她賣麥酒、蜂蜜酒、葡萄酒、口糧和行路麵包。南方口語Y'all=大家。Waybread→行路麵包，rations→口糧。Mead/Ale/Wine 品名系統字串不翻。"
 }

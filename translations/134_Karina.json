@@ -25,28 +25,28 @@
    "offset": 253,
    "len": 51,
    "en": "\"@Father says I'm supposed to @dance for @gorgios.\"",
-   "zh": "「@父親說我應該為@外人@跳舞。」",
+   "zh": "「@Father（父親）說我應該為@dance外人@gorgios（跳舞）。」",
    "note": ""
   },
   {
    "offset": 315,
    "len": 48,
    "en": "\"That's what we call anyone who isn't a @gypsy.\"",
-   "zh": "「那是我們對所有非@吉普賽人的稱呼。」",
+   "zh": "「那是我們對所有非@gypsy（吉普）賽人的稱呼。」",
    "note": ""
   },
   {
    "offset": 374,
    "len": 58,
    "en": "\"It's a nice life, but it gets lonely. I miss my @sister.\"",
-   "zh": "「這種生活不錯，但有時很孤單。我好想@姐姐。」",
+   "zh": "「這種生活不錯，但有時很孤單。我好想@sister（姐姐）。」",
    "note": ""
   },
   {
    "offset": 471,
    "len": 37,
    "en": "\"He is Zoltan, @king of the gypsies!\"",
-   "zh": "「他是佐爾坦，吉普賽人之@王！」",
+   "zh": "「他是佐爾坦，吉普賽人之@king（王）！」",
    "note": ""
   },
   {
@@ -67,14 +67,14 @@
    "offset": 605,
    "len": 55,
    "en": "\"Oh, I just couldn't, not in front of so many @people.\"",
-   "zh": "「哦，我真的不行，在這麼多@人面前。」",
+   "zh": "「哦，我真的不行，在這麼多@people（人面）前。」",
    "note": ""
   },
   {
    "offset": 686,
    "len": 25,
    "en": "\"I'd be too @embarassed!\"",
-   "zh": "「我會太@害羞的！」",
+   "zh": "「我會太@embarassed（害羞）的！」",
    "note": "原文拼寫錯誤 embarassed→embarrassed，照意譯"
   },
   {
@@ -172,7 +172,7 @@
    "offset": 1465,
    "len": 72,
    "en": "\"Ask our dog, @Kador, to do some tricks for you. He knows lots of them!\"",
-   "zh": "「讓我們的狗@卡多為你表演幾個把戲吧。他會很多！」",
+   "zh": "「讓我們的狗@Kador（卡多）為你表演幾個把戲吧。他會很多！」",
    "note": ""
   },
   {
@@ -204,6 +204,12 @@
    "note": ""
   }
  ],
- "glossary_additions": {"people": {"Karina": "卡麗娜", "Penumbra": "潘努布拉"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Karina": "卡麗娜",
+   "Penumbra": "潘努布拉"
+  },
+  "places": {}
+ },
  "translator_notes": "卡麗娜是吉普賽少女，天真害羞，口語化。她有一隻狗卡多和一位姐姐潘努布拉。"
 }

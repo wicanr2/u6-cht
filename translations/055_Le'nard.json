@@ -1,194 +1,194 @@
 {
-  "translations": [
-    {
-      "offset": 10,
-      "len": 64,
-      "en": "a short, fat, rosy-cheeked man with long hair covering his eyes.",
-      "zh": "一位身材矮胖、臉頰紅潤、長髮遮眼的男子。",
-      "note": "DESC"
-    },
-    {
-      "offset": 84,
-      "len": 40,
-      "en": "\"He--hello, $G. Nice to see thee again.\"",
-      "zh": "「哈、哈囉，$G。再次見到汝甚是高興。」",
-      "note": "stutter"
-    },
-    {
-      "offset": 125,
-      "len": 51,
-      "en": "The man seems afraid of you. \"Wh-what do you want?\"",
-      "zh": "此人看起來有些怕汝。「你、你要什麼？」",
-      "note": "stutter preserved"
-    },
-    {
-      "offset": 185,
-      "len": 47,
-      "en": "As faint as a whisper comes the word \"Le'nard.\"",
-      "zh": "輕如耳語，他說出「勒納德」這個名字。",
-      "note": ""
-    },
-    {
-      "offset": 248,
-      "len": 20,
-      "en": "\"I'm a @tailor, $G.\"",
-      "zh": "「吾是@裁縫師，$G。」",
-      "note": ""
-    },
-    {
-      "offset": 278,
-      "len": 36,
-      "en": "He looks around, then waves goodbye.",
-      "zh": "他四下張望，然後揮手告別。",
-      "note": "bye action"
-    },
-    {
-      "offset": 342,
-      "len": 65,
-      "en": "\"I sew @pants, @tunics and @dresses, $G. I use a lot of @thread.\"",
-      "zh": "「吾縫製@褲子、@短上衣和@洋裝，$G。吾需要大量@線。」",
-      "note": ""
-    },
-    {
-      "offset": 494,
-      "len": 45,
-      "en": "He stands still for a moment and then shrugs.",
-      "zh": "他靜止了一會兒，然後聳聳肩。",
-      "note": "action"
-    },
-    {
-      "offset": 618,
-      "len": 7,
-      "en": "\"Who?\" ",
-      "zh": "「哪位？」",
-      "note": ""
-    },
-    {
-      "offset": 635,
-      "len": 52,
-      "en": "\"Oh, sorry. I thought thou wanted to buy something.\"",
-      "zh": "「哦，抱歉。吾以為汝要購買東西。」",
-      "note": ""
-    },
-    {
-      "offset": 773,
-      "len": 56,
-      "en": "\"I'm sorry, but I really don't think $Y can carry that.\"",
-      "zh": "「抱歉，吾真的不認為 $Y 能帶走那個。」",
-      "note": ""
-    },
-    {
-      "offset": 845,
-      "len": 57,
-      "en": "\"I'm sorry, but I really don't think $Y can afford that.\"",
-      "zh": "「抱歉，吾真的不認為 $Y 負擔得起那個。」",
-      "note": ""
-    },
-    {
-      "offset": 908,
-      "len": 39,
-      "en": "\"That costs #5. Do you still want it?\" ",
-      "zh": "「那個需 #5 枚金幣。汝還要嗎？」",
-      "note": ""
-    },
-    {
-      "offset": 985,
-      "len": 47,
-      "en": "$N takes $Y's gold and hands over the purchase.",
-      "zh": "$N 收下 $Y 的金幣，遞出購買的物品。",
-      "note": ""
-    },
-    {
-      "offset": 1056,
-      "len": 51,
-      "en": "\"I'm terribly sorry, but I can't sell it for less!\"",
-      "zh": "「非常抱歉，但吾不能賣更便宜！」",
-      "note": ""
-    },
-    {
-      "offset": 1113,
-      "len": 19,
-      "en": "\"I'm sorry! That's ",
-      "zh": "「抱歉！那個",
-      "note": "partial"
-    },
-    {
-      "offset": 1145,
-      "len": 6,
-      "en": "still ",
-      "zh": "還是",
-      "note": "still branch"
-    },
-    {
-      "offset": 1162,
-      "len": 64,
-      "en": "too expensive, isn't it? Here, I'll sell it for #5 gold, okay?\" ",
-      "zh": "太貴了，對嗎？好吧，吾以 #5 枚金幣賣給汝，好嗎？」",
-      "note": ""
-    },
-    {
-      "offset": 1324,
-      "len": 47,
-      "en": "\"But - but none of you has any thread to sell.\"",
-      "zh": "「但、但汝等無人有線可賣。」",
-      "note": "stutter"
-    },
-    {
-      "offset": 1470,
-      "len": 16,
-      "en": "\"Which of you?\" ",
-      "zh": "「汝等哪一位？」",
-      "note": ""
-    },
-    {
-      "offset": 1578,
-      "len": 65,
-      "en": "$N turns to $Y, and says \"Will you take 8 gold for that thread?\" ",
-      "zh": "$N 轉向 $Y，說道：「汝願以 8 枚金幣賣那線給吾嗎？」",
-      "note": ""
-    },
-    {
-      "offset": 1649,
-      "len": 61,
-      "en": "\"Good, good.\" He hands $Y 8 gold pieces and takes the thread.",
-      "zh": "「好，好。」他給了 $Y 8 枚金幣，取走了線。",
-      "note": ""
-    },
-    {
-      "offset": 1756,
-      "len": 11,
-      "en": "\"Oh. Okay.\"",
-      "zh": "「哦。好吧。」",
-      "note": ""
-    },
-    {
-      "offset": 1784,
-      "len": 29,
-      "en": "\"I'm not sure what you mean.\"",
-      "zh": "「吾不確定汝的意思。」",
-      "note": ""
-    },
-    {
-      "offset": 1819,
-      "len": 55,
-      "en": "\"I wouldn't know where to begin. Ask @Marissa in Paws.\"",
-      "zh": "「吾不知從何說起。去帕斯找@瑪麗莎吧。」",
-      "note": ""
-    }
-  ],
-  "glossary_additions": {
-    "people": {
-      "Le'nard": "勒納德",
-      "Marissa": "瑪麗莎"
-    },
-    "places": {
-      "Paws": "帕斯"
-    },
-    "concepts": {
-      "tailor": "裁縫師",
-      "thread": "線",
-      "tunic": "短上衣"
-    }
+ "translations": [
+  {
+   "offset": 10,
+   "len": 64,
+   "en": "a short, fat, rosy-cheeked man with long hair covering his eyes.",
+   "zh": "一位身材矮胖、臉頰紅潤、長髮遮眼的男子。",
+   "note": "DESC"
   },
-  "translator_notes": "勒納德是個膽怯的裁縫師，語氣帶口吃（He--hello, Wh-what）。以重複字頭模擬口吃效果。向玩家購買線的對話是重要 quest 機制。Marissa 在 Paws 是相關 NPC。"
+  {
+   "offset": 84,
+   "len": 40,
+   "en": "\"He--hello, $G. Nice to see thee again.\"",
+   "zh": "「哈、哈囉，$G。再次見到汝甚是高興。」",
+   "note": "stutter"
+  },
+  {
+   "offset": 125,
+   "len": 51,
+   "en": "The man seems afraid of you. \"Wh-what do you want?\"",
+   "zh": "此人看起來有些怕汝。「你、你要什麼？」",
+   "note": "stutter preserved"
+  },
+  {
+   "offset": 185,
+   "len": 47,
+   "en": "As faint as a whisper comes the word \"Le'nard.\"",
+   "zh": "輕如耳語，他說出「勒納德」這個名字。",
+   "note": ""
+  },
+  {
+   "offset": 248,
+   "len": 20,
+   "en": "\"I'm a @tailor, $G.\"",
+   "zh": "「吾是@tailor（裁縫）師，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 278,
+   "len": 36,
+   "en": "He looks around, then waves goodbye.",
+   "zh": "他四下張望，然後揮手告別。",
+   "note": "bye action"
+  },
+  {
+   "offset": 342,
+   "len": 65,
+   "en": "\"I sew @pants, @tunics and @dresses, $G. I use a lot of @thread.\"",
+   "zh": "「吾縫製@pants（褲子）、@tunics（短）上衣和@dresses（洋裝），$G。吾需要大量@thread（線）。」",
+   "note": ""
+  },
+  {
+   "offset": 494,
+   "len": 45,
+   "en": "He stands still for a moment and then shrugs.",
+   "zh": "他靜止了一會兒，然後聳聳肩。",
+   "note": "action"
+  },
+  {
+   "offset": 618,
+   "len": 7,
+   "en": "\"Who?\" ",
+   "zh": "「哪位？」",
+   "note": ""
+  },
+  {
+   "offset": 635,
+   "len": 52,
+   "en": "\"Oh, sorry. I thought thou wanted to buy something.\"",
+   "zh": "「哦，抱歉。吾以為汝要購買東西。」",
+   "note": ""
+  },
+  {
+   "offset": 773,
+   "len": 56,
+   "en": "\"I'm sorry, but I really don't think $Y can carry that.\"",
+   "zh": "「抱歉，吾真的不認為 $Y 能帶走那個。」",
+   "note": ""
+  },
+  {
+   "offset": 845,
+   "len": 57,
+   "en": "\"I'm sorry, but I really don't think $Y can afford that.\"",
+   "zh": "「抱歉，吾真的不認為 $Y 負擔得起那個。」",
+   "note": ""
+  },
+  {
+   "offset": 908,
+   "len": 39,
+   "en": "\"That costs #5. Do you still want it?\" ",
+   "zh": "「那個需 #5 枚金幣。汝還要嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 985,
+   "len": 47,
+   "en": "$N takes $Y's gold and hands over the purchase.",
+   "zh": "$N 收下 $Y 的金幣，遞出購買的物品。",
+   "note": ""
+  },
+  {
+   "offset": 1056,
+   "len": 51,
+   "en": "\"I'm terribly sorry, but I can't sell it for less!\"",
+   "zh": "「非常抱歉，但吾不能賣更便宜！」",
+   "note": ""
+  },
+  {
+   "offset": 1113,
+   "len": 19,
+   "en": "\"I'm sorry! That's ",
+   "zh": "「抱歉！那個",
+   "note": "partial"
+  },
+  {
+   "offset": 1145,
+   "len": 6,
+   "en": "still ",
+   "zh": "還是",
+   "note": "still branch"
+  },
+  {
+   "offset": 1162,
+   "len": 64,
+   "en": "too expensive, isn't it? Here, I'll sell it for #5 gold, okay?\" ",
+   "zh": "太貴了，對嗎？好吧，吾以 #5 枚金幣賣給汝，好嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1324,
+   "len": 47,
+   "en": "\"But - but none of you has any thread to sell.\"",
+   "zh": "「但、但汝等無人有線可賣。」",
+   "note": "stutter"
+  },
+  {
+   "offset": 1470,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝等哪一位？」",
+   "note": ""
+  },
+  {
+   "offset": 1578,
+   "len": 65,
+   "en": "$N turns to $Y, and says \"Will you take 8 gold for that thread?\" ",
+   "zh": "$N 轉向 $Y，說道：「汝願以 8 枚金幣賣那線給吾嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1649,
+   "len": 61,
+   "en": "\"Good, good.\" He hands $Y 8 gold pieces and takes the thread.",
+   "zh": "「好，好。」他給了 $Y 8 枚金幣，取走了線。",
+   "note": ""
+  },
+  {
+   "offset": 1756,
+   "len": 11,
+   "en": "\"Oh. Okay.\"",
+   "zh": "「哦。好吧。」",
+   "note": ""
+  },
+  {
+   "offset": 1784,
+   "len": 29,
+   "en": "\"I'm not sure what you mean.\"",
+   "zh": "「吾不確定汝的意思。」",
+   "note": ""
+  },
+  {
+   "offset": 1819,
+   "len": 55,
+   "en": "\"I wouldn't know where to begin. Ask @Marissa in Paws.\"",
+   "zh": "「吾不知從何說起。去帕斯找@Marissa（瑪麗）莎吧。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Le'nard": "勒納德",
+   "Marissa": "瑪麗莎"
+  },
+  "places": {
+   "Paws": "帕斯"
+  },
+  "concepts": {
+   "tailor": "裁縫師",
+   "thread": "線",
+   "tunic": "短上衣"
+  }
+ },
+ "translator_notes": "勒納德是個膽怯的裁縫師，語氣帶口吃（He--hello, Wh-what）。以重複字頭模擬口吃效果。向玩家購買線的對話是重要 quest 機制。Marissa 在 Paws 是相關 NPC。"
 }

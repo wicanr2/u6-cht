@@ -46,7 +46,7 @@
    "offset": 185,
    "len": 21,
    "en": "\"Ubermon @Kalbmilch.\"",
-   "zh": "「@烏伯蒙·卡爾米希。」",
+   "zh": "「@Kalbmilch（烏伯）蒙·卡爾米希。」",
    "note": ""
   },
   {
@@ -60,7 +60,7 @@
    "offset": 281,
    "len": 38,
    "en": "\"I @milk de cows und make de @cheese.\"",
-   "zh": "「在下@擠牛奶並製作@奶酪。」",
+   "zh": "「在下@milk（擠牛）奶並製作@cheese（奶酪）。」",
    "note": "de=the，und=and，德語口音"
   },
   {
@@ -88,7 +88,7 @@
    "offset": 501,
    "len": 43,
    "en": "\"Ja, sure, vat you vant - milk or @cheese?\"",
-   "zh": "「好，當然，汝要什麼——牛奶還是@奶酪？」",
+   "zh": "「好，當然，汝要什麼——牛奶還是@cheese（奶酪）？」",
    "note": "vat=what，德語口音"
   },
   {

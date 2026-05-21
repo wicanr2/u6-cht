@@ -18,7 +18,7 @@
    "offset": 109,
    "len": 42,
    "en": "\"@Taynith and I have a lot to talk about.\"",
-   "zh": "「在下與@泰尼絲有很多話要聊。」",
+   "zh": "「在下與@Taynith（泰尼）絲有很多話要聊。」",
    "note": ""
   },
   {
@@ -32,7 +32,7 @@
    "offset": 239,
    "len": 70,
    "en": "\"Ah, I see you've brought me a tasty little mouse to feed my @pets...\"",
-   "zh": "「啊，我見汝為在下帶來了美味的小老鼠來餵在下的@寵物……」",
+   "zh": "「啊，我見汝為在下帶來了美味的小老鼠來餵在下的@pets（寵物）……」",
    "note": ""
   },
   {
@@ -67,7 +67,7 @@
    "offset": 494,
    "len": 21,
    "en": "\"My name's Dr. @Cat.\"",
-   "zh": "「在下是@貓博士。」",
+   "zh": "「在下是@Cat（貓博）士。」",
    "note": ""
   },
   {
@@ -81,35 +81,35 @@
    "offset": 606,
    "len": 47,
    "en": "\"Which, @ale, @mead, @wine, @milk, or @mutton?\"",
-   "zh": "「要哪樣？@麥酒、@蜂蜜酒、@葡萄酒、@牛奶還是@羊肉？」",
+   "zh": "「要哪樣？@ale（麥酒）、@mead（蜂蜜）酒、@wine（葡萄）酒、@milk（牛奶）還是@mutton（羊肉）？」",
    "note": ""
   },
   {
    "offset": 663,
    "len": 143,
    "en": "\"I sell @ale, @mead, @wine, @milk, and @mutton. Of course I like to chat with my @patrons, and indulge in a friendly @game every now and then.\"",
-   "zh": "「在下賣@麥酒、@蜂蜜酒、@葡萄酒、@牛奶和@羊肉。當然在下也喜歡與@顧客閒聊，偶爾玩個友誼@遊戲。」",
+   "zh": "「在下賣@ale（麥酒）、@mead（蜂蜜）酒、@wine（葡萄）酒、@milk（牛奶）和@mutton（羊肉）。當然在下也喜歡與@patrons（顧客）閒聊，偶爾玩個友誼@game（遊戲）。」",
    "note": ""
   },
   {
    "offset": 822,
    "len": 104,
    "en": "\"@Thindle and @Mortude may not agree, but I like a game that provides a little intellectual @challenge.\"",
-   "zh": "「@辛德爾和@莫圖德或許不同意，但在下喜歡有點智識@挑戰性的遊戲。」",
+   "zh": "「@Thindle（辛德）爾和@Mortude（莫圖）德或許不同意，但在下喜歡有點智識@challenge（挑戰）性的遊戲。」",
    "note": ""
   },
   {
    "offset": 958,
    "len": 67,
    "en": "\"I'm sure he'd be glad to @play a few rounds of flippits with you.\"",
-   "zh": "「在下相信他很樂意與汝@玩幾輪骨彈戲。」",
+   "zh": "「在下相信他很樂意與汝@play（玩幾）輪骨彈戲。」",
    "note": ""
   },
   {
    "offset": 1054,
    "len": 70,
    "en": "\"If only I had a copy of Snilwit's Big @Book of Boardgame Strategy...\"",
-   "zh": "「若在下能有一本斯尼爾維特的《桌遊@大全》就好了……」",
+   "zh": "「若在下能有一本斯尼爾維特的《桌遊@Book（大全）》就好了……」",
    "note": ""
   },
   {
@@ -123,14 +123,14 @@
    "offset": 1230,
    "len": 98,
    "en": "\"This is a nice friendly town. All the townsfolk know each other. We get a lot of @visitors, too.\"",
-   "zh": "「這是個友善的好鎮子，鎮上居民都互相認識，@過客也不少。」",
+   "zh": "「這是個友善的好鎮子，鎮上居民都互相認識，@visitors（過客）也不少。」",
    "note": ""
   },
   {
    "offset": 1339,
    "len": 105,
    "en": "\"I chose @Paws for my tavern because it's right on the King's Way, midway between @Britain and @Trinsic.\"",
-   "zh": "「在下選擇在@鴉爪鎮開酒館，因為它正好位於王道之上，介於@不列顛城和@崔西克的中途。」",
+   "zh": "「在下選擇在@Paws（鴉爪）鎮開酒館，因為它正好位於王道之上，介於@Britain（不列）顛城和@Trinsic（崔西）克的中途。」",
    "note": ""
   },
   {
@@ -165,7 +165,7 @@
    "offset": 1712,
    "len": 71,
    "en": "\"Taynith is my dearest friend. Her @gypsy band travels the King's Way.\"",
-   "zh": "「泰尼絲是在下最親愛的朋友，她的@吉普賽樂隊走遍王道。」",
+   "zh": "「泰尼絲是在下最親愛的朋友，她的@gypsy（吉普）賽樂隊走遍王道。」",
    "note": ""
   },
   {
@@ -179,7 +179,7 @@
    "offset": 1853,
    "len": 73,
    "en": "\"Don't get the two gypsy bands mixed up... Taynith travels with @Zoltan.\"",
-   "zh": "「別把兩支吉普賽樂隊搞混……泰尼絲和@佐坦一起走。」",
+   "zh": "「別把兩支吉普賽樂隊搞混……泰尼絲和@Zoltan（佐坦）一起走。」",
    "note": ""
   },
   {
@@ -193,7 +193,7 @@
    "offset": 2002,
    "len": 36,
    "en": "\"Yes, Zoltan, @king of the gypsies!\"",
-   "zh": "「是的，佐坦，吉普賽的@王！」",
+   "zh": "「是的，佐坦，吉普賽的@king（王）！」",
    "note": ""
   },
   {
@@ -228,14 +228,14 @@
    "offset": 2415,
    "len": 71,
    "en": "\"I doubt she still has it, though. I saw @Zoltan eyeing it hungrily...\"",
-   "zh": "「不過在下懷疑她還留著那鴨子，在下見@佐坦用飢餓的眼神盯著它……」",
+   "zh": "「不過在下懷疑她還留著那鴨子，在下見@Zoltan（佐坦）用飢餓的眼神盯著它……」",
    "note": ""
   },
   {
    "offset": 2497,
    "len": 47,
    "en": "\"Very good! you purr almost as well as @Kytyn.\"",
-   "zh": "「說得好！汝的呼嚕聲幾乎和@奇婷一樣好。」",
+   "zh": "「說得好！汝的呼嚕聲幾乎和@Kytyn（奇婷）一樣好。」",
    "note": ""
   },
   {
@@ -571,14 +571,14 @@
    "offset": 6505,
    "len": 33,
    "en": "\"Would you like to @play again?\" ",
-   "zh": "「汝想@再玩一局嗎？」",
+   "zh": "「汝想@play（再玩）一局嗎？」",
    "note": ""
   },
   {
    "offset": 6553,
    "len": 36,
    "en": "\"@Purrrrhaps some other time, then.\"",
-   "zh": "「@呼嚕~或許改日吧。」",
+   "zh": "「@Purrrrhaps（呼嚕）~或許改日吧。」",
    "note": "貓咪口頭禪，呼嚕聲"
   },
   {

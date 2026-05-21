@@ -32,7 +32,7 @@
    "offset": 183,
    "len": 49,
    "en": "\"You'll hafta be more specific: @arms or @armor?\"",
-   "zh": "「你得說清楚點：要@武器還是@護甲？」",
+   "zh": "「你得說清楚點：要@arms（武器）還是@armor（護甲）？」",
    "note": "hafta=have to 口語"
   },
   {
@@ -60,7 +60,7 @@
    "offset": 439,
    "len": 11,
    "en": "\"@Gherick.\"",
-   "zh": "「@葛里克。」",
+   "zh": "「@Gherick（葛里）克。」",
    "note": ""
   },
   {
@@ -74,7 +74,7 @@
    "offset": 526,
    "len": 36,
    "en": "\"I makes the most @hideous weapons!\"",
-   "zh": "「俺做的是最@駭人的武器！」",
+   "zh": "「俺做的是最@hideous（駭人）的武器！」",
    "note": ""
   },
   {
@@ -95,7 +95,7 @@
    "offset": 684,
    "len": 48,
    "en": "\"I got some other stuff you could @buy, though.\"",
-   "zh": "「不過俺有些別的東西你可以@買。」",
+   "zh": "「不過俺有些別的東西你可以@buy（買）。」",
    "note": ""
   },
   {
@@ -365,6 +365,12 @@
    "note": ""
   }
  ],
- "glossary_additions": {"people": {"Gherick": "葛里克", "Koranada": "科拉那達"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Gherick": "葛里克",
+   "Koranada": "科拉那達"
+  },
+  "places": {}
+ },
  "translator_notes": "葛里克是粗俗的鐵匠，口語重（I's, 'uge, hafta, ta, dese tings），用「俺」突顯粗人形象。蛇紋盾（Serpent Shield）製作需要蛇盾+黃金+魔法寶石。武器/護甲品名為系統字串，不翻。"
 }

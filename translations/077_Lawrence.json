@@ -32,14 +32,14 @@
    "offset": 164,
    "len": 50,
    "en": "\"Which, @grapes, @ale, @mead, @wine, or @rations?\"",
-   "zh": "「要@葡萄、@麥酒、@蜜酒、@葡萄酒，還是@乾糧？」",
+   "zh": "「要@grapes（葡萄）、@ale（麥酒）、@mead（蜜酒）、@wine（葡萄）酒，還是@rations（乾糧）？」",
    "note": ""
   },
   {
    "offset": 224,
    "len": 51,
    "en": "\"I sell @grapes, @ale, @mead, @wine, and @rations.\"",
-   "zh": "「在下售有@葡萄、@麥酒、@蜜酒、@葡萄酒及@乾糧。」",
+   "zh": "「在下售有@grapes（葡萄）、@ale（麥酒）、@mead（蜜酒）、@wine（葡萄）酒及@rations（乾糧）。」",
    "note": ""
   },
   {

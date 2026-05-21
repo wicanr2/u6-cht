@@ -1,412 +1,412 @@
 {
-  "_meta": {
-    "npc": "Efram (provisioner)",
-    "role": "不列顛城補給商，賣火炬、油、寶石、背包、麻袋、鏟、火藥桶。性情粗悶、肥胖、常哼鼻聲（Hrmmph）；標準商人對話樹（buy / job / name）。"
+ "_meta": {
+  "npc": "Efram (provisioner)",
+  "role": "不列顛城補給商，賣火炬、油、寶石、背包、麻袋、鏟、火藥桶。性情粗悶、肥胖、常哼鼻聲（Hrmmph）；標準商人對話樹（buy / job / name）。"
+ },
+ "translations": [
+  {
+   "offset": 2,
+   "len": 5,
+   "en": "Efram",
+   "zh": "艾弗",
+   "zh_bytes": 4,
+   "note": "人名音譯；Efram → 艾弗；len=5"
   },
-  "translations": [
-    {
-      "offset": 2,
-      "len": 5,
-      "en": "Efram",
-      "zh": "艾弗",
-      "zh_bytes": 4,
-      "note": "人名音譯；Efram → 艾弗；len=5"
-    },
-    {
-      "offset": 8,
-      "len": 50,
-      "en": "a grunting and grumbling man with a large stomach.",
-      "zh": "一個哼鼻嘀咕、大腹便便之人。",
-      "zh_bytes": 28,
-      "note": "描述句"
-    },
-    {
-      "offset": 75,
-      "len": 29,
-      "en": "\"Hrmmph! Well, I'm busy now.\"",
-      "zh": "「哼！我正忙著。」",
-      "zh_bytes": 18,
-      "note": "Hrmmph → 哼"
-    },
-    {
-      "offset": 107,
-      "len": 41,
-      "en": "\"Hrmmph, yes, well, come back to my shop ",
-      "zh": "「哼，這樣吧，再來我店裡逛逛——",
-      "zh_bytes": 32,
-      "note": "句子待時段續接"
-    },
-    {
-      "offset": 155,
-      "len": 16,
-      "en": "tomorrow morning",
-      "zh": "明日晨間",
-      "zh_bytes": 8,
-      "note": "時段詞 1"
-    },
-    {
-      "offset": 172,
-      "len": 14,
-      "en": "this afternoon",
-      "zh": "今日午後",
-      "zh_bytes": 8,
-      "note": "時段詞 2"
-    },
-    {
-      "offset": 187,
-      "len": 2,
-      "en": ".\"",
-      "zh": ".\"",
-      "zh_bytes": 2,
-      "note": "len=2 只能保留 ASCII；前句已用全形句結"
-    },
-    {
-      "offset": 203,
-      "len": 46,
-      "en": "\"Hrmmph. Hello.\" His breathing is quite heavy.",
-      "zh": "「哼。汝好。」他呼吸甚為粗重。",
-      "zh_bytes": 30,
-      "note": ""
-    },
-    {
-      "offset": 262,
-      "len": 48,
-      "en": "\"Hrmmph, well. Haven't we...never mind. Hrmmph.\"",
-      "zh": "「哼，我們不是…算了。哼。」",
-      "zh_bytes": 28,
-      "note": ""
-    },
-    {
-      "offset": 313,
-      "len": 19,
-      "en": "\"What do you need?\"",
-      "zh": "「汝需何物？」",
-      "zh_bytes": 14,
-      "note": ""
-    },
-    {
-      "offset": 335,
-      "len": 4,
-      "en": "name",
-      "zh": "名字",
-      "zh_bytes": 4,
-      "note": "@name keyword"
-    },
-    {
-      "offset": 340,
-      "len": 24,
-      "en": "\"Efram the provisioner.\"",
-      "zh": "「補給商艾弗也。」",
-      "zh_bytes": 18,
-      "note": "provisioner → 補給商"
-    },
-    {
-      "offset": 371,
-      "len": 4,
-      "en": "efra",
-      "zh": "艾弗",
-      "zh_bytes": 4,
-      "note": "@efra keyword（自己名字）"
-    },
-    {
-      "offset": 376,
-      "len": 34,
-      "en": "\"It's a nice enough name, hrmmph.\"",
-      "zh": "「這名字還算順耳，哼。」",
-      "zh_bytes": 24,
-      "note": ""
-    },
-    {
-      "offset": 417,
-      "len": 3,
-      "en": "buy",
-      "zh": "買",
-      "zh_bytes": 2,
-      "note": "@buy keyword"
-    },
-    {
-      "offset": 421,
-      "len": 77,
-      "en": "\"Which, @torches, @oil, @gems, @backpacks, @bags, @shovels, or @powder kegs?\"",
-      "zh": "「要哪樣，@火炬、@油、@寶石、@背包、@麻袋、@鏟，還是@火藥桶？」",
-      "zh_bytes": 63,
-      "note": "7 個 @keyword 列舉"
-    },
-    {
-      "offset": 505,
-      "len": 3,
-      "en": "job",
-      "zh": "業",
-      "zh_bytes": 2,
-      "note": "@job keyword"
-    },
-    {
-      "offset": 509,
-      "len": 78,
-      "en": "\"I sell @torches, @oil, @gems, @backpacks, @bags, @shovels, and @powder kegs.\"",
-      "zh": "「我賣@火炬、@油、@寶石、@背包、@麻袋、@鏟、@火藥桶。」",
-      "zh_bytes": 55,
-      "note": ""
-    },
-    {
-      "offset": 594,
-      "len": 4,
-      "en": "torc",
-      "zh": "火炬",
-      "zh_bytes": 4,
-      "note": "@torches keyword"
-    },
-    {
-      "offset": 612,
-      "len": 8,
-      "en": "oil,flas",
-      "zh": "油,瓶",
-      "zh_bytes": 5,
-      "note": "@oil 群組（oil + flask）"
-    },
-    {
-      "offset": 634,
-      "len": 3,
-      "en": "gem",
-      "zh": "石",
-      "zh_bytes": 2,
-      "note": "@gems keyword"
-    },
-    {
-      "offset": 651,
-      "len": 4,
-      "en": "back",
-      "zh": "背包",
-      "zh_bytes": 4,
-      "note": "@backpacks keyword"
-    },
-    {
-      "offset": 669,
-      "len": 4,
-      "en": "bags",
-      "zh": "麻袋",
-      "zh_bytes": 4,
-      "note": "@bags keyword"
-    },
-    {
-      "offset": 687,
-      "len": 4,
-      "en": "shov",
-      "zh": "鏟",
-      "zh_bytes": 2,
-      "note": "@shovels keyword"
-    },
-    {
-      "offset": 705,
-      "len": 4,
-      "en": "powd",
-      "zh": "藥桶",
-      "zh_bytes": 4,
-      "note": "@powder kegs keyword（縮短為『藥桶』）"
-    },
-    {
-      "offset": 723,
-      "len": 3,
-      "en": "bye",
-      "zh": "別",
-      "zh_bytes": 2,
-      "note": "@bye keyword"
-    },
-    {
-      "offset": 727,
-      "len": 57,
-      "en": "\"I'm glad you stopped by.\" He gives you a firm handshake.",
-      "zh": "「幸蒙駐足。」他與汝有力一握。",
-      "zh_bytes": 30,
-      "note": ""
-    },
-    {
-      "offset": 796,
-      "len": 12,
-      "en": "\"I'm sorry?\"",
-      "zh": "「何意？」",
-      "zh_bytes": 10,
-      "note": ""
-    },
-    {
-      "offset": 810,
-      "len": 51,
-      "en": "\"Hrmmph, well, perhaps you could ask someone else.\"",
-      "zh": "「哼，這事不如問別人吧。」",
-      "zh_bytes": 26,
-      "note": ""
-    },
-    {
-      "offset": 915,
-      "len": 6,
-      "en": "#1. $Y",
-      "zh": "#1. $Y",
-      "zh_bytes": 6,
-      "note": "保留變數格式"
-    },
-    {
-      "offset": 955,
-      "len": 16,
-      "en": "\"Which of you?\" ",
-      "zh": "「諸位何人？」",
-      "zh_bytes": 14,
-      "note": ""
-    },
-    {
-      "offset": 1106,
-      "len": 76,
-      "en": "$N looks at $Y. \"It'll cost you #0 gold for each $0. How many do you want?\" ",
-      "zh": "$N 望 $Y。「每件 $0 售 #0 金幣。要幾件？」",
-      "zh_bytes": 42,
-      "note": "保留 $N $Y $0 #0 變數"
-    },
-    {
-      "offset": 1192,
-      "len": 49,
-      "en": "\"Come now, that's a little much don't you think?\"",
-      "zh": "「拜託，這未免太多了吧？」",
-      "zh_bytes": 26,
-      "note": ""
-    },
-    {
-      "offset": 1257,
-      "len": 57,
-      "en": "$N frowns at $Y. \"Hrmmph. That was a fair price. Well...\"",
-      "zh": "$N 對 $Y 皺眉。「哼。價錢甚為公道。罷了…」",
-      "zh_bytes": 43,
-      "note": ""
-    },
-    {
-      "offset": 1495,
-      "len": 52,
-      "en": "$N looks at $Y. \"You haven't any room in your pack.\"",
-      "zh": "$N 望 $Y。「汝包中已無空處。」",
-      "zh_bytes": 30,
-      "note": ""
-    },
-    {
-      "offset": 1582,
-      "len": 53,
-      "en": "$N looks at $Y. \"A $0 costs more gold than you have.\"",
-      "zh": "$N 望 $Y。「$0 之價，逾汝所有。」",
-      "zh_bytes": 33,
-      "note": ""
-    },
-    {
-      "offset": 1710,
-      "len": 21,
-      "en": "He hands $Y #2 $0\\s. ",
-      "zh": "他遞 $Y #2 件 $0。 ",
-      "zh_bytes": 19,
-      "note": "保留 \\s 控制；末尾保留空白"
-    },
-    {
-      "offset": 1775,
-      "len": 5,
-      "en": "Torch",
-      "zh": "火炬",
-      "zh_bytes": 4,
-      "note": "物品名"
-    },
-    {
-      "offset": 1781,
-      "len": 12,
-      "en": "Flask of Oil",
-      "zh": "油瓶",
-      "zh_bytes": 4,
-      "note": "物品名"
-    },
-    {
-      "offset": 1794,
-      "len": 3,
-      "en": "Gem",
-      "zh": "石",
-      "zh_bytes": 2,
-      "note": "物品名（單字省略）"
-    },
-    {
-      "offset": 1798,
-      "len": 8,
-      "en": "Backpack",
-      "zh": "背包",
-      "zh_bytes": 4,
-      "note": "物品名"
-    },
-    {
-      "offset": 1807,
-      "len": 3,
-      "en": "Bag",
-      "zh": "袋",
-      "zh_bytes": 2,
-      "note": "物品名"
-    },
-    {
-      "offset": 1811,
-      "len": 6,
-      "en": "Shovel",
-      "zh": "鏟",
-      "zh_bytes": 2,
-      "note": "物品名"
-    },
-    {
-      "offset": 1818,
-      "len": 10,
-      "en": "Powder Keg",
-      "zh": "火藥桶",
-      "zh_bytes": 6,
-      "note": "物品名"
-    },
-    {
-      "offset": 1829,
-      "len": 14,
-      "en": "\"There ya go.\"",
-      "zh": "「拿去吧。」",
-      "zh_bytes": 12,
-      "note": ""
-    },
-    {
-      "offset": 1844,
-      "len": 27,
-      "en": "\"That's all you can carry.\"",
-      "zh": "「汝只能再帶這些。」",
-      "zh_bytes": 20,
-      "note": ""
-    },
-    {
-      "offset": 1872,
-      "len": 28,
-      "en": "\"That's all you can afford.\"",
-      "zh": "「汝只買得起這些。」",
-      "zh_bytes": 20,
-      "note": ""
-    }
-  ],
-  "keyword_mapping": {
-    "@torches": "@火炬",
-    "@oil": "@油",
-    "@gems": "@寶石",
-    "@backpacks": "@背包",
-    "@bags": "@麻袋",
-    "@shovels": "@鏟",
-    "@powder kegs": "@火藥桶"
+  {
+   "offset": 8,
+   "len": 50,
+   "en": "a grunting and grumbling man with a large stomach.",
+   "zh": "一個哼鼻嘀咕、大腹便便之人。",
+   "zh_bytes": 28,
+   "note": "描述句"
   },
-  "glossary_additions": {
-    "people": {
-      "Efram": "艾弗"
-    },
-    "concepts": {
-      "provisioner": "補給商"
-    },
-    "items": {
-      "torch": "火炬",
-      "flask of oil": "油瓶",
-      "gem": "寶石",
-      "backpack": "背包",
-      "bag": "袋",
-      "shovel": "鏟",
-      "powder keg": "火藥桶"
-    }
+  {
+   "offset": 75,
+   "len": 29,
+   "en": "\"Hrmmph! Well, I'm busy now.\"",
+   "zh": "「哼！我正忙著。」",
+   "zh_bytes": 18,
+   "note": "Hrmmph → 哼"
   },
-  "riddles_additions": [],
-  "translator_notes": "Efram 為標準補給商，對話樹簡單；無詩文/雙關。Hrmmph 統一譯為『哼』。注意 powd keyword 縮為『藥桶』避免長度壓力。offset 187 len=2 只能保留 ASCII 結尾 .\"（前句已用全形句結）。所有 zh_bytes ≤ len。無 5C trail 字風險（避用『運』『年』『甲』等）。"
+  {
+   "offset": 107,
+   "len": 41,
+   "en": "\"Hrmmph, yes, well, come back to my shop ",
+   "zh": "「哼，這樣吧，再來我店裡逛逛——",
+   "zh_bytes": 32,
+   "note": "句子待時段續接"
+  },
+  {
+   "offset": 155,
+   "len": 16,
+   "en": "tomorrow morning",
+   "zh": "明日晨間",
+   "zh_bytes": 8,
+   "note": "時段詞 1"
+  },
+  {
+   "offset": 172,
+   "len": 14,
+   "en": "this afternoon",
+   "zh": "今日午後",
+   "zh_bytes": 8,
+   "note": "時段詞 2"
+  },
+  {
+   "offset": 187,
+   "len": 2,
+   "en": ".\"",
+   "zh": ".\"",
+   "zh_bytes": 2,
+   "note": "len=2 只能保留 ASCII；前句已用全形句結"
+  },
+  {
+   "offset": 203,
+   "len": 46,
+   "en": "\"Hrmmph. Hello.\" His breathing is quite heavy.",
+   "zh": "「哼。汝好。」他呼吸甚為粗重。",
+   "zh_bytes": 30,
+   "note": ""
+  },
+  {
+   "offset": 262,
+   "len": 48,
+   "en": "\"Hrmmph, well. Haven't we...never mind. Hrmmph.\"",
+   "zh": "「哼，我們不是…算了。哼。」",
+   "zh_bytes": 28,
+   "note": ""
+  },
+  {
+   "offset": 313,
+   "len": 19,
+   "en": "\"What do you need?\"",
+   "zh": "「汝需何物？」",
+   "zh_bytes": 14,
+   "note": ""
+  },
+  {
+   "offset": 335,
+   "len": 4,
+   "en": "name",
+   "zh": "名字",
+   "zh_bytes": 4,
+   "note": "@name keyword"
+  },
+  {
+   "offset": 340,
+   "len": 24,
+   "en": "\"Efram the provisioner.\"",
+   "zh": "「補給商艾弗也。」",
+   "zh_bytes": 18,
+   "note": "provisioner → 補給商"
+  },
+  {
+   "offset": 371,
+   "len": 4,
+   "en": "efra",
+   "zh": "艾弗",
+   "zh_bytes": 4,
+   "note": "@efra keyword（自己名字）"
+  },
+  {
+   "offset": 376,
+   "len": 34,
+   "en": "\"It's a nice enough name, hrmmph.\"",
+   "zh": "「這名字還算順耳，哼。」",
+   "zh_bytes": 24,
+   "note": ""
+  },
+  {
+   "offset": 417,
+   "len": 3,
+   "en": "buy",
+   "zh": "買",
+   "zh_bytes": 2,
+   "note": "@buy keyword"
+  },
+  {
+   "offset": 421,
+   "len": 77,
+   "en": "\"Which, @torches, @oil, @gems, @backpacks, @bags, @shovels, or @powder kegs?\"",
+   "zh": "「要哪樣，@torches（火炬）、@oil（油）、@gems（寶石）、@backpacks（背包）、@bags（麻袋）、@shovels（鏟），還是@powder（火藥）桶？」",
+   "zh_bytes": 63,
+   "note": "7 個 @keyword 列舉"
+  },
+  {
+   "offset": 505,
+   "len": 3,
+   "en": "job",
+   "zh": "業",
+   "zh_bytes": 2,
+   "note": "@job keyword"
+  },
+  {
+   "offset": 509,
+   "len": 78,
+   "en": "\"I sell @torches, @oil, @gems, @backpacks, @bags, @shovels, and @powder kegs.\"",
+   "zh": "「我賣@torches（火炬）、@oil（油）、@gems（寶石）、@backpacks（背包）、@bags（麻袋）、@shovels（鏟）、@powder（火藥）桶。」",
+   "zh_bytes": 55,
+   "note": ""
+  },
+  {
+   "offset": 594,
+   "len": 4,
+   "en": "torc",
+   "zh": "火炬",
+   "zh_bytes": 4,
+   "note": "@torches keyword"
+  },
+  {
+   "offset": 612,
+   "len": 8,
+   "en": "oil,flas",
+   "zh": "油,瓶",
+   "zh_bytes": 5,
+   "note": "@oil 群組（oil + flask）"
+  },
+  {
+   "offset": 634,
+   "len": 3,
+   "en": "gem",
+   "zh": "石",
+   "zh_bytes": 2,
+   "note": "@gems keyword"
+  },
+  {
+   "offset": 651,
+   "len": 4,
+   "en": "back",
+   "zh": "背包",
+   "zh_bytes": 4,
+   "note": "@backpacks keyword"
+  },
+  {
+   "offset": 669,
+   "len": 4,
+   "en": "bags",
+   "zh": "麻袋",
+   "zh_bytes": 4,
+   "note": "@bags keyword"
+  },
+  {
+   "offset": 687,
+   "len": 4,
+   "en": "shov",
+   "zh": "鏟",
+   "zh_bytes": 2,
+   "note": "@shovels keyword"
+  },
+  {
+   "offset": 705,
+   "len": 4,
+   "en": "powd",
+   "zh": "藥桶",
+   "zh_bytes": 4,
+   "note": "@powder kegs keyword（縮短為『藥桶』）"
+  },
+  {
+   "offset": 723,
+   "len": 3,
+   "en": "bye",
+   "zh": "別",
+   "zh_bytes": 2,
+   "note": "@bye keyword"
+  },
+  {
+   "offset": 727,
+   "len": 57,
+   "en": "\"I'm glad you stopped by.\" He gives you a firm handshake.",
+   "zh": "「幸蒙駐足。」他與汝有力一握。",
+   "zh_bytes": 30,
+   "note": ""
+  },
+  {
+   "offset": 796,
+   "len": 12,
+   "en": "\"I'm sorry?\"",
+   "zh": "「何意？」",
+   "zh_bytes": 10,
+   "note": ""
+  },
+  {
+   "offset": 810,
+   "len": 51,
+   "en": "\"Hrmmph, well, perhaps you could ask someone else.\"",
+   "zh": "「哼，這事不如問別人吧。」",
+   "zh_bytes": 26,
+   "note": ""
+  },
+  {
+   "offset": 915,
+   "len": 6,
+   "en": "#1. $Y",
+   "zh": "#1. $Y",
+   "zh_bytes": 6,
+   "note": "保留變數格式"
+  },
+  {
+   "offset": 955,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「諸位何人？」",
+   "zh_bytes": 14,
+   "note": ""
+  },
+  {
+   "offset": 1106,
+   "len": 76,
+   "en": "$N looks at $Y. \"It'll cost you #0 gold for each $0. How many do you want?\" ",
+   "zh": "$N 望 $Y。「每件 $0 售 #0 金幣。要幾件？」",
+   "zh_bytes": 42,
+   "note": "保留 $N $Y $0 #0 變數"
+  },
+  {
+   "offset": 1192,
+   "len": 49,
+   "en": "\"Come now, that's a little much don't you think?\"",
+   "zh": "「拜託，這未免太多了吧？」",
+   "zh_bytes": 26,
+   "note": ""
+  },
+  {
+   "offset": 1257,
+   "len": 57,
+   "en": "$N frowns at $Y. \"Hrmmph. That was a fair price. Well...\"",
+   "zh": "$N 對 $Y 皺眉。「哼。價錢甚為公道。罷了…」",
+   "zh_bytes": 43,
+   "note": ""
+  },
+  {
+   "offset": 1495,
+   "len": 52,
+   "en": "$N looks at $Y. \"You haven't any room in your pack.\"",
+   "zh": "$N 望 $Y。「汝包中已無空處。」",
+   "zh_bytes": 30,
+   "note": ""
+  },
+  {
+   "offset": 1582,
+   "len": 53,
+   "en": "$N looks at $Y. \"A $0 costs more gold than you have.\"",
+   "zh": "$N 望 $Y。「$0 之價，逾汝所有。」",
+   "zh_bytes": 33,
+   "note": ""
+  },
+  {
+   "offset": 1710,
+   "len": 21,
+   "en": "He hands $Y #2 $0\\s. ",
+   "zh": "他遞 $Y #2 件 $0。 ",
+   "zh_bytes": 19,
+   "note": "保留 \\s 控制；末尾保留空白"
+  },
+  {
+   "offset": 1775,
+   "len": 5,
+   "en": "Torch",
+   "zh": "火炬",
+   "zh_bytes": 4,
+   "note": "物品名"
+  },
+  {
+   "offset": 1781,
+   "len": 12,
+   "en": "Flask of Oil",
+   "zh": "油瓶",
+   "zh_bytes": 4,
+   "note": "物品名"
+  },
+  {
+   "offset": 1794,
+   "len": 3,
+   "en": "Gem",
+   "zh": "石",
+   "zh_bytes": 2,
+   "note": "物品名（單字省略）"
+  },
+  {
+   "offset": 1798,
+   "len": 8,
+   "en": "Backpack",
+   "zh": "背包",
+   "zh_bytes": 4,
+   "note": "物品名"
+  },
+  {
+   "offset": 1807,
+   "len": 3,
+   "en": "Bag",
+   "zh": "袋",
+   "zh_bytes": 2,
+   "note": "物品名"
+  },
+  {
+   "offset": 1811,
+   "len": 6,
+   "en": "Shovel",
+   "zh": "鏟",
+   "zh_bytes": 2,
+   "note": "物品名"
+  },
+  {
+   "offset": 1818,
+   "len": 10,
+   "en": "Powder Keg",
+   "zh": "火藥桶",
+   "zh_bytes": 6,
+   "note": "物品名"
+  },
+  {
+   "offset": 1829,
+   "len": 14,
+   "en": "\"There ya go.\"",
+   "zh": "「拿去吧。」",
+   "zh_bytes": 12,
+   "note": ""
+  },
+  {
+   "offset": 1844,
+   "len": 27,
+   "en": "\"That's all you can carry.\"",
+   "zh": "「汝只能再帶這些。」",
+   "zh_bytes": 20,
+   "note": ""
+  },
+  {
+   "offset": 1872,
+   "len": 28,
+   "en": "\"That's all you can afford.\"",
+   "zh": "「汝只買得起這些。」",
+   "zh_bytes": 20,
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {
+  "@torches": "@火炬",
+  "@oil": "@油",
+  "@gems": "@寶石",
+  "@backpacks": "@背包",
+  "@bags": "@麻袋",
+  "@shovels": "@鏟",
+  "@powder kegs": "@火藥桶"
+ },
+ "glossary_additions": {
+  "people": {
+   "Efram": "艾弗"
+  },
+  "concepts": {
+   "provisioner": "補給商"
+  },
+  "items": {
+   "torch": "火炬",
+   "flask of oil": "油瓶",
+   "gem": "寶石",
+   "backpack": "背包",
+   "bag": "袋",
+   "shovel": "鏟",
+   "powder keg": "火藥桶"
+  }
+ },
+ "riddles_additions": [],
+ "translator_notes": "Efram 為標準補給商，對話樹簡單；無詩文/雙關。Hrmmph 統一譯為『哼』。注意 powd keyword 縮為『藥桶』避免長度壓力。offset 187 len=2 只能保留 ASCII 結尾 .\"（前句已用全形句結）。所有 zh_bytes ≤ len。無 5C trail 字風險（避用『運』『年』『甲』等）。"
 }

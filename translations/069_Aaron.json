@@ -1,161 +1,161 @@
 {
-  "translations": [
-    {
-      "offset": 8,
-      "len": 60,
-      "en": "a plump blond man with curly blond hair and a cheerful face.",
-      "zh": "一位身形圓潤、金色捲髮、面帶笑容的男子。",
-      "note": "DESC"
-    },
-    {
-      "offset": 77,
-      "len": 22,
-      "en": "\"Hello again, Avatar!\"",
-      "zh": "「聖者，又見面了！」",
-      "note": ""
-    },
-    {
-      "offset": 100,
-      "len": 14,
-      "en": "\"Hello hello!\"",
-      "zh": "「哈囉哈囉！」",
-      "note": ""
-    },
-    {
-      "offset": 118,
-      "len": 32,
-      "en": "\"What can I do for you this $T?\"",
-      "zh": "「這個$T吾能為汝做什麼？」",
-      "note": ""
-    },
-    {
-      "offset": 164,
-      "len": 37,
-      "en": "\"That's funny. I remember your name!\"",
-      "zh": "「真有趣。吾記得汝的名字！」",
-      "note": ""
-    },
-    {
-      "offset": 202,
-      "len": 18,
-      "en": "\"My name's Aaron.\"",
-      "zh": "「吾叫亞倫。」",
-      "note": ""
-    },
-    {
-      "offset": 237,
-      "len": 57,
-      "en": "\"I run the sawmill! Is there anything I can do for thee?\"",
-      "zh": "「吾經營鋸木廠！有什麼吾能為汝效勞的嗎？」",
-      "note": ""
-    },
-    {
-      "offset": 304,
-      "len": 31,
-      "en": "\"Yes, I saw logs into @boards.\"",
-      "zh": "「是的，吾把原木鋸成@木板。」",
-      "note": ""
-    },
-    {
-      "offset": 357,
-      "len": 32,
-      "en": "\"Come to my shop when I'm open!\"",
-      "zh": "「吾開店時來光顧！」",
-      "note": ""
-    },
-    {
-      "offset": 414,
-      "len": 63,
-      "en": "\"My mill makes smooth boards and planks out of rough-cut logs.\"",
-      "zh": "「吾的鋸木廠把粗切的原木鋸成光滑的木板和厚板。」",
-      "note": ""
-    },
-    {
-      "offset": 487,
-      "len": 73,
-      "en": "\"Aye, I see $Y has a yew log.\" He inspects the wood with a practiced eye.",
-      "zh": "「嗯，吾看到 $Y 有根紫杉原木。」他以行家的眼光審視木材。",
-      "note": "action"
-    },
-    {
-      "offset": 563,
-      "len": 59,
-      "en": "\"Good grain. Yes, I can make a fine board out of this log.\"",
-      "zh": "「紋路不錯。是的，吾可以用這根原木做出一塊好木板。」",
-      "note": ""
-    },
-    {
-      "offset": 625,
-      "len": 35,
-      "en": "\"But it will cost thee 5 gold, $Y!\"",
-      "zh": "「但這需要 5 枚金幣，$Y！」",
-      "note": ""
-    },
-    {
-      "offset": 662,
-      "len": 20,
-      "en": "\"Still interested?\" ",
-      "zh": "「還有意嗎？」",
-      "note": ""
-    },
-    {
-      "offset": 692,
-      "len": 11,
-      "en": "\"Farewell!\"",
-      "zh": "「珍重！」",
-      "note": "bye"
-    },
-    {
-      "offset": 714,
-      "len": 13,
-      "en": "\"Beg pardon?\"",
-      "zh": "「請問汝說什麼？」",
-      "note": ""
-    },
-    {
-      "offset": 749,
-      "len": 35,
-      "en": "\"Sorry, but I can't work for free!\"",
-      "zh": "「抱歉，吾不能免費工作！」",
-      "note": ""
-    },
-    {
-      "offset": 787,
-      "len": 37,
-      "en": "\"Come back when you have the 5 gold!\"",
-      "zh": "「等汝湊到 5 枚金幣再來！」",
-      "note": ""
-    },
-    {
-      "offset": 857,
-      "len": 66,
-      "en": "Aaron goes to his saw and turns the log into a flat, sanded board.",
-      "zh": "亞倫走向鋸子，把原木切成一塊平整磨光的木板。",
-      "note": "action"
-    },
-    {
-      "offset": 926,
-      "len": 42,
-      "en": "\"There!\" He hands $Y the finished product.",
-      "zh": "「完成了！」他將成品遞給 $Y。",
-      "note": "action"
-    },
-    {
-      "offset": 990,
-      "len": 41,
-      "en": "\"Oh. Well, perhaps some other time then.\"",
-      "zh": "「哦。那也許改天再說吧。」",
-      "note": ""
-    }
-  ],
-  "glossary_additions": {
-    "people": {
-      "Aaron": "亞倫"
-    },
-    "places": {},
-    "concepts": {
-      "sawmill": "鋸木廠"
-    }
+ "translations": [
+  {
+   "offset": 8,
+   "len": 60,
+   "en": "a plump blond man with curly blond hair and a cheerful face.",
+   "zh": "一位身形圓潤、金色捲髮、面帶笑容的男子。",
+   "note": "DESC"
   },
-  "translator_notes": "亞倫是密諾克的鋸木廠老闆，性格開朗。他能把紫杉原木（Ben 出售）鋸成紫杉木板（Julia 製作排笛所需），收費 5 金。是排笛任務的中間環節。"
+  {
+   "offset": 77,
+   "len": 22,
+   "en": "\"Hello again, Avatar!\"",
+   "zh": "「聖者，又見面了！」",
+   "note": ""
+  },
+  {
+   "offset": 100,
+   "len": 14,
+   "en": "\"Hello hello!\"",
+   "zh": "「哈囉哈囉！」",
+   "note": ""
+  },
+  {
+   "offset": 118,
+   "len": 32,
+   "en": "\"What can I do for you this $T?\"",
+   "zh": "「這個$T吾能為汝做什麼？」",
+   "note": ""
+  },
+  {
+   "offset": 164,
+   "len": 37,
+   "en": "\"That's funny. I remember your name!\"",
+   "zh": "「真有趣。吾記得汝的名字！」",
+   "note": ""
+  },
+  {
+   "offset": 202,
+   "len": 18,
+   "en": "\"My name's Aaron.\"",
+   "zh": "「吾叫亞倫。」",
+   "note": ""
+  },
+  {
+   "offset": 237,
+   "len": 57,
+   "en": "\"I run the sawmill! Is there anything I can do for thee?\"",
+   "zh": "「吾經營鋸木廠！有什麼吾能為汝效勞的嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 304,
+   "len": 31,
+   "en": "\"Yes, I saw logs into @boards.\"",
+   "zh": "「是的，吾把原木鋸成@boards（木板）。」",
+   "note": ""
+  },
+  {
+   "offset": 357,
+   "len": 32,
+   "en": "\"Come to my shop when I'm open!\"",
+   "zh": "「吾開店時來光顧！」",
+   "note": ""
+  },
+  {
+   "offset": 414,
+   "len": 63,
+   "en": "\"My mill makes smooth boards and planks out of rough-cut logs.\"",
+   "zh": "「吾的鋸木廠把粗切的原木鋸成光滑的木板和厚板。」",
+   "note": ""
+  },
+  {
+   "offset": 487,
+   "len": 73,
+   "en": "\"Aye, I see $Y has a yew log.\" He inspects the wood with a practiced eye.",
+   "zh": "「嗯，吾看到 $Y 有根紫杉原木。」他以行家的眼光審視木材。",
+   "note": "action"
+  },
+  {
+   "offset": 563,
+   "len": 59,
+   "en": "\"Good grain. Yes, I can make a fine board out of this log.\"",
+   "zh": "「紋路不錯。是的，吾可以用這根原木做出一塊好木板。」",
+   "note": ""
+  },
+  {
+   "offset": 625,
+   "len": 35,
+   "en": "\"But it will cost thee 5 gold, $Y!\"",
+   "zh": "「但這需要 5 枚金幣，$Y！」",
+   "note": ""
+  },
+  {
+   "offset": 662,
+   "len": 20,
+   "en": "\"Still interested?\" ",
+   "zh": "「還有意嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 692,
+   "len": 11,
+   "en": "\"Farewell!\"",
+   "zh": "「珍重！」",
+   "note": "bye"
+  },
+  {
+   "offset": 714,
+   "len": 13,
+   "en": "\"Beg pardon?\"",
+   "zh": "「請問汝說什麼？」",
+   "note": ""
+  },
+  {
+   "offset": 749,
+   "len": 35,
+   "en": "\"Sorry, but I can't work for free!\"",
+   "zh": "「抱歉，吾不能免費工作！」",
+   "note": ""
+  },
+  {
+   "offset": 787,
+   "len": 37,
+   "en": "\"Come back when you have the 5 gold!\"",
+   "zh": "「等汝湊到 5 枚金幣再來！」",
+   "note": ""
+  },
+  {
+   "offset": 857,
+   "len": 66,
+   "en": "Aaron goes to his saw and turns the log into a flat, sanded board.",
+   "zh": "亞倫走向鋸子，把原木切成一塊平整磨光的木板。",
+   "note": "action"
+  },
+  {
+   "offset": 926,
+   "len": 42,
+   "en": "\"There!\" He hands $Y the finished product.",
+   "zh": "「完成了！」他將成品遞給 $Y。",
+   "note": "action"
+  },
+  {
+   "offset": 990,
+   "len": 41,
+   "en": "\"Oh. Well, perhaps some other time then.\"",
+   "zh": "「哦。那也許改天再說吧。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Aaron": "亞倫"
+  },
+  "places": {},
+  "concepts": {
+   "sawmill": "鋸木廠"
+  }
+ },
+ "translator_notes": "亞倫是密諾克的鋸木廠老闆，性格開朗。他能把紫杉原木（Ben 出售）鋸成紫杉木板（Julia 製作排笛所需），收費 5 金。是排笛任務的中間環節。"
 }

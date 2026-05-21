@@ -1,378 +1,378 @@
 {
-  "translations": [
-    {
-      "offset": 7,
-      "len": 19,
-      "en": "a kindly old woman.",
-      "zh": "一位和藹可親的老婦人。",
-      "note": "DESC"
-    },
-    {
-      "offset": 69,
-      "len": 41,
-      "en": "\"Welcome to my place of healing, Avatar.\"",
-      "zh": "「歡迎來到吾的治療所，聖者。」",
-      "note": "first greeting"
-    },
-    {
-      "offset": 113,
-      "len": 38,
-      "en": "\"I hope thou needest not my services!\"",
-      "zh": "「吾希望汝不需要吾的服務！」",
-      "note": ""
-    },
-    {
-      "offset": 152,
-      "len": 30,
-      "en": "\"Welcome again, noble Avatar.\"",
-      "zh": "「再次歡迎，尊貴的聖者。」",
-      "note": ""
-    },
-    {
-      "offset": 185,
-      "len": 50,
-      "en": "\"I hope this visit is for pleasure, not business!\"",
-      "zh": "「吾希望這次來訪是為了閒聊，而非看病！」",
-      "note": ""
-    },
-    {
-      "offset": 285,
-      "len": 55,
-      "en": "\"But gladly can I say that none of your party is dead!\"",
-      "zh": "「但吾很高興地說汝的隊伍無人陣亡！」",
-      "note": "resurrection check; no one dead"
-    },
-    {
-      "offset": 362,
-      "len": 18,
-      "en": "\"My name is Tara.\"",
-      "zh": "「吾的名字是塔拉。」",
-      "note": ""
-    },
-    {
-      "offset": 390,
-      "len": 31,
-      "en": "\"I'm the healer for this town.\"",
-      "zh": "「吾是這座城鎮的治療師。」",
-      "note": ""
-    },
-    {
-      "offset": 424,
-      "len": 54,
-      "en": "\"I've cared for the @unfit here for threescore years!\"",
-      "zh": "「吾在這裡照料@體弱者已有六十年了！」",
-      "note": ""
-    },
-    {
-      "offset": 489,
-      "len": 58,
-      "en": "\"Those who need @healing, @curing, or to be @resurrected.\"",
-      "zh": "「那些需要@治療、@解毒，或需要被@復活的人。」",
-      "note": ""
-    },
-    {
-      "offset": 563,
-      "len": 39,
-      "en": "\"'Cah,' that is the word of sacrifice.\"",
-      "zh": "「『cah』，那是奉獻的咒語。」",
-      "note": "mantra kept as-is"
-    },
-    {
-      "offset": 615,
-      "len": 11,
-      "en": "\"Farewell!\"",
-      "zh": "「珍重！」",
-      "note": "bye"
-    },
-    {
-      "offset": 633,
-      "len": 25,
-      "en": "\"What can I do for thee?\"",
-      "zh": "「吾能為汝做什麼？」",
-      "note": ""
-    },
-    {
-      "offset": 673,
-      "len": 24,
-      "en": "\"I don't understand $Z.\"",
-      "zh": "「吾不理解『$Z』。」",
-      "note": ""
-    },
-    {
-      "offset": 698,
-      "len": 19,
-      "en": "\"I beg thy pardon?\"",
-      "zh": "「請問汝說什麼？」",
-      "note": ""
-    },
-    {
-      "offset": 779,
-      "len": 20,
-      "en": "\"But thou art well!\"",
-      "zh": "「但汝身體無恙！」",
-      "note": "heal; no injury"
-    },
-    {
-      "offset": 922,
-      "len": 26,
-      "en": "\"But all of you are well!\"",
-      "zh": "「但汝等全都身體無恙！」",
-      "note": ""
-    },
-    {
-      "offset": 985,
-      "len": 16,
-      "en": "\"Which of you?\" ",
-      "zh": "「汝等哪一位？」",
-      "note": ""
-    },
-    {
-      "offset": 1090,
-      "len": 23,
-      "en": "\"I see thy injury, $Y.\"",
-      "zh": "「吾看到汝的傷勢了，$Y。」",
-      "note": "heal 30g"
-    },
-    {
-      "offset": 1116,
-      "len": 41,
-      "en": "\"Wilt thou make an offering of 30 gold?\" ",
-      "zh": "「汝願意獻上 30 枚金幣嗎？」",
-      "note": ""
-    },
-    {
-      "offset": 1179,
-      "len": 40,
-      "en": "Tara approaches $Y and binds the wounds.",
-      "zh": "塔拉走近 $Y，為其包紮傷口。",
-      "note": "action"
-    },
-    {
-      "offset": 1261,
-      "len": 43,
-      "en": "\"If thou wilt not pay, I cannot heal thee.\"",
-      "zh": "「若汝不願付費，吾便無法為汝治療。」",
-      "note": ""
-    },
-    {
-      "offset": 1318,
-      "len": 52,
-      "en": "\"I'm sorry. Without an offering I cannot heal thee.\"",
-      "zh": "「抱歉。沒有獻金，吾無法為汝治療。」",
-      "note": "no gold"
-    },
-    {
-      "offset": 1376,
-      "len": 39,
-      "en": "\"Thou art poor, but thy cause is just.\"",
-      "zh": "「汝雖貧窮，但汝的事業是正義的。」",
-      "note": "free heal for Avatar"
-    },
-    {
-      "offset": 1418,
-      "len": 35,
-      "en": "\"I will heal thee without payment.\"",
-      "zh": "「吾將免費為汝治療。」",
-      "note": ""
-    },
-    {
-      "offset": 1456,
-      "len": 41,
-      "en": "Sasha approaches $Y and binds the wounds.",
-      "zh": "莎莎走近 $Y，為其包紮傷口。",
-      "note": "action; NPC named Sasha helps"
-    },
-    {
-      "offset": 1510,
-      "len": 40,
-      "en": "\"Is there aught else I can do for thee?\"",
-      "zh": "「吾還有其他能為汝效勞的嗎？」",
-      "note": ""
-    },
-    {
-      "offset": 1610,
-      "len": 20,
-      "en": "\"But thou art well!\"",
-      "zh": "「但汝身體無恙！」",
-      "note": "cure; no poison"
-    },
-    {
-      "offset": 1753,
-      "len": 26,
-      "en": "\"But all of you are well!\"",
-      "zh": "「但汝等全都身體無恙！」",
-      "note": ""
-    },
-    {
-      "offset": 1816,
-      "len": 16,
-      "en": "\"Which of you?\" ",
-      "zh": "「汝等哪一位？」",
-      "note": ""
-    },
-    {
-      "offset": 1921,
-      "len": 23,
-      "en": "\"I see thy injury, $Y.\"",
-      "zh": "「吾看到汝的傷勢了，$Y。」",
-      "note": "cure 10g"
-    },
-    {
-      "offset": 1947,
-      "len": 41,
-      "en": "\"Wilt thou make an offering of 10 gold?\" ",
-      "zh": "「汝願意獻上 10 枚金幣嗎？」",
-      "note": ""
-    },
-    {
-      "offset": 2010,
-      "len": 48,
-      "en": "Tara grabs a vial and pours it down $Y's throat.",
-      "zh": "塔拉拿起一個小瓶，將藥液灌入 $Y 的喉嚨。",
-      "note": "action; cure"
-    },
-    {
-      "offset": 2061,
-      "len": 21,
-      "en": "$Y feels much better.",
-      "zh": "$Y 感覺好多了。",
-      "note": "action"
-    },
-    {
-      "offset": 2124,
-      "len": 43,
-      "en": "\"If thou wilt not pay, I cannot heal thee.\"",
-      "zh": "「若汝不願付費，吾便無法為汝治療。」",
-      "note": ""
-    },
-    {
-      "offset": 2181,
-      "len": 52,
-      "en": "\"I'm sorry. Without an offering I cannot heal thee.\"",
-      "zh": "「抱歉。沒有獻金，吾無法為汝治療。」",
-      "note": ""
-    },
-    {
-      "offset": 2239,
-      "len": 39,
-      "en": "\"Thou art poor, but thy cause is just.\"",
-      "zh": "「汝雖貧窮，但汝的事業是正義的。」",
-      "note": ""
-    },
-    {
-      "offset": 2281,
-      "len": 35,
-      "en": "\"I will heal thee without payment.\"",
-      "zh": "「吾將免費為汝治療。」",
-      "note": ""
-    },
-    {
-      "offset": 2319,
-      "len": 48,
-      "en": "Tara grabs a vial and pours it down $Y's throat.",
-      "zh": "塔拉拿起一個小瓶，將藥液灌入 $Y 的喉嚨。",
-      "note": "action"
-    },
-    {
-      "offset": 2370,
-      "len": 21,
-      "en": "$Y feels much better.",
-      "zh": "$Y 感覺好多了。",
-      "note": "action"
-    },
-    {
-      "offset": 2405,
-      "len": 45,
-      "en": "\"Oh! I see that $Y carries a fallen comrade!\"",
-      "zh": "「哦！吾看到 $Y 攜帶著一位倒下的同伴！」",
-      "note": "resurrect"
-    },
-    {
-      "offset": 2453,
-      "len": 42,
-      "en": "\"Wilt thou make an offering of 400 gold?\" ",
-      "zh": "「汝願意獻上 400 枚金幣嗎？」",
-      "note": ""
-    },
-    {
-      "offset": 2527,
-      "len": 54,
-      "en": "\"Then there is naught I can do save grieve with thee.\"",
-      "zh": "「那吾只能與汝同哀，別無他法。」",
-      "note": ""
-    },
-    {
-      "offset": 2623,
-      "len": 26,
-      "en": "\"That isn't enough money.\"",
-      "zh": "「金幣不夠。」",
-      "note": ""
-    },
-    {
-      "offset": 2652,
-      "len": 33,
-      "en": "\"Thou art #1 gold piece\\s short.\"",
-      "zh": "「汝還差 #1 枚金幣。」",
-      "note": ""
-    },
-    {
-      "offset": 2747,
-      "len": 58,
-      "en": "Your party takes up a collection for their fallen comrade.",
-      "zh": "汝的隊伍為倒下的同伴湊錢。",
-      "note": "action"
-    },
-    {
-      "offset": 2926,
-      "len": 34,
-      "en": "Tara lays hands upon the corpse...",
-      "zh": "塔拉將雙手按在屍體上……",
-      "note": "resurrection action"
-    },
-    {
-      "offset": 2963,
-      "len": 10,
-      "en": "\"Doman...\"",
-      "zh": "「Doman……」",
-      "note": "resurrection incantation; kept as-is"
-    },
-    {
-      "offset": 2976,
-      "len": 11,
-      "en": "\"thixus...\"",
-      "zh": "「thixus……」",
-      "note": "resurrection incantation; kept as-is"
-    },
-    {
-      "offset": 2990,
-      "len": 9,
-      "en": "\"anretu!\"",
-      "zh": "「anretu！」",
-      "note": "resurrection incantation; kept as-is"
-    },
-    {
-      "offset": 3006,
-      "len": 24,
-      "en": "And the dead live again!",
-      "zh": "死者復活了！",
-      "note": "action"
-    },
-    {
-      "offset": 3056,
-      "len": 45,
-      "en": "\"I see that $Y carries another slain friend.\"",
-      "zh": "「吾看到 $Y 又攜帶著另一位陣亡的友人。」",
-      "note": ""
-    }
-  ],
-  "glossary_additions": {
-    "people": {
-      "Tara": "塔拉"
-    },
-    "places": {},
-    "concepts": {
-      "Mantra of Sacrifice": "cah"
-    }
+ "translations": [
+  {
+   "offset": 7,
+   "len": 19,
+   "en": "a kindly old woman.",
+   "zh": "一位和藹可親的老婦人。",
+   "note": "DESC"
   },
-  "translator_notes": "塔拉是密諾克的仁慈老治療師，行醫六十年。知道奉獻咒語「cah」。提供治療（30金）、解毒（10金）、復活（400金）服務。對貧窮的聖者可免費施術。復活咒語 Doman/thixus/anretu 保留原文。"
+  {
+   "offset": 69,
+   "len": 41,
+   "en": "\"Welcome to my place of healing, Avatar.\"",
+   "zh": "「歡迎來到吾的治療所，聖者。」",
+   "note": "first greeting"
+  },
+  {
+   "offset": 113,
+   "len": 38,
+   "en": "\"I hope thou needest not my services!\"",
+   "zh": "「吾希望汝不需要吾的服務！」",
+   "note": ""
+  },
+  {
+   "offset": 152,
+   "len": 30,
+   "en": "\"Welcome again, noble Avatar.\"",
+   "zh": "「再次歡迎，尊貴的聖者。」",
+   "note": ""
+  },
+  {
+   "offset": 185,
+   "len": 50,
+   "en": "\"I hope this visit is for pleasure, not business!\"",
+   "zh": "「吾希望這次來訪是為了閒聊，而非看病！」",
+   "note": ""
+  },
+  {
+   "offset": 285,
+   "len": 55,
+   "en": "\"But gladly can I say that none of your party is dead!\"",
+   "zh": "「但吾很高興地說汝的隊伍無人陣亡！」",
+   "note": "resurrection check; no one dead"
+  },
+  {
+   "offset": 362,
+   "len": 18,
+   "en": "\"My name is Tara.\"",
+   "zh": "「吾的名字是塔拉。」",
+   "note": ""
+  },
+  {
+   "offset": 390,
+   "len": 31,
+   "en": "\"I'm the healer for this town.\"",
+   "zh": "「吾是這座城鎮的治療師。」",
+   "note": ""
+  },
+  {
+   "offset": 424,
+   "len": 54,
+   "en": "\"I've cared for the @unfit here for threescore years!\"",
+   "zh": "「吾在這裡照料@unfit（體弱）者已有六十年了！」",
+   "note": ""
+  },
+  {
+   "offset": 489,
+   "len": 58,
+   "en": "\"Those who need @healing, @curing, or to be @resurrected.\"",
+   "zh": "「那些需要@healing（療傷）、@curing（解毒），或需要被@resurrected（復活）的人。」",
+   "note": ""
+  },
+  {
+   "offset": 563,
+   "len": 39,
+   "en": "\"'Cah,' that is the word of sacrifice.\"",
+   "zh": "「『cah』，那是奉獻的咒語。」",
+   "note": "mantra kept as-is"
+  },
+  {
+   "offset": 615,
+   "len": 11,
+   "en": "\"Farewell!\"",
+   "zh": "「珍重！」",
+   "note": "bye"
+  },
+  {
+   "offset": 633,
+   "len": 25,
+   "en": "\"What can I do for thee?\"",
+   "zh": "「吾能為汝做什麼？」",
+   "note": ""
+  },
+  {
+   "offset": 673,
+   "len": 24,
+   "en": "\"I don't understand $Z.\"",
+   "zh": "「吾不理解『$Z』。」",
+   "note": ""
+  },
+  {
+   "offset": 698,
+   "len": 19,
+   "en": "\"I beg thy pardon?\"",
+   "zh": "「請問汝說什麼？」",
+   "note": ""
+  },
+  {
+   "offset": 779,
+   "len": 20,
+   "en": "\"But thou art well!\"",
+   "zh": "「但汝身體無恙！」",
+   "note": "heal; no injury"
+  },
+  {
+   "offset": 922,
+   "len": 26,
+   "en": "\"But all of you are well!\"",
+   "zh": "「但汝等全都身體無恙！」",
+   "note": ""
+  },
+  {
+   "offset": 985,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝等哪一位？」",
+   "note": ""
+  },
+  {
+   "offset": 1090,
+   "len": 23,
+   "en": "\"I see thy injury, $Y.\"",
+   "zh": "「吾看到汝的傷勢了，$Y。」",
+   "note": "heal 30g"
+  },
+  {
+   "offset": 1116,
+   "len": 41,
+   "en": "\"Wilt thou make an offering of 30 gold?\" ",
+   "zh": "「汝願意獻上 30 枚金幣嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1179,
+   "len": 40,
+   "en": "Tara approaches $Y and binds the wounds.",
+   "zh": "塔拉走近 $Y，為其包紮傷口。",
+   "note": "action"
+  },
+  {
+   "offset": 1261,
+   "len": 43,
+   "en": "\"If thou wilt not pay, I cannot heal thee.\"",
+   "zh": "「若汝不願付費，吾便無法為汝治療。」",
+   "note": ""
+  },
+  {
+   "offset": 1318,
+   "len": 52,
+   "en": "\"I'm sorry. Without an offering I cannot heal thee.\"",
+   "zh": "「抱歉。沒有獻金，吾無法為汝治療。」",
+   "note": "no gold"
+  },
+  {
+   "offset": 1376,
+   "len": 39,
+   "en": "\"Thou art poor, but thy cause is just.\"",
+   "zh": "「汝雖貧窮，但汝的事業是正義的。」",
+   "note": "free heal for Avatar"
+  },
+  {
+   "offset": 1418,
+   "len": 35,
+   "en": "\"I will heal thee without payment.\"",
+   "zh": "「吾將免費為汝治療。」",
+   "note": ""
+  },
+  {
+   "offset": 1456,
+   "len": 41,
+   "en": "Sasha approaches $Y and binds the wounds.",
+   "zh": "莎莎走近 $Y，為其包紮傷口。",
+   "note": "action; NPC named Sasha helps"
+  },
+  {
+   "offset": 1510,
+   "len": 40,
+   "en": "\"Is there aught else I can do for thee?\"",
+   "zh": "「吾還有其他能為汝效勞的嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1610,
+   "len": 20,
+   "en": "\"But thou art well!\"",
+   "zh": "「但汝身體無恙！」",
+   "note": "cure; no poison"
+  },
+  {
+   "offset": 1753,
+   "len": 26,
+   "en": "\"But all of you are well!\"",
+   "zh": "「但汝等全都身體無恙！」",
+   "note": ""
+  },
+  {
+   "offset": 1816,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝等哪一位？」",
+   "note": ""
+  },
+  {
+   "offset": 1921,
+   "len": 23,
+   "en": "\"I see thy injury, $Y.\"",
+   "zh": "「吾看到汝的傷勢了，$Y。」",
+   "note": "cure 10g"
+  },
+  {
+   "offset": 1947,
+   "len": 41,
+   "en": "\"Wilt thou make an offering of 10 gold?\" ",
+   "zh": "「汝願意獻上 10 枚金幣嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 2010,
+   "len": 48,
+   "en": "Tara grabs a vial and pours it down $Y's throat.",
+   "zh": "塔拉拿起一個小瓶，將藥液灌入 $Y 的喉嚨。",
+   "note": "action; cure"
+  },
+  {
+   "offset": 2061,
+   "len": 21,
+   "en": "$Y feels much better.",
+   "zh": "$Y 感覺好多了。",
+   "note": "action"
+  },
+  {
+   "offset": 2124,
+   "len": 43,
+   "en": "\"If thou wilt not pay, I cannot heal thee.\"",
+   "zh": "「若汝不願付費，吾便無法為汝治療。」",
+   "note": ""
+  },
+  {
+   "offset": 2181,
+   "len": 52,
+   "en": "\"I'm sorry. Without an offering I cannot heal thee.\"",
+   "zh": "「抱歉。沒有獻金，吾無法為汝治療。」",
+   "note": ""
+  },
+  {
+   "offset": 2239,
+   "len": 39,
+   "en": "\"Thou art poor, but thy cause is just.\"",
+   "zh": "「汝雖貧窮，但汝的事業是正義的。」",
+   "note": ""
+  },
+  {
+   "offset": 2281,
+   "len": 35,
+   "en": "\"I will heal thee without payment.\"",
+   "zh": "「吾將免費為汝治療。」",
+   "note": ""
+  },
+  {
+   "offset": 2319,
+   "len": 48,
+   "en": "Tara grabs a vial and pours it down $Y's throat.",
+   "zh": "塔拉拿起一個小瓶，將藥液灌入 $Y 的喉嚨。",
+   "note": "action"
+  },
+  {
+   "offset": 2370,
+   "len": 21,
+   "en": "$Y feels much better.",
+   "zh": "$Y 感覺好多了。",
+   "note": "action"
+  },
+  {
+   "offset": 2405,
+   "len": 45,
+   "en": "\"Oh! I see that $Y carries a fallen comrade!\"",
+   "zh": "「哦！吾看到 $Y 攜帶著一位倒下的同伴！」",
+   "note": "resurrect"
+  },
+  {
+   "offset": 2453,
+   "len": 42,
+   "en": "\"Wilt thou make an offering of 400 gold?\" ",
+   "zh": "「汝願意獻上 400 枚金幣嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 2527,
+   "len": 54,
+   "en": "\"Then there is naught I can do save grieve with thee.\"",
+   "zh": "「那吾只能與汝同哀，別無他法。」",
+   "note": ""
+  },
+  {
+   "offset": 2623,
+   "len": 26,
+   "en": "\"That isn't enough money.\"",
+   "zh": "「金幣不夠。」",
+   "note": ""
+  },
+  {
+   "offset": 2652,
+   "len": 33,
+   "en": "\"Thou art #1 gold piece\\s short.\"",
+   "zh": "「汝還差 #1 枚金幣。」",
+   "note": ""
+  },
+  {
+   "offset": 2747,
+   "len": 58,
+   "en": "Your party takes up a collection for their fallen comrade.",
+   "zh": "汝的隊伍為倒下的同伴湊錢。",
+   "note": "action"
+  },
+  {
+   "offset": 2926,
+   "len": 34,
+   "en": "Tara lays hands upon the corpse...",
+   "zh": "塔拉將雙手按在屍體上……",
+   "note": "resurrection action"
+  },
+  {
+   "offset": 2963,
+   "len": 10,
+   "en": "\"Doman...\"",
+   "zh": "「Doman……」",
+   "note": "resurrection incantation; kept as-is"
+  },
+  {
+   "offset": 2976,
+   "len": 11,
+   "en": "\"thixus...\"",
+   "zh": "「thixus……」",
+   "note": "resurrection incantation; kept as-is"
+  },
+  {
+   "offset": 2990,
+   "len": 9,
+   "en": "\"anretu!\"",
+   "zh": "「anretu！」",
+   "note": "resurrection incantation; kept as-is"
+  },
+  {
+   "offset": 3006,
+   "len": 24,
+   "en": "And the dead live again!",
+   "zh": "死者復活了！",
+   "note": "action"
+  },
+  {
+   "offset": 3056,
+   "len": 45,
+   "en": "\"I see that $Y carries another slain friend.\"",
+   "zh": "「吾看到 $Y 又攜帶著另一位陣亡的友人。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Tara": "塔拉"
+  },
+  "places": {},
+  "concepts": {
+   "Mantra of Sacrifice": "cah"
+  }
+ },
+ "translator_notes": "塔拉是密諾克的仁慈老治療師，行醫六十年。知道奉獻咒語「cah」。提供治療（30金）、解毒（10金）、復活（400金）服務。對貧窮的聖者可免費施術。復活咒語 Doman/thixus/anretu 保留原文。"
 }

@@ -1,713 +1,713 @@
 {
-  "file": "015_Anya.conv",
-  "size": 4984,
-  "npc": "Anya",
-  "role": "藍野豬酒館 (Blue Boar Tavern) 女主人；丈夫 Matt（聾啞），女兒 Ariana（學堂吟遊詩人之徒，獲贈慈悲符文）",
-  "style_notes": "勤勉知足之婦人；對玩家用『汝』表敬重，談自家事溫情；買賣場景用『你』較平實。Big5 5C trail 已避（去除『許』『餐』）；len=2/3 短 keyword 採『單字+空白』，yn 保留英文。",
-  "translations": [
-    {
-      "offset": 2,
-      "len": 4,
-      "en": "Anya",
-      "zh": "安雅",
-      "zh_bytes": 4,
-      "note": "人名 Anya"
-    },
-    {
-      "offset": 7,
-      "len": 52,
-      "en": "a buxom woman who looks hard working, yet contented.",
-      "zh": "豐腴婦人，看來勤勉而知足。",
-      "zh_bytes": 26,
-      "note": "外貌描述"
-    },
-    {
-      "offset": 82,
-      "len": 55,
-      "en": "\"I'm sorry, $G, but I've just an hour to myself today.\"",
-      "zh": "「對不住，$G，今日我只有一個時辰閒暇。」",
-      "zh_bytes": 40,
-      "note": "忙碌中"
-    },
-    {
-      "offset": 140,
-      "len": 35,
-      "en": "\"I'll gladly talk with thee later.\"",
-      "zh": "「來日再與汝細談。」",
-      "zh_bytes": 20,
-      "note": "改日再談"
-    },
-    {
-      "offset": 177,
-      "len": 93,
-      "en": "\"Good $T, $G, and welcome to the Blue Boar Tavern. Art thou here for @business or @pleasure?\"",
-      "zh": "「$T好，$G，藍野豬酒館歡迎汝。汝是為@生意還是@消遣？」",
-      "zh_bytes": 54,
-      "note": "酒館招呼"
-    },
-    {
-      "offset": 275,
-      "len": 34,
-      "en": "\"Anything else I can do for thee?\"",
-      "zh": "「還有別的事我能效勞嗎？」",
-      "zh_bytes": 26,
-      "note": "後續服務"
-    },
-    {
-      "offset": 312,
-      "len": 4,
-      "en": "name",
-      "zh": "名字",
-      "zh_bytes": 4,
-      "note": "@name keyword"
-    },
-    {
-      "offset": 317,
-      "len": 12,
-      "en": "\"I am Anya.\"",
-      "zh": "我是安雅。",
-      "zh_bytes": 10,
-      "note": "自我介紹；len=12 省略「」"
-    },
-    {
-      "offset": 335,
-      "len": 4,
-      "en": "gyps",
-      "zh": "吉普",
-      "zh_bytes": 4,
-      "note": "@gypsies keyword 簡寫"
-    },
-    {
-      "offset": 340,
-      "len": 78,
-      "en": "\"They pass by Britain occasionally. I believe they travel on the King's @Way.\"",
-      "zh": "「他們偶爾經過不列顛城。我想他們是走@王道而來。」",
-      "zh_bytes": 49,
-      "note": "吉普賽人"
-    },
-    {
-      "offset": 424,
-      "len": 8,
-      "en": "king,way",
-      "zh": "王道,御",
-      "zh_bytes": 7,
-      "note": "king/way 雙 keyword；『王道』『御』分觸發"
-    },
-    {
-      "offset": 433,
-      "len": 47,
-      "en": "\"The King's Way is the oldest road in Britain.\"",
-      "zh": "「王道乃不列顛城最古老之路。」",
-      "zh_bytes": 30,
-      "note": "古道"
-    },
-    {
-      "offset": 486,
-      "len": 8,
-      "en": "job,work",
-      "zh": "職業,工",
-      "zh_bytes": 7,
-      "note": "job/work 雙 keyword；『職業』『工』分觸發"
-    },
-    {
-      "offset": 495,
-      "len": 102,
-      "en": "\"I run this tavern to support my @family. The hours are long, but my husband offers what help he can.\"",
-      "zh": "「我經營此酒館以養@家計。時辰雖長，所幸夫君力所能及亦多有相助。」",
-      "zh_bytes": 65,
-      "note": "酒館生計"
-    },
-    {
-      "offset": 600,
-      "len": 76,
-      "en": "\"We make enough to pay for my daughter's schooling, so 'tis all worthwhile.\"",
-      "zh": "「所掙能供小女讀書，故而一切皆值得。」",
-      "zh_bytes": 38,
-      "note": "供女讀書"
-    },
-    {
-      "offset": 682,
-      "len": 9,
-      "en": "fami,supp",
-      "zh": "家計,養",
-      "zh_bytes": 7,
-      "note": "family/support keyword"
-    },
-    {
-      "offset": 692,
-      "len": 44,
-      "en": "\"My husband @Matt, and my daughter @Ariana.\"",
-      "zh": "「夫君@馬特，與小女@艾里安娜。」",
-      "zh_bytes": 32,
-      "note": "家人"
-    },
-    {
-      "offset": 742,
-      "len": 9,
-      "en": "husb,matt",
-      "zh": "夫君,馬特",
-      "zh_bytes": 9,
-      "note": "husband/matt keyword"
-    },
-    {
-      "offset": 752,
-      "len": 90,
-      "en": "\"He had an accident as a child which left him deaf and dumb, but I love him all the same.\"",
-      "zh": "「他幼時遭逢變故，自此聾啞，然我愛他不減分毫。」",
-      "zh_bytes": 48,
-      "note": "丈夫聾啞"
-    },
-    {
-      "offset": 845,
-      "len": 58,
-      "en": "\"I only @wish he could hear our daughter play, just once.\"",
-      "zh": "「我只@盼他能聽小女彈奏一回，哪怕只此一次。」",
-      "zh_bytes": 45,
-      "note": "願望聽彈奏"
-    },
-    {
-      "offset": 906,
-      "len": 72,
-      "en": "\"But 'twill ne'er come to pass. He lives in a world of eternal silence.\"",
-      "zh": "「然此事終難成。他常住於永恆之靜默中。」",
-      "zh_bytes": 40,
-      "note": "永恆靜默"
-    },
-    {
-      "offset": 984,
-      "len": 24,
-      "en": "acci,deaf,dumb,wish,sile",
-      "zh": "變故,聾,啞,盼,靜",
-      "zh_bytes": 16,
-      "note": "5 個 keyword 合併"
-    },
-    {
-      "offset": 1009,
-      "len": 87,
-      "en": "Her face brightens suddenly. \"You have the look of one who practices the art of magic.\"",
-      "zh": "她面色忽明。「汝有幾分習法者之相。」",
-      "zh_bytes": 36,
-      "note": "察覺玩家為法師"
-    },
-    {
-      "offset": 1099,
-      "len": 79,
-      "en": "\"Perhaps thou couldst find some spell that might restore my husband's hearing!\"",
-      "zh": "「或汝能尋得某種法術，使夫君復聽？」",
-      "zh_bytes": 36,
-      "note": "求法術復聽；避 5C trail 改『或』"
-    },
-    {
-      "offset": 1181,
-      "len": 47,
-      "en": "\"I know 'tis a lot to ask, but wilt thou try?\" ",
-      "zh": "「我知此求甚重，然汝可願一試？」",
-      "zh_bytes": 32,
-      "note": "請求一試"
-    },
-    {
-      "offset": 1234,
-      "len": 9,
-      "en": "daug,aria",
-      "zh": "女兒,艾里",
-      "zh_bytes": 9,
-      "note": "daughter/ariana keyword"
-    },
-    {
-      "offset": 1244,
-      "len": 110,
-      "en": "\"Ariana is the light of my life. Seems she had scarce learned to walk when she first showed a gift for music.\"",
-      "zh": "「艾里安娜是我生命之光。她方學會走路，便已顯露音律之天賦。」",
-      "zh_bytes": 60,
-      "note": "女兒天賦"
-    },
-    {
-      "offset": 1357,
-      "len": 54,
-      "en": "\"She studies now with the @bards at the Conservatory.\"",
-      "zh": "「她如今在學堂跟隨@吟遊詩人習藝。」",
-      "zh_bytes": 35,
-      "note": "拜師吟遊詩人"
-    },
-    {
-      "offset": 1417,
-      "len": 14,
-      "en": "musi,bard,cons",
-      "zh": "音律,詩人,學堂",
-      "zh_bytes": 14,
-      "note": "music/bard/cons keyword"
-    },
-    {
-      "offset": 1432,
-      "len": 91,
-      "en": "\"Bless their hearts for teaching her well. She'll be no tavern wench when she grows older.\"",
-      "zh": "「願諸位老師受我祝福，他們教導甚善。她長大後絕不會再做酒館女侍。」",
-      "zh_bytes": 66,
-      "note": "祝福老師"
-    },
-    {
-      "offset": 1526,
-      "len": 67,
-      "en": "\"Perhaps she'll even be court musician to Lord British some day...\"",
-      "zh": "「或有朝一日她能成為不列顛王之宮廷樂師……」",
-      "zh_bytes": 44,
-      "note": "宮廷樂師夢；避 5C 改『或』"
-    },
-    {
-      "offset": 1599,
-      "len": 4,
-      "en": "mant",
-      "zh": "真言",
-      "zh_bytes": 4,
-      "note": "@mantra keyword"
-    },
-    {
-      "offset": 1604,
-      "len": 82,
-      "en": "\"Thou shouldst ask my daughter of that. Methinks the bards have taught her of it.\"",
-      "zh": "「此事汝應問小女。我想吟遊詩人們已將真言授與她。」",
-      "zh_bytes": 50,
-      "note": "真言問女兒"
-    },
-    {
-      "offset": 1692,
-      "len": 19,
-      "en": "rune,comp,perm,borr",
-      "zh": "符文,慈悲,准,借",
-      "zh_bytes": 15,
-      "note": "rune/compass/perm/borrow"
-    },
-    {
-      "offset": 1741,
-      "len": 55,
-      "en": "\"I already gave thee my permission to borrow the rune!\"",
-      "zh": "「我已准汝借用那符文！」",
-      "zh_bytes": 24,
-      "note": "已給准"
-    },
-    {
-      "offset": 1798,
-      "len": 105,
-      "en": "\"Do thou be careful not to lose the stone or let any harm befall it. Ariana would never forgive herself.\"",
-      "zh": "「汝務必小心，莫失此石，亦莫令其受損。艾里安娜會永不能原諒自己的。」",
-      "zh_bytes": 68,
-      "note": "保管符石"
-    },
-    {
-      "offset": 1909,
-      "len": 4,
-      "en": "plea",
-      "zh": "消遣",
-      "zh_bytes": 4,
-      "note": "@pleasure keyword"
-    },
-    {
-      "offset": 1920,
-      "len": 95,
-      "en": "\"'Tis good to talk with thee again. Things have been slow around here since the @gypsies left.\"",
-      "zh": "「再次與汝交談甚悅。自@吉普賽人離去後，此地便冷清了好些。」",
-      "zh_bytes": 59,
-      "note": "近況清淡；避 5C"
-    },
-    {
-      "offset": 2016,
-      "len": 88,
-      "en": "\"Good! Perhaps thou might stay and talk with me a while, before I'm back about my work.\"",
-      "zh": "「甚好！或汝可留下與我閒談片刻，待我回去做工。」",
-      "zh_bytes": 48,
-      "note": "邀玩家閒談；避 5C"
-    },
-    {
-      "offset": 2111,
-      "len": 4,
-      "en": "cake",
-      "zh": "糕點",
-      "zh_bytes": 4,
-      "note": "@cake keyword"
-    },
-    {
-      "offset": 2122,
-      "len": 4,
-      "en": "mead",
-      "zh": "蜜酒",
-      "zh_bytes": 4,
-      "note": "@mead keyword"
-    },
-    {
-      "offset": 2140,
-      "len": 3,
-      "en": "ale",
-      "zh": "麥 ",
-      "zh_bytes": 3,
-      "note": "@ale keyword；len=3 用『麥』+空白（前綴可比對『麥酒』）"
-    },
-    {
-      "offset": 2157,
-      "len": 4,
-      "en": "wine",
-      "zh": "葡酒",
-      "zh_bytes": 4,
-      "note": "@wine keyword"
-    },
-    {
-      "offset": 2175,
-      "len": 4,
-      "en": "rati",
-      "zh": "乾糧",
-      "zh_bytes": 4,
-      "note": "@ration keyword"
-    },
-    {
-      "offset": 2186,
-      "len": 3,
-      "en": "bye",
-      "zh": "別 ",
-      "zh_bytes": 3,
-      "note": "@bye keyword；單字『別』+空白（沿用既有譯法）"
-    },
-    {
-      "offset": 2196,
-      "len": 21,
-      "en": "\"Come back any time.\"",
-      "zh": "「隨時歡迎再來。」",
-      "zh_bytes": 18,
-      "note": "再會"
-    },
-    {
-      "offset": 2220,
-      "len": 92,
-      "en": "\"Well, 'tis time I was back about my work. Dishes to wash, food to cook, drinks to serve...\"",
-      "zh": "「也罷，我該回去做工了。盤碟要洗，飯食要煮，酒水要送……」",
-      "zh_bytes": 58,
-      "note": "回去做工；『餐』改『飯』避 5C"
-    },
-    {
-      "offset": 2315,
-      "len": 92,
-      "en": "\"I thank thee for stopping by to brighten my day with thy conversation. Do thou come again.\"",
-      "zh": "「謝汝來此一坐，以言談點亮我這一日。願汝再來。」",
-      "zh_bytes": 48,
-      "note": "感謝來訪"
-    },
-    {
-      "offset": 2416,
-      "len": 15,
-      "en": "y,buy,sell,busi",
-      "zh": "是,買,賣,生意",
-      "zh_bytes": 13,
-      "note": "yes/buy/sell/business"
-    },
-    {
-      "offset": 2432,
-      "len": 69,
-      "en": "\"Wouldst thou like @ale, @mead, @wine, @rations, or perhaps a @cake?\"",
-      "zh": "「汝想要@麥酒、@蜜酒、@葡酒、@乾糧，還是來一份@糕點？」",
-      "zh_bytes": 55,
-      "note": "酒館選單"
-    },
-    {
-      "offset": 2509,
-      "len": 31,
-      "en": "\"I cannot help thee with that.\"",
-      "zh": "「此事我幫不上汝。」",
-      "zh_bytes": 20,
-      "note": "無法協助"
-    },
-    {
-      "offset": 2546,
-      "len": 105,
-      "en": "\"Ah, twas the proudest moment of my life when they awarded my dear little Ariana the Rune of Compassion.\"",
-      "zh": "「啊，那是我此生最自豪之刻——他們將慈悲符文授與我親愛的小艾里安娜。」",
-      "zh_bytes": 70,
-      "note": "自豪時刻"
-    },
-    {
-      "offset": 2654,
-      "len": 83,
-      "en": "\"They said she was the most promising student they'd ever had at the Conservatory.\"",
-      "zh": "「他們說她是學堂從未有過的最具天賦的學生。」",
-      "zh_bytes": 44,
-      "note": "最有天賦"
-    },
-    {
-      "offset": 2740,
-      "len": 72,
-      "en": "\"I'm sure she would show thee the rune, if thou wouldst care to see it.\"",
-      "zh": "「我相信她會將符文展示給汝看，若汝願一觀。」",
-      "zh_bytes": 44,
-      "note": "願示符文"
-    },
-    {
-      "offset": 2817,
-      "len": 98,
-      "en": "\"Thou dost wish to borrow the Rune of Compassion from my daughter?\" She pauses a while in thought.",
-      "zh": "「汝想向小女借用慈悲符文？」她沉思片刻。",
-      "zh_bytes": 40,
-      "note": "借符文沉思"
-    },
-    {
-      "offset": 2918,
-      "len": 71,
-      "en": "\"Very well--thou dost have an honest face. I grant thee my permission.\"",
-      "zh": "「也罷——汝面相誠實。我准汝借之。」",
-      "zh_bytes": 36,
-      "note": "准許借用"
-    },
-    {
-      "offset": 3002,
-      "len": 2,
-      "en": "yn",
-      "zh": "yn",
-      "zh_bytes": 2,
-      "note": "y/n 提示，保留英文（既有慣例）"
-    },
-    {
-      "offset": 3007,
-      "len": 20,
-      "en": "\"Oh, thank you, $G!\"",
-      "zh": "「噢，多謝汝，$G！」",
-      "zh_bytes": 20,
-      "note": "感謝"
-    },
-    {
-      "offset": 3030,
-      "len": 99,
-      "en": "Her look of hope changes to one of sorrow as she looks down at the floor to hide her embarrassment.",
-      "zh": "她滿懷希望之色轉為憂傷，垂首盯地，掩其窘迫。",
-      "zh_bytes": 44,
-      "note": "失望神情"
-    },
-    {
-      "offset": 3132,
-      "len": 94,
-      "en": "\"I'm sorry to have bothered thee,\" she says. \"I'm sure thou hast more important things to do.\"",
-      "zh": "「打擾汝了，」她說，「汝必定還有更要緊之事要忙。」",
-      "zh_bytes": 50,
-      "note": "歉意"
-    },
-    {
-      "offset": 3277,
-      "len": 6,
-      "en": "#2. $Y",
-      "zh": "#2. $Y",
-      "zh_bytes": 6,
-      "note": "編號 $Y 變數，保留"
-    },
-    {
-      "offset": 3317,
-      "len": 16,
-      "en": "\"Which of you?\" ",
-      "zh": "「你們哪一位？」",
-      "zh_bytes": 16,
-      "note": "問哪位"
-    },
-    {
-      "offset": 3392,
-      "len": 52,
-      "en": "\"That'll be #1 crowns, $Y. Wouldst thou like some?\" ",
-      "zh": "「共需#1枚金幣，$Y。汝要嗎？」",
-      "zh_bytes": 30,
-      "note": "計價"
-    },
-    {
-      "offset": 3445,
-      "len": 2,
-      "en": "yn",
-      "zh": "yn",
-      "zh_bytes": 2,
-      "note": "y/n 提示"
-    },
-    {
-      "offset": 3491,
-      "len": 44,
-      "en": "\"I'm sorry, but you don't have enough gold.\"",
-      "zh": "「抱歉，你的金幣不足。」",
-      "zh_bytes": 24,
-      "note": "錢不夠"
-    },
-    {
-      "offset": 3567,
-      "len": 34,
-      "en": "\"You don't have room to carry it.\"",
-      "zh": "「你身上裝不下了。」",
-      "zh_bytes": 20,
-      "note": "背包滿"
-    },
-    {
-      "offset": 3659,
-      "len": 62,
-      "en": "\"Fine!\" After accepting $Y's gold, $N hands over the purchase.",
-      "zh": "「成交！」收下$Y的金幣後，$N將貨物遞出。",
-      "zh_bytes": 40,
-      "note": "交易完成"
-    },
-    {
-      "offset": 3753,
-      "len": 16,
-      "en": "\"Enjoy your $1.\"",
-      "zh": "「請享用$1。」",
-      "zh_bytes": 14,
-      "note": "請享用"
-    },
-    {
-      "offset": 3819,
-      "len": 6,
-      "en": "#2. $Y",
-      "zh": "#2. $Y",
-      "zh_bytes": 6,
-      "note": "編號"
-    },
-    {
-      "offset": 3859,
-      "len": 16,
-      "en": "\"Which of you?\" ",
-      "zh": "「你們哪一位？」",
-      "zh_bytes": 16,
-      "note": "問哪位"
-    },
-    {
-      "offset": 3921,
-      "len": 61,
-      "en": "$N asks $Y, \"It'll be 8 gold for the cake. Is that alright?\" ",
-      "zh": "$N問$Y：「糕點要8枚金幣。可以嗎？」",
-      "zh_bytes": 35,
-      "note": "糕點計價"
-    },
-    {
-      "offset": 3983,
-      "len": 2,
-      "en": "yn",
-      "zh": "yn",
-      "zh_bytes": 2,
-      "note": "y/n 提示"
-    },
-    {
-      "offset": 4008,
-      "len": 44,
-      "en": "\"I'm sorry, but you don't have enough gold.\"",
-      "zh": "「抱歉，你的金幣不足。」",
-      "zh_bytes": 24,
-      "note": "錢不夠"
-    },
-    {
-      "offset": 4078,
-      "len": 34,
-      "en": "\"You don't have room to carry it.\"",
-      "zh": "「你身上裝不下了。」",
-      "zh_bytes": 20,
-      "note": "背包滿"
-    },
-    {
-      "offset": 4155,
-      "len": 21,
-      "en": "$N gives $Y the cake.",
-      "zh": "$N將糕點交給$Y。",
-      "zh_bytes": 16,
-      "note": "遞糕點"
-    },
-    {
-      "offset": 4211,
-      "len": 28,
-      "en": "\"I hope thou dost enjoy it!\"",
-      "zh": "「願汝享用得宜！」",
-      "zh_bytes": 18,
-      "note": "祝享用"
-    },
-    {
-      "offset": 4289,
-      "len": 6,
-      "en": "#2. $Y",
-      "zh": "#2. $Y",
-      "zh_bytes": 6,
-      "note": "編號"
-    },
-    {
-      "offset": 4329,
-      "len": 16,
-      "en": "\"Which of you?\" ",
-      "zh": "「你們哪一位？」",
-      "zh_bytes": 16,
-      "note": "問哪位"
-    },
-    {
-      "offset": 4437,
-      "len": 64,
-      "en": "\"My price is 4 gold for each ration. How many do you want, $Y?\" ",
-      "zh": "「每份乾糧4枚金幣。$Y，你要幾份？」",
-      "zh_bytes": 35,
-      "note": "乾糧計價"
-    },
-    {
-      "offset": 4668,
-      "len": 36,
-      "en": "\"You haven't any room in your pack.\"",
-      "zh": "「你的背包已無容身之處。」",
-      "zh_bytes": 26,
-      "note": "背包滿"
-    },
-    {
-      "offset": 4721,
-      "len": 44,
-      "en": "\"I'm sorry, but you don't have enough gold.\"",
-      "zh": "「抱歉，你的金幣不足。」",
-      "zh_bytes": 24,
-      "note": "錢不夠"
-    },
-    {
-      "offset": 4814,
-      "len": 27,
-      "en": "$N hands the rations to $Y.",
-      "zh": "$N將乾糧交給$Y。",
-      "zh_bytes": 16,
-      "note": "遞乾糧"
-    },
-    {
-      "offset": 4854,
-      "len": 32,
-      "en": "She hands $Y #9 mutton ration\\s.",
-      "zh": "她遞給$Y#9份羊肉乾糧\\s。",
-      "zh_bytes": 24,
-      "note": "羊肉乾糧"
-    },
-    {
-      "offset": 4893,
-      "len": 27,
-      "en": "\"That's all you can carry.\"",
-      "zh": "「就只能拿這些了。」",
-      "zh_bytes": 20,
-      "note": "拿不下了"
-    },
-    {
-      "offset": 4921,
-      "len": 28,
-      "en": "\"That's all you can afford.\"",
-      "zh": "「你只買得起這些。」",
-      "zh_bytes": 20,
-      "note": "買得起這些"
-    },
-    {
-      "offset": 4970,
-      "len": 4,
-      "en": "Mead",
-      "zh": "蜜酒",
-      "zh_bytes": 4,
-      "note": "$1 名詞 Mead"
-    },
-    {
-      "offset": 4975,
-      "len": 3,
-      "en": "Ale",
-      "zh": "麥 ",
-      "zh_bytes": 3,
-      "note": "$1 名詞 Ale；len=3 用『麥』+空白"
-    },
-    {
-      "offset": 4979,
-      "len": 4,
-      "en": "Wine",
-      "zh": "葡酒",
-      "zh_bytes": 4,
-      "note": "$1 名詞 Wine"
-    }
-  ]
+ "file": "015_Anya.conv",
+ "size": 4984,
+ "npc": "Anya",
+ "role": "藍野豬酒館 (Blue Boar Tavern) 女主人；丈夫 Matt（聾啞），女兒 Ariana（學堂吟遊詩人之徒，獲贈慈悲符文）",
+ "style_notes": "勤勉知足之婦人；對玩家用『汝』表敬重，談自家事溫情；買賣場景用『你』較平實。Big5 5C trail 已避（去除『許』『餐』）；len=2/3 短 keyword 採『單字+空白』，yn 保留英文。",
+ "translations": [
+  {
+   "offset": 2,
+   "len": 4,
+   "en": "Anya",
+   "zh": "安雅",
+   "zh_bytes": 4,
+   "note": "人名 Anya"
+  },
+  {
+   "offset": 7,
+   "len": 52,
+   "en": "a buxom woman who looks hard working, yet contented.",
+   "zh": "豐腴婦人，看來勤勉而知足。",
+   "zh_bytes": 26,
+   "note": "外貌描述"
+  },
+  {
+   "offset": 82,
+   "len": 55,
+   "en": "\"I'm sorry, $G, but I've just an hour to myself today.\"",
+   "zh": "「對不住，$G，今日我只有一個時辰閒暇。」",
+   "zh_bytes": 40,
+   "note": "忙碌中"
+  },
+  {
+   "offset": 140,
+   "len": 35,
+   "en": "\"I'll gladly talk with thee later.\"",
+   "zh": "「來日再與汝細談。」",
+   "zh_bytes": 20,
+   "note": "改日再談"
+  },
+  {
+   "offset": 177,
+   "len": 93,
+   "en": "\"Good $T, $G, and welcome to the Blue Boar Tavern. Art thou here for @business or @pleasure?\"",
+   "zh": "「$T好，$G，藍野豬酒館歡迎汝。汝是為@business（生意）還是@pleasure（消遣）？」",
+   "zh_bytes": 54,
+   "note": "酒館招呼"
+  },
+  {
+   "offset": 275,
+   "len": 34,
+   "en": "\"Anything else I can do for thee?\"",
+   "zh": "「還有別的事我能效勞嗎？」",
+   "zh_bytes": 26,
+   "note": "後續服務"
+  },
+  {
+   "offset": 312,
+   "len": 4,
+   "en": "name",
+   "zh": "名字",
+   "zh_bytes": 4,
+   "note": "@name keyword"
+  },
+  {
+   "offset": 317,
+   "len": 12,
+   "en": "\"I am Anya.\"",
+   "zh": "我是安雅。",
+   "zh_bytes": 10,
+   "note": "自我介紹；len=12 省略「」"
+  },
+  {
+   "offset": 335,
+   "len": 4,
+   "en": "gyps",
+   "zh": "吉普",
+   "zh_bytes": 4,
+   "note": "@gypsies keyword 簡寫"
+  },
+  {
+   "offset": 340,
+   "len": 78,
+   "en": "\"They pass by Britain occasionally. I believe they travel on the King's @Way.\"",
+   "zh": "「他們偶爾經過不列顛城。我想他們是走@Way（王道）而來。」",
+   "zh_bytes": 49,
+   "note": "吉普賽人"
+  },
+  {
+   "offset": 424,
+   "len": 8,
+   "en": "king,way",
+   "zh": "王道,御",
+   "zh_bytes": 7,
+   "note": "king/way 雙 keyword；『王道』『御』分觸發"
+  },
+  {
+   "offset": 433,
+   "len": 47,
+   "en": "\"The King's Way is the oldest road in Britain.\"",
+   "zh": "「王道乃不列顛城最古老之路。」",
+   "zh_bytes": 30,
+   "note": "古道"
+  },
+  {
+   "offset": 486,
+   "len": 8,
+   "en": "job,work",
+   "zh": "職業,工",
+   "zh_bytes": 7,
+   "note": "job/work 雙 keyword；『職業』『工』分觸發"
+  },
+  {
+   "offset": 495,
+   "len": 102,
+   "en": "\"I run this tavern to support my @family. The hours are long, but my husband offers what help he can.\"",
+   "zh": "「我經營此酒館以養@family（家計）。時辰雖長，所幸夫君力所能及亦多有相助。」",
+   "zh_bytes": 65,
+   "note": "酒館生計"
+  },
+  {
+   "offset": 600,
+   "len": 76,
+   "en": "\"We make enough to pay for my daughter's schooling, so 'tis all worthwhile.\"",
+   "zh": "「所掙能供小女讀書，故而一切皆值得。」",
+   "zh_bytes": 38,
+   "note": "供女讀書"
+  },
+  {
+   "offset": 682,
+   "len": 9,
+   "en": "fami,supp",
+   "zh": "家計,養",
+   "zh_bytes": 7,
+   "note": "family/support keyword"
+  },
+  {
+   "offset": 692,
+   "len": 44,
+   "en": "\"My husband @Matt, and my daughter @Ariana.\"",
+   "zh": "「夫君@Matt（馬特），與小女@Ariana（艾里）安娜。」",
+   "zh_bytes": 32,
+   "note": "家人"
+  },
+  {
+   "offset": 742,
+   "len": 9,
+   "en": "husb,matt",
+   "zh": "夫君,馬特",
+   "zh_bytes": 9,
+   "note": "husband/matt keyword"
+  },
+  {
+   "offset": 752,
+   "len": 90,
+   "en": "\"He had an accident as a child which left him deaf and dumb, but I love him all the same.\"",
+   "zh": "「他幼時遭逢變故，自此聾啞，然我愛他不減分毫。」",
+   "zh_bytes": 48,
+   "note": "丈夫聾啞"
+  },
+  {
+   "offset": 845,
+   "len": 58,
+   "en": "\"I only @wish he could hear our daughter play, just once.\"",
+   "zh": "「我只@wish（盼他）能聽小女彈奏一回，哪怕只此一次。」",
+   "zh_bytes": 45,
+   "note": "願望聽彈奏"
+  },
+  {
+   "offset": 906,
+   "len": 72,
+   "en": "\"But 'twill ne'er come to pass. He lives in a world of eternal silence.\"",
+   "zh": "「然此事終難成。他常住於永恆之靜默中。」",
+   "zh_bytes": 40,
+   "note": "永恆靜默"
+  },
+  {
+   "offset": 984,
+   "len": 24,
+   "en": "acci,deaf,dumb,wish,sile",
+   "zh": "變故,聾,啞,盼,靜",
+   "zh_bytes": 16,
+   "note": "5 個 keyword 合併"
+  },
+  {
+   "offset": 1009,
+   "len": 87,
+   "en": "Her face brightens suddenly. \"You have the look of one who practices the art of magic.\"",
+   "zh": "她面色忽明。「汝有幾分習法者之相。」",
+   "zh_bytes": 36,
+   "note": "察覺玩家為法師"
+  },
+  {
+   "offset": 1099,
+   "len": 79,
+   "en": "\"Perhaps thou couldst find some spell that might restore my husband's hearing!\"",
+   "zh": "「或汝能尋得某種法術，使夫君復聽？」",
+   "zh_bytes": 36,
+   "note": "求法術復聽；避 5C trail 改『或』"
+  },
+  {
+   "offset": 1181,
+   "len": 47,
+   "en": "\"I know 'tis a lot to ask, but wilt thou try?\" ",
+   "zh": "「我知此求甚重，然汝可願一試？」",
+   "zh_bytes": 32,
+   "note": "請求一試"
+  },
+  {
+   "offset": 1234,
+   "len": 9,
+   "en": "daug,aria",
+   "zh": "女兒,艾里",
+   "zh_bytes": 9,
+   "note": "daughter/ariana keyword"
+  },
+  {
+   "offset": 1244,
+   "len": 110,
+   "en": "\"Ariana is the light of my life. Seems she had scarce learned to walk when she first showed a gift for music.\"",
+   "zh": "「艾里安娜是我生命之光。她方學會走路，便已顯露音律之天賦。」",
+   "zh_bytes": 60,
+   "note": "女兒天賦"
+  },
+  {
+   "offset": 1357,
+   "len": 54,
+   "en": "\"She studies now with the @bards at the Conservatory.\"",
+   "zh": "「她如今在學堂跟隨@bards（吟遊）詩人習藝。」",
+   "zh_bytes": 35,
+   "note": "拜師吟遊詩人"
+  },
+  {
+   "offset": 1417,
+   "len": 14,
+   "en": "musi,bard,cons",
+   "zh": "音律,詩人,學堂",
+   "zh_bytes": 14,
+   "note": "music/bard/cons keyword"
+  },
+  {
+   "offset": 1432,
+   "len": 91,
+   "en": "\"Bless their hearts for teaching her well. She'll be no tavern wench when she grows older.\"",
+   "zh": "「願諸位老師受我祝福，他們教導甚善。她長大後絕不會再做酒館女侍。」",
+   "zh_bytes": 66,
+   "note": "祝福老師"
+  },
+  {
+   "offset": 1526,
+   "len": 67,
+   "en": "\"Perhaps she'll even be court musician to Lord British some day...\"",
+   "zh": "「或有朝一日她能成為不列顛王之宮廷樂師……」",
+   "zh_bytes": 44,
+   "note": "宮廷樂師夢；避 5C 改『或』"
+  },
+  {
+   "offset": 1599,
+   "len": 4,
+   "en": "mant",
+   "zh": "真言",
+   "zh_bytes": 4,
+   "note": "@mantra keyword"
+  },
+  {
+   "offset": 1604,
+   "len": 82,
+   "en": "\"Thou shouldst ask my daughter of that. Methinks the bards have taught her of it.\"",
+   "zh": "「此事汝應問小女。我想吟遊詩人們已將真言授與她。」",
+   "zh_bytes": 50,
+   "note": "真言問女兒"
+  },
+  {
+   "offset": 1692,
+   "len": 19,
+   "en": "rune,comp,perm,borr",
+   "zh": "符文,慈悲,准,借",
+   "zh_bytes": 15,
+   "note": "rune/compass/perm/borrow"
+  },
+  {
+   "offset": 1741,
+   "len": 55,
+   "en": "\"I already gave thee my permission to borrow the rune!\"",
+   "zh": "「我已准汝借用那符文！」",
+   "zh_bytes": 24,
+   "note": "已給准"
+  },
+  {
+   "offset": 1798,
+   "len": 105,
+   "en": "\"Do thou be careful not to lose the stone or let any harm befall it. Ariana would never forgive herself.\"",
+   "zh": "「汝務必小心，莫失此石，亦莫令其受損。艾里安娜會永不能原諒自己的。」",
+   "zh_bytes": 68,
+   "note": "保管符石"
+  },
+  {
+   "offset": 1909,
+   "len": 4,
+   "en": "plea",
+   "zh": "消遣",
+   "zh_bytes": 4,
+   "note": "@pleasure keyword"
+  },
+  {
+   "offset": 1920,
+   "len": 95,
+   "en": "\"'Tis good to talk with thee again. Things have been slow around here since the @gypsies left.\"",
+   "zh": "「再次與汝交談甚悅。自@gypsies（吉普）賽人離去後，此地便冷清了好些。」",
+   "zh_bytes": 59,
+   "note": "近況清淡；避 5C"
+  },
+  {
+   "offset": 2016,
+   "len": 88,
+   "en": "\"Good! Perhaps thou might stay and talk with me a while, before I'm back about my work.\"",
+   "zh": "「甚好！或汝可留下與我閒談片刻，待我回去做工。」",
+   "zh_bytes": 48,
+   "note": "邀玩家閒談；避 5C"
+  },
+  {
+   "offset": 2111,
+   "len": 4,
+   "en": "cake",
+   "zh": "糕點",
+   "zh_bytes": 4,
+   "note": "@cake keyword"
+  },
+  {
+   "offset": 2122,
+   "len": 4,
+   "en": "mead",
+   "zh": "蜜酒",
+   "zh_bytes": 4,
+   "note": "@mead keyword"
+  },
+  {
+   "offset": 2140,
+   "len": 3,
+   "en": "ale",
+   "zh": "麥 ",
+   "zh_bytes": 3,
+   "note": "@ale keyword；len=3 用『麥』+空白（前綴可比對『麥酒』）"
+  },
+  {
+   "offset": 2157,
+   "len": 4,
+   "en": "wine",
+   "zh": "葡酒",
+   "zh_bytes": 4,
+   "note": "@wine keyword"
+  },
+  {
+   "offset": 2175,
+   "len": 4,
+   "en": "rati",
+   "zh": "乾糧",
+   "zh_bytes": 4,
+   "note": "@ration keyword"
+  },
+  {
+   "offset": 2186,
+   "len": 3,
+   "en": "bye",
+   "zh": "別 ",
+   "zh_bytes": 3,
+   "note": "@bye keyword；單字『別』+空白（沿用既有譯法）"
+  },
+  {
+   "offset": 2196,
+   "len": 21,
+   "en": "\"Come back any time.\"",
+   "zh": "「隨時歡迎再來。」",
+   "zh_bytes": 18,
+   "note": "再會"
+  },
+  {
+   "offset": 2220,
+   "len": 92,
+   "en": "\"Well, 'tis time I was back about my work. Dishes to wash, food to cook, drinks to serve...\"",
+   "zh": "「也罷，我該回去做工了。盤碟要洗，飯食要煮，酒水要送……」",
+   "zh_bytes": 58,
+   "note": "回去做工；『餐』改『飯』避 5C"
+  },
+  {
+   "offset": 2315,
+   "len": 92,
+   "en": "\"I thank thee for stopping by to brighten my day with thy conversation. Do thou come again.\"",
+   "zh": "「謝汝來此一坐，以言談點亮我這一日。願汝再來。」",
+   "zh_bytes": 48,
+   "note": "感謝來訪"
+  },
+  {
+   "offset": 2416,
+   "len": 15,
+   "en": "y,buy,sell,busi",
+   "zh": "是,買,賣,生意",
+   "zh_bytes": 13,
+   "note": "yes/buy/sell/business"
+  },
+  {
+   "offset": 2432,
+   "len": 69,
+   "en": "\"Wouldst thou like @ale, @mead, @wine, @rations, or perhaps a @cake?\"",
+   "zh": "「汝想要@ale（麥酒）、@mead（蜜酒）、@wine（葡酒）、@rations（乾糧），還是來一份@cake（糕點）？」",
+   "zh_bytes": 55,
+   "note": "酒館選單"
+  },
+  {
+   "offset": 2509,
+   "len": 31,
+   "en": "\"I cannot help thee with that.\"",
+   "zh": "「此事我幫不上汝。」",
+   "zh_bytes": 20,
+   "note": "無法協助"
+  },
+  {
+   "offset": 2546,
+   "len": 105,
+   "en": "\"Ah, twas the proudest moment of my life when they awarded my dear little Ariana the Rune of Compassion.\"",
+   "zh": "「啊，那是我此生最自豪之刻——他們將慈悲符文授與我親愛的小艾里安娜。」",
+   "zh_bytes": 70,
+   "note": "自豪時刻"
+  },
+  {
+   "offset": 2654,
+   "len": 83,
+   "en": "\"They said she was the most promising student they'd ever had at the Conservatory.\"",
+   "zh": "「他們說她是學堂從未有過的最具天賦的學生。」",
+   "zh_bytes": 44,
+   "note": "最有天賦"
+  },
+  {
+   "offset": 2740,
+   "len": 72,
+   "en": "\"I'm sure she would show thee the rune, if thou wouldst care to see it.\"",
+   "zh": "「我相信她會將符文展示給汝看，若汝願一觀。」",
+   "zh_bytes": 44,
+   "note": "願示符文"
+  },
+  {
+   "offset": 2817,
+   "len": 98,
+   "en": "\"Thou dost wish to borrow the Rune of Compassion from my daughter?\" She pauses a while in thought.",
+   "zh": "「汝想向小女借用慈悲符文？」她沉思片刻。",
+   "zh_bytes": 40,
+   "note": "借符文沉思"
+  },
+  {
+   "offset": 2918,
+   "len": 71,
+   "en": "\"Very well--thou dost have an honest face. I grant thee my permission.\"",
+   "zh": "「也罷——汝面相誠實。我准汝借之。」",
+   "zh_bytes": 36,
+   "note": "准許借用"
+  },
+  {
+   "offset": 3002,
+   "len": 2,
+   "en": "yn",
+   "zh": "yn",
+   "zh_bytes": 2,
+   "note": "y/n 提示，保留英文（既有慣例）"
+  },
+  {
+   "offset": 3007,
+   "len": 20,
+   "en": "\"Oh, thank you, $G!\"",
+   "zh": "「噢，多謝汝，$G！」",
+   "zh_bytes": 20,
+   "note": "感謝"
+  },
+  {
+   "offset": 3030,
+   "len": 99,
+   "en": "Her look of hope changes to one of sorrow as she looks down at the floor to hide her embarrassment.",
+   "zh": "她滿懷希望之色轉為憂傷，垂首盯地，掩其窘迫。",
+   "zh_bytes": 44,
+   "note": "失望神情"
+  },
+  {
+   "offset": 3132,
+   "len": 94,
+   "en": "\"I'm sorry to have bothered thee,\" she says. \"I'm sure thou hast more important things to do.\"",
+   "zh": "「打擾汝了，」她說，「汝必定還有更要緊之事要忙。」",
+   "zh_bytes": 50,
+   "note": "歉意"
+  },
+  {
+   "offset": 3277,
+   "len": 6,
+   "en": "#2. $Y",
+   "zh": "#2. $Y",
+   "zh_bytes": 6,
+   "note": "編號 $Y 變數，保留"
+  },
+  {
+   "offset": 3317,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪一位？」",
+   "zh_bytes": 16,
+   "note": "問哪位"
+  },
+  {
+   "offset": 3392,
+   "len": 52,
+   "en": "\"That'll be #1 crowns, $Y. Wouldst thou like some?\" ",
+   "zh": "「共需#1枚金幣，$Y。汝要嗎？」",
+   "zh_bytes": 30,
+   "note": "計價"
+  },
+  {
+   "offset": 3445,
+   "len": 2,
+   "en": "yn",
+   "zh": "yn",
+   "zh_bytes": 2,
+   "note": "y/n 提示"
+  },
+  {
+   "offset": 3491,
+   "len": 44,
+   "en": "\"I'm sorry, but you don't have enough gold.\"",
+   "zh": "「抱歉，你的金幣不足。」",
+   "zh_bytes": 24,
+   "note": "錢不夠"
+  },
+  {
+   "offset": 3567,
+   "len": 34,
+   "en": "\"You don't have room to carry it.\"",
+   "zh": "「你身上裝不下了。」",
+   "zh_bytes": 20,
+   "note": "背包滿"
+  },
+  {
+   "offset": 3659,
+   "len": 62,
+   "en": "\"Fine!\" After accepting $Y's gold, $N hands over the purchase.",
+   "zh": "「成交！」收下$Y的金幣後，$N將貨物遞出。",
+   "zh_bytes": 40,
+   "note": "交易完成"
+  },
+  {
+   "offset": 3753,
+   "len": 16,
+   "en": "\"Enjoy your $1.\"",
+   "zh": "「請享用$1。」",
+   "zh_bytes": 14,
+   "note": "請享用"
+  },
+  {
+   "offset": 3819,
+   "len": 6,
+   "en": "#2. $Y",
+   "zh": "#2. $Y",
+   "zh_bytes": 6,
+   "note": "編號"
+  },
+  {
+   "offset": 3859,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪一位？」",
+   "zh_bytes": 16,
+   "note": "問哪位"
+  },
+  {
+   "offset": 3921,
+   "len": 61,
+   "en": "$N asks $Y, \"It'll be 8 gold for the cake. Is that alright?\" ",
+   "zh": "$N問$Y：「糕點要8枚金幣。可以嗎？」",
+   "zh_bytes": 35,
+   "note": "糕點計價"
+  },
+  {
+   "offset": 3983,
+   "len": 2,
+   "en": "yn",
+   "zh": "yn",
+   "zh_bytes": 2,
+   "note": "y/n 提示"
+  },
+  {
+   "offset": 4008,
+   "len": 44,
+   "en": "\"I'm sorry, but you don't have enough gold.\"",
+   "zh": "「抱歉，你的金幣不足。」",
+   "zh_bytes": 24,
+   "note": "錢不夠"
+  },
+  {
+   "offset": 4078,
+   "len": 34,
+   "en": "\"You don't have room to carry it.\"",
+   "zh": "「你身上裝不下了。」",
+   "zh_bytes": 20,
+   "note": "背包滿"
+  },
+  {
+   "offset": 4155,
+   "len": 21,
+   "en": "$N gives $Y the cake.",
+   "zh": "$N將糕點交給$Y。",
+   "zh_bytes": 16,
+   "note": "遞糕點"
+  },
+  {
+   "offset": 4211,
+   "len": 28,
+   "en": "\"I hope thou dost enjoy it!\"",
+   "zh": "「願汝享用得宜！」",
+   "zh_bytes": 18,
+   "note": "祝享用"
+  },
+  {
+   "offset": 4289,
+   "len": 6,
+   "en": "#2. $Y",
+   "zh": "#2. $Y",
+   "zh_bytes": 6,
+   "note": "編號"
+  },
+  {
+   "offset": 4329,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「你們哪一位？」",
+   "zh_bytes": 16,
+   "note": "問哪位"
+  },
+  {
+   "offset": 4437,
+   "len": 64,
+   "en": "\"My price is 4 gold for each ration. How many do you want, $Y?\" ",
+   "zh": "「每份乾糧4枚金幣。$Y，你要幾份？」",
+   "zh_bytes": 35,
+   "note": "乾糧計價"
+  },
+  {
+   "offset": 4668,
+   "len": 36,
+   "en": "\"You haven't any room in your pack.\"",
+   "zh": "「你的背包已無容身之處。」",
+   "zh_bytes": 26,
+   "note": "背包滿"
+  },
+  {
+   "offset": 4721,
+   "len": 44,
+   "en": "\"I'm sorry, but you don't have enough gold.\"",
+   "zh": "「抱歉，你的金幣不足。」",
+   "zh_bytes": 24,
+   "note": "錢不夠"
+  },
+  {
+   "offset": 4814,
+   "len": 27,
+   "en": "$N hands the rations to $Y.",
+   "zh": "$N將乾糧交給$Y。",
+   "zh_bytes": 16,
+   "note": "遞乾糧"
+  },
+  {
+   "offset": 4854,
+   "len": 32,
+   "en": "She hands $Y #9 mutton ration\\s.",
+   "zh": "她遞給$Y#9份羊肉乾糧\\s。",
+   "zh_bytes": 24,
+   "note": "羊肉乾糧"
+  },
+  {
+   "offset": 4893,
+   "len": 27,
+   "en": "\"That's all you can carry.\"",
+   "zh": "「就只能拿這些了。」",
+   "zh_bytes": 20,
+   "note": "拿不下了"
+  },
+  {
+   "offset": 4921,
+   "len": 28,
+   "en": "\"That's all you can afford.\"",
+   "zh": "「你只買得起這些。」",
+   "zh_bytes": 20,
+   "note": "買得起這些"
+  },
+  {
+   "offset": 4970,
+   "len": 4,
+   "en": "Mead",
+   "zh": "蜜酒",
+   "zh_bytes": 4,
+   "note": "$1 名詞 Mead"
+  },
+  {
+   "offset": 4975,
+   "len": 3,
+   "en": "Ale",
+   "zh": "麥 ",
+   "zh_bytes": 3,
+   "note": "$1 名詞 Ale；len=3 用『麥』+空白"
+  },
+  {
+   "offset": 4979,
+   "len": 4,
+   "en": "Wine",
+   "zh": "葡酒",
+   "zh_bytes": 4,
+   "note": "$1 名詞 Wine"
+  }
+ ]
 }

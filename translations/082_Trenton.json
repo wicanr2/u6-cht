@@ -25,7 +25,7 @@
    "offset": 252,
    "len": 48,
    "en": "\"You've forgotten? Well, 'Your @honor' will do.\"",
-   "zh": "「忘了？那叫我『@大人』便是。」",
+   "zh": "「忘了？那叫我『@honor（大人）』便是。」",
    "note": ""
   },
   {
@@ -39,7 +39,7 @@
    "offset": 357,
    "len": 45,
    "en": "\"I am, of course, @Trenton @Bell, the mayor.\"",
-   "zh": "「在下當然便是@崔頓·@貝爾市長。」",
+   "zh": "「在下當然便是@Trenton（崔頓）·@Bell（貝爾）市長。」",
    "note": ""
   },
   {
@@ -53,7 +53,7 @@
    "offset": 453,
    "len": 63,
    "en": "\"I would appreciate if you would use my @title, 'Your @Honor'.\"",
-   "zh": "「請使用在下之@稱號——『@大人』，感激不盡。」",
+   "zh": "「請使用在下之@title（稱號）——『@Honor（大人）』，感激不盡。」",
    "note": ""
   },
   {
@@ -81,7 +81,7 @@
    "offset": 624,
    "len": 37,
    "en": "\"Well, surely thou canst @read, yes?\"",
-   "zh": "「哦，汝想必能@閱讀，對吧？」",
+   "zh": "「哦，汝想必能@read（閱讀），對吧？」",
    "note": ""
   },
   {
@@ -95,14 +95,14 @@
    "offset": 737,
    "len": 35,
    "en": "\"Job? I do not @labor like others.\"",
-   "zh": "「職業？在下不似他人般@勞作。」",
+   "zh": "「職業？在下不似他人般@labor（勞作）。」",
    "note": ""
   },
   {
    "offset": 794,
    "len": 53,
    "en": "\"You know: @rigging the masts or swabbing the decks.\"",
-   "zh": "「就是那種@爬桅杆或擦甲板的活計。」",
+   "zh": "「就是那種@rigging（爬桅）杆或擦甲板的活計。」",
    "note": ""
   },
   {
@@ -116,21 +116,21 @@
    "offset": 914,
    "len": 61,
    "en": "\"@Yorl and that young @Delancy girl can tell you about that.\"",
-   "zh": "「@尤爾和那個年輕的@德蘭西姑娘可以告訴汝。」",
+   "zh": "「@Yorl（尤爾）和那個年輕的@Delancy（德蘭）西姑娘可以告訴汝。」",
    "note": ""
   },
   {
    "offset": 987,
    "len": 46,
    "en": "\"He works at the pier with the @Delancy girl.\"",
-   "zh": "「他在碼頭與@德蘭西姑娘一同工作。」",
+   "zh": "「他在碼頭與@Delancy（德蘭）西姑娘一同工作。」",
    "note": ""
   },
   {
    "offset": 1050,
    "len": 84,
    "en": "\"She has run the pier ever since her father, @Quenton, was attacked by a @gargoyle.\"",
-   "zh": "「自她父親@昆頓遭@魔像族襲擊後，她便一直掌管碼頭。」",
+   "zh": "「自她父親@Quenton（昆頓）遭@gargoyle（魔像）族襲擊後，她便一直掌管碼頭。」",
    "note": ""
   },
   {
@@ -144,7 +144,7 @@
    "offset": 1182,
    "len": 53,
    "en": "\"@Quenton, not I, was in charge of its safe keeping.\"",
-   "zh": "「@昆頓而非在下，負責保管符文。」",
+   "zh": "「@Quenton（昆頓）而非在下，負責保管符文。」",
    "note": ""
   },
   {
@@ -165,7 +165,7 @@
    "offset": 1396,
    "len": 28,
    "en": "\"Speak to @Horance of that.\"",
-   "zh": "「此事可詢問@霍蘭斯。」",
+   "zh": "「此事可詢問@Horance（霍蘭）斯。」",
    "note": ""
   },
   {
@@ -179,14 +179,14 @@
    "offset": 1515,
    "len": 76,
    "en": "\"We were not friends...not good friends, that is. He resented my @position.\"",
-   "zh": "「吾等並非朋友……至少不是好友。他對在下之@地位頗有不滿。」",
+   "zh": "「吾等並非朋友……至少不是好友。他對在下之@position（地位）頗有不滿。」",
    "note": ""
   },
   {
    "offset": 1608,
    "len": 81,
    "en": "\"Yes, well, as mayor, I am the shepherd of the @spiritual people of this hamlet.\"",
-   "zh": "「是的，身為市長，在下乃此村莊@靈性之民的牧者。」",
+   "zh": "「是的，身為市長，在下乃此村莊@spiritual（靈性）之民的牧者。」",
    "note": ""
   },
   {
@@ -207,7 +207,7 @@
    "offset": 1826,
    "len": 59,
    "en": "\"Therefore, I'm alarmed at the recent @gargoyle sightings.\"",
-   "zh": "「因此，近來@魔像族的出沒令在下深感憂慮。」",
+   "zh": "「因此，近來@gargoyle（魔像）族的出沒令在下深感憂慮。」",
    "note": ""
   },
   {
@@ -221,28 +221,28 @@
    "offset": 1934,
    "len": 85,
    "en": "\"Quenton didn't even have time to @scream before one of those beasts had killed him.\"",
-   "zh": "「昆頓來不及@呼救，便已遭那頭惡獸殺害。」",
+   "zh": "「昆頓來不及@scream（呼救），便已遭那頭惡獸殺害。」",
    "note": ""
   },
   {
    "offset": 2031,
    "len": 76,
    "en": "\"Many believe if he had screamed, someone in the @inn would have heard him.\"",
-   "zh": "「許多人認為，若他呼救了，@旅店中的人定能聽見。」",
+   "zh": "「許多人認為，若他呼救了，@inn（旅店）中的人定能聽見。」",
    "note": "許→避5C trail，改「許多人認為」用法可接受，'許' Big5=0xB3C許 lead=0xB3 trail=0xC3，無5C問題"
   },
   {
    "offset": 2128,
    "len": 89,
    "en": "\"A couple of @travelers were staying there that night, but they said they heard nothing.\"",
-   "zh": "「那夜有兩位@旅人住在那裡，然他們皆言未曾聽到任何聲響。」",
+   "zh": "「那夜有兩位@travelers（旅人）住在那裡，然他們皆言未曾聽到任何聲響。」",
    "note": ""
   },
   {
    "offset": 2220,
    "len": 30,
    "en": "\"Still, I find this @strange.\"",
-   "zh": "「然在下仍覺@蹊蹺。」",
+   "zh": "「然在下仍覺@strange（蹊蹺）。」",
    "note": ""
   },
   {
@@ -256,21 +256,21 @@
    "offset": 2298,
    "len": 39,
    "en": "\"'Twas @Gideon questioned them, not I.\"",
-   "zh": "「詢問他們的是@吉迪恩，並非在下。」",
+   "zh": "「詢問他們的是@Gideon（吉迪）恩，並非在下。」",
    "note": ""
   },
   {
    "offset": 2349,
    "len": 28,
    "en": "\"He runs the @Haunting Inn.\"",
-   "zh": "「他打理@鬼影旅店。」",
+   "zh": "「他打理@Haunting（鬼影）旅店。」",
    "note": ""
   },
   {
    "offset": 2389,
    "len": 72,
    "en": "\"The one the @travelers were at. It's across the way.\" He frowns at you.",
-   "zh": "「@旅人下榻之所，就在對面。」他皺眉看著汝。",
+   "zh": "「@travelers（旅人）下榻之所，就在對面。」他皺眉看著汝。",
    "note": ""
   },
   {
@@ -291,7 +291,7 @@
    "offset": 2602,
    "len": 97,
    "en": "\"He said that although they killed the beast, it's horrifying noises still give him @nightmares.\"",
-   "zh": "「他說，雖然他們殺死了那頭惡獸，但那駭人的嘶吼至今仍令他做@惡夢。」",
+   "zh": "「他說，雖然他們殺死了那頭惡獸，但那駭人的嘶吼至今仍令他做@nightmares（惡夢）。」",
    "note": ""
   },
   {

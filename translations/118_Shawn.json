@@ -32,14 +32,14 @@
    "offset": 196,
    "len": 47,
    "en": "\"Which: @ham, @ale, @mead, @wine, or @rations?\"",
-   "zh": "「請問要哪樣：@火腿、@麥酒、@蜜酒、@葡萄酒，還是@口糧？」",
+   "zh": "「請問要哪樣：@ham（火腿）、@ale（麥酒）、@mead（蜜酒）、@wine（葡萄）酒，還是@rations（口糧）？」",
    "note": ""
   },
   {
    "offset": 254,
    "len": 48,
    "en": "\"I sell @ham, @ale, @mead, @wine, and @rations.\"",
-   "zh": "「我賣@火腿、@麥酒、@蜜酒、@葡萄酒及@口糧。」",
+   "zh": "「我賣@ham（火腿）、@ale（麥酒）、@mead（蜜酒）、@wine（葡萄）酒及@rations（口糧）。」",
    "note": ""
   },
   {
@@ -197,6 +197,11 @@
    "note": ""
   }
  ],
- "glossary_additions": {"people": {"Shawn": "肖恩"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Shawn": "肖恩"
+  },
+  "places": {}
+ },
  "translator_notes": "Shawn 是酒館/食品商人，口吻熱絡。商品詞保留 @ 前綴以供 keyword 比對。"
 }

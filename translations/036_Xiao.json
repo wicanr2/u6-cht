@@ -1,379 +1,379 @@
 {
-  "translations": [
-    {
-      "offset": 7,
-      "len": 24,
-      "en": "a wise, scholarly woman.",
-      "zh": "一位睿智博學之女子。",
-      "note": "DESC"
-    },
-    {
-      "offset": 35,
-      "len": 52,
-      "en": "\"Good $T, @Avatar. For what purpose hast thou come?\"",
-      "zh": "「$T 吉祥，@聖者。汝此來有何目的？」",
-      "note": "$T time placeholder preserved"
-    },
-    {
-      "offset": 137,
-      "len": 12,
-      "en": "\"I am Xiao.\"",
-      "zh": "「吾乃蕭。」",
-      "note": "Xiao is a Chinese name, keep as 蕭"
-    },
-    {
-      "offset": 165,
-      "len": 37,
-      "en": "\"I serve on the Council of @Wizards.\"",
-      "zh": "「吾乃@法師議會成員。」",
-      "note": ""
-    },
-    {
-      "offset": 205,
-      "len": 50,
-      "en": "\"I also teach @spells and sell magical @reagents.\"",
-      "zh": "「吾亦傳授@法術並販售魔法@材料。」",
-      "note": ""
-    },
-    {
-      "offset": 271,
-      "len": 70,
-      "en": "\"Their secret is far more @powerful than anything I might teach thee.\"",
-      "zh": "「其秘密遠比吾所能傳授之術更為@強大。」",
-      "note": "wisp secret"
-    },
-    {
-      "offset": 352,
-      "len": 67,
-      "en": "\"Truly, it would be terrible if the wrong person were to learn it.\"",
-      "zh": "「若此秘密落入不該知曉之人手中，後果不堪設想。」",
-      "note": ""
-    },
-    {
-      "offset": 422,
-      "len": 52,
-      "en": "\"Only we of the Council of Wizards know the secret.\"",
-      "zh": "「唯有吾等法師議會成員知曉此秘密。」",
-      "note": ""
-    },
-    {
-      "offset": 477,
-      "len": 81,
-      "en": "\"But, since thou art the Avatar, surely it is safe for thee to learn it as well.\"",
-      "zh": "「然而，既然汝乃聖者，將此秘密告知汝應當無礙。」",
-      "note": ""
-    },
-    {
-      "offset": 569,
-      "len": 31,
-      "en": "\"Your example inspires us all.\"",
-      "zh": "「汝之榜樣激勵吾等眾人。」",
-      "note": "avatar keyword response"
-    },
-    {
-      "offset": 621,
-      "len": 76,
-      "en": "\"'Tis our task to keep the forces of magic in @balance throughout the land.\"",
-      "zh": "「維持全境魔法力量的@均衡，乃吾等之責任。」",
-      "note": ""
-    },
-    {
-      "offset": 700,
-      "len": 55,
-      "en": "\"We also do what we can to promote the eight @virtues.\"",
-      "zh": "「吾等亦盡力弘揚八大@美德。」",
-      "note": ""
-    },
-    {
-      "offset": 771,
-      "len": 42,
-      "en": "\"We created the @shrines, many years ago.\"",
-      "zh": "「吾等於多年前創立了諸@聖壇。」",
-      "note": ""
-    },
-    {
-      "offset": 824,
-      "len": 31,
-      "en": "\"@Thariand can tell thee more.\"",
-      "zh": "「@薩里安能告知汝更多。」",
-      "note": ""
-    },
-    {
-      "offset": 866,
-      "len": 38,
-      "en": "\"He is the librarian at the @Lycaeum.\"",
-      "zh": "「彼乃@學苑的圖書館員。」",
-      "note": ""
-    },
-    {
-      "offset": 920,
-      "len": 39,
-      "en": "\"Surely you know where the Lycaeum is.\"",
-      "zh": "「汝必然知曉學苑所在吧。」",
-      "note": ""
-    },
-    {
-      "offset": 980,
-      "len": 19,
-      "en": "\"Not an easy task.\"",
-      "zh": "「此乃不易之事。」",
-      "note": "balance response"
-    },
-    {
-      "offset": 1009,
-      "len": 39,
-      "en": "\"Thou art always welcome here, Avatar.\"",
-      "zh": "「汝隨時歡迎來此，聖者。」",
-      "note": "bye response"
-    },
-    {
-      "offset": 1053,
-      "len": 46,
-      "en": "\"Perhaps you should speak of that to another.\"",
-      "zh": "「此事汝或許應找他人商議。」",
-      "note": ""
-    },
-    {
-      "offset": 1164,
-      "len": 33,
-      "en": "\"But thou hast not a spell@book!\"",
-      "zh": "「然汝尚無法術@書冊！」",
-      "note": ""
-    },
-    {
-      "offset": 1324,
-      "len": 35,
-      "en": "\"But none of you has a spell@book!\"",
-      "zh": "「然汝等之中無人持有法術@書冊！」",
-      "note": ""
-    },
-    {
-      "offset": 1396,
-      "len": 16,
-      "en": "\"Which of you?\" ",
-      "zh": "「汝等哪一位？」",
-      "note": "party prompt"
-    },
-    {
-      "offset": 1528,
-      "len": 41,
-      "en": "\"In which Circle does $Y wish to study?\" ",
-      "zh": "「$Y 欲習第幾階法術圈？」",
-      "note": ""
-    },
-    {
-      "offset": 1605,
-      "len": 51,
-      "en": "\"As everybody knows, there are only eight circles.\"",
-      "zh": "「眾所皆知，法術圈共有八階。」",
-      "note": ""
-    },
-    {
-      "offset": 1672,
-      "len": 52,
-      "en": "\"I sense that $Y is only ready for the #1$1 Circle.\"",
-      "zh": "「吾感覺 $Y 目前僅能習得第 #1$1 階法術。」",
-      "note": "$1 ordinal suffix placeholder preserved"
-    },
-    {
-      "offset": 1727,
-      "len": 40,
-      "en": "\"But such matters are not my concern...\"",
-      "zh": "「然此等事非吾所能置喙……」",
-      "note": ""
-    },
-    {
-      "offset": 1817,
-      "len": 34,
-      "en": "\"I have no spells of that circle.\"",
-      "zh": "「吾無此階之法術可授。」",
-      "note": ""
-    },
-    {
-      "offset": 1928,
-      "len": 13,
-      "en": "\"Which one?\" ",
-      "zh": "「哪一種？」",
-      "note": ""
-    },
-    {
-      "offset": 1957,
-      "len": 42,
-      "en": "\"Perhaps $Y is not ready for this circle.\"",
-      "zh": "「$Y 或許尚未準備好習得此階法術。」",
-      "note": ""
-    },
-    {
-      "offset": 2028,
-      "len": 32,
-      "en": "\"$Y lacks the #5 gold required.\"",
-      "zh": "「$Y 所持黃金不足 #5 枚。」",
-      "note": ""
-    },
-    {
-      "offset": 2069,
-      "len": 40,
-      "en": "\"That spell costs #5 gold. Interested?\" ",
-      "zh": "「此法術需 #5 枚金幣。汝有意購買嗎？」",
-      "note": ""
-    },
-    {
-      "offset": 2115,
-      "len": 46,
-      "en": "$N hands $Y a piece of rune-covered parchment.",
-      "zh": "$N 遞給 $Y 一張佈滿符文的羊皮紙。",
-      "note": ""
-    },
-    {
-      "offset": 2226,
-      "len": 44,
-      "en": "\"Thou art not yet ready for such knowledge.\"",
-      "zh": "「汝尚未做好接受此等知識的準備。」",
-      "note": ""
-    },
-    {
-      "offset": 2273,
-      "len": 62,
-      "en": "\"Seek out and speak with the @wisps, and learn their secrets.\"",
-      "zh": "「去尋訪@幽影，與之交談，習得其秘密。」",
-      "note": ""
-    },
-    {
-      "offset": 2338,
-      "len": 61,
-      "en": "\"Then wilt thou will be prepared to enter the Eighth Circle.\"",
-      "zh": "「如此汝方能準備進入第八階法術圈。」",
-      "note": ""
-    },
-    {
-      "offset": 2487,
-      "len": 16,
-      "en": "\"Which of you?\" ",
-      "zh": "「汝等哪一位？」",
-      "note": ""
-    },
-    {
-      "offset": 2608,
-      "len": 13,
-      "en": "\"Which one?\" ",
-      "zh": "「哪一種？」",
-      "note": ""
-    },
-    {
-      "offset": 2693,
-      "len": 26,
-      "en": "\"$1 costs #1 per portion.\"",
-      "zh": "「$1 每份 #1 枚金幣。」",
-      "note": ""
-    },
-    {
-      "offset": 2722,
-      "len": 27,
-      "en": "\"How many dost thou want?\" ",
-      "zh": "「汝需要幾份？」",
-      "note": ""
-    },
-    {
-      "offset": 2876,
-      "len": 19,
-      "en": "$N hands $Y the $1.",
-      "zh": "$N 將 $1 遞給 $Y。",
-      "note": ""
-    },
-    {
-      "offset": 2914,
-      "len": 30,
-      "en": "\"Thou cannot carry that much!\"",
-      "zh": "「汝無法攜帶那麼多！」",
-      "note": ""
-    },
-    {
-      "offset": 2947,
-      "len": 49,
-      "en": "\"I'll give thee #5; thou dost not need the rest.\"",
-      "zh": "「吾給汝 #5 份；汝不需要其餘的。」",
-      "note": ""
-    },
-    {
-      "offset": 3005,
-      "len": 27,
-      "en": "\"Thou cannot carry any $1!\"",
-      "zh": "「汝無法攜帶任何 $1！」",
-      "note": ""
-    },
-    {
-      "offset": 3045,
-      "len": 31,
-      "en": "\"Thou cannot afford that much!\"",
-      "zh": "「汝負擔不起那麼多！」",
-      "note": ""
-    },
-    {
-      "offset": 3079,
-      "len": 47,
-      "en": "\"I'll give thee #5; thou cannot have the rest.\"",
-      "zh": "「吾給汝 #5 份；汝無法負擔其餘的。」",
-      "note": ""
-    },
-    {
-      "offset": 3135,
-      "len": 28,
-      "en": "\"Thou cannot afford any $1!\"",
-      "zh": "「汝負擔不起任何 $1！」",
-      "note": ""
-    },
-    {
-      "offset": 3251,
-      "len": 16,
-      "en": "\"Which of you?\" ",
-      "zh": "「汝等哪一位？」",
-      "note": ""
-    },
-    {
-      "offset": 3327,
-      "len": 36,
-      "en": "\"But thou cannot carry a spellbook!\"",
-      "zh": "「然汝無法攜帶法術書冊！」",
-      "note": ""
-    },
-    {
-      "offset": 3379,
-      "len": 37,
-      "en": "\"But thou cannot afford a spellbook!\"",
-      "zh": "「然汝負擔不起一本法術書冊！」",
-      "note": ""
-    },
-    {
-      "offset": 3422,
-      "len": 48,
-      "en": "\"A spellbook costs 60 gold pieces. Interested?\" ",
-      "zh": "「一本法術書冊需 60 枚金幣。汝有意購買嗎？」",
-      "note": ""
-    },
-    {
-      "offset": 3502,
-      "len": 15,
-      "en": "\"Here you are.\"",
-      "zh": "「請收下。」",
-      "note": ""
-    },
-    {
-      "offset": 3529,
-      "len": 34,
-      "en": "\"Perhaps one of thy friends then.\"",
-      "zh": "「或許汝的同伴之中有人適合。」",
-      "note": ""
-    }
-  ],
-  "glossary_additions": {
-    "people": {
-      "Xiao": "蕭"
-    },
-    "places": {},
-    "concepts": {
-      "Circle (magic)": "法術圈",
-      "reagents": "魔法材料"
-    }
+ "translations": [
+  {
+   "offset": 7,
+   "len": 24,
+   "en": "a wise, scholarly woman.",
+   "zh": "一位睿智博學之女子。",
+   "note": "DESC"
   },
-  "translator_notes": "蕭（Xiao）為法師議會成員，使用較典雅的 thee/thou 語氣。中文名蕭，保持中文原名。法術圈編號 #1$1 保留以供 VM 動態填入。魔法材料名稱（Black Pearl、Garlic 等）為系統列表，不翻譯（game engine handles item names separately）。"
+  {
+   "offset": 35,
+   "len": 52,
+   "en": "\"Good $T, @Avatar. For what purpose hast thou come?\"",
+   "zh": "「$T 吉祥，@Avatar（聖者）。汝此來有何目的？」",
+   "note": "$T time placeholder preserved"
+  },
+  {
+   "offset": 137,
+   "len": 12,
+   "en": "\"I am Xiao.\"",
+   "zh": "「吾乃蕭。」",
+   "note": "Xiao is a Chinese name, keep as 蕭"
+  },
+  {
+   "offset": 165,
+   "len": 37,
+   "en": "\"I serve on the Council of @Wizards.\"",
+   "zh": "「吾乃@Wizards（法師）議會成員。」",
+   "note": ""
+  },
+  {
+   "offset": 205,
+   "len": 50,
+   "en": "\"I also teach @spells and sell magical @reagents.\"",
+   "zh": "「吾亦傳授@spells（法術）並販售魔法@reagents（材料）。」",
+   "note": ""
+  },
+  {
+   "offset": 271,
+   "len": 70,
+   "en": "\"Their secret is far more @powerful than anything I might teach thee.\"",
+   "zh": "「其秘密遠比吾所能傳授之術更為@powerful（強大）。」",
+   "note": "wisp secret"
+  },
+  {
+   "offset": 352,
+   "len": 67,
+   "en": "\"Truly, it would be terrible if the wrong person were to learn it.\"",
+   "zh": "「若此秘密落入不該知曉之人手中，後果不堪設想。」",
+   "note": ""
+  },
+  {
+   "offset": 422,
+   "len": 52,
+   "en": "\"Only we of the Council of Wizards know the secret.\"",
+   "zh": "「唯有吾等法師議會成員知曉此秘密。」",
+   "note": ""
+  },
+  {
+   "offset": 477,
+   "len": 81,
+   "en": "\"But, since thou art the Avatar, surely it is safe for thee to learn it as well.\"",
+   "zh": "「然而，既然汝乃聖者，將此秘密告知汝應當無礙。」",
+   "note": ""
+  },
+  {
+   "offset": 569,
+   "len": 31,
+   "en": "\"Your example inspires us all.\"",
+   "zh": "「汝之榜樣激勵吾等眾人。」",
+   "note": "avatar keyword response"
+  },
+  {
+   "offset": 621,
+   "len": 76,
+   "en": "\"'Tis our task to keep the forces of magic in @balance throughout the land.\"",
+   "zh": "「維持全境魔法力量的@balance（均衡），乃吾等之責任。」",
+   "note": ""
+  },
+  {
+   "offset": 700,
+   "len": 55,
+   "en": "\"We also do what we can to promote the eight @virtues.\"",
+   "zh": "「吾等亦盡力弘揚八大@virtues（美德）。」",
+   "note": ""
+  },
+  {
+   "offset": 771,
+   "len": 42,
+   "en": "\"We created the @shrines, many years ago.\"",
+   "zh": "「吾等於多年前創立了諸@shrines（聖壇）。」",
+   "note": ""
+  },
+  {
+   "offset": 824,
+   "len": 31,
+   "en": "\"@Thariand can tell thee more.\"",
+   "zh": "「@Thariand（薩里）安能告知汝更多。」",
+   "note": ""
+  },
+  {
+   "offset": 866,
+   "len": 38,
+   "en": "\"He is the librarian at the @Lycaeum.\"",
+   "zh": "「彼乃@Lycaeum（學苑）的圖書館員。」",
+   "note": ""
+  },
+  {
+   "offset": 920,
+   "len": 39,
+   "en": "\"Surely you know where the Lycaeum is.\"",
+   "zh": "「汝必然知曉學苑所在吧。」",
+   "note": ""
+  },
+  {
+   "offset": 980,
+   "len": 19,
+   "en": "\"Not an easy task.\"",
+   "zh": "「此乃不易之事。」",
+   "note": "balance response"
+  },
+  {
+   "offset": 1009,
+   "len": 39,
+   "en": "\"Thou art always welcome here, Avatar.\"",
+   "zh": "「汝隨時歡迎來此，聖者。」",
+   "note": "bye response"
+  },
+  {
+   "offset": 1053,
+   "len": 46,
+   "en": "\"Perhaps you should speak of that to another.\"",
+   "zh": "「此事汝或許應找他人商議。」",
+   "note": ""
+  },
+  {
+   "offset": 1164,
+   "len": 33,
+   "en": "\"But thou hast not a spell@book!\"",
+   "zh": "「然汝尚無法術@book（書冊）！」",
+   "note": ""
+  },
+  {
+   "offset": 1324,
+   "len": 35,
+   "en": "\"But none of you has a spell@book!\"",
+   "zh": "「然汝等之中無人持有法術@book（書冊）！」",
+   "note": ""
+  },
+  {
+   "offset": 1396,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝等哪一位？」",
+   "note": "party prompt"
+  },
+  {
+   "offset": 1528,
+   "len": 41,
+   "en": "\"In which Circle does $Y wish to study?\" ",
+   "zh": "「$Y 欲習第幾階法術圈？」",
+   "note": ""
+  },
+  {
+   "offset": 1605,
+   "len": 51,
+   "en": "\"As everybody knows, there are only eight circles.\"",
+   "zh": "「眾所皆知，法術圈共有八階。」",
+   "note": ""
+  },
+  {
+   "offset": 1672,
+   "len": 52,
+   "en": "\"I sense that $Y is only ready for the #1$1 Circle.\"",
+   "zh": "「吾感覺 $Y 目前僅能習得第 #1$1 階法術。」",
+   "note": "$1 ordinal suffix placeholder preserved"
+  },
+  {
+   "offset": 1727,
+   "len": 40,
+   "en": "\"But such matters are not my concern...\"",
+   "zh": "「然此等事非吾所能置喙……」",
+   "note": ""
+  },
+  {
+   "offset": 1817,
+   "len": 34,
+   "en": "\"I have no spells of that circle.\"",
+   "zh": "「吾無此階之法術可授。」",
+   "note": ""
+  },
+  {
+   "offset": 1928,
+   "len": 13,
+   "en": "\"Which one?\" ",
+   "zh": "「哪一種？」",
+   "note": ""
+  },
+  {
+   "offset": 1957,
+   "len": 42,
+   "en": "\"Perhaps $Y is not ready for this circle.\"",
+   "zh": "「$Y 或許尚未準備好習得此階法術。」",
+   "note": ""
+  },
+  {
+   "offset": 2028,
+   "len": 32,
+   "en": "\"$Y lacks the #5 gold required.\"",
+   "zh": "「$Y 所持黃金不足 #5 枚。」",
+   "note": ""
+  },
+  {
+   "offset": 2069,
+   "len": 40,
+   "en": "\"That spell costs #5 gold. Interested?\" ",
+   "zh": "「此法術需 #5 枚金幣。汝有意購買嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 2115,
+   "len": 46,
+   "en": "$N hands $Y a piece of rune-covered parchment.",
+   "zh": "$N 遞給 $Y 一張佈滿符文的羊皮紙。",
+   "note": ""
+  },
+  {
+   "offset": 2226,
+   "len": 44,
+   "en": "\"Thou art not yet ready for such knowledge.\"",
+   "zh": "「汝尚未做好接受此等知識的準備。」",
+   "note": ""
+  },
+  {
+   "offset": 2273,
+   "len": 62,
+   "en": "\"Seek out and speak with the @wisps, and learn their secrets.\"",
+   "zh": "「去尋訪@wisps（幽影），與之交談，習得其秘密。」",
+   "note": ""
+  },
+  {
+   "offset": 2338,
+   "len": 61,
+   "en": "\"Then wilt thou will be prepared to enter the Eighth Circle.\"",
+   "zh": "「如此汝方能準備進入第八階法術圈。」",
+   "note": ""
+  },
+  {
+   "offset": 2487,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝等哪一位？」",
+   "note": ""
+  },
+  {
+   "offset": 2608,
+   "len": 13,
+   "en": "\"Which one?\" ",
+   "zh": "「哪一種？」",
+   "note": ""
+  },
+  {
+   "offset": 2693,
+   "len": 26,
+   "en": "\"$1 costs #1 per portion.\"",
+   "zh": "「$1 每份 #1 枚金幣。」",
+   "note": ""
+  },
+  {
+   "offset": 2722,
+   "len": 27,
+   "en": "\"How many dost thou want?\" ",
+   "zh": "「汝需要幾份？」",
+   "note": ""
+  },
+  {
+   "offset": 2876,
+   "len": 19,
+   "en": "$N hands $Y the $1.",
+   "zh": "$N 將 $1 遞給 $Y。",
+   "note": ""
+  },
+  {
+   "offset": 2914,
+   "len": 30,
+   "en": "\"Thou cannot carry that much!\"",
+   "zh": "「汝無法攜帶那麼多！」",
+   "note": ""
+  },
+  {
+   "offset": 2947,
+   "len": 49,
+   "en": "\"I'll give thee #5; thou dost not need the rest.\"",
+   "zh": "「吾給汝 #5 份；汝不需要其餘的。」",
+   "note": ""
+  },
+  {
+   "offset": 3005,
+   "len": 27,
+   "en": "\"Thou cannot carry any $1!\"",
+   "zh": "「汝無法攜帶任何 $1！」",
+   "note": ""
+  },
+  {
+   "offset": 3045,
+   "len": 31,
+   "en": "\"Thou cannot afford that much!\"",
+   "zh": "「汝負擔不起那麼多！」",
+   "note": ""
+  },
+  {
+   "offset": 3079,
+   "len": 47,
+   "en": "\"I'll give thee #5; thou cannot have the rest.\"",
+   "zh": "「吾給汝 #5 份；汝無法負擔其餘的。」",
+   "note": ""
+  },
+  {
+   "offset": 3135,
+   "len": 28,
+   "en": "\"Thou cannot afford any $1!\"",
+   "zh": "「汝負擔不起任何 $1！」",
+   "note": ""
+  },
+  {
+   "offset": 3251,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝等哪一位？」",
+   "note": ""
+  },
+  {
+   "offset": 3327,
+   "len": 36,
+   "en": "\"But thou cannot carry a spellbook!\"",
+   "zh": "「然汝無法攜帶法術書冊！」",
+   "note": ""
+  },
+  {
+   "offset": 3379,
+   "len": 37,
+   "en": "\"But thou cannot afford a spellbook!\"",
+   "zh": "「然汝負擔不起一本法術書冊！」",
+   "note": ""
+  },
+  {
+   "offset": 3422,
+   "len": 48,
+   "en": "\"A spellbook costs 60 gold pieces. Interested?\" ",
+   "zh": "「一本法術書冊需 60 枚金幣。汝有意購買嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 3502,
+   "len": 15,
+   "en": "\"Here you are.\"",
+   "zh": "「請收下。」",
+   "note": ""
+  },
+  {
+   "offset": 3529,
+   "len": 34,
+   "en": "\"Perhaps one of thy friends then.\"",
+   "zh": "「或許汝的同伴之中有人適合。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Xiao": "蕭"
+  },
+  "places": {},
+  "concepts": {
+   "Circle (magic)": "法術圈",
+   "reagents": "魔法材料"
+  }
+ },
+ "translator_notes": "蕭（Xiao）為法師議會成員，使用較典雅的 thee/thou 語氣。中文名蕭，保持中文原名。法術圈編號 #1$1 保留以供 VM 動態填入。魔法材料名稱（Black Pearl、Garlic 等）為系統列表，不翻譯（game engine handles item names separately）。"
 }

@@ -25,14 +25,14 @@
    "offset": 238,
    "len": 54,
    "en": "He turns back to you. \"Welcome to the @Haunting @Inn.\"",
-   "zh": "他轉回面向汝。「歡迎來到@鬼影@旅店。」",
+   "zh": "他轉回面向汝。「歡迎來到@Haunting（鬼影）@Inn（旅店）。」",
    "note": ""
   },
   {
    "offset": 295,
    "len": 46,
    "en": "\"Come and sit, for you must have many @tales.\"",
-   "zh": "「坐下吧，汝定有許多@故事可說。」",
+   "zh": "「坐下吧，汝定有許多@tales故事可說。」",
    "note": ""
   },
   {
@@ -53,7 +53,7 @@
    "offset": 474,
    "len": 62,
    "en": "\"@Gideon, my friend, Gideon's what I'm called by one and all.\"",
-   "zh": "「@吉迪恩，朋友，人人都這麼叫我。」",
+   "zh": "「@Gideon（吉迪）恩，朋友，人人都這麼叫我。」",
    "note": ""
   },
   {
@@ -67,14 +67,14 @@
    "offset": 601,
    "len": 61,
    "en": "\"Tis an old family name meaning 'one who spreads the @word.'\"",
-   "zh": "「這是個古老的家族名，意為『傳揚@言語之人』。」",
+   "zh": "「這是個古老的家族名，意為『傳揚@word（關鍵字）之人』。」",
    "note": ""
   },
   {
    "offset": 665,
    "len": 53,
    "en": "\"My @wife tells me I spread too many of them around.\"",
-   "zh": "「我@妻子說我傳的閒話太多了。」",
+   "zh": "「我@wife（妻子）說我傳的閒話太多了。」",
    "note": ""
   },
   {
@@ -95,21 +95,21 @@
    "offset": 875,
    "len": 80,
    "en": "\"My @wife would say it is to annoy the customers with idle @banter. She's dear.\"",
-   "zh": "「我@妻子會說，是拿閒@話聒噪客人。她真可愛。」",
+   "zh": "「我@wife（妻子）會說，是拿閒@banter（話聒）噪客人。她真可愛。」",
    "note": ""
   },
   {
    "offset": 958,
    "len": 24,
    "en": "\"I have @rooms for let.\"",
-   "zh": "「在下有@房間可出租。」",
+   "zh": "「在下有@rooms（房）間可出租。」",
    "note": ""
   },
   {
    "offset": 994,
    "len": 89,
    "en": "\"When I was a young man I visited the @shrine to contemplate an emptiness I felt inside.\"",
-   "zh": "「我年輕時曾去@聖壇默思心中的空洞。」",
+   "zh": "「我年輕時曾去@shrine（聖壇）默思心中的空洞。」",
    "note": ""
   },
   {
@@ -144,7 +144,7 @@
    "offset": 1275,
    "len": 56,
    "en": "He answers, \"No, @Marta, our guests are not asleep yet.\"",
-   "zh": "他答道：「不，@瑪塔，客人們還沒睡著。」",
+   "zh": "他答道：「不，@Marta（瑪塔），客人們還沒睡著。」",
    "note": ""
   },
   {
@@ -158,7 +158,7 @@
    "offset": 1380,
    "len": 34,
    "en": "\"But now, with what @Marta saw...\"",
-   "zh": "「但如今，自從@瑪塔所見之後……」",
+   "zh": "「但如今，自從@Marta（瑪塔）所見之後……」",
    "note": ""
   },
   {
@@ -193,7 +193,7 @@
    "offset": 1736,
    "len": 63,
    "en": "\"She let out such a @scream that I heard her from our bedroom.\"",
-   "zh": "「她@尖叫得如此之響，我在臥房都聽見了。」",
+   "zh": "「她@scream（尖叫）得如此之響，我在臥房都聽見了。」",
    "note": ""
   },
   {
@@ -214,7 +214,7 @@
    "offset": 1979,
    "len": 78,
    "en": "\"At first I thought maybe I should lock the @cupboard where we keep the wine.\"",
-   "zh": "「起初我以為，應是有人私開存酒的@櫥櫃。」",
+   "zh": "「起初我以為，應是有人私開存酒的@cupboard（櫥櫃）。」",
    "note": ""
   },
   {
@@ -228,14 +228,14 @@
    "offset": 2148,
    "len": 60,
    "en": "\"If you've never had @Stivius' wine, you're in for a treat.\"",
-   "zh": "「若汝未曾品嚐@斯提維斯的葡萄酒，汝將大飽口福。」",
+   "zh": "「若汝未曾品嚐@Stivius（斯提）維斯的葡萄酒，汝將大飽口福。」",
    "note": ""
   },
   {
    "offset": 2220,
    "len": 51,
    "en": "\"He's the alchemist who lives on @Iver's Rounding.\"",
-   "zh": "「他是住在@艾佛圓角的鍊金術士。」",
+   "zh": "「他是住在@Iver（艾佛）圓角的鍊金術士。」",
    "note": ""
   },
   {
@@ -291,14 +291,14 @@
    "offset": 2738,
    "len": 87,
    "en": "\"He lay so quiet, no sign of pain on his face, and just an @amulet in his bloody hand.\"",
-   "zh": "「他靜靜地躺著，臉上毫無痛苦之色，血手中只握著一枚@護符。」",
+   "zh": "「他靜靜地躺著，臉上毫無痛苦之色，血手中只握著一枚@amulet（護符）。」",
    "note": ""
   },
   {
    "offset": 2827,
    "len": 65,
    "en": "He looks at the floor and mumbles. \"@Quen, I miss you, old mate.\"",
-   "zh": "他低頭喃喃自語。「@昆，我想念你啊，老夥伴。」",
+   "zh": "他低頭喃喃自語。「@Quen（昆），我想念你啊，老夥伴。」",
    "note": ""
   },
   {
@@ -319,7 +319,7 @@
    "offset": 3019,
    "len": 83,
    "en": "\"Marta and I took care of him when @Mondain's henchmen killed his wife @Elisabeth.\"",
-   "zh": "「當@蒙丹的爪牙殺了他的妻子@伊麗莎貝絲時，瑪塔和我照顧了他。」",
+   "zh": "「當@Mondain（蒙丹）的爪牙殺了他的妻子@Elisabeth（伊麗）莎貝絲時，瑪塔和我照顧了他。」",
    "note": ""
   },
   {
@@ -333,7 +333,7 @@
    "offset": 3208,
    "len": 84,
    "en": "\"Neither I nor the @travelers staying here heard anything the night he was @killed.\"",
-   "zh": "「他遇害那夜，我和住在這裡的@旅人都沒有聽到任何動靜。」",
+   "zh": "「他遇害那夜，我和住在這裡的@travelers（旅人）都沒有聽到任何動靜。」",
    "note": ""
   },
   {
@@ -368,7 +368,7 @@
    "offset": 3675,
    "len": 92,
    "en": "\"They went around asking for some person named Relthor, or @Renthar... something like that.\"",
-   "zh": "「他們四處詢問一個名叫瑞索爾，或是@瑞塔爾……諸如此類的人。」",
+   "zh": "「他們四處詢問一個名叫瑞索爾，或是@Renthar（瑞塔）爾……諸如此類的人。」",
    "note": ""
   },
   {
@@ -403,21 +403,21 @@
    "offset": 4093,
    "len": 62,
    "en": "\"She turned and handed @something to her crying little @girl.\"",
-   "zh": "「她轉身將@某物遞給了哭泣的小@女兒。」",
+   "zh": "「她轉身將@something（某物）遞給了哭泣的小@girl（女兒）。」",
    "note": ""
   },
   {
    "offset": 4158,
    "len": 50,
    "en": "\"Then she @boarded the skiff, and they were gone.\"",
-   "zh": "「而後她@登上小船，他們便離去了。」",
+   "zh": "「而後她@boarded（登）上小船，他們便離去了。」",
    "note": ""
   },
   {
    "offset": 4240,
    "len": 50,
    "en": "\"She, like her mother, is strong in her @beliefs.\"",
-   "zh": "「她如其母一般，@信念堅定。」",
+   "zh": "「她如其母一般，@beliefs（信念）堅定。」",
    "note": ""
   },
   {
@@ -452,7 +452,7 @@
    "offset": 4727,
    "len": 93,
    "en": "Speaking again, his voice is a whisper. \"They found her body along the @coast south of here.\"",
-   "zh": "再度開口，他的聲音已成低語。「他們在此地南方的@海岸邊找到了她的遺體。」",
+   "zh": "再度開口，他的聲音已成低語。「他們在此地南方的@coast（海岸）邊找到了她的遺體。」",
    "note": ""
   },
   {
@@ -564,7 +564,7 @@
    "offset": 5934,
    "len": 45,
    "en": "\"He should spend some time in New @Magincia.\"",
-   "zh": "「他應該去新@馬精西亞待一段時間。」",
+   "zh": "「他應該去新@Magincia（馬精）西亞待一段時間。」",
    "note": ""
   },
   {
@@ -620,14 +620,14 @@
    "offset": 6502,
    "len": 110,
    "en": "\"Had he been raised by someone with a good heart, he might have been one of Lord @British's greatest knights.\"",
-   "zh": "「若他由善良之人撫養成人，或許早已成為不列顛@陛下最傑出的騎士之一。」",
+   "zh": "「若他由善良之人撫養成人，或許早已成為不列顛@British（陛）下最傑出的騎士之一。」",
    "note": ""
   },
   {
    "offset": 6629,
    "len": 72,
    "en": "\"I'm just an innkeep. Ask @Yorl: his father used to sail for our ruler.\"",
-   "zh": "「我不過是個客棧掌柜。去問@尤爾吧，他父親昔日曾為吾王效命航海。」",
+   "zh": "「我不過是個客棧掌柜。去問@Yorl（尤爾）吧，他父親昔日曾為吾王效命航海。」",
    "note": ""
   },
   {

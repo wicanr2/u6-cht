@@ -1,623 +1,623 @@
 {
-  "_meta": {
-    "npc": "Kytyn",
-    "role": "不列顛城博物館（@oddities 奇珍館）館長，戴左手皮手套，原為訓鷹師（falconer），由不列顛王任命為館長；介紹館中展品（巨石碑、能量場、永動之機、Zog 之骨、奧泉、龍頭翼蛋）；告別時會發出貓似的呼嚕聲（致敬其名 Kytyn=kitten 諧音）。"
+ "_meta": {
+  "npc": "Kytyn",
+  "role": "不列顛城博物館（@oddities 奇珍館）館長，戴左手皮手套，原為訓鷹師（falconer），由不列顛王任命為館長；介紹館中展品（巨石碑、能量場、永動之機、Zog 之骨、奧泉、龍頭翼蛋）；告別時會發出貓似的呼嚕聲（致敬其名 Kytyn=kitten 諧音）。"
+ },
+ "translations": [
+  {
+   "offset": 2,
+   "len": 5,
+   "en": "Kytyn",
+   "zh": "凱婷",
+   "zh_bytes": 4,
+   "note": "人名音譯；Kytyn 諧音 kitten（小貓）"
   },
-  "translations": [
-    {
-      "offset": 2,
-      "len": 5,
-      "en": "Kytyn",
-      "zh": "凱婷",
-      "zh_bytes": 4,
-      "note": "人名音譯；Kytyn 諧音 kitten（小貓）"
-    },
-    {
-      "offset": 8,
-      "len": 57,
-      "en": "a slender woman wearing a leather glove on her left hand.",
-      "zh": "一名纖瘦的女子，左手戴著一隻皮手套。",
-      "zh_bytes": 36,
-      "note": "描述句保留三特徵"
-    },
-    {
-      "offset": 68,
-      "len": 24,
-      "en": "\"Hello and welcome, $G!\"",
-      "zh": "「您好，$G，歡迎光臨！」",
-      "zh_bytes": 24,
-      "note": "保留 $G"
-    },
-    {
-      "offset": 95,
-      "len": 4,
-      "en": "name",
-      "zh": "name",
-      "zh_bytes": 4,
-      "note": "@name keyword 內部碼保留"
-    },
-    {
-      "offset": 100,
-      "len": 74,
-      "en": "\"My name is Kytyn.\" She smiles. \"Perhaps that explains why I like @birds.\"",
-      "zh": "「我是凱婷。」她微笑道，「這大概便是我愛@飛禽的原因。」",
-      "zh_bytes": 55,
-      "note": "@birds→@飛禽；避『許』trail-5C"
-    },
-    {
-      "offset": 186,
-      "len": 9,
-      "en": "glov,bird",
-      "zh": "glov,bird",
-      "zh_bytes": 9,
-      "note": "keyword 群組內部碼保留"
-    },
-    {
-      "offset": 196,
-      "len": 27,
-      "en": "\"I used to be a @falconer.\"",
-      "zh": "「我從前是@訓鷹師。」",
-      "zh_bytes": 21,
-      "note": "@falconer→@訓鷹師"
-    },
-    {
-      "offset": 229,
-      "len": 4,
-      "en": "falc",
-      "zh": "falc",
-      "zh_bytes": 4,
-      "note": "@falconer keyword 內部碼保留"
-    },
-    {
-      "offset": 234,
-      "len": 68,
-      "en": "\"That was before Lord @British appointed me to my current position.\"",
-      "zh": "「那是在不列顛@王任命我擔任此職之前。」",
-      "zh_bytes": 39,
-      "note": "@British→@王（內部觸發 brit 保留 ASCII）"
-    },
-    {
-      "offset": 308,
-      "len": 9,
-      "en": "lord,brit",
-      "zh": "lord,brit",
-      "zh_bytes": 9,
-      "note": "keyword 群組內部碼保留"
-    },
-    {
-      "offset": 318,
-      "len": 37,
-      "en": "\"A true gentleman if ever I saw one.\"",
-      "zh": "「真是我所見過最有風範的紳士。」",
-      "zh_bytes": 32,
-      "note": ""
-    },
-    {
-      "offset": 361,
-      "len": 13,
-      "en": "job,appo,posi",
-      "zh": "job,appo,posi",
-      "zh_bytes": 13,
-      "note": "keyword 群組內部碼保留"
-    },
-    {
-      "offset": 375,
-      "len": 52,
-      "en": "\"I'm the curator of the royal @museum of @oddities.\"",
-      "zh": "「我是王家@奇珍@博物館之館長。」",
-      "zh_bytes": 32,
-      "note": "@museum→@博物館；@oddities→@奇珍"
-    },
-    {
-      "offset": 433,
-      "len": 9,
-      "en": "roya,muse",
-      "zh": "roya,muse",
-      "zh_bytes": 9,
-      "note": "keyword 群組內部碼保留"
-    },
-    {
-      "offset": 443,
-      "len": 97,
-      "en": "\"It's just one of the @projects Lord British has funded to provide a better life for his people.\"",
-      "zh": "「這只是不列顛王為謀百姓福祉所資助的@志業之一。」",
-      "zh_bytes": 49,
-      "note": "@projects→@志業"
-    },
-    {
-      "offset": 546,
-      "len": 19,
-      "en": "proj,fund,bett,life",
-      "zh": "proj,fund,bett,life",
-      "zh_bytes": 19,
-      "note": "keyword 群組內部碼保留"
-    },
-    {
-      "offset": 566,
-      "len": 81,
-      "en": "\"He also established the @conservatory that shares the building with the museum.\"",
-      "zh": "「陛下亦設立@音樂院，與博物館共用此樓。」",
-      "zh_bytes": 41,
-      "note": "@conservatory→@音樂院（glossary）"
-    },
-    {
-      "offset": 650,
-      "len": 55,
-      "en": "\"The @roads that span the realm are his doing as well.\"",
-      "zh": "「橫貫此境的@道路亦是他所興建。」",
-      "zh_bytes": 33,
-      "note": "@roads→@道路；避『功』trail-5C"
-    },
-    {
-      "offset": 711,
-      "len": 14,
-      "en": "cons,shar,buil",
-      "zh": "cons,shar,buil",
-      "zh_bytes": 14,
-      "note": "keyword 群組內部碼保留"
-    },
-    {
-      "offset": 726,
-      "len": 65,
-      "en": "\"Sometimes I can hear their @music drifting through the walls...\"",
-      "zh": "「有時可聽見@樂聲穿牆而過…」",
-      "zh_bytes": 29,
-      "note": "@music→@樂聲"
-    },
-    {
-      "offset": 794,
-      "len": 60,
-      "en": "\"Usually that noisy, crackling field drowns it out, though.\"",
-      "zh": "「但通常被那嘈雜霹啪作響的能量場掩沒了。」",
-      "zh_bytes": 42,
-      "note": "避『蓋』trail-5C"
-    },
-    {
-      "offset": 860,
-      "len": 14,
-      "en": "musi,drif,hear",
-      "zh": "musi,drif,hear",
-      "zh_bytes": 14,
-      "note": "keyword 群組內部碼保留"
-    },
-    {
-      "offset": 875,
-      "len": 19,
-      "en": "\"It's very pretty.\"",
-      "zh": "「十分動聽。」",
-      "zh_bytes": 14,
-      "note": ""
-    },
-    {
-      "offset": 900,
-      "len": 14,
-      "en": "road,real,netw",
-      "zh": "road,real,netw",
-      "zh_bytes": 14,
-      "note": "keyword 群組內部碼保留"
-    },
-    {
-      "offset": 915,
-      "len": 36,
-      "en": "\"@Travel is much easier these days.\"",
-      "zh": "「@旅行近來輕鬆多了。」",
-      "zh_bytes": 23,
-      "note": "@Travel→@旅行"
-    },
-    {
-      "offset": 957,
-      "len": 4,
-      "en": "trav",
-      "zh": "trav",
-      "zh_bytes": 4,
-      "note": "@travel keyword 內部碼保留"
-    },
-    {
-      "offset": 962,
-      "len": 18,
-      "en": "\"That's for sure.\"",
-      "zh": "「確實如此。」",
-      "zh_bytes": 14,
-      "note": ""
-    },
-    {
-      "offset": 986,
-      "len": 8,
-      "en": "cura,odd",
-      "zh": "cura,odd",
-      "zh_bytes": 8,
-      "note": "keyword 群組內部碼保留"
-    },
-    {
-      "offset": 995,
-      "len": 70,
-      "en": "\"I can tell you more about any of the @exhibits you're interested in.\"",
-      "zh": "「汝若對任何@展品有興趣，我可詳述。」",
-      "zh_bytes": 37,
-      "note": "@exhibits→@展品"
-    },
-    {
-      "offset": 1071,
-      "len": 9,
-      "en": "exhi,inte",
-      "zh": "exhi,inte",
-      "zh_bytes": 9,
-      "note": "keyword 群組內部碼保留"
-    },
-    {
-      "offset": 1081,
-      "len": 157,
-      "en": "\"We have the @monolith, the @energy field, the perpetual motion @machine, the @bones of Zog, the mystery @fountain, and the @dragon's head, wings, and egg.\"*",
-      "zh": "「我們有@巨石碑、@能量場、永動之@機、Zog 的@骨骸、奧@泉，以及@龍的頭、翼、與蛋。」*",
-      "zh_bytes": 83,
-      "note": "@monolith→@巨石碑；@energy→@能量；@machine→@機；@bones→@骨骸；@fountain→@泉；@dragon→@龍；保留 Zog 不譯與末 *"
-    },
-    {
-      "offset": 1240,
-      "len": 35,
-      "en": "\"Which one were you curious about?\"",
-      "zh": "「汝對何者感興趣？」",
-      "zh_bytes": 20,
-      "note": ""
-    },
-    {
-      "offset": 1281,
-      "len": 8,
-      "en": "bone,zog",
-      "zh": "bone,zog",
-      "zh_bytes": 8,
-      "note": "keyword 群組內部碼保留"
-    },
-    {
-      "offset": 1290,
-      "len": 89,
-      "en": "\"This skeleton seems to be about ten times older than any other ever found in Britannia.\"",
-      "zh": "「此骸骨看來比不列顛尼亞其他遺骨皆要古老十倍。」",
-      "zh_bytes": 48,
-      "note": "Britannia→不列顛尼亞"
-    },
-    {
-      "offset": 1382,
-      "len": 81,
-      "en": "\"Surely it has much to tell us about our origins, if we only knew what it meant!\"",
-      "zh": "「它必有諸多吾人起源之祕可告，倘吾人能解其意！」",
-      "zh_bytes": 48,
-      "note": ""
-    },
-    {
-      "offset": 1469,
-      "len": 18,
-      "en": "drag,head,wing,egg",
-      "zh": "drag,head,wing,egg",
-      "zh_bytes": 18,
-      "note": "keyword 群組內部碼保留"
-    },
-    {
-      "offset": 1488,
-      "len": 50,
-      "en": "\"Someone named '@Gertan' donated all those parts.\"",
-      "zh": "「一位名為『@葛爾坦』者捐獻了所有部位。」",
-      "zh_bytes": 41,
-      "note": "@Gertan→@葛爾坦（glossary）"
-    },
-    {
-      "offset": 1541,
-      "len": 59,
-      "en": "\"I think he said something about a dragon named 'Freitag'.\"",
-      "zh": "「他似乎提到一條名為『弗瑞塔』的龍。」",
-      "zh_bytes": 38,
-      "note": "Freitag→弗瑞塔（glossary）"
-    },
-    {
-      "offset": 1606,
-      "len": 9,
-      "en": "gert,frei",
-      "zh": "gert,frei",
-      "zh_bytes": 9,
-      "note": "keyword 群組內部碼保留"
-    },
-    {
-      "offset": 1616,
-      "len": 50,
-      "en": "\"If you want to ask Gertan, I think he's in Cove.\"",
-      "zh": "「汝若欲詢葛爾坦，我想他在海灣鎮。」",
-      "zh_bytes": 36,
-      "note": "Cove→海灣鎮（glossary）"
-    },
-    {
-      "offset": 1672,
-      "len": 9,
-      "en": "myst,foun",
-      "zh": "myst,foun",
-      "zh_bytes": 9,
-      "note": "keyword 群組內部碼保留"
-    },
-    {
-      "offset": 1682,
-      "len": 71,
-      "en": "\"Somebody found a huge boulder with a jet of water spraying out of it.\"",
-      "zh": "「有人尋得一塊巨岩，其中噴湧出一股水柱。」",
-      "zh_bytes": 42,
-      "note": ""
-    },
-    {
-      "offset": 1755,
-      "len": 132,
-      "en": "*\"We had it magically teleported here, buried with its surface flush with the ground, and then we built this building on top of it.\"",
-      "zh": "*「我們以法術將之傳送至此，將表面與地面齊平埋下，再於其上建此樓。」",
-      "zh_bytes": 67,
-      "note": "保留 * 前綴"
-    },
-    {
-      "offset": 1890,
-      "len": 71,
-      "en": "\"Of course we left a hole in the floor for the water to spray through.\"",
-      "zh": "「當然，地面留有一孔讓水柱噴湧而出。」",
-      "zh_bytes": 38,
-      "note": ""
-    },
-    {
-      "offset": 1964,
-      "len": 106,
-      "en": "\"I often drink from it when I'm thirsty. The water is quite good, but there's something strange about it.\"",
-      "zh": "「我口渴時常飲此水。水質甚佳，但有些古怪之處。」",
-      "zh_bytes": 48,
-      "note": ""
-    },
-    {
-      "offset": 2073,
-      "len": 50,
-      "en": "\"It vanishes somehow before it hits the ground...\"",
-      "zh": "「水在落地前便不知所終地消失了…」",
-      "zh_bytes": 34,
-      "note": ""
-    },
-    {
-      "offset": 2129,
-      "len": 19,
-      "en": "perp,moti,mach,gear",
-      "zh": "perp,moti,mach,gear",
-      "zh_bytes": 19,
-      "note": "keyword 群組內部碼保留"
-    },
-    {
-      "offset": 2149,
-      "len": 143,
-      "en": "\"That's a very curious device. The motion of each gear turns another, until eventually the movement is propagated back to the same gear again.\"",
-      "zh": "「那是極奇妙的裝置。每一齒輪之動帶轉另一輪，運動終又傳回最初的齒輪。」",
-      "zh_bytes": 70,
-      "note": ""
-    },
-    {
-      "offset": 2295,
-      "len": 39,
-      "en": "\"There's one thing I can't figure out.\"",
-      "zh": "「有一事我始終想不通。」",
-      "zh_bytes": 24,
-      "note": ""
-    },
-    {
-      "offset": 2337,
-      "len": 96,
-      "en": "\"We've made plans of the device, and I can't see how they started it moving in the first place.\"",
-      "zh": "「我們已繪此裝置之圖，卻看不出當初是如何使其動起來的。」",
-      "zh_bytes": 56,
-      "note": ""
-    },
-    {
-      "offset": 2436,
-      "len": 72,
-      "en": "\"None of the gears would turn unless all the others were already going.\"",
-      "zh": "「除非其餘齒輪皆已在動，無一輪能獨自轉動。」",
-      "zh_bytes": 44,
-      "note": ""
-    },
-    {
-      "offset": 2511,
-      "len": 63,
-      "en": "\"What's worse, the motions serve to hold the machine together.\"",
-      "zh": "「更糟的是，這些運動正是維繫整機之力。」",
-      "zh_bytes": 40,
-      "note": ""
-    },
-    {
-      "offset": 2577,
-      "len": 97,
-      "en": "\"If the gears were still, the whole thing would fall apart! How it was built is quite a mystery.\"",
-      "zh": "「齒輪若靜止，整機便散落！它如何被造出，實是一謎。」",
-      "zh_bytes": 52,
-      "note": ""
-    },
-    {
-      "offset": 2680,
-      "len": 19,
-      "en": "ener,fiel,nois,crac",
-      "zh": "ener,fiel,nois,crac",
-      "zh_bytes": 19,
-      "note": "keyword 群組內部碼保留"
-    },
-    {
-      "offset": 2700,
-      "len": 44,
-      "en": "\"The field is generated by a curious spell.\"",
-      "zh": "「此場由一道奇異法術所生。」",
-      "zh_bytes": 28,
-      "note": ""
-    },
-    {
-      "offset": 2747,
-      "len": 122,
-      "en": "\"By some process not yet understood, it converts magical energy into electrical energy, producing a continuous discharge.\"",
-      "zh": "「以某種尚未明的過程，將魔力轉為電力，產生連續的放電。」",
-      "zh_bytes": 56,
-      "note": ""
-    },
-    {
-      "offset": 2872,
-      "len": 99,
-      "en": "\"If we understood this process better, it would probably lead to all sorts of useful applications.\"",
-      "zh": "「若能更深明此過程，當可帶來諸多有用之應用。」",
-      "zh_bytes": 46,
-      "note": ""
-    },
-    {
-      "offset": 2977,
-      "len": 4,
-      "en": "mono",
-      "zh": "mono",
-      "zh_bytes": 4,
-      "note": "@monolith keyword 內部碼保留"
-    },
-    {
-      "offset": 2982,
-      "len": 112,
-      "en": "\"I can't tell you much about that. Lord British donated it to the museum, but I can't get him to talk about it.\"",
-      "zh": "「此事我所知無多。是不列顛王將之捐予博物館，但他不願多談。」",
-      "zh_bytes": 60,
-      "note": ""
-    },
-    {
-      "offset": 3097,
-      "len": 75,
-      "en": "\"From what little he's said, I think it's an artifact from his home world.\"",
-      "zh": "「依他寥寥數語推之，似是來自他故鄉世界的遺物。」",
-      "zh_bytes": 48,
-      "note": "home world→故鄉世界（指地球）"
-    },
-    {
-      "offset": 3178,
-      "len": 9,
-      "en": "libr,lyca",
-      "zh": "libr,lyca",
-      "zh_bytes": 9,
-      "note": "keyword 群組內部碼保留"
-    },
-    {
-      "offset": 3188,
-      "len": 77,
-      "en": "\"There is a great deal of knowledge available there for the serious scholar.\"",
-      "zh": "「彼處對於認真治學者，有大量學問可得。」",
-      "zh_bytes": 40,
-      "note": ""
-    },
-    {
-      "offset": 3271,
-      "len": 3,
-      "en": "bye",
-      "zh": "bye",
-      "zh_bytes": 3,
-      "note": "@bye keyword 內部碼保留"
-    },
-    {
-      "offset": 3275,
-      "len": 83,
-      "en": "\"Be sure to have a look at our paintings while you're here. And come again soon...\"",
-      "zh": "「來時務必觀賞我們的畫作。歡迎不日再臨…」",
-      "zh_bytes": 42,
-      "note": ""
-    },
-    {
-      "offset": 3361,
-      "len": 70,
-      "en": "\"We're expecting some unicorn horns, and a Klein bottle from Trinsic.\"",
-      "zh": "「我們正等候些獨角獸角，以及一只來自崔西克的克萊因瓶。」",
-      "zh_bytes": 56,
-      "note": "Trinsic→崔西克；Klein bottle→克萊因瓶（拓樸學經典）"
-    },
-    {
-      "offset": 3434,
-      "len": 4,
-      "en": "purr",
-      "zh": "purr",
-      "zh_bytes": 4,
-      "note": "@purr keyword 內部碼保留"
-    },
-    {
-      "offset": 3439,
-      "len": 69,
-      "en": "She favors you with a deep, throaty purr that sounds just like a cat.",
-      "zh": "她對汝發出一聲低沉、喉間的呼嚕，恰似貓鳴。",
-      "zh_bytes": 42,
-      "note": "Kytyn=kitten 諧音；呼嚕貓鳴致敬"
-    },
-    {
-      "offset": 3516,
-      "len": 62,
-      "en": "\"I can't help you with that. Try the @library at the Lycaeum.\"",
-      "zh": "「此事我幫不上忙，請去學苑的@藏書閣試試。」",
-      "zh_bytes": 43,
-      "note": "@library→@藏書閣；Lycaeum→學苑（glossary）"
-    }
-  ],
-  "keyword_mapping": {
-    "@birds": "@飛禽",
-    "@falconer": "@訓鷹師",
-    "@British": "@王（內部碼 brit 保留 ASCII）",
-    "@museum": "@博物館",
-    "@oddities": "@奇珍",
-    "@projects": "@志業",
-    "@conservatory": "@音樂院",
-    "@roads": "@道路",
-    "@music": "@樂聲",
-    "@travel": "@旅行",
-    "@exhibits": "@展品",
-    "@monolith": "@巨石碑",
-    "@energy": "@能量",
-    "@machine": "@機",
-    "@bones": "@骨骸",
-    "@fountain": "@泉",
-    "@dragon": "@龍",
-    "@Gertan": "@葛爾坦",
-    "@library": "@藏書閣",
-    "@name": "@名字（內部碼 name 保留 ASCII）",
-    "@job": "@職業（內部碼 job 保留 ASCII）",
-    "@bye": "@再見（內部碼 bye 保留 ASCII）",
-    "@purr": "@呼嚕（內部碼 purr 保留 ASCII）"
+  {
+   "offset": 8,
+   "len": 57,
+   "en": "a slender woman wearing a leather glove on her left hand.",
+   "zh": "一名纖瘦的女子，左手戴著一隻皮手套。",
+   "zh_bytes": 36,
+   "note": "描述句保留三特徵"
   },
-  "glossary_additions": {
-    "people": {
-      "Kytyn": "凱婷"
-    },
-    "concepts": {
-      "curator": "館長",
-      "royal museum of oddities": "王家奇珍博物館",
-      "falconer": "訓鷹師",
-      "exhibit": "展品",
-      "bones of Zog": "Zog 之骨骸",
-      "Klein bottle": "克萊因瓶",
-      "unicorn horn": "獨角獸角",
-      "discharge": "放電",
-      "gear": "齒輪",
-      "boulder": "巨岩",
-      "home world": "故鄉世界",
-      "paintings": "畫作"
-    }
+  {
+   "offset": 68,
+   "len": 24,
+   "en": "\"Hello and welcome, $G!\"",
+   "zh": "「您好，$G，歡迎光臨！」",
+   "zh_bytes": 24,
+   "note": "保留 $G"
   },
-  "riddles_additions": [
-    {
-      "npc": "Kytyn",
-      "key": "KYTYN_PURR",
-      "en": "She favors you with a deep, throaty purr that sounds just like a cat.",
-      "zh": "她對汝發出一聲低沉、喉間的呼嚕，恰似貓鳴。",
-      "ref": "Kytyn 名稱諧音 kitten（小貓）；當玩家輸入 @purr 時觸發此貓化反應",
-      "strategy": "保留呼嚕貓鳴的肢體語言；中文不可直接諧音音譯但保留意象"
-    },
-    {
-      "npc": "Kytyn",
-      "key": "KLEIN_BOTTLE",
-      "en": "a Klein bottle from Trinsic",
-      "zh": "一只來自崔西克的克萊因瓶",
-      "ref": "Klein bottle 是拓樸學經典——只有一面、無內外之別的玻璃瓶；U6 彩蛋",
-      "strategy": "直譯數學專名"
-    },
-    {
-      "npc": "Kytyn",
-      "key": "MONOLITH_HOMEWORLD",
-      "en": "I think it's an artifact from his home world.",
-      "zh": "似是來自他故鄉世界的遺物。",
-      "ref": "暗示 Lord British（英國 Richard Garriott 的角色）來自地球；2001 太空漫遊 monolith 致敬",
-      "strategy": "直譯保留宇宙起源神祕感；home world 明指地球但不點破"
-    }
-  ],
-  "translator_notes": "Kytyn 是博物館（@oddities 奇珍館）館長，名稱諧音 kitten。她戴左手皮手套是從前訓鷹師職業遺跡。展品列表（offset 1081, len=157）是 keyword hub：@monolith @energy @machine @bones @fountain @dragon 各觸發後續解說。保留 Zog 不譯（U6 設定中遠古生物學名）。Klein bottle 是拓樸學雙關彩蛋。Lord British 之 @British keyword 內部碼 brit 保留 ASCII，但 keyword 觸發後可看到中文『王』。0 OVERFLOW。"
+  {
+   "offset": 95,
+   "len": 4,
+   "en": "name",
+   "zh": "name",
+   "zh_bytes": 4,
+   "note": "@name keyword 內部碼保留"
+  },
+  {
+   "offset": 100,
+   "len": 74,
+   "en": "\"My name is Kytyn.\" She smiles. \"Perhaps that explains why I like @birds.\"",
+   "zh": "「我是凱婷。」她微笑道，「這大概便是我愛@birds（飛禽）的原因。」",
+   "zh_bytes": 55,
+   "note": "@birds→@飛禽；避『許』trail-5C"
+  },
+  {
+   "offset": 186,
+   "len": 9,
+   "en": "glov,bird",
+   "zh": "glov,bird",
+   "zh_bytes": 9,
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "offset": 196,
+   "len": 27,
+   "en": "\"I used to be a @falconer.\"",
+   "zh": "「我從前是@falconer（訓鷹）師。」",
+   "zh_bytes": 21,
+   "note": "@falconer→@訓鷹師"
+  },
+  {
+   "offset": 229,
+   "len": 4,
+   "en": "falc",
+   "zh": "falc",
+   "zh_bytes": 4,
+   "note": "@falconer keyword 內部碼保留"
+  },
+  {
+   "offset": 234,
+   "len": 68,
+   "en": "\"That was before Lord @British appointed me to my current position.\"",
+   "zh": "「那是在不列顛@British（王任）命我擔任此職之前。」",
+   "zh_bytes": 39,
+   "note": "@British→@王（內部觸發 brit 保留 ASCII）"
+  },
+  {
+   "offset": 308,
+   "len": 9,
+   "en": "lord,brit",
+   "zh": "lord,brit",
+   "zh_bytes": 9,
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "offset": 318,
+   "len": 37,
+   "en": "\"A true gentleman if ever I saw one.\"",
+   "zh": "「真是我所見過最有風範的紳士。」",
+   "zh_bytes": 32,
+   "note": ""
+  },
+  {
+   "offset": 361,
+   "len": 13,
+   "en": "job,appo,posi",
+   "zh": "job,appo,posi",
+   "zh_bytes": 13,
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "offset": 375,
+   "len": 52,
+   "en": "\"I'm the curator of the royal @museum of @oddities.\"",
+   "zh": "「我是王家@museum（奇珍）@oddities（博物）館之館長。」",
+   "zh_bytes": 32,
+   "note": "@museum→@博物館；@oddities→@奇珍"
+  },
+  {
+   "offset": 433,
+   "len": 9,
+   "en": "roya,muse",
+   "zh": "roya,muse",
+   "zh_bytes": 9,
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "offset": 443,
+   "len": 97,
+   "en": "\"It's just one of the @projects Lord British has funded to provide a better life for his people.\"",
+   "zh": "「這只是不列顛王為謀百姓福祉所資助的@projects（志業）之一。」",
+   "zh_bytes": 49,
+   "note": "@projects→@志業"
+  },
+  {
+   "offset": 546,
+   "len": 19,
+   "en": "proj,fund,bett,life",
+   "zh": "proj,fund,bett,life",
+   "zh_bytes": 19,
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "offset": 566,
+   "len": 81,
+   "en": "\"He also established the @conservatory that shares the building with the museum.\"",
+   "zh": "「陛下亦設立@conservatory（音樂院）院，與博物館共用此樓。」",
+   "zh_bytes": 41,
+   "note": "@conservatory→@音樂院（glossary）"
+  },
+  {
+   "offset": 650,
+   "len": 55,
+   "en": "\"The @roads that span the realm are his doing as well.\"",
+   "zh": "「橫貫此境的@roads（道路）亦是他所興建。」",
+   "zh_bytes": 33,
+   "note": "@roads→@道路；避『功』trail-5C"
+  },
+  {
+   "offset": 711,
+   "len": 14,
+   "en": "cons,shar,buil",
+   "zh": "cons,shar,buil",
+   "zh_bytes": 14,
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "offset": 726,
+   "len": 65,
+   "en": "\"Sometimes I can hear their @music drifting through the walls...\"",
+   "zh": "「有時可聽見@music（樂聲）穿牆而過…」",
+   "zh_bytes": 29,
+   "note": "@music→@樂聲"
+  },
+  {
+   "offset": 794,
+   "len": 60,
+   "en": "\"Usually that noisy, crackling field drowns it out, though.\"",
+   "zh": "「但通常被那嘈雜霹啪作響的能量場掩沒了。」",
+   "zh_bytes": 42,
+   "note": "避『蓋』trail-5C"
+  },
+  {
+   "offset": 860,
+   "len": 14,
+   "en": "musi,drif,hear",
+   "zh": "musi,drif,hear",
+   "zh_bytes": 14,
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "offset": 875,
+   "len": 19,
+   "en": "\"It's very pretty.\"",
+   "zh": "「十分動聽。」",
+   "zh_bytes": 14,
+   "note": ""
+  },
+  {
+   "offset": 900,
+   "len": 14,
+   "en": "road,real,netw",
+   "zh": "road,real,netw",
+   "zh_bytes": 14,
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "offset": 915,
+   "len": 36,
+   "en": "\"@Travel is much easier these days.\"",
+   "zh": "「@Travel（旅行）近來輕鬆多了。」",
+   "zh_bytes": 23,
+   "note": "@Travel→@旅行"
+  },
+  {
+   "offset": 957,
+   "len": 4,
+   "en": "trav",
+   "zh": "trav",
+   "zh_bytes": 4,
+   "note": "@travel keyword 內部碼保留"
+  },
+  {
+   "offset": 962,
+   "len": 18,
+   "en": "\"That's for sure.\"",
+   "zh": "「確實如此。」",
+   "zh_bytes": 14,
+   "note": ""
+  },
+  {
+   "offset": 986,
+   "len": 8,
+   "en": "cura,odd",
+   "zh": "cura,odd",
+   "zh_bytes": 8,
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "offset": 995,
+   "len": 70,
+   "en": "\"I can tell you more about any of the @exhibits you're interested in.\"",
+   "zh": "「汝若對任何@exhibits（展品）有興趣，我可詳述。」",
+   "zh_bytes": 37,
+   "note": "@exhibits→@展品"
+  },
+  {
+   "offset": 1071,
+   "len": 9,
+   "en": "exhi,inte",
+   "zh": "exhi,inte",
+   "zh_bytes": 9,
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "offset": 1081,
+   "len": 157,
+   "en": "\"We have the @monolith, the @energy field, the perpetual motion @machine, the @bones of Zog, the mystery @fountain, and the @dragon's head, wings, and egg.\"*",
+   "zh": "「我們有@monolith（巨石）碑、@energy（能量）場、永動之@machine（機）、Zog 的@bones（骨骸）、奧@fountain（泉），以及@dragon（龍）的頭、翼、與蛋。」*",
+   "zh_bytes": 83,
+   "note": "@monolith→@巨石碑；@energy→@能量；@machine→@機；@bones→@骨骸；@fountain→@泉；@dragon→@龍；保留 Zog 不譯與末 *"
+  },
+  {
+   "offset": 1240,
+   "len": 35,
+   "en": "\"Which one were you curious about?\"",
+   "zh": "「汝對何者感興趣？」",
+   "zh_bytes": 20,
+   "note": ""
+  },
+  {
+   "offset": 1281,
+   "len": 8,
+   "en": "bone,zog",
+   "zh": "bone,zog",
+   "zh_bytes": 8,
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "offset": 1290,
+   "len": 89,
+   "en": "\"This skeleton seems to be about ten times older than any other ever found in Britannia.\"",
+   "zh": "「此骸骨看來比不列顛尼亞其他遺骨皆要古老十倍。」",
+   "zh_bytes": 48,
+   "note": "Britannia→不列顛尼亞"
+  },
+  {
+   "offset": 1382,
+   "len": 81,
+   "en": "\"Surely it has much to tell us about our origins, if we only knew what it meant!\"",
+   "zh": "「它必有諸多吾人起源之祕可告，倘吾人能解其意！」",
+   "zh_bytes": 48,
+   "note": ""
+  },
+  {
+   "offset": 1469,
+   "len": 18,
+   "en": "drag,head,wing,egg",
+   "zh": "drag,head,wing,egg",
+   "zh_bytes": 18,
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "offset": 1488,
+   "len": 50,
+   "en": "\"Someone named '@Gertan' donated all those parts.\"",
+   "zh": "「一位名為『@Gertan（葛爾）坦』者捐獻了所有部位。」",
+   "zh_bytes": 41,
+   "note": "@Gertan→@葛爾坦（glossary）"
+  },
+  {
+   "offset": 1541,
+   "len": 59,
+   "en": "\"I think he said something about a dragon named 'Freitag'.\"",
+   "zh": "「他似乎提到一條名為『弗瑞塔』的龍。」",
+   "zh_bytes": 38,
+   "note": "Freitag→弗瑞塔（glossary）"
+  },
+  {
+   "offset": 1606,
+   "len": 9,
+   "en": "gert,frei",
+   "zh": "gert,frei",
+   "zh_bytes": 9,
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "offset": 1616,
+   "len": 50,
+   "en": "\"If you want to ask Gertan, I think he's in Cove.\"",
+   "zh": "「汝若欲詢葛爾坦，我想他在海灣鎮。」",
+   "zh_bytes": 36,
+   "note": "Cove→海灣鎮（glossary）"
+  },
+  {
+   "offset": 1672,
+   "len": 9,
+   "en": "myst,foun",
+   "zh": "myst,foun",
+   "zh_bytes": 9,
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "offset": 1682,
+   "len": 71,
+   "en": "\"Somebody found a huge boulder with a jet of water spraying out of it.\"",
+   "zh": "「有人尋得一塊巨岩，其中噴湧出一股水柱。」",
+   "zh_bytes": 42,
+   "note": ""
+  },
+  {
+   "offset": 1755,
+   "len": 132,
+   "en": "*\"We had it magically teleported here, buried with its surface flush with the ground, and then we built this building on top of it.\"",
+   "zh": "*「我們以法術將之傳送至此，將表面與地面齊平埋下，再於其上建此樓。」",
+   "zh_bytes": 67,
+   "note": "保留 * 前綴"
+  },
+  {
+   "offset": 1890,
+   "len": 71,
+   "en": "\"Of course we left a hole in the floor for the water to spray through.\"",
+   "zh": "「當然，地面留有一孔讓水柱噴湧而出。」",
+   "zh_bytes": 38,
+   "note": ""
+  },
+  {
+   "offset": 1964,
+   "len": 106,
+   "en": "\"I often drink from it when I'm thirsty. The water is quite good, but there's something strange about it.\"",
+   "zh": "「我口渴時常飲此水。水質甚佳，但有些古怪之處。」",
+   "zh_bytes": 48,
+   "note": ""
+  },
+  {
+   "offset": 2073,
+   "len": 50,
+   "en": "\"It vanishes somehow before it hits the ground...\"",
+   "zh": "「水在落地前便不知所終地消失了…」",
+   "zh_bytes": 34,
+   "note": ""
+  },
+  {
+   "offset": 2129,
+   "len": 19,
+   "en": "perp,moti,mach,gear",
+   "zh": "perp,moti,mach,gear",
+   "zh_bytes": 19,
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "offset": 2149,
+   "len": 143,
+   "en": "\"That's a very curious device. The motion of each gear turns another, until eventually the movement is propagated back to the same gear again.\"",
+   "zh": "「那是極奇妙的裝置。每一齒輪之動帶轉另一輪，運動終又傳回最初的齒輪。」",
+   "zh_bytes": 70,
+   "note": ""
+  },
+  {
+   "offset": 2295,
+   "len": 39,
+   "en": "\"There's one thing I can't figure out.\"",
+   "zh": "「有一事我始終想不通。」",
+   "zh_bytes": 24,
+   "note": ""
+  },
+  {
+   "offset": 2337,
+   "len": 96,
+   "en": "\"We've made plans of the device, and I can't see how they started it moving in the first place.\"",
+   "zh": "「我們已繪此裝置之圖，卻看不出當初是如何使其動起來的。」",
+   "zh_bytes": 56,
+   "note": ""
+  },
+  {
+   "offset": 2436,
+   "len": 72,
+   "en": "\"None of the gears would turn unless all the others were already going.\"",
+   "zh": "「除非其餘齒輪皆已在動，無一輪能獨自轉動。」",
+   "zh_bytes": 44,
+   "note": ""
+  },
+  {
+   "offset": 2511,
+   "len": 63,
+   "en": "\"What's worse, the motions serve to hold the machine together.\"",
+   "zh": "「更糟的是，這些運動正是維繫整機之力。」",
+   "zh_bytes": 40,
+   "note": ""
+  },
+  {
+   "offset": 2577,
+   "len": 97,
+   "en": "\"If the gears were still, the whole thing would fall apart! How it was built is quite a mystery.\"",
+   "zh": "「齒輪若靜止，整機便散落！它如何被造出，實是一謎。」",
+   "zh_bytes": 52,
+   "note": ""
+  },
+  {
+   "offset": 2680,
+   "len": 19,
+   "en": "ener,fiel,nois,crac",
+   "zh": "ener,fiel,nois,crac",
+   "zh_bytes": 19,
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "offset": 2700,
+   "len": 44,
+   "en": "\"The field is generated by a curious spell.\"",
+   "zh": "「此場由一道奇異法術所生。」",
+   "zh_bytes": 28,
+   "note": ""
+  },
+  {
+   "offset": 2747,
+   "len": 122,
+   "en": "\"By some process not yet understood, it converts magical energy into electrical energy, producing a continuous discharge.\"",
+   "zh": "「以某種尚未明的過程，將魔力轉為電力，產生連續的放電。」",
+   "zh_bytes": 56,
+   "note": ""
+  },
+  {
+   "offset": 2872,
+   "len": 99,
+   "en": "\"If we understood this process better, it would probably lead to all sorts of useful applications.\"",
+   "zh": "「若能更深明此過程，當可帶來諸多有用之應用。」",
+   "zh_bytes": 46,
+   "note": ""
+  },
+  {
+   "offset": 2977,
+   "len": 4,
+   "en": "mono",
+   "zh": "mono",
+   "zh_bytes": 4,
+   "note": "@monolith keyword 內部碼保留"
+  },
+  {
+   "offset": 2982,
+   "len": 112,
+   "en": "\"I can't tell you much about that. Lord British donated it to the museum, but I can't get him to talk about it.\"",
+   "zh": "「此事我所知無多。是不列顛王將之捐予博物館，但他不願多談。」",
+   "zh_bytes": 60,
+   "note": ""
+  },
+  {
+   "offset": 3097,
+   "len": 75,
+   "en": "\"From what little he's said, I think it's an artifact from his home world.\"",
+   "zh": "「依他寥寥數語推之，似是來自他故鄉世界的遺物。」",
+   "zh_bytes": 48,
+   "note": "home world→故鄉世界（指地球）"
+  },
+  {
+   "offset": 3178,
+   "len": 9,
+   "en": "libr,lyca",
+   "zh": "libr,lyca",
+   "zh_bytes": 9,
+   "note": "keyword 群組內部碼保留"
+  },
+  {
+   "offset": 3188,
+   "len": 77,
+   "en": "\"There is a great deal of knowledge available there for the serious scholar.\"",
+   "zh": "「彼處對於認真治學者，有大量學問可得。」",
+   "zh_bytes": 40,
+   "note": ""
+  },
+  {
+   "offset": 3271,
+   "len": 3,
+   "en": "bye",
+   "zh": "bye",
+   "zh_bytes": 3,
+   "note": "@bye keyword 內部碼保留"
+  },
+  {
+   "offset": 3275,
+   "len": 83,
+   "en": "\"Be sure to have a look at our paintings while you're here. And come again soon...\"",
+   "zh": "「來時務必觀賞我們的畫作。歡迎不日再臨…」",
+   "zh_bytes": 42,
+   "note": ""
+  },
+  {
+   "offset": 3361,
+   "len": 70,
+   "en": "\"We're expecting some unicorn horns, and a Klein bottle from Trinsic.\"",
+   "zh": "「我們正等候些獨角獸角，以及一只來自崔西克的克萊因瓶。」",
+   "zh_bytes": 56,
+   "note": "Trinsic→崔西克；Klein bottle→克萊因瓶（拓樸學經典）"
+  },
+  {
+   "offset": 3434,
+   "len": 4,
+   "en": "purr",
+   "zh": "purr",
+   "zh_bytes": 4,
+   "note": "@purr keyword 內部碼保留"
+  },
+  {
+   "offset": 3439,
+   "len": 69,
+   "en": "She favors you with a deep, throaty purr that sounds just like a cat.",
+   "zh": "她對汝發出一聲低沉、喉間的呼嚕，恰似貓鳴。",
+   "zh_bytes": 42,
+   "note": "Kytyn=kitten 諧音；呼嚕貓鳴致敬"
+  },
+  {
+   "offset": 3516,
+   "len": 62,
+   "en": "\"I can't help you with that. Try the @library at the Lycaeum.\"",
+   "zh": "「此事我幫不上忙，請去學苑的@library（藏書）閣試試。」",
+   "zh_bytes": 43,
+   "note": "@library→@藏書閣；Lycaeum→學苑（glossary）"
+  }
+ ],
+ "keyword_mapping": {
+  "@birds": "@飛禽",
+  "@falconer": "@訓鷹師",
+  "@British": "@王（內部碼 brit 保留 ASCII）",
+  "@museum": "@博物館",
+  "@oddities": "@奇珍",
+  "@projects": "@志業",
+  "@conservatory": "@音樂院",
+  "@roads": "@道路",
+  "@music": "@樂聲",
+  "@travel": "@旅行",
+  "@exhibits": "@展品",
+  "@monolith": "@巨石碑",
+  "@energy": "@能量",
+  "@machine": "@機",
+  "@bones": "@骨骸",
+  "@fountain": "@泉",
+  "@dragon": "@龍",
+  "@Gertan": "@葛爾坦",
+  "@library": "@藏書閣",
+  "@name": "@名字（內部碼 name 保留 ASCII）",
+  "@job": "@職業（內部碼 job 保留 ASCII）",
+  "@bye": "@再見（內部碼 bye 保留 ASCII）",
+  "@purr": "@呼嚕（內部碼 purr 保留 ASCII）"
+ },
+ "glossary_additions": {
+  "people": {
+   "Kytyn": "凱婷"
+  },
+  "concepts": {
+   "curator": "館長",
+   "royal museum of oddities": "王家奇珍博物館",
+   "falconer": "訓鷹師",
+   "exhibit": "展品",
+   "bones of Zog": "Zog 之骨骸",
+   "Klein bottle": "克萊因瓶",
+   "unicorn horn": "獨角獸角",
+   "discharge": "放電",
+   "gear": "齒輪",
+   "boulder": "巨岩",
+   "home world": "故鄉世界",
+   "paintings": "畫作"
+  }
+ },
+ "riddles_additions": [
+  {
+   "npc": "Kytyn",
+   "key": "KYTYN_PURR",
+   "en": "She favors you with a deep, throaty purr that sounds just like a cat.",
+   "zh": "她對汝發出一聲低沉、喉間的呼嚕，恰似貓鳴。",
+   "ref": "Kytyn 名稱諧音 kitten（小貓）；當玩家輸入 @purr 時觸發此貓化反應",
+   "strategy": "保留呼嚕貓鳴的肢體語言；中文不可直接諧音音譯但保留意象"
+  },
+  {
+   "npc": "Kytyn",
+   "key": "KLEIN_BOTTLE",
+   "en": "a Klein bottle from Trinsic",
+   "zh": "一只來自崔西克的克萊因瓶",
+   "ref": "Klein bottle 是拓樸學經典——只有一面、無內外之別的玻璃瓶；U6 彩蛋",
+   "strategy": "直譯數學專名"
+  },
+  {
+   "npc": "Kytyn",
+   "key": "MONOLITH_HOMEWORLD",
+   "en": "I think it's an artifact from his home world.",
+   "zh": "似是來自他故鄉世界的遺物。",
+   "ref": "暗示 Lord British（英國 Richard Garriott 的角色）來自地球；2001 太空漫遊 monolith 致敬",
+   "strategy": "直譯保留宇宙起源神祕感；home world 明指地球但不點破"
+  }
+ ],
+ "translator_notes": "Kytyn 是博物館（@oddities 奇珍館）館長，名稱諧音 kitten。她戴左手皮手套是從前訓鷹師職業遺跡。展品列表（offset 1081, len=157）是 keyword hub：@monolith @energy @machine @bones @fountain @dragon 各觸發後續解說。保留 Zog 不譯（U6 設定中遠古生物學名）。Klein bottle 是拓樸學雙關彩蛋。Lord British 之 @British keyword 內部碼 brit 保留 ASCII，但 keyword 觸發後可看到中文『王』。0 OVERFLOW。"
 }

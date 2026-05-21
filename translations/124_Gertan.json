@@ -18,7 +18,7 @@
    "offset": 134,
    "len": 76,
    "en": "\"I am called Gertan. My fellows and I are recovering from a fierce @battle.\"",
-   "zh": "「吾名葛爾坦。吾等正在從一場激烈的@戰鬥中恢復。」",
+   "zh": "「吾名葛爾坦。吾等正在從一場激烈的@battle（戰鬥）中恢復。」",
    "note": ""
   },
   {
@@ -39,7 +39,7 @@
    "offset": 300,
    "len": 57,
    "en": "\"I lead my men into @battle whenever @Geoffrey sends me.\"",
-   "zh": "「每當@傑佛瑞派遣，吾便率部衝入@戰陣。」",
+   "zh": "「每當@battle（傑佛）瑞派遣，吾便率部衝入@Geoffrey（戰陣）。」",
    "note": ""
   },
   {
@@ -67,14 +67,14 @@
    "offset": 501,
    "len": 109,
    "en": "\"My men fought valiantly, but the gargoyles were too much for us. They didst @slay more than half our party.\"",
-   "zh": "「吾麾下英勇奮戰，奈何魔像族勢不可擋。他們@殺死了我方過半人馬。」",
+   "zh": "「吾麾下英勇奮戰，奈何魔像族勢不可擋。他們@slay（殺死）了我方過半人馬。」",
    "note": ""
   },
   {
    "offset": 631,
    "len": 60,
    "en": "\"Aye, I doubt not they were using foul @magic of some kind.\"",
-   "zh": "「是的，吾確信他們施用了某種邪惡的@魔法。」",
+   "zh": "「是的，吾確信他們施用了某種邪惡的@magic（魔法）。」",
    "note": ""
   },
   {
@@ -88,7 +88,7 @@
    "offset": 781,
    "len": 74,
    "en": "\"I tried to get to it, but 'twas surrounded by some kind of force @field.\"",
-   "zh": "「吾試圖靠近，卻被某種@能量場所阻隔。」",
+   "zh": "「吾試圖靠近，卻被某種@field（能量）場所阻隔。」",
    "note": ""
   },
   {
@@ -102,7 +102,7 @@
    "offset": 947,
    "len": 100,
    "en": "\"Hast thou heard, then, of the time I slew the great @dragon Freitag? Ah, that was a long time ago.\"",
-   "zh": "「汝可曾聽聞，吾昔日斬殺大@龍弗瑞塔之事？唉，那已是許久之前了。」",
+   "zh": "「汝可曾聽聞，吾昔日斬殺大@dragon（龍弗）瑞塔之事？唉，那已是許久之前了。」",
    "note": "避'許'→用「許久」非5C尾字"
   },
   {
@@ -127,6 +127,9 @@
    "note": ""
   }
  ],
- "glossary_additions": {"people": {}, "places": {}},
+ "glossary_additions": {
+  "people": {},
+  "places": {}
+ },
  "translator_notes": "Gertan 使用 thee/thou 古英文，譯為文白並用。弗瑞塔（Freitag）已在 glossary。"
 }

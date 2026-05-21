@@ -1,85 +1,587 @@
 {
-  "translations": [
-    {"offset": 2, "len": 6, "en": "Sherry", "zh": "雪莉", "zh_bytes": 4, "note": ""},
-    {"offset": 9, "len": 20, "en": "a cute little mouse.", "zh": "一隻可愛小老鼠。", "zh_bytes": 16, "note": "[DESC]"},
-    {"offset": 43, "len": 26, "en": "\"Squeak, squeak, @squeak!\"", "zh": "「吱、吱、@吱吱!」", "zh_bytes": 18, "note": "@squeak keyword"},
-    {"offset": 90, "len": 33, "en": "\"Talking to a mouse?\" says Dupre.", "zh": "「跟老鼠講話?」杜普雷說道。", "zh_bytes": 27, "note": ""},
-    {"offset": 126, "len": 47, "en": "\"Methinks you're starting to imagine things...\"", "zh": "「俺看汝怕是開始幻想了……」", "zh_bytes": 28, "note": ""},
-    {"offset": 189, "len": 4, "en": "sque", "zh": "sque", "zh_bytes": 4, "note": "keyword 觸發詞保留英文"},
-    {"offset": 194, "len": 17, "en": "\"Squeak @squirk?\"", "zh": "「吱吱@吱嚕?」", "zh_bytes": 14, "note": ""},
-    {"offset": 217, "len": 14, "en": "squi,nitt,fibl", "zh": "squi,nitt,fibl", "zh_bytes": 14, "note": "keyword 觸發詞"},
-    {"offset": 232, "len": 12, "en": "\"Squeeeeek!\"", "zh": "「吱──!」", "zh_bytes": 11, "note": ""},
-    {"offset": 250, "len": 12, "en": "cat,meow,boo", "zh": "cat,meow,boo", "zh_bytes": 12, "note": "keyword 觸發詞"},
-    {"offset": 263, "len": 8, "en": "\"Eeeek!\"", "zh": "「咿!」", "zh_bytes": 7, "note": ""},
-    {"offset": 277, "len": 4, "en": "name", "zh": "name", "zh_bytes": 4, "note": "keyword 觸發詞"},
-    {"offset": 282, "len": 39, "en": "\"I am Lord @British's friend, @Sherry.\"", "zh": "「俺乃@不列顛王的好友@雪莉是也。」", "zh_bytes": 34, "note": ""},
-    {"offset": 333, "len": 9, "en": "lord,brit", "zh": "lord,brit", "zh_bytes": 9, "note": "keyword 觸發詞"},
-    {"offset": 343, "len": 43, "en": "\"He reads me bedtime @stories every night.\"", "zh": "「他每晚都唸@故事哄奴家入睡哩。」", "zh_bytes": 33, "note": ""},
-    {"offset": 392, "len": 13, "en": "bed,stor,nigh", "zh": "bed,stor,nigh", "zh_bytes": 13, "note": "keyword 觸發詞"},
-    {"offset": 406, "len": 51, "en": "\"He knows the one about @Hubert the Lion by Heart!\"", "zh": "「他連@獅子胡伯的故事都能倒背如流呢!」", "zh_bytes": 38, "note": ""},
-    {"offset": 463, "len": 9, "en": "hube,lion", "zh": "hube,lion", "zh_bytes": 9, "note": "keyword 觸發詞"},
-    {"offset": 473, "len": 27, "en": "\"That's my favorite story.\"", "zh": "「那是奴家最愛聽的故事。」", "zh_bytes": 26, "note": ""},
-    {"offset": 506, "len": 4, "en": "sher", "zh": "sher", "zh_bytes": 4, "note": "keyword 觸發詞"},
-    {"offset": 511, "len": 22, "en": "\"Pleased to meet you!\"", "zh": "「見到大人真高興!」", "zh_bytes": 19, "note": ""},
-    {"offset": 539, "len": 24, "en": "help,rune,mous,hole,join", "zh": "help,rune,mous,hole,join", "zh_bytes": 24, "note": "keyword 觸發詞"},
-    {"offset": 577, "len": 40, "en": "\"Give me some @cheese and ask me again.\"", "zh": "「給點@乳酪奴家,再來問一次嘛。」", "zh_bytes": 32, "note": ""},
-    {"offset": 631, "len": 24, "en": "kerc,bles,gesh,snee,dust", "zh": "kerc,bles,gesh,snee,dust", "zh_bytes": 24, "note": "keyword 觸發詞"},
-    {"offset": 656, "len": 63, "en": "\"I wish people would clean up under their beds and cabinets...\"", "zh": "「真希望大家會把床底和櫃下打掃乾淨……」", "zh_bytes": 40, "note": ""},
-    {"offset": 722, "len": 35, "en": "\"Dust mice are no friends of mine!\"", "zh": "「塵球可不是俺的朋友!」", "zh_bytes": 23, "note": "dust mice→塵球"},
-    {"offset": 763, "len": 4, "en": "chee", "zh": "chee", "zh_bytes": 4, "note": "keyword 觸發詞"},
-    {"offset": 774, "len": 3, "en": "bye", "zh": "bye", "zh_bytes": 3, "note": "len=3 太短保留英文"},
-    {"offset": 788, "len": 18, "en": "\"Nitters @fiblik.\"", "zh": "「尼特@菲伯。」", "zh_bytes": 15, "note": ""},
-    {"offset": 807, "len": 27, "en": "\"Come visit me again soon!\"", "zh": "「要常來看奴家喔!」", "zh_bytes": 19, "note": ""},
-    {"offset": 850, "len": 10, "en": "\"Kerchew!\"", "zh": "「哈啾!」", "zh_bytes": 9, "note": "打噴嚏聲"},
-    {"offset": 861, "len": 38, "en": "The mouse wiggles its whiskers at you.", "zh": "老鼠對汝抖了抖鬍鬚。", "zh_bytes": 20, "note": ""},
-    {"offset": 922, "len": 26, "en": "\"Do you have any cheese?\" ", "zh": "「大人有乳酪嗎?」", "zh_bytes": 17, "note": ""},
-    {"offset": 956, "len": 2, "en": "yn", "zh": "yn", "zh_bytes": 2, "note": "y/n prompt"},
-    {"offset": 961, "len": 21, "en": "\"Oh, that's too bad.\"", "zh": "「哎呀,真可惜。」", "zh_bytes": 17, "note": ""},
-    {"offset": 1006, "len": 27, "en": "\"I don't smell any cheese!\"", "zh": "「俺聞不到乳酪味呢!」", "zh_bytes": 21, "note": ""},
-    {"offset": 1040, "len": 19, "en": "\"Can I have some?\" ", "zh": "「給俺一些嘛?」", "zh_bytes": 15, "note": ""},
-    {"offset": 1060, "len": 2, "en": "yn", "zh": "yn", "zh_bytes": 2, "note": "y/n prompt"},
-    {"offset": 1065, "len": 22, "en": "\"Well, you're no fun.\"", "zh": "「真沒意思。」", "zh_bytes": 14, "note": ""},
-    {"offset": 1124, "len": 22, "en": "\"Thank you very much!\"", "zh": "「多謝大人!」", "zh_bytes": 13, "note": ""},
-    {"offset": 1159, "len": 51, "en": "\"I can help you! Do you want me to come with you?\" ", "zh": "「奴家能幫汝!想讓奴家同行嗎?」", "zh_bytes": 30, "note": ""},
-    {"offset": 1211, "len": 2, "en": "yn", "zh": "yn", "zh_bytes": 2, "note": "y/n prompt"},
-    {"offset": 1216, "len": 5, "en": "\"Ok.\"", "zh": "\"好\"", "zh_bytes": 4, "note": "ASCII 引號省 byte"},
-    {"offset": 1244, "len": 8, "en": "\"Great!\"", "zh": "「讚!」", "zh_bytes": 7, "note": ""},
-    {"offset": 1262, "len": 24, "en": "\"Boats make me seasick.\"", "zh": "「乘船會暈船哩。」", "zh_bytes": 18, "note": ""},
-    {"offset": 1299, "len": 41, "en": "\"With that many people I'd get trampled!\"", "zh": "「人那麼多會被踩扁啦!」", "zh_bytes": 23, "note": ""},
-    {"offset": 1356, "len": 67, "en": "\"Travelling with you is fun! I hope we find some more cheese soon.\"", "zh": "「跟大人同遊真有趣!但願能再多找到些乳酪呢。」", "zh_bytes": 45, "note": ""},
-    {"offset": 1426, "len": 4, "en": "name", "zh": "name", "zh_bytes": 4, "note": "keyword 觸發詞"},
-    {"offset": 1431, "len": 39, "en": "\"I am Lord @British's friend, @Sherry.\"", "zh": "「俺乃@不列顛王的好友@雪莉是也。」", "zh_bytes": 34, "note": ""},
-    {"offset": 1476, "len": 9, "en": "lord,brit", "zh": "lord,brit", "zh_bytes": 9, "note": "keyword 觸發詞"},
-    {"offset": 1486, "len": 50, "en": "\"He used to read me bedtime @stories every night.\"", "zh": "「他從前每晚都唸@故事哄奴家睡覺呢。」", "zh_bytes": 37, "note": ""},
-    {"offset": 1542, "len": 13, "en": "bed,stor,nigh", "zh": "bed,stor,nigh", "zh_bytes": 13, "note": "keyword 觸發詞"},
-    {"offset": 1556, "len": 51, "en": "\"He knows the one about @Hubert the Lion by Heart!\"", "zh": "「他連@獅子胡伯的故事都能倒背如流呢!」", "zh_bytes": 38, "note": ""},
-    {"offset": 1613, "len": 9, "en": "hube,lion", "zh": "hube,lion", "zh_bytes": 9, "note": "keyword 觸發詞"},
-    {"offset": 1623, "len": 27, "en": "\"That's my favorite story.\"", "zh": "「那是奴家最愛聽的故事。」", "zh_bytes": 26, "note": ""},
-    {"offset": 1656, "len": 4, "en": "sher", "zh": "sher", "zh_bytes": 4, "note": "keyword 觸發詞"},
-    {"offset": 1661, "len": 22, "en": "\"Pleased to meet you!\"", "zh": "「見到大人真高興!」", "zh_bytes": 19, "note": ""},
-    {"offset": 1689, "len": 3, "en": "job", "zh": "job", "zh_bytes": 3, "note": "len=3 保留英文"},
-    {"offset": 1693, "len": 72, "en": "\"I can slip through openings that are too small for you to fit through!\"", "zh": "「俺能鑽過大人過不去的小縫呢!」", "zh_bytes": 31, "note": ""},
-    {"offset": 1771, "len": 3, "en": "bye", "zh": "bye", "zh_bytes": 3, "note": "keyword 觸發詞"},
-    {"offset": 1783, "len": 15, "en": "\"You're funny!\"", "zh": "「大人真逗!」", "zh_bytes": 13, "note": ""},
-    {"offset": 1804, "len": 58, "en": "\"Oh, goodbye. Does this mean you want me to go home now?\" ", "zh": "「噢,再會。是要奴家現在回家了嗎?」", "zh_bytes": 34, "note": ""},
-    {"offset": 1863, "len": 2, "en": "yn", "zh": "yn", "zh_bytes": 2, "note": "y/n prompt"},
-    {"offset": 1868, "len": 7, "en": "\"Okay.\"", "zh": "\"好的\"", "zh_bytes": 6, "note": "ASCII 引號"},
-    {"offset": 1893, "len": 49, "en": "\"I'm not leaving until we get out of this thing!\"", "zh": "「沒出去之前奴家可不下船!」", "zh_bytes": 27, "note": ""},
-    {"offset": 1949, "len": 53, "en": "\"All right. Now I can hear my bedtime stories again!\"", "zh": "「太好了!奴家又能聽床邊故事啦!」", "zh_bytes": 32, "note": ""},
-    {"offset": 2005, "len": 51, "en": "\"I'll leave my stuff with you in case you need it.\"", "zh": "「俺的東西先交給大人,以備不時之需。」", "zh_bytes": 37, "note": ""}
-  ],
-  "keyword_mapping": {
-    "@squeak": "@吱吱", "@squirk": "@吱嚕", "@British": "@不列顛王", "@Sherry": "@雪莉",
-    "@stories": "@故事", "@Hubert": "@獅子胡伯", "@cheese": "@乳酪", "@fiblik": "@菲伯"
+ "translations": [
+  {
+   "offset": 2,
+   "len": 6,
+   "en": "Sherry",
+   "zh": "雪莉",
+   "zh_bytes": 4,
+   "note": ""
   },
-  "glossary_additions": {
-    "people": {"Hubert the Lion": "獅子胡伯"},
-    "concepts": {"cheese": "乳酪", "dust mice": "塵球", "bedtime stories": "床邊故事"}
+  {
+   "offset": 9,
+   "len": 20,
+   "en": "a cute little mouse.",
+   "zh": "一隻可愛小老鼠。",
+   "zh_bytes": 16,
+   "note": "[DESC]"
   },
-  "riddles_additions": [
-    {"npc": "Sherry", "key": "MOUSE_TALK", "en": "Squeak, squeak / Nitters fiblik / Squeak squirk", "zh": "吱、吱 / 尼特菲伯 / 吱吱吱嚕", "ref": "Sherry 老鼠話", "strategy": "音譯擬聲+保留 keyword 觸發字"},
-    {"npc": "Sherry", "key": "HUBERT_LION", "en": "Hubert the Lion", "zh": "獅子胡伯", "ref": "虛構童話獅子", "strategy": "音譯+類型詞"},
-    {"npc": "Sherry", "key": "DUST_MICE", "en": "Dust mice are no friends of mine!", "zh": "塵球可不是俺的朋友!", "ref": "dust mice=灰塵團俚語", "strategy": "意譯為塵球，放棄 mouse 雙關"}
-  ],
-  "translator_notes": "Sherry 童趣老鼠，混用『俺/奴家』，稱玩家『大人』。短 keyword 觸發詞保留英文以符 byte 約束。Ok./Okay. 改 ASCII 引號省 byte。67 strings 全 ≤ len。"
+  {
+   "offset": 43,
+   "len": 26,
+   "en": "\"Squeak, squeak, @squeak!\"",
+   "zh": "「吱、吱、@squeak（吱吱）!」",
+   "zh_bytes": 18,
+   "note": "@squeak keyword"
+  },
+  {
+   "offset": 90,
+   "len": 33,
+   "en": "\"Talking to a mouse?\" says Dupre.",
+   "zh": "「跟老鼠講話?」杜普雷說道。",
+   "zh_bytes": 27,
+   "note": ""
+  },
+  {
+   "offset": 126,
+   "len": 47,
+   "en": "\"Methinks you're starting to imagine things...\"",
+   "zh": "「俺看汝怕是開始幻想了……」",
+   "zh_bytes": 28,
+   "note": ""
+  },
+  {
+   "offset": 189,
+   "len": 4,
+   "en": "sque",
+   "zh": "sque",
+   "zh_bytes": 4,
+   "note": "keyword 觸發詞保留英文"
+  },
+  {
+   "offset": 194,
+   "len": 17,
+   "en": "\"Squeak @squirk?\"",
+   "zh": "「吱吱@squirk（吱嚕）?」",
+   "zh_bytes": 14,
+   "note": ""
+  },
+  {
+   "offset": 217,
+   "len": 14,
+   "en": "squi,nitt,fibl",
+   "zh": "squi,nitt,fibl",
+   "zh_bytes": 14,
+   "note": "keyword 觸發詞"
+  },
+  {
+   "offset": 232,
+   "len": 12,
+   "en": "\"Squeeeeek!\"",
+   "zh": "「吱──!」",
+   "zh_bytes": 11,
+   "note": ""
+  },
+  {
+   "offset": 250,
+   "len": 12,
+   "en": "cat,meow,boo",
+   "zh": "cat,meow,boo",
+   "zh_bytes": 12,
+   "note": "keyword 觸發詞"
+  },
+  {
+   "offset": 263,
+   "len": 8,
+   "en": "\"Eeeek!\"",
+   "zh": "「咿!」",
+   "zh_bytes": 7,
+   "note": ""
+  },
+  {
+   "offset": 277,
+   "len": 4,
+   "en": "name",
+   "zh": "name",
+   "zh_bytes": 4,
+   "note": "keyword 觸發詞"
+  },
+  {
+   "offset": 282,
+   "len": 39,
+   "en": "\"I am Lord @British's friend, @Sherry.\"",
+   "zh": "「俺乃@British（不列）顛王的好友@Sherry（雪莉）是也。」",
+   "zh_bytes": 34,
+   "note": ""
+  },
+  {
+   "offset": 333,
+   "len": 9,
+   "en": "lord,brit",
+   "zh": "lord,brit",
+   "zh_bytes": 9,
+   "note": "keyword 觸發詞"
+  },
+  {
+   "offset": 343,
+   "len": 43,
+   "en": "\"He reads me bedtime @stories every night.\"",
+   "zh": "「他每晚都唸@stories故事哄奴家入睡哩。」",
+   "zh_bytes": 33,
+   "note": ""
+  },
+  {
+   "offset": 392,
+   "len": 13,
+   "en": "bed,stor,nigh",
+   "zh": "bed,stor,nigh",
+   "zh_bytes": 13,
+   "note": "keyword 觸發詞"
+  },
+  {
+   "offset": 406,
+   "len": 51,
+   "en": "\"He knows the one about @Hubert the Lion by Heart!\"",
+   "zh": "「他連@Hubert（獅子）胡伯的故事都能倒背如流呢!」",
+   "zh_bytes": 38,
+   "note": ""
+  },
+  {
+   "offset": 463,
+   "len": 9,
+   "en": "hube,lion",
+   "zh": "hube,lion",
+   "zh_bytes": 9,
+   "note": "keyword 觸發詞"
+  },
+  {
+   "offset": 473,
+   "len": 27,
+   "en": "\"That's my favorite story.\"",
+   "zh": "「那是奴家最愛聽的故事。」",
+   "zh_bytes": 26,
+   "note": ""
+  },
+  {
+   "offset": 506,
+   "len": 4,
+   "en": "sher",
+   "zh": "sher",
+   "zh_bytes": 4,
+   "note": "keyword 觸發詞"
+  },
+  {
+   "offset": 511,
+   "len": 22,
+   "en": "\"Pleased to meet you!\"",
+   "zh": "「見到大人真高興!」",
+   "zh_bytes": 19,
+   "note": ""
+  },
+  {
+   "offset": 539,
+   "len": 24,
+   "en": "help,rune,mous,hole,join",
+   "zh": "help,rune,mous,hole,join",
+   "zh_bytes": 24,
+   "note": "keyword 觸發詞"
+  },
+  {
+   "offset": 577,
+   "len": 40,
+   "en": "\"Give me some @cheese and ask me again.\"",
+   "zh": "「給點@cheese（乳酪）奴家,再來問一次嘛。」",
+   "zh_bytes": 32,
+   "note": ""
+  },
+  {
+   "offset": 631,
+   "len": 24,
+   "en": "kerc,bles,gesh,snee,dust",
+   "zh": "kerc,bles,gesh,snee,dust",
+   "zh_bytes": 24,
+   "note": "keyword 觸發詞"
+  },
+  {
+   "offset": 656,
+   "len": 63,
+   "en": "\"I wish people would clean up under their beds and cabinets...\"",
+   "zh": "「真希望大家會把床底和櫃下打掃乾淨……」",
+   "zh_bytes": 40,
+   "note": ""
+  },
+  {
+   "offset": 722,
+   "len": 35,
+   "en": "\"Dust mice are no friends of mine!\"",
+   "zh": "「塵球可不是俺的朋友!」",
+   "zh_bytes": 23,
+   "note": "dust mice→塵球"
+  },
+  {
+   "offset": 763,
+   "len": 4,
+   "en": "chee",
+   "zh": "chee",
+   "zh_bytes": 4,
+   "note": "keyword 觸發詞"
+  },
+  {
+   "offset": 774,
+   "len": 3,
+   "en": "bye",
+   "zh": "bye",
+   "zh_bytes": 3,
+   "note": "len=3 太短保留英文"
+  },
+  {
+   "offset": 788,
+   "len": 18,
+   "en": "\"Nitters @fiblik.\"",
+   "zh": "「尼特@fiblik（菲伯）。」",
+   "zh_bytes": 15,
+   "note": ""
+  },
+  {
+   "offset": 807,
+   "len": 27,
+   "en": "\"Come visit me again soon!\"",
+   "zh": "「要常來看奴家喔!」",
+   "zh_bytes": 19,
+   "note": ""
+  },
+  {
+   "offset": 850,
+   "len": 10,
+   "en": "\"Kerchew!\"",
+   "zh": "「哈啾!」",
+   "zh_bytes": 9,
+   "note": "打噴嚏聲"
+  },
+  {
+   "offset": 861,
+   "len": 38,
+   "en": "The mouse wiggles its whiskers at you.",
+   "zh": "老鼠對汝抖了抖鬍鬚。",
+   "zh_bytes": 20,
+   "note": ""
+  },
+  {
+   "offset": 922,
+   "len": 26,
+   "en": "\"Do you have any cheese?\" ",
+   "zh": "「大人有乳酪嗎?」",
+   "zh_bytes": 17,
+   "note": ""
+  },
+  {
+   "offset": 956,
+   "len": 2,
+   "en": "yn",
+   "zh": "yn",
+   "zh_bytes": 2,
+   "note": "y/n prompt"
+  },
+  {
+   "offset": 961,
+   "len": 21,
+   "en": "\"Oh, that's too bad.\"",
+   "zh": "「哎呀,真可惜。」",
+   "zh_bytes": 17,
+   "note": ""
+  },
+  {
+   "offset": 1006,
+   "len": 27,
+   "en": "\"I don't smell any cheese!\"",
+   "zh": "「俺聞不到乳酪味呢!」",
+   "zh_bytes": 21,
+   "note": ""
+  },
+  {
+   "offset": 1040,
+   "len": 19,
+   "en": "\"Can I have some?\" ",
+   "zh": "「給俺一些嘛?」",
+   "zh_bytes": 15,
+   "note": ""
+  },
+  {
+   "offset": 1060,
+   "len": 2,
+   "en": "yn",
+   "zh": "yn",
+   "zh_bytes": 2,
+   "note": "y/n prompt"
+  },
+  {
+   "offset": 1065,
+   "len": 22,
+   "en": "\"Well, you're no fun.\"",
+   "zh": "「真沒意思。」",
+   "zh_bytes": 14,
+   "note": ""
+  },
+  {
+   "offset": 1124,
+   "len": 22,
+   "en": "\"Thank you very much!\"",
+   "zh": "「多謝大人!」",
+   "zh_bytes": 13,
+   "note": ""
+  },
+  {
+   "offset": 1159,
+   "len": 51,
+   "en": "\"I can help you! Do you want me to come with you?\" ",
+   "zh": "「奴家能幫汝!想讓奴家同行嗎?」",
+   "zh_bytes": 30,
+   "note": ""
+  },
+  {
+   "offset": 1211,
+   "len": 2,
+   "en": "yn",
+   "zh": "yn",
+   "zh_bytes": 2,
+   "note": "y/n prompt"
+  },
+  {
+   "offset": 1216,
+   "len": 5,
+   "en": "\"Ok.\"",
+   "zh": "\"好\"",
+   "zh_bytes": 4,
+   "note": "ASCII 引號省 byte"
+  },
+  {
+   "offset": 1244,
+   "len": 8,
+   "en": "\"Great!\"",
+   "zh": "「讚!」",
+   "zh_bytes": 7,
+   "note": ""
+  },
+  {
+   "offset": 1262,
+   "len": 24,
+   "en": "\"Boats make me seasick.\"",
+   "zh": "「乘船會暈船哩。」",
+   "zh_bytes": 18,
+   "note": ""
+  },
+  {
+   "offset": 1299,
+   "len": 41,
+   "en": "\"With that many people I'd get trampled!\"",
+   "zh": "「人那麼多會被踩扁啦!」",
+   "zh_bytes": 23,
+   "note": ""
+  },
+  {
+   "offset": 1356,
+   "len": 67,
+   "en": "\"Travelling with you is fun! I hope we find some more cheese soon.\"",
+   "zh": "「跟大人同遊真有趣!但願能再多找到些乳酪呢。」",
+   "zh_bytes": 45,
+   "note": ""
+  },
+  {
+   "offset": 1426,
+   "len": 4,
+   "en": "name",
+   "zh": "name",
+   "zh_bytes": 4,
+   "note": "keyword 觸發詞"
+  },
+  {
+   "offset": 1431,
+   "len": 39,
+   "en": "\"I am Lord @British's friend, @Sherry.\"",
+   "zh": "「俺乃@British（不列）顛王的好友@Sherry（雪莉）是也。」",
+   "zh_bytes": 34,
+   "note": ""
+  },
+  {
+   "offset": 1476,
+   "len": 9,
+   "en": "lord,brit",
+   "zh": "lord,brit",
+   "zh_bytes": 9,
+   "note": "keyword 觸發詞"
+  },
+  {
+   "offset": 1486,
+   "len": 50,
+   "en": "\"He used to read me bedtime @stories every night.\"",
+   "zh": "「他從前每晚都唸@stories故事哄奴家睡覺呢。」",
+   "zh_bytes": 37,
+   "note": ""
+  },
+  {
+   "offset": 1542,
+   "len": 13,
+   "en": "bed,stor,nigh",
+   "zh": "bed,stor,nigh",
+   "zh_bytes": 13,
+   "note": "keyword 觸發詞"
+  },
+  {
+   "offset": 1556,
+   "len": 51,
+   "en": "\"He knows the one about @Hubert the Lion by Heart!\"",
+   "zh": "「他連@Hubert（獅子）胡伯的故事都能倒背如流呢!」",
+   "zh_bytes": 38,
+   "note": ""
+  },
+  {
+   "offset": 1613,
+   "len": 9,
+   "en": "hube,lion",
+   "zh": "hube,lion",
+   "zh_bytes": 9,
+   "note": "keyword 觸發詞"
+  },
+  {
+   "offset": 1623,
+   "len": 27,
+   "en": "\"That's my favorite story.\"",
+   "zh": "「那是奴家最愛聽的故事。」",
+   "zh_bytes": 26,
+   "note": ""
+  },
+  {
+   "offset": 1656,
+   "len": 4,
+   "en": "sher",
+   "zh": "sher",
+   "zh_bytes": 4,
+   "note": "keyword 觸發詞"
+  },
+  {
+   "offset": 1661,
+   "len": 22,
+   "en": "\"Pleased to meet you!\"",
+   "zh": "「見到大人真高興!」",
+   "zh_bytes": 19,
+   "note": ""
+  },
+  {
+   "offset": 1689,
+   "len": 3,
+   "en": "job",
+   "zh": "job",
+   "zh_bytes": 3,
+   "note": "len=3 保留英文"
+  },
+  {
+   "offset": 1693,
+   "len": 72,
+   "en": "\"I can slip through openings that are too small for you to fit through!\"",
+   "zh": "「俺能鑽過大人過不去的小縫呢!」",
+   "zh_bytes": 31,
+   "note": ""
+  },
+  {
+   "offset": 1771,
+   "len": 3,
+   "en": "bye",
+   "zh": "bye",
+   "zh_bytes": 3,
+   "note": "keyword 觸發詞"
+  },
+  {
+   "offset": 1783,
+   "len": 15,
+   "en": "\"You're funny!\"",
+   "zh": "「大人真逗!」",
+   "zh_bytes": 13,
+   "note": ""
+  },
+  {
+   "offset": 1804,
+   "len": 58,
+   "en": "\"Oh, goodbye. Does this mean you want me to go home now?\" ",
+   "zh": "「噢,再會。是要奴家現在回家了嗎?」",
+   "zh_bytes": 34,
+   "note": ""
+  },
+  {
+   "offset": 1863,
+   "len": 2,
+   "en": "yn",
+   "zh": "yn",
+   "zh_bytes": 2,
+   "note": "y/n prompt"
+  },
+  {
+   "offset": 1868,
+   "len": 7,
+   "en": "\"Okay.\"",
+   "zh": "\"好的\"",
+   "zh_bytes": 6,
+   "note": "ASCII 引號"
+  },
+  {
+   "offset": 1893,
+   "len": 49,
+   "en": "\"I'm not leaving until we get out of this thing!\"",
+   "zh": "「沒出去之前奴家可不下船!」",
+   "zh_bytes": 27,
+   "note": ""
+  },
+  {
+   "offset": 1949,
+   "len": 53,
+   "en": "\"All right. Now I can hear my bedtime stories again!\"",
+   "zh": "「太好了!奴家又能聽床邊故事啦!」",
+   "zh_bytes": 32,
+   "note": ""
+  },
+  {
+   "offset": 2005,
+   "len": 51,
+   "en": "\"I'll leave my stuff with you in case you need it.\"",
+   "zh": "「俺的東西先交給大人,以備不時之需。」",
+   "zh_bytes": 37,
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {
+  "@squeak": "@吱吱",
+  "@squirk": "@吱嚕",
+  "@British": "@不列顛王",
+  "@Sherry": "@雪莉",
+  "@stories": "@故事",
+  "@Hubert": "@獅子胡伯",
+  "@cheese": "@乳酪",
+  "@fiblik": "@菲伯"
+ },
+ "glossary_additions": {
+  "people": {
+   "Hubert the Lion": "獅子胡伯"
+  },
+  "concepts": {
+   "cheese": "乳酪",
+   "dust mice": "塵球",
+   "bedtime stories": "床邊故事"
+  }
+ },
+ "riddles_additions": [
+  {
+   "npc": "Sherry",
+   "key": "MOUSE_TALK",
+   "en": "Squeak, squeak / Nitters fiblik / Squeak squirk",
+   "zh": "吱、吱 / 尼特菲伯 / 吱吱吱嚕",
+   "ref": "Sherry 老鼠話",
+   "strategy": "音譯擬聲+保留 keyword 觸發字"
+  },
+  {
+   "npc": "Sherry",
+   "key": "HUBERT_LION",
+   "en": "Hubert the Lion",
+   "zh": "獅子胡伯",
+   "ref": "虛構童話獅子",
+   "strategy": "音譯+類型詞"
+  },
+  {
+   "npc": "Sherry",
+   "key": "DUST_MICE",
+   "en": "Dust mice are no friends of mine!",
+   "zh": "塵球可不是俺的朋友!",
+   "ref": "dust mice=灰塵團俚語",
+   "strategy": "意譯為塵球，放棄 mouse 雙關"
+  }
+ ],
+ "translator_notes": "Sherry 童趣老鼠，混用『俺/奴家』，稱玩家『大人』。短 keyword 觸發詞保留英文以符 byte 約束。Ok./Okay. 改 ASCII 引號省 byte。67 strings 全 ≤ len。"
 }

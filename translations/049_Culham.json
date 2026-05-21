@@ -25,7 +25,7 @@
    "offset": 185,
    "len": 42,
    "en": "\"Well met, $G $Z. Let me tell ye a @tale.\"",
-   "zh": "「幸會，$G $Z。讓吾為汝說個@故事。」",
+   "zh": "「幸會，$G $Z。讓吾為汝說個@tale故事。」",
    "note": ""
   },
   {
@@ -46,14 +46,14 @@
    "offset": 352,
    "len": 28,
    "en": "\"Oh. Perhaps a @song, then.\"",
-   "zh": "「哦。那來首@歌如何。」",
+   "zh": "「哦。那來首@song（歌如）何。」",
    "note": ""
   },
   {
    "offset": 388,
    "len": 22,
    "en": "\"Now there's a @tale.\"",
-   "zh": "「那才是個@故事。」",
+   "zh": "「那才是個@tale故事。」",
    "note": ""
   },
   {
@@ -67,7 +67,7 @@
    "offset": 457,
    "len": 53,
    "en": "\"When @spirits be low, I play tunes to bring @cheer.\"",
-   "zh": "「當眾人@意氣消沉，吾便奏起樂曲帶來@歡愉。」",
+   "zh": "「當眾人@spirits（意氣）消沉，吾便奏起樂曲帶來@cheer（歡愉）。」",
    "note": ""
   },
   {
@@ -81,7 +81,7 @@
    "offset": 559,
    "len": 33,
    "en": "\"...in Old @Magincia.\" He laughs.",
-   "zh": "「……在舊@馬精西亞。」他大笑。",
+   "zh": "「……在舊@Magincia（馬精）西亞。」他大笑。",
    "note": "ghost town pun"
   },
   {
@@ -116,14 +116,14 @@
    "offset": 822,
    "len": 20,
    "en": "\"It makes me @sing.\"",
-   "zh": "「它令吾想要@高歌。」",
+   "zh": "「它令吾想要@sing（高歌）。」",
    "note": ""
   },
   {
    "offset": 858,
    "len": 37,
    "en": "\"I'll sing, though I'd rather @play.\"",
-   "zh": "「吾來唱，雖然吾更想@演奏。」",
+   "zh": "「吾來唱，雖然吾更想@play（演奏）。」",
    "note": ""
   },
   {

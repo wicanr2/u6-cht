@@ -46,7 +46,7 @@
    "offset": 197,
    "len": 12,
    "en": "\"Get @fish!\"",
-   "zh": "「去弄@魚！」",
+   "zh": "「去弄@fish（魚）！」",
    "note": ""
   },
   {
@@ -67,7 +67,7 @@
    "offset": 256,
    "len": 26,
    "en": "\"@Tiny one say me 'Papa.'\"",
-   "zh": "「@小不點叫我『爸爸』。」",
+   "zh": "「@Tiny（小不）點叫我『爸爸』。」",
    "note": ""
   },
   {
@@ -109,7 +109,7 @@
    "offset": 484,
    "len": 24,
    "en": "\"Cellar no go. @Locked.\"",
-   "zh": "「地下室不能去。@鎖著。」",
+   "zh": "「地下室不能去。@Locked（鎖著）。」",
    "note": ""
   },
   {
@@ -130,7 +130,7 @@
    "offset": 598,
    "len": 27,
    "en": "\"Mine. In @cellar. No get!\"",
-   "zh": "「我的。在@地下室。拿不到！」",
+   "zh": "「我的。在@cellar（地）下室。拿不到！」",
    "note": ""
   },
   {
@@ -232,6 +232,11 @@
    "note": ""
   }
  ],
- "glossary_additions": {"people": {"Papa": "爸爸"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Papa": "爸爸"
+  },
+  "places": {}
+ },
  "translator_notes": "爸爸是雄性獨眼巨人，說話極簡短，省略代詞和謂語，呈現智力簡單的特徵。「tiny one」（小不點）指人類孩子Myles。用魚換鑰匙是重要互動。"
 }

@@ -67,7 +67,7 @@
    "offset": 439,
    "len": 87,
    "en": "\"Well,\" he says so quietly you have to lean close to hear, \"I make @wool into @thread.\"",
-   "zh": "「嗯，」他說話如此輕聲，汝不得不靠近才能聽清，「在下把@羊毛紡成@線。」",
+   "zh": "「嗯，」他說話如此輕聲，汝不得不靠近才能聽清，「在下把@wool（羊毛）紡成@thread（線）。」",
    "note": ""
   },
   {
@@ -81,7 +81,7 @@
    "offset": 594,
    "len": 57,
    "en": "\"I'm not a weaver, $G, just a spinner. Talk to @Thindle.\"",
-   "zh": "「在下不是織布匠，$G，只是個紡線匠，去找@辛德爾吧。」",
+   "zh": "「在下不是織布匠，$G，只是個紡線匠，去找@Thindle（辛德）爾吧。」",
    "note": ""
   },
   {
@@ -109,7 +109,7 @@
    "offset": 982,
    "len": 68,
    "en": "\"He's much too @loud.\" He looks up suddenly and his face goes ashen.",
-   "zh": "「他實在太@吵了。」他突然抬頭，臉色頓時變得慘白。",
+   "zh": "「他實在太@loud（吵）了。」他突然抬頭，臉色頓時變得慘白。",
    "note": ""
   },
   {
@@ -284,7 +284,7 @@
    "offset": 2491,
    "len": 45,
    "en": "\"You'll have to find a @weaver, of course...\"",
-   "zh": "「汝當然還需要找個@織布匠……」",
+   "zh": "「汝當然還需要找個@weaver（織布）匠……」",
    "note": ""
   },
   {

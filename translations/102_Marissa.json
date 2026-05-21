@@ -67,7 +67,7 @@
    "offset": 290,
    "len": 42,
    "en": "\"Marissa. You may call me '@Miss Trihune.\"",
-   "zh": "「瑪麗莎。汝可稱在下為『@翠紅小姐』。」",
+   "zh": "「瑪麗莎。汝可稱在下為『@Miss（翠紅）小姐』。」",
    "note": ""
   },
   {
@@ -158,14 +158,14 @@
    "offset": 1158,
    "len": 52,
    "en": "\"But I'll need a @bolt of silk to do it, of course.\"",
-   "zh": "「但在下當然需要一@匹絲布才能製作。」",
+   "zh": "「但在下當然需要一@bolt（匹絲）布才能製作。」",
    "note": ""
   },
   {
    "offset": 1227,
    "len": 44,
    "en": "\"I create garments of the highest @fashion.\"",
-   "zh": "「在下創作最高端@時尚的服飾。」",
+   "zh": "「在下創作最高端@fashion時尚的服飾。」",
    "note": ""
   },
   {

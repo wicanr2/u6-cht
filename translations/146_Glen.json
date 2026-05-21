@@ -130,14 +130,14 @@
    "offset": 1345,
    "len": 42,
    "en": "\"I am Glen D'Arc, of the @Trinsic D'Arcs.\"",
-   "zh": "「吾乃葛蘭·達爾克，@特林希克達爾克家族的。」",
+   "zh": "「吾乃葛蘭·達爾克，@Trinsic（特林）希克達爾克家族的。」",
    "note": ""
   },
   {
    "offset": 1414,
    "len": 35,
    "en": "\"I had to move away... Too @sunny.\"",
-   "zh": "「吾不得不搬離……太@陽光了。」",
+   "zh": "「吾不得不搬離……太@sunny（陽光）了。」",
    "note": ""
   },
   {
@@ -151,7 +151,7 @@
    "offset": 1536,
    "len": 51,
    "en": "\"For most clients, I prefer to use Frigid @Solvol.\"",
-   "zh": "「對於大多數客人，吾更喜歡使用冰冷@索伏爾。」",
+   "zh": "「對於大多數客人，吾更喜歡使用冰冷@Solvol（索伏）爾。」",
    "note": "防腐液品牌名音譯"
   },
   {
@@ -179,7 +179,7 @@
    "offset": 1812,
    "len": 74,
    "en": "He sighs longingly. \"How I envy them, for only the @dead know true peace.\"",
-   "zh": "他深情嘆息。「吾多麼羨慕他們，因為唯有@亡者才知真正的平靜。」",
+   "zh": "他深情嘆息。「吾多麼羨慕他們，因為唯有@dead（亡者）才知真正的平靜。」",
    "note": ""
   },
   {
@@ -235,7 +235,7 @@
    "offset": 2480,
    "len": 105,
    "en": "\"I prepare the @bodies of the departed for their eternal @rest.\" He pauses to pop a grape into his mouth.",
-   "zh": "「吾為亡者的@遺體作永恆@安息的準備。」他停頓一下，把一顆葡萄塞進嘴裡。",
+   "zh": "「吾為亡者的@bodies（遺體）作永恆@rest（安息）的準備。」他停頓一下，把一顆葡萄塞進嘴裡。",
    "note": ""
   },
   {
@@ -256,7 +256,7 @@
    "offset": 2725,
    "len": 111,
    "en": "\"It's very relaxing work. At least it would be, if I didn't have to put up with that incompetent @gravedigger.\"",
-   "zh": "「這是非常放鬆的工作。至少本該如此，若不是得忍受那個無能的@掘墓人的話。」",
+   "zh": "「這是非常放鬆的工作。至少本該如此，若不是得忍受那個無能的@gravedigger（掘墓人）人的話。」",
    "note": ""
   },
   {
@@ -358,6 +358,11 @@
    "note": ""
   }
  ],
- "glossary_additions": {"people": {"Glen": "葛蘭"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Glen": "葛蘭"
+  },
+  "places": {}
+ },
  "translator_notes": "葛蘭是陰鬱的殯儀師，喜愛死亡和月光，以文言（「吾」）呈現其老派神秘氣質。黑色幽默貫穿全文。火葬是新功能，用屍體換骨灰罐。"
 }

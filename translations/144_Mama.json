@@ -11,7 +11,7 @@
    "offset": 38,
    "len": 38,
    "en": "\"You come back! Play with @tiny one?\" ",
-   "zh": "「你回來了！和@小不點玩嗎？」",
+   "zh": "「你回來了！和@tiny（小不）點玩嗎？」",
    "note": ""
   },
   {
@@ -32,7 +32,7 @@
    "offset": 168,
    "len": 49,
    "en": "\"Oh, you cute! You funny-looking like @tiny one!\"",
-   "zh": "「哦，你可愛！你長得奇怪像@小不點！」",
+   "zh": "「哦，你可愛！你長得奇怪像@tiny（小不）點！」",
    "note": ""
   },
   {
@@ -46,7 +46,7 @@
    "offset": 247,
    "len": 26,
    "en": "\"@Tiny one say me 'Mama.'\"",
-   "zh": "「@小不點叫我『媽媽』。」",
+   "zh": "「@Tiny（小不）點叫我『媽媽』。」",
    "note": ""
   },
   {
@@ -81,7 +81,7 @@
    "offset": 432,
    "len": 40,
    "en": "\"Cellar no go. Deep deep deep. @Locked.\"",
-   "zh": "「地下室不能去。很深很深。@鎖著。」",
+   "zh": "「地下室不能去。很深很深。@Locked（鎖著）。」",
    "note": ""
   },
   {
@@ -102,7 +102,7 @@
    "offset": 535,
    "len": 37,
    "en": "\"Oh, me seen that! Big black @block!\"",
-   "zh": "「哦，我見過！大大黑色@方塊！」",
+   "zh": "「哦，我見過！大大黑色@block方塊！」",
    "note": "關於黑色方形石頭"
   },
   {
@@ -116,7 +116,7 @@
    "offset": 623,
    "len": 28,
    "en": "\"Male keep that in @cellar.\"",
-   "zh": "「男的把那個放在@地下室。」",
+   "zh": "「男的把那個放在@cellar（地）下室。」",
    "note": ""
   },
   {
@@ -134,6 +134,11 @@
    "note": ""
   }
  ],
- "glossary_additions": {"people": {"Mama": "媽媽"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Mama": "媽媽"
+  },
+  "places": {}
+ },
  "translator_notes": "媽媽是雌性獨眼巨人，和爸爸一樣說話簡短。兩眼的小不點（Myles）是她收養的人類孩子。black block（黑色方塊）是劇情道具Vortex Cube。"
 }

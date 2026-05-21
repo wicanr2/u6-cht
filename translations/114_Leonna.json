@@ -1,44 +1,223 @@
 {
  "translations": [
-  {"offset": 1, "len": 7, "en": "rLeonna", "zh": "里歐娜"},
-  {"offset": 9, "len": 67, "en": "a smartly dressed woman. Her smile has a delightful subtlety to it.", "zh": "一名衣著入時之女子，笑容含蓄而宜人。"},
-  {"offset": 84, "len": 10, "en": "\"Yes, $P?\"", "zh": "「何事，$P？」"},
-  {"offset": 107, "len": 56, "en": "You fail to get her attention in the midst of the brawl.", "zh": "鬧鬨之中，汝終究未能引起她注意。"},
-  {"offset": 172, "len": 60, "en": "Her face lights up as she recognizes you. \"Hello again, $P!\"", "zh": "她認出汝，面露喜色：「又見面了，$P！」"},
-  {"offset": 244, "len": 68, "en": "\"Oh, you must be $P, the famous Avatar! 'Tis an honor to meet thee.\"", "zh": "「噢，汝定是$P，那位赫赫有名之聖者！與汝相見乃我之榮。」"},
-  {"offset": 326, "len": 20, "en": "\"My name is Leonna.\"", "zh": "「我名里歐娜。」"},
-  {"offset": 356, "len": 33, "en": "\"I used to @captain my own ship.\"", "zh": "「我曾自己@掌過一艘船。」"},
-  {"offset": 392, "len": 69, "en": "\"But I fell on hard times, and now I sail with @Leodon on the @Hind.\"", "zh": "「後來時運不濟，目下與@黎奧頓共航於@金鹿之上。」"},
-  {"offset": 482, "len": 37, "en": "\"A fine old vessel, the Golden Hind.\"", "zh": "「金鹿乃艘上好的老船。」"},
-  {"offset": 522, "len": 56, "en": "\"Alas, I have little to do while she's being @repaired.\"", "zh": "「惜哉，船@修繕期間我也閒著無事。」"},
-  {"offset": 621, "len": 40, "en": "\"There's none I'd rather ship out with.\"", "zh": "「再無更願與之同航之人。」"},
-  {"offset": 677, "len": 41, "en": "\"Captain who? I know lots of Captains...\"", "zh": "「哪位船長？我認識的船長可多哉……」"},
-  {"offset": 747, "len": 41, "en": "\"Captain who? I know lots of Captains...\"", "zh": "「哪位船長？我認識的船長可多哉……」"},
-  {"offset": 794, "len": 77, "en": "When you say 'Captain,' all the pirates at the table turn to you expectantly.", "zh": "汝一說「船長」，桌邊海盜眾人皆殷殷望汝。"},
-  {"offset": 874, "len": 77, "en": "When they realize you weren't talking to them, they return to their business.", "zh": "見汝並非與彼等交談，眾人重又各做各事。"},
-  {"offset": 962, "len": 27, "en": "\"Captain John is a madman!\"", "zh": "「約翰船長乃一狂人！」"},
-  {"offset": 992, "len": 72, "en": "\"He went down in Hythloth seeking a way to the other side of the world.\"", "zh": "「他下了希斯洛斯地穴，欲尋通往世界另一端之路。」"},
-  {"offset": 1067, "len": 79, "en": "\"Said he was going to kill as many @gargoyles as he could before they got him.\"", "zh": "「他言道：『在彼等取我性命前，盡可能屠戮@魔像族。』」"},
-  {"offset": 1158, "len": 75, "en": "\"That's not true!\" says Captain Fox. \"I can tell you what really happened.\"", "zh": "「非也！」狐狸船長道，「實情如何，我可告知汝。」"},
-  {"offset": 1250, "len": 36, "en": "\"Please, let's not talk about them.\"", "zh": "「拜託，莫提及彼輩。」"},
-  {"offset": 1296, "len": 20, "en": "\"Talk to you later.\"", "zh": "「下回再敘。」"},
-  {"offset": 1321, "len": 29, "en": "\"I can't help you with that.\"", "zh": "「此事我幫不上忙。」"},
-  {"offset": 1361, "len": 46, "en": "\"I'd be glad to join you--but I have already!\"", "zh": "「我自當樂意入伙——但我已在汝隊中啦！」"},
-  {"offset": 1413, "len": 36, "en": "\"Could I join your party, perhaps?\" ", "zh": "「或可讓我入汝之伙？」"},
-  {"offset": 1455, "len": 44, "en": "\"Okay. I guess I'll just stay here for now.\"", "zh": "「好。那我便暫且留此。」"},
-  {"offset": 1523, "len": 33, "en": "\"Not while you're in that thing!\"", "zh": "「汝乘那玩意兒可不行！」"},
-  {"offset": 1569, "len": 45, "en": "\"You have enough traveling with you already.\"", "zh": "「汝隨行之人已夠多了。」"},
-  {"offset": 1617, "len": 71, "en": "\"But if you ask one of them to @leave first, I'd be happy to join you.\"", "zh": "「但汝若先請其中一人@離隊，我便樂意入伙。」"},
-  {"offset": 1707, "len": 55, "en": "\"Oh good! I bet we'll meet a lot of interesting men...\"", "zh": "「太好了！我想我等定能遇上不少有趣的男子……」"},
-  {"offset": 1772, "len": 52, "en": "\"I'd have to @join you before I could leave, silly!\"", "zh": "「我得先@入伙才能離隊，傻孩子！」"},
-  {"offset": 1845, "len": 54, "en": "\"Let's get our feet back on solid ground first, okay?\"", "zh": "「先讓我等腳踏實地再說，可好？」"},
-  {"offset": 1918, "len": 47, "en": "\"Okay. I'll go wait back at the Fallen Virgin.\"", "zh": "「好。我便回墜貞酒館等候。」"},
-  {"offset": 1968, "len": 54, "en": "\"You're more likely to need this equipment than I am.\"", "zh": "「這些裝備留在汝身上更有用處。」"},
-  {"offset": 2025, "len": 61, "en": "She sets down everything she was carrying before walking off.", "zh": "她放下身上所有物事，方才轉身離去。"}
+  {
+   "offset": 1,
+   "len": 7,
+   "en": "rLeonna",
+   "zh": "里歐娜"
+  },
+  {
+   "offset": 9,
+   "len": 67,
+   "en": "a smartly dressed woman. Her smile has a delightful subtlety to it.",
+   "zh": "一名衣著入時之女子，笑容含蓄而宜人。"
+  },
+  {
+   "offset": 84,
+   "len": 10,
+   "en": "\"Yes, $P?\"",
+   "zh": "「何事，$P？」"
+  },
+  {
+   "offset": 107,
+   "len": 56,
+   "en": "You fail to get her attention in the midst of the brawl.",
+   "zh": "鬧鬨之中，汝終究未能引起她注意。"
+  },
+  {
+   "offset": 172,
+   "len": 60,
+   "en": "Her face lights up as she recognizes you. \"Hello again, $P!\"",
+   "zh": "她認出汝，面露喜色：「又見面了，$P！」"
+  },
+  {
+   "offset": 244,
+   "len": 68,
+   "en": "\"Oh, you must be $P, the famous Avatar! 'Tis an honor to meet thee.\"",
+   "zh": "「噢，汝定是$P，那位赫赫有名之聖者！與汝相見乃我之榮。」"
+  },
+  {
+   "offset": 326,
+   "len": 20,
+   "en": "\"My name is Leonna.\"",
+   "zh": "「我名里歐娜。」"
+  },
+  {
+   "offset": 356,
+   "len": 33,
+   "en": "\"I used to @captain my own ship.\"",
+   "zh": "「我曾自己@captain（掌過）一艘船。」"
+  },
+  {
+   "offset": 392,
+   "len": 69,
+   "en": "\"But I fell on hard times, and now I sail with @Leodon on the @Hind.\"",
+   "zh": "「後來時運不濟，目下與@Leodon（黎奧）頓共航於@Hind（金鹿）之上。」"
+  },
+  {
+   "offset": 482,
+   "len": 37,
+   "en": "\"A fine old vessel, the Golden Hind.\"",
+   "zh": "「金鹿乃艘上好的老船。」"
+  },
+  {
+   "offset": 522,
+   "len": 56,
+   "en": "\"Alas, I have little to do while she's being @repaired.\"",
+   "zh": "「惜哉，船@repaired（修繕）期間我也閒著無事。」"
+  },
+  {
+   "offset": 621,
+   "len": 40,
+   "en": "\"There's none I'd rather ship out with.\"",
+   "zh": "「再無更願與之同航之人。」"
+  },
+  {
+   "offset": 677,
+   "len": 41,
+   "en": "\"Captain who? I know lots of Captains...\"",
+   "zh": "「哪位船長？我認識的船長可多哉……」"
+  },
+  {
+   "offset": 747,
+   "len": 41,
+   "en": "\"Captain who? I know lots of Captains...\"",
+   "zh": "「哪位船長？我認識的船長可多哉……」"
+  },
+  {
+   "offset": 794,
+   "len": 77,
+   "en": "When you say 'Captain,' all the pirates at the table turn to you expectantly.",
+   "zh": "汝一說「船長」，桌邊海盜眾人皆殷殷望汝。"
+  },
+  {
+   "offset": 874,
+   "len": 77,
+   "en": "When they realize you weren't talking to them, they return to their business.",
+   "zh": "見汝並非與彼等交談，眾人重又各做各事。"
+  },
+  {
+   "offset": 962,
+   "len": 27,
+   "en": "\"Captain John is a madman!\"",
+   "zh": "「約翰船長乃一狂人！」"
+  },
+  {
+   "offset": 992,
+   "len": 72,
+   "en": "\"He went down in Hythloth seeking a way to the other side of the world.\"",
+   "zh": "「他下了希斯洛斯地穴，欲尋通往世界另一端之路。」"
+  },
+  {
+   "offset": 1067,
+   "len": 79,
+   "en": "\"Said he was going to kill as many @gargoyles as he could before they got him.\"",
+   "zh": "「他言道：『在彼等取我性命前，盡可能屠戮@gargoyles（魔像）族。』」"
+  },
+  {
+   "offset": 1158,
+   "len": 75,
+   "en": "\"That's not true!\" says Captain Fox. \"I can tell you what really happened.\"",
+   "zh": "「非也！」狐狸船長道，「實情如何，我可告知汝。」"
+  },
+  {
+   "offset": 1250,
+   "len": 36,
+   "en": "\"Please, let's not talk about them.\"",
+   "zh": "「拜託，莫提及彼輩。」"
+  },
+  {
+   "offset": 1296,
+   "len": 20,
+   "en": "\"Talk to you later.\"",
+   "zh": "「下回再敘。」"
+  },
+  {
+   "offset": 1321,
+   "len": 29,
+   "en": "\"I can't help you with that.\"",
+   "zh": "「此事我幫不上忙。」"
+  },
+  {
+   "offset": 1361,
+   "len": 46,
+   "en": "\"I'd be glad to join you--but I have already!\"",
+   "zh": "「我自當樂意入伙——但我已在汝隊中啦！」"
+  },
+  {
+   "offset": 1413,
+   "len": 36,
+   "en": "\"Could I join your party, perhaps?\" ",
+   "zh": "「或可讓我入汝之伙？」"
+  },
+  {
+   "offset": 1455,
+   "len": 44,
+   "en": "\"Okay. I guess I'll just stay here for now.\"",
+   "zh": "「好。那我便暫且留此。」"
+  },
+  {
+   "offset": 1523,
+   "len": 33,
+   "en": "\"Not while you're in that thing!\"",
+   "zh": "「汝乘那玩意兒可不行！」"
+  },
+  {
+   "offset": 1569,
+   "len": 45,
+   "en": "\"You have enough traveling with you already.\"",
+   "zh": "「汝隨行之人已夠多了。」"
+  },
+  {
+   "offset": 1617,
+   "len": 71,
+   "en": "\"But if you ask one of them to @leave first, I'd be happy to join you.\"",
+   "zh": "「但汝若先請其中一人@leave（離隊），我便樂意入伙。」"
+  },
+  {
+   "offset": 1707,
+   "len": 55,
+   "en": "\"Oh good! I bet we'll meet a lot of interesting men...\"",
+   "zh": "「太好了！我想我等定能遇上不少有趣的男子……」"
+  },
+  {
+   "offset": 1772,
+   "len": 52,
+   "en": "\"I'd have to @join you before I could leave, silly!\"",
+   "zh": "「我得先@join（入伙）才能離隊，傻孩子！」"
+  },
+  {
+   "offset": 1845,
+   "len": 54,
+   "en": "\"Let's get our feet back on solid ground first, okay?\"",
+   "zh": "「先讓我等腳踏實地再說，可好？」"
+  },
+  {
+   "offset": 1918,
+   "len": 47,
+   "en": "\"Okay. I'll go wait back at the Fallen Virgin.\"",
+   "zh": "「好。我便回墜貞酒館等候。」"
+  },
+  {
+   "offset": 1968,
+   "len": 54,
+   "en": "\"You're more likely to need this equipment than I am.\"",
+   "zh": "「這些裝備留在汝身上更有用處。」"
+  },
+  {
+   "offset": 2025,
+   "len": 61,
+   "en": "She sets down everything she was carrying before walking off.",
+   "zh": "她放下身上所有物事，方才轉身離去。"
+  }
  ],
  "glossary_additions": {
-  "people": {"Captain Fox": "狐狸船長"},
-  "places": {"Hythloth": "希斯洛斯地穴"}
+  "people": {
+   "Captain Fox": "狐狸船長"
+  },
+  "places": {
+   "Hythloth": "希斯洛斯地穴"
+  }
  },
  "translator_notes": "Leonna = Leodon 的大副，可加入隊伍。Buc's Den 海盜酒館的常客之一。Hythloth = U4-5 八大地穴之一。"
 }

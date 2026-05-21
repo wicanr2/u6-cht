@@ -52,7 +52,7 @@
    "offset": 149,
    "len": 76,
    "en": "\"Why, questing, of course! We've been on many a @quest together, you and I.\"",
-   "zh": "「當然是闖蕩@試煉啦！咱倆可一同經歷過不少@試煉哩。」",
+   "zh": "「當然是闖蕩@quest（試煉）啦！咱倆可一同經歷過不少試煉哩。」",
    "zh_bytes": 52,
    "note": "豪邁軍人腔"
   },
@@ -76,7 +76,7 @@
    "offset": 283,
    "len": 95,
    "en": "\"When you're not around I have to settle for rescuing @damsels, finding @grails, and the like.\"",
-   "zh": "「你不在時，我只好將就著去解救@佳人、尋找@聖杯之類的勾當。」",
+   "zh": "「你不在時，我只好將就著去解救@damsels（佳人）、尋找@grails（聖杯）之類的勾當。」",
    "zh_bytes": 60,
    "note": "@damsels @grails"
   },
@@ -100,7 +100,7 @@
    "offset": 417,
    "len": 84,
    "en": "\"Some of them are pretty eager to show their @gratitude, if you know what I mean...\"",
-   "zh": "「她們之中可有幾位，急著要向我表達@謝意呢，你@明白我的@意思吧……」",
+   "zh": "「她們之中可有幾位，急著要向我表達@gratitude（謝意）呢，你明白我的意思吧……」",
    "zh_bytes": 67,
    "note": "好色但不下流；含 @grat @know @mean"
   },
@@ -140,7 +140,7 @@
    "offset": 601,
    "len": 96,
    "en": "\"Lord British likes to keep grails around to use at his @banquets, but he's always losing them.\"",
-   "zh": "「不列顛王愛在@宴會上拿聖杯擺場面，可他老是把那玩意兒搞丟。」",
+   "zh": "「不列顛王愛在@banquets（宴會）上拿聖杯擺場面，可他老是把那玩意兒搞丟。」",
    "zh_bytes": 61,
    "note": "@banquets keyword"
   },
@@ -156,7 +156,7 @@
    "offset": 718,
    "len": 82,
    "en": "\"He'll throw us a fine feast if you can deal with the @gargoyle invasion somehow.\"",
-   "zh": "「兄弟，你若能想法子收拾@魔像族的@入侵，他必設盛宴款待咱們。」",
+   "zh": "「兄弟，你若能想法子收拾@gargoyle（魔像）族的入侵，他必設盛宴款待咱們。」",
    "zh_bytes": 62,
    "note": "@gargoyle @invasion"
   },

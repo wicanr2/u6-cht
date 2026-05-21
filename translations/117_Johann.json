@@ -1,43 +1,219 @@
 {
  "translations": [
-  {"offset": 1, "len": 7, "en": "uJohann", "zh": "約翰恩"},
-  {"offset": 9, "len": 23, "en": "an uneasy looking bard.", "zh": "一名神色侷促之吟遊詩人。"},
-  {"offset": 35, "len": 43, "en": "\"Oh, hello. Can I help you with something?\"", "zh": "「噢，您好。可有什麼需在下效勞？」"},
-  {"offset": 86, "len": 34, "en": "\"They call me '@Yodeling Johann.'\"", "zh": "「人們喚我『@山歌約翰恩』。」"},
-  {"offset": 136, "len": 54, "en": "\"I sing @songs for the @pira - for the @sailors here.\"", "zh": "「我為這裡的@海盜——呃，@水手——獻@歌。」"},
-  {"offset": 193, "len": 56, "en": "\"But I'm looking for a chance to @move to another town.\"", "zh": "「但我正謀@搬遷至他城之機。」"},
-  {"offset": 260, "len": 44, "en": "\"They're fine, hearty fellows, one and all.\"", "zh": "「個個皆為良善之士，無一例外。」"},
-  {"offset": 315, "len": 19, "en": "\"I'd better not...\"", "zh": "「還是別了……」"},
-  {"offset": 337, "len": 73, "en": "\"I've still got bruises from the last time I tried yodeling around here.\"", "zh": "「上回在此處吟唱山歌的瘀青尚未消退。」"},
-  {"offset": 421, "len": 56, "en": "\"Not that there are @pirates around here or anything...\"", "zh": "「並非說此處有@海盜什麼的……」"},
-  {"offset": 480, "len": 43, "en": "\"The salty air just doesn't agree with me.\"", "zh": "「鹹海之氣與我體質不合。」"},
-  {"offset": 534, "len": 66, "en": "\"Did I say pirates? I didn't say that.\" He looks around nervously.", "zh": "「我說海盜了？我可沒這麼說。」他緊張地環顧四周。"},
-  {"offset": 603, "len": 45, "en": "\"Nobody but fine honest sailors around here.\"", "zh": "「此處盡是正派誠實的水手。」"},
-  {"offset": 651, "len": 36, "en": "He lowers his voice. \"By the way...\"", "zh": "他壓低嗓音。「對了……」"},
-  {"offset": 690, "len": 91, "en": "\"If you should happen to run across Bonn, or Ybarra, or Hawkins, don't tell them I'm here.\"", "zh": "「汝若巧遇邦恩、伊巴拉或霍金斯，莫告知我在此處。」"},
-  {"offset": 802, "len": 31, "en": "\"Who's he? Never 'eard of 'im.\"", "zh": "「他是誰？沒聽說過。」"},
-  {"offset": 844, "len": 45, "en": "He spits on the ground and then says, \"What?\"", "zh": "他朝地下啐了一口：「啥？」"},
-  {"offset": 900, "len": 24, "en": "\"Oh, a loon with a spoon", "zh": "「噢，潛鳥銜湯匙"},
-  {"offset": 926, "len": 27, "en": "Sang a song of @ballooning.", "zh": "唱起@熱氣球之曲。"},
-  {"offset": 955, "len": 23, "en": "And the man in the moon", "zh": "月中之人聞之"},
-  {"offset": 980, "len": 26, "en": "Said it was quite a tune.\"", "zh": "讚嘆此曲妙絕。」"},
-  {"offset": 1009, "len": 25, "en": "\"Now one fine day in June", "zh": "「六月某佳日"},
-  {"offset": 1036, "len": 29, "en": "A young man went @ballooning.", "zh": "少年駕@球升空。"},
-  {"offset": 1067, "len": 23, "en": "Did he rise up to glory", "zh": "或升至榮光"},
-  {"offset": 1092, "len": 21, "en": "Or fall to his doom?\"", "zh": "或墜入死亡？」"},
-  {"offset": 1116, "len": 26, "en": "\"Just one thing will I say", "zh": "「我只想說一句"},
-  {"offset": 1144, "len": 28, "en": "Of the sport of @ballooning:", "zh": "關於這@熱氣球之事："},
-  {"offset": 1174, "len": 25, "en": "On the ground will I stay", "zh": "我寧腳踏實地"},
-  {"offset": 1201, "len": 33, "en": "While the ground still has room!\"", "zh": "只要大地還有我之位！」"},
-  {"offset": 1245, "len": 66, "en": "\"Oh, that's just some nonsense that gave me an idea for a song...\"", "zh": "「噢，那不過是激發我寫歌之靈感的胡謅之言……」"},
-  {"offset": 1314, "len": 44, "en": "\"I read about it in a book at the @Lycaeum.\"", "zh": "「我在@學院的書中讀過此事。」"},
-  {"offset": 1374, "len": 35, "en": "\"Ask the librarian there for help.\"", "zh": "「可問彼處之圖書管理員。」"},
-  {"offset": 1419, "len": 11, "en": "\"Good day.\"", "zh": "「再會。」"},
-  {"offset": 1435, "len": 61, "en": "\"I don't think it would be a good idea to talk about that...\"", "zh": "「此事還是莫談為妙……」"}
+  {
+   "offset": 1,
+   "len": 7,
+   "en": "uJohann",
+   "zh": "約翰恩"
+  },
+  {
+   "offset": 9,
+   "len": 23,
+   "en": "an uneasy looking bard.",
+   "zh": "一名神色侷促之吟遊詩人。"
+  },
+  {
+   "offset": 35,
+   "len": 43,
+   "en": "\"Oh, hello. Can I help you with something?\"",
+   "zh": "「噢，您好。可有什麼需在下效勞？」"
+  },
+  {
+   "offset": 86,
+   "len": 34,
+   "en": "\"They call me '@Yodeling Johann.'\"",
+   "zh": "「人們喚我『@Yodeling（山歌）約翰恩』。」"
+  },
+  {
+   "offset": 136,
+   "len": 54,
+   "en": "\"I sing @songs for the @pira - for the @sailors here.\"",
+   "zh": "「我為這裡的@songs（海盜）——呃，@pira（水手）——獻@sailors（歌）。」"
+  },
+  {
+   "offset": 193,
+   "len": 56,
+   "en": "\"But I'm looking for a chance to @move to another town.\"",
+   "zh": "「但我正謀@move（搬遷）至他城之機。」"
+  },
+  {
+   "offset": 260,
+   "len": 44,
+   "en": "\"They're fine, hearty fellows, one and all.\"",
+   "zh": "「個個皆為良善之士，無一例外。」"
+  },
+  {
+   "offset": 315,
+   "len": 19,
+   "en": "\"I'd better not...\"",
+   "zh": "「還是別了……」"
+  },
+  {
+   "offset": 337,
+   "len": 73,
+   "en": "\"I've still got bruises from the last time I tried yodeling around here.\"",
+   "zh": "「上回在此處吟唱山歌的瘀青尚未消退。」"
+  },
+  {
+   "offset": 421,
+   "len": 56,
+   "en": "\"Not that there are @pirates around here or anything...\"",
+   "zh": "「並非說此處有@pirates（海盜）什麼的……」"
+  },
+  {
+   "offset": 480,
+   "len": 43,
+   "en": "\"The salty air just doesn't agree with me.\"",
+   "zh": "「鹹海之氣與我體質不合。」"
+  },
+  {
+   "offset": 534,
+   "len": 66,
+   "en": "\"Did I say pirates? I didn't say that.\" He looks around nervously.",
+   "zh": "「我說海盜了？我可沒這麼說。」他緊張地環顧四周。"
+  },
+  {
+   "offset": 603,
+   "len": 45,
+   "en": "\"Nobody but fine honest sailors around here.\"",
+   "zh": "「此處盡是正派誠實的水手。」"
+  },
+  {
+   "offset": 651,
+   "len": 36,
+   "en": "He lowers his voice. \"By the way...\"",
+   "zh": "他壓低嗓音。「對了……」"
+  },
+  {
+   "offset": 690,
+   "len": 91,
+   "en": "\"If you should happen to run across Bonn, or Ybarra, or Hawkins, don't tell them I'm here.\"",
+   "zh": "「汝若巧遇邦恩、伊巴拉或霍金斯，莫告知我在此處。」"
+  },
+  {
+   "offset": 802,
+   "len": 31,
+   "en": "\"Who's he? Never 'eard of 'im.\"",
+   "zh": "「他是誰？沒聽說過。」"
+  },
+  {
+   "offset": 844,
+   "len": 45,
+   "en": "He spits on the ground and then says, \"What?\"",
+   "zh": "他朝地下啐了一口：「啥？」"
+  },
+  {
+   "offset": 900,
+   "len": 24,
+   "en": "\"Oh, a loon with a spoon",
+   "zh": "「噢，潛鳥銜湯匙"
+  },
+  {
+   "offset": 926,
+   "len": 27,
+   "en": "Sang a song of @ballooning.",
+   "zh": "唱起@ballooning（熱氣）球之曲。"
+  },
+  {
+   "offset": 955,
+   "len": 23,
+   "en": "And the man in the moon",
+   "zh": "月中之人聞之"
+  },
+  {
+   "offset": 980,
+   "len": 26,
+   "en": "Said it was quite a tune.\"",
+   "zh": "讚嘆此曲妙絕。」"
+  },
+  {
+   "offset": 1009,
+   "len": 25,
+   "en": "\"Now one fine day in June",
+   "zh": "「六月某佳日"
+  },
+  {
+   "offset": 1036,
+   "len": 29,
+   "en": "A young man went @ballooning.",
+   "zh": "少年駕@ballooning（球升）空。"
+  },
+  {
+   "offset": 1067,
+   "len": 23,
+   "en": "Did he rise up to glory",
+   "zh": "或升至榮光"
+  },
+  {
+   "offset": 1092,
+   "len": 21,
+   "en": "Or fall to his doom?\"",
+   "zh": "或墜入死亡？」"
+  },
+  {
+   "offset": 1116,
+   "len": 26,
+   "en": "\"Just one thing will I say",
+   "zh": "「我只想說一句"
+  },
+  {
+   "offset": 1144,
+   "len": 28,
+   "en": "Of the sport of @ballooning:",
+   "zh": "關於這@ballooning（熱氣）球之事："
+  },
+  {
+   "offset": 1174,
+   "len": 25,
+   "en": "On the ground will I stay",
+   "zh": "我寧腳踏實地"
+  },
+  {
+   "offset": 1201,
+   "len": 33,
+   "en": "While the ground still has room!\"",
+   "zh": "只要大地還有我之位！」"
+  },
+  {
+   "offset": 1245,
+   "len": 66,
+   "en": "\"Oh, that's just some nonsense that gave me an idea for a song...\"",
+   "zh": "「噢，那不過是激發我寫歌之靈感的胡謅之言……」"
+  },
+  {
+   "offset": 1314,
+   "len": 44,
+   "en": "\"I read about it in a book at the @Lycaeum.\"",
+   "zh": "「我在@Lycaeum（學院）的書中讀過此事。」"
+  },
+  {
+   "offset": 1374,
+   "len": 35,
+   "en": "\"Ask the librarian there for help.\"",
+   "zh": "「可問彼處之圖書管理員。」"
+  },
+  {
+   "offset": 1419,
+   "len": 11,
+   "en": "\"Good day.\"",
+   "zh": "「再會。」"
+  },
+  {
+   "offset": 1435,
+   "len": 61,
+   "en": "\"I don't think it would be a good idea to talk about that...\"",
+   "zh": "「此事還是莫談為妙……」"
+  }
  ],
  "glossary_additions": {
-  "people": {"Johann": "約翰恩", "Yodeling Johann": "山歌約翰恩"},
-  "concepts": {"ballooning": "熱氣球", "balloon": "熱氣球"}
+  "people": {
+   "Johann": "約翰恩",
+   "Yodeling Johann": "山歌約翰恩"
+  },
+  "concepts": {
+   "ballooning": "熱氣球",
+   "balloon": "熱氣球"
+  }
  },
  "translator_notes": "Johann = 海盜窟膽小詩人，劇情點：他在 Lycaeum 讀到熱氣球設計，提示玩家如何造氣球到地下世界。歌詞翻譯保留 ABAB 韻律感（潛鳥/月人/六月/熱氣球）。"
 }

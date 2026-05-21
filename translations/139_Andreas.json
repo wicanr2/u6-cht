@@ -46,21 +46,21 @@
    "offset": 432,
    "len": 39,
    "en": "\"I am Andreas, prince of the @gypsies.\"",
-   "zh": "「我是安德烈亞斯，@吉普賽人的王子。」",
+   "zh": "「我是安德烈亞斯，@gypsies（吉普）賽人的王子。」",
    "note": ""
   },
   {
    "offset": 481,
    "len": 65,
    "en": "\"I live the carefree life of a @gypsy, traveling hither and yon.\"",
-   "zh": "「我過著自由自在的@吉普賽生活，走遍四方。」",
+   "zh": "「我過著自由自在的@gypsy（吉普）賽生活，走遍四方。」",
    "note": ""
   },
   {
    "offset": 576,
    "len": 56,
    "en": "\"We all have our @talents. I myself happen to have two.\"",
-   "zh": "「我們都有各自的@才能。我剛好有兩項。」",
+   "zh": "「我們都有各自的@talents（才能）。我剛好有兩項。」",
    "note": ""
   },
   {
@@ -74,14 +74,14 @@
    "offset": 686,
    "len": 85,
    "en": "\"What, you mean @swordplay? Just ask, and I'll give thee a @lesson you won't forget!\"",
-   "zh": "「什麼，你說@劍術？只管開口，我給汝一堂汝不會忘記的@課！」",
+   "zh": "「什麼，你說@swordplay（劍術）？只管開口，我給汝一堂汝不會忘記的@lesson（課）！」",
    "note": ""
   },
   {
    "offset": 782,
    "len": 107,
    "en": "\"She practices the world's oldest @profession. I, of course, have perfected it, and thus need no practice.\"",
-   "zh": "「她從事世界上最古老的@職業。而我，當然，已臻完美，無需再練習。」",
+   "zh": "「她從事世界上最古老的@profession（職業）。而我，當然，已臻完美，無需再練習。」",
    "note": "關於Wanda"
   },
   {
@@ -95,7 +95,7 @@
    "offset": 950,
    "len": 75,
    "en": "\"A map? Aye, @Arturos has some scrap like that. I know nothing more of it.\"",
-   "zh": "「地圖？是啊，@阿圖羅斯有那樣的廢紙。我對此一無所知。」",
+   "zh": "「地圖？是啊，@Arturos（阿圖）羅斯有那樣的廢紙。我對此一無所知。」",
    "note": ""
   },
   {
@@ -193,14 +193,14 @@
    "offset": 1898,
    "len": 107,
    "en": "\"Don't trouble yourself about that. The art of the @sword and the art of @love are all that really matter.\"",
-   "zh": "「別為此煩惱。@劍術之道與@愛情之道，才是真正重要的事。」",
+   "zh": "「別為此煩惱。@sword（劍術）之道與@love（愛情）之道，才是真正重要的事。」",
    "note": ""
   },
   {
    "offset": 2015,
    "len": 96,
    "en": "\"Naturally, when so lovely a lady as yourself comes along, I offer, shall we say, my @services.\"",
-   "zh": "「自然，當如汝這般可人的女子出現，我便提供，姑且稱之為，我的@服務。」",
+   "zh": "「自然，當如汝這般可人的女子出現，我便提供，姑且稱之為，我的@services（服務）。」",
    "note": ""
   },
   {
@@ -221,7 +221,7 @@
    "offset": 2248,
    "len": 75,
    "en": "\"Of course, you'd probably be more interested in my sister @Wanda, right?\" ",
-   "zh": "「當然，你大概對我妹妹@汪達更感興趣吧，對嗎？」",
+   "zh": "「當然，你大概對我妹妹@Wanda（汪達）更感興趣吧，對嗎？」",
    "note": "對男性玩家"
   },
   {
@@ -375,7 +375,7 @@
    "offset": 4085,
    "len": 44,
    "en": "\"Perhaps @Arturos could tell you precisely.\"",
-   "zh": "「也許@阿圖羅斯能告訴你確切地點。」",
+   "zh": "「也許@Arturos（阿圖）羅斯能告訴你確切地點。」",
    "note": ""
   },
   {
@@ -421,6 +421,11 @@
    "note": ""
   }
  ],
- "glossary_additions": {"people": {"Andreas": "安德烈亞斯"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Andreas": "安德烈亞斯"
+  },
+  "places": {}
+ },
  "translator_notes": "安德烈亞斯是吉普賽花花公子，提供成人服務。對男女玩家各有不同台詞。口語化，帶調情意味。涉及劍術練習和偷竊暗示。"
 }

@@ -1,235 +1,235 @@
 {
-  "translations": [
-    {
-      "offset": 11,
-      "len": 61,
-      "en": "a man with a serpent-and-heart tabard covering his chainmail.",
-      "zh": "一位身穿鏈甲、外罩蛇心徽紋罩衫之男子。",
-      "note": "DESC"
-    },
-    {
-      "offset": 81,
-      "len": 25,
-      "en": "\"Good $T. We meet again.\"",
-      "zh": "「$T 吉祥。吾等再度相遇。」",
-      "note": ""
-    },
-    {
-      "offset": 118,
-      "len": 27,
-      "en": "\"I welcome thee to Jhelom.\"",
-      "zh": "「吾歡迎汝至傑隆城。」",
-      "note": ""
-    },
-    {
-      "offset": 148,
-      "len": 36,
-      "en": "\"I am Zellivan, and I am lord here.\"",
-      "zh": "「吾乃澤利凡，此地之主。」",
-      "note": ""
-    },
-    {
-      "offset": 187,
-      "len": 24,
-      "en": "\"Pray tell me thy name.\"",
-      "zh": "「請告知吾汝的名號。」",
-      "note": ""
-    },
-    {
-      "offset": 221,
-      "len": 62,
-      "en": "\"Ah, the Avatar! Lord @British has spoken fondly of thee, $G. ",
-      "zh": "「啊，聖者！@不列顛王曾對汝讚譽有加，$G。",
-      "note": "partial string"
-    },
-    {
-      "offset": 286,
-      "len": 34,
-      "en": "Please feel at home in this town.\"",
-      "zh": "請在此城賓至如歸。」",
-      "note": "continuation of above"
-    },
-    {
-      "offset": 328,
-      "len": 30,
-      "en": "\"Thou mayst call me Zellivan.\"",
-      "zh": "「汝可稱吾澤利凡。」",
-      "note": ""
-    },
-    {
-      "offset": 368,
-      "len": 64,
-      "en": "\"The @valorous are often boisterous. I watch over the fighters.\"",
-      "zh": "「@勇武之人往往豪放不羈。吾負責照料這些武士。」",
-      "note": ""
-    },
-    {
-      "offset": 443,
-      "len": 77,
-      "en": "\"I held a tournament, to decide who would be entrusted with the rune's care.\"",
-      "zh": "「吾舉辦了一場比武，以決定誰有資格保管符文。」",
-      "note": ""
-    },
-    {
-      "offset": 523,
-      "len": 60,
-      "en": "\"You might say that '@no @man' was the victor...\" He smiles.",
-      "zh": "「汝或許可以說，勝者乃『@無名@之人』……」他微笑道。",
-      "note": "joke on 'no man' — Nomaan the NPC's name"
-    },
-    {
-      "offset": 594,
-      "len": 52,
-      "en": "\"Hear it for thyself at the Sword and Keg @Pub, $G.\"",
-      "zh": "「汝可親往劍與桶@酒館親耳聆聽，$G。」",
-      "note": ""
-    },
-    {
-      "offset": 649,
-      "len": 48,
-      "en": "\"The songs and @tales do the heart good, I say!\"",
-      "zh": "「歌聲與@故事令人心曠神怡，吾如是說！」",
-      "note": ""
-    },
-    {
-      "offset": 725,
-      "len": 19,
-      "en": "\"Ask him yourself!\"",
-      "zh": "「汝親自去問他！」",
-      "note": "no man / Nomaan"
-    },
-    {
-      "offset": 765,
-      "len": 49,
-      "en": "\"Those who live the warriors' life like to sing, ",
-      "zh": "「過著武士生涯之人喜歡歌唱，",
-      "note": "partial string"
-    },
-    {
-      "offset": 815,
-      "len": 68,
-      "en": "and to regale one another with fanciful accounts of their exploits.\"",
-      "zh": "也樂於向彼此誇耀自己的英雄事蹟。」",
-      "note": "continuation"
-    },
-    {
-      "offset": 899,
-      "len": 73,
-      "en": "\"Here in Jhelom we delight in the clash of @arms and the din of @battle.\"",
-      "zh": "「在傑隆城，吾等熱衷於@兵刃相交的搏鬥與@戰鬥的喧囂。」",
-      "note": ""
-    },
-    {
-      "offset": 988,
-      "len": 44,
-      "en": "\"Speak to Nomaan if thou hast need of arms.\"",
-      "zh": "「若汝需要武器，可去找諾曼。」",
-      "note": ""
-    },
-    {
-      "offset": 1051,
-      "len": 84,
-      "en": "\"If thou hast tales of swordsmanship, then the Sword and Keg is the place for thee.\"",
-      "zh": "「若汝有劍術故事，劍與桶酒館便是汝的去處。」",
-      "note": ""
-    },
-    {
-      "offset": 1138,
-      "len": 33,
-      "en": "\"'Tis on the north side of town.\"",
-      "zh": "「此乃在城鎮北側。」",
-      "note": ""
-    },
-    {
-      "offset": 1182,
-      "len": 23,
-      "en": "\"Ah, battle!\" he sighs.",
-      "zh": "「啊，戰鬥！」他嘆道。",
-      "note": ""
-    },
-    {
-      "offset": 1208,
-      "len": 71,
-      "en": "For a time he reminisces with you, trading stories about past exploits.",
-      "zh": "他與汝共話往昔，互述過去的英勇事蹟，暢敘片刻。",
-      "note": "action"
-    },
-    {
-      "offset": 1295,
-      "len": 58,
-      "en": "\"Only an earthquake could make Jhelom tremble, I daresay.\"",
-      "zh": "「唯有地震方能令傑隆城顫抖，吾敢如此斷言。」",
-      "note": ""
-    },
-    {
-      "offset": 1356,
-      "len": 28,
-      "en": "\"We had one just last year.\"",
-      "zh": "「去歲便發生了一次。」",
-      "note": ""
-    },
-    {
-      "offset": 1387,
-      "len": 71,
-      "en": "\"The piers were broken up, but the @shipwrights repaired them swiftly.\"",
-      "zh": "「碼頭受損，但@船匠迅速修繕完畢。」",
-      "note": ""
-    },
-    {
-      "offset": 1479,
-      "len": 64,
-      "en": "\"The shipwrights of Jhelom are fastidious and frugal craftsmen.\"",
-      "zh": "「傑隆的船匠乃一絲不苟、節儉勤勉的工匠。」",
-      "note": ""
-    },
-    {
-      "offset": 1559,
-      "len": 34,
-      "en": "\"I grew up near Castle Britannia.\"",
-      "zh": "「吾是在不列顛城堡附近長大的。」",
-      "note": ""
-    },
-    {
-      "offset": 1596,
-      "len": 36,
-      "en": "\"'Twas the sunset o'er Brittany Bay ",
-      "zh": "「正是不列塔尼灣上的落日餘暉",
-      "note": "partial string, Brittany Bay is a bay name"
-    },
-    {
-      "offset": 1633,
-      "len": 67,
-      "en": "and the ships at rest in the harbor which drew me away to the sea.\"",
-      "zh": "以及停泊港中的船隻，引吾走向大海。」",
-      "note": "continuation"
-    },
-    {
-      "offset": 1710,
-      "len": 22,
-      "en": "\"Farewell, my friend.\"",
-      "zh": "「告辭，吾友。」",
-      "note": "bye"
-    },
-    {
-      "offset": 1737,
-      "len": 31,
-      "en": "\"I cannot help thee with that.\"",
-      "zh": "「此事吾無法助汝。」",
-      "note": ""
-    }
-  ],
-  "glossary_additions": {
-    "people": {
-      "Zellivan": "澤利凡",
-      "Nomaan": "諾曼"
-    },
-    "places": {
-      "Sword and Keg Pub": "劍與桶酒館",
-      "Brittany Bay": "不列塔尼灣"
-    },
-    "concepts": {
-      "valorous": "勇武"
-    }
+ "translations": [
+  {
+   "offset": 11,
+   "len": 61,
+   "en": "a man with a serpent-and-heart tabard covering his chainmail.",
+   "zh": "一位身穿鏈甲、外罩蛇心徽紋罩衫之男子。",
+   "note": "DESC"
   },
-  "translator_notes": "澤利凡是傑隆城爵主，武人氣質，語氣豪邁正直。'no man' 是雙關（Nomaan 是 NPC 名字），以「無名之人」暗示，保留笑點。Nomaan 音譯為「諾曼」。"
+  {
+   "offset": 81,
+   "len": 25,
+   "en": "\"Good $T. We meet again.\"",
+   "zh": "「$T 吉祥。吾等再度相遇。」",
+   "note": ""
+  },
+  {
+   "offset": 118,
+   "len": 27,
+   "en": "\"I welcome thee to Jhelom.\"",
+   "zh": "「吾歡迎汝至傑隆城。」",
+   "note": ""
+  },
+  {
+   "offset": 148,
+   "len": 36,
+   "en": "\"I am Zellivan, and I am lord here.\"",
+   "zh": "「吾乃澤利凡，此地之主。」",
+   "note": ""
+  },
+  {
+   "offset": 187,
+   "len": 24,
+   "en": "\"Pray tell me thy name.\"",
+   "zh": "「請告知吾汝的名號。」",
+   "note": ""
+  },
+  {
+   "offset": 221,
+   "len": 62,
+   "en": "\"Ah, the Avatar! Lord @British has spoken fondly of thee, $G. ",
+   "zh": "「啊，聖者！@British（不列）顛王曾對汝讚譽有加，$G。",
+   "note": "partial string"
+  },
+  {
+   "offset": 286,
+   "len": 34,
+   "en": "Please feel at home in this town.\"",
+   "zh": "請在此城賓至如歸。」",
+   "note": "continuation of above"
+  },
+  {
+   "offset": 328,
+   "len": 30,
+   "en": "\"Thou mayst call me Zellivan.\"",
+   "zh": "「汝可稱吾澤利凡。」",
+   "note": ""
+  },
+  {
+   "offset": 368,
+   "len": 64,
+   "en": "\"The @valorous are often boisterous. I watch over the fighters.\"",
+   "zh": "「@valorous（勇武）之人往往豪放不羈。吾負責照料這些武士。」",
+   "note": ""
+  },
+  {
+   "offset": 443,
+   "len": 77,
+   "en": "\"I held a tournament, to decide who would be entrusted with the rune's care.\"",
+   "zh": "「吾舉辦了一場比武，以決定誰有資格保管符文。」",
+   "note": ""
+  },
+  {
+   "offset": 523,
+   "len": 60,
+   "en": "\"You might say that '@no @man' was the victor...\" He smiles.",
+   "zh": "「汝或許可以說，勝者乃『@no（否）無名@man之人』……」他微笑道。",
+   "note": "joke on 'no man' — Nomaan the NPC's name"
+  },
+  {
+   "offset": 594,
+   "len": 52,
+   "en": "\"Hear it for thyself at the Sword and Keg @Pub, $G.\"",
+   "zh": "「汝可親往劍與桶@Pub（酒館）親耳聆聽，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 649,
+   "len": 48,
+   "en": "\"The songs and @tales do the heart good, I say!\"",
+   "zh": "「歌聲與@tales故事令人心曠神怡，吾如是說！」",
+   "note": ""
+  },
+  {
+   "offset": 725,
+   "len": 19,
+   "en": "\"Ask him yourself!\"",
+   "zh": "「汝親自去問他！」",
+   "note": "no man / Nomaan"
+  },
+  {
+   "offset": 765,
+   "len": 49,
+   "en": "\"Those who live the warriors' life like to sing, ",
+   "zh": "「過著武士生涯之人喜歡歌唱，",
+   "note": "partial string"
+  },
+  {
+   "offset": 815,
+   "len": 68,
+   "en": "and to regale one another with fanciful accounts of their exploits.\"",
+   "zh": "也樂於向彼此誇耀自己的英雄事蹟。」",
+   "note": "continuation"
+  },
+  {
+   "offset": 899,
+   "len": 73,
+   "en": "\"Here in Jhelom we delight in the clash of @arms and the din of @battle.\"",
+   "zh": "「在傑隆城，吾等熱衷於@arms（兵刃）相交的搏鬥與@battle（戰鬥）的喧囂。」",
+   "note": ""
+  },
+  {
+   "offset": 988,
+   "len": 44,
+   "en": "\"Speak to Nomaan if thou hast need of arms.\"",
+   "zh": "「若汝需要武器，可去找諾曼。」",
+   "note": ""
+  },
+  {
+   "offset": 1051,
+   "len": 84,
+   "en": "\"If thou hast tales of swordsmanship, then the Sword and Keg is the place for thee.\"",
+   "zh": "「若汝有劍術故事，劍與桶酒館便是汝的去處。」",
+   "note": ""
+  },
+  {
+   "offset": 1138,
+   "len": 33,
+   "en": "\"'Tis on the north side of town.\"",
+   "zh": "「此乃在城鎮北側。」",
+   "note": ""
+  },
+  {
+   "offset": 1182,
+   "len": 23,
+   "en": "\"Ah, battle!\" he sighs.",
+   "zh": "「啊，戰鬥！」他嘆道。",
+   "note": ""
+  },
+  {
+   "offset": 1208,
+   "len": 71,
+   "en": "For a time he reminisces with you, trading stories about past exploits.",
+   "zh": "他與汝共話往昔，互述過去的英勇事蹟，暢敘片刻。",
+   "note": "action"
+  },
+  {
+   "offset": 1295,
+   "len": 58,
+   "en": "\"Only an earthquake could make Jhelom tremble, I daresay.\"",
+   "zh": "「唯有地震方能令傑隆城顫抖，吾敢如此斷言。」",
+   "note": ""
+  },
+  {
+   "offset": 1356,
+   "len": 28,
+   "en": "\"We had one just last year.\"",
+   "zh": "「去歲便發生了一次。」",
+   "note": ""
+  },
+  {
+   "offset": 1387,
+   "len": 71,
+   "en": "\"The piers were broken up, but the @shipwrights repaired them swiftly.\"",
+   "zh": "「碼頭受損，但@shipwrights（船匠）迅速修繕完畢。」",
+   "note": ""
+  },
+  {
+   "offset": 1479,
+   "len": 64,
+   "en": "\"The shipwrights of Jhelom are fastidious and frugal craftsmen.\"",
+   "zh": "「傑隆的船匠乃一絲不苟、節儉勤勉的工匠。」",
+   "note": ""
+  },
+  {
+   "offset": 1559,
+   "len": 34,
+   "en": "\"I grew up near Castle Britannia.\"",
+   "zh": "「吾是在不列顛城堡附近長大的。」",
+   "note": ""
+  },
+  {
+   "offset": 1596,
+   "len": 36,
+   "en": "\"'Twas the sunset o'er Brittany Bay ",
+   "zh": "「正是不列塔尼灣上的落日餘暉",
+   "note": "partial string, Brittany Bay is a bay name"
+  },
+  {
+   "offset": 1633,
+   "len": 67,
+   "en": "and the ships at rest in the harbor which drew me away to the sea.\"",
+   "zh": "以及停泊港中的船隻，引吾走向大海。」",
+   "note": "continuation"
+  },
+  {
+   "offset": 1710,
+   "len": 22,
+   "en": "\"Farewell, my friend.\"",
+   "zh": "「告辭，吾友。」",
+   "note": "bye"
+  },
+  {
+   "offset": 1737,
+   "len": 31,
+   "en": "\"I cannot help thee with that.\"",
+   "zh": "「此事吾無法助汝。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Zellivan": "澤利凡",
+   "Nomaan": "諾曼"
+  },
+  "places": {
+   "Sword and Keg Pub": "劍與桶酒館",
+   "Brittany Bay": "不列塔尼灣"
+  },
+  "concepts": {
+   "valorous": "勇武"
+  }
+ },
+ "translator_notes": "澤利凡是傑隆城爵主，武人氣質，語氣豪邁正直。'no man' 是雙關（Nomaan 是 NPC 名字），以「無名之人」暗示，保留笑點。Nomaan 音譯為「諾曼」。"
 }

@@ -1,229 +1,229 @@
 {
-  "translations": [
-    {
-      "offset": 9,
-      "len": 37,
-      "en": "a tall, muscled man with a wide grin.",
-      "zh": "一位身材高大、肌肉壯碩、咧嘴而笑的男子。",
-      "note": "DESC; same as Peer"
-    },
-    {
-      "offset": 62,
-      "len": 43,
-      "en": "He squints at you. \"We've met, haven't we?\"",
-      "zh": "他瞇眼打量汝。「吾等見過面，對嗎？」",
-      "note": ""
-    },
-    {
-      "offset": 106,
-      "len": 67,
-      "en": "\"Hello,\" he says, lumbering over to you and extending a large hand.",
-      "zh": "「哈囉，」他說著，蹣跚地走向汝，伸出一隻大手。",
-      "note": ""
-    },
-    {
-      "offset": 183,
-      "len": 23,
-      "en": "\"What can I do for ya?\"",
-      "zh": "「吾能為汝效勞什麼？」",
-      "note": ""
-    },
-    {
-      "offset": 214,
-      "len": 9,
-      "en": "\"Trebor.\"",
-      "zh": "「崔伯。」",
-      "note": ""
-    },
-    {
-      "offset": 245,
-      "len": 27,
-      "en": "\"You bought my last craft!\"",
-      "zh": "「汝買走了吾最後一艘船！」",
-      "note": ""
-    },
-    {
-      "offset": 278,
-      "len": 8,
-      "en": "\"I sell ",
-      "zh": "「吾售賣",
-      "note": "partial"
-    },
-    {
-      "offset": 315,
-      "len": 6,
-      "en": "@ships",
-      "zh": "@大船",
-      "note": ""
-    },
-    {
-      "offset": 369,
-      "len": 2,
-      "en": ".\"",
-      "zh": "。」",
-      "note": ""
-    },
-    {
-      "offset": 381,
-      "len": 5,
-      "en": " and ",
-      "zh": "與",
-      "note": ""
-    },
-    {
-      "offset": 387,
-      "len": 9,
-      "en": "@skiffs.\"",
-      "zh": "@小艇。」",
-      "note": ""
-    },
-    {
-      "offset": 463,
-      "len": 33,
-      "en": "\"Sorry, I sold you my last ship.\"",
-      "zh": "「抱歉，吾最後一艘大船已賣給汝了。」",
-      "note": ""
-    },
-    {
-      "offset": 563,
-      "len": 34,
-      "en": "\"Sorry, I sold you my last skiff.\"",
-      "zh": "「抱歉，吾最後一艘小艇已賣給汝了。」",
-      "note": ""
-    },
-    {
-      "offset": 619,
-      "len": 34,
-      "en": "\"I used to sell ships and skiffs.\"",
-      "zh": "「吾以前賣大船和小艇。」",
-      "note": ""
-    },
-    {
-      "offset": 656,
-      "len": 26,
-      "en": "\"But you bought them all!\"",
-      "zh": "「但汝把它們全買走了！」",
-      "note": ""
-    },
-    {
-      "offset": 688,
-      "len": 8,
-      "en": "\"I sell ",
-      "zh": "「吾售賣",
-      "note": "partial"
-    },
-    {
-      "offset": 725,
-      "len": 6,
-      "en": "@ships",
-      "zh": "@大船",
-      "note": ""
-    },
-    {
-      "offset": 779,
-      "len": 2,
-      "en": ".\"",
-      "zh": "。」",
-      "note": ""
-    },
-    {
-      "offset": 791,
-      "len": 5,
-      "en": " and ",
-      "zh": "與",
-      "note": ""
-    },
-    {
-      "offset": 797,
-      "len": 9,
-      "en": "@skiffs.\"",
-      "zh": "@小艇。」",
-      "note": ""
-    },
-    {
-      "offset": 816,
-      "len": 46,
-      "en": "\"So long friend.\" He lumbers back to his work.",
-      "zh": "「再見，朋友。」他蹣跚地走回去繼續工作。",
-      "note": "bye"
-    },
-    {
-      "offset": 867,
-      "len": 19,
-      "en": "\"That's a puzzler.\"",
-      "zh": "「這倒是個謎。」",
-      "note": ""
-    },
-    {
-      "offset": 980,
-      "len": 16,
-      "en": "\"Which of you?\" ",
-      "zh": "「汝等哪一位？」",
-      "note": ""
-    },
-    {
-      "offset": 1062,
-      "len": 67,
-      "en": "$N turns to $Y. \"It'll cost you #4 gold for the deed. Interested?\" ",
-      "zh": "$N 轉向 $Y。「船契需 #4 枚金幣。汝有意嗎？」",
-      "note": ""
-    },
-    {
-      "offset": 1207,
-      "len": 33,
-      "en": "\"You look pretty full to me, $Y.\"",
-      "zh": "「汝看起來行李很滿，$Y。」",
-      "note": ""
-    },
-    {
-      "offset": 1321,
-      "len": 60,
-      "en": "\"Excellent!\" After accepting the gold, $N hands $Y the deed.",
-      "zh": "「甚好！」收下金幣後，$N 將船契交給 $Y。",
-      "note": ""
-    },
-    {
-      "offset": 1400,
-      "len": 20,
-      "en": "\"Sail her straight.\"",
-      "zh": "「駕好她，順風而行。」",
-      "note": ""
-    },
-    {
-      "offset": 1421,
-      "len": 35,
-      "en": "\"You'll ne'er find a better craft.\"",
-      "zh": "「汝絕對找不到比這更好的船了。」",
-      "note": ""
-    },
-    {
-      "offset": 1469,
-      "len": 28,
-      "en": "\"Thou hast not enough gold.\"",
-      "zh": "「汝的金幣不足。」",
-      "note": ""
-    },
-    {
-      "offset": 1544,
-      "len": 33,
-      "en": "\"Thy party hast not enough gold.\"",
-      "zh": "「汝等隊伍的金幣不足。」",
-      "note": ""
-    },
-    {
-      "offset": 1639,
-      "len": 56,
-      "en": "Your party takes up a collection to purchase the vessel.",
-      "zh": "汝的隊伍湊錢購買這艘船。",
-      "note": "action"
-    }
-  ],
-  "glossary_additions": {
-    "people": {
-      "Trebor": "崔伯"
-    },
-    "places": {},
-    "concepts": {}
+ "translations": [
+  {
+   "offset": 9,
+   "len": 37,
+   "en": "a tall, muscled man with a wide grin.",
+   "zh": "一位身材高大、肌肉壯碩、咧嘴而笑的男子。",
+   "note": "DESC; same as Peer"
   },
-  "translator_notes": "崔伯是另一位造船商，與皮爾（053）有相同的台詞結構。賣大船和小艇，同樣使用船契交易。"
+  {
+   "offset": 62,
+   "len": 43,
+   "en": "He squints at you. \"We've met, haven't we?\"",
+   "zh": "他瞇眼打量汝。「吾等見過面，對嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 106,
+   "len": 67,
+   "en": "\"Hello,\" he says, lumbering over to you and extending a large hand.",
+   "zh": "「哈囉，」他說著，蹣跚地走向汝，伸出一隻大手。",
+   "note": ""
+  },
+  {
+   "offset": 183,
+   "len": 23,
+   "en": "\"What can I do for ya?\"",
+   "zh": "「吾能為汝效勞什麼？」",
+   "note": ""
+  },
+  {
+   "offset": 214,
+   "len": 9,
+   "en": "\"Trebor.\"",
+   "zh": "「崔伯。」",
+   "note": ""
+  },
+  {
+   "offset": 245,
+   "len": 27,
+   "en": "\"You bought my last craft!\"",
+   "zh": "「汝買走了吾最後一艘船！」",
+   "note": ""
+  },
+  {
+   "offset": 278,
+   "len": 8,
+   "en": "\"I sell ",
+   "zh": "「吾售賣",
+   "note": "partial"
+  },
+  {
+   "offset": 315,
+   "len": 6,
+   "en": "@ships",
+   "zh": "@ships（大船）",
+   "note": ""
+  },
+  {
+   "offset": 369,
+   "len": 2,
+   "en": ".\"",
+   "zh": "。」",
+   "note": ""
+  },
+  {
+   "offset": 381,
+   "len": 5,
+   "en": " and ",
+   "zh": "與",
+   "note": ""
+  },
+  {
+   "offset": 387,
+   "len": 9,
+   "en": "@skiffs.\"",
+   "zh": "@skiffs（小艇）。」",
+   "note": ""
+  },
+  {
+   "offset": 463,
+   "len": 33,
+   "en": "\"Sorry, I sold you my last ship.\"",
+   "zh": "「抱歉，吾最後一艘大船已賣給汝了。」",
+   "note": ""
+  },
+  {
+   "offset": 563,
+   "len": 34,
+   "en": "\"Sorry, I sold you my last skiff.\"",
+   "zh": "「抱歉，吾最後一艘小艇已賣給汝了。」",
+   "note": ""
+  },
+  {
+   "offset": 619,
+   "len": 34,
+   "en": "\"I used to sell ships and skiffs.\"",
+   "zh": "「吾以前賣大船和小艇。」",
+   "note": ""
+  },
+  {
+   "offset": 656,
+   "len": 26,
+   "en": "\"But you bought them all!\"",
+   "zh": "「但汝把它們全買走了！」",
+   "note": ""
+  },
+  {
+   "offset": 688,
+   "len": 8,
+   "en": "\"I sell ",
+   "zh": "「吾售賣",
+   "note": "partial"
+  },
+  {
+   "offset": 725,
+   "len": 6,
+   "en": "@ships",
+   "zh": "@ships（大船）",
+   "note": ""
+  },
+  {
+   "offset": 779,
+   "len": 2,
+   "en": ".\"",
+   "zh": "。」",
+   "note": ""
+  },
+  {
+   "offset": 791,
+   "len": 5,
+   "en": " and ",
+   "zh": "與",
+   "note": ""
+  },
+  {
+   "offset": 797,
+   "len": 9,
+   "en": "@skiffs.\"",
+   "zh": "@skiffs（小艇）。」",
+   "note": ""
+  },
+  {
+   "offset": 816,
+   "len": 46,
+   "en": "\"So long friend.\" He lumbers back to his work.",
+   "zh": "「再見，朋友。」他蹣跚地走回去繼續工作。",
+   "note": "bye"
+  },
+  {
+   "offset": 867,
+   "len": 19,
+   "en": "\"That's a puzzler.\"",
+   "zh": "「這倒是個謎。」",
+   "note": ""
+  },
+  {
+   "offset": 980,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝等哪一位？」",
+   "note": ""
+  },
+  {
+   "offset": 1062,
+   "len": 67,
+   "en": "$N turns to $Y. \"It'll cost you #4 gold for the deed. Interested?\" ",
+   "zh": "$N 轉向 $Y。「船契需 #4 枚金幣。汝有意嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1207,
+   "len": 33,
+   "en": "\"You look pretty full to me, $Y.\"",
+   "zh": "「汝看起來行李很滿，$Y。」",
+   "note": ""
+  },
+  {
+   "offset": 1321,
+   "len": 60,
+   "en": "\"Excellent!\" After accepting the gold, $N hands $Y the deed.",
+   "zh": "「甚好！」收下金幣後，$N 將船契交給 $Y。",
+   "note": ""
+  },
+  {
+   "offset": 1400,
+   "len": 20,
+   "en": "\"Sail her straight.\"",
+   "zh": "「駕好她，順風而行。」",
+   "note": ""
+  },
+  {
+   "offset": 1421,
+   "len": 35,
+   "en": "\"You'll ne'er find a better craft.\"",
+   "zh": "「汝絕對找不到比這更好的船了。」",
+   "note": ""
+  },
+  {
+   "offset": 1469,
+   "len": 28,
+   "en": "\"Thou hast not enough gold.\"",
+   "zh": "「汝的金幣不足。」",
+   "note": ""
+  },
+  {
+   "offset": 1544,
+   "len": 33,
+   "en": "\"Thy party hast not enough gold.\"",
+   "zh": "「汝等隊伍的金幣不足。」",
+   "note": ""
+  },
+  {
+   "offset": 1639,
+   "len": 56,
+   "en": "Your party takes up a collection to purchase the vessel.",
+   "zh": "汝的隊伍湊錢購買這艘船。",
+   "note": "action"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Trebor": "崔伯"
+  },
+  "places": {},
+  "concepts": {}
+ },
+ "translator_notes": "崔伯是另一位造船商，與皮爾（053）有相同的台詞結構。賣大船和小艇，同樣使用船契交易。"
 }

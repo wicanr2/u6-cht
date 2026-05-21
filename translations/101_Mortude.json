@@ -25,7 +25,7 @@
    "offset": 106,
    "len": 57,
    "en": "\"As the sign on my door reads, '@Mortude the Ropemaker.'\"",
-   "zh": "「就如在下門上的招牌所寫，『@莫圖德索具匠』。」",
+   "zh": "「就如在下門上的招牌所寫，『@Mortude（莫圖）德索具匠』。」",
    "note": ""
   },
   {
@@ -39,7 +39,7 @@
    "offset": 233,
    "len": 63,
    "en": "He looks at you and raises one eyebrow. \"I said I makes @rope.\"",
-   "zh": "他看著汝，挑起一側眉毛。「在下說了，在下做@繩索。」",
+   "zh": "他看著汝，挑起一側眉毛。「在下說了，在下做@rope（繩索）。」",
    "note": ""
   },
   {
@@ -60,28 +60,28 @@
    "offset": 459,
    "len": 39,
    "en": "\"He's a pretty good @flippits, player.\"",
-   "zh": "「他是個不錯的@骨彈戲高手。」",
+   "zh": "「他是個不錯的@flippits（骨彈）戲高手。」",
    "note": ""
   },
   {
    "offset": 510,
    "len": 37,
    "en": "\"You have a @bone on ya? We'll play.\"",
-   "zh": "「汝身上有@骨頭嗎？咱們來玩。」",
+   "zh": "「汝身上有@bone（骨頭）嗎？咱們來玩。」",
    "note": ""
   },
   {
    "offset": 559,
    "len": 32,
    "en": "\"An old @dog bone or somethin'?\"",
-   "zh": "「一塊舊@狗骨頭之類的？」",
+   "zh": "「一塊舊@dog（狗骨）頭之類的？」",
    "note": ""
   },
   {
    "offset": 606,
    "len": 44,
    "en": "\"The smaller, the better. And maybe a @hat.\"",
-   "zh": "「越小越好，再加頂@帽子就行了。」",
+   "zh": "「越小越好，再加頂@hat（帽子）就行了。」",
    "note": ""
   },
   {

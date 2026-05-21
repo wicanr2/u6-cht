@@ -46,7 +46,7 @@
    "offset": 294,
    "len": 33,
    "en": "\"Dost thou want @arms or @armor?\"",
-   "zh": "「汝要@兵器還是@護甲？」",
+   "zh": "「汝要@arms（兵器）還是@armor（護甲）？」",
    "note": ""
   },
   {
@@ -74,7 +74,7 @@
    "offset": 522,
    "len": 89,
    "en": "\"Oh, I'm not important like you. I'm just a weaponsmith--and only a @journeyman at that.\"",
-   "zh": "「哦，我哪比得上汝。我不過是個武器匠——而且只是個@中級匠師罷了。」",
+   "zh": "「哦，我哪比得上汝。我不過是個武器匠——而且只是個@journeyman中級匠師罷了。」",
    "note": ""
   },
   {
@@ -88,7 +88,7 @@
    "offset": 679,
    "len": 36,
    "en": "\"Now I @supply arms to all Trinsic!\"",
-   "zh": "「如今我@供應整個崔西克的武器！」",
+   "zh": "「如今我@supply（供應）整個崔西克的武器！」",
    "note": ""
   },
   {
@@ -116,7 +116,7 @@
    "offset": 868,
    "len": 62,
    "en": "\"But no, I can't. I've responsibilites here, especially @now.\"",
-   "zh": "「但不行，我有責任在身，尤其是@眼下這個時刻。」",
+   "zh": "「但不行，我有責任在身，尤其是@now（眼）下這個時刻。」",
    "note": ""
   },
   {
@@ -130,7 +130,7 @@
    "offset": 1003,
    "len": 54,
    "en": "\"I have to make @weapons to help fight the gargoyles!\"",
-   "zh": "「我須打造@武器以助抗擊魔像族！」",
+   "zh": "「我須打造@weapons（武器）以助抗擊魔像族！」",
    "note": ""
   },
   {
@@ -144,7 +144,7 @@
    "offset": 1122,
    "len": 77,
    "en": "\"Perhaps you'd like to @buy some. I'd be honored to have thee as a customer.\"",
-   "zh": "「或許汝有意@購買？能以汝為主顧，榮幸之至。」",
+   "zh": "「或許汝有意@buy（買）？能以汝為主顧，榮幸之至。」",
    "note": ""
   },
   {

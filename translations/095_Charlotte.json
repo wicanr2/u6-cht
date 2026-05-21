@@ -25,28 +25,28 @@
    "offset": 103,
    "len": 36,
    "en": "\"I am called Charlotte @Weaver, $G.\"",
-   "zh": "「吾名夏綠蒂·@織女，$G。」",
+   "zh": "「吾名夏綠蒂·@Weaver（織女），$G。」",
    "note": "@Weaver keyword"
   },
   {
    "offset": 155,
    "len": 32,
    "en": "\"I am but a humble @weaver, $G.\"",
-   "zh": "「吾不過是個謙遜的@織工，$G。」",
+   "zh": "「吾不過是個謙遜的@weaver（織工），$G。」",
    "note": "@weaver keyword"
   },
   {
    "offset": 198,
    "len": 26,
    "en": "\"I turn @wool into cloth.\"",
-   "zh": "「吾將@羊毛織成布匹。」",
+   "zh": "「吾將@wool（羊毛）織成布匹。」",
    "note": "@wool keyword"
   },
   {
    "offset": 227,
    "len": 79,
    "en": "\"I am not very good, but some people take pity on me and buy my @cloth anyway.\"",
-   "zh": "「吾技藝不精，但有些人憐憫吾，仍願買吾的@布匹。」",
+   "zh": "「吾技藝不精，但有些人憐憫吾，仍願買吾的@cloth（布匹）。」",
    "note": "@cloth keyword；謙遜自嘲"
   },
   {
@@ -319,21 +319,21 @@
    "offset": 2491,
    "len": 72,
    "en": "\"Take the cloth to @Marissa. Mayhap she can sew it into a bag for thee.\"",
-   "zh": "「將布匹帶去找@瑪麗莎。也許她能為汝縫製一個袋子。」",
+   "zh": "「將布匹帶去找@Marissa（瑪麗）莎。也許她能為汝縫製一個袋子。」",
    "note": "@Marissa keyword；plan/ball/bag response"
   },
   {
    "offset": 2580,
    "len": 74,
    "en": "\"I can weave that @silk for thee... Then thou should speak with @Marissa.\"",
-   "zh": "「吾可為汝將那@絲線織成布匹……然後汝應去找@瑪麗莎談談。」",
+   "zh": "「吾可為汝將那@silk（絲線）織成布匹……然後汝應去找@Marissa（瑪麗）莎談談。」",
    "note": "@silk @Marissa keywords"
   },
   {
    "offset": 2660,
    "len": 89,
    "en": "\"If you had some @silk thread, I could help thee. Go ask @Arbeth if he has any to spare.\"",
-   "zh": "「若汝有些@絲線，吾便能相助。去問問@阿伯斯他是否有多餘的。」",
+   "zh": "「若汝有些@silk（絲線），吾便能相助。去問問@Arbeth（阿伯）斯他是否有多餘的。」",
    "note": "@silk @Arbeth keywords"
   }
  ],

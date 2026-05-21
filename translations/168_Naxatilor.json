@@ -116,14 +116,14 @@
    "offset": 936,
    "len": 45,
    "en": "\"To have no @choice but to return the Codex!\"",
-   "zh": "「別無@choice選擇，唯有歸還守則之書！」",
+   "zh": "「別無@choice選擇，唯有歸還知識寶典！」",
    "note": ""
   },
   {
    "offset": 1002,
    "len": 70,
    "en": "\"To have wreaked great havoc in this land by your theft of the Codex!\"",
-   "zh": "「汝竊取守則之書，已在此地造成巨大禍害！」",
+   "zh": "「汝竊取知識寶典，已在此地造成巨大禍害！」",
    "note": ""
   },
   {
@@ -137,7 +137,7 @@
    "offset": 1129,
    "len": 78,
    "en": "\"To see only two alternatives: to return the @Codex, or to give up your life.\"",
-   "zh": "「唯見兩途：歸還@Codex守則之書，或獻出汝之性命。」",
+   "zh": "「唯見兩途：歸還@Codex知識寶典，或獻出汝之性命。」",
    "note": ""
   },
   {
@@ -200,14 +200,14 @@
    "offset": 1768,
    "len": 59,
    "en": "\"To know of only one item of true value--the Codex itself.\"",
-   "zh": "「吾所知唯一真正有價值之物——正是守則之書本身。」",
+   "zh": "「吾所知唯一真正有價值之物——正是知識寶典本身。」",
    "note": ""
   },
   {
    "offset": 1830,
    "len": 36,
    "en": "\"Surely not to destroy the Codex!?\" ",
-   "zh": "「難道要毀掉守則之書？！」",
+   "zh": "「難道要毀掉知識寶典？！」",
    "note": ""
   },
   {
@@ -249,7 +249,7 @@
    "offset": 2179,
    "len": 64,
    "en": "\"To benefit both races equally if the Codex is @returned there!\"",
-   "zh": "「若守則之書@returned歸還彼處，兩族皆可平等受益！」",
+   "zh": "「若知識寶典@returned歸還彼處，兩族皆可平等受益！」",
    "note": ""
   },
   {
@@ -298,14 +298,14 @@
    "offset": 2609,
    "len": 33,
    "en": "\"To know not where the Codex is.\"",
-   "zh": "「吾不知守則之書在何處。」",
+   "zh": "「吾不知知識寶典在何處。」",
    "note": ""
   },
   {
    "offset": 2645,
    "len": 67,
    "en": "\"But to remember that Captain Bolesh just returned from the Codex!\"",
-   "zh": "「然記得隊長波列許方才剛從守則之書處歸來！」",
+   "zh": "「然記得隊長波列許方才剛從知識寶典處歸來！」",
    "note": ""
   },
   {
@@ -431,7 +431,7 @@
    "offset": 3667,
    "len": 76,
    "en": "\"But to know that the Codex itself will say how to return it to the Vortex.\"",
-   "zh": "「然守則之書本身將說明如何歸還至渦旋。」",
+   "zh": "「然知識寶典本身將說明如何歸還至渦旋。」",
    "note": ""
   },
   {
@@ -445,7 +445,7 @@
    "offset": 3797,
    "len": 80,
    "en": "\"To require a human-crafted @lens, so that your people may also see the @Codex.\"",
-   "zh": "「需要人類製作之@lens透鏡，使汝之族人亦能看見@Codex守則之書。」",
+   "zh": "「需要人類製作之@lens透鏡，使汝之族人亦能看見@Codex知識寶典。」",
    "note": ""
   },
   {
@@ -473,7 +473,7 @@
    "offset": 4037,
    "len": 42,
    "en": "\"Yes! To return the Codex to the @Vortex!\"",
-   "zh": "「是！將守則之書歸還@Vortex渦旋！」",
+   "zh": "「是！將知識寶典歸還@Vortex渦旋！」",
    "note": ""
   },
   {
@@ -492,5 +492,5 @@
   "places": {}
  },
  "riddles_additions": [],
- "translator_notes": "納薩蒂為魔像族神秘預言者，語氣莊嚴睿智，對 Avatar 靈光的解讀因玩家選擇而異。核心使命：返還渦旋透鏡、歸還守則之書。凹面透鏡（concave）為重要 quest 資訊，特別保留。"
+ "translator_notes": "納薩蒂為魔像族神秘預言者，語氣莊嚴睿智，對 Avatar 靈光的解讀因玩家選擇而異。核心使命：返還渦旋透鏡、歸還知識寶典。凹面透鏡（concave）為重要 quest 資訊，特別保留。"
 }

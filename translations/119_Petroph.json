@@ -11,7 +11,7 @@
    "offset": 56,
    "len": 52,
    "en": "\"What you back for? I thought you not like my @inn.\"",
-   "zh": "「回來做甚麼？我以為汝不喜歡我的@客棧。」",
+   "zh": "「回來做甚麼？我以為汝不喜歡我的@inn（客棧）。」",
    "note": "Petroph 說話文法粗疏，譯文略帶洋味"
   },
   {
@@ -32,7 +32,7 @@
    "offset": 161,
    "len": 11,
    "en": "\"@Petroph.\"",
-   "zh": "「@彼得羅夫。」",
+   "zh": "「@Petroph彼得羅夫。」",
    "note": ""
   },
   {
@@ -46,7 +46,7 @@
    "offset": 215,
    "len": 47,
    "en": "\"I am keeping the @inn, here at King's Ransom.\"",
-   "zh": "「我在這裡經營@客棧，叫做『王者贖金』。」",
+   "zh": "「我在這裡經營@inn（客棧），叫做『王者贖金』。」",
    "note": "King's Ransom 為客棧名，意譯保留"
   },
   {
@@ -120,6 +120,13 @@
    "note": ""
   }
  ],
- "glossary_additions": {"people": {"Petroph": "彼得羅夫"}, "places": {"King's Ransom": "王者贖金客棧"}},
+ "glossary_additions": {
+  "people": {
+   "Petroph": "彼得羅夫"
+  },
+  "places": {
+   "King's Ransom": "王者贖金客棧"
+  }
+ },
  "translator_notes": "Petroph 帶東歐口音（Da = 是），說話簡短生硬。King's Ransom 為客棧名，直譯。"
 }

@@ -1,281 +1,281 @@
 {
-  "translations": [
-    {
-      "offset": 6,
-      "len": 54,
-      "en": "a man as large as the trees that surround his cottage.",
-      "zh": "一位體型與環繞其小屋的大樹一樣高大的男子。",
-      "note": "DESC"
-    },
-    {
-      "offset": 90,
-      "len": 22,
-      "en": "\"You're welcome here.\"",
-      "zh": "「汝在此受歡迎。」",
-      "note": ""
-    },
-    {
-      "offset": 118,
-      "len": 43,
-      "en": "\"Why you bargin' inta my house?\" he shouts.",
-      "zh": "「你為何闖入俺的屋裡？」他大吼道。",
-      "note": "rough speech"
-    },
-    {
-      "offset": 170,
-      "len": 54,
-      "en": "Hefting his large axe, he prepares to defend his home.",
-      "zh": "他掄起大斧，準備保衛自家。",
-      "note": "action"
-    },
-    {
-      "offset": 232,
-      "len": 42,
-      "en": "\"Hah, sneakin' around in my @forest, huh?\"",
-      "zh": "「哈，在俺的@林子裡鬼鬼祟祟，嗯？」",
-      "note": ""
-    },
-    {
-      "offset": 287,
-      "len": 98,
-      "en": "\"I told the last one of ya that came by that I'll have nothin' t'do with yer @wars, so shove off!\"",
-      "zh": "「俺已告訴上一個來這裡的人：俺不想沾染汝們的@戰事，滾開！」",
-      "note": ""
-    },
-    {
-      "offset": 411,
-      "len": 55,
-      "en": "\"I told ya once already that I want to be left @alone!\"",
-      "zh": "「俺已告訴過汝一次：俺要被@獨自留著！」",
-      "note": ""
-    },
-    {
-      "offset": 467,
-      "len": 22,
-      "en": "\"Hullo again, friend.\"",
-      "zh": "「又見面了，朋友。」",
-      "note": ""
-    },
-    {
-      "offset": 503,
-      "len": 35,
-      "en": "\"Ben. My @friends call me Big Ben.\"",
-      "zh": "「班。俺的@朋友叫俺大班。」",
-      "note": ""
-    },
-    {
-      "offset": 547,
-      "len": 34,
-      "en": "\"But you ain't one of my friends.\"",
-      "zh": "「但汝不是俺的朋友。」",
-      "note": ""
-    },
-    {
-      "offset": 582,
-      "len": 55,
-      "en": "\"I guess you can call me 'Big Ben'.\" He smiles broadly.",
-      "zh": "「吾想汝可以叫俺『大班』。」他咧嘴大笑。",
-      "note": ""
-    },
-    {
-      "offset": 654,
-      "len": 63,
-      "en": "He fires a look at you. \"I said only my @friends call me that.\"",
-      "zh": "他瞪了汝一眼。「俺說了只有俺的@朋友才能這樣叫。」",
-      "note": ""
-    },
-    {
-      "offset": 718,
-      "len": 69,
-      "en": "\"'Tis my name. Don't wear it out.\" He laughs resoundingly at his wit.",
-      "zh": "「那是俺的名字。別說壞了。」他為自己的妙語哈哈大笑。",
-      "note": ""
-    },
-    {
-      "offset": 878,
-      "len": 42,
-      "en": "\"It surprises you that I would have some.\"",
-      "zh": "「俺會有朋友，倒讓汝吃驚了。」",
-      "note": ""
-    },
-    {
-      "offset": 923,
-      "len": 43,
-      "en": "\"Sometimes it surprises me too.\" He laughs.",
-      "zh": "「有時也讓俺自己吃驚。」他笑著說。",
-      "note": ""
-    },
-    {
-      "offset": 976,
-      "len": 40,
-      "en": "\"Have ya never seen a lumberman before?\"",
-      "zh": "「汝以前從沒見過伐木工嗎？」",
-      "note": ""
-    },
-    {
-      "offset": 1019,
-      "len": 58,
-      "en": "\"Look around. Those stacks o' @wood don't cut themselves.\"",
-      "zh": "「看看周圍。那些堆著的@木材不會自己砍自己。」",
-      "note": ""
-    },
-    {
-      "offset": 1088,
-      "len": 79,
-      "en": "\"Aye, this is where I cut trees, and I don't like strangers wanderin' through!\"",
-      "zh": "「是的，俺在這裡伐樹，俺不喜歡外人到處亂逛！」",
-      "note": ""
-    },
-    {
-      "offset": 1179,
-      "len": 30,
-      "en": "\"You're welcome here, though.\"",
-      "zh": "「不過汝在這裡受歡迎。」",
-      "note": ""
-    },
-    {
-      "offset": 1225,
-      "len": 111,
-      "en": "\"Ever since I won that choppin' contest, the @king's had a notion I'd be good at wittlin' on men the same way.\"",
-      "zh": "「自從俺在那次劈柴比賽中獲勝，@王上便有個念頭，以為俺對付人也會一樣厲害。」",
-      "note": ""
-    },
-    {
-      "offset": 1339,
-      "len": 44,
-      "en": "\"Well, you can tell him I'm not interested.\"",
-      "zh": "「嗯，汝可以告訴他俺沒興趣。」",
-      "note": ""
-    },
-    {
-      "offset": 1394,
-      "len": 34,
-      "en": "\"You are from the king, ain't ya?\"",
-      "zh": "「汝是王上派來的，對嗎？」",
-      "note": ""
-    },
-    {
-      "offset": 1451,
-      "len": 33,
-      "en": "\"Aye, are ya here to buy a log?\" ",
-      "zh": "「嗯，汝是來買木頭的嗎？」",
-      "note": ""
-    },
-    {
-      "offset": 1494,
-      "len": 28,
-      "en": "\"Careful in those woods now.",
-      "zh": "「在那片林子裡要小心。",
-      "note": "bye partial"
-    },
-    {
-      "offset": 1528,
-      "len": 22,
-      "en": " Accidents happen....\"",
-      "zh": "意外常有……」",
-      "note": ""
-    },
-    {
-      "offset": 1560,
-      "len": 57,
-      "en": "\"I spend too much time in these woods. Ask someone else.\"",
-      "zh": "「俺在林子裡待太久了。去問別人吧。」",
-      "note": ""
-    },
-    {
-      "offset": 1629,
-      "len": 12,
-      "en": "\"I knew it!\"",
-      "zh": "「俺就知道！」",
-      "note": ""
-    },
-    {
-      "offset": 1655,
-      "len": 30,
-      "en": "\"Oh.\" He seems friendlier now.",
-      "zh": "「哦。」他態度頓時和善了許多。",
-      "note": ""
-    },
-    {
-      "offset": 1745,
-      "len": 29,
-      "en": "\"Well, what do ya want then?\"",
-      "zh": "「那汝要什麼？」",
-      "note": ""
-    },
-    {
-      "offset": 1775,
-      "len": 51,
-      "en": "\"Well, come back sometime and I'll cut one for ya.\"",
-      "zh": "「嗯，改天再來，俺給汝砍一根。」",
-      "note": ""
-    },
-    {
-      "offset": 1873,
-      "len": 16,
-      "en": "\"Who wants it?\" ",
-      "zh": "「誰要？」",
-      "note": ""
-    },
-    {
-      "offset": 1899,
-      "len": 36,
-      "en": "\"Well, why'd ya say you wanted one?\"",
-      "zh": "「那汝為何說要買？」",
-      "note": ""
-    },
-    {
-      "offset": 2003,
-      "len": 27,
-      "en": "\"But $Y can't carry a log!\"",
-      "zh": "「但 $Y 拿不動一根木頭！」",
-      "note": ""
-    },
-    {
-      "offset": 2046,
-      "len": 27,
-      "en": "\"But $Y don't have 5 gold!\"",
-      "zh": "「但 $Y 沒有 5 枚金幣！」",
-      "note": ""
-    },
-    {
-      "offset": 2079,
-      "len": 44,
-      "en": "\"Logs is 5 gold apiece. Ya still want one?\" ",
-      "zh": "「木頭每根 5 枚金幣。汝還要嗎？」",
-      "note": ""
-    },
-    {
-      "offset": 2156,
-      "len": 49,
-      "en": "$N takes $Y's gold and hands over a fine yew log.",
-      "zh": "$N 收下 $Y 的金幣，遞出一根上好的尤伊木。",
-      "note": "yew log - specific wood type"
-    },
-    {
-      "offset": 2214,
-      "len": 25,
-      "en": "Ben seems friendlier now.",
-      "zh": "班態度和善多了。",
-      "note": "action"
-    },
-    {
-      "offset": 2254,
-      "len": 24,
-      "en": "\"Too pricey for ya, eh?\"",
-      "zh": "「嫌太貴了，嗯？」",
-      "note": ""
-    }
-  ],
-  "glossary_additions": {
-    "people": {
-      "Ben": "班"
-    },
-    "places": {},
-    "concepts": {
-      "lumberman": "伐木工",
-      "yew log": "尤伊木"
-    }
+ "translations": [
+  {
+   "offset": 6,
+   "len": 54,
+   "en": "a man as large as the trees that surround his cottage.",
+   "zh": "一位體型與環繞其小屋的大樹一樣高大的男子。",
+   "note": "DESC"
   },
-  "translator_notes": "班（大班）是個粗獷的伐木工，不想被拉去打仗。用「俺」自稱，語氣直接帶點粗魯。尤伊木（yew log）是重要物品，保留「尤伊」地名特色。"
+  {
+   "offset": 90,
+   "len": 22,
+   "en": "\"You're welcome here.\"",
+   "zh": "「汝在此受歡迎。」",
+   "note": ""
+  },
+  {
+   "offset": 118,
+   "len": 43,
+   "en": "\"Why you bargin' inta my house?\" he shouts.",
+   "zh": "「你為何闖入俺的屋裡？」他大吼道。",
+   "note": "rough speech"
+  },
+  {
+   "offset": 170,
+   "len": 54,
+   "en": "Hefting his large axe, he prepares to defend his home.",
+   "zh": "他掄起大斧，準備保衛自家。",
+   "note": "action"
+  },
+  {
+   "offset": 232,
+   "len": 42,
+   "en": "\"Hah, sneakin' around in my @forest, huh?\"",
+   "zh": "「哈，在俺的@forest（林子）裡鬼鬼祟祟，嗯？」",
+   "note": ""
+  },
+  {
+   "offset": 287,
+   "len": 98,
+   "en": "\"I told the last one of ya that came by that I'll have nothin' t'do with yer @wars, so shove off!\"",
+   "zh": "「俺已告訴上一個來這裡的人：俺不想沾染汝們的@wars（戰事），滾開！」",
+   "note": ""
+  },
+  {
+   "offset": 411,
+   "len": 55,
+   "en": "\"I told ya once already that I want to be left @alone!\"",
+   "zh": "「俺已告訴過汝一次：俺要被@alone（獨自）留著！」",
+   "note": ""
+  },
+  {
+   "offset": 467,
+   "len": 22,
+   "en": "\"Hullo again, friend.\"",
+   "zh": "「又見面了，朋友。」",
+   "note": ""
+  },
+  {
+   "offset": 503,
+   "len": 35,
+   "en": "\"Ben. My @friends call me Big Ben.\"",
+   "zh": "「班。俺的@friends（朋友）叫俺大班。」",
+   "note": ""
+  },
+  {
+   "offset": 547,
+   "len": 34,
+   "en": "\"But you ain't one of my friends.\"",
+   "zh": "「但汝不是俺的朋友。」",
+   "note": ""
+  },
+  {
+   "offset": 582,
+   "len": 55,
+   "en": "\"I guess you can call me 'Big Ben'.\" He smiles broadly.",
+   "zh": "「吾想汝可以叫俺『大班』。」他咧嘴大笑。",
+   "note": ""
+  },
+  {
+   "offset": 654,
+   "len": 63,
+   "en": "He fires a look at you. \"I said only my @friends call me that.\"",
+   "zh": "他瞪了汝一眼。「俺說了只有俺的@friends（朋友）才能這樣叫。」",
+   "note": ""
+  },
+  {
+   "offset": 718,
+   "len": 69,
+   "en": "\"'Tis my name. Don't wear it out.\" He laughs resoundingly at his wit.",
+   "zh": "「那是俺的名字。別說壞了。」他為自己的妙語哈哈大笑。",
+   "note": ""
+  },
+  {
+   "offset": 878,
+   "len": 42,
+   "en": "\"It surprises you that I would have some.\"",
+   "zh": "「俺會有朋友，倒讓汝吃驚了。」",
+   "note": ""
+  },
+  {
+   "offset": 923,
+   "len": 43,
+   "en": "\"Sometimes it surprises me too.\" He laughs.",
+   "zh": "「有時也讓俺自己吃驚。」他笑著說。",
+   "note": ""
+  },
+  {
+   "offset": 976,
+   "len": 40,
+   "en": "\"Have ya never seen a lumberman before?\"",
+   "zh": "「汝以前從沒見過伐木工嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1019,
+   "len": 58,
+   "en": "\"Look around. Those stacks o' @wood don't cut themselves.\"",
+   "zh": "「看看周圍。那些堆著的@wood（木材）不會自己砍自己。」",
+   "note": ""
+  },
+  {
+   "offset": 1088,
+   "len": 79,
+   "en": "\"Aye, this is where I cut trees, and I don't like strangers wanderin' through!\"",
+   "zh": "「是的，俺在這裡伐樹，俺不喜歡外人到處亂逛！」",
+   "note": ""
+  },
+  {
+   "offset": 1179,
+   "len": 30,
+   "en": "\"You're welcome here, though.\"",
+   "zh": "「不過汝在這裡受歡迎。」",
+   "note": ""
+  },
+  {
+   "offset": 1225,
+   "len": 111,
+   "en": "\"Ever since I won that choppin' contest, the @king's had a notion I'd be good at wittlin' on men the same way.\"",
+   "zh": "「自從俺在那次劈柴比賽中獲勝，@king（王）上便有個念頭，以為俺對付人也會一樣厲害。」",
+   "note": ""
+  },
+  {
+   "offset": 1339,
+   "len": 44,
+   "en": "\"Well, you can tell him I'm not interested.\"",
+   "zh": "「嗯，汝可以告訴他俺沒興趣。」",
+   "note": ""
+  },
+  {
+   "offset": 1394,
+   "len": 34,
+   "en": "\"You are from the king, ain't ya?\"",
+   "zh": "「汝是王上派來的，對嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1451,
+   "len": 33,
+   "en": "\"Aye, are ya here to buy a log?\" ",
+   "zh": "「嗯，汝是來買木頭的嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1494,
+   "len": 28,
+   "en": "\"Careful in those woods now.",
+   "zh": "「在那片林子裡要小心。",
+   "note": "bye partial"
+  },
+  {
+   "offset": 1528,
+   "len": 22,
+   "en": " Accidents happen....\"",
+   "zh": "意外常有……」",
+   "note": ""
+  },
+  {
+   "offset": 1560,
+   "len": 57,
+   "en": "\"I spend too much time in these woods. Ask someone else.\"",
+   "zh": "「俺在林子裡待太久了。去問別人吧。」",
+   "note": ""
+  },
+  {
+   "offset": 1629,
+   "len": 12,
+   "en": "\"I knew it!\"",
+   "zh": "「俺就知道！」",
+   "note": ""
+  },
+  {
+   "offset": 1655,
+   "len": 30,
+   "en": "\"Oh.\" He seems friendlier now.",
+   "zh": "「哦。」他態度頓時和善了許多。",
+   "note": ""
+  },
+  {
+   "offset": 1745,
+   "len": 29,
+   "en": "\"Well, what do ya want then?\"",
+   "zh": "「那汝要什麼？」",
+   "note": ""
+  },
+  {
+   "offset": 1775,
+   "len": 51,
+   "en": "\"Well, come back sometime and I'll cut one for ya.\"",
+   "zh": "「嗯，改天再來，俺給汝砍一根。」",
+   "note": ""
+  },
+  {
+   "offset": 1873,
+   "len": 16,
+   "en": "\"Who wants it?\" ",
+   "zh": "「誰要？」",
+   "note": ""
+  },
+  {
+   "offset": 1899,
+   "len": 36,
+   "en": "\"Well, why'd ya say you wanted one?\"",
+   "zh": "「那汝為何說要買？」",
+   "note": ""
+  },
+  {
+   "offset": 2003,
+   "len": 27,
+   "en": "\"But $Y can't carry a log!\"",
+   "zh": "「但 $Y 拿不動一根木頭！」",
+   "note": ""
+  },
+  {
+   "offset": 2046,
+   "len": 27,
+   "en": "\"But $Y don't have 5 gold!\"",
+   "zh": "「但 $Y 沒有 5 枚金幣！」",
+   "note": ""
+  },
+  {
+   "offset": 2079,
+   "len": 44,
+   "en": "\"Logs is 5 gold apiece. Ya still want one?\" ",
+   "zh": "「木頭每根 5 枚金幣。汝還要嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 2156,
+   "len": 49,
+   "en": "$N takes $Y's gold and hands over a fine yew log.",
+   "zh": "$N 收下 $Y 的金幣，遞出一根上好的尤伊木。",
+   "note": "yew log - specific wood type"
+  },
+  {
+   "offset": 2214,
+   "len": 25,
+   "en": "Ben seems friendlier now.",
+   "zh": "班態度和善多了。",
+   "note": "action"
+  },
+  {
+   "offset": 2254,
+   "len": 24,
+   "en": "\"Too pricey for ya, eh?\"",
+   "zh": "「嫌太貴了，嗯？」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Ben": "班"
+  },
+  "places": {},
+  "concepts": {
+   "lumberman": "伐木工",
+   "yew log": "尤伊木"
+  }
+ },
+ "translator_notes": "班（大班）是個粗獷的伐木工，不想被拉去打仗。用「俺」自稱，語氣直接帶點粗魯。尤伊木（yew log）是重要物品，保留「尤伊」地名特色。"
 }

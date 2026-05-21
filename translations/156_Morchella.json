@@ -25,14 +25,14 @@
    "offset": 131,
    "len": 35,
    "en": "\"I be a retired @sailor, that I am.",
-   "zh": "「俺是退役的@水手，就是這樣。",
+   "zh": "「俺是退役的@sailor（水手），就是這樣。",
    "note": "split string，下接 honest one"
   },
   {
    "offset": 179,
    "len": 22,
    "en": "\"Thou wert a @pirate!\"",
-   "zh": "「汝是個@海盜！」",
+   "zh": "「汝是個@pirate（海盜）！」",
    "note": "玩家說的話（or NPC accusation）"
   },
   {
@@ -60,7 +60,7 @@
    "offset": 364,
    "len": 79,
    "en": "\"That's right, me bucko. Why, I've sailed with Lord @British and Captain @John.",
-   "zh": "「沒錯，夥計。俺可是跟@不列顛王和@約翰船長一同出過海的。",
+   "zh": "「沒錯，夥計。俺可是跟@British（不列）顛王和@John（約翰）船長一同出過海的。",
    "note": "split string，下接 honest sailor"
   },
   {
@@ -95,7 +95,7 @@
    "offset": 749,
    "len": 89,
    "en": "\"If ye give me a @shield of the Order of the Serpent, I'll tell ye where that map be at.\"",
-   "zh": "「若你給俺一面蛇紋騎士團的@盾牌，俺就告訴你那張地圖在哪。」",
+   "zh": "「若你給俺一面蛇紋騎士團的@shield（盾牌），俺就告訴你那張地圖在哪。」",
    "note": ""
   },
   {
@@ -130,7 +130,7 @@
    "offset": 1110,
    "len": 60,
    "en": "\"If I had a Silver Serpent shield, I'd give it to @Caradon.\"",
-   "zh": "「若俺有銀蛇盾，俺會把它送給@卡拉頓。」",
+   "zh": "「若俺有銀蛇盾，俺會把它送給@Caradon（卡拉）頓。」",
    "note": ""
   },
   {
@@ -176,6 +176,11 @@
    "note": ""
   }
  ],
- "glossary_additions": {"people": {"Morchella": "摩切拉"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Morchella": "摩切拉"
+  },
+  "places": {}
+ },
  "translator_notes": "摩切拉是退役水手（自稱），曾與不列顛王和約翰船長一同出海，拒絕了約翰船長的求婚。她手上有海盜地圖碎片，願意以銀蛇盾交換。她仰慕卡拉頓。口語粗獷，用「俺」。"
 }

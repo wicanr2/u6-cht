@@ -1,51 +1,272 @@
 {
  "translations": [
-  {"offset": 2, "len": 6, "en": "Loubet", "zh": "盧貝"},
-  {"offset": 9, "len": 29, "en": "a tall and dashing gentleman.", "zh": "一名高挑瀟灑之紳士。"},
-  {"offset": 41, "len": 67, "en": "He greets you with an elaborate bow and flourish. \"Good $T, mon ami", "zh": "他誇張地鞠躬揮手致意。「$T 安，吾友", "note": "mon ami = my friend (法語)，刻意保留歐陸風"},
-  {"offset": 117, "len": 2, "en": "!\"", "zh": "！」"},
-  {"offset": 142, "len": 41, "en": "\"'Ave you come to moi for @instruction?\" ", "zh": "「汝可是來找在下@習藝？」", "note": "'Ave = Have，法腔英文"},
-  {"offset": 189, "len": 34, "en": "\"You 'ave but to ask, mah friend.\"", "zh": "「但問無妨，吾友。」"},
-  {"offset": 244, "len": 50, "en": "Loubet hands you a foil and a mask of golden mesh.", "zh": "盧貝遞給汝一把銳劍與一頂金網面罩。"},
-  {"offset": 297, "len": 57, "en": "He shows you the correct stance, then you spar for a bit.", "zh": "他示範正確之架式，繼而與汝對練片刻。"},
-  {"offset": 357, "len": 97, "en": "\"Now ze off hand, $G... Mon dieu, you are (how you say it?) ambidextrous! Very good, mah friend.\"", "zh": "「此刻換另一手，$G……我的天，汝竟（如何說來著？）兩手皆能！甚妙，吾友。」"},
-  {"offset": 457, "len": 87, "en": "M'sieur Loubet is a skilled teacher, and you feel like you've really learned something.", "zh": "盧貝先生實乃名師，汝確覺有所進益。"},
-  {"offset": 590, "len": 64, "en": "\"But no! You are too skilled, I 'ave nothing more to teach you!\"", "zh": "「不行不行！汝身手太精，在下已無可再授！」"},
-  {"offset": 667, "len": 34, "en": "\"Practice? Here? Surely you jest!\"", "zh": "「在此操練？汝定是說笑！」"},
-  {"offset": 704, "len": 55, "en": "\"No, come to ma salle sometime, zen we will spar, yes?\"", "zh": "「不，改日來我之劍館，再較量，可乎？」"},
-  {"offset": 782, "len": 24, "en": "\"Oui, I teach ze fencing", "zh": "「正是，我授擊劍之藝"},
-  {"offset": 813, "len": 30, "en": " here in my salle, my school.\"", "zh": "於此處——我之劍館、我之學堂。」"},
-  {"offset": 844, "len": 2, "en": ".\"", "zh": "。」"},
-  {"offset": 850, "len": 79, "en": "\"Is very difficult sometimes. Most fighters, zey have no subtlety, no finesse.\"", "zh": "「時常頗為棘手。多數武夫，無細膩、無格調。」"},
-  {"offset": 932, "len": 49, "en": "He turns up his nose and sniffs aristocratically.", "zh": "他鼻子一抬，貴族般地嗤之以鼻。"},
-  {"offset": 990, "len": 58, "en": "\"Zey are not like you, mah friend! You are most talented!\"", "zh": "「彼輩不似汝啊，吾友！汝極具天賦！」"},
-  {"offset": 1054, "len": 53, "en": "\"But you, you look much better than that, my friend.\"", "zh": "「而汝，看來實比他人優秀，吾友。」"},
-  {"offset": 1118, "len": 8, "en": "Just ask", "zh": "儘管開口"},
-  {"offset": 1127, "len": 25, "en": "Come to ma salle sometime", "zh": "改日造訪我之劍館"},
-  {"offset": 1153, "len": 30, "en": " and I'll give you a @lesson!\"", "zh": "我便為汝授一@課！」"},
-  {"offset": 1194, "len": 21, "en": "\"I am M'sieur Loubet.", "zh": "「在下乃盧貝先生。"},
-  {"offset": 1226, "len": 71, "en": "\"@Touche!\" He wields his foil casually, lunging at an imaginary target.", "zh": "「@刺中！」他閒適地揮劍，刺向虛擬之的。"},
-  {"offset": 1310, "len": 45, "en": "But you already know who I am, silly person!\"", "zh": "但汝早已認得在下，可愛的傻子！」"},
-  {"offset": 1367, "len": 26, "en": "Much pleased to meet you, ", "zh": "幸會幸會，"},
-  {"offset": 1397, "len": 6, "en": "madame", "zh": "夫人"},
-  {"offset": 1404, "len": 7, "en": "m'sieur", "zh": "先生"},
-  {"offset": 1412, "len": 2, "en": ".\"", "zh": "。」"},
-  {"offset": 1425, "len": 90, "en": "\"Zat simply means 'touch.' In fencing we score by touching ze opponent with ze foil @tip.\"", "zh": "「彼意即『擊中』。劍術中，以劍@尖點到對手即得分。」"},
-  {"offset": 1535, "len": 31, "en": "\"Zey are blunt on ze end, see?\"", "zh": "「劍尖磨鈍，瞧見否？」"},
-  {"offset": 1569, "len": 112, "en": "\"Ze first third of ze blade (near ze 'andle) is 'forte'--strong. It is good to parry with zis part of ze sword.\"", "zh": "「劍身首三分之一（近劍柄處）謂之 forte（強段）——強之意。以此段格擋最宜。」"},
-  {"offset": 1684, "len": 53, "en": "\"Ze rest of ze blade is 'foible'--weak and flexible.\"", "zh": "「其餘部分謂之 foible（弱段）——柔而軟者。」"},
-  {"offset": 1740, "len": 71, "en": "\"Ze foil, she is a very delicate thing. There must be much skill, yes?\"", "zh": "「銳劍乃極纖細之物，故需精湛之技，可乎？」"},
-  {"offset": 1814, "len": 44, "en": "\"You must 'old ze sword like a living bird:\"", "zh": "「持劍須如握活鳥："},
-  {"offset": 1861, "len": 78, "en": "\"Too loose and she flies away. Too tight and she smothers. Just right, and...\"", "zh": "「太鬆則飛、太緊則窒。恰到好處，便……」"},
-  {"offset": 1942, "len": 86, "en": "\"She sings very sweet!\" He strikes metal and the foil makes a pleasant @ringing noise.", "zh": "「她便歌唱甚甜！」他敲擊金屬，劍發出悅耳之@鳴響。"},
-  {"offset": 2054, "len": 8, "en": "SHINGGG!", "zh": "鏘——！"},
-  {"offset": 2072, "len": 31, "en": "\"I am ze @fencing @instructor.\"", "zh": "「在下乃@擊劍@教師。」"},
-  {"offset": 2118, "len": 12, "en": "\"Au revoir!\"", "zh": "「再會了！」", "note": "Au revoir = goodbye (法語)，保留法腔風"},
-  {"offset": 2135, "len": 29, "en": "\"I cannot 'elp you with zat.\"", "zh": "「此事在下幫不上忙。」"}
+  {
+   "offset": 2,
+   "len": 6,
+   "en": "Loubet",
+   "zh": "盧貝"
+  },
+  {
+   "offset": 9,
+   "len": 29,
+   "en": "a tall and dashing gentleman.",
+   "zh": "一名高挑瀟灑之紳士。"
+  },
+  {
+   "offset": 41,
+   "len": 67,
+   "en": "He greets you with an elaborate bow and flourish. \"Good $T, mon ami",
+   "zh": "他誇張地鞠躬揮手致意。「$T 安，吾友",
+   "note": "mon ami = my friend (法語)，刻意保留歐陸風"
+  },
+  {
+   "offset": 117,
+   "len": 2,
+   "en": "!\"",
+   "zh": "！」"
+  },
+  {
+   "offset": 142,
+   "len": 41,
+   "en": "\"'Ave you come to moi for @instruction?\" ",
+   "zh": "「汝可是來找在下@instruction（習藝）？」",
+   "note": "'Ave = Have，法腔英文"
+  },
+  {
+   "offset": 189,
+   "len": 34,
+   "en": "\"You 'ave but to ask, mah friend.\"",
+   "zh": "「但問無妨，吾友。」"
+  },
+  {
+   "offset": 244,
+   "len": 50,
+   "en": "Loubet hands you a foil and a mask of golden mesh.",
+   "zh": "盧貝遞給汝一把銳劍與一頂金網面罩。"
+  },
+  {
+   "offset": 297,
+   "len": 57,
+   "en": "He shows you the correct stance, then you spar for a bit.",
+   "zh": "他示範正確之架式，繼而與汝對練片刻。"
+  },
+  {
+   "offset": 357,
+   "len": 97,
+   "en": "\"Now ze off hand, $G... Mon dieu, you are (how you say it?) ambidextrous! Very good, mah friend.\"",
+   "zh": "「此刻換另一手，$G……我的天，汝竟（如何說來著？）兩手皆能！甚妙，吾友。」"
+  },
+  {
+   "offset": 457,
+   "len": 87,
+   "en": "M'sieur Loubet is a skilled teacher, and you feel like you've really learned something.",
+   "zh": "盧貝先生實乃名師，汝確覺有所進益。"
+  },
+  {
+   "offset": 590,
+   "len": 64,
+   "en": "\"But no! You are too skilled, I 'ave nothing more to teach you!\"",
+   "zh": "「不行不行！汝身手太精，在下已無可再授！」"
+  },
+  {
+   "offset": 667,
+   "len": 34,
+   "en": "\"Practice? Here? Surely you jest!\"",
+   "zh": "「在此操練？汝定是說笑！」"
+  },
+  {
+   "offset": 704,
+   "len": 55,
+   "en": "\"No, come to ma salle sometime, zen we will spar, yes?\"",
+   "zh": "「不，改日來我之劍館，再較量，可乎？」"
+  },
+  {
+   "offset": 782,
+   "len": 24,
+   "en": "\"Oui, I teach ze fencing",
+   "zh": "「正是，我授擊劍之藝"
+  },
+  {
+   "offset": 813,
+   "len": 30,
+   "en": " here in my salle, my school.\"",
+   "zh": "於此處——我之劍館、我之學堂。」"
+  },
+  {
+   "offset": 844,
+   "len": 2,
+   "en": ".\"",
+   "zh": "。」"
+  },
+  {
+   "offset": 850,
+   "len": 79,
+   "en": "\"Is very difficult sometimes. Most fighters, zey have no subtlety, no finesse.\"",
+   "zh": "「時常頗為棘手。多數武夫，無細膩、無格調。」"
+  },
+  {
+   "offset": 932,
+   "len": 49,
+   "en": "He turns up his nose and sniffs aristocratically.",
+   "zh": "他鼻子一抬，貴族般地嗤之以鼻。"
+  },
+  {
+   "offset": 990,
+   "len": 58,
+   "en": "\"Zey are not like you, mah friend! You are most talented!\"",
+   "zh": "「彼輩不似汝啊，吾友！汝極具天賦！」"
+  },
+  {
+   "offset": 1054,
+   "len": 53,
+   "en": "\"But you, you look much better than that, my friend.\"",
+   "zh": "「而汝，看來實比他人優秀，吾友。」"
+  },
+  {
+   "offset": 1118,
+   "len": 8,
+   "en": "Just ask",
+   "zh": "儘管開口"
+  },
+  {
+   "offset": 1127,
+   "len": 25,
+   "en": "Come to ma salle sometime",
+   "zh": "改日造訪我之劍館"
+  },
+  {
+   "offset": 1153,
+   "len": 30,
+   "en": " and I'll give you a @lesson!\"",
+   "zh": "我便為汝授一@lesson（課）！」"
+  },
+  {
+   "offset": 1194,
+   "len": 21,
+   "en": "\"I am M'sieur Loubet.",
+   "zh": "「在下乃盧貝先生。"
+  },
+  {
+   "offset": 1226,
+   "len": 71,
+   "en": "\"@Touche!\" He wields his foil casually, lunging at an imaginary target.",
+   "zh": "「@Touche（刺）中！」他閒適地揮劍，刺向虛擬之的。"
+  },
+  {
+   "offset": 1310,
+   "len": 45,
+   "en": "But you already know who I am, silly person!\"",
+   "zh": "但汝早已認得在下，可愛的傻子！」"
+  },
+  {
+   "offset": 1367,
+   "len": 26,
+   "en": "Much pleased to meet you, ",
+   "zh": "幸會幸會，"
+  },
+  {
+   "offset": 1397,
+   "len": 6,
+   "en": "madame",
+   "zh": "夫人"
+  },
+  {
+   "offset": 1404,
+   "len": 7,
+   "en": "m'sieur",
+   "zh": "先生"
+  },
+  {
+   "offset": 1412,
+   "len": 2,
+   "en": ".\"",
+   "zh": "。」"
+  },
+  {
+   "offset": 1425,
+   "len": 90,
+   "en": "\"Zat simply means 'touch.' In fencing we score by touching ze opponent with ze foil @tip.\"",
+   "zh": "「彼意即『擊中』。劍術中，以劍@tip（尖點）到對手即得分。」"
+  },
+  {
+   "offset": 1535,
+   "len": 31,
+   "en": "\"Zey are blunt on ze end, see?\"",
+   "zh": "「劍尖磨鈍，瞧見否？」"
+  },
+  {
+   "offset": 1569,
+   "len": 112,
+   "en": "\"Ze first third of ze blade (near ze 'andle) is 'forte'--strong. It is good to parry with zis part of ze sword.\"",
+   "zh": "「劍身首三分之一（近劍柄處）謂之 forte（強段）——強之意。以此段格擋最宜。」"
+  },
+  {
+   "offset": 1684,
+   "len": 53,
+   "en": "\"Ze rest of ze blade is 'foible'--weak and flexible.\"",
+   "zh": "「其餘部分謂之 foible（弱段）——柔而軟者。」"
+  },
+  {
+   "offset": 1740,
+   "len": 71,
+   "en": "\"Ze foil, she is a very delicate thing. There must be much skill, yes?\"",
+   "zh": "「銳劍乃極纖細之物，故需精湛之技，可乎？」"
+  },
+  {
+   "offset": 1814,
+   "len": 44,
+   "en": "\"You must 'old ze sword like a living bird:\"",
+   "zh": "「持劍須如握活鳥："
+  },
+  {
+   "offset": 1861,
+   "len": 78,
+   "en": "\"Too loose and she flies away. Too tight and she smothers. Just right, and...\"",
+   "zh": "「太鬆則飛、太緊則窒。恰到好處，便……」"
+  },
+  {
+   "offset": 1942,
+   "len": 86,
+   "en": "\"She sings very sweet!\" He strikes metal and the foil makes a pleasant @ringing noise.",
+   "zh": "「她便歌唱甚甜！」他敲擊金屬，劍發出悅耳之@ringing（鳴響）。"
+  },
+  {
+   "offset": 2054,
+   "len": 8,
+   "en": "SHINGGG!",
+   "zh": "鏘——！"
+  },
+  {
+   "offset": 2072,
+   "len": 31,
+   "en": "\"I am ze @fencing @instructor.\"",
+   "zh": "「在下乃@fencing（擊劍）@instructor（教師）。」"
+  },
+  {
+   "offset": 2118,
+   "len": 12,
+   "en": "\"Au revoir!\"",
+   "zh": "「再會了！」",
+   "note": "Au revoir = goodbye (法語)，保留法腔風"
+  },
+  {
+   "offset": 2135,
+   "len": 29,
+   "en": "\"I cannot 'elp you with zat.\"",
+   "zh": "「此事在下幫不上忙。」"
+  }
  ],
  "glossary_additions": {
-  "people": {"Loubet": "盧貝", "M'sieur Loubet": "盧貝先生"},
-  "concepts": {"fencing": "擊劍", "foil": "銳劍", "touche": "刺中", "salle": "劍館"}
+  "people": {
+   "Loubet": "盧貝",
+   "M'sieur Loubet": "盧貝先生"
+  },
+  "concepts": {
+   "fencing": "擊劍",
+   "foil": "銳劍",
+   "touche": "刺中",
+   "salle": "劍館"
+  }
  },
  "translator_notes": "Loubet = 海盜窟擊劍教師，法腔英文 (Oui, ze, mah, mon ami)。中譯刻意保留外國風語感（『吾友』『先生』）。SHINGGG! 擬聲詞轉『鏘——！』"
 }

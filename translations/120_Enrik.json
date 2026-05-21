@@ -46,7 +46,7 @@
    "offset": 303,
    "len": 29,
    "en": "\"Do ya want @arms or @armor?\"",
-   "zh": "「你要@武器還是@甲冑？」",
+   "zh": "「你要@arms（武器）還是@armor（甲冑）？」",
    "note": ""
   },
   {
@@ -67,28 +67,28 @@
    "offset": 567,
    "len": 57,
    "en": "\"You can @buy's arms from me or @sell me yer used stuff.\"",
-   "zh": "「你可以向我@買武器，或者把舊裝備@賣給我。」",
+   "zh": "「你可以向我@buy（買）器，或者把舊裝備@sell（賣）我。」",
    "note": ""
   },
   {
    "offset": 635,
    "len": 60,
    "en": "\"@Enrik. Enrik the @Hammer's what I'm known as 'round here.\"",
-   "zh": "「@恩里克。這附近都叫我@鐵鎚恩里克。」",
+   "zh": "「@Enrik（恩里）克。這附近都叫我@Hammer（鐵鎚）恩里克。」",
    "note": ""
   },
   {
    "offset": 706,
    "len": 20,
    "en": "\"I prefers @Hammer.\"",
-   "zh": "「我喜歡人叫我@鐵鎚。」",
+   "zh": "「我喜歡人叫我@Hammer（鐵鎚）。」",
    "note": ""
   },
   {
    "offset": 737,
    "len": 48,
    "en": "\"They call me that 'cause I's got a good @left.\"",
-   "zh": "「因為我的@左拳很厲害，所以才這樣叫。」",
+   "zh": "「因為我的@left（左拳）很厲害，所以才這樣叫。」",
    "note": ""
   },
   {
@@ -218,6 +218,12 @@
    "note": ""
   }
  ],
- "glossary_additions": {"people": {"Enrik": "恩里克", "Enrik the Hammer": "鐵鎚恩里克"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Enrik": "恩里克",
+   "Enrik the Hammer": "鐵鎚恩里克"
+  },
+  "places": {}
+ },
  "translator_notes": "Enrik 說話粗魯短促，帶工人口音。商品名（Club、Dagger 等）為系統字串，不在對話流程中單獨出現，故不翻譯。"
 }

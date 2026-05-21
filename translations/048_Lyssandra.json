@@ -1,224 +1,224 @@
 {
-  "translations": [
-    {
-      "offset": 12,
-      "len": 31,
-      "en": "a girl of perhaps twelve years.",
-      "zh": "一個約莫十二歲的女孩。",
-      "note": "DESC"
-    },
-    {
-      "offset": 46,
-      "len": 61,
-      "en": "She is agile, and balances trays of mugs deftly on each hand.",
-      "zh": "她身手敏捷，兩手各端著一盤酒杯，靈巧地保持平衡。",
-      "note": "DESC cont."
-    },
-    {
-      "offset": 117,
-      "len": 77,
-      "en": "It is a wonder how she can duck the hurled debris and avoid the flying fists.",
-      "zh": "實在難以置信，她竟能躲開飛來的雜物，閃過揮舞的拳頭。",
-      "note": "DESC cont."
-    },
-    {
-      "offset": 197,
-      "len": 45,
-      "en": "She is quick, and never spills a drop of ale.",
-      "zh": "她動作飛快，從不灑落半滴麥酒。",
-      "note": "DESC cont."
-    },
-    {
-      "offset": 246,
-      "len": 44,
-      "en": "\"Hallo, $G. Welcome to the 'Sword and @Keg.'",
-      "zh": "「哈囉，$G。歡迎光臨『劍與@桶』酒館。」",
-      "note": ""
-    },
-    {
-      "offset": 312,
-      "len": 47,
-      "en": "\"Sometimes 'tis rough here but I doesn't mind.\"",
-      "zh": "「這裡有時粗野，但俺不在乎。」",
-      "note": "child's speech quirk preserved"
-    },
-    {
-      "offset": 362,
-      "len": 39,
-      "en": "\"Some day I'll be a @fighter, ye know.\"",
-      "zh": "「有朝一日俺會成為一名@武士，汝知道的。」",
-      "note": ""
-    },
-    {
-      "offset": 412,
-      "len": 43,
-      "en": "\"It's Lyssandra, but ye can call me @Andy.\"",
-      "zh": "「俺叫利珊德拉，但汝可以叫俺@安迪。」",
-      "note": ""
-    },
-    {
-      "offset": 472,
-      "len": 55,
-      "en": "\"I know 'tis a boy's name, but I like it all the same.\"",
-      "zh": "「俺知道那是個男孩的名字，但俺就是喜歡。」",
-      "note": ""
-    },
-    {
-      "offset": 541,
-      "len": 31,
-      "en": "\"I take orders for drinks, $G.\"",
-      "zh": "「俺負責接受飲料訂單，$G。」",
-      "note": ""
-    },
-    {
-      "offset": 588,
-      "len": 41,
-      "en": "\"The fighting here usually begins over--\"",
-      "zh": "「這裡的打架通常是因為——」",
-      "note": ""
-    },
-    {
-      "offset": 632,
-      "len": 43,
-      "en": "Her voice drops to a whisper, \"--the @rat!\"",
-      "zh": "她壓低聲音說道：「——@老鼠！」",
-      "note": ""
-    },
-    {
-      "offset": 685,
-      "len": 45,
-      "en": "\"Around sunset things get really rowdy here!\"",
-      "zh": "「日落前後這裡會鬧得特別兇！」",
-      "note": ""
-    },
-    {
-      "offset": 746,
-      "len": 60,
-      "en": "\"Shhh!\" She glances about to see if you have been overheard.",
-      "zh": "「噓！」她四下張望，看是否有人聽到。",
-      "note": ""
-    },
-    {
-      "offset": 809,
-      "len": 33,
-      "en": "\"See yon hole in the north wall?\"",
-      "zh": "「看到北牆那個洞了嗎？」",
-      "note": ""
-    },
-    {
-      "offset": 845,
-      "len": 46,
-      "en": "\"Look carefully at where floor and wall meet.\"",
-      "zh": "「仔細看地板和牆壁相接的地方。」",
-      "note": ""
-    },
-    {
-      "offset": 894,
-      "len": 32,
-      "en": "\"That's where it took the rune!\"",
-      "zh": "「就是那裡，牠把符文帶進去了！」",
-      "note": ""
-    },
-    {
-      "offset": 929,
-      "len": 68,
-      "en": "\"They tried all manner of tricks to get it out but they all failed.\"",
-      "zh": "「他們試盡了各種方法想把符文弄出來，但全都失敗了。」",
-      "note": ""
-    },
-    {
-      "offset": 999,
-      "len": 44,
-      "en": "\"I had an @idea, but nobody listened to me.\"",
-      "zh": "「俺有個@主意，但沒人聽俺的。」",
-      "note": ""
-    },
-    {
-      "offset": 1070,
-      "len": 47,
-      "en": "\"I know how to get it from the you-know-@what.\"",
-      "zh": "「俺知道怎麼從那個你懂的@什麼東西那裡把它弄出來。」",
-      "note": ""
-    },
-    {
-      "offset": 1136,
-      "len": 49,
-      "en": "\"The @rat,\" she whispers conspiratorially to you.",
-      "zh": "「@老鼠，」她神秘地對汝耳語。",
-      "note": ""
-    },
-    {
-      "offset": 1196,
-      "len": 56,
-      "en": "\"Culham has oft sung of it, with @Jerris and @Starhelm.\"",
-      "zh": "「卡翰曾多次唱起那首歌，和@傑里斯、@史塔赫姆一起。」",
-      "note": ""
-    },
-    {
-      "offset": 1263,
-      "len": 27,
-      "en": "\"His real name is Stelnar.\"",
-      "zh": "「他的真名是史塔赫姆。」",
-      "note": "Starhelm=Stelnar"
-    },
-    {
-      "offset": 1293,
-      "len": 62,
-      "en": "\"He would be much nicer if he were not so angry all the time.\"",
-      "zh": "「他要是不那麼常發火，會好相處多了。」",
-      "note": ""
-    },
-    {
-      "offset": 1366,
-      "len": 66,
-      "en": "\"He is brave when @fighting, but he is afraid to sing by himself.\"",
-      "zh": "「他@打架很勇敢，但自己一個人唱歌會怕。」",
-      "note": "about Jerris"
-    },
-    {
-      "offset": 1442,
-      "len": 42,
-      "en": "\"Bye-bye, $G. It was nice talking to you.\"",
-      "zh": "「再見，$G。和汝說話很愉快。」",
-      "note": "bye"
-    },
-    {
-      "offset": 1489,
-      "len": 29,
-      "en": "\"I cannot help ye with that.\"",
-      "zh": "「俺對此幫不上汝。」",
-      "note": ""
-    },
-    {
-      "offset": 1524,
-      "len": 58,
-      "en": "\"Do ye know of the talking mouse? Lord British's friend?\" ",
-      "zh": "「汝知道那隻會說話的老鼠嗎？不列顛王的朋友？」",
-      "note": "Sherry the mouse reference"
-    },
-    {
-      "offset": 1588,
-      "len": 52,
-      "en": "\"Well, ye would think it was a dumb idea anyways...\"",
-      "zh": "「反正汝也會覺得那是個蠢主意……」",
-      "note": ""
-    },
-    {
-      "offset": 1648,
-      "len": 47,
-      "en": "\"A mouse could get the rune, of that I'm sure!\"",
-      "zh": "「一隻老鼠能把符文取出來，俺確定！」",
-      "note": "Lyssandra's idea"
-    }
-  ],
-  "glossary_additions": {
-    "people": {
-      "Lyssandra": "利珊德拉",
-      "Jerris": "傑里斯",
-      "Culham": "卡翰"
-    },
-    "places": {},
-    "concepts": {}
+ "translations": [
+  {
+   "offset": 12,
+   "len": 31,
+   "en": "a girl of perhaps twelve years.",
+   "zh": "一個約莫十二歲的女孩。",
+   "note": "DESC"
   },
-  "translator_notes": "利珊德拉是個不羈的少女跑堂，夢想成為武士。語氣帶點孩子氣的不標準文法（'doesn't' instead of 'don't'），以「俺」自稱表現個性。她識破可用雪莉老鼠取回符文的妙計。"
+  {
+   "offset": 46,
+   "len": 61,
+   "en": "She is agile, and balances trays of mugs deftly on each hand.",
+   "zh": "她身手敏捷，兩手各端著一盤酒杯，靈巧地保持平衡。",
+   "note": "DESC cont."
+  },
+  {
+   "offset": 117,
+   "len": 77,
+   "en": "It is a wonder how she can duck the hurled debris and avoid the flying fists.",
+   "zh": "實在難以置信，她竟能躲開飛來的雜物，閃過揮舞的拳頭。",
+   "note": "DESC cont."
+  },
+  {
+   "offset": 197,
+   "len": 45,
+   "en": "She is quick, and never spills a drop of ale.",
+   "zh": "她動作飛快，從不灑落半滴麥酒。",
+   "note": "DESC cont."
+  },
+  {
+   "offset": 246,
+   "len": 44,
+   "en": "\"Hallo, $G. Welcome to the 'Sword and @Keg.'",
+   "zh": "「哈囉，$G。歡迎光臨『劍與@Keg（桶）』酒館。」",
+   "note": ""
+  },
+  {
+   "offset": 312,
+   "len": 47,
+   "en": "\"Sometimes 'tis rough here but I doesn't mind.\"",
+   "zh": "「這裡有時粗野，但俺不在乎。」",
+   "note": "child's speech quirk preserved"
+  },
+  {
+   "offset": 362,
+   "len": 39,
+   "en": "\"Some day I'll be a @fighter, ye know.\"",
+   "zh": "「有朝一日俺會成為一名@fighter（武士），汝知道的。」",
+   "note": ""
+  },
+  {
+   "offset": 412,
+   "len": 43,
+   "en": "\"It's Lyssandra, but ye can call me @Andy.\"",
+   "zh": "「俺叫利珊德拉，但汝可以叫俺@Andy（安迪）。」",
+   "note": ""
+  },
+  {
+   "offset": 472,
+   "len": 55,
+   "en": "\"I know 'tis a boy's name, but I like it all the same.\"",
+   "zh": "「俺知道那是個男孩的名字，但俺就是喜歡。」",
+   "note": ""
+  },
+  {
+   "offset": 541,
+   "len": 31,
+   "en": "\"I take orders for drinks, $G.\"",
+   "zh": "「俺負責接受飲料訂單，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 588,
+   "len": 41,
+   "en": "\"The fighting here usually begins over--\"",
+   "zh": "「這裡的打架通常是因為——」",
+   "note": ""
+  },
+  {
+   "offset": 632,
+   "len": 43,
+   "en": "Her voice drops to a whisper, \"--the @rat!\"",
+   "zh": "她壓低聲音說道：「——@rat（老鼠）！」",
+   "note": ""
+  },
+  {
+   "offset": 685,
+   "len": 45,
+   "en": "\"Around sunset things get really rowdy here!\"",
+   "zh": "「日落前後這裡會鬧得特別兇！」",
+   "note": ""
+  },
+  {
+   "offset": 746,
+   "len": 60,
+   "en": "\"Shhh!\" She glances about to see if you have been overheard.",
+   "zh": "「噓！」她四下張望，看是否有人聽到。",
+   "note": ""
+  },
+  {
+   "offset": 809,
+   "len": 33,
+   "en": "\"See yon hole in the north wall?\"",
+   "zh": "「看到北牆那個洞了嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 845,
+   "len": 46,
+   "en": "\"Look carefully at where floor and wall meet.\"",
+   "zh": "「仔細看地板和牆壁相接的地方。」",
+   "note": ""
+  },
+  {
+   "offset": 894,
+   "len": 32,
+   "en": "\"That's where it took the rune!\"",
+   "zh": "「就是那裡，牠把符文帶進去了！」",
+   "note": ""
+  },
+  {
+   "offset": 929,
+   "len": 68,
+   "en": "\"They tried all manner of tricks to get it out but they all failed.\"",
+   "zh": "「他們試盡了各種方法想把符文弄出來，但全都失敗了。」",
+   "note": ""
+  },
+  {
+   "offset": 999,
+   "len": 44,
+   "en": "\"I had an @idea, but nobody listened to me.\"",
+   "zh": "「俺有個@idea（主意），但沒人聽俺的。」",
+   "note": ""
+  },
+  {
+   "offset": 1070,
+   "len": 47,
+   "en": "\"I know how to get it from the you-know-@what.\"",
+   "zh": "「俺知道怎麼從那個你懂的@what（什麼）東西那裡把它弄出來。」",
+   "note": ""
+  },
+  {
+   "offset": 1136,
+   "len": 49,
+   "en": "\"The @rat,\" she whispers conspiratorially to you.",
+   "zh": "「@rat（老鼠），」她神秘地對汝耳語。",
+   "note": ""
+  },
+  {
+   "offset": 1196,
+   "len": 56,
+   "en": "\"Culham has oft sung of it, with @Jerris and @Starhelm.\"",
+   "zh": "「卡翰曾多次唱起那首歌，和@Jerris（傑里）斯、@Starhelm（史塔）赫姆一起。」",
+   "note": ""
+  },
+  {
+   "offset": 1263,
+   "len": 27,
+   "en": "\"His real name is Stelnar.\"",
+   "zh": "「他的真名是史塔赫姆。」",
+   "note": "Starhelm=Stelnar"
+  },
+  {
+   "offset": 1293,
+   "len": 62,
+   "en": "\"He would be much nicer if he were not so angry all the time.\"",
+   "zh": "「他要是不那麼常發火，會好相處多了。」",
+   "note": ""
+  },
+  {
+   "offset": 1366,
+   "len": 66,
+   "en": "\"He is brave when @fighting, but he is afraid to sing by himself.\"",
+   "zh": "「他@fighting（打架）很勇敢，但自己一個人唱歌會怕。」",
+   "note": "about Jerris"
+  },
+  {
+   "offset": 1442,
+   "len": 42,
+   "en": "\"Bye-bye, $G. It was nice talking to you.\"",
+   "zh": "「再見，$G。和汝說話很愉快。」",
+   "note": "bye"
+  },
+  {
+   "offset": 1489,
+   "len": 29,
+   "en": "\"I cannot help ye with that.\"",
+   "zh": "「俺對此幫不上汝。」",
+   "note": ""
+  },
+  {
+   "offset": 1524,
+   "len": 58,
+   "en": "\"Do ye know of the talking mouse? Lord British's friend?\" ",
+   "zh": "「汝知道那隻會說話的老鼠嗎？不列顛王的朋友？」",
+   "note": "Sherry the mouse reference"
+  },
+  {
+   "offset": 1588,
+   "len": 52,
+   "en": "\"Well, ye would think it was a dumb idea anyways...\"",
+   "zh": "「反正汝也會覺得那是個蠢主意……」",
+   "note": ""
+  },
+  {
+   "offset": 1648,
+   "len": 47,
+   "en": "\"A mouse could get the rune, of that I'm sure!\"",
+   "zh": "「一隻老鼠能把符文取出來，俺確定！」",
+   "note": "Lyssandra's idea"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Lyssandra": "利珊德拉",
+   "Jerris": "傑里斯",
+   "Culham": "卡翰"
+  },
+  "places": {},
+  "concepts": {}
+ },
+ "translator_notes": "利珊德拉是個不羈的少女跑堂，夢想成為武士。語氣帶點孩子氣的不標準文法（'doesn't' instead of 'don't'），以「俺」自稱表現個性。她識破可用雪莉老鼠取回符文的妙計。"
 }

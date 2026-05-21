@@ -25,7 +25,7 @@
    "offset": 175,
    "len": 42,
    "en": "\"Stephanie, but you can call me '@Steph.'\"",
-   "zh": "「史黛芬妮，但你可以叫我『@小黛』。」",
+   "zh": "「史黛芬妮，但你可以叫我『@Steph（小黛）』。」",
    "note": ""
   },
   {
@@ -53,7 +53,7 @@
    "offset": 390,
    "len": 40,
    "en": "\"But I can @heal, @cure and @resurrect.\"",
-   "zh": "「但我能@療傷、@解毒和@起死回生。」",
+   "zh": "「但我能@heal（療傷）、@cure（解毒）和@resurrect（起死）回生。」",
    "note": ""
   },
   {
@@ -393,6 +393,11 @@
    "note": ""
   }
  ],
- "glossary_additions": {"people": {"Stephanie": "史黛芬妮"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Stephanie": "史黛芬妮"
+  },
+  "places": {}
+ },
  "translator_notes": "史黛芬妮是盲人療癒師，法蘭的妹妹。她靠觸感和感知能力判斷傷患。復活咒語（Doman/thixus/anretu）以音譯保留。"
 }

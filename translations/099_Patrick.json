@@ -46,14 +46,14 @@
    "offset": 144,
    "len": 75,
    "en": "\"Same as any @bard - telling @stories, singing @songs, that sort of thing.\"",
-   "zh": "「與一般@吟遊詩人無異——說@故事、唱@歌，諸如此類。」",
+   "zh": "「與一般@bard（吟遊詩人）詩人無異——說@stories故事、唱@songs（歌），諸如此類。」",
    "note": ""
   },
   {
    "offset": 230,
    "len": 54,
    "en": "\"I was trained in the @conservatory, like most of us.\"",
-   "zh": "「在下在@音樂學院受過訓練，大多數人都是如此。」",
+   "zh": "「在下在@conservatory（音樂院）學院受過訓練，大多數人都是如此。」",
    "note": ""
   },
   {
@@ -67,7 +67,7 @@
    "offset": 350,
    "len": 54,
    "en": "\"Of course, there are always oddballs like @Mandrake.\"",
-   "zh": "「當然，也有像@曼德雷克這樣的奇人。」",
+   "zh": "「當然，也有像@Mandrake（曼德）雷克這樣的奇人。」",
    "note": ""
   },
   {
@@ -81,7 +81,7 @@
    "offset": 457,
    "len": 77,
    "en": "\"Completely self taught, he is. Got some odd ideas about the eight @virtues.\"",
-   "zh": "「他完全是自學成才，對八大@美德也有些奇特的見解。」",
+   "zh": "「他完全是自學成才，對八大@virtues（美德）也有些奇特的見解。」",
    "note": ""
   },
   {
@@ -158,28 +158,28 @@
    "offset": 1022,
    "len": 76,
    "en": "\"I don't understand it at all, but Dr. @Cat says that's his favorite story.\"",
-   "zh": "「在下完全不明白，但@貓博士說那是他最喜歡的故事。」",
+   "zh": "「在下完全不明白，但@Cat（貓博）士說那是他最喜歡的故事。」",
    "note": ""
   },
   {
    "offset": 1108,
    "len": 61,
    "en": "\"He's a decent guy, and he doesn't water his @drinks either.\"",
-   "zh": "「他是個好人，而且他的@飲品也不摻水。」",
+   "zh": "「他是個好人，而且他的@drinks（飲品）也不摻水。」",
    "note": ""
   },
   {
    "offset": 1172,
    "len": 67,
    "en": "\"He told me I should learn a story with some @ducks in it, though.\"",
-   "zh": "「不過他說在下應該學一個有@鴨子的故事。」",
+   "zh": "「不過他說在下應該學一個有@ducks（鴨子）的故事。」",
    "note": ""
   },
   {
    "offset": 1250,
    "len": 36,
    "en": "\"Being a bard can be @thirsty work.\"",
-   "zh": "「吟遊詩人的工作容易讓人@口渴。」",
+   "zh": "「吟遊詩人的工作容易讓人@thirsty（口渴）。」",
    "note": ""
   },
   {

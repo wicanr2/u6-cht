@@ -1,297 +1,297 @@
 {
-  "translations": [
-    {
-      "offset": 9,
-      "len": 23,
-      "en": "a plainly dressed bard.",
-      "zh": "一位穿著樸素的吟遊詩人。",
-      "note": "DESC; Iolo's wife"
-    },
-    {
-      "offset": 46,
-      "len": 40,
-      "en": "\"Is there something you needed to know?\"",
-      "zh": "「有什麼是汝需要知道的嗎？」",
-      "note": ""
-    },
-    {
-      "offset": 87,
-      "len": 12,
-      "en": "\"Hello, $P.\"",
-      "zh": "「你好，$P。」",
-      "note": ""
-    },
-    {
-      "offset": 108,
-      "len": 80,
-      "en": "\"It's me, Gwenno. You have been away from our realm a long time, haven't you...\"",
-      "zh": "「是吾，葛溫諾。汝離開吾等的王國很久了，對嗎……」",
-      "note": ""
-    },
-    {
-      "offset": 198,
-      "len": 59,
-      "en": "\"Iolo's @apprentice has taken over my job at @Iolo's Bows.\"",
-      "zh": "「尤洛的@學徒已接手吾在@尤洛弓箭店的工作。」",
-      "note": ""
-    },
-    {
-      "offset": 260,
-      "len": 115,
-      "en": "\"These days I've been transcribing the folk @songs of Britannia into numerical @notation for the artisan's @guild.\"",
-      "zh": "「近來吾一直在為工匠@公會，將不列顛尼亞的民間@歌謠轉錄成數字@記譜法。」",
-      "note": ""
-    },
-    {
-      "offset": 383,
-      "len": 77,
-      "en": "\"Of course, helping you on your quest is more important than that right now.\"",
-      "zh": "「當然，眼下協助汝完成任務比那更重要。」",
-      "note": ""
-    },
-    {
-      "offset": 461,
-      "len": 83,
-      "en": "\"Of course, if you need my help, I could leave the guild for a time and @join you.\"",
-      "zh": "「當然，若汝需要吾的幫助，吾可以暫別公會，@加入汝。」",
-      "note": ""
-    },
-    {
-      "offset": 561,
-      "len": 59,
-      "en": "\"@Selganor can tell you more about the guild than I could.\"",
-      "zh": "「@瑟爾嘉諾比吾更能告訴汝關於公會的事。」",
-      "note": ""
-    },
-    {
-      "offset": 631,
-      "len": 23,
-      "en": "\"He's the guildmaster.\"",
-      "zh": "「他是公會會長。」",
-      "note": ""
-    },
-    {
-      "offset": 702,
-      "len": 64,
-      "en": "\"The songs of a people are an important part of their heritage.\"",
-      "zh": "「一個民族的歌謠是其文化遺產的重要組成部分。」",
-      "note": ""
-    },
-    {
-      "offset": 769,
-      "len": 83,
-      "en": "\"Putting them down on paper helps preserve our @traditions for future generations.\"",
-      "zh": "「將它們記錄在紙上，有助於為後代保存吾等的@傳統。」",
-      "note": ""
-    },
-    {
-      "offset": 883,
-      "len": 52,
-      "en": "\"I'm so glad you appreciate the value of tradition.\"",
-      "zh": "「吾很高興汝理解傳統的價值。」",
-      "note": ""
-    },
-    {
-      "offset": 946,
-      "len": 68,
-      "en": "\"A bit scruffy, but he's the sweetest husband I could ever ask for.\"",
-      "zh": "「有點蓬頭垢面，但他是吾所能期望最可愛的丈夫。」",
-      "note": "about Iolo"
-    },
-    {
-      "offset": 1026,
-      "len": 75,
-      "en": "Iolo says \"You're only saying that because it's true.\" He gives her a kiss.",
-      "zh": "尤洛說：「汝這樣說，只是因為這是實話。」他吻了她一下。",
-      "note": "action; Iolo speaks"
-    },
-    {
-      "offset": 1122,
-      "len": 78,
-      "en": "\"If you need a good crossbow, the shop is in Britain, over by the Blue @Boar.\"",
-      "zh": "「若汝需要一把好弩，店就在不列顛城，藍野豬@酒館附近。」",
-      "note": ""
-    },
-    {
-      "offset": 1216,
-      "len": 22,
-      "en": "\"It's a lively place.\"",
-      "zh": "「那是個熱鬧的地方。」",
-      "note": "about Blue Boar"
-    },
-    {
-      "offset": 1259,
-      "len": 57,
-      "en": "\"A number for every @note, and a note for every @number.\"",
-      "zh": "「每個@音符對應一個數字，每個數字對應一個@音符。」",
-      "note": "numerical notation explanation"
-    },
-    {
-      "offset": 1327,
-      "len": 42,
-      "en": "\"Each note is represented by one @number.\"",
-      "zh": "「每個音符由一個@數字表示。」",
-      "note": ""
-    },
-    {
-      "offset": 1380,
-      "len": 36,
-      "en": "\"Each number @represents one @note.\"",
-      "zh": "「每個數字@對應一個@音符。」",
-      "note": ""
-    },
-    {
-      "offset": 1427,
-      "len": 24,
-      "en": "\"I knew you'd catch on!\"",
-      "zh": "「吾就知道汝能理解！」",
-      "note": ""
-    },
-    {
-      "offset": 1467,
-      "len": 67,
-      "en": "\"Oh, Selganor sent you, did he? I bet you want to learn '@Stones.'\"",
-      "zh": "「哦，瑟爾嘉諾派汝來的嗎？吾猜汝想學@《石頭》。」",
-      "note": ""
-    },
-    {
-      "offset": 1550,
-      "len": 64,
-      "en": "\"In the standard numerical notation, it reads '678987 8767653'.\"",
-      "zh": "「以標準數字記譜法，它是『678987 8767653』。」",
-      "note": "Stones melody; numbers kept as-is"
-    },
-    {
-      "offset": 1624,
-      "len": 24,
-      "en": "\"Nice talking with you.\"",
-      "zh": "「很高興與汝交談。」",
-      "note": "bye"
-    },
-    {
-      "offset": 1653,
-      "len": 30,
-      "en": "\"Sorry, can't help you there.\"",
-      "zh": "「抱歉，那件事吾幫不上忙。」",
-      "note": ""
-    },
-    {
-      "offset": 1694,
-      "len": 28,
-      "en": "\"I have joined you already!\"",
-      "zh": "「吾已經加入汝了！」",
-      "note": "already in party"
-    },
-    {
-      "offset": 1728,
-      "len": 35,
-      "en": "\"Do you want me to come with you?\" ",
-      "zh": "「汝要吾跟汝同行嗎？」",
-      "note": ""
-    },
-    {
-      "offset": 1769,
-      "len": 46,
-      "en": "\"Okay. Let me know if you need my help later.\"",
-      "zh": "「好吧。若之後需要吾，儘管告訴吾。」",
-      "note": "not joining"
-    },
-    {
-      "offset": 1837,
-      "len": 33,
-      "en": "\"Not while you're in that thing!\"",
-      "zh": "「只要汝還在那東西裡，吾就不加入！」",
-      "note": "on ship"
-    },
-    {
-      "offset": 1884,
-      "len": 46,
-      "en": "\"You have enough travelling with you already.\"",
-      "zh": "「汝已經有足夠的同行者了。」",
-      "note": "party full"
-    },
-    {
-      "offset": 1933,
-      "len": 67,
-      "en": "\"If you ask one of them to @leave first, I'd be happy to join you.\"",
-      "zh": "「若汝請他們中的一人先@離開，吾很樂意加入。」",
-      "note": ""
-    },
-    {
-      "offset": 2020,
-      "len": 61,
-      "en": "\"Okay! It will be nice to spend some time on the road again.\"",
-      "zh": "「好！再次踏上旅途真是太好了。」",
-      "note": "joining"
-    },
-    {
-      "offset": 2089,
-      "len": 74,
-      "en": "She runs over and hooks arms with @Iolo, and they dance around and around.",
-      "zh": "她跑過去挽著@尤洛的手臂，兩人轉啊轉地跳舞。",
-      "note": "action; joining with Iolo"
-    },
-    {
-      "offset": 2166,
-      "len": 53,
-      "en": "They're obviously very happy to see each other again.",
-      "zh": "他們顯然非常高興再次相見。",
-      "note": "action"
-    },
-    {
-      "offset": 2230,
-      "len": 52,
-      "en": "\"I'd have to @join you before I could leave, silly!\"",
-      "zh": "「吾得先@加入汝，才能談離開，傻瓜！」",
-      "note": "can't leave without joining"
-    },
-    {
-      "offset": 2303,
-      "len": 54,
-      "en": "\"Let's get our feet back on solid ground first, okay?\"",
-      "zh": "「讓吾等先回到陸地上再說，好嗎？」",
-      "note": "at sea"
-    },
-    {
-      "offset": 2376,
-      "len": 99,
-      "en": "\"All right. I'll head back home to Minoc. Come let me know if you need me to join you again later.\"",
-      "zh": "「好吧。吾回密諾克的家了。若你之後需要吾再次加入，來告訴吾。」",
-      "note": "leaving party"
-    },
-    {
-      "offset": 2478,
-      "len": 75,
-      "en": "\"I'll leave all my things here - some of them might come in handy for you.\"",
-      "zh": "「吾把所有東西留在這裡——有些或許對汝有用。」",
-      "note": ""
-    },
-    {
-      "offset": 2561,
-      "len": 43,
-      "en": "She gives Iolo a big hug before she leaves.",
-      "zh": "她離去前給了尤洛一個大大的擁抱。",
-      "note": "action"
-    },
-    {
-      "offset": 2607,
-      "len": 87,
-      "en": "\"Remember to keep your socks dry,\" she says, \"and I'll see you when the quest is done.\"",
-      "zh": "「記得保持襪子乾燥，」她說，「任務結束時再見。」",
-      "note": "farewell to Iolo"
-    }
-  ],
-  "glossary_additions": {
-    "people": {
-      "Gwenno": "葛溫諾"
-    },
-    "places": {
-      "Iolo's Bows": "尤洛弓箭店"
-    },
-    "concepts": {
-      "numerical notation": "數字記譜法",
-      "Stones": "《石頭》"
-    }
+ "translations": [
+  {
+   "offset": 9,
+   "len": 23,
+   "en": "a plainly dressed bard.",
+   "zh": "一位穿著樸素的吟遊詩人。",
+   "note": "DESC; Iolo's wife"
   },
-  "translator_notes": "葛溫諾是尤洛的妻子，現任職密諾克工匠公會，將民間歌謠轉錄成數字記譜法。她能教導《石頭》曲調（678987 8767653），這是加入公會的必要條件。她和尤洛的感情甜蜜，相遇時的互動令人動容。"
+  {
+   "offset": 46,
+   "len": 40,
+   "en": "\"Is there something you needed to know?\"",
+   "zh": "「有什麼是汝需要知道的嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 87,
+   "len": 12,
+   "en": "\"Hello, $P.\"",
+   "zh": "「你好，$P。」",
+   "note": ""
+  },
+  {
+   "offset": 108,
+   "len": 80,
+   "en": "\"It's me, Gwenno. You have been away from our realm a long time, haven't you...\"",
+   "zh": "「是吾，葛溫諾。汝離開吾等的王國很久了，對嗎……」",
+   "note": ""
+  },
+  {
+   "offset": 198,
+   "len": 59,
+   "en": "\"Iolo's @apprentice has taken over my job at @Iolo's Bows.\"",
+   "zh": "「尤洛的@apprentice（學徒）已接手吾在@Iolo（尤洛）弓箭店的工作。」",
+   "note": ""
+  },
+  {
+   "offset": 260,
+   "len": 115,
+   "en": "\"These days I've been transcribing the folk @songs of Britannia into numerical @notation for the artisan's @guild.\"",
+   "zh": "「近來吾一直在為工匠@songs（公會），將不列顛尼亞的民間@notation（歌謠）轉錄成數字@guild（公會）法。」",
+   "note": ""
+  },
+  {
+   "offset": 383,
+   "len": 77,
+   "en": "\"Of course, helping you on your quest is more important than that right now.\"",
+   "zh": "「當然，眼下協助汝完成任務比那更重要。」",
+   "note": ""
+  },
+  {
+   "offset": 461,
+   "len": 83,
+   "en": "\"Of course, if you need my help, I could leave the guild for a time and @join you.\"",
+   "zh": "「當然，若汝需要吾的幫助，吾可以暫別公會，@join（加入）汝。」",
+   "note": ""
+  },
+  {
+   "offset": 561,
+   "len": 59,
+   "en": "\"@Selganor can tell you more about the guild than I could.\"",
+   "zh": "「@Selganor（瑟爾）嘉諾比吾更能告訴汝關於公會的事。」",
+   "note": ""
+  },
+  {
+   "offset": 631,
+   "len": 23,
+   "en": "\"He's the guildmaster.\"",
+   "zh": "「他是公會會長。」",
+   "note": ""
+  },
+  {
+   "offset": 702,
+   "len": 64,
+   "en": "\"The songs of a people are an important part of their heritage.\"",
+   "zh": "「一個民族的歌謠是其文化遺產的重要組成部分。」",
+   "note": ""
+  },
+  {
+   "offset": 769,
+   "len": 83,
+   "en": "\"Putting them down on paper helps preserve our @traditions for future generations.\"",
+   "zh": "「將它們記錄在紙上，有助於為後代保存吾等的@traditions（傳統）。」",
+   "note": ""
+  },
+  {
+   "offset": 883,
+   "len": 52,
+   "en": "\"I'm so glad you appreciate the value of tradition.\"",
+   "zh": "「吾很高興汝理解傳統的價值。」",
+   "note": ""
+  },
+  {
+   "offset": 946,
+   "len": 68,
+   "en": "\"A bit scruffy, but he's the sweetest husband I could ever ask for.\"",
+   "zh": "「有點蓬頭垢面，但他是吾所能期望最可愛的丈夫。」",
+   "note": "about Iolo"
+  },
+  {
+   "offset": 1026,
+   "len": 75,
+   "en": "Iolo says \"You're only saying that because it's true.\" He gives her a kiss.",
+   "zh": "尤洛說：「汝這樣說，只是因為這是實話。」他吻了她一下。",
+   "note": "action; Iolo speaks"
+  },
+  {
+   "offset": 1122,
+   "len": 78,
+   "en": "\"If you need a good crossbow, the shop is in Britain, over by the Blue @Boar.\"",
+   "zh": "「若汝需要一把好弩，店就在不列顛城，藍野豬@Boar（酒館）附近。」",
+   "note": ""
+  },
+  {
+   "offset": 1216,
+   "len": 22,
+   "en": "\"It's a lively place.\"",
+   "zh": "「那是個熱鬧的地方。」",
+   "note": "about Blue Boar"
+  },
+  {
+   "offset": 1259,
+   "len": 57,
+   "en": "\"A number for every @note, and a note for every @number.\"",
+   "zh": "「每個@note（音符）對應一個數字，每個數字對應一個@number（音符）。」",
+   "note": "numerical notation explanation"
+  },
+  {
+   "offset": 1327,
+   "len": 42,
+   "en": "\"Each note is represented by one @number.\"",
+   "zh": "「每個音符由一個@number（數字）表示。」",
+   "note": ""
+  },
+  {
+   "offset": 1380,
+   "len": 36,
+   "en": "\"Each number @represents one @note.\"",
+   "zh": "「每個數字@represents（對應）一個@note（音符）。」",
+   "note": ""
+  },
+  {
+   "offset": 1427,
+   "len": 24,
+   "en": "\"I knew you'd catch on!\"",
+   "zh": "「吾就知道汝能理解！」",
+   "note": ""
+  },
+  {
+   "offset": 1467,
+   "len": 67,
+   "en": "\"Oh, Selganor sent you, did he? I bet you want to learn '@Stones.'\"",
+   "zh": "「哦，瑟爾嘉諾派汝來的嗎？吾猜汝想學@Stones《石頭》。」",
+   "note": ""
+  },
+  {
+   "offset": 1550,
+   "len": 64,
+   "en": "\"In the standard numerical notation, it reads '678987 8767653'.\"",
+   "zh": "「以標準數字記譜法，它是『678987 8767653』。」",
+   "note": "Stones melody; numbers kept as-is"
+  },
+  {
+   "offset": 1624,
+   "len": 24,
+   "en": "\"Nice talking with you.\"",
+   "zh": "「很高興與汝交談。」",
+   "note": "bye"
+  },
+  {
+   "offset": 1653,
+   "len": 30,
+   "en": "\"Sorry, can't help you there.\"",
+   "zh": "「抱歉，那件事吾幫不上忙。」",
+   "note": ""
+  },
+  {
+   "offset": 1694,
+   "len": 28,
+   "en": "\"I have joined you already!\"",
+   "zh": "「吾已經加入汝了！」",
+   "note": "already in party"
+  },
+  {
+   "offset": 1728,
+   "len": 35,
+   "en": "\"Do you want me to come with you?\" ",
+   "zh": "「汝要吾跟汝同行嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1769,
+   "len": 46,
+   "en": "\"Okay. Let me know if you need my help later.\"",
+   "zh": "「好吧。若之後需要吾，儘管告訴吾。」",
+   "note": "not joining"
+  },
+  {
+   "offset": 1837,
+   "len": 33,
+   "en": "\"Not while you're in that thing!\"",
+   "zh": "「只要汝還在那東西裡，吾就不加入！」",
+   "note": "on ship"
+  },
+  {
+   "offset": 1884,
+   "len": 46,
+   "en": "\"You have enough travelling with you already.\"",
+   "zh": "「汝已經有足夠的同行者了。」",
+   "note": "party full"
+  },
+  {
+   "offset": 1933,
+   "len": 67,
+   "en": "\"If you ask one of them to @leave first, I'd be happy to join you.\"",
+   "zh": "「若汝請他們中的一人先@leave（離開），吾很樂意加入。」",
+   "note": ""
+  },
+  {
+   "offset": 2020,
+   "len": 61,
+   "en": "\"Okay! It will be nice to spend some time on the road again.\"",
+   "zh": "「好！再次踏上旅途真是太好了。」",
+   "note": "joining"
+  },
+  {
+   "offset": 2089,
+   "len": 74,
+   "en": "She runs over and hooks arms with @Iolo, and they dance around and around.",
+   "zh": "她跑過去挽著@Iolo（尤洛）的手臂，兩人轉啊轉地跳舞。",
+   "note": "action; joining with Iolo"
+  },
+  {
+   "offset": 2166,
+   "len": 53,
+   "en": "They're obviously very happy to see each other again.",
+   "zh": "他們顯然非常高興再次相見。",
+   "note": "action"
+  },
+  {
+   "offset": 2230,
+   "len": 52,
+   "en": "\"I'd have to @join you before I could leave, silly!\"",
+   "zh": "「吾得先@join（加入）汝，才能談離開，傻瓜！」",
+   "note": "can't leave without joining"
+  },
+  {
+   "offset": 2303,
+   "len": 54,
+   "en": "\"Let's get our feet back on solid ground first, okay?\"",
+   "zh": "「讓吾等先回到陸地上再說，好嗎？」",
+   "note": "at sea"
+  },
+  {
+   "offset": 2376,
+   "len": 99,
+   "en": "\"All right. I'll head back home to Minoc. Come let me know if you need me to join you again later.\"",
+   "zh": "「好吧。吾回密諾克的家了。若你之後需要吾再次加入，來告訴吾。」",
+   "note": "leaving party"
+  },
+  {
+   "offset": 2478,
+   "len": 75,
+   "en": "\"I'll leave all my things here - some of them might come in handy for you.\"",
+   "zh": "「吾把所有東西留在這裡——有些或許對汝有用。」",
+   "note": ""
+  },
+  {
+   "offset": 2561,
+   "len": 43,
+   "en": "She gives Iolo a big hug before she leaves.",
+   "zh": "她離去前給了尤洛一個大大的擁抱。",
+   "note": "action"
+  },
+  {
+   "offset": 2607,
+   "len": 87,
+   "en": "\"Remember to keep your socks dry,\" she says, \"and I'll see you when the quest is done.\"",
+   "zh": "「記得保持襪子乾燥，」她說，「任務結束時再見。」",
+   "note": "farewell to Iolo"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Gwenno": "葛溫諾"
+  },
+  "places": {
+   "Iolo's Bows": "尤洛弓箭店"
+  },
+  "concepts": {
+   "numerical notation": "數字記譜法",
+   "Stones": "《石頭》"
+  }
+ },
+ "translator_notes": "葛溫諾是尤洛的妻子，現任職密諾克工匠公會，將民間歌謠轉錄成數字記譜法。她能教導《石頭》曲調（678987 8767653），這是加入公會的必要條件。她和尤洛的感情甜蜜，相遇時的互動令人動容。"
 }

@@ -53,7 +53,7 @@
    "offset": 289,
    "len": 110,
    "en": "\"Well, when you go to rescue Lord British from the underworld, be sure to bring his sandlewood @box with you!\"",
-   "zh": "「好吧，當你去地下世界救不列顛王時，別忘了帶上他的檀木@箱子！」",
+   "zh": "「好吧，當你去地下世界救不列顛王時，別忘了帶上他的檀木@box（箱子）！」",
    "note": ""
   },
   {
@@ -95,21 +95,21 @@
    "offset": 764,
    "len": 37,
    "en": "\"It's 'Smith', like in '@blacksmith'.",
-   "zh": "「是『史密斯』，就像@鐵匠（blacksmith）一樣。」",
+   "zh": "「是『史密斯』，就像@blacksmith（鐵匠）（blacksmith）一樣。」",
    "note": ""
   },
   {
    "offset": 812,
    "len": 22,
    "en": "\"They make my @shoes.\"",
-   "zh": "「他們為我打造@蹄鐵。」",
+   "zh": "「他們為我打造@shoes（蹄鐵）。」",
    "note": ""
   },
   {
    "offset": 845,
    "len": 73,
    "en": "\"They're nailed to my @feet, see?\" He holds up a hoof for you to look at.",
-   "zh": "「釘在我的@腳上，你看。」他舉起一只蹄子給你看。",
+   "zh": "「釘在我的@feet（腳）上，你看。」他舉起一只蹄子給你看。",
    "note": ""
   },
   {
@@ -123,7 +123,7 @@
    "offset": 1017,
    "len": 75,
    "en": "\"I eat Iolo's @hay to keep it from piling up everywhere and making a mess.\"",
-   "zh": "「我吃伊歐羅的@乾草，免得它到處堆積、搞得一團亂。」",
+   "zh": "「我吃伊歐羅的@hay（乾草），免得它到處堆積、搞得一團亂。」",
    "note": ""
   },
   {
@@ -151,7 +151,7 @@
    "offset": 1365,
    "len": 36,
    "en": "\"I've devoted my life to the @task.\"",
-   "zh": "「我將一生奉獻給這項@使命。」",
+   "zh": "「我將一生奉獻給這項@task（使命）。」",
    "note": ""
   },
   {
@@ -211,6 +211,11 @@
    "note": ""
   }
  ],
- "glossary_additions": {"people": {"Smith": "史密斯"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Smith": "史密斯"
+  },
+  "places": {}
+ },
  "translator_notes": "史密斯是會說話的馬，性格幽默自嘲。以口語「你/我」為主，配合輕鬆詼諧的語氣。砂木箱（sandlewood box）是劇情關鍵道具。"
 }

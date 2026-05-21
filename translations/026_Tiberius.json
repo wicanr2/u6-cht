@@ -1,578 +1,578 @@
 {
-  "_meta": {
-    "npc": "Tiberius",
-    "role": "新馬精西亞鎮（New Magincia）的胖修士醫者，主治療傷、解毒、復活；對玩家稱『吾兒』（my child）。"
+ "_meta": {
+  "npc": "Tiberius",
+  "role": "新馬精西亞鎮（New Magincia）的胖修士醫者，主治療傷、解毒、復活；對玩家稱『吾兒』（my child）。"
+ },
+ "translations": [
+  {
+   "offset": 2,
+   "len": 8,
+   "en": "Tiberius",
+   "zh": "提貝里斯",
+   "zh_bytes": 8,
+   "note": "人名音譯，四字 8 bytes 剛好"
   },
-  "translations": [
-    {
-      "offset": 2,
-      "len": 8,
-      "en": "Tiberius",
-      "zh": "提貝里斯",
-      "zh_bytes": 8,
-      "note": "人名音譯，四字 8 bytes 剛好"
-    },
-    {
-      "offset": 11,
-      "len": 29,
-      "en": "a rotund man in monk's robes.",
-      "zh": "一名身披修士袍的圓胖男子。",
-      "zh_bytes": 26,
-      "note": "描述句"
-    },
-    {
-      "offset": 74,
-      "len": 20,
-      "en": "\"Greetings, my child",
-      "zh": "「吾兒安好",
-      "zh_bytes": 10,
-      "note": "Tiberius 對玩家稱『吾兒』；與 ren 拼接"
-    },
-    {
-      "offset": 98,
-      "len": 3,
-      "en": "ren",
-      "zh": "ren",
-      "zh_bytes": 3,
-      "note": "字串拼接後綴 children 的 ren，保留 ASCII"
-    },
-    {
-      "offset": 102,
-      "len": 32,
-      "en": ". What can I do for thee today?\"",
-      "zh": "。今日有何事可效勞？」",
-      "zh_bytes": 22,
-      "note": "修士謙卑口吻"
-    },
-    {
-      "offset": 137,
-      "len": 4,
-      "en": "heal",
-      "zh": "heal",
-      "zh_bytes": 4,
-      "note": "@heal keyword 內部觸發碼，保留 ASCII"
-    },
-    {
-      "offset": 148,
-      "len": 4,
-      "en": "cure",
-      "zh": "cure",
-      "zh_bytes": 4,
-      "note": "@cure keyword 內部觸發碼，保留 ASCII"
-    },
-    {
-      "offset": 159,
-      "len": 4,
-      "en": "resu",
-      "zh": "resu",
-      "zh_bytes": 4,
-      "note": "@resurrect keyword 內部觸發碼，保留 ASCII"
-    },
-    {
-      "offset": 183,
-      "len": 60,
-      "en": "\"But thou weepest for no reason! None of thy party is dead!\"",
-      "zh": "「汝何故悲泣？同伴中無一人亡故！」",
-      "zh_bytes": 34,
-      "note": ""
-    },
-    {
-      "offset": 260,
-      "len": 4,
-      "en": "name",
-      "zh": "name",
-      "zh_bytes": 4,
-      "note": "@name keyword 內部碼保留"
-    },
-    {
-      "offset": 265,
-      "len": 38,
-      "en": "\"I am Tiberius, healer for this town.\"",
-      "zh": "「我乃提貝里斯，此鎮之醫者。」",
-      "zh_bytes": 30,
-      "note": ""
-    },
-    {
-      "offset": 315,
-      "len": 3,
-      "en": "job",
-      "zh": "job",
-      "zh_bytes": 3,
-      "note": "@job keyword 內部碼保留"
-    },
-    {
-      "offset": 319,
-      "len": 59,
-      "en": "\"It is my responsibility to care for the sick and injured.\"",
-      "zh": "「照看病傷之人，乃我之職責。」",
-      "zh_bytes": 30,
-      "note": ""
-    },
-    {
-      "offset": 381,
-      "len": 65,
-      "en": "\"I attempt to @heal, @cure, or if needed, @resurrect the fallen.\"",
-      "zh": "「我可@療傷、@解毒，必要時更可@復活倒下之人。」",
-      "zh_bytes": 47,
-      "note": "@heal→@療傷；@cure→@解毒；@resurrect→@復活"
-    },
-    {
-      "offset": 452,
-      "len": 6,
-      "en": "bye,no",
-      "zh": "bye,no",
-      "zh_bytes": 6,
-      "note": "keyword 內部碼保留"
-    },
-    {
-      "offset": 459,
-      "len": 22,
-      "en": "\"Go in peace, my child",
-      "zh": "「平安去吧，吾兒",
-      "zh_bytes": 16,
-      "note": "與 ren 拼接成 children"
-    },
-    {
-      "offset": 485,
-      "len": 3,
-      "en": "ren",
-      "zh": "ren",
-      "zh_bytes": 3,
-      "note": "拼接後綴保留 ASCII"
-    },
-    {
-      "offset": 489,
-      "len": 2,
-      "en": ".\"",
-      "zh": "。",
-      "zh_bytes": 2,
-      "note": "len=2 緊；單個全形句號剛好"
-    },
-    {
-      "offset": 494,
-      "len": 3,
-      "en": "yes",
-      "zh": "yes",
-      "zh_bytes": 3,
-      "note": "@yes keyword 內部碼保留"
-    },
-    {
-      "offset": 498,
-      "len": 25,
-      "en": "\"What can I do for thee?\"",
-      "zh": "「有何事可為汝效勞？」",
-      "zh_bytes": 22,
-      "note": ""
-    },
-    {
-      "offset": 531,
-      "len": 19,
-      "en": "\"I beg thy pardon?\"",
-      "zh": "「汝意何指？」",
-      "zh_bytes": 14,
-      "note": ""
-    },
-    {
-      "offset": 563,
-      "len": 32,
-      "en": "\"Come to my shop when I'm open!\"",
-      "zh": "「待我開門時再來吧！」",
-      "zh_bytes": 22,
-      "note": ""
-    },
-    {
-      "offset": 656,
-      "len": 30,
-      "en": "\"Fret not, for thou art well.\"",
-      "zh": "「勿憂，汝身體無恙。」",
-      "zh_bytes": 22,
-      "note": ""
-    },
-    {
-      "offset": 763,
-      "len": 6,
-      "en": "#2) $Y",
-      "zh": "#2) $Y",
-      "zh_bytes": 6,
-      "note": "格式控制保留"
-    },
-    {
-      "offset": 809,
-      "len": 36,
-      "en": "\"Fret not, for all of you are well!\"",
-      "zh": "「勿憂，諸位皆健康無恙！」",
-      "zh_bytes": 26,
-      "note": ""
-    },
-    {
-      "offset": 875,
-      "len": 6,
-      "en": "#2) $Y",
-      "zh": "#2) $Y",
-      "zh_bytes": 6,
-      "note": "格式控制保留"
-    },
-    {
-      "offset": 882,
-      "len": 16,
-      "en": "\"Which of you?\" ",
-      "zh": "「諸位何人？」",
-      "zh_bytes": 14,
-      "note": ""
-    },
-    {
-      "offset": 987,
-      "len": 23,
-      "en": "\"I see thy injury, $Y.\"",
-      "zh": "「我見汝之傷，$Y。」",
-      "zh_bytes": 20,
-      "note": "保留 $Y"
-    },
-    {
-      "offset": 1013,
-      "len": 41,
-      "en": "\"Wilt thou make an offering of 30 gold?\" ",
-      "zh": "「汝願獻金三十枚否？」",
-      "zh_bytes": 22,
-      "note": ""
-    },
-    {
-      "offset": 1055,
-      "len": 2,
-      "en": "yn",
-      "zh": "yn",
-      "zh_bytes": 2,
-      "note": "y/n 觸發碼保留"
-    },
-    {
-      "offset": 1076,
-      "len": 48,
-      "en": "Laying hands upon $Y, Tiberius mends the wounds.",
-      "zh": "提貝里斯按手於$Y，傷處便已癒合。",
-      "zh_bytes": 32,
-      "note": "按手治療動作描述"
-    },
-    {
-      "offset": 1166,
-      "len": 43,
-      "en": "\"If thou wilt not pay, I cannot heal thee.\"",
-      "zh": "「若汝不付獻金，我無法為汝療傷。」",
-      "zh_bytes": 34,
-      "note": ""
-    },
-    {
-      "offset": 1223,
-      "len": 52,
-      "en": "\"I'm sorry. Without an offering I cannot heal thee.\"",
-      "zh": "「實感歉意。無獻金則無法為汝療傷。」",
-      "zh_bytes": 36,
-      "note": ""
-    },
-    {
-      "offset": 1281,
-      "len": 39,
-      "en": "\"Thou art poor, but thy cause is just.\"",
-      "zh": "「汝雖貧寒，然汝之志正大。」",
-      "zh_bytes": 28,
-      "note": ""
-    },
-    {
-      "offset": 1323,
-      "len": 35,
-      "en": "\"I will heal thee without payment.\"",
-      "zh": "「我願為汝療傷，分文不取。」",
-      "zh_bytes": 28,
-      "note": ""
-    },
-    {
-      "offset": 1361,
-      "len": 48,
-      "en": "Laying hands upon $Y, Tiberius mends the wounds.",
-      "zh": "提貝里斯按手於$Y，傷處便已癒合。",
-      "zh_bytes": 32,
-      "note": ""
-    },
-    {
-      "offset": 1422,
-      "len": 40,
-      "en": "\"Is there aught else I can do for thee?\"",
-      "zh": "「尚有他事可為汝效勞否？」",
-      "zh_bytes": 26,
-      "note": ""
-    },
-    {
-      "offset": 1474,
-      "len": 32,
-      "en": "\"Come to my shop when I'm open!\"",
-      "zh": "「待我開門時再來吧！」",
-      "zh_bytes": 22,
-      "note": ""
-    },
-    {
-      "offset": 1567,
-      "len": 30,
-      "en": "\"Fret not, for thou art well.\"",
-      "zh": "「勿憂，汝身體無恙。」",
-      "zh_bytes": 22,
-      "note": ""
-    },
-    {
-      "offset": 1674,
-      "len": 6,
-      "en": "#2) $Y",
-      "zh": "#2) $Y",
-      "zh_bytes": 6,
-      "note": "格式控制保留"
-    },
-    {
-      "offset": 1720,
-      "len": 36,
-      "en": "\"Fret not, for all of you are well.\"",
-      "zh": "「勿憂，諸位皆健康無恙。」",
-      "zh_bytes": 26,
-      "note": ""
-    },
-    {
-      "offset": 1786,
-      "len": 6,
-      "en": "#2) $Y",
-      "zh": "#2) $Y",
-      "zh_bytes": 6,
-      "note": "格式控制保留"
-    },
-    {
-      "offset": 1793,
-      "len": 16,
-      "en": "\"Which of you?\" ",
-      "zh": "「諸位何人？」",
-      "zh_bytes": 14,
-      "note": ""
-    },
-    {
-      "offset": 1898,
-      "len": 37,
-      "en": "\"I sense that thou art poisoned, $Y.\"",
-      "zh": "「我察覺汝身中毒，$Y。」",
-      "zh_bytes": 24,
-      "note": ""
-    },
-    {
-      "offset": 1938,
-      "len": 41,
-      "en": "\"Wilt thou make an offering of 10 gold?\" ",
-      "zh": "「汝願獻金十枚否？」",
-      "zh_bytes": 20,
-      "note": ""
-    },
-    {
-      "offset": 1980,
-      "len": 2,
-      "en": "yn",
-      "zh": "yn",
-      "zh_bytes": 2,
-      "note": "y/n 觸發碼保留"
-    },
-    {
-      "offset": 2001,
-      "len": 50,
-      "en": "Laying hands upon $Y, Tiberius removes the poison.",
-      "zh": "提貝里斯按手於$Y，毒素便已消散。",
-      "zh_bytes": 32,
-      "note": ""
-    },
-    {
-      "offset": 2093,
-      "len": 43,
-      "en": "\"If thou wilt not pay, I cannot heal thee.\"",
-      "zh": "「若汝不付獻金，我無法為汝療傷。」",
-      "zh_bytes": 34,
-      "note": ""
-    },
-    {
-      "offset": 2150,
-      "len": 52,
-      "en": "\"I'm sorry. Without an offering I cannot heal thee.\"",
-      "zh": "「實感歉意。無獻金則無法為汝療傷。」",
-      "zh_bytes": 36,
-      "note": ""
-    },
-    {
-      "offset": 2208,
-      "len": 39,
-      "en": "\"Thou art poor, but thy cause is just.\"",
-      "zh": "「汝雖貧寒，然汝之志正大。」",
-      "zh_bytes": 28,
-      "note": ""
-    },
-    {
-      "offset": 2250,
-      "len": 35,
-      "en": "\"I will cure thee without payment.\"",
-      "zh": "「我願為汝解毒，分文不取。」",
-      "zh_bytes": 28,
-      "note": ""
-    },
-    {
-      "offset": 2288,
-      "len": 50,
-      "en": "Laying hands upon $Y, Tiberius removes the poison.",
-      "zh": "提貝里斯按手於$Y，毒素便已消散。",
-      "zh_bytes": 32,
-      "note": ""
-    },
-    {
-      "offset": 2352,
-      "len": 40,
-      "en": "\"I see that $Y carries a parted friend.\"",
-      "zh": "「我見$Y懷中載一已逝之友。」",
-      "zh_bytes": 28,
-      "note": ""
-    },
-    {
-      "offset": 2402,
-      "len": 32,
-      "en": "\"Come to my shop when I'm open!\"",
-      "zh": "「待我開門時再來吧！」",
-      "zh_bytes": 22,
-      "note": ""
-    },
-    {
-      "offset": 2440,
-      "len": 42,
-      "en": "\"Wilt thou make an offering of 400 gold?\" ",
-      "zh": "「汝願獻金四百枚否？」",
-      "zh_bytes": 22,
-      "note": ""
-    },
-    {
-      "offset": 2483,
-      "len": 2,
-      "en": "yn",
-      "zh": "yn",
-      "zh_bytes": 2,
-      "note": ""
-    },
-    {
-      "offset": 2514,
-      "len": 54,
-      "en": "\"Then there is naught I can do save grieve with thee.\"",
-      "zh": "「那麼我所能為者，唯與汝同悲。」",
-      "zh_bytes": 32,
-      "note": ""
-    },
-    {
-      "offset": 2610,
-      "len": 26,
-      "en": "\"That ain't enough money.\"",
-      "zh": "「此金錢不足。」",
-      "zh_bytes": 16,
-      "note": ""
-    },
-    {
-      "offset": 2639,
-      "len": 33,
-      "en": "\"Thou art #1 gold piece\\s short.\"",
-      "zh": "「汝尚欠#1枚金幣。」",
-      "zh_bytes": 20,
-      "note": "保留 #1 與 \\s 變數標記"
-    },
-    {
-      "offset": 2675,
-      "len": 58,
-      "en": "\"Go see a gravedigger. I'll reckon his price'll be lower.\"",
-      "zh": "「去找掘墓人吧，料想他索價會低些。」",
-      "zh_bytes": 36,
-      "note": "gravedigger→掘墓人"
-    },
-    {
-      "offset": 2795,
-      "len": 58,
-      "en": "Your party takes up a collection for their fallen comrade.",
-      "zh": "汝之同伴為亡故之友湊起一筆款項。",
-      "zh_bytes": 32,
-      "note": ""
-    },
-    {
-      "offset": 2974,
-      "len": 38,
-      "en": "Tiberius lays hands upon the corpse...",
-      "zh": "提貝里斯按手於屍身……",
-      "zh_bytes": 22,
-      "note": ""
-    },
-    {
-      "offset": 3015,
-      "len": 10,
-      "en": "\"Doman...\"",
-      "zh": "「多曼…」",
-      "zh_bytes": 10,
-      "note": "復活咒語音節音譯，第一節；單個 ellipsis 控 bytes"
-    },
-    {
-      "offset": 3028,
-      "len": 11,
-      "en": "\"thixus...\"",
-      "zh": "「席薩…」",
-      "zh_bytes": 10,
-      "note": "復活咒語第二節；單個 ellipsis"
-    },
-    {
-      "offset": 3042,
-      "len": 9,
-      "en": "\"anretu!\"",
-      "zh": "「安瑞!」",
-      "zh_bytes": 9,
-      "note": "復活咒語末節；用半形 ! 控 bytes"
-    },
-    {
-      "offset": 3058,
-      "len": 24,
-      "en": "And the dead live again!",
-      "zh": "亡者重獲生命！",
-      "zh_bytes": 14,
-      "note": ""
-    },
-    {
-      "offset": 3108,
-      "len": 45,
-      "en": "\"I see that $Y carries another slain friend.\"",
-      "zh": "「我見$Y又懷中載一亡友。」",
-      "zh_bytes": 26,
-      "note": ""
-    }
-  ],
-  "keyword_mapping": {
-    "@heal": "@療傷",
-    "@cure": "@解毒",
-    "@resurrect": "@復活",
-    "@name": "@名字（內部碼 name 保留 ASCII）",
-    "@job": "@職業（內部碼 job 保留 ASCII）",
-    "@bye": "@再見（內部碼 bye 保留 ASCII）",
-    "@yes": "@是（內部碼 yes 保留 ASCII）",
-    "@no": "@否（內部碼 no 保留 ASCII）"
+  {
+   "offset": 11,
+   "len": 29,
+   "en": "a rotund man in monk's robes.",
+   "zh": "一名身披修士袍的圓胖男子。",
+   "zh_bytes": 26,
+   "note": "描述句"
   },
-  "glossary_additions": {
-    "people": {
-      "Tiberius": "提貝里斯"
-    },
-    "concepts": {
-      "healer": "醫者",
-      "gravedigger": "掘墓人",
-      "offering": "獻金",
-      "lay hands": "按手",
-      "fallen": "倒下之人",
-      "parted friend": "已逝之友"
-    }
+  {
+   "offset": 74,
+   "len": 20,
+   "en": "\"Greetings, my child",
+   "zh": "「吾兒安好",
+   "zh_bytes": 10,
+   "note": "Tiberius 對玩家稱『吾兒』；與 ren 拼接"
   },
-  "riddles_additions": [
-    {
-      "npc": "Tiberius",
-      "key": "RESURRECTION_CHANT",
-      "en": "Doman... thixus... anretu!",
-      "zh": "多曼……席薩……安瑞！",
-      "ref": "Tiberius 復活咒語三節（U6 自編魔法音節，與 Mariah Zu/Quas/Hur/Jux/Ort 系統不同）",
-      "strategy": "音譯保留節奏感，三段式漸強；末節用驚嘆控制 bytes"
-    }
-  ],
-  "translator_notes": "Tiberius 用 \"my child\" 對玩家親稱，譯『吾兒』展現修士口吻。三組重複的療傷／解毒／復活對話保持譯文一致以利讀者學習介面。復活咒語 Doman/thixus/anretu 為自編音節，採音譯以保留神秘感。len=2 的 .\" 因中文標點佔 4 bytes 改為單『。』。對於 yn / yes / no / heal / cure / resu / name / job / bye 等 keyword 內部觸發碼一律保留 ASCII 不譯（因玩家通常輸入英文 keyword 觸發；句中 @heal/@cure/@resurrect 仍譯為中文供顯示）。0 OVERFLOW。"
+  {
+   "offset": 98,
+   "len": 3,
+   "en": "ren",
+   "zh": "ren",
+   "zh_bytes": 3,
+   "note": "字串拼接後綴 children 的 ren，保留 ASCII"
+  },
+  {
+   "offset": 102,
+   "len": 32,
+   "en": ". What can I do for thee today?\"",
+   "zh": "。今日有何事可效勞？」",
+   "zh_bytes": 22,
+   "note": "修士謙卑口吻"
+  },
+  {
+   "offset": 137,
+   "len": 4,
+   "en": "heal",
+   "zh": "heal",
+   "zh_bytes": 4,
+   "note": "@heal keyword 內部觸發碼，保留 ASCII"
+  },
+  {
+   "offset": 148,
+   "len": 4,
+   "en": "cure",
+   "zh": "cure",
+   "zh_bytes": 4,
+   "note": "@cure keyword 內部觸發碼，保留 ASCII"
+  },
+  {
+   "offset": 159,
+   "len": 4,
+   "en": "resu",
+   "zh": "resu",
+   "zh_bytes": 4,
+   "note": "@resurrect keyword 內部觸發碼，保留 ASCII"
+  },
+  {
+   "offset": 183,
+   "len": 60,
+   "en": "\"But thou weepest for no reason! None of thy party is dead!\"",
+   "zh": "「汝何故悲泣？同伴中無一人亡故！」",
+   "zh_bytes": 34,
+   "note": ""
+  },
+  {
+   "offset": 260,
+   "len": 4,
+   "en": "name",
+   "zh": "name",
+   "zh_bytes": 4,
+   "note": "@name keyword 內部碼保留"
+  },
+  {
+   "offset": 265,
+   "len": 38,
+   "en": "\"I am Tiberius, healer for this town.\"",
+   "zh": "「我乃提貝里斯，此鎮之醫者。」",
+   "zh_bytes": 30,
+   "note": ""
+  },
+  {
+   "offset": 315,
+   "len": 3,
+   "en": "job",
+   "zh": "job",
+   "zh_bytes": 3,
+   "note": "@job keyword 內部碼保留"
+  },
+  {
+   "offset": 319,
+   "len": 59,
+   "en": "\"It is my responsibility to care for the sick and injured.\"",
+   "zh": "「照看病傷之人，乃我之職責。」",
+   "zh_bytes": 30,
+   "note": ""
+  },
+  {
+   "offset": 381,
+   "len": 65,
+   "en": "\"I attempt to @heal, @cure, or if needed, @resurrect the fallen.\"",
+   "zh": "「我可@heal（療傷）、@cure（解毒），必要時更可@resurrect（復活）倒下之人。」",
+   "zh_bytes": 47,
+   "note": "@heal→@療傷；@cure→@解毒；@resurrect→@復活"
+  },
+  {
+   "offset": 452,
+   "len": 6,
+   "en": "bye,no",
+   "zh": "bye,no",
+   "zh_bytes": 6,
+   "note": "keyword 內部碼保留"
+  },
+  {
+   "offset": 459,
+   "len": 22,
+   "en": "\"Go in peace, my child",
+   "zh": "「平安去吧，吾兒",
+   "zh_bytes": 16,
+   "note": "與 ren 拼接成 children"
+  },
+  {
+   "offset": 485,
+   "len": 3,
+   "en": "ren",
+   "zh": "ren",
+   "zh_bytes": 3,
+   "note": "拼接後綴保留 ASCII"
+  },
+  {
+   "offset": 489,
+   "len": 2,
+   "en": ".\"",
+   "zh": "。",
+   "zh_bytes": 2,
+   "note": "len=2 緊；單個全形句號剛好"
+  },
+  {
+   "offset": 494,
+   "len": 3,
+   "en": "yes",
+   "zh": "yes",
+   "zh_bytes": 3,
+   "note": "@yes keyword 內部碼保留"
+  },
+  {
+   "offset": 498,
+   "len": 25,
+   "en": "\"What can I do for thee?\"",
+   "zh": "「有何事可為汝效勞？」",
+   "zh_bytes": 22,
+   "note": ""
+  },
+  {
+   "offset": 531,
+   "len": 19,
+   "en": "\"I beg thy pardon?\"",
+   "zh": "「汝意何指？」",
+   "zh_bytes": 14,
+   "note": ""
+  },
+  {
+   "offset": 563,
+   "len": 32,
+   "en": "\"Come to my shop when I'm open!\"",
+   "zh": "「待我開門時再來吧！」",
+   "zh_bytes": 22,
+   "note": ""
+  },
+  {
+   "offset": 656,
+   "len": 30,
+   "en": "\"Fret not, for thou art well.\"",
+   "zh": "「勿憂，汝身體無恙。」",
+   "zh_bytes": 22,
+   "note": ""
+  },
+  {
+   "offset": 763,
+   "len": 6,
+   "en": "#2) $Y",
+   "zh": "#2) $Y",
+   "zh_bytes": 6,
+   "note": "格式控制保留"
+  },
+  {
+   "offset": 809,
+   "len": 36,
+   "en": "\"Fret not, for all of you are well!\"",
+   "zh": "「勿憂，諸位皆健康無恙！」",
+   "zh_bytes": 26,
+   "note": ""
+  },
+  {
+   "offset": 875,
+   "len": 6,
+   "en": "#2) $Y",
+   "zh": "#2) $Y",
+   "zh_bytes": 6,
+   "note": "格式控制保留"
+  },
+  {
+   "offset": 882,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「諸位何人？」",
+   "zh_bytes": 14,
+   "note": ""
+  },
+  {
+   "offset": 987,
+   "len": 23,
+   "en": "\"I see thy injury, $Y.\"",
+   "zh": "「我見汝之傷，$Y。」",
+   "zh_bytes": 20,
+   "note": "保留 $Y"
+  },
+  {
+   "offset": 1013,
+   "len": 41,
+   "en": "\"Wilt thou make an offering of 30 gold?\" ",
+   "zh": "「汝願獻金三十枚否？」",
+   "zh_bytes": 22,
+   "note": ""
+  },
+  {
+   "offset": 1055,
+   "len": 2,
+   "en": "yn",
+   "zh": "yn",
+   "zh_bytes": 2,
+   "note": "y/n 觸發碼保留"
+  },
+  {
+   "offset": 1076,
+   "len": 48,
+   "en": "Laying hands upon $Y, Tiberius mends the wounds.",
+   "zh": "提貝里斯按手於$Y，傷處便已癒合。",
+   "zh_bytes": 32,
+   "note": "按手治療動作描述"
+  },
+  {
+   "offset": 1166,
+   "len": 43,
+   "en": "\"If thou wilt not pay, I cannot heal thee.\"",
+   "zh": "「若汝不付獻金，我無法為汝療傷。」",
+   "zh_bytes": 34,
+   "note": ""
+  },
+  {
+   "offset": 1223,
+   "len": 52,
+   "en": "\"I'm sorry. Without an offering I cannot heal thee.\"",
+   "zh": "「實感歉意。無獻金則無法為汝療傷。」",
+   "zh_bytes": 36,
+   "note": ""
+  },
+  {
+   "offset": 1281,
+   "len": 39,
+   "en": "\"Thou art poor, but thy cause is just.\"",
+   "zh": "「汝雖貧寒，然汝之志正大。」",
+   "zh_bytes": 28,
+   "note": ""
+  },
+  {
+   "offset": 1323,
+   "len": 35,
+   "en": "\"I will heal thee without payment.\"",
+   "zh": "「我願為汝療傷，分文不取。」",
+   "zh_bytes": 28,
+   "note": ""
+  },
+  {
+   "offset": 1361,
+   "len": 48,
+   "en": "Laying hands upon $Y, Tiberius mends the wounds.",
+   "zh": "提貝里斯按手於$Y，傷處便已癒合。",
+   "zh_bytes": 32,
+   "note": ""
+  },
+  {
+   "offset": 1422,
+   "len": 40,
+   "en": "\"Is there aught else I can do for thee?\"",
+   "zh": "「尚有他事可為汝效勞否？」",
+   "zh_bytes": 26,
+   "note": ""
+  },
+  {
+   "offset": 1474,
+   "len": 32,
+   "en": "\"Come to my shop when I'm open!\"",
+   "zh": "「待我開門時再來吧！」",
+   "zh_bytes": 22,
+   "note": ""
+  },
+  {
+   "offset": 1567,
+   "len": 30,
+   "en": "\"Fret not, for thou art well.\"",
+   "zh": "「勿憂，汝身體無恙。」",
+   "zh_bytes": 22,
+   "note": ""
+  },
+  {
+   "offset": 1674,
+   "len": 6,
+   "en": "#2) $Y",
+   "zh": "#2) $Y",
+   "zh_bytes": 6,
+   "note": "格式控制保留"
+  },
+  {
+   "offset": 1720,
+   "len": 36,
+   "en": "\"Fret not, for all of you are well.\"",
+   "zh": "「勿憂，諸位皆健康無恙。」",
+   "zh_bytes": 26,
+   "note": ""
+  },
+  {
+   "offset": 1786,
+   "len": 6,
+   "en": "#2) $Y",
+   "zh": "#2) $Y",
+   "zh_bytes": 6,
+   "note": "格式控制保留"
+  },
+  {
+   "offset": 1793,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「諸位何人？」",
+   "zh_bytes": 14,
+   "note": ""
+  },
+  {
+   "offset": 1898,
+   "len": 37,
+   "en": "\"I sense that thou art poisoned, $Y.\"",
+   "zh": "「我察覺汝身中毒，$Y。」",
+   "zh_bytes": 24,
+   "note": ""
+  },
+  {
+   "offset": 1938,
+   "len": 41,
+   "en": "\"Wilt thou make an offering of 10 gold?\" ",
+   "zh": "「汝願獻金十枚否？」",
+   "zh_bytes": 20,
+   "note": ""
+  },
+  {
+   "offset": 1980,
+   "len": 2,
+   "en": "yn",
+   "zh": "yn",
+   "zh_bytes": 2,
+   "note": "y/n 觸發碼保留"
+  },
+  {
+   "offset": 2001,
+   "len": 50,
+   "en": "Laying hands upon $Y, Tiberius removes the poison.",
+   "zh": "提貝里斯按手於$Y，毒素便已消散。",
+   "zh_bytes": 32,
+   "note": ""
+  },
+  {
+   "offset": 2093,
+   "len": 43,
+   "en": "\"If thou wilt not pay, I cannot heal thee.\"",
+   "zh": "「若汝不付獻金，我無法為汝療傷。」",
+   "zh_bytes": 34,
+   "note": ""
+  },
+  {
+   "offset": 2150,
+   "len": 52,
+   "en": "\"I'm sorry. Without an offering I cannot heal thee.\"",
+   "zh": "「實感歉意。無獻金則無法為汝療傷。」",
+   "zh_bytes": 36,
+   "note": ""
+  },
+  {
+   "offset": 2208,
+   "len": 39,
+   "en": "\"Thou art poor, but thy cause is just.\"",
+   "zh": "「汝雖貧寒，然汝之志正大。」",
+   "zh_bytes": 28,
+   "note": ""
+  },
+  {
+   "offset": 2250,
+   "len": 35,
+   "en": "\"I will cure thee without payment.\"",
+   "zh": "「我願為汝解毒，分文不取。」",
+   "zh_bytes": 28,
+   "note": ""
+  },
+  {
+   "offset": 2288,
+   "len": 50,
+   "en": "Laying hands upon $Y, Tiberius removes the poison.",
+   "zh": "提貝里斯按手於$Y，毒素便已消散。",
+   "zh_bytes": 32,
+   "note": ""
+  },
+  {
+   "offset": 2352,
+   "len": 40,
+   "en": "\"I see that $Y carries a parted friend.\"",
+   "zh": "「我見$Y懷中載一已逝之友。」",
+   "zh_bytes": 28,
+   "note": ""
+  },
+  {
+   "offset": 2402,
+   "len": 32,
+   "en": "\"Come to my shop when I'm open!\"",
+   "zh": "「待我開門時再來吧！」",
+   "zh_bytes": 22,
+   "note": ""
+  },
+  {
+   "offset": 2440,
+   "len": 42,
+   "en": "\"Wilt thou make an offering of 400 gold?\" ",
+   "zh": "「汝願獻金四百枚否？」",
+   "zh_bytes": 22,
+   "note": ""
+  },
+  {
+   "offset": 2483,
+   "len": 2,
+   "en": "yn",
+   "zh": "yn",
+   "zh_bytes": 2,
+   "note": ""
+  },
+  {
+   "offset": 2514,
+   "len": 54,
+   "en": "\"Then there is naught I can do save grieve with thee.\"",
+   "zh": "「那麼我所能為者，唯與汝同悲。」",
+   "zh_bytes": 32,
+   "note": ""
+  },
+  {
+   "offset": 2610,
+   "len": 26,
+   "en": "\"That ain't enough money.\"",
+   "zh": "「此金錢不足。」",
+   "zh_bytes": 16,
+   "note": ""
+  },
+  {
+   "offset": 2639,
+   "len": 33,
+   "en": "\"Thou art #1 gold piece\\s short.\"",
+   "zh": "「汝尚欠#1枚金幣。」",
+   "zh_bytes": 20,
+   "note": "保留 #1 與 \\s 變數標記"
+  },
+  {
+   "offset": 2675,
+   "len": 58,
+   "en": "\"Go see a gravedigger. I'll reckon his price'll be lower.\"",
+   "zh": "「去找掘墓人吧，料想他索價會低些。」",
+   "zh_bytes": 36,
+   "note": "gravedigger→掘墓人"
+  },
+  {
+   "offset": 2795,
+   "len": 58,
+   "en": "Your party takes up a collection for their fallen comrade.",
+   "zh": "汝之同伴為亡故之友湊起一筆款項。",
+   "zh_bytes": 32,
+   "note": ""
+  },
+  {
+   "offset": 2974,
+   "len": 38,
+   "en": "Tiberius lays hands upon the corpse...",
+   "zh": "提貝里斯按手於屍身……",
+   "zh_bytes": 22,
+   "note": ""
+  },
+  {
+   "offset": 3015,
+   "len": 10,
+   "en": "\"Doman...\"",
+   "zh": "「多曼…」",
+   "zh_bytes": 10,
+   "note": "復活咒語音節音譯，第一節；單個 ellipsis 控 bytes"
+  },
+  {
+   "offset": 3028,
+   "len": 11,
+   "en": "\"thixus...\"",
+   "zh": "「席薩…」",
+   "zh_bytes": 10,
+   "note": "復活咒語第二節；單個 ellipsis"
+  },
+  {
+   "offset": 3042,
+   "len": 9,
+   "en": "\"anretu!\"",
+   "zh": "「安瑞!」",
+   "zh_bytes": 9,
+   "note": "復活咒語末節；用半形 ! 控 bytes"
+  },
+  {
+   "offset": 3058,
+   "len": 24,
+   "en": "And the dead live again!",
+   "zh": "亡者重獲生命！",
+   "zh_bytes": 14,
+   "note": ""
+  },
+  {
+   "offset": 3108,
+   "len": 45,
+   "en": "\"I see that $Y carries another slain friend.\"",
+   "zh": "「我見$Y又懷中載一亡友。」",
+   "zh_bytes": 26,
+   "note": ""
+  }
+ ],
+ "keyword_mapping": {
+  "@heal": "@療傷",
+  "@cure": "@解毒",
+  "@resurrect": "@復活",
+  "@name": "@名字（內部碼 name 保留 ASCII）",
+  "@job": "@職業（內部碼 job 保留 ASCII）",
+  "@bye": "@再見（內部碼 bye 保留 ASCII）",
+  "@yes": "@是（內部碼 yes 保留 ASCII）",
+  "@no": "@否（內部碼 no 保留 ASCII）"
+ },
+ "glossary_additions": {
+  "people": {
+   "Tiberius": "提貝里斯"
+  },
+  "concepts": {
+   "healer": "醫者",
+   "gravedigger": "掘墓人",
+   "offering": "獻金",
+   "lay hands": "按手",
+   "fallen": "倒下之人",
+   "parted friend": "已逝之友"
+  }
+ },
+ "riddles_additions": [
+  {
+   "npc": "Tiberius",
+   "key": "RESURRECTION_CHANT",
+   "en": "Doman... thixus... anretu!",
+   "zh": "多曼……席薩……安瑞！",
+   "ref": "Tiberius 復活咒語三節（U6 自編魔法音節，與 Mariah Zu/Quas/Hur/Jux/Ort 系統不同）",
+   "strategy": "音譯保留節奏感，三段式漸強；末節用驚嘆控制 bytes"
+  }
+ ],
+ "translator_notes": "Tiberius 用 \"my child\" 對玩家親稱，譯『吾兒』展現修士口吻。三組重複的療傷／解毒／復活對話保持譯文一致以利讀者學習介面。復活咒語 Doman/thixus/anretu 為自編音節，採音譯以保留神秘感。len=2 的 .\" 因中文標點佔 4 bytes 改為單『。』。對於 yn / yes / no / heal / cure / resu / name / job / bye 等 keyword 內部觸發碼一律保留 ASCII 不譯（因玩家通常輸入英文 keyword 觸發；句中 @heal/@cure/@resurrect 仍譯為中文供顯示）。0 OVERFLOW。"
 }

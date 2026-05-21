@@ -1,294 +1,294 @@
 {
-  "translations": [
-    {
-      "offset": 8,
-      "len": 19,
-      "en": "the druidess Jaana.",
-      "zh": "德魯伊祭司雅娜。",
-      "note": "DESC; companion NPC"
-    },
-    {
-      "offset": 35,
-      "len": 61,
-      "en": "\"I fear I know little that would help in this situation, $G.\"",
-      "zh": "「吾恐怕所知甚少，難以在此情況下助汝，$G。」",
-      "note": ""
-    },
-    {
-      "offset": 109,
-      "len": 52,
-      "en": "\"Good $T, $G. Hast thou need of my services again?\" ",
-      "zh": "「$G，$T好。汝是否再次需要吾的幫助？」",
-      "note": "companion already in party"
-    },
-    {
-      "offset": 167,
-      "len": 41,
-      "en": "\"Ask me to @join and I will, gladly, $G!\"",
-      "zh": "「請汝邀吾@加入，吾會欣然答應，$G！」",
-      "note": ""
-    },
-    {
-      "offset": 216,
-      "len": 35,
-      "en": "\"Very well. Thou needst but ask...\"",
-      "zh": "「很好。汝只需開口便是……」",
-      "note": ""
-    },
-    {
-      "offset": 264,
-      "len": 52,
-      "en": "\"Good $T, $G! Hast thou fared well in thy travels?\" ",
-      "zh": "「$G，$T好！汝旅途一切安好嗎？」",
-      "note": ""
-    },
-    {
-      "offset": 322,
-      "len": 48,
-      "en": "\"Joyous news! Thou must tell me of it sometime.\"",
-      "zh": "「喜訊！汝改天一定要告訴吾詳情。」",
-      "note": ""
-    },
-    {
-      "offset": 378,
-      "len": 71,
-      "en": "\"Mayhap I could help. Ask me to @join thy band, $G, and gladly I will!\"",
-      "zh": "「或許吾能出些力。邀吾@加入汝的隊伍，$G，吾會欣然答應！」",
-      "note": ""
-    },
-    {
-      "offset": 462,
-      "len": 77,
-      "en": "\"$P! 'Tis a great joy and relief to see thou hast returned to Britannia, $G!\"",
-      "zh": "「$P！見汝回到不列顛尼亞，吾既欣喜又寬慰，$G！」",
-      "note": "first meeting"
-    },
-    {
-      "offset": 546,
-      "len": 43,
-      "en": "She greets your other traveling companions.",
-      "zh": "她向汝其他的同行夥伴問好。",
-      "note": "action"
-    },
-    {
-      "offset": 592,
-      "len": 72,
-      "en": "Everyone seems pleased to be reunited, albeit under tense circumstances.",
-      "zh": "眾人重逢皆感欣慰，儘管情勢緊張。",
-      "note": "action"
-    },
-    {
-      "offset": 668,
-      "len": 64,
-      "en": "\"Mayhap I can help thee in thy struggle against the @gargoyles.\"",
-      "zh": "「或許吾能在汝對抗@魔像族的征途中助一臂之力。」",
-      "note": ""
-    },
-    {
-      "offset": 735,
-      "len": 50,
-      "en": "\"Thou needst but ask and I will gladly @join, $G.\"",
-      "zh": "「汝只需開口，吾便欣然@加入，$G。」",
-      "note": ""
-    },
-    {
-      "offset": 793,
-      "len": 27,
-      "en": "\"Why, my name's Jaana, $G.\"",
-      "zh": "「哎，吾叫雅娜，$G。」",
-      "note": ""
-    },
-    {
-      "offset": 823,
-      "len": 93,
-      "en": "\"Surely my help in thy previous quests was not so insignificant that thou hast forgotten it!\"",
-      "zh": "「吾在汝往昔任務中的貢獻，想必還不至於微不足道到讓汝遺忘吧！」",
-      "note": ""
-    },
-    {
-      "offset": 926,
-      "len": 101,
-      "en": "\"Since thy last visit to Britannia, I have lived in Yew, blessing crops and tending to sick animals.\"",
-      "zh": "「自汝上次離開不列顛尼亞，吾便一直住在尤城，為農作物祈福、照料生病的動物。」",
-      "note": ""
-    },
-    {
-      "offset": 1030,
-      "len": 105,
-      "en": "\"Though I know 'tis unbecoming of a simple druid to do so, I miss the excitement of our quests together!\"",
-      "zh": "「雖然吾知道這樣想對一個普通德魯伊來說有失體統，但吾實在懷念吾等共同冒險的刺激！」",
-      "note": ""
-    },
-    {
-      "offset": 1149,
-      "len": 65,
-      "en": "\"I would gladly @join thee, $G, if thou had a use for my skills.\"",
-      "zh": "「若汝用得上吾的技藝，吾欣然@加入汝，$G。」",
-      "note": ""
-    },
-    {
-      "offset": 1230,
-      "len": 34,
-      "en": "\"Surely I misunderstand thee, $G.\"",
-      "zh": "「吾想吾誤解汝的意思了，$G。」",
-      "note": "already in party"
-    },
-    {
-      "offset": 1267,
-      "len": 40,
-      "en": "\"Am I not already a member of thy band?\"",
-      "zh": "「吾難道還不是汝隊伍的一員嗎？」",
-      "note": ""
-    },
-    {
-      "offset": 1328,
-      "len": 13,
-      "en": "\"Gladly, $G!\"",
-      "zh": "「欣然從命，$G！」",
-      "note": "joining"
-    },
-    {
-      "offset": 1358,
-      "len": 58,
-      "en": "\"Nay, $G, thou seemst to have enough companions as it is.\"",
-      "zh": "「不，$G，汝的同伴似乎已經夠多了。」",
-      "note": "party full"
-    },
-    {
-      "offset": 1419,
-      "len": 72,
-      "en": "\"Mayhap if one of them left your band, thou might have more need of me.\"",
-      "zh": "「或許若其中一人離開，汝就會更需要吾了。」",
-      "note": ""
-    },
-    {
-      "offset": 1497,
-      "len": 37,
-      "en": "\"Let us discuss such matters ashore.\"",
-      "zh": "「此等事宜，讓吾等上岸再談吧。」",
-      "note": "at sea"
-    },
-    {
-      "offset": 1537,
-      "len": 36,
-      "en": "\"I can barely think out here a'sea!\"",
-      "zh": "「吾在海上根本無法思考！」",
-      "note": "seasick"
-    },
-    {
-      "offset": 1576,
-      "len": 67,
-      "en": "For the first time, you notice that Jaana seems definitely seasick!",
-      "zh": "這時汝才注意到，雅娜顯然暈船了！",
-      "note": "action"
-    },
-    {
-      "offset": 1670,
-      "len": 34,
-      "en": "\"Whatever thou thinkest best, $G.\"",
-      "zh": "「汝覺得怎樣好就怎樣，$G。」",
-      "note": "leaving party"
-    },
-    {
-      "offset": 1707,
-      "len": 30,
-      "en": "\"Thou mayst keep my supplies.\"",
-      "zh": "「汝可以留下吾的補給品。」",
-      "note": ""
-    },
-    {
-      "offset": 1747,
-      "len": 30,
-      "en": "\"Perhaps I misunderstand, $G.\"",
-      "zh": "「或許吾誤解了，$G。」",
-      "note": ""
-    },
-    {
-      "offset": 1780,
-      "len": 48,
-      "en": "\"I cannot leave thy party since I am not in it!\"",
-      "zh": "「吾既未在汝的隊伍中，又何談離開！」",
-      "note": ""
-    },
-    {
-      "offset": 1834,
-      "len": 37,
-      "en": "\"Let us discuss such matters ashore.\"",
-      "zh": "「此等事宜，讓吾等上岸再談吧。」",
-      "note": "at sea"
-    },
-    {
-      "offset": 1874,
-      "len": 36,
-      "en": "\"I can barely think out here a'sea!\"",
-      "zh": "「吾在海上根本無法思考！」",
-      "note": ""
-    },
-    {
-      "offset": 1913,
-      "len": 67,
-      "en": "For the first time, you notice that Jaana seems definitely seasick!",
-      "zh": "這時汝才注意到，雅娜顯然暈船了！",
-      "note": "action"
-    },
-    {
-      "offset": 1992,
-      "len": 62,
-      "en": "\"I know little of the gargoyles, $G, save what rumors I hear.\"",
-      "zh": "「吾對魔像族所知甚少，$G，只聽過一些傳言。」",
-      "note": ""
-    },
-    {
-      "offset": 2057,
-      "len": 84,
-      "en": "\"But I know that the gargoyles are fierce fighters, and a great threat to the land!\"",
-      "zh": "「但吾知道魔像族是兇猛的戰士，對這片土地是一大威脅！」",
-      "note": ""
-    },
-    {
-      "offset": 2157,
-      "len": 67,
-      "en": "\"I've heard that Nicodemus the enchanter lives between two rivers.\"",
-      "zh": "「吾聽說術士尼科德慕斯住在兩條河流之間。」",
-      "note": ""
-    },
-    {
-      "offset": 2239,
-      "len": 40,
-      "en": "\"May the virtues guide us in our quest!\"",
-      "zh": "「願美德引領吾等完成任務！」",
-      "note": "bye"
-    },
-    {
-      "offset": 2281,
-      "len": 57,
-      "en": "\"Farewell! Return when thou hast more news of thy quest!\"",
-      "zh": "「珍重！待汝有任務的新消息時再來吧！」",
-      "note": "bye"
-    },
-    {
-      "offset": 2351,
-      "len": 33,
-      "en": "\"Alas, I know nothing of $Z, $G.\"",
-      "zh": "「唉，吾對『$Z』一無所知，$G。」",
-      "note": ""
-    },
-    {
-      "offset": 2385,
-      "len": 13,
-      "en": "\"Beg pardon?\"",
-      "zh": "「請問汝說什麼？」",
-      "note": ""
-    }
-  ],
-  "glossary_additions": {
-    "people": {
-      "Jaana": "雅娜"
-    },
-    "places": {},
-    "concepts": {
-      "druidess": "德魯伊祭司"
-    }
+ "translations": [
+  {
+   "offset": 8,
+   "len": 19,
+   "en": "the druidess Jaana.",
+   "zh": "德魯伊祭司雅娜。",
+   "note": "DESC; companion NPC"
   },
-  "translator_notes": "雅娜是玩家的老同伴，德魯伊祭司，現住尤城。用「吾」自稱，語氣溫柔而積極，渴望再次冒險。她有暈船的弱點，在海上時頻繁提起。"
+  {
+   "offset": 35,
+   "len": 61,
+   "en": "\"I fear I know little that would help in this situation, $G.\"",
+   "zh": "「吾恐怕所知甚少，難以在此情況下助汝，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 109,
+   "len": 52,
+   "en": "\"Good $T, $G. Hast thou need of my services again?\" ",
+   "zh": "「$G，$T好。汝是否再次需要吾的幫助？」",
+   "note": "companion already in party"
+  },
+  {
+   "offset": 167,
+   "len": 41,
+   "en": "\"Ask me to @join and I will, gladly, $G!\"",
+   "zh": "「請汝邀吾@join（加入），吾會欣然答應，$G！」",
+   "note": ""
+  },
+  {
+   "offset": 216,
+   "len": 35,
+   "en": "\"Very well. Thou needst but ask...\"",
+   "zh": "「很好。汝只需開口便是……」",
+   "note": ""
+  },
+  {
+   "offset": 264,
+   "len": 52,
+   "en": "\"Good $T, $G! Hast thou fared well in thy travels?\" ",
+   "zh": "「$G，$T好！汝旅途一切安好嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 322,
+   "len": 48,
+   "en": "\"Joyous news! Thou must tell me of it sometime.\"",
+   "zh": "「喜訊！汝改天一定要告訴吾詳情。」",
+   "note": ""
+  },
+  {
+   "offset": 378,
+   "len": 71,
+   "en": "\"Mayhap I could help. Ask me to @join thy band, $G, and gladly I will!\"",
+   "zh": "「或許吾能出些力。邀吾@join（加入）汝的隊伍，$G，吾會欣然答應！」",
+   "note": ""
+  },
+  {
+   "offset": 462,
+   "len": 77,
+   "en": "\"$P! 'Tis a great joy and relief to see thou hast returned to Britannia, $G!\"",
+   "zh": "「$P！見汝回到不列顛尼亞，吾既欣喜又寬慰，$G！」",
+   "note": "first meeting"
+  },
+  {
+   "offset": 546,
+   "len": 43,
+   "en": "She greets your other traveling companions.",
+   "zh": "她向汝其他的同行夥伴問好。",
+   "note": "action"
+  },
+  {
+   "offset": 592,
+   "len": 72,
+   "en": "Everyone seems pleased to be reunited, albeit under tense circumstances.",
+   "zh": "眾人重逢皆感欣慰，儘管情勢緊張。",
+   "note": "action"
+  },
+  {
+   "offset": 668,
+   "len": 64,
+   "en": "\"Mayhap I can help thee in thy struggle against the @gargoyles.\"",
+   "zh": "「或許吾能在汝對抗@gargoyles（魔像）族的征途中助一臂之力。」",
+   "note": ""
+  },
+  {
+   "offset": 735,
+   "len": 50,
+   "en": "\"Thou needst but ask and I will gladly @join, $G.\"",
+   "zh": "「汝只需開口，吾便欣然@join（加入），$G。」",
+   "note": ""
+  },
+  {
+   "offset": 793,
+   "len": 27,
+   "en": "\"Why, my name's Jaana, $G.\"",
+   "zh": "「哎，吾叫雅娜，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 823,
+   "len": 93,
+   "en": "\"Surely my help in thy previous quests was not so insignificant that thou hast forgotten it!\"",
+   "zh": "「吾在汝往昔任務中的貢獻，想必還不至於微不足道到讓汝遺忘吧！」",
+   "note": ""
+  },
+  {
+   "offset": 926,
+   "len": 101,
+   "en": "\"Since thy last visit to Britannia, I have lived in Yew, blessing crops and tending to sick animals.\"",
+   "zh": "「自汝上次離開不列顛尼亞，吾便一直住在尤城，為農作物祈福、照料生病的動物。」",
+   "note": ""
+  },
+  {
+   "offset": 1030,
+   "len": 105,
+   "en": "\"Though I know 'tis unbecoming of a simple druid to do so, I miss the excitement of our quests together!\"",
+   "zh": "「雖然吾知道這樣想對一個普通德魯伊來說有失體統，但吾實在懷念吾等共同冒險的刺激！」",
+   "note": ""
+  },
+  {
+   "offset": 1149,
+   "len": 65,
+   "en": "\"I would gladly @join thee, $G, if thou had a use for my skills.\"",
+   "zh": "「若汝用得上吾的技藝，吾欣然@join（加入）汝，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 1230,
+   "len": 34,
+   "en": "\"Surely I misunderstand thee, $G.\"",
+   "zh": "「吾想吾誤解汝的意思了，$G。」",
+   "note": "already in party"
+  },
+  {
+   "offset": 1267,
+   "len": 40,
+   "en": "\"Am I not already a member of thy band?\"",
+   "zh": "「吾難道還不是汝隊伍的一員嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1328,
+   "len": 13,
+   "en": "\"Gladly, $G!\"",
+   "zh": "「欣然從命，$G！」",
+   "note": "joining"
+  },
+  {
+   "offset": 1358,
+   "len": 58,
+   "en": "\"Nay, $G, thou seemst to have enough companions as it is.\"",
+   "zh": "「不，$G，汝的同伴似乎已經夠多了。」",
+   "note": "party full"
+  },
+  {
+   "offset": 1419,
+   "len": 72,
+   "en": "\"Mayhap if one of them left your band, thou might have more need of me.\"",
+   "zh": "「或許若其中一人離開，汝就會更需要吾了。」",
+   "note": ""
+  },
+  {
+   "offset": 1497,
+   "len": 37,
+   "en": "\"Let us discuss such matters ashore.\"",
+   "zh": "「此等事宜，讓吾等上岸再談吧。」",
+   "note": "at sea"
+  },
+  {
+   "offset": 1537,
+   "len": 36,
+   "en": "\"I can barely think out here a'sea!\"",
+   "zh": "「吾在海上根本無法思考！」",
+   "note": "seasick"
+  },
+  {
+   "offset": 1576,
+   "len": 67,
+   "en": "For the first time, you notice that Jaana seems definitely seasick!",
+   "zh": "這時汝才注意到，雅娜顯然暈船了！",
+   "note": "action"
+  },
+  {
+   "offset": 1670,
+   "len": 34,
+   "en": "\"Whatever thou thinkest best, $G.\"",
+   "zh": "「汝覺得怎樣好就怎樣，$G。」",
+   "note": "leaving party"
+  },
+  {
+   "offset": 1707,
+   "len": 30,
+   "en": "\"Thou mayst keep my supplies.\"",
+   "zh": "「汝可以留下吾的補給品。」",
+   "note": ""
+  },
+  {
+   "offset": 1747,
+   "len": 30,
+   "en": "\"Perhaps I misunderstand, $G.\"",
+   "zh": "「或許吾誤解了，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 1780,
+   "len": 48,
+   "en": "\"I cannot leave thy party since I am not in it!\"",
+   "zh": "「吾既未在汝的隊伍中，又何談離開！」",
+   "note": ""
+  },
+  {
+   "offset": 1834,
+   "len": 37,
+   "en": "\"Let us discuss such matters ashore.\"",
+   "zh": "「此等事宜，讓吾等上岸再談吧。」",
+   "note": "at sea"
+  },
+  {
+   "offset": 1874,
+   "len": 36,
+   "en": "\"I can barely think out here a'sea!\"",
+   "zh": "「吾在海上根本無法思考！」",
+   "note": ""
+  },
+  {
+   "offset": 1913,
+   "len": 67,
+   "en": "For the first time, you notice that Jaana seems definitely seasick!",
+   "zh": "這時汝才注意到，雅娜顯然暈船了！",
+   "note": "action"
+  },
+  {
+   "offset": 1992,
+   "len": 62,
+   "en": "\"I know little of the gargoyles, $G, save what rumors I hear.\"",
+   "zh": "「吾對魔像族所知甚少，$G，只聽過一些傳言。」",
+   "note": ""
+  },
+  {
+   "offset": 2057,
+   "len": 84,
+   "en": "\"But I know that the gargoyles are fierce fighters, and a great threat to the land!\"",
+   "zh": "「但吾知道魔像族是兇猛的戰士，對這片土地是一大威脅！」",
+   "note": ""
+  },
+  {
+   "offset": 2157,
+   "len": 67,
+   "en": "\"I've heard that Nicodemus the enchanter lives between two rivers.\"",
+   "zh": "「吾聽說術士尼科德慕斯住在兩條河流之間。」",
+   "note": ""
+  },
+  {
+   "offset": 2239,
+   "len": 40,
+   "en": "\"May the virtues guide us in our quest!\"",
+   "zh": "「願美德引領吾等完成任務！」",
+   "note": "bye"
+  },
+  {
+   "offset": 2281,
+   "len": 57,
+   "en": "\"Farewell! Return when thou hast more news of thy quest!\"",
+   "zh": "「珍重！待汝有任務的新消息時再來吧！」",
+   "note": "bye"
+  },
+  {
+   "offset": 2351,
+   "len": 33,
+   "en": "\"Alas, I know nothing of $Z, $G.\"",
+   "zh": "「唉，吾對『$Z』一無所知，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 2385,
+   "len": 13,
+   "en": "\"Beg pardon?\"",
+   "zh": "「請問汝說什麼？」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Jaana": "雅娜"
+  },
+  "places": {},
+  "concepts": {
+   "druidess": "德魯伊祭司"
+  }
+ },
+ "translator_notes": "雅娜是玩家的老同伴，德魯伊祭司，現住尤城。用「吾」自稱，語氣溫柔而積極，渴望再次冒險。她有暈船的弱點，在海上時頻繁提起。"
 }

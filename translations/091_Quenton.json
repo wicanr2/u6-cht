@@ -32,7 +32,7 @@
    "offset": 219,
    "len": 81,
    "en": "You speak the word and the spectre responds by pointing a boney hand to his @eye.",
-   "zh": "汝說出此字，幽靈回應：伸出枯骨般的手指向他的@眼。",
+   "zh": "汝說出此字，幽靈回應：伸出枯骨般的手指向他的@eye（眼）。",
    "note": ""
   },
   {
@@ -81,7 +81,7 @@
    "offset": 742,
    "len": 52,
    "en": "The spectre's arm thrusts out, pointing to the @sea.",
-   "zh": "幽靈的手臂猛然伸出，指向@大海。",
+   "zh": "幽靈的手臂猛然伸出，指向@sea（大海）。",
    "note": ""
   },
   {

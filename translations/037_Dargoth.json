@@ -1,336 +1,336 @@
 {
-  "translations": [
-    {
-      "offset": 10,
-      "len": 35,
-      "en": "a stern, severe man in white robes.",
-      "zh": "一位身著白袍、面色嚴峻的男子。",
-      "note": "DESC"
-    },
-    {
-      "offset": 48,
-      "len": 40,
-      "en": "You interrupt the man from his research.",
-      "zh": "汝打斷了此人的研究工作。",
-      "note": "action desc"
-    },
-    {
-      "offset": 91,
-      "len": 23,
-      "en": "\"Yes, yes, what is it?\"",
-      "zh": "「是，是，何事？」",
-      "note": ""
-    },
-    {
-      "offset": 142,
-      "len": 37,
-      "en": "\"You've come for healing, I suppose.\"",
-      "zh": "「汝是來求醫的，吾猜。」",
-      "note": ""
-    },
-    {
-      "offset": 228,
-      "len": 21,
-      "en": "He raises an eyebrow.",
-      "zh": "他揚起一道眉毛。",
-      "note": "action"
-    },
-    {
-      "offset": 252,
-      "len": 77,
-      "en": "\"You may not be my choice for dinner conversation, but none of you are dead.\"",
-      "zh": "「汝等或許不是吾理想的席間談伴，但汝等無人已死。」",
-      "note": ""
-    },
-    {
-      "offset": 351,
-      "len": 39,
-      "en": "\"I am Dargoth, master of medical lore.\"",
-      "zh": "「吾乃達高斯，醫術大師。」",
-      "note": ""
-    },
-    {
-      "offset": 406,
-      "len": 30,
-      "en": "\"My true calling is research.\"",
-      "zh": "「吾真正的志業是研究。」",
-      "note": ""
-    },
-    {
-      "offset": 439,
-      "len": 69,
-      "en": "\"My studies here have advanced the healing art throughout the world!\"",
-      "zh": "「吾在此地的研究已令全世界的醫術更上一層樓！」",
-      "note": ""
-    },
-    {
-      "offset": 511,
-      "len": 86,
-      "en": "\"But, more often than not, I am called upon to @cure poison ivy and @heal paper cuts!\"",
-      "zh": "「然而吾卻三天兩頭被叫去@治毒藤皮疹或@醫紙割傷！」",
-      "note": ""
-    },
-    {
-      "offset": 600,
-      "len": 31,
-      "en": "\"I grow weary of such trifles!\"",
-      "zh": "「吾已厭倦這等瑣事！」",
-      "note": ""
-    },
-    {
-      "offset": 644,
-      "len": 22,
-      "en": "\"Stay out of trouble!\"",
-      "zh": "「切勿惹禍上身！」",
-      "note": ""
-    },
-    {
-      "offset": 669,
-      "len": 49,
-      "en": "\"I don't want to see my fine workmanship wasted!\"",
-      "zh": "「吾不希望看到吾的精湛醫術付諸流水！」",
-      "note": ""
-    },
-    {
-      "offset": 725,
-      "len": 31,
-      "en": "\"Well, what can I do for thee?\"",
-      "zh": "「好，吾能為汝效何勞？」",
-      "note": ""
-    },
-    {
-      "offset": 764,
-      "len": 47,
-      "en": "\"Come, come, get to the point. I'm a busy man!\"",
-      "zh": "「快說，直說重點。吾是大忙人！」",
-      "note": ""
-    },
-    {
-      "offset": 872,
-      "len": 60,
-      "en": "\"I can do nothing for those scars. Still, they look healed.\"",
-      "zh": "「吾對那些傷疤無能為力。不過，看起來已痊癒了。」",
-      "note": ""
-    },
-    {
-      "offset": 1055,
-      "len": 52,
-      "en": "\"Why do you waste my time? None of you are wounded!\"",
-      "zh": "「為何浪費吾的時間？汝等無人受傷！」",
-      "note": ""
-    },
-    {
-      "offset": 1144,
-      "len": 16,
-      "en": "\"Which of you?\" ",
-      "zh": "「汝等哪一位？」",
-      "note": ""
-    },
-    {
-      "offset": 1256,
-      "len": 38,
-      "en": "\"$Y, your injury is most interesting!\"",
-      "zh": "「$Y，汝的傷甚是有趣！」",
-      "note": ""
-    },
-    {
-      "offset": 1295,
-      "len": 48,
-      "en": "\"Ah! $Y, you have an injury worthy of my skill!\"",
-      "zh": "「啊！$Y，汝這傷勢方才配得上吾的醫術！」",
-      "note": ""
-    },
-    {
-      "offset": 1347,
-      "len": 59,
-      "en": "\"It will cost you 30 gold for me to heal you, interested?\" ",
-      "zh": "「吾為汝療傷需 30 枚金幣，汝有意嗎？」",
-      "note": ""
-    },
-    {
-      "offset": 1428,
-      "len": 47,
-      "en": "Laying hands upon $Y, Dargoth mends the wounds.",
-      "zh": "達高斯按手於 $Y 身上，為其療癒傷口。",
-      "note": ""
-    },
-    {
-      "offset": 1501,
-      "len": 32,
-      "en": "\"I need to be paid to heal you.\"",
-      "zh": "「吾需先收費，方能為汝療傷。」",
-      "note": ""
-    },
-    {
-      "offset": 1542,
-      "len": 24,
-      "en": "\"What else do you need?\"",
-      "zh": "「汝還需要什麼？」",
-      "note": ""
-    },
-    {
-      "offset": 1626,
-      "len": 47,
-      "en": "\"You don't look good, but you're not poisoned.\"",
-      "zh": "「汝看起來氣色不佳，但並未中毒。」",
-      "note": ""
-    },
-    {
-      "offset": 1796,
-      "len": 53,
-      "en": "\"Why do you waste my time? None of you are poisoned!\"",
-      "zh": "「為何浪費吾的時間？汝等無人中毒！」",
-      "note": ""
-    },
-    {
-      "offset": 1886,
-      "len": 16,
-      "en": "\"Which of you?\" ",
-      "zh": "「汝等哪一位？」",
-      "note": ""
-    },
-    {
-      "offset": 1998,
-      "len": 71,
-      "en": "\"Fascinating, $Y! I have read about such poison only in ancient books!\"",
-      "zh": "「妙極，$Y！吾僅在古籍中讀過此種毒素！」",
-      "note": ""
-    },
-    {
-      "offset": 2070,
-      "len": 72,
-      "en": "\"I haven't gotten many cases like this since they invented swamp boots.\"",
-      "zh": "「自從沼澤靴問世以來，吾已許久未見此類案例了。」",
-      "note": "避 5C：許久 OK (許 Big5=A7 D7, 汝=A6 汝，許 trail=D7 not 5C)"
-    },
-    {
-      "offset": 2146,
-      "len": 46,
-      "en": "\"It'll cost 10 gold to cure you, interested?\" ",
-      "zh": "「為汝解毒需 10 枚金幣，汝有意嗎？」",
-      "note": ""
-    },
-    {
-      "offset": 2214,
-      "len": 49,
-      "en": "Laying hands upon $Y, Dargoth removes the poison.",
-      "zh": "達高斯按手於 $Y 身上，為其驅除毒素。",
-      "note": ""
-    },
-    {
-      "offset": 2289,
-      "len": 37,
-      "en": "\"If you can't pay, I can't cure you.\"",
-      "zh": "「汝若付不起，吾便無法為汝解毒。」",
-      "note": ""
-    },
-    {
-      "offset": 2336,
-      "len": 67,
-      "en": "\"Oh.\" Seeing the dead body that $Y carries, he becomes more polite.",
-      "zh": "「哦。」見 $Y 所攜之遺體，他的態度頓時變得客氣了許多。",
-      "note": ""
-    },
-    {
-      "offset": 2406,
-      "len": 38,
-      "en": "\"I am sorry you've lost a compatriot.\"",
-      "zh": "「吾為汝失去一位同伴而感到遺憾。」",
-      "note": ""
-    },
-    {
-      "offset": 2447,
-      "len": 55,
-      "en": "\"For 400 gold I can attempt resurrection, interested?\" ",
-      "zh": "「吾可嘗試施行復活術，需 400 枚金幣，汝有意嗎？」",
-      "note": ""
-    },
-    {
-      "offset": 2534,
-      "len": 69,
-      "en": "\"Resurrection is a difficult task. I'm sorry, but I need to be paid.\"",
-      "zh": "「復活術難度極高。抱歉，吾必須先收費。」",
-      "note": ""
-    },
-    {
-      "offset": 2645,
-      "len": 26,
-      "en": "\"That ain't enough money.\"",
-      "zh": "「這金幣不夠多。」",
-      "note": "colloquial 'ain't' rendered without slang equivalent"
-    },
-    {
-      "offset": 2674,
-      "len": 32,
-      "en": "\"You are #1 gold piece\\s short.\"",
-      "zh": "「汝短少 #1 枚金幣。」",
-      "note": "\\s plural marker preserved in en; zh singular OK"
-    },
-    {
-      "offset": 2709,
-      "len": 58,
-      "en": "\"Go see a gravedigger. I'll reckon his price'll be lower.\"",
-      "zh": "「去找掘墓人吧。吾估計他的收費更便宜。」",
-      "note": ""
-    },
-    {
-      "offset": 2829,
-      "len": 58,
-      "en": "Your party takes up a collection for their fallen comrade.",
-      "zh": "汝的隊伍為倒下的同伴募集金幣。",
-      "note": "action"
-    },
-    {
-      "offset": 3008,
-      "len": 37,
-      "en": "Dargoth lays hands upon the corpse...",
-      "zh": "達高斯將手按在遺體上……",
-      "note": "action"
-    },
-    {
-      "offset": 3048,
-      "len": 10,
-      "en": "\"Doman...\"",
-      "zh": "「多曼……」",
-      "note": "incantation"
-    },
-    {
-      "offset": 3061,
-      "len": 11,
-      "en": "\"thixus...\"",
-      "zh": "「提薩斯……」",
-      "note": "incantation"
-    },
-    {
-      "offset": 3075,
-      "len": 9,
-      "en": "\"anretu!\"",
-      "zh": "「安瑞圖！」",
-      "note": "incantation final word"
-    },
-    {
-      "offset": 3091,
-      "len": 24,
-      "en": "And the dead live again!",
-      "zh": "死者復生！",
-      "note": "action"
-    },
-    {
-      "offset": 3141,
-      "len": 45,
-      "en": "\"I see that $Y carries another slain friend.\"",
-      "zh": "「吾見 $Y 又帶來了另一位陣亡的友人。」",
-      "note": ""
-    }
-  ],
-  "glossary_additions": {
-    "people": {
-      "Dargoth": "達高斯"
-    },
-    "places": {},
-    "concepts": {
-      "resurrection": "復活術"
-    }
+ "translations": [
+  {
+   "offset": 10,
+   "len": 35,
+   "en": "a stern, severe man in white robes.",
+   "zh": "一位身著白袍、面色嚴峻的男子。",
+   "note": "DESC"
   },
-  "translator_notes": "達高斯是位技術高超卻脾氣不好的醫者，語氣直接、帶點輕蔑但有職業自尊。復活術咒語（Doman/thixus/anretu）依發音音譯。"
+  {
+   "offset": 48,
+   "len": 40,
+   "en": "You interrupt the man from his research.",
+   "zh": "汝打斷了此人的研究工作。",
+   "note": "action desc"
+  },
+  {
+   "offset": 91,
+   "len": 23,
+   "en": "\"Yes, yes, what is it?\"",
+   "zh": "「是，是，何事？」",
+   "note": ""
+  },
+  {
+   "offset": 142,
+   "len": 37,
+   "en": "\"You've come for healing, I suppose.\"",
+   "zh": "「汝是來求醫的，吾猜。」",
+   "note": ""
+  },
+  {
+   "offset": 228,
+   "len": 21,
+   "en": "He raises an eyebrow.",
+   "zh": "他揚起一道眉毛。",
+   "note": "action"
+  },
+  {
+   "offset": 252,
+   "len": 77,
+   "en": "\"You may not be my choice for dinner conversation, but none of you are dead.\"",
+   "zh": "「汝等或許不是吾理想的席間談伴，但汝等無人已死。」",
+   "note": ""
+  },
+  {
+   "offset": 351,
+   "len": 39,
+   "en": "\"I am Dargoth, master of medical lore.\"",
+   "zh": "「吾乃達高斯，醫術大師。」",
+   "note": ""
+  },
+  {
+   "offset": 406,
+   "len": 30,
+   "en": "\"My true calling is research.\"",
+   "zh": "「吾真正的志業是研究。」",
+   "note": ""
+  },
+  {
+   "offset": 439,
+   "len": 69,
+   "en": "\"My studies here have advanced the healing art throughout the world!\"",
+   "zh": "「吾在此地的研究已令全世界的醫術更上一層樓！」",
+   "note": ""
+  },
+  {
+   "offset": 511,
+   "len": 86,
+   "en": "\"But, more often than not, I am called upon to @cure poison ivy and @heal paper cuts!\"",
+   "zh": "「然而吾卻三天兩頭被叫去@cure（治毒）藤皮疹或@heal（醫紙）割傷！」",
+   "note": ""
+  },
+  {
+   "offset": 600,
+   "len": 31,
+   "en": "\"I grow weary of such trifles!\"",
+   "zh": "「吾已厭倦這等瑣事！」",
+   "note": ""
+  },
+  {
+   "offset": 644,
+   "len": 22,
+   "en": "\"Stay out of trouble!\"",
+   "zh": "「切勿惹禍上身！」",
+   "note": ""
+  },
+  {
+   "offset": 669,
+   "len": 49,
+   "en": "\"I don't want to see my fine workmanship wasted!\"",
+   "zh": "「吾不希望看到吾的精湛醫術付諸流水！」",
+   "note": ""
+  },
+  {
+   "offset": 725,
+   "len": 31,
+   "en": "\"Well, what can I do for thee?\"",
+   "zh": "「好，吾能為汝效何勞？」",
+   "note": ""
+  },
+  {
+   "offset": 764,
+   "len": 47,
+   "en": "\"Come, come, get to the point. I'm a busy man!\"",
+   "zh": "「快說，直說重點。吾是大忙人！」",
+   "note": ""
+  },
+  {
+   "offset": 872,
+   "len": 60,
+   "en": "\"I can do nothing for those scars. Still, they look healed.\"",
+   "zh": "「吾對那些傷疤無能為力。不過，看起來已痊癒了。」",
+   "note": ""
+  },
+  {
+   "offset": 1055,
+   "len": 52,
+   "en": "\"Why do you waste my time? None of you are wounded!\"",
+   "zh": "「為何浪費吾的時間？汝等無人受傷！」",
+   "note": ""
+  },
+  {
+   "offset": 1144,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝等哪一位？」",
+   "note": ""
+  },
+  {
+   "offset": 1256,
+   "len": 38,
+   "en": "\"$Y, your injury is most interesting!\"",
+   "zh": "「$Y，汝的傷甚是有趣！」",
+   "note": ""
+  },
+  {
+   "offset": 1295,
+   "len": 48,
+   "en": "\"Ah! $Y, you have an injury worthy of my skill!\"",
+   "zh": "「啊！$Y，汝這傷勢方才配得上吾的醫術！」",
+   "note": ""
+  },
+  {
+   "offset": 1347,
+   "len": 59,
+   "en": "\"It will cost you 30 gold for me to heal you, interested?\" ",
+   "zh": "「吾為汝療傷需 30 枚金幣，汝有意嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1428,
+   "len": 47,
+   "en": "Laying hands upon $Y, Dargoth mends the wounds.",
+   "zh": "達高斯按手於 $Y 身上，為其療癒傷口。",
+   "note": ""
+  },
+  {
+   "offset": 1501,
+   "len": 32,
+   "en": "\"I need to be paid to heal you.\"",
+   "zh": "「吾需先收費，方能為汝療傷。」",
+   "note": ""
+  },
+  {
+   "offset": 1542,
+   "len": 24,
+   "en": "\"What else do you need?\"",
+   "zh": "「汝還需要什麼？」",
+   "note": ""
+  },
+  {
+   "offset": 1626,
+   "len": 47,
+   "en": "\"You don't look good, but you're not poisoned.\"",
+   "zh": "「汝看起來氣色不佳，但並未中毒。」",
+   "note": ""
+  },
+  {
+   "offset": 1796,
+   "len": 53,
+   "en": "\"Why do you waste my time? None of you are poisoned!\"",
+   "zh": "「為何浪費吾的時間？汝等無人中毒！」",
+   "note": ""
+  },
+  {
+   "offset": 1886,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝等哪一位？」",
+   "note": ""
+  },
+  {
+   "offset": 1998,
+   "len": 71,
+   "en": "\"Fascinating, $Y! I have read about such poison only in ancient books!\"",
+   "zh": "「妙極，$Y！吾僅在古籍中讀過此種毒素！」",
+   "note": ""
+  },
+  {
+   "offset": 2070,
+   "len": 72,
+   "en": "\"I haven't gotten many cases like this since they invented swamp boots.\"",
+   "zh": "「自從沼澤靴問世以來，吾已許久未見此類案例了。」",
+   "note": "避 5C：許久 OK (許 Big5=A7 D7, 汝=A6 汝，許 trail=D7 not 5C)"
+  },
+  {
+   "offset": 2146,
+   "len": 46,
+   "en": "\"It'll cost 10 gold to cure you, interested?\" ",
+   "zh": "「為汝解毒需 10 枚金幣，汝有意嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 2214,
+   "len": 49,
+   "en": "Laying hands upon $Y, Dargoth removes the poison.",
+   "zh": "達高斯按手於 $Y 身上，為其驅除毒素。",
+   "note": ""
+  },
+  {
+   "offset": 2289,
+   "len": 37,
+   "en": "\"If you can't pay, I can't cure you.\"",
+   "zh": "「汝若付不起，吾便無法為汝解毒。」",
+   "note": ""
+  },
+  {
+   "offset": 2336,
+   "len": 67,
+   "en": "\"Oh.\" Seeing the dead body that $Y carries, he becomes more polite.",
+   "zh": "「哦。」見 $Y 所攜之遺體，他的態度頓時變得客氣了許多。",
+   "note": ""
+  },
+  {
+   "offset": 2406,
+   "len": 38,
+   "en": "\"I am sorry you've lost a compatriot.\"",
+   "zh": "「吾為汝失去一位同伴而感到遺憾。」",
+   "note": ""
+  },
+  {
+   "offset": 2447,
+   "len": 55,
+   "en": "\"For 400 gold I can attempt resurrection, interested?\" ",
+   "zh": "「吾可嘗試施行復活術，需 400 枚金幣，汝有意嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 2534,
+   "len": 69,
+   "en": "\"Resurrection is a difficult task. I'm sorry, but I need to be paid.\"",
+   "zh": "「復活術難度極高。抱歉，吾必須先收費。」",
+   "note": ""
+  },
+  {
+   "offset": 2645,
+   "len": 26,
+   "en": "\"That ain't enough money.\"",
+   "zh": "「這金幣不夠多。」",
+   "note": "colloquial 'ain't' rendered without slang equivalent"
+  },
+  {
+   "offset": 2674,
+   "len": 32,
+   "en": "\"You are #1 gold piece\\s short.\"",
+   "zh": "「汝短少 #1 枚金幣。」",
+   "note": "\\s plural marker preserved in en; zh singular OK"
+  },
+  {
+   "offset": 2709,
+   "len": 58,
+   "en": "\"Go see a gravedigger. I'll reckon his price'll be lower.\"",
+   "zh": "「去找掘墓人吧。吾估計他的收費更便宜。」",
+   "note": ""
+  },
+  {
+   "offset": 2829,
+   "len": 58,
+   "en": "Your party takes up a collection for their fallen comrade.",
+   "zh": "汝的隊伍為倒下的同伴募集金幣。",
+   "note": "action"
+  },
+  {
+   "offset": 3008,
+   "len": 37,
+   "en": "Dargoth lays hands upon the corpse...",
+   "zh": "達高斯將手按在遺體上……",
+   "note": "action"
+  },
+  {
+   "offset": 3048,
+   "len": 10,
+   "en": "\"Doman...\"",
+   "zh": "「多曼……」",
+   "note": "incantation"
+  },
+  {
+   "offset": 3061,
+   "len": 11,
+   "en": "\"thixus...\"",
+   "zh": "「提薩斯……」",
+   "note": "incantation"
+  },
+  {
+   "offset": 3075,
+   "len": 9,
+   "en": "\"anretu!\"",
+   "zh": "「安瑞圖！」",
+   "note": "incantation final word"
+  },
+  {
+   "offset": 3091,
+   "len": 24,
+   "en": "And the dead live again!",
+   "zh": "死者復生！",
+   "note": "action"
+  },
+  {
+   "offset": 3141,
+   "len": 45,
+   "en": "\"I see that $Y carries another slain friend.\"",
+   "zh": "「吾見 $Y 又帶來了另一位陣亡的友人。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Dargoth": "達高斯"
+  },
+  "places": {},
+  "concepts": {
+   "resurrection": "復活術"
+  }
+ },
+ "translator_notes": "達高斯是位技術高超卻脾氣不好的醫者，語氣直接、帶點輕蔑但有職業自尊。復活術咒語（Doman/thixus/anretu）依發音音譯。"
 }

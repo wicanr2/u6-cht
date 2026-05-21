@@ -1,56 +1,296 @@
 {
  "translations": [
-  {"offset": 1, "len": 7, "en": "qLeodon", "zh": "黎奧頓"},
-  {"offset": 9, "len": 57, "en": "a woman with a slightly seaworn look, but delicate hands.", "zh": "一名略帶海風蝕痕、雙手卻仍纖細的女子。"},
-  {"offset": 74, "len": 10, "en": "\"Yes, $P?\"", "zh": "「何事，$P？」"},
-  {"offset": 97, "len": 45, "en": "\"Not now, $G!\" She ducks a punch. \"I'm busy!\"", "zh": "「現下不行，$G！」她閃過一拳。「我正忙！」"},
-  {"offset": 145, "len": 67, "en": "\"A good $T to you, $G. Come, have a seat and talk with us a while.\"", "zh": "「$G，$T 安。來，坐下與我等敘敘。」"},
-  {"offset": 220, "len": 22, "en": "\"I'm @Captain Leodon.\"", "zh": "「我乃@黎奧頓船長。」"},
-  {"offset": 258, "len": 35, "en": "\"I'm captain of the @Golden @Hind.\"", "zh": "「我為@金鹿@號之船長。」"},
-  {"offset": 295, "len": 85, "en": "\"She's the finest ship I've ever had the pleasure of @sailing 'cross the briny deep.\"", "zh": "「她乃我此生@航行於茫茫鹹海之上、所遇最佳之船。」"},
-  {"offset": 426, "len": 43, "en": "\"Life on the @sea is the only life for me.\"", "zh": "「@海上生涯乃我唯一所歸之命途。」"},
-  {"offset": 472, "len": 49, "en": "\"Alas, the Hind needs serious @repairs just now.\"", "zh": "「惜哉，金鹿號目下急需@修繕。」"},
-  {"offset": 542, "len": 53, "en": "\"Yes, I must keep myself occupied on land, meantime.\"", "zh": "「是的，這期間我須在陸上找事消遣。」"},
-  {"offset": 609, "len": 45, "en": "\"Perhaps I could @join thy party for a time.\"", "zh": "「或我可暫@入伙與汝同行一陣。」"},
-  {"offset": 706, "len": 50, "en": "\"Ah, the sea. 'Tis as vast as a thousand @dreams.\"", "zh": "「啊，那片海。猶千百@夢境之浩瀚。」"},
-  {"offset": 777, "len": 9, "en": "\"Indeed.\"", "zh": "「正是。」"},
-  {"offset": 802, "len": 57, "en": "\"You wouldn't be talking about Captain @John, would you?\"", "zh": "「汝所提者，莫非是@約翰船長？」"},
-  {"offset": 888, "len": 57, "en": "\"You wouldn't be talking about Captain @John, would you?\"", "zh": "「汝所提者，莫非是@約翰船長？」"},
-  {"offset": 951, "len": 77, "en": "When you say 'Captain,' all the pirates at the table turn to you expectantly.", "zh": "汝一說「船長」，桌邊海盜眾人皆殷殷望汝。"},
-  {"offset": 1031, "len": 77, "en": "When they realize you weren't talking to them, they return to their business.", "zh": "見汝並非與彼等交談，眾人重又各做各事。"},
-  {"offset": 1119, "len": 51, "en": "\"Aye, Leonna is the best first mate I've ever had.\"", "zh": "「嗯，里歐娜乃我所遇最佳之大副。」"},
-  {"offset": 1182, "len": 42, "en": "Leonna blushes and looks away, embarassed.", "zh": "里歐娜面赧，難為情地別過頭去。"},
-  {"offset": 1232, "len": 52, "en": "\"Comes from being a captain once herself, you know.\"", "zh": "「畢竟她自己也曾為船長一名。」"},
-  {"offset": 1295, "len": 17, "en": "\"That scallawag?\"", "zh": "「那個無賴？」"},
-  {"offset": 1314, "len": 98, "en": "\"He went down to the other side of the world to join up with the @gargoyles, the dirty traitor...\"", "zh": "「他竟去了世界另一端，投靠@魔像族，這骯髒的叛徒……」"},
-  {"offset": 1423, "len": 62, "en": "The tea-drinker interrupts. \"No, no, you've got it all wrong!\"", "zh": "啜茶之人打斷：「不，不，汝全弄錯了！」"},
-  {"offset": 1488, "len": 46, "en": "\"I can tell you the truth about Captain John!\"", "zh": "「我可告知汝關於約翰船長之真相！」"},
-  {"offset": 1551, "len": 27, "en": "\"Vile creatures, they are.\"", "zh": "「卑劣之種，正是。」"},
-  {"offset": 1581, "len": 91, "en": "\"One of them attacked  my ship once. He flew off with a @ham before anyone could stop him.\"", "zh": "「曾有一隻襲我之船，未及阻攔便銜走一隻@火腿飛去。」"},
-  {"offset": 1692, "len": 60, "en": "\"Yes, he stole my ham, and I dined on @biscuits that night.\"", "zh": "「正是，他偷了我的火腿，當晚我只得啃@餅乾果腹。」"},
-  {"offset": 1768, "len": 15, "en": "\"That's right.\"", "zh": "「正是如此。」"},
-  {"offset": 1798, "len": 27, "en": "\"Back to our quest, eh $G?\"", "zh": "「回去辦正事吧，$G？」"},
-  {"offset": 1828, "len": 41, "en": "\"Drop by again next time you're in town.\"", "zh": "「下次來城時再順道一訪。」"},
-  {"offset": 1874, "len": 29, "en": "\"I can't help you with that.\"", "zh": "「此事我幫不上忙。」"},
-  {"offset": 1914, "len": 46, "en": "\"I'd be glad to join you--but I have already!\"", "zh": "「我自當樂意入伙——但我已在汝隊中啦！」"},
-  {"offset": 1966, "len": 63, "en": "\"The Golden Hind won't be repaired for months, at the soonest.\"", "zh": "「金鹿號最快也得數月方能修妥。」"},
-  {"offset": 2032, "len": 52, "en": "\"Traveling with you would likely prove interesting.\"", "zh": "「與汝同行，料是頗有意思。」"},
-  {"offset": 2087, "len": 35, "en": "\"Would you like me to come along?\" ", "zh": "「汝願讓我同行嗎？」"},
-  {"offset": 2128, "len": 45, "en": "\"Okay. I'll be here if you change your mind.\"", "zh": "「好。汝若改主意，我仍在此處。」"},
-  {"offset": 2197, "len": 33, "en": "\"Not while you're in that thing!\"", "zh": "「汝乘那玩意兒可不行！」"},
-  {"offset": 2243, "len": 46, "en": "\"You have enough travelling with you already.\"", "zh": "「汝隨行之人已夠多了。」"},
-  {"offset": 2292, "len": 71, "en": "\"But if you ask one of them to @leave first, I'd be happy to join you.\"", "zh": "「但汝若先請其中一人@離隊，我便樂意入伙。」"},
-  {"offset": 2382, "len": 66, "en": "\"Very well. This should make a nice change from my usual routine.\"", "zh": "「甚好。此可讓我換換口味。」"},
-  {"offset": 2459, "len": 61, "en": "\"You might ask @Leonna if she would like to join us as well.\"", "zh": "「汝可順問@里歐娜願否同行。」"},
-  {"offset": 2531, "len": 52, "en": "\"I'd have to @join you before I could leave, silly!\"", "zh": "「我得先@入伙才能離隊，傻孩子！」"},
-  {"offset": 2604, "len": 54, "en": "\"Let's get our feet back on solid ground first, okay?\"", "zh": "「先讓我等腳踏實地再說，可好？」"},
-  {"offset": 2677, "len": 58, "en": "\"Okay. I think I'll head back to the Fallen Virgin, then.\"", "zh": "「那好，我便回墜貞酒館去吧。」", "note": "Fallen Virgin = 酒館名"},
-  {"offset": 2738, "len": 58, "en": "\"Here's all the equipment I was carrying, if you need it.\"", "zh": "「這是我隨身全部裝備，汝若需用便拿去。」"}
+  {
+   "offset": 1,
+   "len": 7,
+   "en": "qLeodon",
+   "zh": "黎奧頓"
+  },
+  {
+   "offset": 9,
+   "len": 57,
+   "en": "a woman with a slightly seaworn look, but delicate hands.",
+   "zh": "一名略帶海風蝕痕、雙手卻仍纖細的女子。"
+  },
+  {
+   "offset": 74,
+   "len": 10,
+   "en": "\"Yes, $P?\"",
+   "zh": "「何事，$P？」"
+  },
+  {
+   "offset": 97,
+   "len": 45,
+   "en": "\"Not now, $G!\" She ducks a punch. \"I'm busy!\"",
+   "zh": "「現下不行，$G！」她閃過一拳。「我正忙！」"
+  },
+  {
+   "offset": 145,
+   "len": 67,
+   "en": "\"A good $T to you, $G. Come, have a seat and talk with us a while.\"",
+   "zh": "「$G，$T 安。來，坐下與我等敘敘。」"
+  },
+  {
+   "offset": 220,
+   "len": 22,
+   "en": "\"I'm @Captain Leodon.\"",
+   "zh": "「我乃@Captain（黎奧）頓船長。」"
+  },
+  {
+   "offset": 258,
+   "len": 35,
+   "en": "\"I'm captain of the @Golden @Hind.\"",
+   "zh": "「我為@Golden（金鹿）@Hind（號）之船長。」"
+  },
+  {
+   "offset": 295,
+   "len": 85,
+   "en": "\"She's the finest ship I've ever had the pleasure of @sailing 'cross the briny deep.\"",
+   "zh": "「她乃我此生@sailing（航行）於茫茫鹹海之上、所遇最佳之船。」"
+  },
+  {
+   "offset": 426,
+   "len": 43,
+   "en": "\"Life on the @sea is the only life for me.\"",
+   "zh": "「@sea（海）上生涯乃我唯一所歸之命途。」"
+  },
+  {
+   "offset": 472,
+   "len": 49,
+   "en": "\"Alas, the Hind needs serious @repairs just now.\"",
+   "zh": "「惜哉，金鹿號目下急需@repairs（修繕）。」"
+  },
+  {
+   "offset": 542,
+   "len": 53,
+   "en": "\"Yes, I must keep myself occupied on land, meantime.\"",
+   "zh": "「是的，這期間我須在陸上找事消遣。」"
+  },
+  {
+   "offset": 609,
+   "len": 45,
+   "en": "\"Perhaps I could @join thy party for a time.\"",
+   "zh": "「或我可暫@join（入伙）與汝同行一陣。」"
+  },
+  {
+   "offset": 706,
+   "len": 50,
+   "en": "\"Ah, the sea. 'Tis as vast as a thousand @dreams.\"",
+   "zh": "「啊，那片海。猶千百@dreams（夢境）之浩瀚。」"
+  },
+  {
+   "offset": 777,
+   "len": 9,
+   "en": "\"Indeed.\"",
+   "zh": "「正是。」"
+  },
+  {
+   "offset": 802,
+   "len": 57,
+   "en": "\"You wouldn't be talking about Captain @John, would you?\"",
+   "zh": "「汝所提者，莫非是@John（約翰）船長？」"
+  },
+  {
+   "offset": 888,
+   "len": 57,
+   "en": "\"You wouldn't be talking about Captain @John, would you?\"",
+   "zh": "「汝所提者，莫非是@John（約翰）船長？」"
+  },
+  {
+   "offset": 951,
+   "len": 77,
+   "en": "When you say 'Captain,' all the pirates at the table turn to you expectantly.",
+   "zh": "汝一說「船長」，桌邊海盜眾人皆殷殷望汝。"
+  },
+  {
+   "offset": 1031,
+   "len": 77,
+   "en": "When they realize you weren't talking to them, they return to their business.",
+   "zh": "見汝並非與彼等交談，眾人重又各做各事。"
+  },
+  {
+   "offset": 1119,
+   "len": 51,
+   "en": "\"Aye, Leonna is the best first mate I've ever had.\"",
+   "zh": "「嗯，里歐娜乃我所遇最佳之大副。」"
+  },
+  {
+   "offset": 1182,
+   "len": 42,
+   "en": "Leonna blushes and looks away, embarassed.",
+   "zh": "里歐娜面赧，難為情地別過頭去。"
+  },
+  {
+   "offset": 1232,
+   "len": 52,
+   "en": "\"Comes from being a captain once herself, you know.\"",
+   "zh": "「畢竟她自己也曾為船長一名。」"
+  },
+  {
+   "offset": 1295,
+   "len": 17,
+   "en": "\"That scallawag?\"",
+   "zh": "「那個無賴？」"
+  },
+  {
+   "offset": 1314,
+   "len": 98,
+   "en": "\"He went down to the other side of the world to join up with the @gargoyles, the dirty traitor...\"",
+   "zh": "「他竟去了世界另一端，投靠@gargoyles（魔像）族，這骯髒的叛徒……」"
+  },
+  {
+   "offset": 1423,
+   "len": 62,
+   "en": "The tea-drinker interrupts. \"No, no, you've got it all wrong!\"",
+   "zh": "啜茶之人打斷：「不，不，汝全弄錯了！」"
+  },
+  {
+   "offset": 1488,
+   "len": 46,
+   "en": "\"I can tell you the truth about Captain John!\"",
+   "zh": "「我可告知汝關於約翰船長之真相！」"
+  },
+  {
+   "offset": 1551,
+   "len": 27,
+   "en": "\"Vile creatures, they are.\"",
+   "zh": "「卑劣之種，正是。」"
+  },
+  {
+   "offset": 1581,
+   "len": 91,
+   "en": "\"One of them attacked  my ship once. He flew off with a @ham before anyone could stop him.\"",
+   "zh": "「曾有一隻襲我之船，未及阻攔便銜走一隻@ham（火腿）飛去。」"
+  },
+  {
+   "offset": 1692,
+   "len": 60,
+   "en": "\"Yes, he stole my ham, and I dined on @biscuits that night.\"",
+   "zh": "「正是，他偷了我的火腿，當晚我只得啃@biscuits（餅乾）果腹。」"
+  },
+  {
+   "offset": 1768,
+   "len": 15,
+   "en": "\"That's right.\"",
+   "zh": "「正是如此。」"
+  },
+  {
+   "offset": 1798,
+   "len": 27,
+   "en": "\"Back to our quest, eh $G?\"",
+   "zh": "「回去辦正事吧，$G？」"
+  },
+  {
+   "offset": 1828,
+   "len": 41,
+   "en": "\"Drop by again next time you're in town.\"",
+   "zh": "「下次來城時再順道一訪。」"
+  },
+  {
+   "offset": 1874,
+   "len": 29,
+   "en": "\"I can't help you with that.\"",
+   "zh": "「此事我幫不上忙。」"
+  },
+  {
+   "offset": 1914,
+   "len": 46,
+   "en": "\"I'd be glad to join you--but I have already!\"",
+   "zh": "「我自當樂意入伙——但我已在汝隊中啦！」"
+  },
+  {
+   "offset": 1966,
+   "len": 63,
+   "en": "\"The Golden Hind won't be repaired for months, at the soonest.\"",
+   "zh": "「金鹿號最快也得數月方能修妥。」"
+  },
+  {
+   "offset": 2032,
+   "len": 52,
+   "en": "\"Traveling with you would likely prove interesting.\"",
+   "zh": "「與汝同行，料是頗有意思。」"
+  },
+  {
+   "offset": 2087,
+   "len": 35,
+   "en": "\"Would you like me to come along?\" ",
+   "zh": "「汝願讓我同行嗎？」"
+  },
+  {
+   "offset": 2128,
+   "len": 45,
+   "en": "\"Okay. I'll be here if you change your mind.\"",
+   "zh": "「好。汝若改主意，我仍在此處。」"
+  },
+  {
+   "offset": 2197,
+   "len": 33,
+   "en": "\"Not while you're in that thing!\"",
+   "zh": "「汝乘那玩意兒可不行！」"
+  },
+  {
+   "offset": 2243,
+   "len": 46,
+   "en": "\"You have enough travelling with you already.\"",
+   "zh": "「汝隨行之人已夠多了。」"
+  },
+  {
+   "offset": 2292,
+   "len": 71,
+   "en": "\"But if you ask one of them to @leave first, I'd be happy to join you.\"",
+   "zh": "「但汝若先請其中一人@leave（離隊），我便樂意入伙。」"
+  },
+  {
+   "offset": 2382,
+   "len": 66,
+   "en": "\"Very well. This should make a nice change from my usual routine.\"",
+   "zh": "「甚好。此可讓我換換口味。」"
+  },
+  {
+   "offset": 2459,
+   "len": 61,
+   "en": "\"You might ask @Leonna if she would like to join us as well.\"",
+   "zh": "「汝可順問@Leonna（里歐）娜願否同行。」"
+  },
+  {
+   "offset": 2531,
+   "len": 52,
+   "en": "\"I'd have to @join you before I could leave, silly!\"",
+   "zh": "「我得先@join（入伙）才能離隊，傻孩子！」"
+  },
+  {
+   "offset": 2604,
+   "len": 54,
+   "en": "\"Let's get our feet back on solid ground first, okay?\"",
+   "zh": "「先讓我等腳踏實地再說，可好？」"
+  },
+  {
+   "offset": 2677,
+   "len": 58,
+   "en": "\"Okay. I think I'll head back to the Fallen Virgin, then.\"",
+   "zh": "「那好，我便回墜貞酒館去吧。」",
+   "note": "Fallen Virgin = 酒館名"
+  },
+  {
+   "offset": 2738,
+   "len": 58,
+   "en": "\"Here's all the equipment I was carrying, if you need it.\"",
+   "zh": "「這是我隨身全部裝備，汝若需用便拿去。」"
+  }
  ],
  "glossary_additions": {
-  "people": {"Leodon": "黎奧頓", "Captain Leodon": "黎奧頓船長", "Leonna": "里歐娜", "Captain John": "約翰船長"},
-  "places": {"the Fallen Virgin": "墜貞酒館"},
-  "concepts": {"Golden Hind": "金鹿號"}
+  "people": {
+   "Leodon": "黎奧頓",
+   "Captain Leodon": "黎奧頓船長",
+   "Leonna": "里歐娜",
+   "Captain John": "約翰船長"
+  },
+  "places": {
+   "the Fallen Virgin": "墜貞酒館"
+  },
+  "concepts": {
+   "Golden Hind": "金鹿號"
+  }
  },
  "translator_notes": "Leodon = 海盜船船長（女），可加入隊伍。Golden Hind 沿用 Drake 經典船名譯。Fallen Virgin 是 Buc's Den 酒館。"
 }

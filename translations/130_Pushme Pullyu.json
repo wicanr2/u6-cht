@@ -25,7 +25,7 @@
    "offset": 141,
    "len": 33,
    "en": "\"Come hear our @puzzle anywhere!\"",
-   "zh": "「來吧，無論在哪兒都可聆聽我們的@謎題！」",
+   "zh": "「來吧，無論在哪兒都可聆聽我們的@puzzle（謎題）！」",
    "note": ""
   },
   {
@@ -39,70 +39,70 @@
    "offset": 268,
    "len": 88,
    "en": "\"That my partner and I are the @Pushme @Pullyu, and speaking in @riddles is what we do.\"",
-   "zh": "「我與同伴乃是@推牠@拉牠，以@謎語說話乃吾等之道。」",
+   "zh": "「我與同伴乃是@Pushme（推牠）@Pullyu（拉牠），以@riddles（謎語）說話乃吾等之道。」",
    "note": ""
   },
   {
    "offset": 373,
    "len": 91,
    "en": "\"But which is @Pullyu, and which is @Pushme? If you'd asked yesterday, I'd have told thee!\"",
-   "zh": "「但哪個是@拉牠，哪個是@推牠？若昨日相問，我本會告訴汝！」",
+   "zh": "「但哪個是@Pullyu（拉牠），哪個是@Pushme（推牠）？若昨日相問，我本會告訴汝！」",
    "note": ""
   },
   {
    "offset": 495,
    "len": 84,
    "en": "\"If you asked my partner, thinking him wise, he'd tell you the Pushme always @lies!\"",
-   "zh": "「若汝去問我的同伴，以為他聰明，他會告訴汝推牠總是說@謊！」",
+   "zh": "「若汝去問我的同伴，以為他聰明，他會告訴汝推牠總是說@lies（謊）！」",
    "note": ""
   },
   {
    "offset": 604,
    "len": 83,
    "en": "\"If you asked my partner, then forsooth, he'd say the Pullyu always speaks @truth!\"",
-   "zh": "「若汝去問我的同伴，確實，他會說拉牠說的總是@真話！」",
+   "zh": "「若汝去問我的同伴，確實，他會說拉牠說的總是@truth（真話）！」",
    "note": ""
   },
   {
    "offset": 719,
    "len": 68,
    "en": "\"My partner lies, and that is true. It is because he's the @Pullyu!\"",
-   "zh": "「我的同伴說謊，此為真言。因為他是@拉牠！」",
+   "zh": "「我的同伴說謊，此為真言。因為他是@Pullyu（拉牠）！」",
    "note": ""
   },
   {
    "offset": 811,
    "len": 70,
    "en": "\"I'll always tell the truth to thee. That's because I am the @Pushme!\"",
-   "zh": "「吾對汝永遠說真話。那是因為吾是@推牠！」",
+   "zh": "「吾對汝永遠說真話。那是因為吾是@Pushme（推牠）！」",
    "note": ""
   },
   {
    "offset": 905,
    "len": 72,
    "en": "\"If my partner said you should go @west, then he would be a lying pest!\"",
-   "zh": "「若我的同伴說汝該往@西走，那他就是個說謊的討厭鬼！」",
+   "zh": "「若我的同伴說汝該往@west（西走），那他就是個說謊的討厭鬼！」",
    "note": ""
   },
   {
    "offset": 984,
    "len": 73,
    "en": "\"If my partner said you should go @east, then he would be a lying beast!\"",
-   "zh": "「若我的同伴說汝該往@東走，那他就是個說謊的畜生！」",
+   "zh": "「若我的同伴說汝該往@east（東走），那他就是個說謊的畜生！」",
    "note": ""
   },
   {
    "offset": 1064,
    "len": 80,
    "en": "\"If my partner said 'Go @east.' to you, then he'd have said that which is true.\"",
-   "zh": "「若我的同伴對汝說『往@東走』，那他說的便是真話。」",
+   "zh": "「若我的同伴對汝說『往@east（東走）』，那他說的便是真話。」",
    "note": ""
   },
   {
    "offset": 1151,
    "len": 75,
    "en": "\"If my partner said to you 'Go @west.', then his advice would be the best.\"",
-   "zh": "「若我的同伴對汝說『往@西走』，那他的忠告才是最佳之策。」",
+   "zh": "「若我的同伴對汝說『往@west（西走）』，那他的忠告才是最佳之策。」",
    "note": ""
   },
   {
@@ -172,7 +172,7 @@
    "offset": 1807,
    "len": 33,
    "en": "\"Is that a @lie, or is it @true?\"",
-   "zh": "「那是@謊言，還是@真話？」",
+   "zh": "「那是@lie（謊言），還是@true（真話）？」",
    "note": ""
   },
   {
@@ -183,6 +183,11 @@
    "note": ""
   }
  ],
- "glossary_additions": {"people": {"Pushme Pullyu": "推牠-拉牠"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Pushme Pullyu": "推牠-拉牠"
+  },
+  "places": {}
+ },
  "translator_notes": "推牠-拉牠雙頭獸說話充滿悖論謎語。謹慎處理時態、謊言/真話邏輯。童謠典故（三隻盲鼠）保留趣味感。"
 }

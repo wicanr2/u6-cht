@@ -1,327 +1,327 @@
 {
-  "translations": [
-    {
-      "offset": 8,
-      "len": 12,
-      "en": "a young lad.",
-      "zh": "一個年輕的少年。",
-      "note": "DESC"
-    },
-    {
-      "offset": 31,
-      "len": 23,
-      "en": "\"A good $T to you, $G.\"",
-      "zh": "「$G，$T好。」",
-      "note": ""
-    },
-    {
-      "offset": 63,
-      "len": 34,
-      "en": "\"Is there more I can do for thee?\"",
-      "zh": "「還有什麼吾能為汝效勞的嗎？」",
-      "note": ""
-    },
-    {
-      "offset": 98,
-      "len": 25,
-      "en": "\"What can I do for thee?\"",
-      "zh": "「吾能為汝做什麼？」",
-      "note": ""
-    },
-    {
-      "offset": 130,
-      "len": 30,
-      "en": "\"What else can I do for thee?\"",
-      "zh": "「還有什麼吾能為汝做的？」",
-      "note": ""
-    },
-    {
-      "offset": 168,
-      "len": 23,
-      "en": "\"Be more specific, $G.\"",
-      "zh": "「請說得更具體些，$G。」",
-      "note": ""
-    },
-    {
-      "offset": 194,
-      "len": 40,
-      "en": "\"Me master 'as quite a large inventory.\"",
-      "zh": "「俺主人的存貨相當豐富。」",
-      "note": "cockney/working class; 'me' for 'my'"
-    },
-    {
-      "offset": 237,
-      "len": 33,
-      "en": "\"Dost thou want @arms or @armor?\"",
-      "zh": "「汝要@武器還是@護甲？」",
-      "note": ""
-    },
-    {
-      "offset": 288,
-      "len": 33,
-      "en": "\"Come to me shop when it's open!\"",
-      "zh": "「俺店開門時來光顧！」",
-      "note": ""
-    },
-    {
-      "offset": 353,
-      "len": 33,
-      "en": "\"Come to me shop when it's open!\"",
-      "zh": "「俺店開門時來光顧！」",
-      "note": ""
-    },
-    {
-      "offset": 418,
-      "len": 33,
-      "en": "\"Come to me shop when it's open!\"",
-      "zh": "「俺店開門時來光顧！」",
-      "note": ""
-    },
-    {
-      "offset": 468,
-      "len": 85,
-      "en": "\"I'm just the @apprentice, but if you want to @buy or @sell somethin' I can help ya.\"",
-      "zh": "「俺只是個@學徒，但若汝想@買或@賣什麼，俺可以幫汝。」",
-      "note": ""
-    },
-    {
-      "offset": 564,
-      "len": 44,
-      "en": "\"Me master went off to fight the gargoyles.\"",
-      "zh": "「俺主人去對抗魔像族了。」",
-      "note": ""
-    },
-    {
-      "offset": 611,
-      "len": 33,
-      "en": "\"'E ain't been 'eard from since.\"",
-      "zh": "「打那以後就沒了他的消息。」",
-      "note": "h-dropping speech"
-    },
-    {
-      "offset": 647,
-      "len": 47,
-      "en": "\"I'm just mindin' the place 'til 'e gets back.\"",
-      "zh": "「俺只是在看守店舖，等他回來。」",
-      "note": ""
-    },
-    {
-      "offset": 705,
-      "len": 22,
-      "en": "\"Me name's James, $G.\"",
-      "zh": "「俺叫詹姆士，$G。」",
-      "note": ""
-    },
-    {
-      "offset": 743,
-      "len": 46,
-      "en": "\"Good $T to ya, and I 'ope ye come back soon!\"",
-      "zh": "「祝汝$T好，希望汝快快再來！」",
-      "note": "bye"
-    },
-    {
-      "offset": 794,
-      "len": 17,
-      "en": "\"Beg pardon, $G?\"",
-      "zh": "「$G，請問汝說什麼？」",
-      "note": ""
-    },
-    {
-      "offset": 955,
-      "len": 41,
-      "en": "\"Sorry, none of you has anything I need.\"",
-      "zh": "「抱歉，汝等無人有俺需要的東西。」",
-      "note": ""
-    },
-    {
-      "offset": 1031,
-      "len": 38,
-      "en": "\"Aye, $Y has something of interest...\"",
-      "zh": "「嗯，$Y 有俺感興趣的東西……」",
-      "note": ""
-    },
-    {
-      "offset": 1131,
-      "len": 16,
-      "en": "\"Which of you?\" ",
-      "zh": "「汝等哪一位？」",
-      "note": ""
-    },
-    {
-      "offset": 1368,
-      "len": 14,
-      "en": "\"Which item?\" ",
-      "zh": "「哪件物品？」",
-      "note": ""
-    },
-    {
-      "offset": 1460,
-      "len": 41,
-      "en": "\"Will you take #7 gold for that $0, $Y?\" ",
-      "zh": "「$Y，汝願意以 #7 枚金幣賣那件 $0 嗎？」",
-      "note": ""
-    },
-    {
-      "offset": 1514,
-      "len": 32,
-      "en": "\"Perhaps some other time, then.\"",
-      "zh": "「那或許改天再說。」",
-      "note": ""
-    },
-    {
-      "offset": 1554,
-      "len": 30,
-      "en": "\"Perhaps something else then?\"",
-      "zh": "「那有其他東西嗎？」",
-      "note": ""
-    },
-    {
-      "offset": 1600,
-      "len": 52,
-      "en": "\"Done!\" $N hands $Y #7 gold pieces and takes the $0.",
-      "zh": "「成交！」$N 給 $Y #7 枚金幣，取走 $0。",
-      "note": ""
-    },
-    {
-      "offset": 1708,
-      "len": 24,
-      "en": "\"Changed your mind, eh?\"",
-      "zh": "「改主意了，嗯？」",
-      "note": ""
-    },
-    {
-      "offset": 1820,
-      "len": 16,
-      "en": "\"Which of you?\" ",
-      "zh": "「汝等哪一位？」",
-      "note": ""
-    },
-    {
-      "offset": 1986,
-      "len": 14,
-      "en": "\"Which item?\" ",
-      "zh": "「哪件物品？」",
-      "note": ""
-    },
-    {
-      "offset": 2068,
-      "len": 24,
-      "en": "\"That $1 costs #1 gold.\"",
-      "zh": "「$1 售價 #1 枚金幣。」",
-      "note": ""
-    },
-    {
-      "offset": 2095,
-      "len": 18,
-      "en": "\"Interested, $Y?\" ",
-      "zh": "「有意嗎，$Y？」",
-      "note": ""
-    },
-    {
-      "offset": 2156,
-      "len": 41,
-      "en": "\"But 'twould make thee o'erburdened, $Y!\"",
-      "zh": "「但那會讓汝行李過重，$Y！」",
-      "note": ""
-    },
-    {
-      "offset": 2247,
-      "len": 12,
-      "en": "\"Excellent!\"",
-      "zh": "「甚好！」",
-      "note": ""
-    },
-    {
-      "offset": 2261,
-      "len": 48,
-      "en": "After accepting $Y's gold, $N hands over the $1.",
-      "zh": "收下 $Y 的金幣後，$N 遞出 $1。",
-      "note": ""
-    },
-    {
-      "offset": 2318,
-      "len": 36,
-      "en": "\"But thou hast not enough gold, $Y!\"",
-      "zh": "「但汝的金幣不足，$Y！」",
-      "note": ""
-    },
-    {
-      "offset": 2404,
-      "len": 6,
-      "en": "Dagger",
-      "zh": "短刃",
-      "note": "weapon"
-    },
-    {
-      "offset": 2411,
-      "len": 4,
-      "en": "Mace",
-      "zh": "鐵鎚",
-      "note": "weapon"
-    },
-    {
-      "offset": 2416,
-      "len": 11,
-      "en": "Main Gauche",
-      "zh": "格鬥短劍",
-      "note": "weapon"
-    },
-    {
-      "offset": 2428,
-      "len": 12,
-      "en": "Morning Star",
-      "zh": "晨星鐵錘",
-      "note": "weapon"
-    },
-    {
-      "offset": 2441,
-      "len": 5,
-      "en": "Sword",
-      "zh": "劍",
-      "note": "weapon"
-    },
-    {
-      "offset": 2447,
-      "len": 10,
-      "en": "Chain Coif",
-      "zh": "鎖環頭巾",
-      "note": "armor"
-    },
-    {
-      "offset": 2458,
-      "len": 10,
-      "en": "Chain Mail",
-      "zh": "鎖環甲",
-      "note": "armor"
-    },
-    {
-      "offset": 2469,
-      "len": 9,
-      "en": "Ring Mail",
-      "zh": "環形甲",
-      "note": "armor"
-    },
-    {
-      "offset": 2479,
-      "len": 10,
-      "en": "Scale Mail",
-      "zh": "鱗甲",
-      "note": "armor"
-    },
-    {
-      "offset": 2490,
-      "len": 11,
-      "en": "Winged Helm",
-      "zh": "翼盔",
-      "note": "armor"
-    }
-  ],
-  "glossary_additions": {
-    "people": {
-      "James": "詹姆士"
-    },
-    "places": {},
-    "concepts": {}
+ "translations": [
+  {
+   "offset": 8,
+   "len": 12,
+   "en": "a young lad.",
+   "zh": "一個年輕的少年。",
+   "note": "DESC"
   },
-  "translator_notes": "詹姆士是密諾克武器店的年輕學徒，說話帶勞動階層口音（俺/me master）。師父去打魔像族後便一直看守店舖。"
+  {
+   "offset": 31,
+   "len": 23,
+   "en": "\"A good $T to you, $G.\"",
+   "zh": "「$G，$T好。」",
+   "note": ""
+  },
+  {
+   "offset": 63,
+   "len": 34,
+   "en": "\"Is there more I can do for thee?\"",
+   "zh": "「還有什麼吾能為汝效勞的嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 98,
+   "len": 25,
+   "en": "\"What can I do for thee?\"",
+   "zh": "「吾能為汝做什麼？」",
+   "note": ""
+  },
+  {
+   "offset": 130,
+   "len": 30,
+   "en": "\"What else can I do for thee?\"",
+   "zh": "「還有什麼吾能為汝做的？」",
+   "note": ""
+  },
+  {
+   "offset": 168,
+   "len": 23,
+   "en": "\"Be more specific, $G.\"",
+   "zh": "「請說得更具體些，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 194,
+   "len": 40,
+   "en": "\"Me master 'as quite a large inventory.\"",
+   "zh": "「俺主人的存貨相當豐富。」",
+   "note": "cockney/working class; 'me' for 'my'"
+  },
+  {
+   "offset": 237,
+   "len": 33,
+   "en": "\"Dost thou want @arms or @armor?\"",
+   "zh": "「汝要@arms（武器）還是@armor（護甲）？」",
+   "note": ""
+  },
+  {
+   "offset": 288,
+   "len": 33,
+   "en": "\"Come to me shop when it's open!\"",
+   "zh": "「俺店開門時來光顧！」",
+   "note": ""
+  },
+  {
+   "offset": 353,
+   "len": 33,
+   "en": "\"Come to me shop when it's open!\"",
+   "zh": "「俺店開門時來光顧！」",
+   "note": ""
+  },
+  {
+   "offset": 418,
+   "len": 33,
+   "en": "\"Come to me shop when it's open!\"",
+   "zh": "「俺店開門時來光顧！」",
+   "note": ""
+  },
+  {
+   "offset": 468,
+   "len": 85,
+   "en": "\"I'm just the @apprentice, but if you want to @buy or @sell somethin' I can help ya.\"",
+   "zh": "「俺只是個@apprentice（學徒），但若汝想@buy（買）或@sell（賣）麼，俺可以幫汝。」",
+   "note": ""
+  },
+  {
+   "offset": 564,
+   "len": 44,
+   "en": "\"Me master went off to fight the gargoyles.\"",
+   "zh": "「俺主人去對抗魔像族了。」",
+   "note": ""
+  },
+  {
+   "offset": 611,
+   "len": 33,
+   "en": "\"'E ain't been 'eard from since.\"",
+   "zh": "「打那以後就沒了他的消息。」",
+   "note": "h-dropping speech"
+  },
+  {
+   "offset": 647,
+   "len": 47,
+   "en": "\"I'm just mindin' the place 'til 'e gets back.\"",
+   "zh": "「俺只是在看守店舖，等他回來。」",
+   "note": ""
+  },
+  {
+   "offset": 705,
+   "len": 22,
+   "en": "\"Me name's James, $G.\"",
+   "zh": "「俺叫詹姆士，$G。」",
+   "note": ""
+  },
+  {
+   "offset": 743,
+   "len": 46,
+   "en": "\"Good $T to ya, and I 'ope ye come back soon!\"",
+   "zh": "「祝汝$T好，希望汝快快再來！」",
+   "note": "bye"
+  },
+  {
+   "offset": 794,
+   "len": 17,
+   "en": "\"Beg pardon, $G?\"",
+   "zh": "「$G，請問汝說什麼？」",
+   "note": ""
+  },
+  {
+   "offset": 955,
+   "len": 41,
+   "en": "\"Sorry, none of you has anything I need.\"",
+   "zh": "「抱歉，汝等無人有俺需要的東西。」",
+   "note": ""
+  },
+  {
+   "offset": 1031,
+   "len": 38,
+   "en": "\"Aye, $Y has something of interest...\"",
+   "zh": "「嗯，$Y 有俺感興趣的東西……」",
+   "note": ""
+  },
+  {
+   "offset": 1131,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝等哪一位？」",
+   "note": ""
+  },
+  {
+   "offset": 1368,
+   "len": 14,
+   "en": "\"Which item?\" ",
+   "zh": "「哪件物品？」",
+   "note": ""
+  },
+  {
+   "offset": 1460,
+   "len": 41,
+   "en": "\"Will you take #7 gold for that $0, $Y?\" ",
+   "zh": "「$Y，汝願意以 #7 枚金幣賣那件 $0 嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1514,
+   "len": 32,
+   "en": "\"Perhaps some other time, then.\"",
+   "zh": "「那或許改天再說。」",
+   "note": ""
+  },
+  {
+   "offset": 1554,
+   "len": 30,
+   "en": "\"Perhaps something else then?\"",
+   "zh": "「那有其他東西嗎？」",
+   "note": ""
+  },
+  {
+   "offset": 1600,
+   "len": 52,
+   "en": "\"Done!\" $N hands $Y #7 gold pieces and takes the $0.",
+   "zh": "「成交！」$N 給 $Y #7 枚金幣，取走 $0。",
+   "note": ""
+  },
+  {
+   "offset": 1708,
+   "len": 24,
+   "en": "\"Changed your mind, eh?\"",
+   "zh": "「改主意了，嗯？」",
+   "note": ""
+  },
+  {
+   "offset": 1820,
+   "len": 16,
+   "en": "\"Which of you?\" ",
+   "zh": "「汝等哪一位？」",
+   "note": ""
+  },
+  {
+   "offset": 1986,
+   "len": 14,
+   "en": "\"Which item?\" ",
+   "zh": "「哪件物品？」",
+   "note": ""
+  },
+  {
+   "offset": 2068,
+   "len": 24,
+   "en": "\"That $1 costs #1 gold.\"",
+   "zh": "「$1 售價 #1 枚金幣。」",
+   "note": ""
+  },
+  {
+   "offset": 2095,
+   "len": 18,
+   "en": "\"Interested, $Y?\" ",
+   "zh": "「有意嗎，$Y？」",
+   "note": ""
+  },
+  {
+   "offset": 2156,
+   "len": 41,
+   "en": "\"But 'twould make thee o'erburdened, $Y!\"",
+   "zh": "「但那會讓汝行李過重，$Y！」",
+   "note": ""
+  },
+  {
+   "offset": 2247,
+   "len": 12,
+   "en": "\"Excellent!\"",
+   "zh": "「甚好！」",
+   "note": ""
+  },
+  {
+   "offset": 2261,
+   "len": 48,
+   "en": "After accepting $Y's gold, $N hands over the $1.",
+   "zh": "收下 $Y 的金幣後，$N 遞出 $1。",
+   "note": ""
+  },
+  {
+   "offset": 2318,
+   "len": 36,
+   "en": "\"But thou hast not enough gold, $Y!\"",
+   "zh": "「但汝的金幣不足，$Y！」",
+   "note": ""
+  },
+  {
+   "offset": 2404,
+   "len": 6,
+   "en": "Dagger",
+   "zh": "短刃",
+   "note": "weapon"
+  },
+  {
+   "offset": 2411,
+   "len": 4,
+   "en": "Mace",
+   "zh": "鐵鎚",
+   "note": "weapon"
+  },
+  {
+   "offset": 2416,
+   "len": 11,
+   "en": "Main Gauche",
+   "zh": "格鬥短劍",
+   "note": "weapon"
+  },
+  {
+   "offset": 2428,
+   "len": 12,
+   "en": "Morning Star",
+   "zh": "晨星鐵錘",
+   "note": "weapon"
+  },
+  {
+   "offset": 2441,
+   "len": 5,
+   "en": "Sword",
+   "zh": "劍",
+   "note": "weapon"
+  },
+  {
+   "offset": 2447,
+   "len": 10,
+   "en": "Chain Coif",
+   "zh": "鎖環頭巾",
+   "note": "armor"
+  },
+  {
+   "offset": 2458,
+   "len": 10,
+   "en": "Chain Mail",
+   "zh": "鎖環甲",
+   "note": "armor"
+  },
+  {
+   "offset": 2469,
+   "len": 9,
+   "en": "Ring Mail",
+   "zh": "環形甲",
+   "note": "armor"
+  },
+  {
+   "offset": 2479,
+   "len": 10,
+   "en": "Scale Mail",
+   "zh": "鱗甲",
+   "note": "armor"
+  },
+  {
+   "offset": 2490,
+   "len": 11,
+   "en": "Winged Helm",
+   "zh": "翼盔",
+   "note": "armor"
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "James": "詹姆士"
+  },
+  "places": {},
+  "concepts": {}
+ },
+ "translator_notes": "詹姆士是密諾克武器店的年輕學徒，說話帶勞動階層口音（俺/me master）。師父去打魔像族後便一直看守店舖。"
 }

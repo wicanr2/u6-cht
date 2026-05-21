@@ -24,7 +24,7 @@
    "offset": 55,
    "len": 68,
    "en": "\"Ho eyo he hum, I've got a @clue! It's important, and just for you!\"",
-   "zh": "「叮叮咚咚噹啷噹，俺有@線索特意俏！事關重大莫等閒，專為汝來報！」",
+   "zh": "「叮叮咚咚噹啷噹，俺有@clue（線索）特意俏！事關重大莫等閒，專為汝來報！」",
    "zh_bytes": 65,
    "note": "招牌順口溜 [r2]"
   },
@@ -40,7 +40,7 @@
    "offset": 131,
    "len": 91,
    "en": "\"Why, I'm Chuckles the @jester, of course! You've @heard of me haven't you? Sure you have!\"",
-   "zh": "「哎呀，俺正是@弄臣笑笑！汝@聽說過俺吧？想必聽過囉！」",
+   "zh": "「哎呀，俺正是@jester（弄臣）笑笑！汝@heard（聽說）過俺吧？想必聽過囉！」",
    "zh_bytes": 54,
    "note": ""
   },
@@ -56,7 +56,7 @@
    "offset": 239,
    "len": 42,
    "en": "\"You've heard a word? Why that's @absurd!\"",
-   "zh": "「聞風一句話？簡直@荒誕無涯！」",
+   "zh": "「聞風一句話？簡直@absurd（荒誕）無涯！」",
    "zh_bytes": 31,
    "note": "押韻"
   },
@@ -72,7 +72,7 @@
    "offset": 286,
    "len": 76,
    "en": "\"To @jape, to jeer, to prance, to frolic! To keep this place unmelancholic!\"",
-   "zh": "「@戲謔嘲諷蹦跳鬧！叫此地永不寂寥！」",
+   "zh": "「@jape（戲謔）嘲諷蹦跳鬧！叫此地永不寂寥！」",
    "zh_bytes": 37,
    "note": ""
   },
@@ -80,7 +80,7 @@
    "offset": 365,
    "len": 81,
    "en": "\"I practice @tomfoolery for Lord @British - or anyone else who passes too close.\"",
-   "zh": "「俺為@不列顛王獻上@愚行——湊近的人也跟著遭殃。」",
+   "zh": "「俺為@tomfoolery（愚行）顛王獻上@British（愚行）——湊近的人也跟著遭殃。」",
    "zh_bytes": 50,
    "note": ""
   },
@@ -96,7 +96,7 @@
    "offset": 457,
    "len": 12,
    "en": "\"And @jeer!\"",
-   "zh": "「再@諷！」",
+   "zh": "「再@jeer（諷）！」",
    "zh_bytes": 11,
    "note": ""
   },
@@ -112,7 +112,7 @@
    "offset": 480,
    "len": 43,
    "en": "\"And @prance! To dance a Corybantic dance!\"",
-   "zh": "「再@蹦跳！跳支瘋癲狂歌舞飄！」",
+   "zh": "「再@prance（蹦跳）！跳支瘋癲狂歌舞飄！」",
    "zh_bytes": 31,
    "note": "Corybantic→瘋癲狂躁 [r2]"
   },
@@ -128,7 +128,7 @@
    "offset": 539,
    "len": 38,
    "en": "\"Jeer and prance! Prance and @frolic!\"",
-   "zh": "「譏笑又蹦跳！蹦跳又@嬉鬧！」",
+   "zh": "「譏笑又蹦跳！蹦跳又@frolic（嬉鬧）！」",
    "zh_bytes": 29,
    "note": "[r2]"
   },
@@ -144,7 +144,7 @@
    "offset": 588,
    "len": 36,
    "en": "\"I lurch 'round like an @alcoholic!\"",
-   "zh": "「俺搖晃如@醉漢顛倒！」",
+   "zh": "「俺搖晃如@alcoholic（醉漢）顛倒！」",
    "zh_bytes": 23,
    "note": ""
   },
@@ -176,7 +176,7 @@
    "offset": 694,
    "len": 53,
    "en": "\"Call him Mr. @Nose... But don't tell him I said so!\"",
-   "zh": "「叫他@鼻先生……可別讓他聽見俺說的！」",
+   "zh": "「叫他@Nose（大鼻）生……可別讓他聽見俺說的！」",
    "zh_bytes": 39,
    "note": "[r2]"
   },
@@ -216,7 +216,7 @@
    "offset": 816,
    "len": 76,
    "en": "\"If hints were mints and mints were hints, think what a @world it would be!\"",
-   "zh": "「若提示是糖球，糖球是提示，這@世界豈不妙！」",
+   "zh": "「若提示是糖球，糖球是提示，這@world（世界）豈不妙！」",
    "zh_bytes": 45,
    "note": "[r2]"
   },
@@ -232,7 +232,7 @@
    "offset": 908,
    "len": 36,
    "en": "\"A quest, a chest, oh what a @jest!\"",
-   "zh": "「@試煉、寶箱，何等@笑談一場！」",
+   "zh": "「@jest（試煉）、寶箱，何等笑談一場！」",
    "zh_bytes": 32,
    "note": ""
   },
@@ -256,7 +256,7 @@
    "offset": 971,
    "len": 45,
    "en": "\"To teach, to preach, what waste of @speech!\"",
-   "zh": "「又教又道，盡費@唇舌囉！」",
+   "zh": "「又教又道，盡費@speech（唇舌）囉！」",
    "zh_bytes": 27,
    "note": ""
   },
@@ -272,7 +272,7 @@
    "offset": 1062,
    "len": 20,
    "en": "\"I just said @that!\"",
-   "zh": "「俺剛@就這麼說！」",
+   "zh": "「俺剛@that就這麼說！」",
    "zh_bytes": 19,
    "note": ""
   },
@@ -288,7 +288,7 @@
    "offset": 1093,
    "len": 24,
    "en": "\"You just said '@that!'\"",
-   "zh": "你剛說了『@就這麼』！",
+   "zh": "你剛說了『@that就這麼』！",
    "zh_bytes": 21,
    "note": ""
   },
@@ -304,7 +304,7 @@
    "offset": 1128,
    "len": 19,
    "en": "\"Oh, he's no @fun.\"",
-   "zh": "「噢，他無@樂趣！」",
+   "zh": "「噢，他無@fun（樂趣）！」",
    "zh_bytes": 19,
    "note": ""
   },
@@ -320,7 +320,7 @@
    "offset": 1157,
    "len": 37,
    "en": "\"I'll show you fun before I'm @done!\"",
-   "zh": "「俺玩給汝看，玩到@玩完！」",
+   "zh": "「俺玩給汝看，玩到@done（玩完）！」",
    "zh_bytes": 27,
    "note": ""
   },
@@ -344,7 +344,7 @@
    "offset": 1284,
    "len": 68,
    "en": "\"Yes, it's crucial to your @quest. Do you want to know what it is?\" ",
-   "zh": "「沒錯，這對汝的@試煉至關緊要。汝可想知道是啥麼？」",
+   "zh": "「沒錯，這對汝的@quest（試煉）至關緊要。汝可想知道是啥麼？」",
    "zh_bytes": 51,
    "note": ""
   },
@@ -416,7 +416,7 @@
    "offset": 1568,
    "len": 59,
    "en": "\"But I will give you this @hint that may lead you to it...\"",
-   "zh": "「不過俺給汝這個@提示，或許能引汝尋著……」",
+   "zh": "「不過俺給汝這個@hint（提示），或許能引汝尋著……」",
    "zh_bytes": 43,
    "note": ""
   },
@@ -424,7 +424,7 @@
    "offset": 1630,
    "len": 38,
    "en": "\"Search the @chest in @Nystul's room.\"",
-   "zh": "「翻翻@尼斯托房裡那只@寶箱。」",
+   "zh": "「翻翻@chest（寶箱）托房裡那只@Nystul（寶箱）。」",
    "zh_bytes": 30,
    "note": "quest hint!"
   },
@@ -456,7 +456,7 @@
    "offset": 1794,
    "len": 46,
    "en": "\"Good! Maybe you can @teach it to me someday!\"",
-   "zh": "「太好啦！說不定哪天你能@教俺！」",
+   "zh": "「太好啦！說不定哪天你能@teach（教俺）！」",
    "zh_bytes": 33,
    "note": ""
   },

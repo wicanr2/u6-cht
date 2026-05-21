@@ -11,7 +11,7 @@
    "offset": 86,
    "len": 74,
    "en": "\"Dezana knows much. Have you returned for more @talk or are you in @need?\"",
-   "zh": "「德薩娜所知甚多。汝是來繼續@攀談，還是有所@需求？」",
+   "zh": "「德薩娜所知甚多。汝是來繼續@talk（攀談），還是有所@need（需求）？」",
    "note": ""
   },
   {
@@ -25,21 +25,21 @@
    "offset": 235,
    "len": 54,
    "en": "\"@Dezana.\" She smiles like a cat preparing for a meal.",
-   "zh": "「@德薩娜。」她微笑，如同一隻準備進食的貓。",
+   "zh": "「@Dezana（德薩）娜。」她微笑，如同一隻準備進食的貓。",
    "note": ""
   },
   {
    "offset": 299,
    "len": 42,
    "en": "\"I can @heal, @cure, and even @resurrect.\"",
-   "zh": "「在下能@治傷、@解毒，甚至@起死回生。」",
+   "zh": "「在下能@heal（治傷）、@cure（解毒），甚至@resurrect（起死）回生。」",
    "note": ""
   },
   {
    "offset": 352,
    "len": 60,
    "en": "\"Yes? What is thy need--@healing, @curing or @resurrection?\"",
-   "zh": "「是？汝之需求為何——@治傷、@解毒還是@起死回生？」",
+   "zh": "「是？汝之需求為何——@healing（療傷）、@curing（解毒）還是@resurrection（起死）回生？」",
    "note": ""
   },
   {
@@ -53,7 +53,7 @@
    "offset": 521,
    "len": 67,
    "en": "\"That is correct. Now, are you here to @chat, or are you in @need?\"",
-   "zh": "「正是。那麼，汝是來@閒談的，還是有所@需求？」",
+   "zh": "「正是。那麼，汝是來@chat（閒談）的，還是有所@need（需求）？」",
    "note": ""
   },
   {
@@ -74,14 +74,14 @@
    "offset": 757,
    "len": 82,
    "en": "\"That is one worth speaking about. You see, many people travel the @spirit world.\"",
-   "zh": "「此事值得一談。汝知道，許多人遊歷@靈魂世界。」",
+   "zh": "「此事值得一談。汝知道，許多人遊歷@spirit（靈魂）世界。」",
    "note": ""
   },
   {
    "offset": 842,
    "len": 75,
    "en": "\"Some are lost souls, others have a purpose. @Quenton is not a lost @soul.\"",
-   "zh": "「有些是迷失的靈魂，有些則有其目的。@昆頓並非迷失的@靈魂。」",
+   "zh": "「有些是迷失的靈魂，有些則有其目的。@Quenton（昆頓）並非迷失的@soul（靈魂）。」",
    "note": ""
   },
   {
@@ -137,7 +137,7 @@
    "offset": 1409,
    "len": 35,
    "en": "\"Perhaps he knows who @killed him.\"",
-   "zh": "「或許他知道是誰@殺了他。」",
+   "zh": "「或許他知道是誰@killed（殺）了他。」",
    "note": ""
   },
   {
@@ -158,7 +158,7 @@
    "offset": 1630,
    "len": 93,
    "en": "\"Although his ghost can hear your questions, he'll respond by @manipulating the environment.\"",
-   "zh": "「雖然他的幽靈能聽見汝的問題，但他會藉由@操控環境來作答。」",
+   "zh": "「雖然他的幽靈能聽見汝的問題，但他會藉由@manipulating（操控）環境來作答。」",
    "note": ""
   },
   {
@@ -179,7 +179,7 @@
    "offset": 1910,
    "len": 62,
    "en": "\"So why, then, did the gargoyles not attack @Stivius as well?\"",
-   "zh": "「那麼，魔像族為何未同時襲擊@斯提維斯？」",
+   "zh": "「那麼，魔像族為何未同時襲擊@Stivius（斯提）維斯？」",
    "note": ""
   },
   {

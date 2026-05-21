@@ -11,7 +11,7 @@
    "offset": 40,
    "len": 85,
    "en": "\"At last! I knew you'd come to steal my @shoes someday! But I was too smart for you!\"",
-   "zh": "「終於來了！我就知道你哪天會來偷我的@鞋！但我比你聰明！」",
+   "zh": "「終於來了！我就知道你哪天會來偷我的@shoes（鞋）！但我比你聰明！」",
    "note": ""
   },
   {
@@ -32,7 +32,7 @@
    "offset": 211,
    "len": 92,
    "en": "\"But if I told you my name was @Bonn, then you could work foul magic to destroy my mind...\"*",
-   "zh": "「但若我告訴你我的名字是@邦恩，你就能施展邪術摧毀我的心智……」*",
+   "zh": "「但若我告訴你我的名字是@Bonn（邦恩），你就能施展邪術摧毀我的心智……」*",
    "note": "保留 * 控制符"
   },
   {
@@ -60,49 +60,49 @@
    "offset": 475,
    "len": 90,
    "en": "\"But I've learned from my misfortune, learned never to @trust anyone, let alone to @love.\"",
-   "zh": "「但我從不幸中學到了東西——學到了永遠不要@信任任何人，更別說去@愛了。」",
+   "zh": "「但我從不幸中學到了東西——學到了永遠不要@trust（信任）任何人，更別說去@love（愛）了。」",
    "note": ""
   },
   {
    "offset": 581,
    "len": 55,
    "en": "\"I threw my shoes into the @sea when I saw you coming!\"",
-   "zh": "「我一看見你來就把鞋丟進@海裡了！」",
+   "zh": "「我一看見你來就把鞋丟進@sea（海裡）了！」",
    "note": ""
   },
   {
    "offset": 657,
    "len": 61,
    "en": "\"I trusted @Hawkins once, and it led to nothing but despair.\"",
-   "zh": "「我曾信任過@霍金斯，但那只帶來了絕望。」",
+   "zh": "「我曾信任過@Hawkins（霍金）斯，但那只帶來了絕望。」",
    "note": ""
   },
   {
    "offset": 729,
    "len": 40,
    "en": "\"Oh how I envy him his peaceful @sleep!\"",
-   "zh": "「哦我多麼羨慕他能安詳地@長眠！」",
+   "zh": "「哦我多麼羨慕他能安詳地@sleep（長眠）！」",
    "note": "Hawkins已死"
   },
   {
    "offset": 814,
    "len": 74,
    "en": "\"Death's embrace is the only true @comfort a man can find in this @world.\"",
-   "zh": "「死亡的懷抱是人在這個@世界能找到的唯一真正@慰藉。」",
+   "zh": "「死亡的懷抱是人在這個@comfort（世界）能找到的唯一真正@world（慰藉）。」",
    "note": ""
   },
   {
    "offset": 904,
    "len": 49,
    "en": "\"A good chair is worth a thousand @bumberchutes.\"",
-   "zh": "「一把好椅子抵得上一千個@布博舒特。」",
+   "zh": "「一把好椅子抵得上一千個@bumberchutes（布博）舒特。」",
    "note": "bumberchute=發明詞"
   },
   {
    "offset": 964,
    "len": 58,
    "en": "\"Who told you about those? It's supposed to be a @secret!\"",
-   "zh": "「誰告訴你那些的？那本該是個@秘密！」",
+   "zh": "「誰告訴你那些的？那本該是個@secret（秘密）！」",
    "note": ""
   },
   {
@@ -123,14 +123,14 @@
    "offset": 1155,
    "len": 44,
    "en": "\"And then, at night, the ice @weasels come.\"",
-   "zh": "「然後，在夜裡，冰@鼬鼠就來了。」",
+   "zh": "「然後，在夜裡，冰@weasels（鼬鼠）就來了。」",
    "note": ""
   },
   {
    "offset": 1219,
    "len": 37,
    "en": "\"If you're lucky, they'll @kill you!\"",
-   "zh": "「若你走運，它們會把你@殺死！」",
+   "zh": "「若你走運，它們會把你@kill（殺死）！」",
    "note": "荒誕幽默"
   },
   {
@@ -144,7 +144,7 @@
    "offset": 1335,
    "len": 47,
    "en": "\"I can @help you! I'm the only @sane one left.\"",
-   "zh": "「我能@幫你！我是唯一剩下的@正常人。」",
+   "zh": "「我能@help（助）！我是唯一剩下的@sane（正常）人。」",
    "note": ""
   },
   {
@@ -172,7 +172,7 @@
    "offset": 1586,
    "len": 58,
    "en": "\"Then eat some @grapes, and all will become clear to you!\"",
-   "zh": "「然後吃些@葡萄，一切就會清晰！」",
+   "zh": "「然後吃些@grapes（葡萄），一切就會清晰！」",
    "note": ""
   },
   {
@@ -193,14 +193,14 @@
    "offset": 1771,
    "len": 60,
    "en": "\"I still have it, right here in my @house. Do you want it?\" ",
-   "zh": "「我還有，就在我的@房子裡。你想要嗎？」",
+   "zh": "「我還有，就在我的@house（房子）裡。你想要嗎？」",
    "note": ""
   },
   {
    "offset": 1847,
    "len": 85,
    "en": "\"I lived on the sea, and I'll die not far from it. Then my @basement can be my tomb.\"",
-   "zh": "「我在海邊生活，也將在海邊附近死去。到那時，我的@地下室就是我的陵墓。」",
+   "zh": "「我在海邊生活，也將在海邊附近死去。到那時，我的@basement（地）下室就是我的陵墓。」",
    "note": ""
   },
   {
@@ -214,14 +214,14 @@
    "offset": 2005,
    "len": 63,
    "en": "\"My shoes will be very happy there, @dancing with the fishies!\"",
-   "zh": "「我的鞋在那裡會很開心，和小魚兒@共舞！」",
+   "zh": "「我的鞋在那裡會很開心，和小魚兒@dancing（共舞）！」",
    "note": ""
   },
   {
    "offset": 2084,
    "len": 41,
    "en": "\"They'll dance a @waltz, I doubt it not!\"",
-   "zh": "「它們會跳@華爾滋的，我毫不懷疑！」",
+   "zh": "「它們會跳@waltz（華爾）滋的，我毫不懷疑！」",
    "note": ""
   },
   {
@@ -242,28 +242,28 @@
    "offset": 2245,
    "len": 24,
    "en": "\"You're not one of @us!\"",
-   "zh": "「你不是@我們的人！」",
+   "zh": "「你不是@us（我們）的人！」",
    "note": ""
   },
   {
    "offset": 2278,
    "len": 24,
    "en": "\"We know who @we are...\"",
-   "zh": "「@我們知道自己是誰……」",
+   "zh": "「@we（我們）知道自己是誰……」",
    "note": ""
   },
   {
    "offset": 2311,
    "len": 21,
    "en": "\"Me and the @others.\"",
-   "zh": "「我和那些@其他人。」",
+   "zh": "「我和那些@others其他人。」",
    "note": ""
   },
   {
    "offset": 2343,
    "len": 49,
    "en": "\"By the time you find out, it will be too @late!\"",
-   "zh": "「等你發現的時候，就已經太@遲了！」",
+   "zh": "「等你發現的時候，就已經太@late（遲）了！」",
    "note": ""
   },
   {
@@ -277,7 +277,7 @@
    "offset": 2457,
    "len": 54,
    "en": "\"Sometimes the @bees in my head almost drive me @mad!\"",
-   "zh": "「有時候腦袋裡的@蜜蜂幾乎把我逼@瘋！」",
+   "zh": "「有時候腦袋裡的@bees（蜜蜂）幾乎把我逼@mad（瘋）！」",
    "note": ""
   },
   {
@@ -298,10 +298,15 @@
    "offset": 2633,
    "len": 47,
    "en": "\"I'll @die all the better for still having it!\"",
-   "zh": "「還留著它，@死得更安心！」",
+   "zh": "「還留著它，@die（死得）更安心！」",
    "note": ""
   }
  ],
- "glossary_additions": {"people": {"Bonn": "邦恩"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Bonn": "邦恩"
+  },
+  "places": {}
+ },
  "translator_notes": "邦恩是偏執的赤腳瘋子，曾信任霍金斯受騙。語言充滿荒誕邏輯和矛盾。有寶藏地圖但拒絕給出。bumberchute為原文發明詞，音譯「布博舒特」。"
 }

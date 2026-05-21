@@ -1,203 +1,203 @@
 {
-  "translations": [
-    {
-      "offset": 9,
-      "len": 80,
-      "en": "a pipe-smoking gentleman with the symbol of the Codex @tattooed on his forehead.",
-      "zh": "一位叼著菸斗的紳士，額頭上刺有守則之書的@符號。",
-      "note": "DESC"
-    },
-    {
-      "offset": 92,
-      "len": 23,
-      "en": "\"Greetings to you, $G.\"",
-      "zh": "「$G，幸會幸會。」",
-      "note": ""
-    },
-    {
-      "offset": 123,
-      "len": 20,
-      "en": "\"My name is Manrel.\"",
-      "zh": "「吾名曼瑞爾。」",
-      "note": ""
-    },
-    {
-      "offset": 159,
-      "len": 65,
-      "en": "\"I'm a @woodworker. I also dabble in @alchemy from time to time.\"",
-      "zh": "「吾是@木工匠人，也不時涉足@煉金術。」",
-      "note": ""
-    },
-    {
-      "offset": 235,
-      "len": 59,
-      "en": "\"I make furniture, cabinets, walking sticks, and the like.\"",
-      "zh": "「吾製造家具、櫥櫃、手杖之類的物品。」",
-      "note": ""
-    },
-    {
-      "offset": 297,
-      "len": 47,
-      "en": "\"Perhaps I can make something for you someday.\"",
-      "zh": "「或許他日吾能為汝製作些什麼。」",
-      "note": ""
-    },
-    {
-      "offset": 360,
-      "len": 90,
-      "en": "\"I'm trying to learn how to make healing potions, but I don't have the formula right yet.\"",
-      "zh": "「吾正嘗試學習配製療傷藥水，但配方尚未完善。」",
-      "note": ""
-    },
-    {
-      "offset": 453,
-      "len": 61,
-      "en": "\"I did stumble across a wicked recipe for red @mead, though.\"",
-      "zh": "「倒是偶然摸索出一個絕妙的紅@蜂蜜酒配方。」",
-      "note": ""
-    },
-    {
-      "offset": 529,
-      "len": 101,
-      "en": "\"Alas, there's little call for my brew in this town, with the Blue @Bottle serving Frasier's @Folly.\"",
-      "zh": "「可惜此城對吾釀製的酒需求甚少——藍@瓶酒館供應弗雷澤之@愚醇，人皆趨之若鶩。」",
-      "note": ""
-    },
-    {
-      "offset": 646,
-      "len": 23,
-      "en": "\"A fine establishment.\"",
-      "zh": "「那是一家好店。」",
-      "note": ""
-    },
-    {
-      "offset": 685,
-      "len": 52,
-      "en": "\"One of the finest @libations you'll find anywhere.\"",
-      "zh": "「此乃天下最醇美的@美酒之一。」",
-      "note": ""
-    },
-    {
-      "offset": 748,
-      "len": 41,
-      "en": "\"Libation or liability - take your pick.\"",
-      "zh": "「美酒也好，禍水也罷——隨汝選擇。」",
-      "note": "pun on libation/liability"
-    },
-    {
-      "offset": 810,
-      "len": 85,
-      "en": "\"I went drinking with some friends the night we heard of the discovery of the Codex.\"",
-      "zh": "「聽聞守則之書出土的那晚，吾與幾位友人一同痛飲。」",
-      "note": ""
-    },
-    {
-      "offset": 898,
-      "len": 55,
-      "en": "\"When I woke up the next morning, I had this tattoo...\"",
-      "zh": "「翌日醒來，吾身上便多了這個刺青……」",
-      "note": ""
-    },
-    {
-      "offset": 994,
-      "len": 75,
-      "en": "\"@Daffodils were always his favorites... It's too bad I couldn't find any.\"",
-      "zh": "「@水仙花一向是他的最愛……可惜吾找不到任何一朵。」",
-      "note": ""
-    },
-    {
-      "offset": 1080,
-      "len": 17,
-      "en": "\"Yes, daffodils.\"",
-      "zh": "「是的，水仙花。」",
-      "note": ""
-    },
-    {
-      "offset": 1114,
-      "len": 53,
-      "en": "\"Take care, my dear. I hope I'll see you again soon.\"",
-      "zh": "「保重，親愛的。盼能再次與汝相見。」",
-      "note": "bye"
-    },
-    {
-      "offset": 1168,
-      "len": 38,
-      "en": "\"It was a pleasure speaking with you.\"",
-      "zh": "「與汝交談甚是愉快。」",
-      "note": "bye"
-    },
-    {
-      "offset": 1212,
-      "len": 29,
-      "en": "\"I can't help you with that.\"",
-      "zh": "「此事吾幫不上汝。」",
-      "note": ""
-    },
-    {
-      "offset": 1254,
-      "len": 50,
-      "en": "\"I hope you got a chance to deliver the @flowers.\"",
-      "zh": "「希望汝已有機會送去那束@花。」",
-      "note": ""
-    },
-    {
-      "offset": 1310,
-      "len": 48,
-      "en": "\"Oh, have you been to visit my cousin's grave?\" ",
-      "zh": "「哦，汝可曾去探視過吾表兄的墳墓？」",
-      "note": ""
-    },
-    {
-      "offset": 1364,
-      "len": 13,
-      "en": "\"My mistake.\"",
-      "zh": "「吾弄錯了。」",
-      "note": ""
-    },
-    {
-      "offset": 1385,
-      "len": 89,
-      "en": "He looks at you suspiciously. \"You wouldn't be wanting the key to his crypt, would you?\" ",
-      "zh": "他狐疑地打量著汝。「汝不會是想要他地穴的鑰匙吧？」",
-      "note": ""
-    },
-    {
-      "offset": 1481,
-      "len": 21,
-      "en": "\"Well, alright then.\"",
-      "zh": "「好吧，那便如此。」",
-      "note": ""
-    },
-    {
-      "offset": 1538,
-      "len": 61,
-      "en": "\"You're carrying too much right now. Come back for it later.\"",
-      "zh": "「汝目前攜帶過多物品。稍後再來取吧。」",
-      "note": ""
-    },
-    {
-      "offset": 1605,
-      "len": 68,
-      "en": "\"Well, perhaps you have your reasons... Okay, you can have the key.\"",
-      "zh": "「嗯，或許汝自有緣由……好吧，鑰匙給汝。」",
-      "note": ""
-    },
-    {
-      "offset": 1676,
-      "len": 59,
-      "en": "\"But you have to take these @flowers and leave them there.\"",
-      "zh": "「但汝必須帶上這些@花，放在那裡。」",
-      "note": ""
-    }
-  ],
-  "glossary_additions": {
-    "people": {},
-    "places": {},
-    "concepts": {
-      "daffodil": "水仙花",
-      "woodworker": "木工匠人",
-      "alchemy": "煉金術"
-    }
+ "translations": [
+  {
+   "offset": 9,
+   "len": 80,
+   "en": "a pipe-smoking gentleman with the symbol of the Codex @tattooed on his forehead.",
+   "zh": "一位叼著菸斗的紳士，額頭上刺有知識寶典的@tattooed（符號）。",
+   "note": "DESC"
   },
-  "translator_notes": "曼瑞爾是木工兼煉金術愛好者，語氣隨和親切。Manrel 已在 glossary。Beyvin 的表兄故事提供重要線索（墓穴鑰匙）。libation/liability 雙關以「美酒也好，禍水也罷」意譯。"
+  {
+   "offset": 92,
+   "len": 23,
+   "en": "\"Greetings to you, $G.\"",
+   "zh": "「$G，幸會幸會。」",
+   "note": ""
+  },
+  {
+   "offset": 123,
+   "len": 20,
+   "en": "\"My name is Manrel.\"",
+   "zh": "「吾名曼瑞爾。」",
+   "note": ""
+  },
+  {
+   "offset": 159,
+   "len": 65,
+   "en": "\"I'm a @woodworker. I also dabble in @alchemy from time to time.\"",
+   "zh": "「吾是@woodworker（木工）匠人，也不時涉足@alchemy（煉金）術。」",
+   "note": ""
+  },
+  {
+   "offset": 235,
+   "len": 59,
+   "en": "\"I make furniture, cabinets, walking sticks, and the like.\"",
+   "zh": "「吾製造家具、櫥櫃、手杖之類的物品。」",
+   "note": ""
+  },
+  {
+   "offset": 297,
+   "len": 47,
+   "en": "\"Perhaps I can make something for you someday.\"",
+   "zh": "「或許他日吾能為汝製作些什麼。」",
+   "note": ""
+  },
+  {
+   "offset": 360,
+   "len": 90,
+   "en": "\"I'm trying to learn how to make healing potions, but I don't have the formula right yet.\"",
+   "zh": "「吾正嘗試學習配製療傷藥水，但配方尚未完善。」",
+   "note": ""
+  },
+  {
+   "offset": 453,
+   "len": 61,
+   "en": "\"I did stumble across a wicked recipe for red @mead, though.\"",
+   "zh": "「倒是偶然摸索出一個絕妙的紅@mead（蜂蜜）酒配方。」",
+   "note": ""
+  },
+  {
+   "offset": 529,
+   "len": 101,
+   "en": "\"Alas, there's little call for my brew in this town, with the Blue @Bottle serving Frasier's @Folly.\"",
+   "zh": "「可惜此城對吾釀製的酒需求甚少——藍@Bottle（瓶酒）館供應弗雷澤之@Folly（愚醇），人皆趨之若鶩。」",
+   "note": ""
+  },
+  {
+   "offset": 646,
+   "len": 23,
+   "en": "\"A fine establishment.\"",
+   "zh": "「那是一家好店。」",
+   "note": ""
+  },
+  {
+   "offset": 685,
+   "len": 52,
+   "en": "\"One of the finest @libations you'll find anywhere.\"",
+   "zh": "「此乃天下最醇美的@libations（美酒）之一。」",
+   "note": ""
+  },
+  {
+   "offset": 748,
+   "len": 41,
+   "en": "\"Libation or liability - take your pick.\"",
+   "zh": "「美酒也好，禍水也罷——隨汝選擇。」",
+   "note": "pun on libation/liability"
+  },
+  {
+   "offset": 810,
+   "len": 85,
+   "en": "\"I went drinking with some friends the night we heard of the discovery of the Codex.\"",
+   "zh": "「聽聞知識寶典出土的那晚，吾與幾位友人一同痛飲。」",
+   "note": ""
+  },
+  {
+   "offset": 898,
+   "len": 55,
+   "en": "\"When I woke up the next morning, I had this tattoo...\"",
+   "zh": "「翌日醒來，吾身上便多了這個刺青……」",
+   "note": ""
+  },
+  {
+   "offset": 994,
+   "len": 75,
+   "en": "\"@Daffodils were always his favorites... It's too bad I couldn't find any.\"",
+   "zh": "「@Daffodils（水仙）花一向是他的最愛……可惜吾找不到任何一朵。」",
+   "note": ""
+  },
+  {
+   "offset": 1080,
+   "len": 17,
+   "en": "\"Yes, daffodils.\"",
+   "zh": "「是的，水仙花。」",
+   "note": ""
+  },
+  {
+   "offset": 1114,
+   "len": 53,
+   "en": "\"Take care, my dear. I hope I'll see you again soon.\"",
+   "zh": "「保重，親愛的。盼能再次與汝相見。」",
+   "note": "bye"
+  },
+  {
+   "offset": 1168,
+   "len": 38,
+   "en": "\"It was a pleasure speaking with you.\"",
+   "zh": "「與汝交談甚是愉快。」",
+   "note": "bye"
+  },
+  {
+   "offset": 1212,
+   "len": 29,
+   "en": "\"I can't help you with that.\"",
+   "zh": "「此事吾幫不上汝。」",
+   "note": ""
+  },
+  {
+   "offset": 1254,
+   "len": 50,
+   "en": "\"I hope you got a chance to deliver the @flowers.\"",
+   "zh": "「希望汝已有機會送去那束@flowers（花）。」",
+   "note": ""
+  },
+  {
+   "offset": 1310,
+   "len": 48,
+   "en": "\"Oh, have you been to visit my cousin's grave?\" ",
+   "zh": "「哦，汝可曾去探視過吾表兄的墳墓？」",
+   "note": ""
+  },
+  {
+   "offset": 1364,
+   "len": 13,
+   "en": "\"My mistake.\"",
+   "zh": "「吾弄錯了。」",
+   "note": ""
+  },
+  {
+   "offset": 1385,
+   "len": 89,
+   "en": "He looks at you suspiciously. \"You wouldn't be wanting the key to his crypt, would you?\" ",
+   "zh": "他狐疑地打量著汝。「汝不會是想要他地穴的鑰匙吧？」",
+   "note": ""
+  },
+  {
+   "offset": 1481,
+   "len": 21,
+   "en": "\"Well, alright then.\"",
+   "zh": "「好吧，那便如此。」",
+   "note": ""
+  },
+  {
+   "offset": 1538,
+   "len": 61,
+   "en": "\"You're carrying too much right now. Come back for it later.\"",
+   "zh": "「汝目前攜帶過多物品。稍後再來取吧。」",
+   "note": ""
+  },
+  {
+   "offset": 1605,
+   "len": 68,
+   "en": "\"Well, perhaps you have your reasons... Okay, you can have the key.\"",
+   "zh": "「嗯，或許汝自有緣由……好吧，鑰匙給汝。」",
+   "note": ""
+  },
+  {
+   "offset": 1676,
+   "len": 59,
+   "en": "\"But you have to take these @flowers and leave them there.\"",
+   "zh": "「但汝必須帶上這些@flowers（花），放在那裡。」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {},
+  "places": {},
+  "concepts": {
+   "daffodil": "水仙花",
+   "woodworker": "木工匠人",
+   "alchemy": "煉金術"
+  }
+ },
+ "translator_notes": "曼瑞爾是木工兼煉金術愛好者，語氣隨和親切。Manrel 已在 glossary。Beyvin 的表兄故事提供重要線索（墓穴鑰匙）。libation/liability 雙關以「美酒也好，禍水也罷」意譯。"
 }

@@ -11,7 +11,7 @@
    "offset": 49,
    "len": 58,
    "en": "\"Leave these men alone! Can't you see they need to @rest?\"",
-   "zh": "「別去打擾這些人！難道看不出他們需要@休息嗎？」",
+   "zh": "「別去打擾這些人！難道看不出他們需要@rest（休息）嗎？」",
    "note": ""
   },
   {
@@ -25,14 +25,14 @@
    "offset": 150,
    "len": 63,
    "en": "\"I @tend the sick. I know how to @heal, @cure, and @resurrect.\"",
-   "zh": "「我@照料病人。我懂得@療傷、@解毒和@起死回生。」",
+   "zh": "「我@tend（照料）病人。我懂得@heal（療傷）、@cure（解毒）和@resurrect（起死）回生。」",
    "note": ""
   },
   {
    "offset": 244,
    "len": 46,
    "en": "\"Aye, these men's wounds need @time to @heal.\"",
-   "zh": "「是的，這些人的傷口需要@時間來@癒合。」",
+   "zh": "「是的，這些人的傷口需要@time時間來@heal（癒合）。」",
    "note": ""
   },
   {
@@ -74,7 +74,7 @@
    "offset": 594,
    "len": 63,
    "en": "\"Nay, I cannot. I no longer have the energy, or the @reagents.\"",
-   "zh": "「不，我做不到。吾已精疲力竭，@施法材料也用盡了。」",
+   "zh": "「不，我做不到。吾已精疲力竭，@reagents（施法）材料也用盡了。」",
    "note": ""
   },
   {
@@ -88,7 +88,7 @@
    "offset": 701,
    "len": 62,
    "en": "\"I am sorry that I cannot help you, but we all @grieve today.\"",
-   "zh": "「很抱歉幫不上忙，但今日吾等皆在@悲慟之中。」",
+   "zh": "「很抱歉幫不上忙，但今日吾等皆在@grieve（悲慟）之中。」",
    "note": ""
   },
   {
@@ -102,21 +102,21 @@
    "offset": 808,
    "len": 76,
    "en": "\"These men are the last; they are beyond the help of all save @time itself.\"",
-   "zh": "「這些人是最後一批；除了@時間本身，誰也幫不了他們了。」",
+   "zh": "「這些人是最後一批；除了@time時間本身，誰也幫不了他們了。」",
    "note": ""
   },
   {
    "offset": 909,
    "len": 88,
    "en": "\"These soldiers are the only survivors of an attempt to free the Shrine of @Compassion.\"",
-   "zh": "「這些士兵是試圖解放@慈悲聖壇行動中唯一的倖存者。」",
+   "zh": "「這些士兵是試圖解放@Compassion（慈悲）聖壇行動中唯一的倖存者。」",
    "note": ""
   },
   {
    "offset": 1013,
    "len": 46,
    "en": "\"Show thy compassion now and let them @sleep.\"",
-   "zh": "「請以慈悲之心讓他們@安眠吧。」",
+   "zh": "「請以慈悲之心讓他們@sleep（安眠）吧。」",
    "note": ""
   },
   {
@@ -281,6 +281,11 @@
    "note": ""
   }
  ],
- "glossary_additions": {"people": {"Sasha": "莎夏"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Sasha": "莎夏"
+  },
+  "places": {}
+ },
  "translator_notes": "Sasha 護士，既用口語（「不」「我」）也用 thou/thee 古語（「汝」「吾」），體現人物既善良又疲憊的雙面性。"
 }

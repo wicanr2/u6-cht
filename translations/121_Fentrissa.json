@@ -25,21 +25,21 @@
    "offset": 242,
    "len": 13,
    "en": "\"@Fentrissa.\"",
-   "zh": "「@芬翠莎。」",
+   "zh": "「@Fentrissa（芬翠）莎。」",
    "note": ""
   },
   {
    "offset": 273,
    "len": 68,
    "en": "\"A strong name, as strong as the @sea.\" She looks into the distance.",
-   "zh": "「響亮的名字，如同@大海一般強勁。」她遠眺天際。",
+   "zh": "「響亮的名字，如同@sea（大海）一般強勁。」她遠眺天際。",
    "note": ""
   },
   {
    "offset": 352,
    "len": 44,
    "en": "\"Beautiful thing, but a @jealous man he is.\"",
-   "zh": "「美麗之物，卻是個@善妒的傢伙。」",
+   "zh": "「美麗之物，卻是個@jealous（善妒）的傢伙。」",
    "note": "她稱海為 he（男性），下文有人物回應"
   },
   {
@@ -74,21 +74,21 @@
    "offset": 565,
    "len": 9,
    "en": " @ships.\"",
-   "zh": " @帆船。」",
+   "zh": " @ships（帆船）。」",
    "note": ""
   },
   {
    "offset": 594,
    "len": 10,
    "en": " @skiffs.\"",
-   "zh": " @小艇。」",
+   "zh": " @skiffs（小艇）。」",
    "note": ""
   },
   {
    "offset": 611,
    "len": 21,
    "en": " @ships and @skiffs.\"",
-   "zh": " @帆船與@小艇。」",
+   "zh": " @ships（帆船）與@skiffs（小艇）。」",
    "note": ""
   },
   {
@@ -109,21 +109,21 @@
    "offset": 908,
    "len": 56,
    "en": "\"I have @ships for sale, but I sold you my last @skiff.\"",
-   "zh": "「我有@帆船可賣，但最後一艘@小艇已賣給你了。」",
+   "zh": "「我有@ships（帆船）可賣，但最後一艘@skiff（小艇）已賣給你了。」",
    "note": ""
   },
   {
    "offset": 984,
    "len": 63,
    "en": "\"I sold you my last @ship, but I still have some @skiffs left.\"",
-   "zh": "「最後一艘@帆船已賣給你了，但還有幾艘@小艇。」",
+   "zh": "「最後一艘@ship（帆船）已賣給你了，但還有幾艘@skiffs（小艇）。」",
    "note": ""
   },
   {
    "offset": 1054,
    "len": 28,
    "en": "\"I sell @ships and @skiffs.\"",
-   "zh": "「我賣@帆船和@小艇。」",
+   "zh": "「我賣@ships（帆船）和@skiffs（小艇）。」",
    "note": ""
   },
   {
@@ -204,6 +204,11 @@
    "note": ""
   }
  ],
- "glossary_additions": {"people": {"Fentrissa": "芬翠莎"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Fentrissa": "芬翠莎"
+  },
+  "places": {}
+ },
  "translator_notes": "Fentrissa 賣船女商人，豪邁海員氣息。ship → 帆船，skiff → 小艇，deed → 船契。"
 }

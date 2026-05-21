@@ -1,161 +1,161 @@
 {
-  "translations": [
-    {
-      "offset": 7,
-      "len": 42,
-      "en": "a spidery looking man with delicate hands.",
-      "zh": "一位形如蜘蛛、雙手纖細的男子。",
-      "note": "DESC"
-    },
-    {
-      "offset": 52,
-      "len": 8,
-      "en": "\"Hello.\"",
-      "zh": "「你好。」",
-      "note": ""
-    },
-    {
-      "offset": 74,
-      "len": 18,
-      "en": "\"My name is Troy.\"",
-      "zh": "「吾的名字是特洛伊。」",
-      "note": ""
-    },
-    {
-      "offset": 102,
-      "len": 45,
-      "en": "\"I make @clocks. The movements of the various",
-      "zh": "「吾製作@時鐘。各種",
-      "note": "partial"
-    },
-    {
-      "offset": 148,
-      "len": 14,
-      "en": "parts are very",
-      "zh": "零件都非常",
-      "note": "partial"
-    },
-    {
-      "offset": 163,
-      "len": 28,
-      "en": "complex and interconnected.\"",
-      "zh": "複雜且相互關聯。」",
-      "note": "partial end"
-    },
-    {
-      "offset": 194,
-      "len": 61,
-      "en": "\"Like the @moons and stars, or the pieces on a @chess board.\"",
-      "zh": "「就像@月亮和星辰，或@棋盤上的棋子。」",
-      "note": ""
-    },
-    {
-      "offset": 287,
-      "len": 55,
-      "en": "\"The @ticking of clocks is the pulse of @civilization.\"",
-      "zh": "「時鐘的@滴答聲是@文明的脈搏。」",
-      "note": ""
-    },
-    {
-      "offset": 358,
-      "len": 87,
-      "en": "\"Without clocks, people would just sit around uselessly, with no idea what to do next!\"",
-      "zh": "「沒有時鐘，人們就只會無所事事地閒坐，不知道下一步該做什麼！」",
-      "note": ""
-    },
-    {
-      "offset": 461,
-      "len": 59,
-      "en": "\"Of course, the ticks would be useless without the @tocks.\"",
-      "zh": "「當然，若沒有@答聲，滴聲也毫無意義。」",
-      "note": "tick/tock wordplay"
-    },
-    {
-      "offset": 531,
-      "len": 62,
-      "en": "\"They're much deeper sounding and more satisfying than ticks.\"",
-      "zh": "「答聲比滴聲更深沉，更令人滿足。」",
-      "note": ""
-    },
-    {
-      "offset": 609,
-      "len": 61,
-      "en": "\"@Ephemerides is going to build a model of the whole system.\"",
-      "zh": "「@以弗美瑞底斯打算建造整個星系的模型。」",
-      "note": ""
-    },
-    {
-      "offset": 673,
-      "len": 53,
-      "en": "\"I helped him design the @gearwork that makes it go.\"",
-      "zh": "「吾幫他設計了驅動它運轉的@齒輪機構。」",
-      "note": ""
-    },
-    {
-      "offset": 752,
-      "len": 25,
-      "en": "\"I know all about gears.\"",
-      "zh": "「吾對齒輪無所不知。」",
-      "note": ""
-    },
-    {
-      "offset": 788,
-      "len": 27,
-      "en": "\"He lives at the @Lycaeum.\"",
-      "zh": "「他住在@學苑。」",
-      "note": ""
-    },
-    {
-      "offset": 826,
-      "len": 35,
-      "en": "\"It's a great center of @learning.\"",
-      "zh": "「那是個偉大的@學術中心。」",
-      "note": ""
-    },
-    {
-      "offset": 872,
-      "len": 101,
-      "en": "\"If you didn't run around asking foolish questions all the time, you might learn something yourself!\"",
-      "zh": "「若汝不要整天到處問蠢問題，或許自己也能學到些什麼！」",
-      "note": ""
-    },
-    {
-      "offset": 994,
-      "len": 45,
-      "en": "\"I like to play chess. Keeps ones @mind fit.\"",
-      "zh": "「吾喜歡下棋。能保持@頭腦靈活。」",
-      "note": ""
-    },
-    {
-      "offset": 1050,
-      "len": 42,
-      "en": "\"Some people don't use theirs - but I do.\"",
-      "zh": "「有些人不用腦——但吾用。」",
-      "note": ""
-    },
-    {
-      "offset": 1102,
-      "len": 39,
-      "en": "\"Until we come into conjunction again.\"",
-      "zh": "「待吾等再次相會。」",
-      "note": "bye; astronomical metaphor"
-    },
-    {
-      "offset": 1146,
-      "len": 77,
-      "en": "\"The sound of the clocks is so soothing... Excuse me, did you say something?\"",
-      "zh": "「時鐘的聲音如此舒心……打擾了，汝說了什麼嗎？」",
-      "note": ""
-    }
-  ],
-  "glossary_additions": {
-    "people": {
-      "Troy": "特洛伊"
-    },
-    "places": {},
-    "concepts": {
-      "gearwork": "齒輪機構"
-    }
+ "translations": [
+  {
+   "offset": 7,
+   "len": 42,
+   "en": "a spidery looking man with delicate hands.",
+   "zh": "一位形如蜘蛛、雙手纖細的男子。",
+   "note": "DESC"
   },
-  "translator_notes": "特洛伊是個沉迷於時鐘的鐘錶匠，喜歡用天文學比喻（脈搏、相會）。他幫助 Ephemerides 設計了天文儀的齒輪機構。滴答聲（tick/tock）的討論保留趣味性。"
+  {
+   "offset": 52,
+   "len": 8,
+   "en": "\"Hello.\"",
+   "zh": "「你好。」",
+   "note": ""
+  },
+  {
+   "offset": 74,
+   "len": 18,
+   "en": "\"My name is Troy.\"",
+   "zh": "「吾的名字是特洛伊。」",
+   "note": ""
+  },
+  {
+   "offset": 102,
+   "len": 45,
+   "en": "\"I make @clocks. The movements of the various",
+   "zh": "「吾製作@clocks時鐘。各種",
+   "note": "partial"
+  },
+  {
+   "offset": 148,
+   "len": 14,
+   "en": "parts are very",
+   "zh": "零件都非常",
+   "note": "partial"
+  },
+  {
+   "offset": 163,
+   "len": 28,
+   "en": "complex and interconnected.\"",
+   "zh": "複雜且相互關聯。」",
+   "note": "partial end"
+  },
+  {
+   "offset": 194,
+   "len": 61,
+   "en": "\"Like the @moons and stars, or the pieces on a @chess board.\"",
+   "zh": "「就像@moons（月亮）和星辰，或@chess（棋盤）上的棋子。」",
+   "note": ""
+  },
+  {
+   "offset": 287,
+   "len": 55,
+   "en": "\"The @ticking of clocks is the pulse of @civilization.\"",
+   "zh": "「時鐘的@ticking（滴答）聲是@civilization（文明）的脈搏。」",
+   "note": ""
+  },
+  {
+   "offset": 358,
+   "len": 87,
+   "en": "\"Without clocks, people would just sit around uselessly, with no idea what to do next!\"",
+   "zh": "「沒有時鐘，人們就只會無所事事地閒坐，不知道下一步該做什麼！」",
+   "note": ""
+  },
+  {
+   "offset": 461,
+   "len": 59,
+   "en": "\"Of course, the ticks would be useless without the @tocks.\"",
+   "zh": "「當然，若沒有@tocks（答聲），滴聲也毫無意義。」",
+   "note": "tick/tock wordplay"
+  },
+  {
+   "offset": 531,
+   "len": 62,
+   "en": "\"They're much deeper sounding and more satisfying than ticks.\"",
+   "zh": "「答聲比滴聲更深沉，更令人滿足。」",
+   "note": ""
+  },
+  {
+   "offset": 609,
+   "len": 61,
+   "en": "\"@Ephemerides is going to build a model of the whole system.\"",
+   "zh": "「@Ephemerides以弗美瑞底斯打算建造整個星系的模型。」",
+   "note": ""
+  },
+  {
+   "offset": 673,
+   "len": 53,
+   "en": "\"I helped him design the @gearwork that makes it go.\"",
+   "zh": "「吾幫他設計了驅動它運轉的@gearwork（齒輪）機構。」",
+   "note": ""
+  },
+  {
+   "offset": 752,
+   "len": 25,
+   "en": "\"I know all about gears.\"",
+   "zh": "「吾對齒輪無所不知。」",
+   "note": ""
+  },
+  {
+   "offset": 788,
+   "len": 27,
+   "en": "\"He lives at the @Lycaeum.\"",
+   "zh": "「他住在@Lycaeum（學苑）。」",
+   "note": ""
+  },
+  {
+   "offset": 826,
+   "len": 35,
+   "en": "\"It's a great center of @learning.\"",
+   "zh": "「那是個偉大的@learning（學術）中心。」",
+   "note": ""
+  },
+  {
+   "offset": 872,
+   "len": 101,
+   "en": "\"If you didn't run around asking foolish questions all the time, you might learn something yourself!\"",
+   "zh": "「若汝不要整天到處問蠢問題，或許自己也能學到些什麼！」",
+   "note": ""
+  },
+  {
+   "offset": 994,
+   "len": 45,
+   "en": "\"I like to play chess. Keeps ones @mind fit.\"",
+   "zh": "「吾喜歡下棋。能保持@mind（頭腦）靈活。」",
+   "note": ""
+  },
+  {
+   "offset": 1050,
+   "len": 42,
+   "en": "\"Some people don't use theirs - but I do.\"",
+   "zh": "「有些人不用腦——但吾用。」",
+   "note": ""
+  },
+  {
+   "offset": 1102,
+   "len": 39,
+   "en": "\"Until we come into conjunction again.\"",
+   "zh": "「待吾等再次相會。」",
+   "note": "bye; astronomical metaphor"
+  },
+  {
+   "offset": 1146,
+   "len": 77,
+   "en": "\"The sound of the clocks is so soothing... Excuse me, did you say something?\"",
+   "zh": "「時鐘的聲音如此舒心……打擾了，汝說了什麼嗎？」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Troy": "特洛伊"
+  },
+  "places": {},
+  "concepts": {
+   "gearwork": "齒輪機構"
+  }
+ },
+ "translator_notes": "特洛伊是個沉迷於時鐘的鐘錶匠，喜歡用天文學比喻（脈搏、相會）。他幫助 Ephemerides 設計了天文儀的齒輪機構。滴答聲（tick/tock）的討論保留趣味性。"
 }

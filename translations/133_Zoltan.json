@@ -53,35 +53,35 @@
    "offset": 430,
    "len": 44,
    "en": "\"Huzzah! I am @Zoltan, king of the gypsies!\"",
-   "zh": "「哈哈！吾乃@佐爾坦，吉普賽人之王！」",
+   "zh": "「哈哈！吾乃@Zoltan（佐爾）坦，吉普賽人之王！」",
    "note": ""
   },
   {
    "offset": 475,
    "len": 50,
    "en": "\"Huzzah! I am still @Zoltan, king of the gypsies!\"",
-   "zh": "「哈哈！吾依然是@佐爾坦，吉普賽人之王！」",
+   "zh": "「哈哈！吾依然是@Zoltan（佐爾）坦，吉普賽人之王！」",
    "note": ""
   },
   {
    "offset": 544,
    "len": 48,
    "en": "\"As I said, I am Zoltan, @king of the @gypsies!\"",
-   "zh": "「如吾所言，吾乃佐爾坦，@吉普賽人之@王！」",
+   "zh": "「如吾所言，吾乃佐爾坦，@king（吉普）賽人之@gypsies（王）！」",
    "note": ""
   },
   {
    "offset": 603,
    "len": 37,
    "en": "\"Yes, Zoltan, @king of the @gypsies!\"",
-   "zh": "「是的，佐爾坦，@吉普賽人之@王！」",
+   "zh": "「是的，佐爾坦，@king（吉普）賽人之@gypsies（王）！」",
    "note": ""
   },
   {
    "offset": 651,
    "len": 92,
    "en": "\"I have no lands nor @castles, as most rulers do. Nay, for I am the king of the open @road.\"",
-   "zh": "「吾無@城堡也無土地，不似多數君主。不，因為吾是廣闊@道路之王。」",
+   "zh": "「吾無@castles（城堡）也無土地，不似多數君主。不，因為吾是廣闊@road（道路）之王。」",
    "note": ""
   },
   {
@@ -109,14 +109,14 @@
    "offset": 935,
    "len": 73,
    "en": "\"We are free @spirits, and must roam like the @wind throughout the land.\"",
-   "zh": "「吾等是自由的@靈魂，必須如@風般遊蕩於大地之上。」",
+   "zh": "「吾等是自由的@spirits（靈魂），必須如@wind（風般）遊蕩於大地之上。」",
    "note": ""
   },
   {
    "offset": 1019,
    "len": 50,
    "en": "\"The roads @wander everywhere, just like a gypsy!\"",
-   "zh": "「道路@延伸至四方，正如吉普賽人！」",
+   "zh": "「道路@wander（延伸）至四方，正如吉普賽人！」",
    "note": ""
   },
   {
@@ -137,21 +137,21 @@
    "offset": 1185,
    "len": 62,
    "en": "\"Just now I am thinking of what you might @buy from me today.\"",
-   "zh": "「此刻吾正在想你今日要向我@購買何物。」",
+   "zh": "「此刻吾正在想你今日要向我@buy（買）何物。」",
    "note": ""
   },
   {
    "offset": 1263,
    "len": 48,
    "en": "\"Aye, my spirit is free, but my @advice is not.\"",
-   "zh": "「是的，吾的靈魂是自由的，但吾的@建議可不免費。」",
+   "zh": "「是的，吾的靈魂是自由的，但吾的@advice（建議）可不免費。」",
    "note": ""
   },
   {
    "offset": 1322,
    "len": 56,
    "en": "\"Ask my people for @advice, or what they have to @sell.\"",
-   "zh": "「去問吾的族人要@建議，或看看他們有什麼可@賣。」",
+   "zh": "「去問吾的族人要@advice（建議），或看看他們有什麼可@sell（賣）。」",
    "note": ""
   },
   {
@@ -179,28 +179,28 @@
    "offset": 1595,
    "len": 77,
    "en": "\"But if you're determined to go, I hear it's on an island due east of @Paws.\"",
-   "zh": "「但若你執意要去，聽說那在@帕斯正東方的島上。」",
+   "zh": "「但若你執意要去，聽說那在@Paws（帕斯）正東方的島上。」",
    "note": ""
   },
   {
    "offset": 1683,
    "len": 73,
    "en": "\"We pass Paws often in our travels. @Taynith likes to go drinking there.\"",
-   "zh": "「吾等旅行時常經過帕斯。@泰妮絲喜歡去那裡喝酒。」",
+   "zh": "「吾等旅行時常經過帕斯。@Taynith（泰妮）絲喜歡去那裡喝酒。」",
    "note": ""
   },
   {
    "offset": 1767,
    "len": 39,
    "en": "\"It's on the same island as @Moonglow.\"",
-   "zh": "「它和@月輝城在同一座島上。」",
+   "zh": "「它和@Moonglow（月輝）城在同一座島上。」",
    "note": ""
   },
   {
    "offset": 1817,
    "len": 42,
    "en": "\"It's on the same island as the @Lycaeum.\"",
-   "zh": "「它和@萊西厄姆在同一座島上。」",
+   "zh": "「它和@Lycaeum（萊西）厄姆在同一座島上。」",
    "note": ""
   },
   {
@@ -214,7 +214,7 @@
    "offset": 1974,
    "len": 78,
    "en": "\"Captain John? I talked to him when he gave us the silver tablet for @Mariah.\"",
-   "zh": "「約翰船長？當他把銀板交給吾等帶給@瑪麗亞時，吾曾與他說話。」",
+   "zh": "「約翰船長？當他把銀板交給吾等帶給@Mariah（瑪麗）亞時，吾曾與他說話。」",
    "note": ""
   },
   {
@@ -242,7 +242,7 @@
    "offset": 2255,
    "len": 50,
    "en": "\"Either you're a gorgio or my name's not @Zoltan!\"",
-   "zh": "「你要麼是個外人，要麼我的名字就不叫@佐爾坦！」",
+   "zh": "「你要麼是個外人，要麼我的名字就不叫@Zoltan（佐爾）坦！」",
    "note": "gorgio=非吉普賽人"
   },
   {
@@ -256,7 +256,7 @@
    "offset": 2376,
    "len": 80,
    "en": "\"Farewell! My fellow gypsies and I will @dance to your health and good fortune!\"",
-   "zh": "「再見！吾與族人將@跳舞，祝你身體健康、鴻運當頭！」",
+   "zh": "「再見！吾與族人將@dance（跳舞），祝你身體健康、鴻運當頭！」",
    "note": ""
   },
   {
@@ -270,7 +270,7 @@
    "offset": 2477,
    "len": 88,
    "en": "@Karina produces a fiddle from somewhere and begins to play a tune at a very high tempo.",
-   "zh": "@卡麗娜不知從何處取出一把小提琴，開始飛速演奏。",
+   "zh": "@Karina（卡麗）娜不知從何處取出一把小提琴，開始飛速演奏。",
    "note": ""
   },
   {
@@ -298,7 +298,7 @@
    "offset": 2804,
    "len": 77,
    "en": "\"Perhaps you'd like to look over some of the fine @reagents I have for sale.\"",
-   "zh": "「也許你想看看吾販售的上等@施法材料。」",
+   "zh": "「也許你想看看吾販售的上等@reagents（施法）材料。」",
    "note": ""
   },
   {
@@ -368,14 +368,14 @@
    "offset": 3494,
    "len": 105,
    "en": "\"Some @gorgio called 'Captain @John' brought us the silver tablet and paid us to take it to the Lycaeum.\"",
-   "zh": "「一個叫『@約翰船長』的@外人帶來銀板，並付錢請吾等將它帶到萊西厄姆。」",
+   "zh": "「一個叫『@gorgio（約翰）船長』的@John外人帶來銀板，並付錢請吾等將它帶到萊西厄姆。」",
    "note": ""
   },
   {
    "offset": 3602,
    "len": 84,
    "en": "\"While we were on the way there, we were ambushed by Captain @Hawkins and his crew.\"",
-   "zh": "「在途中，吾等遭到@霍金斯船長及其手下的埋伏。」",
+   "zh": "「在途中，吾等遭到@Hawkins（霍金）斯船長及其手下的埋伏。」",
    "note": ""
   },
   {
@@ -396,14 +396,14 @@
    "offset": 3859,
    "len": 60,
    "en": "\"Most likely they went to Buccaneer's @Den with their loot.\"",
-   "zh": "「他們多半帶著贓物去了海盜@巢穴。」",
+   "zh": "「他們多半帶著贓物去了海盜@Den（巢穴）。」",
    "note": ""
   },
   {
    "offset": 3922,
    "len": 91,
    "en": "\"We took the corner of the tablet that they missed to the @Lycaeum and sold it to @Mariah.\"",
-   "zh": "「吾等把他們沒拿走的那角石板帶到@萊西厄姆，賣給了@瑪麗亞。」",
+   "zh": "「吾等把他們沒拿走的那角石板帶到@Lycaeum（萊西）厄姆，賣給了@Mariah（瑪麗）亞。」",
    "note": ""
   },
   {
@@ -533,6 +533,11 @@
    "note": ""
   }
  ],
- "glossary_additions": {"people": {"Zoltan": "佐爾坦"}, "places": {}},
+ "glossary_additions": {
+  "people": {
+   "Zoltan": "佐爾坦"
+  },
+  "places": {}
+ },
  "translator_notes": "佐爾坦是吉普賽王，豪放熱情，自稱「吾」。涉及銀板（silver tablet）劇情線索（Captain John/Hawkins/Mariah）。gorgio（非吉普賽人）譯為「外人」。施法材料名（Blood Moss等）為系統字串，不翻譯。"
 }

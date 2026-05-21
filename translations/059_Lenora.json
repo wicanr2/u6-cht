@@ -1,304 +1,304 @@
 {
-  "translations": [
-    {
-      "offset": 9,
-      "len": 65,
-      "en": "a tall, stern woman, with graying red hair and a perpetual scowl.",
-      "zh": "一位身材高挑、神情嚴肅的女子，紅髮夾雜著白絲，眉頭永遠緊鎖。",
-      "note": "DESC"
-    },
-    {
-      "offset": 83,
-      "len": 58,
-      "en": "\"Well, Avatar. I graciously grant thee another interview.\"",
-      "zh": "「好吧，聖者。吾大方地再賜汝一次覲見的機會。」",
-      "note": "haughty repeat greeting"
-    },
-    {
-      "offset": 144,
-      "len": 58,
-      "en": "\"I certainly hope thou wilt be more respectful this time.\"",
-      "zh": "「吾希望汝這次能更有禮貌一些。」",
-      "note": ""
-    },
-    {
-      "offset": 214,
-      "len": 43,
-      "en": "\"Welcome again, worthy Avatar, to my hall.\"",
-      "zh": "「尊貴的聖者，再次歡迎汝蒞臨吾的殿堂。」",
-      "note": ""
-    },
-    {
-      "offset": 258,
-      "len": 49,
-      "en": "\"Welcome, worthy Avatar, to the Hall of Justice.\"",
-      "zh": "「尊貴的聖者，歡迎汝蒞臨正義大廳。」",
-      "note": ""
-    },
-    {
-      "offset": 310,
-      "len": 38,
-      "en": "\"How may we assist thee in thy quest?\"",
-      "zh": "「吾等如何能在汝的任務中提供協助？」",
-      "note": ""
-    },
-    {
-      "offset": 363,
-      "len": 33,
-      "en": "\"I am Lenora, Lady Mayor of Yew.\"",
-      "zh": "「吾乃萊諾拉，尤城的女市長大人。」",
-      "note": ""
-    },
-    {
-      "offset": 406,
-      "len": 59,
-      "en": "\"It is my honor to preside over this town and its @courts.\"",
-      "zh": "「主持本城及其@法庭，乃是吾的榮幸。」",
-      "note": ""
-    },
-    {
-      "offset": 468,
-      "len": 48,
-      "en": "\"We also provide the finest @wood in the realm.\"",
-      "zh": "「吾等亦提供全境最上等的@木材。」",
-      "note": ""
-    },
-    {
-      "offset": 531,
-      "len": 24,
-      "en": "\"Go ask Ben the logger.\"",
-      "zh": "「去問伐木工班吧。」",
-      "note": ""
-    },
-    {
-      "offset": 558,
-      "len": 66,
-      "en": "\"Head west from here into the forest until you can go no further.\"",
-      "zh": "「從這裡向西進入林中，直至無路可走為止。」",
-      "note": ""
-    },
-    {
-      "offset": 627,
-      "len": 53,
-      "en": "\"Then look for a way through the trees to the north.\"",
-      "zh": "「然後在樹間尋找向北的通道。」",
-      "note": ""
-    },
-    {
-      "offset": 691,
-      "len": 49,
-      "en": "\"In Yew we take pride in our system of @justice.\"",
-      "zh": "「尤城以吾等的@正義體制為傲。」",
-      "note": ""
-    },
-    {
-      "offset": 751,
-      "len": 68,
-      "en": "\"Indeed, the @Rune of Justice itself was sent here for safekeeping.\"",
-      "zh": "「確實，@正義聖符本身便被送至此處保管。」",
-      "note": ""
-    },
-    {
-      "offset": 830,
-      "len": 94,
-      "en": "\"A thief stole the rune from the grave of our most respected resident, the former Lord Mayor.\"",
-      "zh": "「一名盜賊從吾等最受尊敬的居民、前任市長大人的墓中竊走了聖符。」",
-      "note": ""
-    },
-    {
-      "offset": 927,
-      "len": 68,
-      "en": "\"Even though the @thief was caught, we have not yet found the rune.\"",
-      "zh": "「雖然@盜賊已被逮捕，但聖符至今尚未尋回。」",
-      "note": ""
-    },
-    {
-      "offset": 1016,
-      "len": 61,
-      "en": "\"The thief is in the jail, awaiting the carriage of justice.\"",
-      "zh": "「盜賊已關押在獄中，等待正義的制裁。」",
-      "note": ""
-    },
-    {
-      "offset": 1088,
-      "len": 73,
-      "en": "\"'Tis most strange, Avatar, that thou knowest not the Mantra of Justice.\"",
-      "zh": "「聖者，汝竟不知正義咒語，此乃咄咄怪事。」",
-      "note": ""
-    },
-    {
-      "offset": 1164,
-      "len": 18,
-      "en": "\"How can that be?\"",
-      "zh": "「這怎麼可能？」",
-      "note": ""
-    },
-    {
-      "offset": 1199,
-      "len": 25,
-      "en": "\"A letter of permission?\"",
-      "zh": "「許可信函？」",
-      "note": ""
-    },
-    {
-      "offset": 1227,
-      "len": 63,
-      "en": "\"Dost thou truly need to speak with that reprehensible thief?\" ",
-      "zh": "「汝真的需要與那個無恥盜賊交談？」",
-      "note": ""
-    },
-    {
-      "offset": 1337,
-      "len": 53,
-      "en": "\"What, free the thief in return for the rune? Never!\"",
-      "zh": "「什麼，以釋放盜賊換取聖符？絕對不行！」",
-      "note": ""
-    },
-    {
-      "offset": 1393,
-      "len": 62,
-      "en": "\"To do so would betray everything the rune itself stands for!\"",
-      "zh": "「此舉將背叛聖符所代表的一切！」",
-      "note": ""
-    },
-    {
-      "offset": 1458,
-      "len": 26,
-      "en": "\"Better to leave it lost.\"",
-      "zh": "「寧可讓它就此失落。」",
-      "note": ""
-    },
-    {
-      "offset": 1509,
-      "len": 53,
-      "en": "\"What? What stories has that thief been telling you?\"",
-      "zh": "「什麼？那個盜賊都對汝說了些什麼謊言？」",
-      "note": ""
-    },
-    {
-      "offset": 1565,
-      "len": 40,
-      "en": "\"He has no family--he's just a drifter!\"",
-      "zh": "「他根本沒有家人——他不過是個流浪漢！」",
-      "note": ""
-    },
-    {
-      "offset": 1608,
-      "len": 33,
-      "en": "\"Don't be taken in by his @lies.\"",
-      "zh": "「別被他的@謊言所騙。」",
-      "note": ""
-    },
-    {
-      "offset": 1651,
-      "len": 35,
-      "en": "\"Tell him he's not fooling anyone.\"",
-      "zh": "「告訴他，他騙不了任何人。」",
-      "note": ""
-    },
-    {
-      "offset": 1702,
-      "len": 77,
-      "en": "\"Nicodemus the enchanter lives near here. His house lies between two rivers.\"",
-      "zh": "「術士尼科德慕斯就住在附近。他的住所位於兩條河流之間。」",
-      "note": ""
-    },
-    {
-      "offset": 1789,
-      "len": 54,
-      "en": "\"May you find that which thou deservest on thy quest.\"",
-      "zh": "「願汝在任務中得到汝應得的一切。」",
-      "note": "bye"
-    },
-    {
-      "offset": 1855,
-      "len": 100,
-      "en": "\"Noble Avatar, the affairs of state weigh heavily upon my time. Pray be precise in thy questioning.\"",
-      "zh": "「尊貴的聖者，國務繁重，吾時間有限。請汝提問時開門見山。」",
-      "note": ""
-    },
-    {
-      "offset": 1956,
-      "len": 91,
-      "en": "\"Noble Avatar, we hardly have time to chat about $Z in view of the perils facing our land!\"",
-      "zh": "「尊貴的聖者，面對本境的危難，吾等實在沒有閒工夫談論『$Z』！」",
-      "note": ""
-    },
-    {
-      "offset": 2060,
-      "len": 75,
-      "en": "\"Hmpf! Well, mayhap 'twould be best for you to seek such wisdom elsewhere!\"",
-      "zh": "「哼！嗯，或許汝最好到別處去尋求此類智慧！」",
-      "note": ""
-    },
-    {
-      "offset": 2138,
-      "len": 60,
-      "en": "\"Thou may return when thou seest fit to answer my question!\"",
-      "zh": "「等汝認為適合回答吾的問題時，再回來吧！」",
-      "note": ""
-    },
-    {
-      "offset": 2209,
-      "len": 48,
-      "en": "\"Hmmm...well, no matter,\" she says suspiciously.",
-      "zh": "「嗯……好吧，無所謂，」她狐疑地說道。",
-      "note": "action"
-    },
-    {
-      "offset": 2260,
-      "len": 69,
-      "en": "\"I suppose 'twould be improper to deny anything the Avatar requires.\"",
-      "zh": "「吾想拒絕聖者所需之事，恐怕不甚妥當。」",
-      "note": ""
-    },
-    {
-      "offset": 2332,
-      "len": 33,
-      "en": "\"The Mantra of Justice is 'beh.'\"",
-      "zh": "「正義咒語是『beh』。」",
-      "note": "mantra kept as-is"
-    },
-    {
-      "offset": 2383,
-      "len": 73,
-      "en": "\"Very well then.\" Putting quill to parchment, she drafts a quick letter.*",
-      "zh": "「好吧。」她提筆在羊皮紙上飛速草擬了一封信函。*",
-      "note": ""
-    },
-    {
-      "offset": 2458,
-      "len": 66,
-      "en": "\"The jailer will now let you in, or verily shall he answer to me!\"",
-      "zh": "「獄卒現在會放汝進去，否則他將向吾交代！」",
-      "note": ""
-    },
-    {
-      "offset": 2551,
-      "len": 60,
-      "en": "\"Then why dost thou waste my time with frivolous requests?!\"",
-      "zh": "「那汝為何以無聊的請求浪費吾的時間？！」",
-      "note": ""
-    },
-    {
-      "offset": 2614,
-      "len": 78,
-      "en": "\"Begone, Avatar, and return when thou hast more serious business on thy mind!\"",
-      "zh": "「聖者，請退下，待汝有更正經的事情再來！」",
-      "note": ""
-    }
-  ],
-  "glossary_additions": {
-    "people": {
-      "Lenora": "萊諾拉"
-    },
-    "places": {
-      "Hall of Justice": "正義大廳"
-    },
-    "concepts": {
-      "Rune of Justice": "正義聖符",
-      "Mantra of Justice": "正義咒語"
-    }
+ "translations": [
+  {
+   "offset": 9,
+   "len": 65,
+   "en": "a tall, stern woman, with graying red hair and a perpetual scowl.",
+   "zh": "一位身材高挑、神情嚴肅的女子，紅髮夾雜著白絲，眉頭永遠緊鎖。",
+   "note": "DESC"
   },
-  "translator_notes": "萊諾拉是尤城的傲慢女市長，言辭正式且帶貴族腔調。她拒絕以釋放盜賊換取正義聖符，認為此舉背叛正義本身。正義咒語『beh』保留原文。"
+  {
+   "offset": 83,
+   "len": 58,
+   "en": "\"Well, Avatar. I graciously grant thee another interview.\"",
+   "zh": "「好吧，聖者。吾大方地再賜汝一次覲見的機會。」",
+   "note": "haughty repeat greeting"
+  },
+  {
+   "offset": 144,
+   "len": 58,
+   "en": "\"I certainly hope thou wilt be more respectful this time.\"",
+   "zh": "「吾希望汝這次能更有禮貌一些。」",
+   "note": ""
+  },
+  {
+   "offset": 214,
+   "len": 43,
+   "en": "\"Welcome again, worthy Avatar, to my hall.\"",
+   "zh": "「尊貴的聖者，再次歡迎汝蒞臨吾的殿堂。」",
+   "note": ""
+  },
+  {
+   "offset": 258,
+   "len": 49,
+   "en": "\"Welcome, worthy Avatar, to the Hall of Justice.\"",
+   "zh": "「尊貴的聖者，歡迎汝蒞臨正義大廳。」",
+   "note": ""
+  },
+  {
+   "offset": 310,
+   "len": 38,
+   "en": "\"How may we assist thee in thy quest?\"",
+   "zh": "「吾等如何能在汝的任務中提供協助？」",
+   "note": ""
+  },
+  {
+   "offset": 363,
+   "len": 33,
+   "en": "\"I am Lenora, Lady Mayor of Yew.\"",
+   "zh": "「吾乃萊諾拉，尤城的女市長大人。」",
+   "note": ""
+  },
+  {
+   "offset": 406,
+   "len": 59,
+   "en": "\"It is my honor to preside over this town and its @courts.\"",
+   "zh": "「主持本城及其@courts（法庭），乃是吾的榮幸。」",
+   "note": ""
+  },
+  {
+   "offset": 468,
+   "len": 48,
+   "en": "\"We also provide the finest @wood in the realm.\"",
+   "zh": "「吾等亦提供全境最上等的@wood（木材）。」",
+   "note": ""
+  },
+  {
+   "offset": 531,
+   "len": 24,
+   "en": "\"Go ask Ben the logger.\"",
+   "zh": "「去問伐木工班吧。」",
+   "note": ""
+  },
+  {
+   "offset": 558,
+   "len": 66,
+   "en": "\"Head west from here into the forest until you can go no further.\"",
+   "zh": "「從這裡向西進入林中，直至無路可走為止。」",
+   "note": ""
+  },
+  {
+   "offset": 627,
+   "len": 53,
+   "en": "\"Then look for a way through the trees to the north.\"",
+   "zh": "「然後在樹間尋找向北的通道。」",
+   "note": ""
+  },
+  {
+   "offset": 691,
+   "len": 49,
+   "en": "\"In Yew we take pride in our system of @justice.\"",
+   "zh": "「尤城以吾等的@justice（正義）體制為傲。」",
+   "note": ""
+  },
+  {
+   "offset": 751,
+   "len": 68,
+   "en": "\"Indeed, the @Rune of Justice itself was sent here for safekeeping.\"",
+   "zh": "「確實，@Rune（符文）聖符本身便被送至此處保管。」",
+   "note": ""
+  },
+  {
+   "offset": 830,
+   "len": 94,
+   "en": "\"A thief stole the rune from the grave of our most respected resident, the former Lord Mayor.\"",
+   "zh": "「一名盜賊從吾等最受尊敬的居民、前任市長大人的墓中竊走了聖符。」",
+   "note": ""
+  },
+  {
+   "offset": 927,
+   "len": 68,
+   "en": "\"Even though the @thief was caught, we have not yet found the rune.\"",
+   "zh": "「雖然@thief（盜賊）已被逮捕，但聖符至今尚未尋回。」",
+   "note": ""
+  },
+  {
+   "offset": 1016,
+   "len": 61,
+   "en": "\"The thief is in the jail, awaiting the carriage of justice.\"",
+   "zh": "「盜賊已關押在獄中，等待正義的制裁。」",
+   "note": ""
+  },
+  {
+   "offset": 1088,
+   "len": 73,
+   "en": "\"'Tis most strange, Avatar, that thou knowest not the Mantra of Justice.\"",
+   "zh": "「聖者，汝竟不知正義咒語，此乃咄咄怪事。」",
+   "note": ""
+  },
+  {
+   "offset": 1164,
+   "len": 18,
+   "en": "\"How can that be?\"",
+   "zh": "「這怎麼可能？」",
+   "note": ""
+  },
+  {
+   "offset": 1199,
+   "len": 25,
+   "en": "\"A letter of permission?\"",
+   "zh": "「許可信函？」",
+   "note": ""
+  },
+  {
+   "offset": 1227,
+   "len": 63,
+   "en": "\"Dost thou truly need to speak with that reprehensible thief?\" ",
+   "zh": "「汝真的需要與那個無恥盜賊交談？」",
+   "note": ""
+  },
+  {
+   "offset": 1337,
+   "len": 53,
+   "en": "\"What, free the thief in return for the rune? Never!\"",
+   "zh": "「什麼，以釋放盜賊換取聖符？絕對不行！」",
+   "note": ""
+  },
+  {
+   "offset": 1393,
+   "len": 62,
+   "en": "\"To do so would betray everything the rune itself stands for!\"",
+   "zh": "「此舉將背叛聖符所代表的一切！」",
+   "note": ""
+  },
+  {
+   "offset": 1458,
+   "len": 26,
+   "en": "\"Better to leave it lost.\"",
+   "zh": "「寧可讓它就此失落。」",
+   "note": ""
+  },
+  {
+   "offset": 1509,
+   "len": 53,
+   "en": "\"What? What stories has that thief been telling you?\"",
+   "zh": "「什麼？那個盜賊都對汝說了些什麼謊言？」",
+   "note": ""
+  },
+  {
+   "offset": 1565,
+   "len": 40,
+   "en": "\"He has no family--he's just a drifter!\"",
+   "zh": "「他根本沒有家人——他不過是個流浪漢！」",
+   "note": ""
+  },
+  {
+   "offset": 1608,
+   "len": 33,
+   "en": "\"Don't be taken in by his @lies.\"",
+   "zh": "「別被他的@lies（謊言）所騙。」",
+   "note": ""
+  },
+  {
+   "offset": 1651,
+   "len": 35,
+   "en": "\"Tell him he's not fooling anyone.\"",
+   "zh": "「告訴他，他騙不了任何人。」",
+   "note": ""
+  },
+  {
+   "offset": 1702,
+   "len": 77,
+   "en": "\"Nicodemus the enchanter lives near here. His house lies between two rivers.\"",
+   "zh": "「術士尼科德慕斯就住在附近。他的住所位於兩條河流之間。」",
+   "note": ""
+  },
+  {
+   "offset": 1789,
+   "len": 54,
+   "en": "\"May you find that which thou deservest on thy quest.\"",
+   "zh": "「願汝在任務中得到汝應得的一切。」",
+   "note": "bye"
+  },
+  {
+   "offset": 1855,
+   "len": 100,
+   "en": "\"Noble Avatar, the affairs of state weigh heavily upon my time. Pray be precise in thy questioning.\"",
+   "zh": "「尊貴的聖者，國務繁重，吾時間有限。請汝提問時開門見山。」",
+   "note": ""
+  },
+  {
+   "offset": 1956,
+   "len": 91,
+   "en": "\"Noble Avatar, we hardly have time to chat about $Z in view of the perils facing our land!\"",
+   "zh": "「尊貴的聖者，面對本境的危難，吾等實在沒有閒工夫談論『$Z』！」",
+   "note": ""
+  },
+  {
+   "offset": 2060,
+   "len": 75,
+   "en": "\"Hmpf! Well, mayhap 'twould be best for you to seek such wisdom elsewhere!\"",
+   "zh": "「哼！嗯，或許汝最好到別處去尋求此類智慧！」",
+   "note": ""
+  },
+  {
+   "offset": 2138,
+   "len": 60,
+   "en": "\"Thou may return when thou seest fit to answer my question!\"",
+   "zh": "「等汝認為適合回答吾的問題時，再回來吧！」",
+   "note": ""
+  },
+  {
+   "offset": 2209,
+   "len": 48,
+   "en": "\"Hmmm...well, no matter,\" she says suspiciously.",
+   "zh": "「嗯……好吧，無所謂，」她狐疑地說道。",
+   "note": "action"
+  },
+  {
+   "offset": 2260,
+   "len": 69,
+   "en": "\"I suppose 'twould be improper to deny anything the Avatar requires.\"",
+   "zh": "「吾想拒絕聖者所需之事，恐怕不甚妥當。」",
+   "note": ""
+  },
+  {
+   "offset": 2332,
+   "len": 33,
+   "en": "\"The Mantra of Justice is 'beh.'\"",
+   "zh": "「正義咒語是『beh』。」",
+   "note": "mantra kept as-is"
+  },
+  {
+   "offset": 2383,
+   "len": 73,
+   "en": "\"Very well then.\" Putting quill to parchment, she drafts a quick letter.*",
+   "zh": "「好吧。」她提筆在羊皮紙上飛速草擬了一封信函。*",
+   "note": ""
+  },
+  {
+   "offset": 2458,
+   "len": 66,
+   "en": "\"The jailer will now let you in, or verily shall he answer to me!\"",
+   "zh": "「獄卒現在會放汝進去，否則他將向吾交代！」",
+   "note": ""
+  },
+  {
+   "offset": 2551,
+   "len": 60,
+   "en": "\"Then why dost thou waste my time with frivolous requests?!\"",
+   "zh": "「那汝為何以無聊的請求浪費吾的時間？！」",
+   "note": ""
+  },
+  {
+   "offset": 2614,
+   "len": 78,
+   "en": "\"Begone, Avatar, and return when thou hast more serious business on thy mind!\"",
+   "zh": "「聖者，請退下，待汝有更正經的事情再來！」",
+   "note": ""
+  }
+ ],
+ "glossary_additions": {
+  "people": {
+   "Lenora": "萊諾拉"
+  },
+  "places": {
+   "Hall of Justice": "正義大廳"
+  },
+  "concepts": {
+   "Rune of Justice": "正義聖符",
+   "Mantra of Justice": "正義咒語"
+  }
+ },
+ "translator_notes": "萊諾拉是尤城的傲慢女市長，言辭正式且帶貴族腔調。她拒絕以釋放盜賊換取正義聖符，認為此舉背叛正義本身。正義咒語『beh』保留原文。"
 }

@@ -39,7 +39,7 @@
    "offset": 239,
    "len": 37,
    "en": "\"@Stivius the wine merchant is mine.\"",
-   "zh": "「@斯提維斯，葡萄酒商人，乃在下大名。」",
+   "zh": "「@Stivius（斯提）維斯，葡萄酒商人，乃在下大名。」",
    "note": ""
   },
   {
@@ -53,7 +53,7 @@
    "offset": 318,
    "len": 15,
    "en": "\"I make @wine.\"",
-   "zh": "「在下釀製@葡萄酒。」",
+   "zh": "「在下釀製@wine（葡萄）酒。」",
    "note": ""
   },
   {
@@ -67,21 +67,21 @@
    "offset": 397,
    "len": 44,
    "en": "\"It's not just a @tale you've been hearing.\"",
-   "zh": "「汝所聽聞的，並非單純的@傳言。」",
+   "zh": "「汝所聽聞的，並非單純的@tale（傳言）。」",
    "note": ""
   },
   {
    "offset": 453,
    "len": 48,
    "en": "\"Everyone knows that @Quenton haunts this town.\"",
-   "zh": "「人人都知道@昆頓的幽靈在此地徘徊。」",
+   "zh": "「人人都知道@Quenton（昆頓）的幽靈在此地徘徊。」",
    "note": ""
   },
   {
    "offset": 504,
    "len": 70,
    "en": "\"If I had been @murdered by those evil ones...but that's just gossip.\"",
-   "zh": "「若我也被那些惡徒@謀殺……但那只是流言罷了。」",
+   "zh": "「若我也被那些惡徒@murdered（謀殺）……但那只是流言罷了。」",
    "note": ""
   },
   {
@@ -95,21 +95,21 @@
    "offset": 657,
    "len": 53,
    "en": "\"'Course my path takes me right by @Gideon's garden.\"",
-   "zh": "「當然，我走的路正好經過@吉迪恩的花園。」",
+   "zh": "「當然，我走的路正好經過@Gideon（吉迪）恩的花園。」",
    "note": ""
   },
   {
    "offset": 712,
    "len": 70,
    "en": "\"I heard a @noise by the well and saw some @dark forms hunched there.\"",
-   "zh": "「我聽到井邊有@聲響，並看見一些@黑影蜷伏在那裡。」",
+   "zh": "「我聽到井邊有@noise（聲響），並看見一些@dark（黑影）蜷伏在那裡。」",
    "note": ""
   },
   {
    "offset": 785,
    "len": 41,
    "en": "\"They had huge wings and @evil red eyes.\"",
-   "zh": "「他們有巨大的翅膀和@邪惡的紅色眼睛。」",
+   "zh": "「他們有巨大的翅膀和@evil（邪惡）的紅色眼睛。」",
    "note": ""
   },
   {
@@ -130,14 +130,14 @@
    "offset": 973,
    "len": 32,
    "en": "\"Gideon runs the Haunting @Inn.\"",
-   "zh": "「吉迪恩打理鬼影@旅店。」",
+   "zh": "「吉迪恩打理鬼影@Inn（旅店）。」",
    "note": ""
   },
   {
    "offset": 1008,
    "len": 62,
    "en": "\"His @wife has a garden which you can see from my front door.\"",
-   "zh": "「他@妻子的花園從我門口就能看到。」",
+   "zh": "「他@wife（妻子）的花園從我門口就能看到。」",
    "note": ""
   },
   {
@@ -158,7 +158,7 @@
    "offset": 1207,
    "len": 65,
    "en": "\"Twas a strange @whispering, in a tongue I could not understand.\"",
-   "zh": "「那是一種奇異的@低語，用的是我聽不懂的語言。」",
+   "zh": "「那是一種奇異的@whispering（低語），用的是我聽不懂的語言。」",
    "note": ""
   },
   {
@@ -172,28 +172,28 @@
    "offset": 1346,
    "len": 41,
    "en": "\"More like one o' them guild @languages.\"",
-   "zh": "「更像是某種公會的@行話。」",
+   "zh": "「更像是某種公會的@languages（行話）。」",
    "note": ""
   },
   {
    "offset": 1404,
    "len": 37,
    "en": "\"Like the one the @alchemist speaks.\"",
-   "zh": "「就像那位@鍊金術士說的那種。」",
+   "zh": "「就像那位@alchemist（鍊金）術士說的那種。」",
    "note": ""
   },
   {
    "offset": 1453,
    "len": 66,
    "en": "\"Go ask old @Horance. He can tell ya - if you can understand him!\"",
-   "zh": "「去問老@霍蘭斯，他能解答汝——如果汝聽得懂他說的話！」",
+   "zh": "「去問老@Horance（霍蘭）斯，他能解答汝——如果汝聽得懂他說的話！」",
    "note": ""
   },
   {
    "offset": 1531,
    "len": 45,
    "en": "\"He lives over on @Ivers Rounding by himself.",
-   "zh": "「他獨居在@艾佛圓角那邊。",
+   "zh": "「他獨居在@Ivers（艾佛）圓角那邊。",
    "note": "片段"
   },
   {
@@ -207,21 +207,21 @@
    "offset": 1629,
    "len": 39,
    "en": "\"Go see @Marney, she'll get you there.\"",
-   "zh": "「去找@瑪妮，她能帶汝前往。」",
+   "zh": "「去找@Marney（瑪妮），她能帶汝前往。」",
    "note": ""
   },
   {
    "offset": 1680,
    "len": 45,
    "en": "\"She's the daughter of @Quenton - the ghost.\"",
-   "zh": "「她是@昆頓的女兒——就是那個幽靈的女兒。」",
+   "zh": "「她是@Quenton（昆頓）的女兒——就是那個幽靈的女兒。」",
    "note": ""
   },
   {
    "offset": 1742,
    "len": 64,
    "en": "\"I couldn't see too clearly. They were about man-@sized though.\"",
-   "zh": "「我看得不太清楚，但他們大約是人@身般大小。」",
+   "zh": "「我看得不太清楚，但他們大約是人@sized（身般）大小。」",
    "note": ""
   },
   {
@@ -235,14 +235,14 @@
    "offset": 1914,
    "len": 39,
    "en": "His eyes widen. \"@Gargoyles they were!\"",
-   "zh": "他眼睛睜大。「那是@魔像族！」",
+   "zh": "他眼睛睜大。「那是@Gargoyles（魔像）族！」",
    "note": ""
   },
   {
    "offset": 1956,
    "len": 36,
    "en": "\"Must'a been ten or @twelve of 'em.\"",
-   "zh": "「定是有個十隻或@十二隻。」",
+   "zh": "「定是有個十隻或@twelve（十二）隻。」",
    "note": ""
   },
   {
@@ -270,7 +270,7 @@
    "offset": 2135,
    "len": 46,
    "en": "\"'Course, they were @kneeling when I saw 'em.\"",
-   "zh": "「當然，我看到他們時，他們正在@跪著。」",
+   "zh": "「當然，我看到他們時，他們正在@kneeling（跪著）。」",
    "note": ""
   },
   {

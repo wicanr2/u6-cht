@@ -11,7 +11,7 @@
    "offset": 83,
    "len": 86,
    "en": "You think you see a brief flicker of recognition pass between @Iolo and the fisherman.",
-   "zh": "汝似乎察覺@尤洛與這位漁夫之間閃過一絲認識的神色。",
+   "zh": "汝似乎察覺@Iolo（尤洛）與這位漁夫之間閃過一絲認識的神色。",
    "note": ""
   },
   {
@@ -53,7 +53,7 @@
    "offset": 463,
    "len": 49,
    "en": "\"We've met before. But that was many @years ago.\"",
-   "zh": "「我們曾相識，但那是多@年前之事了。」",
+   "zh": "「我們曾相識，但那是多@years（年）前之事了。」",
    "note": ""
   },
   {
@@ -67,14 +67,14 @@
    "offset": 567,
    "len": 91,
    "en": "\"I am a fisherman. In catching @fish, as in all of life, there is something to be learned.\"",
-   "zh": "「在下是個漁夫。捕@魚一事，如同人生，處處皆有值得學習之道。」",
+   "zh": "「在下是個漁夫。捕@fish（魚一）事，如同人生，處處皆有值得學習之道。」",
    "note": ""
   },
   {
    "offset": 684,
    "len": 54,
    "en": "\"I still have not mastered the @way of the fisherman.\"",
-   "zh": "「在下至今仍未參透漁夫之@道。」",
+   "zh": "「在下至今仍未參透漁夫之@way（道）。」",
    "note": ""
   },
   {
@@ -102,7 +102,7 @@
    "offset": 1014,
    "len": 101,
    "en": "\"I'd be glad to take you there in my @boat, but I'm afraid it is too small to weather the high seas.\"",
-   "zh": "「在下樂意以@小船帶汝前往，怎奈小船太小，無法抵禦大海波濤。」",
+   "zh": "「在下樂意以@boat（小船）帶汝前往，怎奈小船太小，無法抵禦大海波濤。」",
    "note": ""
   },
   {
@@ -137,7 +137,7 @@
    "offset": 1466,
    "len": 79,
    "en": "\"The Mantra of Humility is 'lum'. If you seek the @shrine, I hope you find it.\"",
-   "zh": "「謙遜真言是『lum』。若汝尋訪@聖壇，願汝得達。」",
+   "zh": "「謙遜真言是『lum』。若汝尋訪@shrine（聖壇），願汝得達。」",
    "note": "保留真言原文"
   },
   {

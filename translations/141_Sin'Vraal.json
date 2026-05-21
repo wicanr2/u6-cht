@@ -25,21 +25,21 @@
    "offset": 105,
    "len": 48,
    "en": "\"No job, $G. I am @free to wander where I wish.\"",
-   "zh": "「無職，$G。吾@自由，可隨意遊蕩。」",
+   "zh": "「無職，$G。吾@free（自）由，可隨意遊蕩。」",
    "note": ""
   },
   {
    "offset": 169,
    "len": 43,
    "en": "\"Among my @people, those who can fly rule.\"",
-   "zh": "「在吾的@族人之中，能飛者統治一切。」",
+   "zh": "「在吾的@people（族人）之中，能飛者統治一切。」",
    "note": ""
   },
   {
    "offset": 215,
    "len": 55,
    "en": "\"Though I have wings, I cannot @fly. So I was a slave.\"",
-   "zh": "「雖然吾有翅膀，卻不能@飛翔。因此吾曾是奴隸。」",
+   "zh": "「雖然吾有翅膀，卻不能@fly（飛翔）。因此吾曾是奴隸。」",
    "note": ""
   },
   {
@@ -60,7 +60,7 @@
    "offset": 357,
    "len": 19,
    "en": "\"I am a @gargoyle.\"",
-   "zh": "「吾是@魔像族。」",
+   "zh": "「吾是@gargoyle（魔像）族。」",
    "note": ""
   },
   {
@@ -81,14 +81,14 @@
    "offset": 587,
    "len": 56,
    "en": "\"Only the @sacrifice of the False Prophet will save us.\"",
-   "zh": "「唯有偽先知的@獻祭，方能拯救吾等。」",
+   "zh": "「唯有偽先知的@sacrifice（獻祭），方能拯救吾等。」",
    "note": ""
   },
   {
    "offset": 654,
    "len": 55,
    "en": "\"Because I could not @fly, I was never taught to read.\"",
-   "zh": "「因為吾不能@飛翔，所以從未被教導讀書。」",
+   "zh": "「因為吾不能@fly（飛翔），所以從未被教導讀書。」",
    "note": ""
   },
   {
@@ -144,14 +144,14 @@
    "offset": 1189,
    "len": 57,
    "en": "\"Being able to fly is, to them, a sign of @intelligence.\"",
-   "zh": "「在他們看來，能飛翔是@智慧的象徵。」",
+   "zh": "「在他們看來，能飛翔是@intelligence（智慧）的象徵。」",
    "note": ""
   },
   {
    "offset": 1249,
    "len": 46,
    "en": "\"Even the @Temple can only be reached by air.\"",
-   "zh": "「甚至連@神殿也只能從空中抵達。」",
+   "zh": "「甚至連@Temple（神殿）也只能從空中抵達。」",
    "note": ""
   },
   {
@@ -172,7 +172,7 @@
    "offset": 1420,
    "len": 49,
    "en": "\"The great Temple of Singularity held the Codex.\"",
-   "zh": "「偉大的獨一神殿曾供奉守則之書。」",
+   "zh": "「偉大的獨一神殿曾供奉知識寶典。」",
    "note": ""
   },
   {
@@ -221,7 +221,7 @@
    "offset": 1793,
    "len": 66,
    "en": "\"He seemed to be hunting me, but he got dragged off by the @ants!\"",
-   "zh": "「他似乎在追獵吾，但被@螞蟻拖走了！」",
+   "zh": "「他似乎在追獵吾，但被@ants（螞蟻）拖走了！」",
    "note": ""
   },
   {
@@ -246,6 +246,13 @@
    "note": ""
   }
  ],
- "glossary_additions": {"people": {"Sin'Vraal": "辛弗拉"}, "places": {"Hythloth": "希斯洛斯"}},
+ "glossary_additions": {
+  "people": {
+   "Sin'Vraal": "辛弗拉"
+  },
+  "places": {
+   "Hythloth": "希斯洛斯"
+  }
+ },
  "translator_notes": "辛弗拉是無翅的自由魔像族，逃至沙漠。提供重要的魔像族社會結構資訊（有翅/無翅、神殿、預言之書）。用文言敬語（「汝/吾」）表現其莊重外星文化感。"
 }
