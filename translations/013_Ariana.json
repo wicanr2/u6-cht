@@ -72,7 +72,7 @@
    "offset": 261,
    "len": 67,
    "en": "\"I'm learning to be a @bard. I like to @play the harpsichord best.\"",
-   "zh": "「我在學作@bard（吟遊詩人）詩人。我最愛@play（彈大）鍵琴。」",
+   "zh": "「我在學作@bard（吟遊詩人）。我最愛@play（彈大）鍵琴。」",
    "zh_bytes": 40,
    "note": "@bard → @吟遊詩人；@play → @彈"
   },

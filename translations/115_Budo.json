@@ -52,7 +52,7 @@
    "offset": 380,
    "len": 89,
    "en": "\"Which, @torches, @oil, @lockpicks, @gems, @backpacks, @bags, @shovels, or @powder kegs?\"",
-   "zh": "「@torches（火把）、@oil（油）、@lockpicks（撬鎖工具）工具、@gems（寶石）、@backpacks（背包）、@bags（袋子）、@shovels（鏟子），還是@powder（火藥）桶？」"
+   "zh": "「@torches（火把）、@oil（油）、@lockpicks（撬鎖工具）、@gems（寶石）、@backpacks（背包）、@bags（袋子）、@shovels（鏟子），還是@powder（火藥）桶？」"
   },
   {
    "offset": 477,
@@ -196,7 +196,7 @@
    "offset": 1963,
    "len": 90,
    "en": "\"Which, @torches, @oil, @lockpicks, @gems, @backpacks, @bags, @shovels, or @powder @kegs?\"",
-   "zh": "「@torches（火把）、@oil（油）、@lockpicks（撬鎖工具）工具、@gems（寶石）、@backpacks（背包）、@bags（袋子）、@shovels（鏟子），還是@powder（火藥）@kegs（桶）？」"
+   "zh": "「@torches（火把）、@oil（油）、@lockpicks（撬鎖工具）、@gems（寶石）、@backpacks（背包）、@bags（袋子）、@shovels（鏟子），還是@powder（火藥）@kegs（桶）？」"
   },
   {
    "offset": 2216,

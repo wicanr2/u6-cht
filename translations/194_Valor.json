@@ -11,7 +11,7 @@
    "offset": 8,
    "len": 20,
    "en": "the altar of Valor.",
-   "zh": "英勇之祭壇。",
+   "zh": "勇敢之祭壇。",
    "note": "DESC"
   },
   {
@@ -32,7 +32,7 @@
    "offset": 160,
    "len": 40,
    "en": "\"Thy deeds have shown admirable valor.\"",
-   "zh": "「汝之行為展現了令人欽佩的英勇。」",
+   "zh": "「汝之行為展現了令人欽佩的勇敢。」",
    "note": "中階評語"
   },
   {
@@ -67,7 +67,7 @@
    "offset": 429,
    "len": 28,
    "en": "\"Speak the Mantra of Valor.\"",
-   "zh": "「覆誦英勇真言。」",
+   "zh": "「覆誦勇敢真言。」",
    "note": ""
   },
   {

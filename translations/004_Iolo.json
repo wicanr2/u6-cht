@@ -24,7 +24,7 @@
    "offset": 37,
    "len": 88,
    "en": "\"Well, $P, do you need @help with something? Or maybe you've got time for a @story, eh?\"",
-   "zh": "「嗯，$P，可有事需在下相@help（助）？又或閣下尚有閒暇聽一則@story（故事）故事？」",
+   "zh": "「嗯，$P，可有事需在下相@help（助）？又或閣下尚有閒暇聽一則@story（故事）？」",
    "zh_bytes": 60,
    "note": "保留 $P"
   },
@@ -128,7 +128,7 @@
    "offset": 573,
    "len": 106,
    "en": "*\"Hopefully, now that my @apprentice has taken over the shop, I'll be able to spend more time as a @bard.\"",
-   "zh": "*「所幸今有@apprentice（學徒）接掌店鋪，在下便可多花時光做一名@bard（吟遊詩人）詩人。」",
+   "zh": "*「所幸今有@apprentice（學徒）接掌店鋪，在下便可多花時光做一名@bard（吟遊詩人）。」",
    "zh_bytes": 61,
    "note": "保留 * 前綴"
   },
