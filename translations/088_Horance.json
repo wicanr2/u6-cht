@@ -130,7 +130,7 @@
    "offset": 720,
    "len": 26,
    "en": "If you need a magic @book,",
-   "zh": "若汝需要魔法@book（書冊），",
+   "zh": "若汝需要魔法@book（書），",
    "note": "詩歌行三"
   },
   {
@@ -634,14 +634,14 @@
    "offset": 2899,
    "len": 33,
    "en": "\"But thou hast not a spell@book!\"",
-   "zh": "「然汝尚無魔法@book（書冊）！」",
+   "zh": "「然汝尚無魔法@book（書）！」",
    "note": ""
   },
   {
    "offset": 3059,
    "len": 35,
    "en": "\"But none of you has a spell@book!\"",
-   "zh": "「然汝等之中無人擁有魔法@book（書冊）！」",
+   "zh": "「然汝等之中無人擁有魔法@book（書）！」",
    "note": ""
   },
   {

@@ -24,7 +24,7 @@
    "offset": 53,
    "len": 70,
    "en": "\"Welcome, $G! I am Sir Kenneth, and I'd gladly play a @song for thee.\"",
-   "zh": "「歡迎，$G！在下肯尼斯爵士，願為汝奏一曲@song（歌謠）。」",
+   "zh": "「歡迎，$G！在下肯尼斯爵士，願為汝奏一曲@song（歌）。」",
    "zh_bytes": 49,
    "note": "保留 $G；@song → @歌謠"
   },

@@ -32,7 +32,7 @@
    "offset": 231,
    "len": 40,
    "en": "\"I'm @Captain Fox, of the Silken @Stag.\"",
-   "zh": "「在下是絲絨@Captain（雄鹿）號的@Stag（福克）斯船長。」",
+   "zh": "「在下是絲絨@Captain（船長）號的@Stag（福克）斯船長。」",
    "note": ""
   },
   {
@@ -53,7 +53,7 @@
    "offset": 468,
    "len": 65,
    "en": "\"We just stopped off here for some supplies and a @drink or two.\"",
-   "zh": "「我們只是路過此地補充給養，順便喝幾杯@drink（酒）。」",
+   "zh": "「我們只是路過此地補充給養，順便喝幾杯@drink（飲品）。」",
    "note": ""
   },
   {
@@ -95,7 +95,7 @@
    "offset": 852,
    "len": 100,
    "en": "\"I hear he went @underground seeking the @gargoyles, but he fled from the first one he encountered.\"",
-   "zh": "「在下聽說他深入@underground（地底）尋訪@gargoyles（魔像）族，卻在遇見第一個後便落荒而逃。」",
+   "zh": "「在下聽說他深入@underground（地底）尋訪@gargoyles（魔像族）族，卻在遇見第一個後便落荒而逃。」",
    "note": ""
   },
   {

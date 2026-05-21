@@ -56,7 +56,7 @@
    "offset": 138,
    "len": 24,
    "en": "to the Wayfarer's @Inn!\"",
-   "zh": "@Inn（旅人）客棧！」",
+   "zh": "@Inn（客棧）客棧！」",
    "zh_bytes": 13,
    "note": "@Inn → @旅人客棧"
   },
@@ -104,7 +104,7 @@
    "offset": 288,
    "len": 42,
    "en": "\"I can offer you a @room for the evening.\"",
-   "zh": "「在下可為汝備一間@room（客房）過夜。」",
+   "zh": "「在下可為汝備一間@room（房間）過夜。」",
    "zh_bytes": 31,
    "note": "@room → @客房"
   },

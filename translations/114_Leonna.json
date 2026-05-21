@@ -46,13 +46,13 @@
    "offset": 356,
    "len": 33,
    "en": "\"I used to @captain my own ship.\"",
-   "zh": "「我曾自己@captain（掌過）一艘船。」"
+   "zh": "「我曾自己@captain（船長）一艘船。」"
   },
   {
    "offset": 392,
    "len": 69,
    "en": "\"But I fell on hard times, and now I sail with @Leodon on the @Hind.\"",
-   "zh": "「後來時運不濟，目下與@Leodon（黎奧）頓共航於@Hind（金鹿）之上。」"
+   "zh": "「後來時運不濟，目下與@Leodon（黎奧）頓共航於@Hind（號）之上。」"
   },
   {
    "offset": 482,
@@ -112,7 +112,7 @@
    "offset": 1067,
    "len": 79,
    "en": "\"Said he was going to kill as many @gargoyles as he could before they got him.\"",
-   "zh": "「他言道：『在彼等取我性命前，盡可能屠戮@gargoyles（魔像）族。』」"
+   "zh": "「他言道：『在彼等取我性命前，盡可能屠戮@gargoyles（魔像族）族。』」"
   },
   {
    "offset": 1158,

@@ -100,7 +100,7 @@
    "offset": 282,
    "len": 39,
    "en": "\"I am Lord @British's friend, @Sherry.\"",
-   "zh": "「俺乃@British（不列）顛王的好友@Sherry（雪莉）是也。」",
+   "zh": "「俺乃@British（不列顛王）顛王的好友@Sherry（雪莉）是也。」",
    "zh_bytes": 34,
    "note": ""
   },
@@ -132,7 +132,7 @@
    "offset": 406,
    "len": 51,
    "en": "\"He knows the one about @Hubert the Lion by Heart!\"",
-   "zh": "「他連@Hubert（獅子）胡伯的故事都能倒背如流呢!」",
+   "zh": "「他連@Hubert（胡伯）胡伯的故事都能倒背如流呢!」",
    "zh_bytes": 38,
    "note": ""
   },
@@ -388,7 +388,7 @@
    "offset": 1431,
    "len": 39,
    "en": "\"I am Lord @British's friend, @Sherry.\"",
-   "zh": "「俺乃@British（不列）顛王的好友@Sherry（雪莉）是也。」",
+   "zh": "「俺乃@British（不列顛王）顛王的好友@Sherry（雪莉）是也。」",
    "zh_bytes": 34,
    "note": ""
   },
@@ -420,7 +420,7 @@
    "offset": 1556,
    "len": 51,
    "en": "\"He knows the one about @Hubert the Lion by Heart!\"",
-   "zh": "「他連@Hubert（獅子）胡伯的故事都能倒背如流呢!」",
+   "zh": "「他連@Hubert（胡伯）胡伯的故事都能倒背如流呢!」",
    "zh_bytes": 38,
    "note": ""
   },

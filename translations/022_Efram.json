@@ -128,7 +128,7 @@
    "offset": 421,
    "len": 77,
    "en": "\"Which, @torches, @oil, @gems, @backpacks, @bags, @shovels, or @powder kegs?\"",
-   "zh": "「要哪樣，@torches（火炬）、@oil（油）、@gems（寶石）、@backpacks（背包）、@bags（麻袋）、@shovels（鏟），還是@powder（火藥）桶？」",
+   "zh": "「要哪樣，@torches（火把）、@oil（油）、@gems（寶石）、@backpacks（背包）、@bags（袋子）、@shovels（鏟子），還是@powder（火藥）桶？」",
    "zh_bytes": 63,
    "note": "7 個 @keyword 列舉"
   },
@@ -144,7 +144,7 @@
    "offset": 509,
    "len": 78,
    "en": "\"I sell @torches, @oil, @gems, @backpacks, @bags, @shovels, and @powder kegs.\"",
-   "zh": "「我賣@torches（火炬）、@oil（油）、@gems（寶石）、@backpacks（背包）、@bags（麻袋）、@shovels（鏟）、@powder（火藥）桶。」",
+   "zh": "「我賣@torches（火把）、@oil（油）、@gems（寶石）、@backpacks（背包）、@bags（袋子）、@shovels（鏟子）、@powder（火藥）桶。」",
    "zh_bytes": 55,
    "note": ""
   },

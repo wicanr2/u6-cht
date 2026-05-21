@@ -109,7 +109,7 @@
    "offset": 801,
    "len": 72,
    "en": "\"'Tisn't quite as exciting as some jobs, but it keeps me near the @sea.\"",
-   "zh": "「雖不比有些差事刺激，但讓我能守著@sea（大海）。」",
+   "zh": "「雖不比有些差事刺激，但讓我能守著@sea（海）。」",
    "note": ""
   },
   {
@@ -312,14 +312,14 @@
    "offset": 2614,
    "len": 88,
    "en": "\"They came to my house before dawn and told me that Quen had been killed by @gargoyles.\"",
-   "zh": "「他們在黎明前來到我家，告訴我昆頓被@gargoyles（魔像）族殺害了。」",
+   "zh": "「他們在黎明前來到我家，告訴我昆頓被@gargoyles（魔像族）族殺害了。」",
    "note": ""
   },
   {
    "offset": 2714,
    "len": 81,
    "en": "\"He owns the Haunting Inn. He's good people, though his @wife is a bit of a nag.\"",
-   "zh": "「他是鬼影旅店的主人，是個好人，只是他@wife（妻子）有點嘮叨。」",
+   "zh": "「他是鬼影旅店的主人，是個好人，只是他@wife（妻）有點嘮叨。」",
    "note": ""
   },
   {
@@ -375,7 +375,7 @@
    "offset": 3261,
    "len": 93,
    "en": "\"One o' the tall ships. My father used to pilot one o' the biggest in Lord @British's fleet.\"",
-   "zh": "「就是高桅大帆船。我父親曾駕駛不列顛@British（陛）下艦隊中最大的一艘。」",
+   "zh": "「就是高桅大帆船。我父親曾駕駛不列顛@British（不列顛王）下艦隊中最大的一艘。」",
    "note": ""
   },
   {

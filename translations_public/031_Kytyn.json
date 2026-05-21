@@ -46,7 +46,7 @@
   },
   {
    "hash": "a384c5393581f42f",
-   "zh": "「那是在不列顛@British（王任）命我擔任此職之前。」",
+   "zh": "「那是在不列顛@British（不列顛王）命我擔任此職之前。」",
    "note": "@British→@王（內部觸發 brit 保留 ASCII）"
   },
   {
@@ -153,7 +153,7 @@
   },
   {
    "hash": "1126b0d849a2ad51",
-   "zh": "「我們有@monolith（巨石）碑、@energy（能量）場、永動之@machine（機）、Zog 的@bones（骨骸）、奧@fountain（泉），以及@dragon（龍）的頭、翼、與蛋。」*",
+   "zh": "「我們有@monolith（巨石）碑、@energy（能量）場、永動之@machine（機）、Zog 的@bones（骨骸）、奧@fountain（泉），以及@dragon（巨龍）的頭、翼、與蛋。」*",
    "note": "@monolith→@巨石碑；@energy→@能量；@machine→@機；@bones→@骨骸；@fountain→@泉；@dragon→@龍；保留 Zog 不譯與末 *"
   },
   {

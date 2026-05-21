@@ -96,7 +96,7 @@
    "offset": 680,
    "len": 57,
    "en": "\"Aye, I used to live in the @forest and hunt wild boars.\"",
-   "zh": "「啊，吾曾居於@forest（林）中，獵殺野豬。」",
+   "zh": "「啊，吾曾居於@forest（森林）中，獵殺野豬。」",
    "zh_bytes": 33,
    "note": ""
   },
@@ -120,7 +120,7 @@
    "offset": 867,
    "len": 29,
    "en": "\"Yes, Lord @British himself.\"",
-   "zh": "「是的，便是@British（不列）顛王本人。」",
+   "zh": "「是的，便是@British（不列顛王）顛王本人。」",
    "zh_bytes": 29,
    "note": ""
   },
@@ -192,7 +192,7 @@
    "offset": 1141,
    "len": 104,
    "en": "\"I @cook for all those who live in the @castle, and for any @guests who dine with Lord British as well.\"",
-   "zh": "「吾為@cook（城堡）中所有居者掌@castle（廚），亦為與不列顛王共@guests（膳）之賓客做菜。」",
+   "zh": "「吾為@cook（城堡）中所有居者掌@castle（城堡），亦為與不列顛王共@guests（膳）之賓客做菜。」",
    "zh_bytes": 62,
    "note": "避『餐』改『膳』"
   },

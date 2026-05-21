@@ -25,7 +25,7 @@
    "offset": 167,
    "len": 41,
    "en": "\"Ask me to @join and I will, gladly, $G!\"",
-   "zh": "「請汝邀吾@join（加入），吾會欣然答應，$G！」",
+   "zh": "「請汝邀吾@join（入伙），吾會欣然答應，$G！」",
    "note": ""
   },
   {
@@ -53,7 +53,7 @@
    "offset": 378,
    "len": 71,
    "en": "\"Mayhap I could help. Ask me to @join thy band, $G, and gladly I will!\"",
-   "zh": "「或許吾能出些力。邀吾@join（加入）汝的隊伍，$G，吾會欣然答應！」",
+   "zh": "「或許吾能出些力。邀吾@join（入伙）汝的隊伍，$G，吾會欣然答應！」",
    "note": ""
   },
   {
@@ -81,14 +81,14 @@
    "offset": 668,
    "len": 64,
    "en": "\"Mayhap I can help thee in thy struggle against the @gargoyles.\"",
-   "zh": "「或許吾能在汝對抗@gargoyles（魔像）族的征途中助一臂之力。」",
+   "zh": "「或許吾能在汝對抗@gargoyles（魔像族）族的征途中助一臂之力。」",
    "note": ""
   },
   {
    "offset": 735,
    "len": 50,
    "en": "\"Thou needst but ask and I will gladly @join, $G.\"",
-   "zh": "「汝只需開口，吾便欣然@join（加入），$G。」",
+   "zh": "「汝只需開口，吾便欣然@join（入伙），$G。」",
    "note": ""
   },
   {
@@ -123,7 +123,7 @@
    "offset": 1149,
    "len": 65,
    "en": "\"I would gladly @join thee, $G, if thou had a use for my skills.\"",
-   "zh": "「若汝用得上吾的技藝，吾欣然@join（加入）汝，$G。」",
+   "zh": "「若汝用得上吾的技藝，吾欣然@join（入伙）汝，$G。」",
    "note": ""
   },
   {

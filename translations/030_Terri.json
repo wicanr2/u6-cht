@@ -88,7 +88,7 @@
    "offset": 429,
    "len": 80,
    "en": "*\"Copper @pence, silver pieces, and @gold crowns - they're all made right here.\"",
-   "zh": "*「銅@pence便士、銀幣、@gold（金冕）——皆在此地鑄造。」",
+   "zh": "*「銅@pence便士、銀幣、@gold（金幣）——皆在此地鑄造。」",
    "zh_bytes": 43,
    "note": "@pence→@便士；@gold→@金；保留 * 前綴"
   },
@@ -192,7 +192,7 @@
    "offset": 910,
    "len": 90,
    "en": "\"Of course, I'm sure you only carry @gold crowns with you, being as important as you are.\"",
-   "zh": "「當然，似你這般要人，必定只帶@gold（金冕）在身。」",
+   "zh": "「當然，似你這般要人，必定只帶@gold（金幣）在身。」",
    "zh_bytes": 43,
    "note": ""
   },

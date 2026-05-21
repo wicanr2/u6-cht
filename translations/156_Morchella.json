@@ -60,7 +60,7 @@
    "offset": 364,
    "len": 79,
    "en": "\"That's right, me bucko. Why, I've sailed with Lord @British and Captain @John.",
-   "zh": "「沒錯，夥計。俺可是跟@British（不列）顛王和@John（約翰）船長一同出過海的。",
+   "zh": "「沒錯，夥計。俺可是跟@British（不列顛王）顛王和@John（約翰）船長一同出過海的。",
    "note": "split string，下接 honest sailor"
   },
   {
@@ -95,7 +95,7 @@
    "offset": 749,
    "len": 89,
    "en": "\"If ye give me a @shield of the Order of the Serpent, I'll tell ye where that map be at.\"",
-   "zh": "「若你給俺一面蛇紋騎士團的@shield（盾牌），俺就告訴你那張地圖在哪。」",
+   "zh": "「若你給俺一面蛇紋騎士團的@shield（盾），俺就告訴你那張地圖在哪。」",
    "note": ""
   },
   {

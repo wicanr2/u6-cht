@@ -172,7 +172,7 @@
    "offset": 1520,
    "len": 72,
    "en": "\"My mother told me to give it to father when he returned from the @sea.\"",
-   "zh": "「我母親叫我等父親從@sea（大海）歸來時交給他。」",
+   "zh": "「我母親叫我等父親從@sea（海）歸來時交給他。」",
    "note": ""
   },
   {
@@ -298,7 +298,7 @@
    "offset": 2743,
    "len": 74,
    "en": "\"If my @father had been drinking at the @inn, Yorl would have been there.\"",
-   "zh": "「若我@father（父親）在@inn（旅店）喝酒，尤爾必然也在。」",
+   "zh": "「若我@father（父親）在@inn（客棧）喝酒，尤爾必然也在。」",
    "note": ""
   },
   {

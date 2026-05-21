@@ -130,14 +130,14 @@
    "offset": 973,
    "len": 32,
    "en": "\"Gideon runs the Haunting @Inn.\"",
-   "zh": "「吉迪恩打理鬼影@Inn（旅店）。」",
+   "zh": "「吉迪恩打理鬼影@Inn（客棧）。」",
    "note": ""
   },
   {
    "offset": 1008,
    "len": 62,
    "en": "\"His @wife has a garden which you can see from my front door.\"",
-   "zh": "「他@wife（妻子）的花園從我門口就能看到。」",
+   "zh": "「他@wife（妻）的花園從我門口就能看到。」",
    "note": ""
   },
   {
@@ -235,7 +235,7 @@
    "offset": 1914,
    "len": 39,
    "en": "His eyes widen. \"@Gargoyles they were!\"",
-   "zh": "他眼睛睜大。「那是@Gargoyles（魔像）族！」",
+   "zh": "他眼睛睜大。「那是@Gargoyles（魔像族）族！」",
    "note": ""
   },
   {

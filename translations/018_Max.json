@@ -56,7 +56,7 @@
    "offset": 155,
    "len": 34,
    "en": "\"Do you wanta @weapons or @armor?\"",
-   "zh": "「汝想要@weapons（兵器）抑或@armor（甲冑）嘛？」",
+   "zh": "「汝想要@weapons（兵器）抑或@armor（盔甲）嘛？」",
    "zh_bytes": 28,
    "note": "@weapons → @兵器；@armor → @甲冑"
   },

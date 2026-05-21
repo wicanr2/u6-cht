@@ -67,14 +67,14 @@
    "offset": 544,
    "len": 48,
    "en": "\"As I said, I am Zoltan, @king of the @gypsies!\"",
-   "zh": "「如吾所言，吾乃佐爾坦，@king（吉普）賽人之@gypsies（王）！」",
+   "zh": "「如吾所言，吾乃佐爾坦，@king（國王）賽人之@gypsies（王）！」",
    "note": ""
   },
   {
    "offset": 603,
    "len": 37,
    "en": "\"Yes, Zoltan, @king of the @gypsies!\"",
-   "zh": "「是的，佐爾坦，@king（吉普）賽人之@gypsies（王）！」",
+   "zh": "「是的，佐爾坦，@king（國王）賽人之@gypsies（王）！」",
    "note": ""
   },
   {
@@ -200,7 +200,7 @@
    "offset": 1817,
    "len": 42,
    "en": "\"It's on the same island as the @Lycaeum.\"",
-   "zh": "「它和@Lycaeum（萊西）厄姆在同一座島上。」",
+   "zh": "「它和@Lycaeum（學苑）厄姆在同一座島上。」",
    "note": ""
   },
   {
@@ -403,7 +403,7 @@
    "offset": 3922,
    "len": 91,
    "en": "\"We took the corner of the tablet that they missed to the @Lycaeum and sold it to @Mariah.\"",
-   "zh": "「吾等把他們沒拿走的那角石板帶到@Lycaeum（萊西）厄姆，賣給了@Mariah（瑪麗）亞。」",
+   "zh": "「吾等把他們沒拿走的那角石板帶到@Lycaeum（學苑）厄姆，賣給了@Mariah（瑪麗）亞。」",
    "note": ""
   },
   {

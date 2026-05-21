@@ -25,7 +25,7 @@
    "offset": 238,
    "len": 54,
    "en": "He turns back to you. \"Welcome to the @Haunting @Inn.\"",
-   "zh": "他轉回面向汝。「歡迎來到@Haunting（鬼影）@Inn（旅店）。」",
+   "zh": "他轉回面向汝。「歡迎來到@Haunting（鬼影）@Inn（客棧）。」",
    "note": ""
   },
   {
@@ -74,7 +74,7 @@
    "offset": 665,
    "len": 53,
    "en": "\"My @wife tells me I spread too many of them around.\"",
-   "zh": "「我@wife（妻子）說我傳的閒話太多了。」",
+   "zh": "「我@wife（妻）說我傳的閒話太多了。」",
    "note": ""
   },
   {
@@ -95,7 +95,7 @@
    "offset": 875,
    "len": 80,
    "en": "\"My @wife would say it is to annoy the customers with idle @banter. She's dear.\"",
-   "zh": "「我@wife（妻子）會說，是拿閒@banter（話聒）噪客人。她真可愛。」",
+   "zh": "「我@wife（妻）會說，是拿閒@banter（話聒）噪客人。她真可愛。」",
    "note": ""
   },
   {
@@ -620,7 +620,7 @@
    "offset": 6502,
    "len": 110,
    "en": "\"Had he been raised by someone with a good heart, he might have been one of Lord @British's greatest knights.\"",
-   "zh": "「若他由善良之人撫養成人，或許早已成為不列顛@British（陛）下最傑出的騎士之一。」",
+   "zh": "「若他由善良之人撫養成人，或許早已成為不列顛@British（不列顛王）下最傑出的騎士之一。」",
    "note": ""
   },
   {

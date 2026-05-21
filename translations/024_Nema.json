@@ -64,7 +64,7 @@
    "offset": 187,
    "len": 34,
    "en": "\"I tend Lord @British's @orchard.\"",
-   "zh": "「我打理@British（不列）顛王的@orchard（果園）。」",
+   "zh": "「我打理@British（不列顛王）顛王的@orchard（果園）。」",
    "zh_bytes": 28,
    "note": "@British → @不列顛王"
   },
@@ -224,7 +224,7 @@
    "offset": 982,
    "len": 82,
    "en": "\"Morpheus is the King of @Slumberland! I think the @moon is one of his daughters.\"",
-   "zh": "「摩耳甫斯乃@Slumberland（夢鄉）之王！我想@moon（月）便是他女兒之一。」",
+   "zh": "「摩耳甫斯乃@Slumberland（夢鄉）之王！我想@moon（月光石）便是他女兒之一。」",
    "zh_bytes": 48,
    "note": "Slumberland → 夢鄉"
   },
@@ -288,7 +288,7 @@
    "offset": 1278,
    "len": 109,
    "en": "\"Sleep is the finest medicine, for in our @dreams lie the @answers to all the problems of the @waking world.\"",
-   "zh": "「眠乃最佳良藥，因@dreams（夢）中藏有@answers（覺醒）世界一切@waking（難題）之解答。」",
+   "zh": "「眠乃最佳良藥，因@dreams（夢境）中藏有@answers（覺醒）世界一切@waking（難題）之解答。」",
    "zh_bytes": 55,
    "note": ""
   },

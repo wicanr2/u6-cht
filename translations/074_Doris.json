@@ -61,7 +61,7 @@
    "offset": 308,
    "len": 60,
    "en": "\"I'm in charge of the Tinker's Inn while my @father's away.\"",
-   "zh": "「家@father（父）外出時，工匠客棧由我代為打理。」"
+   "zh": "「家@father（父親）外出時，工匠客棧由我代為打理。」"
   },
   {
    "offset": 371,
@@ -97,13 +97,13 @@
    "offset": 664,
    "len": 85,
    "en": "\"My father called me back from the @Lycaeum so that he could go fight the gargoyles.\"",
-   "zh": "「家父自@Lycaeum（學院）召我回來，自己卻去打魔像族了。」"
+   "zh": "「家父自@Lycaeum（學苑）召我回來，自己卻去打魔像族了。」"
   },
   {
    "offset": 770,
    "len": 57,
    "en": "\"Yes, I'm learning the mystic arts from the great @Xiao.\"",
-   "zh": "「對，我師從偉大的@Xiao（蕭學）習奧術。」"
+   "zh": "「對，我師從偉大的@Xiao（蕭）習奧術。」"
   },
   {
    "offset": 830,
