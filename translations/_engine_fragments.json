@@ -88,6 +88,11 @@
   { "en": "They drag you to an altar.",                             "zh": "彼等將汝拖向祭壇。" },
   { "en": "You are to be sacrificed!",                              "zh": "汝將被獻祭！" },
 
+  { "en": "\nNot usable\n",                                         "zh": "\n不可使用\n" },
+  { "en": "Not usable.\n",                                          "zh": "不可使用。\n" },
+  { "en": "Not usable.",                                            "zh": "不可使用。" },
+  { "en": "Not usable\n",                                           "zh": "不可使用\n" },
+  { "en": "Not usable",                                             "zh": "不可使用" },
   { "en": "Not possible.",                                          "zh": "不可能。" },
   { "en": "Not possible!",                                          "zh": "不可能！" },
   { "en": "Not possible\n",                                         "zh": "不可能\n" },
