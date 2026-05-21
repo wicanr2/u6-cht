@@ -1039,7 +1039,7 @@ index aaa8f5d4..f7164507 100644
  		::debug(1, "%s", string);
  	}
 diff --git a/engines/ultima/nuvie/script/script_cutscene.cpp b/engines/ultima/nuvie/script/script_cutscene.cpp
-index 374ee036..5ba40086 100644
+index 374ee036..d4b946aa 100644
 --- a/engines/ultima/nuvie/script/script_cutscene.cpp
 +++ b/engines/ultima/nuvie/script/script_cutscene.cpp
 @@ -35,6 +35,7 @@
@@ -1050,7 +1050,18 @@ index 374ee036..5ba40086 100644
  #include "common/system.h"
  
  namespace Ultima {
-@@ -1182,6 +1183,12 @@ ScriptCutscene::ScriptCutscene(GUI *g, Configuration *cfg, SoundManager *sm) : G
+@@ -1155,6 +1156,10 @@ int nscript_transfer_save_game(lua_State *L) {
+ ScriptCutscene::ScriptCutscene(GUI *g, Configuration *cfg, SoundManager *sm) : GUI_Widget(nullptr) {
+ 	config = cfg;
+ 	gui = g;
++	// CHT: ensure translation table loaded before cinematic plays. Cutscene
++	// runs before Game::init() which is where CHTranslate::load is normally
++	// called. Calling here makes intro captions translatable.
++	CHTranslate::get()->load(cfg);
+ 
+ 	cursor = Game::get_game()->get_cursor();
+ 	x_off = Game::get_game()->get_game_x_offset();
+@@ -1182,6 +1187,12 @@ ScriptCutscene::ScriptCutscene(GUI *g, Configuration *cfg, SoundManager *sm) : G
  	if (game_type == NUVIE_GAME_U6) {
  		config_get_path(config, "u6.set", path);
  		font->init(path);
@@ -1063,7 +1074,7 @@ index 374ee036..5ba40086 100644
  	}
  	//FIXME load other fonts for MD / SE if needed here.
  	if (game_type == NUVIE_GAME_SE) {
-@@ -1485,7 +1492,9 @@ void ScriptCutscene::print_text(CSImage *image, const char *s, uint16 *x, uint16
+@@ -1485,7 +1496,9 @@ void ScriptCutscene::print_text(CSImage *image, const char *s, uint16 *x, uint16
  	int len = *x - startx;
  	size_t start = 0;
  	size_t found;
@@ -1074,7 +1085,7 @@ index 374ee036..5ba40086 100644
  	Common::List<Common::String> tokens;
  	int space_width = font->getStringWidth(" ");
  	//uint16 x1 = startx;
-@@ -1539,7 +1548,9 @@ void ScriptCutscene::print_text(CSImage *image, const char *s, uint16 *x, uint16
+@@ -1539,7 +1552,9 @@ void ScriptCutscene::print_text(CSImage *image, const char *s, uint16 *x, uint16
  }
  
  void ScriptCutscene::print_text_raw(CSImage *image, const char *string, uint16 x, uint16 y, uint8 color) const {
