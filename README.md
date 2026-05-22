@@ -1,684 +1,605 @@
 # Ultima VI 繁體中文化專案
 
-> *Ultima VI: The False Prophet* (1990 Origin Systems) 完整繁體中文化
+> *Ultima VI: The False Prophet* (1990 Origin Systems) — 完整繁體中文化  
 > 199 NPC + BOOK.DAT + 開場 cinematic 全翻譯 ✦ ScummVM Nuvie engine ✦ AR PL UMing 11px Big5 字型
 
-![title](docs/screenshots/11_intro_caption1.png)
-*汝之世界已歷五載春秋，自汝凱旋歸自不列顛尼亞 — Ultima VI 開場字幕 v1.3.1*
+---
 
-## 實機截圖
+## 目錄
+
+1. [一句話說清楚（Hero Section）](#hero)
+2. [快速開始（Quick Start）](#quick-start)
+3. [為何要漢化 U6？](#why)
+4. [黑暗三紀 — Ultima 系列大歷史](#dark-ages)
+5. [八德代數美 — 2³ 的設計哲學](#virtues)
+6. [Ankh 的故事 — 一個符號橫跨三千年](#ankh)
+7. [Lingua Magica — 26 個魔法音節構成的語言](#lingua-magica)
+8. [Britannia 世界 — 八德八城](#britannia)
+9. [實機截圖展示](#screenshots)
+10. [1992 台灣中文化先行者](#pioneers-1992)
+11. [Technical Deep Dive](#technical-deep-dive)
+12. [License & Credits](#credits)
+
+---
+
+<a name="hero"></a>
+## 🏰 Ultima VI 繁體中文版 — 以母語走進 Britannia
+
+![intro-zh](docs/screenshots/09_intro_zh.png)
+*「汝之世界已歷五載春秋，自汝凱旋歸自不列顛尼亞。」— Ultima VI 開場字幕，以繁體中文呈現*
+
+這是 **Ultima VI: The False Prophet（1990）** 的完整繁體中文化版本。
+
+| 項目 | 狀態 |
+|------|------|
+| NPC 對話翻譯 | **199 / 199** 全完成 |
+| BOOK.DAT 書卷 | 127 條（1897 字串） |
+| 開場 Cinematic | 全 27 個 Lua chunk 中文字幕 |
+| 平台 | ScummVM（Linux / Win / Mac / Web / RetroArch） |
+| 字型 | AR PL UMing 11px Big5 點陣嵌入式 |
+| GitHub | [wicanr2/u6-cht](https://github.com/wicanr2/u6-cht) |
+
+---
+
+<a name="quick-start"></a>
+## ⚡ 快速開始
+
+### 你需要準備
+
+- **ScummVM**（含 Nuvie engine 的自訂 build，見 [Release](https://github.com/wicanr2/u6-cht/releases)）
+- **Ultima VI 原版遊戲資料**（自行取得合法拷貝）
+- **`cht_strings.tab`**（繁中字串表，本 repo 附帶）
+- **`big5_u6_12x12.fnt`**（Big5 字型，本 repo 附帶）
+
+### 三步啟動
+
+```bash
+# 1. 取得本 repo
+git clone https://github.com/wicanr2/u6-cht.git
+
+# 2. 複製字型與字串表到遊戲目錄
+cp working/game/cht_strings.tab  /path/to/ultima6/
+cp working/game/big5_u6_12x12.fnt /path/to/ultima6/
+
+# 3. 啟動 ScummVM
+./scummvm --extrapath=dists/engine-data ultima6
+```
+
+啟動後你會看到——
+
+![lb-dialog](docs/screenshots/08_lb_dialog.png)
+*不列顛王以繁體中文問候聖者。*
+
+---
+
+<a name="why"></a>
+## ✨ 為何要漢化 Ultima VI？
+
+1990 年，美國 Origin Systems 推出 *Ultima VI: The False Prophet*。這不只是一款 RPG，而是電玩史上第一次有遊戲用「敵人的文明視角」質問玩家的道德立場。
+
+1992 年，台灣電腦玩家雜誌出版《創世紀聖者之書特別版》（83 頁），軟體世界發行《創世紀６遊戲手冊》（13 頁）。那個年代沒有攻略 App、沒有 Twitch、沒有 Discord；台灣的第一批 Ultima 玩家就憑這兩本薄薄的中文文件，走進一個幾乎全英文的 Britannia 世界。
+
+**三十年後，這個專案想做的事很簡單**：讓 2024 年的台灣玩家，能以母語讀到 Iolo 的一聲「汝便是聖者？」、不列顛王的「卿此番辛苦了」，以及魔像族那句充滿尊嚴的「願爾族與本族永守和平」。
+
+> *「見汝甚悅，友也。或汝有閒一聽古事？」*
+> — 「'Tis good to see thee, friend. Mayhap thou hast time for a tale?」
+
+---
+
+<a name="dark-ages"></a>
+## 📜 黑暗三紀 — Ultima 系列的歷史脈絡
+
+Ultima 系列分三個時代，理解脈絡才能感受 U6 的重量。
+
+### 第一紀：黑暗三紀（Ultima I–III, 1980–1983）
+
+三個魔王、三場征途。玩家扮演「異世界來客 (Stranger)」，幫助 Lord British 打敗：
+
+| 作品 | 反派 | 主題 |
+|------|------|------|
+| Ultima I (1981) | **蒙丹 (Mondain)** | 擊碎不死寶石 |
+| Ultima II (1982) | **米娜克斯 (Minax)** | 時空旅行追緝 |
+| Ultima III (1983) | **米索 (Exodus)** | 對抗半人半機器神祇 |
+
+這三紀的主題是傳統英雄史詩：「**找到壞人，打倒他，世界得救**」。
+
+### 第二紀：Avatar 的誕生（Ultima IV–VI）
+
+1985 年，Garriott 做了 RPG 史上最大的設計革命：**取消反派**。
+
+Ultima IV 沒有主線魔王。目標不是「打敗誰」，而是「**成為 Avatar**」——在真理、愛、勇氣三原則下修練八大美德，走遍八座聖壇，成為道德的化身。這是電玩史上第一次把「玩家自身行為的道德性」當作核心機制。
+
+Ultima V–VI 則更進一步：**「美德」本身被扭曲、被質疑、被翻轉**。
+
+| 作品 | Avatar 的處境 |
+|------|------|
+| Ultima IV (1985) | **成聖之旅**。從 Stranger 升華為 Avatar，RPG 史上首次以道德修為為核心 |
+| Ultima V (1988) | LB 失蹤，攝政 Blackthorn 把八德扭曲成暴政律法（「不誠實者處死」）。Avatar 回 Britannia 推翻 Shadowlords |
+| **Ultima VI (1990)** | **本作**。魔像族從紅色月之門現身攻擊 Britannia。Avatar 第三次返回，最終發現：**自己才是魔像族眼中的假先知** |
+
+### Ultima VI 的道德反轉
+
+> U6 的結局揭示：Avatar 當年在冥河深淵取走**知識寶典 (Codex of Ultimate Wisdom)**，無意間摧毀了魔像族的世界支柱，引發整個族群的末日災難。魔像族發動戰爭，是為了奪回族群的聖典。
+>
+> **敵人往往只是另一種文化的視角。** Garriott 在冷戰末期用這個故事說了這句話。
+
+真結局：Avatar 協商和平，把知識寶典放到中立位置，讓兩族共讀。
+
+---
+
+<a name="virtues"></a>
+## 🔮 八德代數美 — 2³ 的設計哲學
+
+Garriott 把所有德目歸納到三個底層原則：**Truth（真理）/ Love（愛）/ Courage（勇氣）**。
+
+八大美德是這三者的**全部組合**（含「三者皆有」與「三者皆無」）——數學上是 2³ = 8，所以剛好八個。這不是巧合，是設計結構：
+
+```
+        Truth
+       /     \
+      /       \
+  Honesty   Honor
+   (T)      (T+C)
+  /               \
+Justice       Valor
+(T+L)          (C)
+  \               /
+  Sacrifice  Compassion
+   (L+C)       (L)
+      \       /
+       \     /
+      Spirituality
+        (T+L+C)
+
+            Humility = ∅（三者皆無）
+```
+
+| 美德 | 中文 | 構成 | 真言 | 對應城市 | 對應職業 |
+|------|------|------|------|----------|----------|
+| Honesty | 誠實 | Truth | **ahm** | 月光城 (Moonglow) | 法師 (Mage) |
+| Compassion | 慈悲 | Love | **mu** | 不列顛城 (Britain) | 吟遊詩人 (Bard) |
+| Valor | 勇敢 | Courage | **ra** | 哲倫 (Jhelom) | 戰士 (Fighter) |
+| Justice | 正義 | Truth + Love | **beh** | 紫衫城 (Yew) | 德魯依 (Druid) |
+| Sacrifice | 犧牲 | Love + Courage | **cah** | 米諾克 (Minoc) | 技工 (Tinker) |
+| Honor | 榮譽 | Truth + Courage | **summ** | 川辛 (Trinsic) | 聖騎士 (Paladin) |
+| Spirituality | 靈性 | Truth + Love + Courage | **om** | 史卡拉布雷 (Skara Brae) | 遊俠 (Ranger) |
+| Humility | 謙卑 | （三者皆無） | **lum** | 新馬精西亞 (New Magincia) | 牧人 (Shepherd) |
+
+> **哲學巧思**：Humility（謙卑）= 三者皆無。最高境界是「零」。這跟老子「為學日益，為道日損」異曲同工。——也是為什麼只有 3% 玩家選 Shepherd 起始職業：沒人想從謙卑出發，但真正的聖者恰恰從這裡開始。
+
+### Avatar 是「你」，不是劇情角色
+
+遊戲開場用**心理測驗**決定你最契合哪種美德，然後決定起始職業。你身在地球，透過月之門 (Moongate) 被 Lord British 召回 Britannia——這個「**你被傳送到異世界**」的設定在 1985 年是創舉，比後來的「異世界轉生」題材早了 30 多年。
+
+---
+
+<a name="ankh"></a>
+## ☥ Ankh 的故事 — 一個符號橫跨三千年
+
+**安卡（Ankh，☥）**是古埃及象形文字「生命」的符號，擁有三千年歷史。Garriott 選擇它作為 Britannia 八德的共同標誌，使每種美德都帶著「生命」的底蘊。
+
+在遊戲世界中，安卡無所不在：川辛城門刻著安卡石碑、Spirituality 美德的符文就是安卡形狀、原版遊戲盒附贈的實體安卡護符是 1990 年代 Origin 玩家的「入場券」。
+
+台灣 1992 年版《創世紀聖者之書》封面也以安卡為核心裝飾——這個符號從古埃及出發，流經 Britannia 的八德哲學，抵達台灣玩家的書架。
+
+> 遊戲手冊物品欄：「**安卡** — 登太空船必備」
+> *(軟體世界《創世紀６遊戲手冊》)*
+
+---
+
+<a name="lingua-magica"></a>
+## 🪄 Lingua Magica — 26 個魔法音節構成的語言
+
+Ultima 的魔法不是「記憶咒語名稱」的遊戲——它是一套**可預測的語法體系**。26 個基本音節各有明確意義，玩家組合這些音節即可「讀懂」任何咒語。
+
+### 26 音節完整表
+
+*(來源：軟體世界《創世紀６遊戲手冊》p40)*
+
+| 音節 | 意義 | | 音節 | 意義 |
+|------|------|-|------|------|
+| **An** | 反法 / 解除術 | | **Nox** | 毒 |
+| **Bet** | 微小 | | **Ort** | 魔法 |
+| **Corp** | 死亡 | | **Por** | 移動 |
+| **Des** | 降低 | | **Quas** | 幻像 |
+| **Ex** | 釋放 | | **Rel** | 改變 |
+| **Flam** | 火 | | **Sanct** | 保護 |
+| **Grav** | 能量 / 力場 | | **Tym** | 時間 |
+| **Hur** | 風 | | **Uus** | 升起 |
+| **In** | 製造 / 產生 / 引起 | | **Vas** | 偉大 |
+| **Jux** | 危險 / 陷阱 / 傷害 | | **Wis** | 知識 |
+| **Kal** | 召喚 / 傳喚 | | **Xen** | 怪物 |
+| **Lor** | 光 | | **Ylem** | 物質 |
+| **Mani** | 生命 / 治療 | | **Zu** | 睡眠 |
+
+### 咒語解碼示範
+
+```
+In Mani    = 製造(In) + 生命(Mani)  → 治療術
+An Corp    = 解除(An) + 死亡(Corp)  → 復活術
+Corp Por   = 死亡(Corp) + 移動(Por) → Telekinesis（殺傷力移動）
+Vas Flam   = 偉大(Vas) + 火(Flam)   → 大火球術
+In Lor     = 製造(In) + 光(Lor)     → 魔法照明
+Kal Xen    = 召喚(Kal) + 怪物(Xen) → 召喚術
+```
+
+這套音節系統與 Gargish 語（魔像族語言）有共同字根：`mani` = life，`wis` = knowledge，`por` = move，`an` = negate。說明 Britannia 語言與 Gargish 語有共同祖先——這是 Garriott 世界觀設計的深度。
+
+### 八環咒語（手冊中文名節錄）
+
+| 環 | 代表咒語 |
+|----|----------|
+| 第一環 | 製造食物、偵測魔法、治療術、魔法照明 |
+| 第二環 | 夜眼術、魔法箭、解除陷阱、催眠術 |
+| 第三環 | 火球術、魔法鎖、群體催眠 |
+| 第四環 | 毒氣力場、招魂術、銅見術 |
+| 第五環 | 能量牆、烈焰之風、魔法之網 |
+| 第六環 | 爆炸術、隱身術、霹靂閃電 |
+| 第七環 | 月門傳送術、殺死術、能量風暴 |
+| 第八環 | 天崩地裂、復活術、時間停止 |
+
+---
+
+<a name="britannia"></a>
+## 🗺️ Britannia 世界 — 八德八城
+
+八座城市各守一德，構成 Britannia 的道德地理。
+
+```
+        北方
+    Yew(Justice)  Moonglow(Honesty)
+                  [Verity Isle 島]
+西  Jhelom           Britain(Compassion)  東
+    [Valorian Isles]  [首都]
+    Minoc(Sacrifice)  Cove(Compassion副)
+         Trinsic(Honor)
+         [港口]
+    Skara Brae(Spirituality)
+    [島，已成鬼鎮]
+         New Magincia(Humility)
+              南方
+```
+
+### 各城概覽
+
+#### 月光城 (Moonglow) — 誠實 · ahm
+真理島 (Verity Isle) 上的學者之城。Lyceum 學院、天文塔、星象家雲集。NPC 代表：**Mariah（瑪萊雅）**。
+
+> 月光城最諷刺的設計：對話裡撒謊會掉誠實點數，但半夜潛進別人家偷麵包不會。「全 Britannia 最誠實的扒手」住在月光城。
+
+#### 不列顛城 (Britain) — 慈悲 · mu
+王國首都，不列顛王親治。Healer's Guild、療傷聖壇。NPC 代表：**Lord British（不列顛王）**、**Geoffrey（傑佛瑞）**、**Iolo（尤洛）**。
+
+#### 哲倫 (Jhelom) — 勇敢 · ra
+三座小島組成的群島，尚武文化，競技場、武器商雲集。NPC 代表：武人訓練師。
+
+#### 紫衫城 (Yew) — 正義 · beh
+森林深處的德魯依之城，有法庭、監獄。法官 Lord Michael 主持審判。
+
+> 尤伊監獄關著被誣陷的 Weston——要在「正義之城」實踐正義，Avatar 得在外面跑兩小時。
+
+#### 米諾克 (Minoc) — 犧牲 · cah
+北方林邊工匠之城，有鐵匠、製弓鋪，城外有吉普賽營。NPC 代表：**Julia（茱莉雅）**。
+
+#### 川辛 (Trinsic) — 榮譽 · summ
+南方港口、聖騎士訓練城。城門口刻著安卡護符。NPC 代表：**Sentri**。
+
+> U7 最震驚的 cold open：整個系列中，Honor 之城川辛發生了謀殺案。Garriott 用這個設計宣告：連榮譽都崩了。
+
+#### 史卡拉布雷 (Skara Brae) — 靈性 · om
+**U6 的史卡拉布雷已成鬼鎮**——U5 時代被 Shadowlords 攻擊，居民集體死亡，現在只剩亡靈 NPC。
+
+> 「Spirituality（靈性）的城，居民全部變成 spirits（鬼魂）」——字面意義的「修仙成功」。亡靈 NPC 跟你聊得很自然，直到你拿出靈魂之鏡，他才驚覺自己已是鬼魂。
+
+#### 新馬精西亞 (New Magincia) — 謙卑 · lum
+廢城重建，只剩幾戶簡樸農牧家庭。NPC 代表：**Katrina（卡崔娜）**牧羊女。
+
+> 舊馬精西亞（Old Magincia）因居民過度驕傲，被海盜屠城滅族。Garriott 把整座城從地圖抹掉——「用 NPC 大屠殺來教訓玩家：不要驕傲」是史上最戲劇性的 retcon。
+
+### NPC 生態
+
+U6 是 RPG 史上第一次給約 200 個 NPC 各別撰寫獨立對話樹 + 日常作息表的作品。每個 NPC 白天工作、傍晚回家、夜裡睡覺；打開門進別人臥室會被當小偷。
+
+**Chuckles** 是宮廷弄臣會說笑話；**Sherry** 是一隻會說話的寵物鼠；**Smith** 是一匹會說話的馬。這個世界，每個生命都有自己的故事。
+
+### Gargish 構造語言
+
+Origin 認真為魔像族設計了一套可組合的語言：
+
+| 詞根 | 意義 |
+|------|------|
+| `ah` | 偉大 (great) |
+| `an` | 否定 (negate) |
+| `in` | 造作 (make) |
+| `wis` | 知識 (knowledge) |
+| `mani` | 生命 (life / heal) |
+| `por` | 移動 (move) |
+
+複合：`an wis` = 無知、`in mani` = 治療術、`an ra` = 黑暗。
+
+魔像族的三美德是 **控制 (Control) / 熱情 (Passion) / 勤勉 (Diligence)**——表面與 Britannia 三原則相反，深層卻對應同一道德三角，是 Garriott 設計的鏡像哲學。
+
+---
+
+<a name="screenshots"></a>
+## 📸 實機截圖展示
+
+### 群組 A：對話系統
+
+| LB 以中文問候聖者 | 「對話-」動詞中文化 |
+|---|---|
+| ![lb-dialog](docs/screenshots/08_lb_dialog.png) | ![talk](docs/screenshots/06_talk_nothing.png) |
+| *不列顛王的中文對話，文白並用語氣* | *「對話-」動詞完整替換；Talk → 對話-* |
+
+### 群組 B：美德系統
+
+| LB Quiz 美德入場考 |
+|---|
+| ![quiz](docs/screenshots/07_lb_quiz_correct.png) |
+| *Copy Protection 題目保留英文原文，附答案提示；LB 問候文字已中文化* |
+
+### 群組 C：Look 命令系統
 
 | Look 地板 | Look 牆 | Look 地毯 |
 |---|---|---|
 | ![floor](docs/screenshots/01_look_floor.png) | ![wall](docs/screenshots/02_look_wall.png) | ![carpet](docs/screenshots/03_look_carpet.png) |
+| *「汝見地板」* | *「汝見一面牆」* | *「汝見一張地毯」* |
+| *Big5 12px 渲染驗證* | *Big5 12px 渲染驗證* | *Big5 12px 渲染驗證* |
 
-| 戰鬥訊息 | 攻擊對象 | 對話-無對象 |
-|---|---|---|
-| ![combat](docs/screenshots/04_combat.png) | ![attack](docs/screenshots/05_attack.png) | ![talk](docs/screenshots/06_talk_nothing.png) |
+### 群組 D：戰鬥系統
 
-| LB Quiz 答對 | LB 對話 |
+| 戰鬥訊息 | 攻擊對象 |
 |---|---|
-| ![quiz](docs/screenshots/07_lb_quiz_correct.png) | ![lb](docs/screenshots/08_lb_dialog.png) |
+| ![combat](docs/screenshots/04_combat.png) | ![attack](docs/screenshots/05_attack.png) |
+| *「Iolo 擦傷」「重度受傷」均已中文化* | *攻擊動詞 + 目標全中文呈現* |
 
-### Intro Cinematic 繁中字幕（v1.2+）
+### 群組 E：開場 Cinematic
 
 | 開場字幕 | 寒風漸起 | 雷光交響 |
 |---|---|---|
 | ![intro1](docs/screenshots/11_intro_caption1.png) | ![intro2](docs/screenshots/12_intro_chill_wind.png) | ![intro3](docs/screenshots/13_intro_lightning.png) |
+| *汝之世界已歷五載春秋* | *寒風漸起，紅月之門即將開啟* | *魔像族自紅色月之門現身，Avatar 的征途開始* |
 
 > v1.3.1 完成全 27 個 intro cinematic Lua chunk 中文化，涵蓋開場至黑曜石石陣完整劇情。
 
-## 專案概覽
+---
 
-把 1990 年 Origin Systems 的經典 RPG **Ultima VI: The False Prophet** 改成繁體中文版本。
-做法：以 ScummVM/Nuvie engine 為基礎，加上 Big5 12×12 字型支援與 load-time 字串替換機制。
+<a name="pioneers-1992"></a>
+## 🏛️ 1992 台灣中文化先行者
 
-- 平台：ScummVM (Linux/Win/Mac/web/RetroArch)
-- 字型：WenQuanYi Zen Hei Sharp 12px 嵌入式點陣字
-- 編碼：Big5（trail 0x5C 字元在風格指南內標註避用）
-- 翻譯量：200 NPCs + BOOK.DAT (1897 strings)
+在這個專案之前，有兩份 1990 年代台灣出版物為繁體中文世界奠定了 Ultima 的詞彙基礎。
+
+### 電腦玩家《創世紀聖者之書特別版》（1992，83 頁）
+
+**編者**：蘇炫榮（主編）、高文麟
+
+台灣第一批 U6 玩家的「入場券」。83 頁涵蓋：八德詞彙、怪物誌（從樹妖到蝙猴）、八大城市介紹、p59–75 的八環魔法咒語完整列表。
+
+書版採「**英文專有名詞保留 + 概念詞中譯**」路線——Lord British 不譯、城市名保英文，但八德、咒語、怪物名全數中文化。本專案在 30 年後仍奉此體例為圭臬。
+
+**關鍵譯名**：Codex of Ultimate Wisdom → **知識寶典**（本專案已採納）；Mongbat → **蝙猴**；Reaper → **樹妖**
+
+### 軟體世界《創世紀６遊戲手冊》（1990 年代，13 頁）
+
+台灣玩家的官方遊戲指南。13 頁涵蓋：7 種職業名、26 個魔法音節完整對照表、8 種施法材料中文名。
+
+**施法材料**：硫磺灰、大蒜、人蔘、曼陀羅根、血苔、龍葵、黑珍珠、蜘蛛絲——這些名字帶著強烈 1990 年代台灣翻譯風格，也是本專案譯文的「那個年代的味道」。
+
+**Trinsic 手冊譯「特林西」**（書版另有「川辛」），本專案維持「川辛」音譯偏好，但標記兩者均有史可查。
+
+### 匿名 PDF 掃描者
+
+這兩份紙本文獻得以在 2024 年仍能供我們查閱，全賴不知名的掃描者將其數位化保存。沒有他們，30 年後的漢化研究就只能憑空推測。
+
+### 與 1992 年版的詞彙決策對照
+
+| 英文 | 1992 年書版 | 本專案 v1.0 | 決議理由 |
+|------|------------|------------|----------|
+| Compassion | 同情 | **慈悲** | 文言感更強 |
+| Justice | 公正（手冊）| **正義** | 強調道德義務感 |
+| Spirituality | 心靈力量（書版）| **靈性** | 簡潔 |
+| Gargoyle | 翼魔（書版）| **魔像族** | U6 主題是種族平等；「族」點出其文明性 |
+| Mongbat | **蝙猴** ✅ | 魔蝠 ⚠️ | 書版更傳神，待修 |
+| Troll | **巨人** ✅ | 山怪 | 書版更準確，待統一 |
+| Squid | **大烏賊** ✅ | 巨烏賊 ⚠️ | 書版一致，待修 |
+| Codex of Ultimate Wisdom | **知識寶典** ✅ | 知識寶典 ✅ | 已統一 |
 
 ---
 
-## 為什麼要做這個？Ultima VI 的文化價值
+<a name="technical-deep-dive"></a>
+## 🔧 Technical Deep Dive
 
-### The Avatar — 聖者 是誰
+### 翻譯策略：文白並用
 
-「**Avatar**」一字源自梵文 **अवतार (avatāra)**，意為「神祇下凡之化身」。Richard Garriott 在 1985 年 Ultima IV 啟用這個詞——比 2009 年 James Cameron 同名電影早 24 年——不是隨意選的：他要強調主角不是「英雄」，而是**美德的化身**。
-我們譯成 **「聖者」**，取其「成聖之人」、「修德入聖」之意。不用「化身/分身」是因為中文這兩個詞偏物理性；不用「先知」是因為 U6 劇情裡魔像族正是把 Avatar 視為「假先知 (False Prophet)」，會自亂語意。
+Ultima VI 用古英文（Early Modern English）模仿莎士比亞時期語感：*thee / thou / hath / dost / 'tis*。
 
-#### Avatar 不是 NPC，Avatar 就是玩家本人
-
-Ultima 系列從 Ultima IV 起最革命性的設定——**Avatar 不是劇情角色，是「你」**。
-遊戲開場用紙本問卷做心理測驗（Origin 隨遊戲附 Cloth Map + Ankh 護符 + Manual），用問題判定玩家最契合哪一種美德，然後決定起始職業。
-召喚過程：玩家身在地球（現實世界），透過 **月之門 (moongate)** 被 Lord British 召回不列顛尼亞。
-這個「**你被傳送到另一個世界**」的設定在 1980 年代 RPG 是創舉，比後來的「異世界轉生」題材早了 30 多年。
-
-#### 系列時間軸 — Avatar 的歷史
-
-| 作品 | 年份 | Avatar 的處境 |
-|---|---|---|
-| Ultima I-III | 1980-83 | 還沒成為 Avatar，只是「異世界來客 (Stranger from Another World)」，幫 LB 打敗 Mondain → Minax → Exodus 三魔王 |
-| **Ultima IV: Quest of the Avatar** | 1985 | **成聖之旅**。透過走訪八座聖壇、完成八德試煉，從 Stranger 升華為 Avatar。RPG 史上第一次把「道德修為」當核心機制 |
-| Ultima V: Warriors of Destiny | 1988 | LB 失蹤，攝政 Blackthorn 把八德扭曲成暴政律法（例：「不誠實者處死」）。Avatar 回 Britannia 推翻 Shadowlords |
-| **Ultima VI: The False Prophet** | 1990 | **本作**。紅色 moongate 吐出 gargoyles 攻擊王國。Avatar 第三次返回，最終發現自己才是魔像族眼中的「假先知」 |
-| Ultima VII: The Black Gate | 1992 | The Guardian 反派登場。Britannia 進入早期工業化 |
-| Ultima VII Part 2: Serpent Isle | 1993 | Avatar 追蹤 Batlin / Guardian 至蛇島 |
-| Ultima VIII: Pagan | 1994 | Avatar 被 Guardian 流放到異世界 Pagan，被迫學黑魔法 |
-| Ultima IX: Ascension | 1999 | 系列終章。Avatar 修復八美德支柱、上升 (ascend) 對抗 Guardian |
-
-#### Avatar 在 U6 的特殊處境
-
-U6 開場 cutscene：Avatar 在地球家中讀書，紅色 moongate 突然開啟，從中竄出 gargoyles 將其擄走。醒來時被綁在祭壇上，眼看就要被處決——Iolo / Shamino / Dupre 三位老夥伴及時救下。
-
-這個「**被你的敵人召喚 (summoned by your enemy)**」的開場是設計上的巧妙伏筆：
-
-- 紅色月之門 ≠ 藍色月之門。Lord British 的召喚是藍色，紅色是魔像族的「召敵儀式」——他們認為「呼喚假先知前來，便可一勞永逸除之」。
-- Avatar 不知道紅色之門的存在，玩家也不知道。直到中段地底世界探索才會理解。
-- Avatar 對魔像族而言**早已在傳說中存在**——他在 Ultima IV 從 Stygian Abyss 取走 Codex of Ultimate Wisdom 時，無意間摧毀了魔像族世界的支柱。整代族人都活在這個劫難的陰影下。
-
-#### Avatar 的常駐 Companions (本作)
-
-在 U4-5 跟 Avatar 一起成名的核心夥伴，U6 開場全員集合於 Castle Britannia：
-
-| 角色 | 中譯 | 身分 |
-|---|---|---|
-| **Iolo FitzOwen** | 尤洛 | 吟遊詩人 + 工匠，原型是現實 Origin 員工 Iolo (David Watson)，他真的在 SCA (Society for Creative Anachronism) 用此名 |
-| **Shamino** | 夏米諾 | 林木民族遊俠，前為平行宇宙之王，現自願追隨 LB |
-| **Dupre** | 杜普雷 | 騎士、好酒，川辛城出身。U7-2 在蛇島自我犧牲（巨大伏筆） |
-| **Mariah** | 瑪萊雅 | 月光城法師，學者氣質，地下宮殿線索關鍵人物 |
-| **Geoffrey** | 傑佛瑞 | 城堡禁衛長，戰士類，沉穩克制 |
-| **Julia** | 茱莉雅 | 米諾克工匠 |
-| **Katrina** | 卡崔娜 | 新馬精西亞牧羊女，謙卑德象徵 |
-| **Gwenno** | 葛雯 | 詩人，Iolo 的妻子（同樣致敬現實 Origin 員工夫妻檔）|
-
-### 八大美德 (The Eight Virtues)
-
-Origin Systems 在 Ultima 系列裡建立的招牌道德框架。Richard Garriott 把美式童子軍誓言、基督教神學七德、亞瑟王傳奇圓桌精神糅合在一起，整理成一個**可運算的虛擬倫理系統**。Ultima IV (1985) 是史上第一個把「玩家行為的道德性」當作核心機制的 RPG——之前的角色扮演只看你的劍多利、血多厚。
-
-#### 三原則 → 八美德的代數推演
-
-Garriott 把所有德目歸納到三個底層 Principles：**Truth（真）/ Love（愛）/ Courage（勇）**。
-八美德是這三者的全部組合（含「三者皆有」與「三者皆無」），數學上是 2³ = 8。所以剛好八個——這不是巧合，是設計：
-
-| 英文 | 中文 | 構成 | 真言 (mantra) | 符文 (rune) | 對應城市 | 對應職業 |
-|---|---|---|---|---|---|---|
-| **Honesty** 誠實 | 誠 | Truth | **ahm** | 黃眼 | Moonglow 月光城 | Mage 法師 |
-| **Compassion** 慈悲 | 悲 | Love | **mu** | 心 | Britain 不列顛城 | Bard 吟遊詩人 |
-| **Valor** 勇氣 | 勇 | Courage | **ra** | 劍 | Jhelom 哲倫 | Fighter 戰士 |
-| **Justice** 正義 | 義 | Truth + Love | **beh** | 天秤 | Yew 尤伊 | Druid 德魯依 |
-| **Sacrifice** 犧牲 | 捨 | Love + Courage | **cah** | 滴血淚 | Minoc 米諾克 | Tinker 技工 |
-| **Honor** 榮譽 | 譽 | Truth + Courage | **summ** | 螺旋 | Trinsic 川辛 | Paladin 聖騎士 |
-| **Spirituality** 靈性 | 靈 | Truth + Love + Courage | **om** | 安卡符號 | Skara Brae 史卡拉布雷 | Ranger 遊俠 |
-| **Humility** 謙卑 | 謙 | (三者皆無) | **lum** | 牧羊鉤 | New Magincia 新馬精西亞 | Shepherd 牧人 |
-
-> **冷笑話**：八美德英文首字母 **H-C-V-J-S-H-S-H** 念起來像打嗝。但代數上完美——三個 Principle 的 2³ 子集恰好對映八德，是真的有結構美的。
-
----
-
-#### Honesty 誠實 — 月光城 (Moonglow)
-
-**精神**：純 Truth。不欺他人、不自欺。
-**城市**：月光城位於 Verity Isle（真理島），有 Lyceum 學院、天文塔，學者觀星者雲集。Mariah 居於此。
-**Avatar 必修**：完成 Lyceum 的智識試煉，找到 Codex 的部分智慧。
-
-> 月光城最諷刺的一點：在對話裡撒謊（例如自稱沒有金幣其實有）會掉誠實點數，但**半夜潛進別人家偷麵包不會**——遊戲只判定言語層的誠實。所以理論上「全 Britannia 最誠實的扒手」住在月光城。
-
----
-
-#### Compassion 慈悲 — 不列顛城 (Britain)
-
-**精神**：純 Love。對眾生之憐憫，特別是弱者。
-**城市**：王國首都，Lord British 親治。城裡有 Healer's Guild、療傷神壇。給乞丐金幣會加 Compassion，但給太多反而會被遊戲視為「炫富非慈悲」（沒錯，U4 真的有判定演算法）。
-
-> Lord British 親自當 Compassion 之城的統治者也算合適——一個願意聽 200 個 NPC 輪流抱怨「我家羊昨晚被偷了」的國王，本身就是慈悲化身。
-> Origin 員工的冷知識：1980 年代每次新員工入職，Garriott（Lord British 本人）會親自帶他去舊金山辦公室四樓的「The Throne Room」——他真的擺了一張木製王座，員工要跪下發誓「捍衛 Britannia 八美德」才能拿到員工證。
-
----
-
-#### Valor 勇氣 — 哲倫 (Jhelom)
-
-**精神**：純 Courage。直面險境而不退縮。
-**城市**：三座小島組成的群島，島民尚武，是 Fighter 訓練基地。城裡有競技場 (Fighter's Hole)、武器商。
-**Avatar 必修**：在 Stygian Abyss 八試煉之一通過勇氣考驗。
-
-> 哲倫人見面打招呼的方式：先揍你一拳看你閃不閃。U4 攻略本明文寫「**進城前請存檔，跟訓練師多講兩句話他們就會開打**」。
-> 更冷的彩蛋：哲倫的酒館叫 **The Forsaken Inn**（被遺棄的小客棧），因為**老闆娘是個失憶的退役戰士**，她不記得自己是誰，只記得「客人欠了多少錢」。永遠記得帳，從不記得故事——這設計有點黑色幽默。
-
----
-
-#### Justice 正義 — 尤伊 (Yew)
-
-**精神**：Truth（看清是非）+ Love（一視同仁）。
-**城市**：森林深處的德魯依城，有監獄、法庭。法官 Lord Michael 與大德魯依 Mnemenor 主持審判。
-
-> 尤伊城的反差：明明是 **Justice** 之城，這裡的德魯依講話卻全是「真相在風中飄揚」「自己去尋找答案」「萬物各有其位」——完全違反「公正執法 = 規則明確」的直覺。Garriott 故意設計成這樣，因為他認為**真正的正義不是條文，是脈絡判斷**。
-> U6 裡的尤伊監獄關著一個叫 **Weston** 的人，被誣陷殺人。要證明他清白必須跑全 Britannia 找線索——這個任務的諷刺：玩家為了在「正義之城」實踐正義，得在外面跑兩小時。
-
----
-
-#### Sacrifice 犧牲 — 米諾克 (Minoc)
-
-**精神**：Love（為他人）+ Courage（捨己）。
-**城市**：北方林邊的工匠之城，有鐵匠、雕刻匠、Iolo 開的 Bowyer's Shop（製弓鋪）。城外有吉普賽營。
-**典故**：U4 開場的問卷就是米諾克的吉普賽老婦 Mariah 抽塔羅幫你做的，所以是整個 Avatar 旅程的起點。
-
-> U6 Sacrifice 之城最大的犧牲：NPC **Selganor** 的對話設計。他每 30 秒自動觸發一次台詞「I am the great Selganor, master craftsman of Minoc!」——玩家經過他附近 5 分鐘會聽 10 次，可說犧牲了玩家的耳朵。原始程式碼裡這個 timer 真的存在 (`schedule entry 0xCB7A`)，Origin 員工 Warren Spector 後來受訪說：「對，那是 bug，但我們都笑說那叫 Selganor 自我宣傳的 sacrifice」。
-> 真正的 Sacrifice 教學在 U7-2 (Serpent Isle)：Dupre 為救眾人主動跳進地獄火，永久死亡。是 Ultima 全系列最催淚的一刻。
-
----
-
-#### Honor 榮譽 — 川辛 (Trinsic)
-
-**精神**：Truth（不違諾）+ Courage（守誓不退）。
-**城市**：南方港口、Paladin 聖騎士訓練城。Sentri 在這裡教武術。城門口刻著八德 ankh 護符。
-
-> 川辛城在 Ultima 系列最有名的時刻是 U7 開場：玩家透過 Guardian 的紅月之門回到 Britannia，第一站就在川辛城馬廄發現一具支解的屍體——**Honor 之城發生謀殺案**。Garriott 這手法在 1992 年震驚玩家，明確告訴你：「**這個時代不一樣了，連 Honor 都崩了**」。整個 U7 都圍繞這個 cold open 展開。
-> U6 裡川辛還是健全的，但有個彩蛋：你跟城門守衛聊「honor」，他會嚴肅回答「Honor is never having to apologize for following thy oath」——拙劣致敬 1970 年電影 *Love Story* 的爛梗「Love means never having to say you're sorry」。Origin 美編 Denis Loubet 後來承認那是他塞的笑話。
-
----
-
-#### Spirituality 靈性 — 史卡拉布雷 (Skara Brae)
-
-**精神**：三德兼具。與自我、與宇宙連結。
-**城市**：偏遠島嶼，遊俠 Ranger 訓練城。**U6 的史卡拉布雷已成鬼鎮**——U5 時代被 Shadowlords 攻擊，居民集體死亡，現在只剩亡靈與少數 spirit talker。
-
-> 史卡拉布雷的劇情玩了一個雙關：**Spirituality（靈性）的城，居民全部變成 spirits（鬼魂）**。字面意義的「修仙成功」。
-> 玩家進城會發現亡靈 NPC 跟你聊得很自然——他們不知道自己已經死了，還在重複生前的對話。直到你給 Xavier 看「靈魂之鏡」(Soul Mirror) 他才驚覺自己是個鬼，整段對話突然變得超恐怖。Origin 設計師 Mike McShaffry 在 GDC 演講提過：「我們本來只想做個古怪小鎮，後來發現如果認真演鬼故事會更好——史卡拉布雷成了 U6 唯一恐怖題材橋段」。
-
----
-
-#### Humility 謙卑 — 新馬精西亞 (New Magincia)
-
-**精神**：三德皆無，卻是諸德之本。Humility = "the lack of pride"（無傲）。
-**城市**：小島，本作裡只剩幾戶簡樸農牧家庭。倖存者牧羊女 **Katrina** 是 Avatar 的 Companion。
-
-> 這座城的**前世今生**最有戲劇性。Old Magincia（舊馬精西亞）在 Ultima III 是富庶的貿易城，居民因為過度驕傲（拒絕跟其他城來往，自稱「諸德之鄉」），結果**整座城被海盜屠城滅族**。
-> Garriott 在 Ultima IV 加 Humility 美德時，直接把整座城從地圖抹掉，改成廢墟，然後在旁邊蓋了 New Magincia——只允許牧羊人住。**最戲劇性的 retcon：用 NPC 大屠殺來向玩家教訓「不要驕傲」**。
-> 牧羊人 (Shepherd) 對應職業也很諷刺——Garriott 自承當年問卷上「**Shepherd（牧羊人）= 謙卑職業**」這個選項只有 3% 的玩家會選，因為大家都想當帥氣的法師或聖騎士，沒人想當牧羊娃。「**沒人選 Shepherd 本身就證明了人類缺乏 Humility**」，他在 1988 Computer Gaming World 採訪笑稱。
-> Pro tip：U4 真實玩家社群裡，「**Avatar 真理派**」會故意選 Shepherd 起始職業，自封 "True Avatar"。因為在最謙卑的起點達到聖位，比一開始就當聖騎士更有重量。
-
----
-
-### 殺死 Lord British 傳統 — 八德的「第九德」
-
-最後分享一個系列梗：**Ultima 玩家殺 Lord British 的傳統**。從 U1 開始每代都有方法殺 LB（雖然他是好國王），最有名的方法：
-- U6 / U7：站在城堡某天花板下，用 telekinesis 把吊燈砸下來壓死他
-- U9：戰鬥模式下硬剛（會被反殺，但有 Berserk Avatar 流派專修）
-
-Garriott 本人在 1997 年遊戲展上被觀眾質問：「你是 Lord British，但你死過幾次？」他笑著說：「**Avatar 殺我，是測試系統的最高敬意。代表玩家相信這個世界的物理真實到敢挑戰造物主**。」
-
-所以八美德之外，Ultima 社群私下開玩笑說有「**第九德：Regicide 弒君**」——對應運氣 + 機械破解的綜合美德。
-
----
-
-> **冷笑話 bonus**：Origin 員工流傳一個段子——
-> 「Lord British 給新員工授職，要他發誓守護八德，員工問：『如果我守不住怎麼辦？』
-> Lord British 答：『**那你就會變成 NPC**。』」
-
-
-### False Prophet 反轉 — Ultima VI 真正的主題
-
-U6 不只是「英雄打怪救世界」，它的劇情有一個刻意設計的**道德反轉**：
-
-1. 開場：紅色傳送門吐出魔像族 (gargoyles)，攻擊 Britannia。Avatar 從地球被召回保衛王國。
-2. 中段：玩家進入 Underworld（地底世界），發現魔像族不是無腦怪物——他們有完整的文明、城市、語言、哲學體系。
-3. 結局揭示：**Avatar 自己才是魔像族眼中的「假先知」**。當年 Avatar 在 Stygian Abyss 取走 Codex of Ultimate Wisdom，無意間摧毀了魔像族的世界，引發他們的末日災難。他們發動戰爭是為了奪回族群的聖典。
-4. 真結局：Avatar 必須協商和平，把 Codex 放到中立位置，讓兩族都能讀。
-
-Richard Garriott 在 1990 年用這個劇情教玩家：**「敵人」往往只是另一種文化的視角。**這在那個年代（冷戰末期）非常前衛。
-
-### Gargish 構造語言
-
-Origin 認真設計了一套魔像語的構詞法：
-
-| 字 | 意義 |
-|---|---|
-| `ah` | great（偉大） |
-| `an` | negate（否定） |
-| `in` | make（造作） |
-| `wis` | knowledge（知識） |
-| `mani` | life / heal（生命） |
-| `por` | move（移動） |
-
-複合：`an wis` = ignorance（無知），`in mani` = healing magic（治療術），`an ra` = darkness（無光）。
-Mantra 真言其實也是 gargish 字根：`mu` = love, `ra` = courage, `ahm` = truth。
-
-Gargoyles 的三美德是 **Control（控制）/ Passion（熱情）/ Diligence（勤勉）**——表面與 Britannian 三原則完全相反，深層卻對應同一道德三角，是 Garriott 玩的鏡像哲學。
-
-### NPC 生態
-
-U6 是 RPG 史上第一次給 ~200 個 NPC 各別撰寫獨立對話樹 + 日常作息表的作品。每座城都有自己的 micro-culture：
-
-| 城市 | 文化定位 | 代表 NPC |
-|---|---|---|
-| Britain 不列顛城 | 首都、文官中心 | Lord British, Iolo, Geoffrey |
-| Cove 海灣鎮 | 治療僧侶、Compassion 聖壇守護 | Tholden, Mariah |
-| Moonglow 月光城 | 學者、星象家、Honesty 聖壇 | Penumbra |
-| Yew 尤伊 | 法庭、德魯依、Justice 聖壇 | Lord Michael |
-| Minoc 米諾克 | 工匠公會、Sacrifice 聖壇 | Sandy, Julia |
-| Trinsic 川辛 | 騎士訓練、Honor 聖壇 | Sentri |
-| Jhelom 哲倫島 | 武人、Valor 聖壇 | Sherry's brother |
-| Skara Brae 史卡拉布雷 | 亡靈之鎮、Spirituality 聖壇 | Xavier |
-| New Magincia 新馬精西亞 | 災後重建、Humility 聖壇 | Old Ybarra, Katrina |
-| Castle Britannia 不列顛王城 | 王廷 | Lord British, Chuckles (弄臣), Sherry (寵物鼠) |
-
-每個 NPC 都有 schedule：白天工作、傍晚回家、夜裡睡覺。打開門進別人臥室會被當小偷。
-Chuckles 是宮廷弄臣會說笑話；Sherry 是一隻會說話的寵物鼠；Smith 是一匹會說話的馬。
-
----
-
-## 中文化的翻譯策略
-
-### 風格基調：文白並用
-
-Ultima VI 用古英文 (Early Modern English) 模仿莎士比亞時期語感：**thee / thou / hath / dost / 'tis**。
 中文採對應策略——**文白並用**，避兩種失敗：
 
-1. **過度白話**：失去莊重感（"What ho!" → 「嗨」會掉風格）
-2. **過度文言**：玩家讀不懂（"汝胡能至此" 太古怪，"汝為何在此" 較剛好）
-
-範例：
-
-| 原文 | ❌ 太白 | ❌ 太古 | ✅ 採用 |
-|---|---|---|---|
+| 原文 | 太白（❌） | 太古（❌） | 採用（✅） |
+|------|-----------|-----------|-----------|
 | Welcome, friend. | 嗨，朋友 | 汝來此哉 | 朋友，歡迎你 |
 | Thou art the Avatar? | 你是阿瓦塔？ | 汝即聖者乎？ | 汝便是聖者？ |
 | 'Tis good to see thee. | 看到你很高興 | 見汝甚悅哉 | 見汝甚悅 |
 
-### Lord British 的特殊待遇
+**Lord British 特殊待遇**：首次出現稱「不列顛王」全稱；後續對話稱「陛下」；LB 自稱「朕」；LB 對玩家：「卿」「聖者」。
 
-- 第一次出現：**「不列顛王」**全稱
-- 同段對話後續：**「陛下」** 代詞
-- LB 自稱：**「朕」**（國王語氣）
-- LB 對玩家：**「卿」「聖者」**
-- Iolo / Chuckles 私下戲稱：**「大鼻先生」**（Mr. Nose, 弄臣語）
+**Gargoyle 翻譯**：保留莊嚴、儀式感的文言——「願爾族與本族永守和平」(*an the urd thee a kal lem*)。
 
-### Gargoyles 翻譯
+### 架構：Plan B（Load-time 替換）
 
-魔像族保留莊嚴、儀式感的文言：
+#### 為什麼不能直接改 bytecode？
 
-| 原文 | 中文 |
-|---|---|
-| an the urd thee a kal lem | 願爾族與本族永守和平 |
-| The False Prophet | 假先知 |
-| Wisp | 流光（魔像族稱呼 Avatar 的種族中性語）|
+U6 conv VM 的 opcode 區段是 0xA1-0xFE，而 Big5 的 lead byte 恰好也是 0xA1-0xFE。**完全衝突。** Plan A（直接改 CONVERSE.A bytecode）試了 6 個 heuristic 版本，仍有無法解決的 edge cases。
 
----
+#### Plan B 架構
 
-## 技術架構
+```
+Plan A (失敗):   bytecode (Big5)  →  VM 解析  →  輸出
+                      ↑ opcode 衝突
 
-### 三條 Big5 字型路徑
-
-| 模組 | 用途 | Patch 檔 |
-|---|---|---|
-| `U6Font` | MsgScroll 8×8 原版字體 | `engines/ultima/nuvie/fonts/u6_font.{cpp,h}` |
-| `ConvFont` | NewUI ConverseGump 變寬字體 | `engines/ultima/nuvie/fonts/conv_font.{cpp,h}` |
-| `WOUFont` | cutscene / intro 字體 | `engines/ultima/nuvie/fonts/wou_font.{cpp,h}` |
-
-字型檔：`big5_u6_12x12.fnt`（v1.0：**AR PL UMing 11px embedded bitmap**；v0.x 為 WenQuanYi Zen Hei Sharp 12px，現可選），自動從 gamedir 載入。
-
-字型檔名保留 12x12 是為了 engine 相容性；內容已縮小為 11px（user feedback：12px 太大）。
-產生器 `tools/build-big5-font.py` 支援 `--font {uming,wqy-sharp} --size N`，沒有 args 時走 UMing 11px。
-
-### Load-time 字串替換 (Plan B)
-
-不動 CONVERSE.A 原 bytecode（避免 conv VM opcode 0xA1-0xFE 與 Big5 lead byte 衝突），改在 engine 印字時查表替換：
-
-1. `tools/build_lookup_table.py` → 把所有 199 NPC + BOOK.DAT + engine 硬編字串 199 個 JSON 匯成 `cht_strings.tab`（en → Big5 zh，7181 條）
-2. `engines/ultima/nuvie/misc/cht_translate.{cpp,h}` → singleton hash map，遊戲啟動時載入
-3. Hook 點：
-   - `ConverseInterpret::do_text()` — script 文字輸出，$P/$G 占位符前替換
-   - `Converse::print(const char *s)` — hardcoded engine 字串
-   - `Converse::collect_input` SIDENT / SLOOK — NPC 名 / 描述
-   - `Book::get_book_data()` — BOOK.DAT 書籍 / 卷軸
-   - `Events::look(Actor*)` / `lookAtCursor` / `search` — Look 命令的 actor / ground / search 文字
-   - `nscript_print()` — Lua-bound print，支援 "Thou dost see X" prefix-aware 重組
+Plan B (採用):   bytecode (ASCII)  →  VM 解析（原樣英文）
+                                           ↓
+                                 CHTranslate.lookup(en)
+                                           ↓
+                                      輸出 Big5
+```
 
 優點：
-- 零 byte alignment 風險
-- 中文長度不受原 ASCII byte 限制
+- 零 byte alignment 風險，零 VM 影響
+- 譯文長度不受 ASCII byte 限制
 - 翻譯資料保持 JSON 純文字，可獨立 review
 
-### 二進位 lookup 檔格式 (`cht_strings.tab`)
+### 8 個 Engine Hook 點
 
-原本想用 `en\tzh\n` 純文字格式，但發現 **88 個常用 Big5 字 trail byte = 0x5C**（如「許/功/閱/廄」等），會與文字檔的 `\\n` 反斜線 escape 撞車。
-切換為長度前綴二進位格式：
+| Hook 點 | 用途 |
+|---------|------|
+| `ConverseInterpret::do_text()` | NPC script 對話（最重要） |
+| `ConverseInterpret::collect_input` SIDENT/SLOOK | NPC 名 / 描述 |
+| `Converse::print(const char *s)` | Hardcoded engine 字串 |
+| `Book::get_book_data()` | BOOK.DAT 書籍 / 卷軸 |
+| `Events::look(Actor*)` | Look 命令的 actor 文字 |
+| `Events::lookAtCursor` / `search` | ground / search 文字 |
+| `nscript_print()` | Lua-bound print，prefix-aware 拼接 |
+| `MsgScroll::display_string` 中央 hook | 遊戲訊息統一出口 |
+
+### Binary v3 Lookup 格式
+
+大部分 Big5 字的 trail byte 是普通值，但有 **88 個常用字 trail byte = 0x5C（`\`）**（如「許、功、年、橋、笑、敵」等）。用文字格式就會被解析成 escape，整段 byte stream 偏移。
+
+解法：**Length-prefixed 二進位格式**：
 
 ```
 header:
-  bytes[8]  "U6CHT\x00\x01\x00"     magic + version
-  uint32 LE  record_count
+  bytes[8]   "U6CHT\x00\x02\x00"   magic + version
+  uint32 LE  exact_count
+  [exact records]
+  uint32 LE  fragment_count
+  [fragment records (longest match first)]
+
 each record:
-  uint16 LE  en_len + en_bytes      (UTF-8 / ASCII)
-  uint16 LE  zh_len + zh_bytes      (Big5 / cp950)
+  uint16 LE  en_len + en_bytes   (ASCII/UTF-8)
+  uint16 LE  zh_len + zh_bytes   (Big5/cp950)
 ```
 
 完全 byte-safe，任何 Big5 字都能直接寫入，無 escape 衝突。
-譯文輸出時直接是 Big5 bytes，與 U6Font Big5 path 同 byte stream，零轉換。
-
-### 已驗證 (2026-05-21)
-
-| 路徑 | 測試輸入 | 預期輸出 | 結果 |
-|---|---|---|---|
-| `Events::lookAtCursor` ground tile | Look 地板 | 「汝見地板」 | ✅ 正確 Big5 渲染 |
-| `Events::lookAtCursor` wall | Look 牆 | 「汝見一面牆」 | ✅ 正確 |
-| `Events::lookAtCursor` carpet | Look 地毯 | 「汝見一張地毯」 | ✅ 正確 |
-| `nscript_print` prefix rewrite | Lua print "Thou dost see steps." | 「汝見階梯。」 | ✅ 動態 prefix + obj 名拼接 |
-| Conv VM dialog (LB 對話) | Talk Lord British | 中文對話正常顯示 | ✅ Big5 渲染、0 `[ctl byte]` 錯誤 |
-| LB Compendium quiz | "What part of the tangle vine doth..." | 保留英文題目 + (答案: cent / pod / frag) | ✅ Copy protection 風味保留 |
-| BOOK.DAT | Look book | （待測） | 待測 |
-
----
-
-## 開發歷程與血淚經驗 (Lessons Learned)
-
-完整紀錄 plan A → plan B 切換的關鍵決策與技術坑，給未來想做類似 retro 遊戲 CJK 化的人參考。
-
-### 路線抉擇：Plan A（in-place）vs Plan B（load-time）
-
-最初路線（**Plan A**）：直接修改 `CONVERSE.A` bytecode，把英文 ASCII bytes 換成 Big5 bytes。問題：
-
-- U6 conv VM 把 **0xA1-0xFE 當作 opcode 區段**（SIDENT 0xFF、SLOOK 0xF1、IF 0xA1、SETF 0xA4、VAR 0xB2、WAIT 0xCB ...）
-- Big5 lead byte 也是 0xA1-0xFE，**完全衝突**
-- 試過 6 個版本的 heuristic detection（`is_big5_pair()` + lookahead），仍有 edge cases（`0xCB 0xA6` 撞 WAIT+DECL、`0xB0 0xAF` 撞 JUMP+arg、4 個罕用字 `餬/鎧/鎩/鷲` 卡死）
-
-最終切換 **Plan B**：保留 `CONVERSE.A` 原 ASCII 不動，VM 正常跑英文 bytecode；engine 在 **輸出層** 攔截 `add_text()` 完成的文字，查表替換成 Big5。
-
-```
-傳統路線：bytecode (Big5)  →  VM 解析  →  輸出
-                ↑ 跟 opcode 衝突
-              
-Plan B：    bytecode (ASCII)  →  VM 解析（原樣英文）
-                                         ↓
-                              CHTranslate.lookup(en)
-                                         ↓
-                                    輸出 Big5
-```
-
-**取捨：**
-- ✅ 零 byte alignment 風險、零 VM 影響
-- ✅ 譯文長度不受 ASCII byte 限制
-- ✅ 翻譯資料 JSON 純文字、好 review、好 diff
-- ⚠️ 多個 hook 點需要加（`do_text` / `print` / `Look` / `Book` / `nscript_print`）— 每個未 hook 的路徑會洩漏英文
-- ⚠️ Lookup key 必須與 VM 累積的字串 **逐字相同**（連空格、引號、`\n` 都要對）
-
-### 坑 #1：Lookup 檔的編碼選擇 — UTF-8 死路
-
-第一版 `cht_strings.tab` 直接寫 UTF-8。Engine 讀進 hash map，輸出送到 MsgScroll 用 U6Font 渲染。
-畫面顯示亂碼「瘙 間」而非「地板」。
 
-原因：U6Font Big5 path 期待 **Big5 bytes**，遇到 UTF-8 (`E5 9C B0 E6 9D BF`) 就把 `E5` 當 Big5 lead、`9C` 當 trail，從 Big5 字型表找位於 `(lead-A1)*157 + trail_off` 的 glyph，結果完全是另一個字。
-
-教訓：**lookup 檔的 zh 編碼必須與字型期待的編碼一致**。U6Font 期待 Big5/cp950，就要存 Big5。
+### 三條 Big5 字型路徑
+
+| 模組 | 用途 | 檔案 |
+|------|------|------|
+| `U6Font` | MsgScroll 8×8 原版字體 | `fonts/u6_font.{cpp,h}` |
+| `ConvFont` | NewUI ConverseGump 變寬字體 | `fonts/conv_font.{cpp,h}` |
+| `WOUFont` | cutscene / intro 字體 | `fonts/wou_font.{cpp,h}` |
 
-```python
-# build_lookup_table.py
-def to_big5(s: str) -> bytes:
-    return s.encode('cp950', errors='replace')
-```
-
-### 坑 #2：文字檔 escape 撞 Big5 trail 0x5C
-
-第二版改成 Big5 zh，但用 `en\tzh\n` 文字檔配 `\n` → `\\n` escape。
-還是亂碼。
-
-原因：**88 個常用 Big5 字 trail byte = 0x5C `\`**，包括「許、功、年、橋、朗、校、笑、敵...」等。
-File loader 看到 `\` 認為是 escape lead-in，吃掉下一 byte 重解釋，整段文字 byte stream 偏移 1，後續所有 Big5 字都對不上。
-
-最終解法：**改用 binary length-prefixed format**，完全 byte-safe：
-
-```
-header:
-  bytes[8]   "U6CHT\x00\x01\x00"
-  uint32 LE  record_count
-records (count 次):
-  uint16 LE  en_len; bytes en_len; en_bytes
-  uint16 LE  zh_len; bytes zh_len; zh_bytes (Big5)
-```
-
-```cpp
-// cht_translate.cpp
-uint8 magic[8];
-f.read(magic, 8);
-if (memcmp(magic, "U6CHT\x00\x01\x00", 8) != 0) return;
-uint32 count = f.readUint32LE();
-for (uint32 i = 0; i < count; ++i) {
-    uint16 en_len = f.readUint16LE();
-    Common::String en;
-    for (uint16 j = 0; j < en_len; ++j) en += (char)f.readByte();
-    uint16 zh_len = f.readUint16LE();
-    Common::String zh;
-    for (uint16 j = 0; j < zh_len; ++j) zh += (char)f.readByte();
-    _table[en] = zh;
-}
-```
-
-### 坑 #3：MsgScroll line-wrap tokenizer 沒空格 → 整段中文當一個 token
-
-`MsgScroll::holding_buffer_get_token()` 用 `findFirstOf(" \t\n*<>`")` 找下一個 delimiter。
-中文沒有空格，整句「汝見地板。」變成單一 token，比 panel 寬時直接溢位顯示在邊界外。
-
-修正：tokenizer 對 Big5 lead pair 視為一個獨立 token（2 bytes）：
-
-```cpp
-auto is_big5_pair = [](uint8 lead, uint8 trail) {
-    return (lead >= 0xA1 && lead <= 0xFE) &&
-           ((trail >= 0x40 && trail <= 0x7E) || (trail >= 0xA1 && trail <= 0xFE));
-};
-if (input->s.size() >= 2 && is_big5_pair((uint8)input->s[0], (uint8)input->s[1])) {
-    i = 2;  // 每個 Big5 字成獨立 token，自然在 panel 邊界 wrap
-}
-```
-
-### 坑 #4：MsgScroll line height 8px vs Big5 12px
-
-ASCII 字體高 8 px，line stride = 8 px。Big5 字體高 12 px，drawBig5Char 用 `y - 4` 抬高 baseline 想塞進 8 px 框。
-連續兩行中文時 **第二行頂部與第一行底部重疊 4 px**，玩家看到「兩行中文字會有遮蔽狀況」。
-
-修正方向（持續調整中）：
-- Option A：line stride 改為 12 px（ASCII 留 4 px gap，視覺鬆但安全）
-- Option B：用 10 px stride（妥協，中文重疊 2 px 但可讀）
-- Option C：drawBig5Char 改用 10 px 字體（小但無重疊）
-
-### 坑 #5：多個輸出路徑都要 hook
-
-Plan B 不是「一個 hook 蓋全部」。U6 engine 有多條輸出 codepath，每條都要單獨 hook：
-
-| Hook 點 | 用途 |
-|---|---|
-| `ConverseInterpret::do_text()` | NPC script dialogue（最重要）|
-| `ConverseInterpret::collect_input` SIDENT/SLOOK | NPC 名 / 描述 |
-| `Converse::print(const char *s)` | Hardcoded engine 字串如 "How can I join..." |
-| `Book::get_book_data()` | BOOK.DAT 書籍 / 卷軸 |
-| `Events::look(Actor*)` / `lookAtCursor` / `search` | Look 命令的 actor/ground/search 文字 |
-| `nscript_print()` | Lua-bound print，需 prefix-aware 拼接（"Thou dost see X."）|
-| `Player::get_gender_title()` | $G 變數（milord/milady → 公子/姑娘）|
-
-漏掉一處就有一處英文洩漏。Tester agent 二輪確認：autosave 載入訊息 "Game Loaded" 仍英文（save_game.cpp 直接 call display_string），combat 訊息 "X grazed/wounded" 仍英文（另一條 lua 路徑）。
-
-### 坑 #6：Copy Protection Quiz 不該翻譯，但要告知玩家
-
-Ultima VI 開場 LB 會問 Compendium 內容問題作 copy protection（防盜版），如 *"What part of the tangle vine doth put one to sleep?"*。
-若譯成中文，玩家無法對照原版 Compendium 答題。
-
-採用方案：**保留英文題目 + 括號附答案 keyword + 中文 disclaimer**：
-
-> "What part of the tangle vine doth put one to sleep?" (答案: cent / pod / frag)
-
-並在首次 quiz 觸發前加 disclaimer：
-> 唯有真聖者方知朕所贈典籍之內容。
-> 【以下為原版密碼保護題目（U6 Copy Protection），保留英文以存古風；答案於括號內以拉丁字母提供。】
-
-### 坑 #7：Tier-3 Sonnet agent 翻譯品質參差
-
-168 個 NPC 分 4 個 Sonnet agent 平行翻譯，**每個 agent context 獨立**，所以：
-- 每 agent 末段 5-10 個 NPC 撞 session limit 沒做完（10 個 backfill 由 Opus 補）
-- 共用名詞各譯各的：Codex 出現 4 種譯名（守則之書 / 智典 / 法典 / 終極智慧之典），Sin'Vraal 兩種音譯
-- 個別 NPC 風格漂移：Phoenix (182) 全現代化「我/你」與其他 NPC 「吾/汝」不一致
-- 偶有意思誤譯：Bolesh (165) 把 "Temple of Singularity" 譯成「獨身者神殿」（Singularity ≠ celibacy）
-
-教訓：parallel agent 一定要有 **共享 glossary** + **後期 normalize 工具**：
-
-```bash
-# 名詞統一腳本
-python3 tools/fix_term_drift.py
-# 規則：終極智慧之典 → 終極智慧守則之書、智典 → 守則之書、辛夫拉爾 → 辛弗拉
-```
-
-並安排 reviewer agent 多輪審稿（novel editor + QA + revised editor）。
-
-### 坑 #8：Tokenizer 不認得 Chinese 標點 → 應加碼
-
-`MsgScroll::holding_buffer_get_token` 的 delimiter list `" \t\n*<>\`"` 對中文無效。
-但我們把 Big5 lead pair 當獨立 token 後等同每字一個 token，已自然解決。
-如未來改用更激進的 token 策略（如句子層級 buffer），須考慮加 Big5 標點：`。 = A1 43`、`，= A1 41`、`「= A1 75`、`」= A1 76` 等作 break point。
-
-### 坑 #9：Translation key 必須 byte-exact
-
-QA tool 抓出 **31 筆 en mismatch**（095 Charlotte 16 筆、096 Dunbar 14 筆、049 Culham 1 筆）。
-原因：翻譯時 `en` 欄位多/少一個空格、或引號方向不同（`"` vs `'`），lookup hash 永遠對不上 → 執行時這幾筆顯示英文。
-
-QA 工具：
-
-```python
-src_texts = {s['text'] for s in npc_extracted[npc]['strings']}
-for tr in translation['translations']:
-    if tr['en'] not in src_texts:
-        print(f'MISMATCH: {tr["en"][:50]!r}')
-```
-
-Translation pipeline 應強制 `en` 從 source extract，禁止手打。
-
-### 坑 #10：Lua 端 print 又是另一條路
-
-`Events::look(Obj*)` 對 obj 看後並沒在 C++ 直接 print；走的是 `script->call_look_obj(obj)` 進 Lua，Lua 端做 `print("Thou dost see " .. obj.look_string)` 再 call C++ `nscript_print()`。
-所以 Object look 不會經過 `Events::look(Actor*)` 的 CHT hook。
-
-修正：在 `nscript_print()` 加 **prefix-aware** 拼接：
-
-```cpp
-static int nscript_print(lua_State *L) {
-    const char *s_in = luaL_checkstring(L, 1);
-    Common::String s(s_in);
-    Common::String t = CHTranslate::get()->translate(s);
-    if (t == s) {  // full match miss; try prefix rewrite
-        const char *kPrefix = "Thou dost see ";
-        const size_t plen = 14;
-        if (s.size() > plen && memcmp(s.c_str(), kPrefix, plen) == 0) {
-            Common::String prefix_zh = CHTranslate::get()->translate(kPrefix);
-            Common::String rest = Common::String(s.c_str() + plen);
-            bool has_period = rest.lastChar() == '.';
-            if (has_period) rest = Common::String(rest.c_str(), rest.size() - 1);
-            Common::String rest_zh = CHTranslate::get()->translate(rest);
-            t = prefix_zh + rest_zh + (has_period ? "\xa1\x43" : "");  // Big5 「。」
-        }
-    }
-    scroll->display_string(t);
-}
-```
-
----
-
-## 建議的開發路徑（給後人）
-
-如果你想對其他 retro 遊戲做 CJK 化，建議按此順序：
-
-1. **先評估 plan A 是否可行**：原 bytecode 與 CJK 編碼是否衝突？若 opcode 區與 CJK lead byte 重疊（U6/U7 conv VM 都這樣），直接走 plan B。
-2. **找所有輸出 codepath**：grep `display_string` / `print` / `scroll->` 全部 call site；每個都加 hook 或繞回統一翻譯函式。
-3. **lookup 用 binary format**：避開 escape 衝突。length-prefixed 是最簡單的選擇。
-4. **字型先做小**：12px Big5 點陣字較容易塞進 8px ASCII line。或直接接受 line height 必須改的事實。
-5. **平行翻譯一定要有後期 normalize**：每 agent 寫到獨立 JSON、glossary 共讀、最後跑 reviewer 兩到三輪、加自動 term-drift 修正腳本。
-6. **保留 copy protection**：別翻 quiz 題目；附答案 hint 在括號內；加中文 disclaimer 讓玩家知道這是原版設計。
-7. **In-game test 不能省**：unit test 沒辦法抓 byte alignment / wrap / line height / glyph 對應錯誤。Xephyr + xdotool + ffmpeg screenshot pipeline 可以無頭驗證。
-
----
-
-## 坑 #11：Lua 端 print 把字串拆成 token，動態 actor 名無法整段命中
-
-Lua `actor.lua` 戰鬥訊息：`print("\`"..defender.name.." grazed.\n")` 會送 `` `Iolo grazed.\n `` 進 `nscript_print` → MsgScroll。
-Full-string lookup 必然失敗（`Iolo` 是 runtime 變數，組合無限多）。
-但 MsgScroll 又會 tokenize（` \t\n*<>` `delimiter），所以 actor 名與 status suffix 走獨立路徑。
-
-解法：**fragment substitution（局部字串替換）** — 在 CHTranslate 加 ordered list of `(en_fragment, zh_replacement)`，遇到 full-string miss 後做 inline `find + replace`。
-
-```cpp
-Common::String CHTranslate::translate(const Common::String &en) const {
-    // Step 1: full-string exact lookup
-    auto it = _table.find(en);
-    if (it != _table.end()) return it->_value;
-
-    // Step 2: trimmed-whitespace fallback (covers "X\n" vs "X")
-    // ...
-
-    // Step 3: fragment sub-string replace
-    return applyFragments(en);
-}
-```
-
-Fragment list 包括戰鬥 suffix (` grazed.\n`)、actor name (`Iolo`/`Dupre`/...)、direction (` north`)、status (`Out of range!`)。
-
-## 坑 #12：Fragment 表硬編譯 → 改用 binary v2 data-driven
-
-第一版把 fragments 寫在 cpp 裡 `kFragments[]`，每改一條要重編 engine。
-重構為 binary lookup file v2 格式 + 編輯 JSON 即可：
-
-```
-file format v2:
-  magic "U6CHT\x00\x02\x00"
-  uint32 exact_count
-  [exact records]
-  uint32 fragment_count
-  [fragment records (order preserved, longest first)]
-```
-
-資料源：`dumps/translations/_engine_fragments.json`。
-編輯流程：改 JSON → `python3 tools/build_lookup_table.py` → 重啟 ScummVM 即可生效，**無需重編 engine**。
-
-```cpp
-// 自動 fallback v1（沒 fragment section）→ 用 hardcoded kFragments[]
-// v2 → 從 binary fragment section 載入 _fragments，applyFragments() 用 runtime data
-```
-
----
-
-## Ship-ready Summary (2026-05-21)
-
-### 已 validated 在 in-game 正確顯示中文
-
-| Path | Test | Output |
-|---|---|---|
-| `Events::look(Actor*)` | Look party portrait | 「Iolo」(name) |
-| `Events::lookAtCursor` ground | Look 空地 | 「汝見地板」「汝見一面牆」「汝見一張地毯」|
-| `nscript_print` prefix rewrite | Look obj | 「汝見階梯」「汝見一個寶箱」|
-| `MsgScroll::display_string` 中央 hook | Game Loaded | 「存檔已載入」|
-| Verb prefix | Talk/Look/Get/Drop/Use/Cast/Attack | 「對話-/察看-/拾取-/丟棄-/使用-/施咒-/攻擊-」|
-| Verb-Object 組合 | "Attack with sword-steps" | 「以劍攻擊-階梯」|
-| Combat status (fragment) | Iolo grazed / barely wounded / heavily wounded | 「Iolo 擦傷」「Iolo 輕微受傷」「Iolo 重度受傷」|
-| Range/Block status | Out of range! / Blocked. | 「夠不著！」「被阻擋。」|
-| Conv VM dialog (LB Talk) | NPC 對話 | 中文 Big5 渲染 |
-| LB Compendium quiz | "What part of the tangle vine..." | 保留英文 + (答案: cent / pod / frag) |
-| Wrap | 中文長句 | 每 Big5 字獨立 token，自然 wrap |
-| Line height | 連續多行中文 | 10 px stride，無重疊 |
-| Big5 trail 0x5C | `閱`(BE 5C) 等字 | get_formatted_text 跳過 Big5 pair，不被誤判 plural |
-
-### 已知 limitations
-
-| Item | Status | Workaround |
-|---|---|---|
-| `Anr2` (player 自訂名) | 不翻譯（runtime variable） | Avatar 起名請用拉丁 |
-| Portrait header 名（如 "Iolo" 大字） | 走 portrait_view path，未 hook | 加 ViewManager hook 可補 |
-| Gargish 古怪語法 | 譯成莊嚴文言 | 風格 OK，可選二輪 polish |
-| 31 筆 en mismatch | 095 Charlotte / 096 Dunbar / 049 Culham | 待 byte-exact 修正 |
-| 3 筆 @keyword 丟失 | 083 Gideon / 066 Gwenno / 021 Daver | 待修 |
-| 5C trail risk chars | 468 條譯文含許/功/年/橋等 | 已透過 binary format + get_formatted_text fix 避過 |
+字型檔：`big5_u6_12x12.fnt`（AR PL UMing 11px embedded bitmap）。產生器 `tools/build-big5-font.py` 支援 `--font {uming,wqy-sharp} --size N`。
+
+### 統計
+
+| 項目 | 數字 |
+|------|------|
+| 譯文條數（exact entries） | 7,282 |
+| Fragment 條數 | 40 |
+| NPC 翻譯 | 199 / 199（不含 Avatar 本人） |
+| BOOK.DAT | 127 條（1897 字串） |
+| Engine hooks | 8 個 |
+| Engine 修改檔案 | 12 個 .cpp/.h |
+| Binary lookup 大小 | ~620 KB |
+
+### 已驗證（in-game）
+
+| 路徑 | 測試輸入 | 輸出 |
+|------|---------|------|
+| `lookAtCursor` ground | Look 地板 | 「汝見地板」✅ |
+| `lookAtCursor` wall | Look 牆 | 「汝見一面牆」✅ |
+| `lookAtCursor` carpet | Look 地毯 | 「汝見一張地毯」✅ |
+| `nscript_print` prefix rewrite | Look obj | 「汝見階梯。」✅ |
+| Conv VM dialog | Talk Lord British | 中文對話正常顯示 ✅ |
+| LB Compendium quiz | Copy protection 題目 | 保留英文 + (答案 hint) ✅ |
+| Combat fragment | Iolo grazed | 「Iolo 擦傷」✅ |
+| Verb prefix | Talk/Look/Get/Attack... | 「對話-/察看-/拾取-/攻擊-」✅ |
+| `$G` 變數 | milord/milady | 「公子/姑娘」✅ |
+
+### 12 個踩過的坑
+
+<details>
+<summary>展開查看完整開發血淚紀錄</summary>
+
+#### 坑 #1：UTF-8 輸出 → Big5 字型 → 亂碼
+`U6Font` 期待 Big5 bytes；UTF-8 `E5 9C B0` 被當 Big5 lead `E5` 查字型表，顯示完全不同的字。
+**教訓**：lookup 檔的 zh 編碼必須與字型期待的編碼一致。
+
+#### 坑 #2：文字檔 escape 撞 Big5 trail 0x5C
+「許/功/年/橋」等 88 個常用字 trail byte = `\`，被 file loader 解析為 escape，整段 byte stream 偏移。
+**解法**：改用 binary length-prefixed format（見上方格式說明）。
+
+#### 坑 #3：MsgScroll tokenizer 無空格 → 中文整段溢位
+`holding_buffer_get_token()` 用空格找 delimiter，中文整句成單一 token，比 panel 寬時直接溢出邊界。
+**解法**：tokenizer 對 Big5 lead pair 視為一個獨立 token（每個 Big5 字自然 wrap）。
+
+#### 坑 #4：MsgScroll line height 8px vs Big5 12px
+ASCII 字體高 8px，Big5 12px，連續兩行中文頂部重疊 4px。
+**解法**：改用 10px stride 妥協（中文重疊 2px 但可讀）。
+
+#### 坑 #5：多個輸出路徑都要 hook
+Plan B 不是「一個 hook 蓋全部」。U6 engine 有多條 output codepath，漏掉一處就有一處英文洩漏。
+**解法**：grep 全部 `display_string`/`print`/`scroll->` call site 逐一加 hook。
+
+#### 坑 #6：Copy Protection Quiz 不該翻譯
+LB 開場問 Compendium 內容作防盜版。若譯成中文，玩家無法對照原版 Compendium 答題。
+**方案**：保留英文題目 + 括號附答案 keyword + 中文 disclaimer。
+
+#### 坑 #7：平行 agent 翻譯品質參差
+168 個 NPC 分 4 個 Sonnet agent 平行翻譯，context 獨立，Codex 出現 4 種譯名、Phoenix 風格現代化。
+**教訓**：parallel agent 一定要有共享 glossary + 後期 normalize 工具。
+
+#### 坑 #8：Tokenizer 不認得中文標點
+Big5 標點（`。A1 43`、`，A1 41`）需單獨處理。將 Big5 lead pair 當獨立 token 後已自然解決大部分問題。
+
+#### 坑 #9：Translation key 必須 byte-exact
+31 筆 en mismatch 來自翻譯時 `en` 欄位多/少空格，或引號方向不同，hash 永遠對不上。
+**解法**：Translation pipeline 強制 `en` 從 source extract，禁止手打。
+
+#### 坑 #10：Lua 端 print 是另一條路
+`Events::look(Obj*)` 走 Lua `script->call_look_obj(obj)`，Lua 端 `print("Thou dost see " .. obj.look_string)` 再 call C++ `nscript_print()`。不走 C++ Events hook。
+**解法**：在 `nscript_print()` 加 prefix-aware 拼接——先找前綴「Thou dost see」的中文對應，再拼接 obj 名中文。
+
+#### 坑 #11：動態 actor 名無法整段命中
+戰鬥訊息 `"Iolo grazed.\n"` 中 `Iolo` 是 runtime 變數，full-string lookup 必然失敗。
+**解法**：fragment substitution——CHTranslate 加 ordered list `(en_fragment, zh_replacement)`，在 full-string miss 後做 inline find+replace。
+
+#### 坑 #12：Fragment 表硬編碼 → 改用 binary data-driven
+第一版 fragments 寫在 cpp `kFragments[]`，每改一條要重編 engine。
+**解法**：重構為 binary v2 format + JSON editing workflow——改 JSON → `build_lookup_table.py` → 重啟 ScummVM 即可，無需重編 engine。
+
+</details>
+
+### 建議的開發路徑（給後人）
+
+若你想對其他 retro 遊戲做 CJK 化：
+
+1. **先評估 Plan A 是否可行**：原 bytecode 與 CJK 編碼是否衝突？U6/U7 conv VM opcode 與 Big5 lead byte 完全重疊 → 直接走 Plan B。
+2. **找所有輸出 codepath**：grep `display_string`/`print`/`scroll->` 全部 call site，每個都 hook 或繞回統一翻譯函式。
+3. **Lookup 用 binary format**：避開 escape 衝突，length-prefixed 是最簡單的選擇。
+4. **字型先做小**：12px Big5 較容易塞進 8px ASCII line；或直接接受 line height 必須改的事實。
+5. **平行翻譯一定要有後期 normalize**：共享 glossary + 多輪 reviewer + 自動 term-drift 修正腳本。
+6. **保留 copy protection**：別翻 quiz 題目；附答案 hint 在括號內；加中文 disclaimer。
+7. **In-game test 不能省**：unit test 沒辦法抓 byte alignment / wrap / line height / glyph 對應錯誤。
+
+### 已知限制
+
+| 項目 | 狀態 | Workaround |
+|------|------|------------|
+| Avatar 玩家自訂名 | 不翻譯（runtime variable） | 起名請用拉丁字母 |
+| Portrait header 名（「Iolo」大字）| 未 hook | 加 ViewManager hook 可補 |
+| 31 筆 en mismatch | Charlotte/Dunbar/Culham | 待 byte-exact 修正 |
+| 3 筆 @keyword 丟失 | Gideon/Gwenno/Daver | 待修 |
 | Phoenix (NPC 182) 風格漂移 | 全「我/你」現代化 | 待重譯 |
-| Bolesh (NPC 165) 意義錯 | Singularity = 獨身者 (錯) | 改為「獨一」|
+| Bolesh (NPC 165) Singularity 誤譯 | 譯成「獨身者」(錯) | 改為「獨一」 |
 
 ### 建置流程
 
 ```bash
-# 1. 編輯翻譯 / fragment（純文字 JSON）
+# 1. 編輯翻譯（純文字 JSON）
 vim dumps/translations/<NPC>.json
 vim dumps/translations/_engine_fragments.json
 
@@ -686,7 +607,7 @@ vim dumps/translations/_engine_fragments.json
 python3 tools/build_lookup_table.py
 # → working/game/cht_strings.tab (v2 format)
 
-# 3. （可選）engine 修改才需 rebuild
+# 3. （可選）engine 修改才需重 build
 cd scummvm-src && make -j8
 
 # 4. 啟動 ScummVM
@@ -695,62 +616,33 @@ DISPLAY=:2 ./scummvm-src/scummvm \
   --debuglevel=1 ultima6
 ```
 
-### 統計
+---
 
-- **譯文條數**：7282 exact entries + 40 fragments
-- **NPCs 翻譯**：199 / 199（不含 Avatar 001）+ BOOK.DAT 127 條
-- **Engine hooks 數**：8 個（do_text / Converse::print / SIDENT / SLOOK / Book / Events::look×3 / nscript_print / MsgScroll central）
-- **Engine 程式碼修改檔案**：12 個 .cpp/.h
-- **新增 source**：`cht_translate.{cpp,h}`、`big5_u6_12x12.fnt`、`cht_strings.tab`
-- **二進位 lookup file 大小**：~620 KB
+<a name="credits"></a>
+## 🙏 License & Credits
 
-### 釋出建議
+完整致謝見 [CREDITS.md](CREDITS.md)。
 
-可 ship 到 GitHub 作 proof-of-concept。修剩餘 P0（31 mismatch + 3 keyword + Phoenix/Bolesh 重譯）後即可標 1.0。
+### 特別致謝
 
-### $G 變數 engine patch
+**1992 年的台灣 U6 玩家與先行者**
 
-`milord / milady` 改成 **「公子 / 姑娘」**，在 `engines/ultima/nuvie/core/player.cpp::get_gender_title()` 直接寫 Big5 bytes。
+那個年代靠一本薄薄手冊走進 Britannia 的所有人——你們的熱情，是這個專案存在的理由。
+
+| 貢獻者 | 貢獻 |
+|--------|------|
+| **王俊又**（wicanr2） | 本專案發起人 |
+| **蘇炫榮 / 高文麟 / 電腦玩家雜誌** | 1992《創世紀聖者之書特別版》（83 頁）——台灣 Ultima 中文化的基石 |
+| **軟體世界** | 1990s《創世紀６遊戲手冊》（13 頁）——8 種職業、26 音節魔法、8 環咒語官方中文名 |
+| **匿名 PDF 掃描者** | 將 1990s 書面文獻數位化保存，使 30 年後的漢化研究得以延續 |
+| **Richard Garriott (Lord British) + Origin Systems** | Ultima 系列創造者 |
+| **ScummVM Nuvie team** | 開放原始碼 U6 engine |
+| **WenQuanYi 文泉驛 + AR PL UMing** | 中文點陣字型 |
 
 ---
 
-## 目前進度
+*Ultima VI 繁體中文化專案 — wicanr2/u6-cht*  
+*GitHub: [https://github.com/wicanr2/u6-cht](https://github.com/wicanr2/u6-cht)*
 
-- [x] ScummVM Nuvie engine 評估與整合
-- [x] Big5 12×12 font 三模組 patch (U6Font/ConvFont/WOUFont)
-- [x] $G engine patch (公子/姑娘)
-- [x] Tier-1+2 翻譯：32 NPCs（核心角色 + 城堡群）
-- [x] BOOK.DAT 翻譯 (24KB, 1897 strings)
-- [x] Glossary 420 entries + Style guide
-- [x] 二輪 reviewer polish (LB / Mariah / Chuckles 共 36 修改)
-- [x] Plan B engine：load-time string substitution
-- [x] Tier-3 翻譯：168 NPCs（4 個 Sonnet agent 平行 + Opus 補完 10 NPC）
-- [x] **Codex 譯名統一**（守則之書 主流，39 處全統一）
-- [x] **Sin'Vraal 譯名統一**（辛弗拉 主流，8 處全統一）
-- [x] Novel editor 文學審稿（37/50 分）
-- [x] QA 二輪校對（en-match / 5C / placeholder / @keyword / glossary drift）
-- [x] **Binary lookup 格式**（避 Big5 0x5C trail escape 衝突）
-- [x] In-game Big5 渲染驗證（Look 路徑「汝見地板」「汝見一面牆」）
-- [ ] Talk NPC 對話 in-game 驗證（需 hackmove 至 LB 相鄰）
-- [ ] 修 31 筆 en mismatch（095 Charlotte / 096 Dunbar / 049 Culham）
-- [ ] 修 3 筆 @keyword 丟失（083 Gideon / 066 Gwenno / 021 Daver）
-- [ ] 修 2 筆 placeholder 漂移（016 Gwenneth）
-- [ ] Save-game teleport tool 整合 ScummVM 存檔
-- [ ] Combat / Lua-side 戰鬥字串翻譯（"Gargoyle barely wounded" 等）
-
----
-
-## 致敬
-
-完整版見 [CREDITS.md](CREDITS.md)。
-
-- **王俊又**（wicanr2）— 本專案發起人，小小貢獻者
-- **蘇炫榮 / 高文麟 / 電腦玩家雜誌** — 1992《創世紀聖者之書 特別版》（83 頁），譯名與體例權威來源
-- **軟體世界** — 1990s《創世紀６ 遊戲手冊》（13 頁），8 種職業 / 26 魔法音節 / 8 環咒語 官方譯法
-- **匿名 PDF 掃描者** — 將 1990s 書面文獻數位化，使中文化研究得以延續（身分待考）
-- **Richard Garriott (Lord British) + Origin Systems** — Ultima 系列創造者
-- **ScummVM Nuvie team** — 開放原始碼 U6 engine
-- **WenQuanYi 文泉驛 + AR PL UMing** — 中文點陣字型
-
-> "Tis good to see thee, friend. Mayhap thou hast time for a tale?"
-> — 「見汝甚悅，友也。或汝有閒一聽古事？」
+> 「見汝甚悅，友也。或汝有閒一聽古事？」
+> — *'Tis good to see thee, friend. Mayhap thou hast time for a tale?*
