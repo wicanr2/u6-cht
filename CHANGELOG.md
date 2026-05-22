@@ -156,3 +156,18 @@
 - Multi-PR sync to ScummVM upstream (offer engine patches)
 - 8 professions + 26 mantras + 8 reagents glossary entries
 - 9px font experimentation (designer Plan 3) — if quality acceptable
+
+---
+
+## Acknowledgments / 致敬
+
+完整版見 [CREDITS.md](CREDITS.md)。
+
+本專案站在 1992 年中文化先輩肩膀上。特別致敬：
+
+- **蘇炫榮**（《創世紀聖者之書》撰寫）
+- **高文麟**（聖者之書 序）
+- **電腦玩家雜誌**（聖者之書 出版）
+- **軟體世界**（U6 遊戲手冊 出版）
+- **匿名 PDF 掃描者**（PDF 數位保存）
+- **王俊又**（wicanr2）— 小小貢獻者 / 專案發起

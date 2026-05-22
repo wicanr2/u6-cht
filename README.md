@@ -742,10 +742,15 @@ DISPLAY=:2 ./scummvm-src/scummvm \
 
 ## 致敬
 
-- **Richard Garriott (Lord British)** — Ultima 系列創造者。1980 年用 Apple II 寫第一作，從此把 RPG 推向道德與哲學維度。
-- **Origin Systems** — "We Create Worlds"，當年確實做到了。
-- **Nuvie team** — 開放原始碼 U6 engine 重製，後來併入 ScummVM。
-- **WenQuanYi 文泉驛字型計畫** — Zen Hei Sharp 點陣字源頭。
+完整版見 [CREDITS.md](CREDITS.md)。
+
+- **王俊又**（wicanr2）— 本專案發起人，小小貢獻者
+- **蘇炫榮 / 高文麟 / 電腦玩家雜誌** — 1992《創世紀聖者之書 特別版》（83 頁），譯名與體例權威來源
+- **軟體世界** — 1990s《創世紀６ 遊戲手冊》（13 頁），8 種職業 / 26 魔法音節 / 8 環咒語 官方譯法
+- **匿名 PDF 掃描者** — 將 1990s 書面文獻數位化，使中文化研究得以延續（身分待考）
+- **Richard Garriott (Lord British) + Origin Systems** — Ultima 系列創造者
+- **ScummVM Nuvie team** — 開放原始碼 U6 engine
+- **WenQuanYi 文泉驛 + AR PL UMing** — 中文點陣字型
 
 > "Tis good to see thee, friend. Mayhap thou hast time for a tale?"
 > — 「見汝甚悅，友也。或汝有閒一聽古事？」
