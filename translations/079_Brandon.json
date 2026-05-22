@@ -88,7 +88,7 @@
    "offset": 679,
    "len": 36,
    "en": "\"Now I @supply arms to all Trinsic!\"",
-   "zh": "「如今我@supply（供應）整個崔西克的武器！」",
+   "zh": "「如今我@supply（供應）整個特林希克的武器！」",
    "note": ""
   },
   {
@@ -265,5 +265,5 @@
    "Brandon": "布蘭登"
   }
  },
- "translator_notes": "079 Brandon: 崔西克武器匠，熱情崇拜聖者。交易系統字串保留#N/$N變數。"
+ "translator_notes": "079 Brandon: 特林希克武器匠，熱情崇拜聖者。交易系統字串保留#N/$N變數。"
 }

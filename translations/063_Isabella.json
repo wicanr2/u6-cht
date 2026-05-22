@@ -60,7 +60,7 @@
    "offset": 596,
    "len": 54,
    "en": "\"One of the finest artisans that ever dwelt in Minoc.\"",
-   "zh": "「他是曾在密諾克居住過最傑出的工匠之一。」",
+   "zh": "「他是曾在米諾克居住過最傑出的工匠之一。」",
    "note": ""
   },
   {
@@ -81,7 +81,7 @@
    "offset": 739,
    "len": 65,
    "en": "\"'Tis my privilege to be mayor of Minoc, the city of @sacrifice.\"",
-   "zh": "「擔任密諾克——@sacrifice（奉獻）之城的市長，是吾的榮幸。」",
+   "zh": "「擔任米諾克——@sacrifice（奉獻）之城的市長，是吾的榮幸。」",
    "note": ""
   },
   {
@@ -247,12 +247,12 @@
    "Woodroffe": "伍德羅夫"
   },
   "places": {
-   "Minoc": "密諾克"
+   "Minoc": "米諾克"
   },
   "concepts": {
    "Rune of Sacrifice": "奉獻聖符",
    "artisan's guild": "工匠公會"
   }
  },
- "translator_notes": "伊莎貝拉是密諾克的優雅女市長。她把奉獻聖符交給工匠公會長瑟爾嘉諾保管。知道治療師塔拉懂奉獻咒語。對氣球師失蹤一事知情，建議詢問瑟爾嘉諾。"
+ "translator_notes": "伊莎貝拉是米諾克的優雅女市長。她把奉獻聖符交給工匠公會長瑟爾嘉諾保管。知道治療師塔拉懂奉獻咒語。對氣球師失蹤一事知情，建議詢問瑟爾嘉諾。"
 }

@@ -1,7 +1,7 @@
 {
   "_meta": {"npc": "Lord British", "batch": "3/3", "note": "Compendium quiz questions (copy protection)"},
   "translations": [
-    {"offset": 5578, "len": 24, "en": "\"What doth trolls lack?\"", "zh": "「山怪缺何物？」"},
+    {"offset": 5578, "len": 24, "en": "\"What doth trolls lack?\"", "zh": "「巨人缺何物？」"},
     {"offset": 5605, "len": 3, "en": "end", "zh": "end"},
     {"offset": 5609, "len": 19, "en": "\"Thou art correct.\"", "zh": "「汝答正確。」"},
     {"offset": 5636, "len": 3, "en": "bye", "zh": "bye"},

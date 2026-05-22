@@ -46,7 +46,7 @@
    "offset": 285,
    "len": 94,
    "en": "\"I am entrusted with an honor above all others-that of governing Trinsic, the Town of @Honor!\"",
-   "zh": "「在下受命治理崔西克——@Honor（榮譽）之城，此乃世間最崇高之榮譽！」",
+   "zh": "「在下受命治理特林希克——@Honor（榮譽）之城，此乃世間最崇高之榮譽！」",
    "note": ""
   },
   {
@@ -221,7 +221,7 @@
    "offset": 1726,
    "len": 39,
    "en": "\"Because Trinsic is the Town of Honor!\"",
-   "zh": "「因為崔西克乃榮譽之城！」",
+   "zh": "「因為特林希克乃榮譽之城！」",
    "note": ""
   },
   {
@@ -287,5 +287,5 @@
    "Sandy": "桑迪"
   }
  },
- "translator_notes": "076 Whitsaber: 崔西克市長兼昔日海盜，榮譽主題貫串全篇。避5C trail字。@Honor/@pirate 保留@前綴。"
+ "translator_notes": "076 Whitsaber: 特林希克市長兼昔日海盜，榮譽主題貫串全篇。避5C trail字。@Honor/@pirate 保留@前綴。"
 }

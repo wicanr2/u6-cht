@@ -520,9 +520,9 @@
    "offset": 3361,
    "len": 70,
    "en": "\"We're expecting some unicorn horns, and a Klein bottle from Trinsic.\"",
-   "zh": "「我們正等候些獨角獸角，以及一只來自崔西克的克萊因瓶。」",
+   "zh": "「我們正等候些獨角獸角，以及一只來自特林希克的克萊因瓶。」",
    "zh_bytes": 56,
-   "note": "Trinsic→崔西克；Klein bottle→克萊因瓶（拓樸學經典）"
+   "note": "Trinsic→特林希克；Klein bottle→克萊因瓶（拓樸學經典）"
   },
   {
    "offset": 3434,
@@ -606,7 +606,7 @@
    "npc": "Kytyn",
    "key": "KLEIN_BOTTLE",
    "en": "a Klein bottle from Trinsic",
-   "zh": "一只來自崔西克的克萊因瓶",
+   "zh": "一只來自特林希克的克萊因瓶",
    "ref": "Klein bottle 是拓樸學經典——只有一面、無內外之別的玻璃瓶；U6 彩蛋",
    "strategy": "直譯數學專名"
   },

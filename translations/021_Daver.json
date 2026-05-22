@@ -272,7 +272,7 @@
    "offset": 1444,
    "len": 63,
    "en": "\"Minoc, Trinsic, Jhelom, Yew, Skara Brae, Britain, Moonglow...\"",
-   "zh": "「米諾克、崔西克、傑隆、尤伊、斯卡拉布雷、不列顛城、月華城…」",
+   "zh": "「米諾克、特林希克、傑隆、尤伊、斯卡拉布雷、不列顛城、月華城…」",
    "zh_bytes": 62,
    "note": "七城名；用單個 ellipsis 而非雙個以節省 bytes"
   },
@@ -401,7 +401,7 @@
    "npc": "Daver",
    "key": "EIGHT_CITIES_RUNES",
    "en": "After the Codex of Ultimate Wisdom was brought back from the underworld, Lord British gave the runes to the lords of the eight cities. Minoc, Trinsic, Jhelom, Yew, Skara Brae, Britain, Moonglow... and New Magincia.",
-   "zh": "自從終極智慧之寶典從幽冥界取回後，不列顛王便將符文授予八城之領主。米諾克、崔西克、傑隆、尤伊、斯卡拉布雷、不列顛城、月華城…啊對了，還有新馬精西亞。聽說每位領主皆知一句@真言。",
+   "zh": "自從終極智慧之寶典從幽冥界取回後，不列顛王便將符文授予八城之領主。米諾克、特林希克、傑隆、尤伊、斯卡拉布雷、不列顛城、月華城…啊對了，還有新馬精西亞。聽說每位領主皆知一句@真言。",
    "ref": "Ultima 系列八城八德對應；玩家主線需從八城領主處收齊八符文與八真言。Daver 簡介此設定。",
    "strategy": "保留城名次序，符合 Ultima 系列正典；用單字 ellipsis 節省 bytes"
   }

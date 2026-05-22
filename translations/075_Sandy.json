@@ -114,7 +114,7 @@
    "offset": 1046,
    "len": 78,
    "en": "\"Before Lord Whitsaber came to Trinsic to be our mayor, he had another job...\"",
-   "zh": "「白刃領主來崔西克任市長之前，另有一行當……」"
+   "zh": "「白刃領主來特林希克任市長之前，另有一行當……」"
   },
   {
    "offset": 1126,
@@ -236,5 +236,5 @@
    "dragon's egg": "巨龍之蛋"
   }
  },
- "translator_notes": "Sandy = 崔西克廚師，劇情關鍵 NPC：給他 dragon's egg 才能換 pirates 線索。riddle 是 dragon's egg 的詩謎，翻譯保留意境。"
+ "translator_notes": "Sandy = 特林希克廚師，劇情關鍵 NPC：給他 dragon's egg 才能換 pirates 線索。riddle 是 dragon's egg 的詩謎，翻譯保留意境。"
 }
