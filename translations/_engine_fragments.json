@@ -98,6 +98,15 @@
   { "en": "Not possible\n",                                         "zh": "不可能\n" },
   { "en": "Not possible",                                           "zh": "不可能" },
 
+  { "en": "\nCan't (Un)lock an opened door\n",                      "zh": "\n敞開之門無從上鎖或解鎖\n" },
+  { "en": "Can't (Un)lock an opened door",                          "zh": "敞開之門無從上鎖或解鎖" },
+  { "en": "\nopened!\n",                                            "zh": "\n已開啟！\n" },
+  { "en": "opened!\n",                                              "zh": "已開啟！\n" },
+  { "en": "opened!",                                                "zh": "已開啟！" },
+  { "en": "\nclosed!\n",                                            "zh": "\n已關閉！\n" },
+  { "en": "closed!\n",                                              "zh": "已關閉！\n" },
+  { "en": "closed!",                                                "zh": "已關閉！" },
+
   { "en": "a stone lion",         "zh": "一座石獅" },
   { "en": "stone lion",           "zh": "石獅" },
   { "en": "an oaken door",        "zh": "一扇橡木門" },
