@@ -161,7 +161,7 @@ Justice       Valor
 | Valor | 勇敢 | Courage | **ra** | 哲倫 (Jhelom) | 戰士 (Fighter) |
 | Justice | 正義 | Truth + Love | **beh** | 紫衫城 (Yew) | 德魯依 (Druid) |
 | Sacrifice | 犧牲 | Love + Courage | **cah** | 米諾克 (Minoc) | 技工 (Tinker) |
-| Honor | 榮譽 | Truth + Courage | **summ** | 川辛 (Trinsic) | 聖騎士 (Paladin) |
+| Honor | 榮譽 | Truth + Courage | **summ** | 特林希克 (Trinsic) | 聖騎士 (Paladin) |
 | Spirituality | 靈性 | Truth + Love + Courage | **om** | 史卡拉布雷 (Skara Brae) | 遊俠 (Ranger) |
 | Humility | 謙卑 | （三者皆無） | **lum** | 新馬精西亞 (New Magincia) | 牧人 (Shepherd) |
 
@@ -178,7 +178,7 @@ Justice       Valor
 
 **安卡（Ankh，☥）**是古埃及象形文字「生命」的符號，擁有三千年歷史。Garriott 選擇它作為 Britannia 八德的共同標誌，使每種美德都帶著「生命」的底蘊。
 
-在遊戲世界中，安卡無所不在：川辛城門刻著安卡石碑、Spirituality 美德的符文就是安卡形狀、原版遊戲盒附贈的實體安卡護符是 1990 年代 Origin 玩家的「入場券」。
+在遊戲世界中，安卡無所不在：特林希克城門刻著安卡石碑、Spirituality 美德的符文就是安卡形狀、原版遊戲盒附贈的實體安卡護符是 1990 年代 Origin 玩家的「入場券」。
 
 台灣 1992 年版《創世紀聖者之書》封面也以安卡為核心裝飾——這個符號從古埃及出發，流經 Britannia 的八德哲學，抵達台灣玩家的書架。
 
@@ -281,10 +281,10 @@ Kal Xen    = 召喚(Kal) + 怪物(Xen) → 召喚術
 #### 米諾克 (Minoc) — 犧牲 · cah
 北方林邊工匠之城，有鐵匠、製弓鋪，城外有吉普賽營。NPC 代表：**Julia（茱莉雅）**。
 
-#### 川辛 (Trinsic) — 榮譽 · summ
+#### 特林希克 (Trinsic) — 榮譽 · summ
 南方港口、聖騎士訓練城。城門口刻著安卡護符。NPC 代表：**Sentri**。
 
-> U7 最震驚的 cold open：整個系列中，Honor 之城川辛發生了謀殺案。Garriott 用這個設計宣告：連榮譽都崩了。
+> U7 最震驚的 cold open：整個系列中，Honor 之城特林希克發生了謀殺案。Garriott 用這個設計宣告：連榮譽都崩了。
 
 #### 史卡拉布雷 (Skara Brae) — 靈性 · om
 **U6 的史卡拉布雷已成鬼鎮**——U5 時代被 Shadowlords 攻擊，居民集體死亡，現在只剩亡靈 NPC。
@@ -385,7 +385,7 @@ Origin 認真為魔像族設計了一套可組合的語言：
 
 **施法材料**：硫磺灰、大蒜、人蔘、曼陀羅根、血苔、龍葵、黑珍珠、蜘蛛絲——這些名字帶著強烈 1990 年代台灣翻譯風格，也是本專案譯文的「那個年代的味道」。
 
-**Trinsic 手冊譯「特林西」**（書版另有「川辛」），本專案維持「川辛」音譯偏好，但標記兩者均有史可查。
+**Trinsic 手冊譯「特林西」**（書版另有「川辛」），本專案以聖者之書「特林希克」為主譯（user 規則：衝突以聖者之書為主）。
 
 ### 匿名 PDF 掃描者
 
@@ -399,8 +399,8 @@ Origin 認真為魔像族設計了一套可組合的語言：
 | Justice | 公正（手冊）| **正義** | 強調道德義務感 |
 | Spirituality | 心靈力量（書版）| **靈性** | 簡潔 |
 | Gargoyle | 翼魔（書版）| **魔像族** | U6 主題是種族平等；「族」點出其文明性 |
-| Mongbat | **蝙猴** ✅ | 魔蝠 ⚠️ | 書版更傳神，待修 |
-| Troll | **巨人** ✅ | 山怪 | 書版更準確，待統一 |
+| Mongbat | **蝙猴** ✅ | 魔蝠 ⚠️ | 書版更傳神，**已採納** |
+| Troll | **巨人** ✅ | 山怪 | 書版更準確，**已統一** |
 | Squid | **大烏賊** ✅ | 巨烏賊 ⚠️ | 書版一致，待修 |
 | Codex of Ultimate Wisdom | **知識寶典** ✅ | 知識寶典 ✅ | 已統一 |
 
@@ -585,16 +585,32 @@ Big5 標點（`。A1 43`、`，A1 41`）需單獨處理。將 Big5 lead pair 當
 6. **保留 copy protection**：別翻 quiz 題目；附答案 hint 在括號內；加中文 disclaimer。
 7. **In-game test 不能省**：unit test 沒辦法抓 byte alignment / wrap / line height / glyph 對應錯誤。
 
-### 已知限制
+### 已知限制（v1.4 / v1.5）
 
-| 項目 | 狀態 | Workaround |
-|------|------|------------|
-| Avatar 玩家自訂名 | 不翻譯（runtime variable） | 起名請用拉丁字母 |
-| Portrait header 名（「Iolo」大字）| 未 hook | 加 ViewManager hook 可補 |
-| 31 筆 en mismatch | Charlotte/Dunbar/Culham | 待 byte-exact 修正 |
-| 3 筆 @keyword 丟失 | Gideon/Gwenno/Daver | 待修 |
-| Phoenix (NPC 182) 風格漂移 | 全「我/你」現代化 | 待重譯 |
-| Bolesh (NPC 165) Singularity 誤譯 | 譯成「獨身者」(錯) | 改為「獨一」 |
+歷史 v1.0 限制清單**多數已修**，當前剩餘：
+
+| 項目 | 狀態 | 備註 |
+|------|------|------|
+| Avatar 玩家自訂名 | 不翻譯（runtime variable，設計即此） | 起名請用拉丁字母 |
+| Gargish 古怪語法 | 譯成莊嚴文言（設計選擇）| 風格 OK，後續可選二輪 polish |
+| 5C trail risk chars | 已透過 binary fmt + get_formatted_text 避過 | 仍是 workaround，非 fix |
+| Cinematic 字幕視覺重疊 | Lua 多 chunk 同 y 位置渲染 Big5 12px | 需更深 engine 重構 |
+| ScummVM autosave 與 OBJLIST 衝突 | save-game teleport 工具未實用 | task #21 |
+
+### v1.0 → v1.4 已修的 limitations
+
+| v1.0 限制 | 修正 commit | 已修 tag |
+|---|---|---|
+| Portrait header 名英文 | `4176864`（4 codepath hooks）| v1.1 |
+| 31 筆 en mismatch (Charlotte/Dunbar/Culham) | `4c4ef22` P0 batch | v1.0 |
+| 3 筆 @keyword 丟失 (Gideon/Gwenno/Daver) | `9bba1e8` + `b75176e` editor2/3 sweep | v1.2/v1.3 |
+| Phoenix (182) 風格漂移 | `4c4ef22` re-translate | v1.0 |
+| Bolesh (165) Singularity 誤譯 | `4c4ef22` 改「獨一」 | v1.0 |
+| 「夠不著」 typo (拼字錯) | `4176864` → 搆不著 | v1.1 |
+| Cursor Y stride bug | `2147f85` cursor_y * 10 | v1.1 |
+| Cinematic intro 全英文 | `cd508f3` + `c89fee8` + `9d0b9d4` 27 chunks | v1.2/v1.3 |
+| ? / help magic command 未做 | `ac4e1f9` | v1.3 |
+| 譯名分歧 (Trinsic 川辛/特林希克/崔西克 等) | `573ef8d` 統一以聖者之書為主 | v1.5 |
 
 ### 建置流程
 
