@@ -340,11 +340,11 @@ Origin 認真為魔像族設計了一套可組合的語言：
 
 ### 群組 C：Look 命令系統
 
-| Look 地板 | Look 牆 | Look 地毯 |
+| Look 地板 | Look 牆 | Look NPC |
 |---|---|---|
-| ![floor](docs/screenshots/01_look_floor.png) | ![wall](docs/screenshots/02_look_wall.png) | ![carpet](docs/screenshots/03_look_carpet.png) |
-| *「汝見地板」* | *「汝見一面牆」* | *「汝見一張地毯」* |
-| *Big5 12px 渲染驗證* | *Big5 12px 渲染驗證* | *Big5 12px 渲染驗證* |
+| ![floor](docs/screenshots/01_look_floor.png) | ![wall](docs/screenshots/02_look_wall.png) | ![npc](docs/screenshots/03_look_carpet.png) |
+| *「察看-汝見地板」* | *「察看-汝見一面牆」* | *「察看-汝見尤洛」+ 角色面板「尤洛」* |
+| *Big5 12px 渲染驗證* | *Big5 12px 渲染驗證* | *NPC 名稱中文化* |
 
 ### 群組 D：戰鬥系統
 
