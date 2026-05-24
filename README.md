@@ -68,7 +68,7 @@ cp working/game/big5_u6_12x12.fnt /path/to/ultima6/
 啟動後你會看到——
 
 ![lb-dialog](docs/screenshots/08_lb_dialog.png)
-*不列顛王以繁體中文問候聖者。*
+*不列顛王以繁體中文問候聖者。（底部仍可見少量 hardcoded engine 字串，待補。）*
 
 ---
 
@@ -329,7 +329,7 @@ Origin 認真為魔像族設計了一套可組合的語言：
 | LB 以中文問候聖者 | 「對話-」動詞中文化 |
 |---|---|
 | ![lb-dialog](docs/screenshots/08_lb_dialog.png) | ![talk](docs/screenshots/06_talk_nothing.png) |
-| *不列顛王的中文對話，文白並用語氣* | *「對話-」動詞完整替換；Talk → 對話-* |
+| *不列顛王的中文對話，文白並用語氣（部分 hardcoded engine 字串待補）* | *「對話-」動詞完整替換；Talk → 對話-* |
 
 ### 群組 B：美德系統
 
@@ -346,21 +346,21 @@ Origin 認真為魔像族設計了一套可組合的語言：
 | *「察看-汝見地板」* | *「察看-汝見一面牆」* | *「察看-汝見尤洛」+ 角色面板「尤洛」* |
 | *Big5 12px 渲染驗證* | *Big5 12px 渲染驗證* | *NPC 名稱中文化* |
 
-### 群組 D：戰鬥系統
+### 群組 D：開場 Cinematic
 
-| 戰鬥訊息 | 攻擊對象 |
-|---|---|
-| ![combat](docs/screenshots/04_combat.png) | ![attack](docs/screenshots/05_attack.png) |
-| *「Iolo 擦傷」「重度受傷」均已中文化* | *攻擊動詞 + 目標全中文呈現* |
-
-### 群組 E：開場 Cinematic
-
-| 開場字幕 | 寒風漸起 | 雷光交響 |
+| 拾起黑寶石 | 寒風漸起 | 雷光交響 |
 |---|---|---|
 | ![intro1](docs/screenshots/11_intro_caption1.png) | ![intro2](docs/screenshots/12_intro_chill_wind.png) | ![intro3](docs/screenshots/13_intro_lightning.png) |
-| *汝之世界已歷五載春秋* | *寒風漸起，紅月之門即將開啟* | *魔像族自紅色月之門現身，Avatar 的征途開始* |
+| *「汝心生疑惑，將其拾起⋯⋯」黑曜石石陣場景* | *「屋外，寒風漸起⋯⋯」* | *「一聲雷光交響之間，一道熾烈藍火擊中大地！」* |
 
 > v1.3.1 完成全 27 個 intro cinematic Lua chunk 中文化，涵蓋開場至黑曜石石陣完整劇情。
+
+### 群組 E：v1.5.1 隊伍譯名同步
+
+| 隊員中文譯名 + 中文命令介面 |
+|---|
+| ![party](docs/screenshots/14_party_v151.png) |
+| *右側隊員「壯普雷 / 夏米諾 / 尤洛」（聖者之書譯名）；左下「使用-」「跳過！」命令完整中文化* |
 
 ---
 
