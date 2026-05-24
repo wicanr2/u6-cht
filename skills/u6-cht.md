@@ -11,9 +11,10 @@ description: Ultima VI 繁體中文化專案的工作流知識庫。包含 Plan 
 
 - **目標**：把 1990 年 Origin Systems *Ultima VI: The False Prophet* 漢化為繁體中文（Big5），跑在 **ScummVM/Nuvie engine** 上。
 - **路線**：**Plan B 載入時字串替換**（不動 `CONVERSE.A` bytecode，engine 印字前查 lookup 表替換英文 → 中文）。
-- **狀態**：v1.3.1 已 ship。199 NPC + BOOK.DAT + 27 個 intro cinematic Lua chunks 翻完、7298+ lookup entries + 77 fragments、in-game Big5 渲染驗證。GitHub: https://github.com/wicanr2/u6-cht
+- **狀態**：v1.5 已 ship。199 NPC + BOOK.DAT + 27 個 intro cinematic Lua chunks 翻完、7298+ lookup entries + 170 fragments、in-game Big5 渲染驗證。GitHub: https://github.com/wicanr2/u6-cht
 - **語言風格**：文白並用古典中文（thee/thou → 汝/卿、'tis → 此乃）。LB 用「朕/卿」國王語。
-- **版本標籤**：v1.0 v1.1 v1.2 v1.2.1 v1.3 v1.3.1（共 6 個，Linux AppImage + Win 7z 各 6）
+- **譯名最高權威**：1992 台灣《創世紀聖者之書》（user rule 2026-05-22「翻譯衝突以聖者之書為主」）。詳見 [[譯名權威]] 節。
+- **版本標籤**：v1.0 v1.1 v1.2 v1.2.1 v1.3 v1.3.1 v1.4 v1.5（Linux AppImage + Win 7z 各一份）
 
 ---
 
@@ -86,6 +87,8 @@ description: Ultima VI 繁體中文化專案的工作流知識庫。包含 Plan 
 | **`MsgScroll::display_string`（中央 hook）** | 所有 scroll 輸出最後一道防線 |
 | `Player::get_gender_title()` | `$G` 變數 milord/milady → 公子/姑娘 |
 | **`ScriptCutscene::print_text` + `print_text_raw`** | intro cinematic Lua 字幕（v1.2 起）|
+
+**注意：`MsgScroll::display_string` 看似中央 hook 但仍會漏**——`usecode/u6_usecode.cpp` 等檔案直接 hardcode 字串呼叫 scroll，這些字串走中央 hook 時若 fragment 表沒覆蓋就洩漏。**已知漏翻待補**：`cannon balls`（LB 王宮裝飾）、`the noble ruler of...`（08_lb_dialog 底部）。新發現按 [[漏翻字串 SOP]] 處理。
 
 ### Intro Cinematic Hook 特別說明（v1.2+）
 
@@ -172,6 +175,92 @@ python3 tools/fix_term_drift.py   # 編輯 RULES dict 內的 src→dst pairs
 python3 tools/build_lookup_table.py
 ```
 
+### 漏翻字串 SOP（user 回報某個對話框出現英文時）
+
+**症狀**：in-game 看到英文 token，例如 `opened!`、`closed!`、`cannon balls`。
+
+**步驟**：
+```bash
+# 1. grep engine source 找來源（不是只搜 translations/）
+grep -rn '"<English snippet>"' scummvm-src/engines/ultima/nuvie/
+# 重點掃描位置：
+#   usecode/u6_usecode.cpp    ← 容器/門/物件互動 hardcoded scroll->display_string
+#   converse/converse.cpp     ← hardcoded converse engine 字串
+#   core/events.cpp           ← Look/Search 命令文字
+#   gui/widgets/msg_scroll.cpp ← 中央 hook
+
+# 2. 確認是 scroll->display_string / Converse::print / nscript_print 哪一支
+
+# 3. 加 fragment 到 translations/_engine_fragments.json
+#    必須 cover 三種 \n 變體（呼叫端可能 trim 或包 \n）：
+#      "\nopened!\n" / "opened!\n" / "opened!"
+
+# 4. rebuild（不需 rebuild engine）
+python3 tools/build_lookup_table.py
+
+# 5. 重啟 ScummVM 驗證
+```
+
+**已知例子**：
+- `u6_usecode.cpp:466,471` 容器開關 → `\nopened!\n` / `\nclosed!\n`
+- `u6_usecode.cpp:1739` → `\nCan't (Un)lock an opened door\n`
+- 這些都是 **detection table 找不到、只能 grep engine source 才知道** 的隱藏 hardcoded string。
+
+---
+
+## Windows mingw build gotcha（v1.4 踩坑）
+
+### 症狀
+Wine 或實機跑 `scummvm.exe ultima6`：
+```
+WARNING: ultima failed to instantiate engine: Game id not supported
+(target 'ultima6', path '...')!
+```
+但 `scummvm.exe --list-all-games | grep ultima6` 卻列出 `ultima:ultima6` — **detection 看得到但 instantiate 拒絕**。
+
+### 根因
+`engines/ultima/metaengine.cpp:203` 的 createInstance 用 `#ifdef ENABLE_ULTIMA6` 包住 Nuvie 引擎。configure 在這條鏈失敗：
+
+```
+add_engine ultima6 ... "highres 16bit lua"     ← ultima6 依賴 lua
+↓
+--disable-all-engines --enable-engine=ultima   ← 只開 meta-engine，沒指定 sub-engines
+↓
+configure：「沒有任何啟用的 engine 需要 lua」→ Feature Lua is disabled as unused by enabled engines
+↓
+USE_LUA 不定義 → ultima6 依賴未滿足 → ENABLE_ULTIMA6 不定義
+↓
+createInstance 走 default → kUnsupportedGameidError
+```
+
+### 修法（mingw configure flags）
+```bash
+./configure --host=i686-w64-mingw32 \
+  --disable-all-engines \
+  --enable-engine=ultima,ultima6 \   # ← 必須顯式列 sub-engine
+  --enable-lua \                     # ← 必須顯式 force lua（避免被 auto-disable）
+  --enable-release-mode \
+  --with-sdl-prefix=...
+```
+
+**驗證方法**：
+```bash
+grep -E "USE_LUA|ENABLE_ULTIMA6" config.h config.mk
+# 預期看到：
+#   config.h:#define USE_LUA
+#   config.mk:ENABLE_ULTIMA6 = 1
+#   config.mk:USE_LUA=1
+```
+
+### 為什麼 Linux build 沒事
+本機 `./configure` 沒加 `--disable-all-engines`，預設 enable-all → 所有 sub-engine 默認開 → lua 被需要 → 自動 enable。Mingw build 為了縮 binary size 才 disable-all + 白名單 enable，結果踩這個 trap。
+
+### Cross-compile 路徑
+- Build tree: `/home/anr2/zak-cht-build/scummvm-win-src/`（**共用** zak-cht 那邊的 mingw build env，省 SDL2 mingw 依賴）
+- 工具鏈: `i686-w64-mingw32-g++`（32-bit）
+- SDL2: `~/zak-cht-build/mingw-deps/SDL2-2.28.5/i686-w64-mingw32/`
+- 產出: `scummvm.exe` ~48 MB（含 Nuvie + Lua）；v1.4 漏 Lua 的版本是 ~38 MB
+
 ### 啟動 in-game test (Xephyr 無頭)
 ```bash
 Xephyr -screen 800x600 :2 &
@@ -179,6 +268,37 @@ DISPLAY=:2 ./scummvm-src/scummvm --extrapath=... ultima6 &
 DISPLAY=:2 xdotool key Escape; sleep 1; DISPLAY=:2 xdotool mousemove 400 500 click 1
 DISPLAY=:2 ffmpeg -y -f x11grab -video_size 800x600 -i :2 -frames:v 1 /tmp/shot.png
 ```
+
+### Screenshot pipeline tips（重拍 README 截圖時）
+
+- **MD5 dedup check** 避免同一張圖誤用兩次：
+  ```bash
+  md5sum docs/screenshots/*.png | sort
+  ```
+  歷史教訓：v1.5 `09_intro_zh.png` 與 `11_intro_caption1.png` md5 完全相同，是 agent 拍 intro 時取了同一 frame。
+- **`.bak` 已 gitignored**（`*.bak` / `*.bak.*`）— 重拍前 `cp x.png x.png.bak` 保留 rollback 路徑，不會污染 git
+- **Xephyr `:2`** — 不要踩到本機 `:0`/`:1`。確認 `ps aux | grep Xephyr` 沒衝突
+- **xdotool 大小寫敏感** — `Return` vs `return` 不同；`l` vs `L` 觸發不同 binding（U6 用小寫 `l` = Look）
+- **Intro cinematic timing** — ScummVM 啟動後等 5–10s 才開始播 intro；ffmpeg 抓 frame 要算好時點
+- **不能自動拍的場景** → 列在 audit 報告標 `MANUAL`，請 user 手動跑（戰鬥、LB Quiz、特定 NPC 對話）
+
+### 重打包 Windows release zip
+
+```bash
+# 用最新 mingw scummvm.exe + 原有 engine-data + u6cht-data
+cd /tmp && rm -rf u6cht-VER-windows && mkdir u6cht-VER-windows
+cp /home/anr2/zak-cht-build/scummvm-win-src/scummvm.exe u6cht-VER-windows/
+cp /home/anr2/zak-cht-build/scummvm-win-src/SDL2.dll u6cht-VER-windows/  # 若 mingw build 沒含
+cp -r <previous release>/engine-data u6cht-VER-windows/
+mkdir u6cht-VER-windows/u6cht-data
+cp /home/anr2/u6-cht/working/game/cht_strings.tab u6cht-VER-windows/u6cht-data/
+cp /home/anr2/u6-cht/working/game/big5_u6_12x12.fnt u6cht-VER-windows/u6cht-data/
+# run.bat + README.txt 沿用前版（更新 VER 字串）
+7z a -t7z -mx=9 u6cht-VER-windows-x86.7z u6cht-VER-windows/
+mv u6cht-VER-windows-x86.7z /home/anr2/u6-cht/releases/
+```
+
+**驗證**：解壓另一目錄，wine 跑 `scummvm.exe ultima6` 期望看不到 `Game id not supported`。
 
 ---
 
@@ -196,6 +316,30 @@ DISPLAY=:2 ffmpeg -y -f x11grab -video_size 800x600 -i :2 -frames:v 1 /tmp/shot.
 10. **Lua print** — `nscript_print` 加 prefix-aware substitution
 11. **Lua dynamic 字串** — fragment substitution（inline find-replace）
 12. **多段 add_text** — paragraph split (`\n\n` boundary) 拆開查表
+13. **usecode hardcoded scroll->display_string** — `engines/ultima/nuvie/usecode/u6_usecode.cpp` 直接寫死 `"\nopened!\n"` 等字串。中央 hook 雖能截到，但 fragment 表沒收就漏。grep `display_string` 整個 usecode/ 才找全。詳見 [[漏翻字串 SOP]]
+14. **mingw build 漏 ENABLE_ULTIMA6** — Windows cross-compile 因 lua auto-disable 連鎖反應導致 ultima6 沒編進去。詳見 [[Windows mingw build gotcha]]
+
+---
+
+<a name="譯名權威"></a>
+## 譯名權威：1992 聖者之書優先
+
+**User rule 2026-05-22**：翻譯衝突時以 1992 台灣《創世紀聖者之書》為準（不是 v1.3 那種「以多數使用統一」邏輯）。理由：**老玩家才能理解**，1992 的中文化是台灣 Ultima 圈的共同記憶。
+
+兩份權威 PDF（repo 根目錄 untracked，含版權不入 git）：
+
+| 檔 | 來源 | 內容 |
+|---|---|---|
+| `DDSC-J-00007-創世紀聖者之書特別版.pdf` | 台灣電腦玩家雜誌 1992 (83p) | **主**：八德 / 城名 / Avatar 對話 / lore |
+| `DDSC-J-00124-遊戲手冊：創世紀６.pdf` | 軟體世界 1992 (13p) | **副**：職業 / 26 魔法音節 / 物品 / 操作 |
+
+衝突處理 SOP：
+1. 看聖者之書（主） — 通常翻得最完整
+2. 看遊戲手冊（副） — 涵蓋系統用語
+3. 都沒有才自行音/意譯
+4. **凡 user 規則覆蓋既有譯法 → 寫進 [[重要譯名變動記錄]]，並用 `tools/fix_term_drift.py` 全域 sweep**
+
+歷史教訓：v1.3 把 Trinsic 統一成「崔西克」（多數出現次數），v1.5 user 指出聖者之書是「特林希克」，整個反轉並重拍 13 個 NPC + 截圖。今後判斷 conflict **先看聖者之書，再決定**。
 
 ---
 
@@ -215,8 +359,10 @@ DISPLAY=:2 ffmpeg -y -f x11grab -video_size 800x600 -i :2 -frames:v 1 /tmp/shot.
 | Control / Passion / Diligence | 控制 / 熱情 / 勤勉（魔像族三原則）| |
 | Honesty / Compassion / Valor | 誠實 / 慈悲 / **勇敢**（八德前三） | Valor = 勇敢（v1.2 起），非「勇氣」|
 | Honor | 榮譽 | v1.2 統一（多數用法 25:12）|
-| Trinsic | 崔西克 | v1.3 統一（從川辛改）|
+| Trinsic | **特林希克** | v1.5 反轉 v1.3（聖者之書 p21-23）|
 | Jhelom | 傑隆 | v1.3 統一（從哲倫改）|
+| Minoc | **米諾克** | v1.5 改（聖者之書 p23，從密諾克）|
+| Troll | **巨人** | v1.5 改（聖者之書 p52 + 遊戲手冊 p43，從山怪）|
 
 ### 重要譯名變動記錄
 
@@ -227,6 +373,9 @@ DISPLAY=:2 ffmpeg -y -f x11grab -video_size 800x600 -i :2 -frames:v 1 /tmp/shot.
 | v1.2 | Honor 榮耀 | 榮譽 | 多數用法（NPC 197）|
 | v1.3 | Trinsic 川辛/特林希克 | 崔西克 | 全域統一 |
 | v1.3 | Jhelom 哲倫 | 傑隆 | 全域統一 |
+| **v1.5** | Trinsic 崔西克 | **特林希克** | **反轉 v1.3**（user rule 2026-05-22：聖者之書優先；老玩家才能理解）|
+| v1.5 | Minoc 密諾克 | 米諾克 | 聖者之書 p23 — 10 files |
+| v1.5 | Troll 山怪 | 巨人 | 聖者之書 p52 + 遊戲手冊 p43 |
 
 ## LB Compendium quiz 答案速查表
 
@@ -256,7 +405,7 @@ DISPLAY=:2 ffmpeg -y -f x11grab -video_size 800x600 -i :2 -frames:v 1 /tmp/shot.
 | Valor (勇氣) | Courage | ra | Jhelom 哲倫 |
 | Justice (正義) | T+L | beh | Yew 尤伊 |
 | Sacrifice (犧牲) | L+C | cah | Minoc 米諾克 |
-| Honor (榮譽) | T+C | summ | Trinsic 川辛 |
+| Honor (榮譽) | T+C | summ | Trinsic 特林希克 |
 | Spirituality (靈性) | T+L+C | om | Skara Brae |
 | Humility (謙卑) | （皆無）| lum | New Magincia |
 
