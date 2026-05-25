@@ -282,6 +282,20 @@ DISPLAY=:2 ffmpeg -y -f x11grab -video_size 800x600 -i :2 -frames:v 1 /tmp/shot.
 - **Intro cinematic timing** — ScummVM 啟動後等 5–10s 才開始播 intro；ffmpeg 抓 frame 要算好時點
 - **不能自動拍的場景** → 列在 audit 報告標 `MANUAL`，請 user 手動跑（戰鬥、LB Quiz、特定 NPC 對話）
 
+### 從遊戲資料抽圖：世界地圖 + NPC 頭像（v1.5.2 README 重繪）
+
+純 Python 解碼，**不連 engine、不需外部素材**。工具：`tools/extract_u6_images.py`（解碼器）、`tools/build_readme_art.py`（標註地圖 + 頭像牆生成）。
+
+三個格式要點（都 port 自 nuvie，逐位驗證過）：
+
+- **U6 LZW**（`U6Lzw::decompress_buffer`）：4-byte LE uncompressed-size header → 9~12 bit 變長 codeword，`0x100`=reset dict、`0x101`=EOF，dict 從 `0x102` 起。`source += 4` 跳過 header 再解。
+- **U6Lib_n 容器**（`PORTRAIT.A/B`）：U6 type 無 4-byte 檔頭，offset table 為 4-byte entries，**top byte = flag**、低 3 bytes = offset。`num_items` 靠「掃到第一個 data block」推算。
+- **關鍵坑**：portrait item 即使 lib flag=0（未壓），**item bytes 本身仍是獨立 LZW 流**（nuvie `PortraitU6::get_portrait_data` 永遠再跑一次 `lzw.decompress_buffer`）。所以要 lib 解出 item → 再 LZW 解一次 → 才得 56×64 indexed。
+- **U6PAL**：前 768 bytes = 256 色 RGB，6-bit；還原成 8-bit 要 `value << 2`（見 `GamePalette::loadPalette`）。768 之後是輔助資料，別讀進來。
+- **世界地圖**：`WORLDMAP.BMP` 是單一 LZW 流，解出 128×128 戰略 overview（1 px = 8×8 tiles）。直接套 U6PAL 即得真實 Britannia 全景。
+
+**城市 pin 座標取真值**：讀 `SAVEGAME/OBJLIST` offset `0x100 + actor#*3`，3 bytes 解 `x=b1+((b2&3)<<8)`、`y=((b2&0xfc)>>2)+((b3&0xf)<<6)`（10-bit，0–1023）。overview 座標 = tile/8。actor# = 譯檔檔名數字（portrait index = actor#−1）。各城代表 NPC 用 OBJLIST 真實位置 → pin 不靠手繪。驗證歸屬可 grep 該 NPC 譯檔的 zh/en 找城市自稱（如 Zellivan 譯檔出現 "Jhelom"+"valor"）。
+
 ### 重打包 Windows release zip
 
 ```bash
