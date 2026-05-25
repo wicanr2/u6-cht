@@ -243,22 +243,40 @@ Kal Xen    = 召喚(Kal) + 怪物(Xen) → 召喚術
 <a name="britannia"></a>
 ## 🗺️ Britannia 世界 — 八德八城
 
-八座城市各守一德，構成 Britannia 的道德地理。
+八座城市各守一德，構成 Britannia 的道德地理。下圖是 **U6 原始 `WORLDMAP.BMP`**（128×128 戰略 overview）以本專案的 `U6Lzw` 解壓、`U6PAL` 調色板還原後重繪而成——8 座城市 pin 的座標**直接讀自遊戲 `SAVEGAME` 內各城代表 NPC 的真實位置**，而非手繪估計。
 
-```
-        北方
-    Yew(Justice)  Moonglow(Honesty)
-                  [Verity Isle 島]
-西  Jhelom           Britain(Compassion)  東
-    [Valorian Isles]  [首都]
-    Minoc(Sacrifice)  Cove(Compassion副)
-         Trinsic(Honor)
-         [港口]
-    Skara Brae(Spirituality)
-    [島，已成鬼鎮]
-         New Magincia(Humility)
-              南方
-```
+![britannia-map](docs/screenshots/britannia_map.png)
+
+### 🎭 八城代表 NPC
+
+> 以下頭像皆自遊戲 `PORTRAIT.A` / `PORTRAIT.B` 以 `U6Lzw` 解壓 + `U6PAL` 還原（56×64 原圖放大 2×），全是遊戲內真實素材，非外部繪製。
+
+<table>
+<tr>
+<td align="center"><img src="docs/screenshots/npc/mariah.png" width="78"><br><b>瑪萊雅</b><br><sub>月光城 · 誠實</sub></td>
+<td align="center"><img src="docs/screenshots/npc/lord_british.png" width="78"><br><b>不列顛王</b><br><sub>不列顛城 · 慈悲</sub></td>
+<td align="center"><img src="docs/screenshots/npc/zellivan.png" width="78"><br><b>Zellivan</b><br><sub>哲倫 · 勇敢</sub></td>
+<td align="center"><img src="docs/screenshots/npc/michael.png" width="78"><br><b>Michael 法官</b><br><sub>紫衫城 · 正義</sub></td>
+</tr>
+<tr>
+<td align="center"><img src="docs/screenshots/npc/julia.png" width="78"><br><b>茱莉雅</b><br><sub>米諾克 · 犧牲</sub></td>
+<td align="center"><img src="docs/screenshots/npc/sentri.png" width="78"><br><b>山特利</b><br><sub>特林希克 · 榮譽</sub></td>
+<td align="center"><img src="docs/screenshots/npc/horance.png" width="78"><br><b>Horance</b><br><sub>史卡拉布雷 · 靈性</sub></td>
+<td align="center"><img src="docs/screenshots/npc/katrina.png" width="78"><br><b>卡崔娜</b><br><sub>新馬精西亞 · 謙卑</sub></td>
+</tr>
+</table>
+
+### ⚔️ 隊伍與不列顛宮廷
+
+<table>
+<tr>
+<td align="center"><img src="docs/screenshots/npc/iolo.png" width="78"><br><b>尤洛</b><br><sub>吟遊詩人 · 弩手</sub></td>
+<td align="center"><img src="docs/screenshots/npc/dupre.png" width="78"><br><b>壯普雷</b><br><sub>聖騎士</sub></td>
+<td align="center"><img src="docs/screenshots/npc/shamino.png" width="78"><br><b>夏米諾</b><br><sub>遊俠</sub></td>
+<td align="center"><img src="docs/screenshots/npc/geoffrey.png" width="78"><br><b>傑佛瑞</b><br><sub>禁衛隊長</sub></td>
+<td align="center"><img src="docs/screenshots/npc/nystul.png" width="78"><br><b>尼斯托</b><br><sub>宮廷法師</sub></td>
+</tr>
+</table>
 
 ### 各城概覽
 
@@ -301,6 +319,14 @@ Kal Xen    = 召喚(Kal) + 怪物(Xen) → 召喚術
 U6 是 RPG 史上第一次給約 200 個 NPC 各別撰寫獨立對話樹 + 日常作息表的作品。每個 NPC 白天工作、傍晚回家、夜裡睡覺；打開門進別人臥室會被當小偷。
 
 **Chuckles** 是宮廷弄臣會說笑話；**Sherry** 是一隻會說話的寵物鼠；**Smith** 是一匹會說話的馬。這個世界，每個生命都有自己的故事。
+
+<table>
+<tr>
+<td align="center"><img src="docs/screenshots/npc/chuckles.png" width="78"><br><b>笑笑 Chuckles</b><br><sub>宮廷弄臣</sub></td>
+<td align="center"><img src="docs/screenshots/npc/sherry.png" width="78"><br><b>雪莉 Sherry</b><br><sub>會說話的老鼠</sub></td>
+<td align="center"><img src="docs/screenshots/npc/smith.png" width="78"><br><b>Smith</b><br><sub>會說話的馬</sub></td>
+</tr>
+</table>
 
 ### Gargish 構造語言
 
