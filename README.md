@@ -30,11 +30,6 @@
 
 這是 **Ultima VI: The False Prophet（1990）** 的完整繁體中文化版本。
 
-> 今年剛過 45，也算正式走到中年了。  
-> 人生總該做點事情留下紀念。  
->  
-> 希望這些中文翻譯，能讓後來的人更容易認識那些經典 RPG，知道它們曾經有多迷人。
-
 | 項目 | 狀態 |
 |------|------|
 | NPC 對話翻譯 | **199 / 199** 全完成 |
@@ -690,6 +685,10 @@ DISPLAY=:2 ./scummvm-src/scummvm \
 
 *Ultima VI 繁體中文化專案 — wicanr2/u6-cht*  
 *GitHub: [https://github.com/wicanr2/u6-cht](https://github.com/wicanr2/u6-cht)*
+
+> 人生總該做點事情留下紀念。  
+>  
+> 希望這些中文翻譯，能讓後來的人更容易認識那些經典 RPG，知道它們曾經有多迷人。
 
 > 「見汝甚悅，友也。或汝有閒一聽古事？」
 > — *'Tis good to see thee, friend. Mayhap thou hast time for a tale?*
