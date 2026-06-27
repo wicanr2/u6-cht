@@ -1,7 +1,7 @@
 # Ultima VI 繁體中文化專案
 
 > *Ultima VI: The False Prophet* (1990 Origin Systems) — 完整繁體中文化  
-> 199 NPC + BOOK.DAT + 開場 cinematic 全翻譯 ✦ ScummVM Nuvie engine ✦ AR PL UMing 11px Big5 字型
+> 199 NPC + BOOK.DAT + 開場 cinematic 全翻譯 ✦ ScummVM Nuvie engine ✦ WenQuanYi Zen Hei Sharp 16×16 Big5 字型 (v2.0)
 
 ---
 
@@ -65,7 +65,8 @@ v2.0 完整 design + worklist 公開在 repo：[`docs/design-B-16x16-plan.md`](d
 | BOOK.DAT 書卷 | 127 條（1897 字串） |
 | 開場 Cinematic | 全 27 個 Lua chunk 中文字幕 |
 | 平台 | ScummVM（Linux / Win / Mac / Web / RetroArch） |
-| 字型 | AR PL UMing 11px Big5 點陣嵌入式 |
+| 字型 (v2.0) | **WenQuanYi Zen Hei Sharp 16×16** Big5 點陣（native 解析度，仿 PC-98 1991）|
+| 字型 (v1.5.x) | WenQuanYi Zen Hei Sharp 12×12 Big5 點陣 |
 | GitHub | [wicanr2/u6-cht](https://github.com/wicanr2/u6-cht) |
 
 ---
@@ -78,7 +79,7 @@ v2.0 完整 design + worklist 公開在 repo：[`docs/design-B-16x16-plan.md`](d
 - **ScummVM**（含 Nuvie engine 的自訂 build，見 [Release](https://github.com/wicanr2/u6-cht/releases)）
 - **Ultima VI 原版遊戲資料**（自行取得合法拷貝）
 - **`cht_strings.tab`**（繁中字串表，本 repo 附帶）
-- **`big5_u6_12x12.fnt`**（Big5 字型，本 repo 附帶）
+- **`big5_u6_16x16.fnt`**（v2.0 native 16×16 Big5 字型；或 v1.5.x 用 `big5_u6_12x12.fnt`）
 
 ### 三步啟動
 
@@ -87,8 +88,9 @@ v2.0 完整 design + worklist 公開在 repo：[`docs/design-B-16x16-plan.md`](d
 git clone https://github.com/wicanr2/u6-cht.git
 
 # 2. 複製字型與字串表到遊戲目錄
-cp working/game/cht_strings.tab  /path/to/ultima6/
-cp working/game/big5_u6_12x12.fnt /path/to/ultima6/
+cp working/game/cht_strings.tab    /path/to/ultima6/
+cp working/game/big5_u6_16x16.fnt  /path/to/ultima6/   # v2.0
+# 或 v1.5.x: cp working/game/big5_u6_12x12.fnt /path/to/ultima6/
 
 # 3. 啟動 ScummVM
 ./scummvm --extrapath=dists/engine-data ultima6
@@ -97,7 +99,7 @@ cp working/game/big5_u6_12x12.fnt /path/to/ultima6/
 啟動後你會看到——
 
 ![lb-dialog](docs/screenshots/08_lb_dialog.png)
-*不列顛王王宮 throne room — 隊員「壯普雷／夏米諾／尤洛」聖者之書譯名同步，介面與命令全中文化。*
+*v1.5.x throne room — 隊員「杜普雷／夏米諾／尤洛」聖者之書譯名，介面與命令全中文化。圖中「杜」字在 12×12 點陣下「木」結構被擠成 5px 連續橫筆，朋友看成「壯」— 正是 v2.0 升 16×16 真實解析度要根治的問題（見頂部 v2.0 預覽段）。*
 
 ---
 
@@ -300,7 +302,7 @@ Kal Xen    = 召喚(Kal) + 怪物(Xen) → 召喚術
 <table>
 <tr>
 <td align="center"><img src="docs/screenshots/npc/iolo.png" width="78"><br><b>尤洛</b><br><sub>吟遊詩人 · 弩手</sub></td>
-<td align="center"><img src="docs/screenshots/npc/dupre.png" width="78"><br><b>壯普雷</b><br><sub>聖騎士</sub></td>
+<td align="center"><img src="docs/screenshots/npc/dupre.png" width="78"><br><b>杜普雷</b><br><sub>聖騎士</sub></td>
 <td align="center"><img src="docs/screenshots/npc/shamino.png" width="78"><br><b>夏米諾</b><br><sub>遊俠</sub></td>
 <td align="center"><img src="docs/screenshots/npc/geoffrey.png" width="78"><br><b>傑佛瑞</b><br><sub>禁衛隊長</sub></td>
 <td align="center"><img src="docs/screenshots/npc/nystul.png" width="78"><br><b>尼斯托</b><br><sub>宮廷法師</sub></td>
@@ -384,7 +386,7 @@ Origin 認真為魔像族設計了一套可組合的語言：
 | LB 王宮 + 隊員譯名 | 「對話-」動詞中文化 |
 |---|---|
 | ![lb-dialog](docs/screenshots/08_lb_dialog.png) | ![talk](docs/screenshots/06_talk_nothing.png) |
-| *throne room 全景，隊員「壯普雷／夏米諾／尤洛」（聖者之書 v1.5 譯名）* | *「對話-」動詞完整替換；Talk → 對話-* |
+| *throne room 全景，隊員「杜普雷／夏米諾／尤洛」（聖者之書 v1.5 譯名；v1.5.x 12px 字型下「杜」視覺易誤認為「壯」，v2.0 16×16 native 已根治）* | *「對話-」動詞完整替換；Talk → 對話-* |
 
 ### 群組 B：美德系統
 
@@ -399,7 +401,7 @@ Origin 認真為魔像族設計了一套可組合的語言：
 |---|---|---|
 | ![floor](docs/screenshots/01_look_floor.png) | ![wall](docs/screenshots/02_look_wall.png) | ![npc](docs/screenshots/03_look_carpet.png) |
 | *「察看-汝見地板」* | *「察看-汝見一面牆」* | *「察看-汝見尤洛」+ 角色面板「尤洛」* |
-| *Big5 12px 渲染驗證* | *Big5 12px 渲染驗證* | *NPC 名稱中文化* |
+| *v1.5.x Big5 12×12 渲染驗證 (v2.0 已升 16×16 native)* | *同上* | *NPC 名稱中文化* |
 
 ### 群組 D：開場 Cinematic
 
@@ -408,14 +410,14 @@ Origin 認真為魔像族設計了一套可組合的語言：
 | ![intro1](docs/screenshots/11_intro_caption1.png) | ![intro2](docs/screenshots/12_intro_chill_wind.png) | ![intro3](docs/screenshots/13_intro_lightning.png) |
 | *「汝心生疑惑，將其拾起⋯⋯」黑曜石石陣場景* | *「屋外，寒風漸起⋯⋯」* | *「一聲雷光交響之間，一道熾烈藍火擊中大地！」* |
 
-> v1.3.1 完成全 27 個 intro cinematic Lua chunk 中文化，涵蓋開場至黑曜石石陣完整劇情。
+> v1.3.1 完成全 27 個 intro cinematic Lua chunk 中文化，涵蓋開場至黑曜石石陣完整劇情。**v2.0 進一步把 intro 字幕也升 16×16 真實解析度 + 動態 line height 修舊版 vertical overlap** — 截圖見頂部 v2.0 預覽段 `intro_seg2_16x16_native.png`。
 
 ### 群組 E：v1.5.1 隊伍譯名同步
 
 | 隊員中文譯名 + 中文命令介面 |
 |---|
 | ![party](docs/screenshots/14_party_v151.png) |
-| *右側隊員「壯普雷 / 夏米諾 / 尤洛」（聖者之書譯名）；左下「使用-」「跳過！」命令完整中文化* |
+| *右側隊員「杜普雷 / 夏米諾 / 尤洛」（聖者之書譯名）；左下「使用-」「跳過！」命令完整中文化（v1.5.x 12×12 視覺下「杜」易誤認為「壯」，v2.0 16×16 已 fix；對比 `docs/screenshots/v2/throne_room_16x16_native.png`）* |
 
 ---
 
@@ -546,19 +548,22 @@ each record:
 | `ConvFont` | NewUI ConverseGump 變寬字體 | `fonts/conv_font.{cpp,h}` |
 | `WOUFont` | cutscene / intro 字體 | `fonts/wou_font.{cpp,h}` |
 
-字型檔：`big5_u6_12x12.fnt`（AR PL UMing 11px embedded bitmap）。產生器 `tools/build-big5-font.py` 支援 `--font {uming,wqy-sharp} --size N`。
+字型檔：
+- **v2.0**：`big5_u6_16x16.fnt`（WenQuanYi Zen Hei Sharp 16×16 embedded bitmap，產生器 `tools/build-big5-font-16x16.py`）— 472,256 bytes、14,758 slots、寫到 `_overlaySurface` native 解析度
+- v1.5.x：`big5_u6_12x12.fnt`（WQY Sharp 12×12，產生器 `tools/build-big5-font-wqysharp.py`）— 354,192 bytes、寫到 `_gameSurface` 12px 解析度
 
 ### 統計
 
-| 項目 | 數字 |
-|------|------|
-| 譯文條數（exact entries） | 7,282 |
-| Fragment 條數 | 40 |
-| NPC 翻譯 | 199 / 199（不含 Avatar 本人） |
-| BOOK.DAT | 127 條（1897 字串） |
-| Engine hooks | 8 個 |
-| Engine 修改檔案 | 12 個 .cpp/.h |
-| Binary lookup 大小 | ~620 KB |
+| 項目 | v2.0 | v1.5.x |
+|------|------|------|
+| 譯文條數（exact entries） | **7,298** | 7,298 |
+| Fragment 條數 | **189**（intro longest-first sort + tile/opened/closed 補完）| 40 |
+| NPC 翻譯 | 199 / 199（不含 Avatar 本人） | 同 |
+| BOOK.DAT | 127 條（1897 字串） | 同 |
+| Engine hooks | 8 個（CHT lookup） | 同 |
+| Engine 修改檔案 | 12+ 個 .cpp/.h（v2.0 加 `_overlaySurface` + 雙 surface 架構） | 12 個 |
+| Binary lookup `cht_strings.tab` 大小 | ~332 KB | 同 |
+| 字型 atlas | **`big5_u6_16x16.fnt` 472 KB** | `big5_u6_12x12.fnt` 354 KB |
 
 ### 已驗證（in-game）
 
@@ -593,7 +598,8 @@ each record:
 
 #### 坑 #4：MsgScroll line height 8px vs Big5 12px
 ASCII 字體高 8px，Big5 12px，連續兩行中文頂部重疊 4px。
-**解法**：改用 10px stride 妥協（中文重疊 2px 但可讀）。
+**v1.5.x 解法**：改用 10px stride 妥協（中文重疊 2px 但可讀）。
+**v2.0 解法**：CJK 16×16 寫 `_overlaySurface` native 640×400，msg_scroll line stride 10 game-px = 20 native-px，字 16 native + 4 native gap，**完全不重疊**。cutscene 同時加 `_line_h = has_cjk ? 14 : 8` 動態 line height 解開 intro 字幕 overlap。
 
 #### 坑 #5：多個輸出路徑都要 hook
 Plan B 不是「一個 hook 蓋全部」。U6 engine 有多條 output codepath，漏掉一處就有一處英文洩漏。
@@ -649,8 +655,9 @@ Big5 標點（`。A1 43`、`，A1 41`）需單獨處理。將 Big5 lead pair 當
 | Avatar 玩家自訂名 | 不翻譯（runtime variable，設計即此） | 起名請用拉丁字母 |
 | Gargish 古怪語法 | 譯成莊嚴文言（設計選擇）| 風格 OK，後續可選二輪 polish |
 | 5C trail risk chars | 已透過 binary fmt + get_formatted_text 避過 | 仍是 workaround，非 fix |
-| Cinematic 字幕視覺重疊 | Lua 多 chunk 同 y 位置渲染 Big5 12px | 需更深 engine 重構 |
+| Cinematic 字幕視覺重疊 | ~~Lua 多 chunk 同 y 位置渲染 Big5 12px~~ | **v2.0 已修**（`_line_h = has_cjk ? 14 : 8` 動態 line height + 16×16 native overlay） |
 | ScummVM autosave 與 OBJLIST 衝突 | save-game teleport 工具未實用 | task #21 |
+| 「杜」字 12×12 視覺易誤認為「壯/狀/牡」 | **v2.0 已修**（朋友 finding） | 16×16 native atlas，「木」中豎+橫貫+撇捺結構分明 |
 
 ### v1.0 → v1.4 已修的 limitations
 
