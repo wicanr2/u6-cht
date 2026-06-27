@@ -12,6 +12,14 @@
 
 非目標：圖形重畫、加 high-res sprite、改 game logic。
 
+## 走的 sub-route：B.1（兩層 compose）
+
+Phase 0 source survey 後（見 `docs/phase0-findings.md`），衍生兩條 sub-route，**選 B.1**：
+
+- **B.1（選定）**：Nuvie 內部維持 320×200，字渲染走獨立 640×400 overlay layer，兩層 compose 出去。
+  PC-98 1:1 真實映射、動的檔少（screen.cpp + 3 font path）、tile/chrome/anim 完全不動。
+- B.2（封存）：Nuvie 內部直接拉 640×400 native + 所有 tile blit 改 2× stretch。動點多、audit 面廣，故不採。
+
 ---
 
 ## Phase 0 source map（不是「前提驗證」，是「執行細節摸清楚」）
