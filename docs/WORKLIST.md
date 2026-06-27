@@ -1,7 +1,37 @@
-# v2.0 Worklist — B.1（兩層 compose、PC-98 1:1 漢字 16×16）
+# v2.0 / v2.x Worklist
 
-> Branch: `v2-16x16`。design doc: `docs/design-B-16x16-plan.md`。Phase 0 findings: `docs/phase0-findings.md`。
-> 規則：第一性原理拆解、老遊戲重製不考慮成本、不退方案 A。
+> **v2.0 SHIPPED 2026-06-27** — tag `v2.0` / commit `29a2e19` / [Release v2.0](https://github.com/wicanr2/u6-cht/releases/tag/v2.0)
+> 含 Linux AppImage (123 MB) + Windows zip (93 MB)。Issues #1 + #2 closed。
+>
+> v2.x backlog 跨機 ref 在下面 § v2.x。
+
+---
+
+## v2.x backlog（6 項，跨機接續）
+
+| # | 項目 | 風險 / 動因 |
+|---|---|---|
+| #35 | intro Lua line 828「Near the stones」(4 chunks) split | 高 — fade_in/stones_update animation 配對 |
+| #36 | intro Lua line 953「But your joy」(3 chunks) y 重排 | 中 — hardcoded absolute y position |
+| #37 | Look NPC 實機截圖 (events.cpp lookAtCursor actor 分支) | 低 — hover cursor exact pixel |
+| #38 | rm -rf dumps/translations/ (v1.5.2 後完全淘汰) | 低 |
+| #39 | dumps/tester_pass{2..6}_report.md stale 清理 | 低 |
+| #40 | macOS GitHub Actions trigger + universal .app upload | 中 — runner queue / first build |
+
+build pipeline 跨機備用工具:
+- `tools/patch-ultima-dat-intro-lua.sh` — Lua intro patch 寫進 ultima.dat (working/game/ + scummvm-src/dists/engine-data/)
+- `tools/build-big5-font-16x16.py` — WQY Sharp 16×16 atlas build (472KB)
+- `tools/dump_font_glyph.py` — glyph dump (字型 verification)
+- `dist/windows/repack.sh` — Windows zip CRLF hotfix
+- 三平台 ship sequence 見 `~/.claude/skills/retro-game-cht-package/SKILL.md`
+
+---
+
+## v2.0 SHIPPED (reference — 完成內容)
+
+Branch: `v2-16x16` (merged 到 main commit `702b44d`)。
+Design doc: `docs/design-B-16x16-plan.md`。Phase 0 findings: `docs/phase0-findings.md`。
+規則：第一性原理拆解、老遊戲重製不考慮成本、不退方案 A。
 
 ---
 
