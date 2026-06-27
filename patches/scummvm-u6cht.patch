@@ -1047,6 +1047,113 @@ index ba7134a2..1afd4c0c 100644
  		total_length += token->s.size();
  	}
  }
+diff --git a/engines/ultima/nuvie/screen/screen.cpp b/engines/ultima/nuvie/screen/screen.cpp
+index 349f1b00..e8cfb614 100644
+--- a/engines/ultima/nuvie/screen/screen.cpp
++++ b/engines/ultima/nuvie/screen/screen.cpp
+@@ -41,7 +41,9 @@ static const sint32 globeradius[]   = { 36, 112, 148, 192, 448 };
+ static const sint32 globeradius_2[] = { 18, 56, 74, 96, 224 };
+ 
+ Screen::Screen(const Configuration *cfg) : config(cfg), _rawSurface(nullptr),
+-		_renderSurface(nullptr), shading_data(nullptr), is_no_darkness(false),
++		_gameSurface(nullptr), _overlaySurface(nullptr),
++		_renderSurface(nullptr), _displayScale(2),
++		shading_data(nullptr), is_no_darkness(false),
+ 		non_square_pixels(false), shading_ambient(255), width(320), height(200) {
+ 	ARRAYCLEAR(shading_tile);
+ 
+@@ -60,6 +62,8 @@ Screen::Screen(const Configuration *cfg) : config(cfg), _rawSurface(nullptr),
+ 
+ Screen::~Screen() {
+ 	delete _renderSurface;
++	delete _gameSurface;
++	delete _overlaySurface;
+ 	delete _rawSurface;
+ 
+ 	if (shading_data)
+@@ -1082,15 +1086,47 @@ void Screen::update(int x, int y, uint16 w, uint16 h) {
+ }
+ 
+ void Screen::performUpdate() {
++	// v2.0 B.1: 2× nearest-neighbor scale _gameSurface (320×200) → _rawSurface (640×400).
++	// (Phase 3: alpha-blend _overlaySurface (640×400) on top for native 16×16 CJK.)
++	if (_gameSurface && _rawSurface && _gameSurface->format.bytesPerPixel == 2) {
++		const uint16 *src = (const uint16 *)_gameSurface->getPixels();
++		uint16 *dst       = (uint16 *)_rawSurface->getPixels();
++		uint32 src_pitch  = _gameSurface->pitch / 2;
++		uint32 dst_pitch  = _rawSurface->pitch / 2;
++		uint16 gw         = (uint16)_gameSurface->w;
++		uint16 gh         = (uint16)_gameSurface->h;
++		for (uint16 y = 0; y < gh; ++y) {
++			const uint16 *sr = src + (uint32)y * src_pitch;
++			uint16 *dr0      = dst + ((uint32)y * 2) * dst_pitch;
++			uint16 *dr1      = dr0 + dst_pitch;
++			for (uint16 x = 0; x < gw; ++x) {
++				uint16 c = sr[x];
++				uint32 dx = (uint32)x * 2;
++				dr0[dx]     = c;
++				dr0[dx + 1] = c;
++				dr1[dx]     = c;
++				dr1[dx + 1] = c;
++			}
++		}
++		// Tell ScummVM the whole raw surface is dirty so it actually pushes the 2×-scaled frame
++		_rawSurface->addDirtyRect(Common::Rect(0, 0, _rawSurface->w, _rawSurface->h));
++	}
+ 	_rawSurface->update();
+ }
+ 
+ void Screen::set_screen_mode() {
+ 	const Graphics::PixelFormat SCREEN_FORMAT(2, 5, 6, 5, 0, 11, 5, 0, 0);
+-	initGraphics(width, height, &SCREEN_FORMAT);
+-	_rawSurface = new Graphics::Screen(width, height, SCREEN_FORMAT);
+-
+-	_renderSurface = CreateRenderSurface(_rawSurface);
++	// v2.0 B.1: native window = game × _displayScale (640×400).
++	// _gameSurface is the 320×200 framebuffer all existing Nuvie blit/fill paths
++	// write to (via _renderSurface wrapper). Screen.width/height stay 320×200
++	// for callers — they don't know the native surface is 2× bigger.
++	uint16 native_w = width  * _displayScale;
++	uint16 native_h = height * _displayScale;
++	initGraphics(native_w, native_h, &SCREEN_FORMAT);
++	_rawSurface  = new Graphics::Screen(native_w, native_h, SCREEN_FORMAT);
++	_gameSurface = new Graphics::ManagedSurface(width, height, SCREEN_FORMAT);
++
++	_renderSurface = CreateRenderSurface(_gameSurface);
+ }
+ 
+ bool Screen::is_fullscreen() const {
+diff --git a/engines/ultima/nuvie/screen/screen.h b/engines/ultima/nuvie/screen/screen.h
+index 465a6937..48bb4317 100644
+--- a/engines/ultima/nuvie/screen/screen.h
++++ b/engines/ultima/nuvie/screen/screen.h
+@@ -41,8 +41,26 @@ enum LightingStyle {
+ class Screen {
+ private:
+ 	const Configuration *config;
++	// v2.0 B.1 dual-surface architecture:
++	//   _rawSurface     : native window surface (640×400 = game × _displayScale).
++	//                     Final output to ScummVM.
++	//   _gameSurface    : game-logic framebuffer (320×200). All existing Nuvie
++	//                     blit/fill paths (anim_manager, map_window, chrome,
++	//                     msg_scroll ASCII path...) write here via _renderSurface.
++	//   _renderSurface  : RenderSurface wrapper over _gameSurface. External
++	//                     API (width/height) keeps reporting 320×200 — caller
++	//                     code unchanged.
++	//   _overlaySurface : (Phase 3) native-resolution 640×400 surface for CJK
++	//                     16×16 font rendering. composeOverlay() blends into
++	//                     _rawSurface after game scale-up.
++	//   performUpdate() : nearest-neighbor 2× scale _gameSurface → _rawSurface,
++	//                     (later: alpha blend _overlaySurface → _rawSurface),
++	//                     _rawSurface->update() pushes to ScummVM window.
+ 	Graphics::Screen *_rawSurface;
++	Graphics::ManagedSurface *_gameSurface;
++	Graphics::ManagedSurface *_overlaySurface;  // Phase 3 — null in Phase 2
+ 	RenderSurface *_renderSurface;
++	uint8 _displayScale;                         // 2 (always; v2.0 design)
+ 
+ 	bool is_no_darkness;
+ 	bool non_square_pixels;
 diff --git a/engines/ultima/nuvie/script/script.cpp b/engines/ultima/nuvie/script/script.cpp
 index aaa8f5d4..f7164507 100644
 --- a/engines/ultima/nuvie/script/script.cpp
