@@ -12,19 +12,30 @@
 
 非目標：圖形重畫、加 high-res sprite、改 game logic。
 
+## 走的 sub-route：B.1（兩層 compose）
+
+Phase 0 source survey 後（見 `docs/phase0-findings.md`），衍生兩條 sub-route，**選 B.1**：
+
+- **B.1（選定）**：Nuvie 內部維持 320×200，字渲染走獨立 640×400 overlay layer，兩層 compose 出去。
+  PC-98 1:1 真實映射、動的檔少（screen.cpp + 3 font path）、tile/chrome/anim 完全不動。
+- B.2（封存）：Nuvie 內部直接拉 640×400 native + 所有 tile blit 改 2× stretch。動點多、audit 面廣，故不採。
+
 ---
 
-## 根本前提（Phase 0 必驗）
+## Phase 0 source map（不是「前提驗證」，是「執行細節摸清楚」）
 
-B 計畫成立的前提是 **3 個未驗證的事實**。**動實作前先 read source 驗清楚**，不繼續憑直覺。
+user rule 2026-06-27（[[feedback-retro-remake-no-cost-ceiling]]）：「**P0 P1 一定可以，允許修改 scummvm**」。
+B 不需要「成立前提」— 因為我們有 source、不夠就 fork。Phase 0 純粹是**摸清楚動哪些檔、用什麼 API、怎麼 hook**。
 
-| ID | 前提 | 驗法 | 失敗時影響 |
-|---|---|---|---|
-| **P1** | ScummVM `OSystem` 提供「寫 native 視窗 surface（640×480）pixel」的 API | grep `engines/ultima/nuvie/screen/screen.cpp` + `common/system.h` 找 `lockScreen` / `copyRectToScreen` / `getOverlaySurface` 等 abstraction，看是 320×200 only 還是可走 native | 失敗 → fork ScummVM 框架 / 不可行 → 退路線 A |
-| **P2** | 對話框 chrome（黃花邊 frame）跟字 render 是分離的、chrome 可獨立保留 framebuffer pixel scale | grep `msg_scroll.cpp` + `converse_gump.cpp` 找 chrome 繪製 vs 字繪製的 surface target | 失敗 → chrome + 字必須一起 scaled，layout 須完全重畫 |
-| **P3** | 三條 font path（U6Font / ConvFont / WOUFont）的 drawString 入口可獨立替換 | grep 三個 .cpp 看 drawString 接口、誰呼叫、有沒共用 base class | 失敗 → 要修共用 base，scope 漲 |
+| ID | 摸清的事 | 找法 |
+|---|---|---|
+| **P1** | ScummVM `OSystem` 寫 native 視窗 surface 的 API（`lockScreen` / `copyRectToScreen` / `getOverlaySurface` 等）| grep `engines/ultima/nuvie/screen/screen.cpp` + `common/system.h`。不夠就在 patch 加。 |
+| **P2** | 對話框 chrome（黃花邊 frame） vs 字 render 的 surface 分離度 | grep `msg_scroll.cpp` + `converse_gump.cpp`。不分離就改成分離。 |
+| **P3** | 三條 font path（U6Font / ConvFont / WOUFont）drawString 入口 | grep 三個 .cpp。有 base 就改 base、沒有就一個一個改。 |
 
-**Phase 0 估時**：1 天（純 read + grep + 寫一份 phase0 findings markdown）。
+**Phase 0 估時**：1 天（純 read + grep + 寫 `docs/phase0-findings.md`）。
+
+**不退方案 A**。P1/P2/P3 不論結果，B 都走到底 — 差別只在動哪些檔。
 
 ---
 
@@ -109,18 +120,20 @@ B 計畫成立的前提是 **3 個未驗證的事實**。**動實作前先 read 
 
 ---
 
-## 回退路徑
+## 中途調整路徑（非「回退」— 不退路線 A）
 
-如果 Phase 0 P1 失敗：
-1. **fallback to 路線 A**（framebuffer 內 16×16），跟 user 重新議
-2. layout 容量縮 40%（17 字 × 6 行 vs 23 字 × 8 行）
-3. 工程量降回 3-5 天
-4. 字清楚度仍大幅好過 12×12
+走 B 到底，user 拍板 [[feedback-retro-remake-no-cost-ceiling]]：成本不是 decision factor。
+但如某階段比預估慢可這樣調：
 
-如果 Phase 3 工程超預估：
-1. **階段 ship**：先一條 font path（如 U6Font 主對話），其他兩條繼續 12px
-2. v2.0-rc1 ship 部分 native 16×16，剩下 v2.0.x 補
-3. **不退**（v1.5.1 keep 可用）
+如果 Phase 3 三條 font path 耗時超預估：
+1. **階段 ship**：先一條 font path（如 U6Font 主對話）做完，發 v2.0-rc1
+2. 其他兩條（ConvFont / WOUFont）排 v2.0.x patch release
+3. v1.5.1 main keep 可用（玩家不會無 release 可下載）
+
+如果 ScummVM `OSystem` 真的把 native surface 鎖死無法 hook：
+1. **fork ScummVM `Common::OSystem` 加 abstraction**（不是退回 A 的小字）
+2. 上游 PR 試試（若被拒不影響我們，本地 patch 走）
+3. 多算 2-3 天到 Phase 3 工程量
 
 ---
 
