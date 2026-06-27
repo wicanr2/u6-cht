@@ -30,6 +30,32 @@
 
 這是 **Ultima VI: The False Prophet（1990）** 的完整繁體中文化版本。
 
+---
+
+### 🆕 v2.0 預覽 — 仿 PC-98 1990 的 16×16 漢字真實解析度
+
+正在開發中的 **v2.0**（branch [`v2-16x16`](https://github.com/wicanr2/u6-cht/tree/v2-16x16)）把漢字
+從 v1.x 的 12×12 點陣升級到 **16×16 真實解析度** — 不是把 12px 拉大，是字本身就是
+16-pixel detail，跟 1991 年 PC-98 版 *Ultima VI 〜偽りの預言者〜*（PonyCanyon）走的
+路線完全一樣：320×200 game asset 不重畫純 2× scale 到 640×400，漢字用 native 16×16
+畫在放大後的 framebuffer 上。
+
+![v2-throne-room](docs/screenshots/v2/throne_room_16x16_native.png)
+*v2.0 throne room — 「**杜普雷／夏米諾／尤洛**」16×16 native，「杜」字「木」結構的中豎、橫貫、左右撇捺完全分明，不再跟「壯」「狀」「牡」混淆（朋友 finding 解決）。*
+
+![v2-intro](docs/screenshots/v2/intro_seg1_16x16_native.png)
+*v2.0 intro 開場「汝之世界已歷五載春秋」— 16×16 真實解析度的銳利筆畫。*
+
+v2.0 完整 design + worklist 公開在 repo：[`docs/design-B-16x16-plan.md`](docs/design-B-16x16-plan.md)、
+[`docs/WORKLIST.md`](docs/WORKLIST.md)、
+[`docs/phase0-findings.md`](docs/phase0-findings.md)、
+[`docs/phase1-font-survey.md`](docs/phase1-font-survey.md)、
+[`docs/phase2-screen-dual-surface.md`](docs/phase2-screen-dual-surface.md)、
+[`docs/phase3-cjk-native-16x16.md`](docs/phase3-cjk-native-16x16.md)、
+[`docs/phase4-caveats-fix.md`](docs/phase4-caveats-fix.md)。
+
+---
+
 | 項目 | 狀態 |
 |------|------|
 | NPC 對話翻譯 | **199 / 199** 全完成 |
