@@ -116,6 +116,13 @@ if os.path.exists(frag_path):
         unencodable_total += zh_big5.count(b'?')
         fragments.append((en_bytes, zh_big5))
 
+# 按 en bytes 長度遞減排序：保證 longest-match-first substitution。
+# _engine_fragments.json 的 _meta 寫「longer first」，但作者按主題分組塞 entry，
+# 沒嚴格 enforce。v1.5.2 issue #1 第 4 點 (intro 7 段退化) root cause 就是
+# 短 fragment ` and` (≈150 行) 比同段長 fragment 「You have traded...adventure」
+# 先 match，吃掉 ` and` 後長 fragment 永遠對不上。build 端統一 sort 不動 source。
+fragments.sort(key=lambda p: -len(p[0]))
+
 with open(OUT_PATH, 'wb') as f:
     f.write(MAGIC_V3)
     f.write(struct.pack('<I', len(hashed_records)))

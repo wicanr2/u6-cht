@@ -198,6 +198,19 @@
   { "en": " north", "zh": " 北方" },
   { "en": " south", "zh": " 南方" },
   { "en": " east",  "zh": " 東方" },
-  { "en": " west",  "zh": " 西方" }
+  { "en": " west",  "zh": " 西方" },
+
+  { "_comment": "v1.5.2 issue #1.2: tile token leak. look_actor / ground tile look 對 LOOK.LZD 內未命名 / 字面 'tile' 的 tile 回 raw — events.cpp:1106 + :1168 translate(aname/ground) 沒命中。狹窄 fragment 配 article 比裸 'tile→物件' 安全。實機 debug 後 (CHT-LOOK actor-look / CHT-LOOK ground) 微調。", "en": "", "zh": "" },
+  { "en": " tile.\n",  "zh": " 物件。\n" },
+  { "en": " tile.",    "zh": " 物件。" },
+  { "en": " tile\n",   "zh": " 物件\n" },
+  { "en": "-tile\n",   "zh": "-物件\n" },
+  { "en": "-tile.",    "zh": "-物件。" },
+  { "en": "-tile",     "zh": "-物件" },
+  { "en": "a tile.",   "zh": "一物件。" },
+  { "en": "a tile\n",  "zh": "一物件\n" },
+  { "en": "a tile",    "zh": "一物件" },
+  { "en": "the tile.", "zh": "此物件。" },
+  { "en": "the tile",  "zh": "此物件" }
  ]
 }
