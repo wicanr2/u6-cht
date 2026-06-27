@@ -294,7 +294,7 @@ index ffe73053..d74f64d1 100644
  
  bool Player::check_moveRelative(sint16 rel_x, sint16 rel_y) {
 diff --git a/engines/ultima/nuvie/fonts/conv_font.cpp b/engines/ultima/nuvie/fonts/conv_font.cpp
-index 3c2d3900..4663a049 100644
+index 3c2d3900..3ebd9834 100644
 --- a/engines/ultima/nuvie/fonts/conv_font.cpp
 +++ b/engines/ultima/nuvie/fonts/conv_font.cpp
 @@ -19,6 +19,7 @@
@@ -310,10 +310,10 @@ index 3c2d3900..4663a049 100644
  namespace Nuvie {
  
 -ConvFont::ConvFont() : data_offset(0), f_data(nullptr), f_w_data(nullptr) {
-+// Big5 font geometry — same as U6Font.
++// v2.0 B.1: Big5 16x16 — same as U6Font / WOUFont.
 +static const uint32 CFB5_NUM_TRAIL = 157;
-+static const uint32 CFB5_GLYPH_BYTES = 24;
-+static const uint32 CFB5_FILE_SIZE = 94 * CFB5_NUM_TRAIL * CFB5_GLYPH_BYTES;
++static const uint32 CFB5_GLYPH_BYTES = 32;
++static const uint32 CFB5_FILE_SIZE = 94 * CFB5_NUM_TRAIL * CFB5_GLYPH_BYTES; // 472256
 +
 +static inline bool isBig5Lead(uint8 c) {
 +	return c >= 0xA1 && c <= 0xFE;
@@ -353,16 +353,17 @@ index 3c2d3900..4663a049 100644
  }
  
  bool ConvFont::init(unsigned char *data, uint8 *width_data, uint16 num_c, uint16 char_offset) {
-@@ -58,5 +94,65 @@ uint16 ConvFont::drawChar(Screen *screen, uint8 char_num, uint16 x, uint16 y,
+@@ -58,5 +94,57 @@ uint16 ConvFont::drawChar(Screen *screen, uint8 char_num, uint16 x, uint16 y,
  	return getCharWidth(char_num);
  }
  
-+// Render a Big5 wide character into a 14x12 canvas (12-px glyph + 2-px right gap).
-+// Returns advance width in pixels.
++// v2.0 B.1 Phase 3: queue Big5 char as 16×16 native glyph.
++// game-space advance = 16 px (= 2 ASCII wide, matches PC-98 ratio).
++// Glyph paints onto _rawSurface at native (x*2, y*2) — 16-pixel real detail.
 +uint16 ConvFont::drawBig5Char(Screen *screen, uint8 lead, uint8 trail,
 +                              uint16 x, uint16 y, uint8 color) {
 +	if (!big5_data || !isBig5Lead(lead) || !isBig5Trail(trail))
-+		return 14;
++		return 16;
 +
 +	uint32 toff;
 +	if (trail >= 0x40 && trail <= 0x7E)
@@ -372,17 +373,8 @@ index 3c2d3900..4663a049 100644
 +	uint32 idx = (lead - 0xA1) * CFB5_NUM_TRAIL + toff;
 +	const unsigned char *g = &big5_data[idx * CFB5_GLYPH_BYTES];
 +
-+	unsigned char buf[14 * 12];
-+	memset(buf, 0xff, sizeof(buf));
-+	for (int row = 0; row < 12; row++) {
-+		uint16 bits = ((uint16)g[row * 2] << 8) | g[row * 2 + 1];
-+		for (int col = 0; col < 12; col++) {
-+			if (bits & (0x8000 >> col))
-+				buf[row * 14 + col + 1] = color; // 1-px left margin
-+		}
-+	}
-+	screen->blit(x, y, buf, 8, 14, 12, 14, true, nullptr);
-+	return 14;
++	screen->queueCJKGlyph(x, y, g, color);
++	return 16;
 +}
 +
 +uint16 ConvFont::drawString(Screen *screen, const char *str, uint16 string_len,
@@ -479,18 +471,18 @@ index c41ecbbb..cca3dca6 100644
  	uint16 drawChar(Screen *screen, uint8 char_num, uint16 x, uint16 y);
  	virtual uint16 drawChar(Screen *screen, uint8 char_num, uint16 x, uint16 y,
 diff --git a/engines/ultima/nuvie/fonts/font_manager.cpp b/engines/ultima/nuvie/fonts/font_manager.cpp
-index 0343a40f..2042c76e 100644
+index 0343a40f..fb1f9900 100644
 --- a/engines/ultima/nuvie/fonts/font_manager.cpp
 +++ b/engines/ultima/nuvie/fonts/font_manager.cpp
 @@ -85,6 +85,11 @@ bool FontManager::initU6() {
  // english font
  	font = new U6Font();
  	font->init(font_data, 128, 0);
-+	// Optional: Big5 12x12 CJK wide-char data alongside u6.ch.
++	// v2.0 B.1: Big5 16x16 CJK wide-char data (native-resolution PC-98 1:1).
 +	Common::Path big5_path;
-+	config_get_path(config, "big5_u6_12x12.fnt", big5_path);
++	config_get_path(config, "big5_u6_16x16.fnt", big5_path);
 +	if (font->initBig5(big5_path))
-+		::debug(1, "U6Font: loaded big5_u6_12x12.fnt — CJK enabled");
++		::debug(1, "U6Font: loaded big5_u6_16x16.fnt — native 16×16 CJK enabled");
  	fonts.push_back(font);
  	num_fonts++;
  
@@ -498,17 +490,17 @@ index 0343a40f..2042c76e 100644
  	conv_font = new ConvFont();
  	((ConvFont *)conv_font)->init(conv_font_data, conv_font_widths, 256, 0);
  
-+	// Optional Big5 CJK path — loads from gamedir/big5_u6_12x12.fnt.
++	// v2.0 B.1: Big5 16x16 CJK path (native-resolution).
 +	Common::Path big5_path;
-+	config_get_path(config, "big5_u6_12x12.fnt", big5_path);
++	config_get_path(config, "big5_u6_16x16.fnt", big5_path);
 +	if (((ConvFont *)conv_font)->initBig5(big5_path))
-+		::debug(1, "ConvFont: loaded big5_u6_12x12.fnt — ConverseGump CJK enabled");
++		::debug(1, "ConvFont: loaded big5_u6_16x16.fnt — ConverseGump native 16×16 CJK enabled");
 +
  	if (game_type == NUVIE_GAME_U6) {
  		conv_garg_font = new ConvFont();
  		((ConvFont *)conv_garg_font)->init(conv_font_data, conv_font_widths, 256, 128);
 diff --git a/engines/ultima/nuvie/fonts/u6_font.cpp b/engines/ultima/nuvie/fonts/u6_font.cpp
-index 8013b387..cd785854 100644
+index 8013b387..3e90b328 100644
 --- a/engines/ultima/nuvie/fonts/u6_font.cpp
 +++ b/engines/ultima/nuvie/fonts/u6_font.cpp
 @@ -19,6 +19,7 @@
@@ -524,13 +516,13 @@ index 8013b387..cd785854 100644
  namespace Nuvie {
  
 -U6Font::U6Font() : font_data(nullptr) {
-+// Big5 12x12 font geometry (must match build-big5-font-wqysharp.py).
++// v2.0 B.1: Big5 16x16 font geometry (must match tools/build-big5-font-16x16.py).
 +//   num_trail = (0x7E - 0x40 + 1) + (0xFE - 0xA1 + 1) = 63 + 94 = 157
 +//   num_lead  = 0xFE - 0xA1 + 1                       = 94
-+//   glyph     = 12 rows * 2 bytes/row                 = 24
++//   glyph     = 16 rows * 2 bytes/row                 = 32
 +static const uint32 BIG5_NUM_TRAIL = 157;
-+static const uint32 BIG5_GLYPH_BYTES = 24;
-+static const uint32 BIG5_FILE_SIZE = 94 * BIG5_NUM_TRAIL * BIG5_GLYPH_BYTES; // 354192
++static const uint32 BIG5_GLYPH_BYTES = 32;
++static const uint32 BIG5_FILE_SIZE = 94 * BIG5_NUM_TRAIL * BIG5_GLYPH_BYTES; // 472256
 +
 +static inline bool isBig5Lead(uint8 c) {
 +	return c >= 0xA1 && c <= 0xFE;
@@ -571,12 +563,13 @@ index 8013b387..cd785854 100644
  }
  
  bool U6Font::init(unsigned char *data, uint16 num_c, uint16 char_offset) {
-@@ -76,5 +115,66 @@ uint16 U6Font::drawChar(Screen *screen, uint8 char_num, uint16 x, uint16 y,
+@@ -76,5 +115,57 @@ uint16 U6Font::drawChar(Screen *screen, uint8 char_num, uint16 x, uint16 y,
  	return 8;
  }
  
-+// Render a Big5 wide character into a 16x12 canvas (12-pixel glyph centered
-+// in 16 px so it occupies 2 columns in the 8-pixel MsgScroll grid).
++// v2.0 B.1 Phase 3: queue a Big5 char as a 16×16 native-resolution glyph.
++// game-space (x, y) advance stays 16 px wide = 2 ASCII chars, matching PC-98.
++// Glyph paints onto _rawSurface at native (x*2, y*2) — 16-pixel real detail.
 +uint16 U6Font::drawBig5Char(Screen *screen, uint8 lead, uint8 trail,
 +                            uint16 x, uint16 y, uint8 color) {
 +	if (!big5_data || !isBig5Lead(lead) || !isBig5Trail(trail))
@@ -590,17 +583,7 @@ index 8013b387..cd785854 100644
 +	uint32 idx = (lead - 0xA1) * BIG5_NUM_TRAIL + toff;
 +	const unsigned char *g = &big5_data[idx * BIG5_GLYPH_BYTES];
 +
-+	// 16x12 canvas, transparent background (0xff = "skip" sentinel used by blit).
-+	unsigned char buf[16 * 12];
-+	memset(buf, 0xff, sizeof(buf));
-+	for (int row = 0; row < 12; row++) {
-+		uint16 bits = ((uint16)g[row * 2] << 8) | g[row * 2 + 1];
-+		for (int col = 0; col < 12; col++) {
-+			if (bits & (0x8000 >> col))
-+				buf[row * 16 + col + 2] = color; // 2-px left margin to center 12 in 16
-+		}
-+	}
-+	screen->blit(x, y, buf, 8, 16, 12, 16, true, nullptr);
++	screen->queueCJKGlyph(x, y, g, color);
 +	return 16;
 +}
 +
@@ -689,7 +672,7 @@ index 85e97fb9..c23f32e9 100644
  
  } // End of namespace Nuvie
 diff --git a/engines/ultima/nuvie/fonts/wou_font.cpp b/engines/ultima/nuvie/fonts/wou_font.cpp
-index 339da5f7..cfca74de 100644
+index 339da5f7..16206ade 100644
 --- a/engines/ultima/nuvie/fonts/wou_font.cpp
 +++ b/engines/ultima/nuvie/fonts/wou_font.cpp
 @@ -19,6 +19,7 @@
@@ -704,10 +687,10 @@ index 339da5f7..cfca74de 100644
  namespace Ultima {
  namespace Nuvie {
  
-+// Big5 geometry shared with U6Font / ConvFont.
++// v2.0 B.1: Big5 16x16 shared with U6Font / ConvFont.
 +static const uint32 WB5_NUM_TRAIL = 157;
-+static const uint32 WB5_GLYPH_BYTES = 24;
-+static const uint32 WB5_FILE_SIZE = 94 * WB5_NUM_TRAIL * WB5_GLYPH_BYTES;
++static const uint32 WB5_GLYPH_BYTES = 32;
++static const uint32 WB5_FILE_SIZE = 94 * WB5_NUM_TRAIL * WB5_GLYPH_BYTES; // 472256
 +
 +static inline bool wb5IsLead(uint8 c) {
 +	return c >= 0xA1 && c <= 0xFE;
@@ -753,14 +736,15 @@ index 339da5f7..cfca74de 100644
  }
  
  bool WOUFont::init(const Common::Path &filename) {
-@@ -120,6 +157,93 @@ uint16 WOUFont::drawChar(Screen *screen, uint8 char_num, uint16 x, uint16 y,
+@@ -120,6 +157,85 @@ uint16 WOUFont::drawChar(Screen *screen, uint8 char_num, uint16 x, uint16 y,
  	return width;
  }
  
++// v2.0 B.1 Phase 3: queue Big5 char as 16×16 native glyph (cutscene / intro path).
 +uint16 WOUFont::drawBig5Char(Screen *screen, uint8 lead, uint8 trail,
 +                             uint16 x, uint16 y, uint8 color) {
 +	if (!big5_data || !wb5IsLead(lead) || !wb5IsTrail(trail))
-+		return 14;
++		return 16;
 +
 +	uint32 toff;
 +	if (trail >= 0x40 && trail <= 0x7E)
@@ -770,17 +754,8 @@ index 339da5f7..cfca74de 100644
 +	uint32 idx = (lead - 0xA1) * WB5_NUM_TRAIL + toff;
 +	const unsigned char *g = &big5_data[idx * WB5_GLYPH_BYTES];
 +
-+	unsigned char buf[14 * 12];
-+	memset(buf, 0xff, sizeof(buf));
-+	for (int row = 0; row < 12; row++) {
-+		uint16 bits = ((uint16)g[row * 2] << 8) | g[row * 2 + 1];
-+		for (int col = 0; col < 12; col++) {
-+			if (bits & (0x8000 >> col))
-+				buf[row * 14 + col + 1] = color;
-+		}
-+	}
-+	screen->blit(x, y, buf, 8, 14, 12, 14, true, nullptr);
-+	return 14;
++	screen->queueCJKGlyph(x, y, g, color);
++	return 16;
 +}
 +
 +uint16 WOUFont::drawString(Screen *screen, const char *str, uint16 string_len,
@@ -847,7 +822,7 @@ index 339da5f7..cfca74de 100644
  uint16 WOUFont::drawStringToShape(U6Shape *shp, const char *str, uint16 x, uint16 y, uint8 color) {
  	uint16 i;
  	uint16 string_len = strlen(str);
-@@ -128,7 +252,13 @@ uint16 WOUFont::drawStringToShape(U6Shape *shp, const char *str, uint16 x, uint1
+@@ -128,7 +244,13 @@ uint16 WOUFont::drawStringToShape(U6Shape *shp, const char *str, uint16 x, uint1
  		return x;
  
  	for (i = 0; i < string_len; i++) {
@@ -1048,7 +1023,7 @@ index ba7134a2..1afd4c0c 100644
  	}
  }
 diff --git a/engines/ultima/nuvie/screen/screen.cpp b/engines/ultima/nuvie/screen/screen.cpp
-index 349f1b00..e8cfb614 100644
+index 349f1b00..92048109 100644
 --- a/engines/ultima/nuvie/screen/screen.cpp
 +++ b/engines/ultima/nuvie/screen/screen.cpp
 @@ -41,7 +41,9 @@ static const sint32 globeradius[]   = { 36, 112, 148, 192, 448 };
@@ -1071,12 +1046,47 @@ index 349f1b00..e8cfb614 100644
  	delete _rawSurface;
  
  	if (shading_data)
-@@ -1082,15 +1086,47 @@ void Screen::update(int x, int y, uint16 w, uint16 h) {
+@@ -1081,16 +1085,106 @@ void Screen::update(int x, int y, uint16 w, uint16 h) {
+ 	_rawSurface->getSubArea(Common::Rect(x, y, x + w, y + h));
  }
  
++void Screen::queueCJKGlyph(uint16 game_x, uint16 game_y, const uint8 *glyph32, uint8 color_index) {
++	// v2.0 B.1 Phase 3: paint a 16×16 CJK glyph DIRECTLY onto _overlaySurface
++	// (persistent across frames). Name kept as "queueCJKGlyph" so font path
++	// callers don't need rewiring — but it's no longer a queue.
++	if (!glyph32 || !_overlaySurface || !_renderSurface ||
++	    _renderSurface->bits_per_pixel != 16)
++		return;
++	uint16 *dst       = (uint16 *)_overlaySurface->getPixels();
++	uint32 dst_pitch  = _overlaySurface->pitch / 2;
++	uint16 native_x   = game_x * _displayScale;
++	uint16 native_y   = game_y * _displayScale;
++	uint16 ow         = (uint16)_overlaySurface->w;
++	uint16 oh         = (uint16)_overlaySurface->h;
++	uint16 color      = (uint16)_renderSurface->colour32[color_index];
++	// Transparent color key is 0x0000 (pure black). If a CJK glyph asks for
++	// black, nudge to 0x0001 so it survives compose; visually indistinguishable.
++	if (color == 0x0000) color = 0x0001;
++	for (int r = 0; r < 16; ++r) {
++		int row_y = native_y + r;
++		if (row_y < 0 || row_y >= (int)oh) continue;
++		uint16 bits = ((uint16)glyph32[r * 2] << 8) | glyph32[r * 2 + 1];
++		if (!bits) continue;
++		uint16 *rowPtr = dst + (uint32)row_y * dst_pitch;
++		for (int c = 0; c < 16; ++c) {
++			if (bits & (0x8000 >> c)) {
++				int col_x = native_x + c;
++				if (col_x >= 0 && col_x < (int)ow)
++					rowPtr[col_x] = color;
++			}
++		}
++	}
++}
++
++// (debug logging removed after Phase 3 verified 2026-06-27)
++
  void Screen::performUpdate() {
-+	// v2.0 B.1: 2× nearest-neighbor scale _gameSurface (320×200) → _rawSurface (640×400).
-+	// (Phase 3: alpha-blend _overlaySurface (640×400) on top for native 16×16 CJK.)
++	// v2.0 B.1 Phase 2: 2× nearest-neighbor scale _gameSurface (320×200) → _rawSurface (640×400).
 +	if (_gameSurface && _rawSurface && _gameSurface->format.bytesPerPixel == 2) {
 +		const uint16 *src = (const uint16 *)_gameSurface->getPixels();
 +		uint16 *dst       = (uint16 *)_rawSurface->getPixels();
@@ -1097,6 +1107,26 @@ index 349f1b00..e8cfb614 100644
 +				dr1[dx + 1] = c;
 +			}
 +		}
++
++		// v2.0 B.1 Phase 3: compose persistent _overlaySurface onto _rawSurface.
++		// Skip transparent key (0x0000) so only CJK glyph pixels overlay.
++		if (_overlaySurface && _overlaySurface->format.bytesPerPixel == 2) {
++			const uint16 *osrc = (const uint16 *)_overlaySurface->getPixels();
++			uint16 *dstPx     = (uint16 *)_rawSurface->getPixels();
++			uint32 src_pitch_o = _overlaySurface->pitch / 2;
++			uint32 dst_pitch_o = _rawSurface->pitch / 2;
++			uint16 ow         = (uint16)_overlaySurface->w;
++			uint16 oh         = (uint16)_overlaySurface->h;
++			for (uint16 y = 0; y < oh; ++y) {
++				const uint16 *sr = osrc + (uint32)y * src_pitch_o;
++				uint16 *dr       = dstPx + (uint32)y * dst_pitch_o;
++				for (uint16 x = 0; x < ow; ++x) {
++					uint16 px = sr[x];
++					if (px) dr[x] = px;  // 0x0000 = transparent
++				}
++			}
++		}
++
 +		// Tell ScummVM the whole raw surface is dirty so it actually pushes the 2×-scaled frame
 +		_rawSurface->addDirtyRect(Common::Rect(0, 0, _rawSurface->w, _rawSurface->h));
 +	}
@@ -1113,21 +1143,25 @@ index 349f1b00..e8cfb614 100644
 +	// _gameSurface is the 320×200 framebuffer all existing Nuvie blit/fill paths
 +	// write to (via _renderSurface wrapper). Screen.width/height stay 320×200
 +	// for callers — they don't know the native surface is 2× bigger.
++	// _overlaySurface is 640×400 transparent (0x0000 key); CJK 16×16 painted
++	// directly here; performUpdate composes it onto _rawSurface after game scale.
 +	uint16 native_w = width  * _displayScale;
 +	uint16 native_h = height * _displayScale;
 +	initGraphics(native_w, native_h, &SCREEN_FORMAT);
-+	_rawSurface  = new Graphics::Screen(native_w, native_h, SCREEN_FORMAT);
-+	_gameSurface = new Graphics::ManagedSurface(width, height, SCREEN_FORMAT);
++	_rawSurface     = new Graphics::Screen(native_w, native_h, SCREEN_FORMAT);
++	_gameSurface    = new Graphics::ManagedSurface(width, height, SCREEN_FORMAT);
++	_overlaySurface = new Graphics::ManagedSurface(native_w, native_h, SCREEN_FORMAT);
++	_overlaySurface->fillRect(Common::Rect(0, 0, native_w, native_h), 0); // transparent
 +
 +	_renderSurface = CreateRenderSurface(_gameSurface);
  }
  
  bool Screen::is_fullscreen() const {
 diff --git a/engines/ultima/nuvie/screen/screen.h b/engines/ultima/nuvie/screen/screen.h
-index 465a6937..48bb4317 100644
+index 465a6937..23bc3f10 100644
 --- a/engines/ultima/nuvie/screen/screen.h
 +++ b/engines/ultima/nuvie/screen/screen.h
-@@ -41,8 +41,26 @@ enum LightingStyle {
+@@ -41,8 +41,34 @@ enum LightingStyle {
  class Screen {
  private:
  	const Configuration *config;
@@ -1148,12 +1182,33 @@ index 465a6937..48bb4317 100644
 +	//                     _rawSurface->update() pushes to ScummVM window.
  	Graphics::Screen *_rawSurface;
 +	Graphics::ManagedSurface *_gameSurface;
-+	Graphics::ManagedSurface *_overlaySurface;  // Phase 3 — null in Phase 2
++	// v2.0 B.1 Phase 3: persistent native-resolution overlay (640×400) where
++	// CJK 16×16 glyphs are painted directly. Caller (msg_scroll, ConverseGump,
++	// cutscene) often uses dirty-only redraw — queued CJK would vanish after
++	// the next-frame scale-up overwrites _rawSurface. _overlaySurface keeps
++	// pixels persistent; performUpdate() composes it ON TOP of the scaled
++	// _gameSurface (transparent color key 0x0000 skipped).
++	// Caller's chrome refresh writes _gameSurface and font path also writes
++	// _overlaySurface in the same redraw cycle, keeping them in sync.
++	Graphics::ManagedSurface *_overlaySurface;
  	RenderSurface *_renderSurface;
 +	uint8 _displayScale;                         // 2 (always; v2.0 design)
  
  	bool is_no_darkness;
  	bool non_square_pixels;
+@@ -92,6 +118,12 @@ public:
+ 	bool blit(int32 dest_x, int32 dest_y, const byte *src_buf, uint16 src_bpp, uint16 src_w, uint16 src_h, uint16 src_pitch, bool trans = false, const Common::Rect *clip_rect = nullptr, uint8 opacity = 255);
+ 	void blitbitmap(uint16 dest_x, uint16 dest_y, const byte *src_buf, uint16 src_w, uint16 src_h, uint8 fg_color, uint8 bg_color);
+ 
++	// v2.0 B.1 Phase 3: queue a 16×16 CJK glyph to be rendered at NATIVE resolution
++	// (16-pixel real detail, not down-scaled). game_x/game_y are in caller's
++	// 320×200 game space; performUpdate() scales them by _displayScale to write
++	// directly to _rawSurface AFTER the game framebuffer 2× scale-up.
++	void queueCJKGlyph(uint16 game_x, uint16 game_y, const uint8 *glyph_32bytes, uint8 color_index);
++
+ 	void buildalphamap8();
+ 	void clearalphamap8(uint16 x, uint16 y, uint16 w, uint16 h, uint8 opacity, bool party_light_source);
+ 	void drawalphamap8globe(sint16 x, sint16 y, uint16 radius);
 diff --git a/engines/ultima/nuvie/script/script.cpp b/engines/ultima/nuvie/script/script.cpp
 index aaa8f5d4..f7164507 100644
 --- a/engines/ultima/nuvie/script/script.cpp
@@ -1192,7 +1247,7 @@ index aaa8f5d4..f7164507 100644
  		::debug(1, "%s", string);
  	}
 diff --git a/engines/ultima/nuvie/script/script_cutscene.cpp b/engines/ultima/nuvie/script/script_cutscene.cpp
-index 374ee036..d4b946aa 100644
+index 374ee036..1bd5f269 100644
 --- a/engines/ultima/nuvie/script/script_cutscene.cpp
 +++ b/engines/ultima/nuvie/script/script_cutscene.cpp
 @@ -35,6 +35,7 @@
@@ -1219,11 +1274,11 @@ index 374ee036..d4b946aa 100644
  		config_get_path(config, "u6.set", path);
  		font->init(path);
 +
-+		// Optional Big5 CJK path for cutscene/intro text.
++		// v2.0 B.1: Big5 16x16 CJK path for cutscene/intro text (native resolution).
 +		Common::Path big5_path;
-+		config_get_path(config, "big5_u6_12x12.fnt", big5_path);
++		config_get_path(config, "big5_u6_16x16.fnt", big5_path);
 +		if (font->initBig5(big5_path))
-+			::debug(1, "WOUFont(cutscene): loaded big5_u6_12x12.fnt — intro CJK enabled");
++			::debug(1, "WOUFont(cutscene): loaded big5_u6_16x16.fnt — intro native 16×16 CJK enabled");
  	}
  	//FIXME load other fonts for MD / SE if needed here.
  	if (game_type == NUVIE_GAME_SE) {
