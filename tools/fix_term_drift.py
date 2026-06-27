@@ -7,7 +7,12 @@
 """
 import glob, os, json
 
-TRANS_DIR = '/home/anr2/u6-cht/dumps/translations'
+TRANS_DIR = '/home/anr2/u6-cht/translations'   # 跟 build_lookup_table.py 同 source
+
+# 排除 engine-side 表（fragment / strings）跟 keyword 索引：
+# 這些檔的 key 是 engine 字面字串，譯名 sweep 不該誤改。
+# 教訓（v1.5.2 issue #1 第 5 點）：當前 RULES 沒命中，但未來新譯名一加就可能踩。
+EXCLUDE_BASENAMES = {'_engine_fragments.json', '_engine_strings.json', '_keywords.json'}
 
 # 順序很重要：先換最長
 RULES = [
@@ -19,7 +24,8 @@ RULES = [
     ('辛夫拉爾', '辛弗拉'),
 ]
 
-files = sorted(glob.glob(os.path.join(TRANS_DIR, '*.json')))
+files = sorted(p for p in glob.glob(os.path.join(TRANS_DIR, '*.json'))
+               if os.path.basename(p) not in EXCLUDE_BASENAMES)
 changes = {}
 for path in files:
     try:

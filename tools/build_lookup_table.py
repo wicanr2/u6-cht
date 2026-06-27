@@ -11,8 +11,10 @@ At Converse `set_output(text)` and Book render path, replace `text` if matched.
 """
 import json, os, glob, sys
 
-TRANS_DIR = '/home/anr2/u6-cht/dumps/translations'
+TRANS_DIR = '/home/anr2/u6-cht/translations'   # source of truth (git tracked)
 OUT_PATH  = '/home/anr2/u6-cht/working/game/cht_strings.tab'
+# 舊路徑 'dumps/translations' 已淘汰（v1.5.2 issue #1 兇手：commit 9e54e93 加 fragment
+# 加在 translations/、build 卻讀 dumps/translations/，opened!/closed! 始終沒進 tab）。
 
 def to_big5(s: str) -> bytes:
     """Encode zh value to Big5 (cp950) bytes. Replace unencodable chars with '?'.
