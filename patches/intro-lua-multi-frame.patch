@@ -1,31 +1,41 @@
---- nuvie/data/scripts/u6/intro.lua	(v1.5.x 4-chunk image_print)
-+++ nuvie/data/scripts/u6/intro.lua	(v2.x 2-frame split)
-@@ -380,11 +380,29 @@
- 	scroll_img = image_load("blocks.shp", 2)
-+	-- v2.0 B.1 Phase 4 caveat 1: 4-chunk image_print 累積 *y 在 16×16 CJK
-+	-- 下 = 8 + 4×line_h > cinematic box (~40 px) → 字疊。拆 2 frame，
-+	-- 每 frame 2 chunk + wait_for_input 推進。ASCII 玩家多按 1 次 Space，
-+	-- 換得 CJK 字 clean 不疊。
- 	x, y = image_print(scroll_img, "You have traded the Avatar's life of peril and adventure ", 7, 310, 7, 8, 0x3e)
--	x, y = image_print(scroll_img, "for the lonely serenity of a world at peace. But ", 7, 310, x, y, 0x3e)
--	x, y = image_print(scroll_img, "television supermen cannot take the place of friends ", 7, 310, x, y, 0x3e)
--	image_print(scroll_img, "who died at your side!", 7, 310, x, y, 0x3e)
-+	image_print(scroll_img, "for the lonely serenity of a world at peace. But ", 7, 310, x, y, 0x3e)
+v2.x caveat 1 root fix: Lua intro.lua 3+/4+ chunk image_print 拆 multi-frame
+(避免累積 *y 超出 cinematic dialog box height)。
 
- 	scroll.image = scroll_img
- 	scroll.x = 1
- 	scroll.y = 0x98
-+
-+	input = input_poll()
-+	while input == nil do
-+		display_lounge()
-+		canvas_update()
-+		input = input_poll()
-+	end
-+	if should_exit(input) then return false end
-+
-+	-- Frame 2: 後半 2 chunk (重 image_load 清 box)
-+	scroll_img = image_load("blocks.shp", 2)
-+	x, y = image_print(scroll_img, "television supermen cannot take the place of friends ", 7, 310, 7, 8, 0x3e)
-+	image_print(scroll_img, "who died at your side!", 7, 310, x, y, 0x3e)
-+	scroll.image = scroll_img
+涵蓋 3 處 chunks:
+
+@@ line 381 (4 chunks) ==========================================
+原: 「You have traded the Avatar's life of peril and adventure」 +
+    「for the lonely serenity of a world at peace. But」 +
+    「television supermen cannot take the place of friends」 +
+    「who died at your side!」 (4 chunks 一次顯示)
+
+修: 拆 2 frame, 各 2 chunks + input_poll wait between.
+
+@@ line 745 (3 chunks) ==========================================
+原: 「You bolt from your house, stumbling, running blind in the」 +
+    「storm. Into the forest, down the path, through the」 +
+    「rain... to the stones.」 (3 chunks 一次顯示)
+
+修: 拆 2 frame: (2 chunks) + window_update + (1 chunk) + window_update.
+
+@@ line 923 (3 chunks) ==========================================
+原: 「Exultant memories wash over you as you clutch the stone.」 +
+    「When last you saw an orb such as this, it was cast down」 +
+    「by Lord British to banish the tyrant Blackthorn!」 (3 chunks 一次)
+
+修: 拆 2 frame: (2 chunks) + stones_update + (1 chunk) + stones_update.
+
+接受 v2.x backlog (未修):
+
+- line 828 (4 chunks「Near the stones, the smell of damp...」) — 跟
+  fade_in() + stones_update() animation 配對, split 風險破 timing.
+- line 953 (3 chunks「But your joy soon gives way to apprehension...」)
+  — 用 hardcoded y position (8/24/32) absolute layout, 不是 wrap 累積,
+  split 需重排 y, 動 animation flow.
+- line 2243+ credit 段 (3-5 chunks 多處) — 全 ASCII 開發者名字,
+  不 trigger CJK overlay, 沒 overflow risk.
+
+實作:
+- nuvie/data/scripts/u6/intro.lua source-of-truth (gitignored)
+- tools/patch-ultima-dat-intro-lua.sh build pipeline (zip update)
+- working/game/ultima.dat + scummvm-src/dists/engine-data/ultima.dat 兩處同步
