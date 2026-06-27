@@ -1,5 +1,39 @@
 # Changelog
 
+## v2.0 (2026-06-27, rc / 開發中)
+
+### Added — 16×16 真實解析度 CJK（仿 PC-98 1991）
+- **Screen 雙 surface 架構**：`_rawSurface 640×400 native` + `_gameSurface 320×200` + `_overlaySurface 640×400`。`performUpdate` 2× nearest scale + overlay compose。caller code 0 行改動。
+- **16×16 字型 atlas**：`big5_u6_16x16.fnt` (472KB)、WenQuanYi Zen Hei Sharp 16×16 embedded bitmap、14758 slots、92.9% Big5 cover。
+- **三條 + 一條 font path 全升 16×16**：U6Font / ConvFont / WOUFont / ConvGargFont 都載新 atlas、drawBig5Char 走 overlay。
+
+### Fixed — 朋友 finding
+- **杜普雷不再看成壯 / 狀 / 牡** — 12×12 杜「木」row 3 `█████··█` 跟壯「丬」結構像素化撞針，v2.0 16×16 杜的「木」中豎 + 橫貫 + 左右撇捺三段分明。
+
+### Fixed — Phase 4 caveats（5 個全處理）
+- 滑鼠 cursor 卡左上 → `Screen::get_mouse_location` 除以 `_displayScale`
+- 對話換內容 overlay stale → `invalidateOverlayRegion` 在 fill/clear/blit/blitbitmap 自動同步
+- 字 wrap miscount → font `getCharWidth(c)` Big5 byte（high bit）統一 return 8
+- `conv_garg_font`（魔像族）也載 16×16 atlas
+- WOUFont::drawBig5CharToShape — cutscene line spacing `*y += 8` 限制下 keep 12-row（caveat 2 partial，cutscene 16×16 留 v2.x patch）
+
+### Integrated from v1.5.2 first wave (commits d80425d / 2028d63 / f052061)
+- opened!/closed! 容器訊息 leak fix（build source 切到 `translations/`）
+- intro 7 段退化 fix（`_engine_fragments.json` longest-first sort）
+- 11 條 tile token 候選 fragment
+- `fix_term_drift.py` 排除 `_engine_*.json` + `_keywords.json`
+- Windows run.bat CRLF source of truth（`dist/windows/run-free.bat` + `repack.sh`，issue #2）
+
+### Known caveats（v2.x）
+- Cutscene 字幕仍走 shape path 12×12 detail（caveat 2 partial），需動 `script_cutscene::print_text` line spacing。
+- cursor follow coordinate fix 邏輯對，game-tester headless 難驗，實機應 work。
+
+### Documentation
+- `docs/design-B-16x16-plan.md`、`docs/WORKLIST.md`、`docs/phase{0..4}-*.md` 七份完整 design + worklist + per-phase findings
+- `docs/screenshots/v2/throne_room_16x16_native.png` + `intro_seg1_16x16_native.png`
+
+---
+
 ## v1.3.1 (2026-05-22)
 
 ### Fixed

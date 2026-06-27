@@ -689,7 +689,7 @@ index 85e97fb9..c23f32e9 100644
  
  } // End of namespace Nuvie
 diff --git a/engines/ultima/nuvie/fonts/wou_font.cpp b/engines/ultima/nuvie/fonts/wou_font.cpp
-index 339da5f7..d2230c1f 100644
+index 339da5f7..55bdd729 100644
 --- a/engines/ultima/nuvie/fonts/wou_font.cpp
 +++ b/engines/ultima/nuvie/fonts/wou_font.cpp
 @@ -19,6 +19,7 @@
@@ -765,7 +765,7 @@ index 339da5f7..d2230c1f 100644
  	return font_data[0x4 + get_char_num(c)];
  }
  
-@@ -120,6 +160,90 @@ uint16 WOUFont::drawChar(Screen *screen, uint8 char_num, uint16 x, uint16 y,
+@@ -120,6 +160,88 @@ uint16 WOUFont::drawChar(Screen *screen, uint8 char_num, uint16 x, uint16 y,
  	return width;
  }
  
@@ -835,28 +835,26 @@ index 339da5f7..d2230c1f 100644
 +	shp->get_size(&dst_w, &dst_h);
 +	dst += y * dst_w + x;
 +
-+	// v2.0 B.1 Phase 4 caveat 2: cutscene callers (script_cutscene::print_text)
-+	// use `*y += 8` line spacing — full 16-row CJK would overlap next line by
-+	// 8 rows. Stay at 12-row (top of glyph) for shape-path CJK; clipped bottom
-+	// 4 rows are typically empty descender padding in WQY Sharp 16×16. Native
-+	// 16×16 main path (drawBig5Char → overlay) is unaffected.
-+	for (int row = 0; row < 12; row++) {
++	// v2.0 B.1 Phase 4 caveat 2 (restored): script_cutscene::print_text now
++	// uses 16-pixel line spacing when string contains CJK, so full 16×16
++	// glyph won't overlap next line. Bound check protects shape buffers
++	// smaller than 16×16.
++	for (int row = 0; row < 16; row++) {
 +		uint16 bits = ((uint16)g[row * 2] << 8) | g[row * 2 + 1];
-+		for (int col = 0; col < 12; col++) {
++		for (int col = 0; col < 16; col++) {
 +			if (bits & (0x8000 >> col)) {
-+				int dx = col + 1; // 1-px left margin
-+				if (x + dx < dst_w && y + row < dst_h)
-+					dst[row * dst_w + dx] = color;
++				if (x + col < dst_w && y + row < dst_h)
++					dst[row * dst_w + col] = color;
 +			}
 +		}
 +	}
-+	return 14;
++	return 16;
 +}
 +
  uint16 WOUFont::drawStringToShape(U6Shape *shp, const char *str, uint16 x, uint16 y, uint8 color) {
  	uint16 i;
  	uint16 string_len = strlen(str);
-@@ -128,7 +252,13 @@ uint16 WOUFont::drawStringToShape(U6Shape *shp, const char *str, uint16 x, uint1
+@@ -128,7 +250,13 @@ uint16 WOUFont::drawStringToShape(U6Shape *shp, const char *str, uint16 x, uint1
  		return x;
  
  	for (i = 0; i < string_len; i++) {
@@ -1362,7 +1360,7 @@ index aaa8f5d4..f7164507 100644
  		::debug(1, "%s", string);
  	}
 diff --git a/engines/ultima/nuvie/script/script_cutscene.cpp b/engines/ultima/nuvie/script/script_cutscene.cpp
-index 374ee036..1bd5f269 100644
+index 374ee036..49158437 100644
 --- a/engines/ultima/nuvie/script/script_cutscene.cpp
 +++ b/engines/ultima/nuvie/script/script_cutscene.cpp
 @@ -35,6 +35,7 @@
@@ -1397,7 +1395,21 @@ index 374ee036..1bd5f269 100644
  	}
  	//FIXME load other fonts for MD / SE if needed here.
  	if (game_type == NUVIE_GAME_SE) {
-@@ -1485,7 +1496,9 @@ void ScriptCutscene::print_text(CSImage *image, const char *s, uint16 *x, uint16
+@@ -1482,10 +1493,23 @@ Common::Array<Common::String> ScriptCutscene::load_text(const char *filename, ui
+ }
+ 
+ void ScriptCutscene::print_text(CSImage *image, const char *s, uint16 *x, uint16 *y, uint16 startx, uint16 width, uint8 color) {
++	// v2.0 B.1 Phase 4 caveat 2: detect whether translated string contains
++	// any Big5 (high-bit) byte. If yes, use 12-pixel line spacing (matches
++	// v1.5.x layout — cutscene text box has fixed height of ~40 px; 16-px
++	// line truncates 3rd line). 12 px means CJK row 12-15 overlaps next
++	// line row 0-3, but those are typically empty descender / cap space in
++	// WQY Sharp 16×16 so visually clean. ASCII-only lines keep 8.
++	Common::String _cs_check = CHTranslate::get()->translate(s);
++	bool _has_cjk = false;
++	for (uint32 _i = 0; _i < _cs_check.size(); ++_i)
++		if ((uint8)_cs_check[_i] >= 0x80) { _has_cjk = true; break; }
++	const uint16 _line_h = _has_cjk ? 14 : 8;
  	int len = *x - startx;
  	size_t start = 0;
  	size_t found;
@@ -1408,7 +1420,25 @@ index 374ee036..1bd5f269 100644
  	Common::List<Common::String> tokens;
  	int space_width = font->getStringWidth(" ");
  	//uint16 x1 = startx;
-@@ -1539,7 +1552,9 @@ void ScriptCutscene::print_text(CSImage *image, const char *s, uint16 *x, uint16
+@@ -1506,7 +1530,7 @@ void ScriptCutscene::print_text(CSImage *image, const char *s, uint16 *x, uint16
+ 				*x = ((WOUFont *)font)->drawStringToShape(image->shp, ss.c_str(), *x, *y, color);
+ 				*x += new_space;
+ 			}
+-			*y += 8;
++			*y += _line_h;
+ 			*x = startx;
+ 			len = token_len + space_width;
+ 			tokens.clear();
+@@ -1528,7 +1552,7 @@ void ScriptCutscene::print_text(CSImage *image, const char *s, uint16 *x, uint16
+ 	if (start < str.size()) {
+ 		Common::String token = str.substr(start, str.size() - start);
+ 		if (len + font->getStringWidth(token.c_str()) > width) {
+-			*y += 8;
++			*y += _line_h;
+ 			*x = startx;
+ 		}
+ 		*x = ((WOUFont *)font)->drawStringToShape(image->shp, token.c_str(), *x, *y, color);
+@@ -1539,7 +1563,9 @@ void ScriptCutscene::print_text(CSImage *image, const char *s, uint16 *x, uint16
  }
  
  void ScriptCutscene::print_text_raw(CSImage *image, const char *string, uint16 x, uint16 y, uint8 color) const {
