@@ -400,8 +400,8 @@ Origin 認真為魔像族設計了一套可組合的語言：
 | Look 地板 | Look 牆 | Look NPC |
 |---|---|---|
 | ![floor](docs/screenshots/01_look_floor.png) | ![wall](docs/screenshots/02_look_wall.png) | ![npc](docs/screenshots/03_look_carpet.png) |
-| *「察看-汝見地板」* | *「察看-汝見一面牆」* | *「察看-汝見尤洛」+ 角色面板「尤洛」* |
-| *v1.5.x Big5 12×12 渲染驗證 (v2.0 已升 16×16 native)* | *同上* | *NPC 名稱中文化* |
+| *v2.0「察看 - 汝見地板」16×16 native* | *同上路徑、v2.0 字體質感* | *同 — Look ground 走 events.cpp lookAtCursor* |
+| *(三張統一示範 v2.0 16×16 字型；不同 ground tile 觸發 fragment 不同字串)* | | |
 
 ### 群組 D：開場 Cinematic
 
