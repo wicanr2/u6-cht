@@ -8,8 +8,8 @@
 
 | # | Caveat | 修法 | 狀態 |
 |---|---|---|---|
-| 1 | 滑鼠 cursor 卡左上 | `Screen::get_mouse_location` 把 `Events::getMousePos()` (native pixel) 除以 `_displayScale` → game-space | ✅ 修了，game-tester headless 無真 mouse 難驗、實機應 work |
-| 2 | WOUFont::drawBig5CharToShape 12-row clip | revert 回 12-row（cutscene `*y += 8` line height 假設字高 12，16-row 會跟下行 vertical overlap） | ⚠ partial — shape path 仍 12px detail，需動 cutscene script 才真 16×16 native，留 v2.x |
+| 1 | 滑鼠 cursor 卡左上 | `Screen::get_mouse_location` 把 `Events::getMousePos()` (native pixel) 除以 `_displayScale` → game-space | ✅ 修了，**Iter 3 verified**：xdotool mousemove (240, 240) + screenshot 看到 cursor 白色箭頭 sprite 在 mouse 位置（`docs/screenshots/v2/cursor_follow_240_240.png`） |
+| 2 | WOUFont::drawBig5CharToShape 12-row clip | **Iter 1**: revert 12-row；**Iter 2 後**: cutscene `*y += _line_h` 動態 14-px / 8-px → restore 16-row。再 caveat: cinematic dialog box 高度 fixed，Lua 4-chunk image_print (each wrap break) 累積 y = 8 + 4×14 = 64 px > box ~40 px → 長 chunk 仍 vertical overlap | ⚠ box height + Lua chunk 設計衝突，需動 cinematic source / Lua chunk timing。intro 短 chunk (1-2 行 fit) OK，長 chunk 留 v2.x |
 | 3 | 對話換內容 overlay stale | `Screen::invalidateOverlayRegion` helper + `Screen::fill/clear/blit/blitbitmap` 進入時 mirror clear overlay 對應 region | ✅ 修了，chrome refresh 自動清舊 CJK，font path 重 draw 新 CJK |
 | 4 | intro 字幕 16×16 audit | font getCharWidth Big5 byte (high bit) 統一 return 8（lead+trail=16 跟 advance 一致）→ wrap 算法不再 miscount | ✅ 修了 horizontal advance；vertical 受 cutscene `*y += 8` 限制（caveat 2 partial 同源） |
 | 5 | conv_garg_font (魔像族) 未 load 16×16 atlas | `font_manager.cpp` 加 `((ConvFont *)conv_garg_font)->initBig5(big5_path)` | ✅ 修了，ScummVM log 出現「ConvGargFont: loaded big5_u6_16x16.fnt」|
