@@ -49,6 +49,15 @@
 ![v2-intro-seg2](docs/screenshots/v2/intro_seg2_16x16_native.png)
 *v2.0 intro 第 2 段「汝以聖者之凶險...螢光中之超人...」三行 fit 進對話框 — cutscene 動態 line height 14-px 為 CJK 行 / 8-px 為 ASCII 行，解決舊版字距 vertical overlap。*
 
+**v2.x 真根治** — Lua `intro.lua` 第 2 段把 4-chunk `image_print` 拆成 2 frame，每 frame 2 chunk + Space 推進，徹底解決 cinematic dialog box 容量限制：
+
+| Frame 1 | Frame 2 |
+|---|---|
+| ![intro-2a](docs/screenshots/v2/intro_seg2a_clean.png) | ![intro-2b](docs/screenshots/v2/intro_seg2b_clean.png) |
+| *「汝以聖者之凶險與歷險 / 換得此孤寂安寧之世。然」2 行 clean，零 overlap* | *「螢光中之超人，豈能替代並肩戰歿之友！」1 行 clean，零 overlap* |
+
+ASCII 玩家多按 1 次 Space，換得 CJK 字 100% clean — 對應 docs/phase4-caveats-fix.md caveat 1 真根治（commit pending）。
+
 v2.0 完整 design + worklist 公開在 repo：[`docs/design-B-16x16-plan.md`](docs/design-B-16x16-plan.md)、
 [`docs/WORKLIST.md`](docs/WORKLIST.md)、
 [`docs/phase0-findings.md`](docs/phase0-findings.md)、
