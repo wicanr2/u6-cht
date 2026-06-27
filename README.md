@@ -43,8 +43,11 @@
 ![v2-throne-room](docs/screenshots/v2/throne_room_16x16_native.png)
 *v2.0 throne room — 「**杜普雷／夏米諾／尤洛**」16×16 native，「杜」字「木」結構的中豎、橫貫、左右撇捺完全分明，不再跟「壯」「狀」「牡」混淆（朋友 finding 解決）。*
 
-![v2-intro](docs/screenshots/v2/intro_seg1_16x16_native.png)
+![v2-intro-seg1](docs/screenshots/v2/intro_seg1_16x16_native.png)
 *v2.0 intro 開場「汝之世界已歷五載春秋」— 16×16 真實解析度的銳利筆畫。*
+
+![v2-intro-seg2](docs/screenshots/v2/intro_seg2_16x16_native.png)
+*v2.0 intro 第 2 段「汝以聖者之凶險...螢光中之超人...」三行 fit 進對話框 — cutscene 動態 line height 14-px 為 CJK 行 / 8-px 為 ASCII 行，解決舊版字距 vertical overlap。*
 
 v2.0 完整 design + worklist 公開在 repo：[`docs/design-B-16x16-plan.md`](docs/design-B-16x16-plan.md)、
 [`docs/WORKLIST.md`](docs/WORKLIST.md)、
