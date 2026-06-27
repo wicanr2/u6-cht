@@ -307,12 +307,26 @@ cp -r <previous release>/engine-data u6cht-VER-windows/
 mkdir u6cht-VER-windows/u6cht-data
 cp /home/anr2/u6-cht/working/game/cht_strings.tab u6cht-VER-windows/u6cht-data/
 cp /home/anr2/u6-cht/working/game/big5_u6_12x12.fnt u6cht-VER-windows/u6cht-data/
-# run.bat + README.txt 沿用前版（更新 VER 字串）
+# run.bat 永遠取 dist/windows/ 的 source of truth（CRLF 已驗），不要從前版 zip 沿用
+cp /home/anr2/u6-cht/dist/windows/run-free.bat u6cht-VER-windows/run.bat   # free / FULL 各一份
+# README.txt 沿用前版（更新 VER 字串）
 7z a -t7z -mx=9 u6cht-VER-windows-x86.7z u6cht-VER-windows/
 mv u6cht-VER-windows-x86.7z /home/anr2/u6-cht/releases/
 ```
 
-**驗證**：解壓另一目錄，wine 跑 `scummvm.exe ultima6` 期望看不到 `Game id not supported`。
+或對「現有 release 7z」做 hotfix 重打（issue #2 v1.5.1 → v1.5.1a 即此法）：
+
+```bash
+./dist/windows/repack.sh releases/u6cht-1.5.1-windows-x86.7z      free  releases/u6cht-1.5.1a-windows-x86.7z
+./dist/windows/repack.sh releases/u6cht-1.5.1-FULL-windows-x86.7z full  releases/u6cht-1.5.1a-FULL-windows-x86.7z
+```
+
+**驗證**：
+1. `file <root>/run.bat` 必須含 `CRLF line terminators`；缺了就是回到舊雷。
+2. `wine cmd /c run.bat fakedir </dev/null` 應該乾淨走 ERROR 分支、`exit /b 1`、無 syntax error。
+3. 解壓另一目錄，wine 跑 `scummvm.exe ultima6` 期望看不到 `Game id not supported`。
+
+**踩過的雷（issue #2, 2026-06）**：Linux 工作環境寫的 `.bat` 預設 LF，**Windows CMD 跑 LF .bat 會 syntax error**，wine cmd 卻寬容地照跑 → 「我這邊 wine 可以」騙過了三個 release（v1.3→v1.5.1）。修法：(1) `.bat` source 集中在 `dist/windows/` 並用 `file` 確認 CRLF；(2) 別再 `>/dev/null`（Windows 是 `>nul`）；(3) 用 `repack.sh`，它會檢查 source 是 CRLF + repack 後再驗一次。對應 rule 82「Wine 跑得起來 ≠ Win10/11 cmd 跑得起來」。
 
 ---
 
