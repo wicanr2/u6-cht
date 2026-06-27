@@ -395,13 +395,12 @@ Origin 認真為魔像族設計了一套可組合的語言：
 | ![quiz](docs/screenshots/07_lb_quiz_correct.png) |
 | *Copy Protection 題目保留英文原文，附答案提示；LB 問候文字已中文化* |
 
-### 群組 C：Look 命令系統
+### 群組 C：Look 命令系統 + Portrait Gump
 
-| Look 地板 | Look 牆 | Look NPC |
+| Look 地板 | Look 牆 | Portrait Gump + 戰鬥訊息 |
 |---|---|---|
-| ![floor](docs/screenshots/01_look_floor.png) | ![wall](docs/screenshots/02_look_wall.png) | ![npc](docs/screenshots/03_look_carpet.png) |
-| *v2.0「察看 - 汝見地板」16×16 native* | *同上路徑、v2.0 字體質感* | *同 — Look ground 走 events.cpp lookAtCursor* |
-| *(三張統一示範 v2.0 16×16 字型；不同 ground tile 觸發 fragment 不同字串)* | | |
+| ![floor](docs/screenshots/01_look_floor.png) | ![wall](docs/screenshots/02_look_wall.png) | ![doll](docs/screenshots/03_look_carpet.png) |
+| *v2.0「**察看 - 汝見地板**」16×16 native；stderr: `CHT-LOOK ground: the floor`* | *v2.0「**察看 - 汝見一面牆**」16×16；stderr: `CHT-LOOK ground: a wall`* | *Iolo doll gump（裝備 / inventory）+「**跳過！**」combat fragment 中文化（戰鬥跳過回合）* |
 
 ### 群組 D：開場 Cinematic
 
