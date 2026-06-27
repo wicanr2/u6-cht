@@ -1,0 +1,148 @@
+name: macOS build (Ultima VI CHT v2.0 16×16)
+
+# Build u6-cht patched ScummVM on real macOS runners.
+#
+# Reference: ~/.claude/skills/retro-game-cht-package SKILL.md § macOS section.
+# ScummVM is autoconf (NOT CMake), so 「分弧 native + lipo」 三 job pattern:
+#   build (matrix):
+#     - macos-14         → arm64 native
+#     - macos-15-intel   → x86_64 native (macos-13 已退役、不可用)
+#   bundle (needs: build):
+#     download two binaries → lipo -create → arrange .app skeleton → upload
+#
+# Each arch self-compiles SDL2 + zlib native (--disable-shared --enable-static)
+# — DO NOT brew sdl2 (Homebrew 2026-06 swapped to sdl2-compat → dlopen libSDL3
+# → "Failed loading SDL3 library" runtime).
+#
+# IP-clean: this only checks out wicanr2/u6-cht + applies our patches +
+# bakes in cht_strings.tab + big5_u6_16x16.fnt. Origin's Ultima VI game data
+# is NOT in this build — user injects on their own copy via macos
+# package_macos_local.sh.
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/build-macos.yml'
+      - 'patches/scummvm-u6cht.patch'
+
+jobs:
+  build:
+    name: ${{ matrix.arch }}
+    runs-on: ${{ matrix.runner }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - arch: arm64
+            runner: macos-14
+          - arch: x86_64
+            runner: macos-15-intel    # macos-13 已退役 (queue ~1h); 用 macos-15-intel
+
+    steps:
+      - name: Checkout u6-cht
+        uses: actions/checkout@v4
+        with:
+          path: u6-cht
+
+      # Clone upstream ScummVM at the SHA matching patches/scummvm-u6cht.patch base.
+      # patch was generated against ScummVM main HEAD around 2026-05; pin SHA via
+      # patches/.SCUMMVM_SHA or HEAD if patch applies cleanly.
+      - name: Checkout ScummVM upstream
+        uses: actions/checkout@v4
+        with:
+          repository: scummvm/scummvm
+          path: scummvm
+          ref: master
+
+      - name: Apply u6-cht patches
+        run: |
+          cd scummvm
+          git apply ../u6-cht/patches/scummvm-u6cht.patch
+          echo '=== patched files ==='
+          git diff --stat HEAD
+
+      # Self-compile SDL2 + zlib for this arch (NOT brew sdl2 — see header).
+      - name: Build SDL2 native (${{ matrix.arch }})
+        run: |
+          cd $RUNNER_TEMP
+          curl -L https://github.com/libsdl-org/SDL/releases/download/release-2.28.5/SDL2-2.28.5.tar.gz | tar xz
+          cd SDL2-2.28.5
+          ./configure --prefix=$RUNNER_TEMP/sdl2-prefix --disable-shared --enable-static
+          make -j$(sysctl -n hw.ncpu) && make install
+
+      - name: Configure + build ScummVM (${{ matrix.arch }})
+        run: |
+          cd scummvm
+          ./configure \
+            --disable-flac --disable-mad --disable-vorbis --disable-ogg \
+            --disable-fluidsynth --disable-fribidi --disable-cloud --disable-tts \
+            --disable-bink --disable-all-engines --enable-engine=ultima,ultima6 \
+            --enable-lua --enable-release-mode \
+            --with-sdl-prefix=$RUNNER_TEMP/sdl2-prefix
+          make -j$(sysctl -n hw.ncpu)
+          file scummvm
+
+      - name: Upload arch binary
+        uses: actions/upload-artifact@v4
+        with:
+          name: scummvm-${{ matrix.arch }}
+          path: scummvm/scummvm
+
+  bundle:
+    name: lipo universal + .app
+    runs-on: macos-14
+    needs: build
+    steps:
+      - name: Checkout u6-cht
+        uses: actions/checkout@v4
+
+      - name: Download arm64 binary
+        uses: actions/download-artifact@v4
+        with:
+          name: scummvm-arm64
+          path: arm64
+
+      - name: Download x86_64 binary
+        uses: actions/download-artifact@v4
+        with:
+          name: scummvm-x86_64
+          path: x86_64
+
+      - name: lipo create universal
+        run: |
+          chmod +x arm64/scummvm x86_64/scummvm
+          lipo -create arm64/scummvm x86_64/scummvm -output scummvm-universal
+          lipo -info scummvm-universal
+
+      - name: Assemble .app skeleton
+        run: |
+          APP=Ultima\ VI\ CHT.app
+          mkdir -p "$APP/Contents/MacOS"
+          mkdir -p "$APP/Contents/Resources/u6cht-data"
+          mv scummvm-universal "$APP/Contents/MacOS/scummvm"
+          cp working/game/big5_u6_16x16.fnt "$APP/Contents/Resources/u6cht-data/"
+          cp working/game/cht_strings.tab    "$APP/Contents/Resources/u6cht-data/"
+          cat > "$APP/Contents/Info.plist" <<'PLIST'
+          <?xml version="1.0" encoding="UTF-8"?>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          <plist version="1.0">
+          <dict>
+            <key>CFBundleExecutable</key><string>scummvm</string>
+            <key>CFBundleIdentifier</key><string>org.wicanr2.u6-cht</string>
+            <key>CFBundleName</key><string>Ultima VI CHT v2.0</string>
+            <key>CFBundleVersion</key><string>2.0</string>
+            <key>LSMinimumSystemVersion</key><string>13.4</string>
+          </dict>
+          </plist>
+          PLIST
+
+      # Slim .app: package as tar.gz (zip breaks .app symlink/+x permissions).
+      - name: Tar .app
+        run: tar -czf u6cht-2.0-macos.tar.gz "Ultima VI CHT.app"
+
+      - name: Upload bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: u6cht-2.0-macos
+          path: u6cht-2.0-macos.tar.gz
