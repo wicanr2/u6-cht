@@ -404,10 +404,10 @@ Origin 認真為魔像族設計了一套可組合的語言：
 
 ### 群組 D：開場 Cinematic
 
-| 五載春秋 | 寒風漸起 | 雷光交響 |
+| 風暴已臨 | 寒風漸起 | 雷光交響 |
 |---|---|---|
 | ![intro1](docs/screenshots/11_intro_caption1.png) | ![intro2](docs/screenshots/12_intro_chill_wind.png) | ![intro3](docs/screenshots/13_intro_lightning.png) |
-| *「汝之世界已歷五載春秋，自汝凱旋歸自不列顛尼亞」— 1990 年代地球家，電視主播 + Avatar 海報* | *「屋外，寒風漸起⋯⋯」— 場景切換窗外夜景* | *「一聲雷光交響之間，一道熾烈藍火擊中大地！」— 真實閃電視覺* |
+| *「⋯⋯片刻間，風暴已臨。」— 從房中看窗外暴雨將至* | *「屋外，寒風漸起⋯⋯」— Avatar 從室內透過窗戶看 dark 夜景* | *「一聲雷光交響之間，一道熾烈藍火擊中大地！」— 真實閃電視覺* |
 
 > v1.3.1 完成全 27 個 intro cinematic Lua chunk 中文化，涵蓋開場至黑曜石石陣完整劇情。**v2.0 進一步把 intro 字幕也升 16×16 真實解析度 + 動態 line height 修舊版 vertical overlap** — 截圖見頂部 v2.0 預覽段 `intro_seg2_16x16_native.png`。
 
