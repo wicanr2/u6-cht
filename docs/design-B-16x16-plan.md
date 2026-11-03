@@ -143,7 +143,7 @@ B 不需要「成立前提」— 因為我們有 source、不夠就 fork。Phase
 - 開 `v2-16x16` branch 做 B
 - main 仍保留 v1.5.1 + opened/closed fix + intro longest-first sort
 - v2.0 ship 後 v1.5.x deprecated（但已下載者可繼續用）
-- 不 revert v1.5.2 已 commit work（commit b98ca29 / f052061 / 2028d63 / d80425d 全 keep）
+- 不 revert v1.5.2 已 commit work（commit 8ae5389 / 997c56d / 40fbed3 / 2163bd4 全 keep）
 
 ---
 

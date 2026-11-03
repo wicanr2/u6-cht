@@ -9,7 +9,7 @@
 - **v2.0 SHIPPED**：漢字 16×16 真實解析度（仿 PC-98 1991 PonyCanyon）
 - GitHub: https://github.com/wicanr2/u6-cht
 - Release: https://github.com/wicanr2/u6-cht/releases/tag/v2.0
-- main HEAD: `a922c70`、tag `v2.0` + `v2.0-rc1`
+- main HEAD: `7c897af`、tag `v2.0` + `v2.0-rc1`
 - Linux AppImage (123 MB) + Windows zip (93 MB) 已上 Release（slim、無遊戲檔）
 - Issues #1 + #2 closed
 
@@ -19,7 +19,7 @@
 
 ## 本次 session 做了什麼
 
-### v1.5.2 first wave (commits `d80425d` → `f052061`)
+### v1.5.2 first wave (commits `2163bd4` → `997c56d`)
 
 - `dist/windows/run-free.bat` + `repack.sh` CRLF source of truth（issue #2 fix）
 - `tools/build_lookup_table.py` source dir `dumps/translations/` → `translations/`（issue #1.1 opened!/closed! leak root cause）
@@ -27,7 +27,7 @@
 - `tools/fix_term_drift.py` 加 `_engine_*.json` 排除（issue #1.5）
 - 11 條 tile token 候選 fragment（issue #1.2）
 
-### v2.0 ship（branch `v2-16x16` merged → main `702b44d`）
+### v2.0 ship（branch `v2-16x16` merged → main `371b1ee`）
 
 **Phase 0 source survey** (`docs/phase0-findings.md`):
 - ScummVM Nuvie `Screen::init()` 從 config 讀 width/height，無上限
@@ -64,7 +64,7 @@
 - README v1.5 截圖全替換 v2.0 (10+ 張) + 圖文對位 (group C + D iter 2)
 - RELEASE_NOTES_v2.0.md + CHANGELOG.md v2.0 entry
 
-### v2.x caveat 1 真根治（commits `ea09a34` + `29a2e19`）
+### v2.x caveat 1 真根治（commits `5eb92ae` + `5d220f4`）
 
 intro 字疊 root cause：Lua `intro.lua` 4-chunk `image_print` 累積 *y = 8 + 4×14 = 64 px > cinematic box ~40 px。
 

@@ -17,7 +17,7 @@
 - `conv_garg_font`（魔像族）也載 16×16 atlas
 - WOUFont::drawBig5CharToShape — cutscene line spacing `*y += 8` 限制下 keep 12-row（caveat 2 partial，cutscene 16×16 留 v2.x patch）
 
-### Integrated from v1.5.2 first wave (commits d80425d / 2028d63 / f052061)
+### Integrated from v1.5.2 first wave (commits 2163bd4 / 40fbed3 / 997c56d)
 - opened!/closed! 容器訊息 leak fix（build source 切到 `translations/`）
 - intro 7 段退化 fix（`_engine_fragments.json` longest-first sort）
 - 11 條 tile token 候選 fragment

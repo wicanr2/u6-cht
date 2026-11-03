@@ -3,7 +3,7 @@
 **Release date**: 2026-06-27
 **Tag**: v2.0
 **Branch**: `v2-16x16`
-**Git commit**: 798f665（Phase 4 完成）
+**Git commit**: c6e1c3b（Phase 4 完成）
 
 ---
 

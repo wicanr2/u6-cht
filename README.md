@@ -56,7 +56,7 @@
 | ![intro-2a](docs/screenshots/v2/intro_seg2a_clean.png) | ![intro-2b](docs/screenshots/v2/intro_seg2b_clean.png) |
 | *「汝以聖者之凶險與歷險 / 換得此孤寂安寧之世。然」2 行 clean，零 overlap* | *「螢光中之超人，豈能替代並肩戰歿之友！」1 行 clean，零 overlap* |
 
-ASCII 玩家多按 1 次 Space，換得 CJK 字 100% clean — 對應 docs/phase4-caveats-fix.md caveat 1 真根治（commit `ea09a344`、`29a2e192`）。
+ASCII 玩家多按 1 次 Space，換得 CJK 字 100% clean — 對應 docs/phase4-caveats-fix.md caveat 1 真根治（commit `5eb92aeb`、`5d220f43`）。
 
 v2.0 完整 design + worklist 公開在 repo：[`docs/design-B-16x16-plan.md`](docs/design-B-16x16-plan.md)、
 [`docs/WORKLIST.md`](docs/WORKLIST.md)、

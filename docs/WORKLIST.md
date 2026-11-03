@@ -1,6 +1,6 @@
 # v2.0 / v2.x Worklist
 
-> **v2.0 SHIPPED 2026-06-27** — tag `v2.0` / commit `29a2e19` / [Release v2.0](https://github.com/wicanr2/u6-cht/releases/tag/v2.0)
+> **v2.0 SHIPPED 2026-06-27** — tag `v2.0` / commit `5d220f4` / [Release v2.0](https://github.com/wicanr2/u6-cht/releases/tag/v2.0)
 > 含 Linux AppImage (123 MB) + Windows zip (93 MB)。Issues #1 + #2 closed。
 >
 > v2.x backlog 跨機 ref 在下面 § v2.x。
@@ -29,7 +29,7 @@ build pipeline 跨機備用工具:
 
 ## v2.0 SHIPPED (reference — 完成內容)
 
-Branch: `v2-16x16` (merged 到 main commit `702b44d`)。
+Branch: `v2-16x16` (merged 到 main commit `371b1ee`)。
 Design doc: `docs/design-B-16x16-plan.md`。Phase 0 findings: `docs/phase0-findings.md`。
 規則：第一性原理拆解、老遊戲重製不考慮成本、不退方案 A。
 
@@ -148,7 +148,7 @@ Design doc: `docs/design-B-16x16-plan.md`。Phase 0 findings: `docs/phase0-findi
 
 ## 共存策略
 
-- `main` branch 凍結在 v1.5.1 + v1.5.2 first wave (commits d80425d / 2028d63 / f052061 / b98ca29 / 3772561)
+- `main` branch 凍結在 v1.5.1 + v1.5.2 first wave (commits 2163bd4 / 40fbed3 / 997c56d / 8ae5389 / 3772561)
 - `v2-16x16` branch 上做 Phase 1-5
 - v2.0 ship 後 merge 回 main、tag v2.0
 - v1.5.1 release 仍可下載（不撤回）
