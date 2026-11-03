@@ -1,4 +1,4 @@
-# 16×16 漢字 feasibility — 仿 PC-98 1990 路線
+# 16×16 漢字 feasibility — 仿 PC-98 1991 路線
 
 > 起源：使用者 finding（2026-06-27）「PC-98 版 U6 把 16×16 漢字塞進去而且畫面跟現在一樣」。
 > 核心觀念：**ScummVM 有 source 可改，重點是想法（能不能 fit + layout 怎麼樣），實作是手段**。
@@ -18,7 +18,7 @@
 | 字型來源 | NEC PC-9801 BIOS 內建 JIS X 0208 16×16 漢字 ROM（標準）| PC-98 平台慣例 |
 | 開發商 | Pony Canyon | mobygames |
 
-**翻譯**：PC-98 1990 年就用了「**320×200 game asset 直接 2× scale 到 640×400 + 漢字用 native 16×16 畫在放大後 framebuffer**」這招。30 年後我們的 retro-cjk-hires-canvas rule 重新發現同樣 pattern。
+**翻譯**：PC-98 1991 年就用了「**320×200 game asset 直接 2× scale 到 640×400 + 漢字用 native 16×16 畫在放大後 framebuffer**」這招。30 年後我們的 retro-cjk-hires-canvas rule 重新發現同樣 pattern。
 
 ### 1.2 我們現況（ScummVM Nuvie + u6-cht v1.5.x）
 
@@ -59,7 +59,7 @@
 
 ### 路線 B：scaled stage 16×16 真實解析度（PC-98 等效）
 
-字渲染推到 native 640×400 stage，game 邏輯仍 320×200 — **真正模仿 PC-98 1990 做法**。
+字渲染推到 native 640×400 stage，game 邏輯仍 320×200 — **真正模仿 PC-98 1991 做法**。
 
 | 影響 | 變化 |
 |---|---|
@@ -70,7 +70,7 @@
 | 字實際 dpi | **16px** 真實解析度（不被 framebuffer 限制）|
 | layout 改動 | 對話框 chrome 仍走 framebuffer pixel scale；字 overlay 在 chrome 之上、用 scaled 座標 |
 | 工程量 | **大**（需 ScummVM OSystem API 給 native surface write、要切兩層 render pipeline）|
-| 結果 | **跟 PC-98 1990 看起來一樣**：圖形 retro、字清楚 |
+| 結果 | **跟 PC-98 1991 看起來一樣**：圖形 retro、字清楚 |
 
 **白話**：完全照 PC-98 路線，但要動 ScummVM 框架。
 
@@ -112,7 +112,7 @@
 
 **ROI 試算**：
 - 路線 A：3-5 天工程，把 200+ NPC 譯文重 audit wrap、3 個 font hook 改 stride — 字清楚度大幅提升、玩家辨識率改善
-- 路線 B：1-2 週工程（含 ScummVM 框架探查），完全 1:1 仿 PC-98 1990 體驗
+- 路線 B：1-2 週工程（含 ScummVM 框架探查），完全 1:1 仿 PC-98 1991 體驗
 - 不修：0 工程，已 ship v1.5.1 可用
 
 要走哪條？
@@ -125,4 +125,4 @@
 - [Ultima VI: The False Prophet — Wikipedia](https://en.wikipedia.org/wiki/Ultima_VI:_The_False_Prophet)（背景）
 - [MobyGames PC-98 screenshots gallery](https://www.mobygames.com/game/pc98/ultima-vi-the-false-prophet/screenshots/)（實機畫面，需開瀏覽器看；本機 WebFetch 403）
 - [Hardcore Gaming 101 — NEC PC-98 vs Sharp X68000 vs FM TOWNS](https://hg101.proboards.com/thread/13641/nec-sharp-x68000-fujitsu-towns)（三平台對照）
-- 我的 global rule `~/.claude/rules/81-retro-cjk-hires-canvas.md`（拉高內部畫布 / pixel scaling + native CJK 16×16 — 30 年後重新發現 PC-98 1990 同一做法）
+- 我的 global rule `~/.claude/rules/81-retro-cjk-hires-canvas.md`（拉高內部畫布 / pixel scaling + native CJK 16×16 — 30 年後重新發現 PC-98 1991 同一做法）

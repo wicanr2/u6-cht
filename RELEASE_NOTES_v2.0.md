@@ -1,6 +1,6 @@
 # Ultima VI 繁體中文化 v2.0
 
-**Release date**: 2026-06-27（rc / 開發中）
+**Release date**: 2026-06-27
 **Tag**: v2.0
 **Branch**: `v2-16x16`
 **Git commit**: 798f665（Phase 4 完成）

@@ -104,7 +104,7 @@ P1 釐清後：Nuvie 沒有「framebuffer pixel scaled」這個層次概念 — 
 
 理由（按 [[feedback-retro-remake-no-cost-ceiling]] + global rule `81-retro-cjk-hires-canvas` 精神）：
 
-1. **B.1 是 PC-98 1990 真實做法的 1:1 映射** — PC-98 framebuffer 也是 320×200 game pixel 2× scale 寫到 640×400 hardware framebuffer + 漢字 16×16 直接寫 640×400。Nuvie 用 overlay layer 重現完全等效。
+1. **B.1 是 PC-98 1991 真實做法的 1:1 映射** — PC-98 framebuffer 也是 320×200 game pixel 2× scale 寫到 640×400 hardware framebuffer + 漢字 16×16 直接寫 640×400。Nuvie 用 overlay layer 重現完全等效。
 2. **動的檔少、面集中** — 主要動 `screen.cpp` + `font.h` + 3 font path drawString。tile / map_window / anim / chrome 都不動。
 3. **B.2 動所有 blit 是 horizontal sweep**，B.1 是 vertical isolate（局部深改）— 後者出 bug 範圍小、好 audit。
 4. **ScummVM overlay 機制 worst case 自加** — Nuvie 已用 `RenderSurface` abstraction，直接 `new RenderSurface(640, 400)` 當 overlay layer、compose 時 blend，不需動 ScummVM core。

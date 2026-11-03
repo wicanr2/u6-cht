@@ -1,6 +1,6 @@
 # Changelog
 
-## v2.0 (2026-06-27, rc / 開發中)
+## v2.0 (2026-06-27)
 
 ### Added — 16×16 真實解析度 CJK（仿 PC-98 1991）
 - **Screen 雙 surface 架構**：`_rawSurface 640×400 native` + `_gameSurface 320×200` + `_overlaySurface 640×400`。`performUpdate` 2× nearest scale + overlay compose。caller code 0 行改動。

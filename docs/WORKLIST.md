@@ -127,7 +127,7 @@ Design doc: `docs/design-B-16x16-plan.md`。Phase 0 findings: `docs/phase0-findi
 - [ ] **5.3 Windows zip v2.0**（slim + FULL）
   - 沿用 `dist/windows/run-free.bat` / `run-full.bat` CRLF source
   - 帶 `big5_u6_16x16.fnt` + 不帶 `big5_u6_12x12.fnt`（淘汰）
-- [ ] **5.4 README 加 v2.0 章節** — PC-98 1990 致敬、16×16 漢字真實解析度故事
+- [ ] **5.4 README 加 v2.0 章節** — PC-98 1991 致敬、16×16 漢字真實解析度故事
 - [ ] **5.5 RELEASE_NOTES_v2.0.md**
 - [ ] **5.6 CHANGELOG.md 加 v2.0 entry**
 - [ ] **5.7 git tag v2.0、push tag、merge `v2-16x16` → main**

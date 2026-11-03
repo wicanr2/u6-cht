@@ -1,4 +1,4 @@
-# B 計畫：16×16 漢字真實解析度（仿 PC-98 1990）— v2.0 path
+# B 計畫：16×16 漢字真實解析度（仿 PC-98 1991）— v2.0 path
 
 > 2026-06-27 user 拍板走 B（PC-98 1:1 真實 16×16 解析度），取消 v1.5.2 fix work 與所有實機 verify 預排任務。
 > 配套 `docs/design-16x16-feasibility.md`（idea 階段討論）、global rule `81-retro-cjk-hires-canvas`。
@@ -7,7 +7,7 @@
 
 ## 目標（一句話）
 
-跟 PC-98 1990 版 U6 一樣：**320×200 game asset 不重畫、純 2× scale**；**漢字用 native 16×16 真實解析度寫到 scaled stage**。
+跟 PC-98 1991 版 U6 一樣：**320×200 game asset 不重畫、純 2× scale**；**漢字用 native 16×16 真實解析度寫到 scaled stage**。
 結果視覺等同 PC-98 — 圖形 retro、字清楚、layout 不縮水。
 
 非目標：圖形重畫、加 high-res sprite、改 game logic。

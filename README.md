@@ -32,9 +32,9 @@
 
 ---
 
-### 🆕 v2.0 預覽 — 仿 PC-98 1990 的 16×16 漢字真實解析度
+### 🆕 v2.0 — 仿 PC-98 1991 的 16×16 漢字真實解析度
 
-正在開發中的 **v2.0**（branch [`v2-16x16`](https://github.com/wicanr2/u6-cht/tree/v2-16x16)）把漢字
+**[v2.0](https://github.com/wicanr2/u6-cht/releases/tag/v2.0)** 把漢字
 從 v1.x 的 12×12 點陣升級到 **16×16 真實解析度** — 不是把 12px 拉大，是字本身就是
 16-pixel detail，跟 1991 年 PC-98 版 *Ultima VI 〜偽りの預言者〜*（PonyCanyon）走的
 路線完全一樣：320×200 game asset 不重畫純 2× scale 到 640×400，漢字用 native 16×16
@@ -56,7 +56,7 @@
 | ![intro-2a](docs/screenshots/v2/intro_seg2a_clean.png) | ![intro-2b](docs/screenshots/v2/intro_seg2b_clean.png) |
 | *「汝以聖者之凶險與歷險 / 換得此孤寂安寧之世。然」2 行 clean，零 overlap* | *「螢光中之超人，豈能替代並肩戰歿之友！」1 行 clean，零 overlap* |
 
-ASCII 玩家多按 1 次 Space，換得 CJK 字 100% clean — 對應 docs/phase4-caveats-fix.md caveat 1 真根治（commit pending）。
+ASCII 玩家多按 1 次 Space，換得 CJK 字 100% clean — 對應 docs/phase4-caveats-fix.md caveat 1 真根治（commit `ea09a344`、`29a2e192`）。
 
 v2.0 完整 design + worklist 公開在 repo：[`docs/design-B-16x16-plan.md`](docs/design-B-16x16-plan.md)、
 [`docs/WORKLIST.md`](docs/WORKLIST.md)、
@@ -108,7 +108,7 @@ cp working/game/big5_u6_16x16.fnt  /path/to/ultima6/   # v2.0
 啟動後你會看到——
 
 ![lb-dialog](docs/screenshots/08_lb_dialog.png)
-*v1.5.x throne room — 隊員「杜普雷／夏米諾／尤洛」聖者之書譯名，介面與命令全中文化。圖中「杜」字在 12×12 點陣下「木」結構被擠成 5px 連續橫筆，朋友看成「壯」— 正是 v2.0 升 16×16 真實解析度要根治的問題（見頂部 v2.0 預覽段）。*
+*v1.5.x throne room — 隊員「杜普雷／夏米諾／尤洛」聖者之書譯名，介面與命令全中文化。圖中「杜」字在 12×12 點陣下「木」結構被擠成 5px 連續橫筆，朋友看成「壯」— 正是 v2.0 升 16×16 真實解析度要根治的問題（見頂部 v2.0 段）。*
 
 ---
 
@@ -418,7 +418,7 @@ Origin 認真為魔像族設計了一套可組合的語言：
 | ![intro1](docs/screenshots/11_intro_caption1.png) | ![intro2](docs/screenshots/12_intro_chill_wind.png) | ![intro3](docs/screenshots/13_intro_lightning.png) |
 | *「⋯⋯片刻間，風暴已臨。」— 從房中看窗外暴雨將至* | *「屋外，寒風漸起⋯⋯」— Avatar 從室內透過窗戶看 dark 夜景* | *「一聲雷光交響之間，一道熾烈藍火擊中大地！」— 真實閃電視覺* |
 
-> v1.3.1 完成全 27 個 intro cinematic Lua chunk 中文化，涵蓋開場至黑曜石石陣完整劇情。**v2.0 進一步把 intro 字幕也升 16×16 真實解析度 + 動態 line height 修舊版 vertical overlap** — 截圖見頂部 v2.0 預覽段 `intro_seg2_16x16_native.png`。
+> v1.3.1 完成全 27 個 intro cinematic Lua chunk 中文化，涵蓋開場至黑曜石石陣完整劇情。**v2.0 進一步把 intro 字幕也升 16×16 真實解析度 + 動態 line height 修舊版 vertical overlap** — 截圖見頂部 v2.0 段 `intro_seg2_16x16_native.png`。
 
 ### 群組 E：v1.5.1 隊伍譯名同步
 

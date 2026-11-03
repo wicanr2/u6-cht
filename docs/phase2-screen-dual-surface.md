@@ -27,7 +27,7 @@ ScummVM Nuvie `Screen` 內部從單 surface 改成「3 surface」分工：
 - **caller-facing API 不變** — Screen.width=320 / Screen.height=200 對外、所有現有 fill/blit caller 完全不動
 - **native 解析度真實 640×400** — Phase 3 字寫 _rawSurface direct 拿 16×16 真實解析度（不被 down-scale）
 - **ScummVM 上層 1:1** — 不再依賴 ScummVM scaler、Nuvie 內部完全掌控 pipeline
-- **PC-98 1990 真實映射** — 與當年 NEC PC-9801 BIOS 機制完全等效
+- **PC-98 1991 真實映射** — 與當年 NEC PC-9801 BIOS 機制完全等效
 
 ## 改動 surface
 
